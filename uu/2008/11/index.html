@@ -1,0 +1,349 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>CariHukum</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+  :root {
+    --ground: #F7F9F7;
+    --surface: #FFFFFF;
+    --surface-2: #EEF2EF;
+    --ink: #1D2522;
+    --ink-2: #56635D;
+    --line: #D8E0DA;
+    --accent: #0E5A46;
+    --accent-soft: #E3EEE9;
+    --gold: #8A6D22;
+    --gold-soft: #F3ECD9;
+    --red: #A33B2E;
+    --red-soft: #F6E6E2;
+    --amber: #8A5A16;
+    --amber-soft: #F7EDDC;
+    --ins: #0E5A46;
+    --ins-soft: #DFEDE6;
+    --shadow: 0 1px 2px rgba(29,37,34,.06), 0 4px 16px rgba(29,37,34,.05);
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #101613; --surface: #171F1B; --surface-2: #1E2823;
+      --ink: #E6ECE8; --ink-2: #9AA8A0; --line: #2A362F;
+      --accent: #5FB894; --accent-soft: #1B2E27;
+      --gold: #D2AE5C; --gold-soft: #2E2718;
+      --red: #E08A7C; --red-soft: #34201C;
+      --amber: #DBA95C; --amber-soft: #302716;
+      --ins: #5FB894; --ins-soft: #1B2E27;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.3);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #101613; --surface: #171F1B; --surface-2: #1E2823;
+    --ink: #E6ECE8; --ink-2: #9AA8A0; --line: #2A362F;
+    --accent: #5FB894; --accent-soft: #1B2E27;
+    --gold: #D2AE5C; --gold-soft: #2E2718;
+    --red: #E08A7C; --red-soft: #34201C;
+    --amber: #DBA95C; --amber-soft: #302716;
+    --ins: #5FB894; --ins-soft: #1B2E27;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.3);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px 80px; }
+
+  header.top { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 28px 0 8px; }
+  .wordmark { font-weight: 700; font-size: 1.35rem; letter-spacing: -.01em; }
+  .wordmark .cari { color: var(--accent); }
+  .tagline { color: var(--ink-2); font-size: .85rem; }
+  .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); }
+  .lang button { border: 0; background: transparent; color: var(--ink-2); font: 500 .8rem var(--sans); padding: 6px 14px; cursor: pointer; }
+  .lang button.on { background: var(--accent); color: var(--ground); }
+  .lang button:focus-visible, .tab:focus-visible, .chip:focus-visible, .histbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .notice { display: flex; gap: 10px; align-items: flex-start; background: var(--amber-soft); color: var(--amber); border: 1px solid color-mix(in srgb, var(--amber) 30%, transparent); border-radius: 10px; padding: 10px 14px; font-size: .8rem; margin: 14px 0 22px; }
+
+  nav.tabs { display: flex; gap: 8px; margin-bottom: 6px; }
+  .tab { border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); border-radius: 10px 10px 0 0; border-bottom: 0; padding: 10px 16px 12px; font: 600 .9rem var(--sans); cursor: pointer; }
+  .tab.on { color: var(--ink); background: var(--ground); position: relative; }
+  .tab.on::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: var(--accent); border-radius: 2px; }
+
+  .meta { border-top: 1px solid var(--line); padding: 18px 0 4px; }
+  h1.judul { font: 600 1.5rem/1.25 var(--serif); margin: 0 0 4px; text-wrap: balance; }
+  .subjudul { color: var(--ink-2); font-size: .85rem; }
+  .subjudul .mono { font-family: var(--mono); font-size: .78rem; }
+
+  .timeline { margin: 22px 0 6px; }
+  .timeline .label { font: 500 .7rem var(--sans); text-transform: uppercase; letter-spacing: .09em; color: var(--ink-2); margin-bottom: 10px; }
+  .chips { display: flex; gap: 0; overflow-x: auto; padding-bottom: 8px; }
+  .chipwrap { display: flex; align-items: center; }
+  .chipwrap + .chipwrap::before { content: ""; width: 26px; height: 2px; background: var(--line); flex: none; }
+  .chip { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 8px 12px; text-align: left; cursor: pointer; box-shadow: var(--shadow); min-width: 130px; }
+  .chip .tgl { font: 500 .72rem var(--mono); color: var(--ink-2); }
+  .chip .nm { font: 600 .8rem var(--sans); color: var(--ink); margin-top: 2px; }
+  .chip .ops { font-size: .72rem; color: var(--ink-2); margin-top: 2px; }
+  .chip.on { border-color: var(--accent); background: var(--accent-soft); }
+  .chip.on .nm { color: var(--accent); }
+  .chip.warn .ops { color: var(--amber); font-weight: 600; }
+  .asof { font-size: .8rem; color: var(--ink-2); margin: 4px 0 0; }
+  .asof strong { color: var(--accent); }
+
+  .pending { background: var(--amber-soft); border: 1px solid color-mix(in srgb, var(--amber) 30%, transparent); color: var(--amber); border-radius: 10px; padding: 10px 14px; font-size: .8rem; margin: 14px 0; }
+
+  .bab { margin-top: 34px; }
+  .bab-kepala { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; border-bottom: 2px solid var(--accent); padding-bottom: 6px; }
+  .bab-nomor { font: 500 .72rem var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: .08em; }
+  .bab-judul { font: 600 1.02rem var(--sans); letter-spacing: .02em; }
+
+  .pasal { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); margin-top: 16px; padding: 18px 20px; }
+  .pasal-kepala { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+  .pasal-nomor { font: 600 1rem var(--serif); }
+  .badge { font: 600 .68rem var(--sans); letter-spacing: .02em; border-radius: 999px; padding: 2px 9px; }
+  .badge.ubah { background: var(--gold-soft); color: var(--gold); }
+  .badge.baru { background: var(--ins-soft); color: var(--ins); }
+  .badge.cabut { background: var(--red-soft); color: var(--red); }
+  .badge.draf { background: var(--surface-2); color: var(--ink-2); font-weight: 500; }
+  .histbtn { margin-left: auto; border: 1px solid var(--line); background: transparent; color: var(--ink-2); font: 500 .72rem var(--sans); border-radius: 999px; padding: 3px 11px; cursor: pointer; }
+  .histbtn:hover { color: var(--accent); border-color: var(--accent); }
+
+  .ayat { display: grid; grid-template-columns: 2.6em 1fr; gap: 4px 8px; padding: 5px 0; }
+  .ayat .no { font: 400 .95rem var(--serif); color: var(--ink-2); }
+  .teks { font: 400 1.02rem/1.68 var(--serif); max-width: 66ch; }
+  .teks.en { font-style: normal; }
+  .tunggal .teks { margin: 2px 0; }
+  .ayat-badges { grid-column: 2; display: flex; gap: 6px; }
+  .en-tag { font: 500 .65rem var(--sans); color: var(--ink-2); background: var(--surface-2); border-radius: 999px; padding: 1px 8px; vertical-align: 2px; margin-left: 6px; white-space: nowrap; }
+
+  .riwayat { border-top: 1px dashed var(--line); margin-top: 12px; padding-top: 10px; display: none; }
+  .riwayat.open { display: block; }
+  .riwayat h4 { margin: 0 0 8px; font: 600 .72rem var(--sans); text-transform: uppercase; letter-spacing: .09em; color: var(--ink-2); }
+  .versi { background: var(--surface-2); border-radius: 8px; padding: 10px 14px; margin-bottom: 8px; }
+  .versi .label { font: 500 .72rem var(--mono); color: var(--ink-2); margin-bottom: 4px; }
+  .versi .teks { font-size: .95rem; }
+  .versi del { background: var(--red-soft); color: var(--red); text-decoration: line-through; text-decoration-thickness: 1px; border-radius: 3px; padding: 0 2px; }
+  .versi ins { background: var(--ins-soft); color: var(--ins); text-decoration: none; border-radius: 3px; padding: 0 2px; }
+
+  footer { margin-top: 48px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--ink-2); font-size: .78rem; }
+  footer a { color: var(--accent); }
+  @media (prefers-reduced-motion: no-preference) {
+    .chip, .histbtn { transition: border-color .15s, background .15s; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="wordmark"><span class="cari">Cari</span>Hukum</div>
+      <div class="tagline">Versi berlaku, riwayat perubahan, dan terjemahan — bukan naskah resmi</div><a href="/" style="font-size:.8rem;color:var(--accent)">← Semua peraturan</a>
+    </div>
+    <div class="lang" role="group" aria-label="Bahasa teks peraturan">
+      <button id="lang-id" class="on">Indonesia</button>
+      <button id="lang-en">English</button>
+    </div>
+  </header>
+
+  <div class="notice">⚠ <span><strong>Bukan naskah resmi.</strong> Teks telah diverifikasi terhadap PDF resmi (Lembaran Negara / MKRI / Setjen MPR), tetapi versi konsolidasi ini dihitung mesin dan bukan naskah otentik — untuk keperluan hukum, selalu rujuk PDF resmi. Terjemahan Inggris tidak resmi.</span></div>
+
+  <nav class="tabs" id="tabs"></nav>
+  <section class="meta" id="meta"></section>
+  <section class="timeline">
+    <div class="label">Linimasa peristiwa — klik untuk melihat teks yang berlaku pada masa itu</div>
+    <div class="chips" id="chips"></div>
+    <p class="asof" id="asof"></p>
+  </section>
+  <div id="pending"></div>
+  <main id="isi"></main>
+
+  <footer>
+    Sumber metadata &amp; relasi: peraturan.bpk.go.id · jdihn.go.id. Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014); versi konsolidasi ini dihitung mesin CariHukum dan bukan naskah otentik.
+  </footer>
+</div>
+
+<script>
+const DATA = {"_nama":{"uu-2008-11":"UU ITE 11/2008","uu-2011-12":"UU 12/2011","uu-2016-19":"UU 19/2016","uu-2023-1":"KUHP (UU 1/2023)","uu-2024-1":"UU 1/2024","uud-1945":"UUD 1945","uud-1945-perubahan-1":"Perubahan I","uud-1945-perubahan-2":"Perubahan II","uud-1945-perubahan-3":"Perubahan III","uud-1945-perubahan-4":"Perubahan IV"},"_urut":["uu-2008-11"],"uu-2008-11":{"metadata":{"id":"uu-2008-11","jenis":"uu","nomor":"11","tahun":2008,"judul":"Informasi dan Transaksi Elektronik","judul_en":"Electronic Information and Transactions","teu":"Indonesia. Pemerintah Pusat","tempat_penetapan":"Jakarta","tanggal_penetapan":"2008-04-21","tanggal_pengundangan":"2008-04-21","tanggal_berlaku":"2008-04-21","sumber":{"ln":"2008/58","tln":"4843"},"status":"diubah","bidang_hukum":["pidana","administrasi-negara"],"subjek":["Telekomunikasi","Informatika","Siber","Internet"],"bahasa":"id","lokasi":"Pemerintah Pusat","sumber_data":[{"situs":"peraturan.bpk.go.id","url":"https://peraturan.bpk.go.id/Details/37582/uu-no-11-tahun-2008","diakses":"2026-08-31"}],"cakupan_pilot":"sebagian","catatan_kurasi":"PILOT: hanya Pasal 27, 28 (Bab VII) dan Pasal 45 (Bab XI). Teks berstatus 'draf' sampai diverifikasi terhadap PDF LN resmi.","judul_pendek":"UU ITE 11/2008"},"dokumen":{"karya":"uu-2008-11","unit":[{"id":"bab-7","tipe":"bab","nomor":"VII","judul":"PERBUATAN YANG DILARANG","judul_en":"PROHIBITED ACTS","anak":[{"id":"pasal-27","tipe":"pasal","nomor":"27","anak":[{"id":"pasal-27/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan.","verifikasi":"pdf-resmi"},{"id":"pasal-27/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian.","verifikasi":"pdf-resmi"},{"id":"pasal-27/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan penghinaan dan/atau pencemaran nama baik.","teks_en":"Any Person who intentionally and without authority distributes and/or transmits and/or makes accessible Electronic Information and/or Electronic Documents containing insults and/or defamation.","verifikasi":"pdf-resmi"},{"id":"pasal-27/ayat-4","tipe":"ayat","nomor":"(4)","teks":"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan pemerasan dan/atau pengancaman.","verifikasi":"pdf-resmi"}]},{"id":"pasal-28","tipe":"pasal","nomor":"28","anak":[{"id":"pasal-28/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Setiap Orang dengan sengaja dan tanpa hak menyebarkan berita bohong dan menyesatkan yang mengakibatkan kerugian konsumen dalam Transaksi Elektronik.","verifikasi":"pdf-resmi"},{"id":"pasal-28/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Setiap Orang dengan sengaja dan tanpa hak menyebarkan informasi yang ditujukan untuk menimbulkan rasa kebencian atau permusuhan individu dan/atau kelompok masyarakat tertentu berdasarkan atas suku, agama, ras, dan antargolongan (SARA).","verifikasi":"pdf-resmi"}]}]},{"id":"bab-11","tipe":"bab","nomor":"XI","judul":"KETENTUAN PIDANA","judul_en":"CRIMINAL PROVISIONS","anak":[{"id":"pasal-45","tipe":"pasal","nomor":"45","anak":[{"id":"pasal-45/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 27 ayat (1), ayat (2), ayat (3), atau ayat (4) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).","verifikasi":"pdf-resmi"},{"id":"pasal-45/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 28 ayat (1) atau ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).","verifikasi":"pdf-resmi"},{"id":"pasal-45/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 29 dipidana dengan pidana penjara paling lama 12 (dua belas) tahun dan/atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).","verifikasi":"pdf-resmi"}]}]}]},"peristiwa":[{"id":"uu-2016-19/amandemen-uu-2008-11","tipe":"perubahan","target":"uu-2008-11","tanggal_berlaku":"2016-11-25","operasi":[{"op":"replace","unit":"pasal-45","dengan":{"id":"pasal-45","tipe":"pasal","nomor":"45","anak":[{"id":"pasal-45/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan sebagaimana dimaksud dalam Pasal 27 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).","verifikasi":"pdf-ocr"},{"id":"pasal-45/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian sebagaimana dimaksud dalam Pasal 27 ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).","verifikasi":"pdf-ocr"},{"id":"pasal-45/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan penghinaan dan/atau pencemaran nama baik sebagaimana dimaksud dalam Pasal 27 ayat (3) dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).","teks_en":"Any Person who intentionally and without authority distributes and/or transmits and/or makes accessible Electronic Information and/or Electronic Documents containing insults and/or defamation as referred to in Article 27 paragraph (3) shall be punished with imprisonment of up to 4 (four) years and/or a fine of up to IDR 750,000,000.","verifikasi":"pdf-resmi"},{"id":"pasal-45/ayat-4","tipe":"ayat","nomor":"(4)","teks":"Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan pemerasan dan/atau pengancaman sebagaimana dimaksud dalam Pasal 27 ayat (4) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).","verifikasi":"pdf-resmi"},{"id":"pasal-45/ayat-5","tipe":"ayat","nomor":"(5)","teks":"Ketentuan sebagaimana dimaksud pada ayat (3) merupakan delik aduan.","verifikasi":"pdf-resmi"}]}},{"op":"insert_after","acuan":"pasal-45","unit":{"id":"pasal-45a","tipe":"pasal","nomor":"45A","anak":[{"id":"pasal-45a/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Setiap Orang yang dengan sengaja dan tanpa hak menyebarkan berita bohong dan menyesatkan yang mengakibatkan kerugian konsumen dalam Transaksi Elektronik sebagaimana dimaksud dalam Pasal 28 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).","verifikasi":"pdf-resmi"},{"id":"pasal-45a/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Setiap Orang yang dengan sengaja dan tanpa hak menyebarkan informasi yang ditujukan untuk menimbulkan rasa kebencian atau permusuhan individu dan/atau kelompok masyarakat tertentu berdasarkan atas suku, agama, ras, dan antargolongan (SARA) sebagaimana dimaksud dalam Pasal 28 ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).","verifikasi":"pdf-ocr"}]}},{"op":"insert_after","acuan":"pasal-45a","unit":{"id":"pasal-45b","tipe":"pasal","nomor":"45B","teks":"Setiap Orang yang dengan sengaja dan tanpa hak mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik yang berisi ancaman kekerasan atau menakut-nakuti yang ditujukan secara pribadi sebagaimana dimaksud dalam Pasal 29 dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).","verifikasi":"pdf-resmi"}}],"operasi_belum_dienkode":["pasal-1","pasal-26","pasal-31","pasal-40","pasal-43","penjelasan-pasal-27-ayat-3"],"status_kurasi":"draf","pelaku":"uu-2016-19","judul_pelaku":"Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik"},{"id":"uu-2024-1/amandemen-uu-2008-11","tipe":"perubahan","target":"uu-2008-11","tanggal_berlaku":"2024-01-02","operasi":[{"op":"replace","unit":"pasal-27","dengan":{"id":"pasal-27","tipe":"pasal","nomor":"27","anak":[{"id":"pasal-27/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Setiap Orang dengan sengaja dan tanpa hak menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan untuk diketahui umum.","verifikasi":"pdf-resmi"},{"id":"pasal-27/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian.","verifikasi":"pdf-resmi"}]},"catatan":"Muatan penghinaan/pencemaran (ayat 3 lama) dan pemerasan/pengancaman (ayat 4 lama) dipindah menjadi Pasal 27A dan 27B."},{"op":"insert_after","acuan":"pasal-27","unit":{"id":"pasal-27a","tipe":"pasal","nomor":"27A","teks":"Setiap Orang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum dalam bentuk Informasi Elektronik dan/atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik.","teks_en":"Any Person who intentionally attacks the honour or reputation of another person by alleging a certain matter, with the intent that it become publicly known, in the form of Electronic Information and/or Electronic Documents through an Electronic System.","verifikasi":"pdf-resmi"}},{"op":"insert_after","acuan":"pasal-27a","unit":{"id":"pasal-27b","tipe":"pasal","nomor":"27B","anak":[{"id":"pasal-27b/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, memaksa orang dengan ancaman kekerasan untuk:","verifikasi":"pdf-resmi","anak":[{"id":"pasal-27b/ayat-1/huruf-a","tipe":"huruf","nomor":"a.","teks":"memberikan suatu barang, yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau","verifikasi":"pdf-resmi"},{"id":"pasal-27b/ayat-1/huruf-b","tipe":"huruf","nomor":"b.","teks":"memberi utang, membuat pengakuan utang, atau menghapuskan piutang.","verifikasi":"pdf-resmi"}]},{"id":"pasal-27b/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, dengan ancaman pencemaran atau dengan ancaman akan membuka rahasia, memaksa orang supaya:","verifikasi":"pdf-ocr","anak":[{"id":"pasal-27b/ayat-2/huruf-a","tipe":"huruf","nomor":"a.","teks":"memberikan suatu barang yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau","verifikasi":"pdf-resmi"},{"id":"pasal-27b/ayat-2/huruf-b","tipe":"huruf","nomor":"b.","teks":"memberi utang, membuat pengakuan utang, atau menghapuskan piutang.","verifikasi":"pdf-resmi"}]}]}}],"operasi_belum_dienkode":["pasal-13","pasal-16","pasal-16a","pasal-16b","pasal-17","pasal-28","pasal-29","pasal-36","pasal-37","pasal-40a","pasal-43","pasal-45","pasal-45a","pasal-45b"],"status_kurasi":"draf","pelaku":"uu-2024-1","judul_pelaku":"Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik"},{"id":"uu-2023-1/pencabutan-sebagian-uu-2008-11","tipe":"pencabutan-sebagian","target":"uu-2008-11","tanggal_berlaku":"2026-01-02","operasi":[],"status_kurasi":"belum-dienkode","catatan":"Pasal 622 ayat (1) KUHP mencabut sejumlah ketentuan UU ITE saat KUHP mulai berlaku (2 Januari 2026). Metadata BPK mencatat 12 ketentuan terdampak. Daftar pasti pasal yang dicabut dan interaksinya dengan restrukturisasi oleh UU 1/2024 (mis. nasib Pasal 27A vs pasal penghinaan KUHP) WAJIB diverifikasi dari PDF LN resmi sebelum operasi dienkode. Mesin konsolidasi menampilkan peristiwa ini sebagai peringatan di timeline tanpa mengubah teks.","pelaku":"uu-2023-1","judul_pelaku":"Kitab Undang-Undang Hukum Pidana"}]}};
+
+const state = { work: (DATA._urut || Object.keys(DATA).filter(k => !k.startsWith("_")))[0], asOf: null, lang: "id", open: {} };
+
+const fmtTgl = (s) => { const [y,m,d] = s.split("-"); const bln = ["","Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"]; return `${+d} ${bln[+m]} ${y}`; };
+const clone = (x) => JSON.parse(JSON.stringify(x));
+
+function cari(arr, id) {
+  for (let i = 0; i < arr.length; i++) {
+    const n = arr[i];
+    if (n.id === id) return { node: n, induk: arr, idx: i };
+    if (n.anak) { const r = cari(n.anak, id); if (r) return r; }
+  }
+  return null;
+}
+function snapshot(n) { const s = clone(n); const strip = (x) => { delete x.riwayat; (x.anak||[]).forEach(strip); }; strip(s); return s; }
+
+function konsolidasi(workId, asOf) {
+  const w = DATA[workId];
+  const pohon = clone(w.dokumen.unit);
+  const tandai = (n, src, tgl) => { n.sumber = src; n.mulai = tgl; (n.anak||[]).forEach(a => tandai(a, src, tgl)); };
+  pohon.forEach(u => tandai(u, workId, w.metadata.tanggal_berlaku));
+  const pending = [];
+  for (const ev of w.peristiwa) {
+    if (asOf && ev.tanggal_berlaku > asOf) continue;
+    if (!ev.operasi.length) { pending.push(ev); continue; }
+    for (const op of ev.operasi) {
+      if (op.op === "replace") {
+        const t = cari(pohon, op.unit);
+        const baru = clone(op.dengan);
+        baru.riwayat = [...(t.node.riwayat||[]), { aksi: "diganti", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku, sebelum: snapshot(t.node) }];
+        tandai(baru, ev.pelaku, ev.tanggal_berlaku);
+        t.induk[t.idx] = baru;
+      } else if (op.op === "insert_after" || op.op === "insert_bab_after") {
+        const t = cari(pohon, op.acuan);
+        const baru = clone(op.unit);
+        baru.riwayat = [{ aksi: "disisipkan", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku }];
+        tandai(baru, ev.pelaku, ev.tanggal_berlaku);
+        t.induk.splice(t.idx + 1, 0, baru);
+      } else if (op.op === "repeal") {
+        const t = cari(pohon, op.unit);
+        t.node.status = "dicabut";
+        (t.node.riwayat ||= []).push({ aksi: "dicabut", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku });
+      }
+    }
+  }
+  return { pohon, pending };
+}
+
+// diff kata sederhana (LCS) untuk panel riwayat
+function diffKata(a, b) {
+  const A = (a||"").split(/\s+/), B = (b||"").split(/\s+/);
+  if (A.length * B.length > 40000) return null;
+  const L = Array.from({length: A.length+1}, () => new Array(B.length+1).fill(0));
+  for (let i = A.length-1; i >= 0; i--) for (let j = B.length-1; j >= 0; j--)
+    L[i][j] = A[i] === B[j] ? L[i+1][j+1] + 1 : Math.max(L[i+1][j], L[i][j+1]);
+  const del = [], ins = []; let i = 0, j = 0;
+  while (i < A.length && j < B.length) {
+    if (A[i] === B[j]) { del.push([A[i],0]); ins.push([B[j],0]); i++; j++; }
+    else if (L[i+1][j] >= L[i][j+1]) { del.push([A[i],1]); i++; }
+    else { ins.push([B[j],1]); j++; }
+  }
+  while (i < A.length) del.push([A[i++],1]);
+  while (j < B.length) ins.push([B[j++],1]);
+  const render = (toks, tag) => toks.map(([w,d]) => d ? `<${tag}>${esc(w)}</${tag}>` : esc(w)).join(" ");
+  return { lama: render(del, "del"), baru: render(ins, "ins") };
+}
+const esc = (s) => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// ---------- render ----------
+function teksUnit(u) {
+  const en = state.lang === "en";
+  if (en && u.teks_en) return { html: esc(u.teks_en), tag: '<span class="en-tag">EN · tidak resmi</span>' };
+  if (en && u.teks) return { html: esc(u.teks), tag: '<span class="en-tag">belum diterjemahkan</span>' };
+  return { html: esc(u.teks), tag: "" };
+}
+function badgeUnit(u, workId) {
+  const b = [];
+  if (u.status === "dicabut") b.push('<span class="badge cabut">Dicabut</span>');
+  const r = u.riwayat || [];
+  if (r.length) {
+    const last = r[r.length-1];
+    if (last.aksi === "disisipkan") b.push(`<span class="badge baru">Baru · ${esc(nmPelaku(last.pelaku))} (${last.tanggal.slice(0,4)})</span>`);
+    else if (last.aksi === "diganti") b.push(`<span class="badge ubah">Diubah · ${esc(nmPelaku(last.pelaku))} (${last.tanggal.slice(0,4)})</span>`);
+  }
+  return b.join(" ");
+}
+const nmPelaku = (id) => DATA._nama[id] || id;
+
+function riwayatHTML(u) {
+  const r = (u.riwayat||[]).filter(x => x.aksi === "diganti");
+  if (!r.length) return "";
+  let html = "<h4>Riwayat versi</h4>";
+  const teksDari = (snap) => snap.teks || (snap.anak||[]).map(a => `${a.nomor} ${a.teks||""}`).join(" ");
+  for (let i = 0; i < r.length; i++) {
+    const lama = teksDari(r[i].sebelum);
+    const baruSnap = i + 1 < r.length ? teksDari(r[i+1].sebelum) : teksDari(snapshot(u));
+    const d = diffKata(lama, baruSnap);
+    html += `<div class="versi"><div class="label">Berlaku s.d. ${fmtTgl(r[i].tanggal)} — diganti oleh ${esc(r[i].judul)}</div><div class="teks">${d ? d.lama : esc(lama)}</div></div>`;
+    if (i === r.length - 1)
+      html += `<div class="versi"><div class="label">Berlaku sejak ${fmtTgl(r[i].tanggal)} — versi saat ini dalam tampilan</div><div class="teks">${d ? d.baru : esc(baruSnap)}</div></div>`;
+  }
+  return html;
+}
+
+function unitHTML(u, workId) {
+  if (u.tipe === "bab") {
+    const inner = (u.anak||[]).map(a => unitHTML(a, workId)).join("");
+    const judul = state.lang === "en" && u.judul_en ? u.judul_en : u.judul;
+    return `<section class="bab"><div class="bab-kepala"><span class="bab-nomor">Bab ${esc(u.nomor)}</span><span class="bab-judul">${esc(judul)}</span> ${badgeUnit(u, workId)}</div>${inner}</section>`;
+  }
+  if (u.tipe === "pasal") {
+    const punyaRiwayat = (u.riwayat||[]).some(x => x.aksi === "diganti") || (u.anak||[]).some(a => (a.riwayat||[]).some(x => x.aksi === "diganti"));
+    const key = u.id;
+    let body;
+    if (u.anak) {
+      body = u.anak.map(a => {
+        const t = teksUnit(a);
+        const huruf = (a.anak || []).map(h => {
+          const th = teksUnit(h);
+          return `<div class="ayat" style="grid-column:2"><span class="no">${esc(h.nomor)}</span><span class="teks">${th.html}${th.tag}</span></div>`;
+        }).join("");
+        return `<div class="ayat"><span class="no">${esc(a.nomor)}</span><span class="teks">${t.html}${t.tag}</span>${huruf}<span class="ayat-badges">${badgeUnit(a, workId)}</span></div>`;
+      }).join("");
+    } else {
+      const t = teksUnit(u);
+      body = `<div class="tunggal"><p class="teks">${t.html}${t.tag}</p></div>`;
+    }
+    let hist = "";
+    if (punyaRiwayat) {
+      const semua = [riwayatHTML(u), ...(u.anak||[]).map(a => {
+        const h = riwayatHTML(a);
+        return h ? `<div style="margin-top:6px"><div class="label" style="font:500 .72rem var(--mono);color:var(--ink-2)">Ayat ${esc(a.nomor)}</div>${h.replace("<h4>Riwayat versi</h4>","")}</div>` : "";
+      })].join("");
+      hist = `<div class="riwayat ${state.open[key] ? "open" : ""}" id="riw-${key.replace(/[^a-z0-9]/gi,"_")}">${semua}</div>`;
+    }
+    return `<article class="pasal"><div class="pasal-kepala"><span class="pasal-nomor">Pasal ${esc(u.nomor)}</span>${badgeUnit(u, workId)}${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</div>${body}${hist}</article>`;
+  }
+  return "";
+}
+
+function render() {
+  const w = DATA[state.work];
+  // tabs
+  const daftarTab = DATA._urut || Object.keys(DATA).filter(k => !k.startsWith("_"));
+  document.getElementById("tabs").innerHTML = daftarTab.length < 2 ? "" : daftarTab.map(id =>
+    `<button class="tab ${id === state.work ? "on" : ""}" data-tab="${id}">${esc(DATA[id].metadata.judul_pendek)}</button>`).join("");
+  // meta
+  const m = w.metadata;
+  const judul = state.lang === "en" && m.judul_en ? m.judul_en : m.judul;
+  const sumber = m.sumber && m.sumber.ln ? ` · <span class="mono">LN ${m.sumber.ln}${m.sumber.tln ? " / TLN " + m.sumber.tln : ""}</span>` : "";
+  document.getElementById("meta").innerHTML = `<h1 class="judul">${esc(judul)}</h1><div class="subjudul">Diundangkan <span class="mono">${fmtTgl(m.tanggal_berlaku)}</span>${sumber} · ${esc((m.subjek||[]).join(", "))}</div>`;
+  // timeline
+  const evs = [{ tanggal: m.tanggal_berlaku, judul_pelaku: "Naskah asli diundangkan", nol: false, awal: true }, ...w.peristiwa];
+  document.getElementById("chips").innerHTML = evs.map((ev, i) => {
+    const tgl = ev.tanggal || ev.tanggal_berlaku;
+    const on = state.asOf === null ? i === evs.length - 1 : (tgl <= state.asOf && (i === evs.length - 1 || (evs[i+1].tanggal_berlaku || "") > state.asOf));
+    const warn = !ev.awal && !ev.operasi.length;
+    const ops = ev.awal ? "initial commit" : warn ? "⚠ belum dienkode" : `${ev.operasi.length} operasi (pilot)`;
+    return `<span class="chipwrap"><button class="chip ${on ? "on" : ""} ${warn ? "warn" : ""}" data-asof="${tgl}"><span class="tgl">${fmtTgl(tgl)}</span><br><span class="nm">${esc(ev.awal ? "Pengundangan" : DATA._nama[ev.pelaku])}</span><br><span class="ops">${ops}</span></button></span>`;
+  }).join("");
+  const terkini = state.asOf === null || state.asOf >= (evs[evs.length-1].tanggal_berlaku || evs[evs.length-1].tanggal);
+  document.getElementById("asof").innerHTML = terkini
+    ? `Menampilkan <strong>versi berlaku terkini</strong> — hasil konsolidasi seluruh peristiwa.`
+    : `Menampilkan teks sebagaimana berlaku pada <strong>${fmtTgl(state.asOf)}</strong>. Klik peristiwa terakhir untuk kembali ke versi terkini.`;
+  // isi
+  const { pohon, pending } = konsolidasi(state.work, state.asOf);
+  document.getElementById("pending").innerHTML = pending.map(ev =>
+    `<div class="pending">⚠ <strong>${esc(DATA._nama[ev.pelaku])}</strong> (${ev.tipe.replace(/-/g," ")}, berlaku ${fmtTgl(ev.tanggal_berlaku)}) sudah berlaku tetapi operasinya <strong>belum dienkode</strong> — teks di bawah belum mencerminkannya. ${esc(ev.catatan || "")}</div>`).join("");
+  document.getElementById("isi").innerHTML = pohon.map(u => unitHTML(u, state.work)).join("");
+}
+
+document.addEventListener("click", (e) => {
+  const tab = e.target.closest("[data-tab]");
+  if (tab) { state.work = tab.dataset.tab; state.asOf = null; state.open = {}; render(); return; }
+  const chip = e.target.closest("[data-asof]");
+  if (chip) { state.asOf = chip.dataset.asof; render(); return; }
+  const riw = e.target.closest("[data-riw]");
+  if (riw) { state.open[riw.dataset.riw] = !state.open[riw.dataset.riw]; render(); return; }
+});
+document.getElementById("lang-id").addEventListener("click", () => { state.lang = "id"; sync(); });
+document.getElementById("lang-en").addEventListener("click", () => { state.lang = "en"; sync(); });
+function sync() {
+  document.getElementById("lang-id").classList.toggle("on", state.lang === "id");
+  document.getElementById("lang-en").classList.toggle("on", state.lang === "en");
+  render();
+}
+render();
+</script>
+</html>
