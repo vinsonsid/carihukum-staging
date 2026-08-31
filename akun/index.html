@@ -51,9 +51,6 @@
   <a class="wordmark" href="/"><span class="cari">Cari</span>Hukum</a>
   <div class="sub">Satu akun untuk menandai pasal, menyimpan riwayat baca, dan (kelak) menerima peringatan perubahan peraturan.</div>
   
-  <div class="notice">Autentikasi <strong>belum diaktifkan</strong> di lingkungan staging ini.
-  Pemilik situs perlu mengisi <code>config/auth.json</code> — lihat panduan
-  <em>docs/07-autentikasi.md</em>. Tampilan di bawah adalah pratinjau alurnya.</div>
   <div class="kartu">
     <div id="form-auth">
       <div class="mode" role="tablist">
@@ -81,7 +78,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script>
 (function () {
-  var AKTIF = false;
+  var AKTIF = true;
   var mode = "masuk";
   var $ = function (id) { return document.getElementById(id); };
   function pesan(teks, jenis) { var p = $("pesan"); p.textContent = teks; p.className = "pesan " + (jenis || "galat"); }
@@ -102,7 +99,7 @@
     return;
   }
 
-  var sb = window.supabase.createClient("https://GANTI-DENGAN-PROJECT-ANDA.supabase.co", "GANTI-DENGAN-ANON-KEY");
+  var sb = window.supabase.createClient("https://xhcygktjxakbeelavkyl.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0");
 
   function tampilkanSesi(u) {
     $("form-auth").style.display = u ? "none" : "block";
@@ -112,10 +109,18 @@
   sb.auth.getSession().then(function (h) { tampilkanSesi(h.data.session && h.data.session.user); });
   sb.auth.onAuthStateChange(function (_e, s) { tampilkanSesi(s && s.user); });
 
+  function pesanRamah(m) {
+    if (/not enabled|Unsupported provider/i.test(m))
+      return "Login lewat penyedia ini belum diaktifkan pemilik situs — gunakan email dulu, ya.";
+    if (/Invalid login credentials/i.test(m)) return "Email atau kata sandi salah.";
+    if (/already registered/i.test(m)) return "Email ini sudah terdaftar — coba Masuk.";
+    if (/rate limit/i.test(m)) return "Terlalu banyak percobaan — tunggu sebentar lalu coba lagi.";
+    return m;
+  }
   document.querySelectorAll(".oauth").forEach(function (b) {
     b.onclick = function () {
       sb.auth.signInWithOAuth({ provider: b.dataset.penyedia, options: { redirectTo: location.origin + "/akun/" } })
-        .then(function (h) { if (h.error) pesan(h.error.message); });
+        .then(function (h) { if (h.error) pesan(pesanRamah(h.error.message)); });
     };
   });
   $("kirim").onclick = function () {
@@ -126,7 +131,7 @@
       ? sb.auth.signInWithPassword({ email: email, password: sandi })
       : sb.auth.signUp({ email: email, password: sandi });
     aksi.then(function (h) {
-      if (h.error) return pesan(h.error.message);
+      if (h.error) return pesan(pesanRamah(h.error.message));
       if (mode === "daftar" && !h.data.session) pesan("Akun dibuat — cek email Anda untuk tautan konfirmasi.", "sukses");
     });
   };
