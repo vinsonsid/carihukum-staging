@@ -1,0 +1,135 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Akun — CariHukum</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root { --ground:#F7F9F7; --surface:#fff; --ink:#1D2522; --ink2:#56635D; --line:#D8E0DA;
+    --accent:#0E5A46; --accent-soft:#E3EEE9; --red:#A33B2E; --red-soft:#F6E6E2;
+    --amber:#8A5A16; --amber-soft:#F7EDDC; --sans:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --ground:#101613; --surface:#171F1B; --ink:#E6ECE8; --ink2:#9AA8A0; --line:#2A362F;
+    --accent:#5FB894; --accent-soft:#1B2E27; --red:#E08A7C; --red-soft:#34201C;
+    --amber:#DBA95C; --amber-soft:#302716; } }
+  :root[data-theme="dark"] { --ground:#101613; --surface:#171F1B; --ink:#E6ECE8; --ink2:#9AA8A0;
+    --line:#2A362F; --accent:#5FB894; --accent-soft:#1B2E27; --red:#E08A7C; --red-soft:#34201C;
+    --amber:#DBA95C; --amber-soft:#302716; }
+  * { box-sizing:border-box } body { margin:0; background:var(--ground); color:var(--ink);
+    font-family:var(--sans); line-height:1.55 }
+  .wrap { max-width:420px; margin:0 auto; padding:36px 20px 80px }
+  .wordmark { font-weight:700; font-size:1.3rem; text-decoration:none; color:var(--ink); display:inline-block }
+  .wordmark .cari { color:var(--accent) }
+  .sub { color:var(--ink2); font-size:.85rem; margin:2px 0 22px }
+  .notice { background:var(--amber-soft); color:var(--amber); border-radius:10px;
+    padding:10px 14px; font-size:.8rem; margin-bottom:18px }
+  .kartu { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:22px;
+    box-shadow:0 1px 2px rgba(0,0,0,.05), 0 4px 16px rgba(0,0,0,.04) }
+  .mode { display:flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; margin-bottom:18px }
+  .mode button { flex:1; border:0; background:transparent; color:var(--ink2); font:600 .85rem var(--sans);
+    padding:8px; cursor:pointer }
+  .mode button.on { background:var(--accent); color:var(--ground) }
+  label { display:block; font:500 .78rem var(--sans); color:var(--ink2); margin:12px 0 4px }
+  input { width:100%; border:1px solid var(--line); border-radius:8px; background:var(--ground);
+    color:var(--ink); font:400 .95rem var(--sans); padding:9px 12px }
+  input:focus { outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent) }
+  .utama { width:100%; margin-top:16px; border:0; border-radius:8px; background:var(--accent);
+    color:var(--ground); font:600 .95rem var(--sans); padding:11px; cursor:pointer }
+  .pisah { display:flex; align-items:center; gap:10px; color:var(--ink2); font-size:.75rem; margin:18px 0 }
+  .pisah::before,.pisah::after { content:""; flex:1; height:1px; background:var(--line) }
+  .oauth { width:100%; display:flex; align-items:center; justify-content:center; gap:10px;
+    border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink);
+    font:500 .9rem var(--sans); padding:10px; cursor:pointer; margin-bottom:10px }
+  .oauth:hover { border-color:var(--accent) }
+  .pesan { border-radius:8px; padding:10px 12px; font-size:.82rem; margin-top:14px; display:none }
+  .pesan.galat { background:var(--red-soft); color:var(--red); display:block }
+  .pesan.sukses { background:var(--accent-soft); color:var(--accent); display:block }
+  .sesi { display:none; text-align:center }
+  .sesi .email { font-weight:600; margin:8px 0 16px; word-break:break-all }
+  .keluar { border:1px solid var(--line); background:transparent; color:var(--ink2);
+    border-radius:8px; padding:8px 18px; font:500 .85rem var(--sans); cursor:pointer }
+  .kenapa { color:var(--ink2); font-size:.78rem; margin-top:20px }
+  button:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:2px }
+</style>
+<div class="wrap">
+  <a class="wordmark" href="/"><span class="cari">Cari</span>Hukum</a>
+  <div class="sub">Satu akun untuk menandai pasal, menyimpan riwayat baca, dan (kelak) menerima peringatan perubahan peraturan.</div>
+  
+  <div class="notice">Autentikasi <strong>belum diaktifkan</strong> di lingkungan staging ini.
+  Pemilik situs perlu mengisi <code>config/auth.json</code> — lihat panduan
+  <em>docs/07-autentikasi.md</em>. Tampilan di bawah adalah pratinjau alurnya.</div>
+  <div class="kartu">
+    <div id="form-auth">
+      <div class="mode" role="tablist">
+        <button id="tab-masuk" class="on">Masuk</button>
+        <button id="tab-daftar">Daftar</button>
+      </div>
+      <button class="oauth" data-penyedia="google"><svg width="16" height="16" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9 3.5l6.7-6.7C35.6 2.4 30.2 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.8 6.1C12.3 13.2 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5z"/><path fill="#FBBC05" d="M10.4 28.7a14.5 14.5 0 0 1 0-9.4l-7.8-6.1a24 24 0 0 0 0 21.6l7.8-6.1z"/><path fill="#34A853" d="M24 48c6.2 0 11.4-2 15.2-5.5l-7.5-5.8c-2.1 1.4-4.7 2.3-7.7 2.3-6.3 0-11.7-3.7-13.6-9l-7.8 6.1C6.5 42.6 14.6 48 24 48z"/></svg>Lanjutkan dengan Google</button>
+      <button class="oauth" data-penyedia="facebook"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="#1877F2" d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3v-3.5h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>Lanjutkan dengan Facebook</button>
+      <div class="pisah">atau dengan email</div>
+      <label for="email">Email</label>
+      <input id="email" type="email" autocomplete="email" placeholder="nama@contoh.com">
+      <label for="sandi">Kata sandi</label>
+      <input id="sandi" type="password" autocomplete="current-password" placeholder="minimal 8 karakter">
+      <button class="utama" id="kirim">Masuk</button>
+      <div class="pesan" id="pesan"></div>
+    </div>
+    <div class="sesi" id="sesi">
+      <div style="font-size:.85rem;color:var(--ink2)">Masuk sebagai</div>
+      <div class="email" id="sesi-email"></div>
+      <button class="keluar" id="keluar">Keluar</button>
+    </div>
+  </div>
+  <div class="kenapa">Membaca peraturan tidak pernah butuh akun — dan tidak akan pernah. Akun hanya untuk fitur personal. <a href="/" style="color:var(--accent)">← Kembali</a></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script>
+(function () {
+  var AKTIF = false;
+  var mode = "masuk";
+  var $ = function (id) { return document.getElementById(id); };
+  function pesan(teks, jenis) { var p = $("pesan"); p.textContent = teks; p.className = "pesan " + (jenis || "galat"); }
+  function setMode(m) {
+    mode = m;
+    $("tab-masuk").classList.toggle("on", m === "masuk");
+    $("tab-daftar").classList.toggle("on", m === "daftar");
+    $("kirim").textContent = m === "masuk" ? "Masuk" : "Buat akun";
+    $("sandi").autocomplete = m === "masuk" ? "current-password" : "new-password";
+  }
+  $("tab-masuk").onclick = function () { setMode("masuk"); };
+  $("tab-daftar").onclick = function () { setMode("daftar"); };
+
+  if (!AKTIF) {
+    var nonaktif = function () { pesan("Autentikasi belum diaktifkan di staging ini — ini pratinjau antarmuka."); };
+    $("kirim").onclick = nonaktif;
+    document.querySelectorAll(".oauth").forEach(function (b) { b.onclick = nonaktif; });
+    return;
+  }
+
+  var sb = window.supabase.createClient("https://GANTI-DENGAN-PROJECT-ANDA.supabase.co", "GANTI-DENGAN-ANON-KEY");
+
+  function tampilkanSesi(u) {
+    $("form-auth").style.display = u ? "none" : "block";
+    $("sesi").style.display = u ? "block" : "none";
+    if (u) $("sesi-email").textContent = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || u.email;
+  }
+  sb.auth.getSession().then(function (h) { tampilkanSesi(h.data.session && h.data.session.user); });
+  sb.auth.onAuthStateChange(function (_e, s) { tampilkanSesi(s && s.user); });
+
+  document.querySelectorAll(".oauth").forEach(function (b) {
+    b.onclick = function () {
+      sb.auth.signInWithOAuth({ provider: b.dataset.penyedia, options: { redirectTo: location.origin + "/akun/" } })
+        .then(function (h) { if (h.error) pesan(h.error.message); });
+    };
+  });
+  $("kirim").onclick = function () {
+    var email = $("email").value.trim(), sandi = $("sandi").value;
+    if (!email || !sandi) return pesan("Isi email dan kata sandi dulu.");
+    if (sandi.length < 8) return pesan("Kata sandi minimal 8 karakter.");
+    var aksi = mode === "masuk"
+      ? sb.auth.signInWithPassword({ email: email, password: sandi })
+      : sb.auth.signUp({ email: email, password: sandi });
+    aksi.then(function (h) {
+      if (h.error) return pesan(h.error.message);
+      if (mode === "daftar" && !h.data.session) pesan("Akun dibuat — cek email Anda untuk tautan konfirmasi.", "sukses");
+    });
+  };
+  $("keluar").onclick = function () { sb.auth.signOut(); };
+})();
+</script></html>
