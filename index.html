@@ -4,13 +4,6 @@
     --line:#d0d7de; --accent:#0d6a4f; --accent-soft:#e6f4ec;
     --amber-soft:#fff8c5; --amber-line:#d4a72c;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif; }
-  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-    --ground:#0d1117; --surface:#0d1117; --surface-2:#161b22; --ink:#e6edf3; --ink-2:#9198a1;
-    --line:#30363d; --accent:#3fb950; --accent-soft:#12261e;
-    --amber-soft:#271d12; --amber-line:#9e6a03; } }
-  :root[data-theme="dark"] { --ground:#0d1117; --surface:#0d1117; --surface-2:#161b22;
-    --ink:#e6edf3; --ink-2:#9198a1; --line:#30363d; --accent:#3fb950; --accent-soft:#12261e;
-    --amber-soft:#271d12; --amber-line:#9e6a03; }
   * { box-sizing:border-box } body { margin:0; background:var(--ground); color:var(--ink);
     font-family:var(--sans); font-size:14px; line-height:1.5 }
   .wrap { max-width:960px; margin:0 auto; padding:0 24px 64px }
@@ -47,7 +40,9 @@
   <h1>Peraturan perundang-undangan</h1>
   <div class="sub">2 tersedia terstruktur · 10 terindeks — terkonsolidasi, dengan riwayat perubahan, dwibahasa. Staging.</div>
   <div class="notice">⚠ Situs percobaan (noindex). Teks bukan naskah resmi; untuk keperluan hukum selalu rujuk PDF Lembaran Negara.</div>
-  <div class="daftar"><div class="baris">
+  <input id="saring" type="search" placeholder="Saring peraturan… (mis. ITE, 2011, konstitusi)" aria-label="Saring peraturan"
+    style="width:100%;border:1px solid var(--line);border-radius:6px;padding:8px 12px;font:400 .85rem var(--sans);margin-bottom:12px;background:var(--surface);color:var(--ink)">
+  <div class="daftar" id="daftar"><div class="baris">
     <div class="atas"><a class="nm" href="/uu/2008/11/">UU ITE 11/2008</a> <span class="badge hijau">irisan pilot</span></div>
     <div class="desc">Informasi dan Transaksi Elektronik</div>
     <div class="metabaris">Berlaku 2008-04-21 · status: diubah</div>
@@ -97,6 +92,17 @@
     <div class="desc">Perubahan Keempat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
     <div class="metabaris">Berlaku 2002-08-10 · status: berlaku</div>
   </div></div>
+  <div id="kosong" style="display:none;color:var(--ink-2);font-size:.85rem;padding:16px 4px">Tidak ada yang cocok.</div>
+  <script>
+    document.getElementById("saring").addEventListener("input", function () {
+      var q = this.value.trim().toLowerCase(), ada = 0;
+      document.querySelectorAll("#daftar .baris").forEach(function (b) {
+        var cocok = !q || b.textContent.toLowerCase().indexOf(q) !== -1;
+        b.style.display = cocok ? "" : "none"; if (cocok) ada++;
+      });
+      document.getElementById("kosong").style.display = ada ? "none" : "block";
+    });
+  </script>
   <footer>Data terbuka (CC0) · <a href="/api/index.json">API</a> · <a href="/akun/">Akun</a> · Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014).</footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>

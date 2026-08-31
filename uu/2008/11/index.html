@@ -12,41 +12,19 @@
     --accent-soft: #e6f4ec;
     --gold: #9a6700;
     --gold-soft: #fff8c5;
+    --amber-line: #d4a72c;
     --red: #cf222e;
     --red-soft: #ffebe9;
-    --amber: #9a6700;
-    --amber-soft: #fff8c5;
-    --amber-line: #d4a72c;
     --ins: #1a7f37;
     --ins-soft: #dafbe1;
-    --shadow: none;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-    --serif: var(--sans);
     --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --ground: #0d1117; --surface: #0d1117; --surface-2: #161b22;
-      --ink: #e6edf3; --ink-2: #9198a1; --line: #30363d;
-      --accent: #3fb950; --accent-emph: #2ea043; --accent-soft: #12261e;
-      --gold: #d29922; --gold-soft: #271d12;
-      --red: #f85149; --red-soft: #301418;
-      --amber: #d29922; --amber-soft: #271d12; --amber-line: #9e6a03;
-      --ins: #3fb950; --ins-soft: #12261e;
-    }
-  }
-  :root[data-theme="dark"] {
-    --ground: #0d1117; --surface: #0d1117; --surface-2: #161b22;
-    --ink: #e6edf3; --ink-2: #9198a1; --line: #30363d;
-    --accent: #3fb950; --accent-emph: #2ea043; --accent-soft: #12261e;
-    --gold: #d29922; --gold-soft: #271d12;
-    --red: #f85149; --red-soft: #301418;
-    --amber: #d29922; --amber-soft: #271d12; --amber-line: #9e6a03;
-    --ins: #3fb950; --ins-soft: #12261e;
-  }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans); font-size: 14px; line-height: 1.5; }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px 64px; }
+  html { scroll-behavior: smooth; scroll-padding-top: 16px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.55; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px 64px; }
 
   header.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 14px 0; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
   .wordmark { font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
@@ -55,21 +33,20 @@
   .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface-2); }
   .lang button { border: 0; background: transparent; color: var(--ink-2); font: 500 .78rem var(--sans); padding: 5px 12px; cursor: pointer; }
   .lang button.on { background: var(--surface); color: var(--ink); box-shadow: inset 0 0 0 1px var(--line); border-radius: 6px; }
-  .lang button:focus-visible, .tab:focus-visible, .chip:focus-visible, .histbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-  .notice { display: flex; gap: 8px; align-items: flex-start; background: var(--amber-soft); color: var(--ink); border: 1px solid var(--amber-line); border-radius: 6px; padding: 8px 12px; font-size: .8rem; margin: 0 0 20px; }
+  .notice { background: var(--gold-soft); border: 1px solid var(--amber-line); border-radius: 6px; padding: 8px 12px; font-size: .8rem; margin: 0 0 18px; }
 
-  nav.tabs { display: flex; gap: 4px; margin-bottom: 0; border-bottom: 1px solid var(--line); }
+  nav.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
   .tab { border: 0; background: transparent; color: var(--ink-2); padding: 8px 14px 10px; font: 500 .85rem var(--sans); cursor: pointer; border-bottom: 2px solid transparent; }
   .tab.on { color: var(--ink); font-weight: 600; border-bottom-color: var(--accent); }
-  .tab.on::after { content: none; }
 
-  .meta { padding: 18px 0 4px; }
-  h1.judul { font: 600 1.4rem/1.3 var(--sans); margin: 0 0 4px; letter-spacing: -.01em; text-wrap: balance; }
-  .subjudul { color: var(--ink-2); font-size: .8rem; }
-  .subjudul .mono { font-family: var(--mono); font-size: .75rem; }
+  .meta { padding: 16px 0 4px; }
+  h1.judul { font: 600 1.45rem/1.3 var(--sans); margin: 0 0 4px; letter-spacing: -.01em; text-wrap: balance; }
+  .subjudul { color: var(--ink-2); font-size: .82rem; }
+  .subjudul .mono { font-family: var(--mono); font-size: .77rem; }
 
-  .timeline { margin: 20px 0 6px; }
+  .timeline { margin: 18px 0 4px; }
   .timeline .label { font: 600 .7rem var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); margin-bottom: 8px; }
   .chips { display: flex; gap: 0; overflow-x: auto; padding-bottom: 6px; }
   .chipwrap { display: flex; align-items: center; }
@@ -80,33 +57,58 @@
   .chip .nm { font: 600 .78rem var(--sans); color: var(--ink); margin-top: 2px; }
   .chip .ops { font-size: .7rem; color: var(--ink-2); margin-top: 2px; }
   .chip.on { border-color: var(--accent); background: var(--accent-soft); }
-  .chip.on .nm { color: var(--accent); }
+  .chip.on .nm { color: var(--accent-emph); }
   .chip.warn .ops { color: var(--gold); font-weight: 600; }
   .asof { font-size: .78rem; color: var(--ink-2); margin: 6px 0 0; }
-  .asof strong { color: var(--accent); }
+  .asof strong { color: var(--accent-emph); }
 
-  .pending { background: var(--amber-soft); border: 1px solid var(--amber-line); color: var(--ink); border-radius: 6px; padding: 8px 12px; font-size: .78rem; margin: 12px 0; }
+  .pending { background: var(--gold-soft); border: 1px solid var(--amber-line); border-radius: 6px; padding: 8px 12px; font-size: .78rem; margin: 12px 0; }
 
-  .bab { margin-top: 28px; }
+  /* ---------- tata letak dua kolom: daftar isi + konten ---------- */
+  .tata { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 8px; }
+  .sisi { position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow-y: auto; padding-right: 4px; }
+  .sisi summary { display: none; }
+  .lompat { margin-bottom: 12px; }
+  .lompat input { width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; font: 400 .82rem var(--sans); background: var(--surface); color: var(--ink); }
+  .lompat input::placeholder { color: var(--ink-2); }
+  .toc-bab { margin-bottom: 12px; }
+  .toc-bab .kepala { font: 600 .72rem var(--sans); color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .toc-pasal { display: flex; flex-wrap: wrap; gap: 4px; }
+  .toc-pasal a { display: inline-block; min-width: 30px; text-align: center; border: 1px solid var(--line); border-radius: 6px; padding: 3px 6px; font: 500 .75rem var(--sans); color: var(--ink); text-decoration: none; background: var(--surface); }
+  .toc-pasal a:hover { border-color: var(--accent); color: var(--accent-emph); }
+  .toc-pasal a.aktif { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .toc-pasal a.cabut { color: var(--ink-2); text-decoration: line-through; }
+
+  @media (max-width: 900px) {
+    .tata { grid-template-columns: 1fr; gap: 12px; }
+    .sisi { position: static; max-height: none; border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; background: var(--surface-2); }
+    .sisi summary { display: list-item; font: 600 .85rem var(--sans); cursor: pointer; margin-bottom: 8px; }
+  }
+
+  .bab { margin-top: 26px; }
+  .bab:first-child { margin-top: 4px; }
   .bab-kepala { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
-  .bab-nomor { font: 600 .7rem var(--mono); color: var(--ink-2); text-transform: uppercase; letter-spacing: .05em; }
-  .bab-judul { font: 600 .95rem var(--sans); }
+  .bab-nomor { font: 600 .72rem var(--mono); color: var(--ink-2); text-transform: uppercase; letter-spacing: .05em; }
+  .bab-judul { font: 600 1rem var(--sans); }
 
-  .pasal { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; margin-top: 12px; padding: 0 16px 14px; }
-  .pasal-kepala { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; background: var(--surface-2); margin: 0 -16px 10px; padding: 8px 16px; border-bottom: 1px solid var(--line); border-radius: 6px 6px 0 0; }
-  .pasal-nomor { font: 600 .88rem var(--sans); }
+  .pasal { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; margin-top: 12px; padding: 0 18px 14px; scroll-margin-top: 12px; }
+  .pasal.sorot { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .pasal-kepala { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; background: var(--surface-2); margin: 0 -18px 10px; padding: 8px 18px; border-bottom: 1px solid var(--line); border-radius: 6px 6px 0 0; }
+  .pasal-nomor { font: 600 .92rem var(--sans); }
+  .pasal-nomor a { color: inherit; text-decoration: none; }
+  .pasal-nomor a:hover { color: var(--accent-emph); }
   .badge { font: 500 .7rem var(--sans); border: 1px solid transparent; border-radius: 999px; padding: 1px 8px; }
   .badge.ubah { background: var(--gold-soft); color: var(--gold); border-color: var(--amber-line); }
   .badge.baru { background: var(--ins-soft); color: var(--ins); border-color: var(--ins); }
   .badge.cabut { background: var(--red-soft); color: var(--red); border-color: var(--red); }
-  .badge.draf { background: var(--surface-2); color: var(--ink-2); border-color: var(--line); }
-  .histbtn { margin-left: auto; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 500 .72rem var(--sans); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
+  .histbtn { margin-left: auto; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 500 .74rem var(--sans); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
   .histbtn:hover { background: var(--surface-2); border-color: var(--ink-2); }
 
-  .ayat { display: grid; grid-template-columns: 2.6em 1fr; gap: 4px 8px; padding: 4px 0; }
-  .ayat .no { font: 500 .85rem var(--sans); color: var(--ink-2); }
-  .teks { font: 400 .9rem/1.7 var(--sans); max-width: 70ch; }
-  .teks.en { font-style: normal; }
+  .ayat { display: grid; grid-template-columns: 2.7em 1fr; gap: 4px 8px; padding: 5px 0; }
+  .ayat .no { font: 500 .9rem var(--sans); color: var(--ink-2); }
+  .teks { font: 400 .97rem/1.75 var(--sans); max-width: 72ch; }
+  .teks a.ref { color: var(--accent-emph); text-decoration: none; border-bottom: 1px dashed var(--accent); }
+  .teks a.ref:hover { background: var(--accent-soft); }
   .tunggal .teks { margin: 2px 0; }
   .ayat-badges { grid-column: 2; display: flex; gap: 6px; }
   .en-tag { font: 500 .62rem var(--sans); color: var(--ink-2); background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 0 7px; vertical-align: 2px; margin-left: 6px; white-space: nowrap; }
@@ -115,15 +117,16 @@
   .riwayat.open { display: block; }
   .riwayat h4 { margin: 0 0 8px; font: 600 .7rem var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); }
   .versi { background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; margin-bottom: 8px; }
-  .versi .label { font: 400 .7rem var(--mono); color: var(--ink-2); margin-bottom: 4px; }
-  .versi .teks { font-size: .85rem; }
+  .versi .label { font: 400 .72rem var(--mono); color: var(--ink-2); margin-bottom: 4px; }
+  .versi .teks { font-size: .88rem; }
   .versi del { background: var(--red-soft); color: var(--red); text-decoration: line-through; text-decoration-thickness: 1px; border-radius: 3px; padding: 0 2px; }
   .versi ins { background: var(--ins-soft); color: var(--ins); text-decoration: none; border-radius: 3px; padding: 0 2px; }
 
-  footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 14px; color: var(--ink-2); font-size: .75rem; }
+  footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 14px; color: var(--ink-2); font-size: .76rem; }
   footer a { color: var(--accent); }
   @media (prefers-reduced-motion: no-preference) {
-    .chip, .histbtn { transition: border-color .12s, background .12s; }
+    .chip, .histbtn, .toc-pasal a { transition: border-color .12s, background .12s; }
+    .pasal { transition: border-color .25s, box-shadow .25s; }
   }
 </style>
 
@@ -141,7 +144,7 @@
     </div>
   </header>
 
-  <div class="notice">⚠ <span><strong>Bukan naskah resmi.</strong> Teks telah diverifikasi terhadap PDF resmi (Lembaran Negara / MKRI / Setjen MPR), tetapi versi konsolidasi ini dihitung mesin dan bukan naskah otentik — untuk keperluan hukum, selalu rujuk PDF resmi. Terjemahan Inggris tidak resmi.</span></div>
+  <div class="notice">⚠ <strong>Bukan naskah resmi.</strong> Teks telah diverifikasi terhadap PDF resmi (Lembaran Negara / MKRI / Setjen MPR), tetapi versi konsolidasi ini dihitung mesin — untuk keperluan hukum, selalu rujuk PDF resmi. Terjemahan Inggris tidak resmi.</div>
 
   <nav class="tabs" id="tabs"></nav>
   <section class="meta" id="meta"></section>
@@ -151,7 +154,15 @@
     <p class="asof" id="asof"></p>
   </section>
   <div id="pending"></div>
-  <main id="isi"></main>
+
+  <div class="tata">
+    <details class="sisi" id="sisi" open>
+      <summary>Daftar isi</summary>
+      <div class="lompat"><input id="lompat" type="search" placeholder="Ke pasal… (mis. 27A) ↵" aria-label="Lompat ke pasal"></div>
+      <nav id="toc" aria-label="Daftar isi"></nav>
+    </details>
+    <main id="isi"></main>
+  </div>
 
   <footer>
     Sumber metadata &amp; relasi: peraturan.bpk.go.id · jdihn.go.id. Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014); versi konsolidasi ini dihitung mesin CariHukum dan bukan naskah otentik.
@@ -228,14 +239,33 @@ function diffKata(a, b) {
 }
 const esc = (s) => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-// ---------- render ----------
-function teksUnit(u) {
-  const en = state.lang === "en";
-  if (en && u.teks_en) return { html: esc(u.teks_en), tag: '<span class="en-tag">EN · tidak resmi</span>' };
-  if (en && u.teks) return { html: esc(u.teks), tag: '<span class="en-tag">belum diterjemahkan</span>' };
-  return { html: esc(u.teks), tag: "" };
+// ---------- navigasi: kumpulan pasal + tautan rujukan internal ----------
+let pasalAda = new Set();   // "pasal-27", "pasal-6a", ...
+function kumpulkanPasal(pohon) {
+  pasalAda = new Set();
+  const jalan = (us) => us.forEach(u => { if (u.tipe === "pasal") pasalAda.add(u.id); jalan(u.anak || []); });
+  jalan(pohon);
 }
-function badgeUnit(u, workId) {
+const idAman = (id) => id.replace(/[^a-z0-9]/gi, "_");
+/** ubah rujukan "Pasal 27" dalam teks (sudah di-escape) menjadi tautan bila pasalnya ada */
+function tautkan(html) {
+  return html.replace(/Pasal\s+(\d+[A-Z]{0,2})/g, (m, n) => {
+    const id = "pasal-" + n.toLowerCase();
+    return pasalAda.has(id) ? `<a class="ref" href="#p-${idAman(id)}">${m}</a>` : m;
+  });
+}
+
+// ---------- render ----------
+function teksUnit(u, taut) {
+  const en = state.lang === "en";
+  let html, tag = "";
+  if (en && u.teks_en) { html = esc(u.teks_en); tag = '<span class="en-tag">EN · tidak resmi</span>'; }
+  else if (en && u.teks) { html = esc(u.teks); tag = '<span class="en-tag">belum diterjemahkan</span>'; }
+  else html = esc(u.teks);
+  if (taut) html = tautkan(html);
+  return { html, tag };
+}
+function badgeUnit(u) {
   const b = [];
   if (u.status === "dicabut") b.push('<span class="badge cabut">Dicabut</span>');
   const r = u.riwayat || [];
@@ -264,11 +294,11 @@ function riwayatHTML(u) {
   return html;
 }
 
-function unitHTML(u, workId) {
+function unitHTML(u) {
   if (u.tipe === "bab") {
-    const inner = (u.anak||[]).map(a => unitHTML(a, workId)).join("");
+    const inner = (u.anak||[]).map(a => unitHTML(a)).join("");
     const judul = state.lang === "en" && u.judul_en ? u.judul_en : u.judul;
-    return `<section class="bab"><div class="bab-kepala"><span class="bab-nomor">Bab ${esc(u.nomor)}</span><span class="bab-judul">${esc(judul)}</span> ${badgeUnit(u, workId)}</div>${inner}</section>`;
+    return `<section class="bab" id="b-${idAman(u.id)}"><div class="bab-kepala"><span class="bab-nomor">Bab ${esc(u.nomor)}</span><span class="bab-judul">${esc(judul)}</span> ${badgeUnit(u)}</div>${inner}</section>`;
   }
   if (u.tipe === "pasal") {
     const punyaRiwayat = (u.riwayat||[]).some(x => x.aksi === "diganti") || (u.anak||[]).some(a => (a.riwayat||[]).some(x => x.aksi === "diganti"));
@@ -276,15 +306,15 @@ function unitHTML(u, workId) {
     let body;
     if (u.anak) {
       body = u.anak.map(a => {
-        const t = teksUnit(a);
+        const t = teksUnit(a, true);
         const huruf = (a.anak || []).map(h => {
-          const th = teksUnit(h);
+          const th = teksUnit(h, true);
           return `<div class="ayat" style="grid-column:2"><span class="no">${esc(h.nomor)}</span><span class="teks">${th.html}${th.tag}</span></div>`;
         }).join("");
-        return `<div class="ayat"><span class="no">${esc(a.nomor)}</span><span class="teks">${t.html}${t.tag}</span>${huruf}<span class="ayat-badges">${badgeUnit(a, workId)}</span></div>`;
+        return `<div class="ayat"><span class="no">${esc(a.nomor)}</span><span class="teks">${t.html}${t.tag}</span>${huruf}<span class="ayat-badges">${badgeUnit(a)}</span></div>`;
       }).join("");
     } else {
-      const t = teksUnit(u);
+      const t = teksUnit(u, true);
       body = `<div class="tunggal"><p class="teks">${t.html}${t.tag}</p></div>`;
     }
     let hist = "";
@@ -293,26 +323,63 @@ function unitHTML(u, workId) {
         const h = riwayatHTML(a);
         return h ? `<div style="margin-top:6px"><div class="label" style="font:500 .72rem var(--mono);color:var(--ink-2)">Ayat ${esc(a.nomor)}</div>${h.replace("<h4>Riwayat versi</h4>","")}</div>` : "";
       })].join("");
-      hist = `<div class="riwayat ${state.open[key] ? "open" : ""}" id="riw-${key.replace(/[^a-z0-9]/gi,"_")}">${semua}</div>`;
+      hist = `<div class="riwayat ${state.open[key] ? "open" : ""}">${semua}</div>`;
     }
-    return `<article class="pasal"><div class="pasal-kepala"><span class="pasal-nomor">Pasal ${esc(u.nomor)}</span>${badgeUnit(u, workId)}${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</div>${body}${hist}</article>`;
+    return `<article class="pasal" id="p-${idAman(key)}"><div class="pasal-kepala"><span class="pasal-nomor"><a href="#p-${idAman(key)}">Pasal ${esc(u.nomor)}</a></span>${badgeUnit(u)}${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</div>${body}${hist}</article>`;
   }
   return "";
 }
 
+function tocHTML(pohon) {
+  return pohon.map(bab => {
+    if (bab.tipe !== "bab") return "";
+    const pasal = (bab.anak||[]).filter(u => u.tipe === "pasal");
+    const judul = state.lang === "en" && bab.judul_en ? bab.judul_en : bab.judul;
+    return `<div class="toc-bab"><div class="kepala" title="${esc(judul)}">Bab ${esc(bab.nomor)} · ${esc(judul)}</div><div class="toc-pasal">${
+      pasal.map(p => `<a href="#p-${idAman(p.id)}" data-toc="${p.id}" class="${p.status === "dicabut" ? "cabut" : ""}" title="Pasal ${esc(p.nomor)}">${esc(p.nomor)}</a>`).join("")
+    }</div></div>`;
+  }).join("");
+}
+
+let pengamat = null;
+function pasangScrollspy() {
+  if (pengamat) pengamat.disconnect();
+  const tocLink = {};
+  document.querySelectorAll("[data-toc]").forEach(a => tocLink[a.dataset.toc] = a);
+  pengamat = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      const id = e.target.id.replace(/^p-/, "").replace(/_/g, "/");
+      // id pasal tak mengandung '/', jadi pemetaan aman utk pasal
+      const kunci = Object.keys(tocLink).find(k => idAman(k) === e.target.id.slice(2));
+      if (!kunci) continue;
+      if (e.isIntersecting) {
+        document.querySelectorAll(".toc-pasal a.aktif").forEach(x => x.classList.remove("aktif"));
+        tocLink[kunci].classList.add("aktif");
+      }
+    }
+  }, { rootMargin: "0px 0px -70% 0px" });
+  document.querySelectorAll("article.pasal").forEach(el => pengamat.observe(el));
+}
+
+function lompatKe(id) {
+  const el = document.getElementById("p-" + idAman(id));
+  if (!el) return false;
+  el.scrollIntoView({ block: "start" });
+  el.classList.add("sorot");
+  setTimeout(() => el.classList.remove("sorot"), 1600);
+  return true;
+}
+
 function render() {
   const w = DATA[state.work];
-  // tabs
   const daftarTab = DATA._urut || Object.keys(DATA).filter(k => !k.startsWith("_"));
   document.getElementById("tabs").innerHTML = daftarTab.length < 2 ? "" : daftarTab.map(id =>
     `<button class="tab ${id === state.work ? "on" : ""}" data-tab="${id}">${esc(DATA[id].metadata.judul_pendek)}</button>`).join("");
-  // meta
   const m = w.metadata;
   const judul = state.lang === "en" && m.judul_en ? m.judul_en : m.judul;
   const sumber = m.sumber && m.sumber.ln ? ` · <span class="mono">LN ${m.sumber.ln}${m.sumber.tln ? " / TLN " + m.sumber.tln : ""}</span>` : "";
   document.getElementById("meta").innerHTML = `<h1 class="judul">${esc(judul)}</h1><div class="subjudul">Diundangkan <span class="mono">${fmtTgl(m.tanggal_berlaku)}</span>${sumber} · ${esc((m.subjek||[]).join(", "))}</div>`;
-  // timeline
-  const evs = [{ tanggal: m.tanggal_berlaku, judul_pelaku: "Naskah asli diundangkan", nol: false, awal: true }, ...w.peristiwa];
+  const evs = [{ tanggal: m.tanggal_berlaku, judul_pelaku: "Naskah asli diundangkan", awal: true }, ...w.peristiwa];
   document.getElementById("chips").innerHTML = evs.map((ev, i) => {
     const tgl = ev.tanggal || ev.tanggal_berlaku;
     const on = state.asOf === null ? i === evs.length - 1 : (tgl <= state.asOf && (i === evs.length - 1 || (evs[i+1].tanggal_berlaku || "") > state.asOf));
@@ -324,11 +391,13 @@ function render() {
   document.getElementById("asof").innerHTML = terkini
     ? `Menampilkan <strong>versi berlaku terkini</strong> — hasil konsolidasi seluruh peristiwa.`
     : `Menampilkan teks sebagaimana berlaku pada <strong>${fmtTgl(state.asOf)}</strong>. Klik peristiwa terakhir untuk kembali ke versi terkini.`;
-  // isi
   const { pohon, pending } = konsolidasi(state.work, state.asOf);
+  kumpulkanPasal(pohon);
   document.getElementById("pending").innerHTML = pending.map(ev =>
     `<div class="pending">⚠ <strong>${esc(DATA._nama[ev.pelaku])}</strong> (${ev.tipe.replace(/-/g," ")}, berlaku ${fmtTgl(ev.tanggal_berlaku)}) sudah berlaku tetapi operasinya <strong>belum dienkode</strong> — teks di bawah belum mencerminkannya. ${esc(ev.catatan || "")}</div>`).join("");
-  document.getElementById("isi").innerHTML = pohon.map(u => unitHTML(u, state.work)).join("");
+  document.getElementById("toc").innerHTML = tocHTML(pohon);
+  document.getElementById("isi").innerHTML = pohon.map(u => unitHTML(u)).join("");
+  pasangScrollspy();
 }
 
 document.addEventListener("click", (e) => {
@@ -338,6 +407,25 @@ document.addEventListener("click", (e) => {
   if (chip) { state.asOf = chip.dataset.asof; render(); return; }
   const riw = e.target.closest("[data-riw]");
   if (riw) { state.open[riw.dataset.riw] = !state.open[riw.dataset.riw]; render(); return; }
+  const ank = e.target.closest('a[href^="#p-"]');
+  if (ank) {
+    e.preventDefault();
+    const el = document.querySelector(ank.getAttribute("href"));
+    if (el) {
+      el.scrollIntoView({ block: "start" });
+      el.classList.add("sorot");
+      setTimeout(() => el.classList.remove("sorot"), 1600);
+      history.replaceState(null, "", ank.getAttribute("href"));
+    }
+    return;
+  }
+});
+document.getElementById("lompat").addEventListener("keydown", (e) => {
+  if (e.key !== "Enter") return;
+  const n = e.target.value.trim().toLowerCase().replace(/^pasal\s*/, "");
+  if (!n) return;
+  if (!lompatKe("pasal-" + n)) { e.target.value = ""; e.target.placeholder = `Pasal ${n.toUpperCase()} tidak ada di sini`; }
+  else { e.target.value = ""; e.target.placeholder = "Ke pasal… (mis. 27A) ↵"; }
 });
 document.getElementById("lang-id").addEventListener("click", () => { state.lang = "id"; sync(); });
 document.getElementById("lang-en").addEventListener("click", () => { state.lang = "en"; sync(); });
@@ -347,6 +435,7 @@ function sync() {
   render();
 }
 render();
+if (location.hash) { const el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script>
