@@ -1,129 +1,129 @@
 <!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>CariHukum</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <style>
   :root {
-    --ground: #F7F9F7;
-    --surface: #FFFFFF;
-    --surface-2: #EEF2EF;
-    --ink: #1D2522;
-    --ink-2: #56635D;
-    --line: #D8E0DA;
-    --accent: #0E5A46;
-    --accent-soft: #E3EEE9;
-    --gold: #8A6D22;
-    --gold-soft: #F3ECD9;
-    --red: #A33B2E;
-    --red-soft: #F6E6E2;
-    --amber: #8A5A16;
-    --amber-soft: #F7EDDC;
-    --ins: #0E5A46;
-    --ins-soft: #DFEDE6;
-    --shadow: 0 1px 2px rgba(29,37,34,.06), 0 4px 16px rgba(29,37,34,.05);
-    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
-    --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    --ground: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f6f8fa;
+    --ink: #1f2328;
+    --ink-2: #59636e;
+    --line: #d0d7de;
+    --accent: #0d6a4f;
+    --accent-emph: #0a5540;
+    --accent-soft: #e6f4ec;
+    --gold: #9a6700;
+    --gold-soft: #fff8c5;
+    --red: #cf222e;
+    --red-soft: #ffebe9;
+    --amber: #9a6700;
+    --amber-soft: #fff8c5;
+    --amber-line: #d4a72c;
+    --ins: #1a7f37;
+    --ins-soft: #dafbe1;
+    --shadow: none;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+    --serif: var(--sans);
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --ground: #101613; --surface: #171F1B; --surface-2: #1E2823;
-      --ink: #E6ECE8; --ink-2: #9AA8A0; --line: #2A362F;
-      --accent: #5FB894; --accent-soft: #1B2E27;
-      --gold: #D2AE5C; --gold-soft: #2E2718;
-      --red: #E08A7C; --red-soft: #34201C;
-      --amber: #DBA95C; --amber-soft: #302716;
-      --ins: #5FB894; --ins-soft: #1B2E27;
-      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.3);
+      --ground: #0d1117; --surface: #0d1117; --surface-2: #161b22;
+      --ink: #e6edf3; --ink-2: #9198a1; --line: #30363d;
+      --accent: #3fb950; --accent-emph: #2ea043; --accent-soft: #12261e;
+      --gold: #d29922; --gold-soft: #271d12;
+      --red: #f85149; --red-soft: #301418;
+      --amber: #d29922; --amber-soft: #271d12; --amber-line: #9e6a03;
+      --ins: #3fb950; --ins-soft: #12261e;
     }
   }
   :root[data-theme="dark"] {
-    --ground: #101613; --surface: #171F1B; --surface-2: #1E2823;
-    --ink: #E6ECE8; --ink-2: #9AA8A0; --line: #2A362F;
-    --accent: #5FB894; --accent-soft: #1B2E27;
-    --gold: #D2AE5C; --gold-soft: #2E2718;
-    --red: #E08A7C; --red-soft: #34201C;
-    --amber: #DBA95C; --amber-soft: #302716;
-    --ins: #5FB894; --ins-soft: #1B2E27;
-    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.3);
+    --ground: #0d1117; --surface: #0d1117; --surface-2: #161b22;
+    --ink: #e6edf3; --ink-2: #9198a1; --line: #30363d;
+    --accent: #3fb950; --accent-emph: #2ea043; --accent-soft: #12261e;
+    --gold: #d29922; --gold-soft: #271d12;
+    --red: #f85149; --red-soft: #301418;
+    --amber: #d29922; --amber-soft: #271d12; --amber-line: #9e6a03;
+    --ins: #3fb950; --ins-soft: #12261e;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px 80px; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans); font-size: 14px; line-height: 1.5; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px 64px; }
 
-  header.top { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 28px 0 8px; }
-  .wordmark { font-weight: 700; font-size: 1.35rem; letter-spacing: -.01em; }
+  header.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 14px 0; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+  .wordmark { font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
   .wordmark .cari { color: var(--accent); }
-  .tagline { color: var(--ink-2); font-size: .85rem; }
-  .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); }
-  .lang button { border: 0; background: transparent; color: var(--ink-2); font: 500 .8rem var(--sans); padding: 6px 14px; cursor: pointer; }
-  .lang button.on { background: var(--accent); color: var(--ground); }
+  .tagline { color: var(--ink-2); font-size: .8rem; }
+  .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface-2); }
+  .lang button { border: 0; background: transparent; color: var(--ink-2); font: 500 .78rem var(--sans); padding: 5px 12px; cursor: pointer; }
+  .lang button.on { background: var(--surface); color: var(--ink); box-shadow: inset 0 0 0 1px var(--line); border-radius: 6px; }
   .lang button:focus-visible, .tab:focus-visible, .chip:focus-visible, .histbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-  .notice { display: flex; gap: 10px; align-items: flex-start; background: var(--amber-soft); color: var(--amber); border: 1px solid color-mix(in srgb, var(--amber) 30%, transparent); border-radius: 10px; padding: 10px 14px; font-size: .8rem; margin: 14px 0 22px; }
+  .notice { display: flex; gap: 8px; align-items: flex-start; background: var(--amber-soft); color: var(--ink); border: 1px solid var(--amber-line); border-radius: 6px; padding: 8px 12px; font-size: .8rem; margin: 0 0 20px; }
 
-  nav.tabs { display: flex; gap: 8px; margin-bottom: 6px; }
-  .tab { border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); border-radius: 10px 10px 0 0; border-bottom: 0; padding: 10px 16px 12px; font: 600 .9rem var(--sans); cursor: pointer; }
-  .tab.on { color: var(--ink); background: var(--ground); position: relative; }
-  .tab.on::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: var(--accent); border-radius: 2px; }
+  nav.tabs { display: flex; gap: 4px; margin-bottom: 0; border-bottom: 1px solid var(--line); }
+  .tab { border: 0; background: transparent; color: var(--ink-2); padding: 8px 14px 10px; font: 500 .85rem var(--sans); cursor: pointer; border-bottom: 2px solid transparent; }
+  .tab.on { color: var(--ink); font-weight: 600; border-bottom-color: var(--accent); }
+  .tab.on::after { content: none; }
 
-  .meta { border-top: 1px solid var(--line); padding: 18px 0 4px; }
-  h1.judul { font: 600 1.5rem/1.25 var(--serif); margin: 0 0 4px; text-wrap: balance; }
-  .subjudul { color: var(--ink-2); font-size: .85rem; }
-  .subjudul .mono { font-family: var(--mono); font-size: .78rem; }
+  .meta { padding: 18px 0 4px; }
+  h1.judul { font: 600 1.4rem/1.3 var(--sans); margin: 0 0 4px; letter-spacing: -.01em; text-wrap: balance; }
+  .subjudul { color: var(--ink-2); font-size: .8rem; }
+  .subjudul .mono { font-family: var(--mono); font-size: .75rem; }
 
-  .timeline { margin: 22px 0 6px; }
-  .timeline .label { font: 500 .7rem var(--sans); text-transform: uppercase; letter-spacing: .09em; color: var(--ink-2); margin-bottom: 10px; }
-  .chips { display: flex; gap: 0; overflow-x: auto; padding-bottom: 8px; }
+  .timeline { margin: 20px 0 6px; }
+  .timeline .label { font: 600 .7rem var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); margin-bottom: 8px; }
+  .chips { display: flex; gap: 0; overflow-x: auto; padding-bottom: 6px; }
   .chipwrap { display: flex; align-items: center; }
-  .chipwrap + .chipwrap::before { content: ""; width: 26px; height: 2px; background: var(--line); flex: none; }
-  .chip { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 8px 12px; text-align: left; cursor: pointer; box-shadow: var(--shadow); min-width: 130px; }
-  .chip .tgl { font: 500 .72rem var(--mono); color: var(--ink-2); }
-  .chip .nm { font: 600 .8rem var(--sans); color: var(--ink); margin-top: 2px; }
-  .chip .ops { font-size: .72rem; color: var(--ink-2); margin-top: 2px; }
+  .chipwrap + .chipwrap::before { content: ""; width: 22px; height: 1px; background: var(--line); flex: none; }
+  .chip { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 7px 11px; text-align: left; cursor: pointer; min-width: 128px; }
+  .chip:hover { background: var(--surface-2); }
+  .chip .tgl { font: 400 .7rem var(--mono); color: var(--ink-2); }
+  .chip .nm { font: 600 .78rem var(--sans); color: var(--ink); margin-top: 2px; }
+  .chip .ops { font-size: .7rem; color: var(--ink-2); margin-top: 2px; }
   .chip.on { border-color: var(--accent); background: var(--accent-soft); }
   .chip.on .nm { color: var(--accent); }
-  .chip.warn .ops { color: var(--amber); font-weight: 600; }
-  .asof { font-size: .8rem; color: var(--ink-2); margin: 4px 0 0; }
+  .chip.warn .ops { color: var(--gold); font-weight: 600; }
+  .asof { font-size: .78rem; color: var(--ink-2); margin: 6px 0 0; }
   .asof strong { color: var(--accent); }
 
-  .pending { background: var(--amber-soft); border: 1px solid color-mix(in srgb, var(--amber) 30%, transparent); color: var(--amber); border-radius: 10px; padding: 10px 14px; font-size: .8rem; margin: 14px 0; }
+  .pending { background: var(--amber-soft); border: 1px solid var(--amber-line); color: var(--ink); border-radius: 6px; padding: 8px 12px; font-size: .78rem; margin: 12px 0; }
 
-  .bab { margin-top: 34px; }
-  .bab-kepala { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; border-bottom: 2px solid var(--accent); padding-bottom: 6px; }
-  .bab-nomor { font: 500 .72rem var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: .08em; }
-  .bab-judul { font: 600 1.02rem var(--sans); letter-spacing: .02em; }
+  .bab { margin-top: 28px; }
+  .bab-kepala { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+  .bab-nomor { font: 600 .7rem var(--mono); color: var(--ink-2); text-transform: uppercase; letter-spacing: .05em; }
+  .bab-judul { font: 600 .95rem var(--sans); }
 
-  .pasal { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); margin-top: 16px; padding: 18px 20px; }
-  .pasal-kepala { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
-  .pasal-nomor { font: 600 1rem var(--serif); }
-  .badge { font: 600 .68rem var(--sans); letter-spacing: .02em; border-radius: 999px; padding: 2px 9px; }
-  .badge.ubah { background: var(--gold-soft); color: var(--gold); }
-  .badge.baru { background: var(--ins-soft); color: var(--ins); }
-  .badge.cabut { background: var(--red-soft); color: var(--red); }
-  .badge.draf { background: var(--surface-2); color: var(--ink-2); font-weight: 500; }
-  .histbtn { margin-left: auto; border: 1px solid var(--line); background: transparent; color: var(--ink-2); font: 500 .72rem var(--sans); border-radius: 999px; padding: 3px 11px; cursor: pointer; }
-  .histbtn:hover { color: var(--accent); border-color: var(--accent); }
+  .pasal { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; margin-top: 12px; padding: 0 16px 14px; }
+  .pasal-kepala { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; background: var(--surface-2); margin: 0 -16px 10px; padding: 8px 16px; border-bottom: 1px solid var(--line); border-radius: 6px 6px 0 0; }
+  .pasal-nomor { font: 600 .88rem var(--sans); }
+  .badge { font: 500 .7rem var(--sans); border: 1px solid transparent; border-radius: 999px; padding: 1px 8px; }
+  .badge.ubah { background: var(--gold-soft); color: var(--gold); border-color: var(--amber-line); }
+  .badge.baru { background: var(--ins-soft); color: var(--ins); border-color: var(--ins); }
+  .badge.cabut { background: var(--red-soft); color: var(--red); border-color: var(--red); }
+  .badge.draf { background: var(--surface-2); color: var(--ink-2); border-color: var(--line); }
+  .histbtn { margin-left: auto; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 500 .72rem var(--sans); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
+  .histbtn:hover { background: var(--surface-2); border-color: var(--ink-2); }
 
-  .ayat { display: grid; grid-template-columns: 2.6em 1fr; gap: 4px 8px; padding: 5px 0; }
-  .ayat .no { font: 400 .95rem var(--serif); color: var(--ink-2); }
-  .teks { font: 400 1.02rem/1.68 var(--serif); max-width: 66ch; }
+  .ayat { display: grid; grid-template-columns: 2.6em 1fr; gap: 4px 8px; padding: 4px 0; }
+  .ayat .no { font: 500 .85rem var(--sans); color: var(--ink-2); }
+  .teks { font: 400 .9rem/1.7 var(--sans); max-width: 70ch; }
   .teks.en { font-style: normal; }
   .tunggal .teks { margin: 2px 0; }
   .ayat-badges { grid-column: 2; display: flex; gap: 6px; }
-  .en-tag { font: 500 .65rem var(--sans); color: var(--ink-2); background: var(--surface-2); border-radius: 999px; padding: 1px 8px; vertical-align: 2px; margin-left: 6px; white-space: nowrap; }
+  .en-tag { font: 500 .62rem var(--sans); color: var(--ink-2); background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 0 7px; vertical-align: 2px; margin-left: 6px; white-space: nowrap; }
 
-  .riwayat { border-top: 1px dashed var(--line); margin-top: 12px; padding-top: 10px; display: none; }
+  .riwayat { border-top: 1px dashed var(--line); margin-top: 10px; padding-top: 10px; display: none; }
   .riwayat.open { display: block; }
-  .riwayat h4 { margin: 0 0 8px; font: 600 .72rem var(--sans); text-transform: uppercase; letter-spacing: .09em; color: var(--ink-2); }
-  .versi { background: var(--surface-2); border-radius: 8px; padding: 10px 14px; margin-bottom: 8px; }
-  .versi .label { font: 500 .72rem var(--mono); color: var(--ink-2); margin-bottom: 4px; }
-  .versi .teks { font-size: .95rem; }
+  .riwayat h4 { margin: 0 0 8px; font: 600 .7rem var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); }
+  .versi { background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; margin-bottom: 8px; }
+  .versi .label { font: 400 .7rem var(--mono); color: var(--ink-2); margin-bottom: 4px; }
+  .versi .teks { font-size: .85rem; }
   .versi del { background: var(--red-soft); color: var(--red); text-decoration: line-through; text-decoration-thickness: 1px; border-radius: 3px; padding: 0 2px; }
   .versi ins { background: var(--ins-soft); color: var(--ins); text-decoration: none; border-radius: 3px; padding: 0 2px; }
 
-  footer { margin-top: 48px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--ink-2); font-size: .78rem; }
+  footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 14px; color: var(--ink-2); font-size: .75rem; }
   footer a { color: var(--accent); }
   @media (prefers-reduced-motion: no-preference) {
-    .chip, .histbtn { transition: border-color .15s, background .15s; }
+    .chip, .histbtn { transition: border-color .12s, background .12s; }
   }
 </style>
 
@@ -131,7 +131,7 @@
   <header class="top">
     <div>
       <div class="wordmark"><span class="cari">Cari</span>Hukum</div>
-      <div class="tagline">Versi berlaku, riwayat perubahan, dan terjemahan — bukan naskah resmi</div><a href="/" style="font-size:.8rem;color:var(--accent)">← Semua peraturan</a>
+      <div class="tagline">Versi berlaku, riwayat perubahan, dan terjemahan — bukan naskah resmi</div><a href="/" style="font-size:.78rem;color:var(--accent);text-decoration:none">← Semua peraturan</a>
     </div>
     <div style="display:flex;align-items:center;gap:14px">
       <div class="lang" role="group" aria-label="Bahasa teks peraturan">

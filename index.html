@@ -1,50 +1,103 @@
 <!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>CariHukum</title>
 <style>
-  :root { --ground:#F7F9F7; --surface:#fff; --ink:#1D2522; --ink2:#56635D; --line:#D8E0DA;
-    --accent:#0E5A46; --accent-soft:#E3EEE9; --amber:#8A5A16; --amber-soft:#F7EDDC; }
+  :root { --ground:#ffffff; --surface:#ffffff; --surface-2:#f6f8fa; --ink:#1f2328; --ink-2:#59636e;
+    --line:#d0d7de; --accent:#0d6a4f; --accent-soft:#e6f4ec;
+    --amber-soft:#fff8c5; --amber-line:#d4a72c;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-    --ground:#101613; --surface:#171F1B; --ink:#E6ECE8; --ink2:#9AA8A0; --line:#2A362F;
-    --accent:#5FB894; --accent-soft:#1B2E27; --amber:#DBA95C; --amber-soft:#302716; } }
-  :root[data-theme="dark"] { --ground:#101613; --surface:#171F1B; --ink:#E6ECE8; --ink2:#9AA8A0;
-    --line:#2A362F; --accent:#5FB894; --accent-soft:#1B2E27; --amber:#DBA95C; --amber-soft:#302716; }
+    --ground:#0d1117; --surface:#0d1117; --surface-2:#161b22; --ink:#e6edf3; --ink-2:#9198a1;
+    --line:#30363d; --accent:#3fb950; --accent-soft:#12261e;
+    --amber-soft:#271d12; --amber-line:#9e6a03; } }
+  :root[data-theme="dark"] { --ground:#0d1117; --surface:#0d1117; --surface-2:#161b22;
+    --ink:#e6edf3; --ink-2:#9198a1; --line:#30363d; --accent:#3fb950; --accent-soft:#12261e;
+    --amber-soft:#271d12; --amber-line:#9e6a03; }
   * { box-sizing:border-box } body { margin:0; background:var(--ground); color:var(--ink);
-    font-family:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif; line-height:1.55 }
-  .wrap { max-width:880px; margin:0 auto; padding:28px 20px 80px }
-  h1 { font-size:1.6rem; margin:0 } h1 .cari { color:var(--accent) }
-  .tag { color:var(--ink2); font-size:.9rem; margin:4px 0 18px }
-  .notice { background:var(--amber-soft); color:var(--amber); border-radius:10px;
-    padding:10px 14px; font-size:.8rem; margin-bottom:24px }
-  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px }
-  .kartu { display:block; background:var(--surface); border:1px solid var(--line); border-radius:12px;
-    padding:16px; text-decoration:none; color:var(--ink) }
-  a.kartu:hover { border-color:var(--accent) }
-  .kartu .nama { font-weight:600 } .kartu .judul { color:var(--ink2); font-size:.85rem; margin:2px 0 8px }
-  .kartu.mati { opacity:.75 }
-  .chip { font-size:.68rem; font-weight:600; border-radius:999px; padding:2px 9px }
-  .chip.hijau { background:var(--accent-soft); color:var(--accent) }
-  .chip.abu { background:var(--line); color:var(--ink2) }
-  footer { margin-top:40px; border-top:1px solid var(--line); padding-top:14px;
-    color:var(--ink2); font-size:.78rem } footer a { color:var(--accent) }
+    font-family:var(--sans); font-size:14px; line-height:1.5 }
+  .wrap { max-width:960px; margin:0 auto; padding:0 24px 64px }
+  header.top { display:flex; align-items:center; justify-content:space-between; gap:16px;
+    padding:14px 0; border-bottom:1px solid var(--line); margin-bottom:24px }
+  .wordmark { font-weight:700; font-size:1.05rem; color:var(--ink); text-decoration:none }
+  .wordmark .cari { color:var(--accent) }
+  .kanan { display:flex; align-items:center; gap:16px; font-size:.8rem }
+  .kanan a { color:var(--ink-2); text-decoration:none } .kanan a:hover { color:var(--accent) }
+  h1 { font-size:1.25rem; margin:0 0 2px } .sub { color:var(--ink-2); font-size:.8rem; margin-bottom:16px }
+  .notice { background:var(--amber-soft); border:1px solid var(--amber-line); border-radius:6px;
+    padding:8px 12px; font-size:.78rem; margin-bottom:20px }
+  .daftar { border:1px solid var(--line); border-radius:6px }
+  .baris { padding:12px 16px }
+  .baris + .baris { border-top:1px solid var(--line) }
+  .atas { display:flex; align-items:center; gap:8px }
+  .nm { font-weight:600; font-size:.92rem; color:var(--accent); text-decoration:none }
+  .nm:hover { text-decoration:underline }
+  .nm.mati { color:var(--ink); opacity:.75 }
+  .desc { color:var(--ink-2); font-size:.82rem; margin-top:2px; max-width:75ch }
+  .metabaris { color:var(--ink-2); font-size:.72rem; margin-top:5px }
+  .badge { font:500 .68rem var(--sans); border-radius:999px; padding:1px 8px; border:1px solid var(--line) }
+  .badge.hijau { background:var(--accent-soft); color:var(--accent); border-color:var(--accent) }
+  .badge.abu { background:var(--surface-2); color:var(--ink-2) }
+  footer { margin-top:32px; border-top:1px solid var(--line); padding-top:14px;
+    color:var(--ink-2); font-size:.75rem } footer a { color:var(--accent) }
+  a:focus-visible { outline:2px solid var(--accent); outline-offset:2px }
 </style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap">
 <div class="wrap">
-  <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px">
-    <h1><span class="cari">Cari</span>Hukum</h1>
-    <a id="ch-akun" href="/akun/" style="font:500 .8rem var(--sans,sans-serif);color:var(--accent);text-decoration:none;white-space:nowrap">Masuk</a>
+  <header class="top">
+    <a class="wordmark" href="/"><span class="cari">Cari</span>Hukum</a>
+    <div class="kanan"><a href="/api/index.json">API</a><a id="ch-akun" href="/akun/" style="font:500 .8rem var(--sans,sans-serif);color:var(--accent);text-decoration:none;white-space:nowrap">Masuk</a></div>
+  </header>
+  <h1>Peraturan perundang-undangan</h1>
+  <div class="sub">2 tersedia terstruktur · 10 terindeks — terkonsolidasi, dengan riwayat perubahan, dwibahasa. Staging.</div>
+  <div class="notice">⚠ Situs percobaan (noindex). Teks bukan naskah resmi; untuk keperluan hukum selalu rujuk PDF Lembaran Negara.</div>
+  <div class="daftar"><div class="baris">
+    <div class="atas"><a class="nm" href="/uu/2008/11/">UU ITE 11/2008</a> <span class="badge hijau">irisan pilot</span></div>
+    <div class="desc">Informasi dan Transaksi Elektronik</div>
+    <div class="metabaris">Berlaku 2008-04-21 · status: diubah</div>
   </div>
-  <div class="tag">Peraturan perundang-undangan Indonesia — terkonsolidasi, dengan riwayat perubahan, dwibahasa. Staging.</div>
-  <div class="notice">⚠ Situs percobaan (noindex). Teks bukan naskah resmi; selalu rujuk PDF Lembaran Negara.</div>
-  <div class="grid"><a class="kartu" href="/uu/2008/11/"><div class="nama">UU ITE 11/2008</div><div class="judul">Informasi dan Transaksi Elektronik</div><span class="chip hijau">tersedia — irisan pilot</span></a>
-<a class="kartu" href="/uud/1945/"><div class="nama">UUD 1945</div><div class="judul">Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div><span class="chip hijau">tersedia — irisan pilot</span></a>
-<div class="kartu mati"><div class="nama">UU 12/2011</div><div class="judul">Pembentukan Peraturan Perundang-Undangan</div><span class="chip abu">metadata terpanen</span></div>
-<div class="kartu mati"><div class="nama">UU 19/2016</div><div class="judul">Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik</div><span class="chip abu">karya perubahan</span></div>
-<div class="kartu mati"><div class="nama">KUHP (UU 1/2023)</div><div class="judul">Kitab Undang-Undang Hukum Pidana</div><span class="chip abu">karya perubahan</span></div>
-<div class="kartu mati"><div class="nama">UU 1/2024</div><div class="judul">Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik</div><span class="chip abu">karya perubahan</span></div>
-<div class="kartu mati"><div class="nama">Perubahan I</div><div class="judul">Perubahan Pertama Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div><span class="chip abu">karya perubahan</span></div>
-<div class="kartu mati"><div class="nama">Perubahan II</div><div class="judul">Perubahan Kedua Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div><span class="chip abu">karya perubahan</span></div>
-<div class="kartu mati"><div class="nama">Perubahan III</div><div class="judul">Perubahan Ketiga Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div><span class="chip abu">karya perubahan</span></div>
-<div class="kartu mati"><div class="nama">Perubahan IV</div><div class="judul">Perubahan Keempat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div><span class="chip abu">karya perubahan</span></div></div>
-  <footer>Data terbuka · <a href="/api/index.json">API</a> · <a href="/akun/">Akun</a> · Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014).</footer>
+<div class="baris">
+    <div class="atas"><a class="nm" href="/uud/1945/">UUD 1945</a> <span class="badge hijau">irisan pilot</span></div>
+    <div class="desc">Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
+    <div class="metabaris">Berlaku 1945-08-18 · status: berlaku</div>
+  </div>
+<div class="baris">
+    <div class="atas"><span class="nm mati">UU 12/2011</span> <span class="badge abu">metadata terpanen</span></div>
+    <div class="desc">Pembentukan Peraturan Perundang-Undangan</div>
+    <div class="metabaris">Berlaku 2011-08-12 · status: berlaku</div>
+  </div>
+<div class="baris">
+    <div class="atas"><span class="nm mati">UU 19/2016</span> <span class="badge abu">karya perubahan</span></div>
+    <div class="desc">Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik</div>
+    <div class="metabaris">Berlaku 2016-11-25 · status: diubah</div>
+  </div>
+<div class="baris">
+    <div class="atas"><span class="nm mati">KUHP (UU 1/2023)</span> <span class="badge abu">karya perubahan</span></div>
+    <div class="desc">Kitab Undang-Undang Hukum Pidana</div>
+    <div class="metabaris">Berlaku 2026-01-02 · status: berlaku</div>
+  </div>
+<div class="baris">
+    <div class="atas"><span class="nm mati">UU 1/2024</span> <span class="badge abu">karya perubahan</span></div>
+    <div class="desc">Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik</div>
+    <div class="metabaris">Berlaku 2024-01-02 · status: berlaku</div>
+  </div>
+<div class="baris">
+    <div class="atas"><span class="nm mati">Perubahan I</span> <span class="badge abu">karya perubahan</span></div>
+    <div class="desc">Perubahan Pertama Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
+    <div class="metabaris">Berlaku 1999-10-19 · status: berlaku</div>
+  </div>
+<div class="baris">
+    <div class="atas"><span class="nm mati">Perubahan II</span> <span class="badge abu">karya perubahan</span></div>
+    <div class="desc">Perubahan Kedua Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
+    <div class="metabaris">Berlaku 2000-08-18 · status: berlaku</div>
+  </div>
+<div class="baris">
+    <div class="atas"><span class="nm mati">Perubahan III</span> <span class="badge abu">karya perubahan</span></div>
+    <div class="desc">Perubahan Ketiga Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
+    <div class="metabaris">Berlaku 2001-11-09 · status: berlaku</div>
+  </div>
+<div class="baris">
+    <div class="atas"><span class="nm mati">Perubahan IV</span> <span class="badge abu">karya perubahan</span></div>
+    <div class="desc">Perubahan Keempat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
+    <div class="metabaris">Berlaku 2002-08-10 · status: berlaku</div>
+  </div></div>
+  <footer>Data terbuka (CC0) · <a href="/api/index.json">API</a> · <a href="/akun/">Akun</a> · Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014).</footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script>
