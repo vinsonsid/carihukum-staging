@@ -34,10 +34,10 @@
     "target": "uud-1945"
    }
   ],
-  "catatan_kurasi": "STATUS KHUSUS — KODIFIKASI KOLONIAL, BUKAN UU RI: BW adalah produk Hindia Belanda (Stb. 1847-23, berlaku 1 Mei 1848) yang tetap berlaku via Aturan Peralihan UUD 1945. TEKS OTENTIK BERBAHASA BELANDA; teks Indonesia di sini mengikuti berkas yang didistribusikan JDIH Mahkamah Agung RI sebagai 'File Peraturan' KUHPerdata — terjemahan tidak resmi yang lazim dipakai praktik peradilan; untuk kepastian hukum rujuk teks Belanda. SEBAGIAN MATERI TIDAK BERLAKU LAGI: Buku II sepanjang mengenai bumi/air/kekayaan alam dicabut UU 5/1960 (UUPA, kecuali ketentuan hipotek); ketentuan perkawinan Buku I dinyatakan tidak berlaku 'sejauh telah diatur' UU 1/1974 (Pasal 66); jaminan fidusia, hak tanggungan, dan kepailitan kini diatur UU tersendiri. Anotasi per bagian menandai hal ini di teks.",
+  "catatan_kurasi": "STATUS KHUSUS — KODIFIKASI KOLONIAL, BUKAN UU RI: BW adalah produk Hindia Belanda (Stb. 1847-23, berlaku 1 Mei 1848) yang tetap berlaku via Aturan Peralihan UUD 1945. TEKS OTENTIK BERBAHASA BELANDA; teks Indonesia di sini mengikuti berkas yang didistribusikan JDIH Mahkamah Agung RI sebagai 'File Peraturan' KUHPerdata — terjemahan tidak resmi yang lazim dipakai praktik peradilan; untuk kepastian hukum rujuk teks Belanda. SEBAGIAN MATERI TIDAK BERLAKU LAGI: Buku II sepanjang mengenai bumi/air/kekayaan alam dicabut UU 5/1960 (UUPA, kecuali ketentuan hipotek); ketentuan perkawinan Buku I dinyatakan tidak berlaku 'sejauh telah diatur' UU 1/1974 (Pasal 66); jaminan fidusia, hak tanggungan, dan kepailitan kini diatur UU tersendiri. Anotasi per bagian menandai hal ini di teks. DIVERIFIKASI SILANG terhadap kompilasi digital hukumonline (raw/pdf/kuhperdata-1847-pembanding-hukumonline.pdf): 2.494/2.497 unit identik verbatim; koreksi bercatatan atas cacat berkas MA: Pasal 5b dipisah dari 5a, Pasal 1152 bis/1603i bis/1603i ter/1603s bis dipulihkan headingnya, salah ketik substantif Pasal 1156 ('maka debitur'->'maka kreditur') dikoreksi mengikuti kedua pembanding.",
   "bahasa_tampilan": "id"
  },
- "dihasilkan": "2026-09-01T17:48:37.490Z",
+ "dihasilkan": "2026-09-01T17:57:45.299Z",
  "timeline": [
   {
    "tanggal": "1848-05-01",
@@ -160,8 +160,19 @@
          "id": "pasal-5a",
          "tipe": "pasal",
          "nomor": "5a",
+         "verifikasi": "pdf-ocr",
+         "teks": "Anak sah, dan juga anak tidak sah namun yang diakui oleh bapaknya, memakai nama keturunan bapaknya.",
+         "catatan_kurasi": "Berkas sumber MA menggabungkan Pasal 5b ke Pasal 5a tanpa heading; dipisah sesuai struktur BW (pembanding: kompilasi digital hukumonline memuat keduanya terpisah).",
+         "sumber": "kuhperdata-1847",
+         "berlaku_mulai": "1848-05-01"
+        },
+        {
+         "id": "pasal-5b",
+         "tipe": "pasal",
+         "nomor": "5b",
+         "teks": "Anak-anak tidak sah yang tidak diakui oleh bapaknya, memakai nama keturunan ibunya.",
          "verifikasi": "pdf-resmi",
-         "teks": "Anak sah, dan juga anak tidak sah namun yang diakui oleh bapaknya, memakai nama keturunan bapaknya; anak-anak tidak sah yang tidak diakui oleh bapaknya, memakai nama keturunan ibunya.",
+         "catatan_kurasi": "Berkas sumber MA menggabungkan Pasal 5b ke Pasal 5a tanpa heading; dipisah sesuai struktur BW (pembanding: kompilasi digital hukumonline memuat keduanya terpisah).",
          "sumber": "kuhperdata-1847",
          "berlaku_mulai": "1848-05-01"
         },
@@ -14053,7 +14064,16 @@
        "tipe": "pasal",
        "nomor": "1152",
        "verifikasi": "pdf-resmi",
-       "teks": "Hak gadai atas barang bergerak yang berwujud dan atas piutang bawa timbul dengan cara menyerahkan gadai itu kepada kekuasaan kreditur atau orang yang memberikan gadai atau yang dikembalikan atas kehendak kreditur. Hak gadai hapus bila gadai itu lepas dari kekuasaan pemegang gadai. Namun bila barang itu hilang, atau diambil dari kekuasaannya, maka ia berhak untuk menuntutnya kembali menurut Pasal 1977 alinea kedua, dan bila gadai itu telah kembali, maka hak gadai itu dianggap tidak pernah hilang. Hal tidak adanya wewenang pemberi gadai untuk bertindak bebas atas barang itu, tidak dapat dipertanggungjawabkan kepada kreditur, tanpa mengurangi hak orang yang telah kehilangan atau kecurigaan barang itu untuk menuntutnya kembali. Pasal 1152 bis Untuk melahirkan hak gadai atas surat tunjuk, selain penyerahan endosemennya, juga dipersyaratkan penyerahan suratnya.",
+       "teks": "Hak gadai atas barang bergerak yang berwujud dan atas piutang bawa timbul dengan cara menyerahkan gadai itu kepada kekuasaan kreditur atau orang yang memberikan gadai atau yang dikembalikan atas kehendak kreditur. Hak gadai hapus bila gadai itu lepas dari kekuasaan pemegang gadai. Namun bila barang itu hilang, atau diambil dari kekuasaannya, maka ia berhak untuk menuntutnya kembali menurut Pasal 1977 alinea kedua, dan bila gadai itu telah kembali, maka hak gadai itu dianggap tidak pernah hilang. Hal tidak adanya wewenang pemberi gadai untuk bertindak bebas atas barang itu, tidak dapat dipertanggungjawabkan kepada kreditur, tanpa mengurangi hak orang yang telah kehilangan atau kecurigaan barang itu untuk menuntutnya kembali.",
+       "sumber": "kuhperdata-1847",
+       "berlaku_mulai": "1848-05-01"
+      },
+      {
+       "id": "pasal-1152-bis",
+       "tipe": "pasal",
+       "nomor": "1152 bis",
+       "verifikasi": "pdf-resmi",
+       "teks": "Untuk melahirkan hak gadai atas surat tunjuk, selain penyerahan endosemennya, juga dipersyaratkan penyerahan suratnya.",
        "sumber": "kuhperdata-1847",
        "berlaku_mulai": "1848-05-01"
       },
@@ -14088,8 +14108,9 @@
        "id": "pasal-1156",
        "tipe": "pasal",
        "nomor": "1156",
-       "verifikasi": "pdf-resmi",
-       "teks": "Dalam segala hal, bila debitur atau pemberi gadai Ialai untuk melakukan kewajibannya, maka debitur dapat menuntut lewat pengadilan agar barang gadai itu dijual untuk melunasi utangnya beserta bunga dan biayanya, menurut cara yang akan ditentukan oleh Hakim, atau agar hakim mengizinkan barang gadai itu tetap berada pada kreditur untuk menutup suatu jumlah yang akan ditentukan oleh hakim dalam suatu keputusan, sampai sebesar utang beserta bunga dan biayanya. Tentang pemindahtanganan barang gadai yang dimaksud dalam pasal ini dan pasal yang lampau, kreditur wajib untuk memberitahukannya kepada pemberi gadai, selambat-lambatnya pada hari berikutnya bila setiap hari ada hubungan pos atau telegrap, atau jika tidak begitu halnya, dengan pos yang berangkat pertama. Berita dengan telegrap atau dengan surat tercatat dianggap sebagai berita yang pantas.",
+       "verifikasi": "pdf-ocr",
+       "teks": "Dalam segala hal, bila debitur atau pemberi gadai lalai untuk melakukan kewajibannya, maka kreditur dapat menuntut lewat pengadilan agar barang gadai itu dijual untuk melunasi utangnya beserta bunga dan biayanya, menurut cara yang akan ditentukan oleh Hakim, atau agar hakim mengizinkan barang gadai itu tetap berada pada kreditur untuk menutup suatu jumlah yang akan ditentukan oleh hakim dalam suatu keputusan, sampai sebesar utang beserta bunga dan biayanya. Tentang pemindahtanganan barang gadai yang dimaksud dalam pasal ini dan pasal yang lampau, kreditur wajib untuk memberitahukannya kepada pemberi gadai, selambat-lambatnya pada hari berikutnya bila setiap hari ada hubungan pos atau telegrap, atau jika tidak begitu halnya, dengan pos yang berangkat pertama. Berita dengan telegrap atau dengan surat tercatat dianggap sebagai berita yang pantas.",
+       "catatan_kurasi": "Salah ketik berkas sumber MA dikoreksi: 'Ialai'->'lalai'; 'maka debitur dapat menuntut'->'maka kreditur dapat menuntut' (yang berhak menuntut penjualan gadai adalah kreditur — bunyi BW Belanda 'de schuldeischer'; pembanding: kompilasi hukumonline).",
        "sumber": "kuhperdata-1847",
        "berlaku_mulai": "1848-05-01"
       },
@@ -20056,7 +20077,25 @@
          "tipe": "pasal",
          "nomor": "1603i",
          "verifikasi": "pdf-resmi",
-         "teks": "Kecuali dalam hal termaksud pada kedua alinea berikut pasal ini, dalam memutuskan hubungan kerja harus diindahkan suatu tenggang waktu selama satu bulan. Dalam suatu perjanjian atau dalam reglemen dapat ditetapkannya,. bahwa tenggang waktu termaksud pada alinea yang lalu, bagi buruh dapat diperpanjang untuk waktu paling lama satu bulan, jika hubungan kerja pada waktu pemberitahuan pemutusan hubungan kerja itu telah sedikit-dikitnya dua tahun terus-menerus. Tenggang waktu termaksud pada alinea pertama, bagi majikan diperpanjang berturut-turut dengan satu bulan, dua bulan atau tiga bulan, jika pada waktu pemberitahuan pemutusan, hubungan kerja telah berlangsung sedikit-dikitnya satu tahun tetapi kurang dari dua tahun, sedikit-dikitnya dua tahun tetapi kurang dari tiga tahun, atau sedikit-dikitnya tiga tahun terus-menerus. Tiap perjanjian yang bertentangan dengan ketentuan pasal ini, adalah batal. Pasal 1603i bis Suatu perjanjian kerja baru yang diadakan seorang buruh dalam waktu empat minggu setelah berakhirnya hubungan kerja sebelumnya, tidak peduli apakah hubungan kerja yang lalu itu diadakan untuk waktu tertentu atau waktu tidak tentu, dengan majikan yang sama dan untuk waktu tertentu yang kurang dari enam bulan, dipandang diadakan untuk waktu tidak tentu. Pasal 1603i ter Hubungan kerja dengan majikan yang sama, yang terputus dalam waktu kurang dari empat minggu, atau yang segera bersambung dengan cara termaksud pada Pasal 603 f, sepanjang mengenai tenggang waktu pernyataan pemutusan termaksud Pasal 16031, dipandang sebagai hubungan kerja yang terus-menerus.",
+         "teks": "Kecuali dalam hal termaksud pada kedua alinea berikut pasal ini, dalam memutuskan hubungan kerja harus diindahkan suatu tenggang waktu selama satu bulan. Dalam suatu perjanjian atau dalam reglemen dapat ditetapkannya,. bahwa tenggang waktu termaksud pada alinea yang lalu, bagi buruh dapat diperpanjang untuk waktu paling lama satu bulan, jika hubungan kerja pada waktu pemberitahuan pemutusan hubungan kerja itu telah sedikit-dikitnya dua tahun terus-menerus. Tenggang waktu termaksud pada alinea pertama, bagi majikan diperpanjang berturut-turut dengan satu bulan, dua bulan atau tiga bulan, jika pada waktu pemberitahuan pemutusan, hubungan kerja telah berlangsung sedikit-dikitnya satu tahun tetapi kurang dari dua tahun, sedikit-dikitnya dua tahun tetapi kurang dari tiga tahun, atau sedikit-dikitnya tiga tahun terus-menerus. Tiap perjanjian yang bertentangan dengan ketentuan pasal ini, adalah batal.",
+         "sumber": "kuhperdata-1847",
+         "berlaku_mulai": "1848-05-01"
+        },
+        {
+         "id": "pasal-1603i-bis",
+         "tipe": "pasal",
+         "nomor": "1603i bis",
+         "verifikasi": "pdf-resmi",
+         "teks": "Suatu perjanjian kerja baru yang diadakan seorang buruh dalam waktu empat minggu setelah berakhirnya hubungan kerja sebelumnya, tidak peduli apakah hubungan kerja yang lalu itu diadakan untuk waktu tertentu atau waktu tidak tentu, dengan majikan yang sama dan untuk waktu tertentu yang kurang dari enam bulan, dipandang diadakan untuk waktu tidak tentu.",
+         "sumber": "kuhperdata-1847",
+         "berlaku_mulai": "1848-05-01"
+        },
+        {
+         "id": "pasal-1603i-ter",
+         "tipe": "pasal",
+         "nomor": "1603i ter",
+         "verifikasi": "pdf-resmi",
+         "teks": "Hubungan kerja dengan majikan yang sama, yang terputus dalam waktu kurang dari empat minggu, atau yang segera bersambung dengan cara termaksud pada Pasal 603 f, sepanjang mengenai tenggang waktu pernyataan pemutusan termaksud Pasal 16031, dipandang sebagai hubungan kerja yang terus-menerus.",
          "sumber": "kuhperdata-1847",
          "berlaku_mulai": "1848-05-01"
         },
@@ -20348,7 +20387,16 @@
          "tipe": "pasal",
          "nomor": "1603s",
          "verifikasi": "pdf-resmi",
-         "teks": "Dalam hal salah satu pihak dengan sengaja atau karena melawan hukum, pihak lainnya berhak menuntut jumlah termaksud pada Pasal 1603 q atau ganti rugi sepenuhnya. Ketentuan ini berlaku juga jika salah satu pihak dengan sengaja atau karena salahnya memberi alasan mendesak kepada pihak lainnya untuk memutuskan hubungan kerja tanpa pernyataan pemutusan hubungan kerja atau tanpa mengindahkan ketentuan-ketentuan yang berlaku bagi pernyataan pemutusan hubungan kerja dan pihak lain itu menggunakan haknya itu. Pasal 1603s bis Jika majikan memutuskan hubungan kerja dengan maksud menghindari kewajibannya untuk memberi cuti setelah suatu masa kerja tertentu yang telah diperjanjikan dalam atau berhubungan dengan perjanjian, maka buruh berhak di samping menuntut apa yang dapat ia terima berhubung dengan pemberhentiannya berdasarkan aturan-aturan lain, juga menuntut suatu ganti rugi sebesar gaji yang menurut perjanjian seharusnya diterimanya selama waktu cuti, dan jika dalam perjanjian diperjanjikan suatu perjalanan dengan cuma-cuma, sejumlah uang yang diperlukan untuk perjalanan cuma-cuma menurut perjanjian ke tempat asal atau ke tempat cuti, pada saat pemutusan hubungan kerja. Jika di luar hal termaksud pada alinea lalu, sesudah lewat separuh dan masa kerja yang ditetapkan dalam perjanjian untuk memberikan cuti, majikan secara sepihak memutuskan hubungan kerja tanpa alasan mendesak, maka ía wajib, di samping membayar apa yang harus ia bayar kepada buruh berdasarkan aturan-aturan lain, juga membayar sejumlah uang yang perbandingannya dengan jumlah ganti rugi termaksud pada alinea pertama adalah sama dengan perbandingan antara masa kerja yang diperlukan untuk memperoleh cuti yang telah lampau pada waktu pemutusan hubungan kerja dan masa kerja yang diperlukan untuk mendapatkan cuti penuh. Dalam menghitung masa kerja, bulan pemutusan hubungan kerja dihitung sebagai satu bulan penuh. Ketentuan di atas berlaku juga jika buruh setelah lewat bagian dari masa kerja tersebut pada alinea yang lalu, memutuskan hubungan kerja dengan alasan mendesak yang disebabkan oleh majikan, atau jika Pengadilan menyatakan putusnya perjanjian berdasarkan alasan penting yang tak mendesak sebagaimana termaksud dalam Pasal 1603 v, atau berdasarkan alasan mendesak yang disebabkan oleh majikan. atau berdasarkan Pasal 1267, karena majikan tidak memenuhi kewajiban-kewajibannya. Jika Pengadilan menyatakan putusnya perjanjian berdasarkan alasan lain dan alasan mendesak, maka ia berwenang mengurangi jumlah uang termaksud dalam alinea kedua, sampai pada suatu jumlah yang menurut hal ihwal kejadian dipandangnya adil.",
+         "teks": "Dalam hal salah satu pihak dengan sengaja atau karena melawan hukum, pihak lainnya berhak menuntut jumlah termaksud pada Pasal 1603 q atau ganti rugi sepenuhnya. Ketentuan ini berlaku juga jika salah satu pihak dengan sengaja atau karena salahnya memberi alasan mendesak kepada pihak lainnya untuk memutuskan hubungan kerja tanpa pernyataan pemutusan hubungan kerja atau tanpa mengindahkan ketentuan-ketentuan yang berlaku bagi pernyataan pemutusan hubungan kerja dan pihak lain itu menggunakan haknya itu.",
+         "sumber": "kuhperdata-1847",
+         "berlaku_mulai": "1848-05-01"
+        },
+        {
+         "id": "pasal-1603s-bis",
+         "tipe": "pasal",
+         "nomor": "1603s bis",
+         "verifikasi": "pdf-resmi",
+         "teks": "Jika majikan memutuskan hubungan kerja dengan maksud menghindari kewajibannya untuk memberi cuti setelah suatu masa kerja tertentu yang telah diperjanjikan dalam atau berhubungan dengan perjanjian, maka buruh berhak di samping menuntut apa yang dapat ia terima berhubung dengan pemberhentiannya berdasarkan aturan-aturan lain, juga menuntut suatu ganti rugi sebesar gaji yang menurut perjanjian seharusnya diterimanya selama waktu cuti, dan jika dalam perjanjian diperjanjikan suatu perjalanan dengan cuma-cuma, sejumlah uang yang diperlukan untuk perjalanan cuma-cuma menurut perjanjian ke tempat asal atau ke tempat cuti, pada saat pemutusan hubungan kerja. Jika di luar hal termaksud pada alinea lalu, sesudah lewat separuh dan masa kerja yang ditetapkan dalam perjanjian untuk memberikan cuti, majikan secara sepihak memutuskan hubungan kerja tanpa alasan mendesak, maka ía wajib, di samping membayar apa yang harus ia bayar kepada buruh berdasarkan aturan-aturan lain, juga membayar sejumlah uang yang perbandingannya dengan jumlah ganti rugi termaksud pada alinea pertama adalah sama dengan perbandingan antara masa kerja yang diperlukan untuk memperoleh cuti yang telah lampau pada waktu pemutusan hubungan kerja dan masa kerja yang diperlukan untuk mendapatkan cuti penuh. Dalam menghitung masa kerja, bulan pemutusan hubungan kerja dihitung sebagai satu bulan penuh. Ketentuan di atas berlaku juga jika buruh setelah lewat bagian dari masa kerja tersebut pada alinea yang lalu, memutuskan hubungan kerja dengan alasan mendesak yang disebabkan oleh majikan, atau jika Pengadilan menyatakan putusnya perjanjian berdasarkan alasan penting yang tak mendesak sebagaimana termaksud dalam Pasal 1603 v, atau berdasarkan alasan mendesak yang disebabkan oleh majikan. atau berdasarkan Pasal 1267, karena majikan tidak memenuhi kewajiban-kewajibannya. Jika Pengadilan menyatakan putusnya perjanjian berdasarkan alasan lain dan alasan mendesak, maka ia berwenang mengurangi jumlah uang termaksud dalam alinea kedua, sampai pada suatu jumlah yang menurut hal ihwal kejadian dipandangnya adil.",
          "sumber": "kuhperdata-1847",
          "berlaku_mulai": "1848-05-01"
         },
@@ -25017,9 +25065,9 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 2492,
-  "pdf-resmi": 2492,
-  "pdf-ocr": 0,
+  "total": 2497,
+  "pdf-resmi": 2495,
+  "pdf-ocr": 2,
   "draf": 0,
   "lainnya": 0
  },
