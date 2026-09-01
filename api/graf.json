@@ -1,6 +1,12 @@
 {
  "nodes": [
   {
+   "id": "kuhperdata-1847",
+   "nama": "KODIFIKASI 23/1847",
+   "jenis": "kodifikasi",
+   "jalur": null
+  },
+  {
    "id": "permenkumham-2019-8",
    "nama": "PERMENKUMHAM 8/2019",
    "jenis": "permenkumham",
@@ -17,6 +23,36 @@
    "nama": "PERPRES 87/2014",
    "jenis": "perpres",
    "jalur": null
+  },
+  {
+   "id": "pp-1998-37",
+   "nama": "PP 37/1998",
+   "jenis": "pp",
+   "jalur": "/pp/1998/37/"
+  },
+  {
+   "id": "pp-2016-24",
+   "nama": "PP 24/2016",
+   "jenis": "pp",
+   "jalur": null
+  },
+  {
+   "id": "uu-1946-1",
+   "nama": "UU 1/1946",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-1974-1",
+   "nama": "UU 1/1974",
+   "jenis": "uu",
+   "jalur": "/uu/1974/1/"
+  },
+  {
+   "id": "uu-2004-30",
+   "nama": "UU 30/2004",
+   "jenis": "uu",
+   "jalur": "/uu/2004/30/"
   },
   {
    "id": "uu-2008-11",
@@ -37,6 +73,12 @@
    "jalur": "/uu/2011/12/"
   },
   {
+   "id": "uu-2014-2",
+   "nama": "UU 2/2014",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
    "id": "uu-2016-19",
    "nama": "UU 19/2016",
    "jenis": "uu",
@@ -45,6 +87,12 @@
   {
    "id": "uu-2019-15",
    "nama": "UU 15/2019",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-2019-16",
+   "nama": "UU 16/2019",
    "jenis": "uu",
    "jalur": null
   },
@@ -105,7 +153,32 @@
  ],
  "edges": [
   {
+   "dari": "kuhperdata-1847",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
    "dari": "perpres-2012-33",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pp-1998-37",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pp-2016-24",
+   "ke": "pp-1998-37",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uu-1974-1",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2004-30",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
   },
@@ -125,6 +198,21 @@
    "tipe": "dasar-hukum"
   },
   {
+   "dari": "uu-2014-2",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2014-2",
+   "ke": "uu-2004-30",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2014-2",
+   "ke": "uu-2004-30",
+   "tipe": "perubahan"
+  },
+  {
    "dari": "uu-2016-19",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
@@ -142,6 +230,21 @@
   {
    "dari": "uu-2019-15",
    "ke": "uu-2011-12",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uu-2019-16",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2019-16",
+   "ke": "uu-1974-1",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2019-16",
+   "ke": "uu-1974-1",
    "tipe": "perubahan"
   },
   {

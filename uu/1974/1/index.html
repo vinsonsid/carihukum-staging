@@ -1,0 +1,729 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>UU 1/1974 — Perkawinan · CariHukum</title>
+<style>
+  :root {
+    --ground: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f6f8fa;
+    --ink: #1f2328;
+    --ink-2: #59636e;
+    --line: #d0d7de;
+    --accent: #0d6a4f;
+    --accent-emph: #0a5540;
+    --accent-soft: #e6f4ec;
+    --gold: #9a6700;
+    --gold-soft: #fff8c5;
+    --amber-line: #d4a72c;
+    --red: #cf222e;
+    --red-soft: #ffebe9;
+    --ins: #1a7f37;
+    --ins-soft: #dafbe1;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 16px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.55; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px 64px; }
+
+  header.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 14px 0; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+  .wordmark { display: inline-block; font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; color: var(--ink); text-decoration: none; }
+  .wordmark .cari { color: var(--accent); }
+  a.wordmark:hover .cari { color: var(--accent-emph); }
+  .tagline { color: var(--ink-2); font-size: .8rem; }
+  .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface-2); }
+  .lang button { border: 0; background: transparent; color: var(--ink-2); font: 500 .78rem var(--sans); padding: 5px 12px; cursor: pointer; }
+  .lang button.on { background: var(--surface); color: var(--ink); box-shadow: inset 0 0 0 1px var(--line); border-radius: 6px; }
+  button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .notice { background: var(--gold-soft); border: 1px solid var(--amber-line); border-radius: 6px; padding: 8px 12px; font-size: .8rem; margin: 0 0 18px; }
+
+  nav.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
+  .tab { border: 0; background: transparent; color: var(--ink-2); padding: 8px 14px 10px; font: 500 .85rem var(--sans); cursor: pointer; border-bottom: 2px solid transparent; }
+  .tab.on { color: var(--ink); font-weight: 600; border-bottom-color: var(--accent); }
+
+  .meta { padding: 16px 0 4px; }
+  .strip-status { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: .8rem; color: var(--ink-2); margin-top: 10px; }
+  .chip-status { font: 600 .7rem var(--sans); border-radius: 999px; padding: 2px 10px; text-transform: capitalize; }
+  .chip-status.hijau { background: var(--ins-soft); color: var(--ins); border: 1px solid var(--ins); }
+  .chip-status.kuning { background: var(--gold-soft); color: var(--gold); border: 1px solid var(--amber-line); }
+  .strip-status .perhatian { color: var(--gold); font-weight: 600; }
+  .panel-bukti { border: 1px solid var(--line); border-radius: 6px; margin-top: 12px; font-size: .8rem; }
+  .panel-bukti summary { padding: 8px 12px; cursor: pointer; background: var(--surface-2); border-radius: 6px; }
+  .panel-bukti[open] summary { border-bottom: 1px solid var(--line); border-radius: 6px 6px 0 0; }
+  .tabel-bukti { width: 100%; border-collapse: collapse; }
+  .tabel-bukti td { padding: 6px 12px; vertical-align: top; border-top: 1px solid var(--line); }
+  .tabel-bukti tr:first-child td { border-top: 0; }
+  .tabel-bukti td:first-child { color: var(--ink-2); white-space: nowrap; width: 1%; }
+  .tabel-bukti a { color: var(--accent); }
+  .tk { font: 700 .68rem var(--mono); border-radius: 4px; padding: 1px 6px; }
+  .tk.t1 { background: var(--ins-soft); color: var(--ins); }
+  .tk.t2 { background: var(--accent-soft); color: var(--accent-emph); }
+  .tk.t3 { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--line); }
+  .tk.t4 { background: var(--gold-soft); color: var(--gold); }
+  .redup { color: var(--ink-2); }
+  .isi-jejaring { padding: 8px 12px; }
+  .jejaring-blok h4 { margin: 6px 0 4px; font: 600 .72rem var(--sans); text-transform: uppercase; letter-spacing: .04em; color: var(--ink-2); }
+  .jejaring-blok ul { margin: 0 0 8px; padding-left: 18px; }
+  .jejaring-blok li { margin: 2px 0; }
+  .jejaring-blok a { color: var(--accent); text-decoration: none; }
+  .jejaring-blok a:hover { text-decoration: underline; }
+  .mono { font-family: var(--mono); font-size: .95em; }
+  h1.judul { font: 600 1.45rem/1.3 var(--sans); margin: 0 0 4px; letter-spacing: -.01em; text-wrap: balance; }
+  .subjudul { color: var(--ink-2); font-size: .82rem; }
+  .subjudul .mono { font-family: var(--mono); font-size: .77rem; }
+
+  .timeline { margin: 18px 0 4px; }
+  .timeline .label { font: 600 .7rem var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); margin-bottom: 8px; }
+  .chips { display: flex; gap: 0; overflow-x: auto; padding-bottom: 6px; }
+  .chipwrap { display: flex; align-items: center; }
+  .chipwrap + .chipwrap::before { content: ""; width: 22px; height: 1px; background: var(--line); flex: none; }
+  .chip { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 7px 11px; text-align: left; cursor: pointer; min-width: 128px; }
+  .chip:hover { background: var(--surface-2); }
+  .chip .tgl { font: 400 .7rem var(--mono); color: var(--ink-2); }
+  .chip .nm { font: 600 .78rem var(--sans); color: var(--ink); margin-top: 2px; }
+  .chip .ops { font-size: .7rem; color: var(--ink-2); margin-top: 2px; }
+  .chip.on { border-color: var(--accent); background: var(--accent-soft); }
+  .chip.on .nm { color: var(--accent-emph); }
+  .chip.warn .ops { color: var(--gold); font-weight: 600; }
+  .asof { font-size: .78rem; color: var(--ink-2); margin: 6px 0 0; }
+  .asof strong { color: var(--accent-emph); }
+
+  .pending { background: var(--gold-soft); border: 1px solid var(--amber-line); border-radius: 6px; padding: 8px 12px; font-size: .78rem; margin: 12px 0; }
+
+  /* ---------- tata letak dua kolom: daftar isi + konten ---------- */
+  .tata { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 8px; }
+  .sisi { position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow-y: auto; padding-right: 4px; }
+  .sisi summary { display: none; }
+  .lompat { margin-bottom: 12px; }
+  .lompat input { width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; font: 400 .82rem var(--sans); background: var(--surface); color: var(--ink); }
+  .lompat input::placeholder { color: var(--ink-2); }
+  .toc-bab { margin-bottom: 12px; }
+  .toc-bab .kepala { font: 600 .72rem var(--sans); color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .toc-pasal { display: flex; flex-wrap: wrap; gap: 4px; }
+  .toc-pasal a { display: inline-block; min-width: 30px; text-align: center; border: 1px solid var(--line); border-radius: 6px; padding: 3px 6px; font: 500 .75rem var(--sans); color: var(--ink); text-decoration: none; background: var(--surface); }
+  .toc-pasal a:hover { border-color: var(--accent); color: var(--accent-emph); }
+  .toc-pasal a.aktif { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .toc-pasal a.cabut { color: var(--ink-2); text-decoration: line-through; }
+
+  @media (max-width: 900px) {
+    .tata { grid-template-columns: 1fr; gap: 12px; }
+    .sisi { position: static; max-height: none; border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; background: var(--surface-2); }
+    .sisi summary { display: list-item; font: 600 .85rem var(--sans); cursor: pointer; margin-bottom: 8px; }
+  }
+
+  .bab { margin-top: 26px; }
+  .bab:first-child { margin-top: 4px; }
+  .bab-kepala { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+  .bab-nomor { font: 600 .72rem var(--mono); color: var(--ink-2); text-transform: uppercase; letter-spacing: .05em; }
+  .bab-judul { font: 600 1rem var(--sans); }
+  .subbab { margin-top: 18px; }
+  .subbab-kepala { display: flex; align-items: baseline; gap: 8px; padding-bottom: 2px; }
+  .subbab-judul { font: 600 .88rem var(--sans); color: var(--ink-2); }
+
+  .pasal { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; margin-top: 12px; padding: 0 18px 14px; scroll-margin-top: 12px; }
+  .pasal.sorot { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .pasal-kepala { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; background: var(--surface-2); margin: 0 -18px 10px; padding: 8px 18px; border-bottom: 1px solid var(--line); border-radius: 6px 6px 0 0; }
+  .pasal-nomor { font: 600 .92rem var(--sans); }
+  .pasal-nomor a { color: inherit; text-decoration: none; }
+  .pasal-nomor a:hover { color: var(--accent-emph); }
+  .badge { font: 500 .7rem var(--sans); border: 1px solid transparent; border-radius: 999px; padding: 1px 8px; }
+  .badge.ubah { background: var(--gold-soft); color: var(--gold); border-color: var(--amber-line); }
+  .badge.baru { background: var(--ins-soft); color: var(--ins); border-color: var(--ins); }
+  .badge.cabut { background: var(--red-soft); color: var(--red); border-color: var(--red); }
+  .badge.tunda { background: var(--gold-soft); color: var(--gold); border-color: var(--amber-line); cursor: help; }
+  .histbtn { margin-left: auto; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 500 .74rem var(--sans); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
+  .histbtn:hover { background: var(--surface-2); border-color: var(--ink-2); }
+
+  .ayat { display: grid; grid-template-columns: 2.7em 1fr; gap: 4px 8px; padding: 5px 0; }
+  .ayat .no { font: 500 .9rem var(--sans); color: var(--ink-2); }
+  .teks { font-family: var(--sans); font-weight: 400; font-size: calc(.97rem * var(--skala, 1)); line-height: 1.75; max-width: 72ch; }
+  .teks a.ref { color: var(--accent-emph); text-decoration: none; border-bottom: 1px dashed var(--accent); }
+  .teks a.ref:hover { background: var(--accent-soft); }
+  dfn.istilah { font-style: normal; border-bottom: 1.5px dotted #8a63d2; cursor: help; }
+  dfn.istilah:hover, dfn.istilah:focus { background: #f3eefc; outline: none; }
+  dfn.istilah.lintas { border-bottom-style: dashed; border-bottom-color: var(--ink-2); }
+  dfn.istilah.lintas:hover, dfn.istilah.lintas:focus { background: var(--surface-2); }
+  .tip-lintas-chip { font: 600 .62rem var(--sans); background: var(--surface-2); color: var(--ink-2);
+    border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; vertical-align: 2px; }
+  .tip-peringatan { margin-top: 6px; padding: 6px 9px; background: var(--gold-soft);
+    border: 1px solid var(--amber-line); border-radius: 6px; font-size: .73rem; }
+  #tip { position: absolute; z-index: 60; max-width: 400px; display: none;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(31,35,40,.15); padding: 10px 13px; font-size: .8rem; line-height: 1.6; }
+  .tip-istilah { font-weight: 700; margin-bottom: 3px; }
+  .tip-def { color: var(--ink); max-height: 190px; overflow-y: auto; }
+  .tip-sumber { display: inline-block; margin-top: 7px; color: var(--accent); font-size: .72rem; text-decoration: none; }
+  .tip-sumber:hover { text-decoration: underline; }
+  .tunggal .teks { margin: 2px 0; }
+  .ayat-badges { grid-column: 2; display: flex; gap: 6px; }
+  .ayat .sub { grid-column: 2; }
+  .en-tag { font: 500 .62rem var(--sans); color: var(--ink-2); background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 0 7px; vertical-align: 2px; margin-left: 6px; white-space: nowrap; }
+
+  .pj { border-top: 1px dashed var(--line); margin-top: 10px; padding-top: 8px; }
+  .pj summary { cursor: pointer; font: 600 .74rem var(--sans); color: var(--ink-2); }
+  .pj summary:hover { color: var(--accent-emph); }
+  .pj-isi { white-space: pre-line; font-size: .88rem; line-height: 1.7; max-width: 72ch; margin-top: 8px;
+    background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+  .pj-label { font-size: .68rem; color: var(--ink-2); margin-top: 5px; }
+  .riwayat { border-top: 1px dashed var(--line); margin-top: 10px; padding-top: 10px; display: none; }
+  .riwayat.open { display: block; }
+  .riwayat h4 { margin: 0 0 8px; font: 600 .7rem var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); }
+  .versi { background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; margin-bottom: 8px; }
+  .versi .label { font: 400 .72rem var(--mono); color: var(--ink-2); margin-bottom: 4px; }
+  .versi .teks { font-size: .88rem; }
+  .versi del { background: var(--red-soft); color: var(--red); text-decoration: line-through; text-decoration-thickness: 1px; border-radius: 3px; padding: 0 2px; }
+  .versi ins { background: var(--ins-soft); color: var(--ins); text-decoration: none; border-radius: 3px; padding: 0 2px; }
+
+  .keatas { position: fixed; right: 18px; bottom: 18px; width: 38px; height: 38px; border-radius: 50%;
+    border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); font-size: 1rem;
+    cursor: pointer; opacity: 0; pointer-events: none; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  .keatas.tampak { opacity: 1; pointer-events: auto; }
+  .keatas:hover { color: var(--accent); border-color: var(--accent); }
+  footer { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 14px; color: var(--ink-2); font-size: .76rem; }
+  footer a { color: var(--accent); }
+  @media (prefers-reduced-motion: no-preference) {
+    .chip, .histbtn, .toc-pasal a { transition: border-color .12s, background .12s; }
+    .pasal { transition: border-color .25s, box-shadow .25s; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <a class="wordmark" href="/" title="Kembali ke Beranda"><span class="cari">Cari</span>Hukum</a>
+      <div class="tagline">Versi berlaku, riwayat perubahan, dan terjemahan — bukan naskah resmi</div><nav style="font-size:.78rem;margin-top:4px;display:flex;align-items:center;gap:8px">
+      <a href="/" style="display:inline-block;border:1px solid var(--line);border-radius:6px;padding:2px 10px;color:var(--accent);text-decoration:none;font-weight:600;background:var(--surface-2)">← Beranda</a>
+      <span style="color:var(--ink-2)">/ UU 1/1974</span></nav>
+    </div>
+    <div style="display:flex;align-items:center;gap:14px">
+      <div class="lang" role="group" aria-label="Ukuran huruf teks">
+        <button id="huruf-kecil" title="Perkecil huruf teks pasal">A−</button>
+        <button id="huruf-besar" title="Perbesar huruf teks pasal">A+</button>
+      </div>
+      <div class="lang" role="group" aria-label="Bahasa teks peraturan">
+        <button id="lang-id" class="on">Indonesia</button>
+        <button id="lang-en">English</button>
+      </div><a id="ch-akun" href="/akun/" style="font:500 .8rem var(--sans,sans-serif);color:var(--accent);text-decoration:none;white-space:nowrap">Masuk</a>
+    </div>
+  </header>
+
+  <div class="notice">⚠ <strong>Bukan naskah resmi.</strong> Teks telah diverifikasi terhadap PDF resmi (Lembaran Negara / MKRI / Setjen MPR), tetapi versi konsolidasi ini dihitung mesin — untuk keperluan hukum, selalu rujuk PDF resmi. Terjemahan Inggris tidak resmi.</div>
+
+  <nav class="tabs" id="tabs"></nav>
+  <section class="meta" id="meta"></section>
+  <section class="timeline">
+    <div class="label">Linimasa peristiwa — klik untuk melihat teks yang berlaku pada masa itu</div>
+    <div class="chips" id="chips"></div>
+    <p class="asof" id="asof"></p>
+  </section>
+  <div id="pending"></div>
+
+  <div class="tata">
+    <details class="sisi" id="sisi" open>
+      <summary>Daftar isi</summary>
+      <div class="lompat"><input id="lompat" type="search" placeholder="Ke pasal… (mis. 27A) ↵" aria-label="Lompat ke pasal"></div>
+      <nav id="toc" aria-label="Daftar isi"></nav>
+    </details>
+    <main id="isi"></main>
+  </div>
+
+  <footer>
+    Data terbuka (CC0) · Sumber naskah &amp; relasi: peraturan.bpk.go.id, mkri.id, mpr.go.id · Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014). Versi konsolidasi dihitung mesin CariHukum — bukan naskah otentik.
+  </footer>
+</div>
+
+<script>
+const DATA = {"_nama":{"kuhperdata-1847":"KODIFIKASI 23/1847","permenkumham-2019-8":"PERMENKUMHAM 8/2019","perpres-2012-33":"PERPRES 33/2012","perpres-2014-87":"PERPRES 87/2014","pp-1998-37":"PP 37/1998","pp-2016-24":"PP 24/2016","uu-1946-1":"UU 1/1946","uu-1974-1":"UU 1/1974","uu-2004-30":"UU 30/2004","uu-2008-11":"UU ITE 11/2008","uu-2009-43":"UU 43/2009","uu-2011-12":"UU 12/2011","uu-2014-2":"UU 2/2014","uu-2016-19":"UU 19/2016","uu-2019-15":"UU 15/2019","uu-2019-16":"UU 16/2019","uu-2022-13":"UU 13/2022","uu-2023-1":"KUHP (UU 1/2023)","uu-2024-1":"UU 1/2024","uu-2026-1":"UU 1/2026","uud-1945":"UUD 1945","uud-1945-perubahan-1":"Perubahan I","uud-1945-perubahan-2":"Perubahan II","uud-1945-perubahan-3":"Perubahan III","uud-1945-perubahan-4":"Perubahan IV"},"_urut":["uu-1974-1"],"_jalur":{"perpres-2012-33":"/perpres/2012/33/","pp-1998-37":"/pp/1998/37/","uu-1974-1":"/uu/1974/1/","uu-2004-30":"/uu/2004/30/","uu-2008-11":"/uu/2008/11/","uu-2009-43":"/uu/2009/43/","uu-2011-12":"/uu/2011/12/","uud-1945":"/uud/1945/"},"uu-1974-1":{"metadata":{"id":"uu-1974-1","jenis":"uu","nomor":"1","tahun":1974,"judul":"Perkawinan","teu":"Indonesia, Pemerintah Pusat","tempat_penetapan":"Jakarta","tanggal_penetapan":"1974-01-02","tanggal_pengundangan":"1974-01-02","tanggal_berlaku":"1974-01-02","sumber":{"ln":"1974/1","tln":"3019"},"status":"berlaku","bidang_hukum":[],"subjek":["KEPENDUDUKAN DAN PERKAWINAN"],"bahasa":"id","lokasi":"Pemerintah Pusat","relasi":[{"tipe":"diubah-dengan","target_id":"uu-2019-16","bpk_id":"122740","judul":"UU No. 16 Tahun 2019","url":"https://peraturan.bpk.go.id/Details/122740/uu-no-16-tahun-2019"}],"berkas_resmi":[{"tipe":"pdf","url":"https://peraturan.bpk.go.id/Download/36382/UU%20Nomor%201%20Tahun%201974.pdf"}],"sumber_data":[{"situs":"peraturan.bpk.go.id","url":"https://peraturan.bpk.go.id/Details/47406/uu-no-1-tahun-1974","diakses":"2026-09-01"}],"tahap":"panen","dasar_hukum":[{"teks":"Pasal 5 ayat (1), Pasal 20 ayat (1), Pasal 27 ayat (1) dan Pasal 29 Undang-Undang Dasar 1945","target":"uud-1945"},{"teks":"Ketetapan Majelis Permusyawaratan Rakyat Nomor IV/MPR/1973","target":null}],"judul_pendek":"UU 1/1974"},"dokumen":{"karya":"uu-1974-1","unit":[{"id":"bab-1","tipe":"bab","nomor":"I","judul":"DASAR PERKAWINAN","anak":[{"id":"pasal-1","tipe":"pasal","nomor":"1","teks":"Perkawinan ialah ikatan lahir bathin antara seorang pria dengan seorang wanita sebagai suami isteri dengan tujuan membentuk keluarga (rumah tangga) yang bahagia dan kekal berdasarkan Ketuhanan Yang Mahaesa.","verifikasi":"pdf-resmi"},{"id":"pasal-2","tipe":"pasal","nomor":"2","anak":[{"id":"pasal-2/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Perkawinan adalah sah, apabila dilakukan menurut hukum masing- masing agamanya dan kepercayaannya itu.","verifikasi":"pdf-resmi"},{"id":"pasal-2/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Tiap-tiap perkawinan dicatat menurut peraturan perundang-undangan yang berlaku.","verifikasi":"pdf-resmi"}]},{"id":"pasal-3","tipe":"pasal","nomor":"3","anak":[{"id":"pasal-3/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Pada azasnya dalam suatu perkawinan seorang pria hanya boleh mempunyai seorang isteri. Seorang wanita hanya boleh mempunyai seorang suami.","verifikasi":"pdf-resmi"},{"id":"pasal-3/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Pengadilan, dapat memberi izin kepada seorang suami untuk beristeri lebih dari seorang apabila dikehendaki oleh fihak-fihak yang bersangkutan.","verifikasi":"pdf-resmi"}]},{"id":"pasal-4","tipe":"pasal","nomor":"4","anak":[{"id":"pasal-4/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Dalam hal seorang suami akan beristeri lebih dari seorang, sebagaimana tersebut dalam Pasal 3 ayat (2) Undang-undang ini, maka ia wajib mengajukan permohonan kepada Pengadilan di daerah tempat tinggalnya.","verifikasi":"pdf-resmi"},{"id":"pasal-4/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Pengadilan dimaksud data ayat (1) pasal ini hanya memberikan izin kepada seorang suami yang akan beristeri lebih dari seorang apabila:","verifikasi":"pdf-resmi","anak":[{"id":"pasal-4/ayat-2/huruf-a","tipe":"huruf","nomor":"a.","teks":"isteri tidak dapat menjalankan kewajibannya sebagai isteri;","verifikasi":"pdf-resmi"},{"id":"pasal-4/ayat-2/huruf-b","tipe":"huruf","nomor":"b.","teks":"isteri mendapat cacat badan atau penyakit yang tidak dapat disembuhkan;","verifikasi":"pdf-resmi"},{"id":"pasal-4/ayat-2/huruf-c","tipe":"huruf","nomor":"c.","teks":"isteri tidak dapat melahirkan keturunan.","verifikasi":"pdf-resmi"}]}]},{"id":"pasal-5","tipe":"pasal","nomor":"5","anak":[{"id":"pasal-5/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Untuk dapat mengajukan permohonan kepada Pengadilan, sebagaimana dimaksud dalam Pasal 4 ayat (1) Undang-undang ini, harus dipenuhi syarat-syarat sebagai berikut:","verifikasi":"pdf-resmi","anak":[{"id":"pasal-5/ayat-1/huruf-a","tipe":"huruf","nomor":"a.","teks":"adanya persetujuan dari isteri/isteri-isteri;","verifikasi":"pdf-resmi"},{"id":"pasal-5/ayat-1/huruf-b","tipe":"huruf","nomor":"b.","teks":"adanya kepastian bahwa suami mampu menjamin keperluan- keperluan hidup isteri-isteri dan anak-anak mereka;","verifikasi":"pdf-resmi"},{"id":"pasal-5/ayat-1/huruf-c","tipe":"huruf","nomor":"c.","teks":"adanya jaminan bahwa suami akan berlaku adil terhadap isteri- isteri dan anak-anak mereka.","verifikasi":"pdf-resmi"}]},{"id":"pasal-5/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Persetujuan yang dimaksud pada ayat (1) huruf a pasal ini tidak diperlukan bagi seorang suami apabila isteri/isteri-isterinya tidak mungkin dimintai persetujuannya dan tidak dapat menjadi pihak dalam perjanjian, atau apabila tidak ada kabar dari isterinya selama sekurang-kurangnya 2 (dua) tahun, atau karena sebab-sebab lainnya yang perlu mendapat penilaian dari Hakim Pengadilan.","verifikasi":"pdf-resmi"}]}]},{"id":"bab-2","tipe":"bab","nomor":"II","judul":"SYARAT-SYARAT PERKAWINAN","anak":[{"id":"pasal-6","tipe":"pasal","nomor":"6","anak":[{"id":"pasal-6/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Perkawinan harus didasarkan atas persetujuan kedua calon mempelai.","verifikasi":"pdf-resmi"},{"id":"pasal-6/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Untuk melangsungkan perkawinan seorang yang belum mencapai umur 21 (duapuluh satu) tahun harus mendapat izin kedua orang tua.","verifikasi":"pdf-resmi"},{"id":"pasal-6/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Dalam hal salah seorang dari kedua orang tua telah meninggal dunia atau dalam keadaan tidak mampu menyatakan kehendaknya, maka izin dimaksud ayat (2) pasal ini cukup diperoleh dari orang tua yang masih hidup atau dari orang tua yang mampu menyatakan kehendaknya.","verifikasi":"pdf-resmi"},{"id":"pasal-6/ayat-4","tipe":"ayat","nomor":"(4)","teks":"Dalam hal kedua orang tua telah meninggal dunia atau dalam keadaan tidak mampu untuk menyatakan kehendaknya, maka izin diperoleh dari wali, orang yang memelihara atau keluarga yang mempunyai hubungan darah dalam garis keturunan lurus keatas selama mereka masih hidup dan dalam keadaan dapat menyatakan kehendaknya.","verifikasi":"pdf-resmi"},{"id":"pasal-6/ayat-5","tipe":"ayat","nomor":"(5)","teks":"Dalam hal ada perbedaan pendapat antara orang-orang yang disebut dalam ayat (2), (3) dan (4) pasal ini, atau salah seorang atau lebih diantara mereka tidak menyatakan pendapatnya, maka Pengadilan dalam daerah hukum tempat tinggal orang yang akan melangsungkan perkawinan atas permintaan orang tersebut dapat memberikan izin setelah lebih dahulu mendengar orang-orang tersebut dalam ayat (2), (3) dan (4) pasal ini.","verifikasi":"pdf-resmi"},{"id":"pasal-6/ayat-6","tipe":"ayat","nomor":"(6)","teks":"Ketentuan tersebut ayat (1) sampai dengan ayat (5) pasal ini berlaku sepanjang hukum masing-masing agamanya dan kepercayaannya itu dari yang bersangkutan tidak menentukan lain.","verifikasi":"pdf-resmi"}]},{"id":"pasal-7","tipe":"pasal","nomor":"7","anak":[{"id":"pasal-7/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Perkawinan hanya diizinkan jika pihak pria sudah mencapai umur 19 (sembilan belas) tahun dan pihak wanita sudah mencapai umur 16 (enam belas) tahun.","verifikasi":"pdf-resmi"},{"id":"pasal-7/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Dalam hal penyimpangan terhadap ayat (1) pasal ini dapat meminta dispensasi kepada Pengadilan atau Pejabat lain yang ditunjuk oleh kedua orang tua pihak pria maupun pihak wanita.","verifikasi":"pdf-resmi"},{"id":"pasal-7/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Ketentuan-ketentuan mengenai keadaan salah seorang atau kedua orang tua tersebut dalam Pasal 6 ayat (3) dan (4) Undang-undang ini, berlaku juga dalam hal permintaan dispensasi tersebut ayat (2) pasal ini dengan tidak mengurangi yang dimaksud dalam Pasal 6 ayat (6).","verifikasi":"pdf-resmi"}]},{"id":"pasal-8","tipe":"pasal","nomor":"8","anak":[{"id":"pasal-8/huruf-a","tipe":"huruf","nomor":"a.","teks":"berhubungan darah dalam garis keturunan lurus kebawah ataupun keatas;","verifikasi":"pdf-resmi"},{"id":"pasal-8/huruf-b","tipe":"huruf","nomor":"b.","teks":"berhubungan darah dalam garis keturunan menyamping yaitu antara saudara, antara seorang dengan saudara orang tua dan antara seorang dengan saudara neneknya;","verifikasi":"pdf-resmi"},{"id":"pasal-8/huruf-c","tipe":"huruf","nomor":"c.","teks":"berhubungan semenda, yaitu mertua, anak tiri menantu dan ibu/bapak tiri;","verifikasi":"pdf-resmi"},{"id":"pasal-8/huruf-d","tipe":"huruf","nomor":"d.","teks":"berhubungan susuan, yaitu orang tua susuan, anak susuan, saudara susuan dan bibi/paman susuan;","verifikasi":"pdf-resmi"},{"id":"pasal-8/huruf-e","tipe":"huruf","nomor":"e.","teks":"berhubungan saudara dengan isteri atau sebagai bibi atau kemenakan dari isteri, dalam hal seorang suami beristeri lebih dari seorang;","verifikasi":"pdf-resmi"},{"id":"pasal-8/huruf-f","tipe":"huruf","nomor":"f.","teks":"mempunyai hubungan yang oleh agamanya atau peraturan lain yang berlaku, dilarang kawin.","verifikasi":"pdf-resmi"}],"teks":"Perkawinan dilarang antara dua orang yang:","verifikasi":"pdf-resmi"},{"id":"pasal-9","tipe":"pasal","nomor":"9","teks":"Seorang yang masih terikat tali perkawinan dengan orang lain tidak dapat kawin lagi, kecuali dalam hal yang tersebut pada Pasal 3 ayat (2) dan Pasal 4 Undang-undang ini.","verifikasi":"pdf-resmi"},{"id":"pasal-10","tipe":"pasal","nomor":"10","teks":"Apabila suami dan isteri yang telah cerai kawin lagi satu dengan yang lain dan bercerai lagi untuk kedua kalinya, maka diantara mereka tidak boleh dilangsungkan perkawinan lagi, sepanjang hukum masing-masing agamanya dan kepercayaannya itu dari yang bersangkutan tidak menentukan lain.","verifikasi":"pdf-resmi"},{"id":"pasal-11","tipe":"pasal","nomor":"11","anak":[{"id":"pasal-11/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Bagi seorang wanita yang putus perkawinannya berlaku jangka waktu tunggu.","verifikasi":"pdf-resmi"},{"id":"pasal-11/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Tenggang waktu jangka waktu tunggu tersebut ayat (1) akan diatur dalam Peraturan Pemerintah lebih lanjut.","verifikasi":"pdf-resmi"}]},{"id":"pasal-12","tipe":"pasal","nomor":"12","teks":"Tata-cara pelaksanaan perkawinan diatur dalam peraturan perundang- undangan tersendiri.","verifikasi":"pdf-resmi"}]},{"id":"bab-3","tipe":"bab","nomor":"III","judul":"PENCEGAHAN PERKAWINAN","anak":[{"id":"pasal-13","tipe":"pasal","nomor":"13","teks":"Perkawinan dapat dicegah, apabila ada pihak yang tidak memenuhi syarat-syarat untuk melangsungkan perkawinan.","verifikasi":"pdf-resmi"},{"id":"pasal-14","tipe":"pasal","nomor":"14","anak":[{"id":"pasal-14/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Yang dapat mencegah perkawinan ialah para keluarga dalam garis keturunan lurus keatas dan kebawah, saudara, wali nikah, wali, pengampu dari salah seorang calon mempelai dan pihak-pihak yang berkepentingan.","verifikasi":"pdf-resmi"},{"id":"pasal-14/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Mereka yang tersebut pada ayat (1) pasal ini berhak juga mencegah berlangsungnya perkawinan apabila salah seorang dari calon mempelai berada di bawah pengampuan, sehingga dengan perkawinan tersebut nyata-nyata mengakibatkan kesengsaraan bagi calon mempelai yang lainnya, yang mempunyai hubungan dengan orang-orang seperti tersebut dalam ayat (1) pasal ini.","verifikasi":"pdf-resmi"}]},{"id":"pasal-15","tipe":"pasal","nomor":"15","teks":"Barang siapa karena perkawinan dirinya masih terikat dengan salah satu dari kedua belah pihak dan atas dasar masih adanya perkawinan, dapat mencegah perkawinan yang baru, dengan tidak mengurangi ketentuan Pasal 3 ayat (2) dan Pasal 4 Undang-undang ini.","verifikasi":"pdf-resmi"},{"id":"pasal-16","tipe":"pasal","nomor":"16","anak":[{"id":"pasal-16/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Pejabat yang ditunjuk berkewajiban mencegah berlangsungnya perkawinan apabila ketentuan-ketentuan dalam Pasal 7 ayat (1), Pasal 8, Pasal 9, Pasal 10 dan Pasal 12 Undang-undang ini tidak dipenuhi.","verifikasi":"pdf-resmi"},{"id":"pasal-16/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Mengenai Pejabat yang ditunjuk sebagaimana tersebut pada ayat (1) pasal ini diatur lebih lanjut dalam peraturan perundang-undangan.","verifikasi":"pdf-resmi"}]},{"id":"pasal-17","tipe":"pasal","nomor":"17","anak":[{"id":"pasal-17/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Pencegahan perkawinan diajukan kepada Pengadilan dalam daerah hukum dimana perkawinan akan dilangsungkan dengan memberitahukan juga kepada pegawai pencatat perkawinan.","verifikasi":"pdf-resmi"},{"id":"pasal-17/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Kepada calon-calon mempelai diberi tahukan mengenai permohonan pencegahan perkawinan dimaksud dalam ayat (1) pasal ini oleh pegawai pencatat perkawinan.","verifikasi":"pdf-resmi"}]},{"id":"pasal-18","tipe":"pasal","nomor":"18","teks":"Pencegahan perkawinan dapat dicabut dengan putusan Pengadilan atau dengan menarik kembali permohonan pencegahan pada Pengadilan oleh yang mencegah.","verifikasi":"pdf-resmi"},{"id":"pasal-19","tipe":"pasal","nomor":"19","teks":"Perkawinan tidak dapat dilangsungkan apabila pencegahan belum dicabut.","verifikasi":"pdf-resmi"},{"id":"pasal-20","tipe":"pasal","nomor":"20","teks":"Pegawai pencatat perkawinan tidak diperbolehkan melangsungkan atau membantu melangsungkan perkawinan bila ia mengetahui adanya pelanggaran dari ketentuan dalam Pasal 7 ayat (1), Pasal 8, Pasal 9, Pasal 10 dan Pasal 12 Undang-undang ini meskipun tidak ada pencegahan perkawinan.","verifikasi":"pdf-resmi"},{"id":"pasal-21","tipe":"pasal","nomor":"21","anak":[{"id":"pasal-21/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Jika pegawai pencatat perkawinan berpendapat bahwa terhadap perkawinan tersebut ada larangan menurut Undang-undang ini, maka ia akan menolak melangsungkan perkawinan.","verifikasi":"pdf-resmi"},{"id":"pasal-21/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Didalam hal penolakan, maka permintaan salah satu pihak yang ingin melangsungkan perkawinan. oleh pegawai pencatat perkawinan akan diberikan suatu keterangan tertulis dari penolakan tersebut disertai dengan alasan-alasan penolakannya.","verifikasi":"pdf-resmi"},{"id":"pasal-21/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Para pihak yang perkawinannya ditolak berhak mengajukan permohonan kepada pengadilan didalam wilayah mana pegawai pencatat perkawinan yang mengadakan penolakan berkedudukan untuk memberikan keputusan, dengan menyerahkan surat keterangan penolakan tersebut diatas.","verifikasi":"pdf-resmi"},{"id":"pasal-21/ayat-4","tipe":"ayat","nomor":"(4)","teks":"Pengadilan akan memeriksa perkaranya dengan acara singkat dan akan memberikan ketetapan, apakah ia akan menguatkan penolakan tersebut ataukah memerintahkan, agar supaya perkawinan dilangsungkan.","verifikasi":"pdf-resmi"},{"id":"pasal-21/ayat-5","tipe":"ayat","nomor":"(5)","teks":"Ketetapan ini hilang kekuatannya, jika rintangan-rintangan yang mengakibatkan penolakan tersebut hilang dan para pihak yang ingin kawin dapat mengulangi pemberitahuan tentang maksud mereka.","verifikasi":"pdf-resmi"}]}]},{"id":"bab-4","tipe":"bab","nomor":"IV","judul":"BATALNYA PERKAWINAN","anak":[{"id":"pasal-22","tipe":"pasal","nomor":"22","teks":"Perkawinan dapat dibatalkan, apabila para pihak tidak memenuhi syarat- syarat untuk melangsungkan perkawinan.","verifikasi":"pdf-resmi"},{"id":"pasal-23","tipe":"pasal","nomor":"23","anak":[{"id":"pasal-23/huruf-a","tipe":"huruf","nomor":"a.","teks":"Para keluarga dalam garis keturunan lurus keatas dari suami atau isteri;","verifikasi":"pdf-resmi"},{"id":"pasal-23/huruf-b","tipe":"huruf","nomor":"b.","teks":"Suami atau isteri;","verifikasi":"pdf-resmi"},{"id":"pasal-23/huruf-c","tipe":"huruf","nomor":"c.","teks":"Pejabat yang berwenang hanya selama perkawinan belum diputuskan;","verifikasi":"pdf-resmi"},{"id":"pasal-23/huruf-d","tipe":"huruf","nomor":"d.","teks":"Pejabat yang ditunjuk tersebut ayat (2) Pasal 16 Undang-undang ini dan setiap orang yang mempunyai kepentingan hukum secara langsung terhadap perkawinan tersebut, tetapi hanya setelah perkawinan itu putus.","verifikasi":"pdf-resmi"}],"teks":"Yang dapat mengajukan pembatalan perkawinan yaitu :","verifikasi":"pdf-resmi"},{"id":"pasal-24","tipe":"pasal","nomor":"24","teks":"Barang siapa karena perkawinan masih terikat dirinya dengan salah satu dari kedua belah pihak dan atas dasar masih adanya perkawinan dapat mengajukan pembatalan perkawinan yang baru, dengan tidak mengurangi ketentuan Pasal 3 ayat (2) dan Pasal 4 Undang-undang ini.","verifikasi":"pdf-resmi"},{"id":"pasal-25","tipe":"pasal","nomor":"25","teks":"Permohonan pembatalan perkawinan diajukan kepada Pengadilan dalam daerah hukum dimana perkawinan dilangsungkan atau ditempat tinggal kedua suami isteri, suami atau isteri.","verifikasi":"pdf-resmi"},{"id":"pasal-26","tipe":"pasal","nomor":"26","anak":[{"id":"pasal-26/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Perkawinan yang dilangsungkan dimuka pegawai pencatat perkawinan yang tidak berwenang, wali-nikah yang tidak sah atau yang dilangsungkan tanpa dihadiri oleh 2 (dua) orang saksi dapat dimintakan pembatalannya oleh para keluarga dalam garis keturunan lurus keatas dari suami atau isteri, jaksa dan suami atau isteri.","verifikasi":"pdf-resmi"},{"id":"pasal-26/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Hak untuk membatalkan oleh suami atau isteri berdasarkan alasan dalam ayat (1) pasal ini gugur apabila mereka telah hidup bersama sebagai suami isteri dan dapat memperlihatkan akte perkawinan yang dibuat pegawai pencatat perkawinan yang tidak berwenang dan perkawinan harus diperbaharui supaya sah.","verifikasi":"pdf-resmi"}]},{"id":"pasal-27","tipe":"pasal","nomor":"27","anak":[{"id":"pasal-27/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Seorang suami atau isteri dapat mengajukan permohonan pembatalan perkawinan apabila perkawinan dilangsungkan dibawah ancaman yang melanggar hukum.","verifikasi":"pdf-resmi"},{"id":"pasal-27/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Seorang suami atau isteri dapat mengajukan permohonan pembatalan perkawinan apabila pada waktu berlangsungnya perkawinan terjadi salah sangka mengenai diri suami atau isteri.","verifikasi":"pdf-resmi"},{"id":"pasal-27/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Apabila ancaman telah berhenti, atau yang bersalah sangka itu menyadari keadaannya, dan dalam jangka waktu 6 (enam) bulan setelah itu masih tetap hidup sebagai suami isteri, dan tidak mempergunakan haknya untuk mengajukan permohonan pembatalan, maka haknya gugur.","verifikasi":"pdf-resmi"}]},{"id":"pasal-28","tipe":"pasal","nomor":"28","anak":[{"id":"pasal-28/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Batalnya suatu perkawinan dimulai setelah keputusan Pengadilan mempunyai kekuatan hukum yang tetap dan berlaku sejak saat berlangsungnya perkawinan.","verifikasi":"pdf-resmi"},{"id":"pasal-28/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Keputusan tidak berlaku surut terhadap :","verifikasi":"pdf-resmi","anak":[{"id":"pasal-28/ayat-2/huruf-a","tipe":"huruf","nomor":"a.","teks":"Anak-anak yang dilahirkan dari perkawinan tersebut;","verifikasi":"pdf-resmi"},{"id":"pasal-28/ayat-2/huruf-b","tipe":"huruf","nomor":"b.","teks":"Suami atau isteri yang bertindak dengan iktikad baik, kecuali terhadap harta bersama, bila pembatalan perkawinan didasarkan atas adanya perkawinan lain yang lebih dahulu;","verifikasi":"pdf-resmi"},{"id":"pasal-28/ayat-2/huruf-c","tipe":"huruf","nomor":"c.","teks":"Orang-orang ketiga lainnya tidak termasuk dalam a dan b sepanjang mereka memperoleh hak-hak dengan iktikad baik sebelum keputusan tentang pembatalan mempunyai kekuatan hukum tetap.","verifikasi":"pdf-resmi"}]}]}]},{"id":"bab-5","tipe":"bab","nomor":"V","judul":"PERJANJIAN PERKAWINAN","anak":[{"id":"pasal-29","tipe":"pasal","nomor":"29","anak":[{"id":"pasal-29/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Pada waktu atau sebelum perkawinan dilangsungkan, kedua pihak atas persetujuan bersama dapat mengadakan perjanjian tertulis yang disahkan oleh Pegawai pencatat perkawinan, setelah mana isinya berlaku juga terhadap pihak ketiga sepanjang pihak ketiga tersangkut.","verifikasi":"pdf-resmi"},{"id":"pasal-29/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Perjanjian tersebut tidak dapat disahkan bilamana melanggar batas- batas hukum, agama dan kesusilaan.","verifikasi":"pdf-resmi"},{"id":"pasal-29/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Perjanjian tersebut mulai berlaku sejak perkawinan dilangsungkan.","verifikasi":"pdf-resmi"},{"id":"pasal-29/ayat-4","tipe":"ayat","nomor":"(4)","teks":"Selama perkawinan berlangsung perjanjian tersebut tidak dapat dirubah, kecuali bila dari kedua belah pihak ada persetujuan untuk merubah dan perubahan tidak merugikan pihak ketiga.","verifikasi":"pdf-resmi"}]}]},{"id":"bab-6","tipe":"bab","nomor":"VI","judul":"HAK DAN KEWAJIBAN SUAMI ISTERI","anak":[{"id":"pasal-30","tipe":"pasal","nomor":"30","teks":"Suami isteri memikul kewajiban yang luhur untuk menegakkan rumah tangga yang menjadi sendi dasar dari susunan masyarakat.","verifikasi":"pdf-resmi"},{"id":"pasal-31","tipe":"pasal","nomor":"31","anak":[{"id":"pasal-31/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Hak dan kedudukan isteri adalah seimbang dengan hak dan kedudukan suami dalam kehidupan rumah tangga dan pergaulan hidup bersama dalam masyarakat.","verifikasi":"pdf-resmi"},{"id":"pasal-31/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Masing-masing pihak berhak untuk melakukan perbuatan hukum.","verifikasi":"pdf-resmi"},{"id":"pasal-31/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Suami adalah kepala keluarga dan isteri ibu rumah tangga.","verifikasi":"pdf-resmi"}]},{"id":"pasal-32","tipe":"pasal","nomor":"32","anak":[{"id":"pasal-32/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Suami isteri harus mempunyai tempat kediaman yang tetap.","verifikasi":"pdf-resmi"},{"id":"pasal-32/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Rumah tempat kediaman yang dimaksud dalam ayat (1) pasal ini ditentukan oleh suami isteri bersama.","verifikasi":"pdf-resmi"}]},{"id":"pasal-33","tipe":"pasal","nomor":"33","teks":"Suami isteri wajib saling cinta-mencintai hormat-menghormati, setia dan memberi bantuan lahir bathin yang satu kepada yang lain.","verifikasi":"pdf-resmi"},{"id":"pasal-34","tipe":"pasal","nomor":"34","anak":[{"id":"pasal-34/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Suami wajib melindungi isterinya dan memberikan segala sesuatu keperluan hidup berumah tangga sesuai dengan kemampuannya.","verifikasi":"pdf-resmi"},{"id":"pasal-34/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Isteri wajib mengatur urusan rumah-tangga sebaik-baiknya.","verifikasi":"pdf-resmi"},{"id":"pasal-34/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Jika suami atau isteri melalaikan kewajibannya masing-masing dapat mengajukan gugutan kepada Pengadilan.","verifikasi":"pdf-resmi"}]}]},{"id":"bab-7","tipe":"bab","nomor":"VII","judul":"HARTA BENDA DALAM PERKAWINAN","anak":[{"id":"pasal-35","tipe":"pasal","nomor":"35","anak":[{"id":"pasal-35/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Harta benda yang diperoleh selama perkawinan menjadi harta bersama.","verifikasi":"pdf-resmi"},{"id":"pasal-35/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Harta bawaan dari masing-masing suami dan isteri dan harta benda yang diperoleh masing-masing sebagai hadiah atau warisan, adalah dibawah penguasaan masing-masing sepanjang para pihak tidak menentukan lain.","verifikasi":"pdf-resmi"}]},{"id":"pasal-36","tipe":"pasal","nomor":"36","anak":[{"id":"pasal-36/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Mengenai harta bersama, suami atau isteri dapat bertindak atas persetujuan kedua belah pihak.","verifikasi":"pdf-resmi"},{"id":"pasal-36/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Mengenai harta bawaan masing-masing, suami dan isteri mempunyai hak sepenuhnya untuk melakukan perbuatan hukum mengenai harta bendanya.","verifikasi":"pdf-resmi"}]},{"id":"pasal-37","tipe":"pasal","nomor":"37","teks":"Bila perkawinan putus karena perceraian, harta bersama diatur menurut hukumnya masing-masing.","verifikasi":"pdf-resmi"}]},{"id":"bab-8","tipe":"bab","nomor":"VIII","judul":"PUTUSNYA PERKAWINAN SERTA AKIBATNYA","anak":[{"id":"pasal-38","tipe":"pasal","nomor":"38","anak":[{"id":"pasal-38/huruf-a","tipe":"huruf","nomor":"a.","teks":"kematian,","verifikasi":"pdf-resmi"},{"id":"pasal-38/huruf-b","tipe":"huruf","nomor":"b.","teks":"perceraian dan","verifikasi":"pdf-resmi"},{"id":"pasal-38/huruf-c","tipe":"huruf","nomor":"c.","teks":"atas keputusan Pengadilan.","verifikasi":"pdf-resmi"}],"teks":"Perkawinan dapat putus karena :","verifikasi":"pdf-resmi"},{"id":"pasal-39","tipe":"pasal","nomor":"39","anak":[{"id":"pasal-39/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Perceraian hanya dapat dilakukan didepan Sidang Pengadilan setelah Pengadilan yang bersangkutan berusaha dan tidak berhasil mendamaikan kedua belah pihak.","verifikasi":"pdf-resmi"},{"id":"pasal-39/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Untuk melakukan perceraian harus ada cukup alasan, bahwa antara suami isteri itu tidak akan dapat hidup rukun sebagai suami isteri.","verifikasi":"pdf-resmi"},{"id":"pasal-39/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Tatacara perceraian didepan sidang Pengadilan diatur dalam peraturan perundangan tersendiri.","verifikasi":"pdf-resmi"}]},{"id":"pasal-40","tipe":"pasal","nomor":"40","anak":[{"id":"pasal-40/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Gugatan perceraian diajukan kepada Pengadilan.","verifikasi":"pdf-resmi"},{"id":"pasal-40/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Tatacara mengajukan gugatan tersebut pada ayat (1) pasal ini diatur dalam peraturan perundangan tersendiri.","verifikasi":"pdf-resmi"}]},{"id":"pasal-41","tipe":"pasal","nomor":"41","anak":[{"id":"pasal-41/huruf-a","tipe":"huruf","nomor":"a.","teks":"Baik ibu atau bapak tetap berkewajiban memelihara dan mendidik anak-anaknya, semata-mata berdasarkan kepentingan anak; bilamana ada perselisihan mengenai penguasaan anak- anak, Pengadilan memberi keputusannya;","verifikasi":"pdf-resmi"},{"id":"pasal-41/huruf-b","tipe":"huruf","nomor":"b.","teks":"Bapak yang bertanggung-jawab atas semua biaya pemeliharaan dan pendidikan yang diperlukan anak itu; bilamana bapak dalam kenyataan tidak dapat memenuhi kewajiban tersebut, Pengadilan dapat menentukan bahwa ibu ikut memikul biaya tersebut;","verifikasi":"pdf-resmi"},{"id":"pasal-41/huruf-c","tipe":"huruf","nomor":"c.","teks":"Pengadilan dapat mewajibkan kepada bekas suami untuk memberikan biaya penghidupan dan/atau menentukan sesuatu kewajiban bagi bekas isteri.","verifikasi":"pdf-resmi"}],"teks":"Akibat putusnya perkawinan karena perceraian ialah :","verifikasi":"pdf-resmi"}]},{"id":"bab-9","tipe":"bab","nomor":"IX","judul":"KEDUDUKAN ANAK","anak":[{"id":"pasal-42","tipe":"pasal","nomor":"42","teks":"Anak yang sah adalah anak yang dilahirkan dalam atau sebagai akibat perkawinan yang sah.","verifikasi":"pdf-resmi"},{"id":"pasal-43","tipe":"pasal","nomor":"43","anak":[{"id":"pasal-43/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Anak yang dilahirkan diluar perkawinan hanya mempunyai hubungan perdata dengan ibunya dan keluarga ibunya.","verifikasi":"pdf-resmi"},{"id":"pasal-43/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Kedudukan anak tersebut ayat (1) diatas selanjutnya akan diatur dalam Peraturan Pemerintah.","verifikasi":"pdf-resmi"}]},{"id":"pasal-44","tipe":"pasal","nomor":"44","anak":[{"id":"pasal-44/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Seorang suami dapat menyangkal sahnya anak yang dilahirkan oleh isterinya, bilamana ia dapat membuktikan bahwa isterinya telah berzina dan anak itu akibat daripada perzinaan tersebut.","verifikasi":"pdf-resmi"},{"id":"pasal-44/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Pengadilan memberikan keputusan tentang sah/tidaknya anak atas permintaan pihak yang berkepentingan.","verifikasi":"pdf-resmi"}]}]},{"id":"bab-10","tipe":"bab","nomor":"X","judul":"HAK DAN KEWAJIBAN ANTARA ORANG TUA DAN ANAK","anak":[{"id":"pasal-45","tipe":"pasal","nomor":"45","anak":[{"id":"pasal-45/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Kedua orang tua wajib memelihara dan mendidik anak-anak mereka sebaik-baiknya.","verifikasi":"pdf-resmi"},{"id":"pasal-45/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Kewajiban orang tua yang dimaksud dalam ayat (1) pasal ini berlaku sampai anak itu kawin atau dapat berdiri sendiri, kewajiban mana berlaku terus meskipun perkawinan antara kedua orang tua putus.","verifikasi":"pdf-resmi"}]},{"id":"pasal-46","tipe":"pasal","nomor":"46","anak":[{"id":"pasal-46/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Anak wajib menghormati orang tua dan mentaati kehendak mereka yang baik.","verifikasi":"pdf-resmi"},{"id":"pasal-46/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Jika anak telah dewasa, ia wajib memelihara menurut kemampuannya, orang tua dan keluarga dalam garis lurus keatas, bila mereka itu memerlukan bantuannya.","verifikasi":"pdf-resmi"}]},{"id":"pasal-47","tipe":"pasal","nomor":"47","anak":[{"id":"pasal-47/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Anak yang belum mencapai umur 18 (delapan belas) tahun atau belum pernah melangsungkan perkawinan ada dibawah kekuasaan orang tuanya selama mereka tidak dicabut dari kekuasaannya.","verifikasi":"pdf-resmi"},{"id":"pasal-47/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Orang tua mewakili anak tersebut mengenai segala perbuatan hukum didalam dan diluar Pengadilan.","verifikasi":"pdf-resmi"}]},{"id":"pasal-48","tipe":"pasal","nomor":"48","teks":"Orang tua tidak diperbolehkan memindahkan hak atau menggadaikan barang-barang tetap yang dimiliki anaknya yang belum berumur 18 (delapan betas) tahun atau belum pernah melangsungkan perkawinan, kecuali apabila kepentingan anak itu menghendakinya.","verifikasi":"pdf-resmi"},{"id":"pasal-49","tipe":"pasal","nomor":"49","anak":[{"id":"pasal-49/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Salah seorang atau kedua orang tua dapat dicabut kekuasannya terhadap seorang anak atau lebih untuk waktu yang tertentu atas permintaan orang tua yang lain, keluarga anak dalam garis lurus keatas dan saudara kandung yang telah dewasa atau pejabat yang berwenang, dengan keputusan Pengadilan dalam hal-hal :","verifikasi":"pdf-resmi","anak":[{"id":"pasal-49/ayat-1/huruf-a","tipe":"huruf","nomor":"a.","teks":"la sangat melalaikan kewajibannya terhadap anaknya;","verifikasi":"pdf-resmi"},{"id":"pasal-49/ayat-1/huruf-b","tipe":"huruf","nomor":"b.","teks":"la berkelakuan buruk sekali.","verifikasi":"pdf-resmi"}]},{"id":"pasal-49/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Meskipun orang tua dicabut kekuasaannya, mereka masih tetap berkewajiban untuk memberi biaya pemeliharaan kepada anak tersebut.","verifikasi":"pdf-resmi"}]}]},{"id":"bab-11","tipe":"bab","nomor":"XI","judul":"PERWALIAN","anak":[{"id":"pasal-50","tipe":"pasal","nomor":"50","anak":[{"id":"pasal-50/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Anak yang belum mencapai umur 18 (delapan belas) tahun atau belum pernah melangsungkan perkawinan, yang tidak berada dibawah kekuasaan orang tua, berada dibawah kekuasaan wali.","verifikasi":"pdf-resmi"},{"id":"pasal-50/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Perwalian itu mengenai pribadi anak yang bersangkutan maupun harta bendanya.","verifikasi":"pdf-resmi"}]},{"id":"pasal-51","tipe":"pasal","nomor":"51","anak":[{"id":"pasal-51/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Wali dapat ditunjuk oleh satu orang tua yang menjalankan kekuasaan orang tua, sebelum ia meninggal, dengan surat wasiat atau dengan lisan di hadapan 2 (dua) orang saksi.","verifikasi":"pdf-resmi"},{"id":"pasal-51/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Wali sedapat-dapatnya diambil dari keluarga anak tersebut atau orang lain yang sudah dewasa, berpikiran sehat, adil, jujur dan berkelakuan baik.","verifikasi":"pdf-resmi"},{"id":"pasal-51/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Wali wajib mengurus anak yang dibawah penguasaannya dan harta bendanya sebaik-baiknya, dengan menghormati agama dan kepercayaan anak itu.","verifikasi":"pdf-resmi"},{"id":"pasal-51/ayat-4","tipe":"ayat","nomor":"(4)","teks":"Wali wajib membuat daftar harta benda anak yang berada dibawah kekuasaannya pada waktu memulai jabatannya dan mencatat semua perubahan-perubahan harta benda anak atau anak-anak itu.","verifikasi":"pdf-resmi"},{"id":"pasal-51/ayat-5","tipe":"ayat","nomor":"(5)","teks":"Wali bertanggung-jawab tentang harta benda anak yang berada dibawah perwaliannya serta kerugian yang ditimbulkan karena kesalahan atau kelalaiannya.","verifikasi":"pdf-resmi"}]},{"id":"pasal-52","tipe":"pasal","nomor":"52","teks":"Terhadap wali berlaku juga Pasal 48 Undang-undang ini.","verifikasi":"pdf-resmi"},{"id":"pasal-53","tipe":"pasal","nomor":"53","anak":[{"id":"pasal-53/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Wali dapat dicabut dari kekuasaannya, dalam hal-hal yang tersebut dalam Pasal 49 Undang-undang ini.","verifikasi":"pdf-resmi"},{"id":"pasal-53/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Dalam hal kekuasaan seorang wali dicabut, sebagaimana dimaksud pada ayat (1) pasal ini, oleh Pengadilan ditunjuk orang lain sebagai wali.","verifikasi":"pdf-resmi"}]},{"id":"pasal-54","tipe":"pasal","nomor":"54","teks":"Wali yang telah menyebabkan kerugian kepada harta benda anak yang dibawah kekuasaannya, atas tuntutan anak atau keluarga anak tersebut dengan Keputusan Pengadilan, yang bersangkutan dapat diwajibkan untuk mengganti kerugian tersebut.","verifikasi":"pdf-resmi"}]},{"id":"bab-12","tipe":"bab","nomor":"XII","judul":"KETENTUAN-KETENTUAN LAIN","anak":[{"id":"pasal-55","tipe":"pasal","nomor":"55","anak":[{"id":"pasal-55/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Asal-usul seorang anak hanya dapat dibuktikan dengan akte kelahiran yang autentik, yang dikeluarkan oleh Pejabat yang berwenang.","verifikasi":"pdf-resmi"},{"id":"pasal-55/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Bila akte kelahiran tersebut dalam ayat (1) pasal ini tidak ada, maka Pengadilan dapat mengeluarkan penetapan tentang asal-usul seorang anak setelah diadakan pemeriksaan yang teliti berdasarkan bukti- bukti yang memenuhi syarat.","verifikasi":"pdf-resmi"},{"id":"pasal-55/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Atas dasar ketentuan Pengadilan tersebut ayat (2) pasal ini, maka instansi pencatat kelahiran yang ada dalam daerah hukum Pengadilan yang bersangkutan mengeluarkan akte kelahiran bagi anak yang bersangkutan.","verifikasi":"pdf-resmi"}]},{"id":"bab-12/bagian-kedua","tipe":"bagian","nomor":"Kedua","judul":"Perkawinan diluar Indonesia","anak":[{"id":"pasal-56","tipe":"pasal","nomor":"56","anak":[{"id":"pasal-56/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Perkawinan yang dilangsungkan diluar Indonesia antara dua orang warganegara Indonesia atau seorang warganegara Indonesia dengan warganegara Asing adalah sah bilamana dilakukan menurut hukum yang berlaku di negara dimana perkawinan itu dilangsungkan dan bagi warganegara Indonesia tidak melanggar ketentuan-ketentuan Undang-undang ini.","verifikasi":"pdf-resmi"},{"id":"pasal-56/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Dalam waktu 1 (satu) tahun setelah suami isteri itu kembali diwilayah Indonesia, surat bukti perkawinan mereka harus didaftarkan di Kantor Pencatatan Perkawinan tempat tinggal mereka.","verifikasi":"pdf-resmi"}]}]},{"id":"bab-12/bagian-ketiga","tipe":"bagian","nomor":"Ketiga","judul":"Perkawinan Campuran","anak":[{"id":"pasal-57","tipe":"pasal","nomor":"57","teks":"Yang dimaksud dengan perkawinan campuran dalam Undang-undang ini ialah perkawinan antara dua orang yang di Indonesia tunduk pada hukum yang berlainan, karena perbedaan kewarganegaraan dan salah satu pihak berkewarganegaraan Indonesia.","verifikasi":"pdf-resmi"},{"id":"pasal-58","tipe":"pasal","nomor":"58","teks":"Bagi orang-orang yang berlainan kewarganegaraan yang melakukan perkawinan campuran, dapat memperoleh kewarganegaraan dari suami/isterinya dan dapat pula kehilangan kewarganegaraannya, menurut cara-cara yang telah ditentukan dalam Undang-undang kewarganegaraan Republik Indonesia yang berlaku.","verifikasi":"pdf-resmi"},{"id":"pasal-59","tipe":"pasal","nomor":"59","anak":[{"id":"pasal-59/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Kewarganegaraan yang diperoleh sebagai akibat perkawinan atau putusnya perkawinan menentukan hukum yang berlaku, baik mengenai hukum publik maupun mengenai hukum perdata.","verifikasi":"pdf-resmi"},{"id":"pasal-59/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Perkawinan campuran yang dilangsungkan di Indonesia dilakukan menurut Undang-undang Perkawinan ini.","verifikasi":"pdf-resmi"}]},{"id":"pasal-60","tipe":"pasal","nomor":"60","anak":[{"id":"pasal-60/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Perkawinan campuran tidak dapat dilangsungkan sebelum terbukti bahwa syarat-syarat perkawinan yang ditentukan oleh hukum yang berlaku bagi pihak masing-masing telah dipenuhi.","verifikasi":"pdf-resmi"},{"id":"pasal-60/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Untuk membuktikan bahwa syarat-syarat tersebut dalam ayat (1) telah dipenuhi dan karena itu tidak ada rintangan untuk melangsungkan perkawinan campuran, maka oleh mereka yang menurut hukum yang berlaku bagi pihak masing-masing berwenang mencatat perkawinan, diberikan surat keterangan bahwa syarat- syarat telah dipenuhi.","verifikasi":"pdf-resmi"},{"id":"pasal-60/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Jika pejabat yang bersangkutan menolak untuk memberikan surat keterangan itu, maka atas permintaan yang berkepentingan, Pengadilan memberikan keputusan dengan tidak beracara serta tidak boleh dimintakan banding lagi tentang soal apakah penolakan pemberian surat keterangan itu beralasan atau tidak.","verifikasi":"pdf-resmi"},{"id":"pasal-60/ayat-4","tipe":"ayat","nomor":"(4)","teks":"Jika Pengadilan memutuskan bahwa penolakan tidak beralasan, maka keputusan itu menjadi pengganti keterangan yang tersebut ayat (3).","verifikasi":"pdf-resmi"},{"id":"pasal-60/ayat-5","tipe":"ayat","nomor":"(5)","teks":"Surat keterangan atau keputusan pengganti keterangan tidak mempunyai kekuatan lagi jika perkawinan itu tidak dilangsungkan dalam masa 6 (enam) bulan sesudah keterangan itu diberikan.","verifikasi":"pdf-resmi"}]},{"id":"pasal-61","tipe":"pasal","nomor":"61","anak":[{"id":"pasal-61/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Perkawinan campuran dicatat oleh pegawai pencatat yang berwenang.","verifikasi":"pdf-resmi"},{"id":"pasal-61/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Barang siapa melangsungkan perkawinan campuran tanpa memperlihatkan lebih dahulu kepada pegawai pencatat yang berwenang surat keterangan atau keputusan pengganti keterangan yang disebut dalam Pasal 60 ayat (4) Undang-undang ini dihukum dengan hukuman kurungan selama-lamanya 1 (satu) bulan.","verifikasi":"pdf-resmi"},{"id":"pasal-61/ayat-3","tipe":"ayat","nomor":"(3)","teks":"Pegawai pencatat perkawinan yang mencatat perkawinan sedangkan ia mengetahui bahwa keterangan atau keputusan pengganti keterangan tidak ada, dihukum dengan hukuman kurungan selama- lamanya 3 (tiga) bulan dan dihukum jabatan.","verifikasi":"pdf-resmi"}]},{"id":"pasal-62","tipe":"pasal","nomor":"62","teks":"Dalam perkawinan campuran kedudukan anak diatur sesuai dengan Pasal 59 ayat (1) Undang-undang ini.","verifikasi":"pdf-resmi"}]},{"id":"bab-12/bagian-keempat","tipe":"bagian","nomor":"Keempat","judul":"Pengadilan","anak":[{"id":"pasal-63","tipe":"pasal","nomor":"63","anak":[{"id":"pasal-63/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Yang dimaksud dengan Pengadilan dalam Undang-undang ini ialah:","verifikasi":"pdf-resmi","anak":[{"id":"pasal-63/ayat-1/huruf-a","tipe":"huruf","nomor":"a.","teks":"Pengadilan Agama bagi mereka yang beragama Islam;","verifikasi":"pdf-resmi"},{"id":"pasal-63/ayat-1/huruf-b","tipe":"huruf","nomor":"b.","teks":"Pengadilan Umum bagi lainnya.","verifikasi":"pdf-resmi"}]},{"id":"pasal-63/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Setiap Keputusan Pengadilan Agama dikukuhkan oleh Pengadilan Umum.","verifikasi":"pdf-resmi"}]}]}]},{"id":"bab-13","tipe":"bab","nomor":"XIII","judul":"KETENTUAN PERALIHAN","anak":[{"id":"pasal-64","tipe":"pasal","nomor":"64","teks":"Untuk perkawinan dan segala sesuatu yang berhubungan dengan perkawinan yang terjadi sebelum Undang-undang ini berlaku yang dijalankan menurut peraturan-peraturan lama, adalah sah.","verifikasi":"pdf-resmi"},{"id":"pasal-65","tipe":"pasal","nomor":"65","anak":[{"id":"pasal-65/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Dalam hal seorang suami beristeri lebih dari seorang baik berdasarkan hukum lama maupun berdasarkan Pasal 3 ayat (2) Undang-undang ini maka berlakulah ketentuan-ketentuan berikut :","verifikasi":"pdf-resmi","anak":[{"id":"pasal-65/ayat-1/huruf-a","tipe":"huruf","nomor":"a.","teks":"Suami wajib memberi jaminan hidup yang sama kepada semua isteri dan anaknya;","verifikasi":"pdf-resmi"},{"id":"pasal-65/ayat-1/huruf-b","tipe":"huruf","nomor":"b.","teks":"Isteri yang kedua dan seterusnya tidak mempunyai hak atas harta bersama yang telah ada sebelum perkawinan dengan isteri kedua atau berikutnya itu terjadi;","verifikasi":"pdf-resmi"},{"id":"pasal-65/ayat-1/huruf-c","tipe":"huruf","nomor":"c.","teks":"Semua isteri mempunyai hak yang sama atas harta bersama yang terjadi sejak perkawinannya masing-masing.","verifikasi":"pdf-resmi"}]},{"id":"pasal-65/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Jika Pengadilan yang memberi izin untuk beristeri lebih dari seorang menurut Undang-undang ini tidak menentukan lain, maka berlakulah ketentuan-ketentuan ayat (1) pasal ini. B A B XIV KETENTUAN PENUTUP","verifikasi":"pdf-resmi"}]},{"id":"pasal-66","tipe":"pasal","nomor":"66","teks":"Untuk perkawinan dan segala sesuatu yang berhubungan dengan perkawinan berdasarkan atas Undang-undang ini, maka dengan berlakunya Undang-undang ini ketentuan-ketentuan yang diatur dalam Kitab Undang-undang Hukum Perdata (Burgerlijk Wetboek), Ordonansi Perkawinan Indonesia Kristen (Huwelijks Ordonantie Christen Indonesiers S.1933 No. 74), Peraturan Perkawinan Campuran (Regeling op de gemengde Huwelijken S. 1898 No. 158), dan peraturan-peraturan lain yang mengatur tentang perkawinan sejauh telah diatur dalam Undang-undang ini, dinyatakan tidak berlaku.","verifikasi":"pdf-resmi"},{"id":"pasal-67","tipe":"pasal","nomor":"67","anak":[{"id":"pasal-67/ayat-1","tipe":"ayat","nomor":"(1)","teks":"Undang-undang ini mulai berlaku pada tanggal diundangkannya, yang pelaksanaannya secara efektif lebih lanjut akan diatur dengan Peraturan Pemerintah.","verifikasi":"pdf-resmi"},{"id":"pasal-67/ayat-2","tipe":"ayat","nomor":"(2)","teks":"Hal-hal dalam Undang-undang ini yang memerlukan pengaturan pelaksanaan, diatur lebih lanjut dengan Peraturan Pemerintah. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.","verifikasi":"pdf-resmi"}]}]}]},"peristiwa":[{"id":"uu-2019-16/amandemen-uu-1974-1","tipe":"perubahan","target":"uu-1974-1","tanggal_berlaku":"2019-10-15","operasi":[],"status_kurasi":"belum-dienkode","catatan":"Operasi perubahan BELUM dienkode. Perubahan: batas usia perkawinan pria & wanita disamakan 19 tahun (Pasal 7).","pelaku":"uu-2019-16","judul_pelaku":"Perubahan atas Undang-undang Nomor 1 Tahun 1974 tentang Perkawinan"}],"jejaring":{"dasar_hukum":[{"teks":"Pasal 5 ayat (1), Pasal 20 ayat (1), Pasal 27 ayat (1) dan Pasal 29 Undang-Undang Dasar 1945","target":"uud-1945"},{"teks":"Ketetapan Majelis Permusyawaratan Rakyat Nomor IV/MPR/1973","target":null}],"dasar_bagi":["uu-2019-16"],"relasi":[{"tipe":"diubah-dengan","target_id":"uu-2019-16","bpk_id":"122740","judul":"UU No. 16 Tahun 2019","url":"https://peraturan.bpk.go.id/Details/122740/uu-no-16-tahun-2019"}]},"istilah":[],"istilah_lintas":[{"istilah":"Jaringan Dokumentasi dan Informasi Hukum Nasional","unit":"pasal-1/angka-1","nomor":"1.","definisi":"Jaringan Dokumentasi dan Informasi Hukum Nasional yang selanjutnya disingkat JDIHN adalah wadah pendayagunaan bersama atas dokumen hukum secara tertib, terpadu, dan berkesinambungan, serta merupakan sarana pemberian pelayanan informasi hukum secara lengkap, akurat, mudah, dan cepat.","sumber_karya":"perpres-2012-33","kelas":"korpus"},{"istilah":"JDIHN","unit":"pasal-1/angka-1","nomor":"1.","definisi":"Jaringan Dokumentasi dan Informasi Hukum Nasional yang selanjutnya disingkat JDIHN adalah wadah pendayagunaan bersama atas dokumen hukum secara tertib, terpadu, dan berkesinambungan, serta merupakan sarana pemberian pelayanan informasi hukum secara lengkap, akurat, mudah, dan cepat.","sumber_karya":"perpres-2012-33","kelas":"korpus"},{"istilah":"Dokumen Hukum","unit":"pasal-1/angka-2","nomor":"2.","definisi":"Dokumen Hukum adalah produk hukum yang berupa peraturan perundang-undangan atau produk hukum selain peraturan perundang-undangan yang meliputi namun tidak terbatas pada putusan pengadilan, yurisprudensi, monografi hukum, artikel majalah hukum, buku hukum, penelitian hukum, pengkajian hukum, naskah akademis, dan rancangan peraturan perundang-undangan.","sumber_karya":"perpres-2012-33","kelas":"korpus"},{"istilah":"Pengelolaan Dokumentasi dan Informasi Hukum","unit":"pasal-1/angka-3","nomor":"3.","definisi":"Pengelolaan Dokumentasi dan Informasi Hukum adalah kegiatan pengumpulan, pengolahan, penyimpanan, pelestarian, dan pendayagunaan informasi dokumen hukum.","sumber_karya":"perpres-2012-33","kelas":"korpus"},{"istilah":"Peraturan Perundang-undangan","unit":"pasal-1/angka-2","nomor":"2.","definisi":"Peraturan Perundang-undangan adalah peraturan tertulis yang memuat norma hukum yang mengikat secara umum dan dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang ditetapkan dalam Peraturan Perundang-undangan.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Menteri","unit":"pasal-1/angka-5","nomor":"5.","definisi":"Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.","sumber_karya":"perpres-2012-33","kelas":"korpus"},{"istilah":"Pejabat Pembuat Akta Tanah","unit":"pasal-1/angka-1","nomor":"1.","definisi":"Pejabat Pembuat Akta Tanah, selanjutnya disebut PPAT adalah pejabat umum yang diberi kewenangan untuk membuat akta-akta otentik mengenai perbuatan hukum tertentu mengenai hak atas tanah atau Hak Milik Atas Satuan Rumah Susun.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"PPAT","unit":"pasal-1/angka-1","nomor":"1.","definisi":"Pejabat Pembuat Akta Tanah, selanjutnya disebut PPAT adalah pejabat umum yang diberi kewenangan untuk membuat akta-akta otentik mengenai perbuatan hukum tertentu mengenai hak atas tanah atau Hak Milik Atas Satuan Rumah Susun.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"PPAT Sementara","unit":"pasal-1/angka-2","nomor":"2.","definisi":"PPAT Sementara adalah pejabat Pemerintah yang ditunjuk karena jabatannya untuk melaksanakan tugas PPAT dengan membuat akta PPAT di daerah yang belum cukup terdapat PPAT.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"PPAT Khusus","unit":"pasal-1/angka-3","nomor":"3.","definisi":"PPAT Khusus adalah pejabat Badan Pertanahan Nasional yang ditunjuk karena jabatannya untuk melaksanakan tugas PPAT dengan membuat akta PPAT tertentu khusus dalam rangka pelaksanaan program atau tugas Pemerintah tertentu.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"Akta PPAT","unit":"pasal-1/angka-4","nomor":"4.","definisi":"Akta PPAT adalah akta yang dibuat oleh PPAT sebagai bukti telah dilaksanakannya perbuatan hukum tertentu mengenai hak atas tanah atau Hak Milik Atas Satuan Rumah Susun.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"Protokol PPAT","unit":"pasal-1/angka-5","nomor":"5.","definisi":"Protokol PPAT adalah kumpulan dokumen yang harus disimpan dan dipelihara oleh PPAT yang terdiri dari daftar akta, akta asli, warkah pendukung akta, arsip laporan, agenda dan surat-surat lainnya.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"Warkah","unit":"pasal-1/angka-6","nomor":"6.","definisi":"Warkah adalah dokumen yang dijadikan dasar pembuatan akta PPAT.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"Formasi PPAT","unit":"pasal-1/angka-7","nomor":"7.","definisi":"Formasi PPAT adalah jumlah maksimum PPAT yang diperbolehkan dalam satu satuan daerah kerja PPAT.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"Daerah kerja PPAT","unit":"pasal-1/angka-8","nomor":"8.","definisi":"Daerah kerja PPAT adalah suatu wilayah yang menunjukkan kewenangan seorang PPAT untuk membuat akta mengenai hak atas tanah dan Hak Milik Atas Satuan Rumah Susun yang terletak di dalamnya.","sumber_karya":"pp-1998-37","kelas":"korpus"},{"istilah":"Notaris","unit":"pasal-1/angka-1","nomor":"1.","definisi":"Notaris adalah pejabat umum yang berwenang untuk membuat akta otentik dan kewenangan lainnya sebagaimana dimaksud dalam Undang-Undang ini.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Pejabat Sementara Notaris","unit":"pasal-1/angka-2","nomor":"2.","definisi":"Pejabat Sementara Notaris adalah seorang yang untuk sementara menjabat sebagai Notaris untuk menjalankan jabatan Notaris yang meninggal dunia, diberhentikan, atau diberhentikan sementara.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Notaris Pengganti","unit":"pasal-1/angka-3","nomor":"3.","definisi":"Notaris Pengganti adalah seorang yang untuk sementara diangkat sebagai Notaris untuk menggantikan Notaris yang sedang cuti, sakit, atau untuk sementara berhalangan menjalankan jabatannya sebagai Notaris.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Notaris Pengganti Khusus","unit":"pasal-1/angka-4","nomor":"4.","definisi":"Notaris Pengganti Khusus adalah seorang yang diangkat sebagai Notaris khusus untuk membuat akta tertentu sebagaimana disebutkan dalam surat penetapannya sebagai Notaris karena di dalam satu daerah kabupaten atau kota terdapat hanya seorang Notaris, sedangkan Notaris yang bersangkutan menurut ketentuan Undang-Undang ini tidak boleh membuat akta dimaksud.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Organisasi Notaris","unit":"pasal-1/angka-5","nomor":"5.","definisi":"Organisasi Notaris adalah organisasi profesi jabatan notaris yang berbentuk perkumpulan yang berbadan hukum.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Majelis Pengawas","unit":"pasal-1/angka-6","nomor":"6.","definisi":"Majelis Pengawas adalah suatu badan yang mempunyai kewenangan dan kewajiban untuk melaksanakan pembinaan dan pengawasan terhadap Notaris.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Akta Notaris","unit":"pasal-1/angka-7","nomor":"7.","definisi":"Akta Notaris adalah akta otentik yang dibuat oleh atau di hadapan Notaris menurut bentuk dan tata cara yang ditetapkan dalam Undang-Undang ini.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Minuta Akta","unit":"pasal-1/angka-8","nomor":"8.","definisi":"Minuta Akta adalah asli Akta Notaris.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Salinan Akta","unit":"pasal-1/angka-9","nomor":"9.","definisi":"Salinan Akta adalah salinan kata demi kata dari seluruh akta dan pada bagian bawah salinan akta tercantum frasa \"diberikan sebagai salinan yang sama bunyinya\".","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Kutipan Akta","unit":"pasal-1/angka-10","nomor":"10.","definisi":"Kutipan Akta adalah kutipan kata demi kata dari satu atau beberapa bagian dari akta dan pada bagian bawah kutipan akta tercantum frasa \"diberikan sebagai kutipan\".","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Grosse Akta","unit":"pasal-1/angka-11","nomor":"11.","definisi":"Grosse Akta adalah salah satu salinan akta untuk pengakuan utang dengan kepala akta “DEMI KEADILAN BERDASARKAN KETUHANAN YANG MAHA ESA”, yang mempunyai kekuatan eksekutorial.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Formasi Jabatan Notaris","unit":"pasal-1/angka-12","nomor":"12.","definisi":"Formasi Jabatan Notaris adalah penentuan jumlah Notaris yang dibutuhkan pada suatu wilayah jabatan Notaris.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Protokol Notaris","unit":"pasal-1/angka-13","nomor":"13.","definisi":"Protokol Notaris adalah kumpulan dokumen yang merupakan arsip negara yang harus disimpan dan dipelihara oleh Notaris.","sumber_karya":"uu-2004-30","kelas":"korpus"},{"istilah":"Informasi Elektronik","unit":"pasal-1/angka-1","nomor":"1.","definisi":"Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Transaksi Elektronik","unit":"pasal-1/angka-2","nomor":"2.","definisi":"Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Teknologi Informasi","unit":"pasal-1/angka-3","nomor":"3.","definisi":"Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/atau menyebarkan informasi.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Dokumen Elektronik","unit":"pasal-1/angka-4","nomor":"4.","definisi":"Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui Komputer atau Sistem Elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Sistem Elektronik","unit":"pasal-1/angka-5","nomor":"5.","definisi":"Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Penyelenggaraan Sistem Elektronik","unit":"pasal-1/angka-6","nomor":"6.","definisi":"Penyelenggaraan Sistem Elektronik adalah pemanfaatan Sistem Elektronik oleh penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Jaringan Sistem Elektronik","unit":"pasal-1/angka-7","nomor":"7.","definisi":"Jaringan Sistem Elektronik adalah terhubungnya dua Sistem Elektronik atau lebih, yang bersifat tertutup ataupun terbuka.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Agen Elektronik","unit":"pasal-1/angka-8","nomor":"8.","definisi":"Agen Elektronik adalah perangkat dari suatu Sistem Elektronik yang dibuat untuk melakukan suatu tindakan terhadap suatu Informasi Elektronik tertentu secara otomatis yang diselenggarakan oleh Orang.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Sertifikat Elektronik","unit":"pasal-1/angka-9","nomor":"9.","definisi":"Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam Transaksi Elektronik yang dikeluarkan oleh Penyelenggara Sertifikasi Elektronik.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Penyelenggara Sertifikasi Elektronik","unit":"pasal-1/angka-10","nomor":"10.","definisi":"Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Lembaga Sertifikasi Keandalan","unit":"pasal-1/angka-11","nomor":"11.","definisi":"Lembaga Sertifikasi Keandalan adalah lembaga independen yang dibentuk oleh profesional yang diakui, disahkan, dan diawasi oleh Pemerintah dengan kewenangan mengaudit dan mengeluarkan sertifikat keandalan dalam Transaksi Elektronik.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Tanda Tangan Elektronik","unit":"pasal-1/angka-12","nomor":"12.","definisi":"Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Penanda Tangan","unit":"pasal-1/angka-13","nomor":"13.","definisi":"Penanda Tangan adalah subjek hukum yang terasosiasikan atau terkait dengan Tanda Tangan Elektronik.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Komputer","unit":"pasal-1/angka-14","nomor":"14.","definisi":"Komputer adalah alat untuk memproses data elektronik, magnetik, optik, atau sistem yang melaksanakan fungsi logika, aritmatika, dan penyimpanan.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Akses","unit":"pasal-1/angka-15","nomor":"15.","definisi":"Akses adalah kegiatan melakukan interaksi dengan Sistem Elektronik yang berdiri sendiri atau dalam jaringan.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Kode Akses","unit":"pasal-1/angka-16","nomor":"16.","definisi":"Kode Akses adalah angka, huruf, simbol, karakter lainnya atau kombinasi di antaranya, yang merupakan kunci untuk dapat mengakses Komputer dan/atau Sistem Elektronik lainnya.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Kontrak Elektronik","unit":"pasal-1/angka-17","nomor":"17.","definisi":"Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Pengirim","unit":"pasal-1/angka-18","nomor":"18.","definisi":"Pengirim adalah subjek hukum yang mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Penerima","unit":"pasal-1/angka-19","nomor":"19.","definisi":"Penerima adalah subjek hukum yang menerima Informasi Elektronik dan/atau Dokumen Elektronik dari Pengirim.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Nama Domain","unit":"pasal-1/angka-20","nomor":"20.","definisi":"Nama Domain adalah alamat internet penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat, yang dapat digunakan dalam berkomunikasi melalui internet, yang berupa kode atau susunan karakter yang bersifat unik untuk menunjukkan lokasi tertentu dalam internet.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Orang","unit":"pasal-1/angka-21","nomor":"21.","definisi":"Orang adalah orang perseorangan, baik warga negara Indonesia, warga negara asing, maupun badan hukum.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Badan Usaha","unit":"pasal-1/angka-22","nomor":"22.","definisi":"Badan Usaha adalah perusahaan perseorangan atau perusahaan persekutuan, baik yang berbadan hukum maupun yang tidak berbadan hukum.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Pemerintah","unit":"pasal-1/angka-23","nomor":"23.","definisi":"Pemerintah adalah Menteri atau pejabat lainnya yang ditunjuk oleh Presiden.","sumber_karya":"uu-2008-11","kelas":"korpus"},{"istilah":"Kearsipan","unit":"pasal-1/angka-1","nomor":"1.","definisi":"Kearsipan adalah hal-hal yang berkenaan dengan arsip.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip","unit":"pasal-1/angka-2","nomor":"2.","definisi":"Arsip adalah rekaman kegiatan atau peristiwa dalam berbagai bentuk dan media sesuai dengan perkembangan teknologi informasi dan komunikasi yang dibuat dan diterima oleh lembaga negara, pemerintahan daerah, lembaga pendidikan, perusahaan, organisasi politik, organisasi kemasyarakatan, dan perseorangan dalam pelaksanaan kehidupan bermasyarakat, berbangsa, dan bernegara.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip dinamis","unit":"pasal-1/angka-3","nomor":"3.","definisi":"Arsip dinamis adalah arsip yang digunakan secara langsung dalam kegiatan pencipta arsip dan disimpan selama jangka waktu tertentu.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip vital","unit":"pasal-1/angka-4","nomor":"4.","definisi":"Arsip vital adalah arsip yang keberadaannya merupakan persyaratan dasar bagi kelangsungan operasional pencipta arsip, tidak dapat diperbarui, dan tidak tergantikan apabila rusak atau hilang.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip aktif","unit":"pasal-1/angka-5","nomor":"5.","definisi":"Arsip aktif adalah arsip yang frekuensi penggunaannya tinggi dan/atau terus menerus.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip inaktif","unit":"pasal-1/angka-6","nomor":"6.","definisi":"Arsip inaktif adalah arsip yang frekuensi penggunaannya telah menurun.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip statis","unit":"pasal-1/angka-7","nomor":"7.","definisi":"Arsip statis adalah arsip yang dihasilkan oleh pencipta arsip karena memiliki nilai guna kesejarahan, telah habis retensinya, dan berketerangan dipermanenkan yang telah diverifikasi baik secara langsung maupun tidak langsung oleh Arsip Nasional Republik Indonesia dan/atau lembaga kearsipan.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip terjaga","unit":"pasal-1/angka-8","nomor":"8.","definisi":"Arsip terjaga adalah arsip negara yang berkaitan dengan keberadaan dan kelangsungan hidup bangsa dan negara yang harus dijaga keutuhan, keamanan, dan keselamatannya.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip umum","unit":"pasal-1/angka-9","nomor":"9.","definisi":"Arsip umum adalah arsip yang tidak termasuk dalam kategori arsip terjaga.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsiparis","unit":"pasal-1/angka-10","nomor":"10.","definisi":"Arsiparis adalah seseorang yang memiliki kompetensi di bidang kearsipan yang diperoleh melalui pendidikan formal dan/atau pendidikan dan pelatihan kearsipan serta mempunyai fungsi, tugas, dan tanggung jawab melaksanakan kegiatan kearsipan.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Akses arsip","unit":"pasal-1/angka-11","nomor":"11.","definisi":"Akses arsip adalah ketersediaan arsip sebagai hasil dari kewenangan hukum dan otorisasi legal serta keberadaan sarana bantu untuk mempermudah penemuan dan pemanfaatan arsip.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Lembaga kearsipan","unit":"pasal-1/angka-12","nomor":"12.","definisi":"Lembaga kearsipan adalah lembaga yang memiliki fungsi, tugas, dan tanggung jawab di bidang pengelolaan arsip statis dan pembinaan kearsipan.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Lembaga negara","unit":"pasal-1/angka-13","nomor":"13.","definisi":"Lembaga negara adalah lembaga yang menjalankan cabang-cabang kekuasaan negara meliputi eksekutif, legislatif, yudikatif, dan lembaga lain yang fungsi dan tugas pokoknya berkaitan dengan penyelenggaraan negara sesuai dengan ketentuan peraturan perundang- undangan.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip Nasional Republik Indonesia","unit":"pasal-1/angka-14","nomor":"14.","definisi":"Arsip Nasional Republik Indonesia selanjutnya disebut ANRI adalah lembaga kearsipan berbentuk lembaga pemerintah nonkementerian yang melaksanakan tugas negara di bidang kearsipan yang berkedudukan di ibukota negara.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"ANRI","unit":"pasal-1/angka-14","nomor":"14.","definisi":"Arsip Nasional Republik Indonesia selanjutnya disebut ANRI adalah lembaga kearsipan berbentuk lembaga pemerintah nonkementerian yang melaksanakan tugas negara di bidang kearsipan yang berkedudukan di ibukota negara.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip daerah provinsi","unit":"pasal-1/angka-15","nomor":"15.","definisi":"Arsip daerah provinsi adalah lembaga kearsipan berbentuk satuan kerja perangkat daerah yang melaksanakan tugas pemerintahan di bidang kearsipan pemerintahan daerah provinsi yang berkedudukan di ibukota provinsi.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip daerah kabupaten/kota","unit":"pasal-1/angka-16","nomor":"16.","definisi":"Arsip daerah kabupaten/kota adalah lembaga kearsipan berbentuk satuan kerja perangkat daerah yang melaksanakan tugas pemerintahan di bidang kearsipan pemerintahan daerah kabupaten/kota yang berkedudukan di ibukota kabupaten/kota.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Arsip perguruan tinggi","unit":"pasal-1/angka-17","nomor":"17.","definisi":"Arsip perguruan tinggi adalah lembaga kearsipan berbentuk satuan organisasi perguruan tinggi, baik negeri maupun swasta yang melaksanakan fungsi dan tugas penyelenggaraan kearsipan di lingkungan perguruan tinggi.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Perusahaan","unit":"pasal-1/angka-18","nomor":"18.","definisi":"Perusahaan adalah setiap bentuk usaha yang melakukan kegiatan dengan tujuan memperoleh keuntungan atau laba yang berbentuk badan hukum yang didirikan dan/atau berkedudukan dalam wilayah Negara Kesatuan Republik Indonesia.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Pencipta arsip","unit":"pasal-1/angka-19","nomor":"19.","definisi":"Pencipta arsip adalah pihak yang mempunyai kemandirian dan otoritas dalam pelaksanaan fungsi, tugas, dan tanggung jawab di bidang pengelolaan arsip dinamis.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Unit pengolah","unit":"pasal-1/angka-20","nomor":"20.","definisi":"Unit pengolah adalah satuan kerja pada pencipta arsip yang mempunyai tugas dan tanggung jawab mengolah semua arsip yang berkaitan dengan kegiatan penciptaan arsip di lingkungannya.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Unit kearsipan","unit":"pasal-1/angka-21","nomor":"21.","definisi":"Unit kearsipan adalah satuan kerja pada pencipta arsip yang mempunyai tugas dan tanggung jawab dalam penyelenggaraan kearsipan.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Jadwal retensi arsip","unit":"pasal-1/angka-22","nomor":"22.","definisi":"Jadwal retensi arsip yang selanjutnya disingkat JRA adalah daftar yang berisi sekurang- kurangnya jangka waktu penyimpanan atau retensi, jenis arsip, dan keterangan yang berisi rekomendasi tentang penetapan suatu jenis arsip dimusnahkan, dinilai kembali, atau dipermanenkan yang dipergunakan sebagai pedoman penyusutan dan penyelamatan arsip.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"JRA","unit":"pasal-1/angka-22","nomor":"22.","definisi":"Jadwal retensi arsip yang selanjutnya disingkat JRA adalah daftar yang berisi sekurang- kurangnya jangka waktu penyimpanan atau retensi, jenis arsip, dan keterangan yang berisi rekomendasi tentang penetapan suatu jenis arsip dimusnahkan, dinilai kembali, atau dipermanenkan yang dipergunakan sebagai pedoman penyusutan dan penyelamatan arsip.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Penyusutan arsip","unit":"pasal-1/angka-23","nomor":"23.","definisi":"Penyusutan arsip adalah kegiatan pengurangan jumlah arsip dengan cara pemindahan arsip inaktif dari unit pengolah ke unit kearsipan, pemusnahan arsip yang tidak memiliki nilai guna, dan penyerahan arsip statis kepada lembaga kearsipan.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Penyelenggaraan kearsipan","unit":"pasal-1/angka-24","nomor":"24.","definisi":"Penyelenggaraan kearsipan adalah keseluruhan kegiatan meliputi kebijakan, pembinaan kearsipan, dan pengelolaan arsip dalam suatu sistem kearsipan nasional yang didukung oleh sumber daya manusia, prasarana dan sarana, serta sumber daya lainnya.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Pengelolaan arsip dinamis","unit":"pasal-1/angka-25","nomor":"25.","definisi":"Pengelolaan arsip dinamis adalah proses pengendalian arsip dinamis secara efisien, efektif, dan sistematis meliputi penciptaan, penggunaan dan pemeliharaan, serta penyusutan arsip.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Pengelolaan arsip statis","unit":"pasal-1/angka-26","nomor":"26.","definisi":"Pengelolaan arsip statis adalah proses pengendalian arsip statis secara efisien, efektif, dan sistematis meliputi akuisisi, pengolahan, preservasi, pemanfaatan, pendayagunaan, dan pelayanan publik dalam suatu sistem kearsipan nasional.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Akuisisi arsip statis","unit":"pasal-1/angka-27","nomor":"27.","definisi":"Akuisisi arsip statis adalah proses penambahan khasanah arsip statis pada lembaga kearsipan yang dilaksanakan melalui kegiatan penyerahan arsip statis dan hak pengelolaannya dari pencipta arsip kepada lembaga kearsipan.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Sistem kearsipan nasional","unit":"pasal-1/angka-28","nomor":"28.","definisi":"Sistem kearsipan nasional yang selanjutnya disingkat SKN adalah suatu sistem yang membentuk pola hubungan berkelanjutan antarberbagai komponen yang memiliki fungsi dan tugas tertentu, interaksi antarpelaku serta unsur lain yang saling mempengaruhi dalam penyelenggaraan kearsipan secara nasional.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"SKN","unit":"pasal-1/angka-28","nomor":"28.","definisi":"Sistem kearsipan nasional yang selanjutnya disingkat SKN adalah suatu sistem yang membentuk pola hubungan berkelanjutan antarberbagai komponen yang memiliki fungsi dan tugas tertentu, interaksi antarpelaku serta unsur lain yang saling mempengaruhi dalam penyelenggaraan kearsipan secara nasional.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Sistem informasi kearsipan nasional","unit":"pasal-1/angka-29","nomor":"29.","definisi":"Sistem informasi kearsipan nasional yang selanjutnya disingkat SIKN adalah sistem informasi arsip secara nasional yang dikelola oleh ANRI yang menggunakan sarana jaringan informasi kearsipan nasional.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"SIKN","unit":"pasal-1/angka-29","nomor":"29.","definisi":"Sistem informasi kearsipan nasional yang selanjutnya disingkat SIKN adalah sistem informasi arsip secara nasional yang dikelola oleh ANRI yang menggunakan sarana jaringan informasi kearsipan nasional.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Jaringan informasi kearsipan nasional","unit":"pasal-1/angka-30","nomor":"30.","definisi":"Jaringan informasi kearsipan nasional yang selanjutnya disingkat JIKN adalah sistem jaringan informasi dan sarana pelayanan arsip secara nasional yang dikelola oleh ANRI.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"JIKN","unit":"pasal-1/angka-30","nomor":"30.","definisi":"Jaringan informasi kearsipan nasional yang selanjutnya disingkat JIKN adalah sistem jaringan informasi dan sarana pelayanan arsip secara nasional yang dikelola oleh ANRI.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Daftar pencarian arsip","unit":"pasal-1/angka-31","nomor":"31.","definisi":"Daftar pencarian arsip yang selanjutnya disingkat DPA adalah daftar berisi arsip yang memiliki nilai guna kesejarahan baik yang telah diverifikasi secara langsung maupun tidak langsung oleh lembaga kearsipan dan dicari oleh lembaga kearsipan serta diumumkan kepada publik.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"DPA","unit":"pasal-1/angka-31","nomor":"31.","definisi":"Daftar pencarian arsip yang selanjutnya disingkat DPA adalah daftar berisi arsip yang memiliki nilai guna kesejarahan baik yang telah diverifikasi secara langsung maupun tidak langsung oleh lembaga kearsipan dan dicari oleh lembaga kearsipan serta diumumkan kepada publik.","sumber_karya":"uu-2009-43","kelas":"korpus"},{"istilah":"Pembentukan Peraturan Perundang-undangan","unit":"pasal-1/angka-1","nomor":"1.","definisi":"Pembentukan Peraturan Perundang-undangan adalah pembuatan Peraturan Perundang-undangan yang mencakup tahapan perencanaan, penyusunan, pembahasan, pengesahan atau penetapan, dan pengundangan.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Peraturan Pemerintah Pengganti Undang-Undang","unit":"pasal-1/angka-4","nomor":"4.","definisi":"Peraturan Pemerintah Pengganti Undang-Undang adalah Peraturan Perundang-undangan yang ditetapkan oleh Presiden dalam hal ihwal kegentingan yang memaksa.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Peraturan Pemerintah","unit":"pasal-1/angka-5","nomor":"5.","definisi":"Peraturan Pemerintah adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan Undang-Undang sebagaimana mestinya.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Peraturan Presiden","unit":"pasal-1/angka-6","nomor":"6.","definisi":"Peraturan Presiden adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan perintah Peraturan Perundang- undangan yang lebih tinggi atau dalam menyelenggarakan kekuasaan pemerintahan.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Peraturan Daerah Provinsi","unit":"pasal-1/angka-7","nomor":"7.","definisi":"Peraturan Daerah Provinsi adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Provinsi dengan persetujuan bersama Gubernur.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Peraturan Daerah Kabupaten/Kota","unit":"pasal-1/angka-8","nomor":"8.","definisi":"Peraturan Daerah Kabupaten/Kota adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Kabupaten/Kota dengan persetujuan bersama Bupati/Walikota.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Program Legislasi Nasional","unit":"pasal-1/angka-9","nomor":"9.","definisi":"Program Legislasi Nasional yang selanjutnya disebut Prolegnas adalah instrumen perencanaan program pembentukan Undang-Undang yang disusun secara terencana, terpadu, dan sistematis.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Prolegnas","unit":"pasal-1/angka-9","nomor":"9.","definisi":"Program Legislasi Nasional yang selanjutnya disebut Prolegnas adalah instrumen perencanaan program pembentukan Undang-Undang yang disusun secara terencana, terpadu, dan sistematis.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Program Legislasi Daerah","unit":"pasal-1/angka-10","nomor":"10.","definisi":"Program Legislasi Daerah yang selanjutnya disebut Prolegda adalah instrumen perencanaan program pembentukan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota yang disusun secara terencana, terpadu, dan sistematis.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Prolegda","unit":"pasal-1/angka-10","nomor":"10.","definisi":"Program Legislasi Daerah yang selanjutnya disebut Prolegda adalah instrumen perencanaan program pembentukan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota yang disusun secara terencana, terpadu, dan sistematis.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Naskah Akademik","unit":"pasal-1/angka-11","nomor":"11.","definisi":"Naskah Akademik adalah naskah hasil penelitian atau pengkajian hukum dan hasil penelitian lainnya terhadap suatu masalah tertentu yang dapat dipertanggungjawabkan secara ilmiah mengenai pengaturan masalah tersebut dalam suatu Rancangan Undang-Undang, Rancangan Peraturan Daerah Provinsi, atau Rancangan Peraturan Daerah Kabupaten/Kota sebagai solusi terhadap permasalahan dan kebutuhan hukum masyarakat.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Pengundangan","unit":"pasal-1/angka-12","nomor":"12.","definisi":"Pengundangan adalah penempatan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia, Tambahan Lembaran Negara Republik Indonesia, Berita Negara Republik Indonesia, Tambahan Berita Negara Republik Indonesia, Lembaran Daerah, Tambahan Lembaran Daerah, atau Berita Daerah.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Materi Muatan Peraturan Perundang-undangan","unit":"pasal-1/angka-13","nomor":"13.","definisi":"Materi Muatan Peraturan Perundang-undangan adalah materi yang dimuat dalam Peraturan Perundang-undangan sesuai dengan jenis, fungsi, dan hierarki Peraturan Perundang-undangan.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Dewan Perwakilan Rakyat","unit":"pasal-1/angka-14","nomor":"14.","definisi":"Dewan Perwakilan Rakyat yang selanjutnya disingkat DPR adalah Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"DPR","unit":"pasal-1/angka-14","nomor":"14.","definisi":"Dewan Perwakilan Rakyat yang selanjutnya disingkat DPR adalah Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Dewan Perwakilan Daerah","unit":"pasal-1/angka-15","nomor":"15.","definisi":"Dewan Perwakilan Daerah yang selanjutnya disingkat DPD adalah Dewan Perwakilan Daerah sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"DPD","unit":"pasal-1/angka-15","nomor":"15.","definisi":"Dewan Perwakilan Daerah yang selanjutnya disingkat DPD adalah Dewan Perwakilan Daerah sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"Dewan Perwakilan Rakyat Daerah","unit":"pasal-1/angka-16","nomor":"16.","definisi":"Dewan Perwakilan Rakyat Daerah yang selanjutnya disingkat DPRD adalah Dewan Perwakilan Rakyat Daerah sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.","sumber_karya":"uu-2011-12","kelas":"meta"},{"istilah":"DPRD","unit":"pasal-1/angka-16","nomor":"16.","definisi":"Dewan Perwakilan Rakyat Daerah yang selanjutnya disingkat DPRD adalah Dewan Perwakilan Rakyat Daerah sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.","sumber_karya":"uu-2011-12","kelas":"meta"}],"penjelasan":{"karya":"uu-1974-1","sumber":"penjelasan resmi naskah asli (TLN); perubahan penjelasan oleh UU perubahan belum dienkode","umum":"1. Bagi suatu Negara dan Bangsa seperti Indonesia adalah mutlak adanya Undang- undang Perkawinan Nasional yang sekaligus menampung prinsip-prinsip dan memberikan landasan hukum perkawinan yang selama ini menjadi pegangan dan telah berlaku bagi berbagai golongan dalam masyarakat kita.\n2. Dewasa ini berlaku berbagai hukum perkawinan bagi berbagai golongan warganegara dan berbagai daerah seperti berikut :\na. bagi orang-orang Indonesia Asli yang beragama Islam berlaku hukum agama yang telah diresiplir dalam Hukum Adat; b. bagi orang-orang Indonesia Asli lainnya berlaku Hukum Adat; c. bagi orang-orang Indonesia Asli yang beragama Kristen berlaku Huwelijksordonnantie Christen Indonesia (S. 1933 Nomor 74); d. bagi orang Timur Asing Cina dan warganegara Indonesia keturunan Cina berlaku ketentuan-ketentuan Kitab Undang-undang Hukum Perdata dengan sedikit perubahan; e. bagi orang-orang Timur Asing lain-lainnya dan warganegara Indonesia keturunan Timur Asing lainnya tersebut berlaku hukum Adat mereka; f. bagi orang-orang Eropa dan Warganegara Indonesia keturunan Eropa dan yang disamakan dengan mereka berlaku Kitab Undang-undang Hukum Perdata.\n3. Sesuai dengan landasan falsafah Pancasila dan Undang-Undang Dasar 1945, maka Undang-undang ini disatu fihak harus dapat mewujudkan prinsip-prinsip yang terkandung dalam Pancasila dan Undang-Undang Dasar 1945, sedangkan dilain fihak harus dapat pula menampung segala kenyataan yang hidup dalam masyarakat dewasa ini. Undang-undang Perkawinan ini telah menampung didalamnya unsur-unsur dan ketentuan-ketentuan Hukum Agamanya dan Kepercayaannya itu dari yang bersangkutan.\n4. Dalam Undang-undang ini ditentukan Prinsip-prinsip atau azas-azas mengenai perkayanan dan segala sesuatu yang berhubungan dengan perkawinan yang telah disesuaikan dengan perkembangan dan tuntutan zaman. Azas-azas atau prinsip-prinsip yang tercantum dalam Undang-undang ini adalah sebagai berikut : a. Tujuan perkawinan adalah membentuk keluarga yang bahagia dan kekal. Untuk itu suami isteri perlu saling membantu dan melengkapi, aear masing-masing dapat mengembangkan kepribadiannya membantu dan mencapai kesejahteraan spirituil dan materiil.\nb. Dalam Undang-undang ini dinyatakan, bahwa suatu perkawinan adalah sah bilamana dilakukan menurut hukum masing-masing agamanya dan kepercayaannya itu; dan disamping itu tiap-tiap perkawinan harus dicatat menurut peraturan perundang-undangan yang berlaku. Pencatatan tiap-tiap perkawinan adalah sama halnya dengan pencatatan peristiwa-peristiwa penting dalam kehidupan seseorang, misalnya kelahiran, kematian yang dinyatakan dalam Surat- surat keterangan, suatu akte resmi yang juga dimuat dalam daftar pencatatan.\nc. Undang-undang ini menganut azas monogami. Hanya apabila dikehendaki oleh yang bersangkutan, karena hukum dan agama dari yang bersangkutan mengizinkannya, seorang suami dapat beristeri lebih dari seorang. Namun demikian perkawinan seorang suami dengan lebih dari seorang isteri, meskipun hal\nitu dikehendaki oleh pihak-pihak yang bersangkutan, hanya dapat dilakukan apabila dipenuhi berbagai persyaratan tertentu dan diputuskan oleh Pengadilan.\nd. Undang-undang ini menganut prinsip, bahwa calon suami-isteri itu harus telah masak jiwa raganya untuk dapat melangsungkan perkawinan, agar supaya dapat mewujudkan tujuan perkawinan secara baik tanpa berakhir pada perceraian dan mendapat keturunan yang baik dan sehat. Untuk itu harus dicegah adanya perkawinan antara calon suami-isteri yang masih dibawah umur. Disamping itu, perkawinan mempunyai hubungan dengan masalah kependudukan. Ternyatalah bahwa batas umur yang lebih rendah bagi seorang wanita untuk kawin, mengakibatkan laju kelahiran yang lebih tinggi jika dibandingkan dengan batas umur yang lebih tinggi. Berhubung dengan itu, maka Undang-undang ini menentukan batas umur untuk kawin baik bagi pria maupun bagi wanita,ialah 19 (sembilan belas) tahun bagi pria dan 16 (enam belas) tahun bagi,wanita.\ne. Karena tujuan perkawinan adalah untuk membentuk keluarga yang bahagia kekal dan sejahtera, maka Undang-undang ini menganut prinsip untuk mempersukar terjadinya perceraian. Untuk memungkinkan perceraian, harus ada alasan-alasan tertentu serta harus dilakukan didepan Sidang Pengadilan.\nf. Hak dan kedudukan isteri adalah seimbang dengan hak dan kedudukan suami baik dalam kehidupan rumah-tangga maupun dalam pergaulan masyarakat, sehingga dengan demikian segala sesuatu dalam keluarga dapat dirundingkan dan diputuskan bersama oleh suami-isteri.\n5. Untuk menjamin kepastian hukum, maka perkawinan berikut segala sesuatu yang berhubungan dengan perkawinan yang terjadi sebelum Undang-undang ini berlaku, yang dijalankan menurut hukum yang telah ada adalah sah.\nDemikian pula apabila mengenai sesuatu hal Undang-undang ini tidak mengatur dengan sendirinya berlaku ketentuan yang ada.","pasal":{"1":"Sebagai Negara yang berdasarkan Pancasila, dimana Sila yang pertamanya ialah ke Tuhanan Yang Mahaesa, maka perkawinan mempunyai hubungan yang erat sekali dengan agama/kerohanian, sehingga perkawinan bukan saja mempunyai unsur lahir/jasmani, tetapi unsur bathin/rokhani juga mempunyai peranan yang penting. Membentuk keluarga yang bahagia rapat hubungan dengan keturunan, yang pula merupakan tujuan perkawinan, pemeliharaan dan pendidikan menjadi hak dan kewajiban orang tua.","2":"Dengan perumusan pada Pasal 2 ayat (1) ini, tidak ada perkawinan di luar hukum masing-masing agamanya dan kepercayaannya itu, sesuai dengan Undang-Undang Dasar 1945. Yang dimaksud dengan hukum masing-masing agamanya dan kepercayaannya itu termasuk ketentuan perundang-undangan yang berlaku bagi golongan agamanya dan kepercayaannya itu sepanjang tidak bertentangan atau tidak ditentukan lain dalam Undang-undang ini.","3":"(1) Undang-undang ini menganut asas monogami. (2) Pengadilan dalam memberi putusan selain memeriksa apakah syarat yang tersebut Pasal 4 dan 5 telah dipenuhi harus mengingat pula apakah ketentuan-ketentuan hukum perkawinan dari calon suami mengizinkan adanya poligami.","4":"Cukup jelas.","5":"Cukup jelas.","6":"(1) Oleh karena perkawinan mempuryai maksud agar suami dan isteri dapat membentuk keluarga yang kekal dan bahagia, dan sesuai pula dengan hak azasi manusia, maka perkawinan harus disetujui oleh kedua belah pihak yang melangsungkan perkawinan tersebut, tanpa ada paksaan dari pihak manapun. Ketentuan dalam pasal ini, tidak berarti mengurangi syarat-syarat perkawinan menurut ketentuan hukum perkawinan yang sekarang berlaku, sepanjang tidak bertentangan dengan ketentuan-ketentuan dalam Undang-undang ini sebagaimana dimaksud dalam Pasal 2 ayat (1) Undang-undang ini.\n(2) Cukup jelas. (3) Cukup jelas. (4) Cukup jelas. (5) Cukup jelas. (6) Cukup jelas.","7":"(1) Untuk menjaga kesehatan suami-isteri dan keturunan, perlu ditetapkan batas-batas umur untuk perkawinan. (2) Dengan berlakunya Undang-undang ini, maka ketentuan-ketentuan yang mengatur tentang pemberian dispensasi terhadap perkawinan yang dimaksud pada ayat (1) seperti diatur dalam Kitab Undang-undang Hukum Perdata dan Ordonansi Perkawinan Indonesia Kristen (S. 1933 Nomor 74) dinyatakan tidak berlaku.\n(3) Cukup jelas.","8":"Cukup jelas.","9":"Cukup jelas.\nPasal 10. Oleh karena perkawinan mempunyai maksud agar suami dan isteri dapat membentuk keluarga yang kekal maka suatu tindakan yang mengakibatkan putusnya suatu perkawinan harus benar-benar dapat dipertimbangkan dan dipikirkan masak- masak. Ketentuan ini dimaksudkan untuk mencegah tindakan kawin-cerai berulang kali, sehingga suami maupun isteri benar-benar saling menghargai satu sama lain.","11":"Cukup jelas.","12":"Ketentuan Pasal 12 ini tidak mengurangi ketentuan yang diatur dalam Undang- undang Nomor 22 Tahun 1946 jo Undang-undang Nomor 32 Tahun 1954.","13":"Cukup jelas","14":"Cukup jelas.","15":"Cukup jelas.","16":"Cukup jelas.","17":"Cukup jelas.","18":"Cukup jelas.","19":"Cukup jelas.","20":"Cukup jelas.","21":"Cukup jelas.","22":"Pengertian \"dapat\" pada pasal ini diartikan bisa batal atau bisa tidak batal, bilamana menurut ketentuan hukum agamanya masing-masing tidak menentukan lain.","23":"Cukup jelas.","24":"Cukup jelas","25":"Cukup jelas","26":"Cukup jelas.","27":"Cukup jelas.","28":"Cukup jelas.","29":"Yang dimaksud dengan \"perjanjian\" dalam pasal ini tidak termasuk tak'lik - talak.","30":"Cukup jelas.","31":"Cukup jelas.","32":"Cukup jelas.","33":"Cukup jelas.","34":"Cukup jelas.","35":"Apabila perkawinan putus, maka harta bersama tersebut diatur menurut Hukumnya masing-masing.","36":"Cukup jelas.","37":"Yang dimaksud dengan \"hukumnya\" masing-masing ialah hukum agama, hukum adat dan hukum-hukum lainnya.","38":"Cukup jelas.","39":"(1) Cukup jelas.\n(2) Alasan-alasan yang dapat dijadikan dasar untuk perceraian adalah:\na. Salah satu pihak berbuat zina atau menjadi pemabok, pemadat, penjudi dan lain sebagainya yang sukar disembuhkan;\nb. Salah satu pihak meninggalkan yang lain selama 2 (dua) tahun bertutut-turut tanpa izin pihak yang lain dan tanpa alasan yang sah atau karena hal lain diluar kemauannya; c. Salah satu pihak mendapat hukuman penjara 5 (lima) tahun atau hukuman yang lebih berat setelah perkawinan berlangsung; d. Salah satu pihak melakukan kekejaman atau penganiayaan berat yang membahayakan terhadap pihak yang lain; e. Salah satu pihak mendapat cacat badan atau penyakit yang mengakibatkan tidak dapat menjalankan kewajibannya sebagai suami/isteri; f. Antara suami dan isteri terus menerus terjadi perselisihan dan pertengkaran dan tidak ada harapan akan hidup rukun lagi dalam rumah-tangga. (3) Cukup jelas.","40":"Cukup jelas.","41":"Cukup jelas.","42":"Cukup jelas.","43":"Cukup jelas.","44":"Pengadilan mewajibkan yang berkepentingan mengucapkan sumpah.","45":"Cukup jelas.","46":"Cukup jelas.","47":"Cukup jelas.","48":"Cukup jelas.","49":"Yang dimaksud dengan \"kekuasaan\" dalam pasal ini tidak termasuk kekuasaan sebagai wali-nikah.","50":"Cukup jelas","51":"Cukup jelas","52":"Cukup jelas","53":"Cukup jelas.","54":"Cukup jelas","55":"Cukup jelas.","56":"Cukup jelas.","57":"Cukup jelas.","58":"Cukup jelas.","59":"Cukup jelas.","60":"Cukup jelas.","61":"Cukup jelas.","62":"Cukup jelas.","63":"Cukup jelas.","64":"Cukup jelas.","65":"Cukup jelas","66":"Cukup jelas","67":"Cukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONEISA NOMOR 3019"}},"bukti":{"tingkat":3,"penerbit":"Badan Pemeriksa Keuangan (peraturan.bpk.go.id)","penerbit_situs":"https://peraturan.bpk.go.id","berkas":"uu-1974-1.pdf","sha256":"a92f3ce36bf243747193d0170d804442144aad603930ca74e4b230fbbdb1d9e4","tte":"tidak-ada","catatan":null,"url_asal":"https://peraturan.bpk.go.id/Details/47406/uu-no-1-tahun-1974","diakses":"2026-09-01"},"keandalan":{"total":160,"pdf-resmi":160,"pdf-ocr":0,"draf":0,"lainnya":0}}};
+
+const state = { work: (DATA._urut || Object.keys(DATA).filter(k => !k.startsWith("_")))[0], asOf: null, lang: "id", open: {} };
+
+const fmtTgl = (s) => { const [y,m,d] = s.split("-"); const bln = ["","Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"]; return `${+d} ${bln[+m]} ${y}`; };
+const clone = (x) => JSON.parse(JSON.stringify(x));
+
+function cari(arr, id) {
+  for (let i = 0; i < arr.length; i++) {
+    const n = arr[i];
+    if (n.id === id) return { node: n, induk: arr, idx: i };
+    if (n.anak) { const r = cari(n.anak, id); if (r) return r; }
+  }
+  return null;
+}
+function snapshot(n) { const s = clone(n); const strip = (x) => { delete x.riwayat; (x.anak||[]).forEach(strip); }; strip(s); return s; }
+
+function konsolidasi(workId, asOf) {
+  const w = DATA[workId];
+  const pohon = clone(w.dokumen.unit);
+  const tandai = (n, src, tgl) => { n.sumber = src; n.mulai = tgl; (n.anak||[]).forEach(a => tandai(a, src, tgl)); };
+  pohon.forEach(u => tandai(u, workId, w.metadata.tanggal_berlaku));
+  const pending = [];
+  for (const ev of w.peristiwa) {
+    if (asOf && ev.tanggal_berlaku > asOf) continue;
+    if (!ev.operasi.length) { pending.push(ev); continue; }
+    for (const op of ev.operasi) {
+      if (op.op === "replace") {
+        const t = cari(pohon, op.unit);
+        const baru = clone(op.dengan);
+        baru.riwayat = [...(t.node.riwayat||[]), { aksi: "diganti", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku, sebelum: snapshot(t.node) }];
+        tandai(baru, ev.pelaku, ev.tanggal_berlaku);
+        t.induk[t.idx] = baru;
+      } else if (op.op === "insert_after" || op.op === "insert_bab_after") {
+        const t = cari(pohon, op.acuan);
+        const baru = clone(op.unit);
+        baru.riwayat = [{ aksi: "disisipkan", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku }];
+        tandai(baru, ev.pelaku, ev.tanggal_berlaku);
+        t.induk.splice(t.idx + 1, 0, baru);
+      } else if (op.op === "repeal") {
+        const t = cari(pohon, op.unit);
+        t.node.status = "dicabut";
+        (t.node.riwayat ||= []).push({ aksi: "dicabut", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku });
+      }
+    }
+    // kejujuran per-pasal: tandai unit yang perubahannya BELUM dienkode
+    for (const uid of ev.operasi_belum_dienkode || []) {
+      const t = cari(pohon, uid);
+      if (t) (t.node.belum_dienkode ||= []).push(ev.pelaku);
+    }
+  }
+  return { pohon, pending };
+}
+
+// diff kata sederhana (LCS) untuk panel riwayat
+function diffKata(a, b) {
+  const A = (a||"").split(/\s+/), B = (b||"").split(/\s+/);
+  if (A.length * B.length > 40000) return null;
+  const L = Array.from({length: A.length+1}, () => new Array(B.length+1).fill(0));
+  for (let i = A.length-1; i >= 0; i--) for (let j = B.length-1; j >= 0; j--)
+    L[i][j] = A[i] === B[j] ? L[i+1][j+1] + 1 : Math.max(L[i+1][j], L[i][j+1]);
+  const del = [], ins = []; let i = 0, j = 0;
+  while (i < A.length && j < B.length) {
+    if (A[i] === B[j]) { del.push([A[i],0]); ins.push([B[j],0]); i++; j++; }
+    else if (L[i+1][j] >= L[i][j+1]) { del.push([A[i],1]); i++; }
+    else { ins.push([B[j],1]); j++; }
+  }
+  while (i < A.length) del.push([A[i++],1]);
+  while (j < B.length) ins.push([B[j++],1]);
+  const render = (toks, tag) => toks.map(([w,d]) => d ? `<${tag}>${esc(w)}</${tag}>` : esc(w)).join(" ");
+  return { lama: render(del, "del"), baru: render(ins, "ins") };
+}
+const esc = (s) => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// ---------- navigasi: kumpulan pasal + tautan rujukan internal ----------
+let pasalAda = new Set();   // "pasal-27", "pasal-6a", ...
+function kumpulkanPasal(pohon) {
+  pasalAda = new Set();
+  const jalan = (us) => us.forEach(u => { if (u.tipe === "pasal") pasalAda.add(u.id); jalan(u.anak || []); });
+  jalan(pohon);
+}
+const idAman = (id) => id.replace(/[^a-z0-9]/gi, "_");
+/** ubah rujukan "Pasal 27" dalam teks (sudah di-escape) menjadi tautan bila pasalnya ada,
+ *  dan rujukan lintas-peraturan ("Undang-Undang Nomor 11 Tahun 2008") ke halamannya */
+function tautkan(html) {
+  html = html.replace(/Pasal\s+(\d+[A-Z]{0,2})/g, (m, n) => {
+    const id = "pasal-" + n.toLowerCase();
+    return pasalAda.has(id) ? `<a class="ref" href="#p-${idAman(id)}">${m}</a>` : m;
+  });
+  const jalur = DATA._jalur || {};
+  html = html.replace(/Undang-Undang Dasar Negara Republik Indonesia Tahun 1945/g, (m) =>
+    jalur["uud-1945"] && state.work !== "uud-1945" ? `<a class="ref" href="${jalur["uud-1945"]}">${m}</a>` : m);
+  html = html.replace(/Undang-Undang Nomor (\d+) Tahun (\d{4})/g, (m, no, th) => {
+    const id = `uu-${th}-${no}`;
+    return jalur[id] && id !== state.work ? `<a class="ref" href="${jalur[id]}">${m}</a>` : m;
+  });
+  return html;
+}
+
+// ---------- istilah terdefinisi (Pasal 1) -> sorot + tooltip ----------
+let istilahDaftar = [], istilahRe = null, pasalSumberIstilah = null, tandaiNyala = true;
+function siapkanIstilah() {
+  const lokal = (DATA[state.work].istilah || []).map(x => ({ ...x, kelas: "lokal" }));
+  const lintas = (DATA[state.work].istilah_lintas || []);
+  istilahDaftar = [...lokal, ...lintas].sort((a, b) => b.istilah.length - a.istilah.length);
+  pasalSumberIstilah = lokal.length ? lokal[0].unit.split("/")[0] : null;
+  istilahRe = istilahDaftar.length
+    ? new RegExp("\\b(" + istilahDaftar.map(x => x.istilah.replace(/[.*+?^$()\[\]{}|\\]/g, "\\$&")).join("|") + ")\\b", "gi")
+    : null;
+}
+function tandaiIstilah(html) {
+  if (!istilahRe || !tandaiNyala) return html;
+  // hanya segmen teks polos — jangan menyusup ke dalam tag/anchor yang sudah ada
+  return html.split(/(<a\b[\s\S]*?<\/a>|<[^>]+>)/g).map(seg => {
+    if (!seg || seg.startsWith("<")) return seg;
+    return seg.replace(istilahRe, (m) => {
+      const idx = istilahDaftar.findIndex(x => x.istilah.toLowerCase() === m.toLowerCase());
+      if (idx === -1) return m;
+      // kata tunggal wajib persis kapitalnya ("Orang" ≠ "orang"); frasa boleh longgar
+      if (!istilahDaftar[idx].istilah.includes(" ") && istilahDaftar[idx].istilah !== m) return m;
+      const lintas = istilahDaftar[idx].kelas !== "lokal";
+      return `<dfn class="istilah${lintas ? " lintas" : ""}" tabindex="0" data-i="${idx}">${m}</dfn>`;
+    });
+  }).join("");
+}
+
+// ---------- render ----------
+function teksUnit(u, taut) {
+  const en = state.lang === "en";
+  let html, tag = "";
+  if (en && u.teks_en) { html = esc(u.teks_en); tag = '<span class="en-tag">EN · tidak resmi</span>'; }
+  else if (en && u.teks) { html = esc(u.teks); tag = '<span class="en-tag">belum diterjemahkan</span>'; }
+  else html = esc(u.teks);
+  if (taut) { html = tautkan(html); html = tandaiIstilah(html); }
+  return { html, tag };
+}
+function badgeUnit(u) {
+  const b = [];
+  if (u.status === "dicabut") b.push('<span class="badge cabut">Dicabut</span>');
+  const r = u.riwayat || [];
+  if (r.length) {
+    const last = r[r.length-1];
+    if (last.aksi === "disisipkan") b.push(`<span class="badge baru">Baru · ${esc(nmPelaku(last.pelaku))} (${last.tanggal.slice(0,4)})</span>`);
+    else if (last.aksi === "diganti") b.push(`<span class="badge ubah">Diubah · ${esc(nmPelaku(last.pelaku))} (${last.tanggal.slice(0,4)})</span>`);
+  }
+  for (const p of u.belum_dienkode || [])
+    b.push(`<span class="badge tunda" title="Peraturan tersebut mengubah unit ini, tetapi operasinya belum dienkode ke CariHukum — teks di sini mungkin bukan versi termutakhir.">⚠ perubahan ${esc(nmPelaku(p))} belum dienkode</span>`);
+  return b.join(" ");
+}
+
+// --- salin kutipan (per pasal) ---
+function namaSitasi(meta) {
+  if (meta.jenis === "uud" ) return "UUD NRI 1945";
+  return `${(meta.jenis || "").toUpperCase()} ${meta.nomor}/${meta.tahun}`;
+}
+function teksPasalUtuh(u, indent = "") {
+  if (u.teks && !u.anak) return `${indent}${u.tipe === "pasal" ? "" : u.nomor + " "}${u.teks}`;
+  const kepala = u.teks ? [`${indent}${u.tipe === "pasal" ? "" : u.nomor + " "}${u.teks}`] : [];
+  return kepala.concat((u.anak || []).map(a => teksPasalUtuh(a, u.tipe === "pasal" ? "" : indent + "  "))).join("\n");
+}
+function salinPasal(key) {
+  const { pohon } = konsolidasi(state.work, state.asOf);
+  const t = cari(pohon, key);
+  if (!t) return;
+  const u = t.node;
+  const m = DATA[state.work].metadata;
+  const last = (u.riwayat || []).filter(x => x.aksi !== "dicabut").slice(-1)[0];
+  // DATA di halaman situs hanya memuat karya yang dibaca — pengubahnya cukup nama pendek
+  const namaPelaku = (id) => DATA[id]?.metadata ? namaSitasi(DATA[id].metadata) : (DATA._nama[id] || id);
+  const suffix = last
+    ? (last.aksi === "disisipkan" ? ` (disisipkan oleh ${namaPelaku(last.pelaku)})`
+                                  : ` (sebagaimana diubah dengan ${namaPelaku(last.pelaku)})`)
+    : "";
+  const url = location.href.split("#")[0] + "#p-" + idAman(key);
+  const kutipan = `Pasal ${u.nomor} ${namaSitasi(m)} tentang ${m.judul}${suffix}:\n\n` +
+    teksPasalUtuh(u) + `\n\nSumber: ${url} (CariHukum — bukan naskah resmi)`;
+  navigator.clipboard.writeText(kutipan).then(() => {
+    const btn = document.querySelector(`[data-salin="${key}"]`);
+    if (btn) { btn.textContent = "Tersalin ✓"; setTimeout(() => { btn.textContent = "Salin"; }, 1500); }
+  });
+}
+const nmPelaku = (id) => DATA._nama[id] || id;
+
+function riwayatHTML(u) {
+  const r = (u.riwayat||[]).filter(x => x.aksi === "diganti");
+  if (!r.length) return "";
+  let html = "<h4>Riwayat versi</h4>";
+  const teksDari = (snap) => snap.teks || (snap.anak||[]).map(a => `${a.nomor} ${a.teks||""}`).join(" ");
+  for (let i = 0; i < r.length; i++) {
+    const lama = teksDari(r[i].sebelum);
+    const baruSnap = i + 1 < r.length ? teksDari(r[i+1].sebelum) : teksDari(snapshot(u));
+    const d = diffKata(lama, baruSnap);
+    html += `<div class="versi"><div class="label">Berlaku s.d. ${fmtTgl(r[i].tanggal)} — diganti oleh ${esc(r[i].judul)}</div><div class="teks">${d ? d.lama : esc(lama)}</div></div>`;
+    if (i === r.length - 1)
+      html += `<div class="versi"><div class="label">Berlaku sejak ${fmtTgl(r[i].tanggal)} — versi saat ini dalam tampilan</div><div class="teks">${d ? d.baru : esc(baruSnap)}</div></div>`;
+  }
+  return html;
+}
+
+function unitHTML(u) {
+  if (u.tipe === "bab") {
+    const inner = (u.anak||[]).map(a => unitHTML(a)).join("");
+    const judul = state.lang === "en" && u.judul_en ? u.judul_en : u.judul;
+    return `<section class="bab" id="b-${idAman(u.id)}"><div class="bab-kepala">${u.nomor ? `<span class="bab-nomor">Bab ${esc(u.nomor)}</span>` : ""}<span class="bab-judul">${esc(judul)}</span> ${badgeUnit(u)}</div>${inner}</section>`;
+  }
+  if (u.tipe === "bagian" || u.tipe === "paragraf") {
+    const inner = (u.anak||[]).map(a => unitHTML(a)).join("");
+    const label = u.tipe === "bagian" ? `Bagian ${esc(u.nomor)}` : `Paragraf ${esc(u.nomor)}`;
+    return `<div class="subbab"><div class="subbab-kepala"><span class="bab-nomor">${label}</span><span class="subbab-judul">${esc(u.judul || "")}</span></div>${inner}</div>`;
+  }
+  if (u.tipe === "pasal") {
+    const punyaRiwayat = (u.riwayat||[]).some(x => x.aksi === "diganti") || (u.anak||[]).some(a => (a.riwayat||[]).some(x => x.aksi === "diganti"));
+    const key = u.id;
+    // jangan sorot istilah di dalam pasal definisinya sendiri
+    tandaiNyala = key !== pasalSumberIstilah;
+    let body;
+    if (u.anak) {
+      // rekursif: ayat -> huruf -> angka -> ... (kedalaman bebas)
+      const barisUnit = (a) => {
+        const t = teksUnit(a, true);
+        const anak = (a.anak || []).map(barisUnit).join("");
+        const badges = badgeUnit(a);
+        return `<div class="ayat"><span class="no">${esc(a.nomor)}</span><span class="teks">${t.html}${t.tag}</span>${anak ? `<div class="sub">${anak}</div>` : ""}${badges ? `<span class="ayat-badges">${badges}</span>` : ""}</div>`;
+      };
+      // pasal ber-anak bisa punya teks pembuka sendiri (mis. "…dalam:" sebelum huruf a-g)
+      const pembuka = u.teks ? (() => { const t = teksUnit(u, true); return `<div class="tunggal"><p class="teks">${t.html}${t.tag}</p></div>`; })() : "";
+      body = pembuka + u.anak.map(barisUnit).join("");
+    } else {
+      const t = teksUnit(u, true);
+      body = `<div class="tunggal"><p class="teks">${t.html}${t.tag}</p></div>`;
+    }
+    let hist = "";
+    if (punyaRiwayat) {
+      const semua = [riwayatHTML(u), ...(u.anak||[]).map(a => {
+        const h = riwayatHTML(a);
+        return h ? `<div style="margin-top:6px"><div class="label" style="font:500 .72rem var(--mono);color:var(--ink-2)">Ayat ${esc(a.nomor)}</div>${h.replace("<h4>Riwayat versi</h4>","")}</div>` : "";
+      })].join("");
+      hist = `<div class="riwayat ${state.open[key] ? "open" : ""}">${semua}</div>`;
+    }
+    const pjTeks = ((DATA[state.work].penjelasan || {}).pasal || {})[String(u.nomor).toLowerCase()];
+    const pj = pjTeks ? `<details class="pj"><summary>Penjelasan resmi Pasal ${esc(u.nomor)}</summary><div class="pj-isi">${esc(pjTeks)}</div><div class="pj-label">Penjelasan resmi naskah asli (TLN) — bagian tak terpisahkan dari undang-undang; bukan tafsir CariHukum.</div></details>` : "";
+    return `<article class="pasal" id="p-${idAman(key)}"><div class="pasal-kepala"><span class="pasal-nomor"><a href="#p-${idAman(key)}">${u.nomor ? `Pasal ${esc(u.nomor)}` : "Ketentuan"}</a></span>${badgeUnit(u)}<span style="margin-left:auto;display:flex;gap:6px"><button class="histbtn" data-salin="${key}" title="Salin teks pasal + sitasi + tautan">Salin</button>${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</span></div>${body}${pj}${hist}</article>`;
+  }
+  return "";
+}
+
+function tocHTML(pohon) {
+  const semuaPasal = (us) => us.flatMap(u => u.tipe === "pasal" ? [u] : semuaPasal(u.anak || []));
+  return pohon.map(bab => {
+    if (bab.tipe !== "bab") return "";
+    const pasal = semuaPasal(bab.anak || []);
+    const judul = state.lang === "en" && bab.judul_en ? bab.judul_en : bab.judul;
+    return `<div class="toc-bab"><div class="kepala" title="${esc(judul)}">${bab.nomor ? `Bab ${esc(bab.nomor)} · ` : ""}${esc(judul)}</div><div class="toc-pasal">${
+      pasal.map(p => `<a href="#p-${idAman(p.id)}" data-toc="${p.id}" class="${p.status === "dicabut" ? "cabut" : ""}" title="Pasal ${esc(p.nomor)}">${esc(p.nomor || "•")}</a>`).join("")
+    }</div></div>`;
+  }).join("");
+}
+
+let pengamat = null;
+function pasangScrollspy() {
+  if (pengamat) pengamat.disconnect();
+  const tocLink = {};
+  document.querySelectorAll("[data-toc]").forEach(a => tocLink[a.dataset.toc] = a);
+  pengamat = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      const id = e.target.id.replace(/^p-/, "").replace(/_/g, "/");
+      // id pasal tak mengandung '/', jadi pemetaan aman utk pasal
+      const kunci = Object.keys(tocLink).find(k => idAman(k) === e.target.id.slice(2));
+      if (!kunci) continue;
+      if (e.isIntersecting) {
+        document.querySelectorAll(".toc-pasal a.aktif").forEach(x => x.classList.remove("aktif"));
+        tocLink[kunci].classList.add("aktif");
+      }
+    }
+  }, { rootMargin: "0px 0px -70% 0px" });
+  document.querySelectorAll("article.pasal").forEach(el => pengamat.observe(el));
+}
+
+function lompatKe(id) {
+  const el = document.getElementById("p-" + idAman(id));
+  if (!el) return false;
+  el.scrollIntoView({ block: "start" });
+  el.classList.add("sorot");
+  setTimeout(() => el.classList.remove("sorot"), 1600);
+  return true;
+}
+
+function render() {
+  const w = DATA[state.work];
+  const daftarTab = DATA._urut || Object.keys(DATA).filter(k => !k.startsWith("_"));
+  document.getElementById("tabs").innerHTML = daftarTab.length < 2 ? "" : daftarTab.map(id =>
+    `<button class="tab ${id === state.work ? "on" : ""}" data-tab="${id}">${esc(DATA[id].metadata.judul_pendek)}</button>`).join("");
+  const m = w.metadata;
+  const judul = state.lang === "en" && m.judul_en ? m.judul_en : m.judul;
+  const sumber = m.sumber && m.sumber.ln ? ` · <span class="mono">LN ${m.sumber.ln}${m.sumber.tln ? " / TLN " + m.sumber.tln : ""}</span>` : "";
+  // strip status bahasa-awam + panel keandalan sumber (bila data bukti tersedia)
+  const terakhirUbah = [...w.peristiwa].reverse().find(ev => ev.operasi.length);
+  const nPending = w.peristiwa.filter(ev => !ev.operasi.length).length;
+  const strip = `<div class="strip-status">` +
+    `<span class="chip-status ${m.status === "berlaku" ? "hijau" : "kuning"}">${esc((m.status || "berlaku").replace(/-/g, " "))}</span>` +
+    (terakhirUbah ? `<span>terakhir diubah <strong>${esc(nmPelaku(terakhirUbah.pelaku))}</strong> (${terakhirUbah.tanggal_berlaku.slice(0,4)})</span>` : (nPending ? "" : "<span>belum pernah diubah</span>")) +
+    (nPending ? `<span class="perhatian">⚠ ${nPending} perubahan belum dienkode</span>` : "") + `</div>`;
+  let panelBukti = "";
+  if (w.bukti && w.keandalan) {
+    const b = w.bukti, k = w.keandalan;
+    const TK = { 1: "Gazette resmi (LN/BN)", 2: "Salinan resmi lembaga", 3: "Dokumentasi resmi (JDIHN)", 4: "Sekunder" };
+    panelBukti = `<details class="panel-bukti"><summary>🛡 Keandalan sumber: <strong>${k["pdf-resmi"]}/${k.total}</strong> unit cocok persis salinan ${esc(b.penerbit)} <span class="tk t${b.tingkat}">T${b.tingkat}</span>${k["pdf-ocr"] ? ` · ${k["pdf-ocr"]} direview manual` : ""}${k.draf ? ` · ${k.draf} draf` : ""}</summary>
+      <table class="tabel-bukti">
+        <tr><td>Tingkat keabsahan</td><td><span class="tk t${b.tingkat}">T${b.tingkat}</span> ${TK[b.tingkat] || ""} — lihat kebijakan sumber CariHukum</td></tr>
+        <tr><td>Penerbit salinan</td><td>${b.penerbit_situs ? `<a href="${b.penerbit_situs}" rel="noopener">${esc(b.penerbit)}</a>` : esc(b.penerbit)}${b.catatan ? ` <span class="redup">(${esc(b.catatan)})</span>` : ""}</td></tr>
+        <tr><td>Berkas terarsip</td><td><span class="mono">${esc(b.berkas || "-")}</span>${b.sha256 ? ` · sha256 <span class="mono" title="${b.sha256}">${b.sha256.slice(0, 16)}…</span>` : ""}</td></tr>
+        <tr><td>Tanda tangan elektronik</td><td>${b.tte === "tidak-ada" ? "tidak ada pada salinan ini (target berikutnya: salinan ber-TTE dari peraturan.go.id)" : esc(b.tte)}</td></tr>
+        ${b.url_asal ? `<tr><td>Sumber asal</td><td><a href="${b.url_asal}" rel="noopener">${esc(b.url_asal)}</a>${b.diakses ? ` <span class="redup">(diakses ${b.diakses})</span>` : ""}</td></tr>` : ""}
+      </table></details>`;
+  }
+  // panel jejaring Stufenbau: dasar hukum ↑, yang berdasar pada karya ini ↓, relasi tercatat
+  let panelJejaring = "";
+  const jj = w.jejaring;
+  if (jj && (jj.dasar_hukum.length || jj.dasar_bagi.length || jj.relasi.length)) {
+    const jalur = DATA._jalur || {};
+    const tautKarya = (id) => jalur[id]
+      ? `<a href="${jalur[id]}">${esc(nmPelaku(id))}</a>` : esc(nmPelaku(id));
+    const dasarItem = (d) => `<li>${d.target && jalur[d.target]
+      ? `<a href="${jalur[d.target]}">${esc(d.teks)}</a>`
+      : esc(d.teks)}${d.target && !jalur[d.target] ? ` <span class="redup">(${esc(nmPelaku(d.target))})</span>` : ""}</li>`;
+    const relasiBaris = jj.relasi.filter(r => r.target_id !== state.work).slice(0, 12).map(r =>
+      `<li><span class="redup">${esc(r.tipe.replace(/-/g, " "))}</span> ${r.target_id ? tautKarya(r.target_id) : esc(r.judul || "")}</li>`).join("");
+    panelJejaring = `<details class="panel-bukti"><summary>🕸 Jejaring peraturan${jj.dasar_hukum.length ? ` — berakar pada <strong>${jj.dasar_hukum.some(d => d.target === "uud-1945") ? "UUD 1945" : "peraturan di atasnya"}</strong>` : ""}${jj.dasar_bagi.length ? ` · menjadi dasar ${jj.dasar_bagi.length} peraturan` : ""}</summary>
+      <div class="isi-jejaring">
+      ${jj.dasar_hukum.length ? `<div class="jejaring-blok"><h4>Dasar hukum (konsideran "Mengingat") ↑</h4><ul>${jj.dasar_hukum.map(dasarItem).join("")}</ul></div>` : ""}
+      ${jj.dasar_bagi.length ? `<div class="jejaring-blok"><h4>Menjadi dasar hukum bagi ↓</h4><ul>${jj.dasar_bagi.map(id => `<li>${tautKarya(id)}</li>`).join("")}</ul></div>` : ""}
+      ${relasiBaris ? `<div class="jejaring-blok"><h4>Relasi tercatat (BPK)</h4><ul>${relasiBaris}</ul></div>` : ""}
+      <div class="redup" style="padding:4px 0">Lihat seluruh korpus di <a href="/peta/" style="color:var(--accent)">Peta Jejaring Hukum</a>.</div>
+      </div></details>`;
+  }
+  const pjUmum = (w.penjelasan && w.penjelasan.umum)
+    ? `<details class="panel-bukti"><summary>📜 Penjelasan Umum (resmi)</summary><div class="pj-isi" style="padding:10px 12px">${esc(w.penjelasan.umum)}</div><div class="pj-label" style="padding:0 12px 10px">Penjelasan resmi naskah asli (TLN) — bukan tafsir CariHukum. Perubahan penjelasan oleh UU perubahan belum dienkode.</div></details>`
+    : "";
+  document.getElementById("meta").innerHTML = `<h1 class="judul">${esc(judul)}</h1><div class="subjudul">Diundangkan <span class="mono">${fmtTgl(m.tanggal_berlaku)}</span>${sumber} · ${esc((m.subjek||[]).join(", "))}</div>${strip}${panelBukti}${panelJejaring}${pjUmum}`;
+  const evs = [{ tanggal: m.tanggal_berlaku, judul_pelaku: "Naskah asli diundangkan", awal: true }, ...w.peristiwa];
+  document.getElementById("chips").innerHTML = evs.map((ev, i) => {
+    const tgl = ev.tanggal || ev.tanggal_berlaku;
+    const on = state.asOf === null ? i === evs.length - 1 : (tgl <= state.asOf && (i === evs.length - 1 || (evs[i+1].tanggal_berlaku || "") > state.asOf));
+    const warn = !ev.awal && !ev.operasi.length;
+    const ops = ev.awal ? "initial commit" : warn ? "⚠ belum dienkode" : `${ev.operasi.length} operasi (pilot)`;
+    return `<span class="chipwrap"><button class="chip ${on ? "on" : ""} ${warn ? "warn" : ""}" data-asof="${tgl}"><span class="tgl">${fmtTgl(tgl)}</span><br><span class="nm">${esc(ev.awal ? "Pengundangan" : DATA._nama[ev.pelaku])}</span><br><span class="ops">${ops}</span></button></span>`;
+  }).join("");
+  const terkini = state.asOf === null || state.asOf >= (evs[evs.length-1].tanggal_berlaku || evs[evs.length-1].tanggal);
+  document.getElementById("asof").innerHTML = terkini
+    ? `Menampilkan <strong>versi berlaku terkini</strong> — hasil konsolidasi seluruh peristiwa.`
+    : `Menampilkan teks sebagaimana berlaku pada <strong>${fmtTgl(state.asOf)}</strong>. Klik peristiwa terakhir untuk kembali ke versi terkini.`;
+  const { pohon, pending } = konsolidasi(state.work, state.asOf);
+  kumpulkanPasal(pohon);
+  siapkanIstilah();
+  document.getElementById("pending").innerHTML = pending.map(ev =>
+    `<div class="pending">⚠ <strong>${esc(DATA._nama[ev.pelaku])}</strong> (${ev.tipe.replace(/-/g," ")}, berlaku ${fmtTgl(ev.tanggal_berlaku)}) sudah berlaku tetapi operasinya <strong>belum dienkode</strong> — teks di bawah belum mencerminkannya. ${esc(ev.catatan || "")}</div>`).join("");
+  document.getElementById("toc").innerHTML = tocHTML(pohon);
+  document.getElementById("isi").innerHTML = pohon.map(u => unitHTML(u)).join("");
+  pasangScrollspy();
+}
+
+document.addEventListener("click", (e) => {
+  const tab = e.target.closest("[data-tab]");
+  if (tab) { state.work = tab.dataset.tab; state.asOf = null; state.open = {}; render(); return; }
+  const chip = e.target.closest("[data-asof]");
+  if (chip) { state.asOf = chip.dataset.asof; render(); return; }
+  const riw = e.target.closest("[data-riw]");
+  if (riw) { state.open[riw.dataset.riw] = !state.open[riw.dataset.riw]; render(); return; }
+  const salin = e.target.closest("[data-salin]");
+  if (salin) { salinPasal(salin.dataset.salin); return; }
+  const ank = e.target.closest('a[href^="#p-"]');
+  if (ank) {
+    e.preventDefault();
+    const el = document.querySelector(ank.getAttribute("href"));
+    if (el) {
+      el.scrollIntoView({ block: "start" });
+      el.classList.add("sorot");
+      setTimeout(() => el.classList.remove("sorot"), 1600);
+      history.replaceState(null, "", ank.getAttribute("href"));
+    }
+    return;
+  }
+});
+document.getElementById("lompat").addEventListener("keydown", (e) => {
+  if (e.key !== "Enter") return;
+  const n = e.target.value.trim().toLowerCase().replace(/^pasal\s*/, "");
+  if (!n) return;
+  if (!lompatKe("pasal-" + n)) { e.target.value = ""; e.target.placeholder = `Pasal ${n.toUpperCase()} tidak ada di sini`; }
+  else { e.target.value = ""; e.target.placeholder = "Ke pasal… (mis. 27A) ↵"; }
+});
+// ukuran huruf (disimpan di perangkat pembaca)
+function setSkala(delta) {
+  let s = 1;
+  try { s = parseFloat(localStorage.getItem("ch-skala")) || 1; } catch (e) {}
+  s = Math.min(1.3, Math.max(0.85, Math.round((s + delta) * 100) / 100));
+  document.documentElement.style.setProperty("--skala", s);
+  try { localStorage.setItem("ch-skala", s); } catch (e) {}
+}
+setSkala(0);
+document.getElementById("huruf-kecil").addEventListener("click", () => setSkala(-0.05));
+document.getElementById("huruf-besar").addEventListener("click", () => setSkala(0.05));
+// pintasan: "/" fokus ke lompat pasal
+document.addEventListener("keydown", (e) => {
+  if (e.key === "/" && !/^(INPUT|TEXTAREA)$/.test(e.target.tagName)) {
+    e.preventDefault();
+    document.getElementById("lompat")?.focus();
+  }
+});
+// tooltip definisi istilah (hover/fokus/sentuh)
+const tip = document.createElement("div");
+tip.id = "tip"; tip.setAttribute("role", "tooltip");
+document.body.appendChild(tip);
+let tipTimer = null;
+function tampilkanTip(d) {
+  clearTimeout(tipTimer);
+  const data = istilahDaftar[+d.dataset.i];
+  if (!data) return;
+  const m = DATA[state.work].metadata;
+  const tautGlosarium = Object.keys(DATA._jalur || {}).length
+    ? ` <a class="tip-sumber" href="/istilah/#k-${data.istilah.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}">· Glosarium ↗</a>`
+    : "";
+  if (data.kelas === "lokal") {
+    tip.innerHTML = `<div class="tip-istilah">${esc(data.istilah)}</div>` +
+      `<div class="tip-def">${esc(data.definisi)}</div>` +
+      `<a class="tip-sumber" href="#p-${idAman(pasalSumberIstilah)}">📖 Pasal 1 angka ${esc((data.nomor || "").replace(/\.$/, ""))} ${esc(namaSitasi(m))} — lihat sumbernya</a>` +
+      tautGlosarium;
+  } else {
+    // rujukan lintas-peraturan (lex specialis): TIDAK mengikat di peraturan ini
+    const nmSumber = nmPelaku(data.sumber_karya);
+    const jalurSumber = (DATA._jalur || {})[data.sumber_karya];
+    const labelKelas = { "dasar-hukum": "dasar hukum peraturan ini", "meta": "kosakata sistem hukum", "korpus": "peraturan lain di korpus" }[data.kelas] || data.kelas;
+    tip.innerHTML = `<div class="tip-istilah">${esc(data.istilah)} <span class="tip-lintas-chip">rujukan</span></div>` +
+      `<div class="tip-def">${esc(data.definisi)}</div>` +
+      `<div class="tip-peringatan">Definisi dari <strong>${esc(nmSumber)}</strong> (${esc(labelKelas)}) — ` +
+      `<em>tidak mengikat</em> dalam peraturan yang sedang dibaca; ditampilkan sebagai rujukan.</div>` +
+      (jalurSumber ? `<a class="tip-sumber" href="${jalurSumber}#p-pasal_1">📖 Pasal 1 angka ${esc((data.nomor || "").replace(/\.$/, ""))} ${esc(nmSumber)} — lihat sumbernya</a>` : "") +
+      tautGlosarium;
+  }
+  tip.style.display = "block";
+  const r = d.getBoundingClientRect(), tr = tip.getBoundingClientRect();
+  let x = r.left + scrollX, y = r.bottom + scrollY + 6;
+  x = Math.min(x, scrollX + innerWidth - tr.width - 12);
+  if (r.bottom + tr.height + 20 > innerHeight) y = r.top + scrollY - tr.height - 6;
+  tip.style.left = Math.max(8, x) + "px"; tip.style.top = y + "px";
+}
+function sembunyikanTip() { tipTimer = setTimeout(() => { tip.style.display = "none"; }, 160); }
+document.addEventListener("mouseover", (e) => {
+  const d = e.target.closest("dfn.istilah");
+  if (d) tampilkanTip(d);
+  else if (e.target.closest("#tip")) clearTimeout(tipTimer);
+  else if (tip.style.display === "block") sembunyikanTip();
+});
+document.addEventListener("focusin", (e) => {
+  const d = e.target.closest("dfn.istilah");
+  if (d) tampilkanTip(d); else sembunyikanTip();
+});
+document.addEventListener("click", (e) => {
+  const d = e.target.closest("dfn.istilah");
+  if (d) { tampilkanTip(d); e.stopPropagation(); }
+});
+
+// tombol kembali ke atas
+const keAtas = document.createElement("button");
+keAtas.className = "keatas"; keAtas.textContent = "↑"; keAtas.title = "Kembali ke atas";
+keAtas.addEventListener("click", () => window.scrollTo({ top: 0 }));
+document.body.appendChild(keAtas);
+addEventListener("scroll", () => keAtas.classList.toggle("tampak", scrollY > 600), { passive: true });
+
+document.getElementById("lang-id").addEventListener("click", () => { state.lang = "id"; sync(); });
+document.getElementById("lang-en").addEventListener("click", () => { state.lang = "en"; sync(); });
+function sync() {
+  document.getElementById("lang-id").classList.toggle("on", state.lang === "id");
+  document.getElementById("lang-en").classList.toggle("on", state.lang === "en");
+  render();
+}
+render();
+if (location.hash) { const el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script>
+(function () {
+  var sb = window.supabase.createClient("https://xhcygktjxakbeelavkyl.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0");
+  window.carihukumAuth = sb;
+  sb.auth.getSession().then(function (h) {
+    var el = document.getElementById("ch-akun");
+    if (!el || !h.data.session) return;
+    var u = h.data.session.user;
+    el.textContent = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || u.email;
+    el.title = "Kelola akun";
+  });
+})();
+</script>
+</html>

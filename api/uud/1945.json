@@ -43,7 +43,7 @@
   "cakupan_pilot": "sebagian",
   "catatan_kurasi": "PILOT: Bab I-III (Pasal 1-7). Teks diverifikasi terhadap PDF naskah asli MKRI; amandemen diverifikasi terhadap UUD 1945 Dalam Satu Naskah (Setjen MPR). Ejaan mengikuti Satu Naskah MPR."
  },
- "dihasilkan": "2026-09-01T05:00:27.944Z",
+ "dihasilkan": "2026-09-01T05:30:22.726Z",
  "timeline": [
   {
    "tanggal": "1945-08-18",
@@ -84,14 +84,22 @@
     "pasal-18a",
     "pasal-18b",
     "pasal-19",
-    "pasal-20/ayat-5",
+    "pasal-20",
     "pasal-20a",
     "pasal-22a",
     "pasal-22b",
     "pasal-25a",
-    "pasal-26/ayat-3",
-    "pasal-27/ayat-3",
-    "pasal-28b-sampai-28j",
+    "pasal-26",
+    "pasal-27",
+    "pasal-28b",
+    "pasal-28c",
+    "pasal-28d",
+    "pasal-28e",
+    "pasal-28f",
+    "pasal-28g",
+    "pasal-28h",
+    "pasal-28i",
+    "pasal-28j",
     "pasal-30",
     "pasal-36a",
     "pasal-36b",
@@ -112,7 +120,7 @@
     "pasal-7c",
     "pasal-8",
     "pasal-11",
-    "pasal-17/ayat-4",
+    "pasal-17",
     "pasal-22c",
     "pasal-22d",
     "pasal-22e",
@@ -137,18 +145,21 @@
    "judul_pelaku": "Perubahan Keempat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945",
    "jumlah_operasi": 2,
    "operasi_belum_dienkode": [
-    "pasal-8/ayat-3",
+    "pasal-8",
     "pasal-16",
     "pasal-23b",
     "pasal-23d",
-    "pasal-24/ayat-3",
+    "pasal-24",
     "pasal-31",
     "pasal-32",
-    "pasal-33/ayat-4-5",
+    "pasal-33",
     "pasal-34",
     "pasal-37",
-    "aturan-peralihan",
-    "aturan-tambahan"
+    "pasal-peralihan-1",
+    "pasal-peralihan-2",
+    "pasal-peralihan-3",
+    "pasal-peralihan-4",
+    "pasal-tambahan"
    ],
    "status_kurasi": "draf"
   }
@@ -160,7 +171,6 @@
    "tipe": "bab",
    "nomor": "I",
    "judul": "BENTUK DAN KEDAULATAN",
-   "judul_en": "FORM OF THE STATE AND SOVEREIGNTY",
    "anak": [
     {
      "id": "pasal-1",
@@ -172,8 +182,8 @@
        "tipe": "ayat",
        "nomor": "(1)",
        "teks": "Negara Indonesia ialah Negara Kesatuan, yang berbentuk Republik.",
-       "teks_en": "The State of Indonesia shall be a unitary state in the form of a republic.",
        "verifikasi": "pdf-ocr",
+       "teks_en": "The State of Indonesia shall be a unitary state in the form of a republic.",
        "catatan_kurasi": "Varian antar sumber resmi: PDF MKRI 'Negara kesatuan yang', Satu Naskah MPR 'Negara Kesatuan, yang' — diikuti Satu Naskah MPR.",
        "sumber": "uud-1945",
        "berlaku_mulai": "1945-08-18"
@@ -197,8 +207,8 @@
           "tipe": "ayat",
           "nomor": "(2)",
           "teks": "Kedaulatan adalah di tangan rakyat, dan dilakukan sepenuhnya oleh Majelis Permusyawaratan Rakyat.",
-          "teks_en": "Sovereignty shall be vested in the people and exercised in full by the People's Consultative Assembly.",
           "verifikasi": "pdf-resmi",
+          "teks_en": "Sovereignty shall be vested in the people and exercised in full by the People's Consultative Assembly.",
           "sumber": "uud-1945",
           "berlaku_mulai": "1945-08-18"
          }
@@ -239,7 +249,6 @@
    "tipe": "bab",
    "nomor": "II",
    "judul": "MAJELIS PERMUSYAWARATAN RAKYAT",
-   "judul_en": "THE PEOPLE'S CONSULTATIVE ASSEMBLY",
    "anak": [
     {
      "id": "pasal-2",
@@ -358,8 +367,7 @@
    "id": "bab-3",
    "tipe": "bab",
    "nomor": "III",
-   "judul": "KEKUASAAN PEMERINTAHAN NEGARA",
-   "judul_en": "THE EXECUTIVE POWER",
+   "judul": "KEKUASAAN PEMERINTAH NEGARA",
    "anak": [
     {
      "id": "pasal-4",
@@ -588,8 +596,8 @@
         "tipe": "pasal",
         "nomor": "7",
         "teks": "Presiden dan Wakil Presiden memegang jabatannya selama masa lima tahun, dan sesudahnya dapat dipilih kembali.",
-        "teks_en": "The President and Vice President shall hold office for a term of five years and shall be eligible for re-election thereafter.",
         "verifikasi": "pdf-resmi",
+        "teks_en": "The President and Vice President shall hold office for a term of five years and shall be eligible for re-election thereafter.",
         "sumber": "uud-1945",
         "berlaku_mulai": "1945-08-18"
        }
@@ -597,6 +605,97 @@
      ],
      "sumber": "uud-1945-perubahan-1",
      "berlaku_mulai": "1999-10-19"
+    },
+    {
+     "id": "pasal-8",
+     "tipe": "pasal",
+     "nomor": "8",
+     "teks": "Jika Presiden mangkat, berhenti, atau tidak dapat melakukan kewajibannya dalam masa jabatannya, ia diganti oleh Wakil Presiden sampai habis waktunya.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-9",
+     "tipe": "pasal",
+     "nomor": "9",
+     "teks": "Sebelum memangku jabatannya, Presiden dan Wakil Presiden bersumpah menurut agama, atau berjanji dengan sungguh-sungguh di hadapan Majelis Permusyawaratan Rakyat atau Dewan Perwakilan Rakyat sebagai berikut: Sumpah Presiden (Wakil Presiden): \"Demi Allah, saya bersumpah akan memenuhi kewajiban Presiden Republik Indonesia (Wakil Presiden Republik Indonesia) dengan sebaik-baiknya dan seadil-adilnya, memegang teguh Undang- Undang Dasar dan menjalankan segala undang-undang dan peraturannya dengan selurus-lurusnya serta berbakti kepada Nusa dan Bangsa. \"Janji Presiden (WakilPresiden): \"Saya berjanji dengan sungguh-sungguh akan memenuhi kewajiban Presiden Republik Indonesia (Wakil Presiden Republik Indonesia) dengan sebaik-baiknya dan seadil- adilnya, memegang teguh Undang-Undang Dasar dan menjalankan segala undang- undang dan peraturannya dengan seluruslurusnya serta berbakti kepada Nusa dan Bangsa.\"",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-10",
+     "tipe": "pasal",
+     "nomor": "10",
+     "teks": "Presiden memegang kekuasaan yang tertinggi atas Angkatan Darat, Angkatan Laut dan Angkatan Udara.",
+     "verifikasi": "pdf-ocr",
+     "catatan_kurasi": "Varian antar sumber resmi (PDF asli MKRI vs Satu Naskah Setjen MPR) — diikuti Satu Naskah MPR.",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-11",
+     "tipe": "pasal",
+     "nomor": "11",
+     "teks": "Presiden dengan persetujuan Dewan Perwakilan Rakyat menyatakan perang, membuat perdamaian dan perjanjian dengan negara lain.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-12",
+     "tipe": "pasal",
+     "nomor": "12",
+     "teks": "Presiden menyatakan keadaan bahaya. Syarat-syarat dan akibatnya keadaan bahaya ditetapkan dengan undang-undang.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-13",
+     "tipe": "pasal",
+     "nomor": "13",
+     "anak": [
+      {
+       "id": "pasal-13/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Presiden mengangkat duta dan konsul.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-13/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Presiden menerima duta negara lain.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-14",
+     "tipe": "pasal",
+     "nomor": "14",
+     "teks": "Presiden memberi grasi, amnesti, abolisi, dan rehabilitasi.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-15",
+     "tipe": "pasal",
+     "nomor": "15",
+     "teks": "Presiden memberi gelaran, tanda jasa ,dan lain-lain tanda kehormatan.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
     }
    ],
    "sumber": "uud-1945",
@@ -632,6 +731,743 @@
    ],
    "sumber": "uud-1945-perubahan-2",
    "berlaku_mulai": "2000-08-18"
+  },
+  {
+   "id": "bab-4",
+   "tipe": "bab",
+   "nomor": "IV",
+   "judul": "DEWAN PERTIMBANGAN AGUNG",
+   "anak": [
+    {
+     "id": "pasal-16",
+     "tipe": "pasal",
+     "nomor": "16",
+     "anak": [
+      {
+       "id": "pasal-16/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Susunan Dewan Pertimbangan Agung ditetapkan dengan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-16/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Dewan ini berkewajiban memberi jawab atas pertanyaan Presiden dan berhak memajukan usul kepada pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-5",
+   "tipe": "bab",
+   "nomor": "V",
+   "judul": "KEMENTERIAN NEGARA",
+   "anak": [
+    {
+     "id": "pasal-17",
+     "tipe": "pasal",
+     "nomor": "17",
+     "anak": [
+      {
+       "id": "pasal-17/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Presiden dibantu oleh menteri-menteri negara.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-17/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Menteri-menteri itu diangkat dan diperhentikan oleh Presiden.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-17/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Menteri-menteri itu memimpin departemen pemerintahan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-6",
+   "tipe": "bab",
+   "nomor": "VI",
+   "judul": "PEMERINTAHAN DAERAH",
+   "anak": [
+    {
+     "id": "pasal-18",
+     "tipe": "pasal",
+     "nomor": "18",
+     "teks": "Pembagian daerah Indonesia atas daerah besar dan kecil, dengan bentuk susunan pemerintahannya ditetapkan dengan undang-undang, dengan memandang dan mengingati dasar permusyawaratan dalam sistem pemerintahan negara, dan hak-hak asal-usul dalam daerah-daerah yang bersifat istimewa.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-7",
+   "tipe": "bab",
+   "nomor": "VII",
+   "judul": "DEWAN PERWAKILAN RAKYAT",
+   "anak": [
+    {
+     "id": "pasal-19",
+     "tipe": "pasal",
+     "nomor": "19",
+     "anak": [
+      {
+       "id": "pasal-19/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Susunan Dewan Perwakilan Rakyat ditetapkan dengan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-19/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Dewan Perwakilan Rakyat bersidang sedikitnya sekali dalam setahun.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-20",
+     "tipe": "pasal",
+     "nomor": "20",
+     "anak": [
+      {
+       "id": "pasal-20/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Tiap-tiap undang-undang menghendaki persetujuan Dewan Perwakilan Rakyat.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-20/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Jika sesuatu rancangan undang-undang tidak mendapat persetujuan Dewan Perwakilan Rakyat, maka rancangan tadi tidak boleh dimajukan lagi dalam persidangan Dewan Perwakilan Rakyat masa itu.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-21",
+     "tipe": "pasal",
+     "nomor": "21",
+     "anak": [
+      {
+       "id": "pasal-21/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Anggota-anggota Dewan Perwakilan Rakyat berhak memajukan rancangan undang- undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-21/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Jika rancangan itu, meskipun disetujui oleh Dewan Perwakilan Rakyat, tidak disyahkan oleh Presiden, maka rancangan tadi tidak boleh dimajukan lagi dalam persidangan Dewan Perwakilan Rakyat masa itu.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-22",
+     "tipe": "pasal",
+     "nomor": "22",
+     "anak": [
+      {
+       "id": "pasal-22/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Dalam hal ihwal kegentingan yang memaksa, Presiden berhak menetapkan peraturan pemerintah sebagai pengganti undang-undang.",
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "Varian antar sumber resmi (PDF asli MKRI vs Satu Naskah Setjen MPR) — diikuti Satu Naskah MPR.",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-22/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Peraturan pemerintah itu harus mendapat persetujuan Dewan Perwakilan Rakyat dalam persidangan yang berikut.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-22/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Jika tidak mendapat persetujuan, maka peraturan pemerintah itu harus dicabut.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-8",
+   "tipe": "bab",
+   "nomor": "VIII",
+   "judul": "HAL KEUANGAN",
+   "anak": [
+    {
+     "id": "pasal-23",
+     "tipe": "pasal",
+     "nomor": "23",
+     "anak": [
+      {
+       "id": "pasal-23/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Anggaran pendapatan dan belanja ditetapkan tiap-tiap tahun dengan undang-undang. Apabila Dewan Perwakilan Rakyat tidak menyetujui anggaran yang diusulkan pemerintah, maka pemerintah menjalankan anggaran tahun yang lalu.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-23/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Segala pajak untuk keperluan negara berdasarkan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-23/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Macam dan harga mata uang ditetapkan dengan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-23/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Hal keuangan negara selanjutnya diatur dengan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-23/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Untuk memeriksa tanggung jawab tentang keuangan negara diadakan suatu Badan Pemeriksa Keuangan, yang peraturannya ditetapkan dengan undang-undang. Hasil pemeriksaan itu diberitahukan kepada Dewan Perwakilan Rakyat.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-9",
+   "tipe": "bab",
+   "nomor": "IX",
+   "judul": "KEKUASAAN KEHAKIMAN",
+   "anak": [
+    {
+     "id": "pasal-24",
+     "tipe": "pasal",
+     "nomor": "24",
+     "anak": [
+      {
+       "id": "pasal-24/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Kekuasaan Kehakiman dilakukan oleh sebuah Mahkamah Agung dan lain-lain badan kehakiman menurut undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-24/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Susunan dan kekuasaan badan kehakiman itu diatur dengan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-25",
+     "tipe": "pasal",
+     "nomor": "25",
+     "teks": "Syarat-syarat untuk menjadi dan untuk diperhentikan sebagai hakim ditetapkan dengan undang-undang.",
+     "verifikasi": "pdf-ocr",
+     "catatan_kurasi": "Varian antar sumber resmi (PDF asli MKRI vs Satu Naskah Setjen MPR) — diikuti Satu Naskah MPR.",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-10",
+   "tipe": "bab",
+   "nomor": "X",
+   "judul": "WARGA NEGARA",
+   "anak": [
+    {
+     "id": "pasal-26",
+     "tipe": "pasal",
+     "nomor": "26",
+     "anak": [
+      {
+       "id": "pasal-26/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Yang menjadi warga negara ialah orang-orang bangsa Indonesia asli dan orang-orang bangsa lain yang disahkan dengan undang-undang sebagai warga negara.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-26/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Syarat-syarat yang mengenai kewarganegaraan ditetapkan dengan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-27",
+     "tipe": "pasal",
+     "nomor": "27",
+     "anak": [
+      {
+       "id": "pasal-27/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Segala warga negara bersamaan kedudukannya dalam hukum dan pemerintahan dan wajib menjunjung hukum dan pemerintahan itu dengan tidak ada kecualinya.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-27/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Tiap-tiap warga negara berhak atas pekerjaan dan penghidupan yang layak bagi kemanusiaan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-28",
+     "tipe": "pasal",
+     "nomor": "28",
+     "teks": "Kemerdekaan berserikat dan berkumpul, mengeluarkan pikiran dengan lisan dan tulisan dan sebagainya ditetapkan dengan undang-undang.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-11",
+   "tipe": "bab",
+   "nomor": "XI",
+   "judul": "AGAMA",
+   "anak": [
+    {
+     "id": "pasal-29",
+     "tipe": "pasal",
+     "nomor": "29",
+     "anak": [
+      {
+       "id": "pasal-29/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Negara berdasar atas Ketuhanan Yang Maha Esa.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-29/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-12",
+   "tipe": "bab",
+   "nomor": "XII",
+   "judul": "PERTAHANAN NEGARA",
+   "anak": [
+    {
+     "id": "pasal-30",
+     "tipe": "pasal",
+     "nomor": "30",
+     "anak": [
+      {
+       "id": "pasal-30/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha pembelaan negara.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-30/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Syarat-syarat tentang pembelaan diatur dengan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-13",
+   "tipe": "bab",
+   "nomor": "XIII",
+   "judul": "PENDIDIKAN",
+   "anak": [
+    {
+     "id": "pasal-31",
+     "tipe": "pasal",
+     "nomor": "31",
+     "anak": [
+      {
+       "id": "pasal-31/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Tiap-tiap warga negara berhak mendapat pengajaran.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-31/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Pemerintah mengusahakan dan menyelenggarakan satu sistem pengajaran nasional, yang diatur dengan undang-undang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-32",
+     "tipe": "pasal",
+     "nomor": "32",
+     "teks": "Pemerintah memajukan kebudayaan nasional Indonesia.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-14",
+   "tipe": "bab",
+   "nomor": "XIV",
+   "judul": "KESEJAHTERAAN SOSIAL",
+   "anak": [
+    {
+     "id": "pasal-33",
+     "tipe": "pasal",
+     "nomor": "33",
+     "anak": [
+      {
+       "id": "pasal-33/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Perekonomian disusun sebagai usaha bersama berdasar atas asas kekeluargaan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-33/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Cabang-cabang produksi yang penting bagi negara dan yang menguasai hajat hidup orang banyak dikuasai oleh negara.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-33/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Bumi dan air dan kekayaan alam yang terkandung didalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-34",
+     "tipe": "pasal",
+     "nomor": "34",
+     "teks": "Fakir miskin dan anak-anakyang terlantar dipelihara oleh negara.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-15",
+   "tipe": "bab",
+   "nomor": "XV",
+   "judul": "BENDERA DAN BAHASA",
+   "anak": [
+    {
+     "id": "pasal-35",
+     "tipe": "pasal",
+     "nomor": "35",
+     "teks": "Bendera Negara Indonesia ialah Sang Merah Putih.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-36",
+     "tipe": "pasal",
+     "nomor": "36",
+     "teks": "Bahasa negara ialah Bahasa Indonesia.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "bab-16",
+   "tipe": "bab",
+   "nomor": "XVI",
+   "judul": "PERUBAHAN UNDANG-UNDANG DASAR",
+   "anak": [
+    {
+     "id": "pasal-37",
+     "tipe": "pasal",
+     "nomor": "37",
+     "anak": [
+      {
+       "id": "pasal-37/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Untuk mengubah Undang-Undang Dasar sekurang-kurangnya 2/3 dari pada jumlah anggota Majelis Permusyawaratan Rakyat harus hadir.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-37/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Putusan diambil dengan persetujuan sekurang-kurangnya 2/3 dari pada jumlah anggota Majelis Permusyawaratan Rakyat yang hadir.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "aturan-peralihan",
+   "tipe": "bab",
+   "nomor": "",
+   "judul": "ATURAN PERALIHAN",
+   "anak": [
+    {
+     "id": "pasal-peralihan-1",
+     "tipe": "pasal",
+     "nomor": "I",
+     "teks": "Panitia Persiapan Kemerdekaan Indonesia mengatur dan menyelenggarakan kepindahan pemerintahan kepada Pemerintah Indonesia .",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-peralihan-2",
+     "tipe": "pasal",
+     "nomor": "II",
+     "teks": "Segala badan negara dan peraturan yang ada masih langsung berlaku, selama belum diadakan yang baru menurut Undang-Undang Dasar ini.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-peralihan-3",
+     "tipe": "pasal",
+     "nomor": "III",
+     "teks": "Untuk pertama kali Presiden dan Wakil Presiden dipilih oleh Panitia Persiapan Kemerdekaan Indonesia.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    },
+    {
+     "id": "pasal-peralihan-4",
+     "tipe": "pasal",
+     "nomor": "IV",
+     "teks": "Sebelum Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, dan Dewan Pertimbangan Agung dibentuk menurut Undang-Undang Dasar ini, segala kekuasaannya dijalankan oleh Presiden dengan bantuan sebuah komite nasional.",
+     "verifikasi": "pdf-resmi",
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
+  },
+  {
+   "id": "aturan-tambahan",
+   "tipe": "bab",
+   "nomor": "",
+   "judul": "ATURAN TAMBAHAN",
+   "anak": [
+    {
+     "id": "pasal-tambahan",
+     "tipe": "pasal",
+     "nomor": "",
+     "anak": [
+      {
+       "id": "pasal-tambahan/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Dalam enam bulan sesudah akhirnya peperangan Asia Timur Raya, Presiden Indonesia mengatur dan menyelenggarakan segala hal yang ditetapkan dalam Undang-Undang Dasar ini.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      },
+      {
+       "id": "pasal-tambahan/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Dalam enam bulan sesudah Majelis Permusyawaratan Rakyat dibentuk, Majelis itu bersidang untuk menetapkan Undang-Undang Dasar.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uud-1945",
+       "berlaku_mulai": "1945-08-18"
+      }
+     ],
+     "sumber": "uud-1945",
+     "berlaku_mulai": "1945-08-18"
+    }
+   ],
+   "sumber": "uud-1945",
+   "berlaku_mulai": "1945-08-18"
   }
  ],
  "bukti": {
@@ -646,11 +1482,12 @@
   "diakses": "2026-08-31"
  },
  "keandalan": {
-  "total": 22,
-  "pdf-resmi": 20,
-  "pdf-ocr": 2,
+  "total": 80,
+  "pdf-resmi": 75,
+  "pdf-ocr": 5,
   "draf": 0,
   "lainnya": 0
  },
- "istilah": []
+ "istilah": [],
+ "penjelasan": null
 }
