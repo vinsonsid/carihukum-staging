@@ -1,4 +1,4 @@
-<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>CariHukum</title>
+<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>UU ITE 11/2008 — Informasi dan Transaksi Elektronik · CariHukum</title>
 <style>
   :root {
     --ground: #ffffff;
@@ -111,6 +111,7 @@
   .teks a.ref:hover { background: var(--accent-soft); }
   .tunggal .teks { margin: 2px 0; }
   .ayat-badges { grid-column: 2; display: flex; gap: 6px; }
+  .ayat .sub { grid-column: 2; }
   .en-tag { font: 500 .62rem var(--sans); color: var(--ink-2); background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 0 7px; vertical-align: 2px; margin-left: 6px; white-space: nowrap; }
 
   .riwayat { border-top: 1px dashed var(--line); margin-top: 10px; padding-top: 10px; display: none; }
@@ -165,7 +166,7 @@
   </div>
 
   <footer>
-    Sumber metadata &amp; relasi: peraturan.bpk.go.id · jdihn.go.id. Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014); versi konsolidasi ini dihitung mesin CariHukum dan bukan naskah otentik.
+    Data terbuka (CC0) · Sumber naskah &amp; relasi: peraturan.bpk.go.id, mkri.id, mpr.go.id · Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014). Versi konsolidasi dihitung mesin CariHukum — bukan naskah otentik.
   </footer>
 </div>
 
@@ -305,14 +306,14 @@ function unitHTML(u) {
     const key = u.id;
     let body;
     if (u.anak) {
-      body = u.anak.map(a => {
+      // rekursif: ayat -> huruf -> angka -> ... (kedalaman bebas)
+      const barisUnit = (a) => {
         const t = teksUnit(a, true);
-        const huruf = (a.anak || []).map(h => {
-          const th = teksUnit(h, true);
-          return `<div class="ayat" style="grid-column:2"><span class="no">${esc(h.nomor)}</span><span class="teks">${th.html}${th.tag}</span></div>`;
-        }).join("");
-        return `<div class="ayat"><span class="no">${esc(a.nomor)}</span><span class="teks">${t.html}${t.tag}</span>${huruf}<span class="ayat-badges">${badgeUnit(a)}</span></div>`;
-      }).join("");
+        const anak = (a.anak || []).map(barisUnit).join("");
+        const badges = badgeUnit(a);
+        return `<div class="ayat"><span class="no">${esc(a.nomor)}</span><span class="teks">${t.html}${t.tag}</span>${anak ? `<div class="sub">${anak}</div>` : ""}${badges ? `<span class="ayat-badges">${badges}</span>` : ""}</div>`;
+      };
+      body = u.anak.map(barisUnit).join("");
     } else {
       const t = teksUnit(u, true);
       body = `<div class="tunggal"><p class="teks">${t.html}${t.tag}</p></div>`;
