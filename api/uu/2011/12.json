@@ -74,7 +74,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-01T11:02:13.257Z",
+ "dihasilkan": "2026-09-01T11:46:01.878Z",
  "timeline": [
   {
    "tanggal": "2011-08-12",
@@ -91,10 +91,10 @@
    "tipe": "perubahan",
    "pelaku": "uu-2019-15",
    "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
-   "jumlah_operasi": 0,
+   "jumlah_operasi": 16,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "belum-dienkode",
-   "catatan": "Perubahan I: a.l. BAB baru Pemantauan dan Peninjauan (Pasal 95A-95B), pemindahan penyusunan Prolegnas, penegasan kementerian bidang hukum."
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Ketentuan Pasal 72 tetap, Penjelasan Pasal 72 diubah sebagaimana tercantum dalam"
   },
   {
    "tanggal": "2022-06-16",
@@ -102,10 +102,10 @@
    "tipe": "perubahan",
    "pelaku": "uu-2022-13",
    "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
-   "jumlah_operasi": 0,
+   "jumlah_operasi": 16,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "belum-dienkode",
-   "catatan": "Perubahan II: a.l. metode omnibus (Pasal 42A, 64), partisipasi bermakna (Pasal 96), perbaikan kesalahan teknis setelah persetujuan bersama (Pasal 72)."
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): Ketentuan huruf D Bab II sebagaimana tercantum dalam Lampiran I Undang-Undang No | Ketentuan angka 2, angka 3, angka 4, angka 5, angka 6, angka 7, ang)<a 9, angka "
   },
   {
    "tanggal": "2026-01-02",
@@ -120,8 +120,6 @@
   }
  ],
  "peringatan": [
-  "Peristiwa uu-2019-15/amandemen-uu-2011-12 (perubahan, berlaku 2019-10-04) belum dienkode — teks konsolidasi BELUM mencerminkan peristiwa ini. Perubahan I: a.l. BAB baru Pemantauan dan Peninjauan (Pasal 95A-95B), pemindahan penyusunan Prolegnas, penegasan kementerian bidang hukum.",
-  "Peristiwa uu-2022-13/amandemen-uu-2011-12 (perubahan, berlaku 2022-06-16) belum dienkode — teks konsolidasi BELUM mencerminkan peristiwa ini. Perubahan II: a.l. metode omnibus (Pasal 42A, 64), partisipasi bermakna (Pasal 96), perbaikan kesalahan teknis setelah persetujuan bersama (Pasal 72).",
   "Peristiwa uu-2026-1/amandemen-uu-2011-12 (perubahan, berlaku 2026-01-02) belum dienkode — teks konsolidasi BELUM mencerminkan peristiwa ini. Perubahan III (omnibus; juga mengubah 7 UU lain). Daftar operasi wajib diverifikasi dari PDF LN."
  ],
  "pohon": [
@@ -140,19 +138,19 @@
        "id": "pasal-1/angka-1",
        "tipe": "angka",
        "nomor": "1.",
-       "teks": "Pembentukan Peraturan Perundang-undangan adalah pembuatan Peraturan Perundang-undangan yang mencakup tahapan perencanaan, penyusunan, pembahasan, pengesahan atau penetapan, dan pengundangan.",
+       "teks": "Pembentukan Peraturan Perundang-undangan adalah pembuatan Peraturan Perundang-undangan yang mencakup tahapan perencanaan, pen5rusunan, pembahasan, pengesahan atau penetapan, pengundangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-2",
        "tipe": "angka",
        "nomor": "2.",
-       "teks": "Peraturan Perundang-undangan adalah peraturan tertulis yang memuat norma hukum yang mengikat secara umum dan dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang ditetapkan dalam Peraturan Perundang-undangan.",
+       "teks": "Peraturan Perundang-undangan adalah peraturan tertulis yang memuat norrna hukum yang mengikat secara umum dan dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang ditetapkan dalam Peraturan Perundang- undangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-3",
@@ -160,8 +158,8 @@
        "nomor": "3.",
        "teks": "Undang-Undang adalah Peraturan Perundang- undangan yang dibentuk oleh Dewan Perwakilan Rakyat dengan persetujuan bersama Presiden.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-4",
@@ -169,71 +167,53 @@
        "nomor": "4.",
        "teks": "Peraturan Pemerintah Pengganti Undang-Undang adalah Peraturan Perundang-undangan yang ditetapkan oleh Presiden dalam hal ihwal kegentingan yang memaksa.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-5",
        "tipe": "angka",
        "nomor": "5.",
-       "teks": "Peraturan Pemerintah adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan Undang-Undang sebagaimana mestinya.",
+       "teks": "Peraturan Pemerintah adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menj alankan Undang- Undan g sebagaimana me stinya.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-6",
        "tipe": "angka",
        "nomor": "6.",
-       "teks": "Peraturan Presiden adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan perintah Peraturan Perundang- undangan yang lebih tinggi atau dalam menyelenggarakan kekuasaan pemerintahan.",
+       "teks": "Peraturan Presiden adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan perintah Peraturan Perundang-undangan yang lebih tinggr atau dalam menyelenggarakan kekuasaan pemerintahan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-7",
        "tipe": "angka",
        "nomor": "7.",
-       "teks": "Peraturan Daerah Provinsi adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Provinsi dengan persetujuan bersama Gubernur.",
+       "teks": "Peraturan Daerah Provinsi adalah Peraturan Perundang- undangan yang dibentuk oleh Dewan Perwakilan Ralryat Daerah Provinsi dengan persetujuan bersama Gubernur.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-8",
        "tipe": "angka",
        "nomor": "8.",
-       "teks": "Peraturan Daerah Kabupaten/Kota adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Kabupaten/Kota dengan persetujuan bersama Bupati/Walikota.",
+       "teks": "Peraturan Daerah Kabupaten/Kota adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah KabupatenlKota dengan persetujuan bersama Bupati/Walikota.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-9",
        "tipe": "angka",
        "nomor": "9.",
-       "teks": "Program Legislasi Nasional yang selanjutnya disebut Prolegnas adalah instrumen perencanaan program pembentukan Undang-Undang yang disusun secara terencana, terpadu, dan sistematis.",
+       "teks": "Program Legislasi Nasional yang selanjutnya disebut Prolegnas adalah instrumen perencanaan program pembentukan Undang-Undang yang disusun secara terencana, terpadu, dan sistematis. 1O. Program Legislasi Daerah yang selanjutnya disebut Prolegda adalah instrumen perencanaan program pembentukan Peraturan Daerah Provinsi atau Peraturan Daerah KabupatenlKota. yang disusun secara terencana, terpadu, dan sistematis. ll.Naskah Akademik adalah naskah hasil penelitian atau pengkajian hukum dan hasil penelitian lainnya terhadap suatu masalah tertentu yang dapat dipertanggungjawabkan secara ilmiah mengenai pengaturan masalah tersebut dalam suatu Rancangan Undang-Undang, Rancangan Peraturan Daerah Provinsi, atau Rancangan Peraturan Daerah KabupatenlKota sebagai solusi terhadap permasalahan dan kebutuhan hukum masyarakat.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
-      },
-      {
-       "id": "pasal-1/angka-10",
-       "tipe": "angka",
-       "nomor": "10.",
-       "teks": "Program Legislasi Daerah yang selanjutnya disebut Prolegda adalah instrumen perencanaan program pembentukan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota yang disusun secara terencana, terpadu, dan sistematis.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
-      },
-      {
-       "id": "pasal-1/angka-11",
-       "tipe": "angka",
-       "nomor": "11.",
-       "teks": "Naskah Akademik adalah naskah hasil penelitian atau pengkajian hukum dan hasil penelitian lainnya terhadap suatu masalah tertentu yang dapat dipertanggungjawabkan secara ilmiah mengenai pengaturan masalah tersebut dalam suatu Rancangan Undang-Undang, Rancangan Peraturan Daerah Provinsi, atau Rancangan Peraturan Daerah Kabupaten/Kota sebagai solusi terhadap permasalahan dan kebutuhan hukum masyarakat.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-12",
@@ -241,8 +221,8 @@
        "nomor": "12.",
        "teks": "Pengundangan adalah penempatan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia, Tambahan Lembaran Negara Republik Indonesia, Berita Negara Republik Indonesia, Tambahan Berita Negara Republik Indonesia, Lembaran Daerah, Tambahan Lembaran Daerah, atau Berita Daerah.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-13",
@@ -250,41 +230,215 @@
        "nomor": "13.",
        "teks": "Materi Muatan Peraturan Perundang-undangan adalah materi yang dimuat dalam Peraturan Perundang-undangan sesuai dengan jenis, fungsi, dan hierarki Peraturan Perundang-undangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-14",
        "tipe": "angka",
        "nomor": "14.",
-       "teks": "Dewan Perwakilan Rakyat yang selanjutnya disingkat DPR adalah Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945",
+       "teks": "Pemantauan dan Peninjauan adalah kegiatan untuk mengamati, mencatat, dan menilai atas pelaksanaan Undang-Undang yang berlaku sehingga diketahui ketercapaian hasil yang direncanakan, dampak yang ditimbulkan, dan kemanfaatannya bagi Negara Kesatuan Republik Indonesia.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-15",
        "tipe": "angka",
        "nomor": "15.",
-       "teks": "Dewan Perwakilan Daerah yang selanjutnya disingkat DPD adalah Dewan Perwakilan Daerah sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "teks": "Dewan Perwakilan Ralryat yang selanjutnya disingkat DPR adalah Dewan Perwakilan Ralryat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-1/angka-16",
        "tipe": "angka",
        "nomor": "16.",
-       "teks": "Dewan Perwakilan Rakyat Daerah yang selanjutnya disingkat DPRD adalah Dewan Perwakilan Rakyat Daerah sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "teks": "Dewan Perwakilan Daerah yang selanjutnya disingkat DPD adalah Dewan Perwakilan Daerah sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
+      },
+      {
+       "id": "pasal-1/angka-17",
+       "tipe": "angka",
+       "nomor": "17.",
+       "teks": "Dewan Perwakilan Ralryat Daerah yang selanjutnya disingkat DPRD adalah Dewan Perwakilan Ralryat Daerah sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       }
      ],
      "teks": "Dalam Undang-Undang ini yang dimaksud dengan:",
      "verifikasi": "pdf-resmi",
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+       "pelaku": "uu-2019-15",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2019-10-04",
+       "sebelum": {
+        "id": "pasal-1",
+        "tipe": "pasal",
+        "nomor": "1",
+        "anak": [
+         {
+          "id": "pasal-1/angka-1",
+          "tipe": "angka",
+          "nomor": "1.",
+          "teks": "Pembentukan Peraturan Perundang-undangan adalah pembuatan Peraturan Perundang-undangan yang mencakup tahapan perencanaan, penyusunan, pembahasan, pengesahan atau penetapan, dan pengundangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-2",
+          "tipe": "angka",
+          "nomor": "2.",
+          "teks": "Peraturan Perundang-undangan adalah peraturan tertulis yang memuat norma hukum yang mengikat secara umum dan dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang ditetapkan dalam Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-3",
+          "tipe": "angka",
+          "nomor": "3.",
+          "teks": "Undang-Undang adalah Peraturan Perundang- undangan yang dibentuk oleh Dewan Perwakilan Rakyat dengan persetujuan bersama Presiden.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-4",
+          "tipe": "angka",
+          "nomor": "4.",
+          "teks": "Peraturan Pemerintah Pengganti Undang-Undang adalah Peraturan Perundang-undangan yang ditetapkan oleh Presiden dalam hal ihwal kegentingan yang memaksa.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-5",
+          "tipe": "angka",
+          "nomor": "5.",
+          "teks": "Peraturan Pemerintah adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan Undang-Undang sebagaimana mestinya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-6",
+          "tipe": "angka",
+          "nomor": "6.",
+          "teks": "Peraturan Presiden adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan perintah Peraturan Perundang- undangan yang lebih tinggi atau dalam menyelenggarakan kekuasaan pemerintahan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-7",
+          "tipe": "angka",
+          "nomor": "7.",
+          "teks": "Peraturan Daerah Provinsi adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Provinsi dengan persetujuan bersama Gubernur.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-8",
+          "tipe": "angka",
+          "nomor": "8.",
+          "teks": "Peraturan Daerah Kabupaten/Kota adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Kabupaten/Kota dengan persetujuan bersama Bupati/Walikota.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-9",
+          "tipe": "angka",
+          "nomor": "9.",
+          "teks": "Program Legislasi Nasional yang selanjutnya disebut Prolegnas adalah instrumen perencanaan program pembentukan Undang-Undang yang disusun secara terencana, terpadu, dan sistematis.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-10",
+          "tipe": "angka",
+          "nomor": "10.",
+          "teks": "Program Legislasi Daerah yang selanjutnya disebut Prolegda adalah instrumen perencanaan program pembentukan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota yang disusun secara terencana, terpadu, dan sistematis.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-11",
+          "tipe": "angka",
+          "nomor": "11.",
+          "teks": "Naskah Akademik adalah naskah hasil penelitian atau pengkajian hukum dan hasil penelitian lainnya terhadap suatu masalah tertentu yang dapat dipertanggungjawabkan secara ilmiah mengenai pengaturan masalah tersebut dalam suatu Rancangan Undang-Undang, Rancangan Peraturan Daerah Provinsi, atau Rancangan Peraturan Daerah Kabupaten/Kota sebagai solusi terhadap permasalahan dan kebutuhan hukum masyarakat.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-12",
+          "tipe": "angka",
+          "nomor": "12.",
+          "teks": "Pengundangan adalah penempatan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia, Tambahan Lembaran Negara Republik Indonesia, Berita Negara Republik Indonesia, Tambahan Berita Negara Republik Indonesia, Lembaran Daerah, Tambahan Lembaran Daerah, atau Berita Daerah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-13",
+          "tipe": "angka",
+          "nomor": "13.",
+          "teks": "Materi Muatan Peraturan Perundang-undangan adalah materi yang dimuat dalam Peraturan Perundang-undangan sesuai dengan jenis, fungsi, dan hierarki Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-14",
+          "tipe": "angka",
+          "nomor": "14.",
+          "teks": "Dewan Perwakilan Rakyat yang selanjutnya disingkat DPR adalah Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-15",
+          "tipe": "angka",
+          "nomor": "15.",
+          "teks": "Dewan Perwakilan Daerah yang selanjutnya disingkat DPD adalah Dewan Perwakilan Daerah sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-1/angka-16",
+          "tipe": "angka",
+          "nomor": "16.",
+          "teks": "Dewan Perwakilan Rakyat Daerah yang selanjutnya disingkat DPRD adalah Dewan Perwakilan Rakyat Daerah sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         }
+        ],
+        "teks": "Dalam Undang-Undang ini yang dimaksud dengan:",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2011-12",
+        "berlaku_mulai": "2011-08-12"
+       },
+       "catatan": "Ketentuan Pasal 1 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2019-15",
+     "berlaku_mulai": "2019-10-04"
     },
     {
      "id": "pasal-2",
@@ -683,8 +837,8 @@
        "nomor": "(1)",
        "teks": "Dalam hal suatu Undang-Undang diduga bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, pengujiannya dilakukan oleh Mahkamah Konstitusi.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-9/ayat-2",
@@ -692,12 +846,96 @@
        "nomor": "(2)",
        "teks": "Dalam hal suatu Peraturan Perundang-undangan di bawah Undang-Undang diduga bertentangan dengan Undang-Undang, pengujiannya dilakukan oleh Mahkamah Agung.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-9/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Penanganan pengujian terhadap Undang-Undang di Mahkamah Konstitusi sebagaimana dimaksud pada ayat (1) di lingkungan DPR dikoordinasikan oleh alat kelengkapan DPR yang membahas Rancangan Undang-Undang dengan melibatkan komisi yang membidangi hukum dan perundang- undangan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-9/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Dalam hal alat kelengkapan DPR sebagaimana dimaksud pada ayat (3) sudah tidak ada pada saat Undang-Undang diuji di Mahkamah Konstitusi sebagaimana dimaksud pada ayat (1), komisi yang membidangi hukum dan perundang-undangan menjadi kuasa DPR.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-9/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Penanganan pengujian terhadap Undang-Undang di Mahkamah Konstitusi sebagaimana dimaksud pada ayat (1) dan penanganan pengujian Peraturan Perundang-undangan di bawah Undang-Undang di Mahkamah Agung sebagaimana dimaksud pada ayat (2) di lingkungan Pemerintah dilaksanakan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan dan melibatkan menteri atau kepala lembaga terkait.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-9/ayat-6",
+       "tipe": "ayat",
+       "nomor": "(6)",
+       "teks": "Ketentuan lebih lanjut mengenai penanganan pengujian sebagaimana dimaksud pada ayat (3) dan ayat (41 diatur dalam Peraturan DPR serta penanganan pengujian sebagaimana dimaksud pada ayat (5) diatur dalam Peraturan Presiden.",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-9/ayat-6/angka-3",
+         "tipe": "angka",
+         "nomor": "3.",
+         "teks": "Setelah Bagian Keenam Bab IV ditambahkan I (satu) bagian, yakni Bagian Ketujuh sehingga berbunyi sebagai berikut: Bagran Ketujuh Perencanaan Peraturan Perundang-undangan yang menggunakan Metode Omnibus",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       }
      ],
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "sebelum": {
+        "id": "pasal-9",
+        "tipe": "pasal",
+        "nomor": "9",
+        "anak": [
+         {
+          "id": "pasal-9/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Dalam hal suatu Undang-Undang diduga bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, pengujiannya dilakukan oleh Mahkamah Konstitusi.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-9/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Dalam hal suatu Peraturan Perundang-undangan di bawah Undang-Undang diduga bertentangan dengan Undang-Undang, pengujiannya dilakukan oleh Mahkamah Agung.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         }
+        ],
+        "sumber": "uu-2011-12",
+        "berlaku_mulai": "2011-08-12"
+       },
+       "catatan": "Ketentuan Pasal 9 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
     },
     {
      "id": "pasal-10",
@@ -1065,10 +1303,10 @@
          "id": "pasal-20/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Penyusunan Prolegnas dilaksanakan oleh DPR dan Pemerintah.",
+         "teks": "Penyusunan Prolegnas dilaksanakan oleh DPR, DPD, dan Pemerintah.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-20/ayat-2",
@@ -1076,8 +1314,8 @@
          "nomor": "(2)",
          "teks": "Prolegnas ditetapkan untuk jangka menengah dan tahunan berdasarkan skala prioritas pembentukan Rancangan Undang-Undang.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-20/ayat-3",
@@ -1085,30 +1323,103 @@
          "nomor": "(3)",
          "teks": "Penyusunan dan penetapan Prolegnas jangka menengah dilakukan pada awal masa keanggotaan DPR sebagai Prolegnas untuk jangka waktu 5 (lima) tahun.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-20/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Prolegnas jangka menengah dapat dievaluasi setiap akhir tahun bersamaan dengan penyusunan dan penetapan Prolegnas prioritas tahunan.",
+         "teks": "Sebelum . (4) Sebelum men5rusun dan menetapkan Prolegnas jangka menengah sebagaimana dimaksud pada ayat (3), DPR, DPD, dan Pemerintah melakukan evaluasi terhadap Prolegnas jangka menengah masa keanggotaan DPR sebelumnya.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-20/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
+         "teks": "Prolegnas jangka menengah sebagaimana dimaksud pada ayat (3) dapat dievaluasi setiap akhir tahun bersamaan dengan penyusunan dan penetapan Prolegnas prioritas tahunan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
+        },
+        {
+         "id": "pasal-20/ayat-6",
+         "tipe": "ayat",
+         "nomor": "(6)",
          "teks": "Penyusunan dan penetapan Prolegnas prioritas tahunan sebagai pelaksanaan Prolegnas jangka menengah dilakukan setiap tahun sebelum penetapan Rancangan Undang-Undang tentang Anggaran Pendapatan dan Belanja Negara.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-20",
+          "tipe": "pasal",
+          "nomor": "20",
+          "anak": [
+           {
+            "id": "pasal-20/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Penyusunan Prolegnas dilaksanakan oleh DPR dan Pemerintah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-20/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Prolegnas ditetapkan untuk jangka menengah dan tahunan berdasarkan skala prioritas pembentukan Rancangan Undang-Undang.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-20/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Penyusunan dan penetapan Prolegnas jangka menengah dilakukan pada awal masa keanggotaan DPR sebagai Prolegnas untuk jangka waktu 5 (lima) tahun.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-20/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Prolegnas jangka menengah dapat dievaluasi setiap akhir tahun bersamaan dengan penyusunan dan penetapan Prolegnas prioritas tahunan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-20/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Penyusunan dan penetapan Prolegnas prioritas tahunan sebagai pelaksanaan Prolegnas jangka menengah dilakukan setiap tahun sebelum penetapan Rancangan Undang-Undang tentang Anggaran Pendapatan dan Belanja Negara.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan Pasal 20 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-21",
@@ -1121,8 +1432,8 @@
          "nomor": "(1)",
          "teks": "Penyusunan Prolegnas antara DPR dan Pemerintah dikoordinasikan oleh DPR melalui alat kelengkapan DPR yang khusus menangani bidang legislasi.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-21/ayat-2",
@@ -1130,8 +1441,8 @@
          "nomor": "(2)",
          "teks": "Penyusunan Prolegnas di lingkungan DPR dikoordinasikan oleh alat kelengkapan DPR yang khusus menangani bidang legislasi.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-21/ayat-3",
@@ -1139,39 +1450,114 @@
          "nomor": "(3)",
          "teks": "Penyusunan Prolegnas di lingkungan DPR sebagaimana dimaksud pada ayat (2) dilakukan dengan mempertimbangkan usulan dari fraksi, komisi, anggota DPR, DPD, dan/atau masyarakat.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-21/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Penyusunan Prolegnas di lingkungan Pemerintah dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+         "teks": "Penyusunan Prolegnas di lingkungan Pemerintah dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-21/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegnas sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan DPR.",
+         "teks": "Ketentuan lebih lanjut mengenai tata cara pen5rusunan Prolegnas sebagaimana dimaksud pada ayat (1), ayat (21, dan ayat (3) diatur dengan Peraturan DPR.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-21/ayat-6",
          "tipe": "ayat",
          "nomor": "(6)",
-         "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegnas di lingkungan Pemerintah sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Presiden.",
+         "teks": "Ketentuan lebih lanjut mengenai tata cara pen5rusunan Prolegnas di lingkungan Pemerintah sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Presiden.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "teks": "Pasal 2 1",
+       "verifikasi": "pdf-resmi",
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-21",
+          "tipe": "pasal",
+          "nomor": "21",
+          "anak": [
+           {
+            "id": "pasal-21/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Penyusunan Prolegnas antara DPR dan Pemerintah dikoordinasikan oleh DPR melalui alat kelengkapan DPR yang khusus menangani bidang legislasi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-21/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Penyusunan Prolegnas di lingkungan DPR dikoordinasikan oleh alat kelengkapan DPR yang khusus menangani bidang legislasi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-21/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Penyusunan Prolegnas di lingkungan DPR sebagaimana dimaksud pada ayat (2) dilakukan dengan mempertimbangkan usulan dari fraksi, komisi, anggota DPR, DPD, dan/atau masyarakat.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-21/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Penyusunan Prolegnas di lingkungan Pemerintah dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-21/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegnas sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan DPR.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-21/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegnas di lingkungan Pemerintah sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan ayat (4) Pasal 21 diubah sehingga Pasal 21 berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-22",
@@ -1216,19 +1602,30 @@
            "id": "pasal-23/ayat-1/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "pengesahan perjanjian internasional tertentu;",
+           "teks": "untuk mengatasi keadaan luar biasa, keadaan konflik, atau bencana alam; dan",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-12",
-           "berlaku_mulai": "2011-08-12"
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
           },
           {
            "id": "pasal-23/ayat-1/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
-           "teks": "akibat putusan Mahkamah Konstitusi;",
+           "teks": "keadaan tertentu lainnya yang memastikan adanya urgensi nasional atas suatu Rancangan Undang- Undang yang dapat disetujui bersama oleh alat kelengkapan DPR yang khusus menangani bidang legislasi dan menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-und€rng€rn.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-12",
-           "berlaku_mulai": "2011-08-12"
+           "anak": [
+            {
+             "id": "pasal-23/ayat-1/huruf-b/angka-5",
+             "tipe": "angka",
+             "nomor": "5.",
+             "teks": "Ketentuan",
+             "verifikasi": "pdf-resmi",
+             "sumber": "uu-2019-15",
+             "berlaku_mulai": "2019-10-04"
+            }
+           ],
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
           },
           {
            "id": "pasal-23/ayat-1/huruf-c",
@@ -1236,8 +1633,8 @@
            "nomor": "c.",
            "teks": "Anggaran Pendapatan dan Belanja Negara;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-12",
-           "berlaku_mulai": "2011-08-12"
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
           },
           {
            "id": "pasal-23/ayat-1/huruf-d",
@@ -1245,54 +1642,129 @@
            "nomor": "d.",
            "teks": "pembentukan, pemekaran, dan penggabungan daerah Provinsi dan/atau Kabupaten/Kota; dan",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-12",
-           "berlaku_mulai": "2011-08-12"
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
           },
           {
            "id": "pasal-23/ayat-1/huruf-e",
            "tipe": "huruf",
            "nomor": "e.",
-           "teks": "penetapan/pencabutan Peraturan Pemerintah Pengganti Undang-Undang.",
+           "teks": "penetapan/pencabutan Peraturan Pemerintah Pengganti Undang-Undang. (21 Dalam keadaan tertentu, DPR atau Presiden dapat mengajukan Rancangan Undang-Undang di luar Prolegnas mencakup:",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-12",
-           "berlaku_mulai": "2011-08-12"
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
           }
          ],
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
-        },
-        {
-         "id": "pasal-23/ayat-2",
-         "tipe": "ayat",
-         "nomor": "(2)",
-         "teks": "Dalam keadaan tertentu, DPR atau Presiden dapat mengajukan Rancangan Undang-Undang di luar Prolegnas mencakup:",
-         "verifikasi": "pdf-resmi",
-         "anak": [
-          {
-           "id": "pasal-23/ayat-2/huruf-a",
-           "tipe": "huruf",
-           "nomor": "a.",
-           "teks": "untuk mengatasi keadaan luar biasa, keadaan konflik, atau bencana alam; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-12",
-           "berlaku_mulai": "2011-08-12"
-          },
-          {
-           "id": "pasal-23/ayat-2/huruf-b",
-           "tipe": "huruf",
-           "nomor": "b.",
-           "teks": "keadaan tertentu lainnya yang memastikan adanya urgensi nasional atas suatu Rancangan Undang-Undang yang dapat disetujui bersama oleh alat kelengkapan DPR yang khusus menangani bidang legislasi dan menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-12",
-           "berlaku_mulai": "2011-08-12"
-          }
-         ],
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-23",
+          "tipe": "pasal",
+          "nomor": "23",
+          "anak": [
+           {
+            "id": "pasal-23/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Dalam Prolegnas dimuat daftar kumulatif terbuka yang terdiri atas:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-23/ayat-1/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "pengesahan perjanjian internasional tertentu;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-12",
+              "berlaku_mulai": "2011-08-12"
+             },
+             {
+              "id": "pasal-23/ayat-1/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "akibat putusan Mahkamah Konstitusi;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-12",
+              "berlaku_mulai": "2011-08-12"
+             },
+             {
+              "id": "pasal-23/ayat-1/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "Anggaran Pendapatan dan Belanja Negara;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-12",
+              "berlaku_mulai": "2011-08-12"
+             },
+             {
+              "id": "pasal-23/ayat-1/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "pembentukan, pemekaran, dan penggabungan daerah Provinsi dan/atau Kabupaten/Kota; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-12",
+              "berlaku_mulai": "2011-08-12"
+             },
+             {
+              "id": "pasal-23/ayat-1/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "penetapan/pencabutan Peraturan Pemerintah Pengganti Undang-Undang.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-12",
+              "berlaku_mulai": "2011-08-12"
+             }
+            ],
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-23/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Dalam keadaan tertentu, DPR atau Presiden dapat mengajukan Rancangan Undang-Undang di luar Prolegnas mencakup:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-23/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "untuk mengatasi keadaan luar biasa, keadaan konflik, atau bencana alam; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-12",
+              "berlaku_mulai": "2011-08-12"
+             },
+             {
+              "id": "pasal-23/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "keadaan tertentu lainnya yang memastikan adanya urgensi nasional atas suatu Rancangan Undang-Undang yang dapat disetujui bersama oleh alat kelengkapan DPR yang khusus menangani bidang legislasi dan menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-12",
+              "berlaku_mulai": "2011-08-12"
+             }
+            ],
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan ayat (2) Pasal 23 diubah sehingga Pasal 23 berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       }
      ],
      "sumber": "uu-2011-12",
@@ -1349,23 +1821,51 @@
          "id": "pasal-26/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 25 dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+         "teks": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 25 dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang- undangan. (21 Perencanaan pen5rusunan Peraturan Pemerintah sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan Presiden.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
-        },
-        {
-         "id": "pasal-26/ayat-2",
-         "tipe": "ayat",
-         "nomor": "(2)",
-         "teks": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan Presiden.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-26",
+          "tipe": "pasal",
+          "nomor": "26",
+          "anak": [
+           {
+            "id": "pasal-26/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 25 dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-26/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan ayat (1) Pasal 26 diubah sehingga Pasal 26 berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-27",
@@ -1846,6 +2346,25 @@
        ],
        "sumber": "uu-2011-12",
        "berlaku_mulai": "2011-08-12"
+      },
+      {
+       "id": "pasal-42a",
+       "tipe": "pasal",
+       "nomor": "42A",
+       "teks": "Penggunaan metode omnibus dalam penyusunan suatu Rancangan Peraturan Perundang-undangan harus ditetapkan dalam dokumen perencanaan.",
+       "verifikasi": "pdf-resmi",
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+         "pelaku": "uu-2022-13",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2022-06-16",
+         "catatan": "Di antara Pasal 42 dan Pasal 43 disisipkan I (satu) pasal, yakni Pasal 42A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       }
      ],
      "sumber": "uu-2011-12",
@@ -2096,41 +2615,87 @@
          "id": "pasal-47/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Rancangan Undang-Undang yang diajukan oleh Presiden disiapkan oleh menteri atau pimpinan lembaga pemerintah nonkementerian sesuai dengan lingkup tugas dan tanggung jawabnya.",
+         "teks": "Rancangan Undang-Undang yang diajukan oleh Presiden disiapkan oleh menteri atau pimpinan lembaga pemerintah nonkementerian sesuai dengan lingkup tugas dan tanggung jawabnya. (21 Dalam penyusunan Rancangan Undang-Undang, menteri atau pimpinan lembaga pemerintah nonkementerian terkait membentuk panitia antar kementerian danf atau antar nonkementerian.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
-        },
-        {
-         "id": "pasal-47/ayat-2",
-         "tipe": "ayat",
-         "nomor": "(2)",
-         "teks": "Dalam penyusunan Rancangan Undang-Undang, menteri atau pimpinan lembaga pemerintah nonkementerian terkait membentuk panitia antarkementerian dan/atau antarnonkementerian.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-47/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Undang-Undang yang berasal dari Presiden dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Undang-Undang yang berasal dari Presiden dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-47/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Ketentuan lebih lanjut mengenai tata cara mempersiapkan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden.",
+         "teks": "Ketentuan lanjut mengenai tata cara (41 Ketentuan lebih mempersiapkan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-47",
+          "tipe": "pasal",
+          "nomor": "47",
+          "anak": [
+           {
+            "id": "pasal-47/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Rancangan Undang-Undang yang diajukan oleh Presiden disiapkan oleh menteri atau pimpinan lembaga pemerintah nonkementerian sesuai dengan lingkup tugas dan tanggung jawabnya.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-47/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Dalam penyusunan Rancangan Undang-Undang, menteri atau pimpinan lembaga pemerintah nonkementerian terkait membentuk panitia antarkementerian dan/atau antarnonkementerian.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-47/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Undang-Undang yang berasal dari Presiden dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-47/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Ketentuan lebih lanjut mengenai tata cara mempersiapkan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan Pasal 47 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       },
       {
        "id": "pasal-48",
@@ -2188,30 +2753,120 @@
          "nomor": "(1)",
          "teks": "Rancangan Undang-Undang dari DPR disampaikan dengan surat pimpinan DPR kepada Presiden.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         },
         {
          "id": "pasal-49/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Presiden menugasi menteri yang mewakili untuk membahas Rancangan Undang-Undang bersama DPR dalam jangka waktu paling lama 60 (enam puluh) hari terhitung sejak surat pimpinan DPR diterima.",
+         "teks": "Presiden menugasi menteri yang mewakili untuk membahas Rancangan Undang-Undang disertai dengan daftar inventarisasi masalah bersama DPR dalam jangka waktu paling lama 60 (enam puluh) hari terhitung sejak surat pimpinan DPR diterima.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         },
         {
          "id": "pasal-49/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Menteri sebagaimana dimaksud pada ayat (2) mengoordinasikan persiapan pembahasan dengan menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+         "teks": "Menteri sebagaimana dimaksud pada ayat (2) persiapan pembahasan dengan menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-49",
+          "tipe": "pasal",
+          "nomor": "49",
+          "anak": [
+           {
+            "id": "pasal-49/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Rancangan Undang-Undang dari DPR disampaikan dengan surat pimpinan DPR kepada Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-49/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Presiden menugasi menteri yang mewakili untuk membahas Rancangan Undang-Undang bersama DPR dalam jangka waktu paling lama 60 (enam puluh) hari terhitung sejak surat pimpinan DPR diterima.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-49/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Menteri sebagaimana dimaksud pada ayat (2) mengoordinasikan persiapan pembahasan dengan menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan Pasal 49 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+         "pelaku": "uu-2022-13",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2022-06-16",
+         "sebelum": {
+          "id": "pasal-49",
+          "tipe": "pasal",
+          "nomor": "49",
+          "anak": [
+           {
+            "id": "pasal-49/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Rancangan Undang-Undang dari DPR disampaikan dengan surat pimpinan DPR kepada Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           },
+           {
+            "id": "pasal-49/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Presiden menugasi menteri yang mewakili untuk membahas Rancangan Undang-Undang bersama DPR dalam jangka waktu paling lama 60 (enam puluh) hari terhitung sejak surat pimpinan DPR diterima.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           },
+           {
+            "id": "pasal-49/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Menteri sebagaimana dimaksud pada ayat (21 mengoordinasikan persiapan pembahasan dengan menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           }
+          ],
+          "sumber": "uu-2019-15",
+          "berlaku_mulai": "2019-10-04"
+         },
+         "catatan": "Ketentuan ayat(21 Pasal 49 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-50",
@@ -2388,30 +3043,76 @@
          "nomor": "(1)",
          "teks": "Dalam penyusunan Rancangan Peraturan Pemerintah, pemrakarsa membentuk panitia antarkementerian dan/atau lembaga pemerintah nonkementerian.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-54/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Pemerintah dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Pemerintah dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-54/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Ketentuan lebih lanjut mengenai tata cara pembentukan panitia antarkementerian dan/atau antarnonkementerian, pengharmonisasian, penyusunan, dan penyampaian Rancangan Peraturan Pemerintah diatur dengan Peraturan Presiden.",
+         "teks": "Ketentuan (3) Ketentuan lebih lanjut mengenai tata cara penyusunan Rancangan Peraturan Pemerintah diatur dengan Peraturan Presiden.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-54",
+          "tipe": "pasal",
+          "nomor": "54",
+          "anak": [
+           {
+            "id": "pasal-54/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Dalam penyusunan Rancangan Peraturan Pemerintah, pemrakarsa membentuk panitia antarkementerian dan/atau lembaga pemerintah nonkementerian.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-54/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Pemerintah dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-54/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Ketentuan lebih lanjut mengenai tata cara pembentukan panitia antarkementerian dan/atau antarnonkementerian, pengharmonisasian, penyusunan, dan penyampaian Rancangan Peraturan Pemerintah diatur dengan Peraturan Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan Pasal 54 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       }
      ],
      "sumber": "uu-2011-12",
@@ -2432,32 +3133,78 @@
          "id": "pasal-55/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Dalam penyusunan Rancangan Peraturan Presiden, pemrakarsa membentuk panitia antarkementerian dan/atau antarnonkementerian.",
+         "teks": "Dalam penyusunan Rancangan Peraturan Presiden, pemrakarsa membentuk panitia antarkementerian dan / atau antarnonkementerian.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-55/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Presiden dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Presiden dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-55/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Ketentuan lebih lanjut mengenai tata cara pembentukan panitia antarkementerian dan/atau antarnonkementerian, pengharmonisasian, penyusunan, dan penyampaian Rancangan Peraturan Presiden diatur dalam Peraturan Presiden.",
+         "teks": "Ketentuan lebih lanjut mengenai tata cara pen5rusunan Rancangan Peraturan Presiden diatur dengan Peraturan Presiden.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-55",
+          "tipe": "pasal",
+          "nomor": "55",
+          "anak": [
+           {
+            "id": "pasal-55/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Dalam penyusunan Rancangan Peraturan Presiden, pemrakarsa membentuk panitia antarkementerian dan/atau antarnonkementerian.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-55/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Presiden dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-55/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Ketentuan lebih lanjut mengenai tata cara pembentukan panitia antarkementerian dan/atau antarnonkementerian, pengharmonisasian, penyusunan, dan penyampaian Rancangan Peraturan Presiden diatur dalam Peraturan Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan Pasal 55 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       }
      ],
      "sumber": "uu-2011-12",
@@ -2570,23 +3317,95 @@
          "id": "pasal-58/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari DPRD Provinsi dikoordinasikan oleh alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi.",
+         "teks": ", pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang- undangan. (21",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         },
         {
          "id": "pasal-58/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari Gubernur dikoordinasikan oleh biro hukum dan dapat mengikutsertakan instansi vertikal dari kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+         "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturarr Daerah Provinsi sebagaimana dimaksud pada ayat (1) dilaksanakan oleh instansi vertikal kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang- undangan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-58",
+          "tipe": "pasal",
+          "nomor": "58",
+          "anak": [
+           {
+            "id": "pasal-58/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari DPRD Provinsi dikoordinasikan oleh alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-58/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari Gubernur dikoordinasikan oleh biro hukum dan dapat mengikutsertakan instansi vertikal dari kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan ayat (21 Pasal 58 diubah sehingga Pasal 58 berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+         "pelaku": "uu-2022-13",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2022-06-16",
+         "sebelum": {
+          "id": "pasal-58",
+          "tipe": "pasal",
+          "nomor": "58",
+          "anak": [
+           {
+            "id": "pasal-58/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari DPRD Provinsi dikoordinasikan oleh alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           },
+           {
+            "id": "pasal-58/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari Gubernur dilaksanakan oleh kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           }
+          ],
+          "sumber": "uu-2019-15",
+          "berlaku_mulai": "2019-10-04"
+         },
+         "catatan": "Ketentuan Pasal 58 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-59",
@@ -2702,32 +3521,107 @@
        "id": "pasal-64/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Penyusunan Rancangan Peraturan Perundang- undangan dilakukan sesuai dengan teknik penyusunan Peraturan Perundang-undangan.",
+       "teks": "Penrusunan Rancangan Peraturan Perundang- undangan dilakukan sesuai dengan teknik penJrusunan Peraturan Perundang-undangan. (1a) Penyusunan Rancangan Peraturan Perundang- undangan sebagaimana dimaksud pada ayat (l) dapat menggunakan metode omnibus. (lb) Metode omnibus sebagaimana dimalsud pada ayat (1a) merupakan metode penJrusunan Peraturan Perundang-undangan dengan:",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "anak": [
+        {
+         "id": "pasal-64/ayat-1/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "memuat materi muatan baru;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-64/ayat-1/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "mengubah materi muatan yang memiliki keterkaitan dan/atau kebutuhan hukum yang diatur dalam berbagai Peraturan Perundang- undangan yang jenis dan hierarkinya sama; dan/atau",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-64/ayat-1/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "mencabut Peraturan Perundang-undangan yang jenis dan hierarkinya sama, dengan menggabungkannya ke dalam satu Peraturan Pemndang-undangan untuk mencapai tqiuan tertentu.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-64/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Ketentuan mengenai teknik penyusunan Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran II yang merupakan bagian tidak terpisahkan dari Undang-Undang ini.",
+       "teks": "Ketentuan mengenai teknik penyusunan Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran II yang merupalan bagian tidak terpisahkan dari Undang- Undang ini.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-64/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Ketentuan mengenai perubahan terhadap teknik penyusunan Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Presiden.",
+       "teks": "Ketentuan mengenai perubahan terhadap teknik pen5rusunan Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Presiden.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       }
      ],
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "sebelum": {
+        "id": "pasal-64",
+        "tipe": "pasal",
+        "nomor": "64",
+        "anak": [
+         {
+          "id": "pasal-64/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Penyusunan Rancangan Peraturan Perundang- undangan dilakukan sesuai dengan teknik penyusunan Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-64/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan mengenai teknik penyusunan Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran II yang merupakan bagian tidak terpisahkan dari Undang-Undang ini.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-64/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Ketentuan mengenai perubahan terhadap teknik penyusunan Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Presiden.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         }
+        ],
+        "sumber": "uu-2011-12",
+        "berlaku_mulai": "2011-08-12"
+       },
+       "catatan": "Di antara ayat (1) dan ayat (2) Pasal 64 disisipkan 2 (dua) ayat, yakni ayat (1a) dan ayat (1b) sehingga Pasal 64 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
     }
    ],
    "sumber": "uu-2011-12",
@@ -3228,6 +4122,25 @@
        ],
        "sumber": "uu-2011-12",
        "berlaku_mulai": "2011-08-12"
+      },
+      {
+       "id": "pasal-71a",
+       "tipe": "pasal",
+       "nomor": "71A",
+       "teks": "Dalam hal pembahasan Rancangan Undang-Undang sebagaimana dimaksud dalam Pasal 65 ayat (1) telah memasuki pembahasan Daftar Inventarisasi Masalah pada periode masa keanggotaan DPR saat itu, hasil pembahasan Rancangan Undang-Undang tersebut disampaikan kepada DPR periode berikutrya dan berdasarkan kesepakatan DPR, Presiden, dan/atau DPD, Rancangan Undang-Undang tersebut dapat dimasukkan kembali ke dalam daftar Prolegnas jangka menengah dan/atau Prolegnas prioritas tahunan.",
+       "verifikasi": "pdf-resmi",
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "catatan": "1. Di antara Pasal 71 dan Pasal 72 disisipkan 1 (satu) pasal, yakni Pasal 71A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       }
      ],
      "sumber": "uu-2011-12",
@@ -3248,23 +4161,62 @@
          "id": "pasal-72/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Rancangan Undang-Undang yang telah disetujui bersama oleh DPR dan Presiden disampaikan oleh Pimpinan DPR kepada Presiden untuk disahkan menjadi Undang-Undang.",
+         "teks": "Rancangan Undang-Undang yang telah disetujui bersama oleh DPR dan Presiden disampaikan oleh pimpinan DPR kepada Presiden untuk disahkan menjadi Undang-Undang. (1a) Dalam hal Rancangan Undang-Undang yang telah disetujui bersama oleh DPR dan Presiden sebagaimana dimaksud pada ayat (1) masih terdapat kesalahan teknis penulisan, dilakukan perbaikan oleh pimpinan alat kelengkapan DPR yang membahas Rancangan Undang-Undang tersebut dan Pemerintah yang diwakili oleh kementerian yang membahas Rancangan Undang-Undang tersebut. (1b) Hasil perbaikan sebagaimana dimaksud pada ayat (1a) harus mendapatkan persetujuan dari pimpinan alat kelengkapan DPR yang membahas Rancangan Undang-Undang tersebut dan wakil dari Pemerintah yang membahas Rancangan Undang-Undang tersebut.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         },
         {
          "id": "pasal-72/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Penyampaian Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 7 (tujuh) hari terhitung sejak tanggal persetujuan bersama.",
+         "teks": "Perbaikan dan penyampaian Rancangan Undang- Undang sebagaimana dimaksud pada ayat (l) sampai dengan ayat (1b) dilakukan dalam jangka waktu paling lama 7 (tujuh) hari terhitung sejak tanggal persetujuan bersama.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "teks": "PasalT2",
+       "verifikasi": "pdf-resmi",
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+         "pelaku": "uu-2022-13",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2022-06-16",
+         "sebelum": {
+          "id": "pasal-72",
+          "tipe": "pasal",
+          "nomor": "72",
+          "anak": [
+           {
+            "id": "pasal-72/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Rancangan Undang-Undang yang telah disetujui bersama oleh DPR dan Presiden disampaikan oleh Pimpinan DPR kepada Presiden untuk disahkan menjadi Undang-Undang.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-72/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Penyampaian Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 7 (tujuh) hari terhitung sejak tanggal persetujuan bersama.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Di antara ayat (l) dan ayat (2) Pasal 72 disisipkan 2 (dua) ayat, yakni ayat (1a) dan ayat (lb) serta ketentuan ayat (21 Pasal 72 diubah sehingga Pasal 72 berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-73",
@@ -3275,41 +4227,116 @@
          "id": "pasal-73/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Rancangan Undang-Undang sebagaimana dimaksud dalam Pasal 72 disahkan oleh Presiden dengan membubuhkan tanda tangan dalam jangka waktu paling lama 30 (tiga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama oleh DPR dan Presiden.",
+         "teks": "Dalam hal Rancangan Undang-Undang yang telah disampaikan oleh pimpinan DPR kepada Presiden sebagaimana dimaksud dalam Pasal 72 masih ditemukan kesala-han teknis penulisan, kementerian yang menyelenggarakan urusan pemerintahan di bidang kesekretariatan negara bersama dengan kementerian yang membahas Rancangan Undang- Undang tersebut melakukan perbaikan dengan melibatkan pimpinan alat kelengkapan DPR yang membahas Rancangan Undang-Undang tersebut.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         },
         {
          "id": "pasal-73/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Dalam hal Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) tidak ditandatangani oleh Presiden dalam waktu paling lama 30 (tiga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama, Rancangan Undang-Undang tersebut sah menjadi Undang-Undang dan wajib diundangkan.",
+         "teks": "Rancangan Undang-Undang sebagaimana dimaksud dalam Pasal 72 at^u Rancangan Undang-Undang sebagaimana dimaksud pa.da ayat (l) disahkan oleh Presiden dengan membubuhkan tanda tangan dalam jangka waktu paling lama 3O (dga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama oleh DPR dan Presiden.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         },
         {
          "id": "pasal-73/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Dalam hal sahnya Rancangan Undang-Undang sebagaimana dimaksud pada ayat (2), kalimat pengesahannya berbunyi: Undang-Undang ini dinyatakan sah berdasarkan ketentuan Pasal 20 ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+         "teks": "Dalam hal Rancangan Undang-Undang sebagaimana dimaksud pada ayat (2) tidak ditandatangani oleh Presiden dalam waknr paling larna 30 (tiga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama, Rancangan Undang-Undang tersebut sah menjadi Undang-Undang dan wajib",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         },
         {
          "id": "pasal-73/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Kalimat pengesahan yang berbunyi sebagaimana dimaksud pada ayat (3) harus dibubuhkan pada halaman terakhir Undang-Undang sebelum pengundangan naskah Undang-Undang ke dalam Lembaran Negara Republik Indonesia.",
+         "teks": "Dalam hal sahnya Rancangan sebagaimana dimaksud pada ayat (3), kalimat pengesahannya berbunyi: Undang-Undang ini dinyatakan sah berdasarkan ketentuan Pasal 20 ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-73/ayat-5",
+         "tipe": "ayat",
+         "nomor": "(5)",
+         "teks": "IGlimat pengesahan yang berbunyi sebagaimana dimaksud pa.da ayat (a) harus dibubuhkan pada halaman terakhir Undang-Undang sebelum pengundangan naskah Undang-Undang ke dalam kmbaran Negara Republik Indonesia.",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-73/ayat-5/angka-10",
+           "tipe": "angka",
+           "nomor": "10.",
+           "teks": "Fenjelasan Pasal 78 diubah sebagaimana tercantum dalam penjelasan.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2022-13",
+           "berlaku_mulai": "2022-06-16"
+          }
+         ],
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+         "pelaku": "uu-2022-13",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2022-06-16",
+         "sebelum": {
+          "id": "pasal-73",
+          "tipe": "pasal",
+          "nomor": "73",
+          "anak": [
+           {
+            "id": "pasal-73/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Rancangan Undang-Undang sebagaimana dimaksud dalam Pasal 72 disahkan oleh Presiden dengan membubuhkan tanda tangan dalam jangka waktu paling lama 30 (tiga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama oleh DPR dan Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-73/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Dalam hal Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) tidak ditandatangani oleh Presiden dalam waktu paling lama 30 (tiga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama, Rancangan Undang-Undang tersebut sah menjadi Undang-Undang dan wajib diundangkan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-73/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Dalam hal sahnya Rancangan Undang-Undang sebagaimana dimaksud pada ayat (2), kalimat pengesahannya berbunyi: Undang-Undang ini dinyatakan sah berdasarkan ketentuan Pasal 20 ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-73/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Kalimat pengesahan yang berbunyi sebagaimana dimaksud pada ayat (3) harus dibubuhkan pada halaman terakhir Undang-Undang sebelum pengundangan naskah Undang-Undang ke dalam Lembaran Negara Republik Indonesia.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan Pasal 73 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-74",
@@ -3734,10 +4761,75 @@
      "id": "pasal-85",
      "tipe": "pasal",
      "nomor": "85",
-     "teks": "Pengundangan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia atau Berita Negara Republik Indonesia sebagaimana dimaksud dalam Pasal 82 dan Pasal 83 dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "anak": [
+      {
+       "id": "pasal-85/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Fengundangan Feraturan Perundang-trndangan dalam l€mbamn Negara Republik Indonesia sebagaimana dimaksud dalam Pasal82 huruf a sampai dengan huruf 6 r{ilaksana}an oleh menteri 5rang menyelengarakan urusan pemerintahan di bidang keseknetariatan negara.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-85/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Fengundangan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia sebagaimana dimaksud dalam Pasal 82 huruf d dan Berita Negara Republik Indonesia sebagaimana dimaksud dalam Pasal 83 dilaksanakan oleh menteri atau kepala lembaga yang menyelenggarakan urusan di bidang Fembentukan Feraturan Ferundang- undangan.",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-85/ayat-2/angka-12",
+         "tipe": "angka",
+         "nomor": "12.",
+         "teks": "Penjelasan Pasal 95 diubah sebagaimana tercantum dalam penjelasan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+       "pelaku": "uu-2019-15",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2019-10-04",
+       "sebelum": {
+        "id": "pasal-85",
+        "tipe": "pasal",
+        "nomor": "85",
+        "teks": "Pengundangan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia atau Berita Negara Republik Indonesia sebagaimana dimaksud dalam Pasal 82 dan Pasal 83 dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2011-12",
+        "berlaku_mulai": "2011-08-12"
+       },
+       "catatan": "Ketentuan Pasal 85 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "sebelum": {
+        "id": "pasal-85",
+        "tipe": "pasal",
+        "nomor": "85",
+        "teks": "Pengundangan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia atau Berita Negara Republik Indonesia sebagaimana dimaksud dalam Pasal 82 dan Pasal 83 dilaksanakan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan. l4.Ketentuan ayat (1) Pasal 91 diubah sehingga Pasal 91 berbunyi sebagai berikut:",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2019-15",
+        "berlaku_mulai": "2019-10-04"
+       },
+       "catatan": "Ketentuan Pasal 85 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
     },
     {
      "id": "pasal-86",
@@ -3899,10 +4991,10 @@
          "id": "pasal-91/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Dalam hal Peraturan Perundang-undangan perlu diterjemahkan ke dalam bahasa asing, penerjemahannya dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+         "teks": "Dalam hal Peraturan Perundang-undangan perlu diterjemahkan ke dalam bahasa asing, penerjemahannya dilaksanakan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         },
         {
          "id": "pasal-91/ayat-2",
@@ -3910,12 +5002,60 @@
          "nomor": "(2)",
          "teks": "Terjemahan sebagaimana dimaksud pada ayat (1) merupakan terjemahan resmi.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "anak": [
+          {
+           "id": "pasal-91/ayat-2/angka-15",
+           "tipe": "angka",
+           "nomor": "15.",
+           "teks": "Di antara BAB X dan BAB XI disisipkan 1 (satu) bab, yakni BAB XA sehingga berbunyi sebagai berikut:",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
+          }
+         ],
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "sebelum": {
+          "id": "pasal-91",
+          "tipe": "pasal",
+          "nomor": "91",
+          "anak": [
+           {
+            "id": "pasal-91/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Dalam hal Peraturan Perundang-undangan perlu diterjemahkan ke dalam bahasa asing, penerjemahannya dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-91/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Terjemahan sebagaimana dimaksud pada ayat (1) merupakan terjemahan resmi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         "catatan": "Ketentuan Pasal 85 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       }
      ],
      "sumber": "uu-2011-12",
@@ -4017,6 +5157,191 @@
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2011-12",
        "berlaku_mulai": "2011-08-12"
+      },
+      {
+       "id": "pasal-95a",
+       "tipe": "pasal",
+       "nomor": "95A",
+       "anak": [
+        {
+         "id": "pasal-95a/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilakukan setelah Undang-Undang berlaku.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-95a/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dilaksanakan oleh DPR, DPD, dan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-95a/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPR sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang legislasi. (3a) Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPD sebagaimana dimaksud pada ayat (21 dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang perancangan Undang- Undang. (3b) Pemantauan dan Peninjauan terhadap Undang- Undang oleh Pemerintah sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan dengan melibatkan menteri atau kepala lembaga yang terkait.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-95a/ayat-4",
+         "tipe": "ayat",
+         "nomor": "(4)",
+         "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (21 dapat menjadi usul dalam pen5rusunan Prolegnas.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "catatan": "Di antara Pasal 95 dan Pasal 96 disisipkan 2 (dua) pasal, yakni Pasal 95A dan Pasal 95B sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+         "pelaku": "uu-2022-13",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2022-06-16",
+         "sebelum": {
+          "id": "pasal-95a",
+          "tipe": "pasal",
+          "nomor": "95A",
+          "anak": [
+           {
+            "id": "pasal-95a/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilakukan setelah Undang-Undang berlaku.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           },
+           {
+            "id": "pasal-95a/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dilaksanakan oleh DPR, DPD, dan Pemerintah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           },
+           {
+            "id": "pasal-95a/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dikoordinasikan oleh DPR melalui alat kelengkapan yang khusus menangani bidang legislasi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           },
+           {
+            "id": "pasal-95a/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (21 dapat menjadi usul dalam penyusunan Prolegnas.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2019-15",
+            "berlaku_mulai": "2019-10-04"
+           }
+          ],
+          "sumber": "uu-2019-15",
+          "berlaku_mulai": "2019-10-04"
+         },
+         "catatan": "Ketentuan ayat (3) Pasal 95A diubah dan di antara ayat (3) dan ayat (4) disisipkan 2 (dua) ayat, yakni ayat (3a) dan ayat (3b), serta penjelasan ayat (21 dan ayat (4) Pasal 95A diubah sehingga Pasal 95A berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-95b",
+       "tipe": "pasal",
+       "nomor": "95B",
+       "anak": [
+        {
+         "id": "pasal-95b/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilaksanakan dalam 3 (tiga) tahap sebagai berikut:",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-95b/ayat-1/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "tahap perencanaan;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
+          },
+          {
+           "id": "pasal-95b/ayat-1/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "tahap pelaksanaan; dan",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
+          },
+          {
+           "id": "pasal-95b/ayat-1/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "tahap tindak lanjut.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
+          }
+         ],
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
+        },
+        {
+         "id": "pasal-95b/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Ketentuan lebih lanjut mengenai Pemantauan dan Peninjauan terhadap Undang-Undang diatur masing- masing dengan Peraturan DPR, Peraturan DPD, dan Peraturan Presiden.",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-95b/ayat-2/angka-77",
+           "tipe": "angka",
+           "nomor": "77.",
+           "teks": "Di antara BAB XII dan BAB XIII disisipkan 1 (satu) bab, yakni BAB XIIA sehingga berbunyi sebagai berikut:",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2019-15",
+           "berlaku_mulai": "2019-10-04"
+          }
+         ],
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+         "pelaku": "uu-2019-15",
+         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+         "tanggal": "2019-10-04",
+         "catatan": "Di antara Pasal 95 dan Pasal 96 disisipkan 2 (dua) pasal, yakni Pasal 95A dan Pasal 95B sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
       }
      ],
      "sumber": "uu-2011-12",
@@ -4041,79 +5366,217 @@
        "id": "pasal-96/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Masyarakat berhak memberikan masukan secara lisan dan/atau tertulis dalam Pembentukan Peraturan Perundang-undangan.",
+       "teks": "Masyarakat berhak memberikan masukan secara lisan dan/ atau tertulis dalam setiap tahapan Pembentukan Peraturan Perundang-undangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-96/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Masukan secara lisan dan/atau tertulis sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui:",
+       "teks": "Pemberian masukan masyarakat sebagaimana dimaksud pada ayat (1) dilakukan secara daring dan/atau luring.",
        "verifikasi": "pdf-resmi",
-       "anak": [
-        {
-         "id": "pasal-96/ayat-2/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "rapat dengar pendapat umum;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
-        },
-        {
-         "id": "pasal-96/ayat-2/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "kunjungan kerja;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
-        },
-        {
-         "id": "pasal-96/ayat-2/huruf-c",
-         "tipe": "huruf",
-         "nomor": "c.",
-         "teks": "sosialisasi; dan/atau",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
-        },
-        {
-         "id": "pasal-96/ayat-2/huruf-d",
-         "tipe": "huruf",
-         "nomor": "d.",
-         "teks": "seminar, lokakarya, dan/atau diskusi.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
-        }
-       ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-96/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Masyarakat sebagaimana dimaksud pada ayat (1) adalah orang perseorangan atau kelompok orang yang mempunyai kepentingan atas substansi Rancangan Peraturan Perundang-undangan.",
+       "teks": "Masyarakat sebagaimana dimaksud pada ayat (1) merupakan orang perseorangan atau kelompok orang yang terdampak langsung dan/atau mempunyai kepentingan atas materi muatan Rancangan Peraturan Perundang-undangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-96/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Untuk memudahkan masyarakat dalam memberikan masukan secara lisan dan/atau tertulis sebagaimana dimaksud pada ayat (1), setiap Rancangan Peraturan Perundang-undangan harus dapat diakses dengan mudah oleh masyarakat.",
+       "teks": "Untuk memudahkan masyarakat dalam memberikan masukan sebagaimana dimaksud pada ayat (1), setiap Naskah Akademik dan/atau Rancangan Peraturan Perundang-undangan, dapat diakses dengan mudah oleh masyarakat.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-96/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Dalam melaksanakan hak sebagaimana dimaksud pada ayat (1), pembentuk Peraturan Perundang- undangan menginformasikan kepada masyarakat tentang Pembentukan Peraturan Perundang- undangan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-96/ayat-6",
+       "tipe": "ayat",
+       "nomor": "(6)",
+       "teks": "Untuk memenuhi hak sebagaimana dimaksud pada ayat (1), pembentuk Peraturan Perundang- undangan dapat melakukan kegiatan konsultasi publik melalui:",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-96/ayat-6/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "rapat dengar pendapat umum;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-96/ayat-6/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "kunjungan kerja;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-96/ayat-6/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "seminar, lokakarya, diskusi; dan/ atau",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        },
+        {
+         "id": "pasal-96/ayat-6/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "kegiatan konsultasi publik lainnya.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2022-13",
+         "berlaku_mulai": "2022-06-16"
+        }
+       ],
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-96/ayat-7",
+       "tipe": "ayat",
+       "nomor": "(7)",
+       "teks": "Hasil kegiatan konsultasi publik sebagaimana dimaksud pada ayat (6) menjadi bahan pertimbangan dalam perencanaan, pen5rusunan, dan pembahasan Rancangan Peraturan Perundang-undangan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-96/ayat-8",
+       "tipe": "ayat",
+       "nomor": "(8)",
+       "teks": "Pembentuk Peraturan Perundang-undangan dapat menjelaskan kepada masyarakat mengenai hasil pembahasan masukan masyarakat sebagaimana dimaksud pada ayat ( 1).",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-96/ayat-9",
+       "tipe": "ayat",
+       "nomor": "(9)",
+       "teks": "Ketentuan lebih lanjut mengenai partisipasi masyarakat sebagaimana dimaksud pada ayat (1) sampai dengan ayat (8) diatur dalam Peraturan DPR, Peraturan DPD, dan Peraturan Presiden.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       }
      ],
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "sebelum": {
+        "id": "pasal-96",
+        "tipe": "pasal",
+        "nomor": "96",
+        "anak": [
+         {
+          "id": "pasal-96/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Masyarakat berhak memberikan masukan secara lisan dan/atau tertulis dalam Pembentukan Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-96/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Masukan secara lisan dan/atau tertulis sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-96/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "rapat dengar pendapat umum;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-96/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "kunjungan kerja;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-96/ayat-2/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "sosialisasi; dan/atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-96/ayat-2/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "seminar, lokakarya, dan/atau diskusi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-96/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Masyarakat sebagaimana dimaksud pada ayat (1) adalah orang perseorangan atau kelompok orang yang mempunyai kepentingan atas substansi Rancangan Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-96/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Untuk memudahkan masyarakat dalam memberikan masukan secara lisan dan/atau tertulis sebagaimana dimaksud pada ayat (1), setiap Rancangan Peraturan Perundang-undangan harus dapat diakses dengan mudah oleh masyarakat.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         }
+        ],
+        "sumber": "uu-2011-12",
+        "berlaku_mulai": "2011-08-12"
+       },
+       "catatan": "Ketentuan Pasal 96 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
     }
    ],
    "sumber": "uu-2011-12",
@@ -4135,6 +5598,137 @@
      "berlaku_mulai": "2011-08-12"
     },
     {
+     "id": "pasal-97a",
+     "tipe": "pasal",
+     "nomor": "97A",
+     "teks": "Materi muatan yang diatur dalam Peraturan Perundang-undangan yang menggunakan metode omnibus hanya dapat diubah dan/atau dicabut dengan mengubah dan/ atau mencabut Peraturan Perundang- undangan tersebut.",
+     "verifikasi": "pdf-resmi",
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "catatan": "Di antara Pasal 97 dan Pasal 98 disisipkan 4 (empat) pasal, yalni Pasal 97A, Pasal 97B, Pasal 97C, dan Pasal 97D sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
+    },
+    {
+     "id": "pasal-97b",
+     "tipe": "pasal",
+     "nomor": "97B",
+     "anak": [
+      {
+       "id": "pasal-97b/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pembentukan Peraturan Perundang-undangan dapat dilakukan secara elektronik.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-97b/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Pembubuhan tanda tangan dalam setiap tahapan Pembentukan Peraturan Perundang-undangan mulai dari perencanaan sampai dengan pengundangan dapat menggunakan tanda tangan elektronik.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-97b/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Tanda tangan elektronik sebagaimana dimaksud pada ayat (2) harus tersertifikasi sesuai dengan ketentuan Peraturan Perundang-undangan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-97b/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Peraturan Perundang-undangan yang dibentuk secara elektronik sebagaimana dimaksud pada ayat (1) berkekuatan hukum sama dengan Peraturan Perundang-undangan yang dibentuk dalam bentuk cetak.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-97b/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Peraturan Perundang-undangan yang ditandatangani dengan tanda tangan elektronik sebagaimana dimaksud pada ayat (2) berkekuatan hukum sama dengan Peraturan Perundang- undangan yang ditandatangani secara nonelektronik.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-97b/ayat-6",
+       "tipe": "ayat",
+       "nomor": "(6)",
+       "teks": "Ketentuan lebih lanjut mengenai tata cara Pembentukan Peraturan Perundang-undangan secara elektronik sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan DPR, Peraturan DPD, dan Peraturan Presiden.",
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "OCR 'ayat (l)' & junk kop dikoreksi manual dari scan.",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "catatan": "Di antara Pasal 97 dan Pasal 98 disisipkan 4 (empat) pasal, yalni Pasal 97A, Pasal 97B, Pasal 97C, dan Pasal 97D sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
+    },
+    {
+     "id": "pasal-97c",
+     "tipe": "pasal",
+     "nomor": "97C",
+     "teks": "Selain jenis dan hierarki Peraturan Perundang- undangan yang telah diatur dalam Pasal 46 ayat (21, Pasal 47 ayat (3), Pasal 48 ayat (l), Pasal 54 ayat (21, Pasal 55 ayat (21, dan Pasal 58, kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang- undangan melakukan analisis dan evaluasi Peraturan Perundang-undangan.",
+     "verifikasi": "pdf-resmi",
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "catatan": "Di antara Pasal 97 dan Pasal 98 disisipkan 4 (empat) pasal, yalni Pasal 97A, Pasal 97B, Pasal 97C, dan Pasal 97D sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
+    },
+    {
+     "id": "pasal-97d",
+     "tipe": "pasal",
+     "nomor": "97D",
+     "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud dalam Pasal 58 dan Rancangan Peraturan Daerah Kabupaten/Kota sebagaimana dimaksud dalam Pasal 63 berlaku mutatis mutandis terhadap , pembulatan, dan pemantapan konsepsi rancangan peraturan kepala daerah Provinsi dan rancangan peraturan kepala daerah Kabupaten/ Kota.",
+     "verifikasi": "pdf-resmi",
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "catatan": "Di antara Pasal 97 dan Pasal 98 disisipkan 4 (empat) pasal, yalni Pasal 97A, Pasal 97B, Pasal 97C, dan Pasal 97D sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
+    },
+    {
      "id": "pasal-98",
      "tipe": "pasal",
      "nomor": "98",
@@ -4143,10 +5737,10 @@
        "id": "pasal-98/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Setiap tahapan Pembentukan Peraturan Perundang- undangan mengikutsertakan Perancang Peraturan Perundang-undangan.",
+       "teks": "Setiap tahapan Pembentukan Peraturan Perundang-undangan mengikutsertakan Perancang Peraturan Perundang-undangan. (1a) Selain Perancang Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1), Pembentukan Peraturan Perundang-undangan dapat mengikutsertakan analis hukum sesuai dengan kebutuhan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       },
       {
        "id": "pasal-98/ayat-2",
@@ -4154,21 +5748,96 @@
        "nomor": "(2)",
        "teks": "Ketentuan mengenai keikutsertaan dan pembinaan Perancang Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
       }
      ],
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "sebelum": {
+        "id": "pasal-98",
+        "tipe": "pasal",
+        "nomor": "98",
+        "anak": [
+         {
+          "id": "pasal-98/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Setiap tahapan Pembentukan Peraturan Perundang- undangan mengikutsertakan Perancang Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-98/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan mengenai keikutsertaan dan pembinaan Perancang Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         }
+        ],
+        "sumber": "uu-2011-12",
+        "berlaku_mulai": "2011-08-12"
+       },
+       "catatan": "Di antara ayat (1) dan ayat (2) Pasal 98 disisipkan I (satu) ayat, yakni ayat (1a) sehingga Pasal 98 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
     },
     {
      "id": "pasal-99",
      "tipe": "pasal",
      "nomor": "99",
-     "teks": "Selain Perancang Peraturan Perundang-undangan sebagaimana dimaksud dalam Pasal 98 ayat (1), tahapan pembentukan Undang-Undang, Peraturan Daerah Provinsi, dan Peraturan Daerah Kabupaten/Kota mengikutsertakan peneliti dan tenaga ahli.",
+     "teks": "Selain Perancang Peraturan Perundang-undangan s6lagaimana dimaksud dalam Pasal 98 ayat (l), tahapan pembentukan Undang-Undang, Peraturan Daerah Provinsi, dan Peraturan Daerah Kabupaten/ Kota mengikutsertakan analis legislatif dan tenaga ahli.",
      "verifikasi": "pdf-resmi",
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "sebelum": {
+        "id": "pasal-99",
+        "tipe": "pasal",
+        "nomor": "99",
+        "teks": "Selain Perancang Peraturan Perundang-undangan sebagaimana dimaksud dalam Pasal 98 ayat (1), tahapan pembentukan Undang-Undang, Peraturan Daerah Provinsi, dan Peraturan Daerah Kabupaten/Kota mengikutsertakan peneliti dan tenaga ahli.",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2011-12",
+        "berlaku_mulai": "2011-08-12"
+       },
+       "catatan": "Ketentuan Pasal 99 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
+    },
+    {
+     "id": "pasal-99a",
+     "tipe": "pasal",
+     "nomor": "99A",
+     "teks": "Pada saat pembentukan kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan belum terbentuk, tugas dan fungsi Pembentukan Peraturan Perundang-undangan tetap dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+     "verifikasi": "pdf-resmi",
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+       "pelaku": "uu-2019-15",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2019-10-04",
+       "catatan": "Di antara Pasal 99 dan Pasal 1OO disisipkan 1 (satu) pasal, yakni Pasal 99A sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2019-15",
+     "berlaku_mulai": "2019-10-04"
     }
    ],
    "sumber": "uu-2011-12",
@@ -4242,9 +5911,9 @@
   "diakses": "2026-08-31"
  },
  "keandalan": {
-  "total": 352,
-  "pdf-resmi": 352,
-  "pdf-ocr": 0,
+  "total": 390,
+  "pdf-resmi": 389,
+  "pdf-ocr": 1,
   "draf": 0,
   "lainnya": 0
  },
