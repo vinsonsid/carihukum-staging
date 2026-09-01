@@ -291,7 +291,7 @@ function konsolidasi(workId, asOf) {
       } else if (op.op === "repeal") {
         const t = cari(pohon, op.unit);
         const cabut = (n) => { n.status = "dicabut"; (n.anak || []).forEach(cabut); };
-        cabut(t.node);
+        if (op.kaskade === false) t.node.status = "dicabut"; else cabut(t.node);
         (t.node.riwayat ||= []).push({ aksi: "dicabut", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku });
       }
     }
