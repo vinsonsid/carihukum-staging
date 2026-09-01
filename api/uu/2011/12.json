@@ -74,7 +74,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-01T15:45:44.386Z",
+ "dihasilkan": "2026-09-01T16:53:08.139Z",
  "timeline": [
   {
    "tanggal": "2011-08-12",
@@ -113,15 +113,13 @@
    "tipe": "perubahan",
    "pelaku": "uu-2026-1",
    "judul_pelaku": "Penyesuaian Pidana",
-   "jumlah_operasi": 0,
+   "jumlah_operasi": 1,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "belum-dienkode",
-   "catatan": "Perubahan III (omnibus; juga mengubah 7 UU lain). Daftar operasi wajib diverifikasi dari PDF LN."
+   "status_kurasi": "terverifikasi",
+   "catatan": "Pasal V UU 1/2026 (omnibus penyesuaian KUHP) mengganti Pasal 15 UU 12/2011: ketentuan pidana Perda kini hanya denda paling banyak kategori III (ayat (3) lama tidak ada lagi dalam rumusan baru). UU 1/2026 juga mengubah UU 23/2014, UU 1/2023 (KUHP), dan beberapa UU lain di luar cakupan pilot — dicatat di metadata. Dienkode dari salinan LN (raw/teks/uu-2026-1.txt, scan OCR)."
   }
  ],
- "peringatan": [
-  "Peristiwa uu-2026-1/amandemen-uu-2011-12 (perubahan, berlaku 2026-01-02) belum dienkode — teks konsolidasi BELUM mencerminkan peristiwa ini. Perubahan III (omnibus; juga mengubah 7 UU lain). Daftar operasi wajib diverifikasi dari PDF LN."
- ],
+ "peringatan": [],
  "pohon": [
   {
    "id": "bab-1",
@@ -880,7 +878,7 @@
        "id": "pasal-9/ayat-6",
        "tipe": "ayat",
        "nomor": "(6)",
-       "teks": "Ketentuan lebih lanjut mengenai penanganan pengujian sebagaimana dimaksud pada ayat (3) dan ayat (41 diatur dalam Peraturan DPR serta penanganan pengujian sebagaimana dimaksud pada ayat (5) diatur dalam Peraturan Presiden.",
+       "teks": "Ketentuan lebih lanjut mengenai penanganan pengujian sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur dalam Peraturan DPR serta penanganan pengujian sebagaimana dimaksud pada ayat (5) diatur dalam Peraturan Presiden.",
        "verifikasi": "pdf-resmi",
        "anak": [
         {
@@ -1065,8 +1063,8 @@
          "nomor": "a.",
          "teks": "Undang-Undang;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2026-1",
+         "berlaku_mulai": "2026-01-02"
         },
         {
          "id": "pasal-15/ayat-1/huruf-b",
@@ -1074,8 +1072,8 @@
          "nomor": "b.",
          "teks": "Peraturan Daerah Provinsi; atau",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2026-1",
+         "berlaku_mulai": "2026-01-02"
         },
         {
          "id": "pasal-15/ayat-1/huruf-c",
@@ -1083,34 +1081,101 @@
          "nomor": "c.",
          "teks": "Peraturan Daerah Kabupaten/Kota.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-12",
-         "berlaku_mulai": "2011-08-12"
+         "sumber": "uu-2026-1",
+         "berlaku_mulai": "2026-01-02"
         }
        ],
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "sumber": "uu-2026-1",
+       "berlaku_mulai": "2026-01-02"
       },
       {
        "id": "pasal-15/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Ketentuan pidana sebagaimana dimaksud pada ayat (1) huruf b dan huruf c berupa ancaman pidana kurungan paling lama 6 (enam) bulan atau pidana denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah).",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
-      },
-      {
-       "id": "pasal-15/ayat-3",
-       "tipe": "ayat",
-       "nomor": "(3)",
-       "teks": "Peraturan Daerah Provinsi dan Peraturan Daerah Kabupaten/Kota dapat memuat ancaman pidana kurungan atau pidana denda selain sebagaimana dimaksud pada ayat (2) sesuai dengan yang diatur dalam Peraturan Perundang-undangan lainnya.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-12",
-       "berlaku_mulai": "2011-08-12"
+       "teks": "Ketentuan pidana sebagaimana dimaksud pada ayat (1) huruf b dan huruf c hanya berupa ancaman pidana denda paling banyak kategori III.",
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "OCR 'dimalsud' pada scan LN dikoreksi manual menjadi 'dimaksud'.",
+       "sumber": "uu-2026-1",
+       "berlaku_mulai": "2026-01-02"
       }
      ],
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2026-1/amandemen-uu-2011-12",
+       "pelaku": "uu-2026-1",
+       "judul_pelaku": "Penyesuaian Pidana",
+       "tanggal": "2026-01-02",
+       "sebelum": {
+        "id": "pasal-15",
+        "tipe": "pasal",
+        "nomor": "15",
+        "anak": [
+         {
+          "id": "pasal-15/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Materi muatan mengenai ketentuan pidana hanya dapat dimuat dalam:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-15/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "Undang-Undang;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-15/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "Peraturan Daerah Provinsi; atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           },
+           {
+            "id": "pasal-15/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "Peraturan Daerah Kabupaten/Kota.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-12",
+            "berlaku_mulai": "2011-08-12"
+           }
+          ],
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-15/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan pidana sebagaimana dimaksud pada ayat (1) huruf b dan huruf c berupa ancaman pidana kurungan paling lama 6 (enam) bulan atau pidana denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah).",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         },
+         {
+          "id": "pasal-15/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Peraturan Daerah Provinsi dan Peraturan Daerah Kabupaten/Kota dapat memuat ancaman pidana kurungan atau pidana denda selain sebagaimana dimaksud pada ayat (2) sesuai dengan yang diatur dalam Peraturan Perundang-undangan lainnya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-12",
+          "berlaku_mulai": "2011-08-12"
+         }
+        ],
+        "sumber": "uu-2011-12",
+        "berlaku_mulai": "2011-08-12"
+       },
+       "catatan": "Pasal V UU 1/2026: Ketentuan Pasal 15 UU 12/2011 diubah (menyelaraskan ancaman pidana Perda dengan sistem kategori denda KUHP)."
+      }
+     ],
+     "sumber": "uu-2026-1",
+     "berlaku_mulai": "2026-01-02"
     }
    ],
    "sumber": "uu-2011-12",
@@ -1466,7 +1531,7 @@
          "id": "pasal-21/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Ketentuan lebih lanjut mengenai tata cara pen5rusunan Prolegnas sebagaimana dimaksud pada ayat (1), ayat (21, dan ayat (3) diatur dengan Peraturan DPR.",
+         "teks": "Ketentuan lebih lanjut mengenai tata cara pen5rusunan Prolegnas sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan DPR.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2019-15",
          "berlaku_mulai": "2019-10-04"
@@ -2853,7 +2918,7 @@
             "id": "pasal-49/ayat-3",
             "tipe": "ayat",
             "nomor": "(3)",
-            "teks": "Menteri sebagaimana dimaksud pada ayat (21 mengoordinasikan persiapan pembahasan dengan menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
+            "teks": "Menteri sebagaimana dimaksud pada ayat (2) mengoordinasikan persiapan pembahasan dengan menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan.",
             "verifikasi": "pdf-resmi",
             "sumber": "uu-2019-15",
             "berlaku_mulai": "2019-10-04"
@@ -3521,7 +3586,7 @@
        "id": "pasal-64/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Penrusunan Rancangan Peraturan Perundang- undangan dilakukan sesuai dengan teknik penJrusunan Peraturan Perundang-undangan. (1a) Penyusunan Rancangan Peraturan Perundang- undangan sebagaimana dimaksud pada ayat (l) dapat menggunakan metode omnibus. (lb) Metode omnibus sebagaimana dimalsud pada ayat (1a) merupakan metode penJrusunan Peraturan Perundang-undangan dengan:",
+       "teks": "Penrusunan Rancangan Peraturan Perundang- undangan dilakukan sesuai dengan teknik penJrusunan Peraturan Perundang-undangan. (1a) Penyusunan Rancangan Peraturan Perundang- undangan sebagaimana dimaksud pada ayat (1) dapat menggunakan metode omnibus. (lb) Metode omnibus sebagaimana dimalsud pada ayat (1a) merupakan metode penJrusunan Peraturan Perundang-undangan dengan:",
        "verifikasi": "pdf-resmi",
        "anak": [
         {
@@ -4170,7 +4235,7 @@
          "id": "pasal-72/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Perbaikan dan penyampaian Rancangan Undang- Undang sebagaimana dimaksud pada ayat (l) sampai dengan ayat (1b) dilakukan dalam jangka waktu paling lama 7 (tujuh) hari terhitung sejak tanggal persetujuan bersama.",
+         "teks": "Perbaikan dan penyampaian Rancangan Undang- Undang sebagaimana dimaksud pada ayat (1) sampai dengan ayat (1b) dilakukan dalam jangka waktu paling lama 7 (tujuh) hari terhitung sejak tanggal persetujuan bersama.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2022-13",
          "berlaku_mulai": "2022-06-16"
@@ -4236,7 +4301,7 @@
          "id": "pasal-73/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Rancangan Undang-Undang sebagaimana dimaksud dalam Pasal 72 at^u Rancangan Undang-Undang sebagaimana dimaksud pa.da ayat (l) disahkan oleh Presiden dengan membubuhkan tanda tangan dalam jangka waktu paling lama 3O (dga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama oleh DPR dan Presiden.",
+         "teks": "Rancangan Undang-Undang sebagaimana dimaksud dalam Pasal 72 at^u Rancangan Undang-Undang sebagaimana dimaksud pa.da ayat (1) disahkan oleh Presiden dengan membubuhkan tanda tangan dalam jangka waktu paling lama 3O (dga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama oleh DPR dan Presiden.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2022-13",
          "berlaku_mulai": "2022-06-16"
@@ -5185,7 +5250,7 @@
          "id": "pasal-95a/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPR sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang legislasi. (3a) Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPD sebagaimana dimaksud pada ayat (21 dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang perancangan Undang- Undang. (3b) Pemantauan dan Peninjauan terhadap Undang- Undang oleh Pemerintah sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan dengan melibatkan menteri atau kepala lembaga yang terkait.",
+         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPR sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang legislasi. (3a) Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPD sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang perancangan Undang- Undang. (3b) Pemantauan dan Peninjauan terhadap Undang- Undang oleh Pemerintah sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan dengan melibatkan menteri atau kepala lembaga yang terkait.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2022-13",
          "berlaku_mulai": "2022-06-16"
@@ -5194,7 +5259,7 @@
          "id": "pasal-95a/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (21 dapat menjadi usul dalam pen5rusunan Prolegnas.",
+         "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (2) dapat menjadi usul dalam pen5rusunan Prolegnas.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2022-13",
          "berlaku_mulai": "2022-06-16"
@@ -5251,7 +5316,7 @@
             "id": "pasal-95a/ayat-4",
             "tipe": "ayat",
             "nomor": "(4)",
-            "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (21 dapat menjadi usul dalam penyusunan Prolegnas.",
+            "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (2) dapat menjadi usul dalam penyusunan Prolegnas.",
             "verifikasi": "pdf-resmi",
             "sumber": "uu-2019-15",
             "berlaku_mulai": "2019-10-04"
@@ -5694,7 +5759,7 @@
      "id": "pasal-97c",
      "tipe": "pasal",
      "nomor": "97C",
-     "teks": "Selain jenis dan hierarki Peraturan Perundang- undangan yang telah diatur dalam Pasal 46 ayat (21, Pasal 47 ayat (3), Pasal 48 ayat (l), Pasal 54 ayat (21, Pasal 55 ayat (21, dan Pasal 58, kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang- undangan melakukan analisis dan evaluasi Peraturan Perundang-undangan.",
+     "teks": "Selain jenis dan hierarki Peraturan Perundang- undangan yang telah diatur dalam Pasal 46 ayat (2), Pasal 47 ayat (3), Pasal 48 ayat (1), Pasal 54 ayat (2), Pasal 55 ayat (2), dan Pasal 58, kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang- undangan melakukan analisis dan evaluasi Peraturan Perundang-undangan.",
      "verifikasi": "pdf-resmi",
      "riwayat": [
       {
@@ -5796,7 +5861,7 @@
      "id": "pasal-99",
      "tipe": "pasal",
      "nomor": "99",
-     "teks": "Selain Perancang Peraturan Perundang-undangan s6lagaimana dimaksud dalam Pasal 98 ayat (l), tahapan pembentukan Undang-Undang, Peraturan Daerah Provinsi, dan Peraturan Daerah Kabupaten/ Kota mengikutsertakan analis legislatif dan tenaga ahli.",
+     "teks": "Selain Perancang Peraturan Perundang-undangan s6lagaimana dimaksud dalam Pasal 98 ayat (1), tahapan pembentukan Undang-Undang, Peraturan Daerah Provinsi, dan Peraturan Daerah Kabupaten/ Kota mengikutsertakan analis legislatif dan tenaga ahli.",
      "verifikasi": "pdf-resmi",
      "riwayat": [
       {
@@ -5911,9 +5976,9 @@
   "diakses": "2026-08-31"
  },
  "keandalan": {
-  "total": 390,
-  "pdf-resmi": 389,
-  "pdf-ocr": 1,
+  "total": 389,
+  "pdf-resmi": 387,
+  "pdf-ocr": 2,
   "draf": 0,
   "lainnya": 0
  },

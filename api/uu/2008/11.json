@@ -45,7 +45,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-01T15:45:44.379Z",
+ "dihasilkan": "2026-09-01T16:53:08.130Z",
  "timeline": [
   {
    "tanggal": "2008-04-21",
@@ -62,16 +62,13 @@
    "tipe": "perubahan",
    "pelaku": "uu-2016-19",
    "judul_pelaku": "Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
-   "jumlah_operasi": 3,
+   "jumlah_operasi": 8,
    "operasi_belum_dienkode": [
-    "pasal-1",
-    "pasal-26",
-    "pasal-31",
-    "pasal-40",
-    "pasal-43",
-    "penjelasan-pasal-27-ayat-3"
+    "perubahan-penjelasan-pasal-5",
+    "perubahan-penjelasan-pasal-27"
    ],
-   "status_kurasi": "draf"
+   "status_kurasi": "draf",
+   "catatan": " | Operasi tambahan dienkode otomatis parser-perubahan dari PDF scan (teks mengikuti sumber; artefak OCR minor mungkin ada — diverifikasi terhadap berkas sumber)."
   },
   {
    "tanggal": "2024-01-02",
@@ -79,19 +76,12 @@
    "tipe": "perubahan",
    "pelaku": "uu-2024-1",
    "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
-   "jumlah_operasi": 9,
+   "jumlah_operasi": 19,
    "operasi_belum_dienkode": [
-    "pasal-13",
-    "pasal-16",
-    "pasal-16a",
-    "pasal-16b",
-    "pasal-17",
-    "pasal-37",
-    "pasal-40",
-    "pasal-40a",
-    "pasal-43"
+    "perubahan-penjelasan (beberapa pasal; belum dimodelkan)"
    ],
-   "status_kurasi": "draf"
+   "status_kurasi": "draf",
+   "catatan": " | Operasi tambahan dienkode otomatis parser-perubahan dari PDF scan (teks mengikuti sumber; artefak OCR minor mungkin ada — diverifikasi terhadap berkas sumber)."
   },
   {
    "tanggal": "2026-01-02",
@@ -99,15 +89,13 @@
    "tipe": "pencabutan-sebagian",
    "pelaku": "uu-2023-1",
    "judul_pelaku": "Kitab Undang-Undang Hukum Pidana",
-   "jumlah_operasi": 0,
+   "jumlah_operasi": 12,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "belum-dienkode",
-   "catatan": "Pasal 622 ayat (1) KUHP mencabut sejumlah ketentuan UU ITE saat KUHP mulai berlaku (2 Januari 2026). Metadata BPK mencatat 12 ketentuan terdampak. Daftar pasti pasal yang dicabut dan interaksinya dengan restrukturisasi oleh UU 1/2024 (mis. nasib Pasal 27A vs pasal penghinaan KUHP) WAJIB diverifikasi dari PDF LN resmi sebelum operasi dienkode. Mesin konsolidasi menampilkan peristiwa ini sebagai peringatan di timeline tanpa mengubah teks."
+   "status_kurasi": "terverifikasi",
+   "catatan": "Pasal 622 ayat (1) huruf r KUHP mencabut 13 ketentuan UU ITE saat KUHP mulai berlaku (2 Januari 2026): Pasal 27 ayat (1) & (3), 28 ayat (2), 30, 31 ayat (1) & (2), 36, 45 ayat (1) & (3), 45A ayat (2), 46, 47, dan 51 ayat (2) — dalam rumusan ‘sebagaimana telah diubah dengan UU 19/2016’. Ketentuan yang rumusannya tidak disentuh UU 1/2024 dienkode sebagai pencabutan; ketentuan yang telah ditata ulang UU 1/2024 dienkode sebagai anotasi faktual karena lingkup pencabutannya tidak dinyatakan tegas oleh pembentuk undang-undang. Diverifikasi terhadap salinan LN UU 1/2023 (raw/teks/uu-2023-1-kuhp.txt)."
   }
  ],
- "peringatan": [
-  "Peristiwa uu-2023-1/pencabutan-sebagian-uu-2008-11 (pencabutan-sebagian, berlaku 2026-01-02) belum dienkode — teks konsolidasi BELUM mencerminkan peristiwa ini. Pasal 622 ayat (1) KUHP mencabut sejumlah ketentuan UU ITE saat KUHP mulai berlaku (2 Januari 2026). Metadata BPK mencatat 12 ketentuan terdampak. Daftar pasti pasal yang dicabut dan interaksinya dengan restrukturisasi oleh UU 1/2024 (mis. nasib Pasal 27A vs pasal penghinaan KUHP) WAJIB diverifikasi dari PDF LN resmi sebelum operasi dienkode. Mesin konsolidasi menampilkan peristiwa ini sebagai peringatan di timeline tanpa mengubah teks."
- ],
+ "peringatan": [],
  "pohon": [
   {
    "id": "bab-1",
@@ -124,28 +112,19 @@
        "id": "pasal-1/angka-1",
        "tipe": "angka",
        "nomor": "1.",
-       "teks": "Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.",
+       "teks": "Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic maill, telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya. 2, Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
-      },
-      {
-       "id": "pasal-1/angka-2",
-       "tipe": "angka",
-       "nomor": "2.",
-       "teks": "Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-3",
        "tipe": "angka",
        "nomor": "3.",
-       "teks": "Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/atau menyebarkan informasi.",
+       "teks": "Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/ atau menyebarkan informasi.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-4",
@@ -153,8 +132,8 @@
        "nomor": "4.",
        "teks": "Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui Komputer atau Sistem Elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-5",
@@ -162,17 +141,17 @@
        "nomor": "5.",
        "teks": "Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-6",
        "tipe": "angka",
        "nomor": "6.",
-       "teks": "Penyelenggaraan Sistem Elektronik adalah pemanfaatan Sistem Elektronik oleh penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat.",
+       "teks": "Penyelenggaraan Sistem Elektronik adalah pemanfaatan Sistem Elektronik oleh penyelenggara negara, Orang, Badan Usaha, dan/ atau masyarakat. 6a. Penyelenggara Sistem Elektronik adalah setiap Orang, penyelenggara negara, Badan Usaha, dan masyarakat yang menyediakan, mengelola, dan/ atau mengoperasikan Sistem Elektronik, baik secara sendiri-sendiri maupun bersama-sama kepada pengguna Sistem Elektronik untuk keperluan dirinya dan/atau keperluan pihak lain.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-7",
@@ -180,8 +159,8 @@
        "nomor": "7.",
        "teks": "Jaringan Sistem Elektronik adalah terhubungnya dua Sistem Elektronik atau lebih, yang bersifat tertutup ataupun terbuka.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-8",
@@ -189,8 +168,8 @@
        "nomor": "8.",
        "teks": "Agen Elektronik adalah perangkat dari suatu Sistem Elektronik yang dibuat untuk melakukan suatu tindakan terhadap suatu Informasi Elektronik tertentu secara otomatis yang diselenggarakan oleh Orang.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-9",
@@ -198,8 +177,8 @@
        "nomor": "9.",
        "teks": "Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam Transaksi Elektronik yang dikeluarkan oleh Penyelenggara Sertifikasi Elektronik.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-10",
@@ -207,8 +186,8 @@
        "nomor": "10.",
        "teks": "Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-11",
@@ -216,8 +195,8 @@
        "nomor": "11.",
        "teks": "Lembaga Sertifikasi Keandalan adalah lembaga independen yang dibentuk oleh profesional yang diakui, disahkan, dan diawasi oleh Pemerintah dengan kewenangan mengaudit dan mengeluarkan sertifikat keandalan dalam Transaksi Elektronik.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-12",
@@ -225,8 +204,8 @@
        "nomor": "12.",
        "teks": "Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-13",
@@ -234,8 +213,8 @@
        "nomor": "13.",
        "teks": "Penanda Tangan adalah subjek hukum yang terasosiasikan atau terkait dengan Tanda Tangan Elektronik.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-14",
@@ -243,8 +222,8 @@
        "nomor": "14.",
        "teks": "Komputer adalah alat untuk memproses data elektronik, magnetik, optik, atau sistem yang melaksanakan fungsi logika, aritmatika, dan penyimpanan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-15",
@@ -252,35 +231,26 @@
        "nomor": "15.",
        "teks": "Akses adalah kegiatan melakukan interaksi dengan Sistem Elektronik yang berdiri sendiri atau dalam jaringan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-16",
        "tipe": "angka",
        "nomor": "16.",
-       "teks": "Kode Akses adalah angka, huruf, simbol, karakter lainnya atau kombinasi di antaranya, yang merupakan kunci untuk dapat mengakses Komputer dan/atau Sistem Elektronik lainnya.",
+       "teks": "Kode Akses adalah angka, huruf, simbol, karakter lainnya atau kombinasi di antaranya, yang merupakan kunci untuk dapat mengakses Komputer dan/ atau Sistem Elektronik lainnya. t7. Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
-      },
-      {
-       "id": "pasal-1/angka-17",
-       "tipe": "angka",
-       "nomor": "17.",
-       "teks": "Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-18",
        "tipe": "angka",
        "nomor": "18.",
-       "teks": "Pengirim adalah subjek hukum yang mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik.",
+       "teks": "Pengirim adalah subjek hukum yang mengirimkan Informasi Elektronik dan/ atau Dokumen Elektronik.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-19",
@@ -288,8 +258,8 @@
        "nomor": "19.",
        "teks": "Penerima adalah subjek hukum yang menerima Informasi Elektronik dan/atau Dokumen Elektronik dari Pengirim.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-20",
@@ -297,8 +267,8 @@
        "nomor": "20.",
        "teks": "Nama Domain adalah alamat internet penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat, yang dapat digunakan dalam berkomunikasi melalui internet, yang berupa kode atau susunan karakter yang bersifat unik untuk menunjukkan lokasi tertentu dalam internet.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-21",
@@ -306,8 +276,8 @@
        "nomor": "21.",
        "teks": "Orang adalah orang perseorangan, baik warga negara Indonesia, warga negara asing, maupun badan hukum.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-22",
@@ -315,8 +285,8 @@
        "nomor": "22.",
        "teks": "Badan Usaha adalah perusahaan perseorangan atau perusahaan persekutuan, baik yang berbadan hukum maupun yang tidak berbadan hukum.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-1/angka-23",
@@ -324,14 +294,242 @@
        "nomor": "23.",
        "teks": "Pemerintah adalah Menteri atau pejabat lainnya yang ditunjuk oleh Presiden.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       }
      ],
      "teks": "Dalam Undang-Undang ini yang dimaksud dengan:",
      "verifikasi": "pdf-resmi",
-     "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2016-19/amandemen-uu-2008-11",
+       "pelaku": "uu-2016-19",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2016-11-25",
+       "sebelum": {
+        "id": "pasal-1",
+        "tipe": "pasal",
+        "nomor": "1",
+        "anak": [
+         {
+          "id": "pasal-1/angka-1",
+          "tipe": "angka",
+          "nomor": "1.",
+          "teks": "Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-2",
+          "tipe": "angka",
+          "nomor": "2.",
+          "teks": "Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-3",
+          "tipe": "angka",
+          "nomor": "3.",
+          "teks": "Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/atau menyebarkan informasi.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-4",
+          "tipe": "angka",
+          "nomor": "4.",
+          "teks": "Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui Komputer atau Sistem Elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-5",
+          "tipe": "angka",
+          "nomor": "5.",
+          "teks": "Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-6",
+          "tipe": "angka",
+          "nomor": "6.",
+          "teks": "Penyelenggaraan Sistem Elektronik adalah pemanfaatan Sistem Elektronik oleh penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-7",
+          "tipe": "angka",
+          "nomor": "7.",
+          "teks": "Jaringan Sistem Elektronik adalah terhubungnya dua Sistem Elektronik atau lebih, yang bersifat tertutup ataupun terbuka.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-8",
+          "tipe": "angka",
+          "nomor": "8.",
+          "teks": "Agen Elektronik adalah perangkat dari suatu Sistem Elektronik yang dibuat untuk melakukan suatu tindakan terhadap suatu Informasi Elektronik tertentu secara otomatis yang diselenggarakan oleh Orang.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-9",
+          "tipe": "angka",
+          "nomor": "9.",
+          "teks": "Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam Transaksi Elektronik yang dikeluarkan oleh Penyelenggara Sertifikasi Elektronik.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-10",
+          "tipe": "angka",
+          "nomor": "10.",
+          "teks": "Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-11",
+          "tipe": "angka",
+          "nomor": "11.",
+          "teks": "Lembaga Sertifikasi Keandalan adalah lembaga independen yang dibentuk oleh profesional yang diakui, disahkan, dan diawasi oleh Pemerintah dengan kewenangan mengaudit dan mengeluarkan sertifikat keandalan dalam Transaksi Elektronik.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-12",
+          "tipe": "angka",
+          "nomor": "12.",
+          "teks": "Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-13",
+          "tipe": "angka",
+          "nomor": "13.",
+          "teks": "Penanda Tangan adalah subjek hukum yang terasosiasikan atau terkait dengan Tanda Tangan Elektronik.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-14",
+          "tipe": "angka",
+          "nomor": "14.",
+          "teks": "Komputer adalah alat untuk memproses data elektronik, magnetik, optik, atau sistem yang melaksanakan fungsi logika, aritmatika, dan penyimpanan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-15",
+          "tipe": "angka",
+          "nomor": "15.",
+          "teks": "Akses adalah kegiatan melakukan interaksi dengan Sistem Elektronik yang berdiri sendiri atau dalam jaringan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-16",
+          "tipe": "angka",
+          "nomor": "16.",
+          "teks": "Kode Akses adalah angka, huruf, simbol, karakter lainnya atau kombinasi di antaranya, yang merupakan kunci untuk dapat mengakses Komputer dan/atau Sistem Elektronik lainnya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-17",
+          "tipe": "angka",
+          "nomor": "17.",
+          "teks": "Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-18",
+          "tipe": "angka",
+          "nomor": "18.",
+          "teks": "Pengirim adalah subjek hukum yang mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-19",
+          "tipe": "angka",
+          "nomor": "19.",
+          "teks": "Penerima adalah subjek hukum yang menerima Informasi Elektronik dan/atau Dokumen Elektronik dari Pengirim.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-20",
+          "tipe": "angka",
+          "nomor": "20.",
+          "teks": "Nama Domain adalah alamat internet penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat, yang dapat digunakan dalam berkomunikasi melalui internet, yang berupa kode atau susunan karakter yang bersifat unik untuk menunjukkan lokasi tertentu dalam internet.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-21",
+          "tipe": "angka",
+          "nomor": "21.",
+          "teks": "Orang adalah orang perseorangan, baik warga negara Indonesia, warga negara asing, maupun badan hukum.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-22",
+          "tipe": "angka",
+          "nomor": "22.",
+          "teks": "Badan Usaha adalah perusahaan perseorangan atau perusahaan persekutuan, baik yang berbadan hukum maupun yang tidak berbadan hukum.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-1/angka-23",
+          "tipe": "angka",
+          "nomor": "23.",
+          "teks": "Pemerintah adalah Menteri atau pejabat lainnya yang ditunjuk oleh Presiden.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         }
+        ],
+        "teks": "Dalam Undang-Undang ini yang dimaksud dengan:",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2008-11",
+        "berlaku_mulai": "2008-04-21"
+       },
+       "catatan": "Di antara angka 6 dan angka 7 Pasal 1 disisipkan 1 (satu) angka, yakni angka 6a sehingga Pasal 1 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2016-19",
+     "berlaku_mulai": "2016-11-25"
     },
     {
      "id": "pasal-2",
@@ -436,61 +634,116 @@
        "id": "pasal-5/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Informasi Elektronik dan/atau Dokumen Elektronik dan/atau hasil cetaknya merupakan alat bukti hukum yang sah.",
+       "teks": "Informasi Elektronik dan/ atau Dokumen Elektronik dan/ atau hasil cetaknya merupakan alat bukti hukum yang sah.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-5/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Informasi Elektronik dan/atau Dokumen Elektronik dan/atau hasil cetaknya sebagaimana dimaksud pada ayat (1) merupakan perluasan dari alat bukti yang sah sesuai dengan Hukum Acara yang berlaku di Indonesia.",
+       "teks": "Informasi Elektronik dan/ atau Dokumen Elektronik dan/ atau hasil cetaknya sebagaimana dimaksud pada ayat (1) merupakan perluasan dari alat bukti yang sah sesuai dengan Hukum Acara yang berlaku di Indonesia.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-5/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Informasi Elektronik dan/atau Dokumen Elektronik dinyatakan sah apabila menggunakan Sistem Elektronik sesuai dengan ketentuan yang diatur dalam Undang- Undang ini.",
+       "teks": "Informasi Elektronik dan/ atau Dokumen Elektronik dinyatakan sah apabila menggunakan Sistem Elektronik sesuai dengan ketentuan yang diatur dalam Undang-Undang ini.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-5/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Ketentuan mengenai Informasi Elektronik dan/atau Dokumen Elektronik sebagaimana dimaksud pada ayat (1) tidak berlaku untuk:",
+       "teks": "Ketentuan mengenai Informasi Elektronik dan/atau Dokumen Elektronik sebagaimana dimaksud pada ayat (1) tidak berlaku dalam hal diatur lain dalam Undang-Undang.",
        "verifikasi": "pdf-resmi",
-       "anak": [
-        {
-         "id": "pasal-5/ayat-4/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "surat yang menurut Undang-Undang harus dibuat dalam bentuk tertulis; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
-        },
-        {
-         "id": "pasal-5/ayat-4/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "surat beserta dokumennya yang menurut Undang- Undang harus dibuat dalam bentuk akta notaril atau akta yang dibuat oleh pejabat pembuat akta.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
-        }
-       ],
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       }
      ],
-     "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+       "pelaku": "uu-2024-1",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2024-01-02",
+       "sebelum": {
+        "id": "pasal-5",
+        "tipe": "pasal",
+        "nomor": "5",
+        "anak": [
+         {
+          "id": "pasal-5/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Informasi Elektronik dan/atau Dokumen Elektronik dan/atau hasil cetaknya merupakan alat bukti hukum yang sah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-5/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Informasi Elektronik dan/atau Dokumen Elektronik dan/atau hasil cetaknya sebagaimana dimaksud pada ayat (1) merupakan perluasan dari alat bukti yang sah sesuai dengan Hukum Acara yang berlaku di Indonesia.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-5/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Informasi Elektronik dan/atau Dokumen Elektronik dinyatakan sah apabila menggunakan Sistem Elektronik sesuai dengan ketentuan yang diatur dalam Undang- Undang ini.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-5/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Ketentuan mengenai Informasi Elektronik dan/atau Dokumen Elektronik sebagaimana dimaksud pada ayat (1) tidak berlaku untuk:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-5/ayat-4/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "surat yang menurut Undang-Undang harus dibuat dalam bentuk tertulis; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-5/ayat-4/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "surat beserta dokumennya yang menurut Undang- Undang harus dibuat dalam bentuk akta notaril atau akta yang dibuat oleh pejabat pembuat akta.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           }
+          ],
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         }
+        ],
+        "sumber": "uu-2008-11",
+        "berlaku_mulai": "2008-04-21"
+       },
+       "catatan": "Ketentuan ayat (41 Pasal 5 serta penjelasan ayat (1) dan ayat (4) Pasal 5 diubah sehingga Pasal 5 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-1",
+     "berlaku_mulai": "2024-01-02"
     },
     {
      "id": "pasal-6",
@@ -813,79 +1066,275 @@
          "id": "pasal-13/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Setiap Orang berhak menggunakan jasa Penyelenggara Sertifikasi Elektronik untuk pembuatan Tanda Tangan Elektronik.",
+         "teks": "Setiap Orang berhak menggunakan Jasa Penyelenggara Sertifikasi Elektronik untuk pembuatan Tanda Tangan Elektronik.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-13/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Penyelenggara Sertifikasi Elektronik harus memastikan keterkaitan suatu Tanda Tangan Elektronik dengan pemiliknya.",
+         "teks": "Penyelenggara Sertilikasi Elektronik harus memastikan keterkaitan suatu Tanda Tangan Elektronik dengan pemiliknya.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-13/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Penyelenggara Sertifikasi Elektronik terdiri atas:",
-         "verifikasi": "pdf-resmi",
-         "anak": [
-          {
-           "id": "pasal-13/ayat-3/huruf-a",
-           "tipe": "huruf",
-           "nomor": "a.",
-           "teks": "Penyelenggara Sertifikasi Elektronik Indonesia; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2008-11",
-           "berlaku_mulai": "2008-04-21"
-          },
-          {
-           "id": "pasal-13/ayat-3/huruf-b",
-           "tipe": "huruf",
-           "nomor": "b.",
-           "teks": "Penyelenggara Sertifikasi Elektronik asing.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2008-11",
-           "berlaku_mulai": "2008-04-21"
-          }
-         ],
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "teks": "Penyelenggara Sertifikasi Elektronik yang beroperasi di Indonesia harus berbadan hukum Indonesia dan berdomisili di Indonesia.",
+         "verifikasi": "pdf-ocr",
+         "catatan_kurasi": "Ekor junk kop OCR dibuang.",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-13/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Penyelenggara Sertifikasi Elektronik Indonesia berbadan hukum Indonesia dan berdomisili di Indonesia.",
+         "teks": "Ketentuan sebagaimana dimaksud pada ayat (3) dikecualikan dalam hal penyelenggaraan layanan yang menggunakan Sertifikat Elektronik belum tersedia di Indonesia.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-13/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Penyelenggara Sertifikasi Elektronik asing yang beroperasi di Indonesia harus terdaftar di Indonesia.",
+         "teks": "Pengakuan timbal balik (mutual recognition) untuk mengenali Sertifikat Elektronik antarnegara didasarkan pada perjanjian kerja sEuna.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-13/ayat-6",
          "tipe": "ayat",
          "nomor": "(6)",
-         "teks": "Ketentuan lebih lanjut mengenai Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Pemerintah.",
+         "teks": "Ketentuan lebih lanjut mengenai Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud pada ayat (3), ayat (4), dan ayat (5) diatur dalam Peraturan Pemerintah.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         }
        ],
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+         "pelaku": "uu-2024-1",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+         "tanggal": "2024-01-02",
+         "sebelum": {
+          "id": "pasal-13",
+          "tipe": "pasal",
+          "nomor": "13",
+          "anak": [
+           {
+            "id": "pasal-13/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Setiap Orang berhak menggunakan jasa Penyelenggara Sertifikasi Elektronik untuk pembuatan Tanda Tangan Elektronik.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-13/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Penyelenggara Sertifikasi Elektronik harus memastikan keterkaitan suatu Tanda Tangan Elektronik dengan pemiliknya.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-13/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Penyelenggara Sertifikasi Elektronik terdiri atas:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-13/ayat-3/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Penyelenggara Sertifikasi Elektronik Indonesia; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2008-11",
+              "berlaku_mulai": "2008-04-21"
+             },
+             {
+              "id": "pasal-13/ayat-3/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Penyelenggara Sertifikasi Elektronik asing.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2008-11",
+              "berlaku_mulai": "2008-04-21"
+             }
+            ],
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-13/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Penyelenggara Sertifikasi Elektronik Indonesia berbadan hukum Indonesia dan berdomisili di Indonesia.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-13/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Penyelenggara Sertifikasi Elektronik asing yang beroperasi di Indonesia harus terdaftar di Indonesia.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-13/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Ketentuan lebih lanjut mengenai Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Pemerintah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           }
+          ],
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         "catatan": "Ketentuan ayat (3), ayat (41, ayat (5), dan ayat (6) Pasal 13 serta penjelasan ayat (5) Pasal 13 diubah sehingga Pasal 13 berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-13a",
+       "tipe": "pasal",
+       "nomor": "13A",
+       "anak": [
+        {
+         "id": "pasal-13a/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Penyelenggara Sertifikasi Elektronik dapat menyelenggarakan layanan berupa:",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-13a/ayat-1/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "Tanda Tangan Elektronik;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-13a/ayat-1/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "segel elektronik;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-13a/ayat-1/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "penanda waktu elektronik;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-13a/ayat-1/huruf-d",
+           "tipe": "huruf",
+           "nomor": "d.",
+           "teks": "layanan pengiriman elektronik tercatat;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-13a/ayat-1/huruf-e",
+           "tipe": "huruf",
+           "nomor": "e.",
+           "teks": "autentikasi situs web;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-13a/ayat-1/huruf-f",
+           "tipe": "huruf",
+           "nomor": "f.",
+           "teks": "preservasi Tanda Tangan Elektronik dan/ atau segel elektronik;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-13a/ayat-1/huruf-g",
+           "tipe": "huruf",
+           "nomor": "g.",
+           "teks": "identitas digital; dan/atau",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-13a/ayat-1/huruf-h",
+           "tipe": "huruf",
+           "nomor": "h.",
+           "teks": "layanan lain yang menggunakan Sertifikat Elektronik.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          }
+         ],
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-13a/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Ketentuan lebih lanjut mengenai penyelenggaraan layanan sebagaimana dimaksqd pada ayat (1) diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-13a/ayat-2/angka-4",
+           "tipe": "angka",
+           "nomor": "4.",
+           "teks": "Penjelasan ayat (1) dan ayat (2) Pasal 15 diubah sebagaimana tercantum dalam penjelasan.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          }
+         ],
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+         "pelaku": "uu-2024-1",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+         "tanggal": "2024-01-02",
+         "catatan": "Di antara Pasal 13 dan Pasal 14 disisipkan I (satu) pasal, yakni Pasal 13A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-14",
@@ -1044,6 +1493,183 @@
        ],
        "sumber": "uu-2008-11",
        "berlaku_mulai": "2008-04-21"
+      },
+      {
+       "id": "pasal-16a",
+       "tipe": "pasal",
+       "nomor": "16A",
+       "anak": [
+        {
+         "id": "pasal-16a/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Penyelenggara Sistem Elektronik wajib memberikan pelindungan bagi anak yang menggunakan atau mengakses Sistem Elektronik.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-16a/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Pelindungan sebagaimana dimaksud pada ayat (1) meliputi pelindungan terhadap hak anak sebagaimana dimaksud dalam peraturan perundang-undangan mengenai penggunaan produk, layanan, dan fitur yang dikembangkan dan diselenggarakan oleh Penyelenggara Sistem Elektronik.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-16a/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Dalam memberikan produk, layanan, dan fitur bagr anak, Penyelenggara Sistem Elektronik wajib menerapkan teknologi dan langkah teknis operasional untuk memberikan pelindungan sebagaimana dimaksud pada ayat (1) dari tahap pengembangan sampai dengan tahap Penyelenggaraan Sistem Elektronik.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-16a/ayat-4",
+         "tipe": "ayat",
+         "nomor": "(4)",
+         "teks": "Dalam memberikan pelindungan sebagaimana dimaksud pada ayat (1), Penyelenggara Sistem Elektronik wajib menyediakan :",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-16a/ayat-4/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "informasi mengenai batasan minimum usia anak yang dapat menggunakan produk atau layanannya;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-16a/ayat-4/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "mekanisme verifikasi pengguna anak; dan",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-16a/ayat-4/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "mekanisme pelaporan penyalahgunaan produk, layanan, dan fitur yang melanggar atau berpotensi melanggar hak anak. ihtrEILtriIi",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          }
+         ],
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-16a/ayat-5",
+         "tipe": "ayat",
+         "nomor": "(5)",
+         "teks": "Ketentuan lebih lanjut mengenai pelindungan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+         "pelaku": "uu-2024-1",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+         "tanggal": "2024-01-02",
+         "catatan": "Di antara Pasal 16 dan Pasal 17 disisipkan 2 (dua) pasal, yakni Pasal 16A dan Pasal 168 sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-16b",
+       "tipe": "pasal",
+       "nomor": "168",
+       "anak": [
+        {
+         "id": "pasal-16b/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 16A dikenai sanksi administratif.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-16b/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Sanksi administratif sebagaimana dimaksud pada ayat (1) dapat berupa:",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-16b/ayat-2/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "teguran tertulis;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-16b/ayat-2/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "dendaadministratif;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-16b/ayat-2/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "penghentian sementara; dan/atau",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          },
+          {
+           "id": "pasal-16b/ayat-2/huruf-d",
+           "tipe": "huruf",
+           "nomor": "d.",
+           "teks": "pemutusan Akses.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          }
+         ],
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-16b/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Ketentuan lebih lanjut mengenai pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+         "pelaku": "uu-2024-1",
+         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+         "tanggal": "2024-01-02",
+         "catatan": "Di antara Pasal 16 dan Pasal 17 disisipkan 2 (dua) pasal, yakni Pasal 16A dan Pasal 168 sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       }
      ],
      "sumber": "uu-2008-11",
@@ -1068,32 +1694,87 @@
        "id": "pasal-17/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Penyelenggaraan Transaksi Elektronik dapat dilakukan dalam lingkup publik ataupun privat.",
+       "teks": "Penyelenggaraan Transaksi Elektronik dapat dilakukan dalam lingkup publik atau privat.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-17/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Para pihak yang melakukan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) wajib beriktikad baik dalam melakukan interaksi dan/atau pertukaran Informasi Elektronik dan/atau Dokumen Elektronik selama transaksi berlangsung.",
+       "teks": "Para pihak yang melakukan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) wajib beriktikad baik dalam melakukan interaksi dan/ atau pertukaran Informasi Elektronik dan/ atau Dokumen Elektronik selama transaksi berlangsung. :Ili iirl. IIIilNIinIiiEIA",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-17/ayat-2a",
+       "tipe": "ayat",
+       "nomor": "(2a)",
+       "teks": "Transaksi Elektronik yang memiliki risiko tinggi bagi para pihak menggunakan Tanda Tangan Elektronik yang diamankan dengan Sertilikat Elektronik.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-17/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Ketentuan lebih lanjut mengenai penyelenggaraan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+       "teks": "Ketentuan lebih lanjut mengenai irenyelenggaraan Transaksi Elektronik sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (2a) diatur dalam Peraturan Pemerintah.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       }
      ],
-     "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+       "pelaku": "uu-2024-1",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2024-01-02",
+       "sebelum": {
+        "id": "pasal-17",
+        "tipe": "pasal",
+        "nomor": "17",
+        "anak": [
+         {
+          "id": "pasal-17/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Penyelenggaraan Transaksi Elektronik dapat dilakukan dalam lingkup publik ataupun privat.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-17/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Para pihak yang melakukan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) wajib beriktikad baik dalam melakukan interaksi dan/atau pertukaran Informasi Elektronik dan/atau Dokumen Elektronik selama transaksi berlangsung.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-17/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Ketentuan lebih lanjut mengenai penyelenggaraan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         }
+        ],
+        "sumber": "uu-2008-11",
+        "berlaku_mulai": "2008-04-21"
+       },
+       "catatan": "Ketentuan ayat (1) Pasal 17 diubah, dan di antara ayal l2l dan ayat (3) Pasal 17 disisipkan 1 (satu) ayat, yakni ayat (2a1, dar ketentuan ayat (3) Pasal 17 diubah sehingga Pasal 17 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-1",
+     "berlaku_mulai": "2024-01-02"
     },
     {
      "id": "pasal-18",
@@ -1148,6 +1829,72 @@
      ],
      "sumber": "uu-2008-11",
      "berlaku_mulai": "2008-04-21"
+    },
+    {
+     "id": "pasal-18a",
+     "tipe": "pasal",
+     "nomor": "18A",
+     "anak": [
+      {
+       "id": "pasal-18a/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Kontrak Elektronik internasional yang menggunakan klausula baku yang dibuat oleh Penyelenggara Sistem Elektronik diatur dengan hukum Indonesia dalam hal:",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-18a/ayat-1/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "pengguna layanan Penyelenggara Sistem Elektronik sebagai salah satu pihak dalam Transaksi Elektronik berasal dari Indonesia dan memberikan persetqjuannya dari atau dalam yurisdiksi Indonesia;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-18a/ayat-1/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "tempat pelaksanaan kontrak ada di wilayah Indonesia; dan/ atau",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-18a/ayat-1/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "Penyelenggara Sistem Elektronik memiliki tempat usaha atau melakukan kegiatan usaha di wilayah Indonesia.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        }
+       ],
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-18a/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Kontrak Elektronik sebagaimana dimaksud pada ayat (1) menggunakan bahasa yang sederhana, jelas, dan mudah dipahami, serta menjunjung prinsip iktikad baik dan transparansi.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+       "pelaku": "uu-2024-1",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2024-01-02",
+       "catatan": "Di antara Pasal 18 dan Pasal 19 disisipkan I (satu) pasal, yakni Pasal 18A sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-1",
+     "berlaku_mulai": "2024-01-02"
     },
     {
      "id": "pasal-19",
@@ -1404,10 +2151,10 @@
        "id": "pasal-26/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Kecuali ditentukan lain oleh Peraturan Perundang- undangan, penggunaan setiap informasi melalui media elektronik yang menyangkut data pribadi seseorang harus dilakukan atas persetujuan Orang yang bersangkutan.",
+       "teks": "Kecuali ditentukan lain oleh peraturan perundang- undangan, penggunaan setiap informasi melalui media elektronik yang menyangkut data pribadi seseorang harus dilakukan atas persetujuan Orang yang bersangkutan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-26/ayat-2",
@@ -1415,12 +2162,76 @@
        "nomor": "(2)",
        "teks": "Setiap Orang yang dilanggar haknya sebagaimana dimaksud pada ayat (1) dapat mengajukan gugatan atas kerugian yang ditimbulkan berdasarkan Undang-Undang ini.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
+      },
+      {
+       "id": "pasal-26/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Setiap Penyelenggara Sistem Elektronik wajib menghapus Informasi Elektronik dan/atau Dokumen Elektronik yang tidak relevan yang berada di bawah kendalinya atas permintaan Orang yang bersangkutan berdasarkan penetapan pengadilan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
+      },
+      {
+       "id": "pasal-26/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Setiap Penyelenggara Sistem Elektronik wajib menyediakan mekanisme penghapusan Informasi Elektronik dan/ atau Dokumen Elektronik yang sudah tidak relevan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
+      },
+      {
+       "id": "pasal-26/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Ketentuan mengenai tata. cara penghapusan Informasi Elektronik dan/atau Dokumen Elektronik sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur dalam peraturan pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       }
      ],
-     "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2016-19/amandemen-uu-2008-11",
+       "pelaku": "uu-2016-19",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2016-11-25",
+       "sebelum": {
+        "id": "pasal-26",
+        "tipe": "pasal",
+        "nomor": "26",
+        "anak": [
+         {
+          "id": "pasal-26/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Kecuali ditentukan lain oleh Peraturan Perundang- undangan, penggunaan setiap informasi melalui media elektronik yang menyangkut data pribadi seseorang harus dilakukan atas persetujuan Orang yang bersangkutan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-26/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Setiap Orang yang dilanggar haknya sebagaimana dimaksud pada ayat (1) dapat mengajukan gugatan atas kerugian yang ditimbulkan berdasarkan Undang-Undang ini.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         }
+        ],
+        "sumber": "uu-2008-11",
+        "berlaku_mulai": "2008-04-21"
+       },
+       "catatan": "Ketentuan Pasal 26 ditambah 3 (tiga) ayat, yakni ayat (3), ayat (4), dan ayat (5) sehingga Pasal 26 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2016-19",
+     "berlaku_mulai": "2016-11-25"
     }
    ],
    "sumber": "uu-2008-11",
@@ -1513,7 +2324,15 @@
       }
      ],
      "sumber": "uu-2024-1",
-     "berlaku_mulai": "2024-01-02"
+     "berlaku_mulai": "2024-01-02",
+     "anotasi": [
+      {
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "tanggal": "2026-01-02",
+       "catatan": "Dirujuk pencabutan Pasal 622 ayat (1) huruf r KUHP (ayat (1) dan ayat (3) rumusan 2016; muatan ayat (3) lama kini di Pasal 27A). Pasal 622 ayat (1) huruf r KUHP mencabut ketentuan ini dalam rumusan UU ITE ‘sebagaimana telah diubah dengan UU 19/2016’. Sebelum KUHP mulai berlaku (2 Januari 2026), UU 1/2024 telah mengubah/menata ulang ketentuan tersebut. Kedua undang-undang tidak menyatakan secara tegas lingkup pencabutan terhadap rumusan hasil perubahan 2024; CariHukum menampilkan keduanya apa adanya tanpa menafsirkan."
+      }
+     ]
     },
     {
      "id": "pasal-27a",
@@ -1532,7 +2351,15 @@
       }
      ],
      "sumber": "uu-2024-1",
-     "berlaku_mulai": "2024-01-02"
+     "berlaku_mulai": "2024-01-02",
+     "anotasi": [
+      {
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "tanggal": "2026-01-02",
+       "catatan": "Menampung muatan Pasal 27 ayat (3) lama yang dirujuk pencabutan KUHP. Pasal 622 ayat (1) huruf r KUHP mencabut ketentuan ini dalam rumusan UU ITE ‘sebagaimana telah diubah dengan UU 19/2016’. Sebelum KUHP mulai berlaku (2 Januari 2026), UU 1/2024 telah mengubah/menata ulang ketentuan tersebut. Kedua undang-undang tidak menyatakan secara tegas lingkup pencabutan terhadap rumusan hasil perubahan 2024; CariHukum menampilkan keduanya apa adanya tanpa menafsirkan."
+      }
+     ]
     },
     {
      "id": "pasal-27b",
@@ -1681,7 +2508,15 @@
       }
      ],
      "sumber": "uu-2024-1",
-     "berlaku_mulai": "2024-01-02"
+     "berlaku_mulai": "2024-01-02",
+     "anotasi": [
+      {
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "tanggal": "2026-01-02",
+       "catatan": "Dirujuk pencabutan Pasal 622 ayat (1) huruf r KUHP (ayat (2) rumusan 2016). Pasal 622 ayat (1) huruf r KUHP mencabut ketentuan ini dalam rumusan UU ITE ‘sebagaimana telah diubah dengan UU 19/2016’. Sebelum KUHP mulai berlaku (2 Januari 2026), UU 1/2024 telah mengubah/menata ulang ketentuan tersebut. Kedua undang-undang tidak menyatakan secara tegas lingkup pencabutan terhadap rumusan hasil perubahan 2024; CariHukum menampilkan keduanya apa adanya tanpa menafsirkan."
+      }
+     ]
     },
     {
      "id": "pasal-29",
@@ -1723,7 +2558,8 @@
        "teks": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum mengakses Komputer dan/atau Sistem Elektronik milik Orang lain dengan cara apa pun.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "berlaku_mulai": "2008-04-21",
+       "status": "dicabut"
       },
       {
        "id": "pasal-30/ayat-2",
@@ -1732,7 +2568,8 @@
        "teks": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum mengakses Komputer dan/atau Sistem Elektronik dengan cara apa pun dengan tujuan untuk memperoleh Informasi Elektronik dan/atau Dokumen Elektronik.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "berlaku_mulai": "2008-04-21",
+       "status": "dicabut"
       },
       {
        "id": "pasal-30/ayat-3",
@@ -1741,11 +2578,23 @@
        "teks": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum mengakses Komputer dan/atau Sistem Elektronik dengan cara apa pun dengan melanggar, menerobos, melampaui, atau menjebol sistem pengamanan.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "berlaku_mulai": "2008-04-21",
+       "status": "dicabut"
       }
      ],
      "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "berlaku_mulai": "2008-04-21",
+     "status": "dicabut",
+     "riwayat": [
+      {
+       "aksi": "dicabut",
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "judul_pelaku": "Kitab Undang-Undang Hukum Pidana",
+       "tanggal": "2026-01-02",
+       "catatan": "Pasal 622 ayat (1) huruf r UU 1/2023 (KUHP), berlaku 2 Januari 2026."
+      }
+     ]
     },
     {
      "id": "pasal-31",
@@ -1758,8 +2607,19 @@
        "nomor": "(1)",
        "teks": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan intersepsi atau penyadapan atas Informasi Elektronik dan/atau Dokumen Elektronik dalam suatu Komputer dan/atau Sistem Elektronik tertentu milik Orang lain.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25",
+       "status": "dicabut",
+       "riwayat": [
+        {
+         "aksi": "dicabut",
+         "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+         "pelaku": "uu-2023-1",
+         "judul_pelaku": "Kitab Undang-Undang Hukum Pidana",
+         "tanggal": "2026-01-02",
+         "catatan": "Pasal 622 ayat (1) huruf r UU 1/2023 (KUHP), berlaku 2 Januari 2026."
+        }
+       ]
       },
       {
        "id": "pasal-31/ayat-2",
@@ -1767,30 +2627,98 @@
        "nomor": "(2)",
        "teks": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan intersepsi atas transmisi Informasi Elektronik dan/atau Dokumen Elektronik yang tidak bersifat publik dari, ke, dan di dalam suatu Komputer dan/atau Sistem Elektronik tertentu milik Orang lain, baik yang tidak menyebabkan perubahan apa pun maupun yang menyebabkan adanya perubahan, penghilangan, dan/atau penghentian Informasi Elektronik dan/atau Dokumen Elektronik yang sedang ditransmisikan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25",
+       "status": "dicabut",
+       "riwayat": [
+        {
+         "aksi": "dicabut",
+         "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+         "pelaku": "uu-2023-1",
+         "judul_pelaku": "Kitab Undang-Undang Hukum Pidana",
+         "tanggal": "2026-01-02",
+         "catatan": "Pasal 622 ayat (1) huruf r UU 1/2023 (KUHP), berlaku 2 Januari 2026."
+        }
+       ]
       },
       {
        "id": "pasal-31/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Kecuali intersepsi sebagaimana dimaksud pada ayat (1) dan ayat (2), intersepsi yang dilakukan dalam rangka penegakan hukum atas permintaan kepolisian, kejaksaan, dan/atau institusi penegak hukum lainnya yang ditetapkan berdasarkan undang-undang.",
+       "teks": "Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak berlaku terhadap intersepsi atau penyadapan yang dilakukan dalam rangka penegakan hukum atas permintaan kepolisian, kejaksaan, atau institusi lainnya yang kewenangannya ditetapkan berdasarkan undang- undang.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       },
       {
        "id": "pasal-31/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Ketentuan lebih lanjut mengenai tata cara intersepsi sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Pemerintah.",
+       "teks": "Ketentuan lebih lanjut mengenai tata cara intersepsi sebagaimana dimaksud pada ayat (3) diatur dengan undang-undang.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2016-19",
+       "berlaku_mulai": "2016-11-25"
       }
      ],
-     "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "teks": "Pasal 3 1",
+     "verifikasi": "pdf-resmi",
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2016-19/amandemen-uu-2008-11",
+       "pelaku": "uu-2016-19",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2016-11-25",
+       "sebelum": {
+        "id": "pasal-31",
+        "tipe": "pasal",
+        "nomor": "31",
+        "anak": [
+         {
+          "id": "pasal-31/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan intersepsi atau penyadapan atas Informasi Elektronik dan/atau Dokumen Elektronik dalam suatu Komputer dan/atau Sistem Elektronik tertentu milik Orang lain.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-31/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan intersepsi atas transmisi Informasi Elektronik dan/atau Dokumen Elektronik yang tidak bersifat publik dari, ke, dan di dalam suatu Komputer dan/atau Sistem Elektronik tertentu milik Orang lain, baik yang tidak menyebabkan perubahan apa pun maupun yang menyebabkan adanya perubahan, penghilangan, dan/atau penghentian Informasi Elektronik dan/atau Dokumen Elektronik yang sedang ditransmisikan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-31/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Kecuali intersepsi sebagaimana dimaksud pada ayat (1) dan ayat (2), intersepsi yang dilakukan dalam rangka penegakan hukum atas permintaan kepolisian, kejaksaan, dan/atau institusi penegak hukum lainnya yang ditetapkan berdasarkan undang-undang.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-31/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Ketentuan lebih lanjut mengenai tata cara intersepsi sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         }
+        ],
+        "sumber": "uu-2008-11",
+        "berlaku_mulai": "2008-04-21"
+       },
+       "catatan": "Ketentuan ayat (3) dan ayat (4) Pasal 31 diubah sehingga Pasal 31 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2016-19",
+     "berlaku_mulai": "2016-11-25"
     },
     {
      "id": "pasal-32",
@@ -1918,7 +2846,15 @@
       }
      ],
      "sumber": "uu-2024-1",
-     "berlaku_mulai": "2024-01-02"
+     "berlaku_mulai": "2024-01-02",
+     "anotasi": [
+      {
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "tanggal": "2026-01-02",
+       "catatan": "Dirujuk pencabutan Pasal 622 ayat (1) huruf r KUHP (rumusan 2016); pasal ini telah diganti UU 1/2024. Pasal 622 ayat (1) huruf r KUHP mencabut ketentuan ini dalam rumusan UU ITE ‘sebagaimana telah diubah dengan UU 19/2016’. Sebelum KUHP mulai berlaku (2 Januari 2026), UU 1/2024 telah mengubah/menata ulang ketentuan tersebut. Kedua undang-undang tidak menyatakan secara tegas lingkup pencabutan terhadap rumusan hasil perubahan 2024; CariHukum menampilkan keduanya apa adanya tanpa menafsirkan."
+      }
+     ]
     },
     {
      "id": "pasal-37",
@@ -2012,19 +2948,48 @@
        "id": "pasal-40/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Pemerintah memfasilitasi pemanfaatan Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan Peraturan Perundang-undangan.",
+       "teks": "Pemerintah memfasilitasi pemanfaatan Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan peraturan perundang- undangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-40/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Pemerintah melindungi kepentingan umum dari segala jenis gangguan sebagai akibat penyalahgunaan Informasi Elektronik dan Transaksi Elektronik yang mengganggu ketertiban umum, sesuai dengan ketentuan Peraturan Perundang-undangan.",
+       "teks": "Pemerintah melindungi kepentingan umum dari segala jenis gangguan sebagai akibat penyalahgunaan Informasi Elektronik dan Transaksi Elektronik yang mengganggu ketertiban umum, sesuai dengan ketentuan peraturan perundang-undangan.",
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "Junk kop OCR di awal ayat dibuang.",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-40/ayat-2a",
+       "tipe": "ayat",
+       "nomor": "(2a)",
+       "teks": "Pemerintah wajib melakukan pencegahan penyebarluasan dan penggunaan Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan yang dilarang sesuai dengan ketentuan peraturan perundang-undangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-40/ayat-2b",
+       "tipe": "ayat",
+       "nomor": "(2b)",
+       "teks": "Dalam melakukan pencegahan sebagaimana dimaksud pada ayat (2a), Pemerintah berwenang melakukan pemutusan Akses dan/atau memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan pemutusan Akses terhadap Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar hukum. l2cl Perintah kepada Penyelenggara Sistem Elektronik sebagaimana dimaksud pada ayat (2b) berupa pemutusan Akses dan/ atau moderasi konten secara mandiri terhadap Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan pornografi, perjudian, atau muatan lain sebagaimana dimaksud dalam ketentuan peraturan perundang-undangan sepanjang dimungkinkan secara teknologi.",
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "OCR 'Penyeleprggara' dikoreksi manual dari scan.",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-40/ayat-2d",
+       "tipe": "ayat",
+       "nomor": "(2d)",
+       "teks": "Dalam melakukan pencegahan sebagaimana dimaksud pada ayat (2a), Pemerintah berwenang memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan moderasi konten terhadap Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan berbahaya bagi keselamatan nyawa atau kesehatan individu atau masyarakat.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-40/ayat-3",
@@ -2032,39 +2997,319 @@
        "nomor": "(3)",
        "teks": "Pemerintah menetapkan instansi atau institusi yang memiliki data elektronik strategis yang wajib dilindungi.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-40/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
        "teks": "Instansi atau institusi sebagaimana dimaksud pada ayat (3) harus membuat Dokumen Elektronik dan rekam cadang elektroniknya serta menghubungkannya ke pusat data tertentu untuk kepentingan pengamanan data.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "Junk kop OCR di awal ayat dibuang.",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-40/ayat-5",
        "tipe": "ayat",
        "nomor": "(5)",
-       "teks": "Instansi atau institusi lain selain diatur pada ayat (3) membuat Dokumen Elektronik dan rekam cadang elektroniknya sesuai dengan keperluan perlindungan data yang dimilikinya.",
+       "teks": "Instansi atau institusi lain selain diatur pada ayat (3) membuat Dokumen Elektronik dan rekam cadang elektroniknya sesuai dengan keperluan pelindungan data yang dimilikinya.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-40/ayat-6",
        "tipe": "ayat",
        "nomor": "(6)",
-       "teks": "Ketentuan lebih lanjut mengenai peran Pemerintah sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan Pemerintah.",
+       "teks": "Ketentuan lebih lanjut mengenai peran Pemerintah sebagaimana dimaksud pada ayat (1), ayat (2), ayat (2a), ayat (2b), ayat (2c), ayat (2d), dan ayat (3) diatur dalam Peraturan Pemerintah.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "catatan_kurasi": "Koma antar rujukan ayat hilang di OCR; dikembalikan.",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       }
      ],
-     "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2016-19/amandemen-uu-2008-11",
+       "pelaku": "uu-2016-19",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2016-11-25",
+       "sebelum": {
+        "id": "pasal-40",
+        "tipe": "pasal",
+        "nomor": "40",
+        "anak": [
+         {
+          "id": "pasal-40/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemerintah memfasilitasi pemanfaatan Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-40/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pemerintah melindungi kepentingan umum dari segala jenis gangguan sebagai akibat penyalahgunaan Informasi Elektronik dan Transaksi Elektronik yang mengganggu ketertiban umum, sesuai dengan ketentuan Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-40/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pemerintah menetapkan instansi atau institusi yang memiliki data elektronik strategis yang wajib dilindungi.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-40/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Instansi atau institusi sebagaimana dimaksud pada ayat (3) harus membuat Dokumen Elektronik dan rekam cadang elektroniknya serta menghubungkannya ke pusat data tertentu untuk kepentingan pengamanan data.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-40/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Instansi atau institusi lain selain diatur pada ayat (3) membuat Dokumen Elektronik dan rekam cadang elektroniknya sesuai dengan keperluan perlindungan data yang dimilikinya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-40/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Ketentuan lebih lanjut mengenai peran Pemerintah sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         }
+        ],
+        "sumber": "uu-2008-11",
+        "berlaku_mulai": "2008-04-21"
+       },
+       "catatan": "Di antara ayat (2) dan ayat (3) Pasal 4O disisipkan 2 (dua) ayat, yakni ayat (2al dan ayat (2b); ketentuan ayat (6) Pasal 40 diubah; serta penjelasan ayat (1) pasal 4O diubah sehingga Pasal 4O berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+       "pelaku": "uu-2024-1",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2024-01-02",
+       "sebelum": {
+        "id": "pasal-40",
+        "tipe": "pasal",
+        "nomor": "40",
+        "anak": [
+         {
+          "id": "pasal-40/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemerintah memfasilitasi pemanfaatan Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan peraturan perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-40/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pemerintah melindungi kepentingan umum dari segala jenis gangguan sebagai akibat penyalahgunaan Informasi Elektronik dan Transaksi Elektronik yang mengganggu ketertiban umum, sesuai dengan ketentuan peraturan perundang- undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-40/ayat-2a",
+          "tipe": "ayat",
+          "nomor": "(2a)",
+          "teks": "Pemerintah wajib melakukan pencegahan penyebarluasan dan penggunaan Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan yang dilarang sesuai dengan ketentuan peraturan perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-40/ayat-2b",
+          "tipe": "ayat",
+          "nomor": "(2b)",
+          "teks": "Dalam melakukan pencegahan sebagaimana dimaksud pada ayat (2a), Pemerintah berwenang melakukan pemutusan akses dan/atau memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan pemutusan akses terhadap Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan yang melanggar hukum.",
+          "verifikasi": "pdf-ocr",
+          "catatan_kurasi": "OCR 's6lagaimana' dikoreksi manual dari scan.",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-40/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pemerintah menetapkan instansi atau institusi yang memiliki data elektronik strategis yang wajib dilindungi.",
+          "verifikasi": "pdf-ocr",
+          "catatan_kurasi": "Stub catchword & titik nyasar OCR dibuang.",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-40/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Instansi atau institusi sebagaimana dimaksud pada ayat (3) harus membuat Dokumen Elektronik dan rekam cadang elektroniknya serta menghubungkannya ke pusat data tertentu untuk kepentingan pengamanan data.",
+          "verifikasi": "pdf-ocr",
+          "catatan_kurasi": "OCR 'dal' -> 'dan' (bentuk benar ada di halaman lain PDF yang sama).",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-40/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Instansi atau institusi lain selain diatur pada ayat (3) membuat Dokumen Elektronik dan rekam cadang elektroniknya sesuai dengan keperluan perlindungan data yang dimilikinya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-40/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Ketentuan lebih lanjut mengenai peran Pemerintah sebagaimana dimaksud pada ayat (1), ayat (2), ayat (2a), ayat (2b), dan ayat (3) diatur dalam peraturan pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "catatan_kurasi": "Koma antar rujukan ayat hilang di OCR; dikembalikan.",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         }
+        ],
+        "sumber": "uu-2016-19",
+        "berlaku_mulai": "2016-11-25"
+       },
+       "catatan": "Di antara ayat (2b) dan ayat (3) Pasal 40 disisipkan 2 (dua) ayat, yakni ayat l2cl dan ayat (2d), ketentuan ayat (2b), ayat (5), dan ayat (6) Pasal 4O diubah, serta penjelasan ayat (2b) Pasal 40 diubah sehingga Pasal 40 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-1",
+     "berlaku_mulai": "2024-01-02"
+    },
+    {
+     "id": "pasal-40a",
+     "tipe": "pasal",
+     "nomor": "40A",
+     "anak": [
+      {
+       "id": "pasal-40a/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pemerintah bertanggung jawab dalam mendorong terciptanya ekosistem digital yang adil, akuntabel, aman, dan inovatif.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-40a/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Dalam rangka melaksanakan tanggung Jawab sebagaimana dimaksud pada ayat (1), Pemerintah berwenang memerintahkan Penyelenggara Sistem Elektronik untuk melakukan penyesuaian pada Sistem Elektronik dan/atau melakukan tindakan tertentu.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-40a/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Penyelenggara Sistem Elektronik wajib melaksanakan perintah sebagaimana dimaksud pada ayat (2).",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-40a/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Dalam hal Penyelenggara Sistem Elektronik melanggar kewajiban sebagaimana dimaksud pada ayat (3), Penyelenggara Sistem Elektronik dikenai sanksi administratif.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-40a/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Sanksi administratif sebagaimana dimalsud pada ayat (4) dapat berupa:",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-40a/ayat-5/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "teguran tertulis;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-40a/ayat-5/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "dendaadministratif;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-40a/ayat-5/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "penghentian sementara; dan/atau",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        },
+        {
+         "id": "pasal-40a/ayat-5/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "pemutusan Akses.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
+        }
+       ],
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-40a/ayat-6",
+       "tipe": "ayat",
+       "nomor": "(6)",
+       "teks": "Ketentuan lebih lanjut mengenai tanggung jawab Pemerintah sebagaimana dimaksud pada ayat (1) ), wewenang Pemerintah sebagaimana dimaksud pada ayat (2), kewajiban Penyelenggara Sistem Elektronik sebagaimana dimaksud pada ayat (3), dan pengenaan sanksi administratif sebagaimana dimaksud pada ayat (4) dan ayat (5) diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "OCR '(21/(l )/Penyelepggara' dikoreksi manual dari scan.",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+       "pelaku": "uu-2024-1",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2024-01-02",
+       "catatan": "Di antara Pasal 40 dan Pasal 41 disisipkan 1 (satu) pasal, yakni Pasal 40A sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-1",
+     "berlaku_mulai": "2024-01-02"
     },
     {
      "id": "pasal-41",
@@ -2132,158 +3377,524 @@
        "nomor": "(1)",
        "teks": "Selain Penyidik Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan Pemerintah yang lingkup tugas dan tanggung jawabnya di bidang Teknologi Informasi dan Transaksi Elektronik diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-Undang tentang Hukum Acara Pidana untuk melakukan penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-43/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Penyidikan di bidang Teknologi Informasi dan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) dilakukan dengan memperhatikan perlindungan terhadap privasi, kerahasiaan, kelancaran layanan publik, integritas data, atau keutuhan data sesuai dengan ketentuan Peraturan Perundang-undangan.",
+       "teks": "Penyidikan. . . -t4- l2l Penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) dilakukan dengan memperhatikan pelindungan terhadap privasi, kerahasiaan, kelancaran layanan publik, dan integritas atau keutuhan data sesuai dengan ketentuan peraturan perundang-undangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-43/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Penggeledahan dan/atau penyitaan terhadap sistem elektronik yang terkait dengan dugaan tindak pidana harus dilakukan atas izin ketua pengadilan negeri setempat.",
+       "teks": "Penggeledahan dan/atau penyitaan terhadap Sistem Elektronik yang terkait dengan dugaan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik dilakukan sesuai dengan ketentuan hukum acara pidana.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-43/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Dalam melakukan penggeledahan dan/atau penyitaan sebagaimana dimaksud pada ayat (3), penyidik wajib menjaga terpeliharanya kepentingan pelayanan umum.",
+       "teks": "Dalam melakukan penggeledahan dan/ atau penyitaan sebagaimana dimaksud pada ayat (3), penyidik wajib menjaga terpeliharanya kepentingan pelayanan umum.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-43/ayat-5",
        "tipe": "ayat",
        "nomor": "(5)",
-       "teks": "Penyidik Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang:",
+       "teks": "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang:",
        "verifikasi": "pdf-resmi",
        "anak": [
         {
          "id": "pasal-43/ayat-5/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "menerima laporan atau pengaduan dari seseorang tentang adanya tindak pidana berdasarkan ketentuan Undang-Undang ini;",
+         "teks": "menerima laporan atau pengaduan dari seseorzrng tentang adanya tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-43/ayat-5/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "memanggil setiap Orang atau pihak lainnya untuk didengar dan/atau diperiksa sebagai tersangka atau saksi sehubungan dengan adanya dugaan tindak pidana di bidang terkait dengan ketentuan Undang-Undang ini;",
+         "teks": "memanggil setiap Orang atau pihak lainnya untuk didengar dan diperiksa sebagai tersangka atau saksi sehubungan dengan adanya dugaan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-43/ayat-5/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana berdasarkan ketentuan Undang-Undang ini;",
+         "teks": "melakukan penyegelan dan penyitaan terhadap alat dan/ atau sarana kegiatan Teknologi Informasi yang diduga digunakan secara menyimpang dari ketentuan peraturan perundang-undangan ; h membuat suatu data danlatau Sistem Elektronik yang terkait tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik agar tidak dapat diakses; I meminta informasi yang terdapat di dalam Sistem Elektronik atau informasi yang dihasilkan oleh Sistem Elektronik kepada Penyelenggara Sistem Elektronik yang terkait dengan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik; J meminta bantuan ahli yang diperlukan dalam penyidikan terhadap tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-43/ayat-5/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "melakukan pemeriksaan terhadap Orang dan/atau Badan Usaha yang patut diduga melakukan tindak pidana berdasarkan Undang-Undang ini;",
+         "teks": "melakukan pemeriksaan terhadap Orang dan/ atau Badan Usaha yang patut diduga melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-43/ayat-5/huruf-e",
          "tipe": "huruf",
          "nomor": "e.",
-         "teks": "melakukan pemeriksaan terhadap alat dan/atau sarana yang berkaitan dengan kegiatan Teknologi Informasi yang diduga digunakan untuk melakukan tindak pidana berdasarkan Undang-Undang ini;",
+         "teks": "melakukan . . . T e melakukan pemeriksaan terhadap alat dan/ atau sarana yang berkaitan dengan kegiatan Teknologi Informasi yang diduga digunakan untuk melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
          "id": "pasal-43/ayat-5/huruf-f",
          "tipe": "huruf",
          "nomor": "f.",
-         "teks": "melakukan penggeledahan terhadap tempat tertentu yang diduga digunakan sebagai tempat untuk melakukan tindak pidana berdasarkan ketentuan Undang-Undang ini;",
+         "teks": "melakukan penggeledahan terhadap tempat tertentu yang diduga digunakan sebagai tempat untuk melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
-         "id": "pasal-43/ayat-5/huruf-g",
+         "id": "pasal-43/ayat-5/huruf-k",
          "tipe": "huruf",
-         "nomor": "g.",
-         "teks": "melakukan penyegelan dan penyitaan terhadap alat dan atau sarana kegiatan Teknologi Informasi yang diduga digunakan secara menyimpang dari ketentuan Peraturan Perundang-undangan;",
+         "nomor": "k.",
+         "teks": "mengadakan penghentian penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan hukum acara pidana; dan/ atau",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         },
         {
-         "id": "pasal-43/ayat-5/huruf-h",
+         "id": "pasal-43/ayat-5/huruf-l",
          "tipe": "huruf",
-         "nomor": "h.",
-         "teks": "meminta bantuan ahli yang diperlukan dalam penyidikan terhadap tindak pidana berdasarkan Undang-Undang ini; dan/atau",
+         "nomor": "l.",
+         "teks": "memerintahkan . . . REPITEUK INDONEISIA",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
-        },
-        {
-         "id": "pasal-43/ayat-5/huruf-i",
-         "tipe": "huruf",
-         "nomor": "i.",
-         "teks": "mengadakan penghentian penyidikan tindak pidana berdasarkan Undang-Undang ini sesuai dengan ketentuan hukum acara pidana yang berlaku.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-11",
-         "berlaku_mulai": "2008-04-21"
+         "anak": [
+          {
+           "id": "pasal-43/ayat-5/huruf-l/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan pemutusan Akses secara sementara terhadap akun media sosial, rekening bank, uang elektronik, dan/ atau aset digital.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-1",
+           "berlaku_mulai": "2024-01-02"
+          }
+         ],
+         "sumber": "uu-2024-1",
+         "berlaku_mulai": "2024-01-02"
         }
        ],
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-43/ayat-6",
        "tipe": "ayat",
        "nomor": "(6)",
-       "teks": "Dalam hal melakukan penangkapan dan penahanan, penyidik melalui penuntut umum wajib meminta penetapan ketua pengadilan negeri setempat dalam waktu satu kali dua puluh empat jam.",
+       "teks": "Penangkapan dan penahanan terhadap pelaku tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik dilakukan sesuai dengan ketentuan hukum acara pidana.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-43/ayat-7",
        "tipe": "ayat",
        "nomor": "(7)",
-       "teks": "Penyidik Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berkoordinasi dengan Penyidik Pejabat Polisi Negara Republik Indonesia memberitahukan dimulainya penyidikan dan menyampaikan hasilnya kepada penuntut umum.",
+       "teks": "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) dalam melaksanakan tugasnya memberitahukan dimulainya penyidikan kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
+      },
+      {
+       "id": "pasal-43/ayat-7a",
+       "tipe": "ayat",
+       "nomor": "(7a)",
+       "teks": "Dalam hal penyidikan sudah selesai, Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) menyampaikan hasil penyidikannya kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       },
       {
        "id": "pasal-43/ayat-8",
        "tipe": "ayat",
        "nomor": "(8)",
-       "teks": "Dalam rangka mengungkap tindak pidana Informasi Elektronik dan Transaksi Elektronik, penyidik dapat berkerja sama dengan penyidik negara lain untuk berbagi informasi dan alat bukti.",
+       "teks": "Dalam rangka mengungkap tindak pidana di bidang Teknologi Informasi dan TYansaksi Elektronik, penyidik dapat bekerja sama dengan penyidik negara lain untuk berbagi informasi dan alat bukti sesuai dengan ketentuan peraturan perundang-undangan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "sumber": "uu-2024-1",
+       "berlaku_mulai": "2024-01-02"
       }
      ],
-     "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2016-19/amandemen-uu-2008-11",
+       "pelaku": "uu-2016-19",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2016-11-25",
+       "sebelum": {
+        "id": "pasal-43",
+        "tipe": "pasal",
+        "nomor": "43",
+        "anak": [
+         {
+          "id": "pasal-43/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Selain Penyidik Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan Pemerintah yang lingkup tugas dan tanggung jawabnya di bidang Teknologi Informasi dan Transaksi Elektronik diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-Undang tentang Hukum Acara Pidana untuk melakukan penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-43/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Penyidikan di bidang Teknologi Informasi dan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) dilakukan dengan memperhatikan perlindungan terhadap privasi, kerahasiaan, kelancaran layanan publik, integritas data, atau keutuhan data sesuai dengan ketentuan Peraturan Perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-43/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Penggeledahan dan/atau penyitaan terhadap sistem elektronik yang terkait dengan dugaan tindak pidana harus dilakukan atas izin ketua pengadilan negeri setempat.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-43/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Dalam melakukan penggeledahan dan/atau penyitaan sebagaimana dimaksud pada ayat (3), penyidik wajib menjaga terpeliharanya kepentingan pelayanan umum.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-43/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Penyidik Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-43/ayat-5/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "menerima laporan atau pengaduan dari seseorang tentang adanya tindak pidana berdasarkan ketentuan Undang-Undang ini;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-43/ayat-5/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "memanggil setiap Orang atau pihak lainnya untuk didengar dan/atau diperiksa sebagai tersangka atau saksi sehubungan dengan adanya dugaan tindak pidana di bidang terkait dengan ketentuan Undang-Undang ini;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-43/ayat-5/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana berdasarkan ketentuan Undang-Undang ini;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-43/ayat-5/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "melakukan pemeriksaan terhadap Orang dan/atau Badan Usaha yang patut diduga melakukan tindak pidana berdasarkan Undang-Undang ini;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-43/ayat-5/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "melakukan pemeriksaan terhadap alat dan/atau sarana yang berkaitan dengan kegiatan Teknologi Informasi yang diduga digunakan untuk melakukan tindak pidana berdasarkan Undang-Undang ini;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-43/ayat-5/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "melakukan penggeledahan terhadap tempat tertentu yang diduga digunakan sebagai tempat untuk melakukan tindak pidana berdasarkan ketentuan Undang-Undang ini;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-43/ayat-5/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "melakukan penyegelan dan penyitaan terhadap alat dan atau sarana kegiatan Teknologi Informasi yang diduga digunakan secara menyimpang dari ketentuan Peraturan Perundang-undangan;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-43/ayat-5/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "meminta bantuan ahli yang diperlukan dalam penyidikan terhadap tindak pidana berdasarkan Undang-Undang ini; dan/atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           },
+           {
+            "id": "pasal-43/ayat-5/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "mengadakan penghentian penyidikan tindak pidana berdasarkan Undang-Undang ini sesuai dengan ketentuan hukum acara pidana yang berlaku.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-11",
+            "berlaku_mulai": "2008-04-21"
+           }
+          ],
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-43/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Dalam hal melakukan penangkapan dan penahanan, penyidik melalui penuntut umum wajib meminta penetapan ketua pengadilan negeri setempat dalam waktu satu kali dua puluh empat jam.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-43/ayat-7",
+          "tipe": "ayat",
+          "nomor": "(7)",
+          "teks": "Penyidik Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berkoordinasi dengan Penyidik Pejabat Polisi Negara Republik Indonesia memberitahukan dimulainya penyidikan dan menyampaikan hasilnya kepada penuntut umum.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         },
+         {
+          "id": "pasal-43/ayat-8",
+          "tipe": "ayat",
+          "nomor": "(8)",
+          "teks": "Dalam rangka mengungkap tindak pidana Informasi Elektronik dan Transaksi Elektronik, penyidik dapat berkerja sama dengan penyidik negara lain untuk berbagi informasi dan alat bukti.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-11",
+          "berlaku_mulai": "2008-04-21"
+         }
+        ],
+        "sumber": "uu-2008-11",
+        "berlaku_mulai": "2008-04-21"
+       },
+       "catatan": "Ketentuan ayat (2), ayat (3), ayat (5), ayat (6), ayat (71, dan ayat (8) Pasal 43 diubah; di antara ayat (7) dan ayat (8) Pasal 43 disisipkan 1 (satu) ayat, yakni ayat (7a); serta penjelasan ayat (1) Pasal 43 diubah sehingga pasal 43 berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2024-1/amandemen-uu-2008-11",
+       "pelaku": "uu-2024-1",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+       "tanggal": "2024-01-02",
+       "sebelum": {
+        "id": "pasal-43",
+        "tipe": "pasal",
+        "nomor": "43",
+        "anak": [
+         {
+          "id": "pasal-43/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Selain Penyidik Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipit tertentu di lingkungan Pemerintah yang lingkup tugas dan tanggung jawabnya di bidang Teknologi Informasi dan Transaksi Elektronik diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-Undang tentang Hukum Acara pidana untuk melakukan penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik. 12) Penyidikan di bidang Teknologi Informasi dan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) dilakukan dengan memperhatikan perlindungan terhadap privasi, kerahasiaan, kelancaran layanan publik, dan integritas atau keutuhan data sesuai dengan ketentuan peraturan perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-43/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Penggeledahan dan/ atau penyitaan terhadap Sistem Elektronik yang terkait dengan dugaan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik dilakukan sesuai dengan ketentuan hukum acara pidana.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-43/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Dalam melakukan penggeledahan dan/atau penyitaan sebagaimana dimaksud pada ayat (3), penyidik wajib menjaga terpeliharanya kepentingan pelayanan umum. (s) Penyidik Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-43/ayat-4/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "menerima laporan atau pengaduan dari seseorang tentang adanya tindak pidana di bidang. Teknologi Informasi dan Transaksi Elektronik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "memanggil setiap Orang atau pihak lainnya untuk didengar dan diperiksa sebagai tersangka atau saksi sehubungan dengan adanya dugaan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "melakukan pemeriksaan terhadap Orang dan/atau Badan Usaha yang patut diduga melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "melakukan pemeriksaan terhadap alat dan/atau sarana yang berkaitan dengan kegiatan Teknologi Informasi yang diduga digunakan untuk melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "melakukan penggeledahan terhadap tempat tertentu yang diduga digunakan sebagai tempat untuk melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "melakukan penyegelan dan penyitaan terhadap alat dan/atau sarana kegiatan Teknologi Informasi yang diduga digunakan secara menyimpang dari ketentuan peraturan perundang-undangan;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "membuat suatu data dan/atau Sistem Elektronik yang terkait tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik agar tidak dapat diakses;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "meminta informasi yang terdapat di dalam Sistem Elektronik atau informasi yang dihasilkan oleh Sistem Elektronik kepada Penyelenggara Sistem Elektronik yang terkait dengan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "meminta bantuan ahli yang diperlukan dalam penyidikan terhadap tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik; dan/atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           },
+           {
+            "id": "pasal-43/ayat-4/huruf-k",
+            "tipe": "huruf",
+            "nomor": "k.",
+            "teks": "mengadakan penghentian penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan hukum acara pidana.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2016-19",
+            "berlaku_mulai": "2016-11-25"
+           }
+          ],
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-43/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Penangkapan dan penahanan terhadap pelaku tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik dilakukan sesuai dengan ketentuan hukum acara pidana",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-43/ayat-7",
+          "tipe": "ayat",
+          "nomor": "(7)",
+          "teks": "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) dalam melaksanakan tugasnya memberitahukan dimulainya penyidikan kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-43/ayat-7a",
+          "tipe": "ayat",
+          "nomor": "(7a)",
+          "teks": "Dalam hal penyidikan sudah selesai, Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) menyampaikan hasil penyidikannya kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         },
+         {
+          "id": "pasal-43/ayat-8",
+          "tipe": "ayat",
+          "nomor": "(8)",
+          "teks": "Dalam rangka mengungkap tindak pidana Informasi Elektronik dan Transaksi Elektronik, penyidik dapat berkerja sama dengan penyidik negara lain untuk berbagi informasi dan alat bukti sesuai dengan ketentuan peraturan perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2016-19",
+          "berlaku_mulai": "2016-11-25"
+         }
+        ],
+        "sumber": "uu-2016-19",
+        "berlaku_mulai": "2016-11-25"
+       },
+       "catatan": "Ketentuan ayat (2), ayat (5), dan ayat (8) Pasal 43 diubah, ketentuan ayat (5) Pasal 43 ditambahkan 1 (satu) huruf, yakni huruf l, dan penjelasan ayat (5) huruf j Pasal 43 diubah sehingga Pasal 43 berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-1",
+     "berlaku_mulai": "2024-01-02"
     },
     {
      "id": "pasal-44",
@@ -2543,7 +4154,7 @@
           "tipe": "ayat",
           "nomor": "(1)",
           "teks": "Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan sebagaimana dimaksud dalam Pasal 27 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
-          "verifikasi": "pdf-ocr",
+          "verifikasi": "pdf-resmi",
           "sumber": "uu-2016-19",
           "berlaku_mulai": "2016-11-25"
          },
@@ -2591,7 +4202,15 @@
       }
      ],
      "sumber": "uu-2024-1",
-     "berlaku_mulai": "2024-01-02"
+     "berlaku_mulai": "2024-01-02",
+     "anotasi": [
+      {
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "tanggal": "2026-01-02",
+       "catatan": "Dirujuk pencabutan Pasal 622 ayat (1) huruf r KUHP (ayat (1) dan ayat (3) rumusan 2016); pasal ini telah diganti seluruhnya oleh UU 1/2024 dengan penomoran berbeda. Pasal 622 ayat (1) huruf r KUHP mencabut ketentuan ini dalam rumusan UU ITE ‘sebagaimana telah diubah dengan UU 19/2016’. Sebelum KUHP mulai berlaku (2 Januari 2026), UU 1/2024 telah mengubah/menata ulang ketentuan tersebut. Kedua undang-undang tidak menyatakan secara tegas lingkup pencabutan terhadap rumusan hasil perubahan 2024; CariHukum menampilkan keduanya apa adanya tanpa menafsirkan."
+      }
+     ]
     },
     {
      "id": "pasal-45a",
@@ -2673,7 +4292,15 @@
       }
      ],
      "sumber": "uu-2024-1",
-     "berlaku_mulai": "2024-01-02"
+     "berlaku_mulai": "2024-01-02",
+     "anotasi": [
+      {
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "tanggal": "2026-01-02",
+       "catatan": "Dirujuk pencabutan Pasal 622 ayat (1) huruf r KUHP (ayat (2) rumusan 2016); pasal ini telah diganti UU 1/2024. Pasal 622 ayat (1) huruf r KUHP mencabut ketentuan ini dalam rumusan UU ITE ‘sebagaimana telah diubah dengan UU 19/2016’. Sebelum KUHP mulai berlaku (2 Januari 2026), UU 1/2024 telah mengubah/menata ulang ketentuan tersebut. Kedua undang-undang tidak menyatakan secara tegas lingkup pencabutan terhadap rumusan hasil perubahan 2024; CariHukum menampilkan keduanya apa adanya tanpa menafsirkan."
+      }
+     ]
     },
     {
      "id": "pasal-45b",
@@ -2722,7 +4349,8 @@
        "teks": "Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 30 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp600.000.000,00 (enam ratus juta rupiah).",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "berlaku_mulai": "2008-04-21",
+       "status": "dicabut"
       },
       {
        "id": "pasal-46/ayat-2",
@@ -2731,7 +4359,8 @@
        "teks": "Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 30 ayat (2) dipidana dengan pidana penjara paling lama 7 (tujuh) tahun dan/atau denda paling banyak Rp700.000.000,00 (tujuh ratus juta rupiah).",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "berlaku_mulai": "2008-04-21",
+       "status": "dicabut"
       },
       {
        "id": "pasal-46/ayat-3",
@@ -2740,11 +4369,23 @@
        "teks": "Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 30 ayat (3) dipidana dengan pidana penjara paling lama 8 (delapan) tahun dan/atau denda paling banyak Rp800.000.000,00 (delapan ratus juta rupiah).",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "berlaku_mulai": "2008-04-21",
+       "status": "dicabut"
       }
      ],
      "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "berlaku_mulai": "2008-04-21",
+     "status": "dicabut",
+     "riwayat": [
+      {
+       "aksi": "dicabut",
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "judul_pelaku": "Kitab Undang-Undang Hukum Pidana",
+       "tanggal": "2026-01-02",
+       "catatan": "Pasal 622 ayat (1) huruf r UU 1/2023 (KUHP), berlaku 2 Januari 2026. (Ketentuan pidana atas Pasal 30.)"
+      }
+     ]
     },
     {
      "id": "pasal-47",
@@ -2753,7 +4394,18 @@
      "teks": "Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 31 ayat (1) atau ayat (2) dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp800.000.000,00 (delapan ratus juta rupiah).",
      "verifikasi": "pdf-resmi",
      "sumber": "uu-2008-11",
-     "berlaku_mulai": "2008-04-21"
+     "berlaku_mulai": "2008-04-21",
+     "status": "dicabut",
+     "riwayat": [
+      {
+       "aksi": "dicabut",
+       "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+       "pelaku": "uu-2023-1",
+       "judul_pelaku": "Kitab Undang-Undang Hukum Pidana",
+       "tanggal": "2026-01-02",
+       "catatan": "Pasal 622 ayat (1) huruf r UU 1/2023 (KUHP), berlaku 2 Januari 2026. (Ketentuan pidana atas Pasal 31 ayat (1) dan (2).)"
+      }
+     ]
     },
     {
      "id": "pasal-48",
@@ -2830,7 +4482,18 @@
        "teks": "Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 36 dipidana dengan pidana penjara paling lama 12 (dua belas) tahun dan/atau denda paling banyak Rp12.000.000.000,00 (dua belas miliar rupiah).",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-11",
-       "berlaku_mulai": "2008-04-21"
+       "berlaku_mulai": "2008-04-21",
+       "status": "dicabut",
+       "riwayat": [
+        {
+         "aksi": "dicabut",
+         "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
+         "pelaku": "uu-2023-1",
+         "judul_pelaku": "Kitab Undang-Undang Hukum Pidana",
+         "tanggal": "2026-01-02",
+         "catatan": "Pasal 622 ayat (1) huruf r UU 1/2023 (KUHP), berlaku 2 Januari 2026."
+        }
+       ]
       }
      ],
      "sumber": "uu-2008-11",
@@ -2954,9 +4617,9 @@
   "diakses": "2026-08-31"
  },
  "keandalan": {
-  "total": 222,
-  "pdf-resmi": 210,
-  "pdf-ocr": 12,
+  "total": 266,
+  "pdf-resmi": 249,
+  "pdf-ocr": 17,
   "draf": 0,
   "lainnya": 0
  },
