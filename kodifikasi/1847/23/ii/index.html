@@ -281,6 +281,7 @@ function konsolidasi(workId, asOf) {
   const tandai = (n, src, tgl) => { n.sumber = src; n.mulai = tgl; (n.anak||[]).forEach(a => tandai(a, src, tgl)); };
   pohon.forEach(u => tandai(u, workId, w.metadata.tanggal_berlaku));
   const pending = [];
+  let pjEfektif = null;
   for (const ev of w.peristiwa) {
     if (asOf && ev.tanggal_berlaku > asOf) continue;
     if (!ev.operasi.length) { pending.push(ev); continue; }
@@ -319,6 +320,8 @@ function konsolidasi(workId, asOf) {
       } else if (op.op === "anotasi") {
         const t = cari(pohon, op.unit);
         if (t) (t.node.anotasi ||= []).push({ pelaku: ev.pelaku, tanggal: ev.tanggal_berlaku, catatan: op.catatan });
+      } else if (op.op === "replace_penjelasan") {
+        (pjEfektif ||= {})[String(op.pasal).toLowerCase()] = { teks: op.teks, pelaku: ev.pelaku, tanggal: ev.tanggal_berlaku };
       }
     }
     // kejujuran per-pasal: tandai unit yang perubahannya BELUM dienkode
@@ -327,7 +330,7 @@ function konsolidasi(workId, asOf) {
       if (t) (t.node.belum_dienkode ||= []).push(ev.pelaku);
     }
   }
-  return { pohon, pending };
+  return { pohon, pending, pjEfektif };
 }
 
 // diff kata sederhana (LCS) untuk panel riwayat
@@ -527,8 +530,13 @@ function unitHTML(u) {
       })].join("");
       hist = `<div class="riwayat ${state.open[key] ? "open" : ""}">${semua}</div>`;
     }
-    const pjTeks = ((DATA[state.work].penjelasan || {}).pasal || {})[String(u.nomor).toLowerCase()];
-    const pj = pjTeks ? `<details class="pj"><summary>Penjelasan resmi Pasal ${esc(u.nomor)}</summary><div class="pj-isi">${esc(pjTeks)}</div><div class="pj-label">Penjelasan resmi naskah asli (TLN) — bagian tak terpisahkan dari undang-undang; bukan tafsir CariHukum.</div></details>` : "";
+    const kunciPj = String(u.nomor).toLowerCase().replace(/\s+/g, "");
+    const pjBaru = pjOverlay[kunciPj];
+    const pjTeks = pjBaru ? pjBaru.teks : ((DATA[state.work].penjelasan || {}).pasal || {})[String(u.nomor).toLowerCase()];
+    const pjLabel = pjBaru
+      ? `Penjelasan resmi sebagaimana diubah/ditetapkan <strong>${esc(DATA._nama[pjBaru.pelaku] || pjBaru.pelaku)}</strong> (berlaku ${fmtTgl(pjBaru.tanggal)}) — bagian tak terpisahkan dari undang-undang; bukan tafsir CariHukum.`
+      : "Penjelasan resmi naskah asli (TLN) — bagian tak terpisahkan dari undang-undang; bukan tafsir CariHukum.";
+    const pj = pjTeks ? `<details class="pj"><summary>Penjelasan resmi Pasal ${esc(u.nomor)}${pjBaru ? " (versi berlaku)" : ""}</summary><div class="pj-isi">${esc(pjTeks)}</div><div class="pj-label">${pjLabel}</div></details>` : "";
     return `<article class="pasal" id="p-${idAman(key)}"><div class="pasal-kepala"><span class="pasal-nomor"><a href="#p-${idAman(key)}">${u.nomor ? `Pasal ${esc(u.nomor)}` : "Ketentuan"}</a></span>${badgeUnit(u)}<span style="margin-left:auto;display:flex;gap:6px"><button class="histbtn" data-salin="${key}" title="Salin teks pasal + sitasi + tautan">Salin</button>${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</span></div>${anotasiHTML(u)}${body}${pj}${hist}</article>`;
   }
   return "";
@@ -552,6 +560,7 @@ function tocHTML(pohon) {
 }
 
 let pengamat = null;
+let pjOverlay = {};
 function pasangScrollspy() {
   if (pengamat) pengamat.disconnect();
   const tocLink = {};
@@ -661,7 +670,8 @@ function render() {
   document.getElementById("asof").innerHTML = terkini
     ? `Menampilkan <strong>versi berlaku terkini</strong> — hasil konsolidasi seluruh peristiwa.`
     : `Menampilkan teks sebagaimana berlaku pada <strong>${fmtTgl(state.asOf)}</strong>. Klik peristiwa terakhir untuk kembali ke versi terkini.`;
-  const { pohon, pending } = konsolidasi(state.work, state.asOf);
+  const { pohon, pending, pjEfektif } = konsolidasi(state.work, state.asOf);
+  pjOverlay = pjEfektif || {};
   kumpulkanPasal(pohon);
   siapkanIstilah();
   document.getElementById("pending").innerHTML = pending.map(ev =>
