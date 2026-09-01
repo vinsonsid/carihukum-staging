@@ -16,6 +16,12 @@
   h1 { font-size:1.25rem; margin:0 0 2px } .sub { color:var(--ink-2); font-size:.8rem; margin-bottom:16px }
   .notice { background:var(--amber-soft); border:1px solid var(--amber-line); border-radius:6px;
     padding:8px 12px; font-size:.78rem; margin-bottom:20px }
+  .fitur { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:12px; margin-bottom:16px }
+  .kartu-fitur { display:block; border:1px solid var(--accent); border-radius:8px; padding:14px 16px;
+    text-decoration:none; color:var(--ink); background:var(--accent-soft) }
+  .kartu-fitur:hover { box-shadow:0 2px 8px rgba(13,106,79,.15) }
+  .fitur-judul { font-weight:700; color:var(--accent); margin-bottom:4px }
+  .fitur-desc { font-size:.8rem; color:var(--ink-2) }
   .kelompok { margin-bottom:22px }
   .kelompok-judul { font:600 .78rem var(--sans); text-transform:uppercase; letter-spacing:.05em;
     color:var(--ink-2); margin:0 0 8px }
@@ -43,6 +49,16 @@
   <h1>Peraturan perundang-undangan</h1>
   <div class="sub">5 tersedia terstruktur · 17 terindeks — terkonsolidasi, dengan riwayat perubahan, dwibahasa. Staging.</div>
   <div class="notice">⚠ Situs percobaan (noindex). Teks bukan naskah resmi; untuk keperluan hukum selalu rujuk PDF Lembaran Negara.</div>
+  <div class="fitur">
+    <a class="kartu-fitur" href="/istilah/">
+      <div class="fitur-judul">📖 Glosarium Hukum</div>
+      <div class="fitur-desc">86 istilah yang definisinya ditetapkan undang-undang — lengkap dengan sitasi Pasal 1 sumbernya dan di mana istilah itu dipakai.</div>
+    </a>
+    <a class="kartu-fitur" href="/peta/">
+      <div class="fitur-judul">🕸 Peta Jejaring Hukum</div>
+      <div class="fitur-desc">Semua peraturan saling merujuk dan berakar pada UUD 1945 — jelajahi grafnya, klik simpul untuk membaca.</div>
+    </a>
+  </div>
   <input id="saring" type="search" placeholder="Cari di dalam teks pasal atau saring peraturan… (mis. pencemaran nama baik)" aria-label="Cari"
     style="width:100%;border:1px solid var(--line);border-radius:6px;padding:9px 12px;font:400 .88rem var(--sans);margin-bottom:12px;background:var(--surface);color:var(--ink)">
   <div id="hasil-cari"></div>

@@ -27,8 +27,9 @@
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px 64px; }
 
   header.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 14px 0; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
-  .wordmark { font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
+  .wordmark { display: inline-block; font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; color: var(--ink); text-decoration: none; }
   .wordmark .cari { color: var(--accent); }
+  a.wordmark:hover .cari { color: var(--accent-emph); }
   .tagline { color: var(--ink-2); font-size: .8rem; }
   .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface-2); }
   .lang button { border: 0; background: transparent; color: var(--ink-2); font: 500 .78rem var(--sans); padding: 5px 12px; cursor: pointer; }
@@ -184,8 +185,10 @@
 <div class="wrap">
   <header class="top">
     <div>
-      <div class="wordmark"><span class="cari">Cari</span>Hukum</div>
-      <div class="tagline">Versi berlaku, riwayat perubahan, dan terjemahan — bukan naskah resmi</div><nav style="font-size:.78rem;margin-top:2px"><a href="/" style="color:var(--accent);text-decoration:none">Beranda</a><span style="color:var(--ink-2)"> / PERPRES 33/2012</span></nav>
+      <a class="wordmark" href="/" title="Kembali ke Beranda"><span class="cari">Cari</span>Hukum</a>
+      <div class="tagline">Versi berlaku, riwayat perubahan, dan terjemahan — bukan naskah resmi</div><nav style="font-size:.78rem;margin-top:4px;display:flex;align-items:center;gap:8px">
+      <a href="/" style="display:inline-block;border:1px solid var(--line);border-radius:6px;padding:2px 10px;color:var(--accent);text-decoration:none;font-weight:600;background:var(--surface-2)">← Beranda</a>
+      <span style="color:var(--ink-2)">/ PERPRES 33/2012</span></nav>
     </div>
     <div style="display:flex;align-items:center;gap:14px">
       <div class="lang" role="group" aria-label="Ukuran huruf teks">
