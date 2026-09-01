@@ -124,6 +124,10 @@
   .buku-judul { font: 700 1.15rem var(--sans); color: var(--ink); letter-spacing: .01em; }
   .anotasi { background: #fff8e6; border: 1px solid #e6d9a8; border-radius: 6px; padding: 8px 12px; margin: 8px 0; font: 400 .82rem/1.55 var(--sans); color: #6b5518; }
   .anotasi strong { color: #574410; }
+  .buku-nav { margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px; }
+  .buku-pil { display: block; padding: 5px 10px; border: 1px solid var(--line); border-radius: 6px; font: 500 .8rem var(--sans); color: var(--accent); text-decoration: none; background: var(--surface); }
+  .buku-pil:hover { background: var(--surface-2); }
+  .buku-pil.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 700; }
   .bab-nomor { font: 600 .72rem var(--mono); color: var(--ink-2); text-transform: uppercase; letter-spacing: .05em; }
   .bab-judul { font: 600 1rem var(--sans); }
   .subbab { margin-top: 18px; }
@@ -282,18 +286,21 @@ function konsolidasi(workId, asOf) {
     for (const op of ev.operasi) {
       if (op.op === "replace") {
         const t = cari(pohon, op.unit);
+        if (!t) continue; // halaman parsial (per buku): unit ada di halaman lain
         const baru = clone(op.dengan);
         baru.riwayat = [...(t.node.riwayat||[]), { aksi: "diganti", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku, sebelum: snapshot(t.node) }];
         tandai(baru, ev.pelaku, ev.tanggal_berlaku);
         t.induk[t.idx] = baru;
       } else if (op.op === "insert_after" || op.op === "insert_bab_after") {
         const t = cari(pohon, op.acuan);
+        if (!t) continue;
         const baru = clone(op.unit);
         baru.riwayat = [{ aksi: "disisipkan", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku }];
         tandai(baru, ev.pelaku, ev.tanggal_berlaku);
         t.induk.splice(t.idx + 1, 0, baru);
       } else if (op.op === "repeal") {
         const t = cari(pohon, op.unit);
+        if (!t) continue;
         const cabut = (n) => { n.status = "dicabut"; (n.anak || []).forEach(cabut); };
         if (op.kaskade === false) t.node.status = "dicabut"; else cabut(t.node);
         (t.node.riwayat ||= []).push({ aksi: "dicabut", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku });
@@ -554,7 +561,20 @@ function pasangScrollspy() {
 
 function lompatKe(id) {
   const el = document.getElementById("p-" + idAman(id));
-  if (!el) return false;
+  if (!el) {
+    // kodifikasi terbagi per buku: pasal mungkin ada di halaman buku lain
+    const rute = DATA._bukuRute;
+    const m = /^pasal-(\d+)/.exec(id);
+    if (rute && m) {
+      const n = parseInt(m[1], 10);
+      const r = rute.find(x => n >= x.awal && n <= x.akhir);
+      if (r && !location.pathname.startsWith(r.jalur)) {
+        location.href = r.jalur + "#p-" + idAman(id);
+        return true;
+      }
+    }
+    return false;
+  }
   el.scrollIntoView({ block: "start" });
   el.classList.add("sorot");
   setTimeout(() => el.classList.remove("sorot"), 1600);
@@ -634,7 +654,11 @@ function render() {
   siapkanIstilah();
   document.getElementById("pending").innerHTML = pending.map(ev =>
     `<div class="pending">⚠ <strong>${esc(DATA._nama[ev.pelaku])}</strong> (${ev.tipe.replace(/-/g," ")}, berlaku ${fmtTgl(ev.tanggal_berlaku)}) sudah berlaku tetapi operasinya <strong>belum dienkode</strong> — teks di bawah belum mencerminkannya. ${esc(ev.catatan || "")}</div>`).join("");
-  document.getElementById("toc").innerHTML = tocHTML(pohon);
+  const navBuku = (DATA._bukuNav || []).map(b =>
+    `<a class="buku-pil ${b.aktif ? "on" : ""}" href="${b.jalur}" title="${esc(b.judul)}">${esc(b.label)}</a>`).join("");
+  document.getElementById("toc").innerHTML =
+    (navBuku ? `<div class="buku-nav"><div class="kepala" style="font:600 .72rem var(--sans);color:var(--ink-2);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px">Kitab ini — 4 buku</div>${navBuku}</div>` : "") +
+    tocHTML(pohon);
   document.getElementById("isi").innerHTML = pohon.map(u => unitHTML(u)).join("");
   pasangScrollspy();
 }
@@ -759,7 +783,23 @@ function sync() {
   render();
 }
 render();
-if (location.hash) { const el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
+function keAnchor() {
+  if (!location.hash) return;
+  const el = document.querySelector(location.hash);
+  if (el) {
+    el.scrollIntoView();
+    el.classList.add("sorot");
+    setTimeout(() => el.classList.remove("sorot"), 1600);
+  } else {
+    // halaman buku: anchor pasal milik buku lain -> alihkan lewat lompatKe
+    const m = /^#p-(pasal_[0-9a-z_]+)$/.exec(location.hash);
+    if (m) lompatKe(m[1].replace(/_/g, "-"));
+  }
+}
+keAnchor();
+// render halaman besar menggeser tata letak beberapa saat setelah scroll
+// pertama (font, sorot istilah) — ulangi sampai posisi stabil
+for (const jeda of [80, 350, 900]) setTimeout(keAnchor, jeda);
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script>
