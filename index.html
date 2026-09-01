@@ -40,10 +40,11 @@
   <h1>Peraturan perundang-undangan</h1>
   <div class="sub">2 tersedia terstruktur · 10 terindeks — terkonsolidasi, dengan riwayat perubahan, dwibahasa. Staging.</div>
   <div class="notice">⚠ Situs percobaan (noindex). Teks bukan naskah resmi; untuk keperluan hukum selalu rujuk PDF Lembaran Negara.</div>
-  <input id="saring" type="search" placeholder="Saring peraturan… (mis. ITE, 2011, konstitusi)" aria-label="Saring peraturan"
-    style="width:100%;border:1px solid var(--line);border-radius:6px;padding:8px 12px;font:400 .85rem var(--sans);margin-bottom:12px;background:var(--surface);color:var(--ink)">
+  <input id="saring" type="search" placeholder="Cari di dalam teks pasal atau saring peraturan… (mis. pencemaran nama baik)" aria-label="Cari"
+    style="width:100%;border:1px solid var(--line);border-radius:6px;padding:9px 12px;font:400 .88rem var(--sans);margin-bottom:12px;background:var(--surface);color:var(--ink)">
+  <div id="hasil-cari"></div>
   <div class="daftar" id="daftar"><div class="baris">
-    <div class="atas"><a class="nm" href="/uu/2008/11/">UU ITE 11/2008</a> <span class="badge hijau">irisan pilot</span></div>
+    <div class="atas"><a class="nm" href="/uu/2008/11/">UU ITE 11/2008</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Informasi dan Transaksi Elektronik</div>
     <div class="metabaris">Berlaku 2008-04-21 · status: diubah</div>
   </div>
@@ -93,7 +94,42 @@
     <div class="metabaris">Berlaku 2002-08-10 · status: berlaku</div>
   </div></div>
   <div id="kosong" style="display:none;color:var(--ink-2);font-size:.85rem;padding:16px 4px">Tidak ada yang cocok.</div>
+  <style>
+    .hasil { border:1px solid var(--line); border-radius:6px; margin-bottom:12px }
+    .hasil .kepala-hasil { background:var(--surface-2); border-bottom:1px solid var(--line); border-radius:6px 6px 0 0;
+      padding:6px 12px; font:600 .72rem var(--sans); text-transform:uppercase; letter-spacing:.04em; color:var(--ink-2) }
+    .hasil a.item { display:block; padding:9px 12px; text-decoration:none; color:var(--ink) }
+    .hasil a.item + a.item { border-top:1px solid var(--line) }
+    .hasil a.item:hover { background:var(--surface-2) }
+    .hasil .dimana { font-weight:600; font-size:.85rem; color:var(--accent) }
+    .hasil .cuplikan { color:var(--ink-2); font-size:.82rem; margin-top:2px }
+    .hasil mark { background:var(--amber-soft); color:var(--ink); border-radius:2px; padding:0 1px }
+  </style>
   <script>
+    var indeksCari = null, memuat = false;
+    function esk(s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+    function cuplikan(t, q) {
+      var i = t.toLowerCase().indexOf(q);
+      var awal = Math.max(0, i - 60), akhir = Math.min(t.length, i + q.length + 90);
+      var s = (awal > 0 ? "…" : "") + t.slice(awal, akhir) + (akhir < t.length ? "…" : "");
+      return esk(s).replace(new RegExp("(" + q.replace(/[.*+?^$()\[\]{}|\\]/g, "\\$&") + ")", "ig"), "<mark>$1</mark>");
+    }
+    function cariTeks(q) {
+      var wadah = document.getElementById("hasil-cari");
+      if (q.length < 3 || !indeksCari) { wadah.innerHTML = ""; return; }
+      var hasil = [];
+      for (var i = 0; i < indeksCari.length; i++) {
+        var e = indeksCari[i];
+        if ((e.n + " " + e.t).toLowerCase().indexOf(q) !== -1) hasil.push(e);
+        if (hasil.length >= 20) break;
+      }
+      wadah.innerHTML = !hasil.length ? "" :
+        '<div class="hasil"><div class="kepala-hasil">Hasil di dalam teks pasal (' + hasil.length + (hasil.length >= 20 ? "+" : "") + ')</div>' +
+        hasil.map(function (e) {
+          return '<a class="item" href="' + e.j + e.a + '"><span class="dimana">' + esk(e.b) + ' · ' + esk(e.n) +
+            '</span><div class="cuplikan">' + cuplikan(e.t, q) + "</div></a>";
+        }).join("") + "</div>";
+    }
     document.getElementById("saring").addEventListener("input", function () {
       var q = this.value.trim().toLowerCase(), ada = 0;
       document.querySelectorAll("#daftar .baris").forEach(function (b) {
@@ -101,6 +137,12 @@
         b.style.display = cocok ? "" : "none"; if (cocok) ada++;
       });
       document.getElementById("kosong").style.display = ada ? "none" : "block";
+      if (q.length >= 3 && !indeksCari && !memuat) {
+        memuat = true;
+        fetch("/api/cari.json").then(function (r) { return r.json(); })
+          .then(function (d) { indeksCari = d; cariTeks(q); })
+          .catch(function () {});
+      } else cariTeks(q);
     });
   </script>
   <footer>Data terbuka (CC0) · <a href="/api/index.json">API</a> · <a href="/akun/">Akun</a> · Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014).</footer>

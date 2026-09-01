@@ -101,6 +101,7 @@
   .badge.ubah { background: var(--gold-soft); color: var(--gold); border-color: var(--amber-line); }
   .badge.baru { background: var(--ins-soft); color: var(--ins); border-color: var(--ins); }
   .badge.cabut { background: var(--red-soft); color: var(--red); border-color: var(--red); }
+  .badge.tunda { background: var(--gold-soft); color: var(--gold); border-color: var(--amber-line); cursor: help; }
   .histbtn { margin-left: auto; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 500 .74rem var(--sans); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
   .histbtn:hover { background: var(--surface-2); border-color: var(--ink-2); }
 
@@ -216,6 +217,11 @@ function konsolidasi(workId, asOf) {
         (t.node.riwayat ||= []).push({ aksi: "dicabut", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku });
       }
     }
+    // kejujuran per-pasal: tandai unit yang perubahannya BELUM dienkode
+    for (const uid of ev.operasi_belum_dienkode || []) {
+      const t = cari(pohon, uid);
+      if (t) (t.node.belum_dienkode ||= []).push(ev.pelaku);
+    }
   }
   return { pohon, pending };
 }
@@ -275,7 +281,41 @@ function badgeUnit(u) {
     if (last.aksi === "disisipkan") b.push(`<span class="badge baru">Baru · ${esc(nmPelaku(last.pelaku))} (${last.tanggal.slice(0,4)})</span>`);
     else if (last.aksi === "diganti") b.push(`<span class="badge ubah">Diubah · ${esc(nmPelaku(last.pelaku))} (${last.tanggal.slice(0,4)})</span>`);
   }
+  for (const p of u.belum_dienkode || [])
+    b.push(`<span class="badge tunda" title="Peraturan tersebut mengubah unit ini, tetapi operasinya belum dienkode ke CariHukum — teks di sini mungkin bukan versi termutakhir.">⚠ perubahan ${esc(nmPelaku(p))} belum dienkode</span>`);
   return b.join(" ");
+}
+
+// --- salin kutipan (per pasal) ---
+function namaSitasi(meta) {
+  if (meta.jenis === "uud" ) return "UUD NRI 1945";
+  return `${(meta.jenis || "").toUpperCase()} ${meta.nomor}/${meta.tahun}`;
+}
+function teksPasalUtuh(u, indent = "") {
+  if (u.teks && !u.anak) return `${indent}${u.tipe === "pasal" ? "" : u.nomor + " "}${u.teks}`;
+  const kepala = u.teks ? [`${indent}${u.tipe === "pasal" ? "" : u.nomor + " "}${u.teks}`] : [];
+  return kepala.concat((u.anak || []).map(a => teksPasalUtuh(a, u.tipe === "pasal" ? "" : indent + "  "))).join("\n");
+}
+function salinPasal(key) {
+  const { pohon } = konsolidasi(state.work, state.asOf);
+  const t = cari(pohon, key);
+  if (!t) return;
+  const u = t.node;
+  const m = DATA[state.work].metadata;
+  const last = (u.riwayat || []).filter(x => x.aksi !== "dicabut").slice(-1)[0];
+  // DATA di halaman situs hanya memuat karya yang dibaca — pengubahnya cukup nama pendek
+  const namaPelaku = (id) => DATA[id]?.metadata ? namaSitasi(DATA[id].metadata) : (DATA._nama[id] || id);
+  const suffix = last
+    ? (last.aksi === "disisipkan" ? ` (disisipkan oleh ${namaPelaku(last.pelaku)})`
+                                  : ` (sebagaimana diubah dengan ${namaPelaku(last.pelaku)})`)
+    : "";
+  const url = location.href.split("#")[0] + "#p-" + idAman(key);
+  const kutipan = `Pasal ${u.nomor} ${namaSitasi(m)} tentang ${m.judul}${suffix}:\n\n` +
+    teksPasalUtuh(u) + `\n\nSumber: ${url} (CariHukum — bukan naskah resmi)`;
+  navigator.clipboard.writeText(kutipan).then(() => {
+    const btn = document.querySelector(`[data-salin="${key}"]`);
+    if (btn) { btn.textContent = "Tersalin ✓"; setTimeout(() => { btn.textContent = "Salin"; }, 1500); }
+  });
 }
 const nmPelaku = (id) => DATA._nama[id] || id;
 
@@ -326,7 +366,7 @@ function unitHTML(u) {
       })].join("");
       hist = `<div class="riwayat ${state.open[key] ? "open" : ""}">${semua}</div>`;
     }
-    return `<article class="pasal" id="p-${idAman(key)}"><div class="pasal-kepala"><span class="pasal-nomor"><a href="#p-${idAman(key)}">Pasal ${esc(u.nomor)}</a></span>${badgeUnit(u)}${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</div>${body}${hist}</article>`;
+    return `<article class="pasal" id="p-${idAman(key)}"><div class="pasal-kepala"><span class="pasal-nomor"><a href="#p-${idAman(key)}">Pasal ${esc(u.nomor)}</a></span>${badgeUnit(u)}<span style="margin-left:auto;display:flex;gap:6px"><button class="histbtn" data-salin="${key}" title="Salin teks pasal + sitasi + tautan">Salin</button>${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</span></div>${body}${hist}</article>`;
   }
   return "";
 }
@@ -408,6 +448,8 @@ document.addEventListener("click", (e) => {
   if (chip) { state.asOf = chip.dataset.asof; render(); return; }
   const riw = e.target.closest("[data-riw]");
   if (riw) { state.open[riw.dataset.riw] = !state.open[riw.dataset.riw]; render(); return; }
+  const salin = e.target.closest("[data-salin]");
+  if (salin) { salinPasal(salin.dataset.salin); return; }
   const ank = e.target.closest('a[href^="#p-"]');
   if (ank) {
     e.preventDefault();
