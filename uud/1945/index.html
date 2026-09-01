@@ -631,7 +631,10 @@ function tampilkanTip(d) {
   const m = DATA[state.work].metadata;
   tip.innerHTML = `<div class="tip-istilah">${esc(data.istilah)}</div>` +
     `<div class="tip-def">${esc(data.definisi)}</div>` +
-    `<a class="tip-sumber" href="#p-${idAman(pasalSumberIstilah)}">📖 Pasal 1 angka ${esc((data.nomor || "").replace(/\.$/, ""))} ${esc(namaSitasi(m))} — lihat sumbernya</a>`;
+    `<a class="tip-sumber" href="#p-${idAman(pasalSumberIstilah)}">📖 Pasal 1 angka ${esc((data.nomor || "").replace(/\.$/, ""))} ${esc(namaSitasi(m))} — lihat sumbernya</a>` +
+    (Object.keys(DATA._jalur || {}).length
+      ? ` <a class="tip-sumber" href="/istilah/#k-${data.istilah.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}">· Glosarium ↗</a>`
+      : "");
   tip.style.display = "block";
   const r = d.getBoundingClientRect(), tr = tip.getBoundingClientRect();
   let x = r.left + scrollX, y = r.bottom + scrollY + 6;
