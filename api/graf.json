@@ -4,7 +4,7 @@
    "id": "kuhperdata-1847",
    "nama": "KODIFIKASI 23/1847",
    "jenis": "kodifikasi",
-   "jalur": null
+   "jalur": "/kodifikasi/1847/23/"
   },
   {
    "id": "permenkumham-2019-8",
@@ -39,6 +39,12 @@
   {
    "id": "uu-1946-1",
    "nama": "UU 1/1946",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-1960-5",
+   "nama": "UU 5/1960",
    "jenis": "uu",
    "jalur": null
   },
@@ -173,9 +179,24 @@
    "tipe": "perubahan"
   },
   {
+   "dari": "uu-1960-5",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-1960-5",
+   "ke": "kuhperdata-1847",
+   "tipe": "pencabutan-sebagian"
+  },
+  {
    "dari": "uu-1974-1",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-1974-1",
+   "ke": "kuhperdata-1847",
+   "tipe": "pencabutan-sebagian"
   },
   {
    "dari": "uu-2004-30",
