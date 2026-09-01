@@ -1,0 +1,238 @@
+{
+ "nodes": [
+  {
+   "id": "permenkumham-2019-8",
+   "nama": "PERMENKUMHAM 8/2019",
+   "jenis": "permenkumham",
+   "jalur": null
+  },
+  {
+   "id": "perpres-2012-33",
+   "nama": "PERPRES 33/2012",
+   "jenis": "perpres",
+   "jalur": "/perpres/2012/33/"
+  },
+  {
+   "id": "perpres-2014-87",
+   "nama": "PERPRES 87/2014",
+   "jenis": "perpres",
+   "jalur": null
+  },
+  {
+   "id": "uu-2008-11",
+   "nama": "UU ITE 11/2008",
+   "jenis": "uu",
+   "jalur": "/uu/2008/11/"
+  },
+  {
+   "id": "uu-2009-43",
+   "nama": "UU 43/2009",
+   "jenis": "uu",
+   "jalur": "/uu/2009/43/"
+  },
+  {
+   "id": "uu-2011-12",
+   "nama": "UU 12/2011",
+   "jenis": "uu",
+   "jalur": "/uu/2011/12/"
+  },
+  {
+   "id": "uu-2016-19",
+   "nama": "UU 19/2016",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-2019-15",
+   "nama": "UU 15/2019",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-2022-13",
+   "nama": "UU 13/2022",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-2023-1",
+   "nama": "KUHP (UU 1/2023)",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-2024-1",
+   "nama": "UU 1/2024",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-2026-1",
+   "nama": "UU 1/2026",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uud-1945",
+   "nama": "UUD 1945",
+   "jenis": "uud",
+   "jalur": "/uud/1945/"
+  },
+  {
+   "id": "uud-1945-perubahan-1",
+   "nama": "Perubahan I",
+   "jenis": "perubahan-uud",
+   "jalur": null
+  },
+  {
+   "id": "uud-1945-perubahan-2",
+   "nama": "Perubahan II",
+   "jenis": "perubahan-uud",
+   "jalur": null
+  },
+  {
+   "id": "uud-1945-perubahan-3",
+   "nama": "Perubahan III",
+   "jenis": "perubahan-uud",
+   "jalur": null
+  },
+  {
+   "id": "uud-1945-perubahan-4",
+   "nama": "Perubahan IV",
+   "jenis": "perubahan-uud",
+   "jalur": null
+  }
+ ],
+ "edges": [
+  {
+   "dari": "perpres-2012-33",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2008-11",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2009-43",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2011-12",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2016-19",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2016-19",
+   "ke": "uu-2008-11",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uu-2019-15",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2019-15",
+   "ke": "uu-2011-12",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uu-2022-13",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2022-13",
+   "ke": "uu-2019-15",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2022-13",
+   "ke": "uu-2011-12",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uu-2023-1",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2023-1",
+   "ke": "uu-2008-11",
+   "tipe": "pencabutan-sebagian"
+  },
+  {
+   "dari": "uu-2024-1",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2024-1",
+   "ke": "uu-2008-11",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uu-2026-1",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2026-1",
+   "ke": "uu-2023-1",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2026-1",
+   "ke": "uu-2011-12",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uud-1945-perubahan-1",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uud-1945-perubahan-1",
+   "ke": "uud-1945",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uud-1945-perubahan-2",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uud-1945-perubahan-2",
+   "ke": "uud-1945",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uud-1945-perubahan-3",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uud-1945-perubahan-3",
+   "ke": "uud-1945",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uud-1945-perubahan-4",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uud-1945-perubahan-4",
+   "ke": "uud-1945",
+   "tipe": "perubahan"
+  }
+ ]
+}
