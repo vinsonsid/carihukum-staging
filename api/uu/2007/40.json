@@ -38,7 +38,7 @@
   ],
   "catatan_kurasi": "Porsi terbesar praktik notaris (akta pendirian & perubahan AD). Diubah UU Cipta Kerja (terakhir UU 6/2023) — peristiwa perubahan menyusul; sampai terenkode, halaman menampilkan peringatan jujur."
  },
- "dihasilkan": "2026-09-02T01:19:05.585Z",
+ "dihasilkan": "2026-09-02T02:17:41.328Z",
  "timeline": [
   {
    "tanggal": "2007-08-16",
@@ -55,15 +55,13 @@
    "tipe": "perubahan",
    "pelaku": "uu-2023-6",
    "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-   "jumlah_operasi": 0,
+   "jumlah_operasi": 14,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "belum-dienkode",
-   "catatan": "Pasal 109 UU Cipta Kerja mengubah UU 40/2007 (definisi PT mencakup badan hukum perorangan UMK; Pasal 153A-153J; perubahan 7, 32, dll.). Operasi dienkode dari salinan LN (scan) — sampai selesai, halaman PT menampilkan peringatan ini."
+   "status_kurasi": "terverifikasi",
+   "catatan": "Pasal 109 UU 6/2023 (Cipta Kerja) mengubah UU 40/2007: definisi Perseroan mencakup badan hukum perorangan UMK (Pasal 1), Pasal 7 & 32 diubah, Pasal 153 diganti, dan Pasal 153A-153J disisipkan (PT perorangan: pendirian dgn surat pernyataan, tanpa akta notaris, utk usaha mikro-kecil). Dienkode otomatis parser-perubahan dari salinan LN scan (id OCR 1538/1531 -> 153B/153I dikoreksi)."
   }
  ],
- "peringatan": [
-  "Peristiwa uu-2023-6/amandemen-uu-2007-40 (perubahan, berlaku 2023-03-31) belum dienkode — teks konsolidasi BELUM mencerminkan peristiwa ini. Pasal 109 UU Cipta Kerja mengubah UU 40/2007 (definisi PT mencakup badan hukum perorangan UMK; Pasal 153A-153J; perubahan 7, 32, dll.). Operasi dienkode dari salinan LN (scan) — sampai selesai, halaman PT menampilkan peringatan ini."
- ],
+ "peringatan": [],
  "pohon": [
   {
    "id": "bab-1",
@@ -80,10 +78,10 @@
        "id": "pasal-1/angka-1",
        "tipe": "angka",
        "nomor": "1.",
-       "teks": "Perseroan Terbatas, yang selanjutnya disebut Perseroan, adalah badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham dan memenuhi persyaratan yang ditetapkan dalam Undang-Undang ini serta peraturan pelaksanaannya.",
+       "teks": "Perseroan Terbatas, yong selanjutnya disebut Perseroan, adalah badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham atau badan hukum perorangan yang memenuhi kriteria usaha mikro dan kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai usaha mikro dan kecil.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-2",
@@ -91,8 +89,8 @@
        "nomor": "2.",
        "teks": "Organ Perseroan adalah Rapat Umum Pemegang Saham, Direksi, dan Dewan Komisaris.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-3",
@@ -100,35 +98,35 @@
        "nomor": "3.",
        "teks": "Tanggung Jawab Sosial dan Lingkungan adalah komitmen Perseroan untuk berperan serta dalam pembangunan ekonomi berkelanjutan guna meningkatkan kualitas kehidupan dan lingkungan yang bermanfaat, baik bagi Perseroan sendiri, komunitas setempat, maupun masyarakat pada umumnya.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-4",
        "tipe": "angka",
        "nomor": "4.",
-       "teks": "Rapat Umum Pemegang Saham, yang selanjutnya disebut RUPS, adalah Organ Perseroan yang mempunyai wewenang yang tidak diberikan kepada Direksi atau Dewan Komisaris dalam batas yang ditentukan dalam Undang-Undang ini dan/atau anggaran dasar.",
+       "teks": "Rapat Umum Pemegang Saham, yang selanjutnya disebut RUPS, adalah Organ Perseroan yang mempunyai wewenang yang tidak diberikan kepada Direksi atau Dewan Komisaris dalam batas yang ditentukan dalam Undang-Undang ini dan/ atau anggaran dasar.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-5",
        "tipe": "angka",
        "nomor": "5.",
-       "teks": "Direksi adalah Organ Perseroan yang berwenang dan bertanggung jawab penuh atas pengurusan Perseroan untuk kepentingan Perseroan, sesuai dengan maksud dan tujuan Perseroan serta mewakili Perseroan, baik di dalam maupun di luar pengadilan sesuai dengan ketentuan anggaran dasar.",
+       "teks": "Direksi adalah Organ Perseroan yang berwenang dan bertanggung jawab penuh atas pengurusan Perseroan untuk kepentingan Perseroan, sesuai dengan maksud dan tujuan Perseroan sdrta mewakili Perseroan, baik di dalam maupun di luar pengadilan sesuai dengan ketentuan anggaran dasar.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-6",
        "tipe": "angka",
        "nomor": "6.",
-       "teks": "Dewan Komisaris adalah Organ Perseroan yang bertugas melakukan pengawasan secara umum dan/atau khusus sesuai dengan anggaran dasar serta memberi nasihat kepada Direksi.",
+       "teks": "Dewan Komisaris adalah Organ Perseroan yang bertugas melakukan pengawasan secara umum dan/atau khusus s'esuai dengan anggaran dasar serta memberi nasihat kepada Direksi.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-7",
@@ -136,17 +134,17 @@
        "nomor": "7.",
        "teks": "Perseroan Terbuka adalah Perseroan Publik atau Perseroan yang melakukan penawaran umum saham, sesuai dengan ketentuan peraturan perundang-undangan di bidang pasar modal.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-8",
        "tipe": "angka",
        "nomor": "8.",
-       "teks": "Perseroan Publik adalah Perseroan yang memenuhi kriteria jumlah pemegang saham dan modal disetor sesuai dengan ketentuan peraturan perundang-undangan di bidang pasar modal.",
+       "teks": "Perseroan Publik adalah Perseroan yang memenuhi kriteria jumlah pemegang saham dan modal disetor sesuai dengan ketentuan peraturan perundang- undangan di bidang pasar modal.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-9",
@@ -154,35 +152,35 @@
        "nomor": "9.",
        "teks": "Penggabungan adalah perbuatan hukum yang dilakukan oleh satu Perseroan atau lebih untuk menggabungkan diri dengan Perseroan lain yang telah ada yang mengakibatkan aktiva dan pasiva dari Perseroan yang menggabungkan diri beralih karena hukum kepada Perseroan yang menerima penggabungan dan selanjutnya status badan hukum Perseroan yang menggabungkan diri berakhir karena hukum.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-10",
        "tipe": "angka",
        "nomor": "10.",
-       "teks": "Peleburan adalah perbuatan hukum yang dilakukan oleh dua Perseroan atau lebih untuk meleburkan diri dengan cara mendirikan satu Perseroan baru yang karena hukum memperoleh aktiva dan pasiva dari Perseroan yang meleburkan diri dan status badan hukum Perseroan yang meleburkan diri berakhir karena hukum.",
+       "teks": "Peleburan adalah perbuatan hukum yang dilakukan oleh dua Perseroan atau lebih untuk meleburkan diri dengan cara mendirikan satu Perseroan bar-u yang karena hukum memperoleh aktiva dan pasiva dari Perseroan yang meleburkan diri dan status badan hukum Perseroan yang meleburkan diri berakhir karena hukum.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-11",
        "tipe": "angka",
        "nomor": "11.",
-       "teks": "Pengambilalihan adalah perbuatan hukum yang dilakukan oleh badan hukum atau orang perseorangan untuk mengambil alih saham Perseroan yang mengakibatkan beralihnya pengendalian atas Perseroan tersebut.",
+       "teks": "Pengambilalihan -6t6- 1 1. Pengambilalihan adalah perbuatan hukum yang dilakukan oleh badan hukum atau orang perseorangan untuk mengambil alih saham Perseroan yang mengakibatkan beralihnya pengendalian atas Perseroan tersebut.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-12",
        "tipe": "angka",
        "nomor": "12.",
-       "teks": "Pemisahan adalah perbuatan hukum yang dilakukan oleh Perseroan untuk memisahkan usaha yang mengakibatkan seluruh aktiva dan pasiva Perseroan beralih karena hukum kepada dua Perseroan atau lebih atau sebagian aktiva dan pasiva Perseroan beralih karena hukum kepada satu Perseroan atau lebih.",
+       "teks": "Pemisahan adalah perbuatan hukum yang dilakukan oleh Perseroan untuk memisahkan usaha yang mengakibatkan seluruh aktiva dan pasiva Perseroan beralih karena hukum kepada 2 (dua) Perseroan atau lebih atau sebagian aktiva dan pasiva Perseroan beralih karena hukum kepada 1 (satu) Perseroan atau lebih.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-13",
@@ -190,8 +188,8 @@
        "nomor": "13.",
        "teks": "Surat Tercatat adalah surat yang dialamatkan kepada penerima dan dapat dibuktikan dengan tanda terima dari penerima yang ditandatangani dengan menyebutkan tanggal penerimaan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-14",
@@ -199,8 +197,8 @@
        "nomor": "14.",
        "teks": "Surat Kabar adalah surat kabar harian berbahasa Indonesia yang beredar secara nasional.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-15",
@@ -208,23 +206,188 @@
        "nomor": "15.",
        "teks": "Hari adalah hari kalender.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-1/angka-16",
        "tipe": "angka",
        "nomor": "16.",
-       "teks": "Menteri adalah menteri yang tugas dan tanggung jawabnya di bidang hukum dan hak asasi manusia.",
+       "teks": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "teks": "Dalam Undang-Undang ini yang dimaksud dengan:",
      "verifikasi": "pdf-resmi",
-     "sumber": "uu-2007-40",
-     "berlaku_mulai": "2007-08-16"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-1",
+        "tipe": "pasal",
+        "nomor": "1",
+        "anak": [
+         {
+          "id": "pasal-1/angka-1",
+          "tipe": "angka",
+          "nomor": "1.",
+          "teks": "Perseroan Terbatas, yang selanjutnya disebut Perseroan, adalah badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham dan memenuhi persyaratan yang ditetapkan dalam Undang-Undang ini serta peraturan pelaksanaannya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-2",
+          "tipe": "angka",
+          "nomor": "2.",
+          "teks": "Organ Perseroan adalah Rapat Umum Pemegang Saham, Direksi, dan Dewan Komisaris.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-3",
+          "tipe": "angka",
+          "nomor": "3.",
+          "teks": "Tanggung Jawab Sosial dan Lingkungan adalah komitmen Perseroan untuk berperan serta dalam pembangunan ekonomi berkelanjutan guna meningkatkan kualitas kehidupan dan lingkungan yang bermanfaat, baik bagi Perseroan sendiri, komunitas setempat, maupun masyarakat pada umumnya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-4",
+          "tipe": "angka",
+          "nomor": "4.",
+          "teks": "Rapat Umum Pemegang Saham, yang selanjutnya disebut RUPS, adalah Organ Perseroan yang mempunyai wewenang yang tidak diberikan kepada Direksi atau Dewan Komisaris dalam batas yang ditentukan dalam Undang-Undang ini dan/atau anggaran dasar.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-5",
+          "tipe": "angka",
+          "nomor": "5.",
+          "teks": "Direksi adalah Organ Perseroan yang berwenang dan bertanggung jawab penuh atas pengurusan Perseroan untuk kepentingan Perseroan, sesuai dengan maksud dan tujuan Perseroan serta mewakili Perseroan, baik di dalam maupun di luar pengadilan sesuai dengan ketentuan anggaran dasar.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-6",
+          "tipe": "angka",
+          "nomor": "6.",
+          "teks": "Dewan Komisaris adalah Organ Perseroan yang bertugas melakukan pengawasan secara umum dan/atau khusus sesuai dengan anggaran dasar serta memberi nasihat kepada Direksi.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-7",
+          "tipe": "angka",
+          "nomor": "7.",
+          "teks": "Perseroan Terbuka adalah Perseroan Publik atau Perseroan yang melakukan penawaran umum saham, sesuai dengan ketentuan peraturan perundang-undangan di bidang pasar modal.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-8",
+          "tipe": "angka",
+          "nomor": "8.",
+          "teks": "Perseroan Publik adalah Perseroan yang memenuhi kriteria jumlah pemegang saham dan modal disetor sesuai dengan ketentuan peraturan perundang-undangan di bidang pasar modal.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-9",
+          "tipe": "angka",
+          "nomor": "9.",
+          "teks": "Penggabungan adalah perbuatan hukum yang dilakukan oleh satu Perseroan atau lebih untuk menggabungkan diri dengan Perseroan lain yang telah ada yang mengakibatkan aktiva dan pasiva dari Perseroan yang menggabungkan diri beralih karena hukum kepada Perseroan yang menerima penggabungan dan selanjutnya status badan hukum Perseroan yang menggabungkan diri berakhir karena hukum.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-10",
+          "tipe": "angka",
+          "nomor": "10.",
+          "teks": "Peleburan adalah perbuatan hukum yang dilakukan oleh dua Perseroan atau lebih untuk meleburkan diri dengan cara mendirikan satu Perseroan baru yang karena hukum memperoleh aktiva dan pasiva dari Perseroan yang meleburkan diri dan status badan hukum Perseroan yang meleburkan diri berakhir karena hukum.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-11",
+          "tipe": "angka",
+          "nomor": "11.",
+          "teks": "Pengambilalihan adalah perbuatan hukum yang dilakukan oleh badan hukum atau orang perseorangan untuk mengambil alih saham Perseroan yang mengakibatkan beralihnya pengendalian atas Perseroan tersebut.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-12",
+          "tipe": "angka",
+          "nomor": "12.",
+          "teks": "Pemisahan adalah perbuatan hukum yang dilakukan oleh Perseroan untuk memisahkan usaha yang mengakibatkan seluruh aktiva dan pasiva Perseroan beralih karena hukum kepada dua Perseroan atau lebih atau sebagian aktiva dan pasiva Perseroan beralih karena hukum kepada satu Perseroan atau lebih.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-13",
+          "tipe": "angka",
+          "nomor": "13.",
+          "teks": "Surat Tercatat adalah surat yang dialamatkan kepada penerima dan dapat dibuktikan dengan tanda terima dari penerima yang ditandatangani dengan menyebutkan tanggal penerimaan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-14",
+          "tipe": "angka",
+          "nomor": "14.",
+          "teks": "Surat Kabar adalah surat kabar harian berbahasa Indonesia yang beredar secara nasional.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-15",
+          "tipe": "angka",
+          "nomor": "15.",
+          "teks": "Hari adalah hari kalender.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-1/angka-16",
+          "tipe": "angka",
+          "nomor": "16.",
+          "teks": "Menteri adalah menteri yang tugas dan tanggung jawabnya di bidang hukum dan hak asasi manusia.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         }
+        ],
+        "teks": "Dalam Undang-Undang ini yang dimaksud dengan:",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2007-40",
+        "berlaku_mulai": "2007-08-16"
+       },
+       "catatan": "Ketentuan Pasal 1 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-2",
@@ -381,8 +544,8 @@
          "nomor": "(1)",
          "teks": "Perseroan didirikan oleh 2 (dua) orang atau lebih dengan akta notaris yang dibuat dalam bahasa Indonesia.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-7/ayat-2",
@@ -390,8 +553,8 @@
          "nomor": "(2)",
          "teks": "Setiap pendiri Perseroan wajib mengambil bagian saham pada saat Perseroan didirikan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-7/ayat-3",
@@ -399,68 +562,257 @@
          "nomor": "(3)",
          "teks": "Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku dalam rangka Peleburan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-7/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Perseroan memperoleh status badan hukum pada tanggal diterbitkannya Keputusan Menteri mengenai pengesahan badan hukum Perseroan.",
+         "teks": "Perseroan memperoleh status badan hukum setelah didaftarkan kepada Menteri dan mendapatkan bukti pendaftaran.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-7/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Setelah Perseroan memperoleh status badan hukum dan pemegang saham menjadi kurang dari 2 (dua) orang, dalam jangka waktu paling lama 6 (enam) bulan terhitung sejak keadaan tersebut pemegang saham yang bersangkutan wajib mengalihkan sebagian sahamnya kepada orang lain atau Perseroan mengeluarkan saham baru kepada orang lain.",
+         "teks": "Setelah -6t7 - (5) Setelah Perseroan memperoleh status badan hukum dan pemegang saham menjadi kurang dari 2 (dua) orang, dalam jangka waktu paling lama 6 (enam) bulan terhitung sejak keadaan tersebut, pemegang saham yang bersangkutan wajib:",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "anak": [
+          {
+           "id": "pasal-7/ayat-5/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "mengalihkan sebagian sahamnya kepada orang lain; atau",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-7/ayat-5/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "Perseroan mengeluarkan saham baru kepada orang lain.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-7/ayat-6",
          "tipe": "ayat",
          "nomor": "(6)",
-         "teks": "Dalam . . . (6) Dalam hal jangka waktu sebagaimana dimaksud pada ayat (5) telah dilampaui, pemegang saham tetap kurang dari 2 (dua) orang, pemegang saham bertanggung jawab secara pribadi atas segala perikatan dan kerugian Perseroan, dan atas permohonan pihak yang berkepentingan, pengadilan negeri dapat membubarkan Perseroan tersebut.",
+         "teks": "Dalam hal jangka waktu sebagaimana dimaksud pada ayat (5) telah dilampaui, pemegang saham tetap kurang dari 2 (dua) orang:",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "anak": [
+          {
+           "id": "pasal-7/ayat-6/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "pemegang saham bertanggung jawab secara pribadi atas segala perikatan dan kerugian Perseroan; dan",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-7/ayat-6/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "atas permohonan pihak yang berkepentingan, pengadilan negeri dapat membubarkan Perseroan tersebut.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-7/ayat-7",
          "tipe": "ayat",
          "nomor": "(7)",
-         "teks": "Ketentuan yang mewajibkan Perseroan didirikan oleh 2 (dua) orang atau lebih sebagaimana dimaksud pada ayat (1), dan ketentuan pada ayat (5), serta ayat (6) tidak berlaku bagi :",
+         "teks": "Ketentuan yang mewajibkan Perseroan didirikan oleh 2 (dua) orang atau lebih sebagaimana dimaksud pada ayat (1), ayat (5), dan ayat (6) tidak berlaku bagi:",
          "verifikasi": "pdf-resmi",
          "anak": [
           {
            "id": "pasal-7/ayat-7/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "Persero yang seluruh sahamnya dimiliki oleh negara; atau",
+           "teks": "persero yang seluruh sahamnya dimiliki oleh negara;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2007-40",
-           "berlaku_mulai": "2007-08-16"
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-7/ayat-7/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
-           "teks": "Perseroan yang mengelola bursa efek, lembaga kliring dan penjaminan, lembaga penyimpanan dan penyelesaian, dan lembaga lain sebagaimana diatur dalam Undang-Undang tentang Pasar Modal.",
+           "teks": "badan usaha milik daerah;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2007-40",
-           "berlaku_mulai": "2007-08-16"
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-7/ayat-7/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "badan usaha milik desa;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-7/ayat-7/huruf-d",
+           "tipe": "huruf",
+           "nomor": "d.",
+           "teks": "Perseroan yang mengelola bursa efek, lembaga kliring dan penjaminan, lembaga penyimpanan dan penyelesaian, dan lembaga lain sesuai dengan ketentuan peraturan perundang-undangan di bidang pasar modal; atau",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-7/ayat-7/huruf-e",
+           "tipe": "huruf",
+           "nomor": "e.",
+           "teks": "Perseroan yang memenuhi kriteria untuk usaha mikro dan kecil.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-7/ayat-8",
+         "tipe": "ayat",
+         "nomor": "(8)",
+         "teks": "Usaha mikro dan kecil sebagaimana dimaksud pada ayat (71huruf e meranpakan usaha mikro dan kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai usaha mikro dan kecil.",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-7/ayat-8/angka-3",
+           "tipe": "angka",
+           "nomor": "3.",
+           "teks": "Ketentuan...",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-7",
+          "tipe": "pasal",
+          "nomor": "7",
+          "anak": [
+           {
+            "id": "pasal-7/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Perseroan didirikan oleh 2 (dua) orang atau lebih dengan akta notaris yang dibuat dalam bahasa Indonesia.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           },
+           {
+            "id": "pasal-7/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Setiap pendiri Perseroan wajib mengambil bagian saham pada saat Perseroan didirikan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           },
+           {
+            "id": "pasal-7/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku dalam rangka Peleburan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           },
+           {
+            "id": "pasal-7/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Perseroan memperoleh status badan hukum pada tanggal diterbitkannya Keputusan Menteri mengenai pengesahan badan hukum Perseroan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           },
+           {
+            "id": "pasal-7/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Setelah Perseroan memperoleh status badan hukum dan pemegang saham menjadi kurang dari 2 (dua) orang, dalam jangka waktu paling lama 6 (enam) bulan terhitung sejak keadaan tersebut pemegang saham yang bersangkutan wajib mengalihkan sebagian sahamnya kepada orang lain atau Perseroan mengeluarkan saham baru kepada orang lain.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           },
+           {
+            "id": "pasal-7/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Dalam . . . (6) Dalam hal jangka waktu sebagaimana dimaksud pada ayat (5) telah dilampaui, pemegang saham tetap kurang dari 2 (dua) orang, pemegang saham bertanggung jawab secara pribadi atas segala perikatan dan kerugian Perseroan, dan atas permohonan pihak yang berkepentingan, pengadilan negeri dapat membubarkan Perseroan tersebut.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           },
+           {
+            "id": "pasal-7/ayat-7",
+            "tipe": "ayat",
+            "nomor": "(7)",
+            "teks": "Ketentuan yang mewajibkan Perseroan didirikan oleh 2 (dua) orang atau lebih sebagaimana dimaksud pada ayat (1), dan ketentuan pada ayat (5), serta ayat (6) tidak berlaku bagi :",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-7/ayat-7/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Persero yang seluruh sahamnya dimiliki oleh negara; atau",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2007-40",
+              "berlaku_mulai": "2007-08-16"
+             },
+             {
+              "id": "pasal-7/ayat-7/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Perseroan yang mengelola bursa efek, lembaga kliring dan penjaminan, lembaga penyimpanan dan penyelesaian, dan lembaga lain sebagaimana diatur dalam Undang-Undang tentang Pasar Modal.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2007-40",
+              "berlaku_mulai": "2007-08-16"
+             }
+            ],
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           }
+          ],
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         "catatan": "Ketentuan Pasal 7 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-8",
@@ -1943,32 +2295,78 @@
          "id": "pasal-32/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Modal dasar Perseroan paling sedikit Rp 50.000.000,00 (lima puluh juta rupiah).",
+         "teks": "Perseroan wajib memiliki modal dasar Perseroan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-32/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Undang-Undang yang mengatur kegiatan usaha tertentu dapat menentukan jumlah minimum modal Perseroan yang lebih besar daripada ketentuan modal dasar sebagaimana dimaksud pada ayat (1).",
+         "teks": "Besaran modal dasar Perseroan sebagaimana dimaksud pada ayat (1) ditentukan berdasarkan keputusan pendiri Perseroan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-32/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Perubahan besarnya modal dasar sebagaimana dimaksud pada ayat (1), ditetapkan dengan Peraturan Pemerintah.",
+         "teks": "Ketentuan lebih lanjut mengenai modal dasar Perseroan diatur dalam Peraturan Pemerintah.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-40",
-         "berlaku_mulai": "2007-08-16"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-32",
+          "tipe": "pasal",
+          "nomor": "32",
+          "anak": [
+           {
+            "id": "pasal-32/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Modal dasar Perseroan paling sedikit Rp 50.000.000,00 (lima puluh juta rupiah).",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           },
+           {
+            "id": "pasal-32/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Undang-Undang yang mengatur kegiatan usaha tertentu dapat menentukan jumlah minimum modal Perseroan yang lebih besar daripada ketentuan modal dasar sebagaimana dimaksud pada ayat (1).",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           },
+           {
+            "id": "pasal-32/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Perubahan besarnya modal dasar sebagaimana dimaksud pada ayat (1), ditetapkan dengan Peraturan Pemerintah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-40",
+            "berlaku_mulai": "2007-08-16"
+           }
+          ],
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         "catatan": "Ketentuan Pasal 32 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-33",
@@ -8527,66 +8925,569 @@
      "id": "pasal-153",
      "tipe": "pasal",
      "nomor": "153",
-     "anak": [
+     "teks": "Ketentuan mengenai biaya Perseroan sebagai badan hukum diatur sesuai dengan ketentuan peraturan perundang-undangan di bidang penerimaan negara bukan pajak.",
+     "verifikasi": "pdf-resmi",
+     "riwayat": [
       {
-       "id": "pasal-153/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "memperoleh persetujuan pemakaian nama Perseroan;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
-      },
-      {
-       "id": "pasal-153/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "memperoleh keputusan pengesahan badan hukum Perseroan;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
-      },
-      {
-       "id": "pasal-153/huruf-c",
-       "tipe": "huruf",
-       "nomor": "c.",
-       "teks": "memperoleh keputusan persetujuan perubahan anggaran dasar;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
-      },
-      {
-       "id": "pasal-153/huruf-d",
-       "tipe": "huruf",
-       "nomor": "d.",
-       "teks": "memperoleh informasi tentang data Perseroan dalam daftar Perseroan;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
-      },
-      {
-       "id": "pasal-153/huruf-e",
-       "tipe": "huruf",
-       "nomor": "e.",
-       "teks": "pengumuman yang diwajibkan dalam Undang-Undang ini dalam Berita Negara Republik Indonesia dan Tambahan Berita Negara Republik Indonesia; dan",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
-      },
-      {
-       "id": "pasal-153/huruf-f",
-       "tipe": "huruf",
-       "nomor": "f.",
-       "teks": "memperoleh salinan Keputusan Menteri mengenai pengesahan badan hukum Perseroan atau persetujuan perubahan anggaran dasar Perseroan diatur dengan Peraturan Pemerintah.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-40",
-       "berlaku_mulai": "2007-08-16"
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-153",
+        "tipe": "pasal",
+        "nomor": "153",
+        "anak": [
+         {
+          "id": "pasal-153/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "memperoleh persetujuan pemakaian nama Perseroan;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-153/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "memperoleh keputusan pengesahan badan hukum Perseroan;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-153/huruf-c",
+          "tipe": "huruf",
+          "nomor": "c.",
+          "teks": "memperoleh keputusan persetujuan perubahan anggaran dasar;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-153/huruf-d",
+          "tipe": "huruf",
+          "nomor": "d.",
+          "teks": "memperoleh informasi tentang data Perseroan dalam daftar Perseroan;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-153/huruf-e",
+          "tipe": "huruf",
+          "nomor": "e.",
+          "teks": "pengumuman yang diwajibkan dalam Undang-Undang ini dalam Berita Negara Republik Indonesia dan Tambahan Berita Negara Republik Indonesia; dan",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         },
+         {
+          "id": "pasal-153/huruf-f",
+          "tipe": "huruf",
+          "nomor": "f.",
+          "teks": "memperoleh salinan Keputusan Menteri mengenai pengesahan badan hukum Perseroan atau persetujuan perubahan anggaran dasar Perseroan diatur dengan Peraturan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-40",
+          "berlaku_mulai": "2007-08-16"
+         }
+        ],
+        "teks": "Ketentuan mengenai biaya untuk:",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2007-40",
+        "berlaku_mulai": "2007-08-16"
+       },
+       "catatan": "Ketentuan Pasal 153 diubah sehingga berbunyi sebagai berikut:"
       }
      ],
-     "teks": "Ketentuan mengenai biaya untuk:",
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153a",
+     "tipe": "pasal",
+     "nomor": "153A",
+     "anak": [
+      {
+       "id": "pasal-153a/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Perseroan yang memenuhi kriteria usaha mikro dan kecil dapat didirikan oleh 1 (satu) orang.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153a/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Pendirian Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan surat pernyataan pendirian yang dibuat dalam bahasa Indonesia.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153a/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Ketentuan lebih lanjut mengenai pendirian Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153b",
+     "tipe": "pasal",
+     "nomor": "153B",
+     "anak": [
+      {
+       "id": "pasal-153b/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pernyataan pendirian sebagaimana dimaksud dalam Pasal 153A ayat (2) memuat maksud dan tujuan, kegiatan usaha, modal dasar, dan keterangan lain berkaitan dengan pendirian Perseroan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153b/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Pernyataan pendirian sebagaimana dimaksud pada ayat (1) didaftarkan secara elektronik kepada Menteri dengan mengisi format isian.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153b/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Ketentuan lebih lanjut mengenai materi pernyataan pendirian sebagaimana dimaksud pada ayat (1) dan format isian sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "teks": "REPUBUK INOONESIA -6t9- Pasal 153El",
      "verifikasi": "pdf-resmi",
-     "sumber": "uu-2007-40",
-     "berlaku_mulai": "2007-08-16"
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153c",
+     "tipe": "pasal",
+     "nomor": "153C",
+     "anak": [
+      {
+       "id": "pasal-153c/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Perubahan pernyataan pendirian Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud dalam Pasal 153A ditetapkan oleh RUPS dan diberitahukan secara elektronik kepada Menteri.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153c/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Ketentuan lebih lanjut mengenai materi dan format isian perubahan pernyataan pendirian sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153d",
+     "tipe": "pasal",
+     "nomor": "153D",
+     "anak": [
+      {
+       "id": "pasal-153d/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Direksi Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud dalam Pasal 153A menjalankan pengurusan Perseroan untuk usaha mikro dan kecil bagi kepentingan Perseroan sesuai dengan maksud dan tujuan Perseroan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153d/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Direksi berwenang menjalankan pengurusan sebagaimana dimaksud pada ayat (1) sesuai dengan kebijakan yang dianggap tepat, dalam batas yang ditentukan dalam Undang-Undang ini, dan/ atau pernyataan pendirian Perseroan. REPUBUK TNDONESIA",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153e",
+     "tipe": "pasal",
+     "nomor": "153E",
+     "anak": [
+      {
+       "id": "pasal-153e/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pemegang saham Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud dalam Pasal 153A merupakan orang perseorangan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153e/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Pendiri Perseroan hanya dapat mendirikan Perseroan untuk usaha mikro dan kecil sejumlah 1 (satu) Perseroan untuk usaha mikro dan kecil dalam jangka waktu 1 (satu) tahun.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153f",
+     "tipe": "pasal",
+     "nomor": "153F",
+     "anak": [
+      {
+       "id": "pasal-153f/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Direksi Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud dalam Pasal 153A harus membuat laporan keuangan dalam rangka mewujudkan tata kelola Perseroan yang baik.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153f/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Ketentuan lebih lanjut mengenai kewajiban membuat laporan keuangan diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153g",
+     "tipe": "pasal",
+     "nomor": "153G",
+     "anak": [
+      {
+       "id": "pasal-153g/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pembubaran Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud dalam Pasal 153A dilakukan oleh RUPS yang dituangkan dalam pernyataan pembubaran dan diberitahukan secara elektronik kepada Menteri.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153g/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Pembubaran Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud pada ayat (1) terjadi karena:",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-153g/ayat-2/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "berdasarkan keputusan RUPS;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-153g/ayat-2/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "jangka waktu berdirinya yang ditetapkan dalam pernyataan pendirian telah berakhir;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-153g/ayat-2/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "berdasarkan penetapan pengadilan;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-153g/ayat-2/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "dengan dicabutnya kepailitan berdasarkan putusan pengadilan niaga yang telah mempunyai kekuatan hukum tetap, harta pailit Perseroan tidak cukup untuk membayar biaya kepailitan; e.harta... -62t-",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-153g/ayat-2/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "harta pailit Perseroan yang telah dinyatakan pailit berada dalam keadaan insolvensi sebagaimana diatur dalam ketentuan Undang- Undang tentang Kepailitan dan Penundaan Kewajiban Pembayaran Utang; atau",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-153g/ayat-2/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "dicabutnya Perizinan Berusaha Perseroan sehingga mewajibkan Perseroan melakukan likuidasi sesuai dengan ketentuan peraturan perundang-undangan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153h",
+     "tipe": "pasal",
+     "nomor": "153H",
+     "anak": [
+      {
+       "id": "pasal-153h/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Dalam hal Perseroan untuk usaha mikro dan kecil sudah tidak memenuhi kriteria sebagaimana dimaksud dalam Pasal 153A ayat (1), Perseroan harus mengubah statusnya menjadi Perseroan sebagaimana dimaksud dalam ketentuan peraturan perundang-undangan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153h/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Ketentuan lebih lanjut mengenai pengubahan status Perseroan untuk usaha mikro dan kecil menjadi Perseroan sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153i",
+     "tipe": "pasal",
+     "nomor": "153I",
+     "anak": [
+      {
+       "id": "pasal-153i/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Perseroan untuk usaha mikro dan kecil diberikan keringanan biaya terkait pendirian badan hukum.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153i/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Ketentuan lebih lanjut mengenai keringanan biaya Perseroan untuk usaha mikro dan kecil sebagaimana dimaksud pada ayat (1) diatur sesuai dengan ketentuan peraturan perundang-undangan di bidang penerimaan negara bukan pajak.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
+    },
+    {
+     "id": "pasal-153j",
+     "tipe": "pasal",
+     "nomor": "153J",
+     "anak": [
+      {
+       "id": "pasal-153j/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pemegang saham Perseroan untuk usaha mikro dan kecil tidak bertanggung jawab secara pribadi atas perikatan yang dibuat atas nama Perseroan dan tidak bertanggung jawab atas kerugian Perseroan melebihi saham yang dimiliki.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-153j/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku apabila:",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-153j/ayat-2/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "persyaratan Perseroan sebagai badan hukum belum atau tidak terpenuhi;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-153j/ayat-2/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "pemegang saham yang bersangkutan, baik langsung maupun tidak langsung dengan iktikad burtrk memanfaatkan Perseroan untuk kepentingan pribadi;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-153j/ayat-2/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "pemegang saham yang bersangkutan terlibat dalam perbuatan melawan hukum yang dilakukan oleh Perseroan; atau",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-153j/ayat-2/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "pemegang saham yang bersangkutan, baik langsung maupun tidak langsung secara melawan hukum menggunakan kekayaan Perseroan, yang mengakibatkan kekayaan Perseroan menjadi tidak cukup untuk melunasi utang Perseroan. Bagian Keenam Undang-Undang Gangguan",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1538, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     }
    ],
    "sumber": "uu-2007-40",
@@ -8836,8 +9737,8 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 793,
-  "pdf-resmi": 793,
+  "total": 829,
+  "pdf-resmi": 829,
   "pdf-ocr": 0,
   "draf": 0,
   "lainnya": 0

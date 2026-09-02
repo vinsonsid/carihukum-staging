@@ -37,7 +37,7 @@
   ],
   "catatan_kurasi": "Akta jaminan fidusia wajib notariil (Pasal 5). Putusan MK 18/PUU-XVII/2019 (eksekusi) potensial menyusul sebagai anotasi."
  },
- "dihasilkan": "2026-09-02T01:19:05.573Z",
+ "dihasilkan": "2026-09-02T02:17:41.314Z",
  "timeline": [
   {
    "tanggal": "1999-09-30",
@@ -47,6 +47,17 @@
    "judul_pelaku": "Undang-Undang Nomor 42 Tahun 1999 tentang Jaminan Fidusia",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-01-06",
+   "peristiwa": "putusan-mk-18-2019/uji-materi-uu-1999-42",
+   "tipe": "putusan-mk",
+   "pelaku": "putusan-mk-18-2019",
+   "judul_pelaku": "Putusan Mahkamah Konstitusi Nomor 18/PUU-XVII/2019 (pengujian Pasal 15 UU 42/1999 tentang Jaminan Fidusia — eksekusi sertifikat jaminan fidusia)",
+   "jumlah_operasi": 3,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "terverifikasi",
+   "catatan": "Putusan MK final & mengikat sejak diucapkan; dienkode sebagai anotasi (pemaknaan konstitusional bersyarat)."
   }
  ],
  "peringatan": [],
@@ -656,7 +667,15 @@
          "teks": "Sertifikat Jaminan Fidusia sebagaimana dimaksud dalam ayat (1) mempunyai kekuatan eksekutorial yang sama dengan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-1999-42",
-         "berlaku_mulai": "1999-09-30"
+         "berlaku_mulai": "1999-09-30",
+         "anotasi": [
+          {
+           "peristiwa": "putusan-mk-18-2019/uji-materi-uu-1999-42",
+           "pelaku": "putusan-mk-18-2019",
+           "tanggal": "2020-01-06",
+           "catatan": "Amar Putusan MK 18/PUU-XVII/2019 (diucapkan 6 Januari 2020): frasa “kekuatan eksekutorial” dan “sama dengan putusan pengadilan yang berkekuatan hukum tetap” dalam Pasal 15 ayat (2) — serta frasa “kekuatan eksekutorial” dalam Penjelasannya — bertentangan dengan UUD 1945 dan tidak mengikat sepanjang tidak dimaknai: “terhadap jaminan fidusia yang tidak ada kesepakatan tentang cidera janji (wanprestasi) dan debitur keberatan menyerahkan secara sukarela objek yang menjadi jaminan fidusia, maka segala mekanisme dan prosedur hukum dalam pelaksanaan eksekusi Sertifikat Jaminan Fidusia harus dilakukan dan berlaku sama dengan pelaksanaan eksekusi putusan pengadilan yang telah berkekuatan hukum tetap”. Teks pasal di atas adalah rumusan asli; pembacaannya wajib mengikuti pemaknaan MK ini."
+          }
+         ]
         },
         {
          "id": "pasal-15/ayat-3",
@@ -665,11 +684,27 @@
          "teks": "Apabila debitor cidera janji, Penerima Fidusia mempunyai hak untuk menjual Benda yang menjadi objek Jaminan Fidusia atas kekuasaannya sendiri.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-1999-42",
-         "berlaku_mulai": "1999-09-30"
+         "berlaku_mulai": "1999-09-30",
+         "anotasi": [
+          {
+           "peristiwa": "putusan-mk-18-2019/uji-materi-uu-1999-42",
+           "pelaku": "putusan-mk-18-2019",
+           "tanggal": "2020-01-06",
+           "catatan": "Amar Putusan MK 18/PUU-XVII/2019 (diucapkan 6 Januari 2020): frasa “cidera janji” dalam Pasal 15 ayat (3) bertentangan dengan UUD 1945 dan tidak mengikat sepanjang tidak dimaknai bahwa “adanya cidera janji tidak ditentukan secara sepihak oleh kreditur melainkan atas dasar kesepakatan antara kreditur dengan debitur atau atas dasar upaya hukum yang menentukan telah terjadinya cidera janji”. Teks pasal di atas adalah rumusan asli; pembacaannya wajib mengikuti pemaknaan MK ini."
+          }
+         ]
         }
        ],
        "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
+       "berlaku_mulai": "1999-09-30",
+       "anotasi": [
+        {
+         "peristiwa": "putusan-mk-18-2019/uji-materi-uu-1999-42",
+         "pelaku": "putusan-mk-18-2019",
+         "tanggal": "2020-01-06",
+         "catatan": "Sejak Putusan MK 18/PUU-XVII/2019, eksekusi sertifikat jaminan fidusia tidak lagi serta-merta (parate executie) bila tidak ada kesepakatan cidera janji dan debitur keberatan menyerahkan objek — lihat pemaknaan per ayat."
+        }
+       ]
       },
       {
        "id": "pasal-16",

@@ -1,334 +1,647 @@
-<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Peta Jejaring Hukum — CariHukum</title>
+<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Peta Hierarki &amp; Jejaring Hukum — CariHukum</title>
 <style>
   :root { --ground:#fff; --surface:#fff; --surface-2:#f6f8fa; --ink:#1f2328; --ink-2:#59636e;
     --line:#d0d7de; --accent:#0d6a4f; --accent-soft:#e6f4ec;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif; }
   * { box-sizing:border-box } body { margin:0; background:var(--ground); color:var(--ink); font-family:var(--sans); font-size:15px; line-height:1.55 }
-  .wrap { max-width:1100px; margin:0 auto; padding:0 24px 64px }
+  .wrap { max-width:1280px; margin:0 auto; padding:0 24px 64px }
   header.top { display:flex; align-items:center; justify-content:space-between; padding:14px 0; border-bottom:1px solid var(--line); margin-bottom:20px }
   .wordmark { font-weight:700; font-size:1.05rem; color:var(--ink); text-decoration:none } .wordmark .cari { color:var(--accent) }
-  h1 { font-size:1.35rem; margin:14px 0 6px } .sub { color:var(--ink-2); font-size:.85rem; max-width:75ch }
-  .legend { display:flex; gap:18px; flex-wrap:wrap; font-size:.78rem; color:var(--ink-2); margin:14px 0 }
-  .legend span::before { content:"—— "; font-weight:700 }
-  .l-hijau::before { color:var(--accent) } .l-emas::before { color:#b08a00 } .l-merah::before { color:#cf222e }
-  .kanvas { border:1px solid var(--line); border-radius:8px; overflow-x:auto; background:var(--surface) }
-  svg text { font-family:var(--sans) } svg a { cursor:pointer }
-  svg a:hover rect { stroke-width:2.5 }
-  .catatan { font-size:.8rem; color:var(--ink-2); margin-top:14px; max-width:75ch }
+  h1 { font-size:1.35rem; margin:14px 0 6px } .sub { color:var(--ink-2); font-size:.85rem; max-width:82ch }
+  .legend { display:flex; gap:16px; flex-wrap:wrap; font-size:.76rem; color:var(--ink-2); margin:14px 0; align-items:center }
+  .lg { display:inline-flex; align-items:center; gap:6px }
+  .sw { width:22px; height:0; border-top:2.5px solid; display:inline-block }
+  .sw.putus { border-top-style:dashed }
+  .chipL { display:inline-block; border-radius:6px; padding:1px 8px; font-size:.72rem; border:1.4px solid }
+  .kanvas { border:1px solid var(--line); border-radius:10px; overflow-x:auto; background:var(--surface) }
+  svg text { font-family:var(--sans); pointer-events:none } svg a { cursor:pointer }
+  .edge { opacity:.13; transition:opacity .15s }
+  svg.fokus .edge { opacity:.05 }
+  svg.fokus .edge.nyala { opacity:1; stroke-width:2.2 }
+  svg.fokus .node { opacity:.35 }
+  svg.fokus .node.nyala { opacity:1 }
+  .node { transition:opacity .15s }
+  .catatan { font-size:.8rem; color:var(--ink-2); margin-top:14px; max-width:82ch }
   a { color:var(--accent) }
 </style>
 <div class="wrap">
   <header class="top"><a class="wordmark" href="/"><span class="cari">Cari</span>Hukum</a>
     <a href="/" style="font-size:.8rem;text-decoration:none">← Beranda</a></header>
-  <h1>Peta Jejaring Hukum</h1>
-  <div class="sub">Hukum adalah jejaring dokumen yang saling merujuk — dan semuanya berakar pada satu
-  norma dasar. Setiap peraturan menautkan dirinya ke norma di atasnya lewat konsideran
-  <em>"Mengingat"</em> (teori jenjang norma / <em>Stufenbau</em> Hans Kelsen; di Indonesia akarnya
-  <strong>UUD 1945</strong>). Dari 44 karya di korpus ini, <strong>31 karya menunjuk
-  langsung ke UUD 1945</strong>. Klik simpul untuk membaca peraturannya.</div>
+  <h1>Peta Hierarki &amp; Jejaring Hukum</h1>
+  <div class="sub">Tata hukum Indonesia berjenjang — setiap peraturan menautkan keabsahannya ke norma
+  di atasnya lewat konsideran <em>"Mengingat"</em> (teori jenjang norma <em>Stufenbau</em>
+  Kelsen–Merkl; hierarki resmi: Pasal 7–8 UU 12/2011). Pita di bawah menyusun 45 karya
+  korpus per jenjang; <strong>32 karya menunjuk langsung ke UUD 1945</strong>.
+  <strong>Arahkan kursor</strong> ke sebuah peraturan untuk menyorot jejaringnya; klik untuk membaca
+  (17 karya sudah berteks lengkap).</div>
   <div class="legend">
-    <span class="l-hijau">dasar hukum ("Mengingat") — sumber keabsahan</span>
-    <span class="l-emas">mengubah</span>
-    <span class="l-merah">mencabut (sebagian)</span>
+    <span class="lg"><span class="sw" style="border-color:var(--accent)"></span> dasar hukum ("Mengingat")</span>
+    <span class="lg"><span class="sw putus" style="border-color:#b08a00"></span> mengubah</span>
+    <span class="lg"><span class="sw putus" style="border-color:#cf222e"></span> mencabut (sebagian)</span>
+    <span class="lg"><span class="sw putus" style="border-color:#8250df"></span> putusan MK (uji materi)</span>
+    <span class="lg"><span class="chipL" style="border-color:var(--accent);background:var(--accent-soft);color:var(--accent)">teks lengkap</span></span>
+    <span class="lg"><span class="chipL" style="border-color:#8250df;background:#f6f0ff;color:#8250df">kodifikasi</span></span>
+    <span class="lg"><span class="chipL" style="border-color:var(--line);border-style:dashed;color:var(--ink-2)">baru metadata</span></span>
   </div>
-  <div class="kanvas"><svg viewBox="0 0 1240 670" width="1240" height="670" role="img" aria-label="Graf jejaring peraturan berakar UUD 1945">
-    <defs>
-      <marker id="panah-hijau" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent)"/></marker>
-      <marker id="panah-emas" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b08a00"/></marker>
-      <marker id="panah-merah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cf222e"/></marker>
-    </defs>
-    <path d="M 177.14285714285714 570 C 139.01863354037266 460, 469.4285714285714 460, 431.30434782608694 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 531.4285714285714 570 C 546.4472049689441 460, 416.2857142857143 460, 431.30434782608694 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 885.7142857142857 570 C 953.8757763975154 460, 363.1428571428571 460, 431.30434782608694 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 1062.857142857143 570 C 1157.5900621118012 460, 336.57142857142856 460, 431.30434782608694 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 413.3333333333333 440 C 382.3333333333333 265, 651 265, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 107.82608695652173 310 C 31 200, 696.8260869565217 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 161.7391304347826 310 C 92.99999999999999 200, 688.7391304347826 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 215.65217391304347 310 C 155 200, 680.6521739130435 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 215.65217391304347 310 C 231.82608695652172 330, 91.65217391304347 330, 107.82608695652173 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 269.5652173913043 310 C 216.99999999999997 200, 672.5652173913044 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 323.4782608695652 310 C 279 200, 664.4782608695652 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 377.39130434782606 310 C 341 200, 656.3913043478261 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 377.39130434782606 310 C 385.4782608695652 330, 315.39130434782606 330, 323.4782608695652 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 431.30434782608694 310 C 403 200, 648.304347826087 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 485.2173913043478 310 C 465 200, 640.2173913043479 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 539.1304347826086 310 C 526.9999999999999 200, 632.1304347826087 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 593.0434782608695 310 C 588.9999999999999 200, 624.0434782608696 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 646.9565217391304 310 C 650.9999999999999 200, 615.9565217391305 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 700.8695652173913 310 C 713 200, 607.8695652173913 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 754.7826086956521 310 C 775 200, 599.7826086956521 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 754.7826086956521 310 C 803.3043478260869 330, 382.7826086956522 330, 431.30434782608694 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 754.7826086956521 310 C 803.3043478260869 330, 382.7826086956522 330, 431.30434782608694 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 808.695652173913 310 C 837 200, 591.695652173913 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 808.695652173913 310 C 849.1304347826086 330, 498.695652173913 330, 539.1304347826086 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 862.6086956521739 310 C 899 200, 583.6086956521739 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 862.6086956521739 310 C 886.8695652173913 330, 676.6086956521739 330, 700.8695652173913 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 916.5217391304348 310 C 961 200, 575.5217391304348 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 916.5217391304348 310 C 1029.7391304347825 330, 48.52173913043478 330, 161.7391304347826 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 916.5217391304348 310 C 1029.7391304347825 330, 48.52173913043478 330, 161.7391304347826 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 970.4347826086956 310 C 1023 200, 567.4347826086956 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 970.4347826086956 310 C 986.6086956521739 330, 846.4347826086956 330, 862.6086956521739 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 970.4347826086956 310 C 1010.8695652173913 330, 660.4347826086956 330, 700.8695652173913 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 1024.3478260869565 310 C 1085 200, 559.3478260869565 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 1024.3478260869565 310 C 1097.1304347826087 330, 466.34782608695645 330, 539.1304347826086 350"
-      fill="none" stroke="#cf222e" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-merah)"/>
-<path d="M 1078.2608695652173 310 C 1146.9999999999998 200, 551.2608695652174 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 1078.2608695652173 310 C 1167.2173913043478 330, 396.2608695652174 330, 485.2173913043478 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 1132.1739130434783 310 C 1209 200, 543.1739130434783 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 1132.1739130434783 310 C 1221.1304347826087 330, 450.1739130434782 330, 539.1304347826086 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 1186.086956521739 310 C 1270.9999999999998 200, 535.0869565217391 200, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 1186.086956521739 310 C 1210.3478260869565 330, 1000.0869565217391 330, 1024.3478260869565 350"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 1186.086956521739 310 C 1258.8695652173913 330, 628.0869565217391 330, 700.8695652173913 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 1186.086956521739 310 C 1210.3478260869565 330, 1000.0869565217391 330, 1024.3478260869565 350"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 248 180 C 192.2 135, 675.8 135, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 248 180 C 192.2 135, 675.8 135, 620 90"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 496 180 C 477.4 135, 638.6 135, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 496 180 C 477.4 135, 638.6 135, 620 90"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 744 180 C 762.6 135, 601.4 135, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 744 180 C 762.6 135, 601.4 135, 620 90"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-<path d="M 992 180 C 1047.8 135, 564.2 135, 620 90"
-      fill="none" stroke="var(--accent)" stroke-width="1.6"
-       opacity="0.55" marker-end="url(#panah-hijau)"/>
-<path d="M 992 180 C 1047.8 135, 564.2 135, 620 90"
-      fill="none" stroke="#b08a00" stroke-width="1.4"
-      stroke-dasharray="5 4" opacity="0.8" marker-end="url(#panah-emas)"/>
-    <a href="/uud/1945/"><rect x="566" y="50" width="108" height="40" rx="7"
-        fill="var(--accent)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="620" y="74" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="#fff">UUD 1945</text></a>
-<rect x="194" y="180" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="248" y="204" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">Perubahan I</text>
-<rect x="442" y="180" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="496" y="204" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">Perubahan II</text>
-<rect x="690" y="180" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="744" y="204" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">Perubahan III</text>
-<rect x="938" y="180" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="992" y="204" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">Perubahan IV</text>
-<rect x="-0.0869565217391326" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="53.91304347826087" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 1/1946</text>
-<a href="/uu/1960/5/"><rect x="53.826086956521735" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="107.82608695652173" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 5/1960</text></a>
-<a href="/uu/1974/1/"><rect x="107.7391304347826" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="161.7391304347826" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 1/1974</text></a>
-<a href="/uu/1996/4/"><rect x="161.65217391304347" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="215.65217391304347" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 4/1996</text></a>
-<a href="/uu/1999/42/"><rect x="215.56521739130432" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="269.5652173913043" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 42/1999</text></a>
-<a href="/uu/2001/16/"><rect x="269.4782608695652" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="323.4782608695652" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 16/2001</text></a>
-<rect x="323.39130434782606" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="377.39130434782606" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 28/2004</text>
-<a href="/uu/2004/30/"><rect x="377.30434782608694" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="431.30434782608694" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 30/2004</text></a>
-<a href="/uu/2007/40/"><rect x="431.2173913043478" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="485.2173913043478" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 40/2007</text></a>
-<a href="/uu/2008/11/"><rect x="485.13043478260863" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="539.1304347826086" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU ITE 11/2008</text></a>
-<a href="/uu/2009/43/"><rect x="539.0434782608695" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="593.0434782608695" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 43/2009</text></a>
-<rect x="592.9565217391304" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="646.9565217391304" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 8/2010</text>
-<a href="/uu/2011/12/"><rect x="646.8695652173913" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="700.8695652173913" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">UU 12/2011</text></a>
-<rect x="700.7826086956521" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="754.7826086956521" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 2/2014</text>
-<rect x="754.695652173913" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="808.695652173913" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 19/2016</text>
-<rect x="808.6086956521739" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="862.6086956521739" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 15/2019</text>
-<rect x="862.5217391304348" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="916.5217391304348" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 16/2019</text>
-<rect x="916.4347826086956" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="970.4347826086956" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 13/2022</text>
-<a href="/uu/2023/1/"><rect x="970.3478260869565" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="1024.3478260869565" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">KUHP (UU 1/2023)</text></a>
-<rect x="1024.2608695652173" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="1078.2608695652173" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 6/2023</text>
-<rect x="1078.1739130434783" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="1132.1739130434783" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 1/2024</text>
-<rect x="1132.086956521739" y="310" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="1186.086956521739" y="334" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">UU 1/2026</text>
-<a href="/perpres/2012/33/"><rect x="359.3333333333333" y="440" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="413.3333333333333" y="464" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">PERPRES 33/2012</text></a>
-<rect x="772.6666666666666" y="440" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="826.6666666666666" y="464" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">PERPRES 87/2014</text>
-<rect x="123.14285714285714" y="570" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="177.14285714285714" y="594" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">PERMENKUMHAM 61/2016</text>
-<rect x="300.2857142857143" y="570" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="354.2857142857143" y="594" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">PERMENKUMHAM 9/2017</text>
-<a href="/permenkumham/2019/19/"><rect x="477.42857142857144" y="570" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--accent)" stroke-width="1.2"/>
-      <text x="531.4285714285714" y="594" text-anchor="middle" font-size="11.5"
-        font-weight="600" fill="var(--accent)">PERMENKUMHAM 19/2019</text></a>
-<rect x="654.5714285714286" y="570" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="708.5714285714286" y="594" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">PERMENKUMHAM 8/2019</text>
-<rect x="831.7142857142857" y="570" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="885.7142857142857" y="594" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">PERMENKUMHAM 15/2020</text>
-<rect x="1008.8571428571429" y="570" width="108" height="40" rx="7"
-        fill="var(--surface)" stroke="var(--line)" stroke-width="1.2"/>
-      <text x="1062.857142857143" y="594" text-anchor="middle" font-size="11.5"
-        font-weight="400" fill="var(--ink-2)">PERMENKUMHAM 17/2021</text>
+  <div class="kanvas"><svg id="graf" viewBox="0 0 1240 600" width="1240" height="600" role="img"
+    aria-label="Peta hierarki peraturan berakar UUD 1945">
+    
+    <g>
+      <rect x="0" y="56" width="1062" height="68" rx="10"
+        fill="#fbfcfd" stroke="var(--line)"/>
+      <text x="16" y="80" font-size="12.5" font-weight="700" fill="var(--ink)">UUD 1945</text>
+      <text x="16" y="96" font-size="9.5" fill="var(--ink-2)"><tspan x="16" dy="0">Norma dasar &amp;</tspan><tspan x="16" dy="11">perubahannya</tspan></text>
+    </g>
+
+    <g>
+      <rect x="0" y="136" width="1062" height="144" rx="10"
+        fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="16" y="160" font-size="12.5" font-weight="700" fill="var(--ink)">UU / Perppu</text>
+      <text x="16" y="176" font-size="9.5" fill="var(--ink-2)"><tspan x="16" dy="0">Undang-undang &amp;</tspan><tspan x="16" dy="11">kodifikasi setingkat UU</tspan></text>
+    </g>
+
+    <g>
+      <rect x="0" y="292" width="1062" height="68" rx="10"
+        fill="#fbfcfd" stroke="var(--line)"/>
+      <text x="16" y="316" font-size="12.5" font-weight="700" fill="var(--ink)">PP</text>
+      <text x="16" y="332" font-size="9.5" fill="var(--ink-2)"><tspan x="16" dy="0">Peraturan Pemerintah</tspan></text>
+    </g>
+
+    <g>
+      <rect x="0" y="372" width="1062" height="68" rx="10"
+        fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="16" y="396" font-size="12.5" font-weight="700" fill="var(--ink)">Perpres</text>
+      <text x="16" y="412" font-size="9.5" fill="var(--ink-2)"><tspan x="16" dy="0">Peraturan Presiden</tspan></text>
+    </g>
+
+    <g>
+      <rect x="0" y="452" width="1062" height="106" rx="10"
+        fill="#fbfcfd" stroke="var(--line)"/>
+      <text x="16" y="476" font-size="12.5" font-weight="700" fill="var(--ink)">Permen</text>
+      <text x="16" y="492" font-size="9.5" fill="var(--ink-2)"><tspan x="16" dy="0">Peraturan Menteri</tspan><tspan x="16" dy="11">(pelaksana, Ps. 8 UU</tspan><tspan x="16" dy="11">12/2011)</tspan></text>
+    </g>
+    
+    <rect x="1068" y="56" width="168" height="222" rx="10"
+      fill="#fdf7ff" stroke="#d8b9ff"/>
+    <text x="1080" y="78" font-size="12" font-weight="700" fill="#8250df">Putusan MK</text>
+    <path class="edge e-dasar" data-dari="kuhperdata-1847" data-ke="uud-1945"
+      d="M230.6,158 C230.6,133 204,133 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="permenkumham-2016-61" data-ke="uu-2004-30"
+      d="M395,474 C395,331 814.2,331 814.2,188" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="permenkumham-2017-9" data-ke="pp-2015-43"
+      d="M549.8,474 C549.8,409 487,409 487,344" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="permenkumham-2019-19" data-ke="uu-2004-30"
+      d="M237,474 C237,331 814.2,331 814.2,188" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="permenkumham-2020-15" data-ke="uu-2004-30"
+      d="M856.2,474 C856.2,331 814.2,331 814.2,188" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="permenkumham-2021-17" data-ke="uu-2004-30"
+      d="M237,512 C237,350 814.2,350 814.2,188" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="perpres-2012-33" data-ke="uud-1945"
+      d="M221,394 C221,251 204,251 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="pp-1997-24" data-ke="uu-1960-5"
+      d="M205,314 C205,251 349.2,251 349.2,188" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="pp-1998-37" data-ke="uud-1945"
+      d="M299,314 C299,211 204,211 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="pp-2015-21" data-ke="uu-1999-42"
+      d="M393,314 C393,251 626.2,251 626.2,188" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="pp-2015-43" data-ke="uu-2010-8"
+      d="M487,314 C487,270 830,270 830,226" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="pp-2016-24" data-ke="pp-1998-37"
+      d="M538,329 C440,329 440,329 342,329" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="putusan-mk-18-2019" data-ke="uud-1945"
+      d="M1148,92 C1148,100 204,100 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-mk" data-dari="putusan-mk-18-2019" data-ke="uu-1999-42"
+      d="M1074,107 C887.1,107 887.1,173 669.2,173" fill="none" stroke="#8250df"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="putusan-mk-20-2016" data-ke="uud-1945"
+      d="M1148,136 C1148,122 204,122 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-mk" data-dari="putusan-mk-20-2016" data-ke="uu-2008-11"
+      d="M1074,151 C682.9,151 682.9,211 273.6,211" fill="none" stroke="#8250df"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="putusan-mk-46-2010" data-ke="uud-1945"
+      d="M1148,180 C1148,144 204,144 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-mk" data-dari="putusan-mk-46-2010" data-ke="uu-1974-1"
+      d="M1148,180 C1148,184 441.2,184 441.2,188" fill="none" stroke="#8250df"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="putusan-mk-69-2015" data-ke="uud-1945"
+      d="M1148,224 C1148,166 204,166 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-mk" data-dari="putusan-mk-69-2015" data-ke="uu-1974-1"
+      d="M1148,224 C1148,206 441.2,206 441.2,188" fill="none" stroke="#8250df"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-1960-5" data-ke="uud-1945"
+      d="M349.2,158 C349.2,133 204,133 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-cabut" data-dari="uu-1960-5" data-ke="kuhperdata-1847"
+      d="M307.2,173 C289.9,173 289.9,173 299.2,173" fill="none" stroke="#cf222e"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-1974-1" data-ke="uud-1945"
+      d="M441.2,158 C441.2,133 204,133 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-cabut" data-dari="uu-1974-1" data-ke="kuhperdata-1847"
+      d="M399.2,173 C335.9,173 335.9,173 299.2,173" fill="none" stroke="#cf222e"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-1996-4" data-ke="uud-1945"
+      d="M533.2,158 C533.2,133 204,133 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-1996-4" data-ke="uu-1960-5"
+      d="M491.20000000000005,173 C441.20000000000005,173 441.20000000000005,173 391.2,173" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-1999-42" data-ke="uud-1945"
+      d="M626.2,158 C626.2,133 204,133 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-1999-42" data-ke="kuhperdata-1847"
+      d="M583.2,173 C428.40000000000003,173 428.40000000000003,173 299.2,173" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2001-16" data-ke="uud-1945"
+      d="M720.2,158 C720.2,133 204,133 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2001-16" data-ke="kuhperdata-1847"
+      d="M677.2,173 C475.40000000000003,173 475.40000000000003,173 299.2,173" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2004-28" data-ke="uud-1945"
+      d="M737,196 C737,152 204,152 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2004-28" data-ke="uu-2001-16"
+      d="M737,196 C737,192 720.2,192 720.2,188" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2004-30" data-ke="uud-1945"
+      d="M814.2,158 C814.2,133 204,133 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2007-40" data-ke="uud-1945"
+      d="M908.2,158 C908.2,133 204,133 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2007-40" data-ke="kuhperdata-1847"
+      d="M865.2,173 C569.4,173 569.4,173 299.2,173" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2008-11" data-ke="uud-1945"
+      d="M217.8,196 C217.8,152 204,152 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2009-43" data-ke="uud-1945"
+      d="M324.6,196 C324.6,152 204,152 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2010-8" data-ke="uud-1945"
+      d="M830,196 C830,152 204,152 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2011-12" data-ke="uud-1945"
+      d="M418.6,196 C418.6,152 204,152 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2014-2" data-ke="uud-1945"
+      d="M922,196 C922,152 204,152 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2014-2" data-ke="uu-2004-30"
+      d="M922,196 C922,192 814.2,192 814.2,188" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2014-2" data-ke="uu-2004-30"
+      d="M922,196 C922,192 814.2,192 814.2,188" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2016-19" data-ke="uud-1945"
+      d="M205,234 C205,171 204,171 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2016-19" data-ke="uu-2008-11"
+      d="M205,234 C205,230 217.8,230 217.8,226" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2019-15" data-ke="uud-1945"
+      d="M299,234 C299,171 204,171 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2019-15" data-ke="uu-2011-12"
+      d="M299,234 C299,230 418.6,230 418.6,226" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2019-16" data-ke="uud-1945"
+      d="M393,234 C393,171 204,171 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2019-16" data-ke="uu-1974-1"
+      d="M393,234 C393,211 441.2,211 441.2,188" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2019-16" data-ke="uu-1974-1"
+      d="M393,234 C393,211 441.2,211 441.2,188" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2022-13" data-ke="uud-1945"
+      d="M487,234 C487,171 204,171 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2022-13" data-ke="uu-2019-15"
+      d="M444,249 C393,249 393,249 342,249" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2022-13" data-ke="uu-2011-12"
+      d="M487,234 C487,230 418.6,230 418.6,226" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2023-1" data-ke="uud-1945"
+      d="M531.8000000000001,196 C531.8000000000001,152 204,152 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-cabut" data-dari="uu-2023-1" data-ke="uu-2008-11"
+      d="M469.6000000000001,211 C374.80000000000007,211 374.80000000000007,211 273.6,211" fill="none" stroke="#cf222e"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2023-6" data-ke="uud-1945"
+      d="M580,234 C580,171 204,171 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2023-6" data-ke="uu-2007-40"
+      d="M580,234 C580,211 908.2,211 908.2,188" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2024-1" data-ke="uud-1945"
+      d="M672,234 C672,171 204,171 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2024-1" data-ke="uu-2008-11"
+      d="M672,234 C672,230 217.8,230 217.8,226" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uu-2026-1" data-ke="uud-1945"
+      d="M764,234 C764,171 204,171 204,108" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-dasar" data-dari="uu-2026-1" data-ke="uu-2023-1"
+      d="M764,234 C764,230 531.8000000000001,230 531.8000000000001,226" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uu-2026-1" data-ke="uu-2011-12"
+      d="M764,234 C764,230 418.6,230 418.6,226" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-ubah" data-dari="uu-2026-1" data-ke="uu-2023-1"
+      d="M764,234 C764,230 531.8000000000001,230 531.8000000000001,226" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uud-1945-perubahan-1" data-ke="uud-1945"
+      d="M254,93 C252.1,93 252.1,93 246,93" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uud-1945-perubahan-1" data-ke="uud-1945"
+      d="M254,93 C252.1,93 252.1,93 246,93" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uud-1945-perubahan-2" data-ke="uud-1945"
+      d="M354.4,93 C303.9,93 303.9,93 246,93" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uud-1945-perubahan-2" data-ke="uud-1945"
+      d="M354.4,93 C303.9,93 303.9,93 246,93" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uud-1945-perubahan-3" data-ke="uud-1945"
+      d="M461.19999999999993,93 C358.9,93 358.9,93 246,93" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uud-1945-perubahan-3" data-ke="uud-1945"
+      d="M461.19999999999993,93 C358.9,93 358.9,93 246,93" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+<path class="edge e-dasar" data-dari="uud-1945-perubahan-4" data-ke="uud-1945"
+      d="M574.4,93 C413.9,93 413.9,93 246,93" fill="none" stroke="var(--accent)"
+      stroke-width="1.4"  />
+<path class="edge e-ubah" data-dari="uud-1945-perubahan-4" data-ke="uud-1945"
+      d="M574.4,93 C413.9,93 413.9,93 246,93" fill="none" stroke="#b08a00"
+      stroke-width="1.4" stroke-dasharray="5 4" />
+    <a href="/kodifikasi/1847/23/"><g class="node" data-id="kuhperdata-1847">
+      <rect x="162" y="158" width="137.2" height="30" rx="7"
+        fill="#f6f0ff" stroke="#8250df" stroke-width="1.4" />
+      <text x="230.6" y="177" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="#8250df">KODIFIKASI 23/1847</text>
+    </g></a>
+<g class="node" data-id="permenkumham-2016-61">
+      <rect x="320" y="474" width="150" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="395" y="493" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PERMENKUMHAM 61/2016</text>
+    </g>
+<g class="node" data-id="permenkumham-2017-9">
+      <rect x="477.99999999999994" y="474" width="143.60000000000002" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="549.8" y="493" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PERMENKUMHAM 9/2017</text>
+    </g>
+<a href="/permenkumham/2019/19/"><g class="node" data-id="permenkumham-2019-19">
+      <rect x="162" y="474" width="150" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="237" y="493" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">PERMENKUMHAM 19/2019</text>
+    </g></a>
+<g class="node" data-id="permenkumham-2019-8">
+      <rect x="629.6000000000001" y="474" width="143.60000000000002" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="701.4000000000001" y="493" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PERMENKUMHAM 8/2019</text>
+    </g>
+<g class="node" data-id="permenkumham-2020-15">
+      <rect x="781.2" y="474" width="150" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="856.2" y="493" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PERMENKUMHAM 15/2020</text>
+    </g>
+<g class="node" data-id="permenkumham-2021-17">
+      <rect x="162" y="512" width="150" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="237" y="531" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PERMENKUMHAM 17/2021</text>
+    </g>
+<a href="/perpres/2012/33/"><g class="node" data-id="perpres-2012-33">
+      <rect x="162" y="394" width="118" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="221" y="413" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">PERPRES 33/2012</text>
+    </g></a>
+<g class="node" data-id="perpres-2014-87">
+      <rect x="288" y="394" width="118" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="347" y="413" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PERPRES 87/2014</text>
+    </g>
+<a href="/pp/1997/24/"><g class="node" data-id="pp-1997-24">
+      <rect x="162" y="314" width="86" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="205" y="333" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">PP 24/1997</text>
+    </g></a>
+<a href="/pp/1998/37/"><g class="node" data-id="pp-1998-37">
+      <rect x="256" y="314" width="86" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="299" y="333" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">PP 37/1998</text>
+    </g></a>
+<g class="node" data-id="pp-2015-21">
+      <rect x="350" y="314" width="86" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="393" y="333" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PP 21/2015</text>
+    </g>
+<g class="node" data-id="pp-2015-43">
+      <rect x="444" y="314" width="86" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="487" y="333" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PP 43/2015</text>
+    </g>
+<g class="node" data-id="pp-2016-24">
+      <rect x="538" y="314" width="86" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="581" y="333" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">PP 24/2016</text>
+    </g>
+<g class="node" data-id="putusan-mk-18-2019">
+      <rect x="1074" y="92" width="148" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="1148" y="111" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">Putusan MK 18/PUU-XVII/2019</text>
+    </g>
+<g class="node" data-id="putusan-mk-20-2016">
+      <rect x="1074" y="136" width="148" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="1148" y="155" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">Putusan MK 20/PUU-XIV/2016</text>
+    </g>
+<g class="node" data-id="putusan-mk-46-2010">
+      <rect x="1074" y="180" width="148" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="1148" y="199" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">Putusan MK 46/PUU-VIII/2010</text>
+    </g>
+<g class="node" data-id="putusan-mk-69-2015">
+      <rect x="1074" y="224" width="148" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="1148" y="243" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">Putusan MK 69/PUU-XIII/2015</text>
+    </g>
+<g class="node" data-id="uu-1946-1">
+      <rect x="602" y="196" width="84" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="644" y="215" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 1/1946</text>
+    </g>
+<a href="/uu/1960/5/"><g class="node" data-id="uu-1960-5">
+      <rect x="307.2" y="158" width="84" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="349.2" y="177" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 5/1960</text>
+    </g></a>
+<a href="/uu/1974/1/"><g class="node" data-id="uu-1974-1">
+      <rect x="399.2" y="158" width="84" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="441.2" y="177" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 1/1974</text>
+    </g></a>
+<a href="/uu/1996/4/"><g class="node" data-id="uu-1996-4">
+      <rect x="491.20000000000005" y="158" width="84" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="533.2" y="177" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 4/1996</text>
+    </g></a>
+<a href="/uu/1999/42/"><g class="node" data-id="uu-1999-42">
+      <rect x="583.2" y="158" width="86" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="626.2" y="177" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 42/1999</text>
+    </g></a>
+<a href="/uu/2001/16/"><g class="node" data-id="uu-2001-16">
+      <rect x="677.2" y="158" width="86" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="720.2" y="177" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 16/2001</text>
+    </g></a>
+<g class="node" data-id="uu-2004-28">
+      <rect x="694" y="196" width="86" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="737" y="215" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 28/2004</text>
+    </g>
+<a href="/uu/2004/30/"><g class="node" data-id="uu-2004-30">
+      <rect x="771.2" y="158" width="86" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="814.2" y="177" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 30/2004</text>
+    </g></a>
+<a href="/uu/2007/40/"><g class="node" data-id="uu-2007-40">
+      <rect x="865.2" y="158" width="86" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="908.2" y="177" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 40/2007</text>
+    </g></a>
+<a href="/uu/2008/11/"><g class="node" data-id="uu-2008-11">
+      <rect x="162" y="196" width="111.60000000000001" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="217.8" y="215" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU ITE 11/2008</text>
+    </g></a>
+<a href="/uu/2009/43/"><g class="node" data-id="uu-2009-43">
+      <rect x="281.6" y="196" width="86" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="324.6" y="215" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 43/2009</text>
+    </g></a>
+<g class="node" data-id="uu-2010-8">
+      <rect x="788" y="196" width="84" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="830" y="215" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 8/2010</text>
+    </g>
+<a href="/uu/2011/12/"><g class="node" data-id="uu-2011-12">
+      <rect x="375.6" y="196" width="86" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="418.6" y="215" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">UU 12/2011</text>
+    </g></a>
+<g class="node" data-id="uu-2014-2">
+      <rect x="880" y="196" width="84" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="922" y="215" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 2/2014</text>
+    </g>
+<g class="node" data-id="uu-2016-19">
+      <rect x="162" y="234" width="86" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="205" y="253" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 19/2016</text>
+    </g>
+<g class="node" data-id="uu-2019-15">
+      <rect x="256" y="234" width="86" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="299" y="253" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 15/2019</text>
+    </g>
+<g class="node" data-id="uu-2019-16">
+      <rect x="350" y="234" width="86" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="393" y="253" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 16/2019</text>
+    </g>
+<g class="node" data-id="uu-2022-13">
+      <rect x="444" y="234" width="86" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="487" y="253" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 13/2022</text>
+    </g>
+<a href="/uu/2023/1/"><g class="node" data-id="uu-2023-1">
+      <rect x="469.6000000000001" y="196" width="124.4" height="30" rx="7"
+        fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="531.8000000000001" y="215" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="var(--accent)">KUHP (UU 1/2023)</text>
+    </g></a>
+<g class="node" data-id="uu-2023-6">
+      <rect x="538" y="234" width="84" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="580" y="253" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 6/2023</text>
+    </g>
+<g class="node" data-id="uu-2024-1">
+      <rect x="630" y="234" width="84" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="672" y="253" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 1/2024</text>
+    </g>
+<g class="node" data-id="uu-2026-1">
+      <rect x="722" y="234" width="84" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="764" y="253" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">UU 1/2026</text>
+    </g>
+<a href="/uud/1945/"><g class="node" data-id="uud-1945">
+      <rect x="162" y="78" width="84" height="30" rx="7"
+        fill="var(--accent)" stroke="var(--accent)" stroke-width="1.4" />
+      <text x="204" y="97" text-anchor="middle" font-size="11"
+        font-weight="600"
+        fill="#fff">UUD 1945</text>
+    </g></a>
+<g class="node" data-id="uud-1945-perubahan-1">
+      <rect x="254" y="78" width="92.4" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="300.2" y="97" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">Perubahan I</text>
+    </g>
+<g class="node" data-id="uud-1945-perubahan-2">
+      <rect x="354.4" y="78" width="98.80000000000001" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="403.79999999999995" y="97" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">Perubahan II</text>
+    </g>
+<g class="node" data-id="uud-1945-perubahan-3">
+      <rect x="461.19999999999993" y="78" width="105.2" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="513.8" y="97" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">Perubahan III</text>
+    </g>
+<g class="node" data-id="uud-1945-perubahan-4">
+      <rect x="574.4" y="78" width="98.80000000000001" height="30" rx="7"
+        fill="var(--surface)" stroke="var(--line)" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <text x="623.8" y="97" text-anchor="middle" font-size="11"
+        font-weight="400"
+        fill="var(--ink-2)">Perubahan IV</text>
+    </g>
   </svg></div>
-  <div class="catatan">Simpul hijau tebal = teks lengkap tersedia di CariHukum; abu-abu = baru
-  metadata (tahap panen). Data graf tersedia sebagai <a href="/api/graf.json">API</a>.
-  Panah emas/merah = peristiwa perubahan/pencabutan pada linimasa masing-masing peraturan.</div>
-</div></html>
+  <div class="catatan">Kelompok garis dibuat redup agar pita tetap terbaca — sorot simpul untuk
+  melihat relasinya (fokus + konteks, praktik lazim visualisasi graf ketergantungan). Putusan MK
+  bukan peraturan perundang-undangan, maka ditempatkan sebagai lajur tersendiri; amarnya menempel
+  sebagai anotasi pada pasal yang diuji. Data graf: <a href="/api/graf.json">API JSON</a>.</div>
+</div>
+<script>
+(function () {
+  var svg = document.getElementById("graf");
+  var edges = Array.prototype.slice.call(svg.querySelectorAll(".edge"));
+  var tetangga = {};
+  edges.forEach(function (e) {
+    var a = e.getAttribute("data-dari"), b = e.getAttribute("data-ke");
+    (tetangga[a] = tetangga[a] || []).push(e); (tetangga[b] = tetangga[b] || []).push(e);
+  });
+  svg.querySelectorAll(".node").forEach(function (g) {
+    g.addEventListener("mouseenter", function () {
+      var id = g.getAttribute("data-id");
+      svg.classList.add("fokus");
+      var nyala = { }; nyala[id] = true;
+      (tetangga[id] || []).forEach(function (e) {
+        e.classList.add("nyala");
+        nyala[e.getAttribute("data-dari")] = nyala[e.getAttribute("data-ke")] = true;
+      });
+      svg.querySelectorAll(".node").forEach(function (x) {
+        x.classList.toggle("nyala", !!nyala[x.getAttribute("data-id")]);
+      });
+    });
+    g.addEventListener("mouseleave", function () {
+      svg.classList.remove("fokus");
+      edges.forEach(function (e) { e.classList.remove("nyala"); });
+      svg.querySelectorAll(".node.nyala").forEach(function (x) { x.classList.remove("nyala"); });
+    });
+  });
+})();
+</script></html>
