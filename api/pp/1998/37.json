@@ -74,7 +74,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-01T20:07:12.644Z",
+ "dihasilkan": "2026-09-02T00:57:38.859Z",
  "timeline": [
   {
    "tanggal": "1998-03-05",
@@ -91,10 +91,10 @@
    "tipe": "perubahan",
    "pelaku": "pp-2016-24",
    "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
-   "jumlah_operasi": 17,
+   "jumlah_operasi": 34,
    "operasi_belum_dienkode": [],
    "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Ketentuan . PR ES ID Et!"
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Ketentuan . PR ES ID Et! | Butir 12 (Pasal 15) semula terlewat parser (nomor butir berakhiran koma di OCR); ditambahkan."
   }
  ],
  "peringatan": [],
@@ -1660,32 +1660,69 @@
        "id": "pasal-15/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Sebelum menjalankan jabatannya PPAT dan PPAT Sementara wajib mengangkat sumpah jabatan PPAT di hadapan Kepala Kantor Pertanahan Kabupaten/Kotamadya di daerah kerja PPAT yang bersangkutan.",
+       "teks": "PPAT dan PPAT Sementara sebelum menjalankan jabatannya wqiib mengangkat sumpah jabatan PPAT di hadapan Menteri atau pejabat yang ditunjuk. l2l PPAT Khusus selegeirnnns dimaksud dalam Pasal 5 ayat (3) huruf b tidak perlu menganglat sumpah jabatan PPAT.",
        "verifikasi": "pdf-resmi",
-       "sumber": "pp-1998-37",
-       "berlaku_mulai": "1998-03-05"
-      },
-      {
-       "id": "pasal-15/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "PPAT Khusus sebagaimana dimaksud dalam Pasal 5 ayat (3) huruf b tidak perlu mengangkat sumpah jabatan PPAT.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "pp-1998-37",
-       "berlaku_mulai": "1998-03-05"
+       "sumber": "pp-2016-24",
+       "berlaku_mulai": "2016-06-27"
       },
       {
        "id": "pasal-15/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "PPAT yang daerah kerjanya disesuaikan karena pemecahan wilayah Kabupaten/Kotamadya sebagaimana dimaksud dalam Pasal 13 tidak perlu mengangkat sumpah jabatan PPAT untuk melaksanakan tugasnya di daerah kerjanya yang baru.",
+       "teks": "PPAT yang tempat kedudulcan/daerah kerjanya disesuaikan karena pemekaran wilayah kabupaten/kota atau provinsi sebagaimana dirnaksud dalarn Pasal 13 ayat (1) dan ayat (2) tidak perlu mengangkat sumpah jabatan PPAT untuk melaksanakan tugasnya di tempat kedudukan/daerah kerjanya yang baru.",
        "verifikasi": "pdf-resmi",
-       "sumber": "pp-1998-37",
-       "berlaku_mulai": "1998-03-05"
+       "sumber": "pp-2016-24",
+       "berlaku_mulai": "2016-06-27"
       }
      ],
-     "sumber": "pp-1998-37",
-     "berlaku_mulai": "1998-03-05"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+       "pelaku": "pp-2016-24",
+       "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+       "tanggal": "2016-06-27",
+       "sebelum": {
+        "id": "pasal-15",
+        "tipe": "pasal",
+        "nomor": "15",
+        "anak": [
+         {
+          "id": "pasal-15/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Sebelum menjalankan jabatannya PPAT dan PPAT Sementara wajib mengangkat sumpah jabatan PPAT di hadapan Kepala Kantor Pertanahan Kabupaten/Kotamadya di daerah kerja PPAT yang bersangkutan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "pp-1998-37",
+          "berlaku_mulai": "1998-03-05"
+         },
+         {
+          "id": "pasal-15/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "PPAT Khusus sebagaimana dimaksud dalam Pasal 5 ayat (3) huruf b tidak perlu mengangkat sumpah jabatan PPAT.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "pp-1998-37",
+          "berlaku_mulai": "1998-03-05"
+         },
+         {
+          "id": "pasal-15/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "PPAT yang daerah kerjanya disesuaikan karena pemecahan wilayah Kabupaten/Kotamadya sebagaimana dimaksud dalam Pasal 13 tidak perlu mengangkat sumpah jabatan PPAT untuk melaksanakan tugasnya di daerah kerjanya yang baru.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "pp-1998-37",
+          "berlaku_mulai": "1998-03-05"
+         }
+        ],
+        "sumber": "pp-1998-37",
+        "berlaku_mulai": "1998-03-05"
+       },
+       "catatan": ", Ketentuan ayat (1) dan ayat (3) Pasal 15 diubah sehingga berbunyi sebn gai berikut:"
+      }
+     ],
+     "sumber": "pp-2016-24",
+     "berlaku_mulai": "2016-06-27"
     },
     {
      "id": "pasal-16",
@@ -2687,7 +2724,120 @@
    "berlaku_mulai": "1998-03-05"
   }
  ],
- "penjelasan_efektif": null,
+ "penjelasan_efektif": {
+  "1": {
+   "teks": "Cukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "6": {
+   "teks": "Cukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "7": {
+   "teks": "Cukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "8": {
+   "teks": "Ayat (1)\nKeadaan sebagaimana dimaksud pada huruf a dan huruf b menyebabkan yang bersangkutan berhenti dengan sendirinya sebagai PPAT dan untuk itu tidak diperlukan keputusan pemberhentian. Yang bersangkutan tidak berhak lagi membuat akta.\nAyat (2)\nPerpanjangan .liajukan sesuai syarat dan tata cara perpanjangan masa jabatan PPAT.\nAyat (3)\nCukup jelas. Ayat (a) Cukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "9": {
+   "teks": "Cukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "10": {
+   "teks": "Ayat (1)\nCukup jelas.\nAyat (2)\nCukup jelas,EI.I\nAyat (3)\nHuruf a\nYang dimaksud dengan pelanggaran berat antara lain: 1. membantu melakukan permuliakatan jahat yang mengakibatkan sengketa atau konflik pertanahan; 2. melakukan pembuatan akta sebagai permufakatan jahat yang mengakibatkan sengleta atau konflik pertanahan; 3. melakukan pembuatan akta di luar wilayah kedanya kecuali karena pemekaran kabupaten/kota, pemekaran provinsi, atau membuat akta tukar menukar, akta pemasukan ke dalam perusahaan, atau akta pembagian bersama mengenai beberapa hak atas tanah/Hak Milik Atas Satuan Rumah Susun yang tidak semuanya terletak dalam wilayah ke4'anya; 4. memberikan keterangan yang tidak benar di dalam akta yang mengakibatkan sengketa atau konflik pertanahan; 5. membuka kantor cabang atau perwakilan atau bentuk lainnya di dalam dan/atau di luar wilayah kerjanya; 6. melanggar sumpah jabatan sebagai PPAT; 7. membuat akta PPAT tanpa dihadiri oleh para pihak; 8. membuat akta mengenai hak atas tanah/Hak Milik Atas Satuan Rumah Susun yang obyeknya masih sengketa; 9. PPAT tidak membacakan akta yang dibuatnya di hadapan para para pihak; IO.PPAT membuat akta di hadapan para pihak yang berwenang melakukan perbuatan hukum sesuai akta yang dibuatnya; dan/atau ll.PPAT membuat akta dalam masa dikenakan sanksi pemberhentian dengan hormat, pemberhentian sementara, atau dalam keadaan cuti.\nHurufb Cukup jeLas.\nAyat (4)\nHuruf a\nCukup jelas.\nHuruf b\nYang dimaksud dengan tidak melaksanakan jabatan PPAT secara nyata untukjangka waktu 60 (enam puluh) hari adalah dihitung secara kumulatif selama I (satu) tahun.\nHuruf c\nYang dimaksud dengan pelanggaran ringan antara lain: 1. memungut uang jasa melebihi ketentuan peraturan perundang-undangan; 2. dalam waktu 2 (dua) bulan setelah berakhirnya cuti tidak melaksanakan tugasnya kembali; 3. tidak menyampaikan laporan bulanan mengenai akta yang dibuatnya; dan/atau 4. merangftapjabatan.\nHuruf d\nCukup jelas.\nHuruf e\nCukup jelas.\nHuruf f\nCukup jelas.\nHuruf g\nCukup jelas.\nAyat (5)\nCukup jelas.\nAyat (6)\nCukup jelas. Ayat (7) .\nAyat (7)\nCukup jelas.\nAyat (8)\nCukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "12": {
+   "teks": "Cukup jelas. AnCka 9",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "13": {
+   "teks": "Cukup jeLas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "15": {
+   "teks": "Cukupjelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "19": {
+   "teks": "Ayat (1)\nHuruf a\nMaksud dari penyerahan contoh tanda tangan, contoh paraf, dan teraan cap/stempel jabatan PPAT adalah agar pada Kantor Pertanahan perbdaan tanda tangan, paraf, atau teraan cap/stempel, apabila terjadi perkara mengenai keabsahan akta PPAT yang bersangkutan.\nHurufb Cukup jelas.\nAyat (2)\nAyat (2)\nCukup jeLas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "20": {
+   "teks": "CukupjeLas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "31": {
+   "teks": "Cukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "32": {
+   "teks": "Ayat (1)\nCukup jelas.\nAyat (2)\nCukup jelas.\nAyat (3)\nCukupjelas.\nAyat (4)\nPPAT Khusus melaksanakan tugas pembuatan akta PPAT sebagai bagian dari tugasnya di bidang pendaftaran tanah, maka pembuatan akta tersebut dilakukan dengan cuma-curna.\nAyat (5)\nCukup jelas.\nAyat (6)\nCukup jelas. Angka l8",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "33": {
+   "teks": "Cukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "12a": {
+   "teks": "Cukup jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  },
+  "12b": {
+   "teks": "Cukup Jelas.",
+   "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+   "pelaku": "pp-2016-24",
+   "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+   "tanggal": "2016-06-27"
+  }
+ },
  "bukti": {
   "tingkat": 3,
   "penerbit": "Badan Pemeriksa Keuangan (peraturan.bpk.go.id)",
@@ -2700,8 +2850,8 @@
   "diakses": "2026-09-01"
  },
  "keandalan": {
-  "total": 152,
-  "pdf-resmi": 149,
+  "total": 151,
+  "pdf-resmi": 148,
   "pdf-ocr": 3,
   "draf": 0,
   "lainnya": 0
