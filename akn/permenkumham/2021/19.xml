@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="permenkumham">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/permenkumham/2021/19/!main"/>
+          <FRBRuri value="/akn/id/act/permenkumham/2021/19"/>
+          <FRBRdate date="2021-03-16" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/permenkumham/2021/19/ind@2021-03-16/!main"/>
+          <FRBRuri value="/akn/id/act/permenkumham/2021/19/ind@2021-03-16"/>
+          <FRBRdate date="2021-03-16" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/permenkumham/2021/19/ind@2021-03-16/!main.xml"/>
+          <FRBRuri value="/akn/id/act/permenkumham/2021/19/ind@2021-03-16.akn"/>
+          <FRBRdate date="2026-09-02" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Peraturan Menteri Hukum dan HAM Nomor 19 Tahun 2021 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Peraturan Menteri ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Notaris adalah pejabat umum yang berwenang untuk membuat akta autentik dan memiliki kewenangan lainnya sebagaimana dimaksud dalam undang-undang di bidang kenotariatan atau berdasarkan undang-undang lainnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Formasi Jabatan Notaris adalah penentuan jumlah Notaris yang dibutuhkan pada suatu kabupaten/kota.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Kategori Daerah adalah pengelompokan tempat kedudukan Notaris berdasarkan kriteria Formasi Jabatan Notaris.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Produk Domestik Regional Bruto yang selanjutnya disingkat PDRB adalah jumlah keseluruhan nilai tambah barang dan jasa yang dihasilkan dari semua kegiatan perekonomian di seluruh wilayah dalam periode tahun tertentu yang pada umumnya dalam waktu 1 (satu) tahun.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>FORMASI JABATAN NOTARIS</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+              <paragraph eId="pasal_2__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri menentukan Formasi Jabatan Notaris dengan mempertimbangkan usul dari organisasi Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_2">
+                <num>(2)</num>
+                <content><p>Formasi Jabatan Notaris sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri setiap 3 (tiga) tahun. 2021, No. 246 -4-</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <content><p>Formasi Jabatan Notaris sebagaimana dimaksud dalam Pasal 2 ayat (2) berlaku untuk pengangkatan dan perpindahan wilayah jabatan Notaris.</p></content>
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Menteri dapat melakukan penambahan Formasi Jabatan Notaris sesuai kebutuhan di luar Formasi Jabatan Notaris yang telah ditetapkan sebagaimana dimaksud dalam Pasal 2 ayat (2).</p></content>
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri melakukan pemutakhiran data Formasi Jabatan Notaris yang telah ditetapkan sebagaimana dimaksud dalam Pasal 2 ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pemutakhiran data Formasi Jabatan Notaris sebagaimana dimaksud pada ayat (1) dilakukan karena adanya Notaris yang:</p></intro>
+                  <point eId="pasal_5__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>meninggal dunia;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>mengundurkan diri dari jabatannya; atau</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>diberhentikan dengan hormat atau tidak dengan hormat oleh Menteri.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+            <content><p>Informasi Formasi Jabatan Notaris sebagaimana dimaksud dalam Pasal 2 sampai dengan Pasal 5 dimuat dalam laman resmi Direktorat Jenderal Administrasi Hukum Umum Kementerian Hukum dan Hak Asasi Manusia.</p></content>
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <intro><p>Formasi Jabatan Notaris ditetapkan berdasarkan:</p></intro>
+                  <point eId="pasal_7__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>kegiatan dunia usaha;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>jumlah penduduk; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>rata-rata jumlah akta yang dibuat oleh dan/atau di hadapan Notaris setiap bulan. 2021, No.246</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Penentuan kegiatan dunia usaha sebagaimana dimaksud pada ayat (1) huruf a, dilakukan dengan menggunakan data perbankan, jasa keuangan lainnya, dan/atau jumlah badan usaha.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_3">
+                <num>(3)</num>
+                <content><p>Penentuan jumlah penduduk sebagaimana dimaksud pada ayat (1) huruf b, dilakukan dengan menggunakan data dari instansi atau lembaga pemerintah yang mengurusi bidang kependudukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_4">
+                <num>(4)</num>
+                <content><p>Penentuan rata-rata jumlah akta yang dibuat oleh dan/atau di hadapan Notaris setiap bulan sebagaimana dimaksud pada ayat (1) huruf c, dilakukan dengan menggunakan data dari Direktorat Jenderal Administrasi Hukum Umum Kementerian Hukum dan Hak Asasi Manusia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+            <intro><p>Penghitungan Formasi Jabatan Notaris dilakukan dengan cara:</p></intro>
+              <point eId="pasal_8__huruf_a">
+                <num>a.</num>
+                <content><p>menetapkan jumlah Notaris pada setiap kabupaten/kota berdasarkan 3 (tiga) indikator sebagaimana dimaksud dalam Pasal 7 ayat (1) yang dirata-ratakan per kabupaten/kota;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_b">
+                <num>b.</num>
+                <content><p>penentuan jumlah Formasi Jabatan Notaris yang baru pada suatu daerah merupakan hasil penghitungan sebagaimana dimaksud dalam huruf a dikurangi dengan Notaris yang sudah ada pada suatu kabupaten/kota; dan</p></content>
+              </point>
+              <point eId="pasal_8__huruf_c">
+                <num>c.</num>
+                <content><p>Notaris yang sudah ada pada suatu kabupaten/kota sebagaimana dimaksud dalam huruf b, dihitung berdasarkan data Notaris pada pangkalan data Direktorat Jenderal Administrasi Hukum Umum Kementerian Hukum dan Hak Asasi Manusia dikurangi jumlah Notaris yang telah memasuki usia pensiun dalam suatu kabupaten/kota. 2021, No. 246 -6-</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>KATEGORI DAERAH</heading>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Hasil penghitungan Formasi Jabatan Notaris merupakan pedoman untuk menentukan Kategori Daerah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <intro><p>Selain hasil penghitungan Formasi Jabatan Notaris sebagaimana dimaksud pada ayat (1), penentuan Kategori Daerah juga berpedoman pada:</p></intro>
+                  <point eId="pasal_9__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>jumlah PDRB; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pertimbangan sosiologis dari Menteri.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_3">
+                <num>(3)</num>
+                <intro><p>Kategori Daerah sebagaimana dimaksud pada ayat (1) terdiri atas:</p></intro>
+                  <point eId="pasal_9__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>Kategori Daerah A;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>Kategori Daerah B; dan</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>Kategori Daerah C.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_4">
+                <num>(4)</num>
+                <content><p>Jumlah PDRB sebagaimana dimaksud pada ayat (2) huruf a menggunakan data dari lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang statistik.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <intro><p>Kategori Daerah A sebagaimana dimaksud dalam Pasal 9 ayat (3) huruf a meliputi:</p></intro>
+                  <point eId="pasal_10__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Kota Administrasi Jakarta Selatan;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Kota Administrasi Jakarta Barat;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Kota Administrasi Jakarta Pusat;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>Kota Administrasi Jakarta Utara;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>Kota Administrasi Jakarta Timur;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>Kota Medan;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>Kota Bandung;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>Kota Semarang;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>Kota Surabaya; dan</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_j">
+                    <num>j.</num>
+                    <content><p>Kota Makassar. 2021, No.246</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <intro><p>Kategori Daerah B sebagaimana dimaksud dalam Pasal 9 ayat (3) huruf b meliputi:</p></intro>
+                  <point eId="pasal_10__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>Kabupaten Deli Serdang;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>Kota Pekanbaru;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>Kota Batam;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>Kota Palembang;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>Kota Tangerang;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>Kabupaten Tangerang;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>Kota Tangerang Selatan;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_h">
+                    <num>h.</num>
+                    <content><p>Kota Bekasi;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_i">
+                    <num>i.</num>
+                    <content><p>Kabupaten Bekasi;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_j">
+                    <num>j.</num>
+                    <content><p>Kota Depok;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_k">
+                    <num>k.</num>
+                    <content><p>Kabupaten Bogor;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_l">
+                    <num>l.</num>
+                    <content><p>Kabupaten Bandung;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_m">
+                    <num>m.</num>
+                    <content><p>Kabupaten Karawang;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_n">
+                    <num>n.</num>
+                    <content><p>Kota Yogyakarta;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_o">
+                    <num>o.</num>
+                    <content><p>Kabupaten Sleman;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_p">
+                    <num>p.</num>
+                    <content><p>Kabupaten Sidoarjo;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_q">
+                    <num>q.</num>
+                    <content><p>Kabupaten Gresik;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_r">
+                    <num>r.</num>
+                    <content><p>Kabupaten Pasuruan; dan</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_2__huruf_s">
+                    <num>s.</num>
+                    <content><p>Kabupaten Badung.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_3">
+                <num>(3)</num>
+                <content><p>Kategori Daerah C sebagaimana dimaksud dalam Pasal 9 ayat (3) huruf c meliputi kabupaten/kota yang tidak termasuk dalam Kategori Daerah A dan Kategori Daerah B.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Kategori Daerah A dan Kategori Daerah B hanya diperuntukkan bagi perpindahan wilayah jabatan Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <content><p>Kategori Daerah C diperuntukkan bagi pengangkatan pertama kali Notaris atau perpindahan wilayah jabatan Notaris. 2021, No. 246 -8-</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris dapat mengajukan permohonan pindah wilayah jabatan Notaris kepada Menteri secara tertulis.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <content><p>Untuk dapat mengajukan permohonan pindah wilayah jabatan Notaris, Notaris harus melaksanakan tugas jabatannya selama 3 (tiga) tahun berturut-turut pada daerah kabupaten/kota tertentu tempat kedudukan Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_3">
+                <num>(3)</num>
+                <content><p>Persyaratan sebagaimana dimaksud pada ayat (2) berlaku untuk Notaris yang mengajukan permohonan pindah wilayah dalam 1 (satu) Kategori Daerah yang sama atau permohonan pindah untuk Kategori Daerah yang berbeda secara berjenjang.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+            <content><p>Notaris dapat mengajukan permohonan perpindahan dari Kategori Daerah C ke Kategori Daerah A kepada Menteri dengan memenuhi persyaratan masa kerja Notaris selama 4 (empat) tahun berturut-turut terhitung sejak melaksanakan tugas jabatan sebagai Notaris.</p></content>
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam keadaan tertentu, Menteri dapat memindahkan seorang Notaris dari satu wilayah jabatan ke wilayah jabatan lain atas permohonan Notaris yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <intro><p>Keadaan tertentu sebagaimana dimaksud pada ayat (1) terdiri atas:</p></intro>
+                  <point eId="pasal_14__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>bencana alam;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>situasi keamanan yang tidak terkendali; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pertimbangan kemanusiaan lainnya. 2021, No.246</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_15">
+            <num>15</num>
+            <content><p>Pada saat Peraturan Menteri ini mulai berlaku, Notaris yang sudah mengajukan permohonan perpindahan wilayah jabatan Notaris sebelum Peraturan Menteri ini diundangkan, tetap diproses berdasarkan ketersediaan formasi sebagaimana dimaksud dalam Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 27 Tahun 2016 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_16">
+            <num>16</num>
+            <content><p>Pada saat Peraturan Menteri ini mulai berlaku, Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 27 Tahun 2016 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah (Berita Negara Republik Indonesia Tahun 2016 Nomor 1209), dicabut dan dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+            <content><p>Peraturan Menteri ini mulai berlaku pada tanggal diundangkan. 2021, No. 246 -10-</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

@@ -24,7 +24,29 @@
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="1974-01-02" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2012-02-17" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2016-10-27" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2019-10-15" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2019/16"/>
+          <destination href="#pasal_7"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_2">
+          <source href="/akn/id/act/uu/2019/16"/>
+          <destination href="#pasal_65a"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/putusan-mk/2010/46/PUU-VIII/2010" showAs="Putusan Mahkamah Konstitusi Nomor 46/PUU-VIII/2010 (pengujian Pasal 2 ayat (2) dan Pasal 43 ayat (1) UU 1/1974 tentang Perkawinan — hubungan perdata anak luar kawin)"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/putusan-mk/2015/69/PUU-XIII/2015" showAs="Putusan Mahkamah Konstitusi Nomor 69/PUU-XIII/2015 (pengujian Pasal 21 &amp; 36 UUPA serta Pasal 29 UU 1/1974 — perjanjian perkawinan dapat dibuat selama ikatan perkawinan)"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2019/16" showAs="Perubahan atas Undang-undang Nomor 1 Tahun 1974 tentang Perkawinan"/>
+
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
       </references>

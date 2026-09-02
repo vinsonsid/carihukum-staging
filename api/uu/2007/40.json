@@ -28,17 +28,13 @@
   "tahap": "terstruktur",
   "dasar_hukum": [
    {
-    "teks": "Pasal 5 ayat (1), Pasal 20, dan Pasal 33 UUD NRI 1945",
+    "teks": "Pasal 5 ayat (1), Pasal 20, dan Pasal 33 Undang-Undang Dasar Negara Tahun 1945; Dengan",
     "target": "uud-1945"
-   },
-   {
-    "teks": "Kitab Undang-Undang Hukum Perdata (perikatan & badan hukum)",
-    "target": "kuhperdata-1847"
    }
   ],
   "catatan_kurasi": "Porsi terbesar praktik notaris (akta pendirian & perubahan AD). Diubah UU Cipta Kerja (terakhir UU 6/2023) — peristiwa perubahan menyusul; sampai terenkode, halaman menampilkan peringatan jujur."
  },
- "dihasilkan": "2026-09-02T10:42:40.827Z",
+ "dihasilkan": "2026-09-02T12:10:05.540Z",
  "timeline": [
   {
    "tanggal": "2007-08-16",
@@ -58,7 +54,7 @@
    "jumlah_operasi": 14,
    "operasi_belum_dienkode": [],
    "status_kurasi": "terverifikasi",
-   "catatan": "Pasal 109 UU 6/2023 (Cipta Kerja) mengubah UU 40/2007: definisi Perseroan mencakup badan hukum perorangan UMK (Pasal 1), Pasal 7 & 32 diubah, Pasal 153 diganti, dan Pasal 153A-153J disisipkan (PT perorangan: pendirian dgn surat pernyataan, tanpa akta notaris, utk usaha mikro-kecil). Dienkode otomatis parser-perubahan dari salinan LN scan (id OCR 1538/1531 -> 153B/153I dikoreksi)."
+   "catatan": "Pasal 109 UU 6/2023 (Cipta Kerja) mengubah UU 40/2007: definisi Perseroan mencakup badan hukum perorangan UMK (Pasal 1), Pasal 7 & 32 diubah, Pasal 153 diganti, dan Pasal 153A-153J disisipkan (PT perorangan: pendirian dgn surat pernyataan, tanpa akta notaris, utk usaha mikro-kecil). Dienkode otomatis parser-perubahan dari salinan LN scan (id OCR 1538/1531 -> 153B/153I dikoreksi). Reparasi kurasi 2026-09-02: sisa OCR salinan LN (kop halaman, catchword, galat huruf: yong->yang, burtrk->buruk, (21->(2)) dibersihkan dari rumusan; teks dicek ulang terhadap raw/pdf/uu-2023-6.pdf."
   }
  ],
  "peringatan": [],
@@ -78,8 +74,8 @@
        "id": "pasal-1/angka-1",
        "tipe": "angka",
        "nomor": "1.",
-       "teks": "Perseroan Terbatas, yong selanjutnya disebut Perseroan, adalah badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham atau badan hukum perorangan yang memenuhi kriteria usaha mikro dan kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai usaha mikro dan kecil.",
-       "verifikasi": "pdf-resmi",
+       "teks": "Perseroan Terbatas, yang selanjutnya disebut Perseroan, adalah badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham atau badan hukum perorangan yang memenuhi kriteria usaha mikro dan kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai usaha mikro dan kecil.",
+       "verifikasi": "pdf-ocr",
        "sumber": "uu-2023-6",
        "berlaku_mulai": "2023-03-31"
       },
@@ -9078,14 +9074,12 @@
        "id": "pasal-153b/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Ketentuan lebih lanjut mengenai materi pernyataan pendirian sebagaimana dimaksud pada ayat (1) dan format isian sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Pemerintah.",
-       "verifikasi": "pdf-resmi",
+       "teks": "Ketentuan lebih lanjut mengenai materi pernyataan pendirian sebagaimana dimaksud pada ayat (1) dan format isian sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "pdf-ocr",
        "sumber": "uu-2023-6",
        "berlaku_mulai": "2023-03-31"
       }
      ],
-     "teks": "REPUBUK INOONESIA -6t9- Pasal 153El",
-     "verifikasi": "pdf-resmi",
      "riwayat": [
       {
        "aksi": "disisipkan",
@@ -9154,7 +9148,7 @@
        "id": "pasal-153d/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Direksi berwenang menjalankan pengurusan sebagaimana dimaksud pada ayat (1) sesuai dengan kebijakan yang dianggap tepat, dalam batas yang ditentukan dalam Undang-Undang ini, dan/ atau pernyataan pendirian Perseroan. REPUBUK TNDONESIA",
+       "teks": "Direksi berwenang menjalankan pengurusan sebagaimana dimaksud pada ayat (1) sesuai dengan kebijakan yang dianggap tepat, dalam batas yang ditentukan dalam Undang-Undang ini, dan/atau pernyataan pendirian Perseroan.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2023-6",
        "berlaku_mulai": "2023-03-31"
@@ -9299,7 +9293,7 @@
          "id": "pasal-153g/ayat-2/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "dengan dicabutnya kepailitan berdasarkan putusan pengadilan niaga yang telah mempunyai kekuatan hukum tetap, harta pailit Perseroan tidak cukup untuk membayar biaya kepailitan; e.harta... -62t-",
+         "teks": "dengan dicabutnya kepailitan berdasarkan putusan pengadilan niaga yang telah mempunyai kekuatan hukum tetap, harta pailit Perseroan tidak cukup untuk membayar biaya kepailitan;",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2023-6",
          "berlaku_mulai": "2023-03-31"
@@ -9448,8 +9442,8 @@
          "id": "pasal-153j/ayat-2/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "pemegang saham yang bersangkutan, baik langsung maupun tidak langsung dengan iktikad burtrk memanfaatkan Perseroan untuk kepentingan pribadi;",
-         "verifikasi": "pdf-resmi",
+         "teks": "pemegang saham yang bersangkutan, baik langsung maupun tidak langsung dengan iktikad buruk memanfaatkan Perseroan untuk kepentingan pribadi;",
+         "verifikasi": "pdf-ocr",
          "sumber": "uu-2023-6",
          "berlaku_mulai": "2023-03-31"
         },
@@ -9466,7 +9460,7 @@
          "id": "pasal-153j/ayat-2/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "pemegang saham yang bersangkutan, baik langsung maupun tidak langsung secara melawan hukum menggunakan kekayaan Perseroan, yang mengakibatkan kekayaan Perseroan menjadi tidak cukup untuk melunasi utang Perseroan. Bagian Keenam Undang-Undang Gangguan",
+         "teks": "pemegang saham yang bersangkutan, baik langsung maupun tidak langsung secara melawan hukum menggunakan kekayaan Perseroan, yang mengakibatkan kekayaan Perseroan menjadi tidak cukup untuk melunasi utang Perseroan.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2023-6",
          "berlaku_mulai": "2023-03-31"
@@ -9737,9 +9731,9 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 829,
-  "pdf-resmi": 829,
-  "pdf-ocr": 0,
+  "total": 828,
+  "pdf-resmi": 825,
+  "pdf-ocr": 3,
   "draf": 0,
   "lainnya": 0
  },

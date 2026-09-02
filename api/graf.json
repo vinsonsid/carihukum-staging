@@ -10,7 +10,7 @@
    "id": "permenkumham-2016-61",
    "nama": "PERMENKUMHAM 61/2016",
    "jenis": "permenkumham",
-   "jalur": null
+   "jalur": "/permenkumham/2016/61/"
   },
   {
    "id": "permenkumham-2017-9",
@@ -34,13 +34,19 @@
    "id": "permenkumham-2020-15",
    "nama": "PERMENKUMHAM 15/2020",
    "jenis": "permenkumham",
-   "jalur": null
+   "jalur": "/permenkumham/2020/15/"
   },
   {
    "id": "permenkumham-2021-17",
    "nama": "PERMENKUMHAM 17/2021",
    "jenis": "permenkumham",
-   "jalur": null
+   "jalur": "/permenkumham/2021/17/"
+  },
+  {
+   "id": "permenkumham-2021-19",
+   "nama": "PERMENKUMHAM 19/2021",
+   "jenis": "permenkumham",
+   "jalur": "/permenkumham/2021/19/"
   },
   {
    "id": "perpres-2012-33",
@@ -85,8 +91,20 @@
    "jalur": null
   },
   {
+   "id": "pp-2021-18",
+   "nama": "PP 18/2021",
+   "jenis": "pp",
+   "jalur": null
+  },
+  {
    "id": "putusan-mk-18-2019",
    "nama": "Putusan MK 18/PUU-XVII/2019",
+   "jenis": "putusan-mk",
+   "jalur": null
+  },
+  {
+   "id": "putusan-mk-2-2021",
+   "nama": "PUTUSAN-MK 2/PUU-XIX/2021/2021",
    "jenis": "putusan-mk",
    "jalur": null
   },
@@ -125,6 +143,12 @@
    "nama": "UU 1/1974",
    "jenis": "uu",
    "jalur": "/uu/1974/1/"
+  },
+  {
+   "id": "uu-1992-25",
+   "nama": "UU 25/1992",
+   "jenis": "uu",
+   "jalur": "/uu/1992/25/"
   },
   {
    "id": "uu-1996-4",
@@ -185,6 +209,12 @@
    "nama": "UU 12/2011",
    "jenis": "uu",
    "jalur": "/uu/2011/12/"
+  },
+  {
+   "id": "uu-2011-20",
+   "nama": "UU 20/2011",
+   "jenis": "uu",
+   "jalur": "/uu/2011/20/"
   },
   {
    "id": "uu-2014-2",
@@ -273,11 +303,6 @@
  ],
  "edges": [
   {
-   "dari": "kuhperdata-1847",
-   "ke": "uud-1945",
-   "tipe": "dasar-hukum"
-  },
-  {
    "dari": "permenkumham-2016-61",
    "ke": "uu-2004-30",
    "tipe": "dasar-hukum"
@@ -294,11 +319,31 @@
   },
   {
    "dari": "permenkumham-2020-15",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permenkumham-2020-15",
    "ke": "uu-2004-30",
    "tipe": "dasar-hukum"
   },
   {
    "dari": "permenkumham-2021-17",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permenkumham-2021-17",
+   "ke": "uu-2004-30",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permenkumham-2021-19",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permenkumham-2021-19",
    "ke": "uu-2004-30",
    "tipe": "dasar-hukum"
   },
@@ -309,12 +354,32 @@
   },
   {
    "dari": "pp-1997-24",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pp-1997-24",
    "ke": "uu-1960-5",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pp-1997-24",
+   "ke": "uu-1996-4",
    "tipe": "dasar-hukum"
   },
   {
    "dari": "pp-1998-37",
    "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pp-1998-37",
+   "ke": "uu-1960-5",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pp-1998-37",
+   "ke": "uu-1996-4",
    "tipe": "dasar-hukum"
   },
   {
@@ -333,12 +398,27 @@
    "tipe": "perubahan"
   },
   {
+   "dari": "pp-2021-18",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
    "dari": "putusan-mk-18-2019",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
   },
   {
    "dari": "putusan-mk-18-2019",
+   "ke": "uu-1999-42",
+   "tipe": "putusan-mk"
+  },
+  {
+   "dari": "putusan-mk-2-2021",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "putusan-mk-2-2021",
    "ke": "uu-1999-42",
    "tipe": "putusan-mk"
   },
@@ -393,6 +473,11 @@
    "tipe": "pencabutan-sebagian"
   },
   {
+   "dari": "uu-1992-25",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
    "dari": "uu-1996-4",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
@@ -408,23 +493,18 @@
    "tipe": "dasar-hukum"
   },
   {
-   "dari": "uu-1999-42",
-   "ke": "kuhperdata-1847",
-   "tipe": "dasar-hukum"
-  },
-  {
    "dari": "uu-2001-16",
    "ke": "uud-1945",
-   "tipe": "dasar-hukum"
-  },
-  {
-   "dari": "uu-2001-16",
-   "ke": "kuhperdata-1847",
    "tipe": "dasar-hukum"
   },
   {
    "dari": "uu-2004-28",
    "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2004-28",
+   "ke": "uu-2001-16",
    "tipe": "dasar-hukum"
   },
   {
@@ -440,11 +520,6 @@
   {
    "dari": "uu-2007-40",
    "ke": "uud-1945",
-   "tipe": "dasar-hukum"
-  },
-  {
-   "dari": "uu-2007-40",
-   "ke": "kuhperdata-1847",
    "tipe": "dasar-hukum"
   },
   {
@@ -464,6 +539,11 @@
   },
   {
    "dari": "uu-2011-12",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2011-20",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
   },
@@ -544,12 +624,17 @@
   },
   {
    "dari": "uu-2023-6",
-   "ke": "uud-1945",
-   "tipe": "dasar-hukum"
+   "ke": "uu-2007-40",
+   "tipe": "perubahan"
   },
   {
    "dari": "uu-2023-6",
-   "ke": "uu-2007-40",
+   "ke": "uu-1992-25",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uu-2023-6",
+   "ke": "uu-2011-20",
    "tipe": "perubahan"
   },
   {

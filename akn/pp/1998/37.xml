@@ -24,7 +24,89 @@
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="1998-03-05" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2016-06-27" source="#org_1" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_1"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_7"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_8"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_9"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_10"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_12"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_8">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_12a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_9">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_12b"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_11">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_19"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_20"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_27"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_15">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_31"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_16">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_32"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_17">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/pp/2016/24"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/pp/2016/24" showAs="Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah"/>
+
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
       </references>

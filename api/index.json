@@ -1,5 +1,5 @@
 {
- "dihasilkan": "2026-09-02T10:42:40.882Z",
+ "dihasilkan": "2026-09-02T12:10:05.609Z",
  "karya": [
   {
    "id": "kuhperdata-1847",
@@ -17,9 +17,9 @@
    "nama_pendek": "PERMENKUMHAM 61/2016",
    "jenis": "permenkumham",
    "status": "berlaku",
-   "tahap": "panen",
-   "jalur": null,
-   "api": null
+   "tahap": "terstruktur",
+   "jalur": "/permenkumham/2016/61/",
+   "api": "/api/permenkumham/2016/61.json"
   },
   {
    "id": "permenkumham-2017-9",
@@ -57,9 +57,9 @@
    "nama_pendek": "PERMENKUMHAM 15/2020",
    "jenis": "permenkumham",
    "status": "berlaku",
-   "tahap": "panen",
-   "jalur": null,
-   "api": null
+   "tahap": "terstruktur",
+   "jalur": "/permenkumham/2020/15/",
+   "api": "/api/permenkumham/2020/15.json"
   },
   {
    "id": "permenkumham-2021-17",
@@ -67,9 +67,19 @@
    "nama_pendek": "PERMENKUMHAM 17/2021",
    "jenis": "permenkumham",
    "status": "berlaku",
-   "tahap": "panen",
-   "jalur": null,
-   "api": null
+   "tahap": "terstruktur",
+   "jalur": "/permenkumham/2021/17/",
+   "api": "/api/permenkumham/2021/17.json"
+  },
+  {
+   "id": "permenkumham-2021-19",
+   "judul": "Peraturan Menteri Hukum dan HAM Nomor 19 Tahun 2021 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah",
+   "nama_pendek": "PERMENKUMHAM 19/2021",
+   "jenis": "permenkumham",
+   "status": "berlaku",
+   "tahap": "terstruktur",
+   "jalur": "/permenkumham/2021/19/",
+   "api": "/api/permenkumham/2021/19.json"
   },
   {
    "id": "perpres-2012-33",
@@ -142,9 +152,29 @@
    "api": null
   },
   {
+   "id": "pp-2021-18",
+   "judul": "Peraturan Pemerintah Nomor 18 Tahun 2021 tentang Hak Pengelolaan, Hak Atas Tanah, Satuan Rumah Susun, dan Pendaftaran Tanah",
+   "nama_pendek": "PP 18/2021",
+   "jenis": "pp",
+   "status": "berlaku",
+   "tahap": "panen",
+   "jalur": null,
+   "api": null
+  },
+  {
    "id": "putusan-mk-18-2019",
    "judul": "Putusan Mahkamah Konstitusi Nomor 18/PUU-XVII/2019 (pengujian Pasal 15 UU 42/1999 tentang Jaminan Fidusia — eksekusi sertifikat jaminan fidusia)",
    "nama_pendek": "Putusan MK 18/PUU-XVII/2019",
+   "jenis": "putusan-mk",
+   "status": "berlaku",
+   "tahap": "terverifikasi",
+   "jalur": null,
+   "api": null
+  },
+  {
+   "id": "putusan-mk-2-2021",
+   "judul": "Putusan Mahkamah Konstitusi Nomor 2/PUU-XIX/2021 (pengujian kembali Pasal 15 ayat (2) UU 42/1999 tentang Jaminan Fidusia — permohonan ditolak; penegasan makna Putusan 18/PUU-XVII/2019)",
+   "nama_pendek": "PUTUSAN-MK 2/PUU-XIX/2021/2021",
    "jenis": "putusan-mk",
    "status": "berlaku",
    "tahap": "terverifikasi",
@@ -210,6 +240,16 @@
    "tahap": "panen",
    "jalur": "/uu/1974/1/",
    "api": "/api/uu/1974/1.json"
+  },
+  {
+   "id": "uu-1992-25",
+   "judul": "Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian",
+   "nama_pendek": "UU 25/1992",
+   "jenis": "uu",
+   "status": "berlaku",
+   "tahap": "terstruktur",
+   "jalur": "/uu/1992/25/",
+   "api": "/api/uu/1992/25.json"
   },
   {
    "id": "uu-1996-4",
@@ -310,6 +350,16 @@
    "tahap": "terstruktur",
    "jalur": "/uu/2011/12/",
    "api": "/api/uu/2011/12.json"
+  },
+  {
+   "id": "uu-2011-20",
+   "judul": "Undang-Undang Nomor 20 Tahun 2011 tentang Rumah Susun",
+   "nama_pendek": "UU 20/2011",
+   "jenis": "uu",
+   "status": "berlaku",
+   "tahap": "terstruktur",
+   "jalur": "/uu/2011/20/",
+   "api": "/api/uu/2011/20.json"
   },
   {
    "id": "uu-2014-2",

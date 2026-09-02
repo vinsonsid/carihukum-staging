@@ -1,0 +1,1368 @@
+{
+ "dibangun": "2026-09-02",
+ "metode": "skor = 3×rujukan_korpus + 2×jumlah_pengubah + 1×jumlah_target_diubah + 4×domain_prioritas; ×0.3 bila dicabut; ×0.6 bila tahun<1990 (scan).",
+ "jumlah_kandidat": 533,
+ "antrean": [
+  {
+   "jenis": "uu",
+   "tahun": 2020,
+   "nomor": "11",
+   "judul": "Cipta Kerja",
+   "status": "berlaku",
+   "skor": 102.0,
+   "komponen": {
+    "diubah_n": 20,
+    "pengubah_murah": 82
+   },
+   "bpk_id": "149750",
+   "slug": "uu-no-11-tahun-2020"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2008,
+   "nomor": "39",
+   "judul": "Kementerian Negara",
+   "status": "diubah",
+   "skor": 17.0,
+   "komponen": {
+    "rujukan_korpus": 15,
+    "diubah_n": 2
+   },
+   "bpk_id": "39719",
+   "slug": "uu-no-39-tahun-2008"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2011,
+   "nomor": "1",
+   "judul": "Perumahan dan Kawasan Permukiman",
+   "status": "diubah",
+   "skor": 13.0,
+   "komponen": {
+    "rujukan_korpus": 3,
+    "diubah_n": 6,
+    "domain": 4
+   },
+   "bpk_id": "39128",
+   "slug": "uu-no-1-tahun-2011"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2007,
+   "nomor": "27",
+   "judul": "Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil",
+   "status": "diubah",
+   "skor": 12.0,
+   "komponen": {
+    "diubah_n": 8,
+    "domain": 4
+   },
+   "bpk_id": "39911",
+   "slug": "uu-no-27-tahun-2007"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2004,
+   "nomor": "40",
+   "judul": "Sistem Jaminan Sosial Nasional",
+   "status": "diubah",
+   "skor": 12.0,
+   "komponen": {
+    "diubah_n": 8,
+    "domain": 4
+   },
+   "bpk_id": "40787",
+   "slug": "uu-no-40-tahun-2004"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1983,
+   "nomor": "7",
+   "judul": "Pajak Penghasilan",
+   "status": "diubah",
+   "skor": 12.0,
+   "komponen": {
+    "diubah_n": 16,
+    "pengubah_murah": 4,
+    "x_scan_tua": 0.6
+   },
+   "bpk_id": "46988",
+   "slug": "uu-no-7-tahun-1983"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1983,
+   "nomor": "6",
+   "judul": "Ketentuan Umum dan Tata Cara Perpajakan",
+   "status": "diubah",
+   "skor": 10.8,
+   "komponen": {
+    "diubah_n": 18,
+    "x_scan_tua": 0.6
+   },
+   "bpk_id": "46986",
+   "slug": "uu-no-6-tahun-1983"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "17",
+   "judul": "Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 10
+   },
+   "bpk_id": "38643",
+   "slug": "uu-no-17-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "3",
+   "judul": "Perindustrian",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 6,
+    "domain": 4
+   },
+   "bpk_id": "38572",
+   "slug": "uu-no-3-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "33",
+   "judul": "Jaminan Produk Halal",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 6,
+    "domain": 4
+   },
+   "bpk_id": "38709",
+   "slug": "uu-no-33-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2012,
+   "nomor": "2",
+   "judul": "Pengadaan Tanah Bagi Pembangunan Untuk Kepentingan Umum",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 6,
+    "domain": 4
+   },
+   "bpk_id": "39012",
+   "slug": "uu-no-2-tahun-2012"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "4",
+   "judul": "Pertambangan Mineral dan Batubara",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 10
+   },
+   "bpk_id": "38578",
+   "slug": "uu-no-4-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2008,
+   "nomor": "20",
+   "judul": "Usaha Mikro, Kecil, dan Menengah",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 6,
+    "domain": 4
+   },
+   "bpk_id": "39653",
+   "slug": "uu-no-20-tahun-2008"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2007,
+   "nomor": "25",
+   "judul": "Penanaman Modal",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 6,
+    "domain": 4
+   },
+   "bpk_id": "39903",
+   "slug": "uu-no-25-tahun-2007"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2000,
+   "nomor": "37",
+   "judul": "Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2000 tentang Kawasan Perdagangan Bebas dan Pelabuhan Bebas Sabang Menjadi Undang-Undang",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 6,
+    "domain": 4
+   },
+   "bpk_id": "45244",
+   "slug": "uu-no-37-tahun-2000"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1999,
+   "nomor": "5",
+   "judul": "Larangan Praktek Monopoli dan Persaingan Usaha Tidak Sehat",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 6,
+    "domain": 4
+   },
+   "bpk_id": "45280",
+   "slug": "uu-no-5-tahun-1999"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1992,
+   "nomor": "7",
+   "judul": "Perbankan",
+   "status": "diubah",
+   "skor": 10.0,
+   "komponen": {
+    "diubah_n": 10
+   },
+   "bpk_id": "46599",
+   "slug": "uu-no-7-tahun-1992"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2025,
+   "nomor": "1",
+   "judul": "Perubahan Ketiga atas Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara",
+   "status": "diubah",
+   "skor": 9.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 3,
+    "domain": 4
+   },
+   "bpk_id": "314622",
+   "slug": "uu-no-1-tahun-2025"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1983,
+   "nomor": "8",
+   "judul": "Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah",
+   "status": "diubah",
+   "skor": 8.4,
+   "komponen": {
+    "diubah_n": 14,
+    "x_scan_tua": 0.6
+   },
+   "bpk_id": "46990",
+   "slug": "uu-no-8-tahun-1983"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2025,
+   "nomor": "16",
+   "judul": "Perubahan Keempat atas Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara",
+   "status": "berlaku",
+   "skor": 8.0,
+   "komponen": {
+    "pengubah_murah": 4,
+    "domain": 4
+   },
+   "bpk_id": "330668",
+   "slug": "uu-no-16-tahun-2025"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2019,
+   "nomor": "8",
+   "judul": "Penyelenggaraan Ibadah Haji dan Umrah",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "106346",
+   "slug": "uu-no-8-tahun-2019"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2016,
+   "nomor": "13",
+   "judul": "Paten",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "37536",
+   "slug": "uu-no-13-tahun-2016"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2015,
+   "nomor": "1",
+   "judul": "Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2014 Tentang Pemilihan Gubernur, Bupati, Dan Walikota Menjadi Undang-Undang",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "37341",
+   "slug": "uu-no-1-tahun-2015"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "18",
+   "judul": "Peternakan dan Kesehatan Hewan",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "38634",
+   "slug": "uu-no-18-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2008,
+   "nomor": "17",
+   "judul": "Pelayaran",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "39060",
+   "slug": "uu-no-17-tahun-2008"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2008,
+   "nomor": "21",
+   "judul": "Perbankan Syariah",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "39655",
+   "slug": "uu-no-21-tahun-2008"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2004,
+   "nomor": "38",
+   "judul": "Jalan",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "40785",
+   "slug": "uu-no-38-tahun-2004"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2002,
+   "nomor": "2",
+   "judul": "Kepolisian Negara Republik Indonesia",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "44418",
+   "slug": "uu-no-2-tahun-2002"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1999,
+   "nomor": "23",
+   "judul": "Bank Indonesia",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 8
+   },
+   "bpk_id": "45332",
+   "slug": "uu-no-23-tahun-1999"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1997,
+   "nomor": "32",
+   "judul": "Perdagangan Berjangka Komoditi",
+   "status": "diubah",
+   "skor": 8.0,
+   "komponen": {
+    "diubah_n": 4,
+    "domain": 4
+   },
+   "bpk_id": "46052",
+   "slug": "uu-no-32-tahun-1997"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2020,
+   "nomor": "3",
+   "judul": "Perubahan atas Undang-Undang Nomor 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 6,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "138909",
+   "slug": "uu-no-3-tahun-2020"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "1",
+   "judul": "Perubahan atas Undang-Undang Nomor 27 Tahun 2007 Tentang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 6,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "38521",
+   "slug": "uu-no-1-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "41",
+   "judul": "Perubahan atas Undang-Undang Nomor 18 Tahun 2009 Tentang Peternakan dan Kesehatan Hewan&#xD;&#xA;",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 6,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "38801",
+   "slug": "uu-no-41-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2011,
+   "nomor": "10",
+   "judul": "Perubahan atas Undang-Undang Nomor 32 Tahun 1997 Tentang Perdagangan Berjangka Komoditi",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 1,
+    "domain": 4
+   },
+   "bpk_id": "39186",
+   "slug": "uu-no-10-tahun-2011"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "16",
+   "judul": "Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 5 Tahun 2008 Tentang Perubahan Keempat Atas Undang-Undang Nomor 6 Tahun 1983 Tentang Ketentuan Umum dan Tata Cara Perpajakan Menjadi Undang-Undang",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 4,
+    "pengubah_murah": 3
+   },
+   "bpk_id": "38624",
+   "slug": "uu-no-16-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "45",
+   "judul": "Perubahan Atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 6,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "38790",
+   "slug": "uu-no-45-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2004,
+   "nomor": "9",
+   "judul": "Perubahan Atas Undang-Undang Nomor 5 Tahun 1986 tentang Peradilan Tata Usaha Negara",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 1,
+    "domain": 4
+   },
+   "bpk_id": "40500",
+   "slug": "uu-no-9-tahun-2004"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1994,
+   "nomor": "9",
+   "judul": "Perubahan atas Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 6,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "46230",
+   "slug": "uu-no-9-tahun-1994"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1991,
+   "nomor": "7",
+   "judul": "Perubahan atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+   "status": "diubah",
+   "skor": 7.0,
+   "komponen": {
+    "diubah_n": 6,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "46659",
+   "slug": "uu-no-7-tahun-1991"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2019,
+   "nomor": "11",
+   "judul": "Sistem Nasional Ilmu Pengetahuan dan Teknologi",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "117023",
+   "slug": "uu-no-11-tahun-2019"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2019,
+   "nomor": "22",
+   "judul": "Sistem Budi Daya Pertanian Berkelanjutan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "123688",
+   "slug": "uu-no-22-tahun-2019"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2017,
+   "nomor": "18",
+   "judul": "Pelindungan Pekerja Migran Indonesia",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "64508",
+   "slug": "uu-no-18-tahun-2017"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2017,
+   "nomor": "2",
+   "judul": "Jasa Konstruksi",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "37637",
+   "slug": "uu-no-2-tahun-2017"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2017,
+   "nomor": "6",
+   "judul": "Arsitek",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "37643",
+   "slug": "uu-no-6-tahun-2017"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2016,
+   "nomor": "1",
+   "judul": "Penjaminan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 2,
+    "domain": 4
+   },
+   "bpk_id": "37162",
+   "slug": "uu-no-1-tahun-2016"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2016,
+   "nomor": "20",
+   "judul": "Merek dan Indikasi Geografis",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "37595",
+   "slug": "uu-no-20-tahun-2016"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2016,
+   "nomor": "7",
+   "judul": "Perlindungan dan Pemberdayaan Nelayan, Pembudi Daya Ikan, dan Petambak Garam",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "37237",
+   "slug": "uu-no-7-tahun-2016"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "30",
+   "judul": "Administrasi Pemerintahan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38695",
+   "slug": "uu-no-30-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "32",
+   "judul": "Kelautan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38710",
+   "slug": "uu-no-32-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "39",
+   "judul": "Perkebunan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38807",
+   "slug": "uu-no-39-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2013,
+   "nomor": "19",
+   "judul": "Perlindungan dan Pemberdayaan Petani",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38893",
+   "slug": "uu-no-19-tahun-2013"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2012,
+   "nomor": "16",
+   "judul": "Industri Pertahanan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "39088",
+   "slug": "uu-no-16-tahun-2012"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2011,
+   "nomor": "4",
+   "judul": "Informasi Geospasial",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "39136",
+   "slug": "uu-no-4-tahun-2011"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2010,
+   "nomor": "13",
+   "judul": "Hortikultura",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38555",
+   "slug": "uu-no-13-tahun-2010"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "30",
+   "judul": "Ketenagalistrikan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38767",
+   "slug": "uu-no-30-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "33",
+   "judul": "Perfilman",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38772",
+   "slug": "uu-no-33-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "38",
+   "judul": "POS",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38783",
+   "slug": "uu-no-38-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "39",
+   "judul": "Kawasan Ekonomi Khusus",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "54483",
+   "slug": "uu-no-39-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "41",
+   "judul": "Perlindungan Lahan Pertanian Pangan Berkelanjutan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "38786",
+   "slug": "uu-no-41-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2008,
+   "nomor": "36",
+   "judul": "Perubahan Keempat Atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 4
+   },
+   "bpk_id": "39704",
+   "slug": "uu-no-36-tahun-2008"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2007,
+   "nomor": "23",
+   "judul": "Perkeretaapian",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "39896",
+   "slug": "uu-no-23-tahun-2007"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2004,
+   "nomor": "24",
+   "judul": "Lembaga Penjamin Simpanan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "40598",
+   "slug": "uu-no-24-tahun-2004"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2003,
+   "nomor": "13",
+   "judul": "Ketenagakerjaan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "43013",
+   "slug": "uu-no-13-tahun-2003"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2003,
+   "nomor": "24",
+   "judul": "Mahkamah Konstitusi",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "44069",
+   "slug": "uu-no-24-tahun-2003"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2002,
+   "nomor": "22",
+   "judul": "Grasi",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 2,
+    "domain": 4
+   },
+   "bpk_id": "44471",
+   "slug": "uu-no-22-tahun-2002"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2002,
+   "nomor": "24",
+   "judul": "Surat Utang Negara",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 2,
+    "domain": 4
+   },
+   "bpk_id": "44476",
+   "slug": "uu-no-24-tahun-2002"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2002,
+   "nomor": "28",
+   "judul": "Bangunan Gedung",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "44487",
+   "slug": "uu-no-28-tahun-2002"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2002,
+   "nomor": "32",
+   "judul": "Penyiaran",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "44500",
+   "slug": "uu-no-32-tahun-2002"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2001,
+   "nomor": "21",
+   "judul": "Otonomi Khusus Bagi Provinsi Papua",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "44901",
+   "slug": "uu-no-21-tahun-2001"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2000,
+   "nomor": "29",
+   "judul": "Perlindungan Varietas Tanaman",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "45000",
+   "slug": "uu-no-29-tahun-2000"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1999,
+   "nomor": "36",
+   "judul": "Telekomunikasi",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "45357",
+   "slug": "uu-no-36-tahun-1999"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1999,
+   "nomor": "53",
+   "judul": "Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam&#xD;&#xA;&#xD;&#xA;",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "45399",
+   "slug": "uu-no-53-tahun-1999"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1997,
+   "nomor": "10",
+   "judul": "Ketenaganukliran",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "45931",
+   "slug": "uu-no-10-tahun-1997"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1997,
+   "nomor": "21",
+   "judul": "Bea Perolehan atas Tanah dan Bangunan",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 2,
+    "domain": 4
+   },
+   "bpk_id": "46012",
+   "slug": "uu-no-21-tahun-1997"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1997,
+   "nomor": "5",
+   "judul": "Psikotropika",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6
+   },
+   "bpk_id": "45926",
+   "slug": "uu-no-5-tahun-1997"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1995,
+   "nomor": "8",
+   "judul": "Pasar Modal",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 2,
+    "domain": 4
+   },
+   "bpk_id": "46197",
+   "slug": "uu-no-8-tahun-1995"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1994,
+   "nomor": "10",
+   "judul": "Perubahan atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah Diubah Dengan Undang-Undang Nomor 7 Tahun 1991",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 4,
+    "pengubah_murah": 2
+   },
+   "bpk_id": "46232",
+   "slug": "uu-no-10-tahun-1994"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1946,
+   "nomor": "3",
+   "judul": "Warga Negara dan Penduduk Negara",
+   "status": "diubah",
+   "skor": 6.0,
+   "komponen": {
+    "diubah_n": 6,
+    "domain": 4,
+    "x_scan_tua": 0.6
+   },
+   "bpk_id": "25033",
+   "slug": "uu-no-3-tahun-1946"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2022,
+   "nomor": "3",
+   "judul": "Ibu Kota Negara",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 3
+   },
+   "bpk_id": "198400",
+   "slug": "uu-no-3-tahun-2022"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2016,
+   "nomor": "10",
+   "judul": "Perubahan Kedua Atas Undang-Undang Nomor 1 Tahun 2015 Tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2014 Tentang Pemilihan Gubernur, Bupati, Dan Walikota Menjadi Undang-Undang",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 4,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "37311",
+   "slug": "uu-no-10-tahun-2016"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2014,
+   "nomor": "42",
+   "judul": "Perubahan atas Undang-Undang Nomor 17 Tahun 2014 Tentang Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah&#xD;&#xA;",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 4,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "38805",
+   "slug": "uu-no-42-tahun-2014"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2013,
+   "nomor": "24",
+   "judul": "Perubahan atas Undang-Undang Nomor 23 Tahun 2006 tentang Administrasi Kependudukan",
+   "status": "berlaku",
+   "skor": 5.0,
+   "komponen": {
+    "pengubah_murah": 1,
+    "domain": 4
+   },
+   "bpk_id": "38985",
+   "slug": "uu-no-24-tahun-2013"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2011,
+   "nomor": "8",
+   "judul": "Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 Tentang Mahkamah Konstitusi",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 4,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "39183",
+   "slug": "uu-no-8-tahun-2011"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2010,
+   "nomor": "5",
+   "judul": "Perubahan atas Undang-Undang Nomor 22 Tahun 2002 tentang Grasi",
+   "status": "berlaku",
+   "skor": 5.0,
+   "komponen": {
+    "pengubah_murah": 1,
+    "domain": 4
+   },
+   "bpk_id": "38540",
+   "slug": "uu-no-5-tahun-2010"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "29",
+   "judul": "Perubahan atas Undang-Undang Nomor 15 Tahun 1997 tentang Ketransmigrasian",
+   "status": "berlaku",
+   "skor": 5.0,
+   "komponen": {
+    "pengubah_murah": 1,
+    "domain": 4
+   },
+   "bpk_id": "38765",
+   "slug": "uu-no-29-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "49",
+   "judul": "Perubahan Kedua Atas Undang-Undang Nomor 2 Tahun 1986 Tentang Peradilan Umum",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "pengubah_murah": 1,
+    "domain": 4
+   },
+   "bpk_id": "38794",
+   "slug": "uu-no-49-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2009,
+   "nomor": "6",
+   "judul": "Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 Tentang Perubahan Kedua Atas Undang Undang Nomor 23 Tahun 1999 tentang Bank Indonesia menjadi Undang-Undang",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 4,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "38588",
+   "slug": "uu-no-6-tahun-2009"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2007,
+   "nomor": "28",
+   "judul": "Perubahan Ketiga atas Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 3
+   },
+   "bpk_id": "39916",
+   "slug": "uu-no-28-tahun-2007"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2004,
+   "nomor": "19",
+   "judul": "Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2004 tentang Perubahan atas Undang-Undang Nomor 41 Tahun 1999 tentang Kehutanan Menjadi Undang-Undang",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 4,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "40518",
+   "slug": "uu-no-19-tahun-2004"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2004,
+   "nomor": "8",
+   "judul": "Perubahan atas Undang-Undang Nomor 2 Tahun 1986 tentang Peradilan Umum",
+   "status": "berlaku",
+   "skor": 5.0,
+   "komponen": {
+    "pengubah_murah": 1,
+    "domain": 4
+   },
+   "bpk_id": "40498",
+   "slug": "uu-no-8-tahun-2004"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2000,
+   "nomor": "17",
+   "judul": "Perubahan Ketiga atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 3
+   },
+   "bpk_id": "44968",
+   "slug": "uu-no-17-tahun-2000"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2000,
+   "nomor": "20",
+   "judul": "Perubahan atas Undang-Undang Nomor 21 Tahun 1997 tentang Bea Perolehan Hak atas Tanah dan Bangunan",
+   "status": "berlaku",
+   "skor": 5.0,
+   "komponen": {
+    "pengubah_murah": 1,
+    "domain": 4
+   },
+   "bpk_id": "44986",
+   "slug": "uu-no-20-tahun-2000"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1994,
+   "nomor": "11",
+   "judul": "Perubahan atas Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah",
+   "status": "diubah",
+   "skor": 5.0,
+   "komponen": {
+    "diubah_n": 4,
+    "pengubah_murah": 1
+   },
+   "bpk_id": "46235",
+   "slug": "uu-no-11-tahun-1994"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 1947,
+   "nomor": "8",
+   "judul": "Memperpanjang Waktu untuk Mengajukan Pernyataan Berhubung dengan Kewargaan Negara Indonesia",
+   "status": "diubah",
+   "skor": 4.8,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 2,
+    "domain": 4,
+    "x_scan_tua": 0.6
+   },
+   "bpk_id": "25229",
+   "slug": "uu-no-8-tahun-1947"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2025,
+   "nomor": "2",
+   "judul": "Perubahan Keempat atas Undang-Undang Nomor 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara",
+   "status": "berlaku",
+   "skor": 4.0,
+   "komponen": {
+    "pengubah_murah": 4
+   },
+   "bpk_id": "316682",
+   "slug": "uu-no-2-tahun-2025"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2022,
+   "nomor": "12",
+   "judul": "Tindak Pidana Kekerasan Seksual",
+   "status": "berlaku",
+   "skor": 4.0,
+   "komponen": {
+    "domain": 4
+   },
+   "bpk_id": "207944",
+   "slug": "uu-no-12-tahun-2022"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2022,
+   "nomor": "2",
+   "judul": "Perubahan Kedua atas Undang-Undang Nomor 38 Tahun 2004 tentang Jalan",
+   "status": "diubah",
+   "skor": 4.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 2
+   },
+   "bpk_id": "195878",
+   "slug": "uu-no-2-tahun-2022"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2022,
+   "nomor": "22",
+   "judul": "Pemasyarakatan",
+   "status": "berlaku",
+   "skor": 4.0,
+   "komponen": {
+    "domain": 4
+   },
+   "bpk_id": "218804",
+   "slug": "uu-no-22-tahun-2022"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2021,
+   "nomor": "4",
+   "judul": "Pengesahan ASEAN Agreement on Electronic Commerce (Persetujuan ASEAN tentang Perdagangan Melalui Sistem Elektronik)",
+   "status": "berlaku",
+   "skor": 4.0,
+   "komponen": {
+    "domain": 4
+   },
+   "bpk_id": "184579",
+   "slug": "uu-no-4-tahun-2021"
+  },
+  {
+   "jenis": "uu",
+   "tahun": 2018,
+   "nomor": "2",
+   "judul": "Perubahan Kedua atas Undang-Undang Nomor 17 Tahun 2014 tentang Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah",
+   "status": "diubah",
+   "skor": 4.0,
+   "komponen": {
+    "diubah_n": 2,
+    "pengubah_murah": 2
+   },
+   "bpk_id": "72791",
+   "slug": "uu-no-2-tahun-2018"
+  }
+ ]
+}

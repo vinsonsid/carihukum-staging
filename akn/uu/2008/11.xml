@@ -24,7 +24,179 @@
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2008-04-21" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2016-09-07" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2016-11-25" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2024-01-02" source="#org_3" type="amendment"/>
+        <eventRef eId="e_4" date="2026-01-02" source="#org_4" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2016/19"/>
+          <destination href="#pasal_1"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2016/19"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2016/19"/>
+          <destination href="#pasal_31"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2016/19"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2016/19"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2016/19"/>
+          <destination href="#pasal_45"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_7">
+          <source href="/akn/id/act/uu/2016/19"/>
+          <destination href="#pasal_45a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_8">
+          <source href="/akn/id/act/uu/2016/19"/>
+          <destination href="#pasal_45b"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_5"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_11">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_13a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_12">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_16a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_13">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_16b"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_17"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_15">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_18a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_16">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_17">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_40a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_27"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_20">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_27a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_21">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_27b"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_22">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_28"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_23">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_24">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_36"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_25">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_45"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_26">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_45a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_27">
+          <source href="/akn/id/act/uu/2024/1"/>
+          <destination href="#pasal_45b"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_28">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_27__ayat_1"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_29">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_28__ayat_2"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_30">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_31">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_31__ayat_1"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_32">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_31__ayat_2"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_33">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_36"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_34">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_45__ayat_1"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_35">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_45__ayat_3"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_36">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_45a__ayat_2"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_37">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_46"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_38">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_47"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_39">
+          <source href="/akn/id/act/uu/2023/1"/>
+          <destination href="#pasal_51__ayat_2"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/putusan-mk/2016/20/PUU-XIV/2016" showAs="Putusan Mahkamah Konstitusi Nomor 20/PUU-XIV/2016 (pengujian Pasal 5 dan Pasal 44 UU ITE serta Pasal 26A UU Tipikor — informasi/dokumen elektronik sebagai alat bukti)"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/uu/2016/19" showAs="Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2024/1" showAs="Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik"/>
+        <TLCOrganization eId="org_4" href="/akn/id/act/uu/2023/1" showAs="Kitab Undang-Undang Hukum Pidana"/>
+
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
       </references>

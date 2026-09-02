@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/1992/25/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1992/25"/>
+          <FRBRdate date="1992-10-21" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/1992/25/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1992/25/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/1992/25/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1992/25/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-02" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="1992-10-21" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2023-03-31" source="#org_1" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_21"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_22"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_5">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_44a"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
+      <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Koperasi adalah badan usaha yang beranggotakan orang-seorang atau badan hukum Koperasi dengan melandaskan kegiatannya berdasarkan prinsip Koperasi sekaligus sebagai gerakan ekonomi rakyat yang berdasar atas asas kekeluargaan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Perkoperasian adalah segala sesuatu yang menyangkut kehidupan Koperasi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Koperasi Primer adalah Koperasi yang didirikan oleh dan beranggotakan orang-seorang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Koperasi Sekunder adalah Koperasi yang didirikan oleh dan beranggotakan Koperasi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Gerakan Koperasi adalah keseluruhan organisasi Koperasi dan kegiatan perkoperasian yang bersifat terpadu menuju tercapainya cita-cita bersama Koperasi.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>LANDASAN, ASAS, DAN TUJUAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Koperasi berlandaskan Pancasila dan Undang-Undang Dasar 1945 serta berdasar atas asas kekeluargaan.</p></content>
+          </article>
+          <part eId="bab_2__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Tujuan</heading>
+              <article eId="pasal_3">
+                <num>3</num>
+                <content><p>Koperasi bertujuan memajukan kesejahteraan anggota pada khususnya dan masyarakat pada umumnya serta ikut membangun tatanan perekonomian nasional dalam rangka mewujudkan masyarakat yang maju, adil, dan makmur berlandaskan Pancasila dan Undang-Undang Dasar 1945.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>FUNGSI, PERAN, DAN PRINSIP KOPERASI</heading>
+          <article eId="pasal_4">
+            <num>4</num>
+            <intro><p>Fungsi dan peran Koperasi adalah:</p></intro>
+              <point eId="pasal_4__huruf_a">
+                <num>a.</num>
+                <content><p>membangun dan mengembangkan potensi dan kemampuan ekonomi anggota pada khususnya dan masyarakat pada umumnya untuk meningkatkan kesejahteraan ekonomi dan sosialnya;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_b">
+                <num>b.</num>
+                <content><p>berperan serta secara aktif dalam upaya mempertinggi kualitas kehidupan manusia dan masyarakat;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_c">
+                <num>c.</num>
+                <content><p>memperkokoh perekonomian rakyat sebagai dasar kekuatan dan ketahanan perekonomian nasional dengan Koperasi sebagai sokogurunya;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_d">
+                <num>d.</num>
+                <content><p>berusaha untuk mewujudkan dan mengembangkan perekonomian nasional yang merupakan usaha bersama berdasar atas asas kekeluargaan dan demokrasi ekonomi.</p></content>
+              </point>
+
+          </article>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Prinsip Koperasi</heading>
+              <article eId="pasal_5">
+                <num>5</num>
+                  <paragraph eId="pasal_5__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Koperasi melaksanakan prinsip Koperasi sebagai berikut:</p></intro>
+                      <point eId="pasal_5__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>keanggotaan bersifat sukarela dan terbuka;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pengelolaan dilakukan secara demokratis;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>pembagian sisa hasil usaha dilakukan secara adil sebanding dengan besarnya jasa usaha masing-masing anggota;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>pemberian balas jasa yang terbatas terhadap modal;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>kemandirian.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Dalam mengembangkan Koperasi, maka Koperasi melaksanakan pula prinsip Koperasi sebagai berikut:</p></intro>
+                      <point eId="pasal_5__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>pendidikan perkoperasian;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>kerja sama antarkoperasi.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PEMBENTUKAN</heading>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <content><p>Koperasi Primer dibentuk paling sedikit oleh 9 (sembilan) orang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Koperasi Sekunder dibentuk oleh paling sedikit 3 (tiga) Koperasi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembentukan Koperasi sebagaimana dimaksud dalam Pasal 6 dilakukan dengan akta pendirian yang memuat Anggaran Dasar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Koperasi mempunyai tempat kedudukan dalam wilayah negara Republik Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+            <intro><p>Anggaran Dasar sebagaimana dimaksud dalam Pasal 7 ayat (1) memuat sekurang-kurangnya:</p></intro>
+              <point eId="pasal_8__huruf_a">
+                <num>a.</num>
+                <content><p>daftar nama pendiri;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_b">
+                <num>b.</num>
+                <content><p>nama dan tempat kedudukan;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_c">
+                <num>c.</num>
+                <content><p>maksud dan tujuan serta bidang usaha;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_d">
+                <num>d.</num>
+                <content><p>ketentuan mengenai keanggotaan;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_e">
+                <num>e.</num>
+                <content><p>ketentuan mengenai Rapat Anggota;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_f">
+                <num>f.</num>
+                <content><p>ketentuan mengenai pengelolaan;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_g">
+                <num>g.</num>
+                <content><p>ketentuan mengenai permodalan;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_h">
+                <num>h.</num>
+                <content><p>ketentuan mengenai jangka waktu berdirinya;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_i">
+                <num>i.</num>
+                <content><p>ketentuan mengenai pembagian sisa hasil usaha;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_j">
+                <num>j.</num>
+                <content><p>ketentuan mengenai sanksi.</p></content>
+              </point>
+
+          </article>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Status Badan Hukum</heading>
+              <article eId="pasal_9">
+                <num>9</num>
+                <content><p>Koperasi memperoleh status badan hukum setelah akta pendiriannya disahkan oleh Pemerintah.</p></content>
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                  <paragraph eId="pasal_10__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Untuk mendapatkan pengesahan sebagaimana dimaksud dalam Pasal 9, para pendiri mengajukan permintaan tertulis disertai akta pendirian Koperasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengesahan akta pendirian diberikan dalam jangka waktu paling lama 3 (tiga) bulan setelah diterimanya permintaan pengesahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengesahan akta pendirian diumumkan dalam Berita Negara Republik Indonesia.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal permintaan pengesahan akta pendirian ditolak, alasan penolakan diberitahukan kepada para pendiri secara tertulis dalam. waktu paling lambat 3 (tiga) bulan setelah diterimanya permintaan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Terhadap penolakan pengesahan akta pendirian para pendiri dapat mengajukan permintaan ulang dalam waktu paling lama 1 (satu) bulan sejak diterimanya penolakan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Keputusan terhadap pengajuan permintaan ulang diberikan dalam jangka waktu paling lama 1 (satu) bulan sejak diterimanya pengajuan permintaan ulang.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Perubahan Anggaran Dasar dilakukan oleh Rapat Anggpta.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Terhadap perubahan Anggaran Dasar yang menyangkut penggabungan, pembagian, dan perubahan bidang usaha Koperasi dimintakan pengesahan kepada Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                <content><p>Ketentuan mengenai persyaratan dan tata cara pengesahan atau penolakan pengesahan akta pendirian, dan perubahan Anggaran Dasar sebagaimana dimaksud dalam Pasal 9, Pasal 10, Pasal 11, dan Pasal 12 diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Untuk keperluan pengembangan dan/atau efisiensi usaha, satu Koperasi atau lebih dapat:</p></intro>
+                      <point eId="pasal_14__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>menggabungkan diri menjadi satu dengan Koperasi lain, atau</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>bersama Koperasi lain meleburkan diri dengan membentuk Koperasi baru.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penggabungan atau peleburan dilakukan dengan persetujuan Rapat Anggota masing-masing Koperasi.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Bentuk dan Jenis</heading>
+              <article eId="pasal_15">
+                <num>15</num>
+                <content><p>Koperasi dapat berbentuk Koperasi Primer atau Koperasi Sekunder.</p></content>
+              </article>
+              <article eId="pasal_16">
+                <num>16</num>
+                <content><p>Jenis Koperasi didasarkan pada kesamaan kegiatan dan kepentingan ekonomi anggotanya.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>KEANGGOTAAN</heading>
+          <article eId="pasal_17">
+            <num>17</num>
+              <paragraph eId="pasal_17__ayat_1">
+                <num>(1)</num>
+                <content><p>Anggota Koperasi adalah pemilik dan sekaligus pengguna jasa Koperasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_2">
+                <num>(2)</num>
+                <content><p>Keanggotaan Koperasi dicatat dalam buku daftar anggota.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <content><p>Yang dapat menjadi anggota Koperasi ialah setiap warga negara Indonesia yang mampu melakukan tindakan hukum atau Koperasi yang memenuhi persyaratan sebagaimana ditetapkan dalam Anggaran Dasar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Koperasi dapat memiliki anggota luar biasa yang persyaratan, hak, dan kewajiban keanggotaannya ditetapkan dalam Anggaran Dasar.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+              <paragraph eId="pasal_19__ayat_1">
+                <num>(1)</num>
+                <content><p>Keanggotaan Koperasi didasarkan pada kesamaan kepentingan ekonomi dalam lingkup usaha Koperasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_2">
+                <num>(2)</num>
+                <content><p>Keanggotaan Koperasi dapat diperoleh atau diakhiri setelah syarat sebagaimana diatur dalam Anggaran Dasar dipenuhi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_3">
+                <num>(3)</num>
+                <content><p>Keanggotaan Koperasi tidak dapat dipindahtangankan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_4">
+                <num>(4)</num>
+                <content><p>Setiap anggota mempunyai kewajiban dan hak yang sama terhadap Koperasi sebagaimana diatur dalam Anggaran Dasar.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <intro><p>Setiap anggota mempunyai kewajiban:</p></intro>
+                  <point eId="pasal_20__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>mematuhi Anggaran Dasar dan Anggaran Rumah Tangga serta keputusan yang telah disepakati dalam Rapat Anggota;</p></content>
+                  </point>
+                  <point eId="pasal_20__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>berpartisipasi dalam kegiatan usaha yang diselenggarakan oleh Koperasi;</p></content>
+                  </point>
+                  <point eId="pasal_20__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>mengembangkan dan memelihara kebersamaan berdasar atas asas kekeluargaan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <intro><p>Setiap anggota mempunyai hak:</p></intro>
+                  <point eId="pasal_20__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>menghadiri, menyatakan pendapat, dan memberikan suara dalam Rapat Anggota;</p></content>
+                  </point>
+                  <point eId="pasal_20__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>memilih dan/atau dipilih menjadi anggota Pengurus atau Pengawas;</p></content>
+                  </point>
+                  <point eId="pasal_20__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>meminta diadakan Rapat Anggota menurut ketentuan dalam Anggaran Dasar;</p></content>
+                  </point>
+                  <point eId="pasal_20__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>mengemukakan pendapat atau saran kepada Pengurus diluar Rapat Anggota baik diminta maupun tidak diminta;</p></content>
+                  </point>
+                  <point eId="pasal_20__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>memanfaatkan Koperasi dan mendapat pelayanan yang sama antara sesama anggota;</p></content>
+                  </point>
+                  <point eId="pasal_20__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>mendapatkan keterangan mengenai perkembangan Koperasi menurut ketentuan dalam Anggaran Dasar.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PERANGKAT ORGANISASI</heading>
+          <article eId="pasal_21">
+            <num>21</num>
+              <paragraph eId="pasal_21__ayat_1">
+                <num>(1)</num>
+                <intro><p>Perangkat organisasi Koperasi terdiri atas:</p></intro>
+                  <point eId="pasal_21__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Rapat Anggota;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pengurus; dan</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Pengawas.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_2">
+                <num>(2)</num>
+                <content><p>Selain memiliki perangkat organisasi Koperasi sebagaimana dimaksud pada ayat (1), Koperasi yang menjalankan kegiatan usaha berdasarkan prinsip syariah wajib memiliki dewan pengawas syariah.</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Rapat Anggota</heading>
+              <article eId="pasal_22">
+                <num>22</num>
+                  <paragraph eId="pasal_22__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Rapat Anggota merupakan pemegang kekuasaan tertinggi dalam Koperasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Rapat Anggota sebagaimana dimaksud pada ayat (1) dihadiri oleh anggota yang pelaksanaannya diatur dalam Anggaran Dasar/Anggaran Rumah Tangga.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Rapat Anggota sebagaimana dimaksud pada ayat (2) dapat dilakukan secara daring dan/atau luring.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Rapat Anggota sebagaimana dimaksud pada ayat (1), ayat (2), daurt ayat (3) diatur dalam Anggaran Dasar/Anggaran Rumah Tangga.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_23">
+                <num>23</num>
+                <intro><p>Rapat Anggota menetapkan:</p></intro>
+                  <point eId="pasal_23__huruf_a">
+                    <num>a.</num>
+                    <content><p>Anggaran Dasar;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_b">
+                    <num>b.</num>
+                    <content><p>kebijaksanaan umum dibidang organisasi manajemen, dan usaha Koperasi;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemilihan, pengangkatan, pemberhentian Pengurus dan Pengawas;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_d">
+                    <num>d.</num>
+                    <content><p>rencana kerja, rencana anggaran pendapatan dan belanja Koperasi, serta pengesahan laporan keuangan;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_e">
+                    <num>e.</num>
+                    <content><p>pengesahan pertanggungjawaban Pengurus dalam pelaksanaan tugasnya;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_f">
+                    <num>f.</num>
+                    <content><p>pembagian sisa hasil usaha;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_g">
+                    <num>g.</num>
+                    <content><p>penggabungan, peleburan, pembagian, dan pembubaran Koperasi.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                  <paragraph eId="pasal_24__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Keputusan Rapat Anggota diambil berdasarkan musyawarah untuk mencapai mufakat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Apabila tidak diperoleh keputusan dengan cara musyawarah, maka pengambilan keputusan dilakukan berdasarkan suara terbanyak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal dilakukan pemungutan suara, setiap anggota mempunyai hak satu suara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Hak suara dalam Koperasi Sekunder dapat diatur dalam Anggaran Dasar dengan mempertimbangkan jumlah anggota dan jasa usaha Koperasi-anggota secara berimbang.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_25">
+                <num>25</num>
+                <content><p>Rapat Anggota berhak meminta keterangan dan pertanggungjawaban Pengurus dan Pengawas mengenai pengelolaan Koperasi.</p></content>
+              </article>
+              <article eId="pasal_26">
+                <num>26</num>
+                  <paragraph eId="pasal_26__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Rapat Anggota dilakukan paling sedikit sekali dalam 1 (satu) tahun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Rapat Anggota untuk mengesahkan pertanggungjawaban Pengurus diselenggarakan paling lambat 6 (enam) bulan setelah tahun buku lampau.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_27">
+                <num>27</num>
+                  <paragraph eId="pasal_27__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Selain Rapat Anggota sebagaimana dimaksud dalam Pasal 26, Koperasi dapat melakukan Rapat Anggota Luar Biasa apabila keadaan mengharuskan adanya keputusan segera yang wewenangnyaada pada Rapat Anggota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Rapat Anggota Luar Biasa dapat diadakan atas permintaan sejumlah anggota Koperasi atau atas keputusan Pengurus yang pelaksanaannya diatur dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Rapat Anggota Luar Biasa mempunyai wewenang yang sama dengan wewenang Rapat Anggota sebagaimana dimaksud dalam Pasal 23</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_28">
+                <num>28</num>
+                <content><p>Persyaratan, tata cara, dan tempat penyelenggaraan Rapat Anggota dan Rapat Anggota Luar Biasa diatur dalam Anggaran Dasar.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pengurus</heading>
+              <article eId="pasal_29">
+                <num>29</num>
+                  <paragraph eId="pasal_29__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengurus dipilih dari dan oleh anggota Koperasi dalam Rapat Anggota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengurus merupakan pemegang kuasa Rapat Anggota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Untuk pertama kali, susunan dan nama anggota Pengurus dicantumkan dalam akta pendirian.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Masa jabatan Pengurus paling lama 5 (lima) tahun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Persyaratan untuk dapat dipilih dan diangkat menjadi anggota Pengurus ditetapkan dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_30">
+                <num>30</num>
+                  <paragraph eId="pasal_30__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengurus bertugas:</p></intro>
+                      <point eId="pasal_30__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>mengelola Koperasi dan usahanya;</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>mengajukan rancangan rencana kerja serta rancangan rencana anggaran pendapatan dan belanja Koperasi;</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>menyelenggarakan Rapat Anggota;</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>mengajukan laporan keuangan dan pertanggungjawaban pelaksanaan tugas;</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>menyelenggarakan pembukuan keuangan dan inventaris secara tertib;</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>memelihara daftar buku anggota dan pengurus.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_30__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pengurus berwenang:</p></intro>
+                      <point eId="pasal_30__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>mewakili Koperasi di dalam dan di luar pengadilan;</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>memutuskan penerimaan dan penolakan anggota baru serta pemberhentian anggota sesuai dengan ketentuan dalam Anggaran Dasar;</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>melakukan tindakan dan upaya bagi kepentingan dan kemanfaatan Koperasi sesuai dengan tanggung jawabnya dan keputusan Rapat Anggota.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_31">
+                <num>31</num>
+                <content><p>Pengurus bertanggung jawab mengenai segala kegiatan pengelolaan Koperasi dan usahanya kepada Rapat Anggota atau Rapat Anggota Luar Biasa.</p></content>
+              </article>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengurus Koperasi dapat mengangkat Pengelola yang diberi wewenang dan kuasa untuk mengelola usaha.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Pengurus Koperasi bermaksud untuk mengangkat Pengelola, maka rencana pengangkatan tersebut diajukan kepada Rapat Anggota untuk mendapat persetujuan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengelola bertanggung jawab kepada Pengurus.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pengelolaan usaha oleh Pengelola tidak mengurangi tanggung jawab Pengurus sebagaimana ditentukan dalam Pasal 31.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_33">
+                <num>33</num>
+                <content><p>Hubungan antara Pengelola usaha sebagaimana dimaksud dalam Pasal 32 dengan Pengurus Koperasi merupakan hubungan kerja atas dasar perikatan.</p></content>
+              </article>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengurus, baik bersama-sama, maupun sendiri-sendiri, menanggung kerugian yang diderita Koperasi, karena tindakan yang dilakukan dengan kesengajaan atau kelalaiannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Disamping penggantian kerugian tersebut, apabila tindakan itu dilakukan dengan kesengajaan, tidak menutup kemungkinan bagi penuntut umum untuk melakukan penuntutan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_35">
+                <num>35</num>
+                <intro><p>Setelah tahun buku Koperasi ditutup, paling lambat 1 (satu) bulan sebelum diselenggarakan rapat anggota tahunan, Pengurus menyusun laporan tahunan yang memuat sekurang-kurangnya:</p></intro>
+                  <point eId="pasal_35__huruf_a">
+                    <num>a.</num>
+                    <content><p>perhitungan tahunan yang terdiri dari neraca akhir tahun buku yang baru lampau dan perhitungan hasil usaha dari tahun yang bersangkutan serta penjelasan atas dokumen tersebut;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_b">
+                    <num>b.</num>
+                    <content><p>keadaan dan usaha Koperasi serta hasil usaha yang dapat dicapai.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_36">
+                <num>36</num>
+                  <paragraph eId="pasal_36__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Laporan tahunan sebagaimana dimaksud dalam Pasal 35 ditanda-tangani oleh semua anggota Pengurus.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Apabila salah seorang anggota Pengurus tidak menandatangani laporan tahunan tersebut, anggota yang bersangkutan menjelaskan alasannya secara tertulis.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_37">
+                <num>37</num>
+                <content><p>Persetujuan terhadap laporan tahunan, termasuk pengesahan perhitungan tahunan, merupakan penerimaan pertanggungjawaban Pengurus oleh Rapat Anggota.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Pengawas</heading>
+              <article eId="pasal_38">
+                <num>38</num>
+                  <paragraph eId="pasal_38__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengawas dipilih dari dan oleh anggota Koperasi dalam Rapat Anggota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengawas bertanggung jawab kepada Rapat Anggota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Persyaratan untuk dapat dipilih dan diangkat sebagai anggota Pengawas ditetapkan dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_39">
+                <num>39</num>
+                  <paragraph eId="pasal_39__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengawas bertugas:</p></intro>
+                      <point eId="pasal_39__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>melakukan pengawasan terhadap pelaksanaan kebijaksanaan dan pengelolaan Koperasi;</p></content>
+                      </point>
+                      <point eId="pasal_39__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>membuat laporan tertulis tentang hasil pengawasannya.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pengawas berwenang:</p></intro>
+                      <point eId="pasal_39__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>meneliti catatan yang ada pada Koperasi;</p></content>
+                      </point>
+                      <point eId="pasal_39__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>mendapatkan segala keterangan yang diperlukan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengawas harus merahasiakan hasil pengawasannya terhadap pihak ketiga.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_40">
+                <num>40</num>
+                <content><p>Koperasi dapat meminta jasa audit kepada akuntan publik.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>MODAL</heading>
+          <article eId="pasal_41">
+            <num>41</num>
+              <paragraph eId="pasal_41__ayat_1">
+                <num>(1)</num>
+                <content><p>Modal Koperasi terdiri dari modal sendiri dan modal pinjaman.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_2">
+                <num>(2)</num>
+                <intro><p>Modal sendiri dapat berasal dari:</p></intro>
+                  <point eId="pasal_41__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>simpanan pokok;</p></content>
+                  </point>
+                  <point eId="pasal_41__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>simpanan wajib;</p></content>
+                  </point>
+                  <point eId="pasal_41__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>dana cadangan;</p></content>
+                  </point>
+                  <point eId="pasal_41__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>hibah.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_3">
+                <num>(3)</num>
+                <intro><p>Modal pinjaman dapat berasal dari:</p></intro>
+                  <point eId="pasal_41__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>anggota;</p></content>
+                  </point>
+                  <point eId="pasal_41__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>Koperasi lainnya dan/atau anggotanya;</p></content>
+                  </point>
+                  <point eId="pasal_41__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>bank dan lembaga keuangan lainnya;</p></content>
+                  </point>
+                  <point eId="pasal_41__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>penerbitan obligasi dan surat hutang lainnya;</p></content>
+                  </point>
+                  <point eId="pasal_41__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>sumber lain yang sah.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_42">
+            <num>42</num>
+              <paragraph eId="pasal_42__ayat_1">
+                <num>(1)</num>
+                <content><p>Selain modal sebagai dimaksud dalam Pasal 41, Koperasi dapat pula melakukan pemupukan modal yang berasal dari modal penyertaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai pemupukan modal yang berasal dari modal penyertaan diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>LAPANGAN USAHA</heading>
+          <article eId="pasal_43">
+            <num>43</num>
+              <paragraph eId="pasal_43__ayat_1">
+                <num>(1)</num>
+                <content><p>Usaha Koperasi adalah usaha yang berkaitan langsung dengan kepentingan anggota untuk meningkatkan usaha dan kesejahteraan anggota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_2">
+                <num>(2)</num>
+                <content><p>Usaha Koperasi sebagaimana dimaksud pada ayat (1) dapat dilaksanakan secara tunggal usaha atau serba usaha.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_3">
+                <num>(3)</num>
+                <content><p>Kelebihan kemampuan pelayanan Koperasi dapat digunakan untuk memenuhi kebutuhan masyarakat yang bukan anggota Koperasi dalam rangka menarik masyarakat menjadi anggota Koperasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_4">
+                <num>(4)</num>
+                <content><p>Koperasi menjalankan kegiatan usaha dan berperan utama di segala bidang kehidupan ekonomi rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan lebih lanjut mengenai kegiatan usaha Koperasi diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_44">
+            <num>44</num>
+              <paragraph eId="pasal_44__ayat_1">
+                <num>(1)</num>
+                <intro><p>Koperasi dapat menghimpun dana dan menyalurkannya melalui kegiatan usaha simpan pinjam dari dan untuk:</p></intro>
+                  <point eId="pasal_44__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>anggota Koperasi yang bersangkutan;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Koperasi lain dan/atau anggotanya.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_2">
+                <num>(2)</num>
+                <content><p>Kegiatan usaha simpan pinjam dapat dilaksanakan sebagai salah satu atau satu-satunya kegiatan usaha Koperasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaksanaan kegiatan usaha simpan pinjam oleh Koperasi diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_44a">
+            <num>44A</num>
+              <paragraph eId="pasal_44a__ayat_1">
+                <num>(1)</num>
+                <content><p>Koperasi dapat menjalankan kegiatan usaha berdasarkan prinsip syariah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44a__ayat_2">
+                <num>(2)</num>
+                <content><p>Koperasi sebagaimana dimaksud pada ayat (1) harus mempunyai dewan pengawas syariah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44a__ayat_3">
+                <num>(3)</num>
+                <content><p>Dewan pengawas syariah sebagaimana dimaksud pada ayat (2) terdiri atas 1 (satu) or€rng atau lebih yang memahami syariah dan diangkat oleh Rapat Anggota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44a__ayat_4">
+                <num>(4)</num>
+                <content><p>Dewan pengawas syariah sebagaimana dimaksud pada ayat (2) bertugas memberikan nasihat dan saran kepada Pengurus serta mengawasi kegiatan Koperasi agar sesuai dengan prinsip syariah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44a__ayat_5">
+                <num>(5)</num>
+                <content><p>Dewan pengawas syariah sebagaimana dimaksud pada ayat (2) selanjutnya mendapatkan pembinaan atau pengembangan kapasitas oleh Pemerintah Pusat dan/atau Dewan Syariah Nasional Majelis Ulama Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44a__ayat_6">
+                <num>(6)</num>
+                <content><p>Ketentuan lebih lanjut mengenai Koperasi yang menjalankan kegiatan usaha berdasarkan prinsip syariah diatur dalam Peraturan Pemerintah. Bagian Ketiga Kriteria Usaha Mikro, Kecil, dan Menengah</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>SISA HASIL USAHA</heading>
+          <article eId="pasal_45">
+            <num>45</num>
+              <paragraph eId="pasal_45__ayat_1">
+                <num>(1)</num>
+                <content><p>Sisa Hasil Usaha Koperasi merupakan pendapatan Koperasi yang diperoleh dalam satu tahun buku dikurangi dengan biaya, penyusutan, dan kewajiban lainnya termasuk pajak dalam tahun buku yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_2">
+                <num>(2)</num>
+                <content><p>Sisa Hasil Usaha setelah dikurangi dana cadangan, dibagikan kepada anggota standing dengan jasa usaha yang dilakukan oleh, masing-masing anggota dengan Koperasi, serta digunakan untuk keperluan pendidikan perkoperasian dan keperluan lain dari Koperasi, sesuai dengan keputusan Rapat Anggota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_3">
+                <num>(3)</num>
+                <content><p>Besarnya pemupukan dana cadangan ditetapkan dalam Rapat Anggota.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>PEMBUBARAN KOPERASI</heading>
+          <article eId="pasal_46">
+            <num>46</num>
+            <intro><p>Pembubaran Koperasi dapat dilakukan berdasarkan:</p></intro>
+              <point eId="pasal_46__huruf_a">
+                <num>a.</num>
+                <content><p>keputusan Rapat Anggota, atau</p></content>
+              </point>
+              <point eId="pasal_46__huruf_b">
+                <num>b.</num>
+                <content><p>keputusan Pemerintah.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_47">
+            <num>47</num>
+              <paragraph eId="pasal_47__ayat_1">
+                <num>(1)</num>
+                <intro><p>Keputusan pembubaran oleh Pemerintah sebagaimana dimaksud dalam Pasal 46 huruf b dilakukan apabila:</p></intro>
+                  <point eId="pasal_47__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>terdapat bukti bahwa Koperasi yang bersangkutan tidak memenuhi ketentuan Undang-undang ini;</p></content>
+                  </point>
+                  <point eId="pasal_47__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>kcgiatannya bertentangan dengan ketertiban umum dan/atau kesusilaan;</p></content>
+                  </point>
+                  <point eId="pasal_47__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>kelangsungan hidupnya tidak dapat lagi diharapkan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_2">
+                <num>(2)</num>
+                <content><p>Keputusan pembubaran Koperasi oleh Pemerintah dikeluarkan dalam waktu paling lambat 4 (empat) bulan terhitung sejak tanggal diterimanya surat pemberitahuan rencana pembubaran tersebut oleh Koperasi yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam jangka waktu paling lambat 2 (dua) bulan sejak tanggal penerimaan pemberitahuan, Koperasi yang bersangkutan berhak mengajukan keberatan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_4">
+                <num>(4)</num>
+                <content><p>Keputusan Pemerintah mengenai diterima atau ditolaknya keberatan atas rencana pembubaran diberikan paling lambat 1 (satu) bulan sejak tanggal diterimanya pemyataan keberatan tersebut.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_48">
+            <num>48</num>
+            <content><p>Ketentuan mengenai pembubaran Koperasi oleh Pemerintah dan tata cara pengajuan keberatan sebagaimana dimaksud dalam Pasal 47, diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+              <paragraph eId="pasal_49__ayat_1">
+                <num>(1)</num>
+                <intro><p>Keputusan pembubaran Koperasi oleh Rapat Anggota diberitahukan secara tertulis oleh Kuasa Rapat Anggota kepada:</p></intro>
+                  <point eId="pasal_49__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>semua kreditor;</p></content>
+                  </point>
+                  <point eId="pasal_49__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pemerintah.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemberitahuan kepada semua kreditor dilakukan oleh Pemerintah, dalam hal pembubaran tersebut berlangsung berdasarkan keputusan Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_3">
+                <num>(3)</num>
+                <content><p>Selama pemberitahuan pembubaran Koperasi belum diterima oleh kreditor, maka pembubaran Koperasi belum berlaku baginya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_50">
+            <num>50</num>
+            <intro><p>Dalam pemberitahuan sebagaimana dimaksud dalam Pasal 49 disebutkan:</p></intro>
+              <point eId="pasal_50__huruf_a">
+                <num>a.</num>
+                <content><p>nama dan alamat Penyelesai, dan</p></content>
+              </point>
+              <point eId="pasal_50__huruf_b">
+                <num>b.</num>
+                <content><p>ketentuan bahwa semua kreditor dapat mengajukan tagihan dalam jangka waktu 3 (tiga) bulan sesudah tanggal diterimanya surat pemberitahuan pembubaran.</p></content>
+              </point>
+
+          </article>
+          <part eId="bab_10__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Penyelesaian</heading>
+              <article eId="pasal_51">
+                <num>51</num>
+                <content><p>Untuk kepentingan kreditor dan para anggota Koperasi, terhadap pembubaran Koperasi dilakukan penyelesaian pembubaran yang selanjutnya disebut penyelesaian.</p></content>
+              </article>
+              <article eId="pasal_52">
+                <num>52</num>
+                  <paragraph eId="pasal_52__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelesaian dilakukan oleh penyetesai pembubaran yang selanjutnya disebut Penyelesai.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_52__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk penyelesaian berdasarkan keputusan Rapat Anggota, Penyelesai ditunjuk oleh Rapat Anggota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_52__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Untuk penyelesaian berdasarkan keputusan Pemerintah, Penyelesai ditunjuk oleh Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_52__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Selama dalam proses penyelesaian, Koperasi tersebut tetap ada dengan sebutan "Koperasi dalam penyelesaian".</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_53">
+                <num>53</num>
+                  <paragraph eId="pasal_53__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelesaian segera dilaksanakan setelah dikeluarkan keputusan pembubaran Koperasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_53__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelesai bertanggung jawab kepada Kuasa Rapat Anggota dalam hal Penyelesai ditunjuk oleh Rapat Anggota dan kepada Pemerintah dalam hal Penyelesai ditunjuk oleh Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_54">
+                <num>54</num>
+                <intro><p>Penyelesai mempunyai hak, wewenang, dan kewajiban sebagai berikut:</p></intro>
+                  <point eId="pasal_54__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan segala perbuatan hukum untuk dan atas nama "Koperasi dalam penyelesaian";</p></content>
+                  </point>
+                  <point eId="pasal_54__huruf_b">
+                    <num>b.</num>
+                    <content><p>mengumpulkan segala keterangan yang diperlukan;</p></content>
+                  </point>
+                  <point eId="pasal_54__huruf_c">
+                    <num>c.</num>
+                    <content><p>memanggil Pengurus, anggota dan bekas anggota tertentu yang diperlukan, baik sendiri-sendiri maupun bersama-sama;</p></content>
+                  </point>
+                  <point eId="pasal_54__huruf_d">
+                    <num>d.</num>
+                    <content><p>memperoleh, memeriksa, dan menggunakan segala catatan dan arsip Koperasi;</p></content>
+                  </point>
+                  <point eId="pasal_54__huruf_e">
+                    <num>e.</num>
+                    <content><p>menetapkan dan melaksanakan segala kewajiban pembayaran yang didahulukan dari pembayaran hutang lainnya;</p></content>
+                  </point>
+                  <point eId="pasal_54__huruf_f">
+                    <num>f.</num>
+                    <content><p>menggunakan sisa kekayaan Koperasi untuk menyelesaikan sisa kewajiban Koperasi;</p></content>
+                  </point>
+                  <point eId="pasal_54__huruf_g">
+                    <num>g.</num>
+                    <content><p>membagikan sisa hasil penyelesaian kepada anggota;</p></content>
+                  </point>
+                  <point eId="pasal_54__huruf_h">
+                    <num>h.</num>
+                    <content><p>membuat berita acara penyelesaian.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_55">
+                <num>55</num>
+                <content><p>Dalam hal terjadi pembubaran Koperasi, anggota hanya menanggung kerugian sebatas simpanan pokok, simpanan wajib dan modal penyertaan yang dimilikinya.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_10__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Hapusnya Status Badan Hukum</heading>
+              <article eId="pasal_56">
+                <num>56</num>
+                  <paragraph eId="pasal_56__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah mengumumkan pembubaran Koperasi dalam Berita Negara Republik Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Status badan hukum Koperasi hapus sejak tanggal pengumuman pembubaran Koperasi tersebut dalam Berita Negara Republik Indonesia.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>LEMBAGA GERAKAN KOPERASI</heading>
+          <article eId="pasal_57">
+            <num>57</num>
+              <paragraph eId="pasal_57__ayat_1">
+                <num>(1)</num>
+                <content><p>Koperasi secara bersama-sama mendirikan satu organisasi tunggal yang berfungsi sebagai wadah untuk memperjuangkan kepentingan dan bertindak sebagai pembawa aspirasi Koperasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_2">
+                <num>(2)</num>
+                <content><p>Organisasi ini berasaskan Pancasila.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_3">
+                <num>(3)</num>
+                <content><p>Nama, tujuan, susunan, dan tata kerja organisasi diatur dalam Anggaran Dasar organisasi yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+              <paragraph eId="pasal_58__ayat_1">
+                <num>(1)</num>
+                <intro><p>Organisasi tersebut melakukan kegiatan:</p></intro>
+                  <point eId="pasal_58__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>memperjuangkan dan menyalurkan aspirasi Koperasi;</p></content>
+                  </point>
+                  <point eId="pasal_58__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>meningkatkan kesadaran berkoperasi di kalangan masyarakat;</p></content>
+                  </point>
+                  <point eId="pasal_58__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan pendidikan perkoperasian bagi anggota dan masyarakat;</p></content>
+                  </point>
+                  <point eId="pasal_58__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>mengembangkan kerjasama antarkoperasi dan antara Koperasi dengan badan usaha lain, baik pada tingkat nasional maupun internasional.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_58__ayat_2">
+                <num>(2)</num>
+                <content><p>Untuk melaksanakan kegiatan tersebut, Koperasi secara bersama-sama, menghimpun dana Koperasi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+            <content><p>Organisasi yang dibentuk sebagaimana dimaksud dalam Pasal 57 ayat (1) disahkan oleh Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>PEMBINAAN</heading>
+          <article eId="pasal_60">
+            <num>60</num>
+              <paragraph eId="pasal_60__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah menciptakan dan mengembangkan iklim dan kondisi yang mendorong pertumbuhan serta permasyarakatan Koperasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah memberikan bimbingan, kemudahan, dan perlindungan kepada Koperasi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <intro><p>Dalam upaya menciptakan dan mengembangkan iklim dan kondisi yang mendorong pertumbuhan dan pemasyarakatan Koperasi, Pemerintah:</p></intro>
+              <point eId="pasal_61__huruf_a">
+                <num>a.</num>
+                <content><p>memberikan kesempatan usaha yang seluas-luasnya kepada Koperasi;</p></content>
+              </point>
+              <point eId="pasal_61__huruf_b">
+                <num>b.</num>
+                <content><p>meningkatkan dan memantapkan kemampuan Koperasi agar menjadi Koperasi yang sehat, tangguh, dan mandiri;</p></content>
+              </point>
+              <point eId="pasal_61__huruf_c">
+                <num>c.</num>
+                <content><p>mengupayakan tata hubungan usaha yang saling menguntungkan antara Koperasi dengan badan usaha lainnya;</p></content>
+              </point>
+              <point eId="pasal_61__huruf_d">
+                <num>d.</num>
+                <content><p>membudayakan Koperasi dalam masyarakat.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_62">
+            <num>62</num>
+            <intro><p>Dalam rangka memberikan bimbingan dan kemudahan kepada Koperasi, Pemerintah:</p></intro>
+              <point eId="pasal_62__huruf_a">
+                <num>a.</num>
+                <content><p>membimbing usaha Koperasi yang sesluai dengan kepentingan ekonomi anggotanya;</p></content>
+              </point>
+              <point eId="pasal_62__huruf_b">
+                <num>b.</num>
+                <content><p>mendorong, mengembangkan, dan membantu pelaksanaan pendidikan, pelatihan, penyuluhan, dan penelitian perkoperasian;</p></content>
+              </point>
+              <point eId="pasal_62__huruf_c">
+                <num>c.</num>
+                <content><p>memberikan kemudahan untuk memperkokoh permodalan Koperasi serta mengembangkan lembaga keuangan Koperasi;</p></content>
+              </point>
+              <point eId="pasal_62__huruf_d">
+                <num>d.</num>
+                <content><p>membantu pengembangan jaringan usaha Koperasi dan kerja sama yang saling menguntungkan antarkoperasi;</p></content>
+              </point>
+              <point eId="pasal_62__huruf_e">
+                <num>e.</num>
+                <content><p>memberikan bantuan konsultansi guna memecahkan permasalahan yang dihadapi oleh Koperasi dengan tetap memperhatikan Anggaran Dasar dan prinsip Koperasi.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_63">
+            <num>63</num>
+              <paragraph eId="pasal_63__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam rangka pemberian perlindungan kepada Koperasi, Pemerintah dapat:</p></intro>
+                  <point eId="pasal_63__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>menetapkan bidang kegiatan ekonomi yang hanya boleh di-usahakan oleh Koperasi;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>menetapkan bidang kegiatan ekonomi di suatu wilayah yang telah berhasil diusahakan oleh Koperasi untuk tidak diusahakan oleh badan usaha lainnya.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_2">
+                <num>(2)</num>
+                <content><p>Persyaratan dan tata cara pelaksanaan sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_64">
+            <num>64</num>
+            <content><p>Pembinaan sebagaimana dimaksud dalam Pasal 60, Pasal 61, Pasal 62, dan Pasal 63 dilakukan dengan memperhatikan keadaan dan kepentingan ekonomi nasional, serta pemerataan kesempatan berusaha dan kesempatan kerja.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_13">
+        <num>XIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_65">
+            <num>65</num>
+            <content><p>Koperasi yang telah memiliki status badan hukum pada saat Undang-undang ini berlaku, dinyatakan telah memperoleh status badan hukum berdasarkan Undang-undang ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_14">
+        <num>XIV</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_66">
+            <num>66</num>
+              <paragraph eId="pasal_66__ayat_1">
+                <num>(1)</num>
+                <content><p>Dengan berlakunya Undang-undang ini, maka Undang-undang Nomor 12 Tahun 1967 tentang Pokok-pokok Perkoperasian (Lembaran Negara Tahun 1967 Nomor 23, Tambahan Lembaran Negara Tahun 1967 Nomor 2832) dinyatakan tidak berlaku lagi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_2">
+                <num>(2)</num>
+                <content><p>Peraturan pelaksanaan Undang-undang Nomor 12 Tahun 1967 tentang Pokok-pokok Perkoperasian (Lembaran Negara Tahun 1967 Nomor 23, Tambahan Lembaran Negara Tahun 1967 Nomor 2832) dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan atau belum diganti berdasarkan Undang-undang ini.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_67">
+            <num>67</num>
+            <content><p>Undang-undang ini mulai berlaku sejak tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

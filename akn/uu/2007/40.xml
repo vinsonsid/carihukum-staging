@@ -24,7 +24,73 @@
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2007-08-16" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2023-03-31" source="#org_1" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_1"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_7"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_32"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_5">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_6">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153b"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_7">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153c"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_8">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153d"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_9">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153e"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_10">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153f"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_11">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153g"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_12">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153h"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_13">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153i"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_14">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153j"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
+
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
       </references>
@@ -41,7 +107,7 @@
             <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
               <point eId="pasal_1__angka_1">
                 <num>1.</num>
-                <content><p>Perseroan Terbatas, yong selanjutnya disebut Perseroan, adalah badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham atau badan hukum perorangan yang memenuhi kriteria usaha mikro dan kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai usaha mikro dan kecil.</p></content>
+                <content><p>Perseroan Terbatas, yang selanjutnya disebut Perseroan, adalah badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham atau badan hukum perorangan yang memenuhi kriteria usaha mikro dan kecil sebagaimana diatur dalam peraturan perundang-undangan mengenai usaha mikro dan kecil.</p></content>
               </point>
               <point eId="pasal_1__angka_2">
                 <num>2.</num>
@@ -3875,7 +3941,6 @@
           </article>
           <article eId="pasal_153b">
             <num>153B</num>
-            <intro><p>REPUBUK INOONESIA -6t9- Pasal 153El</p></intro>
               <paragraph eId="pasal_153b__ayat_1">
                 <num>(1)</num>
                 <content><p>Pernyataan pendirian sebagaimana dimaksud dalam Pasal 153A ayat (2) memuat maksud dan tujuan, kegiatan usaha, modal dasar, dan keterangan lain berkaitan dengan pendirian Perseroan.</p></content>
@@ -3886,7 +3951,7 @@
               </paragraph>
               <paragraph eId="pasal_153b__ayat_3">
                 <num>(3)</num>
-                <content><p>Ketentuan lebih lanjut mengenai materi pernyataan pendirian sebagaimana dimaksud pada ayat (1) dan format isian sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Pemerintah.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai materi pernyataan pendirian sebagaimana dimaksud pada ayat (1) dan format isian sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -3910,7 +3975,7 @@
               </paragraph>
               <paragraph eId="pasal_153d__ayat_2">
                 <num>(2)</num>
-                <content><p>Direksi berwenang menjalankan pengurusan sebagaimana dimaksud pada ayat (1) sesuai dengan kebijakan yang dianggap tepat, dalam batas yang ditentukan dalam Undang-Undang ini, dan/ atau pernyataan pendirian Perseroan. REPUBUK TNDONESIA</p></content>
+                <content><p>Direksi berwenang menjalankan pengurusan sebagaimana dimaksud pada ayat (1) sesuai dengan kebijakan yang dianggap tepat, dalam batas yang ditentukan dalam Undang-Undang ini, dan/atau pernyataan pendirian Perseroan.</p></content>
               </paragraph>
 
           </article>
@@ -3961,7 +4026,7 @@
                   </point>
                   <point eId="pasal_153g__ayat_2__huruf_d">
                     <num>d.</num>
-                    <content><p>dengan dicabutnya kepailitan berdasarkan putusan pengadilan niaga yang telah mempunyai kekuatan hukum tetap, harta pailit Perseroan tidak cukup untuk membayar biaya kepailitan; e.harta... -62t-</p></content>
+                    <content><p>dengan dicabutnya kepailitan berdasarkan putusan pengadilan niaga yang telah mempunyai kekuatan hukum tetap, harta pailit Perseroan tidak cukup untuk membayar biaya kepailitan;</p></content>
                   </point>
                   <point eId="pasal_153g__ayat_2__huruf_e">
                     <num>e.</num>
@@ -4014,7 +4079,7 @@
                   </point>
                   <point eId="pasal_153j__ayat_2__huruf_b">
                     <num>b.</num>
-                    <content><p>pemegang saham yang bersangkutan, baik langsung maupun tidak langsung dengan iktikad burtrk memanfaatkan Perseroan untuk kepentingan pribadi;</p></content>
+                    <content><p>pemegang saham yang bersangkutan, baik langsung maupun tidak langsung dengan iktikad buruk memanfaatkan Perseroan untuk kepentingan pribadi;</p></content>
                   </point>
                   <point eId="pasal_153j__ayat_2__huruf_c">
                     <num>c.</num>
@@ -4022,7 +4087,7 @@
                   </point>
                   <point eId="pasal_153j__ayat_2__huruf_d">
                     <num>d.</num>
-                    <content><p>pemegang saham yang bersangkutan, baik langsung maupun tidak langsung secara melawan hukum menggunakan kekayaan Perseroan, yang mengakibatkan kekayaan Perseroan menjadi tidak cukup untuk melunasi utang Perseroan. Bagian Keenam Undang-Undang Gangguan</p></content>
+                    <content><p>pemegang saham yang bersangkutan, baik langsung maupun tidak langsung secara melawan hukum menggunakan kekayaan Perseroan, yang mengakibatkan kekayaan Perseroan menjadi tidak cukup untuk melunasi utang Perseroan.</p></content>
                   </point>
 
               </paragraph>

@@ -1,0 +1,2981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2011/20/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2011/20"/>
+          <FRBRdate date="2011-11-10" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2011/20/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2011/20/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2011/20/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2011/20/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-02" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2011-11-10" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2023-03-31" source="#org_1" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_16"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_24"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_28"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_6">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_31"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_32"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_9">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_39"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_11">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_54"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_56"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_15">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_67"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_16">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_72"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_17">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_73"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_107"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_108"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_20">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_110"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_21">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_112"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_22">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_113"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_23">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_114"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_24">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_117"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
+      <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 20 Tahun 2011 tentang Rumah Susun</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Rumah susun adalah bangunan gedung bertingkat yang dibangun dalam suatu lingkungan yang terbagi dalam bagian-bagian yang distrukturkan secara fungsional, baik dalam arah horizontal maupun vertikal dan merupakan satuan-satuan yang masing-masing dapat dimiliki dan digunakan secara terpisah, terutama untuk tempat hunian yang dilengkapi dengan bagian bersama, benda bersama, dan tanah bersama.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Penyelenggaraan rumah susun adalah kegiatan perencanaan, pembangunan, penguasaan dan pemanfaatan, pengelolaan, pemeliharaan dan perawatan, pengendalian, kelembagaan, pendanaan dan sistem pembiayaan, serta peran masyarakat yang dilaksanakan secara sistematis, terpadu, berkelanjutan, dan bertanggung jawab.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Satuan rumah susun yang selanjutnya disebut sarusun adalah unit rumah susun yang tujuan utamanya digunakan secara terpisah dengan fungsi utama sebagai tempat hunian dan mempunyai sarana penghubung ke jalan umum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Tanah bersama adalah sebidang tanah hak atau tanah sewa untuk bangunan yang digunakan atas dasar hak bersama secara tidak terpisah yang di atasnya berdiri rumah susun dan ditetapkan batasnya dalam persyaratan izin mendirikan bangunan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Bagian bersama adalah bagian rumah susun yang dimiliki secara tidak terpisah untuk pemakaian bersama dalam kesatuan fungsi dengan satuan-satuan rumah susun.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Benda bersama adalah benda yang bukan merupakan bagian rumah susun melainkan bagian yang dimiliki bersama secara tidak terpisah untuk pemakaian bersama.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Rumah susun umum adalah rumah susun yang diselenggarakan untuk memenuhi kebutuhan rumah bagi masyarakat berpenghasilan rendah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Rumah susun khusus adalah rumah susun yang diselenggarakan untuk memenuhi kebutuhan khusus.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Rumah susun negara adalah rumah susun yang dimiliki negara dan berfungsi sebagai tempat tinggal atau hunian, sarana pembinaan keluarga, serta penunjang pelaksanaan tugas pejabat dan/atau pegawai negeri.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Rumah susun komersial adalah rumah susun yang diselenggarakan untuk mendapatkan keuntungan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Sertifikat hak milik sarusun yang selanjutnya disebut SHM sarusun adalah tanda bukti kepemilikan atas sarusun di atas tanah hak milik, hak guna bangunan atau hak pakai di atas tanah negara, serta hak guna bangunan atau hak pakai di atas tanah hak pengelolaan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Sertifikat kepemilikan bangunan gedung sarusun yang selanjutnya disebut SKBG sarusun adalah tanda bukti kepemilikan atas sarusun di atas barang milik negara/daerah berupa tanah atau tanah wakaf dengan cara sewa.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Nilai perbandingan proporsional yang selanjutnya disebut NPP adalah angka yang menunjukkan perbandingan antara sarusun terhadap hak atas bagian bersama, benda bersama, dan tanah bersama yang dihitung berdasarkan nilai sarusun yang bersangkutan terhadap jumlah nilai rumah susun secara keseluruhan pada waktu pelaku pembangunan pertama kali memperhitungkan biaya pembangunannya secara keseluruhan untuk menentukan harga jualnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Masyarakat berpenghasilan rendah yang selanjutnya disebut MBR adalah masyarakat yang mempunyai keterbatasan daya beli sehingga perlu mendapat dukungan pemerintah untuk memperoleh sarusun umum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Pelaku pembangunan rumah susun yang selanjutnya disebut pelaku pembangunan adalah setiap orang dan/atau pemerintah yang melakukan pembangunan perumahan dan permukiman.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Setiap orang adalah orang perseorangan atau badan hukum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Badan hukum adalah badan hukum yang didirikan oleh warga negara Indonesia yang kegiatannya di bidang penyelenggaraan perumahan dan kawasan permukiman.</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Pemilik adalah setiap orang yang memiliki sarusun.</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Penghuni adalah orang yang menempati sarusun, baik sebagai pemilik maupun bukan pemilik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Pengelola adalah suatu badan hukum yang bertugas untuk mengelola rumah susun.ntuk menjamin</p></content>
+              </point>
+              <point eId="pasal_1__angka_21">
+                <num>21.</num>
+                <content><p>Perhimpunan pemilik dan penghuni sarusun yang selanjutnya disebut PPPSRS adalah badan hukum yang beranggotakan para pemilik atau penghuni sarusun.</p></content>
+              </point>
+              <point eId="pasal_1__angka_22">
+                <num>22.</num>
+                <content><p>Pemerintah pusat yang selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_23">
+                <num>23.</num>
+                <content><p>Pemerintah daerah adalah gubernur, bupati atau walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_24">
+                <num>24.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang perumahan dan kawasan permukiman.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS, TUJUAN, DAN RUANG LINGKUP</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>Penyelenggaraan rumah susun berasaskan pada:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>kesejahteraan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>keadilan dan pemerataan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_c">
+                <num>c.</num>
+                <content><p>kenasionalan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_d">
+                <num>d.</num>
+                <content><p>keterjangkauan dan kemudahan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_e">
+                <num>e.</num>
+                <content><p>keefisienan dan kemanfaatan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_f">
+                <num>f.</num>
+                <content><p>kemandirian dan kebersamaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_g">
+                <num>g.</num>
+                <content><p>kemitraan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_h">
+                <num>h.</num>
+                <content><p>keserasian dan keseimbangan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_i">
+                <num>i.</num>
+                <content><p>keterpaduan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_j">
+                <num>j.</num>
+                <content><p>kesehatan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_k">
+                <num>k.</num>
+                <content><p>kelestarian dan berkelanjutan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_l">
+                <num>l.</num>
+                <content><p>keselamatan, kenyamanan, dan kemudahan; dan</p></content>
+              </point>
+              <point eId="pasal_2__huruf_m">
+                <num>m.</num>
+                <content><p>keamanan, ketertiban, dan keteraturan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Penyelenggaraan rumah susun bertujuan untuk:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>menjamin terwujudnya rumah susun yang layak huni dan terjangkau dalam lingkungan yang sehat, aman, harmonis, dan berkelanjutan serta menciptakan permukiman yang terpadu guna membangun ketahanan ekonomi, sosial, dan budaya;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>meningkatkan efisiensi dan efektivitas pemanfaatan ruang dan tanah, serta menyediakan ruang terbuka hijau di kawasan perkotaan dalam menciptakan kawasan permukiman yang lengkap serta serasi dan seimbang dengan memperhatikan prinsip pembangunan berkelanjutan dan berwawasan lingkungan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>mengurangi luasan dan mencegah timbulnya perumahan dan permukiman kumuh;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>mengarahkan pengembangan kawasan perkotaan yang serasi, seimbang, efisien, dan produktif;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_e">
+                <num>e.</num>
+                <content><p>memenuhi kebutuhan sosial dan ekonomi yang menunjang kehidupan penghuni dan masyarakat dengan tetap mengutamakan tujuan pemenuhan kebutuhan perumahan dan permukiman yang layak, terutama bagi MBR;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_f">
+                <num>f.</num>
+                <content><p>memberdayakan para pemangku kepentingan di bidang pembangunan rumah susun;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_g">
+                <num>g.</num>
+                <content><p>menjamin terpenuhinya kebutuhan rumah susun yang layak dan terjangkau, terutama bagi MBR dalam lingkungan yang sehat, aman, harmonis, dan berkelanjutan dalam suatu sistem tata kelola perumahan dan permukiman yang terpadu; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_h">
+                <num>h.</num>
+                <content><p>memberikan kepastian hukum dalam penyediaan, kepenghunian, pengelolaan, dan kepemilikan rumah susun.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <intro><p>Lingkup pengaturan undang-undang ini meliputi:</p></intro>
+                  <point eId="pasal_4__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pembinaan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>perencanaan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>pembangunan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>penguasaan, pemilikan, dan pemanfaatan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>pengelolaan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>peningkatan kualitas;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>pengendalian;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>kelembagaan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>tugas dan wewenang;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_j">
+                    <num>j.</num>
+                    <content><p>hak dan kewajiban;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_k">
+                    <num>k.</num>
+                    <content><p>pendanaan dan sistem pembiayaan; dan</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_l">
+                    <num>l.</num>
+                    <content><p>peran masyarakat.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PEMBINAAN</heading>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Negara bertanggung jawab atas penyelenggaraan rumah susun yang pembinaannya dilaksanakan oleh pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pembinaan sebagaimana dimaksud pada ayat (1) dilaksanakan oleh:</p></intro>
+                  <point eId="pasal_5__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>Menteri pada tingkat nasional;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>gubernur pada tingkat provinsi; dan</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>bupati/walikota pada tingkat kabupaten/kota.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pembinaan sebagaimana dimaksud dalam Pasal 5 ayat (2) meliputi:</p></intro>
+                  <point eId="pasal_6__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>perencanaan;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengaturan;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>pengendalian; dan</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>pengawasan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam melaksanakan pembinaan sebagaimana dimaksud pada ayat (1), Menteri melakukan koordinasi lintas sektoral, lintas wilayah, dan lintas pemangku kepentingan, baik vertikal maupun horizontal.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <content><p>Perencanaan sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf a merupakan satu kesatuan yang utuh dari perencanaan pembangunan nasional dan merupakan bagian integral dari perencanaan pembangunan daerah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Perencanaan sebagaimana dimaksud pada ayat (1) dilaksanakan oleh pemerintah sesuai dengan tingkat kewenangannya serta melibatkan peran serta masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_3">
+                <num>(3)</num>
+                <content><p>Perencanaan sebagaimana dimaksud pada ayat (2) disusun pada tingkat nasional, provinsi, dan kabupaten/kota dengan memperhatikan kebijakan dan strategi nasional di bidang rumah susun sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_4">
+                <num>(4)</num>
+                <content><p>Perencanaan pada tingkat nasional menjadi pedoman untuk menyusun perencanaan penyelenggaraan pembangunan rumah susun pada tingkat provinsi dan kabupaten/kota.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+            <intro><p>Pengaturan sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf b meliputi:</p></intro>
+              <point eId="pasal_8__huruf_a">
+                <num>a.</num>
+                <content><p>pembangunan;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_b">
+                <num>b.</num>
+                <content><p>penguasaan, pemilikan, dan pemanfaatan;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_c">
+                <num>c.</num>
+                <content><p>pengelolaan;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_d">
+                <num>d.</num>
+                <content><p>peningkatan kualitas;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_e">
+                <num>e.</num>
+                <content><p>kelembagaan; dan</p></content>
+              </point>
+              <point eId="pasal_8__huruf_f">
+                <num>f.</num>
+                <content><p>pendanaan dan sistem pembiayaan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+            <content><p>Pengendalian sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf c dilakukan untuk menjamin penyelenggaraan rumah susun sesuai dengan tujuannya.</p></content>
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+            <content><p>Pengawasan sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf d meliputi pemantauan, evaluasi, dan tindakan koreksi sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah melakukan pembinaan penyelenggaraan rumah susun secara nasional untuk memenuhi tertib penyelenggaraan rumah susun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pembinaan sebagaimana dimaksud pada ayat (1) dilaksanakan dengan cara:</p></intro>
+                  <point eId="pasal_11__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>koordinasi penyelenggaraan rumah susun;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>sosialisasi peraturan perundang-undangan dan sosialisasi norma, standar, prosedur, dan kriteria;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemberian bimbingan, supervisi, dan konsultasi;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pendidikan dan pelatihan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>penelitian dan pengembangan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>pengembangan sistem dan layanan informasi dan komunikasi; dan</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>pemberdayaan pemangku kepentingan rumah susun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_3">
+                <num>(3)</num>
+                <content><p>Pemerintah melakukan pembinaan penyelenggaraan rumah susun kepada pemerintah daerah provinsi, pemerintah daerah kabupaten/kota, dan masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_4">
+                <num>(4)</num>
+                <intro><p>Pembinaan penyelenggaraan rumah susun sebagaimana dimaksud pada ayat (3) dilakukan dengan tujuan:</p></intro>
+                  <point eId="pasal_11__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>mendorong pembangunan rumah susun dengan memanfaatkan teknik dan teknologi, bahan bangunan, rekayasa konstruksi, dan rancang bangun yang tepat-guna serta mempertimbangkan kearifan lokal dan keserasian lingkungan yang aman bagi kesehatan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>mendorong pembangunan rumah susun yang mampu menggerakkan industri perumahan nasional dan memaksimalkan pemanfaatan sumber daya lokal, termasuk teknologi tahan gempa;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>mendorong terwujudnya hunian yang layak dan terjangkau bagi masyarakat sebagai sarana pembinaan keluarga; dan</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>mendorong pewujudan dan pelestarian nilai-nilai wawasan nusantara atau budaya nasional dalam pembangunan rumah susun.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+            <content><p>Ketentuan lebih lanjut mengenai pembinaan sebagaimana dimaksud dalam Pasal 6 diatur dalam Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PERENCANAAN</heading>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <intro><p>Perencanaan pembangunan rumah susun meliputi:</p></intro>
+                  <point eId="pasal_13__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>penetapan penyediaan jumlah dan jenis rumah susun;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>penetapan zonasi pembangunan rumah susun; dan</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>penetapan lokasi pembangunan rumah susun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Penetapan penyediaan jumlah dan jenis rumah susun sebagaimana dimaksud pada ayat (1) huruf a dilakukan berdasarkan kelompok sasaran, pelaku, dan sumber daya pembangunan yang meliputi rumah susun umum, rumah susun khusus, rumah susun negara, dan rumah susun komersial.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_3">
+                <num>(3)</num>
+                <content><p>Penetapan zonasi dan lokasi pembangunan rumah susun sebagaimana dimaksud pada ayat (1) huruf b dan huruf c harus dilakukan sesuai dengan ketentuan rencana tata ruang wilayah kabupaten/kota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal daerah belum mempunyai rencana tata ruang wilayah, gubernur atau bupati/walikota dengan persetujuan Dewan Perwakilan Rakyat Daerah menetapkan zonasi dan lokasi pembangunan rumah susun umum, rumah susun khusus, dan rumah susun negara dengan mempertimbangkan daya dukung dan daya tampung lingkungan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_5">
+                <num>(5)</num>
+                <content><p>Khusus untuk wilayah Provinsi DKI Jakarta penetapan zonasi dan lokasi pembangunan rumah susun dilakukan sesuai dengan ketentuan Rencana Tata Ruang Wilayah Provinsi DKI Jakarta.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <intro><p>Perencanaan pembangunan rumah susun dilaksanakan berdasarkan:</p></intro>
+                  <point eId="pasal_14__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>kepadatan bangunan;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>jumlah dan kepadatan penduduk;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>rencana rinci tata ruang;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>layanan prasarana, sarana, dan utilitas umum;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>layanan moda transportasi;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>alternatif pengembangan konsep pemanfaatan rumah susun;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>layanan informasi dan komunikasi;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>konsep hunian berimbang; dan</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>analisis potensi kebutuhan rumah susun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Pedoman perencanaan pembangunan rumah susun diatur dengan peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PEMBANGUNAN</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pembangunan rumah susun umum, rumah susun khusus, dan rumah susun negara merupakan tanggung jawab pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pembangunan rumah susun umum sebagaimana dimaksud pada ayat (1) yang dilaksanakan oleh setiap orang mendapatkan kemudahan dan/atau bantuan pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pembangunan rumah susun umum dan rumah susun khusus sebagaimana dimaksud pada ayat (1) dapat dilaksanakan oleh lembaga nirlaba dan badan usaha.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pembangunan Rumah Susun Komersial sebagaimana dimaksud dalam Pasal 13 ayat (2) dapat dilaksanakan oleh Setiap Orang. (2') Pelaku Pembangunan Rumah Susun Komersial sebagaimana dimaksud pada ayat (1) wajib menyediakan Rumah Susun Umum paling sedikit 20% (dua puluh persen) dari total luas lantai Rumah Susun Komersial yang dibangun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal pembangunan Rumah Susun Umum sebagaimana dimaksud pada ayat (2) tidak dalam 1 (satu) lokasi kawasan Rumah Susun Komersial, pembangunan Rumah Susun Umum dapat dilaksanakan dalam 1 (satu) daerah kabupaten/ kota yang sama.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Kewajiban menyediakan Rumah Susun Umum paling sedikit 20% (dua puluh persen) sebagaimana dimaksud pada ayat (2) dapat dikonversi dalam bentuk dana untuk pembangunan Rumah Susun Umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pengelolaan dana sebagaimana dimaksud pada ayat (4) dilaksanakan oleh badan percepatan penyelenggaraan perumahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai kewajiban menyediakan Rumah Susun Umum sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_17">
+                <num>17</num>
+                <intro><p>Rumah susun dapat dibangun di atas tanah:</p></intro>
+                  <point eId="pasal_17__huruf_a">
+                    <num>a.</num>
+                    <content><p>hak milik;</p></content>
+                  </point>
+                  <point eId="pasal_17__huruf_b">
+                    <num>b.</num>
+                    <content><p>hak guna bangunan atau hak pakai atas tanah negara; dan</p></content>
+                  </point>
+                  <point eId="pasal_17__huruf_c">
+                    <num>c.</num>
+                    <content><p>hak guna bangunan atau hak pakai di atas hak pengelolaan.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                <intro><p>Selain dibangun di atas tanah sebagaimana dimaksud dalam Pasal 17, rumah susun umum dan/atau rumah susun khusus dapat dibangun dengan:</p></intro>
+                  <point eId="pasal_18__huruf_a">
+                    <num>a.</num>
+                    <content><p>pemanfaatan barang milik negara/daerah berupa tanah; atau</p></content>
+                  </point>
+                  <point eId="pasal_18__huruf_b">
+                    <num>b.</num>
+                    <content><p>pendayagunaan tanah wakaf.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemanfaatan barang milik negara/daerah berupa tanah untuk pembangunan rumah susun sebagaimana dimaksud dalam Pasal 18 huruf a dilakukan dengan cara sewa atau kerja sama pemanfaatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tanah sebagaimana dimaksud pada ayat (1) harus telah diterbitkan sertifikat hak atas tanah sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pelaksanaan sewa atau kerja sama pemanfaatan sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_20">
+                <num>20</num>
+                  <paragraph eId="pasal_20__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pendayagunaan tanah wakaf untuk pembangunan rumah susun sebagaimana dimaksud dalam Pasal 18 huruf b dilakukan dengan cara sewa atau kerja sama pemanfaatan sesuai dengan ikrar wakaf.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Apabila pendayagunaan tanah wakaf sebagaimana dimaksud pada ayat (1) tidak sesuai dengan ikrar wakaf, dapat dilakukan pengubahan peruntukan setelah memperoleh persetujuan dan/atau izin tertulis Badan Wakaf Indonesia sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengubahan peruntukan sebagaimana dimaksud pada ayat (2) hanya dapat dilakukan untuk pembangunan rumah susun umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pelaksanaan sewa atau kerja sama pemanfaatan sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan prinsip syariah dan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai pendayagunaan tanah wakaf untuk rumah susun umum diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemanfaatan dan pendayagunaan tanah untuk pembangunan rumah susun sebagaimana dimaksud dalam Pasal 19 dan Pasal 20 harus dilakukan dengan perjanjian tertulis di hadapan pejabat yang berwenang sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Perjanjian tertulis sebagaimana dimaksud pada ayat (1) sekurang-kurangnya memuat:</p></intro>
+                      <point eId="pasal_21__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>hak dan kewajiban penyewa dan pemilik tanah;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>jangka waktu sewa atas tanah;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>kepastian pemilik tanah untuk mendapatkan pengembalian tanah pada akhir masa perjanjian sewa; dan</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>jaminan penyewa terhadap tanah yang dikembalikan tidak terdapat permasalahan fisik, administrasi, dan hukum.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Jangka waktu sewa atas tanah sebagaimana dimaksud pada ayat (2) huruf b diberikan selama 60 (enam puluh) tahun sejak ditandatanganinya perjanjian tertulis.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Penetapan tarif sewa atas tanah dilakukan oleh Pemerintah untuk menjamin keterjangkauan harga jual sarusun umum bagi MBR.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Perjanjian tertulis sebagaimana dimaksud pada ayat (2) dicatatkan di kantor pertanahan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Penyediaan Tanah</heading>
+              <article eId="pasal_22">
+                <num>22</num>
+                  <paragraph eId="pasal_22__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Penyediaan tanah untuk pembangunan rumah susun dapat dilakukan melalui:</p></intro>
+                      <point eId="pasal_22__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemberian hak atas tanah terhadap tanah yang langsung dikuasai negara;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>konsolidasi tanah oleh pemilik tanah;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>peralihan atau pelepasan hak atas tanah oleh pemegang hak atas tanah;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>pemanfaatan barang milik negara atau barang milik daerah berupa tanah;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>pendayagunaan tanah wakaf;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>pendayagunaan sebagian tanah negara bekas tanah terlantar; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>pengadaan tanah untuk pembangunan bagi kepentingan umum.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyediaan tanah sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal pembangunan rumah susun dilakukan di atas tanah hak guna bangunan atau hak pakai di atas hak pengelolaan sebagaimana dimaksud dalam Pasal 17 huruf c, pelaku pembangunan wajib menyelesaikan status hak guna bangunan atau hak pakai di atas hak pengelolaan sesuai dengan ketentuan peraturan perundang-undangan sebelum menjual sarusun yang bersangkutan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Persyaratan Pembangunan</heading>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_23">
+                    <num>23</num>
+                      <paragraph eId="pasal_23__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pembangunan rumah susun dilakukan melalui perencanaan teknis, pelaksanaan, dan pengawasan teknis.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Perencanaan teknis, pelaksanaan, dan pengawasan teknis sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan peraturan perundang– undangan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_24">
+                    <num>24</num>
+                      <paragraph eId="pasal_24__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Standar pembangunan Rumah Susun meliputi:</p></intro>
+                          <point eId="pasal_24__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>persyaratan administratif;</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>persyaratan teknis; dan</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>persyaratan ekologis.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai standar pembangunan Rumah Susun sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_25">
+                    <num>25</num>
+                      <paragraph eId="pasal_25__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Dalam membangun rumah susun, pelaku pembangunan wajib memisahkan rumah susun atas sarusun, bagian bersama, benda bersama, dan tanah bersama.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_25__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Benda bersama sebagaimana dimaksud pada ayat (1) menjadi bagian bersama jika dibangun sebagai bagian bangunan rumah susun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_25__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Pemisahan sebagaimana dimaksud pada ayat (1) memberikan kejelasan atas:</p></intro>
+                          <point eId="pasal_25__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>batas sarusun yang dapat digunakan secara terpisah untuk setiap pemilik;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>batas dan uraian atas bagian bersama dan benda bersama yang menjadi hak setiap sarusun; dan</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_3__huruf_c">
+                            <num>c.</num>
+                            <content><p>batas dan uraian tanah bersama dan besarnya bagian yang menjadi hak setiap sarusun.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_26">
+                    <num>26</num>
+                      <paragraph eId="pasal_26__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemisahan Rumah Susun sebagaimana dimaksud dalam Pasal 25 ayat (1) wajib dituangkan dalam bentuk gambar dan uraian.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Gambar dan uraian sebagaimana dimaksud pada ayat (1) dibuat sebelum pelaksanaan pembangunan Rumah Susun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Gambar dan uraian sebagaimana dimaksud pada ayat (21dituangkan dalam bentuk akta pemisahan yang disahkan oleh bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, akta pemisahan sebagaimana dimaksud pada ayat (3) disahkan oleh gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_27">
+                    <num>27</num>
+                    <content><p>Ketentuan lebih lanjut mengenai pemisahan rumah susun serta gambar dan uraian sebagaimana dimaksud dalam Pasal 25 dan Pasal 26 diatur dengan peraturan pemerintah.</p></content>
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Persyaratan Administratif</heading>
+                  <article eId="pasal_28">
+                    <num>28</num>
+                    <intro><p>Dalam melakukan pembangunan Rumah Susun, Pelaku Pembangunan harus memenuhi ketentuan administratif yang meliputi:</p></intro>
+                      <point eId="pasal_28__huruf_a">
+                        <num>a.</num>
+                        <content><p>status hak atas tanah; dan</p></content>
+                      </point>
+                      <point eId="pasal_28__huruf_b">
+                        <num>b.</num>
+                        <content><p>Persetujuan Bangunan Gedung.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_29">
+                    <num>29</num>
+                      <paragraph eId="pasal_29__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pelaku Pembangunan harus membangun Rumah Susun dan lingkungannya sesuai dengan rencana fungsi dan pemanfaatan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Rencana fungsi dan pemanfaatan sebagaimana dimaksud pada ayat (1) harus mendapatkan Perizinan Berusaha dari bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, rencana fungsi dan pemanfaatan sebagaimana dimaksud pada ayat (1) harus mendapatkan Perizinan Berusaha dari gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai rencana fungsi dan pemanfaatan pembangunan Rumah Susun diatur dalam Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_31">
+                    <num>31</num>
+                      <paragraph eId="pasal_31__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pengubahan rencana fungsi dan pemanfaatan Rumah Susun sebagaimana dimaksud dalam Pasal 29 ayat (2) harus memenuhi Perizinan Berusaha dari bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_31__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, pengubahan rencana fungsi dan pemanfaatan Rumah Susun sebagaimana dimaksud pada ayat (1) harus memenuhi Perizinan Berusaha dari gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_31__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pengubahan rencana fungsi dan pemanfaatan Rumah Susun sebagaimana dimaksud pada ayat (1) tidak mengurangi fungsi Bagian Bersama, Benda Bersama, dan fungsi hunian.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_32">
+                    <num>32</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha terkait rencana fungsi dan pemanfaatan serta pengubahannya diatur dalam Peraturan Pemerintah.</p></content>
+                  </article>
+                  <article eId="pasal_34">
+                    <num>34</num>
+                      <paragraph eId="pasal_34__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pembangunan rumah susun dilaksanakan berdasarkan perhitungan dan penetapan koefisien lantai bangunan dan koefisien dasar bangunan yang disesuaikan dengan kapasitas daya dukung dan daya tampung lingkungan yang mengacu pada rencana tata ruang wilayah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_34__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Ketentuan mengenai koefisien lantai bangunan dan koefisien dasar bangunan sebagaimana dimaksud pada ayat (1) dikecualikan dalam hal terdapat pembatasan ketinggian bangunan yang berhubungan dengan:</p></intro>
+                          <point eId="pasal_34__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>ketentuan keamanan dan keselamatan operasional penerbangan; dan/atau</p></content>
+                          </point>
+                          <point eId="pasal_34__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>kearifan lokal.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_3">
+                <num>3</num>
+                <heading>Persyaratan Teknis</heading>
+                  <article eId="pasal_35">
+                    <num>35</num>
+                    <intro><p>Persyaratan teknis pembangunan rumah susun terdiri atas:</p></intro>
+                      <point eId="pasal_35__huruf_a">
+                        <num>a.</num>
+                        <content><p>tata bangunan yang meliputi persyaratan peruntukan lokasi serta intensitas dan arsitektur bangunan; dan</p></content>
+                      </point>
+                      <point eId="pasal_35__huruf_b">
+                        <num>b.</num>
+                        <content><p>keandalan bangunan yang meliputi persyaratan keselamatan, kesehatan, kenyamanan, dan kemudahan.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_36">
+                    <num>36</num>
+                    <content><p>Ketentuan tata bangunan dan keandalan bangunan sebagaimana dimaksud dalam Pasal 35 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_4">
+                <num>4</num>
+                <heading>Persyaratan Ekologis</heading>
+                  <article eId="pasal_37">
+                    <num>37</num>
+                    <content><p>Pembangunan rumah susun harus memenuhi persyaratan ekologis yang mencakup keserasian dan keseimbangan fungsi lingkungan.</p></content>
+                  </article>
+                  <article eId="pasal_38">
+                    <num>38</num>
+                    <content><p>Pembangunan rumah susun yang menimbulkan dampak penting terhadap lingkungan harus dilengkapi persyaratan analisis dampak lingkungan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_5__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Sertifikat Laik Fungsi</heading>
+              <article eId="pasal_39">
+                <num>39</num>
+                  <paragraph eId="pasal_39__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pelaku Pembangunan wajib mengajukan permohonan sertifikat laik fungsi kepada bupati/wali kota setelah menyelesaikan seluruh atau sebagian pembangunan Rumah Susun sepanjang tidak bertentangan dengan Persetujuan Bangunan Gedung sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, permohonan sertifikat laik fungsi sebagaimana dimaksud pada ayat (1) diajukan kepada gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemerintah Daerah menerbitkan sertifikat laik fungsi setelah melakukan pemeriksaan kelaikan fungsi bangunan Rumah Susun sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Prasarana, Sarana, dan Utilitas Umum Lingkungan Rumah Susun</heading>
+              <article eId="pasal_40">
+                <num>40</num>
+                  <paragraph eId="pasal_40__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pelaku Pembangunan wajib melengkapi lingkungan Rumah Susun dengan prasarana, sarana, dan utilitas umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Prasarana, sarana, dan utilitas umum sebagaimana dimaksud pada ayat (1) harus mempertimbangkan:</p></intro>
+                      <point eId="pasal_40__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>kemudahan dan keserasian hubungan dalam kegiatan sehari-hari;</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pengamanan jika terjadi hal yang membahayakan; dan</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>struktur, ukuran, dan kekuatan sesuai dengan fungsi dan penggunaannya.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Prasarana, sarana, dan utilitas umum sebagaimana dimaksud pada ayat (1) harus memenuhi standar pelayanan minimal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai standar pelayanan minimal prasarana, sarana, dan utilitas umum diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Pembangunan Melalui Penanaman Modal Asing</heading>
+              <article eId="pasal_41">
+                <num>41</num>
+                <content><p>Pembangunan rumah susun dapat dilakukan melalui penanaman modal asing sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketujuh">
+            <num>Ketujuh</num>
+            <heading>Pemasaran dan Jual Beli Rumah Susun</heading>
+              <article eId="pasal_42">
+                <num>42</num>
+                  <paragraph eId="pasal_42__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pelaku pembangunan dapat melakukan pemasaran sebelum pembangunan rumah susun dilaksanakan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_42__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Dalam hal pemasaran dilakukan sebelum pembangunan rumah susun dilaksanakan sebagaimana dimaksud pada ayat (1), pelaku pembangunan sekurang-kurangnya harus memiliki:</p></intro>
+                      <point eId="pasal_42__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>kepastian peruntukan ruang;</p></content>
+                      </point>
+                      <point eId="pasal_42__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>kepastian hak atas tanah;</p></content>
+                      </point>
+                      <point eId="pasal_42__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>kepastian status penguasaan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_42__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>perizinan pembangunan rumah susun; dan</p></content>
+                      </point>
+                      <point eId="pasal_42__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>jaminan atas pembangunan rumah susun dari lembaga penjamin.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_42__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal pemasaran dilakukan sebelum pembangunan rumah susun sebagaimana dimaksud pada ayat (2), segala sesuatu yang dijanjikan oleh pelaku pembangunan dan/atau agen pemasaran mengikat sebagai perjanjian pengikatan jual beli (PPJB) bagi para pihak.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_43">
+                <num>43</num>
+                  <paragraph eId="pasal_43__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Proses jual beli Sarusun sebelum pembangunan Rumah Susun selesai dapat dilakukan melalui PPJB yang dibuat di hadapan notaris.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_43__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>PPJB sebagaimana dimaksud pada ayat (1) dilakukan setelah memenuhi persyaratan kepastian atas:</p></intro>
+                      <point eId="pasal_43__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>status kepemilikan tanah;</p></content>
+                      </point>
+                      <point eId="pasal_43__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>Persetujuan Bangunan Gedung;</p></content>
+                      </point>
+                      <point eId="pasal_43__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>ketersediaan prasarana, sarana, dan utilitas umum;</p></content>
+                      </point>
+                      <point eId="pasal_43__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>keterbangunan paling sedikit 20% (dua puluh persen); dan</p></content>
+                      </point>
+                      <point eId="pasal_43__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>hal yang diperjanjikan.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_44">
+                <num>44</num>
+                  <paragraph eId="pasal_44__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Proses jual beli, yang dilakukan sesudah pembangunan rumah susun selesai, dilakukan melalui akta jual beli (AJB).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_44__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pembangunan rumah susun dinyatakan selesai sebagaimana dimaksud pada ayat (1) apabila telah diterbitkan:</p></intro>
+                      <point eId="pasal_44__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>Sertifikat Laik Fungsi; dan</p></content>
+                      </point>
+                      <point eId="pasal_44__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>SHM sarusun atau SKBG sarusun.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PENGUASAAN, PEMILIKAN, DAN PEMANFAATAN</heading>
+          <part eId="bab_6__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Penguasaan Sarusun</heading>
+              <article eId="pasal_45">
+                <num>45</num>
+                  <paragraph eId="pasal_45__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penguasaan sarusun pada rumah susun umum dapat dilakukan dengan cara dimiliki atau disewa.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penguasaan sarusun pada rumah susun khusus dapat dilakukan dengan cara pinjam-pakai atau sewa.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penguasaan terhadap sarusun pada rumah susun negara dapat dilakukan dengan cara pinjam-pakai, sewa, atau sewa-beli.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Penguasaan terhadap sarusun pada rumah susun komersial dapat dilakukan dengan cara dimiliki atau disewa.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Penguasaan sarusun dengan cara sewa sebagaimana dimaksud pada ayat (1) dan ayat (4) dilakukan dengan perjanjian tertulis yang dibuat di hadapan pejabat yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Perjanjian tertulis sebagaimana dimaksud pada ayat (5) harus didaftarkan pada PPPSRS.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Tata cara pelaksanaan pinjam-pakai atau sewa sebagaimana dimaksud pada ayat (2) diatur dalam peraturan pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Tata cara pelaksanaan pinjam-pakai, sewa, atau sewa- beli sebagaimana dimaksud pada ayat (3) dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pemilikan Sarusun</heading>
+              <article eId="pasal_46">
+                <num>46</num>
+                  <paragraph eId="pasal_46__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak kepemilikan atas sarusun merupakan hak milik atas sarusun yang bersifat perseorangan yang terpisah dengan hak bersama atas bagian bersama, benda bersama, dan tanah bersama.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_46__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hak atas bagian bersama, benda bersama, dan tanah bersama sebagaimana dimaksud pada ayat (1) dihitung berdasarkan atas NPP.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_47">
+                <num>47</num>
+                  <paragraph eId="pasal_47__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sebagai tanda bukti kepemilikan atas sarusun di atas tanah hak milik, hak guna bangunan, atau hak pakai di atas tanah negara, hak guna bangunan atau hak pakai di atas tanah hak pengelolaan diterbitkan SHM sarusun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_47__ayat_2">
+                    <num>(2)</num>
+                    <content><p>SHM sarusun sebagaimana dimaksud pada ayat (1) diterbitkan bagi setiap orang yang memenuhi syarat sebagai pemegang hak atas tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_47__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>SHM sarusun sebagaimana dimaksud pada ayat (1) merupakan satu kesatuan yang tidak terpisahkan yang terdiri atas:</p></intro>
+                      <point eId="pasal_47__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>salinan buku tanah dan surat ukur atas hak tanah bersama sesuai dengan ketentuan peraturan perundang-undangan;</p></content>
+                      </point>
+                      <point eId="pasal_47__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>gambar denah lantai pada tingkat rumah susun bersangkutan yang menunjukkan sarusun yang dimiliki; dan</p></content>
+                      </point>
+                      <point eId="pasal_47__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>pertelaan mengenai besarnya bagian hak atas bagian bersama, benda bersama, dan tanah bersama bagi yang bersangkutan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_47__ayat_4">
+                    <num>(4)</num>
+                    <content><p>SHM sarusun sebagaimana dimaksud pada ayat (1) diterbitkan oleh kantor pertanahan kabupaten/kota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_47__ayat_5">
+                    <num>(5)</num>
+                    <content><p>SHM sarusun dapat dijadikan jaminan utang dengan dibebani hak tanggungan sesuai dengan ketentuan peraturan perundangan-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_48">
+                <num>48</num>
+                  <paragraph eId="pasal_48__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sebagai tanda bukti kepemilikan atas sarusun di atas barang milik negara/daerah berupa tanah atau tanah wakaf dengan cara sewa, diterbitkan SKBG sarusun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_48__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>SKBG sarusun sebagaimana dimaksud pada ayat (1) merupakan satu kesatuan yang tidak terpisahkan yang terdiri atas:</p></intro>
+                      <point eId="pasal_48__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>salinan buku bangunan gedung;</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>salinan surat perjanjian sewa atas tanah;</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>gambar denah lantai pada tingkat rumah susun yang bersangkutan yang menunjukkan sarusun yang dimiliki; dan</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>pertelaan mengenai besarnya bagian hak atas bagian bersama dan benda bersama yang bersangkutan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_48__ayat_3">
+                    <num>(3)</num>
+                    <content><p>SKBG sarusun sebagaimana dimaksud pada ayat (1) diterbitkan oleh instansi teknis kabupaten/kota yang bertugas dan bertanggung jawab di bidang bangunan gedung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_48__ayat_4">
+                    <num>(4)</num>
+                    <content><p>SKBG sarusun sebagaimana dimaksud pada ayat (1) dapat dijadikan jaminan utang dengan dibebani fidusia sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_48__ayat_5">
+                    <num>(5)</num>
+                    <content><p>SKBG sarusun yang dijadikan jaminan utang secara fidusia harus didaftarkan ke kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_49">
+                <num>49</num>
+                <content><p>Ketentuan lebih lanjut mengenai bentuk SHM sarusun dan SKBG sarusun dan tata cara penerbitannya sebagaimana dimaksud dalam Pasal 47 dan Pasal 48 diatur dengan peraturan pemerintah.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pemanfaatan Rumah Susun</heading>
+              <article eId="pasal_50">
+                <num>50</num>
+                <intro><p>Pemanfaatan rumah susun dilaksanakan sesuai dengan fungsi:</p></intro>
+                  <point eId="pasal_50__huruf_a">
+                    <num>a.</num>
+                    <content><p>hunian; atau</p></content>
+                  </point>
+                  <point eId="pasal_50__huruf_b">
+                    <num>b.</num>
+                    <content><p>campuran.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_51">
+                <num>51</num>
+                  <paragraph eId="pasal_51__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemanfaatan rumah susun sebagaimana dimaksud dalam Pasal 50 dapat berubah dari fungsi hunian ke fungsi campuran karena perubahan rencana tata ruang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_51__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Perubahan fungsi yang diakibatkan oleh perubahan rencana tata ruang sebagaimana dimaksud pada ayat (1) menjadi dasar mengganti sejumlah rumah susun dan/atau memukimkan kembali pemilik sarusun yang dialihfungsikan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_51__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pihak yang melakukan perubahan fungsi rumah susun sebagaimana dimaksud pada ayat (2) wajib menjamin hak kepemilikan sarusun.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Pemanfaatan Sarusun</heading>
+              <article eId="pasal_52">
+                <num>52</num>
+                <content><p>Setiap orang yang menempati, menghuni, atau memiliki sarusun wajib memanfaatkan sarusun sesuai dengan fungsinya.</p></content>
+              </article>
+              <article eId="pasal_53">
+                <num>53</num>
+                  <paragraph eId="pasal_53__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap orang dapat menyewa sarusun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_53__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyewaan sarusun sebagaimana dimaksud pada ayat (1) meliputi hak orang perseorangan atas sarusun dan pemanfaatan terhadap bagian bersama, benda bersama, dan tanah bersama.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_54">
+                <num>54</num>
+                  <paragraph eId="pasal_54__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sarusun umum yang memperoleh kemudahan dari pemerintah hanya dapat dimiliki atau disewa oleh MBR.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Setiap Orang yang memiliki Sarusun umum sebagaimana dimaksud pada ayat (1) hanya dapat mengalihkan kepemilikannya kepada pihak lain dalam hal:</p></intro>
+                      <point eId="pasal_54__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>pewarisan; atau</p></content>
+                      </point>
+                      <point eId="pasal_54__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>perikatan kepemilikan Rumah Susun setelah jangka waktu 20 (dua puluh) tahun.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengalihan sebagaimana dimaksud pada ayat (2) huruf b hanya dapat dilakukan oleh badan percepatan penyelenggaraan perumahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai kriteria dan tata cara pemberian kemudahan kepemilikan Sarusun umum oleh MBR sebagaimana dimaksud pada ayat (1) dan pengalihan sebagaimana dimaksud pada ayat (2) dan ayat (3) diatur dalam Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_55">
+                <num>55</num>
+                  <paragraph eId="pasal_55__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sarusun pada rumah susun negara dapat disewa oleh perseorangan atau kelompok dengan kemudahan dari pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_55__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan mengenai pedoman penyewaan sarusun sebagaimana dimaksud pada ayat (1) diatur dengan peraturan pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PENGELOLAAN</heading>
+          <article eId="pasal_56">
+            <num>56</num>
+              <paragraph eId="pasal_56__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengelolaan Rumah Susun meliputi kegiatan operasional, pemeliharaan, dan perawatan Bagian Bersama, Benda Bersama, dan Tanah Bersama.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengelolaan Rumah Susun sebagaimana dimaksud pada ayat (1) harus dilaksanakan oleh Pengelola yang berbadan hukum, kecuali Rumah Susun Umum sewa, Rumah Susun Khusus, dan Rumah Susun Negara.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_3">
+                <num>(3)</num>
+                <content><p>Badan Hukum sebagaimana dimaksud pada ayat (2) harus mendaftar dan mendapatkan Perizinan Berusaha dari bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_4">
+                <num>(4)</num>
+                <content><p>Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, Badan Hukum sebagaimana dimaksud pada ayat (2) harus mendaftar dan mendapatkan Perizinan Berusaha dari gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_57">
+            <num>57</num>
+              <paragraph eId="pasal_57__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam menjalankan pengelolaan sebagaimana dimaksud dalam Pasal 56 ayat (2), pengelola berhak menerima sejumlah biaya pengelolaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_2">
+                <num>(2)</num>
+                <content><p>Biaya pengelolaan sebagaimana dimaksud pada ayat (1) dibebankan kepada pemilik dan penghuni secara proporsional.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_3">
+                <num>(3)</num>
+                <content><p>Biaya pengelolaan rumah susun umum sewa dan rumah susun khusus milik pemerintah dapat disubsidi pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_4">
+                <num>(4)</num>
+                <content><p>Besarnya biaya pengelolaan sebagaimana dimaksud pada ayat (1) dihitung berdasarkan kebutuhan nyata biaya operasional, pemeliharaan, dan perawatan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara penghitungan besarnya biaya pengelolaan diatur dalam peraturan menteri yang membidangi bangunan gedung.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+            <content><p>Dalam menjalankan kewajibannya sebagaimana dimaksud dalam Pasal 56 ayat (2), pengelola dapat bekerja sama dengan orang perseorangan dan badan hukum.</p></content>
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+              <paragraph eId="pasal_59__ayat_1">
+                <num>(1)</num>
+                <content><p>Pelaku pembangunan yang membangun rumah susun umum milik dan rumah susun komersial dalam masa transisi sebelum terbentuknya PPPSRS wajib mengelola rumah susun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_2">
+                <num>(2)</num>
+                <content><p>Masa transisi sebagaimana dimaksud pada ayat (1) ditetapkan paling lama 1 (satu) tahun sejak penyerahan pertama kali sarusun kepada pemilik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaku pembangunan dalam pengelolaan rumah susun sebagaimana dimaksud pada ayat (1) dapat bekerja sama dengan pengelola.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_4">
+                <num>(4)</num>
+                <content><p>Besarnya biaya pengelolaan rumah susun pada masa transisi sebagaimana dimaksud pada ayat (1) ditanggung oleh pelaku pembangunan dan pemilik sarusun berdasarkan NPP setiap sarusun.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_60">
+            <num>60</num>
+            <content><p>Ketentuan lebih lanjut mengenai pengelolaan rumah susun, masa transisi, dan tata cara penyerahan pertama kali sebagaimana dimaksud dalam Pasal 56, Pasal 57, Pasal 58, dan Pasal 59 diatur dengan peraturan pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PENINGKATAN KUALITAS</heading>
+          <article eId="pasal_61">
+            <num>61</num>
+              <paragraph eId="pasal_61__ayat_1">
+                <num>(1)</num>
+                <intro><p>Peningkatan kualitas wajib dilakukan oleh pemilik sarusun terhadap rumah susun yang:</p></intro>
+                  <point eId="pasal_61__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>tidak laik fungsi dan tidak dapat diperbaiki; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_61__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>dapat menimbulkan bahaya dalam pemanfaatan bangunan rumah susun dan/atau lingkungan rumah susun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_61__ayat_2">
+                <num>(2)</num>
+                <content><p>Peningkatan kualitas rumah susun selain sebagaimana dimaksud pada ayat (1) dapat dilakukan atas prakarsa pemilik sarusun.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_62">
+            <num>62</num>
+              <paragraph eId="pasal_62__ayat_1">
+                <num>(1)</num>
+                <content><p>Peningkatan kualitas sebagaimana dimaksud dalam Pasal 61 dilakukan dengan pembangunan kembali rumah susun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_62__ayat_2">
+                <num>(2)</num>
+                <content><p>Pembangunan kembali rumah susun sebagaimana dimaksud pada ayat (1) dilakukan melalui pembongkaran, penataan, dan pembangunan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_63">
+            <num>63</num>
+            <content><p>Peningkatan kualitas sebagaimana dimaksud dalam Pasal 62 ayat (1) dilakukan dengan tetap melindungi hak kepemilikan, termasuk kepentingan pemilik atau penghuni dengan memperhatikan faktor sosial, budaya, dan ekonomi yang berkeadilan.</p></content>
+          </article>
+          <article eId="pasal_64">
+            <num>64</num>
+            <content><p>Penetapan peningkatan kualitas rumah susun sebagaimana dimaksud dalam Pasal 61 ayat (1) merupakan kewenangan pemerintah daerah.</p></content>
+          </article>
+          <article eId="pasal_65">
+            <num>65</num>
+              <paragraph eId="pasal_65__ayat_1">
+                <num>(1)</num>
+                <intro><p>Prakarsa peningkatan kualitas rumah susun sebagaimana dimaksud dalam Pasal 61 ayat (2) dilakukan oleh:</p></intro>
+                  <point eId="pasal_65__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pemilik sarusun untuk rumah susun umum milik dan rumah susun komersial melalui PPPSRS;</p></content>
+                  </point>
+                  <point eId="pasal_65__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pemerintah, pemerintah daerah, atau pemilik untuk rumah susun umum sewa dan rumah susun khusus; atau</p></content>
+                  </point>
+                  <point eId="pasal_65__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Pemerintah atau pemerintah daerah untuk rumah susun negara.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_2">
+                <num>(2)</num>
+                <content><p>Prakarsa peningkatan kualitas rumah susun yang berasal dari pemilik sebagaimana dimaksud pada ayat (1) huruf a harus disetujui paling sedikit 60 % (enam puluh persen) anggota PPPSRS.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_66">
+            <num>66</num>
+            <intro><p>Pemrakarsa peningkatan kualitas rumah susun sebagaimana dimaksud dalam Pasal 65 ayat (1) wajib:</p></intro>
+              <point eId="pasal_66__huruf_a">
+                <num>a.</num>
+                <content><p>memberitahukan rencana peningkatan kualitas rumah susun kepada penghuni sekurang-kurangnya 1 (satu) tahun sebelum pelaksanaan rencana tersebut;</p></content>
+              </point>
+              <point eId="pasal_66__huruf_b">
+                <num>b.</num>
+                <content><p>memberikan kesempatan kepada pemilik untuk menyampaikan masukan terhadap rencana peningkatan kualitas; dan</p></content>
+              </point>
+              <point eId="pasal_66__huruf_c">
+                <num>c.</num>
+                <content><p>memprioritaskan pemilik lama untuk mendapatkan satuan rumah susun yang sudah ditingkatkan kualitasnya.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_67">
+            <num>67</num>
+              <paragraph eId="pasal_67__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam pelaksanaan peningkatan kualitas Rumah Susun sebagaimana dimaksud dalam Pasal 65 ayat (1) huruf a, PPPSRS dapat bekerja sama dengan Pelaku Pembangunan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_2">
+                <num>(2)</num>
+                <content><p>Kerja sama sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan perjanjian tertulis yang dibuat di hadapan pejabat yang berwenang berdasarkan prinsip kesetaraan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaksanaan peningkatan kualitas Rumah Susun Umum dan Rumah Susun Khusus dilaksanakan oleh badan percepatan penyelenggaraan perumahan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_68">
+            <num>68</num>
+              <paragraph eId="pasal_68__ayat_1">
+                <num>(1)</num>
+                <content><p>Pelaku pembangunan bertanggung jawab terhadap pelaksanaan peningkatan kualitas, penyediaan tempat hunian sementara yang layak dengan memperhatikan faktor jarak, sarana, prasarana, dan utilitas umum, termasuk pendanaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_2">
+                <num>(2)</num>
+                <content><p>PPPSRS bertanggung jawab terhadap penghunian kembali pemilik lama setelah selesainya peningkatan kualitas rumah susun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal penghunian kembali pemilik lama sebagaimana dimaksud pada ayat (2), pemilik tidak dikenai bea perolehan hak atas tanah dan bangunan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_69">
+            <num>69</num>
+            <content><p>Ketentuan lebih lanjut mengenai peningkatan kualitas rumah susun diatur dalam peraturan pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>PENGENDALIAN</heading>
+          <article eId="pasal_70">
+            <num>70</num>
+              <paragraph eId="pasal_70__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pengendalian penyelenggaraan rumah susun dilakukan pada tahap:</p></intro>
+                  <point eId="pasal_70__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>perencanaan;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pembangunan;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>penguasaan, pemilikan, dan pemanfaatan; dan</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>pengelolaan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pengendalian penyelenggaraan rumah susun pada tahap perencanaan sebagaimana dimaksud pada ayat (1) huruf a dilakukan melalui penilaian terhadap:</p></intro>
+                  <point eId="pasal_70__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>kesesuaian jumlah dan jenis;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>kesesuaian zonasi;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>kesesuaian lokasi; dan</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>kepastian ketersediaan prasarana, sarana, dan utilitas umum.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_3">
+                <num>(3)</num>
+                <intro><p>Pengendalian penyelenggaraan rumah susun pada tahap pembangunan sebagaimana dimaksud pada ayat (1) huruf b dilakukan terhadap:</p></intro>
+                  <point eId="pasal_70__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>bukti penguasaan atas tanah; dan</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>kesesuaian antara pelaksanaan pembangunan dan izin mendirikan bangunan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_4">
+                <num>(4)</num>
+                <intro><p>Pengendalian penyelenggaraan rumah susun pada tahap penguasaan, pemilikan, dan pemanfaatan sebagaimana dimaksud pada ayat (1) huruf c dilakukan melalui:</p></intro>
+                  <point eId="pasal_70__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>pemberian Sertifikat Laik Fungsi; dan</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>bukti penguasaan dan pemilikan atas sarusun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_5">
+                <num>(5)</num>
+                <intro><p>Pengendalian penyelenggaraan rumah susun pada tahap pengelolaan sebagaimana dimaksud pada ayat (1) huruf d dilakukan melalui:</p></intro>
+                  <point eId="pasal_70__ayat_5__huruf_a">
+                    <num>a.</num>
+                    <content><p>pengawasan terhadap pembentukan PPPSRS; dan</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_5__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengawasan terhadap pengelolaan bagian bersama, benda bersama, dan tanah bersama.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_71">
+            <num>71</num>
+              <paragraph eId="pasal_71__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pengendalian penyelenggaraan rumah susun sebagaimana dimaksud dalam Pasal 70 ayat (1) dilakukan oleh pemerintah melalui:</p></intro>
+                  <point eId="pasal_71__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>perizinan;</p></content>
+                  </point>
+                  <point eId="pasal_71__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pemeriksaan; dan</p></content>
+                  </point>
+                  <point eId="pasal_71__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>penertiban.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_71__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan lebih lanjut mengenai pengendalian penyelenggaraan rumah susun sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KELEMBAGAAN</heading>
+          <part eId="bab_10__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Badan Pelaksana</heading>
+            <content><p> </p></content>
+          </part>
+          <part eId="bab_10__bagian_kedua">
+            <num>Kedua</num>
+            <heading>PPPSRS</heading>
+              <article eId="pasal_74">
+                <num>74</num>
+                  <paragraph eId="pasal_74__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemilik sarusun wajib membentuk PPPSRS.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_2">
+                    <num>(2)</num>
+                    <content><p>PPPSRS sebagaimana dimaksud pada ayat (1) beranggotakan pemilik atau penghuni yang mendapat kuasa dari pemilik sarusun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_3">
+                    <num>(3)</num>
+                    <content><p>PPPSRS sebagaimana dimaksud pada ayat (1) diberi kedudukan sebagai badan hukum berdasarkan undang- undang ini.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_75">
+                <num>75</num>
+                  <paragraph eId="pasal_75__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pelaku pembangunan wajib memfasilitasi terbentuknya PPPSRS paling lambat sebelum masa transisi sebagaimana dimaksud pada Pasal 59 ayat (2) berakhir.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_75__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal PPPSRS telah terbentuk, pelaku pembangunan segera menyerahkan pengelolaan benda bersama, bagian bersama, dan tanah bersama kepada PPPSRS.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_75__ayat_3">
+                    <num>(3)</num>
+                    <content><p>PPPSRS sebagaimana dimaksud pada ayat (1) berkewajiban mengurus kepentingan para pemilik dan penghuni yang berkaitan dengan pengelolaan kepemilikan benda bersama, bagian bersama, tanah bersama, dan penghunian.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_75__ayat_4">
+                    <num>(4)</num>
+                    <content><p>PPPSRS sebagaimana dimaksud pada ayat (1) dapat membentuk atau menunjuk pengelola.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_76">
+                <num>76</num>
+                <content><p>Tata cara mengurus kepentingan para pemilik dan penghuni yang bersangkutan dengan penghunian sebagaimana dimaksud dalam Pasal 75 diatur dalam Anggaran Dasar dan Anggaran Rumah Tangga PPPSRS.</p></content>
+              </article>
+              <article eId="pasal_77">
+                <num>77</num>
+                  <paragraph eId="pasal_77__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal PPPSRS memutuskan sesuatu yang berkaitan dengan kepemilikan dan pengelolaan rumah susun, setiap anggota mempunyai hak yang sama dengan NPP.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_77__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal PPPSRS memutuskan sesuatu yang berkaitan dengan kepentingan penghunian rumah susun, setiap anggota berhak memberikan satu suara.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_78">
+                <num>78</num>
+                <content><p>Ketentuan lebih lanjut mengenai PPPSRS sebagaimana dimaksud dalam Pasal 74, Pasal 75, Pasal 76, dan Pasal 77 diatur dengan Peraturan Pemerintah.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>TUGAS DAN WEWENANG</heading>
+          <part eId="bab_11__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_79">
+                <num>79</num>
+                  <paragraph eId="pasal_79__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah dalam melaksanakan pembinaan penyelenggaraan rumah susun mempunyai tugas dan wewenang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_79__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tugas dan wewenang sebagaimana dimaksud pada ayat (1) dilakukan oleh pemerintah sesuai dengan tingkat kewenangan masing-masing.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_11__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Tugas</heading>
+              <subpart eId="bab_11__bagian_kedua__paragraf_1">
+                <num>1</num>
+                <heading>Pemerintah</heading>
+                  <article eId="pasal_80">
+                    <num>80</num>
+                    <intro><p>Pemerintah dalam melaksanakan pembinaan penyelenggaraan rumah susun mempunyai tugas:</p></intro>
+                      <point eId="pasal_80__huruf_a">
+                        <num>a.</num>
+                        <content><p>merumuskan kebijakan dan strategi di bidang rumah susun pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_b">
+                        <num>b.</num>
+                        <content><p>menyusun rencana dan program pembangunan dan pengembangan rumah susun pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_c">
+                        <num>c.</num>
+                        <content><p>menyelenggarakan sinkronisasi dan sosialisasi peraturan perundang-undangan serta kebijakan dan strategi penyelenggaraan rumah susun pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_d">
+                        <num>d.</num>
+                        <content><p>menyelenggarakan fungsi operasionalisasi pelaksanaan kebijakan penyediaan rumah susun dan mengembangkan lingkungan rumah susun sebagai bagian dari permukiman pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_e">
+                        <num>e.</num>
+                        <content><p>memberdayakan pemangku kepentingan dalam bidang rumah susun pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_f">
+                        <num>f.</num>
+                        <content><p>menyusun dan menetapkan standar pelayanan minimal rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_g">
+                        <num>g.</num>
+                        <content><p>menyelenggarakan koordinasi dan fasilitasi penyusunan dan penyediaan basis data rumah susun pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_h">
+                        <num>h.</num>
+                        <content><p>mengalokasikan dana dan/atau biaya pembangunan untuk mendukung terwujudnya rumah susun umum, rumah susun khusus, dan rumah susun negara;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_i">
+                        <num>i.</num>
+                        <content><p>memfasilitasi penyediaan rumah susun bagi masyarakat, terutama bagi MBR;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_j">
+                        <num>j.</num>
+                        <content><p>memfasilitasi penyediaaan prasarana, sarana, dan utilitas umum bagi rumah susun yang disediakan untuk MBR;</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_k">
+                        <num>k.</num>
+                        <content><p>menyelenggarakan penyusunan kebijakan nasional tentang pendayagunaan dan pemanfaatan hasil rekayasa teknologi di bidang rumah susun; dan</p></content>
+                      </point>
+                      <point eId="pasal_80__huruf_l">
+                        <num>l.</num>
+                        <content><p>melakukan pencadangan atau pengadaan tanah untuk rumah susun umum, rumah susun khusus, dan rumah susun negara yang sesuai dengan peruntukan lokasi pembangunan rumah susun.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_11__bagian_kedua__paragraf_2">
+                <num>2</num>
+                <heading>Pemerintah Provinsi</heading>
+                  <article eId="pasal_81">
+                    <num>81</num>
+                    <intro><p>Pemerintah provinsi dalam melaksanakan pembinaan penyelenggaraan rumah susun mempunyai tugas:</p></intro>
+                      <point eId="pasal_81__huruf_a">
+                        <num>a.</num>
+                        <content><p>merumuskan kebijakan dan strategi di bidang rumah susun pada tingkat provinsi dengan berpedoman pada kebijakan dan strategi nasional;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_b">
+                        <num>b.</num>
+                        <content><p>menyusun rencana dan program pembangunan dan pengembangan rumah susun pada tingkat provinsi dengan berpedoman pada perencanaan nasional;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_c">
+                        <num>c.</num>
+                        <content><p>melaksanakan sinkronisasi dan sosialisasi peraturan perundang-undangan serta kebijakan dan strategi penyelenggaraan rumah susun pada tingkat provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_d">
+                        <num>d.</num>
+                        <content><p>melaksanakan fungsi operasionalisasi kebijakan penyediaan rumah susun dan mengembangkan lingkungan hunian rumah susun sebagai bagian dari kawasan permukiman pada tingkat provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_e">
+                        <num>e.</num>
+                        <content><p>memberdayakan pemangku kepentingan dalam bidang rumah susun pada tingkat provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_f">
+                        <num>f.</num>
+                        <content><p>melaksanakan standar pelayanan minimal rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_g">
+                        <num>g.</num>
+                        <content><p>melaksanakan koordinasi dan fasilitasi penyusunan dan penyediaan basis data rumah susun di kabupaten/kota pada wilayah provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_h">
+                        <num>h.</num>
+                        <content><p>mengalokasikan dana dan/atau biaya pembangunan untuk mendukung terwujudnya rumah susun umum, rumah susun khusus, dan rumah susun negara;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_i">
+                        <num>i.</num>
+                        <content><p>memfasilitasi penyediaan rumah susun bagi masyarakat, terutama bagi MBR;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_j">
+                        <num>j.</num>
+                        <content><p>memfasilitasi penyediaaan prasarana, sarana, dan utilitas umum bagi rumah susun yang disediakan untuk MBR;</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_k">
+                        <num>k.</num>
+                        <content><p>melaksanakan kebijakan provinsi tentang pendayagunaan dan pemanfaatan hasil rekayasa teknologi di bidang rumah susun dengan berpedoman pada kebijakan nasional; dan</p></content>
+                      </point>
+                      <point eId="pasal_81__huruf_l">
+                        <num>l.</num>
+                        <content><p>melakukan pencadangan atau pengadaan tanah untuk rumah susun umum, rumah susun khusus, dan rumah susun negara yang sesuai dengan peruntukan lokasi pembangunan rumah susun.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_11__bagian_kedua__paragraf_3">
+                <num>3</num>
+                <heading>Pemerintah Kabupaten/Kota</heading>
+                  <article eId="pasal_82">
+                    <num>82</num>
+                    <intro><p>Pemerintah kabupaten/kota dalam melaksanakan pembinaan penyelenggaraan rumah susun mempunyai tugas:</p></intro>
+                      <point eId="pasal_82__huruf_a">
+                        <num>a.</num>
+                        <content><p>merumuskan kebijakan dan strategi pada tingkat kabupaten/kota di bidang rumah susun dengan berpedoman pada kebijakan dan strategi provinsi dan/atau nasional;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_b">
+                        <num>b.</num>
+                        <content><p>menyusun rencana dan program pembangunan dan pengembangan rumah susun pada tingkat kabupaten/kota dengan berpedoman pada perencanaan provinsi dan/atau nasional;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_c">
+                        <num>c.</num>
+                        <content><p>melaksanakan sinkronisasi dan sosialisasi peraturan perundang-undangan serta kebijakan dan strategi penyelenggaraan rumah susun pada tingkat kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_d">
+                        <num>d.</num>
+                        <content><p>melaksanakan fungsi operasionalisasi kebijakan penyediaan dan penataan lingkungan hunian rumah susun pada tingkat kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_e">
+                        <num>e.</num>
+                        <content><p>memberdayakan pemangku kepentingan dalam bidang rumah susun pada tingkat kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_f">
+                        <num>f.</num>
+                        <content><p>melaksanakan standar pelayanan minimal rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_g">
+                        <num>g.</num>
+                        <content><p>melaksanakan koordinasi dan fasilitasi penyusunan dan penyediaan basis data rumah susun pada tingkat kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_h">
+                        <num>h.</num>
+                        <content><p>mengalokasikan dana dan/atau biaya pembangunan untuk mendukung terwujudnya rumah susun umum, rumah susun khusus, dan rumah susun negara;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_i">
+                        <num>i.</num>
+                        <content><p>memfasilitasi penyediaan rumah susun bagi masyarakat, terutama bagi MBR;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_j">
+                        <num>j.</num>
+                        <content><p>memfasilitasi penyediaaan prasarana, sarana, dan utilitas umum pembangunan rumah susun bagi MBR;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_k">
+                        <num>k.</num>
+                        <content><p>melaksanakan kebijakan daerah tentang pendayagunaan dan pemanfaatan hasil rekayasa teknologi di bidang rumah susun dengan berpedoman pada kebijakan provinsi dan/atau nasional;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_l">
+                        <num>l.</num>
+                        <content><p>melakukan pencadangan atau pengadaan tanah untuk rumah susun umum, rumah susun khusus, dan rumah susun negara yang sesuai dengan peruntukan lokasi pembangunan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_m">
+                        <num>m.</num>
+                        <content><p>memfasilitasi pemeliharaan dan perawatan prasarana, sarana, dan utilitas umum rumah susun yang dibangun secara swadaya oleh masyarakat; dan</p></content>
+                      </point>
+                      <point eId="pasal_82__huruf_n">
+                        <num>n.</num>
+                        <content><p>menginventarisasi, mencatat, dan memetakan tanah, prasarana, sarana, utilitas umum, dan bangunan yang menjadi bagian dari rumah susun.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_11__bagian_ketiga">
+            <num>ketiga</num>
+            <heading>Wewenang</heading>
+              <subpart eId="bab_11__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Pemerintah</heading>
+                  <article eId="pasal_83">
+                    <num>83</num>
+                    <intro><p>Pemerintah dalam melaksanakan pembinaan penyelenggaraan rumah susun mempunyai wewenang:</p></intro>
+                      <point eId="pasal_83__huruf_a">
+                        <num>a.</num>
+                        <content><p>menetapkan kebijakan dan strategi di bidang rumah susun pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_83__huruf_b">
+                        <num>b.</num>
+                        <content><p>menetapkan peraturan perundang-undangan, termasuk norma, standar, prosedur, dan kriteria di bidang rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_83__huruf_c">
+                        <num>c.</num>
+                        <content><p>mengawasi dan mengendalikan pelaksanaan kebijakan, strategi, dan program di bidang rumah susun pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_83__huruf_d">
+                        <num>d.</num>
+                        <content><p>mengawasi pelaksanaan operasionalisasi kebijakan dan strategi di bidang rumah susun pada tingkat nasional;</p></content>
+                      </point>
+                      <point eId="pasal_83__huruf_e">
+                        <num>e.</num>
+                        <content><p>memfasilitasi pengelolaan bagian bersama dan benda bersama rumah susun umum, rumah susun khusus, dan rumah susun negara;</p></content>
+                      </point>
+                      <point eId="pasal_83__huruf_f">
+                        <num>f.</num>
+                        <content><p>memfasilitasi kerja sama pada tingkat nasional antara pemerintah dan badan hukum atau kerja sama internasional antara pemerintah dan badan hukum asing dalam penyelenggaraan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_83__huruf_g">
+                        <num>g.</num>
+                        <content><p>menyelenggarakan koordinasi pemanfaatan teknologi dan rancang bangun yang ramah lingkungan serta pemanfaatan industri bahan bangunan yang mengutamakan sumber daya dalam negeri dan kearifan lokal yang aman bagi kesehatan;</p></content>
+                      </point>
+                      <point eId="pasal_83__huruf_h">
+                        <num>h.</num>
+                        <content><p>menyelenggarakan koordinasi pengawasan pelaksanaan peraturan perundang-undangan di bidang rumah susun; dan</p></content>
+                      </point>
+                      <point eId="pasal_83__huruf_i">
+                        <num>i.</num>
+                        <content><p>memfasilitasi peningkatan kualitas rumah susun umum, rumah susun khusus, dan rumah susun negara pada tingkat nasional.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_11__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Pemerintah Provinsi</heading>
+                  <article eId="pasal_84">
+                    <num>84</num>
+                    <intro><p>Pemerintah provinsi dalam melaksanakan pembinaan penyelenggaraan rumah susun mempunyai wewenang:</p></intro>
+                      <point eId="pasal_84__huruf_a">
+                        <num>a.</num>
+                        <content><p>menetapkan kebijakan dan strategi di bidang rumah susun pada tingkat provinsi dengan berpedoman pada kebijakan dan strategi nasional;</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_b">
+                        <num>b.</num>
+                        <content><p>menyusun dan menyempurnakan peraturan perundang- undangan di bidang rumah susun pada tingkat provinsi dengan berpedoman pada norma, standar, prosedur, dan kriteria nasional;</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_c">
+                        <num>c.</num>
+                        <content><p>menyusun petunjuk pelaksanaan norma, standar, prosedur dan kriteria di bidang rumah susun yang telah ditetapkan oleh Pemerintah;</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_d">
+                        <num>d.</num>
+                        <content><p>melakukan pemantauan dan evaluasi pelaksanaan operasionalisasi kebijakan dan strategi di bidang rumah susun pada tingkat provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_e">
+                        <num>e.</num>
+                        <content><p>melaksanakan pengawasan dan pengendalian pelaksanaan peraturan perundang-undangan, kebijakan, strategi, serta program di bidang rumah susun pada tingkat provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_f">
+                        <num>f.</num>
+                        <content><p>memfasilitasi pengelolaan bagian bersama dan benda bersama rumah susun umum, rumah susun khusus, dan rumah susun negara pada tingkat provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_g">
+                        <num>g.</num>
+                        <content><p>memfasilitasi kerja sama pada tingkat provinsi, antara pemerintah provinsi, kabupaten/kota, dan badan hukum dalam penyelenggaraan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_h">
+                        <num>h.</num>
+                        <content><p>melaksanakan pemanfaatan teknologi dan rancang bangun yang ramah lingkungan serta pemanfaatan industri bahan bangunan yang mengutamakan sumber daya dalam negeri dan kearifan lokal yang aman bagi kesehatan;</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_i">
+                        <num>i.</num>
+                        <content><p>melaksanakan pengawasan pelaksanaan peraturan perundang-undangan di bidang rumah susun; dan</p></content>
+                      </point>
+                      <point eId="pasal_84__huruf_j">
+                        <num>j.</num>
+                        <content><p>memfasilitasi peningkatan kualitas rumah susun umum, rumah susun khusus, dan rumah susun negara pada tingkat provinsi.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_11__bagian_ketiga__paragraf_3">
+                <num>3</num>
+                <heading>Pemerintah Kabupaten/Kota</heading>
+                  <article eId="pasal_85">
+                    <num>85</num>
+                    <intro><p>Pemerintah kabupaten/kota dalam melaksanakan pembinaan penyelenggaraan rumah susun mempunyai wewenang:</p></intro>
+                      <point eId="pasal_85__huruf_a">
+                        <num>a.</num>
+                        <content><p>menetapkan kebijakan dan strategi di bidang rumah susun pada tingkat kabupaten/kota dengan berpedoman pada kebijakan dan strategi nasional dan provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_b">
+                        <num>b.</num>
+                        <content><p>menyusun dan menyempurnakan peraturan perundang- undangan di bidang rumah susun pada tingkat kabupaten/kota dengan berpedoman pada norma, standar, prosedur, dan kriteria provinsi dan/atau nasional;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_c">
+                        <num>c.</num>
+                        <content><p>menyusun petunjuk pelaksanaan norma, standar, prosedur dan kriteria di bidang rumah susun yang telah ditetapkan oleh pemerintah provinsi dan/atau Pemerintah;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_d">
+                        <num>d.</num>
+                        <content><p>melakukan pemantauan dan evaluasi pelaksanaan operasionalisasi kebijakan dan strategi di bidang rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_e">
+                        <num>e.</num>
+                        <content><p>melaksanakan pengawasan dan pengendalian pelaksanaan peraturan perundang-undangan, kebijakan, strategi, serta program di bidang rumah susun pada tingkat kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_f">
+                        <num>f.</num>
+                        <content><p>memfasilitasi pengelolaan bagian bersama dan benda bersama rumah susun umum, rumah susun khusus, dan rumah susun negara pada tingkat kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_g">
+                        <num>g.</num>
+                        <content><p>menetapkan zonasi dan lokasi pembangunan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_h">
+                        <num>h.</num>
+                        <content><p>memfasilitasi kerja sama pada tingkat kabupaten/kota antara pemerintah kabupaten/kota dan badan hukum dalam penyelenggaraan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_i">
+                        <num>i.</num>
+                        <content><p>melaksanakan pemanfaatan teknologi dan rancang bangun yang ramah lingkungan serta pemanfaatan industri bahan bangunan yang mengutamakan sumber daya dalam negeri dan kearifan lokal yang aman bagi kesehatan;</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_j">
+                        <num>j.</num>
+                        <content><p>melaksanakan pengawasan pelaksanaan peraturan perundang-undangan di bidang rumah susun; dan</p></content>
+                      </point>
+                      <point eId="pasal_85__huruf_k">
+                        <num>k.</num>
+                        <content><p>memfasilitasi peningkatan kualitas rumah susun umum, rumah susun khusus, dan rumah susun negara pada tingkat kabupaten/kota.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_11__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Bantuan dan Kemudahan</heading>
+              <article eId="pasal_86">
+                <num>86</num>
+                <content><p>Pemerintah memberikan bantuan dan kemudahan dalam rangka pembangunan, penghunian, penguasaan, pemilikan, dan pemanfaatan rumah susun bagi MBR.</p></content>
+              </article>
+              <article eId="pasal_87">
+                <num>87</num>
+                  <paragraph eId="pasal_87__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah dan/atau pemerintah daerah bertanggung jawab dalam pengadaan tanah untuk pembangunan rumah susun umum, rumah susun khusus, dan/atau rumah susun negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_87__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tanggung jawab dalam pengadaan tanah sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan rencana tata ruang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_87__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Biaya pengadaan tanah sebagaimana dimaksud pada ayat (1) dibebankan kepada Pemerintah dan/atau pemerintah daerah sesuai dengan tingkat kewenangannya.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_88">
+                <num>88</num>
+                  <paragraph eId="pasal_88__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah dan/atau pemerintah daerah memberikan insentif kepada pelaku pembangunan rumah susun umum dan rumah susun khusus serta memberikan bantuan dan kemudahan bagi MBR.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_88__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Insentif yang diberikan kepada pelaku pembangunan sebagaimana dimaksud pada ayat (1) berupa:</p></intro>
+                      <point eId="pasal_88__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>fasilitasi dalam pengadaan tanah;</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>fasilitasi dalam proses sertifikasi tanah;</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>fasilitasi dalam proses perizinan;</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>fasilitas kredit konstruksi dengan suku bunga rendah;</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>insentif perpajakan sesuai dengan ketentuan peraturan perundang-undangan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>bantuan penyediaan prasarana, sarana, dan utilitas umum.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_88__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Bantuan dan kemudahan yang diberikan kepada MBR sebagaimana dimaksud pada ayat (1) berupa:</p></intro>
+                      <point eId="pasal_88__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>kredit kepemilikan sarusun dengan suku bunga rendah;</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>keringanan biaya sewa sarusun;</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>asuransi dan penjaminan kredit pemilikan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>insentif perpajakan sesuai dengan ketentuan peraturan perundang-undangan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_3__huruf_e">
+                        <num>e.</num>
+                        <content><p>sertifikasi sarusun.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_88__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai bentuk dan tata cara pemberian insentif kepada pelaku pembangunan rumah susun umum dan rumah susun khusus serta bantuan dan kemudahan kepada MBR diatur dalam peraturan pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>HAK DAN KEWAJIBAN</heading>
+          <part eId="bab_12__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Hak</heading>
+              <article eId="pasal_89">
+                <num>89</num>
+                  <paragraph eId="pasal_89__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap orang mempunyai hak untuk menghuni sarusun yang layak, terjangkau, dan berkelanjutan di dalam lingkungan yang sehat, aman, dan harmonis.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_89__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Dalam penyelenggaraan rumah susun, setiap orang berhak:</p></intro>
+                      <point eId="pasal_89__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>memberikan masukan dan usulan dalam penyusunan kebijakan dan strategi rumah susun pada tingkat nasional, provinsi, dan kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_89__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>mengawasi ketaatan para pemangku kepentingan terhadap pelaksanaan kebijakan, strategi, dan program pembangunan rumah susun sesuai dengan ketentuan yang ditetapkan, baik pada tingkat nasional, provinsi, maupun kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_89__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>memperoleh informasi, melakukan penelitian, serta mengembangkan pengetahuan dan teknologi rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_89__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>ikut serta membantu mengelola informasi rumah susun, baik pada tingkat nasional, provinsi, maupun kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_89__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>membangun rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_89__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>memperoleh manfaat dari penyelenggaraan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_89__ayat_2__huruf_g">
+                        <num>g.</num>
+                        <content><p>memperoleh penggantian yang layak atas kerugian yang dialami secara langsung sebagai akibat penyelenggaraan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_89__ayat_2__huruf_h">
+                        <num>h.</num>
+                        <content><p>mengupayakan kerja sama antarlembaga dan kemitraan antara pemerintah dan masyarakat dalam kegiatan usaha di bidang rumah susun; dan</p></content>
+                      </point>
+                      <point eId="pasal_89__ayat_2__huruf_i">
+                        <num>i.</num>
+                        <content><p>mengajukan gugatan perwakilan ke pengadilan terhadap penyelenggaraan rumah susun yang merugikan masyarakat.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_12__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Kewajiban</heading>
+              <article eId="pasal_90">
+                <num>90</num>
+                  <paragraph eId="pasal_90__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap orang wajib menaati pelaksanaan kebijakan, strategi, dan program pembangunan rumah susun yang dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan di bidang rumah susun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_90__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap orang dalam menggunakan haknya sebagaimana dimaksud dalam Pasal 89 wajib menaati ketentuan peraturan perundangan-undangan di bidang rumah susun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_90__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Dalam penyelenggaraan rumah susun, setiap orang wajib:</p></intro>
+                      <point eId="pasal_90__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>menjaga keamanan, ketertiban, kebersihan, dan kesehatan di lingkungan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_90__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>ikut serta mencegah terjadinya penyelenggaraan rumah susun yang merugikan dan membahayakan orang lain dan/atau kepentingan umum;</p></content>
+                      </point>
+                      <point eId="pasal_90__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>menjaga dan memelihara prasarana dan sarana lingkungan serta utilitas umum yang berada di lingkungan rumah susun; dan</p></content>
+                      </point>
+                      <point eId="pasal_90__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>mengawasi pemanfaatan dan pemfungsian prasarana, sarana, dan utilitas umum di lingkungan rumah susun.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_13">
+        <num>XIII</num>
+        <heading>PENDANAAN DAN SISTEM PEMBIAYAAN</heading>
+          <part eId="bab_13__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_91">
+                <num>91</num>
+                  <paragraph eId="pasal_91__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pendanaan dan sistem pembiayaan dimaksudkan untuk memastikan ketersediaan dana dan dana murah jangka panjang yang berkelanjutan untuk pemenuhan kebutuhan rumah susun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_91__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemerintah dan pemerintah daerah mendorong pemberdayaan sistem pembiayaan sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_13__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pendanaan</heading>
+              <article eId="pasal_92">
+                <num>92</num>
+                <intro><p>Sumber dana untuk pemenuhan kebutuhan rumah susun berasal dari:</p></intro>
+                  <point eId="pasal_92__huruf_a">
+                    <num>a.</num>
+                    <content><p>anggaran pendapatan dan belanja negara;</p></content>
+                  </point>
+                  <point eId="pasal_92__huruf_b">
+                    <num>b.</num>
+                    <content><p>anggaran pendapatan dan belanja daerah; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_92__huruf_c">
+                    <num>c.</num>
+                    <content><p>sumber dana lainnya sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_93">
+                <num>93</num>
+                <intro><p>Dana sebagaimana dimaksud dalam Pasal 92 dimanfaatkan untuk mendukung:</p></intro>
+                  <point eId="pasal_93__huruf_a">
+                    <num>a.</num>
+                    <content><p>penyelenggaraan rumah susun umum, rumah susun khusus, serta rumah susun negara; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_93__huruf_b">
+                    <num>b.</num>
+                    <content><p>pemberian bantuan dan/atau kemudahan pembangunan rumah susun umum, rumah susun khusus, dan rumah susun negara.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_13__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Sistem Pembiayaan</heading>
+              <subpart eId="bab_13__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_94">
+                    <num>94</num>
+                      <paragraph eId="pasal_94__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemerintah dan/atau pemerintah daerah melakukan upaya pengembangan sistem pembiayaan untuk penyelenggaraan rumah susun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_94__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Pengembangan sistem pembiayaan sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                          <point eId="pasal_94__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>lembaga pembiayaan;</p></content>
+                          </point>
+                          <point eId="pasal_94__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>pengerahan dan pemupukan dana;</p></content>
+                          </point>
+                          <point eId="pasal_94__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemanfaatan sumber biaya; dan</p></content>
+                          </point>
+                          <point eId="pasal_94__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>kemudahan atau bantuan pembiayaan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_94__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Sistem pembiayaan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_13__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Pemanfaatan Sumber Biaya</heading>
+                  <article eId="pasal_95">
+                    <num>95</num>
+                    <intro><p>Pemanfaatan sumber biaya sebagaimana dimaksud dalam Pasal 94 ayat (2) huruf c digunakan untuk:</p></intro>
+                      <point eId="pasal_95__huruf_a">
+                        <num>a.</num>
+                        <content><p>pembangunan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_95__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemerolehan sarusun;</p></content>
+                      </point>
+                      <point eId="pasal_95__huruf_c">
+                        <num>c.</num>
+                        <content><p>pemeliharaan dan perawatan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_95__huruf_d">
+                        <num>d.</num>
+                        <content><p>peningkatan kualitas rumah susun; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_95__huruf_e">
+                        <num>e.</num>
+                        <content><p>kepentingan lain di bidang rumah susun sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_14">
+        <num>XIV</num>
+        <heading>PERAN MASYARAKAT</heading>
+          <article eId="pasal_96">
+            <num>96</num>
+              <paragraph eId="pasal_96__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelenggaraan rumah susun dilakukan oleh pemerintah sesuai dengan tingkat kewenangannya dengan melibatkan peran masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_96__ayat_2">
+                <num>(2)</num>
+                <intro><p>Peran masyarakat sebagaimana dimaksud pada ayat (1) dilakukan dengan memberikan masukan dalam:</p></intro>
+                  <point eId="pasal_96__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>penyusunan rencana pembangunan rumah susun dan lingkungannya;</p></content>
+                  </point>
+                  <point eId="pasal_96__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pelaksanaan pembangunan rumah susun dan lingkungannya;</p></content>
+                  </point>
+                  <point eId="pasal_96__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemanfaatan rumah susun dan lingkungannya;</p></content>
+                  </point>
+                  <point eId="pasal_96__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemeliharaan dan perbaikan rumah susun dan lingkungannya; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_96__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>pengawasan dan pengendalian penyelenggaraan rumah susun dan lingkungannya.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_96__ayat_3">
+                <num>(3)</num>
+                <content><p>Masyarakat dapat membentuk forum pengembangan rumah susun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_96__ayat_4">
+                <num>(4)</num>
+                <intro><p>Forum sebagaimana dimaksud pada ayat (3) mempunyai fungsi dan tugas:</p></intro>
+                  <point eId="pasal_96__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>menampung dan menyalurkan aspirasi masyarakat dalam pengembangan rumah susun;</p></content>
+                  </point>
+                  <point eId="pasal_96__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>membahas dan merumuskan pemikiran arah pengembangan penyelenggaraan rumah susun;</p></content>
+                  </point>
+                  <point eId="pasal_96__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>meningkatkan peran dan pengawasan masyarakat;</p></content>
+                  </point>
+                  <point eId="pasal_96__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>memberikan masukan kepada pemerintah; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_96__ayat_4__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan peran arbitrase dan mediasi di bidang penyelenggaraan rumah susun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_96__ayat_5">
+                <num>(5)</num>
+                <content><p>Pembentukan forum sebagaimana dimaksud pada ayat (3) dilakukan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_96__ayat_6">
+                <num>(6)</num>
+                <content><p>Ketentuan lebih lanjut mengenai peran masyarakat dalam penyelenggaraan rumah susun dan forum pengembangan rumah susun sebagaimana dimaksud pada ayat (1) dan ayat (3) diatur dalam peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_15">
+        <num>XV</num>
+        <heading>LARANGAN</heading>
+          <article eId="pasal_97">
+            <num>97</num>
+            <content><p>Setiap pelaku pembangunan rumah susun komersial dilarang mengingkari kewajibannya untuk menyediakan rumah susun umum sekurang-kurangnya 20% (dua puluh persen) dari total luas lantai rumah susun komersial yang dibangun sebagaimana dimaksud dalam Pasal 16 ayat (2).</p></content>
+          </article>
+          <article eId="pasal_98">
+            <num>98</num>
+            <intro><p>Pelaku pembangunan dilarang membuat PPJB:</p></intro>
+              <point eId="pasal_98__huruf_a">
+                <num>a.</num>
+                <content><p>yang tidak sesuai dengan yang dipasarkan; atau</p></content>
+              </point>
+              <point eId="pasal_98__huruf_b">
+                <num>b.</num>
+                <content><p>sebelum memenuhi persyaratan kepastian sebagaimana dimaksud dalam Pasal 43 ayat (2).</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_99">
+            <num>99</num>
+            <intro><p>Setiap orang dilarang:</p></intro>
+              <point eId="pasal_99__huruf_a">
+                <num>a.</num>
+                <content><p>merusak atau mengubah prasarana, sarana, dan utilitas umum yang ada di lingkungan rumah susun;</p></content>
+              </point>
+              <point eId="pasal_99__huruf_b">
+                <num>b.</num>
+                <content><p>melakukan perbuatan yang membahayakan orang lain atau kepentingan umum dalam lingkungan rumah susun;</p></content>
+              </point>
+              <point eId="pasal_99__huruf_c">
+                <num>c.</num>
+                <content><p>mengubah fungsi dan pemanfaatan sarusun; atau</p></content>
+              </point>
+              <point eId="pasal_99__huruf_d">
+                <num>d.</num>
+                <content><p>mengalihfungsikan prasarana, sarana, dan utilitas umum, serta benda bersama, bagian bersama, dan tanah bersama dalam pembangunan atau pengelolaan rumah susun.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_100">
+            <num>100</num>
+            <content><p>Setiap orang dilarang membangun rumah susun di luar lokasi yang ditetapkan.</p></content>
+          </article>
+          <article eId="pasal_101">
+            <num>101</num>
+              <paragraph eId="pasal_101__ayat_1">
+                <num>(1)</num>
+                <intro><p>Setiap orang dilarang:</p></intro>
+                  <point eId="pasal_101__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>mengubah peruntukan lokasi rumah susun yang sudah ditetapkan; atau</p></content>
+                  </point>
+                  <point eId="pasal_101__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>mengubah fungsi dan pemanfaatan rumah susun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_101__ayat_2">
+                <num>(2)</num>
+                <content><p>Larangan sebagaimana dimaksud pada ayat (1) dikecualikan apabila terdapat perubahan tata ruang.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_102">
+            <num>102</num>
+            <intro><p>Setiap pejabat dilarang:</p></intro>
+              <point eId="pasal_102__huruf_a">
+                <num>a.</num>
+                <content><p>menetapkan lokasi yang berpotensi menimbulkan bahaya untuk pembangunan rumah susun; atau</p></content>
+              </point>
+              <point eId="pasal_102__huruf_b">
+                <num>b.</num>
+                <content><p>mengeluarkan izin mendirikan bangunan rumah susun yang tidak sesuai dengan lokasi peruntukan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_103">
+            <num>103</num>
+            <content><p>Setiap orang dilarang menyewakan atau mengalihkan kepemilikan sarusun umum kepada pihak lain, kecuali sebagaimana dimaksud dalam Pasal 54 ayat (2).</p></content>
+          </article>
+          <article eId="pasal_104">
+            <num>104</num>
+            <content><p>Setiap orang dilarang menghalang-halangi kegiatan peningkatan kualitas rumah susun sebagaimana dimaksud dalam Pasal 61 ayat (1), Pasal 62, Pasal 64, dan Pasal 65.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_16">
+        <num>XVI</num>
+        <heading>PENYELESAIAN SENGKETA</heading>
+          <article eId="pasal_105">
+            <num>105</num>
+              <paragraph eId="pasal_105__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelesaian sengketa di bidang rumah susun terlebih dahulu diupayakan berdasarkan musyawarah untuk mufakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_105__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal penyelesaian sengketa melalui musyawarah untuk mufakat tidak tercapai, pihak yang dirugikan dapat menggugat melalui pengadilan yang berada di lingkungan pengadilan umum atau di luar pengadilan berdasarkan pilihan yang disepakati para pihak yang bersengketa melalui alternatif penyelesaian sengketa.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_105__ayat_3">
+                <num>(3)</num>
+                <content><p>Penyelesaian sengketa di luar pengadilan sebagaimana dimaksud pada ayat (2) dilakukan melalui arbitrase, konsultasi, negosiasi, mediasi, konsiliasi, dan/atau penilaian ahli sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_105__ayat_4">
+                <num>(4)</num>
+                <content><p>Penyelesaian sengketa di luar pengadilan sebagaimana dimaksud pada ayat (3) tidak menghilangkan tanggung jawab pidana.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_106">
+            <num>106</num>
+            <intro><p>Gugatan sebagaimana dimaksud dalam Pasal 105 ayat (2) dapat dilakukan oleh:</p></intro>
+              <point eId="pasal_106__huruf_a">
+                <num>a.</num>
+                <content><p>orang perseorangan;</p></content>
+              </point>
+              <point eId="pasal_106__huruf_b">
+                <num>b.</num>
+                <content><p>badan hukum;</p></content>
+              </point>
+              <point eId="pasal_106__huruf_c">
+                <num>c.</num>
+                <content><p>masyarakat; dan/atau</p></content>
+              </point>
+              <point eId="pasal_106__huruf_d">
+                <num>d.</num>
+                <content><p>pemerintah atau instansi terkait.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_17">
+        <num>XVII</num>
+        <heading>SANKSI ADMINISTRATIF</heading>
+          <article eId="pasal_107">
+            <num>107</num>
+            <content><p>Setiap Orang yang menyelenggarakan Rumah Susun tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 16 ayat (2), Pasal 22 ayat (3), Pasal 25 ayat (1), Pasal 26 ayat (1), Pasal 39 ayat (1), Pasal 40 ayat (1), Pasal 51 ayat (3), Pasal 52, Pasal 59 ayat (1), Pasal 61 ayat (1), Pasal 66, PasalT4 ayat (1), Pasal 98, Pasal 100, atau Pasal 101 dikenai sanksi administratif.</p></content>
+          </article>
+          <article eId="pasal_108">
+            <num>108</num>
+              <paragraph eId="pasal_108__ayat_1">
+                <num>(1)</num>
+                <intro><p>Sanksi administratif sebagaimana dimaksud dalam Pasal 107 dapat berupa:</p></intro>
+                  <point eId="pasal_108__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pembatasan kegiatan pembangunan dan/atau kegiatan usaha;</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>penghentian sementara pada pekedaan pelaksanaan pembangunan;</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>penghentian sementara atau penghentian tetap pada pengelolaan Rumah Susun;</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>pencabutan persetujuan bangunan gedung;</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>pencabutan sertifikat laik fungsi;</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>pencabutan SHM Sarusun atau SKBG Sarusun;</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>perintah pembongkaran bangunan Rumah Susun;</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>denda administratif; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_108__ayat_1__huruf_j">
+                    <num>j.</num>
+                    <content><p>pencabutan Perizinan Berusaha.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_108__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan lebih lanjut mengenai kriteria, jenis, besaran denda, dan tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_108__ayat_3">
+                <num>(3)</num>
+                <content><p>Pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) tidak menghilangkan tanggung jawab pemulihan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_18">
+        <num>XVIII</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_109">
+            <num>109</num>
+            <content><p>Setiap pelaku pembangunan rumah susun komersial yang mengingkari kewajibannya untuk menyediakan rumah susun umum sekurang-kurangnya 20% (dua puluh persen) dari total luas lantai rumah susun komersial yang dibangun sebagaimana dimaksud dalam Pasal 97 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_111">
+            <num>111</num>
+              <paragraph eId="pasal_111__ayat_1">
+                <num>(1)</num>
+                <intro><p>Setiap orang yang:</p></intro>
+                  <point eId="pasal_111__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>merusak atau mengubah prasarana, sarana, dan utilitas umum yang ada di lingkungan rumah susun;</p></content>
+                  </point>
+                  <point eId="pasal_111__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan perbuatan yang membahayakan orang lain atau kepentingan umum dalam lingkungan rumah susun;</p></content>
+                  </point>
+                  <point eId="pasal_111__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>mengubah fungsi dan pemanfaatan sarusun; atau</p></content>
+                  </point>
+                  <point eId="pasal_111__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>mengalihfungsikan prasarana, sarana, dan utilitas umum, serta benda bersama, bagian bersama, dan tanah bersama dalam pembangunan atau pengelolaan rumah susun dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah).</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_111__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan bahaya bagi nyawa orang atau barang, pelaku dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_113">
+            <num>113</num>
+            <intro><p>Setiap Orang yang:</p></intro>
+              <point eId="pasal_113__huruf_a">
+                <num>a.</num>
+                <content><p>mengubah peruntukan lokasi Rumah Susun yang sudah ditetapkan; atau</p></content>
+              </point>
+              <point eId="pasal_113__huruf_b">
+                <num>b.</num>
+                <content><p>mengubah fungsi dan pemanfaatan Rumah Susun, sebagaimana dimaksud dalam Pasal 10 1 yang menimbulkan korban terhadap manusia atau kerusakan barang, dipidana dengan pidana penjara paling lama 1 (satu) tahun atau pidana denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah).</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_114">
+            <num>114</num>
+            <intro><p>Setiap pejabat yang:</p></intro>
+              <point eId="pasal_114__huruf_a">
+                <num>a.</num>
+                <content><p>menetapkan lokasi yang berpotensi menimbulkan bahaya untuk pembangunan Rumah Susun; atau</p></content>
+              </point>
+              <point eId="pasal_114__huruf_b">
+                <num>b.</num>
+                <content><p>mengeluarkan persetujuan bangunan gedung Rumah Susun yang tidak sesuai dengan lokasi peruntukan, sebagaimana dimaksud dalam Pasal lO2, dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_115">
+            <num>115</num>
+            <content><p>Setiap orang yang menyewakan atau mengalihkan kepemilikan sarusun umum kepada pihak lain, sebagaimana dimaksud dalam Pasal 103, dipidana dengan pidana denda paling banyak Rp150.000.000,00 (seratus lima puluh juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_116">
+            <num>116</num>
+            <content><p>Setiap orang yang menghalang-halangi kegiatan peningkatan kualitas rumah susun sebagaimana dimaksud dalam Pasal 104 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp200.000.000,00 (dua ratus juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_117">
+            <num>117</num>
+              <paragraph eId="pasal_117__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 109, Pasal 111, Pasal 115 atau Pasal 116 dilakukan oleh Badan Hukum, selain pidana penjara dan pidana denda terhadap pengurusnya, pidana dapat dijatuhkan terhadap Badan Hukum berupa pidana denda dengan pemberatan 3 (tiga) kali dari pidana denda terhadap orang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_117__ayat_2">
+                <num>(2)</num>
+                <intro><p>Selain pidana denda sebagaimana dimaksud pada ayat (1), Badan Hukum dapat dijatuhi pidana tambahan berupa:</p></intro>
+                  <point eId="pasal_117__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>pencabutan Perizinan Berusaha; atau</p></content>
+                  </point>
+                  <point eId="pasal_117__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pencabutan status Badan Hukum.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_19">
+        <num>XIX</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_118">
+            <num>118</num>
+            <intro><p>Pada saat Undang-Undang ini mulai berlaku:</p></intro>
+              <point eId="pasal_118__huruf_a">
+                <num>a.</num>
+                <content><p>Undang-Undang Nomor 16 Tahun 1985 tentang Rumah Susun (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 75, Tambahan Lembaran Negara Republik Indonesia Nomor 3318) dicabut dan dinyatakan tidak berlaku.</p></content>
+              </point>
+              <point eId="pasal_118__huruf_b">
+                <num>b.</num>
+                <content><p>Semua peraturan perundang-undangan yang merupakan peraturan pelaksanaan dari Undang-Undang Nomor 16 Tahun 1985 tentang Rumah Susun dinyatakan tetap berlaku sepanjang tidak bertentangan atau belum diganti dengan peraturan pelaksanaan yang baru berdasarkan Undang-Undang ini.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_119">
+            <num>119</num>
+            <content><p>Peraturan perundang-undangan pelaksanaan yang diamanatkan dalam Undang-Undang ini diselesaikan paling lambat 1 (satu) tahun terhitung sejak Undang-Undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_120">
+            <num>120</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

@@ -24,7 +24,15 @@
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="1848-05-01" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="1960-09-24" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="1974-01-02" source="#org_2" type="amendment"/>
+      </lifecycle>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/1960/5" showAs="Undang-Undang Nomor 5 Tahun 1960 tentang Peraturan Dasar Pokok-Pokok Agraria"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/uu/1974/1" showAs="Perkawinan"/>
+
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
       </references>
