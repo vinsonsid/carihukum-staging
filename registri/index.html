@@ -31,14 +31,17 @@
   <header class="top"><a class="wordmark" href="/"><span class="cari">Cari</span>Hukum</a>
     <a href="/" style="font-size:.8rem;text-decoration:none">← Beranda</a></header>
   <h1>Registri Peraturan Pusat</h1>
-  <div class="sub">Seluruh 9.942 UU, UU Darurat, Perppu, PP, dan Perpres sepanjang sejarah RI
-  (Lapis A — metadata dari JDIH BPK). Peraturan yang sudah berteks lengkap di CariHukum
+  <div class="sub">Registri peraturan pusat sepanjang sejarah RI: UU, UU Darurat, Perppu, PP,
+  Perpres, TAP MPR(S), dan Peraturan Kementerian/Lembaga (Lapis A — metadata dari JDIH BPK
+  &amp; peraturan.go.id). Peraturan yang sudah berteks lengkap di CariHukum
   ditandai tombol <strong>baca</strong>.</div>
   <div class="alat">
     <input id="q" type="search" placeholder="Cari judul… (mis. perseroan, tanah, pidana)" autofocus>
     <select id="fj"><option value="">Semua jenis</option><option value="uu">UU</option>
       <option value="uudrt">UU Darurat</option><option value="perppu">Perppu</option>
-      <option value="pp">PP</option><option value="perpres">Perpres</option></select>
+      <option value="pp">PP</option><option value="perpres">Perpres</option>
+      <option value="tap-mpr">TAP MPR(S)</option>
+      <option value="permen-kl">Peraturan K/L</option></select>
     <select id="fs"><option value="">Semua status</option><option value="berlaku">Berlaku</option>
       <option value="diubah">Diubah</option><option value="dicabut">Dicabut</option></select>
   </div>
@@ -56,6 +59,14 @@
   const d = await (await fetch("/data/registri-ringkas.json")).json();
   const el = (id) => document.getElementById(id);
   let tampil = 100;
+  // Permen K/L (besar) dimuat di latar setelah render pertama
+  let totalSemua = d.jumlah + (d.jumlah_permen || 0);
+  fetch("/data/registri-permen.json").then((r) => r.ok ? r.json() : null).then((p) => {
+    if (!p) return;
+    d.baris = d.baris.concat(p.baris);
+    totalSemua = d.jumlah + p.jumlah;
+    saring();
+  }).catch(() => {});
   function saring() {
     const q = el("q").value.trim().toLowerCase().split(/s+/).filter(Boolean);
     const fj = el("fj").value, fs = el("fs").value;
@@ -70,11 +81,14 @@
       hasil.push(b);
     }
     el("info").textContent = hasil.length.toLocaleString("id-ID") + " dari " +
-      d.jumlah.toLocaleString("id-ID") + " peraturan" + (hasil.length > tampil ? " — menampilkan " + tampil : "");
+      totalSemua.toLocaleString("id-ID") + " peraturan" + (hasil.length > tampil ? " — menampilkan " + tampil : "");
     el("hasil").innerHTML = hasil.slice(0, tampil).map((b) => {
       const kunci = b[0] + "|" + b[1] + "|" + b[2];
       const baca = KORPUS[kunci] ? '<a class="baca" href="' + KORPUS[kunci] + '">baca ▸</a>' : "";
-      return '<div class="r"><span class="id">' + (d.label[b[0]] || b[0].toUpperCase()) + " " + b[2] + "/" + b[1] +
+      const lbl = b[0] === "permen-kl" && b[5]
+        ? (b[5].split(" · ")[0] || d.label[b[0]]).replace(/^Peraturan /, "Per. ").replace(/^Keputusan /, "Kep. ")
+        : (d.label[b[0]] || b[0].toUpperCase());
+      return '<div class="r"><span class="id">' + lbl + " " + b[2] + "/" + b[1] +
         '</span><span class="jdl">' + b[3].replace(/</g, "&lt;") + '</span><span class="st ' + b[4] + '">' + b[4] + "</span>" + baca + "</div>";
     }).join("") + (hasil.length > tampil ?
       '<div class="muat"><button id="lagi">Muat 200 lagi</button></div>' : "");
