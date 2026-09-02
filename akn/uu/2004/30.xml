@@ -1,0 +1,2286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2004/30/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2004/30"/>
+          <FRBRdate date="2004-10-06" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2004/30/ind@2014-01-15/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2004/30/ind@2014-01-15"/>
+          <FRBRdate date="2014-01-15" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2004/30/ind@2014-01-15/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2004/30/ind@2014-01-15.akn"/>
+          <FRBRdate date="2026-09-02" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Jabatan Notaris</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Notaris adalah pejabat umum yang berwenang untuk membuat akta autentik dan memiliki kewenangan lainnya sebagaimana dimaksud dalam Undang- Undang ini atau berdasarkan undang-undang lainnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Pejabat Sementara Notaris adalah seorang yang untuk sementara menjabat sebagai Notaris untuk menjalankan jabatan dari Notaris yang meninggal dunia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Notaris Pengganti adalah seorang yang untuk sementara diangkat sebagai Notaris untuk menggantikan Notaris yang sedang cuti, sakit, atau untuk sementara berhalangan menjalankan jabatannya sebagai Notaris.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Dihapus.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Organisasi Notaris adalah organisasi profesi jabatan Notaris yang berbentuk perkumpulan berbadan hukum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Majelis Pengawas Notaris yang selanjutnya disebut Majelis Pengawas adalah suatu badan yang mempunyai kewenangan dan kewajiban untuk melaksanakan pembinaan dan pengawasan terhadap Notaris.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Akta Notaris yang selanjutnya disebut Akta adalah akta autentik yang dibuat oleh atau di hadapan Notaris menurut bentuk dan tata cara yang ditetapkan dalam Undang-Undang ini.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Minuta Akta adalah asli Akta yang mencantumkan tanda tangan para penghadap, saksi, dan Notaris, yang disimpan sebagai bagian dari Protokol Notaris.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Salinan Akta adalah salinan kata demi kata dari seluruh Akta dan pada bagian bawah salinan Akta tercantum frasa "diberikan sebagai SALINAN yang sama bunyinya".</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Kutipan Akta adalah kutipan kata demi kata dari satu atau beberapa bagian dari Akta dan pada bagian bawah kutipan Akta tercantum frasa "diberikan sebagai KUTIPAN".</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Grosse Akta adalah salah satu salinan Akta untuk pengakuan utang dengan kepala Akta "DEMI KEADILAN BERDASARKAN KETUHANAN YANG MAHA ESA", yang mempunyai kekuatan eksekutorial.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Formasi Jabatan Notaris adalah penentuan jumlah Notaris yang dibutuhkan pada suatu Kabupaten/Kota.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Protokol Notaris adalah kumpulan dokumen yang merupakan arsip negara yang harus disimpan dan dipelihara oleh Notaris sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>PENGANGKATAN DAN PEMBERHENTIAN NOTARIS</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Notaris diangkat dan diberhentikan oleh Menteri.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Syarat untuk dapat diangkat menjadi Notaris sebagaimana dimaksud dalam Pasal 2 adalah:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>warga negara Indonesia;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>bertakwa kepada Tuhan Yang Maha Esa;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>berumur paling sedikit 27 (dua puluh tujuh) tahun;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>sehat jasmani dan rohani yang dinyatakan dengan surat keterangan sehat dari dokter dan psikiater;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_e">
+                <num>e.</num>
+                <content><p>berijazah sarjana hukum dan lulusan jenjang strata dua kenotariatan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_f">
+                <num>f.</num>
+                <content><p>telah menjalani magang atau nyata-nyata telah bekerja sebagai karyawan Notaris dalam waktu paling singkat 24 (dua puluh empat) bulan berturut-turut pada kantor Notaris atas prakarsa sendiri atau atas rekomendasi Organisasi Notaris setelah lulus strata dua kenotariatan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_g">
+                <num>g.</num>
+                <content><p>tidak berstatus sebagai pegawai negeri, pejabat negara, advokat, atau tidak sedang memangku jabatan lain yang oleh undang-undang dilarang untuk dirangkap dengan jabatan Notaris; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_h">
+                <num>h.</num>
+                <content><p>tidak pernah dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <content><p>Sebelum menjalankan jabatannya, Notaris wajib mengucapkan sumpah/janji menurut agamanya di hadapan Menteri atau pejabat yang ditunjuk.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <content><p>Sumpah/janji sebagaimana dimaksud pada ayat (1) berbunyi sebagai berikut: “Saya bersumpah/berjanji: bahwa saya akan patuh dan setia kepada Negara Republik Indonesia, Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Undang-Undang tentang Jabatan Notaris serta peraturan perundang-undangan lainnya. bahwa saya akan menjalankan jabatan saya dengan amanah, jujur, saksama, mandiri, dan tidak berpihak. bahwa saya akan menjaga sikap, tingkah laku saya, dan akan menjalankan kewajiban saya sesuai dengan kode etik profesi, kehormatan, martabat, dan tanggung jawab saya sebagai Notaris. bahwa saya akan merahasiakan isi akta dan keterangan yang diperoleh dalam pelaksanaan jabatan saya. bahwa saya untuk dapat diangkat dalam jabatan ini, baik secara langsung maupun tidak langsung, dengan nama atau dalih apa pun, tidak pernah dan tidak akan memberikan atau menjanjikan sesuatu kepada siapa pun.”</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+            <content><p>Pengucapan sumpah/janji jabatan Notaris sebagaimana dimaksud dalam Pasal 4 dilakukan dalam waktu paling lambat 2 (dua) bulan terhitung sejak tanggal keputusan pengangkatan sebagai Notaris.</p></content>
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+            <content><p>Dalam hal pengucapan sumpah/janji tidak dilakukan dalam jangka waktu sebagaimana dimaksud dalam Pasal 5, keputusan pengangkatan Notaris dapat dibatalkan oleh Menteri.</p></content>
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam waktu paling lambat 60 (enam puluh) hari terhitung sejak tanggal pengambilan sumpah/janji jabatan Notaris, yang bersangkutan wajib:</p></intro>
+                  <point eId="pasal_7__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>menjalankan jabatannya dengan nyata;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>menyampaikan berita acara sumpah/janji jabatan Notaris kepada Menteri, Organisasi Notaris, dan Majelis Pengawas Daerah; dan</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>menyampaikan alamat kantor, contoh tanda tangan, dan paraf, serta teraan cap atau stempel jabatan Notaris berwarna merah kepada Menteri dan pejabat lain yang bertanggung jawab di bidang pertanahan, Organisasi Notaris, Ketua Pengadilan Negeri, Majelis Pengawas Daerah, serta Bupati/Walikota di tempat Notaris diangkat.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <intro><p>Notaris yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) dapat dikenai sanksi berupa:</p></intro>
+                  <point eId="pasal_7__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pemberhentian sementara;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemberhentian dengan hormat; atau</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemberhentian dengan tidak hormat.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <part eId="bab_2__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pemberhentian</heading>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Notaris berhenti atau diberhentikan dari jabatannya dengan hormat karena:</p></intro>
+                      <point eId="pasal_8__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>meninggal dunia;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>telah berumur 65 (enam puluh lima) tahun;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>permintaan sendiri;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>tidak mampu secara rohani dan/atau jasmani untuk melaksanakan tugas jabatan Notaris secara terus menerus lebih dari 3 (tiga) tahun; atau</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>merangkap jabatan sebagaimana dimaksud dalam Pasal 3 huruf g.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan umur sebagaimana dimaksud pada ayat (1) huruf b dapat diperpanjang sampai berumur 67 (enam puluh tujuh) tahun dengan mempertimbangkan kesehatan yang bersangkutan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Notaris diberhentikan sementara dari jabatannya karena:</p></intro>
+                      <point eId="pasal_9__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>dalam proses pailit atau penundaan kewajiban pembayaran utang;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>berada di bawah pengampuan;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>melakukan perbuatan tercela;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>melakukan pelanggaran terhadap kewajiban dan larangan jabatan serta kode etik Notaris; atau</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>sedang menjalani masa penahanan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Sebelum pemberhentian sementara sebagaimana dimaksud pada ayat (1) dilakukan, Notaris diberi kesempatan untuk membela diri di hadapan Majelis Pengawas secara berjenjang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemberhentian sementara Notaris sebagaimana dimaksud pada ayat (2) dilakukan oleh Menteri atas usul Majelis Pengawas Pusat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pemberhentian sementara berdasarkan alasan sebagaimana dimaksud pada ayat (1) huruf c dan huruf d berlaku paling lama 6 (enam) bulan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                  <paragraph eId="pasal_10__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Notaris yang diberhentikan sementara sebagaimana dimaksud dalam Pasal 9 ayat (1) huruf a atau huruf b dapat diangkat kembali menjadi Notaris oleh Menteri setelah dipulihkan haknya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Notaris yang diberhentikan sementara sebagaimana dimaksud dalam Pasal 9 ayat (1) huruf c atau huruf d dapat diangkat kembali menjadi Notaris oleh Menteri setelah masa pemberhentian sementara berakhir.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Notaris yang diangkat menjadi pejabat negara wajib mengambil cuti.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Cuti sebagaimana dimaksud pada ayat (1) berlaku selama Notaris memangku jabatan sebagai pejabat negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai cuti Notaris sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                <intro><p>Notaris diberhentikan dengan tidak hormat dari jabatannya oleh Menteri atas usul Majelis Pengawas Pusat apabila:</p></intro>
+                  <point eId="pasal_12__huruf_a">
+                    <num>a.</num>
+                    <content><p>dinyatakan pailit berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap;</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_b">
+                    <num>b.</num>
+                    <content><p>berada di bawah pengampuan secara terus-menerus lebih dari 3 (tiga) tahun;</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan perbuatan yang merendahkan kehormatan dan martabat jabatan Notaris; atau</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan pelanggaran berat terhadap kewajiban dan larangan jabatan.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                <content><p>Notaris diberhentikan dengan tidak hormat oleh Menteri karena dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih.</p></content>
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                <content><p>Ketentuan lebih lanjut mengenai syarat dan tata cara pengangkatan dan pemberhentian sebagaimana dimaksud dalam Pasal 3, Pasal 8, Pasal 9, Pasal 10, Pasal 11, Pasal 12, dan Pasal 13 diatur dalam Peraturan Menteri.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>KEWENANGAN, KEWAJIBAN, DAN LARANGAN</heading>
+          <article eId="pasal_15">
+            <num>15</num>
+              <paragraph eId="pasal_15__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris berwenang membuat Akta autentik mengenai semua perbuatan, perjanjian, dan penetapan yang diharuskan oleh peraturan perundang-undangan dan/atau yang dikehendaki oleh yang berkepentingan untuk dinyatakan dalam Akta autentik, menjamin kepastian tanggal pembuatan Akta, menyimpan Akta, memberikan grosse, salinan dan kutipan Akta, semuanya itu sepanjang pembuatan Akta itu tidak juga ditugaskan atau dikecualikan kepada pejabat lain atau orang lain yang ditetapkan oleh undang-undang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_2">
+                <num>(2)</num>
+                <intro><p>Selain kewenangan sebagaimana dimaksud pada ayat (1), Notaris berwenang pula:</p></intro>
+                  <point eId="pasal_15__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>mengesahkan tanda tangan dan menetapkan kepastian tanggal surat di bawah tangan dengan mendaftar dalam buku khusus;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>membukukan surat di bawah tangan dengan mendaftar dalam buku khusus;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>membuat kopi dari asli surat di bawah tangan berupa salinan yang memuat uraian sebagaimana ditulis dan digambarkan dalam surat yang bersangkutan;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan pengesahan kecocokan fotokopi dengan surat aslinya;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>memberikan penyuluhan hukum sehubungan dengan pembuatan Akta;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>membuat Akta yang berkaitan dengan pertanahan; atau</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>membuat Akta risalah lelang.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_3">
+                <num>(3)</num>
+                <content><p>Selain kewenangan sebagaimana dimaksud pada ayat (1) dan ayat (2), Notaris mempunyai kewenangan lain yang diatur dalam peraturan perundang- undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Kewajiban</heading>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Dalam menjalankan jabatannya, Notaris wajib:</p></intro>
+                      <point eId="pasal_16__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>bertindak amanah, jujur, saksama, mandiri, tidak berpihak, dan menjaga kepentingan pihak yang terkait dalam perbuatan hukum;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>membuat Akta dalam bentuk Minuta Akta dan menyimpannya sebagai bagian dari Protokol Notaris;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>melekatkan surat dan dokumen serta sidik jari penghadap pada Minuta Akta;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>mengeluarkan Grosse Akta, Salinan Akta, atau Kutipan Akta berdasarkan Minuta Akta;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>memberikan pelayanan sesuai dengan ketentuan dalam Undang-Undang ini, kecuali ada alasan untuk menolaknya;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>merahasiakan segala sesuatu mengenai Akta yang dibuatnya dan segala keterangan yang diperoleh guna pembuatan Akta sesuai dengan sumpah/janji jabatan, kecuali undang-undang menentukan lain;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>menjilid Akta yang dibuatnya dalam 1 (satu) bulan menjadi buku yang memuat tidak lebih dari 50 (lima puluh) Akta, dan jika jumlah Akta tidak dapat dimuat dalam satu buku, Akta tersebut dapat dijilid menjadi lebih dari satu buku, dan mencatat jumlah Minuta Akta, bulan, dan tahun pembuatannya pada sampul setiap buku;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_h">
+                        <num>h.</num>
+                        <content><p>membuat daftar dari Akta protes terhadap tidak dibayar atau tidak diterimanya surat berharga;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_i">
+                        <num>i.</num>
+                        <content><p>membuat daftar Akta yang berkenaan dengan wasiat menurut urutan waktu pembuatan Akta setiap bulan;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_j">
+                        <num>j.</num>
+                        <content><p>mengirimkan daftar Akta sebagaimana dimaksud dalam huruf i atau daftar nihil yang berkenaan dengan wasiat ke pusat daftar wasiat pada kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum dalam waktu 5 (lima) hari pada minggu pertama setiap bulan berikutnya;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_k">
+                        <num>k.</num>
+                        <content><p>mencatat dalam repertorium tanggal pengiriman daftar wasiat pada setiap akhir bulan;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_l">
+                        <num>l.</num>
+                        <content><p>mempunyai cap atau stempel yang memuat lambang negara Republik Indonesia dan pada ruang yang melingkarinya dituliskan nama, jabatan, dan tempat kedudukan yang bersangkutan;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_m">
+                        <num>m.</num>
+                        <content><p>membacakan Akta di hadapan penghadap dengan dihadiri oleh paling sedikit 2 (dua) orang saksi, atau 4 (empat) orang saksi khusus untuk pembuatan Akta wasiat di bawah tangan, dan ditandatangani pada saat itu juga oleh penghadap, saksi, dan Notaris; dan</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_n">
+                        <num>n.</num>
+                        <content><p>menerima magang calon Notaris.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Kewajiban menyimpan Minuta Akta sebagaimana dimaksud pada ayat (1) huruf b tidak berlaku, dalam hal Notaris mengeluarkan Akta in originali.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Akta in originali sebagaimana dimaksud pada ayat (2) meliputi:</p></intro>
+                      <point eId="pasal_16__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>Akta pembayaran uang sewa, bunga, dan pensiun;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>Akta penawaran pembayaran tunai;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>Akta protes terhadap tidak dibayarnya atau tidak diterimanya surat berharga;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>Akta kuasa;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_3__huruf_e">
+                        <num>e.</num>
+                        <content><p>Akta keterangan kepemilikan; dan</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_3__huruf_f">
+                        <num>f.</num>
+                        <content><p>Akta lainnya sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Akta in originali sebagaimana dimaksud pada ayat (2) dapat dibuat lebih dari 1 (satu) rangkap, ditandatangani pada waktu, bentuk, dan isi yang sama, dengan ketentuan pada setiap Akta tertulis kata-kata “BERLAKU SEBAGAI SATU DAN SATU BERLAKU UNTUK SEMUA".</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Akta in originali yang berisi kuasa yang belum diisi nama penerima kuasa hanya dapat dibuat dalam 1 (satu) rangkap.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Bentuk dan ukuran cap atau stempel sebagaimana dimaksud pada ayat (1) huruf l ditetapkan dengan Peraturan Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Pembacaan Akta sebagaimana dimaksud pada ayat (1) huruf m tidak wajib dilakukan, jika penghadap menghendaki agar Akta tidak dibacakan karena penghadap telah membaca sendiri, mengetahui, dan memahami isinya, dengan ketentuan bahwa hal tersebut dinyatakan dalam penutup Akta serta pada setiap halaman Minuta Akta diparaf oleh penghadap, saksi, dan Notaris.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (7) dikecualikan terhadap pembacaan kepala Akta, komparasi, penjelasan pokok Akta secara singkat dan jelas, serta penutup Akta.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_9">
+                    <num>(9)</num>
+                    <content><p>Jika salah satu syarat sebagaimana dimaksud pada ayat (1) huruf m dan ayat (7) tidak dipenuhi, Akta yang bersangkutan hanya mempunyai kekuatan pembuktian sebagai akta di bawah tangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_10">
+                    <num>(10)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (9) tidak berlaku untuk pembuatan Akta wasiat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_11">
+                    <num>(11)</num>
+                    <intro><p>Notaris yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) huruf a sampai dengan huruf l dapat dikenai sanksi berupa:</p></intro>
+                      <point eId="pasal_16__ayat_11__huruf_a">
+                        <num>a.</num>
+                        <content><p>peringatan tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_11__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemberhentian sementara;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_11__huruf_c">
+                        <num>c.</num>
+                        <content><p>pemberhentian dengan hormat; atau</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_11__huruf_d">
+                        <num>d.</num>
+                        <content><p>pemberhentian dengan tidak hormat.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_12">
+                    <num>(12)</num>
+                    <content><p>Selain dikenai sanksi sebagaimana dimaksud pada ayat (1), pelanggaran terhadap ketentuan Pasal 16 ayat (1) huruf j dapat menjadi alasan bagi pihak yang menderita kerugian untuk menuntut penggantian biaya, ganti rugi, dan bunga kepada Notaris.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_13">
+                    <num>(13)</num>
+                    <content><p>Notaris yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) huruf n dapat dikenai sanksi berupa peringatan tertulis.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_16a">
+                <num>16A</num>
+                  <paragraph eId="pasal_16a__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Calon Notaris yang sedang melakukan magang wajib melaksanakan ketentuan sebagaimana dimaksud dalam Pasal 16 ayat (1) huruf a.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16a__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Selain kewajiban sebagaimana dimaksud pada ayat (1), calon Notaris juga wajib merahasiakan segala sesuatu mengenai Akta yang dibuatnya dan segala keterangan yang diperoleh guna pembuatan Akta.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Larangan</heading>
+              <article eId="pasal_17">
+                <num>17</num>
+                  <paragraph eId="pasal_17__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Notaris dilarang:</p></intro>
+                      <point eId="pasal_17__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>menjalankan jabatan di luar wilayah jabatannya;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>meninggalkan wilayah jabatannya lebih dari 7 (tujuh) hari kerja berturut-turut tanpa alasan yang sah;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>merangkap sebagai pegawai negeri;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>merangkap jabatan sebagai pejabat negara;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>merangkap jabatan sebagai advokat;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>merangkap jabatan sebagai pemimpin atau pegawai badan usaha milik negara, badan usaha milik daerah atau badan usaha swasta;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>merangkap jabatan sebagai Pejabat Pembuat Akta Tanah dan/atau Pejabat Lelang Kelas II di luar tempat kedudukan Notaris;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_1__huruf_h">
+                        <num>h.</num>
+                        <content><p>menjadi Notaris Pengganti; atau</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_1__huruf_i">
+                        <num>i.</num>
+                        <content><p>melakukan pekerjaan lain yang bertentangan dengan norma agama, kesusilaan, atau kepatutan yang dapat mempengaruhi kehormatan dan martabat jabatan Notaris.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Notaris yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) dapat dikenai sanksi berupa:</p></intro>
+                      <point eId="pasal_17__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>peringatan tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemberhentian sementara;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pemberhentian dengan hormat; atau</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>pemberhentian dengan tidak hormat.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>TEMPAT KEDUDUKAN, FORMASI, DAN WILAYAH JABATAN NOTARIS</heading>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris mempunyai tempat kedudukan di daerah kabupaten atau kota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Notaris mempunyai wilayah jabatan meliputi seluruh wilayah provinsi dari tempat kedudukannya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+              <paragraph eId="pasal_19__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris wajib mempunyai hanya satu kantor, yaitu di tempat kedudukannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_2">
+                <num>(2)</num>
+                <content><p>Tempat kedudukan Notaris sebagai Pejabat Pembuat Akta Tanah wajib mengikuti tempat kedudukan Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_3">
+                <num>(3)</num>
+                <content><p>Notaris tidak berwenang secara berturut-turut dengan tetap menjalankan jabatan di luar tempat kedudukannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_4">
+                <num>(4)</num>
+                <intro><p>Notaris yang melanggar ketentuan sebagaimana dimaksud pada ayat (2) dapat dikenai sanksi berupa:</p></intro>
+                  <point eId="pasal_19__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_19__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>pemberhentian sementara;</p></content>
+                  </point>
+                  <point eId="pasal_19__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemberhentian dengan hormat; atau</p></content>
+                  </point>
+                  <point eId="pasal_19__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemberhentian dengan tidak hormat.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris dapat menjalankan jabatannya dalam bentuk persekutuan perdata dengan tetap memperhatikan kemandirian dan ketidakberpihakan dalam menjalankan jabatannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Bentuk persekutuan perdata sebagaimana dimaksud pada ayat (1) diatur oleh para Notaris berdasarkan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_3">
+                <num>(3)</num>
+                <content><p>Dihapus.</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Formasi Jabatan Notaris</heading>
+              <article eId="pasal_21">
+                <num>21</num>
+                <content><p>Menteri berwenang menentukan Formasi Jabatan Notaris pada daerah sebagaimana dimaksud dalam Pasal 18 ayat (1) dengan mempertimbangkan usul dari Organisasi Notaris.</p></content>
+              </article>
+              <article eId="pasal_22">
+                <num>22</num>
+                  <paragraph eId="pasal_22__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Formasi Jabatan Notaris ditetapkan berdasarkan:</p></intro>
+                      <point eId="pasal_22__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>kegiatan dunia usaha;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>jumlah penduduk; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>rata-rata jumlah Akta yang dibuat oleh dan/atau di hadapan Notaris setiap bulan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Formasi Jabatan Notaris sebagaimana dimaksud pada ayat (1) merupakan pedoman untuk menentukan kategori daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Formasi Jabatan Notaris dan penentuan kategori daerah sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pindah Wilayah Jabatan Notaris</heading>
+              <article eId="pasal_23">
+                <num>23</num>
+                  <paragraph eId="pasal_23__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Notaris dapat mengajukan permohonan pindah wilayah jabatan Notaris secara tertulis kepada Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Syarat pindah wilayah jabatan sebagaimana dimaksud pada ayat (1) adalah setelah 3 (tiga) tahun berturut-turut melaksanakan tugas jabatan pada daerah kabupaten atau kota tertentu tempat kedudukan Notaris.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Permohonan sebagaimana dimaksud pada ayat (1) diajukan setelah mendapat rekomendasi dari Organisasi Notaris.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Waktu sebagaimana dimaksud pada ayat (2) tidak termasuk cuti yang telah dijalankan oleh Notaris yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara permohonan pindah wilayah jabatan Notaris diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                <content><p>Dalam keadaan tertentu atas permohonan Notaris yang bersangkutan, Menteri dapat memindahkan seorang Notaris dari satu wilayah jabatan ke wilayah jabatan lain.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>CUTI NOTARIS DAN NOTARIS PENGGANTI</heading>
+          <article eId="pasal_25">
+            <num>25</num>
+              <paragraph eId="pasal_25__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris mempunyai hak cuti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_2">
+                <num>(2)</num>
+                <content><p>Hak cuti sebagaimana dimaksud pada ayat (1) dapat diambil setelah Notaris menjalankan jabatan selama 2 (dua) tahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_3">
+                <num>(3)</num>
+                <content><p>Selama menjalankan cuti, Notaris wajib menunjuk seorang Notaris Pengganti.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_26">
+            <num>26</num>
+              <paragraph eId="pasal_26__ayat_1">
+                <num>(1)</num>
+                <content><p>Hak cuti sebagaimana dimaksud dalam Pasal 25 ayat (1) dapat diambil setiap tahun atau sekaligus untuk beberapa tahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap pengambilan cuti paling lama 5 (lima) tahun sudah termasuk perpanjangannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_3">
+                <num>(3)</num>
+                <content><p>Selama masa jabatan Notaris jumlah waktu cuti keseluruhan paling lama 12 (dua belas) tahun.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris mengajukan permohonan cuti secara tertulis disertai usulan penunjukan Notaris Pengganti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <intro><p>Permohonan cuti sebagaimana dimaksud pada ayat (1) diajukan kepada pejabat yang berwenang, yaitu:</p></intro>
+                  <point eId="pasal_27__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>Majelis Pengawas Daerah, dalam hal jangka waktu cuti tidak lebih dari 6 (enam) bulan;</p></content>
+                  </point>
+                  <point eId="pasal_27__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>Majelis Pengawas Wilayah, dalam hal jangka waktu cuti lebih dari 6 (enam) bulan sampai dengan 1 (satu) tahun; atau</p></content>
+                  </point>
+                  <point eId="pasal_27__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>Majelis Pengawas Pusat, dalam jangka waktu cuti lebih dari 1 (satu) tahun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_3">
+                <num>(3)</num>
+                <content><p>Permohonan cuti dapat diterima atau ditolak oleh pejabat yang berwenang memberikan izin cuti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_4">
+                <num>(4)</num>
+                <content><p>Tembusan permohonan sebagaimana dimaksud pada ayat (2) huruf b disampaikan kepada Majelis Pengawas Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_5">
+                <num>(5)</num>
+                <content><p>Tembusan permohonan sebagaimana dimaksud pada ayat (2) huruf c disampaikan kepada Majelis Pengawas Daerah dan Majelis Pengawas Wilayah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_28">
+            <num>28</num>
+            <content><p>Dalam keadaan mendesak, suami/istri atau keluarga sedarah dalam garis lurus dari Notaris dapat mengajukan permohonan cuti kepada Majelis Pengawas sebagaimana dimaksud dalam Pasal 27 ayat (2).</p></content>
+          </article>
+          <article eId="pasal_29">
+            <num>29</num>
+              <paragraph eId="pasal_29__ayat_1">
+                <num>(1)</num>
+                <intro><p>Surat keterangan izin cuti paling sedikit memuat:</p></intro>
+                  <point eId="pasal_29__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>nama Notaris;</p></content>
+                  </point>
+                  <point eId="pasal_29__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>tanggal mulai dan berakhirnya cuti; dan</p></content>
+                  </point>
+                  <point eId="pasal_29__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>nama Notaris Pengganti disertai dokumen yang mendukung Notaris Pengganti tersebut sebagaimana diatur dalam peraturan perundang-undangan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_2">
+                <num>(2)</num>
+                <content><p>Tembusan surat keterangan izin cuti dari Majelis Pengawas Daerah disampaikan kepada Menteri, Majelis Pengawas Pusat, dan Majelis Pengawas Wilayah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_3">
+                <num>(3)</num>
+                <content><p>Tembusan surat keterangan izin cuti dari Majelis Pengawas Wilayah disampaikan kepada Menteri dan Majelis Pengawas Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_4">
+                <num>(4)</num>
+                <content><p>Tembusan surat keterangan izin cuti dari Menteri disampaikan kepada Majelis Pengawas Pusat, Majelis Pengawas Wilayah, dan Majelis Pengawas Daerah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_30">
+            <num>30</num>
+              <paragraph eId="pasal_30__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri atau pejabat yang ditunjuk berwenang mengeluarkan sertifikat cuti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_2">
+                <num>(2)</num>
+                <content><p>Sertifikat cuti sebagaimana dimaksud pada ayat (1) memuat data pengambilan cuti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_3">
+                <num>(3)</num>
+                <content><p>Data pengambilan cuti sebagaimana dimaksud pada ayat (2) dicatat oleh Majelis Pengawas sebagaimana dimaksud dalam Pasal 27 ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_4">
+                <num>(4)</num>
+                <content><p>Pada setiap permohonan cuti dilampirkan sertifikat cuti sebagaimana dimaksud pada ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_5">
+                <num>(5)</num>
+                <content><p>Menteri atau pejabat yang ditunjuk dapat mengeluarkan duplikat sertifikat cuti atas sertifikat cuti yang sudah tidak dapat digunakan atau hilang, dengan permohonan Notaris yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_31">
+            <num>31</num>
+              <paragraph eId="pasal_31__ayat_1">
+                <num>(1)</num>
+                <content><p>Permohonan cuti dapat ditolak oleh pejabat yang berwenang memberikan cuti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_2">
+                <num>(2)</num>
+                <content><p>Penolakan permohonan cuti harus disertai alasan penolakan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_3">
+                <num>(3)</num>
+                <content><p>Penolakan permohonan cuti oleh Majelis Pengawas Daerah dapat diajukan banding kepada Majelis Pengawas Wilayah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_4">
+                <num>(4)</num>
+                <content><p>Penolakan permohonan cuti oleh Majelis Pengawas Wilayah dapat diajukan banding kepada Majelis Pengawas Pusat.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_32">
+            <num>32</num>
+              <paragraph eId="pasal_32__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris yang menjalankan cuti wajib menyerahkan Protokol Notaris kepada Notaris Pengganti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_32__ayat_2">
+                <num>(2)</num>
+                <content><p>Notaris Pengganti menyerahkan kembali Protokol Notaris kepada Notaris setelah cuti berakhir.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_32__ayat_3">
+                <num>(3)</num>
+                <content><p>Serah terima sebagaimana dimaksud pada ayat (1) dan ayat (2) dibuatkan berita acara dan disampaikan kepada Majelis Pengawas Wilayah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_32__ayat_4">
+                <num>(4)</num>
+                <intro><p>Notaris yang melanggar ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dapat dikenai sanksi berupa:</p></intro>
+                  <point eId="pasal_32__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_32__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>pemberhentian sementara;</p></content>
+                  </point>
+                  <point eId="pasal_32__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemberhentian dengan hormat; atau</p></content>
+                  </point>
+                  <point eId="pasal_32__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <intro><p>pemberhentian dengan tidak hormat.</p></intro>
+                      <point eId="pasal_32__ayat_4__huruf_d__angka_14">
+                        <num>14.</num>
+                        <content><p>Judul Bagian Kedua BAB V diubah sehingga berbunyi sebagai berikut: Bagian Kedua Notaris Pengganti dan Pejabat Sementara Notaris</p></content>
+                      </point>
+
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Notaris Pengganti, Notaris Pengganti Khusus, dan Pejabat Sementara Notaris</heading>
+              <article eId="pasal_33">
+                <num>33</num>
+                  <paragraph eId="pasal_33__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Syarat untuk dapat diangkat menjadi Notaris Pengganti dan Pejabat Sementara Notaris adalah warga negara Indonesia yang berijazah sarjana hukum dan telah bekerja sebagai karyawan kantor Notaris paling sedikit 2 (dua) tahun berturut-turut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan yang berlaku bagi Notaris sebagaimana dimaksud dalam Pasal 4, Pasal 15, Pasal 16, dan Pasal 17 berlaku bagi Notaris Pengganti dan Pejabat Sementara Notaris, kecuali Undang-Undang ini menentukan lain.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_35">
+                <num>35</num>
+                  <paragraph eId="pasal_35__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Apabila Notaris meninggal dunia, suami/istri atau keluarga sedarah dalam garis lurus keturunan semenda sampai derajat kedua wajib memberitahukan kepada Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemberitahuan sebagaimana dimaksud pada ayat (1) disampaikan dalam waktu paling lama 7 (tujuh) hari kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Apabila Notaris meninggal dunia pada saat menjalankan cuti, tugas jabatan Notaris dijalankan oleh Notaris Pengganti sebagai Pejabat Sementara Notaris paling lama 30 (tiga puluh) hari terhitung sejak tanggal Notaris meninggal dunia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pejabat Sementara Notaris menyerahkan Protokol Notaris dari Notaris yang meninggal dunia kepada Majelis Pengawas Daerah paling lama 60 (enam puluh) hari terhitung sejak tanggal Notaris meninggal dunia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pejabat Sementara Notaris sebagaimana dimaksud pada ayat (3) dan ayat (4) dapat membuat Akta atas namanya sendiri dan mempunyai Protokol Notaris.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>HONORARIUM</heading>
+          <article eId="pasal_36">
+            <num>36</num>
+              <paragraph eId="pasal_36__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris berhak menerima honorarium atas jasa hukum yang diberikan sesuai dengan kewenangannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_2">
+                <num>(2)</num>
+                <content><p>Besarnya honorarium yang diterima oleh Notaris didasarkan pada nilai ekonomis dan nilai sosiologis dari setiap akta yang dibuatnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_3">
+                <num>(3)</num>
+                <intro><p>Nilai ekonomis sebagaimana dimaksud pada ayat (2) ditentukan dari objek setiap akta sebagai berikut:</p></intro>
+                  <point eId="pasal_36__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>sampai dengan Rp100.000.000,00 (seratus juta rupiah) atau ekuivalen gram emas ketika itu, honorarium yang diterima paling besar adalah 2,5% (dua koma lima persen);</p></content>
+                  </point>
+                  <point eId="pasal_36__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>di atas Rp100.000.000,00 (seratus juta rupiah) sampai dengan Rp1.000.000.000,00 (satu miliar rupiah) honorarium yang diterima paling besar 1,5 % (satu koma lima persen); atau</p></content>
+                  </point>
+                  <point eId="pasal_36__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>di atas Rp1.000.000.000,00 (satu miliar rupiah) honorarium yang diterima didasarkan pada kesepakatan antara Notaris dengan para pihak, tetapi tidak melebihi 1% (satu persen) dari objek yang dibuatkan aktanya.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_4">
+                <num>(4)</num>
+                <content><p>Nilai sosiologis ditentukan berdasarkan fungsi sosial dari objek setiap akta dengan honorarium yang diterima paling besar Rp5.000.000,00 (lima juta rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_37">
+            <num>37</num>
+              <paragraph eId="pasal_37__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris wajib memberikan jasa hukum di bidang kenotariatan secara cuma-cuma kepada orang yang tidak mampu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_2">
+                <num>(2)</num>
+                <intro><p>Notaris yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) dapat dikenai sanksi berupa:</p></intro>
+                  <point eId="pasal_37__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan lisan;</p></content>
+                  </point>
+                  <point eId="pasal_37__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>peringatan tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_37__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemberhentian sementara;</p></content>
+                  </point>
+                  <point eId="pasal_37__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemberhentian dengan hormat; atau</p></content>
+                  </point>
+                  <point eId="pasal_37__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>pemberhentian dengan tidak hormat.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>AKTA NOTARIS</heading>
+          <article eId="pasal_38">
+            <num>38</num>
+              <paragraph eId="pasal_38__ayat_1">
+                <num>(1)</num>
+                <intro><p>Setiap Akta terdiri atas:</p></intro>
+                  <point eId="pasal_38__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>awal Akta atau kepala Akta;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>badan Akta; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>akhir atau penutup Akta.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_2">
+                <num>(2)</num>
+                <intro><p>Awal Akta atau kepala Akta memuat:</p></intro>
+                  <point eId="pasal_38__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>judul Akta;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>nomor Akta;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>jam, hari, tanggal, bulan, dan tahun; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>nama lengkap dan tempat kedudukan Notaris.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_3">
+                <num>(3)</num>
+                <intro><p>Badan Akta memuat:</p></intro>
+                  <point eId="pasal_38__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>nama lengkap, tempat dan tanggal lahir, kewarganegaraan, pekerjaan, jabatan, kedudukan, tempat tinggal para penghadap dan/atau orang yang mereka wakili;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>keterangan mengenai kedudukan bertindak penghadap;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>isi Akta yang merupakan kehendak dan keinginan dari pihak yang berkepentingan; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>nama lengkap, tempat dan tanggal lahir, serta pekerjaan, jabatan, kedudukan, dan tempat tinggal dari tiap-tiap saksi pengenal.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_4">
+                <num>(4)</num>
+                <intro><p>Akhir atau penutup Akta memuat:</p></intro>
+                  <point eId="pasal_38__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>uraian tentang pembacaan Akta sebagaimana dimaksud dalam Pasal 16 ayat (1) huruf m atau Pasal 16 ayat (7);</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>uraian tentang penandatanganan dan tempat penandatanganan atau penerjemahan Akta jika ada;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>nama lengkap, tempat dan tanggal lahir, pekerjaan, jabatan, kedudukan, dan tempat tinggal dari tiap-tiap saksi Akta; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>uraian tentang tidak adanya perubahan yang terjadi dalam pembuatan Akta atau uraian tentang adanya perubahan yang dapat berupa penambahan, pencoretan, atau penggantian serta jumlah perubahannya.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_5">
+                <num>(5)</num>
+                <content><p>Akta Notaris Pengganti dan Pejabat Sementara Notaris, selain memuat ketentuan sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4), juga memuat nomor dan tanggal penetapan pengangkatan, serta pejabat yang mengangkatnya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_39">
+            <num>39</num>
+              <paragraph eId="pasal_39__ayat_1">
+                <num>(1)</num>
+                <intro><p>Penghadap harus memenuhi syarat sebagai berikut:</p></intro>
+                  <point eId="pasal_39__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>paling rendah berumur 18 (delapan belas) tahun atau telah menikah; dan</p></content>
+                  </point>
+                  <point eId="pasal_39__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>cakap melakukan perbuatan hukum.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_2">
+                <num>(2)</num>
+                <content><p>Penghadap harus dikenal oleh Notaris atau diperkenalkan kepadanya oleh 2 (dua) orang saksi pengenal yang berumur paling rendah 18 (delapan belas) tahun atau telah menikah dan cakap melakukan perbuatan hukum atau diperkenalkan oleh 2 (dua) penghadap lainnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_3">
+                <num>(3)</num>
+                <content><p>Pengenalan sebagaimana dimaksud pada ayat (2) dinyatakan secara tegas dalam Akta.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_40">
+            <num>40</num>
+              <paragraph eId="pasal_40__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Akta yang dibacakan oleh Notaris dihadiri paling sedikit 2 (dua) orang saksi, kecuali peraturan perundang-undangan menentukan lain.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_2">
+                <num>(2)</num>
+                <intro><p>Saksi sebagaimana dimaksud pada ayat (1) harus memenuhi syarat sebagai berikut:</p></intro>
+                  <point eId="pasal_40__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>paling rendah berumur 18 (delapan belas) tahun atau sebelumnya telah menikah;</p></content>
+                  </point>
+                  <point eId="pasal_40__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>cakap melakukan perbuatan hukum;</p></content>
+                  </point>
+                  <point eId="pasal_40__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>mengerti bahasa yang digunakan dalam Akta;</p></content>
+                  </point>
+                  <point eId="pasal_40__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>dapat membubuhkan tanda tangan dan paraf; dan</p></content>
+                  </point>
+                  <point eId="pasal_40__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>tidak mempunyai hubungan perkawinan atau hubungan darah dalam garis lurus ke atas atau ke bawah tanpa pembatasan derajat dan garis ke samping sampai dengan derajat ketiga dengan Notaris atau para pihak.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_3">
+                <num>(3)</num>
+                <content><p>Saksi sebagaimana dimaksud pada ayat (1) harus dikenal oleh Notaris atau diperkenalkan kepada Notaris atau diterangkan tentang identitas dan kewenangannya kepada Notaris oleh penghadap.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_4">
+                <num>(4)</num>
+                <content><p>Pengenalan atau pernyataan tentang identitas dan kewenangan saksi dinyatakan secara tegas dalam Akta.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_41">
+            <num>41</num>
+            <content><p>Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 38, Pasal 39, dan Pasal 40 mengakibatkan Akta hanya mempunyai kekuatan pembuktian sebagai akta di bawah tangan.</p></content>
+          </article>
+          <article eId="pasal_42">
+            <num>42</num>
+              <paragraph eId="pasal_42__ayat_1">
+                <num>(1)</num>
+                <content><p>Akta Notaris dituliskan dengan jelas dalam hubungan satu sama lain yang tidak terputus-putus dan tidak menggunakan singkatan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_2">
+                <num>(2)</num>
+                <content><p>Ruang dan sela kosong dalam akta digaris dengan jelas sebelum akta ditandatangani, kecuali untuk akta yang dicetak dalam bentuk formulir berdasarkan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_3">
+                <num>(3)</num>
+                <content><p>Semua bilangan untuk menentukan banyaknya atau jumlahnya sesuatu yang disebut dalam akta, penyebutan tanggal, bulan, dan tahun dinyatakan dengan huruf dan harus didahului dengan angka.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku bagi surat kuasa yang belum menyebutkan nama penerima kuasa.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_43">
+            <num>43</num>
+              <paragraph eId="pasal_43__ayat_1">
+                <num>(1)</num>
+                <content><p>Akta wajib dibuat dalam bahasa Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal penghadap tidak mengerti bahasa yang digunakan dalam Akta, Notaris wajib menerjemahkan atau menjelaskan isi Akta itu dalam bahasa yang dimengerti oleh penghadap.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika para pihak menghendaki, Akta dapat dibuat dalam bahasa asing.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal Akta dibuat sebagaimana dimaksud pada ayat (3), Notaris wajib menerjemahkannya ke dalam bahasa Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_5">
+                <num>(5)</num>
+                <content><p>Apabila Notaris tidak dapat menerjemahkan atau menjelaskannya, Akta tersebut diterjemahkan atau dijelaskan oleh seorang penerjemah resmi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_6">
+                <num>(6)</num>
+                <content><p>Dalam hal terdapat perbedaan penafsiran terhadap isi Akta sebagaimana dimaksud pada ayat (2), maka yang digunakan adalah Akta yang dibuat dalam bahasa Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_44">
+            <num>44</num>
+              <paragraph eId="pasal_44__ayat_1">
+                <num>(1)</num>
+                <content><p>Segera setelah Akta dibacakan, Akta tersebut ditandatangani oleh setiap penghadap, saksi, dan Notaris, kecuali apabila ada penghadap yang tidak dapat membubuhkan tanda tangan dengan menyebutkan alasannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_2">
+                <num>(2)</num>
+                <content><p>Alasan sebagaimana dimaksud pada ayat (1) dinyatakan secara tegas pada akhir Akta.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_3">
+                <num>(3)</num>
+                <content><p>Akta sebagaimana dimaksud dalam Pasal 43 ayat (3) ditandatangani oleh penghadap, Notaris, saksi, dan penerjemah resmi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_4">
+                <num>(4)</num>
+                <content><p>Pembacaan, penerjemahan atau penjelasan, dan penandatanganan sebagaimana dimaksud pada ayat (1) dan ayat (3) serta dalam Pasal 43 ayat (3) dinyatakan secara tegas pada akhir Akta.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_5">
+                <num>(5)</num>
+                <content><p>Pelanggaran terhadap ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), dan ayat (4) mengakibatkan suatu Akta hanya mempunyai kekuatan pembuktian sebagai akta di bawah tangan dan dapat menjadi alasan bagi pihak yang menderita kerugian untuk menuntut penggantian biaya, ganti rugi, dan bunga kepada Notaris</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_45">
+            <num>45</num>
+              <paragraph eId="pasal_45__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal penghadap mempunyai kepentingan hanya pada bagian tertentu dari akta, hanya bagian akta tertentu tersebut yang dibacakan kepadanya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_2">
+                <num>(2)</num>
+                <content><p>Apabila bagian tertentu sebagaimana dimaksud pada ayat (1) diterjemahkan atau dijelaskan, penghadap membubuhkan paraf dan tanda tangan pada bagian tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_3">
+                <num>(3)</num>
+                <content><p>Pembacaan, penerjemahan atau penjelasan, dan penandatanganan sebagaimana dimaksud pada ayat (1) dan ayat (2) dinyatakan secara tegas pada akhir akta.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_46">
+            <num>46</num>
+              <paragraph eId="pasal_46__ayat_1">
+                <num>(1)</num>
+                <intro><p>Apabila pada pembuatan pencatatan harta kekayaan atau berita acara mengenai suatu perbuatan atau peristiwa, terdapat penghadap yang:</p></intro>
+                  <point eId="pasal_46__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>menolak membubuhkan tanda tangannya; atau</p></content>
+                  </point>
+                  <point eId="pasal_46__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>tidak hadir pada penutupan akta, sedangkan penghadap belum menandatangani akta tersebut, hal tersebut harus dinyatakan dalam akta dan akta tersebut tetap merupakan akta otentik.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_2">
+                <num>(2)</num>
+                <content><p>Penolakan sebagaimana dimaksud pada ayat (1) huruf a harus dinyatakan dalam akta dengan mengemukakan alasannya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_47">
+            <num>47</num>
+              <paragraph eId="pasal_47__ayat_1">
+                <num>(1)</num>
+                <content><p>Surat kuasa otentik atau surat lainnya yang menjadi dasar kewenangan pembuatan akta yang dikeluarkan dalam bentuk originali atau surat kuasa di bawah tangan wajib dilekatkan pada Minuta Akta.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_2">
+                <num>(2)</num>
+                <content><p>Surat kuasa otentik yang dibuat dalam bentuk Minuta Akta diuraikan dalam akta.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (1) tidak wajib dilakukan apabila surat kuasa telah dilekatkan pada akta yang dibuat di hadapan Notaris yang sama dan hal tersebut dinyatakan dalam akta.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_48">
+            <num>48</num>
+              <paragraph eId="pasal_48__ayat_1">
+                <num>(1)</num>
+                <intro><p>Isi Akta dilarang untuk diubah dengan:</p></intro>
+                  <point eId="pasal_48__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>diganti;</p></content>
+                  </point>
+                  <point eId="pasal_48__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>ditambah;</p></content>
+                  </point>
+                  <point eId="pasal_48__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>dicoret;</p></content>
+                  </point>
+                  <point eId="pasal_48__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>disisipkan;</p></content>
+                  </point>
+                  <point eId="pasal_48__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>dihapus; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_48__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>ditulis tindih.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_2">
+                <num>(2)</num>
+                <content><p>Perubahan isi Akta sebagaimana dimaksud pada ayat (1) huruf a, huruf b, huruf c, dan huruf d dapat dilakukan dan sah jika perubahan tersebut diparaf atau diberi tanda pengesahan lain oleh penghadap, saksi, dan Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelanggaran terhadap ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) mengakibatkan suatu Akta hanya mempunyai kekuatan pembuktian sebagai akta di bawah tangan dan dapat menjadi alasan bagi pihak yang menderita kerugian untuk menuntut penggantian biaya, ganti rugi, dan bunga kepada Notaris.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+              <paragraph eId="pasal_49__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap perubahan atas Akta sebagaimana dimaksud dalam Pasal 48 ayat (2) dibuat di sisi kiri Akta.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal suatu perubahan tidak dapat dibuat di sisi kiri Akta, perubahan tersebut dibuat pada akhir Akta, sebelum penutup Akta, dengan menunjuk bagian yang diubah atau dengan menyisipkan lembar tambahan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_3">
+                <num>(3)</num>
+                <content><p>Perubahan yang dilakukan tanpa menunjuk bagian yang diubah mengakibatkan perubahan tersebut batal.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_4">
+                <num>(4)</num>
+                <content><p>Pelanggaran terhadap ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) mengakibatkan suatu Akta hanya mempunyai kekuatan pembuktian sebagai akta di bawah tangan dan dapat menjadi alasan bagi pihak yang menderita kerugian untuk menuntut penggantian biaya, ganti rugi, dan bunga kepada Notaris.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_50">
+            <num>50</num>
+              <paragraph eId="pasal_50__ayat_1">
+                <num>(1)</num>
+                <content><p>Jika dalam Akta perlu dilakukan pencoretan kata, huruf, atau angka, pencoretan dilakukan sedemikian rupa sehingga tetap dapat dibaca sesuai dengan yang tercantum semula, dan jumlah kata, huruf, atau angka yang dicoret dinyatakan pada sisi kiri Akta.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_2">
+                <num>(2)</num>
+                <content><p>Pencoretan sebagaimana dimaksud pada ayat (1) dinyatakan sah setelah diparaf atau diberi tanda pengesahan lain oleh penghadap, saksi, dan Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal terjadi perubahan lain terhadap pencoretan sebagaimana dimaksud pada ayat (2), perubahan itu dilakukan pada sisi kiri Akta sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 49 ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_4">
+                <num>(4)</num>
+                <content><p>Pada penutup setiap Akta dinyatakan tentang ada atau tidak adanya perubahan atas pencoretan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_5">
+                <num>(5)</num>
+                <content><p>Dalam hal ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), dan ayat (4), serta dalam Pasal 38 ayat (4) huruf d tidak dipenuhi, Akta tersebut hanya mempunyai kekuatan pembuktian sebagai akta di bawah tangan dan dapat menjadi alasan bagi pihak yang menderita kerugian untuk menuntut penggantian biaya, ganti rugi, dan bunga kepada Notaris.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_51">
+            <num>51</num>
+              <paragraph eId="pasal_51__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris berwenang untuk membetulkan kesalahan tulis dan/atau kesalahan ketik yang terdapat pada Minuta Akta yang telah ditandatangani.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_2">
+                <num>(2)</num>
+                <content><p>Pembetulan sebagaimana dimaksud pada ayat (1) dilakukan di hadapan penghadap, saksi, dan Notaris yang dituangkan dalam berita acara dan memberikan catatan tentang hal tersebut pada Minuta Akta asli dengan menyebutkan tanggal dan nomor Akta berita acara pembetulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_3">
+                <num>(3)</num>
+                <content><p>Salinan Akta berita acara sebagaimana dimaksud pada ayat (2) wajib disampaikan kepada para pihak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_4">
+                <num>(4)</num>
+                <content><p>Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam ayat (2) mengakibatkan suatu Akta hanya mempunyai kekuatan pembuktian sebagai akta di bawah tangan dan dapat menjadi alasan bagi pihak yang menderita kerugian untuk menuntut penggantian biaya, ganti rugi, dan bunga kepada Notaris.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_52">
+            <num>52</num>
+              <paragraph eId="pasal_52__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris tidak diperkenankan membuat akta untuk diri sendiri, istri/suami, atau orang lain yang mempunyai hubungan kekeluargaan dengan Notaris baik karena perkawinan maupun hubungan darah dalam garis keturunan lurus ke bawah dan/atau ke atas tanpa pembatasan derajat, serta dalam garis ke samping sampai dengan derajat ketiga, serta menjadi pihak untuk diri sendiri, maupun dalam suatu kedudukan ataupun dengan perantaraan kuasa.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku, apabila orang tersebut pada ayat (1) kecuali Notaris sendiri, menjadi penghadap dalam penjualan di muka umum, sepanjang penjualan itu dapat dilakukan di hadapan Notaris, persewaan umum, atau pemborongan umum, atau menjadi anggota rapat yang risalahnya dibuat oleh Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelanggaran terhadap ketentuan sebagaimana dimaksud pada ayat (1) berakibat akta hanya mempunyai kekuatan pembuktian sebagai akta di bawah tangan apabila akta itu ditandatangani oleh penghadap, tanpa mengurangi kewajiban Notaris yang membuat akta itu untuk membayar biaya, ganti rugi, dan bunga kepada yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_53">
+            <num>53</num>
+            <intro><p>Akta Notaris tidak boleh memuat penetapan atau ketentuan yang memberikan sesuatu hak dan/atau keuntungan bagi :</p></intro>
+              <point eId="pasal_53__huruf_a">
+                <num>a.</num>
+                <content><p>Notaris, istri atau suami Notaris;</p></content>
+              </point>
+              <point eId="pasal_53__huruf_b">
+                <num>b.</num>
+                <content><p>saksi, istri atau suami saksi; atau</p></content>
+              </point>
+              <point eId="pasal_53__huruf_c">
+                <num>c.</num>
+                <content><p>orang yang mempunyai hubungan kekeluargaan dengan Notaris atau saksi, baik hubungan darah dalam garis lurus ke atas atau ke bawah tanpa pembatasan derajat maupun hubungan perkawinan sampai dengan derajat ketiga.</p></content>
+              </point>
+
+          </article>
+          <part eId="bab_7__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Grosse Akta, Salinan Akta, dan Kutipan Akta</heading>
+              <article eId="pasal_54">
+                <num>54</num>
+                  <paragraph eId="pasal_54__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Notaris hanya dapat memberikan, memperlihatkan, atau memberitahukan isi Akta, Grosse Akta, Salinan Akta atau Kutipan Akta, kepada orang yang berkepentingan langsung pada Akta, ahli waris, atau orang yang memperoleh hak, kecuali ditentukan lain oleh peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Notaris yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) dapat dikenai sanksi berupa:</p></intro>
+                      <point eId="pasal_54__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>peringatan tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_54__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemberhentian sementara;</p></content>
+                      </point>
+                      <point eId="pasal_54__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pemberhentian dengan hormat; atau</p></content>
+                      </point>
+                      <point eId="pasal_54__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>pemberhentian dengan tidak hormat.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_55">
+                <num>55</num>
+                  <paragraph eId="pasal_55__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Notaris yang mengeluarkan Grosse Akta membuat catatan pada minuta akta mengenai penerima Grosse Akta dan tanggal pengeluaran dan catatan tersebut ditandatangani oleh Notaris.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_55__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Grosse Akta pengakuan utang yang dibuat di hadapan Notaris adalah Salinan Akta yang mempunyai kekuatan eksekutorial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_55__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Grosse Akta sebagaimana dimaksud pada ayat (2) pada bagian kepala akta memuat frasa “DEMI KEADILAN BERDASARKAN KETUHANAN YANG MAHA ESA”, dan pada bagian akhir atau penutup akta memuat frasa “diberikan sebagai grosse pertama”, dengan menyebutkan nama orang yang memintanya dan untuk siapa grosse dikeluarkan serta tanggal pengeluarannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_55__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Grosse Akta kedua dan selanjutnya hanya dapat diberikan kepada orang sebagaimana dimaksud dalam Pasal 54 berdasarkan penetapan pengadilan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_56">
+                <num>56</num>
+                  <paragraph eId="pasal_56__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Akta originali, Grosse Akta, Salinan Akta, atau Kutipan Akta yang dikeluarkan oleh Notaris wajib dibubuhi teraan cap/stempel.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Teraan cap sebagaimana dimaksud pada ayat (1) harus pula dibubuhkan pada salinan surat yang dilekatkan pada Minuta Akta.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Surat di bawah tangan yang disahkan atau dilegalisasi, surat di bawah tangan yang didaftar dan pencocokan fotokopi oleh Notaris wajib diberi teraan cap/stempel serta paraf dan tanda tangan Notaris.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_57">
+                <num>57</num>
+                <content><p>Grosse Akta, Salinan Akta, Kutipan Akta Notaris, atau pengesahan surat di bawah tangan yang dilekatkan pada akta yang disimpan dalam Protokol Notaris, hanya dapat dikeluarkan oleh Notaris yang membuatnya, Notaris Pengganti, atau pemegang Protokol Notaris yang sah.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_7__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pembuatan, Penyimpanan, dan Penyerahan Protokol Notaris</heading>
+              <article eId="pasal_58">
+                <num>58</num>
+                  <paragraph eId="pasal_58__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Notaris membuat daftar akta, daftar surat di bawah tangan yang disahkan, daftar surat di bawah tangan yang dibukukan, dan daftar surat lain yang diwajibkan oleh Undang-Undang ini.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_58__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam daftar akta sebagaimana dimaksud pada ayat (1), Notaris setiap hari mencatat semua akta yang dibuat oleh atau di hadapannya, baik dalam bentuk Minuta Akta maupun originali, tanpa sela-sela kosong, masing-masing dalam ruang yang ditutup dengan garis-garis tinta, dengan mencantumkan nomor urut, nomor bulanan, tanggal, sifat akta, dan nama semua orang yang bertindak baik untuk dirinya sendiri maupun sebagai kuasa orang lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_58__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Akta yang dikeluarkan dalam bentuk originali yang dibuat dalam rangkap 2 (dua) atau lebih pada saat yang sama, dicatat dalam daftar dengan satu nomor.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_58__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Setiap halaman dalam daftar diberi nomor urut dan diparaf oleh Majelis Pengawas Daerah, kecuali pada halaman pertama dan terakhir ditandatangani oleh Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_58__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pada halaman sebelum halaman pertama dicantumkan keterangan tentang jumlah halaman daftar akta yang ditandatangani oleh Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_58__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Dalam daftar surat di bawah tangan yang disahkan dan daftar surat di bawah tangan yang dibukukan sebagaimana dimaksud pada ayat (1), Notaris setiap hari mencatat surat di bawah tangan yang disahkan atau dibukukan, tanpa sela-sela kosong, masing-masing dalam ruang yang ditutup dengan garis-garis tinta, dengan mencantumkan nomor urut, tanggal, sifat surat, dan nama semua orang yang bertindak baik untuk dirinya sendiri maupun sebagai kuasa orang lain.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_59">
+                <num>59</num>
+                  <paragraph eId="pasal_59__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Notaris membuat daftar klapper untuk daftar akta dan daftar surat di bawah tangan yang disahkan sebagaimana dimaksud dalam Pasal 58 ayat (1), disusun menurut abjad dan dikerjakan setiap bulan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_59__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Daftar klapper sebagaimana dimaksud pada ayat (1) memuat nama semua orang yang menghadap dengan menyebutkan di belakang tiap-tiap nama, sifat, dan nomor akta, atau surat yang dicatat dalam daftar akta dan daftar surat di bawah tangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_60">
+                <num>60</num>
+                  <paragraph eId="pasal_60__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Akta yang dibuat oleh atau di hadapan Notaris Pengganti dicatat dalam daftar akta.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_60__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Surat di bawah tangan yang disahkan dan surat di bawah tangan yang dibukukan, dicatat dalam daftar surat di bawah tangan yang disahkan dan daftar surat di bawah tangan yang dibukukan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_61">
+                <num>61</num>
+                  <paragraph eId="pasal_61__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Notaris, secara sendiri atau melalui kuasanya, menyampaikan secara tertulis salinan yang telah disahkannya dari daftar akta dan daftar lain yang dibuat pada bulan sebelumnya paling lama 15 (lima belas) hari pada bulan berikutnya kepada Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_61__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Apabila dalam waktu 1 (satu) bulan Notaris tidak membuat akta, Notaris, secara sendiri atau melalui kuasanya menyampaikan hal tersebut secara tertulis kepada Majelis Pengawas Daerah dalam waktu sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_62">
+                <num>62</num>
+                <intro><p>Penyerahan Protokol Notaris dilakukan dalam hal Notaris:</p></intro>
+                  <point eId="pasal_62__huruf_a">
+                    <num>a.</num>
+                    <content><p>meninggal dunia;</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_b">
+                    <num>b.</num>
+                    <content><p>telah berakhir masa jabatannya;</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_c">
+                    <num>c.</num>
+                    <content><p>minta sendiri;</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_d">
+                    <num>d.</num>
+                    <content><p>tidak mampu secara rohani dan/atau jasmani untuk melaksanakan tugas jabatan sebagai Notaris secara terus menerus lebih dari 3 (tiga) tahun;</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_e">
+                    <num>e.</num>
+                    <content><p>diangkat menjadi pejabat negara;</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_f">
+                    <num>f.</num>
+                    <content><p>pindah wilayah jabatan;</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_g">
+                    <num>g.</num>
+                    <content><p>diberhentikan sementara; atau</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_h">
+                    <num>h.</num>
+                    <content><p>diberhentikan dengan tidak hormat.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_63">
+                <num>63</num>
+                  <paragraph eId="pasal_63__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyerahan Protokol sebagaimana dimaksud dalam Pasal 62 dilakukan paling lama 30 (tiga puluh) hari dengan pembuatan berita acara penyerahan Protokol Notaris yang ditandatangani oleh yang menyerahkan dan yang menerima Protokol Notaris.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_63__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal terjadi sebagaimana dimaksud dalam Pasal 62 huruf a, penyerahan Protokol Notaris dilakukan oleh ahli waris Notaris kepada Notaris lain yang ditunjuk oleh Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_63__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal terjadi sebagaimana dimaksud dalam Pasal 62 huruf g, penyerahan Protokol Notaris dilakukan oleh Notaris kepada Notaris lain yang ditunjuk oleh Majelis Pengawas Daerah jika pemberhentian sementara lebih dari 3 (tiga) bulan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_63__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal terjadi sebagaimana dimaksud dalam Pasal 62 huruf b, huruf c, huruf d, huruf f, atau huruf h, penyerahan Protokol Notaris dilakukan oleh Notaris kepada Notaris lain yang ditunjuk oleh Menteri atas usul Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_63__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Protokol Notaris dari Notaris lain yang pada waktu penyerahannya berumur 25 (dua puluh lima) tahun atau lebih diserahkan oleh Notaris penerima Protokol Notaris kepada Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_63__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Dalam hal Protokol Notaris tidak diserahkan dalam jangka waktu 30 (tiga puluh) hari sebagaimana dimaksud pada ayat (1), Majelis Pengawas Daerah berwenang untuk mengambil Protokol Notaris.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_64">
+                <num>64</num>
+                  <paragraph eId="pasal_64__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Protokol Notaris dari Notaris yang diangkat menjadi pejabat negara diserahkan kepada Notaris yang ditunjuk oleh Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_64__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Notaris pemegang Protokol Notaris sebagaimana dimaksud pada ayat (1) berwenang mengeluarkan Grosse Akta, Salinan Akta, atau Kutipan Akta.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_65">
+                <num>65</num>
+                <content><p>Notaris, Notaris Pengganti, dan Pejabat Sementara Notaris bertanggung jawab atas setiap Akta yang dibuatnya meskipun Protokol Notaris telah diserahkan atau dipindahkan kepada pihak penyimpan Protokol Notaris.</p></content>
+              </article>
+              <article eId="pasal_65a">
+                <num>65A</num>
+                <intro><p>Notaris yang melanggar ketentuan Pasal 58 dan Pasal 59 dapat dikenai sanksi berupa:</p></intro>
+                  <point eId="pasal_65a__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_65a__huruf_b">
+                    <num>b.</num>
+                    <content><p>pemberhentian sementara;</p></content>
+                  </point>
+                  <point eId="pasal_65a__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemberhentian dengan hormat; atau</p></content>
+                  </point>
+                  <point eId="pasal_65a__huruf_d">
+                    <num>d.</num>
+                    <intro><p>pemberhentian dengan tidak hormat.</p></intro>
+                      <point eId="pasal_65a__huruf_d__angka_34">
+                        <num>34.</num>
+                        <content><p>Judul Bab VIII diubah sehingga berbunyi sebagai berikut:</p></content>
+                      </point>
+
+                  </point>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PENGAMBILAN MINUTA AKTA DAN PEMANGGILAN NOTARIS</heading>
+          <article eId="pasal_66">
+            <num>66</num>
+              <paragraph eId="pasal_66__ayat_1">
+                <num>(1)</num>
+                <intro><p>Untuk kepentingan proses peradilan, penyidik, penuntut umum, atau hakim dengan persetujuan majelis kehormatan Notaris berwenang:</p></intro>
+                  <point eId="pasal_66__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>mengambil fotokopi Minuta Akta dan/atau surat- surat yang dilekatkan pada Minuta Akta atau Protokol Notaris dalam penyimpanan Notaris; dan</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>memanggil Notaris untuk hadir dalam pemeriksaan yang berkaitan dengan Akta atau Protokol Notaris yang berada dalam penyimpanan Notaris.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengambilan fotokopi Minuta Akta atau surat-surat sebagaimana dimaksud pada ayat (1) huruf a, dibuat berita acara penyerahan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_3">
+                <num>(3)</num>
+                <content><p>Majelis kehormatan Notaris dalam waktu paling lama 30 (tiga puluh) hari kerja terhitung sejak diterimanya surat permintaan persetujuan sebagaimana dimaksud pada ayat (1) wajib memberikan jawaban menerima atau menolak permintaan persetujuan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal majelis kehormatan Notaris tidak memberikan jawaban dalam jangka waktu sebagaimana dimaksud pada ayat (3), majelis kehormatan Notaris dianggap menerima permintaan persetujuan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_66a">
+            <num>66A</num>
+              <paragraph eId="pasal_66a__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam melaksanakan pembinaan, Menteri membentuk majelis kehormatan Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66a__ayat_2">
+                <num>(2)</num>
+                <intro><p>Majelis kehormatan Notaris berjumlah 7 (tujuh) orang, terdiri atas unsur:</p></intro>
+                  <point eId="pasal_66a__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>Notaris sebanyak 3 (tiga) orang;</p></content>
+                  </point>
+                  <point eId="pasal_66a__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pemerintah sebanyak 2 (dua) orang; dan</p></content>
+                  </point>
+                  <point eId="pasal_66a__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>ahli atau akademisi sebanyak 2 (dua) orang.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_66a__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tugas dan fungsi, syarat dan tata cara pengangkatan dan pemberhentian, struktur organisasi, tata kerja, dan anggaran majelis kehormatan Notaris diatur dengan Peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>PENGAWASAN</heading>
+          <article eId="pasal_67">
+            <num>67</num>
+              <paragraph eId="pasal_67__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengawasan atas Notaris dilakukan oleh Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam melaksanakan pengawasan sebagaimana dimaksud pada ayat (1) Menteri membentuk Majelis Pengawas.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_3">
+                <num>(3)</num>
+                <intro><p>Majelis Pengawas sebagaimana dimaksud pada ayat (2) berjumlah 9 (sembilan) orang, terdiri atas unsur:</p></intro>
+                  <point eId="pasal_67__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>Pemerintah sebanyak 3 (tiga) orang;</p></content>
+                  </point>
+                  <point eId="pasal_67__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>Organisasi Notaris sebanyak 3 (tiga) orang; dan</p></content>
+                  </point>
+                  <point eId="pasal_67__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>ahli atau akademisi sebanyak 3 (tiga) orang.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal suatu daerah tidak terdapat unsur instansi pemerintah sebagaimana dimaksud pada ayat (3) huruf a, keanggotaan dalam Majelis Pengawas diisi dari unsur lain yang ditunjuk oleh Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_5">
+                <num>(5)</num>
+                <content><p>Pengawasan sebagaimana dimaksud pada ayat (1) meliputi perilaku Notaris dan pelaksanaan jabatan Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_6">
+                <num>(6)</num>
+                <content><p>Ketentuan mengenai pengawasan sebagaimana dimaksud pada ayat (5) berlaku bagi Notaris Pengganti dan Pejabat Sementara Notaris.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_68">
+            <num>68</num>
+            <intro><p>Majelis Pengawas sebagaimana dimaksud dalam Pasal 67 ayat (2) terdiri atas:</p></intro>
+              <point eId="pasal_68__huruf_a">
+                <num>a.</num>
+                <content><p>Majelis Pengawas Daerah;</p></content>
+              </point>
+              <point eId="pasal_68__huruf_b">
+                <num>b.</num>
+                <content><p>Majelis Pengawas Wilayah; dan</p></content>
+              </point>
+              <point eId="pasal_68__huruf_c">
+                <num>c.</num>
+                <content><p>Majelis Pengawas Pusat.</p></content>
+              </point>
+
+          </article>
+          <part eId="bab_9__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Majelis Pengawas Daerah</heading>
+              <article eId="pasal_69">
+                <num>69</num>
+                  <paragraph eId="pasal_69__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Majelis Pengawas Daerah dibentuk di Kabupaten/Kota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_69__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Keanggotaan Majelis Pengawas Daerah terdiri atas unsur sebagaimana dimaksud dalam Pasal 67 ayat (3). (2a) Dalam hal di suatu Kabupaten/Kota, jumlah Notaris tidak sebanding dengan jumlah anggota Majelis Pengawas Daerah, dapat dibentuk Majelis Pengawas Daerah gabungan untuk beberapa Kabupaten/Kota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_69__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketua dan Wakil Ketua Majelis Pengawas Daerah dipilih dari dan oleh anggota sebagaimana dimaksud pada ayat (2).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_69__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Masa jabatan ketua, wakil ketua, dan anggota Majelis Pengawas Daerah adalah 3 (tiga) tahun dan dapat diangkat kembali.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_69__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Majelis Pengawas Daerah dibantu oleh seorang sekretaris atau lebih yang ditunjuk dalam Rapat Majelis Pengawas Daerah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_70">
+                <num>70</num>
+                <intro><p>Majelis Pengawas Daerah berwenang:</p></intro>
+                  <point eId="pasal_70__huruf_a">
+                    <num>a.</num>
+                    <content><p>menyelenggarakan sidang untuk memeriksa adanya dugaan pelanggaran Kode Etik Notaris atau pelanggaran pelaksanaan jabatan Notaris;</p></content>
+                  </point>
+                  <point eId="pasal_70__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan pemeriksaan terhadap Protokol Notaris secara berkala 1 (satu) kali dalam 1 (satu) tahun atau setiap waktu yang dianggap perlu;</p></content>
+                  </point>
+                  <point eId="pasal_70__huruf_c">
+                    <num>c.</num>
+                    <content><p>memberikan izin cuti untuk waktu sampai dengan 6 (enam) bulan;</p></content>
+                  </point>
+                  <point eId="pasal_70__huruf_d">
+                    <num>d.</num>
+                    <content><p>menetapkan Notaris Pengganti dengan memperhatikan usul Notaris yang bersangkutan;</p></content>
+                  </point>
+                  <point eId="pasal_70__huruf_e">
+                    <num>e.</num>
+                    <content><p>menentukan tempat penyimpanan Protokol Notaris yang pada saat serah terima Protokol Notaris telah berumur 25 (dua puluh lima) tahun atau lebih;</p></content>
+                  </point>
+                  <point eId="pasal_70__huruf_f">
+                    <num>f.</num>
+                    <content><p>menunjuk Notaris yang akan bertindak sebagai pemegang sementara Protokol Notaris yang diangkat sebagai pejabat negara sebagaimana dimaksud dalam Pasal 11 ayat (4);</p></content>
+                  </point>
+                  <point eId="pasal_70__huruf_g">
+                    <num>g.</num>
+                    <content><p>menerima laporan dari masyarakat mengenai adanya dugaan pelanggaran Kode Etik Notaris atau pelanggaran ketentuan dalam Undang-Undang ini; dan</p></content>
+                  </point>
+                  <point eId="pasal_70__huruf_h">
+                    <num>h.</num>
+                    <content><p>membuat dan menyampaikan laporan sebagaimana dimaksud pada huruf a, huruf b, huruf c, huruf d, huruf e, huruf f, dan huruf g kepada Majelis Pengawas Wilayah.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_71">
+                <num>71</num>
+                <intro><p>Majelis Pengawas Daerah berkewajiban:</p></intro>
+                  <point eId="pasal_71__huruf_a">
+                    <num>a.</num>
+                    <content><p>mencatat pada buku daftar yang termasuk dalam Protokol Notaris dengan menyebutkan tanggal pemeriksaan, jumlah akta serta jumlah surat di bawah tangan yang disahkan dan yang dibuat sejak tanggal pemeriksaan terakhir;</p></content>
+                  </point>
+                  <point eId="pasal_71__huruf_b">
+                    <num>b.</num>
+                    <content><p>membuat berita acara pemeriksaan dan menyampaikannya kepada Majelis Pengawas Wilayah setempat, dengan tembusan kepada Notaris yang bersangkutan, Organisasi Notaris, dan Majelis Pengawas Pusat;</p></content>
+                  </point>
+                  <point eId="pasal_71__huruf_c">
+                    <num>c.</num>
+                    <content><p>merahasiakan isi akta dan hasil pemeriksaan;</p></content>
+                  </point>
+                  <point eId="pasal_71__huruf_d">
+                    <num>d.</num>
+                    <content><p>menerima salinan yang telah disahkan dari daftar akta dan daftar lain dari Notaris dan merahasiakannya;</p></content>
+                  </point>
+                  <point eId="pasal_71__huruf_e">
+                    <num>e.</num>
+                    <content><p>memeriksa laporan masyarakat terhadap Notaris dan menyampaikan hasil pemeriksaan tersebut kepada Majelis Pengawas Wilayah dalam waktu 30 (tiga puluh) hari, dengan tembusan kepada pihak yang melaporkan, Notaris yang bersangkutan, Majelis Pengawas Pusat, dan Organisasi Notaris.</p></content>
+                  </point>
+                  <point eId="pasal_71__huruf_f">
+                    <num>f.</num>
+                    <content><p>menyampaikan permohonan banding terhadap keputusan penolakan cuti.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_9__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Majelis Pengawas Wilayah</heading>
+              <article eId="pasal_72">
+                <num>72</num>
+                  <paragraph eId="pasal_72__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Majelis Pengawas Wilayah dibentuk dan berkedudukan di ibukota provinsi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_72__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Keanggotaan Majelis Pengawas Wilayah terdiri atas unsur sebagaimana dimaksud dalam Pasal 67 ayat (3).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_72__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketua dan Wakil Ketua Majelis Pengawas Wilayah dipilih dari dan oleh anggota sebagaimana dimaksud pada ayat (2).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_72__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Masa jabatan ketua, wakil ketua, dan anggota Majelis Pengawas Wilayah adalah 3 (tiga) tahun dan dapat diangkat kembali.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_72__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Majelis Pengawas Wilayah dibantu oleh seorang sekretaris atau lebih yang ditunjuk dalam Rapat Majelis Pengawas Wilayah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_73">
+                <num>73</num>
+                  <paragraph eId="pasal_73__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Majelis Pengawas Wilayah berwenang:</p></intro>
+                      <point eId="pasal_73__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>menyelenggarakan sidang untuk memeriksa dan mengambil keputusan atas laporan masyarakat yang dapat disampaikan melalui Majelis Pengawas Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_73__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>memanggil Notaris terlapor untuk dilakukan pemeriksaan atas laporan sebagaimana dimaksud pada huruf a;</p></content>
+                      </point>
+                      <point eId="pasal_73__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>memberikan izin cuti lebih dari 6 (enam) bulan sampai 1 (satu) tahun;</p></content>
+                      </point>
+                      <point eId="pasal_73__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>memeriksa dan memutus atas keputusan Majelis Pengawas Daerah yang menolak cuti yang diajukan oleh Notaris pelapor;</p></content>
+                      </point>
+                      <point eId="pasal_73__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>memberikan sanksi baik peringatan lisan maupun peringatan tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_73__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>mengusulkan pemberian sanksi terhadap Notaris kepada Majelis Pengawas Pusat berupa: 1) pemberhentian sementara 3 (tiga) bulan sampai dengan 6 (enam) bulan; atau 2) pemberhentian dengan tidak hormat.</p></content>
+                      </point>
+                      <point eId="pasal_73__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>dihapus.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_73__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Keputusan Majelis Pengawas Wilayah sebagaimana dimaksud pada ayat (1) huruf e bersifat final.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_73__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Terhadap setiap keputusan penjatuhan sanksi sebagaimana dimaksud pada ayat (1) huruf e dan huruf f dibuatkan berita acara.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_74">
+                <num>74</num>
+                  <paragraph eId="pasal_74__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemeriksaan dalam sidang Majelis Pengawas Wilayah sebagaimana dimaksud dalam Pasal 73 ayat (1) huruf a bersifat tertutup untuk umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Notaris berhak untuk membela diri dalam pemeriksaan dalam sidang Majelis Pengawas Wilayah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_75">
+                <num>75</num>
+                <intro><p>Majelis Pengawas Wilayah berkewajiban:</p></intro>
+                  <point eId="pasal_75__huruf_a">
+                    <num>a.</num>
+                    <content><p>menyampaikan keputusan sebagaimana dimaksud dalam Pasal 73 ayat (1) huruf a, huruf c, huruf d, huruf e, dan huruf f kepada Notaris yang bersangkutan dengan tembusan kepada Majelis Pengawas Pusat, dan Organisasi Notaris; dan</p></content>
+                  </point>
+                  <point eId="pasal_75__huruf_b">
+                    <num>b.</num>
+                    <content><p>menyampaikan pengajuan banding dari Notaris kepada Majelis Pengawas Pusat terhadap penjatuhan sanksi dan penolakan cuti.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_9__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Majelis Pengawas Pusat</heading>
+              <article eId="pasal_76">
+                <num>76</num>
+                  <paragraph eId="pasal_76__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Majelis Pengawas Pusat dibentuk dan berkedudukan di ibukota negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_76__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Keanggotaan Majelis Pengawas Pusat terdiri atas unsur sebagaimana dimaksud dalam Pasal 67 ayat (3).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_76__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketua dan Wakil Ketua Majelis Pengawas Pusat dipilih dari dan oleh anggota sebagaimana dimaksud pada ayat (2).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_76__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Masa jabatan ketua, wakil ketua, dan anggota Majelis Pengawas Pusat adalah 3 (tiga) tahun dan dapat diangkat kembali.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_76__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Majelis Pengawas Pusat dibantu oleh seorang sekretaris atau lebih yang ditunjuk dalam Rapat Majelis Pengawas Pusat.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_77">
+                <num>77</num>
+                <intro><p>Majelis Pengawas Pusat berwenang :</p></intro>
+                  <point eId="pasal_77__huruf_a">
+                    <num>a.</num>
+                    <content><p>menyelenggarakan sidang untuk memeriksa dan mengambil keputusan dalam tingkat banding terhadap penjatuhan sanksi dan penolakan cuti;</p></content>
+                  </point>
+                  <point eId="pasal_77__huruf_b">
+                    <num>b.</num>
+                    <content><p>memanggil Notaris terlapor untuk dilakukan pemeriksaan sebagaimana dimaksud pada huruf a;</p></content>
+                  </point>
+                  <point eId="pasal_77__huruf_c">
+                    <num>c.</num>
+                    <content><p>menjatuhkan sanksi pemberhentian sementara; dan</p></content>
+                  </point>
+                  <point eId="pasal_77__huruf_d">
+                    <num>d.</num>
+                    <content><p>mengusulkan pemberian sanksi berupa pemberhentian dengan tidak hormat kepada Menteri.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_78">
+                <num>78</num>
+                  <paragraph eId="pasal_78__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemeriksaan dalam sidang Majelis Pengawas Pusat sebagaimana dimaksud dalam Pasal 77 huruf a bersifat terbuka untuk umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_78__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Notaris berhak untuk membela diri dalam pemeriksaan sidang Majelis Pengawas Pusat.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_79">
+                <num>79</num>
+                <content><p>Majelis Pengawas Pusat berkewajiban menyampaikan keputusan sebagaimana dimaksud dalam Pasal 77 huruf a kepada Menteri dan Notaris yang bersangkutan dengan tembusan kepada Majelis Pengawas Wilayah dan Majelis Pengawas Daerah yang bersangkutan serta Organisasi Notaris.</p></content>
+              </article>
+              <article eId="pasal_80">
+                <num>80</num>
+                  <paragraph eId="pasal_80__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Selama Notaris diberhentikan sementara dari jabatannya, Majelis Pengawas Pusat mengusulkan seorang pejabat sementara Notaris kepada Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_80__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Menteri menunjuk Notaris yang akan menerima Protokol Notaris dari Notaris yang diberhentikan sementara.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_81">
+                <num>81</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara pengangkatan dan pemberhentian anggota, susunan organisasi dan tata kerja, anggaran serta tata cara pemeriksaan Majelis Pengawas diatur dengan Peraturan Menteri.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>ORGANISASI NOTARIS</heading>
+          <article eId="pasal_82">
+            <num>82</num>
+              <paragraph eId="pasal_82__ayat_1">
+                <num>(1)</num>
+                <content><p>Notaris berhimpun dalam satu wadah Organisasi Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_82__ayat_2">
+                <num>(2)</num>
+                <content><p>Wadah Organisasi Notaris sebagaimana dimaksud pada ayat (1) adalah Ikatan Notaris Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_82__ayat_3">
+                <num>(3)</num>
+                <content><p>Organisasi Notaris sebagaimana dimaksud pada ayat (1) merupakan satu-satunya wadah profesi Notaris yang bebas dan mandiri yang dibentuk dengan maksud dan tujuan untuk meningkatkan kualitas profesi Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_82__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai tujuan, tugas, wewenang, tata kerja, dan susunan organisasi ditetapkan dalam Anggaran Dasar dan Anggaran Rumah Tangga Organisasi Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_82__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan mengenai penetapan, pembinaan, dan pengawasan Organisasi Notaris diatur dengan Peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_83">
+            <num>83</num>
+              <paragraph eId="pasal_83__ayat_1">
+                <num>(1)</num>
+                <content><p>Organisasi Notaris menetapkan dan menegakkan Kode Etik Notaris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_83__ayat_2">
+                <num>(2)</num>
+                <content><p>Organisasi Notaris memiliki buku daftar anggota dan salinannya disampaikan kepada Menteri dan Majelis Pengawas.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_86">
+            <num>86</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, peraturan pelaksanaan yang berkaitan dengan jabatan Notaris tetap berlaku sepanjang tidak bertentangan atau belum diganti berdasarkan Undang-Undang ini.</p></content>
+          </article>
+          <article eId="pasal_87">
+            <num>87</num>
+            <content><p>Notaris yang telah diangkat pada saat Undang-Undang ini mulai berlaku, dinyatakan sebagai Notaris sebagaimana diatur dalam Undang-Undang ini.</p></content>
+          </article>
+          <article eId="pasal_88">
+            <num>88</num>
+            <intro><p>Pada saat Undang-Undang ini mulai berlaku:</p></intro>
+              <point eId="pasal_88__huruf_a">
+                <num>a.</num>
+                <content><p>pengajuan permohonan sebagai Notaris yang sedang diproses, tetap diproses berdasarkan Undang- Undang Nomor 30 Tahun 2004 tentang Jabatan Notaris.</p></content>
+              </point>
+              <point eId="pasal_88__huruf_b">
+                <num>b.</num>
+                <content><p>masa magang yang telah dijalani calon Notaris tetap diperhitungkan berdasarkan persyaratan yang diatur dalam Undang-Undang ini.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_89">
+            <num>89</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, Kode Etik Notaris yang sudah ada tetap berlaku sampai ditetapkan Kode Etik Notaris yang baru berdasarkan Undang-Undang ini.</p></content>
+          </article>
+          <article eId="pasal_90">
+            <num>90</num>
+            <content><p>Lulusan pendidikan Spesialis Notariat yang belum diangkat sebagai Notaris pada saat Undang-Undang ini mulai berlaku tetap dapat diangkat menjadi Notaris menurut Undang-Undang ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_13">
+        <num>XIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_91">
+            <num>91</num>
+            <intro><p>Pada saat Undang-Undang ini mulai berlaku :</p></intro>
+              <point eId="pasal_91__angka_1">
+                <num>1.</num>
+                <content><p>Reglement op Het Notaris Ambt in Indonesie (Stb 1860:3) sebagaimana telah diubah terakhir dalam Lembaran Negara Tahun 1945 Nomor 101;</p></content>
+              </point>
+              <point eId="pasal_91__angka_2">
+                <num>2.</num>
+                <content><p>Ordonantie 16 September 1931 tentang Honorarium Notaris;</p></content>
+              </point>
+              <point eId="pasal_91__angka_3">
+                <num>3.</num>
+                <content><p>Undang-Undang Nomor 33 Tahun 1954 tentang Wakil Notaris dan Wakil Notaris Sementara (Lembaran Negara Tahun 1954 Nomor 101, Tambahan Lembaran Negara Nomor 700);</p></content>
+              </point>
+              <point eId="pasal_91__angka_4">
+                <num>4.</num>
+                <content><p>Pasal 54 Undang-Undang Nomor 8 Tahun 2004 tentang Perubahan Atas Undang-Undang Nomor 2 Tahun 1986 tentang Peradilan Umum (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 34, Tambahan Lembaran Negara Republik Indonesia Nomor 4379); dan</p></content>
+              </point>
+              <point eId="pasal_91__angka_5">
+                <num>5.</num>
+                <content><p>Peraturan Pemerintah Nomor 11 Tahun 1949 tentang Sumpah/Janji Jabatan Notaris, dicabut dan dinyatakan tidak berlaku.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_91a">
+            <num>91A</num>
+            <content><p>Ketentuan mengenai tata cara penjatuhan sanksi sebagaimana dimaksud dalam Pasal 7 ayat (2), Pasal 16 ayat (1) dan ayat (13), Pasal 17 ayat (2), Pasal 19 ayat (4), Pasal 32 ayat (4), Pasal 37 ayat (2), Pasal 54 ayat (2), dan Pasal 65A diatur dalam Peraturan Menteri.</p></content>
+          </article>
+          <article eId="pasal_91b">
+            <num>91B</num>
+            <content><p>Peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lama 1 (satu) tahun terhitung sejak Undang-Undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_92">
+            <num>92</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

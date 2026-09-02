@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2001/16/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2001/16"/>
+          <FRBRdate date="2001-08-06" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2001/16/ind@2005-10-06/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2001/16/ind@2005-10-06"/>
+          <FRBRdate date="2005-10-06" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2001/16/ind@2005-10-06/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2001/16/ind@2005-10-06.akn"/>
+          <FRBRdate date="2026-09-02" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 16 Tahun 2001 tentang Yayasan</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Yayasan adalah badan hukum yang terdiri atas kekayaan yang dipisahkan dan diperuntukkan untuk mencapai tujuan tertentu di bidang sosial, keagamaan, dan kemanusiaan, yang tidak mempunyai anggota.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Pengadilan adalah Pengadilan Negeri yang daerah hukumnya meliputi tempat kedudukan Yayasan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Kejaksaan adalah Kejaksaan Negeri yang daerah hukumnya meliputi tempat kedudukan Yayasan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Akuntan Publik adalah akuntan yang memiliki izin untuk menjalankan pekerjaan sebagai akuntan publik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Hari adalah hari kerja.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Menteri adalah Menteri Kehakiman dan Hak Asasi Manusia.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Yayasan mempunyai organ yang terdiri atas Pembina, Pengurus, dan Pengawas.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+              <paragraph eId="pasal_3__ayat_1">
+                <num>(1)</num>
+                <content><p>Yayasan dapat melakukan kegiatan usaha untuk menunjang pencapaian maksud dan tujuannya dengan cara mendirikan badan usaha dan/atau ikut serta dalam suatu badan usaha.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_2">
+                <num>(2)</num>
+                <content><p>Yayasan tidak boleh membagikan hasil kegiatan usaha kepada Pembina, Pengurus, dan Pengawas.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Yayasan mempunyai tempat kedudukan dalam wilayah Negara Republik Indonesia yang ditentukan dalam Anggaran Dasar.</p></content>
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Kekayaan Yayasan baik berupa uang, barang, maupun kekayaan lain yang diperoleh Yayasan berdasarkan Undang- undang ini, dilarang dialihkan atau dibagikan secara langsung atau tidak langsung, baik dalam bentuk gaji, upah, maupun honorarium, atau bentuk lain yang dapat dinilai dengan uang kepada Pembina, Pengurus dan Pengawas.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pengecualian atas ketentuan sebagaimana dimaksud pada ayat (1), dapat ditentukan dalam Anggaran Dasar Yayasan bahwa Pengurus menerima gaji, upah, atau honorarium, dalam hal Pengurus Yayasan:</p></intro>
+                  <point eId="pasal_5__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>bukan pendiri Yayasan dan tidak terafiliasi dengan Pendiri, Pembina, dan Pengawas; dan</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>melaksanakan kepengurusan Yayasan secara langsung dan penuh.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_3">
+                <num>(3)</num>
+                <content><p>Penentuan mengenai gaji, upah, atau honorarium sebagaimana dimaksud pada ayat (2), ditetapkan oleh Pembina sesuai dengan kemampuan kekayaan Yayasan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+            <content><p>Yayasan wajib membayar segala biaya atau ongkos yang dikeluarkan oleh organ Yayasan dalam rangka menjalankan tugas Yayasan.</p></content>
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <content><p>Yayasan dapat mendirikan badan usaha yang kegiatannya sesuai dengan maksud dan tujuan yayasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Yayasan dapat melakukan penyertaan dalam berbagai bentuk usaha yang bersifat prospektif dengan ketentuan seluruh penyertaan tersebut paling banyak 25 % (dua puluh lima persen) dari seluruh nilai kekayaan Yayasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_3">
+                <num>(3)</num>
+                <content><p>Anggota Pembina, Pengurus, dan Pengawas Yayasan dilarang merangkap sebagai Anggota Direksi atau Pengurus dan Anggota Dewan Komisaris atau Pengawas dari badan usaha sebagaimana dimaksud dalam ayat (1) dan ayat (2).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+            <content><p>Kegiatan usaha dari badan usaha sebagaimana dimaksud dalam Pasal 7 ayat (1) harus sesuai dengan maksud dan tujuan Yayasan serta tidak bertentangan dengan ketertiban umum, kesusilaan, dan/atau peraturan perundang-undangan yang berlaku.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>PENDIRIAN</heading>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Yayasan didirikan oleh satu orang atau lebih dengan memisahkan sebagian harta kekayaan pendirinya, sebagai kekayaan awal.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <content><p>Pendirian Yayasan sebagaimana dimaksud dalam ayat (1) dilakukan dengan akta notaris dan dibuat dalam bahasa Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_3">
+                <num>(3)</num>
+                <content><p>Yayasan dapat didirikan berdasarkan surat wasiat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_4">
+                <num>(4)</num>
+                <content><p>Biaya pembuatan akta notaris sebagaimana dimaksud dalam ayat (2) ditetapkan dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_5">
+                <num>(5)</num>
+                <content><p>Dalam hal Yayasan sebagaimana dimaksud dalam ayat (1) didirikan oleh orang asing atau bersama-sama orang asing, mengenai syarat dan tata cara pendirian Yayasan tersebut diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam pembuatan akta pendirian Yayasan, pendiri dapat diwakili oleh orang lain berdasarkan surat kuasa.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal pendirian Yayasan dilakukan berdasarkan surat wasiat, penerima wasiat bertindak mewakili pemberi wasiat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal surat wasiat sebagaimana dimaksud dalam ayat (2) tidak dilaksanakan, maka atas permintaan pihak yang berkepentingan, Pengadilan dapat memerintahkan ahli waris atau penerima wasiat yang bersangkutan untuk melaksanakan wasiat tersebut.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Yayasan memperoleh status badan hukum setelah akta pendirian Yayasan sebagaimana dimaksud dalam Pasal 9 ayat (2), memperoleh pengesahan dari Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <content><p>Untuk memperoleh pengesahan sebagaimana dimaksud pada ayat (1), pendiri atau kuasanya mengajukan permohonan kepada Menteri melalui Notaris yang membuat akta pendirian Yayasan tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_3">
+                <num>(3)</num>
+                <content><p>Notaris sebagaimana dimaksud pada ayat (2), wajib menyampaikan permohonan pengesahan kepada Menteri dalam jangka waktu paling lambat 10 (sepuluh) hari terhitung sejak tanggal akta pendirian Yayasan ditandatangani.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam memberikan pengesahan akta pendirian Yayasan sebagaimana dimaksud pada ayat (1), Menteri dapat meminta pertimbangan dari instansi terkait dalam jangka waktu paling lambat 7 (tujuh) hari terhitung sejak tanggal permohonan diterima secara lengkap.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_5">
+                <num>(5)</num>
+                <content><p>Instansi terkait sebagaimana dimaksud pada ayat (4), wajib menyampaikan jawaban dalam jangka waktu paling lambat 14 (empat belas) hari terhitung sejak tanggal permintaan pertimbangan diterima.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_6">
+                <num>(6)</num>
+                <content><p>Permohonan pengesahan akta pendirian Yayasan dikenakan biaya yang besarnya ditetapkan dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Permohonan pengesahan sebagaimana dimaksud dalam Pasal 11 ayat (2), diajukan secara tertulis kepada Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengesahan terhadap permohonan sebagaimana dimaksud pada ayat (1), diberikan atau ditolak dalam jangka waktu paling lambat 30 (tiga puluh) hari terhitung sejak tanggal permohonan diterima secara lengkap.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal diperlukan pertimbangan sebagaimana dimaksud dalam Pasal I1 ayat (4), pengesahan diberikan atau ditolak dalam jangka waktu paling lambat 14 (empat belas) hari terhitung sejak tanggal jawaban atas permintaan pertimbangan dari instansi terkait diterima.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal jawaban atas permintaan pertimbangan tidak diterima, pengesahan diberikan atau ditolak dalam jangka waktu paling lambat 30 (tiga puluh) hari terhitung sejak tanggal permintaan pertimbangan disampaikan kepada instansi terkait.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal permohonan pengesahan sebagaimana dimaksud dalam Pasal 12 ayat (1) ditolak, Menteri wajib memberitahukan secara tertulis disertai dengan alasannya, kepada pemohon mengenai penolakan pengesahan tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Alasan penolakan sebagaimana dimaksud dalam ayat (1) adalah bahwa permohonan yang diajukan tidak sesuai dengan ketentuan dalam Undang-undang ini dan/atau peraturan pelaksanaannya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_13a">
+            <num>13A</num>
+            <content><p>Perbuatan hukum yang dilakukan oleh Pengurus atas nama Yayasan sebelum Yayasan memperoleh status badan hukum menjadi tanggung jawab Pengurus secara tanggung renteng.</p></content>
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <content><p>Akta pendirian memuat Anggaran Dasar dan keterangan lain yang dianggap perlu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <intro><p>Anggaran Dasar Yayasan sekurang-kurangnya memuat:</p></intro>
+                  <point eId="pasal_14__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>nama dan tempat kedudukan;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>maksud dan tujuan serta kegiatan untuk mencapai maksud dan tujuan tersebut;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>jangka waktu pendirian;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>jumlah kekayaan awal yang dipisahkan dari kekayaan pribadi pendiri dalam bentuk uang atau benda;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>cara memperoleh dan penggunaan kekayaan;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>tata cara pengangkatan, pemberhentian, dan penggantian anggota Pembina, Pengurus, dan Pengawas;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>hak dan kewajiban anggota Pembina, Pengurus, dan Pengawas;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_h">
+                    <num>h.</num>
+                    <content><p>tata cara penyelenggaraan rapat organ Yayasan;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_i">
+                    <num>i.</num>
+                    <content><p>ketentuan mengenai perubahan Anggaran Dasar;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_j">
+                    <num>j.</num>
+                    <content><p>penggabungan dan pembubaran Yayasan; dan</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_2__huruf_k">
+                    <num>k.</num>
+                    <content><p>Penggunaan kekayaan sisa likuidasi atau penyaluran kekayaan Yayasan setelah pembubaran.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_3">
+                <num>(3)</num>
+                <content><p>Keterangan lain sebagaimana dimaksud dalam ayat (1) memuat sekurang-kurangnya nama, alamat, pekerjaan, tempat dan tanggal lahir, serta kewarganegaraan Pendiri, Pembina, Pengurus, dan Pengawas.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_4">
+                <num>(4)</num>
+                <content><p>Jumlah minimum harta kekayaan awal yang dipisahkan dari kekayaan pribadi Pendiri sebagaimana dimaksud dalam ayat (2) huruf d ditetapkan dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+              <paragraph eId="pasal_15__ayat_1">
+                <num>(1)</num>
+                <intro><p>Yayasan tidak boleh memakai nama yang:</p></intro>
+                  <point eId="pasal_15__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>telah dipakai secara sah oleh Yayasan lain; atau</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>bertentangan dengan ketertiban umum dan/atau kesusilaan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_2">
+                <num>(2)</num>
+                <content><p>Nama Yayasan harus didahului dengan kata "Yayasan".</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal kekayaan Yayasan berasal dari wakaf, kata "wakaf" dapat ditambahkan setelah kata "Yayasan".</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai pemakaian nama Yayasan diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_16">
+            <num>16</num>
+              <paragraph eId="pasal_16__ayat_1">
+                <num>(1)</num>
+                <content><p>Yayasan dapat didirikan untuk jangka waktu tertentu atau tidak tertentu yang diatur dalam Anggaran Dasar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Yayasan didirikan untuk jangka waktu tertentu, Pengurus dapat mengajukan perpanjangan jangka waktu pendirian kepada Menteri paling lambat 1 (satu) tahun sebelum berakhirnya jangka waktu pendirian Yayasan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PERUBAHAN ANGGARAN DASAR</heading>
+          <article eId="pasal_17">
+            <num>17</num>
+            <content><p>Anggaran Dasar dapat diubah, kecuali mengenai maksud dan tujuan Yayasan.</p></content>
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <content><p>Perubahan Anggaran Dasar hanya dapat dilaksanakan berdasarkan keputusan rapat Pembina.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Rapat Pembina sebagaimana dimaksud dalam ayat (1) hanya dapat dilakukan, apabila dihadiri oleh paling sedikit 2/3 (dua per tiga) dari jumlah anggota Pembina.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_3">
+                <num>(3)</num>
+                <content><p>Perubahan Anggaran Dasar sebagaimana dimaksud dalam ayat (1) dilakukan dengan akta notaris dan dibuat dalam bahasa Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+              <paragraph eId="pasal_19__ayat_1">
+                <num>(1)</num>
+                <content><p>Keputusan rapat Pembina sebagaimana dimaksud dalam Pasal 18 ayat (1) ditetapkan berdasarkan musyawarah untuk mufakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal keputusan rapat berdasarkan musyawarah untuk mufakat sebagaimana dimaksud dalam ayat (1) tidak tercapai, keputusan ditetapkan berdasarkan persetujuan paling sedikit 2/3 (dua per tiga) dari seluruh jumlah anggota Pembina yang hadir.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal korum sebagaimana dimaksud dalam Pasal 19 ayat (2) tidak tercapai, rapat Pembina yang kedua dapat diselenggarakan paling cepat 3 (tiga) hari terhitung sejak tanggal rapat Pembina yang pertama diselenggarakan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Rapat Pembina yang kedua sebagaimana dimaksud dalam ayat (1) sah, apabila dihadiri oleh lebih dari 1/2 (satu per dua) dari seluruh anggota Pembina.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_3">
+                <num>(3)</num>
+                <content><p>Keputusan rapat Pembina yang kedua sah, apabila diambil berdasarkan persetujuan suara terbanyak dari jumlah anggota Pembina yang hadir.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_21">
+            <num>21</num>
+              <paragraph eId="pasal_21__ayat_1">
+                <num>(1)</num>
+                <content><p>Perubahan Anggaran Dasar yang meliputi nama dan kegiatan Yayasan harus mendapat persetujuan Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_2">
+                <num>(2)</num>
+                <content><p>Perubahan Anggaran Dasar mengenai hal lain cukup diberitahukan kepada Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_22">
+            <num>22</num>
+            <content><p>Ketentuan sebagaimana dimaksud dalam Pasal 11 dan Pasal 12 secara mutatis mutandis berlaku juga bagi permohonan perubahan Anggaran Dasar, pemberian persetujuan, dan penolakan atas perubahan Anggaran Dasar.</p></content>
+          </article>
+          <article eId="pasal_23">
+            <num>23</num>
+            <content><p>Perubahan Anggaran Dasar tidak dapat dilakukan pada saat Yayasan dinyatakan dalam keadaan pailit, kecuali atas persetujuan kurator.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENGUMUMAN</heading>
+          <article eId="pasal_24">
+            <num>24</num>
+              <paragraph eId="pasal_24__ayat_1">
+                <num>(1)</num>
+                <content><p>Akta pendirian Yayasan yang telah disahkan sebagai badan hukum atau perubahan Anggaran Dasar yang telah disetujui atau telah diberitahukan wajib diumumkan dalam Tambahan Berita Negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengumuman sebagaimana dimaksud pada ayat (1), dilakukan oleh Menteri dalam jangka waktu paling lambat 14 (empat belas) hari terhitung sejak tanggal akta pendirian Yayasan disahkan atau perubahan Anggaran Dasar disetujui atau diterima Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_3">
+                <num>(3)</num>
+                <content><p>Tata cara mengenai pengumuman dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_4">
+                <num>(4)</num>
+                <content><p>Pengumuman sebagaimana dimaksud pada ayat (1), dikenakan biaya yang besarnya ditetapkan dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>KEKAYAAN</heading>
+          <article eId="pasal_26">
+            <num>26</num>
+              <paragraph eId="pasal_26__ayat_1">
+                <num>(1)</num>
+                <content><p>Kekayaan Yayasan berasal dari sejumlah kekayaan yang dipisahkan dalam bentuk uang atau barang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_2">
+                <num>(2)</num>
+                <intro><p>Selain kekayaan sebagaimana dimaksud dalam ayat (1), kekayaan Yayasan dapat diperoleh dari:</p></intro>
+                  <point eId="pasal_26__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>sumbangan atau bantuan yang tidak mengikat;</p></content>
+                  </point>
+                  <point eId="pasal_26__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>wakaf;</p></content>
+                  </point>
+                  <point eId="pasal_26__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>hibah;</p></content>
+                  </point>
+                  <point eId="pasal_26__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>hibah wasiat; dan</p></content>
+                  </point>
+                  <point eId="pasal_26__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>perolehan lain yang tidak bertentangan dengan Anggaran Dasar Yayasan dan/atau peraturan perundang-undangan yang berlaku.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal kekayaan Yayasan berasal dari wakaf, maka berlaku ketentuan hukum perwakafan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_4">
+                <num>(4)</num>
+                <content><p>Kekayaan Yayasan sebagaimana dimaksud dalam ayat (1) dan ayat (2) dipergunakan untuk mencapai maksud dan tujuan Yayasan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal-hal tertentu Negara dapat memberikan bantuan kepada Yayasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai syarat dan tata cara pemberian bantuan Negara sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>ORGAN YAYASAN</heading>
+          <article eId="pasal_28">
+            <num>28</num>
+              <paragraph eId="pasal_28__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembina adalah organ Yayasan yang mempunyai kewenangan yang tidak diserahkan kepada Pengurus atau Pengawas oleh Undang -undang ini atau Anggaran Dasar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_2">
+                <num>(2)</num>
+                <intro><p>Kewenangan sebagaimana dimaksud dalam ayat (1) meliputi:</p></intro>
+                  <point eId="pasal_28__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>keputusan mengenai perubahan Anggaran Dasar;</p></content>
+                  </point>
+                  <point eId="pasal_28__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengangkatan dan pemberhentian anggota Pengurus dan anggota Pengawas;</p></content>
+                  </point>
+                  <point eId="pasal_28__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>penetapan kebijakan umum Yayasan berdasarkan Anggaran Dasar Yayasan;</p></content>
+                  </point>
+                  <point eId="pasal_28__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pengesahan program kerja dan rancangan anggaran tahunan Yayasan; dan</p></content>
+                  </point>
+                  <point eId="pasal_28__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>penetapan keputusan mengenai penggabungan atau pembubaran Yayasan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_3">
+                <num>(3)</num>
+                <content><p>Yang dapat diangkat menjadi anggota Pembina sebagaimana dimaksud dalam ayat (1) adalah orang perseorangan sebagai pendiri Yayasan dan/atau mereka yang berdasarkan keputusan rapat anggota Pembina dinilai mempunyai dedikasi yang tinggi untuk mencapai maksud dan tujuan Yayasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal Yayasan karena sebab apapun tidak lagi mempunyai Pembina, paling lambat dalam waktu 30 (tiga puluh) hari terhitung sejak tanggal kekosongan, anggota Pengurus dan anggota Pengawas wajib mengadakan rapat gabungan untuk mengangkat Pembina dengan memperhatikan ketentuan sebagaimana dimaksud dalam ayat (3).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_5">
+                <num>(5)</num>
+                <content><p>Keputusan rapat sebagaimana dimaksud dalam ayat (3) dan ayat (4) sah apabila dilakukan sesuai dengan ketentuan mengenai korum kehadiran dan korum keputusan untuk perubahan Anggaran Dasar sesuai dengan ketentuan dalam Undang-undang ini dan/atau Anggaran Dasar.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_29">
+            <num>29</num>
+            <content><p>Anggota Pembina tidak boleh merangkap sebagai anggota Pengurus dan/atau anggota Pengawas.</p></content>
+          </article>
+          <article eId="pasal_30">
+            <num>30</num>
+              <paragraph eId="pasal_30__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembina mengadakan rapat sekurang-kurangnya sekali dalam 1 (satu) tahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam rapat tahunan, Pembina melakukan evaluasi tentang kekayaan, hak dan kewajiban Yayasan tahun yang lampau sebagai dasar pertimbangan bagi perkiraan mengenai perkembangan Yayasan untuk tahun yang akan datang.</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pengurus</heading>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengurus adalah organ Yayasan yang melaksanakan kepengurusan Yayasan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Yang dapat diangkat menjadi Pengurus adalah orang perseorangan yang mampu melakukan perbuatan hukum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengurus tidak boleh merangkap sebagai Pembina atau Pengawas.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengurus Yayasan diangkat oleh Pembina berdasarkan keputusan rapat Pembina untuk jangka waktu 5 (lima) tahun dan dapat diangkat kembali.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengurus Yayasan dapat diangkat kembali setelah masa jabatan pertama berakhir untuk masa jabatan sebagaimana dimaksud pada ayat (1), ditentukan dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Susunan Pengurus sekurang-kurangnya terdiri atas:</p></intro>
+                      <point eId="pasal_32__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>seorang ketua;</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>seorang sekretaris; dan</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>seorang bendahara.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal Pengurus sebagaimana dimaksud pada ayat (1), selama menjalankan tugas melakukan tindakan yang oleh Pembina dinilai merugikan Yayasan, maka berdasarkan keputusan rapat Pembina, Pengurus tersebut dapat diberhentikan sebelum masa kepengurusannya berakhir.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai susunan, tata cara pengangkatan, pemberhentian, dan penggantian Pengurus diatur dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_33">
+                <num>33</num>
+                  <paragraph eId="pasal_33__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal terjadi penggantian Pengurus, Pengurus yang menggantikan menyampaikan pemberitahuan secara tertulis kepada Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemberitahuan sebagaimana dimaksud pada ayat (1), wajib disampaikan dalam jangka waktu paling lambat 30 (tiga puluh) hari terhitung sejak tanggal penggantian Pengurus Yayasan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengurus Yayasan sewaktu-waktu dapat diberhentikan berdasarkan keputusan rapat Pembina.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal pengangkatan, pemberhentian, dan penggantian Pengurus dilakukan tidak sesuai dengan ketentuan Anggaran Dasar, atas permohonan yang berkepentingan atau atas permintaan Kejaksaan dalam hal mewakili kepentingan umum, Pengadilan dapat membatalkan pengangkatan, pemberhentian, atau penggantian tersebut dalam jangka waktu paling lambat 30 (tiga puluh) hari terhitung sejak tanggal permohonan pembatalan diajukan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_35">
+                <num>35</num>
+                  <paragraph eId="pasal_35__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengurus Yayasan bertanggung jawab penuh atas kepengurusan Yayasan untuk kepentingan dan tujuan Yayasan serta berhak mewakili Yayasan baik di dalam maupun di luar Pengadilan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap Pengurus menjalankan tugas dengan itikad baik, dan penuh tanggung jawab untuk kepentingan dan tujuan Yayasan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam menjalankan tugas sebagaimana dimaksud dalam ayat (2), Pengurus dapat mengangkat dan memberhentikan pelaksana kegiatan Yayasan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan mengenai syarat dan tata cara pengangkatan dan pemberhentian pelaksana kegiatan Yayasan diatur dalam Anggaran Dasar Yayasan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Setiap Pengurus bertanggung jawab penuh secara pribadi apabila yang bersangkutan dalam menjalankan tugasnya tidak sesuai dengan ketentuan Anggaran Dasar, yang mengakibatkan kerugian Yayasan atau pihak ketiga.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_36">
+                <num>36</num>
+                  <paragraph eId="pasal_36__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Anggota Pengurus tidak berwenang mewakili Yayasan apabila:</p></intro>
+                      <point eId="pasal_36__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>terjadi perkara di depan pengadilan antara Yayasan dengan anggota Pengurus yang bersangkutan; atau</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>anggota Pengurus yang bersangkutan mempunyai kepentingan yang bertentangan dengan kepentingan Yayasan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal terdapat keadaan sebagaimana dimaksud dalam ayat (1), yang berhak mewakili Yayasan ditetapkan dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_37">
+                <num>37</num>
+                  <paragraph eId="pasal_37__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengurus tidak berwenang:</p></intro>
+                      <point eId="pasal_37__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>mengikat Yayasan sebagai penjamin utang;</p></content>
+                      </point>
+                      <point eId="pasal_37__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>mengalihkan kekayaan Yayasan kecuali dengan persetujuan Pembina; dan</p></content>
+                      </point>
+                      <point eId="pasal_37__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>membebani kekayaan Yayasan untuk kepentingan pihak lain.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Anggaran Dasar dapat membatasi kewenangan Pengurus dalam melakukan perbuatan hukum untuk dan atas nama Yayasan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_38">
+                <num>38</num>
+                  <paragraph eId="pasal_38__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Yayasan dilarang mengadakan perjanjian dengan organisasi yang terafiliasi dengan Yayasan, Pembina, Pengurus, dan/atau Pengawas Yayasan, atau seseorang yang bekerja pada Yayasan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Larangan sebagaimana dimaksud pada ayat (1), tidak berlaku dalam hal perjanjian tersebut bermanfaat bagi tercapainya maksud dan tujuan Yayasan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_39">
+                <num>39</num>
+                  <paragraph eId="pasal_39__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal kepailitan terjadi karena kesalahan atau kelalaian Pengurus dan kekayaan Yayasan tidak cukup untuk menutup kerugian akibat kepailitan tersebut, maka setiap Anggota Pengurus secara tanggung renteng bertanggung jawab atas kerugian tersebut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Anggota Pengurus yang dapat membuktikan bahwa kepailitan bukan karena kesalahan atau kelalaiannya tidak bertanggung jawab secara tanggung renteng atas kerugian sebagaimana dimaksud dalam ayat (1).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Anggota Pengurus yang dinyatakan bersalah dalam melakukan pengurusan Yayasan yang menyebabkan kerugian bagi Yayasan, masyarakat, atau Negara berdasarkan putusan pengadilan, maka dalam jangka waktu 5 (lima) tahun terhitung sejak tanggal putusan tersebut memperoleh kekuatan hukum yang tetap, tidak dapat diangkat menjadi Pengurus Yayasan manapun.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pengawas</heading>
+              <article eId="pasal_40">
+                <num>40</num>
+                  <paragraph eId="pasal_40__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengawas adalah organ Yayasan yang bertugas melakukan pengawasan serta memberi nasihat kepada Pengurus dalam menjalankan kegiatan Yayasan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Yayasan memiliki Pengawas sekurang-kurangnya 1 (satu) orang Pengawas yang wewenang, tugas, dan tanggung jawabnya diatur dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Yang dapat diangkat menjadi Pengawas adalah orang perseorangan yang mampu melakukan perbuatan hukum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pengawas tidak boleh merangkap sebagai Pembina atau Pengurus.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_42">
+                <num>42</num>
+                <content><p>Pengawas wajib dengan itikad baik dan penuh tanggung jawab menjalankan tugas untuk kepentingan Yayasan.</p></content>
+              </article>
+              <article eId="pasal_43">
+                <num>43</num>
+                  <paragraph eId="pasal_43__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengawas dapat memberhentikan sementara anggota Pengurus dengan menyebutkan alasannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_43__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemberhentian sementara sebagaimana dimaksud dalam ayat (1) paling lambat 7 (tujuh) hari terhitung sejak tanggal pemberhentian sementara, wajib dilaporkan secara tertulis kepada Pembina.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_43__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam jangka waktu 7 (tujuh) hari terhitung sejak tanggal laporan diterima, Pembina wajib memanggil anggota Pengurus yang bersangkutan untuk diberi kesempatan membela diri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_43__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Dalam jangka waktu paling lambat 7 (tujuh) hari terhitung sejak tanggal pembelaan diri sebagaimana dimaksud dalam ayat (3), Pembina wajib:</p></intro>
+                      <point eId="pasal_43__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>mencabut keputusan pemberhentian sementara; atau</p></content>
+                      </point>
+                      <point eId="pasal_43__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>memberhentikan anggota Pengurus yang bersangkutan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_43__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Apabila Pembina tidak melaksanakan ketentuan sebagaimana dimaksud dalam ayat (3) dan ayat (4), pemberhentian sementara tersebut batal demi hukum.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_44">
+                <num>44</num>
+                  <paragraph eId="pasal_44__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengawas Yayasan diangkat oleh Pembina berdasarkan keputusan rapat Pembina untuk jangka waktu selama 5 (lima) tahun dan dapat diangkat kembali.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_44__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengawas Yayasan dapat diangkat kembali setelah masa jabatan pertama berakhir untuk masa jabatan sebagaimana dimaksud pada ayat (1), ditentukan dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_44__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai susunan, tata cara pengangkatan, pemberhentian, dan penggantian Pengawas diatur dalam Anggaran Dasar.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_45">
+                <num>45</num>
+                  <paragraph eId="pasal_45__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal terjadi penggantian Pengawas, Pengurus menyampaikan pemberitahuan secara tertulis kepada Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemberitahuan sebagaimana dimaksud pada ayat (1), wajib disampaikan dalam jangka waktu paling lambat 30 (tiga puluh) hari terhitung sejak tanggal penggantian Pengawas Yayasan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_46">
+                <num>46</num>
+                  <paragraph eId="pasal_46__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengawas Yayasan sewaktu-waktu dapat diberhentikan berdasarkan keputusan rapat Pembina.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_46__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal pengangkatan, pemberhentian dan penggantian Pengawas dilakukan tidak sesuai dengan ketentuan Anggaran Dasar, atas permohonan yang berkepentingan atau atas permintaan Kejaksaan dalam hal mewakili kepentingan umum, Pengadilan dapat membatalkan pengangkatan, pemberhentian, atau penggantian Pengawas tersebut dalam jangka waktu paling lambat 30 (tiga puluh) hari terhitung sejak tanggal permohonan pembatalan diajukan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_47">
+                <num>47</num>
+                  <paragraph eId="pasal_47__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal kepailitan terjadi karena kesalahan atau kelalaian Pengawas dalam melakukan tugas pengawasan dan kekayaan Yayasan tidak cukup untuk menutup kerugian akibat kepailitan tersebut, setiap anggota Pengawas secara tanggung renteng bertanggung jawab atas kerugian tersebut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_47__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Anggota Pengawas Yayasan yang dapat membuktikan bahwa kepailitan bukan karena kesalahan atau kelalaiannya, tidak bertanggung jawab secara tanggung renteng atas kerugian tersebut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_47__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setiap anggota Pengawas yang dinyatakan bersalah dalam melakukan pengawasan Yayasan yang menyebabkan kerugian bagi Yayasan, masyarakat, dan/atau Negara berdasarkan putusan Pengadilan dalam jangka waktu paling lama 5 (lima) tahun sejak putusan tersebut memperoleh kekuatan hukum tetap, tidak dapat diangkat menjadi Pengawas Yayasan manapun.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>LAPORAN TAHUNAN</heading>
+          <article eId="pasal_48">
+            <num>48</num>
+              <paragraph eId="pasal_48__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengurus wajib membuat dan menyimpan catatan atau tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal lain yang berkaitan dengan kegiatan usaha Yayasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_2">
+                <num>(2)</num>
+                <content><p>Selain kewajiban sebagaimana dimaksud dalam ayat (1) Pengurus wajib membuat dan menyimpan dokumen keuangan Yayasan berupa bukti pembukuan dan data pendukung administrasi keuangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+              <paragraph eId="pasal_49__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam jangka waktu paling lambat 5 (lima) bulan terhitung sejak tanggal tahun buku Yayasan ditutup, Pengurus wajib menyusun laporan tahunan secara tertulis yang memuat sekurang -kurangnya:</p></intro>
+                  <point eId="pasal_49__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>laporan keadaan dan kegiatan Yayasan selama tahun buku yang lalu serta hasil yang telah dicapai;</p></content>
+                  </point>
+                  <point eId="pasal_49__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>laporan keuangan yang terdiri atas laporan posisi keuangan pada akhir periode, laporan aktivitas, laporan arus kas, dan catatan laporan keuangan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Yayasan mengadakan transaksi dengan pihak lain yang menimbulkan hak dan kewajiban bagi Yayasan, transaksi tersebut wajib dicantumkan dalam laporan tahunan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_50">
+            <num>50</num>
+              <paragraph eId="pasal_50__ayat_1">
+                <num>(1)</num>
+                <content><p>Laporan sebagaimana dimaksud dalam Pasal 49 ditandatangani oleh Pengurus dan Pengawas sesuai dengan ketentuan Anggaran Dasar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal terdapat anggota Pengurus atau Pengawas tidak menandatangani laporan sebagaimana dimaksud dalam ayat (1), maka yang bersangkutan harus menyebutkan alasannya secara tertulis.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_3">
+                <num>(3)</num>
+                <content><p>Laporan sebagaimana dimaksud dalam ayat (1) disahkan oleh rapat Pembina.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_51">
+            <num>51</num>
+            <content><p>Dalam hal dokumen laporan tahunan ternyata tidak benar dan menyesatkan, maka Pengurus dan Pengawas secara tanggung renteng bertanggungjawab terhadap pihak yang dirugikan.</p></content>
+          </article>
+          <article eId="pasal_52">
+            <num>52</num>
+              <paragraph eId="pasal_52__ayat_1">
+                <num>(1)</num>
+                <content><p>Ikhtisar laporan tahunan Yayasan diumumkan pada papan pengumuman di kantor Yayasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_2">
+                <num>(2)</num>
+                <intro><p>Ikhtisar laporan keuangan yang merupakan bagian dari ikhtisar laporan tahunan sebagaimana dimaksud pada ayat (1), wajib diumumkan dalam surat kabar harian berbahasa Indonesia bagi Yayasan yang:</p></intro>
+                  <point eId="pasal_52__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>memperoleh bantuan Negara, bantuan luar negeri, dan/atau pihak lain sebesar Rp500.000.000,00 (lima ratus juta rupiah) atau lebih, dalam I (satu) tahun buku; atau</p></content>
+                  </point>
+                  <point eId="pasal_52__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>mempunyai kekayaan di luar harta wakaf sebesar Rp20.000.000.000,00 (dua puluh miliar rupiah) atau lebih.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_3">
+                <num>(3)</num>
+                <content><p>Laporan keuangan Yayasan sebagaimana dimaksud pada ayat (2), wajib diaudit oleh Akuntan Publik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_4">
+                <num>(4)</num>
+                <content><p>Hasil audit terhadap laporan keuangan Yayasan sebagaimana dimaksud pada ayat (3), disampaikan kepada Pembina Yayasan yang bersangkutan dan tembusannya kepada Menteri dan instansi terkait.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_5">
+                <num>(5)</num>
+                <content><p>Laporan keuangan disusun sesuai dengan Standar Akuntansi Keuangan yang berlaku.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PEMERIKSAAN TERHADAP YAYASAN</heading>
+          <article eId="pasal_53">
+            <num>53</num>
+              <paragraph eId="pasal_53__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pemeriksaan terhadap Yayasan untuk mendapatkan data atau keterangan dapat dilakukan dalam hal terdapat dugaan bahwa organ Yayasan:</p></intro>
+                  <point eId="pasal_53__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan perbuatan melawan hukum atau bertentangan dengan Anggaran Dasar;</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>lalai dalam melaksanakan tugasnya;</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan perbuatan yang merugikan Yayasan atau pihak ketiga; atau</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan perbuatan yang merugikan Negara.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_53__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemeriksaan sebagaimana dimaksud dalam ayat (1) huruf a, huruf b, dan huruf c hanya dapat dilakukan berdasarkan penetapan Pengadilan atas permohonan tertulis pihak ketiga yang berkepentingan disertai alasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_53__ayat_3">
+                <num>(3)</num>
+                <content><p>Pemeriksaan sebagaimana dimaksud dalam ayat (1) huruf d dapat dilakukan berdasarkan penetapan Pengadilan atas permintaan Kejaksaan dalam hal mewakili kepentingan umum.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_54">
+            <num>54</num>
+              <paragraph eId="pasal_54__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengadilan dapat menolak atau mengabulkan permohonan pemeriksaan sebagaimana dimaksud dalam Pasal 53 ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_54__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Pengadilan mengabulkan permohonan pemeriksaan terhadap Yayasan, Pengadilan mengeluarkan penetapan bagi pemeriksaan dan mengangkat paling banyak 3 (tiga) orang ahli sebagai pemeriksa untuk melakukan pemeriksaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_54__ayat_3">
+                <num>(3)</num>
+                <content><p>Pembina, Pengurus, dan Pengawas serta pelaksana kegiatan atau karyawan Yayasan tidak dapat diangkat menjadi pemeriksa sebagaimana dimaksud dalam ayat (2).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_55">
+            <num>55</num>
+              <paragraph eId="pasal_55__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemeriksa berwenang memeriksa semua dokumen dan kekayaan Yayasan untuk kepentingan pemeriksaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_2">
+                <num>(2)</num>
+                <content><p>Pembina, Pengurus, Pengawas, dan pelaksana kegiatan serta karyawan Yayasan, wajib memberikan keterangan yang diperlukan untuk pelaksanaan pemeriksaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_3">
+                <num>(3)</num>
+                <content><p>Pemeriksa dilarang mengumumkan atau memberitahukan hasil pemeriksaannya kepada pihak lain.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_56">
+            <num>56</num>
+              <paragraph eId="pasal_56__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemeriksa wajib menyampaikan laporan hasil pemeriksaan yang telah dilakukan kepada Ketua Pengadilan di tempat kedudukan Yayasan paling lambat 30 (tiga puluh) hari terhitung sejak tanggal pemeriksaan selesai dilakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketua Pengadilan memberikan salinan laporan hasil pemeriksaan sebagaimana dimaksud dalam ayat (1) kepada pemohon atau Kejaksaan dan Yayasan yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>PENGGABUNGAN</heading>
+          <article eId="pasal_57">
+            <num>57</num>
+              <paragraph eId="pasal_57__ayat_1">
+                <num>(1)</num>
+                <content><p>Perbuatan hukum penggabungan Yayasan dapat dilakukan dengan menggabungkan 1 (satu) atau lebih Yayasan dengan Yayasan lain, dan mengakibatkan Yayasan yang menggabungkan diri menjadi bubar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_2">
+                <num>(2)</num>
+                <intro><p>Penggabungan Yayasan sebagaimana dimaksud dalam ayat (1) dapat dilakukan dengan memperhatikan:</p></intro>
+                  <point eId="pasal_57__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>ketidakmampuan Yayasan melaksanakan kegiatan usaha tanpa dukungan Yayasan lain;</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>Yayasan yang menerima penggabungan dan yang bergabung kegiatannya sejenis; atau</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>Yayasan yang menggabungkan diri tidak pernah melakukan perbuatan yang bertentangan dengan Anggaran Dasarnya, ketertiban umum, dan kesusilaan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_3">
+                <num>(3)</num>
+                <content><p>Usul penggabungan Yayasan dapat disampaikan oleh Pengurus kepada Pembina.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_4">
+                <num>(4)</num>
+                <content><p>Penggabungan Yayasan hanya dapat dilakukan berdasarkan keputusan rapat Pembina yang dihadiri oleh paling sedikit 3/4 (tiga per empat) dari jumlah anggota Pembina dan disetujui paling sedikit oleh 3/4 (tiga per empat) dari jumlah anggota Pembina yang hadir.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+              <paragraph eId="pasal_58__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengurus dari masing-masing Yayasan yang akan menggabungkan diri dan yang akan menerima penggabungan menyusun usul rencana penggabungan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_58__ayat_2">
+                <num>(2)</num>
+                <content><p>Usul rencana penggabungan sebagaimana dimaksud pada ayat (1), dituangkan dalam rancangan akta penggabungan oleh Pengurus dari Yayasan yang akan menggabungkan diri dan yang akan menerima penggabungan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_58__ayat_3">
+                <num>(3)</num>
+                <content><p>Rancangan akta penggabungan harus mendapat persetujuan dari Pembina masing-masing Yayasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_58__ayat_4">
+                <num>(4)</num>
+                <content><p>Rancangan akta penggabungan sebagaimana dimaksud pada ayat (3), dituangkan dalam akta penggabungan yang dibuat di hadapan Notaris dalam bahasa Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+            <content><p>Pengurus Yayasan hasil penggabungan wajib mengumumkan hasil penggabungan dalam surat kabar harian berbahasa Indonesia paling lambat 30 (tiga puluh) hari terhitung sejak tanggal penggabungan selesai dilakukan.</p></content>
+          </article>
+          <article eId="pasal_60">
+            <num>60</num>
+              <paragraph eId="pasal_60__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal penggabungan Yayasan diikuti dengan perubahan Anggaran Dasar yang memerlukan persetujuan Menteri, maka akta perubahan Anggaran Dasar Yayasan wajib disampaikan kepada Menteri untuk memperoleh persetujuan dengan dilampiri akta penggabungan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_2">
+                <num>(2)</num>
+                <content><p>Persetujuan sebagaimana dimaksud pada ayat (1), diberikan dalam jangka waktu paling lambat 60 (enam puluh) hari terhitung sejak tanggal permohonan diterima.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal permohonan ditolak, maka penolakan tersebut harus diberitahukan kepada pemohon secara tertulis disertai alasannya dalam jangka waktu sebagaimana dimaksud pada ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal persetujuan atau penolakan tidak diberikan dalam jangka waktu sebagaimana dimaksud pada ayat (2), maka perubahan Anggaran Dasar dianggap disetujui dan Menteri wajib mengeluarkan keputusan persetujuan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <content><p>Ketentuan mengenai tata cara penggabungan Yayasan diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>PEMBUBARAN</heading>
+          <article eId="pasal_62">
+            <num>62</num>
+            <intro><p>Yayasan bubar karena:</p></intro>
+              <point eId="pasal_62__huruf_d">
+                <num>d.</num>
+                <content><p>jangka waktu yang ditetapkan dalam Anggaran Dasar berakhir;</p></content>
+              </point>
+              <point eId="pasal_62__huruf_e">
+                <num>e.</num>
+                <content><p>tujuan Yayasan yang ditetapkan dalam Anggaran Dasar telah tercapai atau tidak tercapai;</p></content>
+              </point>
+              <point eId="pasal_62__huruf_f">
+                <num>f.</num>
+                <content><p>putusan Pengadilan yang telah memperoleh kekuatan hukum tetap berdasarkan alasan: 1) Yayasan melanggar ketertiban umum dan kesusilaan; 2) tidak mampu membayar utangnya setelah dinyatakan pailit; atau 3) harta kekayaan Yayasan tidak cukup untuk melunasi utangnya setelah pernyataan pailit dicabut.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_63">
+            <num>63</num>
+              <paragraph eId="pasal_63__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal Yayasan bubar karena alasan sebagaimana dimaksud dalam Pasal 62 huruf a dan huruf b, Pembina menunjuk likuidator untuk membereskan kekayaan Yayasan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal tidak ditunjuk likuidator, Pengurus bertindak selaku likuidator.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal Yayasan bubar, Yayasan tidak dapat melakukan perbuatan hukum, kecuali untuk membereskan kekayaannya dalam proses likuidasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal Yayasan sedang dalam proses likuidasi, untuk semua surat keluar, dicantumkan frasa "dalam likuidasi" di belakang nama Yayasan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_64">
+            <num>64</num>
+              <paragraph eId="pasal_64__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal Yayasan bubar karena putusan Pengadilan, maka Pengadilan juga menunjuk likuidator.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_64__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal pembubaran Yayasan karena pailit, berlaku peraturan perundang-undangan di bidang Kepailitan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_64__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai penunjukan, pengangkatan, pemberhentian sementara, pemberhentian, wewenang, kewajiban, tugas dan tanggung jawab, serta pengawasan terhadap Pengurus, berlaku juga bagi likuidator.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_65">
+            <num>65</num>
+            <content><p>Likuidator atau kurator yang ditunjuk untuk melakukan pemberesan kekayaan Yayasan yang bubar atau dibubarkan, paling lambat 5 (lima) hari terhitung sejak tanggal penunjukan wajib mengumumkan pembubaran Yayasan dan proses likuidasinya dalam surat kabar harian berbahasa Indonesia.</p></content>
+          </article>
+          <article eId="pasal_66">
+            <num>66</num>
+            <content><p>Likuidator atau kurator dalam jangka waktu paling lambat 30 (tiga puluh) hari terhitung sejak tanggal proses likuidasi berakhir, wajib mengumumkan hasil likuidasi dalam surat kabar harian berbahasa Indonesia.</p></content>
+          </article>
+          <article eId="pasal_67">
+            <num>67</num>
+              <paragraph eId="pasal_67__ayat_1">
+                <num>(1)</num>
+                <content><p>Likuidator atau kurator dalam waktu paling lambat 7 (tujuh) hari terhitung sejak tanggal proses likuidasi berakhir wajib melaporkan pembubaran Yayasan kepada Pembina.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal laporan mengenai pembubaran Yayasan sebagaimana dimaksud dalam ayat (1) dan pengumuman hasil likuidasi sebagaimana dimaksud dalam Pasal 66 tidak dilakukan, bubarnya Yayasan tidak berlaku bagi pihak ketiga.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_68">
+            <num>68</num>
+              <paragraph eId="pasal_68__ayat_1">
+                <num>(1)</num>
+                <content><p>Kekayaan sisa hasil likuidasi diserahkan kepada Yayasan lain yang mempunyai kesamaan kegiatan dengan Yayasan yang bubar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_2">
+                <num>(2)</num>
+                <content><p>Kekayaan sisa hasil likuidasi sebagaimana dimaksud pada ayat (1), dapat diserahkan kepada badan hukum lain yang mempunyai kesamaan kegiatan dengan Yayasan yang bubar, apabila hal tersebut diatur dalam Undang -undang mengenai badan hukum tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal kekayaan sisa hasil likuidasi tidak diserahkan kepada Yayasan lain atau kepada badan hukum lain sebagaimana dimaksud pada ayat (1) dan ayat (2), kekayaan tersebut diserahkan kepada Negara dan penggunaannya dilakukan sesuai dengan kegiatan Yayasan yang bubar.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>YAYASAN ASING</heading>
+          <article eId="pasal_69">
+            <num>69</num>
+              <paragraph eId="pasal_69__ayat_1">
+                <num>(1)</num>
+                <content><p>Yayasan asing yang tidak berbadan hukum Indonesia dapat melakukan kegiatannya di wilayah Negara Republik Indonesia, jika kegiatan Yayasan tersebut tidak merugikan masyarakat, bangsa, dan Negara Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_69__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai syarat dan tata cara Yayasan asing sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_70">
+            <num>70</num>
+              <paragraph eId="pasal_70__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap anggota organ Yayasan yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 5, dipidana dengan pidana penjara paling lama 5 (lima) tahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_2">
+                <num>(2)</num>
+                <content><p>Selain pidana penjara, anggota organ yayasan sebagaimana dimaksud dalam ayat (1) juga dikenakan pidana tambahan berupa kewajiban mengembalikan uang, barang, atau kekayaan yayasan yang dialihkan atau dibagikan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_13">
+        <num>XIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_71">
+            <num>71</num>
+              <paragraph eId="pasal_71__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pada saat Undang-undang ini mulai berlaku, Yayasan yang:</p></intro>
+                  <point eId="pasal_71__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>telah didaftarkan di Pengadilan Negeri dan diumumkan dalam Tambahan Berita Negara Republik Indonesia; atau</p></content>
+                  </point>
+                  <point eId="pasal_71__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>telah didaftarkan di Pengadilan Negeri dan mempunyai izin melakukan kegiatan dari instansi terkait; tetap diakui sebagai badan hukum dengan ketentuan dalam jangka waktu paling lambat 3 (tiga) tahun terhitung sejak tanggal Undang-undang ini mulai berlaku, Yayasan tersebut wajib menyesuaikan Anggaran Dasarnya dengan ketentuan Undang-undang ini.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_71__ayat_2">
+                <num>(2)</num>
+                <content><p>Yayasan yang telah didirikan dan tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), dapat memperoleh status badan hukum dengan cara menyesuaikan Anggaran Dasarnya dengan ketentuan Undang-undang ini, dan mengajukan permohonan kepada Menteri dalam jangka waktu paling lambat I (satu) tahun terhitung sejak tanggal Undang-undang ini mulai berlaku.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_71__ayat_3">
+                <num>(3)</num>
+                <content><p>Yayasan sebagaimana dimaksud pada ayat (1), wajib diberitahukan kepada Menteri paling lambat 1 (satu) tahun setelah pelaksanaan penyesuaian.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_71__ayat_4">
+                <num>(4)</num>
+                <content><p>Yayasan yang tidak menyesuaikan Anggaran Dasarnya dalam jangka waktu sebagaimana dimaksud pada ayat (1) dan Yayasan sebagaimana dimaksud pada ayat (2), tidak dapat menggunakan kata "Yayasan" di depan namanya dan dapat dibubarkan berdasarkan putusan Pengadilan atas permohonan Kejaksaan atau pihak yang berkepentingan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_14">
+        <num>XIV</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_72">
+            <num>72</num>
+              <paragraph eId="pasal_72__ayat_1">
+                <num>(1)</num>
+                <content><p>Yayasan yang sebagian kekayaannya berasal dari bantuan Negara, bantuan luar negeri, dan/atau sumbangan masyarakat yang diperolehnya sebagai akibat berlakunya suatu peraturan perundang-undangan wajib mengumumkan ikhtisar laporan keuangan sebagaimana dimaksud dalam Pasal 52 ayat (2) yang mencakup kekayaannya selama 10 (sepuluh) tahun sebelum Undang -undang ini diundangkan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_72__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengumuman ikhtisar laporan tahunan sebagaimana dimaksud pada ayat (1), tidak menghapus hak dan dari pihak yang berwajib untuk melakukan pemeriksaan, penyidikan, dan penuntutan, apabila ada dugaan terjadi pelanggaran hukum.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_72a">
+            <num>72A</num>
+            <content><p>Pada saat Undang-undang ini mulai berlaku, ketentuan Anggaran Dasar Yayasan sebagaimana dimaksud dalam Pasal 71 ayat (1) dan ayat (2) yang belum disesuaikan dengan ketentuan Undang-undang ini, tetap berlaku sepanjang tidak bertentangan dengan Undang-undang ini.</p></content>
+          </article>
+          <article eId="pasal_72b">
+            <num>72B</num>
+            <intro><p>Pada saat Undang-undang ini mulai berlaku, permohonan pengesahan akta pendirian Yayasan, permohonan perubahan Anggaran Dasar Yayasan, dan pemberitahuan penyesuaian Anggaran Dasar Yayasan yang telah diterima Menteri, diproses berdasarkan Undang-undang ini dan peraturan pelaksanaannya.</p></intro>
+              <point eId="pasal_72b__angka_23">
+                <num>23.</num>
+                <content><p>Penjelasan Umum Alinea Ketiga, frase "atau pejabat yang ditunjuk", di antara frase "Menteri Kehakiman dan Hak Asasi Manusia" dan frase "Ketentuan tersebut" dihapus.</p></content>
+              </point>
+              <point eId="pasal_72b__angka_24">
+                <num>24.</num>
+                <content><p>Penjelasan Umum Alinea Keempat, frase "dapat diajukan kepada Kepala Kantor Wilayah Departemen Kehakiman dan Hak Asasi Manusia yang wilayah kerjanya meliputi tempat kedudukan Yayasan" di antara frase "permohonan pendirian Yayasan" dan frase "Di samping itu", diganti menjadi frase "diajukan kepada Menteri melalui Notaris yang membuat akta pendirian Yayasan tersebut.</p></content>
+              </point>
+              <point eId="pasal_72b__angka_25">
+                <num>25.</num>
+                <content><p>Penjelasan Umum Alinea Ketujuh, frase "Yayasan yang kekayaannya berasal dari Negara," di antara frase "Selanjutnya, terhadap" dan frase "bantuan luar negeri atau pihak lain," diubah menjadi frase "Yayasan yang memperoleh bantuan dari Negara," dan frase "laporan tahunannya wajib diumumkan" di antara frase "oleh akuntan publik dan" dan frase "dalam surat kabar berbahasa Indonesia", diubah menjadi frase "laporan keuangannya wajib diumumkan".</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_73">
+            <num>73</num>
+            <content><p>Undang-undang ini mulai berlaku 1 (satu) tahun terhitung sejak tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

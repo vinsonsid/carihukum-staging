@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="pp">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/pp/1997/24/!main"/>
+          <FRBRuri value="/akn/id/act/pp/1997/24"/>
+          <FRBRdate date="1997-07-08" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/pp/1997/24/ind@1997-07-08/!main"/>
+          <FRBRuri value="/akn/id/act/pp/1997/24/ind@1997-07-08"/>
+          <FRBRdate date="1997-07-08" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/pp/1997/24/ind@1997-07-08/!main.xml"/>
+          <FRBRuri value="/akn/id/act/pp/1997/24/ind@1997-07-08.akn"/>
+          <FRBRdate date="2026-09-02" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Peraturan Pemerintah Nomor 24 Tahun 1997 tentang Pendaftaran Tanah</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Peraturan Pemerintah ini yang dimaksud dengan</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Pendaftaran tanah adalah rangkaian kegiatan yang dilakukan Oleh Pemerintah secara terus menerus, berkesinambungan dan teratur, meliputi pengumpulan, pengolahan, pembukuan, dan penyajian serta pemeliharaan data fisik dan data yuridis, dalam bentuk peta dan daftar, mengenai bidang-bidang tanah dan satuan-satuan rumah susun, termasuk pemberian surat tanda bukti haknya bagi bidang-bidang tanah yang sudah ada haknya dan hak milik atas satuan rumah susun serta hak-hak tertentu yang membebaninya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Bidang tanah adalah bagian permukaan bumi yang merupakan satuan bidang yang berbatas.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Tanah Negara atau tanah yang dikuasai langsung oleh Negara adalah tanah yang tidak dipunyai dengan sesuatu hak atas tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Hak pengelolaan adalah hak menguasai dari Negara yang kewenangan pelaksanannya sebagian dilimpahkan kepada pemegangnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Hak atas tanah adalah hak sebagaimana dimaksud dalam Pasal 16 Undang-undang Nomor 5 Tahun 1960 tentang Peraturan Dasar Pokok-pokok Agraria, selanjutnya disebut UUPA.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Data fisik adalah keterangan mengenai letak, batas dan luas bidang tanah dan satuan rumah susun yang didaftar, termasuk keterangan mengenai adanya bangunan atau bagian bangunan di atasnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Data yuridis adalah keterangan mengenai status hukum bidang tanah dan satuan rumah susun yang didaftar, pemegang haknya dan hak pihak lain serta beban-beban lain yang membebaninya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Ajudikasi adalah kegiatan yang dilaksanakan dalam rangka proses pendaftaran tanah untuk pertama kali, meliputi pengumpulan dan penetapan kebenaran data fisik dan data yuridis mengenai satu atau beberapa obyek pendaftaran tanah untuk keperluan pendaftarannya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Pendaftaran tanah untuk pertama kali adalah kegiatan pendaftaran tanah yang dilakukan terhadap obyek tanah yang belum didaftar berdasarkan Peraturan Pemerintah Nomor 10 Tahun 1961 tentang Pendaftaran Tanah atau Peraturan Pemerintah ini.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Pendaftaran tanah secara sistematik adalah kegiatan pendaftaran tanah untuk pertama kali yang dilakukan secara serentak yang meliputi semua obyek pendaftaran tanah yang belum didaftar dalam wilayah atau bagian wilayah suatu desa/kelurahan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>pendaftaran tanah secara sporadik adalah kegiatan pendaftaran tanah untuk pertama kali mengenai satu atau beberapa obyek pendaftaran tanah dalam wilayah atau bagian wilayah suatu desa/kelurahan secara individual atau massal.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Pemeliharaan data pendaftaran tanah adalah kegiatan pendaftaran tanah untuk menyesuaikan data fisik dan yuridis dalam peta pendaftaran, daftar tanah, daftar nama, surat ukur, buku tanah, dan sertifikat dengan perubahan-perubahan yang terjadi kemudian.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Titik dasar teknik adalah titik yang mempunyai koordinat yang diperoleh dari suatu pengukuran dan perhitungan dalam suatu sistem tertentu yang berfungsi sebagai titik kontrol atau titik ikat untuk keperluan pengukuran dan rekonstruksi batas.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Peta dasar pendaftaran adalah peta yang memuat titik-titik bidang dasar teknik dan unsur-unsur geografis, seperti sungai, jalan, bangunan dan batas fisik bidang-bidang tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Peta pendaftaran adalah peta yang menggambarkan bidang atau bidang-bidang tanah untuk keperluan pembukuan tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Daftar tanah adalah dokumen dalam bentuk daftar yang memuat identitas bidang tanah dengan suatu sistem penomoran.</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Surat ukur adalah dokumen yang memuat data fisik suatu bidang tanah dalam bentuk peta dan uraian.</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Daftar nama adalah dokumen dalam bentuk daftar yang memuat keterangan mengenai penguasaan tanah dengan sesuatu hak atas tanah, atau hak pengelolaan dan mengenai pemilikan hak milik atas satuan rumah susun oleh orang perseorangan atau badan hukum tertentu.</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Buku tanah adalah dokumen dalam bentuk daftar yang memuat data yuridis dan data fisik suatu obyek pendaftaran yang sudah ada haknya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Sertifikat adalah surat tanda bukti hak sebagaimana dimaksud dalam pasal 19 ayat (2) huruf c UUPA untuk hak atas tanah, hak pengelolaan, tanah wakaf, hak milik atas satuan rumah susun dan hak tanggungan yag masing-masing sudah dibukukan dalam buku tanah yang bersangkutan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_21">
+                <num>21.</num>
+                <content><p>Menteri adalah Menteri yang bertanggung jawab dibidang agraria/pertanahan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_22">
+                <num>22.</num>
+                <content><p>Badan Pertanahan Nasional adalah Lembaga Pemerintah Non Departemen yang bidang tugasnya meliputi bidang pertanahan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_23">
+                <num>23.</num>
+                <content><p>Kantor Pertanahan adalah unit kerja Badan Pertanahan nasional di wilayah kabupaten atau kotamadya, yang melakukan pendaftaran hak atas tanah dan pemeliharaan daftar umum pendaftaran tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_24">
+                <num>24.</num>
+                <content><p>pejabat Pembuat Akta Tanah, selanjutnya disebut PPAT adalah Pejabat umum yang diberi kewenangan untuk membuat akta-akta tanah tertentu.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>AZAS DAN TUJUAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Pendaftaran tanah dilaksanakan berdasarkan azas sederhana, aman, terjangkau, mutakhir dan terbuka.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Pendaftaran tanah bertujuan:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>untuk memberikan kepastian hukum dan perlindungan kepada pemegang hak atas suatu bidang tanah, satuan rumah susun dan hak-hak lain yang terdaftar agar dengan mudah dapat membuktikan dirinya sebagai pemegang hak yang bersangkutan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>untuk menyediakan informasi kepada pihak-pihak yang berkepentingan termasuk Pemerintah agar dengan mudah dapat memperoleh data yang diperlukan dalam mengadakan perbuatan hukum mengenai bidang-bidang tanah dan satuan-satuan rumah susun yang sudah terdaftar;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>untuk terselenggaranya tertib administrasi pertanahan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk memberikan kepastian dan perlindungan hukum sebagaimana dimaksud dalam Pasal 3 huruf a kepada pemegang hak yang bersangkutan diberikan hak atas tanah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <content><p>Untuk melaksanakan fungsi informasi sebagaimana dimaksud dalam Pasal 3 haruf b data fisik dan data yuridis dari bidang tanah dan satuan rumah susun yang sudah terdaftar terbuka untuk umum.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_3">
+                <num>(3)</num>
+                <content><p>Untuk mencapai tertib administrasi sebagaimana dimaksud dalam Pasal 3 huruf c, setiap bidang tanah dan satuan tanah dan satuan rumah susun termasuk peralihan, pembebanan, dan hapusnya hak atas bidang tanah dan hak milik atas satuan rumah susun wajib didaftar.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>POKOK-POKOK PENYELENGGARAAN PENDAFTARAN TANAH</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Penyelenggara Dan Pelaksana Pendaftaran Tanah</heading>
+              <article eId="pasal_5">
+                <num>5</num>
+                <content><p>Pendaftaran tanah diselenggarakan oleh Badan Pertanahan Nasional.</p></content>
+              </article>
+              <article eId="pasal_6">
+                <num>6</num>
+                  <paragraph eId="pasal_6__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam rangka penyelenggaraan pendaftaran tanah sebagaimana dimaksud dalam Pasal 5 tugas pelaksana pendaftaran tanah dilakukan oleh Kepala Kantor Pertanahan, kecuali kegiatan-kegiatan tertentu yang oleh Peraturan Pemerintah ini atau perundang-undangan yang bersangkutan ditugaskan kepada Pejabat lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam melaksanakan pendaftaran tanah, Kepala Kantor Pertanahan dibantu oleh PPAT dan Pejabat lain yang ditugaskan untuk melaksanakan kegiatan-kegiatan tertentu menurut Peraturan Pemerintah ini dan peraturan perundang-undangan yang bersangkutan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <content><p>PPAT sebagaimana dimaksud dalam Pasal 6 ayat (2) diangkat dan diberhentikan oleh Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk desa-desa dalam wilayah yang terpencil Menteri dapat menunjuk PPAT Sementara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Peraturan jabatan PPAT sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah tersendiri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam melaksanakan pendaftaran tanah secara sistematik, Kepala Kantor Pertanahan dibantu oleh Panitia Ajudikasi yang dibentuk oleh Menteri atau Pejabat yang ditunjuk.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Susunan Panitian Ajudikasi sebagaimana dimaksud pada ayat (1) terdiri dari:</p></intro>
+                      <point eId="pasal_8__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>seorang Ketua Panitia, merangkap anggota yang dijabat oleh seorang pegawai Badan Pertanahan Nasional;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>beberapa orang anggota yang terdiri dari: 1) seorang pegawai Badan Pertanahan Nasional yang mempunyai kemampuan pengetahuan di bidang pendaftaran tanah; 2) seorang pegawai Badan pertanahan Nasional yang mempunyai kemampuan pengetahuan di bidang hak-hak atas tanah; 3) Kepala Desa/Kelurahan yang bersangkutan dan atau seorang Pamong Desa/Kelurahan yang ditunjuknya.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Keanggotaan Panitia Ajudikasi dapat ditambah dengan seorang anggota yang sangat diperlukan dalam penilaian kepastian data yuridis mengenai bidang-bidang tanah di wilayah desa/kelurahan yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam melaksanakan tugasnya Panitia Ajudikasi dibantu oleh satuan tugas pengukuran dan pemetaan, satuan tugas pengumpulan data yuridis dan satuan tugas administrasi yang tugas, susunan dan kegiatannya diatur oleh Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Tugas dan wewenang Ketua dan anggota Panitia Ajudikasi diatur oleh Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Obyek Pendaftaran Tanah</heading>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Obyek pendaftaran tanah meliputi:</p></intro>
+                      <point eId="pasal_9__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>bidang-bidang tanah yang dipunyai dengan hak milik, hak guna usaha, hak guna bangunan dan hak pakai;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>tanah hak pengelolaan;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>tanah wakaf;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>hak milik atas satuan rumah susun;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>hak tanggungan;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>tanah Negara;</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal tanah Negara sebagai obyek pendaftaran tanah sebagaimana dimaksud pada ayat (1) huruf f, pendaftarannya dilakukan dengan cara membukukan bidang tanah yang merupakan tanah Negara dalam daftar tanah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Satuan Wilayah Tata Usaha Pendaftaran Tanah</heading>
+              <article eId="pasal_10">
+                <num>10</num>
+                  <paragraph eId="pasal_10__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Satuan wilayah tata usaha pendaftaran tanah adalah desa atau kelurahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Khusus untuk pendaftara tanah hak guna usaha, hak pengelolaan, hak tanggungan dan tanah Negara satuan wilayah tata usaha pendaftarannya adalah Kabupaten/Kotamadya.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Pelaksanaan Pendaftaran Tanah</heading>
+              <article eId="pasal_11">
+                <num>11</num>
+                <content><p>Pelaksanaan pendaftaran tanah meliputi kegiatan pendaftaran tanah untuk pertama kali dan pemeliharaan data pendaftaran tanah.</p></content>
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Kegiatan pendaftaran tanah untuk pertama kali meliputi:</p></intro>
+                      <point eId="pasal_12__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengumpulan dan pengolahan data fisik;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pembuktian hak dan pembukuannya;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>penerbitan sertifikat;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>penyajian data fisik dan data yuridis;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>penyimpanan daftar umum dan dokumen.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Kegiatan pemeliharaan data pendaftaran tanah meliputi:</p></intro>
+                      <point eId="pasal_12__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pendaftaran perubahan data pendaftaran tanah lainnya.</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>pendaftaran pemeliharaan dan pembebanan hak;</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENDAFTARAN TANAH UNTUK PERTAMA KALI</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Pelaksanaan Pendaftaran Tanah Untuk Pertama Kali</heading>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pendaftaran tanah untuk pertama kali dilaksanakan melalui pendaftaran tanah secara sistematik dan pendaftaran tanah secara sporadik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pendaftaran tanah secara sistematik didasarkan pada suatu rencana kerja dan dilaksanakan di wilayah-wilayah yang ditetapkan oleh Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal suatu desa/kelurahan belum ditetapkan sebagai wilayah pendaftaran tanah secara sistematik sebagaimana dimaksud pada ayat (2), pendaftarannya dilaksanakan melalui pendaftaran tanah secara sporadik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pendaftaran tanah secara sporadik dilaksanakan atas permintaan pihak yang berkepentingan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pengumpulan Dan Pengolahan Data Fisik</heading>
+              <subpart eId="bab_4__bagian_kedua__paragraf_1">
+                <num>1</num>
+                <heading>Pengukuran Dan Pemetaan</heading>
+                  <article eId="pasal_14">
+                    <num>14</num>
+                      <paragraph eId="pasal_14__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Untuk keperluan pengumpulan dan pengolahan data fisik dilakukan kegiatan pengukuran dan pemetaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Kegaiatan pengukuran dan pemetaan sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                          <point eId="pasal_14__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>pembuatan peta dasar pendaftaran;</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>penetapan batas bidang-bidang tanah;</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>pengukuran dan pemetaan bidang-bidang tanah dan pembuatan peta endaftaran;</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>pembuatan daftar tanah;</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>pembuatan surat ukur.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_2">
+                <num>2</num>
+                <heading>Pmbuatan Peta Dasar Pendaftaran</heading>
+                  <article eId="pasal_15">
+                    <num>15</num>
+                      <paragraph eId="pasal_15__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Kegiatan pendataran tanah secara sistematik sebagaimana dimaksud dalam Pasal 13 ayat (1) dimulai dengan pembuatan peta dasar pendaftaran.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_15__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Di wilayah-wilayah yang belum ditunjuk sebagai wilayah pendaftaran tanah secara sistematik oleh Badan Pertanahan nasional diusahakan tersedianya peta dasar pendaftaran untuk keperluan pendaftaran tanah secara sporadik.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_16">
+                    <num>16</num>
+                      <paragraph eId="pasal_16__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Untuk keperluan pembuatan peta dasar pendaftaran tanah Badan Pertanahan Nasional menyelenggarakan pemasaran, pengukuran, pemetaan dan pemeliharaan titik-titik dasar teknik nasional di setiap Kabupaten/Kotamadya Daerah Tingkat II.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pengukuran untuk pembuatan peta dasar pendaftaran sebagaimana dimaksud pada ayat (1) diikatkan dengan titik-titik dasar teknik nasional sebagai kerangka dasarnya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Jika di suatu daerah tidak ada atau belum ada titik-titik dasar teknik nasional sebagaimana dimaksud pada ayat (2), dalam melaksanakan pengukuran untuk pembuatan peta dasar pendaftaran dapat digunakan titik dasar teknik yang bersifat sementara, yang kemudian diikatkan dengan titik dasar teknik nasional.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Peta dasar pendaftaran sebagaimana dimaksud pada ayat (2) dan ayat (3) menjadi dasar untuk pembuatan peta pendaftaran.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai pengukuran dan pemetaan titik dasar teknik nasional dan pembuatan peta dasar pendaftaran ditetapkan oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_3">
+                <num>3</num>
+                <heading>Penetapan Batas Bidang-bidang Tanah</heading>
+                  <article eId="pasal_17">
+                    <num>17</num>
+                      <paragraph eId="pasal_17__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Untuk memperoleh data fisik yang diperlukan bagi pendaftaran tanah, bidang-bidang tanah yang akan dipetakan diukur, setelah ditetapkan letaknya, batas-batasnya dan menurut keperluannya ditempatkan tanda-tanda batas di setiap sudut bidang tanah yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam penetapan batas bidang tanah pada pendaftaran tanah secara sistematik dan pendaftaran tanah secara sporadik diupayakan penataan batas berdasarkan kesepakatan para pihak yang berkepengingan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Penempatan tanda-tanda batas termasuk pemeliharaannya wajib dilakukan oleh pemegang hak atas tanah yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Bentuk, ukuran, dan teknik penempatan tanda batas ditetapkan oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_18">
+                    <num>18</num>
+                      <paragraph eId="pasal_18__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penetapan batas bidang tanah yang sudah dipunyai dengan suatu hak yang belum terdaftar atau sudah terdaftar tetapi belum ada surat ukur/gambar situasinya atau surat ukur/gambar situasi yang ada tidak sesuai lagi dengan keadaan yang sebenarnya, dilakukan oleh Panitia Ajudikasi dan pendaftaran tanah secara sistematik atau oleh Kepala Kantor Pertanahan dalam pendaftaran tanah secara sporadik, berdasarkan penunjukan batas oleh pemegang hak atas tanah yang bersangkutan dan sedapat mungkin disetujui oleh para pemegang hak atas tanah yang berbatasan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Penetapan batas bidang tanah yang akan diberikan dengan hak baru dilakukan sesuai ketentuan sebagaimana dimaksud pada ayat (1) atau atas penunjukan instansi yang berwenang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Dalam menetapkan batas-batas bidang tanah Panitia Ajudikasi atau Kepala Kantor Pertanahan memperhatikan batas-batas bidang atau bidang-bidang tanah yang telah terdaftar dan surat ukur atau gambar situasi yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Persetujuan sebagaimana dimaksud pada ayat (1) dan ayat (2) dituangkan dalam suatu berita acara yang ditandatangani oleh mereka yang memberikan persetujuan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Bentuk berita acara sebagaimana dimaksud pada ayat (4) ditetapkan oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_19">
+                    <num>19</num>
+                      <paragraph eId="pasal_19__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Jika dalam penetapan batas bidang tanah sebagaimana dimaksud dalam Pasal 18 ayat (1) tidak diperoleh kesepakatan antara pemegang hak atas tanah yang bersanggkutan dengan pemegang hak atas tanah yang berbatasan, pengukuran bidang tanahnya diupayakan untuk sementara dilakukan berdasarkan batas-batas yang menurut kenyataannya merupakan batas-batas bidang tanah yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_19__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Jika pada waktu yang telah ditentukan pemegang hak atas tanah yang bersangkutan atau para pemegang hak atas tanah yang berbatasan tidak hadir setelah dilakukan pemanggilan, pengukuran bidang tanahnya, untuk sementara dilakukan sesuai ketentuan sebagaimana dimaksud pada ayat (1).</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_19__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketua Panitia Ajudikasi dalam pendaftaran tanah secara sistematik atau Kepala Kantor Peertanahan dalam pendaftaran tanah secara sporadik membuat berita acara mengenai dilakukannya pengukuran sementara sebagaimana dimaksud pada ayat(1) dan ayat(2), termasuk mengenai belum diperolehnya kesekapatan batas atau ketidakhadiran pemegang hak atas tanah yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_19__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Dalam gambar ukur sebagai hasil pengukuran sementara sebagaimana dimaksud pada ayat(3) dibubuhkan catatan atau tanda yang menunjukkan bahwa batas-batas bidang tanah tersebut baru merupakan batas-batas sementara.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_19__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Dalam hal telah diperoleh kesepakatan melalui musyawarah mengenai batas-batas yang dimaksudkan atau diperoleh kepastiannya berdasarkan putusan Pengadilan yang telah memperoleh kekuatan hukum tetap, diadakan penyesuaian terhadap data yang ada pada peta pendaftaran yang bersangkutan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_4">
+                <num>4</num>
+                <heading>Pengkuran Dan Pemetaan Bidang-bidang Tanah Dan Pembuatan Peta Pendataran</heading>
+                  <article eId="pasal_20">
+                    <num>20</num>
+                      <paragraph eId="pasal_20__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Bidang-bidang tanah yang sudah ditetapkan batas-batasnya sebagaimana dimaksud dalam Pasal 17, Pasal 18 dan Pasal 19 diukur dan selanjutnya dipetakan dalam peta dasar pendaftaran.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Jika dalam wilayah pendaftaran tanah secara sporadik belum ada peta dasar pendaftaran, dapat digunakan peta lain, sepanjang peta tersebut memenuhi syarat untuk pembuatan peta pendaftaran.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Jika dalam wilayah dimaksud belum tersedia peta dasar pendaftaran maupun peta lainnya sebagaimana dimaksud pada ayat (2), pembuatan peta dasar pendaftaran dilakukan bersamaan dengan pengukuran dan pemetaan bidang tanah yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai pengukuran dan pemetaan bidang-bidang tanah dan pembuatan peta pendaftaran ditetapkan oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_5">
+                <num>5</num>
+                <heading>Pembuatan Daftar Tanah</heading>
+                  <article eId="pasal_21">
+                    <num>21</num>
+                      <paragraph eId="pasal_21__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Bidang atau bidang-bidang yang sudah dipetakan atau dibubuhkan nomor pendaftarannya pada peta pendaftaran dibukukan dalam daftar tanah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_21__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Bentuk, isi, cara pengisian, penyimpanan dan pemeliharaan daftar tanah diatur oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_6">
+                <num>6</num>
+                <heading>Pembuatan Surat Ukur</heading>
+                  <article eId="pasal_22">
+                    <num>22</num>
+                      <paragraph eId="pasal_22__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Bagi bidang-bidang tanah sebagaimana dimaksud dalam Pasal 9 ayat(1) huruf a, b dan c sudah diatur serta dipetakan dalam peta pendaftaran, dibuatkan surat ukur untuk keperluan pendaftaran haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_22__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Untuk wilayah-wilayah pendaftaran tanah secara sporadik yang belum tersedia peta pendaftaran, surat ukur dibuat dari hasil pengukuran sebagaimana dimaksud dalam Pasal 20.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_22__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Bentuk, isi, cara pengisian, penyimpanan dan pemeliharaan surat ukur ditetapkan oleh Menteri. Pembuktian Hak Dan Pembukuannya</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pembuktian Hak Dan Pembukuannya</heading>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Pembuktian Hak Baru</heading>
+                  <article eId="pasal_23">
+                    <num>23</num>
+                    <intro><p>Untuk keperluan pendaftaran hak:</p></intro>
+                      <point eId="pasal_23__huruf_a">
+                        <num>a.</num>
+                        <content><p>hak atas tanah baru dibuktikan dengan: 1) penetapan pemberian hak dari Pajabat yang berwenang memberikan hak yang bersangkutan menurut ketentuan yang berlaku apabila pemberian hak tersebut berasal dari tanah Negara atau tanah hak pengelolaan; 2) asli akta PPAT yang memuat pemberian hak tersebut oleh pemegang hak milik kepada penerima hak yang bersangkutan apabila mengenai hak guna bangunan dan hak pakai atas tanah hak milik;</p></content>
+                      </point>
+                      <point eId="pasal_23__huruf_b">
+                        <num>b.</num>
+                        <content><p>hak pengelolaan dibuktikan dengan penetapan pemberian hak pengelolaan oleh Pejabat yang berwenang;</p></content>
+                      </point>
+                      <point eId="pasal_23__huruf_c">
+                        <num>c.</num>
+                        <content><p>tanah wakaf dibuktikan dengan akta ikrar wakaf;</p></content>
+                      </point>
+                      <point eId="pasal_23__huruf_d">
+                        <num>d.</num>
+                        <content><p>hak milik atas satuan rumah susun dibuktikan dengan akta pemisahan;</p></content>
+                      </point>
+                      <point eId="pasal_23__huruf_e">
+                        <num>e.</num>
+                        <content><p>pemberian hak tanggungan dibuktikan dengan akta pemberian hak tanggungan.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Pembuktian Hak Lama</heading>
+                  <article eId="pasal_24">
+                    <num>24</num>
+                      <paragraph eId="pasal_24__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Untuk keperluan pendaftaran hak, hak atas tanah yang berasal dari konversi hak-hak lama dibuktikan dengan alat-alat bukti mengenai adanya hak tersebut berupa bukti-bukti tertulis, keterangan yang kadar kebenarannya oleh Panitia Ajudikasi dalam pendaftaran tanah secara sistematik atau oleh Kepala Kantor Pertanahan dalam pendaftaran tanah secara sporadik, dianggap cukup untuk mendaftar hak, pemegang hak dan hak-hak pihak lain yang membebaninya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Dalam hal tidak atau tidak lagi tersedia secara lengkap alat-alat pembuktian sebagaimana dimaksud pada ayat (1), pembuktian hak dapat dilakukan berdasarkan kenyataan penguasaan fisik bidang tanah yang bersangkutan selama 20 (dua puluh) tahun atau lebih secara berturut-turut oleh pemohon pendaftaran dan pendahuluan-pendahulunya, dengan syarat:</p></intro>
+                          <point eId="pasal_24__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>penguasaan tersebut dilakukan dengan itikad baik dan secara terbuka oleh yang bersangkutan sebagai yang berhak atas tanah, serta diperkuat oleh kesaksian orang yang dapat dipercaya;</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>penguasaan tersebut baik sebelum maupun selama pengumuman sebagaimana dimaksud dalam Pasal 26 tidak dipermasalahkan oleh masyarakat hukum adat atau desa/kelurahan yang bersangkutan ataupun pihak lainnya.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_25">
+                    <num>25</num>
+                      <paragraph eId="pasal_25__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Dalam rangka menilai kebenaran alat bukti sebagaimana imaksud dalam Pasal 24 dilakukan pengumpulan dan penelitian data yuridis mengenai bidang tanah yang bersangkutan oleh Panitia Ajudikasi dalam pendaftaran tanah secara sistematik oleh Kepala Kantor Pertanahan dalam pendaftaran tanah secara sporadik.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_25__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hasil penelitian alat-alat bukti sebagaimana dimaksud pada ayat(1) dituangkan dalam suatu daftar isian yang ditetapkan oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_26">
+                    <num>26</num>
+                      <paragraph eId="pasal_26__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Daftar isian sebagaimana dimaksud dalam Pasal 25 ayat (2) beserta peta bidang atau bidang-bidang tanah yang bersangkutan sebagai hasil pengukuran sebagaimana dimaksud dalam Pasal 20 ayat (1) diumumkan selama 30 (tiga puluh) hari dalam pendaftaran tanah secara sistematik atau 60 (enam puluh) hari dalam pendaftaran tanah secara sporadik untuk memberi kesempatan kepada pihak yang berkepentingan mengajukan keberatan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pengumuman sebagaimana dimaksud pada ayat (1) dilakukan di Kantor Panitia Ajudikasi dan Kantor Kepala Desa/Kelurahan letak tanah yang bersangkutan dalam pendaftaran tanah secara spordik serta di tempat lain yang dianggap perlu.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Selain pengumuman sebagaimana dimaksud pada ayat (1) dan ayat (2), dalam hal pendaftaran tanah secara sporadik individual, pengumuman dapat dilakukan melalui media massa.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Ketenttuan lebih lanjut mengenai pelaksanaan ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (3) ditetapkan oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_27">
+                    <num>27</num>
+                      <paragraph eId="pasal_27__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Jika dalam jangka waktu pengumuman sebagaimana dimaksud dalam Pasal 26 ayat(1) ada yang mengajukan keberatan mengenai data fisik dan atau data yuridis yang diumumkan, Ketua Panitia Ajudikasi dalam pendaftaran tanah secara sistematik atau Kepala Kantor Pertanahan dalam pendaftaran tanah secara sporadik mengusahakan agar secepatnya keberatan yang diajukan diselesaikan secara musyawarah untuk mufakat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Jika usaha penyelesaian secara musyawarah untuk mufakat sebagaimana dimaksud pada ayat (1) membawahi hasil dibuatkan berita acara penyelesaian dan jika penylesaian yang dimaksud mengakibatkan perubahan pada apa yang diumumkan menurut ketentuan sebagaimana dimaksud dalam Pasal 26 ayat(1), perubahan tersebut diadakan pada peta bidang-bidang tanah dan atau daftar isian yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Jika usaha penyelesaian secara musyawarah untuk mufakat sebagaimana dimaksud pada ayat (1) tidak dapat dilakukan atau tidak membawa hasil, Ketua Panitia Ajudikasi dalam pendaftaran tanah secara sistematik dan Kepala Kantor Pertanahan dalam pendaftaran tanah secara sporadik memberitahukan secara tetulis kepada pihak yang mengajukan keberatan agar mengajukan gugatan mengenai data fisik dan atau data yuridis yang diselenggarakan ke Pengadilan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_28">
+                    <num>28</num>
+                      <paragraph eId="pasal_28__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Setelah jangka waktu pengumuman sebagaimana dimaksud dalam Pasal 26 ayat (1) berakhir, data fisik dan data yuridis yang diumumkan tersebut oleh Panitia Ajudikasi dalam pendaftaran tanah secara sistematik atu oleh Kepala Kantor Pertanahan dalam pendaftaran tanah secara sporadik disahkan dengan suatu berita acara yang bentuknya ditetapkan oleh Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_28__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Jika setelah berakhirnya jangka waktu pengumuman sebagaimana dimaksud dalam Pasal 26 ayat (1) masih ada kekurangkelengkapan data fiik dan atau data yuridis yang bersangkutan atau masih ada keberatan yang belum diselesaikan, pengesahan sebagaimana dimaksud pada ayat (1) dilakukan dengan catatan mengenai hal-hal yang belum lengkap dan atau keberatan yang belum diselesaikan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_28__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Berita acara pengesahan ebagaimana dimaksud pada ayat (1) menjadi dasar untuk :</p></intro>
+                          <point eId="pasal_28__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>pembukuan hak atas tanah yang bersangkutan dalam buku tanah;</p></content>
+                          </point>
+                          <point eId="pasal_28__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>pengakuan hak atas tanah;</p></content>
+                          </point>
+                          <point eId="pasal_28__ayat_3__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemberian hak atas tanah.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_3">
+                <num>3</num>
+                <heading>Pembukuan Hak</heading>
+                  <article eId="pasal_29">
+                    <num>29</num>
+                      <paragraph eId="pasal_29__ayat_1">
+                        <num>(1)</num>
+                        <content><p>hak atas tanah, hak pengelolaan, tanah wakaf dan hak milik atas satuan rumah susun didaftar dengan embukukanya dalam buku tanah yang memuat data yuridis dan data fisik bidang tanah yang bersangkutan, dan sepanjang ada surat ukurnya dicatat pula pada surat ukur tersebut.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pembukuan dalam buku tanah serta pencatatannya pada surat ukur sebagaimana dimaksud pada ayat(1) meupakan bukti bahwa hak yang bersangkutan beserta pemegang haknya dan bidang tanahnya yang diuraikan dalam surat ukur secara hukum telah di daftar menurut Peraturan Pemerintah ini.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_3">
+                        <num>(3)</num>
+                        <content><p>pembukuan hak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan alat bukti yang dimaksud dalam Pasal 23 dan berita acara pengesahan sebagaimana dimaksud dalam Pasal 28.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_30">
+                    <num>30</num>
+                      <paragraph eId="pasal_30__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Atas dasar alat bukti dan berita acara pengesahan sebagaimana dimaksud dalam Pasal 29 ayat(3) hak atas bidang tanah:</p></intro>
+                          <point eId="pasal_30__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>yang data fisik dan data yuridisnya sudah lengkap dan tidak ada yang disengketakan, dilakukan pembukuannya dalam buku tanah menurut ketentuan Pasal 29 ayat (1);</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>yang data fisik atau data yuridisnya belum lengkap dilakukan pembukuannya dalam buku tanah dengan catatan mengenai hal-hal yang belum lengkap;</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>yang data fisik dan atau data yuridisnya disengketakan tetapi tidak diajukan gugatan ke Pengadilan dilakukan pembukuannya dalam buku tanah dengan catatan mengenai adanya sengketa tersebut dan kepada pihak yang keberatan diberitahukan oleh Kepala panitia Ajudikasi untuk pendaftaran tanah secara sistematik atau Kepala Kantor Pertanahan untuk pendaftaran tanah secara sporadik untuk mengajukan gugatan ke Pengaidlan mengenai data yang diselengketakan dalam waktu 60 (enam puluh) hari dalam pendaftaran tanah secara sistematik dan 90 (sembilan puluh) hari dalam pendaftaran tanah secara sporadik dihitung sejak disampaikannya pemberitahuan tersebut;</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>yang data fisik dan atau data yuridisnya disengketakan dan diajukan gugatan ke Pengadilan tetapi tidak ada perintah dari Pengadilan untuk status quo dan tidak ada putusan penyitaan dari Pengadilan, dilakukan pembukuannya dalam buku tanah dengan catatan mengenai adanya sengketa tersebut serta hal-hal yang disengketakan;</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>yang data fisik atau data yuridisnya disengketakan dan diajukan ke Pengadilan serta ada perintah untuk status quo atau putusan penyitaan dari Pengadilan, dibukukan dalam buku tanah dengan mengosongkan nama pemegang haknya dan hal-hal lain yang disengketakan serta mencatat di dalamnya adanya sita atau perintah status quo tersebut.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_30__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Catatan sebagaimana dimaksud pada ayat(1) huruf b dihapus apabila:</p></intro>
+                          <point eId="pasal_30__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>telah diserahkan tambahan alat pembuktian yang diperlukan; atau</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>telah lewat waktu 5 (lima) tahun tanpa ada yang mengajukan gugatan ke Pengadilan mengenai data yang dibukukan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_30__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Catatan sebagaimana dimaksud pada ayat(1) huruf c dihapus apabila:</p></intro>
+                          <point eId="pasal_30__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>telah diperoleh penyelesaian secara damai antara pihak-pihak yang bersengketa; atau</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>diperoleh putusan Pengadilan mengenai sengketa yang bersangkutan yang telah memperoleh kekuatan hukum tetap; atau</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_3__huruf_c">
+                            <num>c.</num>
+                            <content><p>setelah dalam waktu 60 (enam puluh) hari dalam pendaftaran tanah secara sitematik dan 90 (sembilan puluh) hari dalam pendaftaran tanah secara sporadik sejak disampaikan pemberitahuan tertulis sebagaimana dimaksud pada ayat(1) huruf c tidak diajukan gugatan mengenai sengketa tersebut ke Pengadilan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_30__ayat_4">
+                        <num>(4)</num>
+                        <intro><p>Catatan sebagaimana dimaksud pada ayat (1) huruf d dihapus apabila:</p></intro>
+                          <point eId="pasal_30__ayat_4__huruf_a">
+                            <num>a.</num>
+                            <content><p>telah dicapai penyelesaian secara damai antara pihak-pihak yang bersengketa; atau</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_4__huruf_b">
+                            <num>b.</num>
+                            <content><p>diperoleh putusan Pengadilan mengenai sengketa yang bersangkutan yang telah memperoleh kekuatan hukum tetap.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_30__ayat_5">
+                        <num>(5)</num>
+                        <intro><p>Penyelesaian pengisian buku tanah dan penghapusan catatan adanya sita atau perintah status quo sebagaimana dimaksud pada ayat(1) huruf c dilakukan apabila:</p></intro>
+                          <point eId="pasal_30__ayat_5__huruf_a">
+                            <num>a.</num>
+                            <content><p>setelah diperoleh penyelesaian secara damai antara pihak-pihak yang bersengketa; atau</p></content>
+                          </point>
+                          <point eId="pasal_30__ayat_5__huruf_b">
+                            <num>b.</num>
+                            <content><p>diperoleh putusan Pengadilan mengenai sengketa yang bersangkutan yang telah memperoleh kekuatan hukum tetap dan pencabutan sita atau status quo Pengadilan.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Penerbitan Sertifikat</heading>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sertifikat diterbitkan untuk kepentingan pemegang hak yang bersangkutan sesuai dengan data fiik dan data yuridis yang telah didaftar dalam buku tanah sebagaimana dimaksud dalam Pasal 30 ayat (1).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jika di dalam buku tanah terdapat catatan sebagaimana dimaksud dalam Pasal 30 ayat (1) huruf b yang menyangkut data yuridis, atau catatan sebagaimana dimaksud dalam Pasal 30 ayat(1) huruf c, d dan e yang menyangkut data fisik maupun data yuridis penerbitan sertifikat ditangguhkan sampai catatan yang bersangkutan dihapus.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Sertifikat hanya boleh diserahkan kepada pihak yang namanya tercantum dalam buku tanah yang bersangkutan sebagai pemegang hak atau kepada pihak lain yang dikuasakan olehnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_4">
+                    <num>(4)</num>
+                    <content><p>mengenai hak atas tanah atau hak milik atas satuan rumah susu kepunyaan bersama beberapa orang atau badan hukum diterbitkan satu sertifikat, yang diterimakan kepada salah satu pemegang hak bersama atas penunjukan tertulis para pemegang hak bersama yang lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Mengenai hak atas tanah atau hak milik atas satuan rumah susun kepunyaan bersama sebagaimana dimaksud pada ayat (4) dapat diterbitkan sertifikat sebanyak jumlah pemegang hak bersama untuk diberikan kepada tiap pemegang hak bersama yang bersangkutan, yang memuat nama serta besarnya bagian masing-masing dari hak bersama tersebut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Bentuk, isi, cara pengisian dan penandatanganan sertfikat ditetapkan oleh Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sertifikat merupakan surat tanda bukti hak yang berlaku sebagai alat pembuktian yang kuat mengenai data fisik dan data yuridis yang termuat di dalamnya, sepanjang data fisik dan data yuridis tersebut sesuai dengan data yang ada dalam surat ukur dan buku tanah hak yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal atas suatu bidang tanah sudah diterbitkan sertifikat secara sah atas nama orang atau badan hukum yang memperoleh tanah tersebut dengan itikad baik dan secara nyata menguasainya, maka pihak lain yang merasa mempunyai hak atas tanah itu tidak dapat lagi menuntut pelaksanaan hak tersebut apabila dalam waktu 5 (lima) tahun sejak diterbitkannya sertifikat itu tidak mengajukan keberatan secara tertulis kepada pemegang sertifikat dan Kepala Kantor Pertanahan yang bersangkutan ataupun tidak mengajukan gugatan ke Pengadilan mengenai penguasaan tanah atau penerbitan sertifikat tersebut.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Penyajian Data Fisik Dan Data Yuridis</heading>
+              <article eId="pasal_33">
+                <num>33</num>
+                  <paragraph eId="pasal_33__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam rangka penyajian data fisik dan data yuridis, Kantor pertanahan menyelenggarakan tata usaha pendaftaran tanah dalam daftar umum yang terdiri dari peta pendaftaran, daftar tanah, surat ukur, buku tanah dan daftar nama.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Bentuk, cara pengisian, penyimpanan, pemeliharaan, dan penggatian peta pendaftaran, daftar tanah, surat ukur, buku tanah dan daftar nama ditetapkan oleh Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap orang yang berkepentingan berhak mengetahui data fisik dan data yuridis yang tersimpan di dalam peta pendaftaran, daftar tanah, surat ukur dan buku tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Data fisik dan data yuridis yang tercantum dalam daftar nama hanya terbuka bagi instansi Pemerintah tertentu untuk keperluan pelaksanaan tugasnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Persyaratan dan tata cara untuk memperoleh keterangan mengenai data sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan oleh Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Penyimpanan Daftar Umum Dan Dokumen</heading>
+              <article eId="pasal_35">
+                <num>35</num>
+                  <paragraph eId="pasal_35__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dokumen-dokumen yang merupakan alat pembuktian yang telah digunakan sebagai dasar pendaftaran diberi tanda pengenal dan disimpan di kantor Pertanahan yang bersangkutan atau di tempat lain yang ditetapkan oleh Menteri, sebagai bagian yang tidak terpisahkan dari daftar umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_2">
+                    <num>(2)</num>
+                    <content><p>peta pendaftaran, daftar tanah, surat ukur, buku tanah, daftar nama dan dokumen-dokumen sebagaimana dimaksud pada ayat(1) harus tetap berada di Kantor Pertanahan yang bersangkutan atau di tempat lain yang ditetapkan oleh Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dengan izin tetulis dari Menteri atau Pejabat yang ditunjuknya dapat diberikan petikan, salinan atau rekaman dokumen sebagaimana dimaksud pada ayat (1) kepada instani lain yang memerlukan untuk pelaksaan tugasnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Atas perintah Pengadilan yang sedang mengadili suatu perkara, asli dokumen sebagaimana dimaksud pada ayat(1) dibawa oleh Kepala Kantor Pertanahan yang bersangkutan atau Pejabat yang ditunjuk ke sidang Pengadilan tersebut untuk diperlihatkan kepada Majelis Hakim dan para pihak yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Secara bertahap data pendaftaran tanah disimpan dan disajikan dengan menggunakan peralatan elektronik dan mikrofilm.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Rekaman dokumen yang dihasilkan alat elektronik atau mikrofilm sebagaimana dimaksud pada ayat(5) mempunyai kekuatan pembuktian sesudah ditandatangani dan dibuhui cap dinas oleh Kepala Kantor Pertanahan yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Bentuk, cara penyimpanan, penyajian dan penghapusan dokumen-dokumen sebagaimana dimaksud pada ayat (1) dan ayat (2), demikian juga cara penyimpanan dan penyajian data pendaftaran tanah dengan alat elektronik dan mikrofilm sebagaimana dimaksud pada ayat (5) ditetapkan oleh Mentei.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PEMELIHARAAN DATA PENDAFTARAN TANAH</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_36">
+                <num>36</num>
+                  <paragraph eId="pasal_36__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemeliharaan data pendaftaran tanah dilakukan apabila terjadi perubahan pada data fisik atau data yuridis obyek pendaftaran tanah yang telah terdaftar.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemegang hak yang bersangkutan wajib mendaftarakan perubahan sebagaimana dimaksud pada ayat (1) kepada Kantor Pertanahan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pendaftaran Peralihan Dan Pembebanan Hak</heading>
+              <subpart eId="bab_5__bagian_kedua__paragraf_1">
+                <num>1</num>
+                <heading>Pemindahan Hak</heading>
+                  <article eId="pasal_37">
+                    <num>37</num>
+                      <paragraph eId="pasal_37__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Peralihan hak atas tanah dan hak milik atas satuan rumah susun melalui jual beli, tukar menukar, hibah, pemasukan dalam peusahaan dan perbuatan hukum pemindahan hak lainnya, kecuali pemindahan hak melalui lelang hanya dapat didaftarkan jika dibuktikan dengan akta yang dibuat oleh PPAT yang berwenang menurut ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_37__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam keadaan tertentu sebagaimana yang ditentukan oleh Menteri, Kepala Kantor Pertanahan dapat mendaftar pemindahan hak atas bidang tanah hak milik, yang dilakukan di antara perorangan warga negara Indonesia yang dibuktikan dengan akta yang tidak dibuat oleh PPAT tetapi yang menurut Kepala Kantor Pertanahan tersebut kadar kebenarannya dianggap cukup untuk mendaftar pemindahan hak yang bersangkutan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_38">
+                    <num>38</num>
+                      <paragraph eId="pasal_38__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pembuatan akta sebagaimana dimaksud dalam Pasal 37 ayat (1) dihadiri oleh para pihak yang melakukan perbuatan hukum yang bersangkutan dan disaksikan oleh sekurang-kurangnya 2 (dua) orang saksi yang memenuhi syarat untuk bertindak sebagai saksi dalam perbuatan hukum itu.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Bentuk, isi dan cara pembuatan akta-akta PPAT diatur oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_39">
+                    <num>39</num>
+                      <paragraph eId="pasal_39__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>PPAT menolak untuk membuat akta, jika:</p></intro>
+                          <point eId="pasal_39__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>mengenai bidang tanah yang sudah terdaftar atau hak milik atas satuan rumah susun, kepadanya tidak disampaikan sertifikat asli hak yang bersangkutan atau sertifikat yang diserahkan tidak sesuai dengan daftar-daftar yang ada di Kantor Pertanahan; atau</p></content>
+                          </point>
+                          <point eId="pasal_39__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>mengenai bidang tanah yang belum terdaftar, kepadanya tidak disampaikan: 1) surat bukti hak sebagaimana dimaksud dalam Pasal 24 ayat (1) atau surat keterangan Kepala Desa/Kelurahan yang menyatakan bahwa yang bersangkutan menguasai bidang tanah tersebut sebagaimana dimaksud dalam Pasal 24 ayat(2); dan 2) surat keterangan yang menyatakan bahwa bidang tanah yang bersangkutan belum bersertifikat dari Kantor Pertanahan, atau untuk tanah yang terletak di daerah yang jauh dari kedudukan Kantor Pertanahan, dari pemegang hak yang bersangkutan dengan dikuatkan oleh Kepala Desa/Kelurahan; atau</p></content>
+                          </point>
+                          <point eId="pasal_39__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>salah satu atau para pihak yang akan melakukan perbuatan hukum yang bersangkutan atau salah satu saksi sebagaimana dimaksud dalam Pasal 38 tidak berhak atau memenuhi syarat untuk bertindak demikian; atau</p></content>
+                          </point>
+                          <point eId="pasal_39__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>salah satu pihak atau para pihak bertindak atas dasar suatu surat kuasa mutlak yang pada hakikatnya berisikan perbuatan hukum pemindahan hak; atau</p></content>
+                          </point>
+                          <point eId="pasal_39__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>untuk perbuatan hukum yang akan dilakukan belum diperoleh izin Pejabat atau instansi yang berwenang, apabila izin tersebut diperlukan menurut peraturan perundang-undangan yang berlaku; atau</p></content>
+                          </point>
+                          <point eId="pasal_39__ayat_1__huruf_f">
+                            <num>f.</num>
+                            <content><p>obyek perbuatan hukum yang bersangkutan sedang dalam sengketa mengenai data fisik dan atau data yuridis; atau</p></content>
+                          </point>
+                          <point eId="pasal_39__ayat_1__huruf_g">
+                            <num>g.</num>
+                            <content><p>tidak dipenuhi syarat lain atau dilanggar larangan yang ditentukan dalam peraturan perundang-undangan yang bersanggkutan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_39__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Penolakan untuk membuat akta tersebut diberitahukan secara tertulis kepada pihak-pihak yang bersangkutan disertai alasannya.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_40">
+                    <num>40</num>
+                      <paragraph eId="pasal_40__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Selambat-lambatnya 7 (tujuh) hari kerja sejak tanggal ditandatanganinya akta yang bersangkutan, PPAT wajib menyampaikan akta yang dibuatnya berikut dokumen-dokumen yang bersangkutan kepada Kantor Pertanahan untuk didaftar.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_2">
+                        <num>(2)</num>
+                        <content><p>PPAT wajib menyampaikan pemberitahuan tertulis mengenai telah disampaikannya akta sebagaimana dimaksud pada ayat(1) kepada para pihak yang bersangkutan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_kedua__paragraf_2">
+                <num>2</num>
+                <heading>Pemindahan Hak Dengan Lelang</heading>
+                  <article eId="pasal_41">
+                    <num>41</num>
+                      <paragraph eId="pasal_41__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Peralihan hak melalui pemindahan hak dengan lelang yang dibuat hanya dapat didaftar jika dibuktikan dengan kutipan risalah lelang yang dibuat oleh Pejabat Lelang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Selambat-lambatnya 7 (tujuh) hari kerja sebelum suatu bidang tanah atau satuan rumah susun dilelang baik dalam rangka lelang eksekusi maupun lelang non-eksekusi, Kepala Kantor Lelang wajib meminta keterangan sebagaimana dimaksud dalam Pasal 34 kepada Kantor Pertanahan mengenai bidang tanah atau satuan rumah susun yang akan dilelang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Kepala Kantor Pertanahan mengeluarkan keterangan sebagaimana dimaksud pada ayat(2) selambat-lambatnya 5(lima) hari kerja setelah diterimanya permintaan dari Kepala Kantor Lelang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_4">
+                        <num>(4)</num>
+                        <intro><p>Kepala Kantor Lelang menolak melaksanakan lelang, apabila:</p></intro>
+                          <point eId="pasal_41__ayat_4__huruf_a">
+                            <num>a.</num>
+                            <content><p>mengenai tanah yang sudah terdaftar atau hak milik atas satuan rumah susun: 1) kepadanya tidak diserahkan sertifikat asli hak yang bersangkutan, kecuali dalam hal lelang eksekusi yang dapat tetap dilaksanakan walaupun sertifikat asli hak tersebut tidak diperoleh oleh Pejabat Lelang dari pemegang haknya;atau 2) sertifikat yang diserahkan tidak sesuai dengan daftar-daftar yang ada di Kantor Pertanahan;atau</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_4__huruf_b">
+                            <num>b.</num>
+                            <content><p>mengenai bidang tanah yang belum terdaftar, kepadanya tidak disampaikan: 1) surat bukti hak sebagaimana dimaksud dalam Pasal 24 ayat (1) atau surat keterangan Kepala Desa/Kelurahan yang menyatakan bahwa yang bersangkutan menguasai bidang tanah tersebut sebagaimana dimaksud dalam Pasal 24 ayat(2); dan 2) surat keterangan yang menyatakan bahwa bidang tanah yang bersangkutan belum bersertifikat dari Kantor Pertanahan, atau untuk tanah yang terletak di daerah yang jauh dari kedudukan Kantor Pertanahan, dari pemegang hak yang bersangkutan dengan dikuatkan oleh Kepala Desa/kelurahan;atau</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_4__huruf_c">
+                            <num>c.</num>
+                            <content><p>ada perintah Pengadilan Negeri untuk tidak melaksanakan lelang berhubung dengan sengketa mengenai tanah yang bersangkutan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_5">
+                        <num>(5)</num>
+                        <intro><p>Untuk pendaftaran peralihan hak yang diperoleh melalui lelang disampaikan kepada Kepala Kanttor Pertanahan:</p></intro>
+                          <point eId="pasal_41__ayat_5__huruf_a">
+                            <num>a.</num>
+                            <content><p>kutipan risalah lelang yang bersangkutan;</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_5__huruf_b">
+                            <num>b.</num>
+                            <content><p>1) sertifikat hak milik atas satuan rumah susun atau hak atas tanah yang dilelang jika bidang tanah yang bersangkutan sudah terdaftar;atau 2) dalam hal sertifikat tersebut tidak diserahkan kepada pembeli lelang eksekusi, surat keterangan dari Kepala Kantor Lelang mengenai alasan tidak diserahkannya sertifikat tersebut; atau 3) jika bidang tanah yang bersangkutan belum terdaftar, surat-surat sebagaimana dimaksud pada ayat (4) huruf b Pasal ini;</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_5__huruf_c">
+                            <num>c.</num>
+                            <content><p>bukti identitas pembeli lelang;</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_5__huruf_d">
+                            <num>d.</num>
+                            <content><p>bukti pelunasan harga pembelian.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_kedua__paragraf_3">
+                <num>3</num>
+                <heading>Peralihan Hak karena Pewarisan</heading>
+                  <article eId="pasal_42">
+                    <num>42</num>
+                      <paragraph eId="pasal_42__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Untuk pendaftaran peralihan hak karena pewarisan mengenai bidang tanah hak yang sudah didaftar dan hak milik atas satuan rumah susun sebagai yang diwajibkan menurut ketentuan sebagaimana dimaksud dalam Pasal 36, wajib diserahkan oleh yang menerima hak atas tanah atau hak milik atas satuan rumah susun yang bersangkutan sebagai warisan kepada Kantor Pertanahan, sertifikat hak yang bersangkutan, surat kematian orang yang namanya dicatat sebagai pemegang haknya dan surat tanda bukti sebagai ahli waris.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_42__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Jika bidang tanah yang merupakan warisan didaftar, wajib diserahkan juga dokumen-dokumen sebagaimana dimaksud dalam Pasal 39 ayat (1) huruf b.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_42__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Jika penerima warisan dari satu orang, pendaftaran peralihan hak tersebut dilakukan kepada orang tersebut berdasarkan surat tanda bukti sebagai ahli waris sebagaimana dimaksud pada ayat (1).</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_42__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Jika penerima warisan lebih dari satu orang dan waktu peralihan hak tersebut didaftarkan disertai dengan akta pembagian waris yang memuat keterangan bahwa hak atas tanah atau hak milik atas satuan rumah susun tertentu jatuh kepada seorang penerima warisan tertentu, pendaftaran peralihan hak atas tanah atau hak milik atas satuan rumah susun itu dilakukan kepada penerima warisan yang bersangkutan berdasarkan surat tanda bukti ahli waris dan akta pembagian waris tersebut.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_42__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Warisan berupa hak atas tanah atau hak milik atas satuan rumah susun yang menurut akta pembagian waris harus dibagi bersama antara beberapa penerima warisan atau waktu didaftarkan belum ada akta pembagian warisnya, didaftar peralihan haknya kepada para penerima waris yang berhak sebagai hak bersama mereka berdasarkan surat tanda bukti sebagai ahli waris dan/atau akta pembagian waris tersebut.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_kedua__paragraf_4">
+                <num>4</num>
+                <heading>Peralihan Hak Karena Penggabungan Atau Peleburan Perseroan atau Koperasi</heading>
+                  <article eId="pasal_43">
+                    <num>43</num>
+                      <paragraph eId="pasal_43__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Peralihan hak atas tanah, hak pengelolaan, atau hak milik atas satuan rumah susun karena penggabungan atau peleburan perseroan atau koperasi yang tidak didahului dengan likuidasi perseroan atau koperasi yang bergabung atau melebur dapat didaftar berdasarkan akta yang membuktikan terjadinya penggabungan atau peleburan tersebut disahkan oleh Pejabat yang berwenang sesuai ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_43__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Peralihan hak atas tanah atau hak milik atas satuan rumah susun karena penggabungan atau peleburan perseroan atau koperasi yang didahului dengan likuidasi perseroan atau koperasi yang bergabung atau melebur didaftar berdasarkan pemindahan hak dalam rangka likuidasi yang dibuktikan dengan akta yang dibuat oleh PPAT yang berwenang sebagaimana dimaksud dalam Pasal 37 ayat(1).</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_kedua__paragraf_5">
+                <num>5</num>
+                <heading>Pembebanan Hak</heading>
+                  <article eId="pasal_44">
+                    <num>44</num>
+                      <paragraph eId="pasal_44__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pembebanan hak tanggungan pada hak atas tanah atau hak milik atas rumah susun, pembebanan hak guna bangunan, hak pakai dan hak sewa untuk bangunan atas hak milik, dan pembebanan lain pada hak atas tanah atau hak milik atas satuan rumah susun yang ditentukan dengan peraturan perundang-undangan, dapat didaftar jika dibuktikan dengan akta yang dibuat oleh PPAT yang berwenang menurut ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_44__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan sebagaimana dimaksud dalam Pasal 38, Pasal 39 dan Pasal 40 berlaku juga untuk pembuatan akta PPAT yang dimaksud pada ayat(1).</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_kedua__paragraf_6">
+                <num>6</num>
+                <heading>Penolakan Pendaftaran Peralihan Dan Pembebanan Hak</heading>
+                  <article eId="pasal_45">
+                    <num>45</num>
+                      <paragraph eId="pasal_45__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Kepala Kantor Pertanahan menolak untuk melakukan pendaftaran peralihan atau pembebanan hak, jika salah satu syarat dibawah ini tidak dipenuhi:</p></intro>
+                          <point eId="pasal_45__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Sertipikat atau surat keterangan tentang keadaan hak atas tanah tidak sesuai lagi dengan daftar-daftar yang ada pada Kantor Pertanahan.</p></content>
+                          </point>
+                          <point eId="pasal_45__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>Perbuatan hukum sebagaimana dimaksud dalam Pasal 37 ayat (1) tidak dibuktikan dengan akta PPAT atau kutipan risalah lelang sebagaimana dimaksud dalam Pasal 41, kecuali dalam keadaan tertentu sebagaimana dimaksud dalam Pasal 37 ayat (2).</p></content>
+                          </point>
+                          <point eId="pasal_45__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>Dokumen yang diperlukan untuk pendaftaran peralihan atau pembebanan hak yang bersangkutan tidak lengkap;</p></content>
+                          </point>
+                          <point eId="pasal_45__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>tidak dipenuhi syarat lain yang ditentukan dalam peraturan perundang-undangan yang bersangkutan;</p></content>
+                          </point>
+                          <point eId="pasal_45__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>tanah yang bersangkutan merupakan obyek sengketa di Pengadilan;</p></content>
+                          </point>
+                          <point eId="pasal_45__ayat_1__huruf_f">
+                            <num>f.</num>
+                            <content><p>Perbuatan hukum yang dibuktikan dengan akta PPAT batal atau dibatalkan oleh putusan pengadilan yang telah memperoleh kekuatan hukum tetap; atau</p></content>
+                          </point>
+                          <point eId="pasal_45__ayat_1__huruf_g">
+                            <num>g.</num>
+                            <content><p>perbuatan hukum sebagaimana dimaksud dalam Pasal 37 ayat(1) dibatalkan oleh para pihak sebelum didaftar oleh Kantor Pertanahan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_45__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Penolakan Kepala Kantor Pertanahan dilakukan secara tertulis, dengan menyebut alasan-alasan penolakan itu.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_45__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Surat penolakan disampaikan kepada yang berkepentingan, disertai pengambalan berkas permohonannya, dengan salinan kepada PPAT atau Kepala Kantor Lelang yang bersangkutan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_kedua__paragraf_7">
+                <num>7</num>
+                <heading>Lain-lain</heading>
+                  <article eId="pasal_46">
+                    <num>46</num>
+                    <content><p>Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan pendaftaran peralihan dan pembebanan hak atas tanah dan hak milik atas satuan rumah susun ditetapkan oleh Menteri.</p></content>
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pendaftaran Perubahan Data Pendaftaran Tanah Lainnya</heading>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Perpanjangan Jangka Waktu Hak Atas Tanah</heading>
+                  <article eId="pasal_47">
+                    <num>47</num>
+                    <content><p>Pendaftaran perpanjangan jangka waktu hak atas tanah dilakukan dengan mencatatnya pada buku tanah dan sertifikat hak yang bersangkutan berdasarkan keputusan Pejabat yang berwenang yang memberikan perpanjangan jangka waktu hak yang bersangkutan.</p></content>
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Pemecahan, Pemisahan, Dan Penggabungan Bidang Tanah</heading>
+                  <article eId="pasal_48">
+                    <num>48</num>
+                      <paragraph eId="pasal_48__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Atas permintaan pemegang hak yang bersangkutan, satu bidang tanah yang sudah didaftar dapat dipecah secara sempurna menjadi beberapa bagian, yang masing-masing merupakan satuan bidang baru dengan status hukum yang sama dengan bidang tanah semula.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_48__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam hal sebagaimana dimaksud pada ayat(1), untuk tiap bidang dibuatkan surat ukur, buku tanah dan sertifikat untuk menggantikan surat ukur, buku tanah dan sertifikat asalnya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_48__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Jika hak atas tanah yang bersankutan dibebani hak tanggungan, dan atau beban-beban lain yang terdaftar, pemecahan sebagaimana dimaksud pada ayat(1) baru boleh dilaksanakan setelah diperoleh persetujuan tertulis dari pemeang hak tanggungan atau pihak lain yang berwenang menyetujui penghapusan beban yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_48__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Dalam pelaksanaan pemecahan sebagaimana dimaksud pada ayat(1) sepanjang mengenai tanah pertanian, wajib memperhatikan ketentuan mengenai batas minimal sesuai dengan peraturan perundang-undangan yang berlaku.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_49">
+                    <num>49</num>
+                      <paragraph eId="pasal_49__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Atas permintaan hak yang bersangkutan, dari satu bidang tanah yang sudah didaftar dapat dipisahkan sebagian atau beberapa bagian, yang selanjutnya merupakan satuan bidang baru dengan status hukum yang sama dengan bidang tanah semula.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_49__ayat_2">
+                        <num>(2)</num>
+                        <content><p>dalam hal sebagaimana dimaksud pada ayat(1) untuk satuan bidang baru yang dipisahkan dibuatkan surat ukur, buku tanah dan sertifikat sebagai satuan bidang tanah baru dan peta pendaftaran, daftar tanah, surat ukur, buku tanah dan sertifikat bidang tanah semula dibubuhkan catatan mengenai telah diadakannya pemisahan tersebut.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_49__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Terhadap pemisahan sebagaimana dimaksud pada ayat (1) berlaku ketentuan sebagaimana dimaksud dalam Pasal 48 ayat (3) dan ayat (4).</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_50">
+                    <num>50</num>
+                      <paragraph eId="pasal_50__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Atas permintaan pemegang hak yang bersangkutan, dua bidang tanah atau lebih yang sudah didaftar dan letaknya berbatasan yang semuanya atas nama pemilik yang sama dapat digabung menjadi satu satuan bidang baru, jika semuanya dipunyai dengan hak yang sama dan bersisa jangka waktu yang sama.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_50__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam hal sebagaimana dimaksud pada ayat (1) untuk satuan bidang yang baru tersebut dibuatkan surat ukur, buku tanah dan sertifikat dengan menghapus surat ukur, buku tanah dan sertifikat masing-masing.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_50__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Terhadap penggabungan sebagaimana dimaksud pada ayat (1) berlaku ketentuan sebagaimana dimaksud dalam Pasal 48 ayat(3).</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_3">
+                <num>3</num>
+                <heading>Pembagian Hak Bersama</heading>
+                  <article eId="pasal_51">
+                    <num>51</num>
+                      <paragraph eId="pasal_51__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pembagian hak bersama atas tanah atau milik atas satuan rumah susun menjadi hak masing-masing pemegang hak bersama didaftar berdasarkan akta yang dibuat PPAT yang berwenang menurut peraturan yang berlaku yang membuktikan kesepakatan antara para pemegang hak bersama mengenai pembagian hak bersama tersebut.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_51__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan sebagaimana dimaksud dalam Pasal 38, Pasal 39, dan Pasal 40 berlaku juga untuk pembuatan akta PPAT yang dimaksud pada ayat(1).</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_4">
+                <num>4</num>
+                <heading>Hapusnya Hak Atas Tanah Dan Hak Milik Atas Satuan Rumah Susun</heading>
+                  <article eId="pasal_52">
+                    <num>52</num>
+                      <paragraph eId="pasal_52__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Pendaftaran hapusnya suatu hak atas tanah, hak pengelolaan dan hak milik atas satuan rumah susun dilakukan oleh Kepala Kantor Pertanahan dengan membubuhkan catatan pada buku tanah dan surat ukur serta memusnahkan sertifikat hak yang bersangkutan, berdasarkan:</p></intro>
+                          <point eId="pasal_52__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>data dalam buku tanah yang disimpan di Kantor Pertanahan, jika mengenai hak-hak yang dibatasi masa berlakunya;</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>salinan surat keputusan Pejabat yang berwenang, bahwa hak yang bersangkutan telah dibatalkan atau dicabut;</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>akta yang menyatakan bahwa hak yang bersangkutan telah dilepaskan oleh pemegang haknya.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_52__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam hal sertifikat atas tanah yang hapus tidak diserahkan kepada Kepala Kantor Pertanahan, hal tersebut dicatat pada buku tanah dan surat ukur yang bersangkutan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_5">
+                <num>5</num>
+                <heading>Peralihan Dan Hapusnya Hak Tanggungan</heading>
+                  <article eId="pasal_53">
+                    <num>53</num>
+                    <content><p>Pendaftaran peralihan hak tanggungan dilakukan dengan mencatatnya pada buku tanah serta sertifikat hak tanggungan yang bersangkutan dan pada buku tanah serta sertifikat yang dibebani berdasarkan surat tanda bukti beralihnya piutang yang dijamin karena cessie, subrogasi, pewarisan atau penggabungan serta peleburan perseroan.</p></content>
+                  </article>
+                  <article eId="pasal_54">
+                    <num>54</num>
+                      <paragraph eId="pasal_54__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pendaftaran hapusnya hak tanggungan dilakukan sesuai ketentuan dalam Undang-undang Nomor 4 Tahun 1996 tentang Hak Tanggungan Atas Tanah Beserta Benda-benda Yang Berkaitan dengan Tanah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_54__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam hal hak yang dibebani hak tanggungan telah dilelang dalam rangka pelunasan utang, maka surat pernyataan dari kreditor bahwa pihaknya melepaskan hak tanggungan atas hak yang dilelang tersebut untuk jumlah yang melebihi hasil beserta kutipan risalah lelang dapat dijadikan dasar untuk pendaftaran hapusnya hak tanggungan yang bersangkutan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_6">
+                <num>6</num>
+                <heading>Perubahan Data Pendaftaran Tanah Berdasarkan Putusan atau Penetapan Pengadilan</heading>
+                  <article eId="pasal_55">
+                    <num>55</num>
+                      <paragraph eId="pasal_55__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Panitera Pengadilan wajib memberitahukan kepada Kepala Kantor Pertanahan mengenai isi semua putusan Pengadilan yang telah memperoleh kekuatan hukum tetap dan penetapan Ketua Pengadilan yang mengakibatkan terjadinya perubahan pada data mengenai bidang tanah yang sudah didaftar atau satuan rumah susun untuk dicatat pada buku tanah yang bersangkutan dan sedapat mungkin pada sertifikatnya dan daftar-daftar lainnya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_55__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pencatatan sebagaimana dimaksud pada ayat(1) dapat dilakukan juga atas permintaan pihak yang berkepentingan, berdasarkan salinan resmi putusan Pengadilan yang telah memperoleh kekuatan hukum tetap atau salinan penetapan Ketua Pengadilan yang bersangkutan yang diserahkan olehnya kepada Kepala Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_55__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pencatatan hapusnya hak atas tanah, hak pengelolaan dan hak milik atas satuan rumah susun berdasarkan putusan Pengadilan dilakukan setelah diperoleh surat keputusan mengenai hapusnya hak yang bersangkutan dari Menteri atau Pejabat yang ditunjuknya sebagaimana dimaksud dalam Pasal 52 ayat(1).</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_5__bagian_ketiga__paragraf_7">
+                <num>7</num>
+                <heading>Perubahan nama</heading>
+                  <article eId="pasal_56">
+                    <num>56</num>
+                    <content><p>Pendaftaran perubahan data pendaftaran tanah sebagai akibat pemegang hak yang ganti nama dilakukan dengan mencatatnya di dalam buku tanah dan sertifikat hak atas tanah atau hak milik atas satuan rumah susun yang bersangkutan berdasarkan bukti mengenai ganti nama pemegang hak tersebut sesuai dengan ketentuan yang berlaku.</p></content>
+                  </article>
+
+              </subpart>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PENERBITAN SERTIFIKAT PENGGANTI</heading>
+          <article eId="pasal_57">
+            <num>57</num>
+              <paragraph eId="pasal_57__ayat_1">
+                <num>(1)</num>
+                <content><p>Atas permohonan pemegang hak diterbitkan sertifikat baru sebagai pengganti sertifikat yang rusak, hilang, masih menggunakan blanko sertifikat yang tidak digunakan lagi, atau yang tidak diserahkan kepada pembeli lelang dalam suatu lelang eksekusi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_2">
+                <num>(2)</num>
+                <content><p>Permohonan sertifikat pengganti sebagaimana dimaksud pada ayat(1) hanya dapat diajukan oleh pihak yang namanya tercantum sebagai pemegang hak dalam buku tanah yang bersangkutan atau pihak lain yang merupakan penerima hak berdasarkan akta PPAT atau kutipan risalah lelang sebagaimana dimaksud dalam Pasal 37 dan Pasal 41, atau akta sebagaimana dimaksud Pasal 43 ayat (1), atau surat sebagaimana dimaksud Pasal 53, atau kuasanya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal pemegang hak atau penerima hak sebagaimana dimaksud pada ayat(2) sudah meninggal dunia, permohonan sertifikat pengganti dapat diajukan oleh ahli warisnya dengan menyerahkan surat tanda bukti sebagai ahli waris.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_4">
+                <num>(4)</num>
+                <content><p>Penggantian sertifikat sebagaimana dimaksud pada ayat (1) dicatat pada buku tanah yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+            <content><p>Dalam hal penggantian sertifikat karena rusak atau pembaharuan blanko sertifikat, sertifikat yang lama ditahan dan dimusanahkan.</p></content>
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+              <paragraph eId="pasal_59__ayat_1">
+                <num>(1)</num>
+                <content><p>Permohonan penggantian sertifikat yang hilang harus disertai pernyataan di bawah sumpah dari yang bersangkutan di hadapan Kepala Kantor Pertanahan atau Pejabat yang ditunjuk mengenai hilangnya sertifikat hak yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_2">
+                <num>(2)</num>
+                <content><p>Penerbitan sertifikat pengganti sebagaimana dimaksud pada ayat(1) didahului dengan pengumuman 1(satu) kali dalam salah satu surat kabar harian setempat atas biaya pemohon.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika dalam jangka waktu 30 (tiga puluh) hari dihitung sejak hari pengumuman sebagaimana dimaksud pada ayat(2) tidak ada yang mengajukan keberatan mengenai akan diterbitkannya sertifikat pengganti tersebut atau ada yang mengajukan keberatan akan tetapi menurut pertimbangan Kepala Kantor Pertanahan keberatan tersebut tidak beralasan, diterbitkan sertifikat baru.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_4">
+                <num>(4)</num>
+                <content><p>Jika keberatan yang diajukan dianggap beralasan oleh Kepala Kantor Pertanahan, maka ia menolak penerbitkan sertifikat pengganti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_5">
+                <num>(5)</num>
+                <content><p>Mengenai dilakukannya pengumuman dan penerbitan serta penolakan penerbitan sertifikat baru sebagaimana dimaksud pada ayat(2), ayat(3) dan ayat(4) dibuatkan berita acara oleh Kepala Kantor Pertanahan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_6">
+                <num>(6)</num>
+                <content><p>Sertifikat pengganti diserahkan kepada pihak yang memohon diterbitkannya sertifikat tersebut atau orang lain yang diberi kuasa untuk menerimanya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_7">
+                <num>(7)</num>
+                <content><p>Untuk daerah-daerah tertentu Menteri dapat menentukan cara dan tempat pengumuman yang lain daripada ditentukan pada ayat(2).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_60">
+            <num>60</num>
+              <paragraph eId="pasal_60__ayat_1">
+                <num>(1)</num>
+                <content><p>Penggantian sertifikat hak atas tanah atau hak milik atas satuan rumah susun yang tidak diserahkan kepada pembeli lelang dalam lelang eksekusi didasarkan atas surat keterangan dari Kepala Kantor Pertanahan yang bersangkutan yang memuat alasan tidak dapat diserahkannya sertifikat tersebut kepada pemenang lelang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_2">
+                <num>(2)</num>
+                <content><p>Kepala Kantor Pertanahan mengumumkan telah diterbitkannya sertifikat pengganti untuk hak milik atas tanah atau hak milik atas satuan rumah susun sebagaimana dimaksud pada ayat (1) dan tidak berlakunya lagi sertifikat yang lama dalam salah satu surat kabar harian setempat atas biaya pemohon.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>BIAYA PENDAFTARAN TANAH</heading>
+          <article eId="pasal_61">
+            <num>61</num>
+              <paragraph eId="pasal_61__ayat_1">
+                <num>(1)</num>
+                <content><p>Besarnya dan cara pembayaran biaya-biaya dalam rangka pelaksanaan kegiatan pendaftaran tanah diatur dengan Peraturan Pemerintah tersendiri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_61__ayat_2">
+                <num>(2)</num>
+                <content><p>Atas permohonan yang bersangkutan, Menteri atau pejabat yang ditunjuk dapat membebaskan pemohon dari sebagian atau seluruh biaya sebagaimana dimaksud pada ayat (1), jika pemohon dapat membuktikan tidak mampu membayar biaya tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_61__ayat_3">
+                <num>(3)</num>
+                <content><p>Untuk pendaftaran peralihan hak karena pewarisan yang diajukan dalam waktu 6 (enam) bulan sejak tanggal meninggalnya pewaris, tidak dipungut biaya pendaftaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_61__ayat_4">
+                <num>(4)</num>
+                <content><p>Tata cara untuk memperoleh pembebasan atas biaya pendaftaran tanah diatur oleh Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>SANKSI</heading>
+          <article eId="pasal_62">
+            <num>62</num>
+            <content><p>PPAT yang dalam melaksanakan tugasnya mengabaikan ketenttuan-ketentuan sebagaimana dimaksud dalam Pasal 38, Pasal 39 dan Pasal 40 serta ketentuan dan petunjuk yang diberikan oleh Menteri atau Pejabat yang ditunjuk dikenakan tindakan administratif berupa teguran tertulis sampai pemberhentian dari jabatannya sebagai PPAT, dengan tidak mengurangi kemungkinan dituntutt ganti kerugian oleh pihak-pihak yang menderita kerugian yang diakibatkan oleh diabaikannya ketentuan-ketentuan tersebut.</p></content>
+          </article>
+          <article eId="pasal_63">
+            <num>63</num>
+            <content><p>Kepala Kantor Pertanahan yang dalam melaksanakan tugasnya mengabaikan ketentuan dalam Peraturan Pemerintah ini dan ketentuan dalam peraturan pelaksanaannya serta ketentuan-ketentuan lain dalam pelaksanaan tugas kegiatan pendaftaran tanah dikenakan sanksi administratif sesuai peraturan perundang-undangan yang berlaku.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_64">
+            <num>64</num>
+              <paragraph eId="pasal_64__ayat_1">
+                <num>(1)</num>
+                <content><p>Dengan berlakunya Peraturan Pemerintah ini, semua peraturan perundang-undangan sebagai pelaksanaan Peraturan Pemerintah Nomor 10 Tahun 61 yang telah ada masih tetap berlaku, sepanjang tidak bertentangan atau diubah atau diganti berdasarkan Peraturan Pemerintah ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_64__ayat_2">
+                <num>(2)</num>
+                <content><p>Hak-hak yang didaftar serta hal-hal lain yang dihasilkan dalam kegiatan pendaftaran tanah berdasarkan ketentuan Peraturan Pemerintah Nomor 10 Tahun 1961 tetap sah sebagai hasil pendaftaran tanah menurut Peraturan Pemerintah ini.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_65">
+            <num>65</num>
+            <content><p>Dengan berlakunya Peraturan Pemerintah ini maka Peraturan Pemerintah Nomor 10 Tahun 1961 tentang Pendaftaran Tanah (Lembaran Negara Tahun 1961 Nomor 28, Tambahan Lembaran Negara Nomor 2171) dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_66">
+            <num>66</num>
+            <content><p>Peraturan Pemerintah ini mulai berlaku 3 (tiga) bulan sejak tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

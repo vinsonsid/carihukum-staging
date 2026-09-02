@@ -655,6 +655,9 @@ function render() {
         <tr><td>Berkas terarsip</td><td><span class="mono">${esc(b.berkas || "-")}</span>${b.sha256 ? ` · sha256 <span class="mono" title="${b.sha256}">${b.sha256.slice(0, 16)}…</span>` : ""}</td></tr>
         <tr><td>Tanda tangan elektronik</td><td>${b.tte === "tidak-ada" ? "tidak ada pada salinan ini (target berikutnya: salinan ber-TTE dari peraturan.go.id)" : esc(b.tte)}</td></tr>
         ${b.url_asal ? `<tr><td>Sumber asal</td><td><a href="${b.url_asal}" rel="noopener">${esc(b.url_asal)}</a>${b.diakses ? ` <span class="redup">(diakses ${b.diakses})</span>` : ""}</td></tr>` : ""}
+        <tr><td>Format terbuka</td><td>${DATA._jalur && DATA._jalur[state.work]
+          ? `<a href="/api${DATA._jalur[state.work].slice(0, -1)}.json">API JSON</a> · <a href="/akn${DATA._jalur[state.work].slice(0, -1)}.xml">Akoma Ntoso XML</a> <span class="redup">(LegalDocML OASIS, tervalidasi XSD)</span>`
+          : "-"}</td></tr>
       </table></details>`;
   }
   // panel jejaring Stufenbau: dasar hukum ↑, yang berdasar pada karya ini ↓, relasi tercatat

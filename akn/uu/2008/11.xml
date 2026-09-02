@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2008/11/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2008/11"/>
+          <FRBRdate date="2008-04-21" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2008/11/ind@2026-01-02/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2008/11/ind@2026-01-02"/>
+          <FRBRdate date="2026-01-02" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2008/11/ind@2026-01-02/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2008/11/ind@2026-01-02.akn"/>
+          <FRBRdate date="2026-09-02" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Informasi dan Transaksi Elektronik</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic maill, telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya. 2, Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/ atau menyebarkan informasi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui Komputer atau Sistem Elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Penyelenggaraan Sistem Elektronik adalah pemanfaatan Sistem Elektronik oleh penyelenggara negara, Orang, Badan Usaha, dan/ atau masyarakat. 6a. Penyelenggara Sistem Elektronik adalah setiap Orang, penyelenggara negara, Badan Usaha, dan masyarakat yang menyediakan, mengelola, dan/ atau mengoperasikan Sistem Elektronik, baik secara sendiri-sendiri maupun bersama-sama kepada pengguna Sistem Elektronik untuk keperluan dirinya dan/atau keperluan pihak lain.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Jaringan Sistem Elektronik adalah terhubungnya dua Sistem Elektronik atau lebih, yang bersifat tertutup ataupun terbuka.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Agen Elektronik adalah perangkat dari suatu Sistem Elektronik yang dibuat untuk melakukan suatu tindakan terhadap suatu Informasi Elektronik tertentu secara otomatis yang diselenggarakan oleh Orang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam Transaksi Elektronik yang dikeluarkan oleh Penyelenggara Sertifikasi Elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Lembaga Sertifikasi Keandalan adalah lembaga independen yang dibentuk oleh profesional yang diakui, disahkan, dan diawasi oleh Pemerintah dengan kewenangan mengaudit dan mengeluarkan sertifikat keandalan dalam Transaksi Elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Penanda Tangan adalah subjek hukum yang terasosiasikan atau terkait dengan Tanda Tangan Elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Komputer adalah alat untuk memproses data elektronik, magnetik, optik, atau sistem yang melaksanakan fungsi logika, aritmatika, dan penyimpanan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Akses adalah kegiatan melakukan interaksi dengan Sistem Elektronik yang berdiri sendiri atau dalam jaringan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Kode Akses adalah angka, huruf, simbol, karakter lainnya atau kombinasi di antaranya, yang merupakan kunci untuk dapat mengakses Komputer dan/ atau Sistem Elektronik lainnya. t7. Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Pengirim adalah subjek hukum yang mengirimkan Informasi Elektronik dan/ atau Dokumen Elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Penerima adalah subjek hukum yang menerima Informasi Elektronik dan/atau Dokumen Elektronik dari Pengirim.</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Nama Domain adalah alamat internet penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat, yang dapat digunakan dalam berkomunikasi melalui internet, yang berupa kode atau susunan karakter yang bersifat unik untuk menunjukkan lokasi tertentu dalam internet.</p></content>
+              </point>
+              <point eId="pasal_1__angka_21">
+                <num>21.</num>
+                <content><p>Orang adalah orang perseorangan, baik warga negara Indonesia, warga negara asing, maupun badan hukum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_22">
+                <num>22.</num>
+                <content><p>Badan Usaha adalah perusahaan perseorangan atau perusahaan persekutuan, baik yang berbadan hukum maupun yang tidak berbadan hukum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_23">
+                <num>23.</num>
+                <content><p>Pemerintah adalah Menteri atau pejabat lainnya yang ditunjuk oleh Presiden.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Undang-Undang ini berlaku untuk setiap Orang yang melakukan perbuatan hukum sebagaimana diatur dalam Undang-Undang ini, baik yang berada di wilayah hukum Indonesia maupun di luar wilayah hukum Indonesia, yang memiliki akibat hukum di wilayah hukum Indonesia dan/atau di luar wilayah hukum Indonesia dan merugikan kepentingan Indonesia.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS DAN TUJUAN</heading>
+          <article eId="pasal_3">
+            <num>3</num>
+            <content><p>Pemanfaatan Teknologi Informasi dan Transaksi Elektronik dilaksanakan berdasarkan asas kepastian hukum, manfaat, kehati-hatian, iktikad baik, dan kebebasan memilih teknologi atau netral teknologi.</p></content>
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <intro><p>Pemanfaatan Teknologi Informasi dan Transaksi Elektronik dilaksanakan dengan tujuan untuk:</p></intro>
+              <point eId="pasal_4__huruf_a">
+                <num>a.</num>
+                <content><p>mencerdaskan kehidupan bangsa sebagai bagian dari masyarakat informasi dunia;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_b">
+                <num>b.</num>
+                <content><p>mengembangkan perdagangan dan perekonomian nasional dalam rangka meningkatkan kesejahteraan masyarakat;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_c">
+                <num>c.</num>
+                <content><p>meningkatkan efektivitas dan efisiensi pelayanan publik;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_d">
+                <num>d.</num>
+                <content><p>membuka kesempatan seluas-luasnya kepada setiap Orang untuk memajukan pemikiran dan kemampuan di bidang penggunaan dan pemanfaatan Teknologi Informasi seoptimal mungkin dan bertanggung jawab; dan</p></content>
+              </point>
+              <point eId="pasal_4__huruf_e">
+                <num>e.</num>
+                <content><p>memberikan rasa aman, keadilan, dan kepastian hukum bagi pengguna dan penyelenggara Teknologi Informasi.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>INFORMASI, DOKUMEN, DAN TANDA TANGAN ELEKTRONIK</heading>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Informasi Elektronik dan/ atau Dokumen Elektronik dan/ atau hasil cetaknya merupakan alat bukti hukum yang sah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Informasi Elektronik dan/ atau Dokumen Elektronik dan/ atau hasil cetaknya sebagaimana dimaksud pada ayat (1) merupakan perluasan dari alat bukti yang sah sesuai dengan Hukum Acara yang berlaku di Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_3">
+                <num>(3)</num>
+                <content><p>Informasi Elektronik dan/ atau Dokumen Elektronik dinyatakan sah apabila menggunakan Sistem Elektronik sesuai dengan ketentuan yang diatur dalam Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai Informasi Elektronik dan/atau Dokumen Elektronik sebagaimana dimaksud pada ayat (1) tidak berlaku dalam hal diatur lain dalam Undang-Undang.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+            <content><p>Dalam hal terdapat ketentuan lain selain yang diatur dalam Pasal 5 ayat (4) yang mensyaratkan bahwa suatu informasi harus berbentuk tertulis atau asli, Informasi Elektronik dan/atau Dokumen Elektronik dianggap sah sepanjang informasi yang tercantum di dalamnya dapat diakses, ditampilkan, dijamin keutuhannya, dan dapat dipertanggungjawabkan sehingga menerangkan suatu keadaan.</p></content>
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+            <content><p>Setiap Orang yang menyatakan hak, memperkuat hak yang telah ada, atau menolak hak Orang lain berdasarkan adanya Informasi Elektronik dan/atau Dokumen Elektronik harus memastikan bahwa Informasi Elektronik dan/atau Dokumen Elektronik yang ada padanya berasal dari Sistem Elektronik yang memenuhi syarat berdasarkan Peraturan Perundang- undangan.</p></content>
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+              <paragraph eId="pasal_8__ayat_1">
+                <num>(1)</num>
+                <content><p>Kecuali diperjanjikan lain, waktu pengiriman suatu Informasi Elektronik dan/atau Dokumen Elektronik ditentukan pada saat Informasi Elektronik dan/atau Dokumen Elektronik telah dikirim dengan alamat yang benar oleh Pengirim ke suatu Sistem Elektronik yang ditunjuk atau dipergunakan Penerima dan telah memasuki Sistem Elektronik yang berada di luar kendali Pengirim.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2">
+                <num>(2)</num>
+                <content><p>Kecuali diperjanjikan lain, waktu penerimaan suatu Informasi Elektronik dan/atau Dokumen Elektronik ditentukan pada saat Informasi Elektronik dan/atau Dokumen Elektronik memasuki Sistem Elektronik di bawah kendali Penerima yang berhak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal Penerima telah menunjuk suatu Sistem Elektronik tertentu untuk menerima Informasi Elektronik, penerimaan terjadi pada saat Informasi Elektronik dan/atau Dokumen Elektronik memasuki Sistem Elektronik yang ditunjuk.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_4">
+                <num>(4)</num>
+                <intro><p>Dalam hal terdapat dua atau lebih sistem informasi yang digunakan dalam pengiriman atau penerimaan Informasi Elektronik dan/atau Dokumen Elektronik, maka:</p></intro>
+                  <point eId="pasal_8__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>waktu pengiriman adalah ketika Informasi Elektronik dan/atau Dokumen Elektronik memasuki sistem informasi pertama yang berada di luar kendali Pengirim;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>waktu penerimaan adalah ketika Informasi Elektronik dan/atau Dokumen Elektronik memasuki sistem informasi terakhir yang berada di bawah kendali Penerima.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+            <content><p>Pelaku usaha yang menawarkan produk melalui Sistem Elektronik harus menyediakan informasi yang lengkap dan benar berkaitan dengan syarat kontrak, produsen, dan produk yang ditawarkan.</p></content>
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap pelaku usaha yang menyelenggarakan Transaksi Elektronik dapat disertifikasi oleh Lembaga Sertifikasi Keandalan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai pembentukan Lembaga Sertifikasi Keandalan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <intro><p>Tanda Tangan Elektronik memiliki kekuatan hukum dan akibat hukum yang sah selama memenuhi persyaratan sebagai berikut:</p></intro>
+                  <point eId="pasal_11__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>data pembuatan Tanda Tangan Elektronik terkait hanya kepada Penanda Tangan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>data pembuatan Tanda Tangan Elektronik pada saat proses penandatanganan elektronik hanya berada dalam kuasa Penanda Tangan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>segala perubahan terhadap Tanda Tangan Elektronik yang terjadi setelah waktu penandatanganan dapat diketahui;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>segala perubahan terhadap Informasi Elektronik yang terkait dengan Tanda Tangan Elektronik tersebut setelah waktu penandatanganan dapat diketahui;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>terdapat cara tertentu yang dipakai untuk mengidentifikasi siapa Penandatangannya; dan</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>terdapat cara tertentu untuk menunjukkan bahwa Penanda Tangan telah memberikan persetujuan terhadap Informasi Elektronik yang terkait.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan lebih lanjut tentang Tanda Tangan Elektronik sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang yang terlibat dalam Tanda Tangan Elektronik berkewajiban memberikan pengamanan atas Tanda Tangan Elektronik yang digunakannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pengamanan Tanda Tangan Elektronik sebagaimana dimaksud pada ayat (1) sekurang-kurangnya meliputi:</p></intro>
+                  <point eId="pasal_12__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>sistem tidak dapat diakses oleh Orang lain yang tidak berhak;</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>Penanda Tangan harus menerapkan prinsip kehati- hatian untuk menghindari penggunaan secara tidak sah terhadap data terkait pembuatan Tanda Tangan Elektronik;</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <intro><p>Penanda Tangan harus tanpa menunda-nunda, menggunakan cara yang dianjurkan oleh penyelenggara Tanda Tangan Elektronik ataupun cara lain yang layak dan sepatutnya harus segera memberitahukan kepada seseorang yang oleh Penanda Tangan dianggap memercayai Tanda Tangan Elektronik atau kepada pihak pendukung layanan Tanda Tangan Elektronik jika:</p></intro>
+                      <point eId="pasal_12__ayat_2__huruf_c__angka_1">
+                        <num>1.</num>
+                        <content><p>Penanda Tangan mengetahui bahwa data pembuatan Tanda Tangan Elektronik telah dibobol; atau</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_2__huruf_c__angka_2">
+                        <num>2.</num>
+                        <content><p>keadaan yang diketahui oleh Penanda Tangan dapat menimbulkan risiko yang berarti, kemungkinan akibat bobolnya data pembuatan Tanda Tangan Elektronik; dan</p></content>
+                      </point>
+
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>dalam hal Sertifikat Elektronik digunakan untuk mendukung Tanda Tangan Elektronik, Penanda Tangan harus memastikan kebenaran dan keutuhan semua informasi yang terkait dengan Sertifikat Elektronik tersebut.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap Orang yang melakukan pelanggaran ketentuan sebagaimana dimaksud pada ayat (1), bertanggung jawab atas segala kerugian dan konsekuensi hukum yang timbul.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENYELENGGARAAN SERTIFIKASI ELEKTRONIK DAN SISTEM ELEKTRONIK</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Penyelenggaraan Sertifikasi Elektronik</heading>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Orang berhak menggunakan Jasa Penyelenggara Sertifikasi Elektronik untuk pembuatan Tanda Tangan Elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggara Sertilikasi Elektronik harus memastikan keterkaitan suatu Tanda Tangan Elektronik dengan pemiliknya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penyelenggara Sertifikasi Elektronik yang beroperasi di Indonesia harus berbadan hukum Indonesia dan berdomisili di Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (3) dikecualikan dalam hal penyelenggaraan layanan yang menggunakan Sertifikat Elektronik belum tersedia di Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pengakuan timbal balik (mutual recognition) untuk mengenali Sertifikat Elektronik antarnegara didasarkan pada perjanjian kerja sEuna.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud pada ayat (3), ayat (4), dan ayat (5) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13a">
+                <num>13A</num>
+                  <paragraph eId="pasal_13a__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Penyelenggara Sertifikasi Elektronik dapat menyelenggarakan layanan berupa:</p></intro>
+                      <point eId="pasal_13a__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Tanda Tangan Elektronik;</p></content>
+                      </point>
+                      <point eId="pasal_13a__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>segel elektronik;</p></content>
+                      </point>
+                      <point eId="pasal_13a__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>penanda waktu elektronik;</p></content>
+                      </point>
+                      <point eId="pasal_13a__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>layanan pengiriman elektronik tercatat;</p></content>
+                      </point>
+                      <point eId="pasal_13a__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>autentikasi situs web;</p></content>
+                      </point>
+                      <point eId="pasal_13a__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>preservasi Tanda Tangan Elektronik dan/ atau segel elektronik;</p></content>
+                      </point>
+                      <point eId="pasal_13a__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>identitas digital; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_13a__ayat_1__huruf_h">
+                        <num>h.</num>
+                        <content><p>layanan lain yang menggunakan Sertifikat Elektronik.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_13a__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Ketentuan lebih lanjut mengenai penyelenggaraan layanan sebagaimana dimaksqd pada ayat (1) diatur dalam Peraturan Pemerintah.</p></intro>
+                      <point eId="pasal_13a__ayat_2__angka_4">
+                        <num>4.</num>
+                        <content><p>Penjelasan ayat (1) dan ayat (2) Pasal 15 diubah sebagaimana tercantum dalam penjelasan.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                <intro><p>Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud dalam Pasal 13 ayat (1) sampai dengan ayat (5) harus menyediakan informasi yang akurat, jelas, dan pasti kepada setiap pengguna jasa, yang meliputi:</p></intro>
+                  <point eId="pasal_14__huruf_a">
+                    <num>a.</num>
+                    <content><p>metode yang digunakan untuk mengidentifikasi Penanda Tangan;</p></content>
+                  </point>
+                  <point eId="pasal_14__huruf_b">
+                    <num>b.</num>
+                    <content><p>hal yang dapat digunakan untuk mengetahui data diri pembuat Tanda Tangan Elektronik; dan</p></content>
+                  </point>
+                  <point eId="pasal_14__huruf_c">
+                    <num>c.</num>
+                    <content><p>hal yang dapat digunakan untuk menunjukkan keberlakuan dan keamanan Tanda Tangan Elektronik.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Penyelenggaraan Sistem Elektronik</heading>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Penyelenggara Sistem Elektronik harus menyelenggarakan Sistem Elektronik secara andal dan aman serta bertanggung jawab terhadap beroperasinya Sistem Elektronik sebagaimana mestinya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggara Sistem Elektronik bertanggung jawab terhadap Penyelenggaraan Sistem Elektroniknya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku dalam hal dapat dibuktikan terjadinya keadaan memaksa, kesalahan, dan/atau kelalaian pihak pengguna Sistem Elektronik.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Sepanjang tidak ditentukan lain oleh undang-undang tersendiri, setiap Penyelenggara Sistem Elektronik wajib mengoperasikan Sistem Elektronik yang memenuhi persyaratan minimum sebagai berikut:</p></intro>
+                      <point eId="pasal_16__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>dapat menampilkan kembali Informasi Elektronik dan/atau Dokumen Elektronik secara utuh sesuai dengan masa retensi yang ditetapkan dengan Peraturan Perundang-undangan;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>dapat melindungi ketersediaan, keutuhan, keotentikan, kerahasiaan, dan keteraksesan Informasi Elektronik dalam Penyelenggaraan Sistem Elektronik tersebut;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>dapat beroperasi sesuai dengan prosedur atau petunjuk dalam Penyelenggaraan Sistem Elektronik tersebut;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>dilengkapi dengan prosedur atau petunjuk yang diumumkan dengan bahasa, informasi, atau simbol yang dapat dipahami oleh pihak yang bersangkutan dengan Penyelenggaraan Sistem Elektronik tersebut; dan</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>memiliki mekanisme yang berkelanjutan untuk menjaga kebaruan, kejelasan, dan kebertanggungjawaban prosedur atau petunjuk.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan lebih lanjut tentang Penyelenggaraan Sistem Elektronik sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_16a">
+                <num>16A</num>
+                  <paragraph eId="pasal_16a__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggara Sistem Elektronik wajib memberikan pelindungan bagi anak yang menggunakan atau mengakses Sistem Elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16a__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pelindungan sebagaimana dimaksud pada ayat (1) meliputi pelindungan terhadap hak anak sebagaimana dimaksud dalam peraturan perundang-undangan mengenai penggunaan produk, layanan, dan fitur yang dikembangkan dan diselenggarakan oleh Penyelenggara Sistem Elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16a__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam memberikan produk, layanan, dan fitur bagr anak, Penyelenggara Sistem Elektronik wajib menerapkan teknologi dan langkah teknis operasional untuk memberikan pelindungan sebagaimana dimaksud pada ayat (1) dari tahap pengembangan sampai dengan tahap Penyelenggaraan Sistem Elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16a__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Dalam memberikan pelindungan sebagaimana dimaksud pada ayat (1), Penyelenggara Sistem Elektronik wajib menyediakan :</p></intro>
+                      <point eId="pasal_16a__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>informasi mengenai batasan minimum usia anak yang dapat menggunakan produk atau layanannya;</p></content>
+                      </point>
+                      <point eId="pasal_16a__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>mekanisme verifikasi pengguna anak; dan</p></content>
+                      </point>
+                      <point eId="pasal_16a__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>mekanisme pelaporan penyalahgunaan produk, layanan, dan fitur yang melanggar atau berpotensi melanggar hak anak. ihtrEILtriIi</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16a__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai pelindungan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_16b">
+                <num>16B</num>
+                  <paragraph eId="pasal_16b__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 16A dikenai sanksi administratif.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16b__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Sanksi administratif sebagaimana dimaksud pada ayat (1) dapat berupa:</p></intro>
+                      <point eId="pasal_16b__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>teguran tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_16b__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>dendaadministratif;</p></content>
+                      </point>
+                      <point eId="pasal_16b__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>penghentian sementara; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_16b__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>pemutusan Akses.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16b__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>TRANSAKSI ELEKTRONIK</heading>
+          <article eId="pasal_17">
+            <num>17</num>
+              <paragraph eId="pasal_17__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelenggaraan Transaksi Elektronik dapat dilakukan dalam lingkup publik atau privat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_2">
+                <num>(2)</num>
+                <content><p>Para pihak yang melakukan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) wajib beriktikad baik dalam melakukan interaksi dan/ atau pertukaran Informasi Elektronik dan/ atau Dokumen Elektronik selama transaksi berlangsung. :Ili iirl. IIIilNIinIiiEIA</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_2a">
+                <num>(2a)</num>
+                <content><p>Transaksi Elektronik yang memiliki risiko tinggi bagi para pihak menggunakan Tanda Tangan Elektronik yang diamankan dengan Sertilikat Elektronik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai irenyelenggaraan Transaksi Elektronik sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (2a) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <content><p>Transaksi Elektronik yang dituangkan ke dalam Kontrak Elektronik mengikat para pihak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Para pihak memiliki kewenangan untuk memilih hukum yang berlaku bagi Transaksi Elektronik internasional yang dibuatnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika para pihak tidak melakukan pilihan hukum dalam Transaksi Elektronik internasional, hukum yang berlaku didasarkan pada asas Hukum Perdata Internasional.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_4">
+                <num>(4)</num>
+                <content><p>Para pihak memiliki kewenangan untuk menetapkan forum pengadilan, arbitrase, atau lembaga penyelesaian sengketa alternatif lainnya yang berwenang menangani sengketa yang mungkin timbul dari Transaksi Elektronik internasional yang dibuatnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_5">
+                <num>(5)</num>
+                <content><p>Jika para pihak tidak melakukan pilihan forum sebagaimana dimaksud pada ayat (4), penetapan kewenangan pengadilan, arbitrase, atau lembaga penyelesaian sengketa alternatif lainnya yang berwenang menangani sengketa yang mungkin timbul dari transaksi tersebut, didasarkan pada asas Hukum Perdata Internasional.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_18a">
+            <num>18A</num>
+              <paragraph eId="pasal_18a__ayat_1">
+                <num>(1)</num>
+                <intro><p>Kontrak Elektronik internasional yang menggunakan klausula baku yang dibuat oleh Penyelenggara Sistem Elektronik diatur dengan hukum Indonesia dalam hal:</p></intro>
+                  <point eId="pasal_18a__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pengguna layanan Penyelenggara Sistem Elektronik sebagai salah satu pihak dalam Transaksi Elektronik berasal dari Indonesia dan memberikan persetqjuannya dari atau dalam yurisdiksi Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_18a__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>tempat pelaksanaan kontrak ada di wilayah Indonesia; dan/ atau</p></content>
+                  </point>
+                  <point eId="pasal_18a__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Penyelenggara Sistem Elektronik memiliki tempat usaha atau melakukan kegiatan usaha di wilayah Indonesia.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_18a__ayat_2">
+                <num>(2)</num>
+                <content><p>Kontrak Elektronik sebagaimana dimaksud pada ayat (1) menggunakan bahasa yang sederhana, jelas, dan mudah dipahami, serta menjunjung prinsip iktikad baik dan transparansi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+            <content><p>Para pihak yang melakukan Transaksi Elektronik harus menggunakan Sistem Elektronik yang disepakati.</p></content>
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Kecuali ditentukan lain oleh para pihak, Transaksi Elektronik terjadi pada saat penawaran transaksi yang dikirim Pengirim telah diterima dan disetujui Penerima.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Persetujuan atas penawaran Transaksi Elektronik sebagaimana dimaksud pada ayat (1) harus dilakukan dengan pernyataan penerimaan secara elektronik.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_21">
+            <num>21</num>
+              <paragraph eId="pasal_21__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengirim atau Penerima dapat melakukan Transaksi Elektronik sendiri, melalui pihak yang dikuasakan olehnya, atau melalui Agen Elektronik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pihak yang bertanggung jawab atas segala akibat hukum dalam pelaksanaan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) diatur sebagai berikut:</p></intro>
+                  <point eId="pasal_21__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>jika dilakukan sendiri, segala akibat hukum dalam pelaksanaan Transaksi Elektronik menjadi tanggung jawab para pihak yang bertransaksi;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>jika dilakukan melalui pemberian kuasa, segala akibat hukum dalam pelaksanaan Transaksi Elektronik menjadi tanggung jawab pemberi kuasa; atau</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>jika dilakukan melalui Agen Elektronik, segala akibat hukum dalam pelaksanaan Transaksi Elektronik menjadi tanggung jawab penyelenggara Agen Elektronik.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika kerugian Transaksi Elektronik disebabkan gagal beroperasinya Agen Elektronik akibat tindakan pihak ketiga secara langsung terhadap Sistem Elektronik, segala akibat hukum menjadi tanggung jawab penyelenggara Agen Elektronik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_4">
+                <num>(4)</num>
+                <content><p>Jika kerugian Transaksi Elektronik disebabkan gagal beroperasinya Agen Elektronik akibat kelalaian pihak pengguna jasa layanan, segala akibat hukum menjadi tanggung jawab pengguna jasa layanan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku dalam hal dapat dibuktikan terjadinya keadaan memaksa, kesalahan, dan/atau kelalaian pihak pengguna Sistem Elektronik.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_22">
+            <num>22</num>
+              <paragraph eId="pasal_22__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelenggara Agen Elektronik tertentu harus menyediakan fitur pada Agen Elektronik yang dioperasikannya yang memungkinkan penggunanya melakukan perubahan informasi yang masih dalam proses transaksi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_22__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan lebih lanjut mengenai penyelenggara Agen Elektronik tertentu sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>NAMA DOMAIN, HAK KEKAYAAN INTELEKTUAL, DAN PERLINDUNGAN HAK PRIBADI</heading>
+          <article eId="pasal_23">
+            <num>23</num>
+              <paragraph eId="pasal_23__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat berhak memiliki Nama Domain berdasarkan prinsip pendaftar pertama.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemilikan dan penggunaan Nama Domain sebagaimana dimaksud pada ayat (1) harus didasarkan pada iktikad baik, tidak melanggar prinsip persaingan usaha secara sehat, dan tidak melanggar hak Orang lain.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap penyelenggara negara, Orang, Badan Usaha, atau masyarakat yang dirugikan karena penggunaan Nama Domain secara tanpa hak oleh Orang lain, berhak mengajukan gugatan pembatalan Nama Domain dimaksud.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_24">
+            <num>24</num>
+              <paragraph eId="pasal_24__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengelola Nama Domain adalah Pemerintah dan/atau masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal terjadi perselisihan pengelolaan Nama Domain oleh masyarakat, Pemerintah berhak mengambil alih sementara pengelolaan Nama Domain yang diperselisihkan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_3">
+                <num>(3)</num>
+                <content><p>Pengelola Nama Domain yang berada di luar wilayah Indonesia dan Nama Domain yang diregistrasinya diakui keberadaannya sepanjang tidak bertentangan dengan Peraturan Perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan lebih lanjut mengenai pengelolaan Nama Domain sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_25">
+            <num>25</num>
+            <content><p>Informasi Elektronik dan/atau Dokumen Elektronik yang disusun menjadi karya intelektual, situs internet, dan karya intelektual yang ada di dalamnya dilindungi sebagai Hak Kekayaan Intelektual berdasarkan ketentuan Peraturan Perundang-undangan.</p></content>
+          </article>
+          <article eId="pasal_26">
+            <num>26</num>
+              <paragraph eId="pasal_26__ayat_1">
+                <num>(1)</num>
+                <content><p>Kecuali ditentukan lain oleh peraturan perundang- undangan, penggunaan setiap informasi melalui media elektronik yang menyangkut data pribadi seseorang harus dilakukan atas persetujuan Orang yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap Orang yang dilanggar haknya sebagaimana dimaksud pada ayat (1) dapat mengajukan gugatan atas kerugian yang ditimbulkan berdasarkan Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap Penyelenggara Sistem Elektronik wajib menghapus Informasi Elektronik dan/atau Dokumen Elektronik yang tidak relevan yang berada di bawah kendalinya atas permintaan Orang yang bersangkutan berdasarkan penetapan pengadilan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_4">
+                <num>(4)</num>
+                <content><p>Setiap Penyelenggara Sistem Elektronik wajib menyediakan mekanisme penghapusan Informasi Elektronik dan/ atau Dokumen Elektronik yang sudah tidak relevan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan mengenai tata. cara penghapusan Informasi Elektronik dan/atau Dokumen Elektronik sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur dalam peraturan pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PERBUATAN YANG DILARANG</heading>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap Orang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_27a">
+            <num>27A</num>
+            <content><p>Setiap Orang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum dalam bentuk Informasi Elektronik dan/atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik.</p></content>
+          </article>
+          <article eId="pasal_27b">
+            <num>27B</num>
+              <paragraph eId="pasal_27b__ayat_1">
+                <num>(1)</num>
+                <intro><p>Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, memaksa orang dengan ancaman kekerasan untuk:</p></intro>
+                  <point eId="pasal_27b__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>memberikan suatu barang, yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau</p></content>
+                  </point>
+                  <point eId="pasal_27b__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberi utang, membuat pengakuan utang, atau menghapuskan piutang.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_27b__ayat_2">
+                <num>(2)</num>
+                <intro><p>Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, dengan ancaman pencemaran atau dengan ancaman akan membuka rahasia, memaksa orang supaya:</p></intro>
+                  <point eId="pasal_27b__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>memberikan suatu barang yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau</p></content>
+                  </point>
+                  <point eId="pasal_27b__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberi utang, membuat pengakuan utang, atau menghapuskan piutang.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_28">
+            <num>28</num>
+              <paragraph eId="pasal_28__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik yang berisi pemberitahuan bohong atau informasi menyesatkan yang mengakibatkan kerugian materiel bagi konsumen dalam Transaksi Elektronik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap Orang dengan sengaja menyebarkan Informasi Elektronik dan/atau Dokumen Elektronik yang diketahuinya memuat pemberitahuan bohong yang menimbulkan kerusuhan di masyarakat.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_29">
+            <num>29</num>
+            <content><p>Setiap Orang dengan sengaja dan tanpa hak mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik secara langsung kepada korban yang berisi ancaman kekerasan dan/atau menakut-nakuti.</p></content>
+          </article>
+          <article eId="pasal_31">
+            <num>31</num>
+            <intro><p>Pasal 3 1</p></intro>
+              <paragraph eId="pasal_31__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak berlaku terhadap intersepsi atau penyadapan yang dilakukan dalam rangka penegakan hukum atas permintaan kepolisian, kejaksaan, atau institusi lainnya yang kewenangannya ditetapkan berdasarkan undang- undang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara intersepsi sebagaimana dimaksud pada ayat (3) diatur dengan undang-undang.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_32">
+            <num>32</num>
+              <paragraph eId="pasal_32__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum dengan cara apa pun mengubah, menambah, mengurangi, melakukan transmisi, merusak, menghilangkan, memindahkan, menyembunyikan suatu Informasi Elektronik dan/atau Dokumen Elektronik milik Orang lain atau milik publik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_32__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum dengan cara apa pun memindahkan atau mentransfer Informasi Elektronik dan/atau Dokumen Elektronik kepada Sistem Elektronik Orang lain yang tidak berhak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_32__ayat_3">
+                <num>(3)</num>
+                <content><p>Terhadap perbuatan sebagaimana dimaksud pada ayat (1) yang mengakibatkan terbukanya suatu Informasi Elektronik dan/atau Dokumen Elektronik yang bersifat rahasia menjadi dapat diakses oleh publik dengan keutuhan data yang tidak sebagaimana mestinya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_33">
+            <num>33</num>
+            <content><p>Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan tindakan apa pun yang berakibat terganggunya Sistem Elektronik dan/atau mengakibatkan Sistem Elektronik menjadi tidak bekerja sebagaimana mestinya.</p></content>
+          </article>
+          <article eId="pasal_34">
+            <num>34</num>
+              <paragraph eId="pasal_34__ayat_1">
+                <num>(1)</num>
+                <intro><p>Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum memproduksi, menjual, mengadakan untuk digunakan, mengimpor, mendistribusikan, menyediakan, atau memiliki:</p></intro>
+                  <point eId="pasal_34__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>perangkat keras atau perangkat lunak Komputer yang dirancang atau secara khusus dikembangkan untuk memfasilitasi perbuatan sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 33;</p></content>
+                  </point>
+                  <point eId="pasal_34__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>sandi lewat Komputer, Kode Akses, atau hal yang sejenis dengan itu yang ditujukan agar Sistem Elektronik menjadi dapat diakses dengan tujuan memfasilitasi perbuatan sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 33.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_2">
+                <num>(2)</num>
+                <content><p>Tindakan sebagaimana dimaksud pada ayat (1) bukan tindak pidana jika ditujukan untuk melakukan kegiatan penelitian, pengujian Sistem Elektronik, untuk perlindungan Sistem Elektronik itu sendiri secara sah dan tidak melawan hukum.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_35">
+            <num>35</num>
+            <content><p>Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan manipulasi, penciptaan, perubahan, penghilangan, pengrusakan Informasi Elektronik dan/atau Dokumen Elektronik dengan tujuan agar Informasi Elektronik dan/atau Dokumen Elektronik tersebut dianggap seolah-olah data yang otentik.</p></content>
+          </article>
+          <article eId="pasal_37">
+            <num>37</num>
+            <content><p>Setiap Orang dengan sengaja melakukan perbuatan yang dilarang sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 36 di luar wilayah Indonesia terhadap Sistem Elektronik yang berada di wilayah yurisdiksi Indonesia.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PENYELESAIAN SENGKETA</heading>
+          <article eId="pasal_38">
+            <num>38</num>
+              <paragraph eId="pasal_38__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang dapat mengajukan gugatan terhadap pihak yang menyelenggarakan Sistem Elektronik dan/atau menggunakan Teknologi Informasi yang menimbulkan kerugian.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_2">
+                <num>(2)</num>
+                <content><p>Masyarakat dapat mengajukan gugatan secara perwakilan terhadap pihak yang menyelenggarakan Sistem Elektronik dan/atau menggunakan Teknologi Informasi yang berakibat merugikan masyarakat, sesuai dengan ketentuan Peraturan Perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_39">
+            <num>39</num>
+              <paragraph eId="pasal_39__ayat_1">
+                <num>(1)</num>
+                <content><p>Gugatan perdata dilakukan sesuai dengan ketentuan Peraturan Perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_2">
+                <num>(2)</num>
+                <content><p>Selain penyelesaian gugatan perdata sebagaimana dimaksud pada ayat (1), para pihak dapat menyelesaikan sengketa melalui arbitrase, atau lembaga penyelesaian sengketa alternatif lainnya sesuai dengan ketentuan Peraturan Perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>PERAN PEMERINTAH DAN PERAN MASYARAKAT</heading>
+          <article eId="pasal_40">
+            <num>40</num>
+              <paragraph eId="pasal_40__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah memfasilitasi pemanfaatan Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah melindungi kepentingan umum dari segala jenis gangguan sebagai akibat penyalahgunaan Informasi Elektronik dan Transaksi Elektronik yang mengganggu ketertiban umum, sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_2a">
+                <num>(2a)</num>
+                <content><p>Pemerintah wajib melakukan pencegahan penyebarluasan dan penggunaan Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan yang dilarang sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_2b">
+                <num>(2b)</num>
+                <content><p>Dalam melakukan pencegahan sebagaimana dimaksud pada ayat (2a), Pemerintah berwenang melakukan pemutusan Akses dan/atau memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan pemutusan Akses terhadap Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar hukum. l2cl Perintah kepada Penyelenggara Sistem Elektronik sebagaimana dimaksud pada ayat (2b) berupa pemutusan Akses dan/ atau moderasi konten secara mandiri terhadap Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan pornografi, perjudian, atau muatan lain sebagaimana dimaksud dalam ketentuan peraturan perundang-undangan sepanjang dimungkinkan secara teknologi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_2d">
+                <num>(2d)</num>
+                <content><p>Dalam melakukan pencegahan sebagaimana dimaksud pada ayat (2a), Pemerintah berwenang memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan moderasi konten terhadap Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan berbahaya bagi keselamatan nyawa atau kesehatan individu atau masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_3">
+                <num>(3)</num>
+                <content><p>Pemerintah menetapkan instansi atau institusi yang memiliki data elektronik strategis yang wajib dilindungi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_4">
+                <num>(4)</num>
+                <content><p>Instansi atau institusi sebagaimana dimaksud pada ayat (3) harus membuat Dokumen Elektronik dan rekam cadang elektroniknya serta menghubungkannya ke pusat data tertentu untuk kepentingan pengamanan data.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_5">
+                <num>(5)</num>
+                <content><p>Instansi atau institusi lain selain diatur pada ayat (3) membuat Dokumen Elektronik dan rekam cadang elektroniknya sesuai dengan keperluan pelindungan data yang dimilikinya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_6">
+                <num>(6)</num>
+                <content><p>Ketentuan lebih lanjut mengenai peran Pemerintah sebagaimana dimaksud pada ayat (1), ayat (2), ayat (2a), ayat (2b), ayat (2c), ayat (2d), dan ayat (3) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_40a">
+            <num>40A</num>
+              <paragraph eId="pasal_40a__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah bertanggung jawab dalam mendorong terciptanya ekosistem digital yang adil, akuntabel, aman, dan inovatif.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40a__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam rangka melaksanakan tanggung Jawab sebagaimana dimaksud pada ayat (1), Pemerintah berwenang memerintahkan Penyelenggara Sistem Elektronik untuk melakukan penyesuaian pada Sistem Elektronik dan/atau melakukan tindakan tertentu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40a__ayat_3">
+                <num>(3)</num>
+                <content><p>Penyelenggara Sistem Elektronik wajib melaksanakan perintah sebagaimana dimaksud pada ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40a__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal Penyelenggara Sistem Elektronik melanggar kewajiban sebagaimana dimaksud pada ayat (3), Penyelenggara Sistem Elektronik dikenai sanksi administratif.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40a__ayat_5">
+                <num>(5)</num>
+                <intro><p>Sanksi administratif sebagaimana dimalsud pada ayat (4) dapat berupa:</p></intro>
+                  <point eId="pasal_40a__ayat_5__huruf_a">
+                    <num>a.</num>
+                    <content><p>teguran tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_40a__ayat_5__huruf_b">
+                    <num>b.</num>
+                    <content><p>dendaadministratif;</p></content>
+                  </point>
+                  <point eId="pasal_40a__ayat_5__huruf_c">
+                    <num>c.</num>
+                    <content><p>penghentian sementara; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_40a__ayat_5__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemutusan Akses.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_40a__ayat_6">
+                <num>(6)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tanggung jawab Pemerintah sebagaimana dimaksud pada ayat (1) ), wewenang Pemerintah sebagaimana dimaksud pada ayat (2), kewajiban Penyelenggara Sistem Elektronik sebagaimana dimaksud pada ayat (3), dan pengenaan sanksi administratif sebagaimana dimaksud pada ayat (4) dan ayat (5) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_41">
+            <num>41</num>
+              <paragraph eId="pasal_41__ayat_1">
+                <num>(1)</num>
+                <content><p>Masyarakat dapat berperan meningkatkan pemanfaatan Teknologi Informasi melalui penggunaan dan Penyelenggaraan Sistem Elektronik dan Transaksi Elektronik sesuai dengan ketentuan Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_2">
+                <num>(2)</num>
+                <content><p>Peran masyarakat sebagaimana dimaksud pada ayat (1) dapat diselenggarakan melalui lembaga yang dibentuk oleh masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_3">
+                <num>(3)</num>
+                <content><p>Lembaga sebagaimana dimaksud pada ayat (2) dapat memiliki fungsi konsultasi dan mediasi.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>PENYIDIKAN</heading>
+          <article eId="pasal_42">
+            <num>42</num>
+            <content><p>Penyidikan terhadap tindak pidana sebagaimana dimaksud dalam Undang-Undang ini, dilakukan berdasarkan ketentuan dalam Hukum Acara Pidana dan ketentuan dalam Undang- Undang ini.</p></content>
+          </article>
+          <article eId="pasal_43">
+            <num>43</num>
+              <paragraph eId="pasal_43__ayat_1">
+                <num>(1)</num>
+                <content><p>Selain Penyidik Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan Pemerintah yang lingkup tugas dan tanggung jawabnya di bidang Teknologi Informasi dan Transaksi Elektronik diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-Undang tentang Hukum Acara Pidana untuk melakukan penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_2">
+                <num>(2)</num>
+                <content><p>Penyidikan. . . -t4- l2l Penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) dilakukan dengan memperhatikan pelindungan terhadap privasi, kerahasiaan, kelancaran layanan publik, dan integritas atau keutuhan data sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_3">
+                <num>(3)</num>
+                <content><p>Penggeledahan dan/atau penyitaan terhadap Sistem Elektronik yang terkait dengan dugaan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik dilakukan sesuai dengan ketentuan hukum acara pidana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam melakukan penggeledahan dan/ atau penyitaan sebagaimana dimaksud pada ayat (3), penyidik wajib menjaga terpeliharanya kepentingan pelayanan umum.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_5">
+                <num>(5)</num>
+                <intro><p>Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang:</p></intro>
+                  <point eId="pasal_43__ayat_5__huruf_a">
+                    <num>a.</num>
+                    <content><p>menerima laporan atau pengaduan dari seseorzrng tentang adanya tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;</p></content>
+                  </point>
+                  <point eId="pasal_43__ayat_5__huruf_b">
+                    <num>b.</num>
+                    <content><p>memanggil setiap Orang atau pihak lainnya untuk didengar dan diperiksa sebagai tersangka atau saksi sehubungan dengan adanya dugaan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;</p></content>
+                  </point>
+                  <point eId="pasal_43__ayat_5__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan penyegelan dan penyitaan terhadap alat dan/ atau sarana kegiatan Teknologi Informasi yang diduga digunakan secara menyimpang dari ketentuan peraturan perundang-undangan ; h membuat suatu data danlatau Sistem Elektronik yang terkait tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik agar tidak dapat diakses; I meminta informasi yang terdapat di dalam Sistem Elektronik atau informasi yang dihasilkan oleh Sistem Elektronik kepada Penyelenggara Sistem Elektronik yang terkait dengan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik; J meminta bantuan ahli yang diperlukan dalam penyidikan terhadap tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;</p></content>
+                  </point>
+                  <point eId="pasal_43__ayat_5__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan pemeriksaan terhadap Orang dan/ atau Badan Usaha yang patut diduga melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;</p></content>
+                  </point>
+                  <point eId="pasal_43__ayat_5__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan . . . T e melakukan pemeriksaan terhadap alat dan/ atau sarana yang berkaitan dengan kegiatan Teknologi Informasi yang diduga digunakan untuk melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;</p></content>
+                  </point>
+                  <point eId="pasal_43__ayat_5__huruf_f">
+                    <num>f.</num>
+                    <content><p>melakukan penggeledahan terhadap tempat tertentu yang diduga digunakan sebagai tempat untuk melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;</p></content>
+                  </point>
+                  <point eId="pasal_43__ayat_5__huruf_k">
+                    <num>k.</num>
+                    <content><p>mengadakan penghentian penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan hukum acara pidana; dan/ atau</p></content>
+                  </point>
+                  <point eId="pasal_43__ayat_5__huruf_l">
+                    <num>l.</num>
+                    <intro><p>memerintahkan . . . REPITEUK INDONEISIA</p></intro>
+                      <point eId="pasal_43__ayat_5__huruf_l__angka_1">
+                        <num>1.</num>
+                        <content><p>memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan pemutusan Akses secara sementara terhadap akun media sosial, rekening bank, uang elektronik, dan/ atau aset digital.</p></content>
+                      </point>
+
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_6">
+                <num>(6)</num>
+                <content><p>Penangkapan dan penahanan terhadap pelaku tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik dilakukan sesuai dengan ketentuan hukum acara pidana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_7">
+                <num>(7)</num>
+                <content><p>Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) dalam melaksanakan tugasnya memberitahukan dimulainya penyidikan kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_7a">
+                <num>(7a)</num>
+                <content><p>Dalam hal penyidikan sudah selesai, Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) menyampaikan hasil penyidikannya kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_8">
+                <num>(8)</num>
+                <content><p>Dalam rangka mengungkap tindak pidana di bidang Teknologi Informasi dan TYansaksi Elektronik, penyidik dapat bekerja sama dengan penyidik negara lain untuk berbagi informasi dan alat bukti sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_44">
+            <num>44</num>
+            <intro><p>Alat bukti penyidikan, penuntutan dan pemeriksaan di sidang pengadilan menurut ketentuan Undang-Undang ini adalah sebagai berikut:</p></intro>
+              <point eId="pasal_44__huruf_a">
+                <num>a.</num>
+                <content><p>alat bukti sebagaimana dimaksud dalam ketentuan Perundang-undangan; dan</p></content>
+              </point>
+              <point eId="pasal_44__huruf_b">
+                <num>b.</num>
+                <content><p>alat bukti lain berupa Informasi Elektronik dan/atau Dokumen Elektronik sebagaimana dimaksud dalam Pasal 1 angka 1 dan angka 4 serta Pasal 5 ayat (1), ayat (2), dan ayat (3).</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_45">
+            <num>45</num>
+              <paragraph eId="pasal_45__ayat_2">
+                <num>(2)</num>
+                <intro><p>Perbuatan sebagaimana dimaksud pada ayat (1) tidak dipidana dalam hal:</p></intro>
+                  <point eId="pasal_45__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>dilakukan demi kepentingan umum;</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>dilakukan untuk pembelaan atas dirinya sendiri; atau</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>Informasi Elektronik dan/atau Dokumen Elektronik tersebut merupakan karya seni, budaya, olahraga, kesehatan, dan/atau ilmu pengetahuan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_4">
+                <num>(4)</num>
+                <content><p>Setiap Orang yang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum dalam bentuk Informasi Elektronik dan/atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik sebagaimana dimaksud dalam Pasal 27A dipidana dengan pidana penjara paling lama 2 (dua) tahun dan/atau denda paling banyak Rp400.000.000,00 (empat ratus juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (4) merupakan tindak pidana aduan yang hanya dapat dituntut atas pengaduan korban atau orang yang terkena tindak pidana dan bukan oleh badan hukum.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_6">
+                <num>(6)</num>
+                <content><p>Dalam hal perbuatan sebagaimana dimaksud pada ayat (4) tidak dapat dibuktikan kebenarannya dan bertentangan dengan apa yang diketahui padahal telah diberi kesempatan untuk membuktikannya, dipidana karena fitnah dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_7">
+                <num>(7)</num>
+                <intro><p>Perbuatan sebagaimana dimaksud pada ayat (4) tidak dipidana dalam hal:</p></intro>
+                  <point eId="pasal_45__ayat_7__huruf_a">
+                    <num>a.</num>
+                    <content><p>dilakukan untuk kepentingan umum; atau</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_7__huruf_b">
+                    <num>b.</num>
+                    <content><p>dilakukan karena terpaksa membela diri.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_8">
+                <num>(8)</num>
+                <content><p>Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, memaksa orang dengan ancaman kekerasan untuk: a. memberikan suatu barang, yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau b. memberi utang, membuat pengakuan utang, atau menghapuskan piutang, sebagaimana dimaksud dalam Pasal 27B ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_9">
+                <num>(9)</num>
+                <content><p>Dalam hal perbuatan sebagaimana dimaksud pada ayat (8) dilakukan dalam lingkungan keluarga, penuntutan pidana hanya dapat dilakukan atas aduan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_10">
+                <num>(10)</num>
+                <content><p>Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, dengan ancaman pencemaran atau dengan ancaman akan membuka rahasia, memaksa orang supaya: a. memberikan suatu barang yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau b. memberi utang, membuat pengakuan utang, atau menghapuskan piutang, sebagaimana dimaksud dalam Pasal 27B ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_11">
+                <num>(11)</num>
+                <content><p>Tindak pidana sebagaimana dimaksud pada ayat (10) hanya dapat dituntut atas pengaduan korban tindak pidana.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_45a">
+            <num>45A</num>
+              <paragraph eId="pasal_45a__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang yang dengan sengaja mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik yang berisi pemberitahuan bohong atau informasi menyesatkan yang mengakibatkan kerugian materiel bagi konsumen dalam Transaksi Elektronik sebagaimana dimaksud dalam Pasal 28 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45a__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap Orang yang dengan sengaja menyebarkan Informasi Elektronik dan/atau Dokumen Elektronik yang diketahuinya memuat pemberitahuan bohong yang menimbulkan kerusuhan di masyarakat sebagaimana dimaksud dalam Pasal 28 ayat (3) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_45b">
+            <num>45B</num>
+            <content><p>Setiap Orang yang dengan sengaja dan tanpa hak mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik secara langsung kepada korban yang berisi ancaman kekerasan dan/atau menakut-nakuti sebagaimana dimaksud dalam Pasal 29 dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_48">
+            <num>48</num>
+              <paragraph eId="pasal_48__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 32 ayat (1) dipidana dengan pidana penjara paling lama 8 (delapan) tahun dan/atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 32 ayat (2) dipidana dengan pidana penjara paling lama 9 (sembilan) tahun dan/atau denda paling banyak Rp3.000.000.000,00 (tiga miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 32 ayat (3) dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+            <content><p>Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 33, dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_50">
+            <num>50</num>
+            <content><p>Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 34 ayat (1) dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_51">
+            <num>51</num>
+              <paragraph eId="pasal_51__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 35 dipidana dengan pidana penjara paling lama 12 (dua belas) tahun dan/atau denda paling banyak Rp12.000.000.000,00 (dua belas miliar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_52">
+            <num>52</num>
+              <paragraph eId="pasal_52__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 27 ayat (1) menyangkut kesusilaan atau eksploitasi seksual terhadap anak dikenakan pemberatan sepertiga dari pidana pokok.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 37 ditujukan terhadap Komputer dan/atau Sistem Elektronik serta Informasi Elektronik dan/atau Dokumen Elektronik milik Pemerintah dan/atau yang digunakan untuk layanan publik dipidana dengan pidana pokok ditambah sepertiga.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 37 ditujukan terhadap Komputer dan/atau Sistem Elektronik serta Informasi Elektronik dan/atau Dokumen Elektronik milik Pemerintah dan/atau badan strategis termasuk dan tidak terbatas pada lembaga pertahanan, bank sentral, perbankan, keuangan, lembaga internasional, otoritas penerbangan diancam dengan pidana maksimal ancaman pidana pokok masing-masing Pasal ditambah dua pertiga.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 37 dilakukan oleh korporasi dipidana dengan pidana pokok ditambah dua pertiga.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_53">
+            <num>53</num>
+            <content><p>Pada saat berlakunya Undang-Undang ini, semua Peraturan Perundang-undangan dan kelembagaan yang berhubungan dengan pemanfaatan Teknologi Informasi yang tidak bertentangan dengan Undang-Undang ini dinyatakan tetap berlaku.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_13">
+        <num>XIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_54">
+            <num>54</num>
+              <paragraph eId="pasal_54__ayat_1">
+                <num>(1)</num>
+                <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_54__ayat_2">
+                <num>(2)</num>
+                <content><p>Peraturan Pemerintah harus sudah ditetapkan paling lama 2 (dua) tahun setelah diundangkannya Undang-Undang ini.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/1999/42/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1999/42"/>
+          <FRBRdate date="1999-09-30" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/1999/42/ind@2020-01-06/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1999/42/ind@2020-01-06"/>
+          <FRBRdate date="2020-01-06" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/1999/42/ind@2020-01-06/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1999/42/ind@2020-01-06.akn"/>
+          <FRBRdate date="2026-09-02" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 42 Tahun 1999 tentang Jaminan Fidusia</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Fidusia adalah pengalihan hak kepemilikan suatu benda atas dasar kepercayaan dengan ketentuan bahwa benda yang hak kepemilikannya dialihkan tersebut tetap dalam penguasaan pemilik benda.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Jaminan Fidusia adalah hak jaminan atas benda bergerak baik yang berwujud maupun yang tidak berwujud dan benda tidak bergerak khususnya bangunan yang tidak dapat dibebani hak tanggungan sebagaimana dimaksud dalam Undang-undang Nomor 4 Tahun 1996 tentang Hak Tanggungan yang tetap berada dalam penguasaan Pemberi Fidusia, sebagai agunan bagi pelunasan utang tertentu, yang memberikan kedudukan yang diutamakan kepada Penerima Fidusia terhadap kreditor lainnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Piutang adalah hak untuk menerima pembayaan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Benda adalah segala sesuatu yang dapat dimiliki atau dialihkan, baik yang berwujud maupun tidak berwujud, yang terdaftar maupun yang tidak terdaftar, yang bergerak maupun yang tak bergerak yang tidak dapat dibebani hak tanggungan atau hipotik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Pemberi Fidusia adalah orang perseorangan atau korporasi pemilik Benda yang menjadi objek Jaminan Fidusia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Penerima Fidusia adalah orang perseorangan atau korporasi yang mempunyai piutang yang pembayarannya dijamin dengan Jaminan Fidusia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Utang adalah kewajiban yang dinyatakan atau dapat dinyatakan dalam jumlah uang baik dalam mata uang Indonesia atau mata uang lainnya, baik secara langsung maupun kontinjen.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Kreditor adalah pihak yang mempunyai piutang karena perjanjian atau undang-undang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Debitor adalah pihak yang mempunyai utang karena perjanjian atau undang-undang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Setiap Orang adalah orang perseorangan atau korporasi.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>RUANG LINGKUP</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Undang-undang ini berlaku terhadap setiap perjanjian yang bertujuan untuk membebani Benda Jaminan Fidusia.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Undang-undang ini tidak berlaku terhadap:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>Hak Tanggungan yang berkaitan dengan tanah dan bangunan, sepanjang peraturan perundang-undangan yang berlaku menentukan jaminan atas benda-benda tersebut wajib didaftar;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>Hipotek atas kapal yang terdaftar dengan isi kotor berukuran 20 (dua puluh) M3 atau lebih;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>Hipotek atas pesawat terbang; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>Gadai.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PEMBEBANAN, PENDAFTARAN, PENGALIHAN DAN HAPUSNYA JAMINAN FIDUSIA</heading>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Jaminan Fidusia merupakan perjanjian ikutan dari suatu perjanian pokok yang menimbulkan kewajiban bagi para pihak untuk memenuhi suatu prestasi.</p></content>
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembebanan Benda dengan Jaminan Fidusia dibuat dengan akta notaris dalam bahasa Indonesia dan merupakan akta Jaminan Fidusia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Terhadap pembuatan akta Jaminan Fidusia sebagaimana dimaksud dalam ayat (1), dikenakan biaya yang besarnya diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+            <intro><p>Akta Jaminan Fidusia sebagaimana dimaksud dalam Pasal 5 sekurang-kurangnya memuat:</p></intro>
+              <point eId="pasal_6__huruf_a">
+                <num>a.</num>
+                <content><p>identitas pihak Pemberi dan Penerima Fidusia;</p></content>
+              </point>
+              <point eId="pasal_6__huruf_b">
+                <num>b.</num>
+                <content><p>data perjanjian pokok yang dijamin fidusia;</p></content>
+              </point>
+              <point eId="pasal_6__huruf_c">
+                <num>c.</num>
+                <content><p>uraian mengenai Benda yang menjadi objek Jaminan Fidusia;</p></content>
+              </point>
+              <point eId="pasal_6__huruf_d">
+                <num>d.</num>
+                <content><p>nilai penjaminan; dan e nilai Benda yang menjadi objek Jaminan Fidusia.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+            <intro><p>Utang yang pelunasannya dajamin dengan fidusia dapat berupa:</p></intro>
+              <point eId="pasal_7__huruf_a">
+                <num>a.</num>
+                <content><p>utang yang telah ada;</p></content>
+              </point>
+              <point eId="pasal_7__huruf_b">
+                <num>b.</num>
+                <content><p>utang yang akan timbul di kemudian hari yang telah diperjanjikan dalam jumlah tertentu; dan</p></content>
+              </point>
+              <point eId="pasal_7__huruf_c">
+                <num>c.</num>
+                <content><p>utang yang pada saat eksekusi dapat ditentukan jumlahnya berdasarkan perjanjian pokok yang menimbulkan kewajiban memenuhi suatu prestasi.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+            <content><p>Jaminan Fidusia dapat diberikan kepada lebih dari satu Penerima Fidusia atau kepada kuasa atau wakil dari Penerima Fidusia tersebut.</p></content>
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Jaminan Fidusia dapat diberikan terhadap satu atau lebih satuan atau jenis Benda, termasuk piutang, baik yang telah ada pada saat jaminan diberikan maupun yang diperoleh kemudian.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <content><p>Pembebanan jaminan atas Benda atau piutang yang diperoleh kemudian sebagaimana dimaksud dalam ayat (1) tidak perlu dilakukan dengan perjanjian jaminan tersendiri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+            <intro><p>Kecuali diperjanjikan lain:</p></intro>
+              <point eId="pasal_10__huruf_a">
+                <num>a.</num>
+                <content><p>Jaminan Fidusia meliputi hasil dari Benda yang menjadi objek Jaminan Fidusia.</p></content>
+              </point>
+              <point eId="pasal_10__huruf_b">
+                <num>b.</num>
+                <content><p>Jaminan Fidusia meliputi klaim asuransi, dalam hal Benda yang menjadi objek Jaminan Fidusia diasuransikan.</p></content>
+              </point>
+
+          </article>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pendaftaran Jaminan Fidusia</heading>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Benda yang dibebani dengan Jaminan Fidusia wajib didaftarkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Benda yang dibebani dengan Jaminan Fidusia berada di luar wilayah negara Republik Indonesia, kewajiban sebagaimana dimaksud dalam ayat (1) tetap berlaku.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pendaftaran Jaminan Fidusia sebagaimana dimaksud dalam Pasal 11 ayat (1) dilakukan pada Kantor Pendaftaran Fidusia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk pertama kali, Kantor Pendaftaran Fidusia didirikan di Jakarta dengan wilayah kerja mencakup seluruh wilayah negara Republik Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Kantor Pendaftaran Fidusia sebagaimana dimaksud dalam ayat (2) berada dalam lingkup tugas Departemen Kehakiman.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan mengenai pembentukan Kantor Pendaftaran Fidusia untuk daerah lain dan penetapan wilayah kerjanya diatur dengan Keputusan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Permohonan pendaftaran Jaminan Fidusia dilakukan oleh Penerima Jaminan Fidusia dilakukan oleh Penerimaan Fidusia, kuasa atau wakilnya dengan melampirkan pernyataan pendaftaran Jaminan Fidusia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pernyataan pendaftaran sebagaimana dimaksud dalam ayat (1) memuat:</p></intro>
+                      <point eId="pasal_13__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>indentitas pihak Pemberi dan Penerima Fidusia;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>tanggal, nomor akta Jaminana Fidusia, nama, dan tempat kedudukan notaris yang membuat akta Jaminan Fidusia;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>data perjanjian pokok yang dijamin Fidusia;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>uraian mengenai Benda yang menjadi objek Jaminan Fidusia;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>nilai penjaminan; dan</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>nilai Benda yang menjadi objek Jaminan Fidusia.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Kantor Pendaftaran Fidusia memuat Jaminan Fidusia dalam Buku Daftar Fidusia pada tanggal yang sama dengan tanggal penerimaan permohonan pendaftaran.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pendaftaran Jaminan Fidusia dan biaya pendaftaran diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Kantor Pendaftaran Fidusia menerbitkan dan menyerahkan kepada Penerima Fidusia Sertifikat Jaminana Fidusia pada tanggal yang sama dengan tanggal penerimaan permohonan pendaftaran.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Sertifikat Jaminan Fidusia yang merupakan salinan dari Buku Daftar Fidusia memuat catatan tentang hal-hal sebagaimana dimaksud dalam Pasal 13 ayat (2).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Jaminan Fidusia lahir pada tanggal yang sama dengan tanggal dicatatnya Jaminana Fidusia dalam Buku Daftar Fidusia.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam Sertifikat Jaminana Fidusia sebagaimana dimaksud dalam Pasal 14 ayat (1) dicantumkan kata-kata "DEMI KEADILAN BERDASARKAN KETUHANAN YANG MAHA ESA".</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Sertifikat Jaminan Fidusia sebagaimana dimaksud dalam ayat (1) mempunyai kekuatan eksekutorial yang sama dengan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Apabila debitor cidera janji, Penerima Fidusia mempunyai hak untuk menjual Benda yang menjadi objek Jaminan Fidusia atas kekuasaannya sendiri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Apabila terjadi perubahan mengenai hal-hal yang tercantum dalam Sertifikat Jaminan Fidusia sebagaimana dimaksud dalam Pasal 14 ayat (2), Penerima Fidusia wajib mengajukan permohonan pendaftaran atas perubahan tersebut kepada Kantor Pendaftaran Fidusia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Kantor Pendaftaran Fidusia pada tanggal yang sama dengan tanggal penerimaan permohonan perubahan, melakukan pencatatan perubahan tersebut dalam Buku Daftar Fidusia dan menerbitkan Pernyataan Perubahan yang merupakan bagian tak terpisahkan dari Sertifikat Jaminan Fidusia.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_17">
+                <num>17</num>
+                <content><p>Pemberi Fidusia dilarang melakukan fidusia ulang terhadap Benda yang menjadi objek Jaminan Fidusia yang sudah terdaftar.</p></content>
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                <content><p>Segala keterangan mengenai Benda yang menjadi objek Jaminan Fidusia yang ada pada Kantor Pendaftaran Fidusia terbuka untuk umum.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pengalihan Jaminan Fidusia</heading>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengalihan hak atas piutang yang dijaminan dengan fidusia mengakibatkan beralihnya demi hukum segala hak dan kewajiban Penerima Fidusia kepada kreditor baru.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Beralihnya Jaminan Fidusia sebagaimana dimaksud dalam ayat (1) didaftarkan oleh kreditor baru kepada Kantor Pendaftaran Fidusia.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_20">
+                <num>20</num>
+                <content><p>Jaminan Fidusia tetap mengikuti Benda yang menjadi objek Jaminan Fidusia dalam tangan siapapun Benda tersebut berada, kecuali pengalihan atas benda persediaan yang menjadi objek Jaminan Fidusia.</p></content>
+              </article>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemberi Fidusia dapat mengalihkan benda persediaan yang menjadi objek Jaminan Fidusia dengan cara dan prosedur yang lazim dilakukan dalam usaha perdagangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud dalam ayat (1) tidak berlaku, apabila telah terjadi cidera janji oleh debitor dan atas Pemberi Fidusia pihak ketiga.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Benda yang menjadi objek Jaminan Fidusia yang telah dialihkan sebagaimana dimaksud dalam ayat (1) wajib diganti oleh Pemberi Fidusia dengan objek yang setara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal Pemberi Fidusia cidera janji, maka hasil pengalihan dan atau tagihan yang timbul karena pengalihan sebagaimana dimaksud dalam ayat (1), demi hukum menjadi objek Jaminan Fidusia pengganti dari objek Jaminan Fidusia yang dialihkan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_22">
+                <num>22</num>
+                <content><p>Pembeli benda yang menjadi objek Jaminan Fidusia yang merupakan benda persediaan bebas dari tuntutan meskipun pembeli tersebut mengetahui adanya Jaminan Fidusia itu, dengan ketentuan bahwa pembeli telah membayar lunas harga penjualan Benda tersebut sesuai dengan harga pasar.</p></content>
+              </article>
+              <article eId="pasal_23">
+                <num>23</num>
+                  <paragraph eId="pasal_23__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dengan tidak mengurangi ketentuan sebagaimana dimaksud dalam Pasal 21, apabila Penerima Fidusia setuju bahwa Pemberi Fidusia dapat menggunakan, menggabungkan, mencampur, atau mengalihkan Benda atau hasil dari Benda yang menjadi objek Jaminan Fidusia, atau menyetujui melakukan penagihan atau melakukan kompromi atas piutang, maka persetujuan tersebut tidak berarti bahwa Penerima Fidusia melepaskan Jaminan Fidusia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemberi Fidusia dilarang mengalihkan, menggadaikan, atau menyewakan kepada pihak lain Benda yang menjadi objek Jaminan Fidusia yang tidak merupakan benda persediaan, kecuali dengan persetujuan tertulis terlebih dahulu dari Penerima Fidusia.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                <content><p>Penerima Fidusia tidak menanggung kewajiban atas akibat tindakan atau kelalaian Pemberi Fidusia baik yang timbul dari hubungan kontraktual atau yang timbul dari perbuatan melanggar hukum sehubungan dengan penggunaan dan pengalihan Benda yang menjadi objek Jaminan Fidusia.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Hapusnya Jaminan Fidusia</heading>
+              <article eId="pasal_25">
+                <num>25</num>
+                  <paragraph eId="pasal_25__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Jaminan Fidusia hapus karena hal-hal sebagai berikut:</p></intro>
+                      <point eId="pasal_25__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>hapusnya utang yang dijamin dengan fidusia;</p></content>
+                      </point>
+                      <point eId="pasal_25__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pelepasan hak atas Jaminan Fidusia oleh Penerima Fidusia; atau</p></content>
+                      </point>
+                      <point eId="pasal_25__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>musnahnya Benda yang menjadi objek Jaminan Fidusia.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Musnahnya Benda yang menjadi objek Jaminan Fidusia tidak menghapuskan klaim asuransi sebagaimana dimaksud dalam Pasal 10 huruf b.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penerima Fidusia memberitahukan kepada Kantor Pendaftaran Fidusia mengenai hapusnya Jaminan Fidusia sebagaimana dimaksud dalam ayat (1) dengan melampirkan pernyataan mengenai hapusnya utang, pelepasan hak, atau musnahnya Benda yang menjadi objek Jaminan Fidusia tersebut.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_26">
+                <num>26</num>
+                  <paragraph eId="pasal_26__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dengan hapusnya Jaminan Fidusia sebagaimana dimaksud dalam pasal 25, Kantor Pendaftaran Fidusia mencoret pencatatan Jaminan Fidusia dari Buku Daftar Fidusia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Kantor Pendaftaran Fidusia menerbitkan surat keterangan yang menyatakan Sertifikat keterangan yang menyatakan Sertifikat Jaminan Fidusia yang bersangkutan tidak berlaku lagi.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>HAK MENDAHULU</heading>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_1">
+                <num>(1)</num>
+                <content><p>Penerima Fidusia memiliki hak yang didahulukan terhadap kreditor lainnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <content><p>Hak yang didahulukan sebagaimana dimaksud dalam ayat (1) adalah hak Penerima Fidusia untuk mengambil pelunasan piutangnya atas hasil eksekusi Benda yang menjadi objek Jaminan Fidusia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_3">
+                <num>(3)</num>
+                <content><p>Hak yang didahulukan dari Penerima Fidusia tidak hapus karena adanya kepailitan dan atau likuidasi Pemberi Fidusia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_28">
+            <num>28</num>
+            <content><p>Apabila atas Benda yang sama menjadi objek Jaminan Fidusia lebih dari 1 (satu) perjanjian Jaminan Fidusia, maka hak yang didahulukan sebagaimana dimaksud dalam Pasal 27, diberikan kepada pihak yang lebih dahulu mendaftarkannya pada Kantor Pendaftaran Fidusia.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>EKSEKUSI JAMINAN FIDUSIA</heading>
+          <article eId="pasal_29">
+            <num>29</num>
+              <paragraph eId="pasal_29__ayat_1">
+                <num>(1)</num>
+                <intro><p>Apabila debitor atau Pemberi Fidusia cidera janji, eksekusi terhadap Benda yang menjadi objek Jaminan Fidusia dapat dilakukan dengan cara:</p></intro>
+                  <point eId="pasal_29__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pelaksanaan titel eksekutorial sebagaimana dimaksud dalam Pasal 15 ayat (2) oleh Penerima Fidusia.</p></content>
+                  </point>
+                  <point eId="pasal_29__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>penjualan Benda yang menjadi objek Jaminan Fidusia atas kekuasaan Penerima Fidusia sendiri melalui pelelangan umum serta mengambil pelunasan piutangnya dari hasil penjualan;</p></content>
+                  </point>
+                  <point eId="pasal_29__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>penjualan di bawah tangan yang dilakukan berdasarkan kesepakatan Pemberi dan Penerima Fidusia jika dengan cara demikian dapat diperoleh harga tertinggi yang menguntungkan para pihak.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_2">
+                <num>(2)</num>
+                <content><p>Pelaksanaan penjualan sebagaimana dimaksud dalama ayat (1) huruf c dilakukan setelah lewat waktu 1 (satu) bulan sejak diberitahukan secara tertulis oleh Pemberi dan atau Penerima Fidusia kepada pihak-pihak yang berkepentingan dan diumumkan sedikitnya dalam 2 (dua) surat kabar yang tersebar di daerah yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_30">
+            <num>30</num>
+            <content><p>Pemberi Fidusia wajib menyerahkan Benda yang menjadi objek Jaminan Fidusia dalam rangka pelaksanaan eksekusi Jaminan Fidusia.</p></content>
+          </article>
+          <article eId="pasal_31">
+            <num>31</num>
+            <content><p>Dalam hal Benda yang menjadi objek Jaminan Fidusia terdiri atas benda perdagangan atau efek yang dapat dijual di pasar atau di bursa, penjualannya dapat dilakukan di tempat-tempat tersebut sesuai dengan peraturan perundang-undangan yang berlaku.</p></content>
+          </article>
+          <article eId="pasal_32">
+            <num>32</num>
+            <content><p>Setiap janji untuk melaksanakan eksekusi terhadap Benda yang menjadi objek Jaminan Fidusia dengan cara yang bertentangan dengan ketentuan sebagaimana dimaksud dalam pasal 29 dan Pasal 31, batal demi hukum.</p></content>
+          </article>
+          <article eId="pasal_33">
+            <num>33</num>
+            <content><p>Setiap janji yang memberi kewenangan kepada Pemberi Fidusia untuk memiliki Benda yang menjadi objek Jaminan Fidusia apabila debitor cidera janji, batal demi hukum.</p></content>
+          </article>
+          <article eId="pasal_34">
+            <num>34</num>
+              <paragraph eId="pasal_34__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal hasil eksekusi melebihi nilai penjaminan, Penerima Fidusia wajib mengembalikan kelebihan tersebut kepada Pemberi Fidusia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_2">
+                <num>(2)</num>
+                <content><p>Apabila hasil eksekusi tidak mencukupi untuk pelunasan utang, debitor tetap bertanggung jawab atas utang yang belum terbayar.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_35">
+            <num>35</num>
+            <content><p>Setiap orang yang dengan sengaja memalsukan, mengubah, menghilangkan atau dengan cara apapun memberikan keterangan secara menyesatkan, yang jika hal tersebut diketahui oleh salah satu pihak tidak melahirkan perjanjian Jaminan Fidusia, dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 5 (lima) tahun dan denda paling sedikit Rp.10.000.000,-(sepuluh juta rupiah) dan paling banyak Rp.100.000.000,- (seratus juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_36">
+            <num>36</num>
+            <content><p>Pemberi Fidusia yang mengalihkan, menggadaikan, atau menyewakan Benda yang menjadi objek Jaminan Fidusia sebagaimana dimaksud dalam Pasal 23 ayat (2) yang dilakukan tanpa persetujuan tertulis terlebih dahulu dari Penerima Fidusia, dipidana dengan pidana penjara paling lama 2 (dua) tahun dan denda paling banyak Rp.50.000.000,- (lima puluh juta rupiah).</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_37">
+            <num>37</num>
+              <paragraph eId="pasal_37__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembebanan Benda yang menjadi objek Jaminan Fidusia yang telah ada sebelum berlakunya Undang-undang ini, tetap berlaku sepanjang tidak bertentangan dengan Undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam jangka waktu selambat-lambatnya 60 (enam puluh) hari terhitung sejak berdirinya Kantor Pendaftaran Fidusia, semua perjanjian Jaminan Fidusia harus sesuai dengan ketentuan dalam Undang-undang ini, kecuali ketentuan mengenai kewajiban pembuatan akta Jaminan Fidusia sebagaimana dimaksud dalam pasal 5 ayat (1).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika dalam jangka waktu sebagaimana dimaksud dalam ayat (2) tidak dilakukan penyesuaian, maka perjanjian Jaminan Fidusia tersebut bukan merupakan hak agunan atas kebendaan sebagaimana dimaksud dalam Undang-undang ini.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_38">
+            <num>38</num>
+            <content><p>Sepanjang tidak bertentangan dengan ketentuan dalam Undang-undang ini, semua peraturan perundang-undangan mengenai fidusia tetap berlaku sampai dengan dicabut, diganti, atau diperbaharui.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_39">
+            <num>39</num>
+            <content><p>Kantor Pendaftaran Fidusia sebagaimana dimaksud dalam Pasal 12 ayat (2) dibentuk dalam jangka waktu paling lambat 1 (satu) tahun setelah Undang-undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_40">
+            <num>40</num>
+            <content><p>Undang-undang ini disebut Undang-undang Fidusia.</p></content>
+          </article>
+          <article eId="pasal_41">
+            <num>41</num>
+            <content><p>Undang-undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>
