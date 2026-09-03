@@ -126,6 +126,7 @@
   .anotasi strong { color: #574410; }
   .anotasi.pendapat { background: #f4f2fb; border-color: #cfc8e8; }
   .anotasi.pendapat strong { color: #3d3266; }
+  .ke-putusan { display:inline-block; margin-top:6px; font-size:.8rem; font-weight:600; text-decoration:none }
   .tak-mengikat { display:inline-block; font-size:.68rem; font-weight:700; letter-spacing:.03em;
     text-transform:uppercase; background:#ede9f7; color:#3d3266; border:1px solid #cfc8e8;
     border-radius:4px; padding:1px 6px; margin-left:2px; vertical-align:1px; }
@@ -534,7 +535,9 @@ function anotasiHTML(u) {
     const kutip = a.kutipan
       ? `<blockquote class="kutipan">${esc(a.kutipan)}<span class="cap">${a.sifat === "amar" ? "amar putusan" : a.sifat === "konklusi" ? "konklusi" : "kutipan"} — verbatim dari salinan resmi${a.verifikasi_kutipan === "pdf-resmi" ? ", terverifikasi" : ""}</span></blockquote>`
       : "";
-    return `<div class="anotasi${L && L[2] ? " pendapat" : ""}">${kepala} ${esc(a.catatan)}${kutip}</div>`;
+    const tautan = a.jalur_putusan
+      ? ` <a class="ke-putusan" href="${a.jalur_putusan}">lihat putusan lengkap ▸</a>` : "";
+    return `<div class="anotasi${L && L[2] ? " pendapat" : ""}">${kepala} ${esc(a.catatan)}${kutip}${tautan}</div>`;
   }).join("");
 }
 
