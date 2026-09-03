@@ -73,6 +73,12 @@
    "jalur": "/permk/2025/7/"
   },
   {
+   "id": "perppu-2013-1",
+   "nama": "Perppu 1/2013 (Perubahan II — dibatalkan MK)",
+   "jenis": "perppu",
+   "jalur": null
+  },
+  {
    "id": "perpres-2012-33",
    "nama": "PERPRES 33/2012",
    "jenis": "perpres",
@@ -142,6 +148,12 @@
    "id": "pp-2021-18",
    "nama": "PP 18/2021",
    "jenis": "pp",
+   "jalur": null
+  },
+  {
+   "id": "putusan-mk-1-2-2014",
+   "nama": "Putusan MK 1-2/PUU-XII/2014",
+   "jenis": "putusan-mk",
    "jalur": null
   },
   {
@@ -277,6 +289,12 @@
    "jalur": "/uu/2011/20/"
   },
   {
+   "id": "uu-2011-8",
+   "nama": "UU 8/2011 (Perubahan I UU MK)",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
    "id": "uu-2014-2",
    "nama": "UU 2/2014",
    "jenis": "uu",
@@ -297,6 +315,12 @@
   {
    "id": "uu-2019-16",
    "nama": "UU 16/2019",
+   "jenis": "uu",
+   "jalur": null
+  },
+  {
+   "id": "uu-2020-7",
+   "nama": "UU 7/2020 (Perubahan III UU MK)",
    "jenis": "uu",
    "jalur": null
   },
@@ -444,6 +468,11 @@
    "tipe": "dasar-hukum"
   },
   {
+   "dari": "perppu-2013-1",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
    "dari": "perpres-2012-33",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
@@ -507,6 +536,16 @@
    "dari": "pp-2021-18",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "putusan-mk-1-2-2014",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "putusan-mk-1-2-2014",
+   "ke": "uu-2003-24",
+   "tipe": "putusan-mk"
   },
   {
    "dari": "putusan-mk-18-2019",
@@ -674,6 +713,16 @@
    "tipe": "dasar-hukum"
   },
   {
+   "dari": "uu-2011-8",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2011-8",
+   "ke": "uu-2003-24",
+   "tipe": "perubahan"
+  },
+  {
    "dari": "uu-2014-2",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
@@ -721,6 +770,16 @@
   {
    "dari": "uu-2019-16",
    "ke": "uu-1974-1",
+   "tipe": "perubahan"
+  },
+  {
+   "dari": "uu-2020-7",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2020-7",
+   "ke": "uu-2003-24",
    "tipe": "perubahan"
   },
   {
