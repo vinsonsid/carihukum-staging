@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="vendu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/vendu/1908/189/!main"/>
+          <FRBRuri value="/akn/id/act/vendu/1908/189"/>
+          <FRBRdate date="1908-02-28" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/vendu/1908/189/ind@1908-04-01/!main"/>
+          <FRBRuri value="/akn/id/act/vendu/1908/189/ind@1908-04-01"/>
+          <FRBRdate date="1908-04-01" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/vendu/1908/189/ind@1908-04-01/!main.xml"/>
+          <FRBRuri value="/akn/id/act/vendu/1908/189/ind@1908-04-01.akn"/>
+          <FRBRdate date="2026-09-03" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Peraturan Lelang (Vendu Reglement) — Peraturan Penjualan di Muka Umum di Indonesia</docTitle></p>
+    </preface>
+    <body>
+      <article eId="pasal_1">
+        <num>1</num>
+        <content><p>Untuk penerapan peraturan ini dari peraturan pelaksanaan yang telah dan akan ditetapkan berdasarkan peraturan ini, yang dimaksud dengan "penjualan umum" (openbare verkopingen) adalah pelelangan atau penjualan barang- barang yang dilakukan kepada umum dengan penawaran harga yang meningkat atau menurun atau dengan pemasukan harga dalam sampul tertutup, atau kepada orang-orang yang diundang atau sebelumnya diberitahu mengenai pelelangan atau penjualan itu, atau diizinkan untuk ikut-serta, dan diberi kesempatan untuk menawar harga, menyetujui harga yang ditawarkan atau memasukkan harga dalam sampul tertutup. (Vendu-regl. Ib, 94.5.)</p></content>
+      </article>
+      <article eId="pasal_1a">
+        <num>1a</num>
+          <alinea eId="pasal_1a__alinea_1">
+            <content><p>Tanpa mengurangi ketentuan alinea berikut dalam pasal ini, penjualan di muka umum tidak boleh dilakukan selain di hadapan juru lelang.</p></content>
+          </alinea>
+          <alinea eId="pasal_1a__alinea_2">
+            <content><p>Dengan peraturan pemerintah, penjualan umum dapat dilakukan tanpa campur tangan juru lelang. (S. 1940-503; S. 1941-546.)</p></content>
+          </alinea>
+          <alinea eId="pasal_1a__alinea_3">
+            <content><p>Barangsiapa berbuat bertentangan dengan ketentuan pasal ini, akan didenda sebanyak-banyaknya sepuluh ribu gulden; tindak pidananya dipandang sebagai pelanggaran.</p></content>
+          </alinea>
+          <alinea eId="pasal_1a__alinea_4">
+            <content><p>Bila perbuatan termaksud dalam alinea yang lalu dilakukan oleh suatu badan hukum, maka tuntutan pidana akan diajukan dan hukuman akan dijatuhkan terhadap anggota-anggota pengurusnya yang ada di Indonesia, atau jika anggota- anggota itu tidak ada, terhadap wakil-wakil badan hukum itu di Indonesia.</p></content>
+          </alinea>
+          <alinea eId="pasal_1a__alinea_5">
+            <content><p>Ketentuan alinea yang lalu berlaku juga terhadap badan-badan hukum yang bertindak sebagai pengurus atau sebagai wakil badan hukum lain</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_1b">
+        <num>1b</num>
+        <content><p>Cara menyelenggarakan pelelangan ditentukan oleh penjual. (Vendu- regl. 94.5.)Mengenai barang-barang yang sudah dilelang tetapi belum acta penawaran harga yang disetujui, penjual dapat meminta agar cara pelelangannya diubah.</p></content>
+      </article>
+      <article eId="pasal_2">
+        <num>2</num>
+        <content><p>(s.d.u. dg. S. 1917-262; S.1940-56jo. S. 1941-3.) Lelang yang diadakan oleh orang yang dikuasakan oleh juru lelang, dianggap dilakukan oleh juru lelang sendiri.</p></content>
+      </article>
+      <article eId="pasal_3">
+        <num>3</num>
+        <content><p>(s.d.u. dg. S. 1940-56jo. S. 1941-3.) Juru lelang terbagi atas dua kelas.Orang-orang dari golongan jabatan mana yang termasuk masing-masing kelas, hal itu ditetapkan oleh pemerintah (Gubemur Jenderal).Tempat kedudukan para juru lelang ditunjuk oleh Menteri Keuangan (Directeur van Financien), demikian pula tempat-tempat yang juga dianggap sebagai tempat kedudukan para juru lelang, sejauh mengenai pelaksanaan daftar biaya termaksud dalam pasal 44 peraturan ini, Selanjutnya, harus ditentukan pula termasuk golongan manakah para pejabat termaksud dalam alinea kedua di atas, yaitu para juru lelang yang berkedudukan ditempat-tempat tersebut, di mana batas daerah masing-masing, dan para pejabat manakah yang ditugaskan untuk mengawasi setiap daerah tersebut.</p></content>
+      </article>
+      <article eId="pasal_4">
+        <num>4</num>
+        <content><p>(s.d.u. dg. S. 1940-537 jo. S. 1941-3.) Kecuali dalam hal yang ditetapkan pada alinea berikut, tagihan yang timbul dari penjualan yang dilakukan di hadapan juru lelang atas beban pembeli harus dibayar kepada pemerintah, yang wajib membayar hasil penjualan kepada penjual, dengan memperhatikan ketentuan pasal 34.Jika penjual mengadakan ketentuan di antara syarat-syarat penjualan, bahwa pembayaran oleh para pembeli tidak akan dilakukan kepada pemerintah, maka pemerintah tidak wajib membayar hasil lelang kepada penjual. (Vendu-regl. 19 dst., 21, 25, 31, 34, 42.)</p></content>
+      </article>
+      <article eId="pasal_5">
+        <num>5</num>
+          <alinea eId="pasal_5__alinea_1">
+            <content><p>Barangsiapa ingin mengadakan penjualan umum, wajib memberitahukan hal ini kepada juru lelang, atau di tempat-tempat di mana ditempatkan pemegang buku, kepada pemegang buku, dengan memberitahukan pada hari atau hari-hari apa penjualan hendak diadakannya.</p></content>
+          </alinea>
+          <alinea eId="pasal_5__alinea_2">
+            <content><p>Permohonan-permohonan untuk itu harus ditulis dalam suatu daftar, yang dapat dilihat oleh orang-orang yang berkepentingan atas permintaan mereka.</p></content>
+          </alinea>
+          <alinea eId="pasal_5__alinea_3">
+            <content><p>Penjualan sedapat mungkin diadakan pada hari atau hari-hari yang diminta, dengan memperhatikan peraturan-peraturan khusus yang ditetapkan oleh pemerintah mengenai hal itu.</p></content>
+          </alinea>
+          <alinea eId="pasal_5__alinea_4">
+            <content><p>Bila dalam suatu hari permohonan yang diajukan lebih banyak daripada yang dapat dilaksanakan, maka permohonan-permohonan untuk hari tersebut dilaksanakan menurut urutan waktu; penjualan eksekusi dan penjualan perabot rumah tangga (inboedel) orang yang akan pindah mempunyai hak didahs.d.u. dg. S.</p></content>
+          </alinea>
+          <alinea eId="pasal_5__alinea_5">
+            <content><p>1940-56 jo. S. 1941-3.).</p></content>
+          </alinea>
+          <alinea eId="pasal_5__alinea_6">
+            <content><p>Untuk penjualan-penjualan selain penjualan harta kekayaan dan penjualan yang diadakan berdasarkan alinea kelima pasal 9, tak seorang pun dapat memperoleh lebih dari satu hari lelang atau penjualan dalam jangka waktu empat belas hari, jika karenanya penjualan yang lainnya harus diundurkan.ulukan, jika permohonan untuk itu diajukan sekurang-kurangnya delapan hari sebelum hari yang dikehendaki.</p></content>
+          </alinea>
+          <alinea eId="pasal_5__alinea_7">
+            <content><p>Jika suatu penjualan tidak dapat dilaksanakan pada hari yang diminta, maka hal itu harus diberitahukan secepat mungkin kepada pemohon. (s.d.u. dg. S. 1935-453.) Semua persoalan yang timbul dalam menerapkan pasal ini dan pada umumnya pertanyaan mengenai penjualan manakah yang dipandang sebagai penjualan perabot rumah tangga orang-orang yang akan pindah atau sebagai penjualan harta orang-orang yang meninggal, diputuskan oleh pengawas kantor lelang negeri.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_6">
+        <num>6</num>
+        <content><p>(s.d.u. dg. S. 1935-453.) Jika perlu, pengawas kantor lelang negeri boleh menentukan penjualan barang-barang tidak bergerak, usaha-usaha pertanahan di atas tanah sewa, kapal yang isinya dua puluh meter kubik atau lebih, dan efek (surat-surat berharga) pada suatu hari tertentu dalam satu minggu. (Vendu- regl. 204.) Penjualan tidak boleh dilakukan pada hari Minggu dan hari besar.</p></content>
+      </article>
+      <article eId="pasal_7">
+        <num>7</num>
+        <content><p>Juru lelang tidak berwenang menolak permintaan akan perantaraannya untuk mengadakan penjualan umum di daerahnya.</p></content>
+      </article>
+      <article eId="pasal_8">
+        <num>8</num>
+          <alinea eId="pasal_8__alinea_1">
+            <content><p>(s.d.u. dg. S. 1910-467; S. 1912-583; S. 1935-453.) Pengawas kantor lelang negeri harus menentukan peraturan umum mengenai jam berapa penjualan harus dimulai, dan jam berapa penjualan dapat dihentikan oleh juru lelang.</p></content>
+          </alinea>
+          <alinea eId="pasal_8__alinea_2">
+            <content><p>Dari peraturan tersebut, atas permintaan dari pemohon dan dengan persetujuan pengawas kantor lelang negeri, dapat diadakan penyimpangan mengenai jam mulainya penjualan.</p></content>
+          </alinea>
+          <alinea eId="pasal_8__alinea_3">
+            <content><p>Jika penjualan dilanjutkan atas permintaan penjual sesudah dapat dihentikan oleh juru lelang atau kuasanya, maka mereka, sama seperti dalam mengadakan lelang di waktu malam seperti yang disebut dalam alinea berikut, dapat meminta bayaran tambahan kepada penjual untuk diri sendiri dan untuk pegawai lelang bawahannya menurut tarif yang ditentukan oleh kepala pemerintah daerah (I), tanpa mengurangi ketentuan alinea terakhir dalam pasal ini Juru lelang dapat menagih pembayaran di muka, keeuali jika penjualnya adalah pemerintah.</p></content>
+          </alinea>
+          <alinea eId="pasal_8__alinea_4">
+            <content><p>(Vendu-regl.44.)Untuk barang-barang tersebut dalam pasal 6, buku-buku dan barang-barang kesenian atau ilmu lain, serta harta kekayaan, pengawas kantor lelang negeri dapat mengizinkan lelang pada malam hari, dengan pengertian, bahwa izin untuk itu dapat diberikan hanya jika hal itu tidak memberatkan juru lelang dan bawahannya, berhubung dengan pekerjaan yang harus mereka lakukan pada siang hari.</p></content>
+          </alinea>
+          <alinea eId="pasal_8__alinea_5">
+            <content><p>Pembayaran tambahan termaksud dalam pasal ini hanya diperhitungkan untuk penjualan lanjutan dan lelang malam yang diadakan di luar tempat kedudukan juru lelang atau tempat kediamanannya.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_9">
+        <num>9</num>
+          <alinea eId="pasal_9__alinea_1">
+            <content><p>Pengawas kantor lelang negeri harus menentukan tawaran paling rendah untuk pelelangan dengan harga meningkat dan tawaran paling tinggi untuk pelelangan dengan harga menurun.</p></content>
+          </alinea>
+          <alinea eId="pasal_9__alinea_2">
+            <content><p>Dalam hal penjualan dengan memasukkan tawaran dalam sampul tertutup, juru lelang atau kuasanya akan menentukan kapan harga penawaran harus dimasukkan kepadanya.</p></content>
+          </alinea>
+          <alinea eId="pasal_9__alinea_3">
+            <content><p>Penawaran harga ditulis dalam bahasa Indonesia dengan huruf Latin dan berisi nama, nama kecil, pekerjaan dan tempat tinggal orang yang memasukkan tawaran tertulis; harga yang ditawar dibulatkan dalam rupiah dan sen, ditulis dengan huruf menurut kebiasaan dan ditandatangani oleh orang yang memasukkan tawaran. Juru lelang atau kuasanya dapat menolak seseorang yang mengajukan lebih dari satu sampul penawaran untuk pelelangan yang sama.</p></content>
+          </alinea>
+          <alinea eId="pasal_9__alinea_4">
+            <content><p>(s.d.u. dg. S. 1940-56jo. S. 1941-3.) Jika juru lelang atau kuasanya, sesuai dengan ketentuan alinea kedua pasal lb, mengganti cara pelelangan dengan yang lain, maka batalah penawaran yang sudah diajukan mengenai barang-barang yang bersangkutan, tanpa mengurangi ketentuan alinea kelima dalam pasal ini.</p></content>
+          </alinea>
+          <alinea eId="pasal_9__alinea_5">
+            <content><p>(s.d.t. dg. S. 1940-56jo. S. 1941-3.) Jika dalam syarat-syarat suatu penjualan termaksud dalam alinea pertama pasal 6 ditentukan bahwa pelelangan dengan penawaran menaik dalam satu bulan sesudah mulai akan diikuti oleh pelelangan dengan penawaran menurun, atau sebaliknya, maka penawaran atau persetujuan yang sudah dilakukan, sejauh belum diberikan sebelumnya atau dihentikan, tetap mengikat sampai selesai penjualan, asal urutan cara pelelangan dan saat pelelangan yang kedua disebut dalam syarat-syarat penjualan itu.</p></content>
+          </alinea>
+          <alinea eId="pasal_9__alinea_6">
+            <content><p>Barangsiapa telah memasukkan tawaran tertulis, tidak dapat lagi menarik diri</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_10">
+        <num>10</num>
+          <alinea eId="pasal_10__alinea_1">
+            <content><p>(s.d.u. dg. S. 1935-453.) Untuk penjualan umum, upah lelang dihitung menurut ketentuan peraturan pemerintah.</p></content>
+          </alinea>
+          <alinea eId="pasal_10__alinea_2">
+            <content><p>Di samping itu, diatur pula penjualan yang diminta tetapi tidak dilangsungkan pada hari yang telah ditetapkan untuk itu, dalam hal mana pembatalan yang tidak pada waktunya menimbulkan kewajiban membayar ganti rugi. (S. 1935-454.)</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_18">
+        <num>18</num>
+          <alinea eId="pasal_18__alinea_1">
+            <content><p>(s.d.u. dg. S. 1934-27,511.) Dari orang-orang miskin hanya dipungut uang miskin.</p></content>
+          </alinea>
+          <alinea eId="pasal_18__alinea_2">
+            <content><p>(s.d.u. dg. S. 1940-56 jo. S. 1941-3.) Tanpa mengurangi ketentuan alinea keempat pasal ini, jumlah uang miskin untuk penjualan barang-barang tersebut dalam alinea pertama pasal 6 adalah empat perseribu dari jumlah harga penjualan.</p></content>
+          </alinea>
+          <alinea eId="pasal_18__alinea_3">
+            <content><p>(¹) Di luar Jawa-Madura oleh Residen : S. 1938-370 jo. 264.</p></content>
+          </alinea>
+          <alinea eId="pasal_18__alinea_4">
+            <content><p>Untuk penjualan barang-barang bergerak lain daripada yang disebut dalam alinea kedua pasal ini, jumlah uang miskin adalah tujuh perseribu dari jumlah harga penjualan.</p></content>
+          </alinea>
+          <alinea eId="pasal_18__alinea_5">
+            <content><p>Jika barang-barang termaksud dalam alinea kedua dijual dalam satu bagian dengan barang-barang termaksud dalam alinea ketiga, maka untuk semuanya, uang miskin harus dibayar menurut ketentuan alinea ketiga.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_19">
+        <num>19</num>
+        <content><p>(s.d.u. dg. 8. 1934-27,511; S. 1935-453.) Upah 1elang, sejauh tidak ditentukan lain oleh peraturan pemerintah termaksud dalam pasal l0, dibayar oleh penjual. (Lihat Reglemen vendusalaris pasal 1-4, 9, 10.) Uang miskin dibayar oleh pembeli, kecuali jika diperjanjikan bahwa harga pembelian tidak akan dibayar kepada pemerintah, dalam hal pengecualian ini uang miskin dibayar oleh penjual. Jika atau sejauh upah lelang yang harus dibayar oleh penjual tidak dapat diperhitungkan dengan cara yang ditentukan dalam pasa1 34, upah lelang, sebagaimana juga uang miskin yang harus dibayar oleh penjual, harus dibayar dalam delapan hari sesudah penjualan. Jika tidak membayar dalam jangka waktu tersebut, penjual didenda seperti menurut ketentuan pasal 23. (¹)</p></content>
+      </article>
+      <article eId="pasal_20">
+        <num>20</num>
+          <alinea eId="pasal_20__alinea_1">
+            <content><p>(s.d.u. dg. S. 1935-453.) Penjualan dilakukan sebagai berikut:</p></content>
+          </alinea>
+          <alinea eId="pasal_20__alinea_2">
+            <content><p>1e. untuk barang-barang bergerak yang tidak disebut dalam pasal 6, yang tidak dijual dengan contoh, atau atas permintaan pemerintah, atau dengan perjanjian, bahwa harga pembelian tidak dibayar kepada pemerintah, penjualan dilakukan di tempat barang-barang itu berada, kecuali bila pengawas kantor lelang negeri memutuskan lain;</p></content>
+          </alinea>
+          <alinea eId="pasal_20__alinea_3">
+            <content><p>2e. untuk semua barang-barang lain, penjualan dilakukan di tempat yang diinginkan oleh penjual.</p></content>
+          </alinea>
+          <alinea eId="pasal_20__alinea_4">
+            <content><p>Rumah-rumah lelang pemerintah, dengan izin pengawas kantor lelang negeri, dapat digunakan untuk mengadakan penjualan.</p></content>
+          </alinea>
+          <alinea eId="pasal_20__alinea_5">
+            <content><p>Penjualan dengan contoh tidak boleh diadakan tanpa seizin pengawas kantor lelang negeri. Dalam penjualan seperti itu, contoh-contoh harus disegel dengan cap oleh kantor lelang, oleh penjual dan satu atau dua di antara para pembeli, dan jika mereka yang disebut terakhlr menghendaki, contoh-contoh itu dapat disimpan di kantor lelang sampat dilakukan penyerahan.</p></content>
+          </alinea>
+          <alinea eId="pasal_20__alinea_6">
+            <content><p>(s.d.u. dg. S. 1916-583; S. 1935-453.) Barang-barang termaksud dalam pasal 6 , dengan pengecualian efek-efek atas tunjuk, tak boleh dijual kecuali sesudah juru lelang yakin, bahwa penjual memang berhak menjualnya. Bukti-bukti tentang hak menjual ini harus disampaikan kepada juru lelang, dan sekurang- kurangnya tiga hari sebelum penjualan, harus diperlihatkan kepada peminat di kantor lelang. (S. 1916-517.)</p></content>
+          </alinea>
+          <alinea eId="pasal_20__alinea_7">
+            <content><p>(s.d.u. dg. 8.1916-583.) Efek alas tunjuk harus diserahkan pada waktu pelelangan; penjualan batal jika tidak dilakukan penyerahan pada waktu termaksud.</p></content>
+          </alinea>
+          <alinea eId="pasal_20__alinea_8">
+            <content><p>Ketentuan-ketentuan ketiga alinea yang lalu tidak berlaku jika diperjanjikan bahwa harga pembelian tidak akan dibayarkan kepada pemerintah.</p></content>
+          </alinea>
+          <alinea eId="pasal_20__alinea_9">
+            <content><p>(s.d.t. dg. 8. 1912-583jo. 8.1913-248; s.d.u. dg. S. 1940-56jo. S. 1941-3.) Penjualan karena keputusan hakim berdasarkan pasal 197 Reglemen Indonesia, atau pasal 208 Reglemen Acara Hukum untuk Daerah Luar Jawa dan Madura, mengenai barang-barang tidak bergerak yang disita, tidak dapat dilakukan kecuali jika kepada jum lelang diberikan bukti-bukti pengumuman penjualan, sekurang-kurangnya tiga hari sebelum hari penjualan, atau yakin dengan cara lain bahwa pengumuman telah dilakukan sesuai dengan ketentuan undang- undang. (Vendu-regl. 37 alinea l a nomor 3° dan alinea kedelapan.)</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_21">
+        <num>21</num>
+          <alinea eId="pasal_21__alinea_1">
+            <content><p>Syarat-syarat penjualan ditentukan oleh penjual.</p></content>
+          </alinea>
+          <alinea eId="pasal_21__alinea_2">
+            <content><p>(¹) Lihat Surat Keputusan Menteri Keuangan RI No. Kep. 476/MKII/7/1972 tanggal 3 Juli 1972, ayat (1).</p></content>
+          </alinea>
+          <alinea eId="pasal_21__alinea_3">
+            <content><p>(s.d.u. dg. 8. 1935-453.) Perjanjian termaksud dalam alinea kedua pasal 4 hanya dapat dibuat dalam penjualan barang-barang tersebut dalam pasal 6 dan penjualan barang-barang dagangan dari tangan pertama seijin kayu. Perjanjian itu harus dibuat sedemikian rupa, sehingga sebelum penjualan, sudah ada kepastian, apakah penjualan itu dilakukan menurut ketentuan alinea pertama atau alinea kedua pasal 4.</p></content>
+          </alinea>
+          <alinea eId="pasal_21__alinea_4">
+            <content><p>Jika perjanjian tersebut tidak diadakan, maka berlaku ketentuan dua pasal berikut ini.</p></content>
+          </alinea>
+          <alinea eId="pasal_21__alinea_5">
+            <content><p>Ketentuan alinea yang lalu tidak berlaku untuk penjualan barang-barang pemerintah.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_22">
+        <num>22</num>
+          <alinea eId="pasal_22__alinea_1">
+            <content><p>(s.d.u. dg. S. 1910-257; S. 1935-453.) Kecuali dalam hal termaksud dalam alinea pertama pasal 28, para pembeli harus membayar harga pembelian dan biaya yang menjadi beban mereka dalam waktu tiga bulan sesudah hari penjualan. Tetapi jika penjualan dilakukan dengan penangguhan pembayaran selama sepuluh hari hal ini hanya dapat diperjanjikan oleh penjual dalam penjualan barang dagangan dari tangan pertama seijin kayu atau dengan perjanjian pembayaran tunai, maka pembayaran harus dilakukan dalam jangka waktu yang diperjanjikan atau pada waktu penjualan.(s.d.t. dg. S. 1916-583.)</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_2">
+            <content><p>Tanpa memperhatikan ketentuan mengenai jangka waktu pembayaran dalam alinea pertama pasal ini, tagihan pemerintah terhadap pembeli dengan segera dapat dituntut:</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_3">
+            <content><p>jika pembeli tidak membayar tunggakan dari satu utang lelang alan lebih pada teguran pertama yang ditujukan untuk itu;</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_4">
+            <content><p>jika harts kekayaan atau barang-barang tidak bergerak kepunyaan pembeli dijual di muka umum, entah karena kehendaknya sendiri, atau karena keputusan hakim. (Vendu-regl. 232.)</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_5">
+            <content><p>Dalam penjualan barang gadai, pengawas kantor lelang negeri yang bersangkutan harus menentukan apakah akan dilakukan dengan pembayaran tunai atau tidak.</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_6">
+            <content><p>(s.d.u. dg. S. 1916-583; S. 1940-56jo. S. 1941-3.) Apa yang hams dibayar oleh penjual sendiri sebagai pembeli barang-barang gadai, sedapat mungkin diperhitungkan dengan penghasilan yang diterimanya.</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_7">
+            <content><p>(s.d.u. dg. S. 1935-453.) Jika penjualan dilakukan di depan juru lelang kelas II atau di depan orang yang dikuasakan olehnya, barang-barang yang tidak termasuk harta kekayaan orang yang meninggalkan tempat atau meninggal dan tidak dijual untuk pemerintah, atas perintah pengadilan atau atas perintah atau dengan izin halai harta peninggalan, harus dijual dengan pembayaran tunai, kecuali bila pengawas kantor lelang negeri memberikan izin tertulis untuk memperjanjikan, bahwa penjualan akan dilakukan dengan kredit.</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_8">
+            <content><p>Pemerintah (Gubemur Jenderal) dapat menentukan bahwa di daerah atau bagian-bagian daerah tertentu penjualan barang-barang termaksud dalam alinea yang lalu harus dilakukan dengan pembayaran tunai, tanpa membedakan di hadapan siapa dilakukan penjualan tersebut, kecuali jika di sini pengawas kantor lelang negeri memberikan izin untuk memperjanjikan bahwa penjualan akan dilakukan dengan kredit.</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_9">
+            <content><p>lzin tertulis seperti yang dimaksud dalam dua alinea yang lalu dan permintaan untuk itu bebas dari meterai.</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_10">
+            <content><p>Pembayaran pada saatpenjualan harus dilakukan kepada juru lelang atau kuasanya.</p></content>
+          </alinea>
+          <alinea eId="pasal_22__alinea_11">
+            <content><p>Semua pembayaran lain juga harus dilakukan kepada juru 1elang, kecuali jika pegawai lain ditunjuk untuk menerimanya.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_23">
+        <num>23</num>
+          <alinea eId="pasal_23__alinea_1">
+            <content><p>(s.d.u. dg. S. 1929-491; S. 1930-354.) Jika tidak dilakukan pembayaran dalam jangka waktu yang ditentukan, debitur yang bersangkutan akan didenda 2 % dari apa yang harus dibayamya, dan bila sesudah satu bulan utang itu belum juga dibayar, denda akan dinaikkan menjadi 5%.</p></content>
+          </alinea>
+          <alinea eId="pasal_23__alinea_2">
+            <content><p>(s.d.t. dg.8. 1916-583.) Dalam hal-hal termaksud pada pasal 22 alinea kedua, denda mulai berlaku sesudah lampau jangka waktu pembayaran yang ditentukan dalam alinea pertama pasal tersebut.</p></content>
+          </alinea>
+          <alinea eId="pasal_23__alinea_3">
+            <content><p>Denda tidak dihitung lagi sejak hari meninggalnya debitur, hila harts peninggalannya diterima dengan hak istimewa untuk mengadakan pendaftaran harta kekayaan; juga denda tidak bertambah selama harta kekayaan debitur diurus oleh balai harta peninggalan.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_24">
+        <num>24</num>
+          <alinea eId="pasal_24__alinea_1">
+            <content><p>Di atas hak istimewa seperti dimaksud dalam pasal1 139 nomor 3 Kitab Undang-undang Hukum Perdata, mengenai tagihan terhadap para pembeli, pemerintah mempunyai hak istimewa atas semua barang bergerak dan tidak bergerak milik debitur dalam urutan tingkatan sesudah utang-utang yang dalam pasal 1149 Kitab Undang-undang Hukum Perdata diberi hak istimewa.</p></content>
+          </alinea>
+          <alinea eId="pasal_24__alinea_2">
+            <content><p>Hak istimewa ini hapus setelah lampau satu tahun sejak hari penjualan.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_25">
+        <num>25</num>
+          <alinea eId="pasal_25__alinea_1">
+            <content><p>Kecuali dalam hal penjualan yang disertai perjanjian, bahwa pembayaran tidak akan dilakukan kepada pemerintah, apakah pembayaran secara kredit diizinkan atau tidak, itu diserahkan kepada kebijaksanaan juru lelang.</p></content>
+          </alinea>
+          <alinea eId="pasal_25__alinea_2">
+            <content><p>Dalam pada itu, ia harus mengurus pembayaran kredit yang belum lunas, yang diizinkan oleh juru lelang sebelumnya, dan jika di tempat yang bersangkutan terdapat lebih dari seorangjuru lelang, ia juga harus mengurus pembayaran kredit-kredit yang diizinkan oleh rekan-rekan sekerjanya itu, seolah-olah kredit-kredit itu diizinkannya sendiri. Setiap juru lelang bertanggungjawab atas pembayaran secara kredit yang diizinkannya sendiri atau oleh kuasanya.</p></content>
+          </alinea>
+          <alinea eId="pasal_25__alinea_3">
+            <content><p>Pembayaran secara kredit, kecuali dalam keadaan yang ditentukan dalam pasal berikut, harus ditolak:</p></content>
+          </alinea>
+          <alinea eId="pasal_25__alinea_4">
+            <content><p>untuk mereka yang bekerja tetap sebagai pembeli barang-barang lelang;</p></content>
+          </alinea>
+          <alinea eId="pasal_25__alinea_5">
+            <content><p>untuk mereka yang belum membayar lunas utang lelangnya;</p></content>
+          </alinea>
+          <alinea eId="pasal_25__alinea_6">
+            <content><p>untuk mereka yang selama dua belas bulan terakhir perlu diberi tindakan khusus supaya membayar utang lelangnya.</p></content>
+          </alinea>
+          <alinea eId="pasal_25__alinea_7">
+            <content><p>(s.d.t. dg. S. 1929-147.)Juru lelang tidak berwenang untuk mengizinkan kredit bagi dirinya sendiri, dan sejauh mengenai pelelangan di kantor lelang kelas 1, bagi pegawai kantor tersebut.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_26">
+        <num>26</num>
+          <alinea eId="pasal_26__alinea_1">
+            <content><p>Kepada mereka yang menurut pendapat juru lelang tidak menunjukkan jaminan yang cukup untuk pelunasan utang, dan kepada orang-orang termaksud dalam pasal 25 alinea kedua, izin kredit biasa dapat diberikan jika juru lelang yakin bahwa mereka akan memenuhi kewajiban mereka.</p></content>
+          </alinea>
+          <alinea eId="pasal_26__alinea_2">
+            <content><p>Jaminan harus terdiri dari hipotek atas barang tidak bergerak, yang harganya tidak dibebani, sedikitnya sepertiga lebih dari jumlah kredit, atau jaminan satu orang atau lebih yang menurut pendapat juru sita adalah orang yang terpandang, di luar orang-orang termaksud dalam pasal 25. Setiap penjamin barus mengikatkan diri secara perorangan dengan melepaskan hak istimewa akan hasil penjualan, dan jika lebih dari seorang menyatakan diri sebagai penjamin, juga hak istimewa akan pembagian utang. Penjamin dapat ditentukan dengan akta khusus atau dengan lisan sewaktu penjualan dilakukan.</p></content>
+          </alinea>
+          <alinea eId="pasal_26__alinea_3">
+            <content><p>(s.d.u. dg. S. 1929-147.) Penjaminan dapat juga dilakukan dengan penyerahan buku tabungan pos sebagai gadai, asal saja jumlah tabungan tersebut paling tidak sama besar dengan jumlah kredit, atau surat-surat berharga atas tunjuk oleh atau berdasarkan peraturan pemerintah, yang nilainya harus melebihi jumlah kredit sekian persen menurut ketentuan peraturan pemerintah tersebut. (Vendu-instr. 13b, 13c; S. 1930-84.)</p></content>
+          </alinea>
+          <alinea eId="pasal_26__alinea_4">
+            <content><p>(s.d.u. dg. S. 1929-147.)Penggadaian buku tabungan pos harus segera diberitahukan oleh juru lelang kepada direktur tabungan pos.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_27">
+        <num>27</num>
+        <content><p>Kepada siapa pun tidak akan diberikan kredit blangko yang lebih dari dua puluh lima gulden. Barangsiapa menginginkan kredit yang lebih besar, barus melalui cara yang ditentukan dalam pasal 26 , yaitu mengadakan jaminan untuk seluruh kredit. Ketentuan dalam kedua alinea di atas tidak berlaku untuk penjualan hasil-hasil perusahaan pemerintah.</p></content>
+      </article>
+      <article eId="pasal_28">
+        <num>28</num>
+          <alinea eId="pasal_28__alinea_1">
+            <content><p>(s.d.u. dg. S. 1916-538.) Jika blangko kredit ditolak pada seseorang yang kepadanya penjualan diizinkan, ia harus memberikan jaminan sesuai dengan ketentuan pasal 26 atau membayar pada waktu penjualan. (Vendu-regl. 221.)</p></content>
+          </alinea>
+          <alinea eId="pasal_28__alinea_2">
+            <content><p>Jika hal itu tidak dipenuhinya, maka tidak boleh turut menawar untuk selanjutnya, dan yang telah dilelangkan harus dilelang kembali.</p></content>
+          </alinea>
+          <alinea eId="pasal_28__alinea_3">
+            <content><p>Ia bertanggung jawab terhadap penjual atas kekurangan, jika tawaran yang terjadi pada pelelangan yang kedua kurang dari tawaran pada pelelangan yang pertama.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_29">
+        <num>29</num>
+        <content><p>Yang dianggap sebagai penawar tertinggi dalam penawaran tertulis adalah orang yang memasukkan tawaran tertinggi yang diakui sah oleh juru lelang atau kuasanya, dan yang dianggap dapat diberi kredit oleh juru lelang atau kuasanya itu, atau jika tidak menghendaki kredit, yang membayar secara tunai atau memberikan jaminan menurut ketentuan pasal 26.</p></content>
+      </article>
+      <article eId="pasal_30">
+        <num>30</num>
+        <content><p>Jika beberapa orang sama-sama memasukkan penawaran tertinggi atau sama-sama menyetujui harga tertinggi, atau jika di antara tawaran-tawaran yang sah acta dua atau lebih yang sama-sama merupakan tawaran tertingi, juru lelang atau kuasanya akan menentukan siapa penawar tertinggi.</p></content>
+      </article>
+      <article eId="pasal_31">
+        <num>31</num>
+        <content><p>Dalam penjualan yang memuat perjanjian bahwa pembayaran harga pembelian tidak dilakukan pada pemerintah, pemberian atau penolakan kredit, penilaian jaminan para pembeli dan pengambilan keputusan termaksud dalam pasal.30, diserahkan kepada penjual.</p></content>
+      </article>
+      <article eId="pasal_32">
+        <num>32</num>
+          <alinea eId="pasal_32__alinea_1">
+            <content><p>(s.d.u. dg,.S. 1935-453; S. 1940-56jo. S. 1941-3.) Penjualan barang- barang termaksud dalam alinea pertama pasal 6, dilakukan sejauh dengan syarat, bahwa pembeli berhak menerangkan dengan akta notaris, untuk siapa ia membelinya. Keterangan semacam itu, agar dikuatkan oleh orang yang untuknya dilakukan pembelian, berakibat bahwa orang yang diberi keterangan itu dipandang sebagai pembeli, jika keterangan tersebut, dalam tiga bulan sejak hari diberikan, diperlihatkan kepada dan ditandatangani sebagai tanda diketahui oleh juru lelang, atau jika di kantor lelang acta pemegang buku, kepada dan oleh pemegang buku itu;</p></content>
+          </alinea>
+          <alinea eId="pasal_32__alinea_2">
+            <content><p>dan dalam hat acta pel\iamin, keterangan itu hanya berakibat demikian jika disetujui oleh penjamin itu.</p></content>
+          </alinea>
+          <alinea eId="pasal_32__alinea_3">
+            <content><p>Pembeli pertama dan penjaminnya tetap bertanggung jawab atas harga pembelian dan biaya-biaya.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_33">
+        <num>33</num>
+          <alinea eId="pasal_33__alinea_1">
+            <content><p>(s.d.u. dg. S. 1918-187.) Jika tagihan pemerintah yang timbul dari penjualan umum belum dilunasi pada akhir tahun timbulnya tagihan, atau sejak dulu dianggap tidak dapat ditagih lagi, maka penagihan dilakukan sebagai berikut:</p></content>
+          </alinea>
+          <alinea eId="pasal_33__alinea_2">
+            <content><p>sejauh mengenai tagihan terhadap pembeli, kepada juru lelang yang di hadapannya atau di daerahnya dilakukan penjualan, dan sejauh penagihan utang ditugaskan kepada pegawai-pegawai lain, kepada mereka hila mereka lalai dalam melakukan tugas itu;</p></content>
+          </alinea>
+          <alinea eId="pasal_33__alinea_3">
+            <content><p>sejauh mengenai tagihan terhadap penjual, kepada orang atau orang-orang yang lalai melakukan penagihan Besamya ganti rugi untuk masing-masing ditentukan oleh pemerintah. Jika tagihan yang menjadi beban pembeli timbul dari penjualan yang dilakukan oleh juru lelang kelas II, padanya dikenakan penggantian, jika hanya ia sendiri yang tersangkut dalam penagihan.</p></content>
+          </alinea>
+          <alinea eId="pasal_33__alinea_4">
+            <content><p>Dalam hal-hal lain, soal apakah dan sampai jumlah berapakah menurut pasal ini dikenakan penggantian, tidak diputuskan kecuali sesudah para pegawai yang bersangkutan, para ahli warisnya atau mereka yang memperoleh hak, atau, jika ia tak hadir, para pengurus harta peninggalan, diberi kesempatan untuk menunjukkan, bahwa para pegawai termaksud tadi dalam menagih utang-utang, dan mengenai juru lelang kelas 1 dalam mengizinkan kredit, telah bekerja sesuai dengan kewajibannya. (S. 1889-192.)</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_34">
+        <num>34</num>
+          <alinea eId="pasal_34__alinea_1">
+            <content><p>Kecuali jika diperjanjikan bahwa pembayaran harga pembelian tidak akan dilakukan kepada pemerintah, untuk hasil penjualan, dengan memperhatikan ketentuan alinea keempat pasal ini, diberikan suatu surat petul\iuk pembayaran pada kas negara atau surat perintah membayar uang: (Vendu-regl.</p></content>
+          </alinea>
+          <alinea eId="pasal_34__alinea_2">
+            <content><p>193.)</p></content>
+          </alinea>
+          <alinea eId="pasal_34__alinea_3">
+            <content><p>(s.d.u. dg. S. 1935-453.) sesudah lampau empat minggu sejak hari penjualan, untuk penjualan dengan kredit sepuluh hari dan penjualan dengan pembayaran tunai;</p></content>
+          </alinea>
+          <alinea eId="pasal_34__alinea_4">
+            <content><p>sesudah lampau empat bulan setelah hari penjualan, untuk yang lain-lainnya. Surat petunjuk pembayaran pada kas negara atau surat perintah membayar yang diberikan kepada dan atas nama orang yang berhak atau wakilnya yang sah dan pada kas negara di daerah tempat kedudukan juru 1elang yang melaksanakan penjualan.</p></content>
+          </alinea>
+          <alinea eId="pasal_34__alinea_5">
+            <content><p>Pengganti surat petunjuk pembayaran pada kas negara atau surat perintah membayar uang, jika diminta, diberikan kepada yang berhak atau wakilnya yang sah, selekas-lekasnya sesudah penjualan dalam bentuk surat petunjuk pembayaran pada kas negara atau surat perintah membayar uang satu atau lebih akseptasi atas namanya atau atas tunjuk, semuanya sejumlah yang harus dibayar, dan dapat dibayar di kas negara yang dituniuk di atas dalam empat minggu atau empat bulan sesudah hari pemjualan, tergantung pada jenisnya, apakah termasuk yang diuraikan dalam hurufe a atau b dari alinea pertama pasal ini.</p></content>
+          </alinea>
+          <alinea eId="pasal_34__alinea_6">
+            <content><p>(s.d.u. dg. S. 1916-583; S. 1940-56jo. S. 1941-3.) Surat peturliuk pembayaran pada kas negara, surat perintah membayar uang dan akseptasi diberikan untuk jumlah hasil perliualan, sesudah dikurangi upah lelang dan biaya lelang dalam perliualan barang-barang gadai yang dibebankan kepada perliual, juga setelah dikurangi utang yang harus dibayar penjual sebagai pembeli barang.</p></content>
+          </alinea>
+          <alinea eId="pasal_34__alinea_7">
+            <content><p>(s.d.u. dg. S. 1925-421; S. 1932-210; S. 1934-175.) Surat peturliukpembayaran pada kas negara, surat perintah membayar uang dan akseptasi diberikan berdasarkan ketentuan pasal 5 ayat (1) "Peraturan Pengurusan Administrasi" (S: 1933-381) oleh pejabat yang berwenang untuk menilai, membereskan. dan menentukan dapat tidaknya dibayar tagihan-tagihan atas beban pemerintah.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_35">
+        <num>35</num>
+        <content><p>(s.d.u. dg. S.1940-56jo. S. 1941-3.)Dari tiap-tiap perliualan umum yang dilakukan olehjuru lelang atau kuasanya, selama pemjualan, untuk tiap-tiap hari pelelangan atau penjualan harus dibuat berita acara tersendiri.</p></content>
+      </article>
+      <article eId="pasal_37">
+        <num>37</num>
+          <alinea eId="pasal_37__alinea_1">
+            <content><p>Berita acara berisikan:</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_2">
+            <content><p>di bagian pokok:</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_3">
+            <content><p>1e. tanggal dengan huruf;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_4">
+            <content><p>2e. nama kecil, nama dan tempat kedudukan juru lelang, serta nama kecil, nama dan tempat kediaman kuasanyajika penjualan dilakukan di hadapan kuasanya itu;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_5">
+            <content><p>3e. nama kecil, nama, pekerjaan dan tempat kediaman orang yang meminta perliualan dilakukan; jika ia tidak bertindak atas namanya sendiri, juga uraian tentang kedudukan di mana ia meminta diadakan penjualan, danjika berdasarkan pasal 20 juru lelang harus yakin bahwa pemjual berhak untuk menjual, juga pendapatnya tentang hal itu;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_6">
+            <content><p>4e. tempat penjualan;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_7">
+            <content><p>5e. keterangan umum tentang sifat barang yang dijual; tetapi dalam menurliukkan letak dan batas-batas barang-barang tidak bergerak, harus diterangkan bukti hak milik menurut bunyi kata-katanya, dengan menyebut hak pengabdian pekarangan yang ada di atasnya dan beban yang diletakkan pada barang-barang tersebut;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_8">
+            <content><p>6e. syarat-syarat perliualan;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_9">
+            <content><p>di bagian batang tubuh;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_10">
+            <content><p>1e. uraian tentang barang yang dilelangkan;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_11">
+            <content><p>2e. nama dan pekerjaan tiap-tiap pembeli; juga tempat kediamannya, jika ia tidak berdiam di tempat penjualan;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_12">
+            <content><p>4e. harga yang dihentikan dengan angka;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_13">
+            <content><p>5e. (s.d.t: dg. S. 1940-56 jo. S. 1941-3.) dalam penjualan yang dilakukan menurut ketentuan alinea kelima pasal 9, tawaran atau persetujuan harga yang tetap mengikat, juga dengan angka; nama dan pekerjaan penawaratau orang yang menyetujui harga yang bersangkutan, serta tempat kediamannyajika tidak berdiam di tempat penjualan;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_14">
+            <content><p>pada bagian penutup;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_15">
+            <content><p>1e. jumlah barang lelang yang laku, dengan huruf dan angka;</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_16">
+            <content><p>2e. jumlah yang dikabulkan dan jumlah yang ditahan untuk itu, semuanya dengan huruf dan angka.</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_17">
+            <content><p>Jika berdasarkan pemberian kuasa pembelian dilakukan untuk orang lain, maka dalam berita acara harus disebut, baik pemberi kuasa maupun penerima kuasa.</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_18">
+            <content><p>Jika pemberian kuasa itu dilakukan seeara lisan, maka hal itu harus disebut dalam berita acara dan, jika pemberi kuasa tidak membayar pada waktunya, maka penerima kuasa bertanggung jawab seolah-olah ia membeli untuk diri sendiri.</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_19">
+            <content><p>Jika pemberian kuasa dilakukan seeara tertulis, maka surat kuasa harus dilekatkan pada berita acara, kecuali mengenai beberapa penjualan, surat-surat harus disimpan di kantor lelang. Jika surat kuasa dibuat di hadapan notaris dengan minut, maka cukuplah hal itu disebut dalam berita acara.</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_20">
+            <content><p>Jika seseorang dengan lisan menjadi penjamin pembeli, maka hal itu harus disebut dalam berita acara. Jika penjaminan dilakukan seeara tertulis, maka akta penjaminan harus dilekatkan pada berita acara, kecuali mengenai beberapa penjualan, yang akta-aktanya harus disimpan di kantor lelang.</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_21">
+            <content><p>Pelekatan termaksud dalam dUB alinea yang lalu harus disebut dalam berita acara Tiap-tiap pembayaran yang dilakukan pada waktu perliualan yang tidak berdasarkan perjamjian pembayaran tunai, juga harus disebut dalam berita acara.</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_22">
+            <content><p>(s.d.t. dg. S. 1912-583.) Dalam penjualan eksekusi termaksud dalam alinea terakhir pasal 20, dalam bagian pokok berita acara harus dicantumkan bahwa bukti-bukti pengumuman termaksud dalam ketentuan itu telah diberitahukan pada waktunya kepada juru lelang, atau dengan jalan lain ia telah yakin bahwa pengumuman itu telah diberikan.</p></content>
+          </alinea>
+          <alinea eId="pasal_37__alinea_23">
+            <content><p>(s.d.u. dg. S. 1940-56jo. S. 1941-3.) Pada permulaan penjualan, juga dalam melanjutkan penjualan yang terhenti di pertengahan pelelangan, bagian pokok berita acara harus dibacakan dengan suara keras oleh atau atas nama juru lelang kepada hadirin. Hal pembaeaan ini harus disebut dalam berita acara.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_38">
+        <num>38</num>
+          <alinea eId="pasal_38__alinea_1">
+            <content><p>38. (s.d.u. dg. S. 1912-583.) Setiap halaman berita acara, kecuali halaman terakhir, harus disahkan dengan tanda tangan oleh juru lelang atau kuasanya.</p></content>
+          </alinea>
+          <alinea eId="pasal_38__alinea_2">
+            <content><p>Berita acara tersebut ditandatangani oleh juru lelang atau kuasanya, dan oleh orang yang untuknya permohonan penjualan itu diadakan; jika ia tidak ingin turut-serta menandatanganinya atau tidak hadir pada waktu penutupan berita acara, maka hal itu harus dinyatakan dalam berita acara.</p></content>
+          </alinea>
+          <alinea eId="pasal_38__alinea_3">
+            <content><p>Pencantuman bahwa penjual tidak mau melakukan penandatanganan atau tidak hadir, berlaku sebagai penandatanganan penjual. Bea meterai untuk minut berita acara dipikul oleh penjual.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_39">
+        <num>39</num>
+          <alinea eId="pasal_39__alinea_1">
+            <content><p>Tidak diperbolehkan membuat perubahan atau tambahan dalam berita acara, kecuali pada bagian margin (pinggir) atau, jika di situ tidak terdapat tempat kosong, langsung sebelum tempat tanda tangan berita acara, dengan menunjuk halaman dan baris yang bersangkutan.</p></content>
+          </alinea>
+          <alinea eId="pasal_39__alinea_2">
+            <content><p>Tidak boleh diadakan peneoretan atas kata-kata, huruf-huruf atau angka-angka yang tertera dalam berita acara, kecuali dengan garis tipis sedemikian rupa, sehingga apa yang tadinya tertulis di situ tetap dapat dibaca. Banyaknya kata, huruf dan angka yang digaris, harus dicantumkan di bagian margin halaman kertas.</p></content>
+          </alinea>
+          <alinea eId="pasal_39__alinea_3">
+            <content><p>Semua yang menurut pasal ini ditulis pada bagian margin berita acara, harus ditandatangani oleh para penandatangan berita acara. (Vendu-regl. 40.)</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_40">
+        <num>40</num>
+        <content><p>(s.d.u. dg. S. 1912-583; S. 1917-262; S. 1940-56jo. S. 1941-3.) Juru lelang bertanggungjawab atas semua kerugian yang timbul akibat tidak ditaatinya ketentuan-ketentuan pasa1 37, 38 dan 39 tersebut di atas.</p></content>
+      </article>
+      <article eId="pasal_41">
+        <num>41</num>
+        <content><p>Berita acara disimpan oleh juru lelang atau penggantinya; di tempat terdapat lebih dari satujuru lelang, berita acara disimpan oleh pemegang buku pada kantor lelang. Juru simpan wajib memperlihatkan berita acara tersebut dengan mengirimkannya kepada pengawas kantor lelang negeri atas permintaannya.</p></content>
+      </article>
+      <article eId="pasal_42">
+        <num>42</num>
+          <alinea eId="pasal_42__alinea_1">
+            <content><p>(s.d.u. dg. S. 1916-583.) Setiap orang yang berkepentingan dapat menerima salinan atau kutipan berita cara yang diotentikkan mengenai penjualan dengan pembayaran atas bea meterai sebesar dua gulden lima puluh sen untuk setiap salinan atau kutipan. (Vendu-regl. 452.)</p></content>
+          </alinea>
+          <alinea eId="pasal_42__alinea_2">
+            <content><p>Kepada penjual dapat diberikan suatu grosse dari berita acara dengan pembayaran yang sama, di atas bea meterai, jika diperjanjikan bahwa pembayaran harga pembelian tidak dilakukan kepada pemerintah; jika perjanjian demikian tidak diadakan, maka grosse hanya boleh diberikan kepada pemerintah.</p></content>
+          </alinea>
+          <alinea eId="pasal_42__alinea_3">
+            <content><p>Untuk setiap pembelian tersendiri atau untuk pembelian-pembelian yang dilakukan oleh satu orang yang sama atau orang-orang yang diizinkan seeara bersama-sama dengan pembayaran yang sama untuk menyerahkan suatu kutipan berita acara sebagai grosse. Kutipan demikian harus berisikan bagian pokok dan penutup, termasuk pula bagian batang tubuh berita acara, akan tetapi hanya sejauh pembelian yang bersangkutan.</p></content>
+          </alinea>
+          <alinea eId="pasal_42__alinea_4">
+            <content><p>Grosse harus memakai kata-kata "Demi keadilan berdasarkan Ketuhanan Yang Maha Esa" pada bagian kepalanya dan kata-kata "dikeluarkan untuk grosse pertama" pada bagian penutup, dan memuat nama orang yang menerimanya.</p></content>
+          </alinea>
+          <alinea eId="pasal_42__alinea_5">
+            <content><p>Grosse yang diserahkan secara demikian, baik kepada pembeli dan penjaminnya, maupun kepada orang yang menyatakan diri membeli untuk orang lain atas kekuatan pemberian kuasa secara lisan, diberi kekuatan yang sama seperti grosse akta hipotek dan grosse akta notaris, berisikan kewajiban untuk melunasi sejumlah liang, dibuat di Indonesia, danpada bagian pokoknya dicantumkan kata-kata "Demi keadilan berdasarkan Ketuhanan Yang Maha Esa" . (Rv. 435 dst., 440;</p></content>
+          </alinea>
+          <alinea eId="pasal_42__alinea_6">
+            <content><p>JR. 224; RBg. 258.)</p></content>
+          </alinea>
+          <alinea eId="pasal_42__alinea_7">
+            <content><p>Salinan, kutipan dan grosse diberikan oleh juru simpan berita acara.</p></content>
+          </alinea>
+          <alinea eId="pasal_42__alinea_8">
+            <content><p>Untuk salinan, kutipan dan grosse yang diberikan untuk kepentingan pemerintah, tidak dipungut biaya apa pun juga.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_43">
+        <num>43</num>
+        <content><p>Untuk duplikat suatu rekening atau kuitansi yang diberikan kepada orang yang berkepentingan atas permintaannya, dipungut biaya dua puluh lima sen. (Vendu-regl. 452.)</p></content>
+      </article>
+      <article eId="pasal_44">
+        <num>44</num>
+          <alinea eId="pasal_44__alinea_1">
+            <content><p>(s.d.u. terakhirdg. S. 1935-453.) Untuk penjualan yang dilakukan di luar daerah tempat kedudukan atau tempat tinggal kuasanya, juru lelang atau kuasanya dan pegawai bawahan kantor lelang dapat memperhitungkan biaya perjalanan dan biaya penginapan kepada penjual menurut daftar biaya untuk itu, yang ditentukan oleh kantor perjalanan negara.</p></content>
+          </alinea>
+          <alinea eId="pasal_44__alinea_2">
+            <content><p>Dari jumlah yang harus dibayar, juru lelang dapat menagih pembayaran dimuka, kecuali jika penjualnya adalah pemerintah.</p></content>
+          </alinea>
+          <alinea eId="pasal_44__alinea_3">
+            <content><p>Untuk penerapan daftar biaya termaksud dalam pasal ini, pemerintah dapat menetapkan peraturan khusus mengenai penjualan harta kekayaan.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_45">
+        <num>45</num>
+          <alinea eId="pasal_45__alinea_1">
+            <content><p>(s.d.u. dg. S. 1919-450; S. 1929-491 jo. S. 1930-354; S. 1935-453.)</p></content>
+          </alinea>
+          <alinea eId="pasal_45__alinea_2">
+            <content><p>Bagian mana dalam upah lelang termasuk santi rugi yang harus dibayar kepada juru lelang kelas II karena membatalkan penjualan tidak pada waktunya, itu ditentukan oleh pemerintah, juga dalam hal tidak dibayamya bagian tersebut.</p></content>
+          </alinea>
+          <alinea eId="pasal_45__alinea_3">
+            <content><p>Pembayaran-pembayaran tersebut dalam pasal 42 dan 43, yang diterima oleh juru lelang termaksud di atas, seluruhnya untuk juru lelang.</p></content>
+          </alinea>
+          <alinea eId="pasal_45__alinea_4">
+            <content><p>(s.d.t. dg. S. 1929-491jo. S. 1930-354; s.d.u. dg. S. 1940-56jo. S. 1941-3.) Juru lelang kelas II menerima upah persepsi menurut persentase yang ditentukan oleh Menteri Keuangan dari jumlah harga pembelian, upah lelang dan uang miskin yang dibayar oleh debitur dan dibukukan.</p></content>
+          </alinea>
+          <alinea eId="pasal_45__alinea_5">
+            <content><p>(s.d.t. dg. S. 1929-491jo. S. 1930-354.) Pengurangan upah tidak boleh dilaku- kan berhubung dengan tagihan termaksud dalam pasal 33.</p></content>
+          </alinea>
+          <alinea eId="pasal_45__alinea_6">
+            <content><p>(s.d.t. dg. S. 1929-491 jo. S. 1930-354.) Kepada juru lelang kelas II, untuk pembayaran gaji pegawai-pegawai yang diperlukannya, dapat diberikan pem- bayaran di muka, sejauh ditunjukkan pentingnya hal itu, semuanya menurut peraturan yang ditentukan oleh Menteri Keuangan.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_46">
+        <num>46</num>
+          <alinea eId="pasal_46__alinea_1">
+            <content><p>(s.d.u. dg. S. 1917-262,558; S. 1918-187; S. 1940-56jo. S. 1941-3.) Sejauh tidak ditentukan sebaliknya, ketentuan-ketentuan yang lalu dari peraturan ini tidak berlaku terhadap pel\iualan yang dilakukan berdasarkan ketentuan alinea kedua pasal la tanpa perantaraan juru lelang.</p></content>
+          </alinea>
+          <alinea eId="pasal_46__alinea_2">
+            <content><p>(s.d.u. dg. S. 1935-453.) Sejauh mengenai perijualan hasil-hasil pemerintah, ketentuan-ketentuan itu, tanpa mengurangi apa yang ditentukan berdasarkan atau dalam pasal 10, 21 alinea terakhir, dan 27, hanya diterapkan sejauh sesuai dengan syarat-syarat yang berlaku bagi pel\iuailm-penjualan tersebut.</p></content>
+          </alinea>
+          <alinea eId="pasal_46__alinea_3">
+            <content><p>Dalam hal penjualan kayu pemerintah, jika untuk pembayaran ditentukan jangka waktu yang lain darijangka waktu yang ditentukan dalam alinea pertama pasal 22, maka dalam penerapan pasal 33, kata-kata "tahun timbulnya tagihan" yang terdapat dalam pasal tersebut terakhir, hams diganti dengan kata-kata "tahun, dalam tahun mana tagihan sudah harus dilunasi menurut syarat-syarat penjualan" .</p></content>
+          </alinea>
+          <alinea eId="pasal_46__alinea_4">
+            <content><p>Alinea keempat dihapus berdasarkan S.1940-56jo. S. 1941-3.</p></content>
+          </alinea>
+
+      </article>
+      <article eId="pasal_48">
+        <num>48</num>
+        <content><p>(s.d.u. dg. S. 1940-56 jo. S. 1941-3.) Pengertian "juru lelang" dalam peraturan ini mencakup juga pemegang buku atau pembantu pemegang buku (ajung pemegang buku) yang ditugaskan oleh pengawas kantor lelang negeri untuk melakukan penjualan umum.</p></content>
+      </article>
+      <article eId="pasal_49">
+        <num>49</num>
+        <content><p>(s.d.t. dg. S. 1916-583.) Peraturan ini dapat dinamakan "Peraturan Lelang" .</p></content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

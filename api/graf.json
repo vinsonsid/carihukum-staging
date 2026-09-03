@@ -323,6 +323,12 @@
    "nama": "Perubahan IV",
    "jenis": "perubahan-uud",
    "jalur": null
+  },
+  {
+   "id": "vendu-1908",
+   "nama": "VENDU 189/1908",
+   "jenis": "vendu",
+   "jalur": "/vendu/1908/189/"
   }
  ],
  "edges": [
@@ -382,6 +388,21 @@
    "tipe": "dasar-hukum"
   },
   {
+   "dari": "pmk-2017-189",
+   "ke": "vendu-1908",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pmk-2019-113",
+   "ke": "vendu-1908",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pmk-2023-122",
+   "ke": "vendu-1908",
+   "tipe": "dasar-hukum"
+  },
+  {
    "dari": "pmk-2023-122",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
@@ -389,6 +410,11 @@
   {
    "dari": "pmk-2024-86",
    "ke": "pmk-2023-122",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "pmk-2024-86",
+   "ke": "vendu-1908",
    "tipe": "dasar-hukum"
   },
   {
@@ -735,6 +761,11 @@
    "dari": "uud-1945-perubahan-4",
    "ke": "uud-1945",
    "tipe": "perubahan"
+  },
+  {
+   "dari": "vendu-1908",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
   }
  ]
 }
