@@ -125,6 +125,8 @@
   .anotasi { background: #fff8e6; border: 1px solid #e6d9a8; border-radius: 6px; padding: 8px 12px; margin: 8px 0; font: 400 .82rem/1.55 var(--sans); color: #6b5518; }
   .anotasi strong { color: #574410; }
   .anotasi.pendapat { background: #f4f2fb; border-color: #cfc8e8; }
+  .anotasi.rinci { background:#f2f6fb; border-color:#c3d4e8; }
+  .anotasi.rinci strong { color:#1f3a5f; }
   .anotasi.pendapat strong { color: #3d3266; }
   .ke-putusan { display:inline-block; margin-top:6px; font-size:.8rem; font-weight:600; text-decoration:none }
   .tak-mengikat { display:inline-block; font-size:.68rem; font-weight:700; letter-spacing:.03em;
@@ -358,8 +360,8 @@ function konsolidasi(workId, asOf) {
       } else if (op.op === "anotasi") {
         const t = cari(pohon, op.unit);
         if (t) (t.node.anotasi ||= []).push({ pelaku: ev.pelaku, tanggal: ev.tanggal_berlaku,
-          catatan: op.catatan, kutipan: op.kutipan, sifat: op.sifat, penulis: op.penulis,
-          verifikasi_kutipan: op.verifikasi_kutipan });
+          catatan: op.catatan, kutipan: op.kutipan, sifat: op.sifat, penulis: op.penulis, paragraf: op.paragraf, bagian: op.bagian,
+          verifikasi_kutipan: op.verifikasi_kutipan, jalur_putusan: ev.jalur_putusan });
       } else if (op.op === "replace_penjelasan") {
         (pjEfektif ||= {})[String(op.pasal).toLowerCase()] = { teks: op.teks, pelaku: ev.pelaku, tanggal: ev.tanggal_berlaku };
       }
@@ -520,6 +522,28 @@ function riwayatHTML(u) {
 
 function anotasiHTML(u) {
   if (!u.anotasi || !u.anotasi.length) return "";
+  // Duduk perkara & pertimbangan hukum bisa puluhan paragraf — tidak dimuat
+  // inline di halaman undang-undang, cukup ditunjuk ke halaman putusannya.
+  const RINCI = ["pertimbangan", "duduk_perkara"];
+  const rinci = u.anotasi.filter((a) => RINCI.includes(a.sifat));
+  const inti = u.anotasi.filter((a) => !RINCI.includes(a.sifat));
+  const penunjuk = (() => {
+    if (!rinci.length) return "";
+    const per = new Map();
+    for (const a of rinci) {
+      const k = a.jalur_putusan || "-";
+      const v = per.get(k) || { p: 0, d: 0 };
+      a.sifat === "pertimbangan" ? v.p++ : v.d++;
+      per.set(k, v);
+    }
+    return [...per].map(([jalur, v]) => {
+      const bag = [v.p ? `${v.p} paragraf pertimbangan hukum` : "", v.d ? "petitum" : ""]
+        .filter(Boolean).join(" &amp; ");
+      return `<div class="anotasi rinci">📄 <strong>Duduk perkara &amp; pertimbangan:</strong> ${bag} tersedia utuh${jalur !== "-" ? ` di <a href="${jalur}">halaman putusan ▸</a>` : ""}</div>`;
+    }).join("");
+  })();
+  u = { ...u, anotasi: inti };
+  if (!inti.length) return penunjuk;
   // Pendapat hakim (dissenting/concurring) BUKAN amar dan tidak mengikat —
   // dibedakan tegas dari catatan peristiwa agar pembaca tak tertukar.
   const LABEL = {
@@ -538,7 +562,7 @@ function anotasiHTML(u) {
     const tautan = a.jalur_putusan
       ? ` <a class="ke-putusan" href="${a.jalur_putusan}">lihat putusan lengkap ▸</a>` : "";
     return `<div class="anotasi${L && L[2] ? " pendapat" : ""}">${kepala} ${esc(a.catatan)}${kutip}${tautan}</div>`;
-  }).join("");
+  }).join("") + penunjuk;
 }
 
 function unitHTML(u) {
