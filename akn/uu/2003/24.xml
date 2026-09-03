@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2003/24/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2003/24"/>
+          <FRBRdate date="2003-08-13" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2003/24/ind@2003-08-13/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2003/24/ind@2003-08-13"/>
+          <FRBRdate date="2003-08-13" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2003/24/ind@2003-08-13/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2003/24/ind@2003-08-13.akn"/>
+          <FRBRdate date="2026-09-03" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Mahkamah Konstitusi adalah salah satu pelaku kekuasaan kehakiman sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Dewan Perwakilan Rakyat yang selanjutnya disebut DPR adalah Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Permohonan adalah permintaan yang diajukan secara tertulis kepada Mahkamah Konstitusi mengenai:</p></content>
+              </point>
+              <point eId="pasal_1__huruf_a">
+                <num>a.</num>
+                <content><p>pengujian undang-undang terhadap Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_b">
+                <num>b.</num>
+                <content><p>sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_c">
+                <num>c.</num>
+                <content><p>pembubaran partai politik;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_d">
+                <num>d.</num>
+                <content><p>perselisihan tentang hasil pemilihan umum; atau</p></content>
+              </point>
+              <point eId="pasal_1__huruf_e">
+                <num>e.</num>
+                <content><p>pendapat DPR bahwa Presiden dan/atau Wakil Presiden diduga telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela, dan/atau tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>KEDUDUKAN DAN SUSUNAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Mahkamah Konstitusi merupakan salah satu lembaga negara yang melakukan kekuasaan kehakiman yang merdeka untuk menyelenggarakan peradilan guna menegakkan hukum dan keadilan.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <content><p>Mahkamah Konstitusi berkedudukan di Ibukota Negara Republik Indonesia.</p></content>
+          </article>
+          <part eId="bab_2__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Susunan</heading>
+              <article eId="pasal_4">
+                <num>4</num>
+                  <paragraph eId="pasal_4__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Mahkamah Konstitusi mempunyai 9 (sembilan) orang anggota hakim konstitusi yang ditetapkan dengan Keputusan Presiden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Susunan Mahkamah Kontitusi terdiri atas seorang Ketua merangkap anggota, seorang Wakil Ketua merangkap anggota, dan 7 (tujuh) orang anggota hakim konstitusi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketua dan Wakil Ketua dipilih dari dan oleh hakim konstitusi untuk masa jabatan selama 3 (tiga) tahun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Sebelum ... (4) Sebelum Ketua dan Wakil Ketua Mahkamah Konstitusi terpilih sebagaimana dimaksud pada ayat (3), rapat pemilihan Ketua dan Wakil Ketua Mahkamah Konstitusi dipimpin oleh hakim konstitusi yang tertua usianya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan mengenai tata cara pemilihan Ketua dan Wakil Ketua sebagaimana dimaksud pada ayat (3) diatur lebih lanjut oleh Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_5">
+                <num>5</num>
+                <content><p>Hakim konstitusi adalah pejabat negara.</p></content>
+              </article>
+              <article eId="pasal_6">
+                <num>6</num>
+                  <paragraph eId="pasal_6__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Kedudukan protokoler dan hak keuangan Ketua, Wakil Ketua, dan anggota hakim konstitusi berlaku ketentuan peraturan perundang-undangan bagi pejabat negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Hakim konstitusi hanya dapat dikenakan tindakan kepolisian atas perintah Jaksa Agung setelah mendapat persetujuan tertulis Presiden, kecuali dalam hal:</p></intro>
+                      <point eId="pasal_6__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>tertangkap tangan melakukan tindak pidana; atau</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>berdasarkan bukti permulaan yang cukup disangka telah melakukan tindak pidana kejahatan yang diancam dengan pidana mati atau tindak pidana kejahatan terhadap keamanan negara.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Sekretariat Jenderal dan Kepaniteraan</heading>
+              <article eId="pasal_7">
+                <num>7</num>
+                <content><p>Untuk kelancaran pelaksanaan tugas dan wewenangnya, Mahkamah Konstitusi dibantu oleh sebuah Sekretariat Jenderal dan Kepaniteraan. Pasal 8 ....</p></content>
+              </article>
+              <article eId="pasal_8">
+                <num>8</num>
+                <content><p>Ketentuan mengenai susunan organisasi, fungsi, tugas, dan wewenang Sekretariat Jenderal dan Kepaniteraan Mahkamah Konstitusi diatur lebih lanjut dengan Keputusan Presiden atas usul Mahkamah Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                <content><p>Anggaran Mahkamah Konstitusi dibebankan pada mata anggaran tersendiri dalam Anggaran Pendapatan dan Belanja Negara.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>KEKUASAAN MAHKAMAH KONSTITUSI</heading>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <intro><p>Mahkamah Konstitusi berwenang mengadili pada tingkat pertama dan terakhir yang putusannya bersifat final untuk:</p></intro>
+                  <point eId="pasal_10__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>menguji undang-undang terhadap Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>memutus pembubaran partai politik; dan</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>memutus perselisihan tentang hasil pemilihan umum.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Mahkamah Konstitusi wajib memberikan putusan atas pendapat DPR bahwa Presiden dan/atau Wakil Presiden diduga telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela, dan/atau tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_3">
+                <num>(3)</num>
+                <intro><p>Ketentuan sebagaimana dimaksud pada ayat (2) berupa:</p></intro>
+                  <point eId="pasal_10__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>pengkhianatan terhadap negara adalah tindak pidana terhadap keamanan negara sebagaimana diatur dalam undang-undang.</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>korupsi dan penyuapan adalah tindak pidana korupsi atau penyuapan sebagaimana diatur dalam undang-undang.</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>tindak pidana berat lainnya adalah tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih.</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>perbuatan tercela adalah perbuatan yang dapat merendahkan martabat Presiden dan/atau Wakil Presiden.</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden adalah syarat sebagaimana ditentukan dalam Pasal 6 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+            <content><p>Untuk kepentingan pelaksanaan wewenang sebagaimana dimaksud dalam Pasal 10, Mahkamah Konstitusi berwenang memanggil pejabat negara, pejabat pemerintah, atau warga masyarakat untuk memberikan keterangan.</p></content>
+          </article>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Tanggung Jawab dan Akuntabilitas</heading>
+              <article eId="pasal_12">
+                <num>12</num>
+                <content><p>Mahkamah Konstitusi bertanggung jawab mengatur organisasi, personalia, administrasi, dan keuangan sesuai dengan prinsip pemerintahan yang baik dan bersih.</p></content>
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Mahkamah Konstitusi wajib mengumumkan laporan berkala kepada masyarakat secara terbuka mengenai:</p></intro>
+                      <point eId="pasal_13__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>permohonan yang terdaftar, diperiksa, dan diputus;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pengelolaan keuangan dan tugas administrasi lainnya.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Laporan sebagaimana dimaksud pada ayat (1) dimuat dalam berita berkala yang diterbitkan oleh Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                <content><p>Masyarakat mempunyai akses untuk mendapatkan putusan Mahkamah Konstitusi.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENGANGKATAN DAN PEMBERHENTIAN HAKIM KONSTITUSI</heading>
+          <article eId="pasal_15">
+            <num>15</num>
+            <intro><p>Hakim konstitusi harus memenuhi syarat sebagai berikut:</p></intro>
+              <point eId="pasal_15__huruf_a">
+                <num>a.</num>
+                <content><p>memiliki integritas dan kepribadian yang tidak tercela;</p></content>
+              </point>
+              <point eId="pasal_15__huruf_b">
+                <num>b.</num>
+                <content><p>adil; dan</p></content>
+              </point>
+              <point eId="pasal_15__huruf_c">
+                <num>c.</num>
+                <content><p>negarawan yang menguasai konstitusi dan ketatanegaraan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_16">
+            <num>16</num>
+              <paragraph eId="pasal_16__ayat_1">
+                <num>(1)</num>
+                <intro><p>Untuk dapat diangkat menjadi hakim konstitusi seorang calon harus memenuhi syarat:</p></intro>
+                  <point eId="pasal_16__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>warga negara Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>berpendidikan sarjana hukum;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>berusia sekurang-kurangnya 40 (empat puluh) tahun pada saat pengangkatan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>tidak pernah dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>tidak sedang dinyatakan pailit berdasarkan putusan pengadilan; dan</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>mempunyai pengalaman kerja di bidang hukum sekurang-kurangnya 10 (sepuluh) tahun.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_2">
+                <num>(2)</num>
+                <content><p>Calon hakim konstitusi yang bersangkutan wajib membuat surat pernyataan tentang kesediaannya untuk menjadi hakim konstitusi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+            <intro><p>Hakim konstitusi dilarang merangkap menjadi:</p></intro>
+              <point eId="pasal_17__huruf_a">
+                <num>a.</num>
+                <content><p>pejabat negara lainnya;</p></content>
+              </point>
+              <point eId="pasal_17__huruf_b">
+                <num>b.</num>
+                <content><p>anggota partai politik;</p></content>
+              </point>
+              <point eId="pasal_17__huruf_c">
+                <num>c.</num>
+                <content><p>pengusaha;</p></content>
+              </point>
+              <point eId="pasal_17__huruf_d">
+                <num>d.</num>
+                <content><p>advokat; atau</p></content>
+              </point>
+              <point eId="pasal_17__huruf_e">
+                <num>e.</num>
+                <content><p>pegawai negeri.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <content><p>Hakim konstitusi diajukan masing-masing 3 (tiga) orang oleh Mahkamah Agung, 3 (tiga) orang oleh DPR, dan 3 (tiga) orang oleh Presiden, untuk ditetapkan dengan Keputusan Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Keputusan Presiden sebagaimana dimaksud pada ayat (1) ditetapkan dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak pengajuan calon diterima Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+            <content><p>Pencalonan hakim konstitusi dilaksanakan secara transparan dan partisipatif.</p></content>
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Ketentuan mengenai tata cara seleksi, pemilihan, dan pengajuan hakim konstitusi diatur oleh masing-masing lembaga yang berwenang sebagaimana dimaksud dalam Pasal 18 ayat (1).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemilihan hakim konstitusi sebagaimana dimaksud pada ayat (1) dilaksanakan secara obyektif dan akuntabel.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_21">
+            <num>21</num>
+              <paragraph eId="pasal_21__ayat_1">
+                <num>(1)</num>
+                <content><p>Sebelum memangku jabatannya, hakim konstitusi mengucapkan sumpah atau janji menurut agamanya, yang berbunyi sebagai berikut: Sumpah hakim konstitusi: “Demi Allah saya bersumpah bahwa saya akan memenuhi kewajiban hakim konstitusi dengan sebaik-baiknya dan seadil-adilnya, memegang teguh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan menjalankan segala peraturan perundang-undangan dengan selurus- lurusnya menurut Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta berbakti kepada nusa dan bangsa” Janji hakim konstitusi: “Saya berjanji bahwa saya dengan sungguh-sungguh akan memenuhi kewajiban hakim konstitusi dengan sebaik-baiknya dan seadil-adilnya, memegang teguh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan menjalankan segala peraturan perundang-undangan dengan selurus-lurusnya menurut Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta berbakti kepada nusa dan bangsa”</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengucapan sumpah atau janji sebagaimana dimaksud pada ayat (1) dilakukan di hadapan Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_3">
+                <num>(3)</num>
+                <content><p>Sebelum memangku jabatannya, Ketua dan Wakil Ketua Mahkamah Konstitusi mengucapkan sumpah atau janji menurut agamanya di hadapan Mahkamah Konstitusi yang berbunyi sebagai berikut: Sumpah Ketua/Wakil Ketua Mahkamah Konstitusi: “Demi Allah saya bersumpah bahwa saya akan memenuhi kewajiban Ketua/Wakil Ketua Mahkamah Konstitusi dengan sebaik-baiknya dan seadil-adilnya, memegang teguh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan menjalankan segala peraturan perundang- undangan dengan selurus-lurusnya menurut Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta berbakti kepada nusa dan bangsa” Janji Ketua/Wakil Ketua Mahkamah Konstitusi: “Saya berjanji bahwa saya dengan sungguh-sungguh akan memenuhi kewajiban Ketua/Wakil Ketua Mahkamah Konstitusi dengan sebaik- baiknya dan seadil-adilnya, memegang teguh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan menjalankan segala peraturan perundang-undangan dengan selurus-lurusnya menurut Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta berbakti kepada nusa dan bangsa”</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Masa Jabatan</heading>
+              <article eId="pasal_22">
+                <num>22</num>
+                <content><p>Masa jabatan hakim konstitusi selama 5 (lima) tahun dan dapat dipilih kembali hanya untuk 1(satu) kali masa jabatan berikutnya.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pemberhentian</heading>
+              <article eId="pasal_23">
+                <num>23</num>
+                  <paragraph eId="pasal_23__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Hakim konstitusi diberhentikan dengan hormat apabila:</p></intro>
+                      <point eId="pasal_23__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>meninggal dunia;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>mengundurkan diri atas permintaan sendiri yang diajukan kepada Ketua Mahkamah Konstitusi;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>telah berusia 67 (enam puluh tujuh) tahun;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>telah berakhir masa jabatannya; atau</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>sakit jasmani atau rohani secara terus-menerus yang dibuktikan dengan surat keterangan dokter.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Hakim konstitusi diberhentikan dengan tidak hormat apabila:</p></intro>
+                      <point eId="pasal_23__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>melakukan perbuatan tercela;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>tidak menghadiri persidangan yang menjadi tugas dan kewajibannya selama 5 (lima) kali berturut-turut tanpa alasan yang sah;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>melanggar sumpah atau janji jabatan;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>dengan sengaja menghambat Mahkamah Konstitusi memberi putusan dalam waktu sebagaimana dimaksud dalam Pasal 7B ayat (4) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>melanggar larangan sebagaimana dimaksud dalam Pasal 17; atau</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_g">
+                        <num>g.</num>
+                        <content><p>tidak lagi memenuhi syarat sebagai hakim konstitusi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Permintaan pemberhentian dengan tidak hormat sebagaimana dimaksud pada ayat (2) huruf b, huruf c, huruf d, huruf e, huruf f, dan huruf g dilakukan setelah yang bersangkutan diberi kesempatan untuk membela diri di hadapan Majelis Kehormatan Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pemberhentian hakim konstitusi ditetapkan dengan Keputusan Presiden atas permintaan Ketua Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan mengenai pembentukan, susunan, dan tata kerja Majelis Kehormatan Mahkamah Konstitusi diatur lebih lanjut oleh Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                  <paragraph eId="pasal_24__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hakim konstitusi sebelum diberhentikan dengan tidak hormat, diberhentikan sementara dari jabatannya dengan Keputusan Presiden atas permintaan Ketua Mahkamah Konstitusi, kecuali alasan pemberhentian sebagaimana dimaksud dalam Pasal 23 ayat (2) huruf a.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemberhentian sementara sebagaimana dimaksud pada ayat (1) paling lama 60 (enam puluh) hari kerja dan dapat diperpanjang untuk paling lama 30 (tiga puluh) hari kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal perpanjangan waktu sebagaimana dimaksud pada ayat (2) telah berakhir tanpa dilanjutkan dengan pemberhentian, yang bersangkutan direhabilitasi dengan Keputusan Presiden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Keputusan Presiden sebagaimana dimaksud pada ayat (1) dan ayat (3) dikeluarkan dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak diterimanya permintaan Ketua Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Sejak ... (5) Sejak dimintakan pemberhentian sementara sebagaimana dimaksud pada ayat (1), hakim konstitusi yang bersangkutan dilarang menangani perkara.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_25">
+                <num>25</num>
+                  <paragraph eId="pasal_25__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Apabila terhadap seorang hakim konstitusi ada perintah penahanan, hakim konstitusi yang bersangkutan diberhentikan sementara dari jabatannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hakim konstitusi diberhentikan sementara dari jabatannya apabila dituntut di muka pengadilan dalam perkara pidana sebagaimana dimaksud dalam Pasal 21 ayat (4) Undang-Undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana meskipun tidak ditahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemberhentian sementara sebagaimana dimaksud pada ayat (1) dan ayat (2) paling lama 60 (enam puluh) hari kerja dan dapat diperpanjang untuk paling lama 30 (tiga puluh) hari kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal perpanjangan waktu sebagaimana dimaksud pada ayat (3) telah berakhir dan belum ada putusan pengadilan, terhadap yang bersangkutan diberhentikan sebagai hakim konstitusi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Apabila di kemudian hari putusan pengadilan menyatakan yang bersangkutan tidak bersalah, yang bersangkutan direhabilitasi.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_26">
+                <num>26</num>
+                  <paragraph eId="pasal_26__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal terjadi kekosongan hakim konstitusi karena berhenti atau diberhentikan, lembaga yang berwenang sebagaimana dimaksud dalam Pasal 18 ayat (1) mengajukan pengganti kepada Presiden dalam jangka waktu paling lambat 30 (tiga puluh) hari kerja sejak terjadi kekosongan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Keputusan Presiden tentang pengangkatan pengganti sebagaimana dimaksud pada ayat (1) ditetapkan dalam jangka waktu paling lambat 7 ( tujuh) hari kerja sejak pengajuan diterima Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_27">
+                <num>27</num>
+                <content><p>Ketentuan mengenai tata cara pemberhentian sebagaimana dimaksud dalam Pasal 23, Pasal 24, dan Pasal 25 diatur lebih lanjut oleh Mahkamah Konstitusi. BAB V ....</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>HUKUM ACARA</heading>
+          <article eId="pasal_28">
+            <num>28</num>
+              <paragraph eId="pasal_28__ayat_1">
+                <num>(1)</num>
+                <content><p>Mahkamah Konstitusi memeriksa, mengadili, dan memutus dalam sidang pleno Mahkamah Konstitusi dengan 9 (sembilan) orang hakim konstitusi, kecuali dalam keadaan luar biasa dengan 7 (tujuh) orang hakim konstitusi yang dipimpin oleh Ketua Mahkamah Konstitusi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Ketua Mahkamah Konstitusi berhalangan memimpin sidang pleno sebagaimana dimaksud pada ayat (1), sidang dipimpin oleh Wakil Ketua Mahkamah Konstitusi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal Ketua dan Wakil Ketua Mahkamah Konstitusi berhalangan pada waktu yang bersamaan, sidang pleno dipimpin oleh ketua sementara yang dipilih dari dan oleh Anggota Mahkamah Konstitusi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_4">
+                <num>(4)</num>
+                <content><p>Sebelum sidang pleno sebagaimana dimaksud pada ayat (1), Mahkamah Konstitusi dapat membentuk panel hakim yang anggotanya terdiri atas sekurang-kurangnya 3 (tiga) orang hakim konstitusi untuk memeriksa yang hasilnya dibahas dalam sidang pleno untuk diambil putusan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_5">
+                <num>(5)</num>
+                <content><p>Putusan Mahkamah Konstitusi diucapkan dalam sidang terbuka untuk</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_6">
+                <num>(6)</num>
+                <content><p>umum. Tidak dipenuhi ketentuan sebagaimana dimaksud pada ayat (5) berakibat putusan Mahkamah Konstitusi tidak sah dan tidak mempunyai kekuatan hukum.</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pengajuan Permohonan</heading>
+              <article eId="pasal_29">
+                <num>29</num>
+                  <paragraph eId="pasal_29__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Permohonan diajukan secara tertulis dalam bahasa Indonesia oleh pemohon atau kuasanya kepada Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Permohonan ... (2) Permohonan sebagaimana dimaksud pada ayat (1) ditandatangani oleh pemohon atau kuasanya dalam 12 (dua belas) rangkap.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_30">
+                <num>30</num>
+                <intro><p>Permohonan wajib dibuat dengan uraian yang jelas mengenai:</p></intro>
+                  <point eId="pasal_30__huruf_a">
+                    <num>a.</num>
+                    <content><p>pengujian undang-undang terhadap Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+                  </point>
+                  <point eId="pasal_30__huruf_b">
+                    <num>b.</num>
+                    <content><p>sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+                  </point>
+                  <point eId="pasal_30__huruf_c">
+                    <num>c.</num>
+                    <content><p>pembubaran partai politik;</p></content>
+                  </point>
+                  <point eId="pasal_30__huruf_d">
+                    <num>d.</num>
+                    <content><p>perselisihan tentang hasil pemilihan umum; atau</p></content>
+                  </point>
+                  <point eId="pasal_30__huruf_e">
+                    <num>e.</num>
+                    <content><p>pendapat DPR bahwa Presiden dan/atau Wakil Presiden diduga telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela, dan/atau tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Permohonan sekurang-kurangnya harus memuat:</p></intro>
+                      <point eId="pasal_31__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>nama dan alamat pemohon;</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>uraian mengenai perihal yang menjadi dasar permohonan sebagaimana dimaksud dalam Pasal 30; dan</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>hal-hal yang diminta untuk diputus.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengajuan permohonan sebagaimana dimaksud pada ayat (1) harus disertai dengan alat bukti yang mendukung permohonan tersebut.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pendaftaran Permohonan dan Penjadwalan Sidang</heading>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Terhadap setiap permohonan yang diajukan, Panitera Mahkamah Konstitusi melakukan pemeriksaan kelengkapan permohonan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Permohonan ... (2) Permohonan yang belum memenuhi kelengkapan sebagaimana dimaksud dalam Pasal 29 dan Pasal 31 ayat (1) huruf a dan ayat (2), wajib dilengkapi oleh pemohon dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak pemberitahuan kekuranglengkapan tersebut diterima pemohon.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Permohonan yang telah memenuhi kelengkapan dicatat dalam Buku Registrasi Perkara Konstitusi.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_33">
+                <num>33</num>
+                <content><p>Buku Registrasi Perkara Konstitusi memuat antara lain catatan tentang kelengkapan administrasi dengan disertai pencantuman nomor perkara, tanggal penerimaan berkas permohonan, nama pemohon, dan pokok perkara.</p></content>
+              </article>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Mahkamah Konstitusi menetapkan hari sidang pertama, setelah permohonan dicatat dalam Buku Registrasi Perkara Konstitusi dalam jangka waktu paling lambat 14 (empat belas) hari kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penetapan hari sidang pertama sebagaimana dimaksud pada ayat (1) diberitahukan kepada para pihak dan diumumkan kepada masyarakat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengumuman kepada masyarakat sebagaimana dimaksud pada ayat (2) dilakukan dengan menempelkan salinan pemberitahuan tersebut di papan pengumuman Mahkamah Konstitusi yang khusus digunakan untuk itu.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_35">
+                <num>35</num>
+                  <paragraph eId="pasal_35__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemohon dapat menarik kembali permohonan sebelum atau selama pemeriksaan Mahkamah Konstitusi dilakukan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penarikan kembali sebagaimana dimaksud pada ayat (1) mengakibatkan permohonan tidak dapat diajukan kembali.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Alat Bukti</heading>
+              <article eId="pasal_36">
+                <num>36</num>
+                  <paragraph eId="pasal_36__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Alat bukti ialah:</p></intro>
+                      <point eId="pasal_36__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>surat atau tulisan;</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>keterangan saksi;</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>keterangan ahli;</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>keterangan para pihak;</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>petunjuk; dan</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>alat bukti lain berupa informasi yang diucapkan, dikirimkan, diterima, atau disimpan secara elektronik dengan alat optik atau yang serupa dengan itu.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Alat bukti sebagaimana dimaksud pada ayat (1) huruf a, harus dapat dipertanggungjawabkan perolehannya secara hukum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal alat bukti sebagaimana dimaksud pada ayat (2) yang tidak dapat dipertanggungjawabkan perolehannya secara hukum, tidak dapat dijadikan alat bukti yang sah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Mahkamah Konstitusi menentukan sah atau tidak sahnya alat bukti dalam persidangan Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_37">
+                <num>37</num>
+                <content><p>Mahkamah Konstitusi menilai alat-alat bukti yang diajukan ke persidangan dengan memperhatikan persesuaian antara alat bukti yang satu dengan alat bukti yang lain.</p></content>
+              </article>
+              <article eId="pasal_38">
+                <num>38</num>
+                  <paragraph eId="pasal_38__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Para pihak, saksi, dan ahli wajib hadir memenuhi panggilan Mahkamah</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Konstitusi. Surat panggilan harus sudah diterima oleh yang dipanggil dalam jangka waktu paling lambat 3 (tiga) hari sebelum hari persidangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Para pihak yang merupakan lembaga negara dapat diwakili oleh pejabat yang ditunjuk atau kuasanya berdasarkan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Jika saksi tidak hadir tanpa alasan yang sah meskipun sudah dipanggil secara patut menurut hukum, Mahkamah Konstitusi dapat meminta bantuan kepolisian untuk menghadirkan saksi tersebut secara paksa.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Pemeriksaan Pendahuluan</heading>
+              <article eId="pasal_39">
+                <num>39</num>
+                  <paragraph eId="pasal_39__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sebelum mulai memeriksa pokok perkara, Mahkamah Konstitusi mengadakan pemeriksaan kelengkapan dan kejelasan materi permohonan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam pemeriksaan sebagaimana dimaksud pada ayat (1) Mahkamah Konstitusi wajib memberi nasihat kepada pemohon untuk melengkapi dan/atau memperbaiki permohonan dalam jangka waktu paling lambat 14 (empat belas) hari.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Pemeriksaan Persidangan</heading>
+              <article eId="pasal_40">
+                <num>40</num>
+                  <paragraph eId="pasal_40__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sidang Mahkamah Konstitusi terbuka untuk umum, kecuali rapat</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_2">
+                    <num>(2)</num>
+                    <content><p>permusyawaratan hakim.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setiap orang yang hadir dalam persidangan wajib menaati tata tertib persidangan. Ketentuan mengenai tata tertib persidangan sebagaimana dimaksud pada ayat (2) diatur oleh Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pelanggaran terhadap ketentuan sebagaimana dimaksud pada ayat (2), merupakan penghinaan terhadap Mahkamah Konstitusi.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_41">
+                <num>41</num>
+                  <paragraph eId="pasal_41__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam persidangan hakim konstitusi memeriksa permohonan beserta alat</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_2">
+                    <num>(2)</num>
+                    <content><p>bukti yang diajukan. Untuk kepentingan pemeriksaan sebagaimana dimaksud pada ayat (1), hakim konstitusi wajib memanggil para pihak yang berperkara untuk memberi keterangan yang dibutuhkan dan/atau meminta keterangan secara tertulis kepada lembaga negara yang terkait dengan permohonan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Lembaga ... (3) Lembaga negara sebagaimana dimaksud pada ayat (2) wajib menyampaikan penjelasannya dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak permintaan hakim konstitusi diterima.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_42">
+                <num>42</num>
+                <content><p>Saksi dan ahli yang dipanggil wajib hadir untuk memberikan keterangan.</p></content>
+              </article>
+              <article eId="pasal_43">
+                <num>43</num>
+                <content><p>Dalam pemeriksaan persidangan, pemohon dan/atau termohon dapat didampingi atau diwakili oleh kuasanya berdasarkan surat kuasa khusus untuk itu.</p></content>
+              </article>
+              <article eId="pasal_44">
+                <num>44</num>
+                  <paragraph eId="pasal_44__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal pemohon dan/atau termohon didampingi oleh selain kuasanya di dalam persidangan, pemohon dan/atau termohon harus membuat surat keterangan yang khusus untuk itu.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_44__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Surat keterangan sebagaimana dimaksud pada ayat (1) ditunjukkan dan diserahkan kepada hakim konstitusi di dalam persidangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketujuh">
+            <num>Ketujuh</num>
+            <heading>Putusan</heading>
+              <article eId="pasal_45">
+                <num>45</num>
+                  <paragraph eId="pasal_45__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Mahkamah Konstitusi memutus perkara berdasarkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 sesuai dengan alat bukti dan keyakinan hakim.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Putusan Mahkamah Konstitusi yang mengabulkan permohonan harus didasarkan pada sekurang-kurangnya 2 (dua) alat bukti.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Putusan Mahkamah Konstitusi wajib memuat fakta yang terungkap dalam persidangan dan pertimbangan hukum yang menjadi dasar putusan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Putusan sebagaimana dimaksud pada ayat (3) diambil secara musyawarah untuk mufakat dalam sidang pleno hakim konstitusi yang dipimpin oleh ketua sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Dalam ... (5) Dalam sidang permusyawaratan, setiap hakim konstitusi wajib menyampaikan pertimbangan atau pendapat tertulis terhadap permohonan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Dalam hal musyawarah sidang pleno hakim konstitusi sebagaimana dimaksud pada ayat (4) tidak dapat menghasilkan putusan, musyawarah ditunda sampai musyawarah sidang pleno hakim konstitusi berikutnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Dalam hal musyawarah sidang pleno setelah diusahakan dengan sungguh- sungguh tidak dapat dicapai mufakat bulat, putusan diambil dengan suara terbanyak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Dalam hal musyawarah sidang pleno hakim konstitusi sebagaimana dimaksud pada ayat (7) tidak dapat diambil dengan suara terbanyak, suara terakhir ketua sidang pleno hakim konstitusi menentukan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_9">
+                    <num>(9)</num>
+                    <content><p>Putusan Mahkamah Konstitusi dapat dijatuhkan pada hari itu juga atau ditunda pada hari lain yang harus diberitahukan kepada para pihak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_10">
+                    <num>(10)</num>
+                    <content><p>Dalam hal putusan tidak tercapai mufakat bulat sebagaimana dimaksud pada ayat (7) dan ayat (8), pendapat anggota Majelis Hakim yang berbeda dimuat dalam putusan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_46">
+                <num>46</num>
+                <content><p>Putusan Mahkamah Konstitusi ditandatangani oleh hakim yang memeriksa, mengadili, dan memutus, dan panitera.</p></content>
+              </article>
+              <article eId="pasal_47">
+                <num>47</num>
+                <content><p>Putusan Mahkamah Konstitusi memperoleh kekuatan hukum tetap sejak selesai diucapkan dalam sidang pleno terbuka untuk umum.</p></content>
+              </article>
+              <article eId="pasal_48">
+                <num>48</num>
+                  <paragraph eId="pasal_48__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Mahkamah Konstitusi memberi putusan Demi Keadilan Berdasarkan Ketuhanan Yang Maha Esa.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_48__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Setiap putusan Mahkamah Konstitusi harus memuat:</p></intro>
+                      <point eId="pasal_48__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>kepala putusan berbunyi: “DEMI KEADILAN BERDASARKAN KETUHANAN YANG MAHA ESA”;</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>identitas pihak;</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>ringkasan permohonan;</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>pertimbangan terhadap fakta yang terungkap dalam persidangan;</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>pertimbangan hukum yang menjadi dasar putusan;</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>amar putusan; dan</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_2__huruf_g">
+                        <num>g.</num>
+                        <content><p>hari, tanggal putusan, nama hakim konstitusi, dan panitera.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_49">
+                <num>49</num>
+                <content><p>Mahkamah Konstitusi wajib mengirimkan salinan putusan kepada para pihak dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak putusan diucapkan.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedelapan">
+            <num>Kedelapan</num>
+            <heading>Pengujian Undang-Undang terhadap Undang-Undang Dasar</heading>
+              <article eId="pasal_50">
+                <num>50</num>
+                <content><p>Undang-undang yang dapat dimohonkan untuk diuji adalah undang-undang yang diundangkan setelah perubahan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </article>
+              <article eId="pasal_51">
+                <num>51</num>
+                  <paragraph eId="pasal_51__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pemohon adalah pihak yang menganggap hak dan/atau kewenangan konstitusionalnya dirugikan oleh berlakunya undang-undang, yaitu:</p></intro>
+                      <point eId="pasal_51__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>perorangan warga negara Indonesia;</p></content>
+                      </point>
+                      <point eId="pasal_51__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>kesatuan masyarakat hukum adat sepanjang masih hidup dan sesuai dengan perkembangan masyarakat dan prinsip Negara Kesatuan Republik Indonesia yang diatur dalam undang-undang;</p></content>
+                      </point>
+                      <point eId="pasal_51__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>badan hukum publik atau privat; atau</p></content>
+                      </point>
+                      <point eId="pasal_51__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>lembaga negara.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_51__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemohon wajib menguraikan dengan jelas dalam permohonannya tentang hak dan/atau kewenangan konstitusionalnya sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_51__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Dalam permohonan sebagaimana dimaksud pada ayat (2), pemohon wajib menguraikan dengan jelas bahwa:</p></intro>
+                      <point eId="pasal_51__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>pembentukan undang-undang tidak memenuhi ketentuan berdasarkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_51__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>materi muatan dalam ayat, pasal, dan/atau bagian undang-undang dianggap bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_52">
+                <num>52</num>
+                <content><p>Mahkamah Konstitusi menyampaikan permohonan yang sudah dicatat dalam Buku Registrasi Perkara Konstitusi kepada DPR dan Presiden untuk diketahui, dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_53">
+                <num>53</num>
+                <content><p>Mahkamah Konstitusi memberitahukan kepada Mahkamah Agung adanya permohonan pengujian undang-undang dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_54">
+                <num>54</num>
+                <content><p>Mahkamah Konstitusi dapat meminta keterangan dan/atau risalah rapat yang berkenaan dengan permohonan yang sedang diperiksa kepada Majelis Permusyawaratan Rakyat, DPR, Dewan Perwakilan Daerah, dan/atau Presiden.</p></content>
+              </article>
+              <article eId="pasal_55">
+                <num>55</num>
+                <content><p>Pengujian peraturan perundang-undangan di bawah undang-undang yang sedang dilakukan Mahkamah Agung wajib dihentikan apabila undang-undang yang menjadi dasar pengujian peraturan tersebut sedang dalam proses pengujian Mahkamah Konstitusi sampai ada putusan Mahkamah Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_56">
+                <num>56</num>
+                  <paragraph eId="pasal_56__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal Mahkamah Konstitusi berpendapat bahwa pemohon dan/atau permohonannya tidak memenuhi syarat sebagaimana dimaksud dalam Pasal 50 dan Pasal 51, amar putusan menyatakan permohonan tidak dapat diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam ... (2) Dalam hal Mahkamah Konstitusi berpendapat bahwa permohonan beralasan, amar putusan menyatakan permohonan dikabulkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal permohonan dikabulkan sebagaimana dimaksud pada ayat (2), Mahkamah Konstitusi menyatakan dengan tegas materi muatan ayat, pasal, dan/atau bagian dari undang-undang yang bertentangan dengan Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal pembentukan undang-undang dimaksud tidak memenuhi ketentuan pembentukan undang-undang berdasarkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, amar putusan menyatakan permohonan dikabulkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Dalam hal undang-undang dimaksud tidak bertentangan dengan Undang- Undang Dasar Negara Republik Indonesia Tahun 1945, baik mengenai pembentukan maupun materinya sebagian atau keseluruhan, amar putusan menyatakan permohonan ditolak.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_57">
+                <num>57</num>
+                  <paragraph eId="pasal_57__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Putusan Mahkamah Konstitusi yang amar putusannya menyatakan bahwa materi muatan ayat, pasal, dan/atau bagian undang-undang bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, materi muatan ayat, pasal, dan/atau bagian undang-undang tersebut tidak mempunyai kekuatan hukum mengikat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_57__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Putusan Mahkamah Konstitusi yang amar putusannya menyatakan bahwa pembentukan undang-undang dimaksud tidak memenuhi ketentuan pembentukan undang-undang berdasarkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, undang-undang tersebut tidak mempunyai kekuatan hukum mengikat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_57__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Putusan Mahkamah Konstitusi yang mengabulkan permohonan wajib dimuat dalam Berita Negara dalam jangka waktu paling lambat 30 (tiga puluh) hari kerja sejak putusan diucapkan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_58">
+                <num>58</num>
+                <content><p>Undang-undang yang diuji oleh Mahkamah Konstitusi tetap berlaku, sebelum ada putusan yang menyatakan bahwa undang-undang tersebut bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </article>
+              <article eId="pasal_59">
+                <num>59</num>
+                <content><p>Putusan Mahkamah Konstitusi mengenai pengujian undang-undang terhadap Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 disampaikan kepada DPR, Dewan Perwakilan Daerah, Presiden, dan Mahkamah Agung.</p></content>
+              </article>
+              <article eId="pasal_60">
+                <num>60</num>
+                <content><p>Terhadap materi muatan ayat, pasal, dan/atau bagian dalam undang-undang yang telah diuji, tidak dapat dimohonkan pengujian kembali.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kesembilan">
+            <num>Kesembilan</num>
+            <heading>Sengketa Kewenangan Lembaga Negara yang Kewenangannya Diberikan oleh Undang-Undang Dasar</heading>
+              <article eId="pasal_61">
+                <num>61</num>
+                  <paragraph eId="pasal_61__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemohon adalah lembaga negara yang kewenangannya diberikan oleh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 yang mempunyai kepentingan langsung terhadap kewenangan yang dipersengketakan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_61__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemohon wajib menguraikan dengan jelas dalam permohonannya tentang kepentingan langsung pemohon dan menguraikan kewenangan yang dipersengketakan serta menyebutkan dengan jelas lembaga negara yang menjadi termohon.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_62">
+                <num>62</num>
+                <content><p>Mahkamah Konstitusi menyampaikan permohonan yang sudah dicatat dalam Buku Registrasi Perkara Konstitusi kepada termohon dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi. Pasal 63 ....</p></content>
+              </article>
+              <article eId="pasal_63">
+                <num>63</num>
+                <content><p>Mahkamah Konstitusi dapat mengeluarkan penetapan yang memerintahkan pada pemohon dan/atau termohon untuk menghentikan sementara pelaksanaan kewenangan yang dipersengketakan sampai ada putusan Mahkamah Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_64">
+                <num>64</num>
+                  <paragraph eId="pasal_64__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal Mahkamah Konstitusi berpendapat bahwa pemohon dan/atau permohonannya tidak memenuhi syarat sebagaimana dimaksud dalam Pasal 61, amar putusan menyatakan permohonan tidak dapat diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_64__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Mahkamah Konstitusi berpendapat bahwa permohonan beralasan, amar putusan menyatakan permohonan dikabulkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_64__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal permohonan dikabulkan sebagaimana dimaksud pada ayat (2), Mahkamah Konstitusi menyatakan dengan tegas bahwa termohon tidak mempunyai kewenangan untuk melaksanakan kewenangan yang dipersengketakan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_64__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal permohonan tidak beralasan, amar putusan menyatakan permohonan ditolak.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_65">
+                <num>65</num>
+                <content><p>Mahkamah Agung tidak dapat menjadi pihak dalam sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 pada Mahkamah Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_66">
+                <num>66</num>
+                  <paragraph eId="pasal_66__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Putusan Mahkamah Konstitusi yang amar putusannya menyatakan bahwa termohon tidak mempunyai kewenangan untuk melaksanakan kewenangan yang dipersengketakan, termohon wajib melaksanakan putusan tersebut dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak putusan diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_66__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jika putusan tersebut tidak dilaksanakan dalam jangka waktu sebagaimana dimaksud pada ayat (1), pelaksanaan kewenangan termohon batal demi hukum.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_67">
+                <num>67</num>
+                <content><p>Putusan Mahkamah Konstitusi mengenai sengketa kewenangan disampaikan kepada DPR, Dewan Perwakilan Daerah, dan Presiden.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kesepuluh">
+            <num>Kesepuluh</num>
+            <heading>Pembubaran Partai Politik</heading>
+              <article eId="pasal_68">
+                <num>68</num>
+                  <paragraph eId="pasal_68__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemohon adalah Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_68__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemohon wajib menguraikan dengan jelas dalam permohonannya tentang ideologi, asas, tujuan, program, dan kegiatan partai politik yang bersangkutan, yang dianggap bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_69">
+                <num>69</num>
+                <content><p>Mahkamah Konstitusi menyampaikan permohonan yang sudah dicatat dalam Buku Registrasi Perkara Konstitusi kepada partai politik yang bersangkutan dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_70">
+                <num>70</num>
+                  <paragraph eId="pasal_70__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal Mahkamah Konstitusi berpendapat bahwa permohonan tidak memenuhi syarat sebagaimana dimaksud dalam Pasal 68, amar putusan menyatakan permohonan tidak dapat diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_70__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Mahkamah Konstitusi berpendapat bahwa permohonan beralasan, amar putusan menyatakan permohonan dikabulkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_70__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal Mahkamah Konstitusi berpendapat bahwa permohonan tidak beralasan, amar putusan menyatakan permohonan ditolak.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_71">
+                <num>71</num>
+                <content><p>Putusan Mahkamah Konstitusi mengenai permohonan atas pembubaran partai politik wajib diputus dalam jangka waktu paling lambat 60 (enam puluh) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi. Pasal 72 ....</p></content>
+              </article>
+              <article eId="pasal_72">
+                <num>72</num>
+                <content><p>Putusan Mahkamah Konstitusi mengenai pembubaran partai politik disampaikan kepada partai politik yang bersangkutan.</p></content>
+              </article>
+              <article eId="pasal_73">
+                <num>73</num>
+                  <paragraph eId="pasal_73__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pelaksanaan putusan pembubaran partai politik sebagaimana dimaksud dalam Pasal 71, dilakukan dengan membatalkan pendaftaran pada Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_73__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Putusan Mahkamah Konstitusi sebagaimana dimaksud pada ayat (1) diumumkan oleh Pemerintah dalam Berita Negara Republik Indonesia dalam jangka waktu paling lambat 14 (empat belas) hari sejak putusan diterima.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kesebelas">
+            <num>Kesebelas</num>
+            <heading>Perselisihan Hasil Pemilihan Umum</heading>
+              <article eId="pasal_74">
+                <num>74</num>
+                  <paragraph eId="pasal_74__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pemohon adalah:</p></intro>
+                      <point eId="pasal_74__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>perorangan warga negara Indonesia calon anggota Dewan Perwakilan Daerah peserta pemilihan umum;</p></content>
+                      </point>
+                      <point eId="pasal_74__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pasangan calon Presiden dan Wakil Presiden peserta pemilihan umum Presiden dan Wakil Presiden; dan</p></content>
+                      </point>
+                      <point eId="pasal_74__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>partai politik peserta pemilihan umum.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Permohonan hanya dapat diajukan terhadap penetapan hasil pemilihan umum yang dilakukan secara nasional oleh Komisi Pemilihan Umum yang mempengaruhi:</p></intro>
+                      <point eId="pasal_74__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>terpilihnya calon anggota Dewan Perwakilan Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_74__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>penentuan pasangan calon yang masuk pada putaran kedua pemilihan Presiden dan Wakil Presiden serta terpilihnya pasangan calon Presiden dan Wakil Presiden;</p></content>
+                      </point>
+                      <point eId="pasal_74__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>perolehan kursi partai politik peserta pemilihan umum di suatu daerah pemilihan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Permohonan ... (3) Permohonan hanya dapat diajukan dalam jangka waktu paling lambat 3 X 24 (tiga kali dua puluh empat) jam sejak Komisi Pemilihan Umum mengumumkan penetapan hasil pemilihan umum secara nasional.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_75">
+                <num>75</num>
+                <intro><p>Dalam permohonan yang diajukan, pemohon wajib menguraikan dengan jelas tentang:</p></intro>
+                  <point eId="pasal_75__huruf_a">
+                    <num>a.</num>
+                    <content><p>kesalahan hasil penghitungan suara yang diumumkan oleh Komisi Pemilihan Umum dan hasil penghitungan yang benar menurut pemohon; dan</p></content>
+                  </point>
+                  <point eId="pasal_75__huruf_b">
+                    <num>b.</num>
+                    <content><p>permintaan untuk membatalkan hasil penghitungan suara yang diumumkan oleh Komisi Pemilihan Umum dan menetapkan hasil penghitungan suara yang benar menurut pemohon.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_76">
+                <num>76</num>
+                <content><p>Mahkamah Konstitusi menyampaikan permohonan yang sudah dicatat dalam Buku Registrasi Perkara Konstitusi kepada Komisi Pemilihan Umum dalam jangka waktu paling lambat 3 (tiga) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_77">
+                <num>77</num>
+                  <paragraph eId="pasal_77__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal Mahkamah Konstitusi berpendapat bahwa pemohon dan/atau permohonannya tidak memenuhi syarat sebagaimana dimaksud dalam Pasal 74, amar putusan menyatakan permohonan tidak dapat diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_77__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Mahkamah Konstitusi berpendapat bahwa permohonan beralasan, amar putusan menyatakan permohonan dikabulkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_77__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal permohonan dikabulkan sebagaimana dimaksud pada ayat (2), Mahkamah Konstitusi menyatakan membatalkan hasil penghitungan suara yang diumumkan oleh Komisi Pemilihan Umum dan menetapkan hasil penghitungan suara yang benar.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_77__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal permohonan tidak beralasan amar putusan menyatakan permohonan ditolak.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_78">
+                <num>78</num>
+                <intro><p>Putusan Mahkamah Konstitusi mengenai permohonan atas perselisihan hasil pemilihan umum wajib diputus dalam jangka waktu:</p></intro>
+                  <point eId="pasal_78__huruf_a">
+                    <num>a.</num>
+                    <content><p>paling lambat 14 (empat belas) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi, dalam hal pemilihan umum Presiden dan Wakil Presiden;</p></content>
+                  </point>
+                  <point eId="pasal_78__huruf_b">
+                    <num>b.</num>
+                    <content><p>paling lambat 30 (tiga puluh) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi, dalam hal pemilihan umum anggota DPR, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_79">
+                <num>79</num>
+                <content><p>Putusan Mahkamah Konstitusi mengenai perselisihan hasil pemilihan umum disampaikan kepada Presiden.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keduabelas">
+            <num>Keduabelas</num>
+            <heading>Pendapat DPR Mengenai Dugaan Pelanggaran oleh Presiden dan/atau Wakil Presiden</heading>
+              <article eId="pasal_80">
+                <num>80</num>
+                  <paragraph eId="pasal_80__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemohon adalah DPR.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_80__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pemohon wajib menguraikan dengan jelas dalam permohonannya mengenai dugaan:</p></intro>
+                      <point eId="pasal_80__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>Presiden dan/atau Wakil Presiden telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_80__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>Presiden dan/atau Wakil Presiden tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden berdasarkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_80__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam permohonan sebagaimana dimaksud pada ayat (2), pemohon wajib menyertakan keputusan DPR dan proses pengambilan keputusan mengenai pendapat DPR sebagaimana dimaksud dalam Pasal 7B ayat (3) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, risalah dan/atau berita acara rapat DPR, disertai bukti mengenai dugaan sebagaimana dimaksud pada ayat (2).</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_81">
+                <num>81</num>
+                <content><p>Mahkamah Konstitusi menyampaikan permohonan yang sudah dicatat dalam Buku Registrasi Perkara Konstitusi kepada Presiden dalam jangka waktu paling lambat 7 (tujuh) hari kerja sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_82">
+                <num>82</num>
+                <content><p>Dalam hal Presiden dan/atau Wakil Presiden mengundurkan diri pada saat proses pemeriksaan di Mahkamah Konstitusi, proses pemeriksaan tersebut dihentikan dan permohonan dinyatakan gugur oleh Mahkamah Konstitusi.</p></content>
+              </article>
+              <article eId="pasal_83">
+                <num>83</num>
+                  <paragraph eId="pasal_83__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Apabila Mahkamah Konstitusi berpendapat bahwa permohonan tidak memenuhi syarat sebagaimana dimaksud dalam Pasal 80, amar putusan menyatakan permohonan tidak dapat diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_83__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Apabila Mahkamah Konstitusi memutuskan bahwa Presiden dan/atau Wakil Presiden terbukti melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela dan/atau terbukti bahwa Presiden dan/atau Wakil Presiden tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden, amar putusan menyatakan membenarkan pendapat DPR.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_83__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Apabila Mahkamah Konstitusi memutuskan bahwa Presiden dan/atau Wakil Presiden tidak terbukti melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela dan/atau tidak terbukti bahwa Presiden dan/atau Wakil Presiden tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden, amar putusan menyatakan permohonan ditolak.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_84">
+                <num>84</num>
+                <content><p>Putusan Mahkamah Konstitusi mengenai permohonan atas pendapat DPR mengenai dugaan pelanggaran sebagaimana dimaksud dalam Pasal 80, wajib diputus dalam jangka waktu paling lambat 90 (sembilan puluh) hari sejak permohonan dicatat dalam Buku Registrasi Perkara Konstitusi. Pasal 85 ....</p></content>
+              </article>
+              <article eId="pasal_85">
+                <num>85</num>
+                <content><p>Putusan Mahkamah Konstitusi mengenai pendapat DPR wajib disampaikan kepada DPR dan Presiden dan/atau Wakil Presiden.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KETENTUAN LAIN-LAIN</heading>
+          <article eId="pasal_86">
+            <num>86</num>
+            <content><p>Mahkamah Konstitusi dapat mengatur lebih lanjut hal-hal yang diperlukan bagi kelancaran pelaksanaan tugas dan wewenangnya menurut Undang-Undang ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_87">
+            <num>87</num>
+            <content><p>Pada saat Undang-Undang ini berlaku, seluruh permohonan dan/atau gugatan yang diterima Mahkamah Agung dan belum diputus berdasarkan ketentuan Pasal III Aturan Peralihan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dialihkan kepada Mahkamah Konstitusi dalam waktu paling lambat 60 (enam puluh) hari kerja sejak Mahkamah Konstitusi dibentuk.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_88">
+            <num>88</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar ....</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="permk">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/permk/2012/1/!main"/>
+          <FRBRuri value="/akn/id/act/permk/2012/1"/>
+          <FRBRdate date="2012-03-01" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/permk/2012/1/ind@2012-03-01/!main"/>
+          <FRBRuri value="/akn/id/act/permk/2012/1/ind@2012-03-01"/>
+          <FRBRdate date="2012-03-01" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/permk/2012/1/ind@2012-03-01/!main.xml"/>
+          <FRBRuri value="/akn/id/act/permk/2012/1/ind@2012-03-01.akn"/>
+          <FRBRdate date="2026-09-03" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Peraturan Mahkamah Konstitusi Nomor 1 Tahun 2012 tentang Produk Hukum Mahkamah Konstitusi</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam peraturan ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Mahkamah adalah Mahkamah Konstitusi sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Ketua Mahkamah adalah Ketua Mahkamah Konstitusi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Hakim adalah Hakim Konstitusi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Produk hukum adalah setiap putusan, ketetapan, peraturan, dan keputusan yang dihasilkan oleh Mahkamah dalam rangka pelaksanaan tugas, wewenang, dan kewajibannya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Majelis Hakim adalah para Hakim yang melaksanakan sidang yudisial atau sidang non-yudisial.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Panitera adalah Panitera Mahkamah yang menjalankan tugas teknis administratif peradilan Mahkamah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Sekretaris Jenderal adalah Sekretaris Jenderal Mahkamah yang menjalankan tugas teknis administratif Mahkamah.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS DAN JENIS PRODUK HUKUM</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>Dalam membuat atau membentuk produk hukum Mahkamah dilakukan berdasarkan asas-asas pembuatan, pembentukan, dan penetapan produk hukum yang baik, meliputi:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>kejelasan tujuan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>kelembagaan atau pejabat pembentuk yang tepat;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_c">
+                <num>c.</num>
+                <content><p>kesesuaian antara jenis, hierarki, dan materi muatan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_d">
+                <num>d.</num>
+                <content><p>dapat dilaksanakan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_e">
+                <num>e.</num>
+                <content><p>kedayagunaan dan kehasilgunaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_f">
+                <num>f.</num>
+                <content><p>kejelasan rumusan; dan</p></content>
+              </point>
+              <point eId="pasal_2__huruf_g">
+                <num>g.</num>
+                <content><p>keterbukaan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Produk Hukum Mahkamah, terdiri atas:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>Putusan Mahkamah;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>Ketetapan Mahkamah;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>Peraturan Mahkamah;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>Keputusan Ketua Mahkamah.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PUTUSAN MAHKAMAH</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_4">
+                <num>4</num>
+                <intro><p>Putusan Mahkamah merupakan pernyataan Mahkamah yang diucapkan dalam sidang pleno terbuka untuk umum dalam rangka menjalankan kewenangan dan kewajiban Mahkamah untuk mengadili pada tingkat pertama dan terakhir yang putusannya bersifat final untuk:</p></intro>
+                  <point eId="pasal_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>menguji undang-undang terhadap UUD 1945;</p></content>
+                  </point>
+                  <point eId="pasal_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh UUD 1945;</p></content>
+                  </point>
+                  <point eId="pasal_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>memutus pembubaran partai politik;</p></content>
+                  </point>
+                  <point eId="pasal_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>memutus perse1isihan ten tang hasil pemilihan umum; dan</p></content>
+                  </point>
+                  <point eId="pasal_4__huruf_e">
+                    <num>e.</num>
+                    <content><p>memberikan putusan atas pendapat DPR bahwa Presiden danfatau Wakil Presiden diduga telah me1akukan pelanggaran hukum berupa penghianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela, dan/ atau tidak lagi memenuhi syarat sebagai Presiden dany atau Wakil Presiden sebagaimana dimaksud dalam UUD 1945.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Materi Muatan Putusan Mahkamah</heading>
+              <article eId="pasal_5">
+                <num>5</num>
+                <intro><p>Materi muatan Putusan Mahkamah sebagaimana dimaksud dalam Pasal 4, berisi:</p></intro>
+                  <point eId="pasal_5__huruf_a">
+                    <num>a.</num>
+                    <content><p>kepala putusan berbunyi: "DEMI KEADILANBERDASARKAN KETUHANAN YANGMAHAESA";</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_b">
+                    <num>b.</num>
+                    <content><p>pencantuman nama lembaga: MAHKAMAHKONSTITUSI REPUBLIKINDONESIA;</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_c">
+                    <num>c.</num>
+                    <content><p>identitas pihak;</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_d">
+                    <num>d.</num>
+                    <content><p>duduk perkara: ringkasan permohonan dan pertimbangan terhadap fakta yang terungkap dalam persidangan;</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_e">
+                    <num>e.</num>
+                    <content><p>pertimbangan hukum dan / atau pendapat Mahkamah yang menjadi dasar putusan;</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_f">
+                    <num>f.</num>
+                    <content><p>konklusi;</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_g">
+                    <num>g.</num>
+                    <content><p>amar putusan;</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_h">
+                    <num>h.</num>
+                    <content><p>pendapat berbeda (dissenting opinion) atau alas an berbeda (concurring opinion) dari hakim; dan</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_i">
+                    <num>i.</num>
+                    <content><p>hari, tanggal putusan, nama, dan tanda tangan hakim konstitusi serta panitera pengganti.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Persiapan Penyusunan Putusan Mahkamah</heading>
+              <article eId="pasal_6">
+                <num>6</num>
+                  <paragraph eId="pasal_6__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyusunan Putusan Mahkamah dilakukan oleh Majelis Hakim.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam menyusun Putusan Mahkamah sebagaimana dimaksud pada ayat (1), Majelis Hakim dibantu secara teknis oleh Pejabat Fungsional Tertentu Kepaniteraan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Putusan Mahkamah dibaca oleh Hakim Pembaca Akhir sebelum diucapkan dalam sidang pleno Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hakim Pembaca Akhir sebagaimana dimaksud pada ayat (1) terdiri atas para Hakim yang ditunjuk oleh Ketua Mahkamah, dengan dibantu oleh Pejabat Fungsional Tertentu Kepaniteraan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pejabat Fungsional Tertentu Kepaniteraan sebagaimana dimaksud pada ayat (2) ditetapkan oleh Sekretaris Jenderal berdasarkan usul Panitera.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Putusan Mahkamah disampaikan kepada Majelis Hakim setelah dibubuhi paraf oleh Hakim Pembaca Akhir.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Akses Terhadap Putusan Mahkamah</heading>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Masyarakat mempunyai akses untuk mendapatkan Putusan Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk memudahkan akses masyarakat mendapatkan Putusan Mahkamah sebagaimana dimaksud pada ayat (1), Putusan Mahkamah dimuat dalam Berita Negara Republik Indonesia, laman Mahkamah, dan media massa cetak, serta ditayangkan melalui fasilitas persidangan jarak jauh (video conference).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemuatan Putusan Mahkamah dalam Berita Negara Republik Indonesia sebagaimana dimaksud pada ayat (2) dilakukan untuk putusan pengujian undang-undang yang mengabulkan permohonan, dalam waktu paling lama 30 (tiga puluh) hari kerja sejak putusan diucapkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pemuatan Putusan Mahkamah dalam laman Mahkamah sebagaimana dimaksud pada ayat (2) dilakukan segera setelah putusan selesai diucapkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pemuatan Putusan Mahkamah dalam media massa cetak sebagaimana dimaksud pada ayat (2) dapat dilakukan untuk putusan yang mengabulkan permohonan, dalam waktu paling lama 1 (satu) hari sejak putusan diucapkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Putusan Mahkamah ditayangkan melalui fasilitas persidangan jarak jauh (video conference) sebagaimana dimaksud pada ayat (2) dilakukan bersamaan dengan sidang pengucapan putusan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>KETETAPAN MAHKAMAH</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_9">
+                <num>9</num>
+                <content><p>Ketetapan Mahkamah merupakan penetapan tertulis Mahkamah yang berisi tindakan hukum, baik yang bersifat konkret-tertentu maupun bersifat konkret-individual, dan final untuk menindaklanjuti hal-hal yang diperlukan bagi pelaksanaan tugas, wewenang, dan kewajiban Mahkamah dalam bidang yudisial berdasarkan peraturan perundang-undangan.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Materi Muatan Ketetapan Mahkamah</heading>
+              <article eId="pasal_10">
+                <num>10</num>
+                <intro><p>Materi muatan Ketetapan Mahkamah sebagaimana dimaksud daiam Pasal 9, meliputi:</p></intro>
+                  <point eId="pasal_10__huruf_a">
+                    <num>a.</num>
+                    <content><p>pernyataan Mahkamah tidak berwenang untuk mengadili permohonan;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_b">
+                    <num>b.</num>
+                    <content><p>pernyataan permohonan ditarik kembali;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_c">
+                    <num>c.</num>
+                    <content><p>pernyataan yang memerintahkan kepada pemohon, termohon, dan/ atau pihak lain yang terkait untuk melakukan sesuatu atau tidak melakukan sesuatu sampai ada Putusan Mahkamah;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_d">
+                    <num>d.</num>
+                    <content><p>pembentukan panel hakim untuk memeriksa permohonan;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_e">
+                    <num>e.</num>
+                    <content><p>penentuan pihak terkait dalam perkara;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_f">
+                    <num>f.</num>
+                    <content><p>penetapan hari sidang;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_g">
+                    <num>g.</num>
+                    <content><p>penggabungan perkara;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_h">
+                    <num>h.</num>
+                    <content><p>penetapan pemberi keterangan ad informandum;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_i">
+                    <num>i.</num>
+                    <content><p>penunjukan hakim drafter; atau</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_j">
+                    <num>j.</num>
+                    <content><p>penunjukan hakim pembaca akhir putusan.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Persiapan Penyusunan Ketetapan Mahkamah</heading>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyusunan Ketetapan Mahkamah sebagaimana dimaksud dalam Pasal 9 dilakukan oleh Majelis Hakim.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam mempersiapkan penyusunan Ketetapan Mahkamah sebagaimana dimaksud pada ayat (1), Majelis Hakim dibantu oleh Kepaniteraan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Akses Terhadap Ketetapan Mahkamah</heading>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Masyarakat mempunyai akses untuk mendapatkan Ketetapan Mahkamah sebagaimana dimaksud dalam Pasal 10 huruf a, huruf b, huruf c, huruf d, huruf e, huruf f, huruf g, dan huruf h.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk memudahkan akses masyarakat mendapatkan Ketetapan Mahkamah sebagaimana dimaksud pada ayat (1), Ketetapan Mahkamah dimuat dalam laman Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemuatan Ketetapan Mahkamah dalam laman Mahkamah dilakukan segera setelah ditetapkan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PERATURAN MAHKAMAH</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_13">
+                <num>13</num>
+                <content><p>Peraturan Mahkamah merupakan peraturan tertulis yang memuat norma hukum yang mengikat secara umum, baik dalam bidang yudisial maupun non-yudisial.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Materi Muatan Peraturan Mahkamah</heading>
+              <article eId="pasal_14">
+                <num>14</num>
+                <intro><p>Materi muatan Peraturan Mahkamah sebagaimana dimaksud dalam Pasal 13, meliputi:</p></intro>
+                  <point eId="pasal_14__huruf_a">
+                    <num>a.</num>
+                    <content><p>materi yang mengatur lebih lanjut ketentuan Undang-Undang Mahkamah Konstitusi;</p></content>
+                  </point>
+                  <point eId="pasal_14__huruf_b">
+                    <num>b.</num>
+                    <content><p>materi yang mengatur pemenuhan kebutuhan hukum Mahkamah.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Persiapan Penyusunan Peraturan Mahkamah</heading>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyusunan Peraturan Mahkamah sebagaimana dimaksud dalam Pasal13 dilakukan oleh Hakim.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam mempersiapkan penyusunan Peraturan Mahkamah sebagaimana dimaksud pada ayat (1), Hakim dibantu oleh Kepaniteraan dan Sekretariat Jenderal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Tata cara penyusunan Peraturan Mahkamah sebagaimana dimaksud dalam Pasal 13 diatur lebih lanjut dalam Peraturan Sekretaris Jenderal.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Akses Terhadap Peraturan Mahkamah</heading>
+              <article eId="pasal_16">
+                <num>16</num>
+                <content><p>Peraturan Mahkamah dimuat dalam Berita Negara Republik Indonesia.</p></content>
+              </article>
+              <article eId="pasal_17">
+                <num>17</num>
+                  <paragraph eId="pasal_17__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Masyarakat mempunyai akses untuk mendapatkan Peraturan Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk memudahkan akses masyarakat mendapatkan Peraturan Mahkamah sebagaimana dimaksud pada ayat (1), Peraturan Mahkamah dimuat dalam laman Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemuatan Peraturan Mahkamah dalam laman Mahkamah dilakukan segera setelah ditetapkan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KEPUTUSAN KETUA MAHKAMAH</heading>
+          <part eId="bab_6__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_18">
+                <num>18</num>
+                <content><p>Keputusan Ketua Mahkamah merupakan penetapan tertulis yang berisi tindakan hukum yang bersifat konkret, individual, dan final dalam bidang non-yudisial.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Materi Muatan Keputusan Ketua Mahkamah</heading>
+              <article eId="pasal_19">
+                <num>19</num>
+                <content><p>Materi muatan Keputusan Ketua Mahkamah sebagaimana dimaksud dalam Pasal 18, berisi materi untuk menindaklanjuti hal-hal di bidang non-yudisial untuk kelancaran pelaksanaan tugas, wewenang, dan kewajiban Mahkamah berdasarkan peraturan perundang-undangan.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Persiapan Penyusunan Keputusan Ketua Mahkamah</heading>
+              <article eId="pasal_20">
+                <num>20</num>
+                  <paragraph eId="pasal_20__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyusunan Keputusan Ketua Mahkamah sebagaimana dimaksud dalam Pasal 18 dilakukan oleh Ketua Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam mempersiapkan penyusunan Keputusan Ketua Mahkarnah sebagaimana dimaksud pada ayat (1), Ketua Mahkamah dibantu oleh Sekretaris JenderaL</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Tata cara penyusunan Keputusan Ketua Mahkamah sebagaimana dimaksud dalam Pasal 18 diatur lebih lanjut dalam Peraturan Sekretaris J enderal.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN LAIN-LAIN</heading>
+          <article eId="pasal_21">
+            <num>21</num>
+            <content><p>Pejabat Fungsional Tertentu Kepaniteraan yang melaksanakan tugas sebagaimana dimaksud dalam Pasal 6 ayat (2) tidak dapat dikenai tindakan kepolisian, baik sebagai saksi atau tersangka, kecuali yang ditentukan oleh Undang-Undang.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_22">
+            <num>22</num>
+            <content><p>Peraturan Mahkamah ini mulai berlaku pad a tanggal ditetapkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

@@ -49,6 +49,30 @@
    "jalur": "/permenkumham/2021/19/"
   },
   {
+   "id": "permk-2012-1",
+   "nama": "PMK 1/2012 (Produk Hukum MK)",
+   "jenis": "permk",
+   "jalur": "/permk/2012/1/"
+  },
+  {
+   "id": "permk-2019-3",
+   "nama": "PMK 3/2019 (Produk Hukum MK)",
+   "jenis": "permk",
+   "jalur": "/permk/2019/3/"
+  },
+  {
+   "id": "permk-2020-1",
+   "nama": "PMK 1/2020 (Persidangan MK)",
+   "jenis": "permk",
+   "jalur": "/permk/2020/1/"
+  },
+  {
+   "id": "permk-2025-7",
+   "nama": "PMK 7/2025 (Tata Beracara PUU)",
+   "jenis": "permk",
+   "jalur": "/permk/2025/7/"
+  },
+  {
    "id": "perpres-2012-33",
    "nama": "PERPRES 33/2012",
    "jenis": "perpres",
@@ -62,25 +86,25 @@
   },
   {
    "id": "pmk-2017-189",
-   "nama": "PERMENKEU 189/2017",
+   "nama": "PMK 189/2017 (Pejabat Lelang II)",
    "jenis": "permenkeu",
    "jalur": "/permenkeu/2017/189/"
   },
   {
    "id": "pmk-2019-113",
-   "nama": "PERMENKEU 113/2019",
+   "nama": "PMK 113/2019 (Balai Lelang)",
    "jenis": "permenkeu",
    "jalur": "/permenkeu/2019/113/"
   },
   {
    "id": "pmk-2023-122",
-   "nama": "PERMENKEU 122/2023",
+   "nama": "PMK 122/2023 (Juklak Lelang)",
    "jenis": "permenkeu",
    "jalur": "/permenkeu/2023/122/"
   },
   {
    "id": "pmk-2024-86",
-   "nama": "PERMENKEU 86/2024",
+   "nama": "PMK 86/2024 (Risalah Lelang)",
    "jenis": "permenkeu",
    "jalur": "/permenkeu/2024/86/"
   },
@@ -128,7 +152,7 @@
   },
   {
    "id": "putusan-mk-2-2021",
-   "nama": "PUTUSAN-MK 2/PUU-XIX/2021/2021",
+   "nama": "Putusan MK 2/PUU-XIX/2021",
    "jenis": "putusan-mk",
    "jalur": null
   },
@@ -193,6 +217,12 @@
    "jalur": "/uu/2001/16/"
   },
   {
+   "id": "uu-2003-24",
+   "nama": "UU MK 24/2003",
+   "jenis": "uu",
+   "jalur": "/uu/2003/24/"
+  },
+  {
    "id": "uu-2004-28",
    "nama": "UU 28/2004",
    "jenis": "uu",
@@ -221,6 +251,12 @@
    "nama": "UU 43/2009",
    "jenis": "uu",
    "jalur": "/uu/2009/43/"
+  },
+  {
+   "id": "uu-2009-48",
+   "nama": "UU Kekuasaan Kehakiman 48/2009",
+   "jenis": "uu",
+   "jalur": "/uu/2009/48/"
   },
   {
    "id": "uu-2010-8",
@@ -326,7 +362,7 @@
   },
   {
    "id": "vendu-1908",
-   "nama": "VENDU 189/1908",
+   "nama": "Vendu Reglement (S. 1908-189)",
    "jenis": "vendu",
    "jalur": "/vendu/1908/189/"
   }
@@ -380,6 +416,31 @@
   {
    "dari": "permenkumham-2021-19",
    "ke": "uu-2004-30",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permk-2012-1",
+   "ke": "uu-2003-24",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permk-2019-3",
+   "ke": "uu-2003-24",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permk-2019-3",
+   "ke": "uu-2011-12",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permk-2020-1",
+   "ke": "uu-2003-24",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "permk-2025-7",
+   "ke": "uu-2003-24",
    "tipe": "dasar-hukum"
   },
   {
@@ -553,6 +614,11 @@
    "tipe": "dasar-hukum"
   },
   {
+   "dari": "uu-2003-24",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
    "dari": "uu-2004-28",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
@@ -584,6 +650,11 @@
   },
   {
    "dari": "uu-2009-43",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2009-48",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
   },

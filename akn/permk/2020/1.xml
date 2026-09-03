@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="permk">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/permk/2020/1/!main"/>
+          <FRBRuri value="/akn/id/act/permk/2020/1"/>
+          <FRBRdate date="2020-01-16" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/permk/2020/1/ind@2020-01-16/!main"/>
+          <FRBRuri value="/akn/id/act/permk/2020/1/ind@2020-01-16"/>
+          <FRBRdate date="2020-01-16" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/permk/2020/1/ind@2020-01-16/!main.xml"/>
+          <FRBRuri value="/akn/id/act/permk/2020/1/ind@2020-01-16.akn"/>
+          <FRBRdate date="2026-09-03" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Peraturan Mahkamah Konstitusi Nomor 1 Tahun 2020 tentang Persidangan Mahkamah Konstitusi</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Peraturan ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Mahkamah adalah Mahkamah Konstitusi sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Ketua Mahkamah adalah Ketua Mahkamah Konstitusi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Hakim adalah Hakim Konstitusi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Persidangan adalah sidang dan Rapat Permusyawaratan Hakim yang dilakukan oleh Mahkamah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Sidang adalah sidang panel dan sidang pleno yang dilakukan oleh Mahkamah terbuka untuk umum dalam memeriksa, mengadili, dan memutus perkara.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Rapat Permusyawaratan Hakim selanjutnya disebut RPH , adalah rapat yang dilakukan oleh Mahkamah tertutup untuk umum, untuk pengambilan putusan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Ketua Si dang adalah Hakim yang memim pin sidang panel dan sidang pleno.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Ketua Rapat adalah Hakim yang memimpin RPH .</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Majelis Hakim adalah para Hakim yang melaksanakan sidang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Panitera Mahkamah Konstitusi yang selanjutnya disebut Panitera adalah Panitera Mahkamah Konstitusi sebagaimana dimaksud dalam Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi sebagaimana telah diubah dengan Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Panitera Muda Mahkamah Konstitusi yang selanjutnya disebut Panitera Muda adalah unsur pembantu Panitera dalam melaksanakan tugas teknis administratif peradilan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Panitera Pengganti Mahkamah Konstitusi yang selanjutnya disebut Panitera Pengganti adalah unsur pembantu Panitera yang melaksanakan tugas teknis peradilan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Para Pihak adalah Pemohon dan/atau kuasanya, Termohon dan/atau kuasanya, Presiden dan/atau yang mewakili, Majelis Permusyawaratan Rakyat dan/ a tau yang mewakili, Dewan Perwakilan Rakyat dan/atau yang mewakili, Dewan Perwakilan Daerah dan/ a tau yang mewakili, serta Pihak Terkait dan/ a tau kuasanya, yang hadir di persidangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Pihak Lain adalah pihak-pihak selain Para Pihak yang hadir dalam persidangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Pengunjung Sidang adalah orang yang hadir di persidangan Mahkamah untuk mengikuti jalannya persidangan, baik di dalam maupun di luar ruang sidang.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>SIDANG MAHKAMAH</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>Jenis sidang Mahkamah terdiri atas:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>Sidang Yudisial yaitu Sidang Panel Mahkamah dan Sidang Pleno Mahkamah;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>Sidang Non-Yudisial.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+              <paragraph eId="pasal_3__ayat_1">
+                <num>(1)</num>
+                <content><p>Sidang Panel Mahkama h sebagaimana dimaksud dalam Pasal 2 huruf a dilaksanakan untuk m emeriksa kelengkapan dan kejelasan materi permohonan, memeriksa perbaikan permohonan, memeriksa pokok permohonan, dan/ a tau pengesahan alat bukti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_2">
+                <num>(2)</num>
+                <content><p>Sidang Panel Mahkamah sebagaimana dimaksud pada ayat (1) dihadiri oleh paling kurang 3 (tiga) Hakim.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <content><p>Sidang Pleno Mahkamah sebagaimana dimaksud dalam Pasal 2 huruf a dilaksanakan untuk memeriksa dan mendengar keterangan Para Pihak, ahli, saksi, Pihak Lain dan/ a tau mengesahkan alat bukti, serta pengucapan putusan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <content><p>Sidang Pleno Mahkamah sebagaimana dimaksud pada ayat (1) dihadiri oleh 9 (sembilan) Hakim, atau paling kurang 7 (tujuh) Hakim.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <intro><p>Sidang non-yudisial sebagaimana dimaksud dalam Pasal 2 huruf b adalah Sidang Pleno Khusus Mahkamah yang diselenggarakan dalam rangka:</p></intro>
+                  <point eId="pasal_5__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>p engucapan sumpah Ketua/Wakil Ketua terpilih;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>penyampaian laporan tahunan Mahkamah.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Sidang Pleno Khusus Mahkamah sebagaimana dimaksud pada ayat (1) dihadiri oleh 9 (sembilan) Hakim, atau paling kurang 7 (tujuh) Hakim. BAB Ill TATA CARA SIDANG YUDISIAL</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_2__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_6">
+                <num>6</num>
+                  <paragraph eId="pasal_6__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Tata cara sidang sebagai berikut:</p></intro>
+                      <point eId="pasal_6__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Setiap Hakim menandatangani daftar hadir sebelum sidang;</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Majelis Hakim menempati tempat duduk yang telah ditentukan;</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>Ketua Sidang mengetukkan palu tiga kali untuk m embuka sidang;</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>Setelah Sidang dibuka, Ketua Sidang menyampaikan agenda sidang;</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>Ketua Sidang mengetukkan palu satu kali untuk setiap keputusan yang dicapai dalam Sidang;</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>Ketua Sidang mengetukkan palu satu kali untuk mengesahkan alat bukti yang diajukan oleh para pihak;</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>Ketua Sidang mengetukkan palu satu kali setelah selesai mengucapkan amar putusan; dan</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_1__huruf_h">
+                        <num>h.</num>
+                        <content><p>Ketua Sidang mengetukkan palu tiga kali untuk menutup sidang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Ketua Sidang menunda dan melanjutkan sidang yang ditunda, Ketua Sidang mengetukkan palu satu kali.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Sidang Panel Mahkamah</heading>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Para Pihak, saksi, ahli, Pihak Lain dan Pengunjung Sidang menan datangani daftar hadir sebelum menghadiri sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Panitera melaporkan kehadiran Para Pihak, saksi, ahli dan Pihak Lain kepada Ketua sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Para Pihak, saksi, ahli, Pihak Lain dan Pengunjung Sidang menempati tempat duduk yang telah ditentukan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketua Sidang membuka Sidang Panel dan menyatakan sidang dibuka dan terbuka untuk umum, kecuali Majelis Hakim menentukan lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketua Sidang mempersilakan Para Pihak mengenalkan diri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Para Pihak mengenalkan masing-masing saksi dan atau ahli yang diajukan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Saksi dan ahli mengucapkan sumpah atau janji sesuai dengan agama a tau kepercayaannya masing-masing sebelum menyampaikan keterangannya, yang dipandu oleh Hakim dan didampingi oleh juru sumpah, kecuali ditentukan lain oleh Hakim.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Ketua Sidang memberikan kesempatan kepada pemohon untuk menjelaskan pokok-pokok permohonannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_9">
+                    <num>(9)</num>
+                    <content><p>Ketua Sidang memberikan kesempatan kepada Para Pihak untuk menyampaikan keterangan dan/ a tau tanggapan sesuai dengan pokok permohonan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_10">
+                    <num>(10)</num>
+                    <content><p>Ketua Sidang mem berikan kesempatan kepada saksi dan /atau ahli untuk menyampaikan keterangan dan/ a tau tanggapan sesuai dengan pokok permohonan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_11">
+                    <num>(11)</num>
+                    <content><p>Ketua Sidang memberikan kesempatan kepada Para Pihak untuk mengajukan pertanyaan dan/ atau tanggapan, atas keterangan saksi dan/ a tau ahli.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_12">
+                    <num>(12)</num>
+                    <content><p>Ketua Sidang memberikan kesempatan kepada Hakim untuk mengajukan pertanyaan kepada Para Pihak, saksi, dan/ a tau ahli.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_13">
+                    <num>(13)</num>
+                    <content><p>Ketua Sidang memberi kesempatan kepada Para Pihak mengajukan alat/ dokumen bukti dalam sidang kepada Majelis Hakim melalui petugas persidangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_14">
+                    <num>(14)</num>
+                    <content><p>Ketua Sidang mengesahkan alat/dokumen bukti dalam sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_15">
+                    <num>(15)</num>
+                    <content><p>Ketua Sidang menutup sidang setelah dinyatakan selesai.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Sidang Pleno Mahkamah</heading>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Para Pihak, saksi, ahli, Pihak Lain dan Pengunjung Sidang menandatangani daftar hadir se belum menghadiri sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Panitera melaporkan kehadiran Para Pihak, saksi, Pihak Lain dan ahli kepada Ketua sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Para Pihak, saksi, ahli, Pihak Lain dan Pengunjung Sidang menempati tempat duduk yang telah ditentukan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketua Sidang membuka Sidang Pleno dan menyatakan sidang dibuka dan terbuka untuk umum, kecuali Majelis Hakim menentukan lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketua Sidang mempersilakan Para Pihak mengenalkan diri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Para Pihak mengenalkan masing-masing saksi dan/ atau ahli yang diajukan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Saksi dan ahli mengucapkan sumpah atau janji sesuai dengan agama a tau kepercayaannya masing-masing sebelum menyampaikan keterangannya, yang dipandu oleh Hakim dan didampingi oleh juru sumpah, kecuali ditentukan lain oleh Hakim.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Ketua Sidang memberi kesempatan kepada Para Pihak untuk m emberikan keterangan dan/ a tau tanggapan sesuai dengan pokok permohonan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_9">
+                    <num>(9)</num>
+                    <content><p>Ketua Sidang memberi kesempatan kepada Hakim untuk m engajukan pertanyaan kepada saksi dan/ atau ahli.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_10">
+                    <num>(10)</num>
+                    <content><p>Ketua Sidang memberi k esempatan kepada Para Pihak untuk m engajukan pertanyaan kepa da saksi dan/ atau ahli yang diajukannya sendiri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_11">
+                    <num>(11)</num>
+                    <content><p>Ketua Sidang m emberi ke sempatan kepada Para Pihak m engajukan alat/ dokumen bukti dalam sidang kepada Majelis Hakim melalui petugas sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_12">
+                    <num>(12)</num>
+                    <content><p>Ketu a Sidang mengesahkan alat/ dokumen bukti dalam sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_13">
+                    <num>(13)</num>
+                    <content><p>Ketua Sidang menutup sidang setelah sidang dinyatakan selesai.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Tata Tertib Sidang</heading>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Para Pihak, saksi, ahli, Pihak Lain dan Pengunjung Sidang wajib hadir sebelurn persidangan dimulai.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Para Pihak, saksi, ahli, Pihak La in dan Pengunjung Sidang m engenakan pakaian rapi dan sopan, dan advokat m en genakan toga.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Para Pihak, saksi, ahli, Pihak Lain dan Pengunjung Sidang sebagairnana dirnaksud pada ayat (1) wajib mengenakan tanda p engenal dari Mahkarnah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pengunjung Sidang bersikap tertib, tenang, dan sopan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_5">
+                    <num>(5)</num>
+                    <intro><p>Larangan bagi Pengunjung Sidang:</p></intro>
+                      <point eId="pasal_9__ayat_5__huruf_a">
+                        <num>a.</num>
+                        <content><p>belum berusia 12 tahun, kecuali atas perintah atau izin Hakim untuk kepentingan perneriksaan atau untuk kepentingan yang relevan;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_b">
+                        <num>b.</num>
+                        <content><p>m embawa senjata dan/ atau benda-benda lain yang dapat membahayakan atau mengganggu jalannya sidang; c . membuat gaduh, berlalu-lalang, bersorak-sorai, dan b ertepuk tangan;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_d">
+                        <num>d.</num>
+                        <content><p>membawa a lat komunikasi elektronik ke dalam ruang sidang;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_e">
+                        <num>e.</num>
+                        <content><p>membawa peralatan demonstrasi;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_f">
+                        <num>f.</num>
+                        <content><p>m erusak dan/ a tau mengganggu fungsi sarana, prasarana, dan/ a tau perlengkapan persidangan;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_g">
+                        <num>g.</num>
+                        <content><p>makan, minum , dan merokok;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_h">
+                        <num>h.</num>
+                        <content><p>menggunakan topi, kacamata hitam, sandal jepit, dan kaos oblong;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_i">
+                        <num>i.</num>
+                        <content><p>menghina Para Pihak, saksi, ahli, Pihak Lain dan Pengunjung Sidang; J. m emberikan dukungan, komentar, saran, tanggapan, atau mengajukan keberatan atas keterangan yang diberikan oleh Para Pihak, saksi, ahli dan Pihak Lain;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_k">
+                        <num>k.</num>
+                        <content><p>m elakukan perbuatan atau tingkah laku yang dapat mengganggu persidangan atau merendahkan kehorrnatan dan martabat Hakim serta kewibawaan Mahkamah;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_5__huruf_l">
+                        <num>l.</num>
+                        <content><p>m emberikan ungkapan atau pernyataan di dalam persidangan yang isinya berupa ancaman terhadap independensi Hakim dalam memutus perkara.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (4) dan ayat (5) be rlaku juga bagi Para Pihak, saksi, dan ahli.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (5) huruf d dikecualikan bagi jurnalis.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Para Pihak, saksi, ahli, Pihak Lain, dan Pengunjung Sidang sebagaimana dimaksud pada ayat (1) yang terlambat hadir tidak diperk enankan masuk ke ruang sidang sebelum mendapatkan izin dari Mahkamah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                <content><p>Tata tertib sidang sebagaimana dimaksud dalam Pasal 9 berlaku secara mutatis-mutandis untuk persidangan jarak jauh (video conference), kecuali ditentukan lain oleh Mahkamah.</p></content>
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Kewajiban Para Pihak, saksi, ahli, Pihak Lain, dan Pengunjung Sidang:</p></intro>
+                      <point eId="pasal_11__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>menempati tempat duduk yang telah disediakan serta duduk dengan tertib dan sopan dalam persidangan;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>menunjukkan sikap hormat kepada Majelis Hakim dengan sikap berdiri ketika Majelis Hakim memasuki dan meninggalkan ruang sidang;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>memberi hormat kepada Majelis Hakim dengan sikap membungkukkan badan setiap memasuki dan meninggalkan ruang sidang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Para Pihak, saksi, ahli dan Pihak Lain akan menyampaikan pendapat dan/ atau tanggapannya, terlebih dahulu meminta dan/ a tau mendapat izin Ketua Sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Para Pihak, saksi, ahli dan Pihak Lain menyampaikan keterangan setelah diberikan kesempatan oleh Ketua Sidang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Para Pihak m enyerahkan berkas perkara dalam sidang kepada Majelis Hakim melalui petugas sidang yang ditugaskan untuk itu.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Berkas perkara yang terlambat dimasukkan dalam ruang sidang dapat diperbolehkan masuk setelah memperoleh persetujuan Mahkamah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                <content><p>Mahkamah dapat menentukan jumlah Para Pihak, saksi, Pihak Lain dan Pengunjung Sidang yang masuk ruang sidang.</p></content>
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                <content><p>Para Pihak, saksi, ahli dan Pihak Lain yang akan menggunakan media elektronik milik pribadi untuk dihubungkan dengan fasilitas elektronik atau menggunakan fasilitas lain milik Mahkamah yang diperlukan dalam s idang memberitahukan kepada Kepaniteraan Mahkamah sebelum persidangan dimulai.</p></content>
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Petugas keamanan menegur Pengunjung Sidang yang melanggar ketentuan dalam Pasal 9 ayat (2), ayat (3), ayat (4), ayat (5) huruf a, huruf b , huruf c, huruf d, huruf e, huruf f, huruf g, dan huruf h.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal terjadi pelanggaran oleh para pihak, saksi, ahli dan Pihak Lain terhadap Pasal 9 ayat (5) huruf i, huruf j , huruf k, dan huruf 1, Ketua Sidang menegur dan memberikan peringatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pelanggaran terhadap ketentuan dalam Pasal 9 ayat (4) huruf k dan huruf 1, merupakan penghinaan terhadap Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Setelah diperingatkan dengan patut terhadap terjadinya p elanggaran sebagaimana dimaksud pada ayat (3) tetapi tidak diindahkan, Ketua Sidang memerintahkan para pihak, saksi, ahli, Pihak Lain dan / atau Pengunjung Sidang keluar dari ruang sidang a tau gedung Mahkamah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Berita Acara Sidang</heading>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Berita Acara Sidang memuat fakta dan peristiwa yang terjadi dalam persidangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Berita Acara Sidang Panel dan Sidang Pleno Mahkamah disusun oleh Panitera Pengganti dan ditandatangani oleh Ketua Sidang dan Panitera Pengganti.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Berita Acara Sidang Panel dan Pleno sebelum ditandatangani oleh Ketua Sidang dibubuhi paraf oleh Panitera atau Panitera Muda.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>RAPAT PERMUSYAWARATAN HAKIM</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <content><p>RPH diselenggarakan untuk pembahasan surat-sura t terkait dengan perkara, pembahasan perkara, pengambilan putusan, dan finalisasi pu tusan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_2">
+                    <num>(2)</num>
+                    <content><p>RPH sebagaimana dimaksud pada ayat (1) dihadiri oleh 9 (sembilan) Hakim, atau paling sedikit 7 (tujuh) Hakim.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Tata Cara Rapat Permusyawaratan Hakim</heading>
+              <article eId="pasal_17">
+                <num>17</num>
+                  <paragraph eId="pasal_17__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Hakim menandatangani daftar hadir sebelum RPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hakim men em pati tempat duduk yang telah ditentukan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Panitera, Pa n itera Muda, dan Panitera Pengganti menyiapkan materi yang akan dibahas.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketua Rapat membuka dan menyarnpaikan agenda rapat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Panitera atau Panitera Mu da melaporkan materi yang akan dibahas.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketua Rapat memberi kesempatan kepada para Hakim untuk menyarnpaik an pendapatnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Hakim dapat memberikan saran, tanggapan, atau keberatan atas pendapat hakim yang lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Petugas RPH menayangkan materi yang akan dibahas.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_9">
+                    <num>(9)</num>
+                    <content><p>Ketua Rapat menyampaikan kesimpulan rapat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_10">
+                    <num>(10)</num>
+                    <content><p>Ketua Rapat menetapkan hakim drafter putusan. (1 1) Ketua Rapat menutup rapat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_12">
+                    <num>(12)</num>
+                    <content><p>Petugas RPH membuat notula yang memuat fakta dan peristiwa yang terjadi dalam RPH dan ditandatangani oleh Ketua dan Panitera atau Panitera Muda.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>TATA CARA SIDANG NON-YUDISIAL</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_18">
+                <num>18</num>
+                  <paragraph eId="pasal_18__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sidang penyarnpaian laporan tahunan Mahkarnah sebagaimana dimaksud dalarn Pasal 5 ayat (1) huruf b diselenggarakan dalarn Sidang Pleno Khusus Mahkarnah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Sidang Pleno Khusus Mahkamah dipimpin oleh Ketua Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal Ketua Mahkamah berhalangan, Sidang Pleno Khusus Mahkamah dipimpin oleh Wakil Ketua Mahkamah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal Ketua dan Wakil Ketua Mahkamah berhalangan , Sidang Pleno Khusus Mahkamah dipimpin oleh Hakim yang tertua usianya.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Sidang Pleno Khusus Mahkamah</heading>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Tata cara Sidang Pleno Khusus Mahkamah sebagai berikut:</p></intro>
+                      <point eId="pasal_19__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Hakim menandatangani daftar hadir;</p></content>
+                      </point>
+                      <point eId="pasal_19__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Hakim menempati tempat duduk yang telah ditentukan; c . Ketua Sidang membuka sidang dengan mengetukkan palu tiga kali;</p></content>
+                      </point>
+                      <point eId="pasal_19__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>Ketua Sidang menyampaikan agenda sidang;</p></content>
+                      </point>
+                      <point eId="pasal_19__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>Ketua Sidang menyampaikan Pidato Laporan Tahunan Mahkamah; dan</p></content>
+                      </point>
+                      <point eId="pasal_19__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>Ketua Sidang menutup sidang denga n mengetukkan palu tiga kali.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tata cara Sida ng Pleno Khusus Mahkamah sebagaimana dimaksud pada ayat (1) dapat ditambahkan acara yang relevan yang disetujui oleh hakim konstitusi dalam Rapat Permusyawaratan Hakim non- yudisial.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>WAKTU PERSIDANGAN</heading>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Persidangan Mahkamah dilaksanakan pada hari kerja, antara pu kul 08.00 WIB sampai dengan pukul 16.00 WIB.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Hari kerja sebagaimana dimaksud pada ayat (1) adalah hari Senin sampai dengan hari Jumat, kecuali hari libur yang ditetapkan oleh Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal tertentu Mahkamah dapat menetapkan sidang di luar waktu sebagaimana dimaksud pada ayat (1) dan ayat (2).</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_21">
+            <num>21</num>
+            <content><p>Dengan berlakunya Peraturan ini Peraturan Mahkamah Konstitusi Nomor 1 Tahun 2018 tentang Persidangan Mahkamah Konstitusi dicabut dan dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_22">
+            <num>22</num>
+            <content><p>Peraturan Mahkamah Konstitusi ini mulai berlaku pada tanggal ditetapkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>
