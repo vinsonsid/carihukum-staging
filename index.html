@@ -62,333 +62,484 @@
   <input id="saring" type="search" placeholder="Cari di dalam teks pasal atau saring peraturan… (mis. pencemaran nama baik)" aria-label="Cari"
     style="width:100%;border:1px solid var(--line);border-radius:6px;padding:9px 12px;font:400 .88rem var(--sans);margin-bottom:12px;background:var(--surface);color:var(--ink)">
   <div id="hasil-cari"></div>
-  <div id="daftar"><section class="kelompok"><h2 class="kelompok-judul">Konstitusi</h2><div class="daftar"><div class="baris">
+  <div class="faset-bar" id="faset">
+  
+  <div class="faset" data-faset="jenis">
+    <span class="faset-judul">Jenis</span>
+    <button class="chip" data-nilai="uu">UU <b>28</b></button><button class="chip" data-nilai="permenkumham">Permenkumham <b>7</b></button><button class="chip" data-nilai="pp">PP <b>6</b></button><button class="chip" data-nilai="putusan-mk">Putusan MK <b>6</b></button><button class="chip" data-nilai="permk">Peraturan MK <b>4</b></button><button class="chip" data-nilai="permenkeu">PMK <b>4</b></button><button class="chip" data-nilai="perubahan-uud">Perubahan UUD <b>4</b></button><button class="chip" data-nilai="perpres">Perpres <b>2</b></button><button class="chip" data-nilai="kodifikasi">Kodifikasi <b>1</b></button><button class="chip" data-nilai="uud">UUD 1945 <b>1</b></button><button class="chip" data-nilai="vendu">Ordonansi <b>1</b></button><button class="chip" data-nilai="perppu">Perppu <b>1</b></button>
+  </div>
+  
+  <div class="faset" data-faset="status">
+    <span class="faset-judul">Status</span>
+    <button class="chip" data-nilai="berlaku">berlaku <b>59</b></button><button class="chip" data-nilai="diubah">diubah <b>3</b></button><button class="chip" data-nilai="dicabut">dicabut <b>2</b></button><button class="chip" data-nilai="dicabut-sebagian">dicabut-sebagian <b>1</b></button>
+  </div>
+  
+  <div class="faset" data-faset="bidang">
+    <span class="faset-judul">Bidang</span>
+    <button class="chip" data-nilai="perdata">perdata <b>31</b></button><button class="chip" data-nilai="konstitusi">konstitusi <b>24</b></button><button class="chip" data-nilai="administrasi-negara">administrasi-negara <b>15</b></button><button class="chip" data-nilai="hukum-acara">hukum-acara <b>6</b></button><button class="chip" data-nilai="pidana">pidana <b>5</b></button><button class="chip" data-nilai="agraria">agraria <b>3</b></button><button class="chip" data-nilai="hak-asasi-manusia">hak-asasi-manusia <b>1</b></button>
+  </div>
+  <button class="chip reset" id="reset-faset" hidden>× hapus saringan</button>
+</div>
+  <div id="daftar"><section class="kelompok" data-kelompok="konstitusi">
+    <h2 class="kelompok-judul">Konstitusi <span class="kelompok-n">5</span></h2>
+    <div class="kelompok-ket">Norma dasar &amp; empat perubahannya</div>
+    <div class="daftar"><div class="baris" data-jenis="uud" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><a class="nm" href="/uud/1945/">UUD 1945</a> <span class="badge hijau">irisan pilot</span></div>
     <div class="desc">Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
     <div class="metabaris">Berlaku 1945-08-18 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="perubahan-uud" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">Perubahan I</span> <span class="badge abu">karya perubahan</span></div>
     <div class="desc">Perubahan Pertama Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
     <div class="metabaris">Berlaku 1999-10-19 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="perubahan-uud" data-status="berlaku"
+    data-bidang="konstitusi|hak-asasi-manusia">
     <div class="atas"><span class="nm mati">Perubahan II</span> <span class="badge abu">karya perubahan</span></div>
     <div class="desc">Perubahan Kedua Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
     <div class="metabaris">Berlaku 2000-08-18 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="perubahan-uud" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">Perubahan III</span> <span class="badge abu">karya perubahan</span></div>
     <div class="desc">Perubahan Ketiga Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
     <div class="metabaris">Berlaku 2001-11-09 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="perubahan-uud" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">Perubahan IV</span> <span class="badge abu">karya perubahan</span></div>
     <div class="desc">Perubahan Keempat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div>
     <div class="metabaris">Berlaku 2002-08-10 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Pembentukan, Dokumentasi &amp; Arsip Hukum</h2><div class="daftar"><div class="baris">
+  </div></div>
+    
+  </section>
+<section class="kelompok" data-kelompok="pembentukan-peraturan">
+    <h2 class="kelompok-judul">Pembentukan &amp; Dokumentasi Hukum <span class="kelompok-n">8</span></h2>
+    <div class="kelompok-ket">Cara peraturan dibuat, diarsipkan, dan disebarkan</div>
+    <div class="daftar"><div class="baris" data-jenis="perpres" data-status="berlaku"
+    data-bidang="administrasi-negara">
     <div class="atas"><a class="nm" href="/perpres/2012/33/">PERPRES 33/2012</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Jaringan Dokumentasi dan Informasi Hukum Nasional</div>
     <div class="metabaris">Berlaku 2012-03-20 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="administrasi-negara">
     <div class="atas"><a class="nm" href="/uu/2009/43/">UU 43/2009</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Kearsipan</div>
     <div class="metabaris">Berlaku 2009-10-23 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><a class="nm" href="/uu/2011/12/">UU 12/2011</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Pembentukan Peraturan Perundang-Undangan</div>
     <div class="metabaris">Berlaku 2011-08-12 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permenkumham" data-status="berlaku"
+    data-bidang="administrasi-negara">
     <div class="atas"><span class="nm mati">PERMENKUMHAM 8/2019</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Standar Pengelolaan Dokumen dan Informasi Hukum</div>
     <div class="metabaris">Berlaku 2019-06-25 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="perpres" data-status="berlaku"
+    data-bidang="administrasi-negara">
     <div class="atas"><span class="nm mati">PERPRES 87/2014</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Peraturan Pelaksanaan Undang-undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-undangan</div>
     <div class="metabaris">Berlaku 2014-09-03 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">UU 15/2019</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan</div>
     <div class="metabaris">Berlaku 2019-10-04 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">UU 13/2022</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan</div>
     <div class="metabaris">Berlaku 2022-06-16 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">UU 1/2026</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Penyesuaian Pidana</div>
     <div class="metabaris">Berlaku 2026-01-02 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Teknologi Informasi &amp; Pidana</h2><div class="daftar"><div class="baris">
+  </div></div>
+    <button class="lagi" data-buka="0">Tampilkan 2 lainnya ▾</button>
+  </section>
+<section class="kelompok" data-kelompok="siber-pidana">
+    <h2 class="kelompok-judul">Teknologi Informasi &amp; Pidana <span class="kelompok-n">5</span></h2>
+    <div class="kelompok-ket">UU ITE, KUHP, dan rantai perubahannya</div>
+    <div class="daftar"><div class="baris" data-jenis="uu" data-status="diubah"
+    data-bidang="pidana|administrasi-negara">
     <div class="atas"><a class="nm" href="/uu/2008/11/">UU ITE 11/2008</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Informasi dan Transaksi Elektronik</div>
     <div class="metabaris">Berlaku 2008-04-21 · status: diubah</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="pidana">
     <div class="atas"><a class="nm" href="/uu/2023/1/">KUHP (UU 1/2023)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Kitab Undang-Undang Hukum Pidana</div>
     <div class="metabaris">Berlaku 2026-01-02 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="dicabut"
+    data-bidang="pidana">
     <div class="atas"><span class="nm mati">UU 1/1946</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Peraturan tentang Hukum Pidana</div>
     <div class="metabaris">Berlaku 1946-02-26 · status: dicabut</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="diubah"
+    data-bidang="pidana|administrasi-negara">
     <div class="atas"><span class="nm mati">UU 19/2016</span> <span class="badge abu">karya perubahan</span></div>
     <div class="desc">Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik</div>
     <div class="metabaris">Berlaku 2016-11-25 · status: diubah</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="pidana|administrasi-negara">
     <div class="atas"><span class="nm mati">UU 1/2024</span> <span class="badge abu">karya perubahan</span></div>
     <div class="desc">Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik</div>
     <div class="metabaris">Berlaku 2024-01-02 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Hukum Perdata &amp; Keluarga</h2><div class="daftar"><div class="baris">
+  </div></div>
+    
+  </section>
+<section class="kelompok" data-kelompok="perdata-keluarga">
+    <h2 class="kelompok-judul">Hukum Perdata &amp; Keluarga <span class="kelompok-n">3</span></h2>
+    <div class="kelompok-ket">KUHPerdata, perkawinan, kewarganegaraan</div>
+    <div class="daftar"><div class="baris" data-jenis="kodifikasi" data-status="dicabut-sebagian"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/kodifikasi/1847/23/">KODIFIKASI 23/1847</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Kitab Undang-Undang Hukum Perdata (Burgerlijk Wetboek voor Indonesie)</div>
     <div class="metabaris">Berlaku 1848-05-01 · status: dicabut-sebagian</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/uu/1974/1/">UU 1/1974</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Perkawinan</div>
     <div class="metabaris">Berlaku 1974-01-02 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><span class="nm mati">UU 16/2019</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Perubahan atas Undang-undang Nomor 1 Tahun 1974 tentang Perkawinan</div>
     <div class="metabaris">Berlaku 2019-10-15 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Kenotariatan, PPAT &amp; Agraria</h2><div class="daftar"><div class="baris">
+  </div></div>
+    
+  </section>
+<section class="kelompok" data-kelompok="kenotariatan">
+    <h2 class="kelompok-judul">Kenotariatan, PPAT &amp; Agraria <span class="kelompok-n">12</span></h2>
+    <div class="kelompok-ket">Rumpun inti profesi notaris dan PPAT</div>
+    <div class="daftar"><div class="baris" data-jenis="permenkumham" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/permenkumham/2016/61/">PERMENKUMHAM 61/2016</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Hukum dan HAM Nomor 61 Tahun 2016 tentang Tata Cara Penjatuhan Sanksi Administratif terhadap Notaris</div>
     <div class="metabaris">Berlaku 2016-12-30 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permenkumham" data-status="berlaku"
+    data-bidang="administrasi-negara">
     <div class="atas"><a class="nm" href="/permenkumham/2019/19/">PERMENKUMHAM 19/2019</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Hukum dan HAM Nomor 19 Tahun 2019 tentang Syarat dan Tata Cara Pengangkatan, Cuti, Perpindahan, Pemberhentian, dan Perpanjangan Masa Jabatan Notaris</div>
     <div class="metabaris">Berlaku 2019-08-30 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permenkumham" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/permenkumham/2020/15/">PERMENKUMHAM 15/2020</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Hukum dan HAM Nomor 15 Tahun 2020 tentang Tata Cara Pemeriksaan Majelis Pengawas terhadap Notaris</div>
     <div class="metabaris">Berlaku 2020-05-13 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permenkumham" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/permenkumham/2021/17/">PERMENKUMHAM 17/2021</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Hukum dan HAM Nomor 17 Tahun 2021 tentang Majelis Kehormatan Notaris</div>
     <div class="metabaris">Berlaku 2021-04-30 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permenkumham" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/permenkumham/2021/19/">PERMENKUMHAM 19/2021</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Hukum dan HAM Nomor 19 Tahun 2021 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah</div>
     <div class="metabaris">Berlaku 2021-03-16 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="pp" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/pp/1997/24/">PP 24/1997</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Pemerintah Nomor 24 Tahun 1997 tentang Pendaftaran Tanah</div>
     <div class="metabaris">Berlaku 1997-07-08 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="pp" data-status="berlaku"
+    data-bidang="perdata|agraria">
     <div class="atas"><a class="nm" href="/pp/1998/37/">PP 37/1998</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Jabatan Pejabat Pembuat Akta Tanah</div>
     <div class="metabaris">Berlaku 1998-03-05 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="agraria|perdata">
     <div class="atas"><a class="nm" href="/uu/1960/5/">UU 5/1960</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 5 Tahun 1960 tentang Peraturan Dasar Pokok-Pokok Agraria</div>
     <div class="metabaris">Berlaku 1960-09-24 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata|administrasi-negara">
     <div class="atas"><a class="nm" href="/uu/2004/30/">UU 30/2004</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Jabatan Notaris</div>
     <div class="metabaris">Berlaku 2004-10-06 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="permenkumham" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><span class="nm mati">PERMENKUMHAM 9/2017</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Peraturan Menteri Hukum dan HAM Nomor 9 Tahun 2017 tentang Penerapan Prinsip Mengenali Pengguna Jasa bagi Notaris</div>
     <div class="metabaris">Berlaku 2017-07-12 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="pp" data-status="berlaku"
+    data-bidang="perdata|agraria">
     <div class="atas"><span class="nm mati">PP 24/2016</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah</div>
     <div class="metabaris">Berlaku 2016-06-27 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata|administrasi-negara">
     <div class="atas"><span class="nm mati">UU 2/2014</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Perubahan atas Undang-Undang Nomor 30 Tahun 2004 Tentang Jabatan Notaris</div>
     <div class="metabaris">Berlaku 2014-01-15 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Badan Hukum &amp; Jaminan</h2><div class="daftar"><div class="baris">
+  </div></div>
+    <button class="lagi" data-buka="0">Tampilkan 6 lainnya ▾</button>
+  </section>
+<section class="kelompok" data-kelompok="badan-usaha-jaminan">
+    <h2 class="kelompok-judul">Badan Usaha &amp; Jaminan <span class="kelompok-n">9</span></h2>
+    <div class="kelompok-ket">PT, yayasan, hak tanggungan, fidusia</div>
+    <div class="daftar"><div class="baris" data-jenis="pp" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/pp/2015/21/">PP 21/2015</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Pemerintah Nomor 21 Tahun 2015 tentang Tata Cara Pendaftaran Jaminan Fidusia dan Biaya Pembuatan Akta Jaminan Fidusia</div>
     <div class="metabaris">Berlaku 2015-04-06 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/uu/1996/4/">UU 4/1996</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 4 Tahun 1996 tentang Hak Tanggungan Atas Tanah Beserta Benda-Benda yang Berkaitan dengan Tanah</div>
     <div class="metabaris">Berlaku 1996-04-09 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/uu/1999/42/">UU 42/1999</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 42 Tahun 1999 tentang Jaminan Fidusia</div>
     <div class="metabaris">Berlaku 1999-09-30 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/uu/2001/16/">UU 16/2001</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 16 Tahun 2001 tentang Yayasan</div>
     <div class="metabaris">Berlaku 2001-08-06 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/uu/2007/40/">UU 40/2007</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas</div>
     <div class="metabaris">Berlaku 2007-08-16 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="pp" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><span class="nm mati">PP 43/2015</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Peraturan Pemerintah Nomor 43 Tahun 2015 tentang Pihak Pelapor dalam Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang</div>
     <div class="metabaris">Berlaku 2015-06-23 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><span class="nm mati">UU 28/2004</span> <span class="badge abu">karya perubahan</span></div>
     <div class="desc">Undang-Undang Nomor 28 Tahun 2004 tentang Perubahan atas Undang-Undang Nomor 16 Tahun 2001 tentang Yayasan</div>
     <div class="metabaris">Berlaku 2005-10-06 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><span class="nm mati">UU 8/2010</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Undang-Undang Nomor 8 Tahun 2010 tentang Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang</div>
     <div class="metabaris">Berlaku 2010-10-22 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><span class="nm mati">UU 6/2023</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang</div>
     <div class="metabaris">Berlaku 2023-03-31 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Lelang</h2><div class="daftar"><div class="baris">
+  </div></div>
+    <button class="lagi" data-buka="0">Tampilkan 3 lainnya ▾</button>
+  </section>
+<section class="kelompok" data-kelompok="lelang">
+    <h2 class="kelompok-judul">Lelang <span class="kelompok-n">5</span></h2>
+    <div class="kelompok-ket">Dari Vendu Reglement 1908 sampai juklak yang berlaku</div>
+    <div class="daftar"><div class="baris" data-jenis="permenkeu" data-status="berlaku"
+    data-bidang="administrasi-negara|perdata">
     <div class="atas"><a class="nm" href="/permenkeu/2017/189/">PMK 189/2017 (Pejabat Lelang II)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Keuangan Nomor 189/PMK.06/2017 tentang Pejabat Lelang Kelas II</div>
     <div class="metabaris">Berlaku 2018-03-11 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permenkeu" data-status="berlaku"
+    data-bidang="administrasi-negara|perdata">
     <div class="atas"><a class="nm" href="/permenkeu/2019/113/">PMK 113/2019 (Balai Lelang)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Keuangan Nomor 113/PMK.06/2019 tentang Balai Lelang</div>
     <div class="metabaris">Berlaku 2019-09-05 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permenkeu" data-status="berlaku"
+    data-bidang="administrasi-negara|perdata">
     <div class="atas"><a class="nm" href="/permenkeu/2023/122/">PMK 122/2023 (Juklak Lelang)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Keuangan Nomor 122 Tahun 2023 tentang Petunjuk Pelaksanaan Lelang</div>
     <div class="metabaris">Berlaku 2023-11-23 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permenkeu" data-status="berlaku"
+    data-bidang="administrasi-negara|perdata">
     <div class="atas"><a class="nm" href="/permenkeu/2024/86/">PMK 86/2024 (Risalah Lelang)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Menteri Keuangan Nomor 86 Tahun 2024 tentang Risalah Lelang</div>
     <div class="metabaris">Berlaku 2024-12-31 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="vendu" data-status="berlaku"
+    data-bidang="perdata|administrasi-negara">
     <div class="atas"><a class="nm" href="/vendu/1908/189/">Vendu Reglement (S. 1908-189)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Lelang (Vendu Reglement) — Peraturan Penjualan di Muka Umum di Indonesia</div>
     <div class="metabaris">Berlaku 1908-04-01 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Mahkamah Konstitusi: kelembagaan &amp; hukum acara</h2><div class="daftar"><div class="baris">
+  </div></div>
+    
+  </section>
+<section class="kelompok" data-kelompok="mahkamah-konstitusi">
+    <h2 class="kelompok-judul">Mahkamah Konstitusi <span class="kelompok-n">9</span></h2>
+    <div class="kelompok-ket">Kelembagaan &amp; hukum acara MK</div>
+    <div class="daftar"><div class="baris" data-jenis="permk" data-status="berlaku"
+    data-bidang="konstitusi|hukum-acara">
     <div class="atas"><a class="nm" href="/permk/2012/1/">PMK 1/2012 (Produk Hukum MK)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Mahkamah Konstitusi Nomor 1 Tahun 2012 tentang Produk Hukum Mahkamah Konstitusi</div>
     <div class="metabaris">Berlaku 2012-03-01 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permk" data-status="berlaku"
+    data-bidang="konstitusi|hukum-acara">
     <div class="atas"><a class="nm" href="/permk/2019/3/">PMK 3/2019 (Produk Hukum MK)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Mahkamah Konstitusi Nomor 3 Tahun 2019 tentang Produk Hukum Mahkamah Konstitusi</div>
     <div class="metabaris">Berlaku 2019-05-23 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permk" data-status="berlaku"
+    data-bidang="konstitusi|hukum-acara">
     <div class="atas"><a class="nm" href="/permk/2020/1/">PMK 1/2020 (Persidangan MK)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Mahkamah Konstitusi Nomor 1 Tahun 2020 tentang Persidangan Mahkamah Konstitusi</div>
     <div class="metabaris">Berlaku 2020-01-16 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="permk" data-status="berlaku"
+    data-bidang="konstitusi|hukum-acara">
     <div class="atas"><a class="nm" href="/permk/2025/7/">PMK 7/2025 (Tata Beracara PUU)</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Peraturan Mahkamah Konstitusi Nomor 7 Tahun 2025 tentang Tata Beracara dalam Perkara Pengujian Undang-Undang</div>
     <div class="metabaris">Berlaku 2025-08-20 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="diubah"
+    data-bidang="konstitusi|hukum-acara">
     <div class="atas"><a class="nm" href="/uu/2003/24/">UU MK 24/2003</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</div>
     <div class="metabaris">Berlaku 2003-08-13 · status: diubah</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="konstitusi|hukum-acara">
     <div class="atas"><a class="nm" href="/uu/2009/48/">UU Kekuasaan Kehakiman 48/2009</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 48 Tahun 2009 tentang Kekuasaan Kehakiman</div>
     <div class="metabaris">Berlaku 2009-10-29 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="perppu" data-status="dicabut"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">Perppu 1/2013 (Perubahan II — dibatalkan MK)</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</div>
     <div class="metabaris">Berlaku 2013-10-17 · status: dicabut</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">UU 8/2011 (Perubahan I UU MK)</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</div>
     <div class="metabaris">Berlaku 2011-07-20 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-lipat="1" data-jenis="uu" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><span class="nm mati">UU 7/2020 (Perubahan III UU MK)</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Undang-Undang Nomor 7 Tahun 2020 tentang Perubahan Ketiga atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</div>
     <div class="metabaris">Berlaku 2020-09-29 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Putusan Mahkamah Konstitusi</h2><div class="daftar"><div class="baris">
+  </div></div>
+    <button class="lagi" data-buka="0">Tampilkan 3 lainnya ▾</button>
+  </section>
+<section class="kelompok" data-kelompok="putusan-mk">
+    <h2 class="kelompok-judul">Putusan Mahkamah Konstitusi <span class="kelompok-n">6</span></h2>
+    <div class="kelompok-ket">Amar, konklusi, dan pendapat hakim</div>
+    <div class="daftar"><div class="baris" data-jenis="putusan-mk" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><a class="nm" href="/putusan-mk/2014/1-2-puu-xii-2014/">Putusan MK 1-2/PUU-XII/2014</a> <span class="badge hijau">unsur putusan</span></div>
     <div class="desc">Putusan Mahkamah Konstitusi Nomor 1-2/PUU-XII/2014 (pengujian UU 4/2014 tentang Penetapan Perppu 1/2013 menjadi Undang-Undang — dikabulkan seluruhnya)</div>
     <div class="metabaris">Berlaku 2014-02-13 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="putusan-mk" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><a class="nm" href="/putusan-mk/2019/18-puu-xvii-2019/">Putusan MK 18/PUU-XVII/2019</a> <span class="badge hijau">unsur putusan</span></div>
     <div class="desc">Putusan Mahkamah Konstitusi Nomor 18/PUU-XVII/2019 (pengujian Pasal 15 UU 42/1999 tentang Jaminan Fidusia — eksekusi sertifikat jaminan fidusia)</div>
     <div class="metabaris">Berlaku 2020-01-06 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="putusan-mk" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><a class="nm" href="/putusan-mk/2021/2-puu-xix-2021/">Putusan MK 2/PUU-XIX/2021</a> <span class="badge hijau">unsur putusan</span></div>
     <div class="desc">Putusan Mahkamah Konstitusi Nomor 2/PUU-XIX/2021 (pengujian kembali Pasal 15 ayat (2) UU 42/1999 tentang Jaminan Fidusia — permohonan ditolak; penegasan makna Putusan 18/PUU-XVII/2019)</div>
     <div class="metabaris">Berlaku 2021-08-31 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="putusan-mk" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><a class="nm" href="/putusan-mk/2016/20-puu-xiv-2016/">Putusan MK 20/PUU-XIV/2016</a> <span class="badge hijau">unsur putusan</span></div>
     <div class="desc">Putusan Mahkamah Konstitusi Nomor 20/PUU-XIV/2016 (pengujian Pasal 5 dan Pasal 44 UU ITE serta Pasal 26A UU Tipikor — informasi/dokumen elektronik sebagai alat bukti)</div>
     <div class="metabaris">Berlaku 2016-09-07 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="putusan-mk" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><a class="nm" href="/putusan-mk/2010/46-puu-viii-2010/">Putusan MK 46/PUU-VIII/2010</a> <span class="badge hijau">unsur putusan</span></div>
     <div class="desc">Putusan Mahkamah Konstitusi Nomor 46/PUU-VIII/2010 (pengujian Pasal 2 ayat (2) dan Pasal 43 ayat (1) UU 1/1974 tentang Perkawinan — hubungan perdata anak luar kawin)</div>
     <div class="metabaris">Berlaku 2012-02-17 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="putusan-mk" data-status="berlaku"
+    data-bidang="konstitusi">
     <div class="atas"><a class="nm" href="/putusan-mk/2015/69-puu-xiii-2015/">Putusan MK 69/PUU-XIII/2015</a> <span class="badge hijau">unsur putusan</span></div>
     <div class="desc">Putusan Mahkamah Konstitusi Nomor 69/PUU-XIII/2015 (pengujian Pasal 21 &amp; 36 UUPA serta Pasal 29 UU 1/1974 — perjanjian perkawinan dapat dibuat selama ikatan perkawinan)</div>
     <div class="metabaris">Berlaku 2016-10-27 · status: berlaku</div>
-  </div></div></section>
-<section class="kelompok"><h2 class="kelompok-judul">Perkoperasian &amp; Rumah Susun</h2><div class="daftar"><div class="baris">
+  </div></div>
+    
+  </section>
+<section class="kelompok" data-kelompok="koperasi-rusun">
+    <h2 class="kelompok-judul">Perkoperasian &amp; Rumah Susun <span class="kelompok-n">3</span></h2>
+    <div class="kelompok-ket">Terdampak UU Cipta Kerja</div>
+    <div class="daftar"><div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/uu/1992/25/">UU 25/1992</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian</div>
     <div class="metabaris">Berlaku 1992-10-21 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="uu" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><a class="nm" href="/uu/2011/20/">UU 20/2011</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 20 Tahun 2011 tentang Rumah Susun</div>
     <div class="metabaris">Berlaku 2011-11-10 · status: berlaku</div>
   </div>
-<div class="baris">
+<div class="baris" data-jenis="pp" data-status="berlaku"
+    data-bidang="perdata">
     <div class="atas"><span class="nm mati">PP 18/2021</span> <span class="badge abu">metadata terpanen</span></div>
     <div class="desc">Peraturan Pemerintah Nomor 18 Tahun 2021 tentang Hak Pengelolaan, Hak Atas Tanah, Satuan Rumah Susun, dan Pendaftaran Tanah</div>
     <div class="metabaris">Berlaku 2021-02-02 · status: berlaku</div>
-  </div></div></section></div>
+  </div></div>
+    
+  </section></div>
   <div id="kosong" style="display:none;color:var(--ink-2);font-size:.85rem;padding:16px 4px">Tidak ada yang cocok.</div>
   <style>
+    .faset-bar { display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; margin:0 0 14px }
+    .faset { display:flex; flex-wrap:wrap; gap:6px; align-items:center }
+    .faset-judul { font:600 .68rem var(--sans); text-transform:uppercase; letter-spacing:.05em; color:var(--ink-2); margin-right:2px }
+    .chip { border:1px solid var(--line); background:var(--surface); color:var(--ink-2); border-radius:999px;
+      padding:3px 10px; font:500 .78rem var(--sans); cursor:pointer }
+    .chip:hover { border-color:var(--accent); color:var(--ink) }
+    .chip b { font-weight:700; color:var(--ink-2); margin-left:2px }
+    .chip.on { background:var(--accent-soft); border-color:var(--accent); color:var(--accent) }
+    .chip.on b { color:var(--accent) }
+    .chip.reset { border-style:dashed }
+    .kelompok-n { font:600 .72rem var(--sans); color:var(--ink-2); background:var(--surface-2);
+      border:1px solid var(--line); border-radius:999px; padding:1px 8px; vertical-align:2px }
+    .kelompok-ket { color:var(--ink-2); font-size:.8rem; margin:-2px 0 8px }
+    .baris[data-lipat="1"] { display:none }
+    .kelompok.buka .baris[data-lipat="1"] { display:flex }
+    .lagi { margin-top:6px; border:1px solid var(--line); background:var(--surface-2); color:var(--ink-2);
+      border-radius:6px; padding:5px 12px; font:500 .78rem var(--sans); cursor:pointer }
+    .lagi:hover { border-color:var(--accent); color:var(--accent) }
     .hasil { border:1px solid var(--line); border-radius:6px; margin-bottom:12px }
     .hasil .kepala-hasil { background:var(--surface-2); border-bottom:1px solid var(--line); border-radius:6px 6px 0 0;
       padding:6px 12px; font:600 .72rem var(--sans); text-transform:uppercase; letter-spacing:.04em; color:var(--ink-2) }
@@ -424,16 +575,30 @@
             '</span><div class="cuplikan">' + cuplikan(e.t, q) + "</div></a>";
         }).join("") + "</div>";
     }
-    document.getElementById("saring").addEventListener("input", function () {
-      var q = this.value.trim().toLowerCase(), ada = 0;
+    // ---- saringan gabungan: teks + faset (jenis/status/bidang) ----
+    var pilih = { jenis: null, status: null, bidang: null };
+    function terapkan() {
+      var q = (document.getElementById("saring").value || "").trim().toLowerCase(), ada = 0;
       document.querySelectorAll("#daftar .baris").forEach(function (b) {
-        var cocok = !q || b.textContent.toLowerCase().indexOf(q) !== -1;
+        var cocok = (!q || b.textContent.toLowerCase().indexOf(q) !== -1)
+          && (!pilih.jenis  || b.dataset.jenis === pilih.jenis)
+          && (!pilih.status || b.dataset.status === pilih.status)
+          && (!pilih.bidang || (b.dataset.bidang || "").split("|").indexOf(pilih.bidang) !== -1);
         b.style.display = cocok ? "" : "none"; if (cocok) ada++;
       });
       document.querySelectorAll("#daftar .kelompok").forEach(function (s) {
-        var tampak = [].some.call(s.querySelectorAll(".baris"), function (b) { return b.style.display !== "none"; });
-        s.style.display = tampak ? "" : "none";
+        var tampak = [].filter.call(s.querySelectorAll(".baris"), function (b) { return b.style.display !== "none"; });
+        s.style.display = tampak.length ? "" : "none";
+        var n = s.querySelector(".kelompok-n"); if (n) n.textContent = tampak.length;
+        // Saat menyaring, lipatan dibuka agar hasil tak tersembunyi — lalu
+        // ditutup kembali begitu saringan dihapus, KECUALI kelompok yang
+        // memang sengaja dibuka pengguna lewat tombol.
+        var menyaring = q || pilih.jenis || pilih.status || pilih.bidang;
+        if (menyaring) s.classList.add("buka");
+        else if (s.dataset.manual !== "1") { s.classList.remove("buka"); labelLagi(s); }
       });
+      var aktif = pilih.jenis || pilih.status || pilih.bidang;
+      document.getElementById("reset-faset").hidden = !aktif;
       document.getElementById("kosong").style.display = ada ? "none" : "block";
       if (q.length >= 3 && !indeksCari && !memuat) {
         memuat = true;
@@ -441,6 +606,35 @@
           .then(function (d) { indeksCari = d; cariTeks(q); })
           .catch(function () {});
       } else cariTeks(q);
+    }
+    document.getElementById("saring").addEventListener("input", terapkan);
+    document.querySelectorAll("#faset .chip[data-nilai]").forEach(function (c) {
+      c.addEventListener("click", function () {
+        var f = c.closest(".faset").dataset.faset, v = c.dataset.nilai;
+        var nyala = pilih[f] === v;
+        pilih[f] = nyala ? null : v;
+        c.closest(".faset").querySelectorAll(".chip").forEach(function (x) { x.classList.remove("on"); });
+        if (!nyala) c.classList.add("on");
+        terapkan();
+      });
+    });
+    document.getElementById("reset-faset").addEventListener("click", function () {
+      pilih = { jenis: null, status: null, bidang: null };
+      document.querySelectorAll("#faset .chip").forEach(function (x) { x.classList.remove("on"); });
+      document.querySelectorAll("#daftar .kelompok").forEach(function (s) { s.classList.remove("buka"); });
+      terapkan();
+    });
+    function labelLagi(s) {
+      var b = s.querySelector(".lagi"); if (!b) return;
+      b.textContent = s.classList.contains("buka") ? "Tampilkan lebih sedikit ▴"
+        : "Tampilkan " + (s.querySelectorAll('.baris[data-lipat="1"]').length) + " lainnya ▾";
+    }
+    document.querySelectorAll(".lagi").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var s = b.closest(".kelompok"), buka = s.classList.toggle("buka");
+        s.dataset.manual = buka ? "1" : "0";
+        labelLagi(s);
+      });
     });
   </script>
   <footer>Data terbuka (CC0) · <a href="/api/index.json">API</a> · <a href="/akun/">Akun</a> · Teks peraturan tidak berhak cipta (Pasal 42 UU 28/2014).</footer>
