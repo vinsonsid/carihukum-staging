@@ -37,15 +37,16 @@
    }
   ],
   "cakupan_pilot": "lengkap-batang-tubuh",
-  "catatan_kurasi": "Batang tubuh LENGKAP (54 pasal, 13 bab) hasil parser + verifikasi otomatis terhadap PDF LN resmi (239/239 unit cocok). Penjelasan & lampiran belum dienkode. Sebagian operasi UU 19/2016 dan UU 1/2024 masih berstatus belum-dienkode (lihat perubahan.json masing-masing).",
+  "catatan_kurasi": "Batang tubuh LENGKAP (54 pasal, 13 bab) hasil parser + verifikasi otomatis terhadap PDF LN resmi (239/239 unit cocok). Penjelasan (umum + 54 pasal) sudah dienkode & terverifikasi; lampiran belum dimuat. Seluruh operasi UU 19/2016 dan UU 1/2024 kini terenkode (tidak ada sisa belum-dienkode); rumusan dari salinan scan LN, reparasi OCR ditandai pdf-ocr dengan catatan kurasi per unit.",
   "dasar_hukum": [
    {
     "teks": "Mengingat : Pasal 5 ayat (1) dan Pasal 20 Undang-Undang Dasar Negara Tahun 1945",
     "target": "uud-1945"
    }
-  ]
+  ],
+  "tahap": "terverifikasi"
  },
- "dihasilkan": "2026-09-03T10:33:42.708Z",
+ "dihasilkan": "2026-09-03T10:49:47.933Z",
  "timeline": [
   {
    "tanggal": "2008-04-21",
@@ -75,8 +76,8 @@
    "judul_pelaku": "Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
    "jumlah_operasi": 18,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "draf",
-   "catatan": " | Operasi tambahan dienkode otomatis parser-perubahan dari PDF scan (teks mengikuti sumber; artefak OCR minor mungkin ada — diverifikasi terhadap berkas sumber)."
+   "status_kurasi": "terverifikasi",
+   "catatan": "| Operasi tambahan dienkode otomatis parser-perubahan dari PDF scan (teks mengikuti sumber; artefak OCR minor mungkin ada — diverifikasi terhadap berkas sumber). Audit kurasi 3 Sep 2026: seluruh unit terverifikasi terhadap salinan LN (0 beda), setiap reparasi OCR bercatatan kurasi per unit, tidak ada operasi tersisa yang belum dienkode — status dinaikkan dari draf."
   },
   {
    "tanggal": "2024-01-02",
@@ -86,8 +87,8 @@
    "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
    "jumlah_operasi": 36,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "draf",
-   "catatan": " | Operasi tambahan dienkode otomatis parser-perubahan dari PDF scan (teks mengikuti sumber; artefak OCR minor mungkin ada — diverifikasi terhadap berkas sumber)."
+   "status_kurasi": "terverifikasi",
+   "catatan": "| Operasi tambahan dienkode otomatis parser-perubahan dari PDF scan (teks mengikuti sumber; artefak OCR minor mungkin ada — diverifikasi terhadap berkas sumber). Audit kurasi 3 Sep 2026: seluruh unit terverifikasi terhadap salinan LN (0 beda), setiap reparasi OCR bercatatan kurasi per unit, tidak ada operasi tersisa yang belum dienkode — status dinaikkan dari draf."
   },
   {
    "tanggal": "2026-01-02",
@@ -1107,7 +1108,7 @@
          "tipe": "ayat",
          "nomor": "(3)",
          "teks": "Penyelenggara Sertifikasi Elektronik yang beroperasi di Indonesia harus berbadan hukum Indonesia dan berdomisili di Indonesia.",
-         "verifikasi": "pdf-ocr",
+         "verifikasi": "pdf-resmi",
          "catatan_kurasi": "Ekor junk kop OCR dibuang.",
          "sumber": "uu-2024-1",
          "berlaku_mulai": "2024-01-02"
@@ -2454,6 +2455,7 @@
          "berlaku_mulai": "2024-01-02"
         }
        ],
+       "catatan_kurasi": "OCR 'ancarnan' dikoreksi menjadi 'ancaman'; penomoran ayat '(21' dinormalkan '(2)'. Rumusan pemerasan/pengancaman dicek verbatim terhadap scan LN.",
        "sumber": "uu-2024-1",
        "berlaku_mulai": "2024-01-02"
       }
@@ -2995,7 +2997,7 @@
        "tipe": "ayat",
        "nomor": "(2)",
        "teks": "Pemerintah melindungi kepentingan umum dari segala jenis gangguan sebagai akibat penyalahgunaan Informasi Elektronik dan Transaksi Elektronik yang mengganggu ketertiban umum, sesuai dengan ketentuan peraturan perundang-undangan.",
-       "verifikasi": "pdf-ocr",
+       "verifikasi": "pdf-resmi",
        "catatan_kurasi": "Junk kop OCR di awal ayat dibuang.",
        "sumber": "uu-2024-1",
        "berlaku_mulai": "2024-01-02"
@@ -3042,7 +3044,7 @@
        "tipe": "ayat",
        "nomor": "(4)",
        "teks": "Instansi atau institusi sebagaimana dimaksud pada ayat (3) harus membuat Dokumen Elektronik dan rekam cadang elektroniknya serta menghubungkannya ke pusat data tertentu untuk kepentingan pengamanan data.",
-       "verifikasi": "pdf-ocr",
+       "verifikasi": "pdf-resmi",
        "catatan_kurasi": "Junk kop OCR di awal ayat dibuang.",
        "sumber": "uu-2024-1",
        "berlaku_mulai": "2024-01-02"
@@ -4231,6 +4233,7 @@
           "nomor": "(2)",
           "teks": "Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian sebagaimana dimaksud dalam Pasal 27 ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
           "verifikasi": "pdf-ocr",
+          "catatan_kurasi": "OCR 'dimaLsud' dikoreksi menjadi 'dimaksud'; penomoran ayat '(21' dinormalkan '(2)'. Angka ancaman pidana (6 tahun; Rp1.000.000.000,00) dicek verbatim terhadap scan LN.",
           "sumber": "uu-2016-19",
           "berlaku_mulai": "2016-11-25"
          },
@@ -4352,6 +4355,7 @@
           "nomor": "(2)",
           "teks": "Setiap Orang yang dengan sengaja dan tanpa hak menyebarkan informasi yang ditujukan untuk menimbulkan rasa kebencian atau permusuhan individu dan/atau kelompok masyarakat tertentu berdasarkan atas suku, agama, ras, dan antargolongan (SARA) sebagaimana dimaksud dalam Pasal 28 ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
           "verifikasi": "pdf-ocr",
+          "catatan_kurasi": "Penomoran ayat '(21' dinormalkan '(2)' (dua kali: kepala ayat & rujukan Pasal 28 ayat (2)); nominal denda OCR 'Rp 1. 000.O00. 000,00' (huruf O & spasi sisipan) dinormalkan 'Rp1.000.000.000,00'; 'dan/ atau' dirapatkan. Angka ancaman pidana (6 tahun; satu miliar rupiah) dicek verbatim terhadap scan LN.",
           "sumber": "uu-2016-19",
           "berlaku_mulai": "2016-11-25"
          }
@@ -4822,8 +4826,8 @@
  },
  "keandalan": {
   "total": 266,
-  "pdf-resmi": 249,
-  "pdf-ocr": 17,
+  "pdf-resmi": 252,
+  "pdf-ocr": 14,
   "draf": 0,
   "lainnya": 0
  },

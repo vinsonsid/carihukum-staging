@@ -66,15 +66,16 @@
    }
   ],
   "cakupan_pilot": "lengkap-batang-tubuh",
-  "catatan_kurasi": "Batang tubuh LENGKAP (13 bab, 104 pasal) terverifikasi PDF LN (100% cocok). Lampiran I & II (teknik penyusunan) dan Penjelasan belum dienkode. Tiga UU perubahan tercatat sebagai peristiwa belum-dienkode.",
+  "catatan_kurasi": "Batang tubuh LENGKAP (13 bab, 104 pasal) terverifikasi PDF LN (100% cocok). Penjelasan (umum + 108 pasal) sudah dienkode & terverifikasi; Lampiran I & II (teknik penyusunan peraturan) belum dimuat — skema lampiran belum ada. Tiga UU perubahan tercatat sebagai peristiwa belum-dienkode.",
   "dasar_hukum": [
    {
     "teks": "Mengingat : Pasal 20, Pasal 21, dan Pasal 22A Undang-Undang Dasar Negara Tahun 1945",
     "target": "uud-1945"
    }
-  ]
+  ],
+  "tahap": "terverifikasi"
  },
- "dihasilkan": "2026-09-03T10:33:42.718Z",
+ "dihasilkan": "2026-09-03T10:49:47.942Z",
  "timeline": [
   {
    "tanggal": "2011-08-12",
@@ -5736,7 +5737,7 @@
        "tipe": "ayat",
        "nomor": "(6)",
        "teks": "Ketentuan lebih lanjut mengenai tata cara Pembentukan Peraturan Perundang-undangan secara elektronik sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan DPR, Peraturan DPD, dan Peraturan Presiden.",
-       "verifikasi": "pdf-ocr",
+       "verifikasi": "pdf-resmi",
        "catatan_kurasi": "OCR 'ayat (l)' & junk kop dikoreksi manual dari scan.",
        "sumber": "uu-2022-13",
        "berlaku_mulai": "2022-06-16"
@@ -6175,8 +6176,8 @@
  },
  "keandalan": {
   "total": 389,
-  "pdf-resmi": 387,
-  "pdf-ocr": 2,
+  "pdf-resmi": 388,
+  "pdf-ocr": 1,
   "draf": 0,
   "lainnya": 0
  },
