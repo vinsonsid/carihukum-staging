@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="permenkeu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/permenkeu/2024/86/!main"/>
+          <FRBRuri value="/akn/id/act/permenkeu/2024/86"/>
+          <FRBRdate date="2024-10-25" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/permenkeu/2024/86/ind@2024-12-31/!main"/>
+          <FRBRuri value="/akn/id/act/permenkeu/2024/86/ind@2024-12-31"/>
+          <FRBRdate date="2024-12-31" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/permenkeu/2024/86/ind@2024-12-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/permenkeu/2024/86/ind@2024-12-31.akn"/>
+          <FRBRdate date="2026-09-03" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Peraturan Menteri Keuangan Nomor 86 Tahun 2024 tentang Risalah Lelang</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Peraturan Menteri ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Lelang adalah penjualan barang yang terbuka untuk umum dengan penawaran harga secara tertulis dan/atau lisan yang semakin meningkat atau menurun untuk mencapai harga tertinggi, yang didahului dengan pengumuman Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Barang adalah tiap benda atau hak yang dapat dijual secara Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Objek Lelang adalah Barang yang dilelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Risalah Lelang adalah berita acara pelaksanaan Lelang yang dibuat oleh Pejabat Lelang yang merupakan akta autentik dan mempunyai kekuatan pembuktian sempurna.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Risalah Lelang Elektronik adalah Risalah Lelang yang dibuat dalam format elektronik dengan menggunakan sistem elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Minuta Risalah Lelang adalah asli Risalah Lelang berikut lampirannya, yang merupakan dokumen atau arsip Negara.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Turunan Risalah Lelang adalah dokumen yang dibuat merujuk pada Minuta Risalah Lelang dengan cara menyalin secara lengkap atau mengutip sebagian dengan sebutan tertentu sesuai dengan fungsinya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Salinan Risalah Lelang adalah salinan kata demi kata dari seluruh Risalah Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Kutipan Risalah Lelang adalah kutipan kata demi kata dari satu atau beberapa bagian Risalah Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Grosse Risalah Lelang adalah salinan dari Risalah Lelang yang berkepala “DEMI KEADILAN BERDASARKAN KETUHANAN YANG MAHA ESA”.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Aplikasi Lelang Berbasis Internet yang selanjutnya disebut Aplikasi Lelang adalah program komputer berbasis internet yang digunakan untuk menyelenggarakan dan/atau memfasilitasi Lelang tanpa kehadiran peserta secara fisik yang dikembangkan/ disediakan oleh Kementerian Keuangan/ DJKN atau Balai Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Meterai adalah label atau carik dalam bentuk tempel, elektronik, atau bentuk lainnya yang memiliki ciri dan mengandung unsur pengaman yang dikeluarkan oleh Pemerintah Republik Indonesia, yang digunakan untuk membayar pajak atas dokumen.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Kertas Sekuriti adalah kertas khusus untuk pembuatan Kutipan Risalah Lelang yang memiliki unsur pengaman untuk menghindari tindakan pemalsuan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Penyelenggara Lelang adalah instansi pemerintah atau institusi swasta yang menyelenggarakan Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Direktur Jenderal Kekayaan Negara yang selanjutnya disebut Direktur Jenderal adalah pejabat Eselon I di lingkungan Kementerian Keuangan yang mempunyai tugas menyelenggarakan perumusan dan pelaksanaan kebijakan di bidang kekayaan negara, penilaian, dan Lelang sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Direktur Lelang yang selanjutnya disebut Direktur adalah pejabat Eselon II di lingkungan DJKN yang mempunyai tugas merumuskan serta melaksanakan kebijakan dan standardisasi teknis di bidang Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Superintenden Lelang yang selanjutnya disebut Superintenden adalah pejabat yang diberi kewenangan oleh Menteri untuk melakukan pembinaan dan pengawasan kepada Pejabat Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Pejabat Lelang adalah pejabat umum yang diberi wewenang khusus untuk melaksanakan Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Pejabat Lelang Kelas I adalah Pegawai Negeri Sipil pada Kementerian Keuangan yang diangkat sebagai Pejabat Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_21">
+                <num>21.</num>
+                <content><p>Pejabat Lelang Kelas II adalah orang perseorangan yang berasal dari swasta/umum yang diangkat sebagai Pejabat Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_22">
+                <num>22.</num>
+                <content><p>Orang adalah orang perseorangan atau korporasi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_23">
+                <num>23.</num>
+                <content><p>Penjual Lelang yang selanjutnya disebut Penjual adalah Orang, instansi, atau lembaga yang dibentuk dengan peraturan perundang-undangan, yang berdasarkan peraturan perundang-undangan atau perjanjian berwenang menjual Barang secara Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_24">
+                <num>24.</num>
+                <content><p>Peserta Lelang adalah Orang, instansi, atau lembaga yang dibentuk dengan peraturan perundang-undangan, yang telah memenuhi syarat untuk mengikuti Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_25">
+                <num>25.</num>
+                <content><p>Pembeli Lelang yang selanjutnya disebut Pembeli adalah Peserta Lelang yang mengajukan penawaran tertinggi dan disahkan sebagai pemenang Lelang oleh Pejabat Lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_26">
+                <num>26.</num>
+                <content><p>Direktorat Jenderal Kekayaan Negara yang selanjutnya disingkat DJKN adalah unit eselon I di lingkungan Kementerian Keuangan yang mempunyai tugas menyelenggarakan perumusan dan pelaksanaan kebijakan di bidang kekayaan negara, penilaian dan Lelang sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_27">
+                <num>27.</num>
+                <content><p>Kantor Wilayah DJKN yang selanjutnya disebut Kantor Wilayah adalah instansi vertikal DJKN yang berada di bawah dan bertanggung jawab langsung kepada Direktur Jenderal.</p></content>
+              </point>
+              <point eId="pasal_1__angka_28">
+                <num>28.</num>
+                <content><p>Kantor Pelayanan Kekayaan Negara dan Lelang yang selanjutnya disingkat KPKNL adalah instansi vertikal DJKN yang berada di bawah dan bertanggung jawab langsung kepada Kepala Kantor Wilayah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_29">
+                <num>29.</num>
+                <content><p>Balai Lelang adalah Badan Hukum Indonesia berbentuk Perseroan Terbatas (PT) yang khusus didirikan untuk melakukan kegiatan usaha di bidang lelang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_30">
+                <num>30.</num>
+                <content><p>Kantor Pejabat Lelang Kelas II adalah kantor swasta tempat kedudukan Pejabat Lelang Kelas II.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>BENTUK RISALAH LELANG DAN TURUNAN RISALAH LELANG</heading>
+          <part eId="bab_2__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_2">
+                <num>2</num>
+                  <paragraph eId="pasal_2__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap pelaksanaan Lelang dibuatkan Risalah Lelang oleh Pejabat Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_2__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Lelang yang dibuatkan Risalah Lelang sebagaimana dimaksud pada ayat (1) merupakan Lelang dengan Objek Lelang yang laku terjual.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_2__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Risalah Lelang sebagaimana dimaksud pada ayat (1) dibuat dalam bentuk Minuta Risalah Lelang.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_3">
+                <num>3</num>
+                  <paragraph eId="pasal_3__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Terhadap Risalah Lelang sebagaimana dimaksud dalam Pasal 2, Kepala KPKNL dan Pejabat Lelang Kelas II membuat Turunan Risalah Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_3__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Turunan Risalah Lelang sebagaimana dimaksud pada ayat (1) berupa:</p></intro>
+                      <point eId="pasal_3__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>Salinan Risalah Lelang;</p></content>
+                      </point>
+                      <point eId="pasal_3__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>Kutipan Risalah Lelang; dan</p></content>
+                      </point>
+                      <point eId="pasal_3__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>Grosse Risalah Lelang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_3__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal Pejabat Lelang Kelas II sebagaimana dimaksud pada ayat (1) berhalangan tetap, Turunan Risalah Lelang dibuat oleh Superintenden.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Bagian Risalah Lelang</heading>
+              <article eId="pasal_4">
+                <num>4</num>
+                  <paragraph eId="pasal_4__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Risalah Lelang sebagaimana dimaksud dalam Pasal 2 dibuat menggunakan Bahasa Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Risalah Lelang terdiri atas:</p></intro>
+                      <point eId="pasal_4__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>bagian kepala;</p></content>
+                      </point>
+                      <point eId="pasal_4__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>bagian badan; dan</p></content>
+                      </point>
+                      <point eId="pasal_4__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>bagian kaki.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Bagian kepala Risalah Lelang sebagaimana dimaksud pada ayat (2) huruf a dibuat oleh Pejabat Lelang sebelum pelaksanaan Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Bagian badan Risalah Lelang sebagaimana dimaksud pada ayat (2) huruf b dibuat oleh Pejabat Lelang pada saat pelaksanaan Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Bagian kaki Risalah Lelang sebagaimana dimaksud pada ayat (2) huruf c dibuat oleh Pejabat Lelang pada saat penutupan pelaksanaan Lelang.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_5">
+                <num>5</num>
+                  <paragraph eId="pasal_5__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Bagian kepala Risalah Lelang sebagaimana dimaksud dalam Pasal 4 ayat (3) minimal memuat:</p></intro>
+                      <point eId="pasal_5__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>hari, tanggal, dan waktu pelaksanaan Lelang ditulis dengan huruf dan/atau angka;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>nama lengkap dan tempat kedudukan Pejabat Lelang;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>nama lengkap, pekerjaan, tempat kedudukan atau domisili, dan mekanisme kehadiran Penjual;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>tempat pelaksanaan Lelang;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>sifat Barang yang dilelang dan alasan Barang tersebut dilelang;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <intro><p>dalam hal Objek Lelang berupa barang tidak bergerak berupa tanah atau tanah dan bangunan harus diuraikan:</p></intro>
+                          <point eId="pasal_5__ayat_1__huruf_f__angka_1">
+                            <num>1.</num>
+                            <content><p>status hak atau surat-surat lain yang menjelaskan bukti kepemilikan;</p></content>
+                          </point>
+                          <point eId="pasal_5__ayat_1__huruf_f__angka_2">
+                            <num>2.</num>
+                            <content><p>nomor dan tanggal surat keterangan tanah atau surat keterangan pendaftaran tanah dari kantor pertanahan; dan</p></content>
+                          </point>
+                          <point eId="pasal_5__ayat_1__huruf_f__angka_3">
+                            <num>3.</num>
+                            <content><p>keterangan lain yang membebani (apabila ada);</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>dalam hal Objek Lelang berupa barang bergerak harus diuraikan jumlah, jenis dan spesifikasi barang;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_h">
+                        <num>h.</num>
+                        <content><p>dalam hal Objek Lelang berupa hak menikmati, diuraikan syarat penjualan dari Penjual (apabila ada);</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_i">
+                        <num>i.</num>
+                        <content><p>dalam hal Objek Lelang berupa hak tagih, diuraikan syarat penjualan dari Penjual (apabila ada); dan</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_j">
+                        <num>j.</num>
+                        <intro><p>syarat-syarat penjualan Lelang yang meliputi:</p></intro>
+                          <point eId="pasal_5__ayat_1__huruf_j__angka_1">
+                            <num>1.</num>
+                            <content><p>syarat umum; dan</p></content>
+                          </point>
+                          <point eId="pasal_5__ayat_1__huruf_j__angka_2">
+                            <num>2.</num>
+                            <content><p>syarat khusus dari Penjual sesuai ketentuan peraturan perundang-undangan (apabila ada).</p></content>
+                          </point>
+
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Selain ketentuan sebagaimana dimaksud pada ayat (1) bagian kepala Risalah Lelang dapat memuat:</p></intro>
+                      <point eId="pasal_5__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <intro><p>dalam hal pelaksanaan Lelang merupakan gabungan:</p></intro>
+                          <point eId="pasal_5__ayat_2__huruf_a__angka_1">
+                            <num>1.</num>
+                            <content><p>lebih dari 1 (satu) jenis Lelang, Penjual, atau debitor/tereksekusi; atau</p></content>
+                          </point>
+                          <point eId="pasal_5__ayat_2__huruf_a__angka_2">
+                            <num>2.</num>
+                            <content><p>beberapa Objek Lelang, harus diuraikan semua alasan, sifat Barang, dan status hak kepemilikan Objek Lelang;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_5__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <intro><p>dalam hal Objek Lelang berupa satuan rumah susun, atau barang tidak bergerak selain tanah yang berdasarkan peraturan perundang-undangan wajib didaftarkan, harus diuraikan:</p></intro>
+                          <point eId="pasal_5__ayat_2__huruf_b__angka_1">
+                            <num>1.</num>
+                            <content><p>status hak atau surat-surat lain yang menjelaskan bukti kepemilikan;</p></content>
+                          </point>
+                          <point eId="pasal_5__ayat_2__huruf_b__angka_2">
+                            <num>2.</num>
+                            <content><p>nomor dan tanggal atas: a) surat keterangan pendaftaran rumah susun dari kantor pertanahan setempat, untuk Barang berupa satuan rumah susun dengan bukti kepemilikan sertifikat hak milik satuan rumah susun; b) surat keterangan pendaftaran rumah susun dari instansi teknis pemerintah daerah yang bertanggung jawab di bidang bangunan gedung, untuk Barang berupa satuan rumah susun dengan bukti kepemilikan berupa sertifikat kepemilikan bangunan gedung satuan rumah susun; atau c) surat keterangan atas objek yang akan dilelang dari instansi yang berwenang, untuk barang tidak bergerak selain tanah yang berdasarkan peraturan perundang- undangan wajib didaftarkan.</p></content>
+                          </point>
+                          <point eId="pasal_5__ayat_2__huruf_b__angka_3">
+                            <num>3.</num>
+                            <content><p>keterangan lain yang membebani, (apabila ada);</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_5__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>dalam hal Objek Lelang berupa barang tidak berwujud harus diuraikan dokumen yang menunjukkan adanya hak (apabila ada).</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Bagian badan Risalah Lelang sebagaimana dimaksud dalam Pasal 4 ayat (4) minimal memuat:</p></intro>
+                      <point eId="pasal_5__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>identitas Pembeli yang meliputi nama, pekerjaan dan alamat, atas nama sendiri atau sebagai kuasa atas nama perseorangan, korporasi, instansi, atau lembaga yang dibentuk peraturan perundang- undangan;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>lembaga jasa keuangan selaku kreditor sebagai Pembeli untuk orang, badan hukum, atau badan usaha yang akan ditunjuk namanya, dalam hal lembaga jasa keuangan selaku kreditor sebagai Pembeli;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>harga Lelang dengan angka dan huruf terbilang; dan</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>uraian Objek Lelang yang laku terjual.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Bagian kaki Risalah Lelang sebagaimana dimaksud dalam Pasal 4 ayat (5) minimal memuat:</p></intro>
+                      <point eId="pasal_5__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>jumlah Barang yang ditawarkan atau dilelang, ditulis dengan angka dan huruf terbilang;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>jumlah Barang yang terjual, ditulis dengan angka dan huruf terbilang;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>jumlah harga Barang yang terjual, ditulis dengan angka dan huruf terbilang;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_4__huruf_d">
+                        <num>d.</num>
+                        <content><p>banyaknya dokumen atau surat yang dilampirkan pada Risalah Lelang, ditulis dengan angka dan huruf terbilang;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_4__huruf_e">
+                        <num>e.</num>
+                        <content><p>tanda tangan Pejabat Lelang dan Penjual atau kuasa Penjual, dalam hal Lelang atas barang bergerak;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_4__huruf_f">
+                        <num>f.</num>
+                        <content><p>tanda tangan Pejabat Lelang, Penjual atau kuasa Penjual dan Pembeli atau kuasa Pembeli, dalam hal Lelang barang tidak bergerak; dan</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_4__huruf_g">
+                        <num>g.</num>
+                        <content><p>tanda tangan saksi untuk Lelang wajib atas barang tidak bergerak dengan penawaran tanpa kehadiran Peserta Lelang melalui tromol pos, surat elektronik, atau Aplikasi Lelang.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Sampul Risalah Lelang</heading>
+              <article eId="pasal_6">
+                <num>6</num>
+                  <paragraph eId="pasal_6__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Risalah Lelang diberi lembar sampul dengan ketentuan sebagai berikut:</p></intro>
+                      <point eId="pasal_6__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>warna merah muda untuk barang tidak bergerak atau barang tidak bergerak yang dijual bersamaan dengan barang bergerak; dan</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>warna kuning muda untuk barang bergerak atau barang tidak berwujud.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1), Kutipan Risalah Lelang tidak diberi lembar sampul.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Standar dan format sampul Risalah Lelang sebagaimana dimaksud pada ayat (1) mengacu pada ketentuan sebagaimana tercantum dalam Lampiran huruf A yang merupakan bagian yang tidak terpisahkan dari Peraturan Menteri ini.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>TATA CARA PEMBUATAN MINUTA RISALAH LELANG</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Minuta Risalah Lelang dibuat per permohonan Lelang, termasuk pelaksanaan Lelang yang merupakan gabungan:</p></intro>
+                      <point eId="pasal_7__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>lebih dari 1 (satu) jenis Lelang, Penjual, debitor/tereksekusi; atau</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>beberapa Objek Lelang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1):</p></intro>
+                      <point eId="pasal_7__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <intro><p>Minuta Risalah Lelang dibuat per debitor untuk Lelang wajib, yaitu:</p></intro>
+                          <point eId="pasal_7__ayat_2__huruf_a__angka_1">
+                            <num>1.</num>
+                            <content><p>Lelang eksekusi benda sitaan Panitia Urusan Piutang Negara;</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_a__angka_2">
+                            <num>2.</num>
+                            <content><p>Lelang eksekusi objek hak tanggungan sesuai Pasal 6 Undang-Undang Hak Tanggungan;</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_a__angka_3">
+                            <num>3.</num>
+                            <content><p>Lelang eksekusi harta pailit; dan</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_a__angka_4">
+                            <num>4.</num>
+                            <content><p>Lelang eksekusi objek fidusia sesuai Pasal 29 Undang-Undang Jaminan Fidusia;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_7__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <intro><p>Minuta Risalah Lelang dibuat per perkara untuk Lelang wajib, yaitu:</p></intro>
+                          <point eId="pasal_7__ayat_2__huruf_b__angka_1">
+                            <num>1.</num>
+                            <content><p>Lelang eksekusi benda sitaan pengadilan;</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_b__angka_2">
+                            <num>2.</num>
+                            <content><p>Lelang eksekusi benda sitaan Pasal 45 Kitab Undang-Undang Hukum Acara Pidana;</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_b__angka_3">
+                            <num>3.</num>
+                            <content><p>Lelang eksekusi barang rampasan yang berasal dari benda sitaan untuk pemenuhan pidana uang pengganti atau pidana denda;</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_b__angka_4">
+                            <num>4.</num>
+                            <content><p>Lelang eksekusi benda sitaan Pasal 271 Undang- Undang Nomor 22 Tahun 2009 tentang Lalu Lintas dan Angkutan Jalan;</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_b__angka_5">
+                            <num>5.</num>
+                            <content><p>Lelang eksekusi benda sitaan Pasal 94 Undang- Undang Nomor 31 Tahun 1997 tentang Peradilan Militer;</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_b__angka_6">
+                            <num>6.</num>
+                            <content><p>Lelang eksekusi barang bukti sitaan yang berasal dari penanganan tindak pidana kehutanan sesuai Pasal 49 ayat (2) Undang- Undang Nomor 18 Tahun 2013 tentang Pencegahan dan Pemberantasan Perusakan Kehutanan; dan</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_b__angka_7">
+                            <num>7.</num>
+                            <content><p>Lelang eksekusi benda sitaan penyidik Komisi Pemberantas Korupsi sesuai Pasal 47A Undang- Undang Nomor 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 19 Tahun 2019;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_7__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>Minuta Risalah Lelang dibuat per wajib pajak untuk Lelang eksekusi benda sitaan pajak;</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <intro><p>Minuta Risalah Lelang dibuat per kasus untuk Lelang wajib, yaitu:</p></intro>
+                          <point eId="pasal_7__ayat_2__huruf_d__angka_1">
+                            <num>1.</num>
+                            <content><p>Lelang eksekusi barang temuan; dan</p></content>
+                          </point>
+                          <point eId="pasal_7__ayat_2__huruf_d__angka_2">
+                            <num>2.</num>
+                            <content><p>Lelang eksekusi barang yang dinyatakan tidak dikuasai atau barang yang dikuasai negara eks kepabeanan dan cukai; dan</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_7__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>Minuta Risalah Lelang dibuat per hari untuk Lelang terjadwal khusus.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Standar dan Format Minuta Risalah Lelang</heading>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Minuta Risalah Lelang sebagaimana dimaksud dalam Pasal 2 dibuat dan diselesaikan oleh Pejabat Lelang Kelas I dan Pejabat Lelang Kelas II dengan diberi nomor urut setiap tahun sesuai standar dan format penomoran.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pembuatan dan penyelesaian Minuta Risalah Lelang sebagaimana dimaksud pada ayat (1) dilakukan paling lambat 6 (enam) hari kerja setelah pelaksanaan Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Standar dan format penomoran Minuta Risalah Lelang sebagaimana dimaksud pada ayat (1) yang dibuat oleh Pejabat Lelang Kelas I meliputi:</p></intro>
+                      <point eId="pasal_8__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>nomor urut;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>kode Kantor Wilayah;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>kode KPKNL;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>tahun terbit; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_e">
+                        <num>e.</num>
+                        <content><p>kode jenis pelaksanaan Lelang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Standar dan format Penomoran Minuta Risalah Lelang sebagaimana dimaksud pada ayat (1) yang dibuat oleh Pejabat Lelang Kelas II meliputi:</p></intro>
+                      <point eId="pasal_8__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>nomor urut;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>kode Kantor Wilayah;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>kode Pejabat Lelang Kelas II; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_4__huruf_d">
+                        <num>d.</num>
+                        <content><p>tahun terbit.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Kode Pejabat Lelang Kelas II sebagaimana dimaksud pada ayat (4) huruf c merupakan kodering penomoran Pejabat Lelang Kelas II yang telah ditetapkan Superintenden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Minuta Risalah Lelang harus bermeterai cukup sesuai dengan ketentuan peraturan perundang-undangan mengenai Bea Meterai.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Minuta Risalah Lelang terdiri atas:</p></intro>
+                      <point eId="pasal_9__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>asli Risalah Lelang; dan</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>lampiran Risalah Lelang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Lampiran Risalah Lelang sebagaimana dimaksud pada ayat (1) huruf b terdiri atas:</p></intro>
+                      <point eId="pasal_9__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <intro><p>Lampiran sebelum Risalah Lelang ditutup harus dijahit atau dijilid bersama asli Risalah Lelang, minimal memuat:</p></intro>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_1">
+                            <num>1.</num>
+                            <content><p>surat permohonan Lelang;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_2">
+                            <num>2.</num>
+                            <content><p>surat tugas Pejabat Lelang Kelas I, dalam hal Lelang dilaksanakan oleh KPKNL;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_3">
+                            <num>3.</num>
+                            <content><p>dokumen persyaratan Lelang yang bersifat umum;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_4">
+                            <num>4.</num>
+                            <content><p>dokumen persyaratan Lelang yang bersifat khusus;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_5">
+                            <num>5.</num>
+                            <content><p>surat penetapan jadwal Lelang dari KPKNL atau Pejabat Lelang Kelas II;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_6">
+                            <num>6.</num>
+                            <content><p>daftar hadir Peserta Lelang (khusus untuk Lelang dengan kehadiran);</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_7">
+                            <num>7.</num>
+                            <content><p>fotokopi/hasil pemindaian identitas Pembeli;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_8">
+                            <num>8.</num>
+                            <content><p>rekapitulasi penawaran Lelang atau catatan proses penawaran Lelang yang dibuat dan ditandatangani Pejabat Lelang dan Penjual;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_9">
+                            <num>9.</num>
+                            <content><p>lembar reviu pengumuman Lelang;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_10">
+                            <num>10.</num>
+                            <content><p>daftar penyetoran dan pengembalian jaminan penawaran Lelang, untuk Lelang yang mempersyaratkan jaminan penawaran Lelang;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_11">
+                            <num>11.</num>
+                            <content><p>formulir surat penawaran Lelang, untuk Lelang dengan kehadiran Peserta menggunakan cara penawaran tertulis;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_12">
+                            <num>12.</num>
+                            <content><p>dalam hal Penjual dan/atau saksi hadir secara virtual/melalui media elektronik: a) surat Permohonan Penjual kepada Kepala KPKNL atau Pejabat Lelang Kelas II; b) surat persetujuan Kepala KPKNL atau Pejabat Lelang Kelas II; dan c) tangkapan layar yang menampilkan kehadiran Pejabat Lelang, Penjual, dan/atau saksi melalui media elektronik; dan</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_13">
+                            <num>13.</num>
+                            <content><p>berita acara hasil penjelasan (apabila ada);</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_14">
+                            <num>14.</num>
+                            <content><p>syarat dan ketentuan khusus (apabila ada dalam lelang hak menikmati atau lelang hak tagih);dan</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_a__angka_15">
+                            <num>15.</num>
+                            <content><p>dokumen lainnya yang dipersyaratkan untuk dilampirkan pada Risalah Lelang dalam pelaksanaan administrasi Lelang (apabila ada),</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <intro><p>Lampiran setelah Risalah Lelang ditutup harus dilekatkan pada Risalah Lelang yang telah dijahit atau dijilid, minimal memuat:</p></intro>
+                          <point eId="pasal_9__ayat_2__huruf_b__angka_1">
+                            <num>1.</num>
+                            <content><p>bukti setor hasil Lelang ke kas negara atau Penjual;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_b__angka_2">
+                            <num>2.</num>
+                            <content><p>bukti penyetoran bea Lelang sesuai ketentuan peraturan perundang-undangan;</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_b__angka_3">
+                            <num>3.</num>
+                            <content><p>bukti penyetoran pajak sesuai ketentuan peraturan perundang-undangan; dan</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_2__huruf_b__angka_4">
+                            <num>4.</num>
+                            <content><p>berita acara pembetulan kesalahan redaksional (apabila ada).</p></content>
+                          </point>
+
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Penandatanganan Minuta Risalah Lelang</heading>
+              <article eId="pasal_10">
+                <num>10</num>
+                <intro><p>Minuta Risalah Lelang ditandatangani oleh Pejabat Lelang, Penjual atau kuasa Penjual, Pembeli atau kuasa Pembeli, dan saksi dengan ketentuan penandatanganan sebagai berikut:</p></intro>
+                  <point eId="pasal_10__huruf_a">
+                    <num>a.</num>
+                    <intro><p>Pejabat Lelang pada:</p></intro>
+                      <point eId="pasal_10__huruf_a__angka_1">
+                        <num>1.</num>
+                        <content><p>setiap lembar di sebelah kanan atas dari asli Risalah Lelang, kecuali lembar terakhir, kecuali Minuta Risalah Lelang elektronik; dan</p></content>
+                      </point>
+                      <point eId="pasal_10__huruf_a__angka_2">
+                        <num>2.</num>
+                        <content><p>setiap lampiran sebelum dan setelah Risalah Lelang ditutup;</p></content>
+                      </point>
+
+                  </point>
+                  <point eId="pasal_10__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pejabat Lelang, dan Penjual atau kuasa Penjual pada lembar terakhir dari asli Risalah Lelang dalam hal Lelang dengan Objek Lelang berupa barang bergerak;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_c">
+                    <num>c.</num>
+                    <intro><p>Pejabat Lelang, Penjual atau kuasa Penjual, dan Pembeli atau kuasa Pembeli pada lembar terakhir dari asli Risalah Lelang dalam hal Lelang dengan Objek Lelang berupa:</p></intro>
+                      <point eId="pasal_10__huruf_c__angka_1">
+                        <num>1.</num>
+                        <content><p>barang tidak bergerak; atau</p></content>
+                      </point>
+                      <point eId="pasal_10__huruf_c__angka_2">
+                        <num>2.</num>
+                        <content><p>barang tidak bergerak dengan penawaran melalui Aplikasi Lelang secara terbuka (open bidding); dan</p></content>
+                      </point>
+
+                  </point>
+                  <point eId="pasal_10__huruf_d">
+                    <num>d.</num>
+                    <content><p>Pejabat Lelang, Penjual atau kuasa Penjual, Pembeli atau kuasa Pembeli, dan 2 (dua) orang saksi dari Penyelenggara Lelang dan/atau dari Penjual pada lembar terakhir dari asli Risalah Lelang dalam hal Lelang wajib berupa Lelang eksekusi dan Lelang noneksekusi atas Objek Lelang berupa barang tidak bergerak dengan penawaran melalui tromol pos, surat elektronik, atau Aplikasi Lelang.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Dalam hal Lelang:</p></intro>
+                      <point eId="pasal_11__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>tanpa kehadiran peserta; atau</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>dengan kehadiran peserta baik secara fisik atau secara virtual melalui media elektronik, dengan Objek Lelang berupa barang tidak bergerak, Pembeli tidak menandatangani Risalah Lelang pada saat Risalah Lelang ditutup, Pejabat Lelang membuat catatan keadaan tersebut pada kolom Pembeli pada bagian kaki Risalah Lelang, dan catatan tersebut berlaku sebagai tanda tangan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Lelang dihadiri secara fisik oleh Penjual atau kuasa Penjual tetapi Penjual atau kuasa Penjual tidak menandatangani Risalah Lelang pada saat Risalah Lelang ditutup, Pejabat Lelang membuat catatan keadaan tersebut pada kolom Penjual pada bagian kaki Risalah Lelang, dan catatan tersebut berlaku sebagai tanda tangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal Lelang dihadiri secara virtual melalui media elektronik oleh Penjual atau kuasa Penjual dan Penjual atau kuasa Penjual tidak menandatangani Risalah Lelang pada saat Risalah Lelang ditutup, Pejabat Lelang membuat catatan keadaan tersebut pada kolom Penjual pada bagian kaki Risalah Lelang, dan catatan tersebut berlaku sebagai tanda tangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal Lelang melalui Aplikasi Lelang secara tertutup (closed bidding) dihadiri secara virtual melalui media elektronik oleh saksi dari Penjual dan saksi dari Penjual tidak menandatangani Risalah Lelang pada saat Risalah Lelang ditutup, Pejabat Lelang membuat catatan keadaan tersebut pada kolom saksi pada bagian kaki Risalah Lelang dan catatan tersebut berlaku sebagai tanda tangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Dalam hal Lelang telah dilaksanakan namun Pejabat Lelang belum menandatangani Risalah Lelang karena Pejabat Lelang berhalangan tetap, Kepala KPKNL untuk Pejabat Lelang Kelas I atau Superintenden untuk Pejabat Lelang Kelas II membuat catatan keadaan tersebut dan catatan tersebut berlaku sebagai tanda tangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_6">
+                    <num>(6)</num>
+                    <intro><p>Dalam hal Lelang telah dilaksanakan namun Pejabat Lelang belum membuat catatan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) karena berhalangan tetap, pembuatan catatan dilakukan oleh:</p></intro>
+                      <point eId="pasal_11__ayat_6__huruf_a">
+                        <num>a.</num>
+                        <content><p>Kepala KPKNL untuk Pejabat Lelang Kelas I; atau</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_6__huruf_b">
+                        <num>b.</num>
+                        <content><p>Superintenden untuk Pejabat Lelang Kelas II.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (6) tidak mengurangi kesepakatan yang terjadi antara Penjual dan Pembeli, dan Risalah Lelang tetap mempunyai kekuatan pembuktian yang sempurna sebagai akta autentik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Catatan keadaan tidak menandatangani Risalah Lelang dibuat dengan mengacu pada ketentuan sebagaimana tercantum dalam Lampiran huruf A yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Pembetulan Minuta Risalah Lelang</heading>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Terhadap Minuta Risalah Lelang tidak dapat dilakukan pembetulan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1), Risalah Lelang dapat dilakukan pembetulan dalam hal terdapat kesalahan redaksional sebelum atau setelah Risalah Lelang ditutup.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Pembetulan kesalahan redaksional sebelum Risalah Lelang ditutup berupa pencoretan, penambahan dan/atau perubahan, dilakukan sebagai berikut:</p></intro>
+                      <point eId="pasal_12__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>pencoretan kesalahan kata, huruf, atau angka dilakukan dengan garis lurus tipis, sehingga yang dicoret dapat dibaca;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>tambahan kata atau kalimat, ditulis di sebelah pinggir kiri dari lembar Risalah Lelang atau ditulis pada bagian bawah dari bagian kaki Risalah Lelang dengan menunjuk lembar dan garis yang berhubungan dengan perubahan itu, apabila penulisan di pinggir kiri dari lembar Risalah Lelang tidak mencukupi; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>jumlah kata, huruf, atau angka yang dicoret atau ditambahkan diterangkan pada sebelah pinggir lembar Risalah Lelang, begitu pula banyaknya kata atau angka yang ditambahkan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Pembetulan kesalahan redaksional sesudah Risalah Lelang ditutup dan ditandatangani tidak dapat dilakukan, kecuali terdapat kesalahan redaksional yang:</p></intro>
+                      <point eId="pasal_12__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>bersifat prinsipiel terkait Legalitas subjek dan Objek Lelang yang dapat merugikan Penjual dan/atau Pembeli apabila tidak dilakukan pembetulan; atau</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>menjadi temuan Superintenden atau aparat fungsional pemeriksa dan perlu ditindaklanjuti dengan pembetulan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_5">
+                    <num>(5)</num>
+                    <intro><p>Kesalahan redaksional yang bersifat prinsipiel sebagaimana dimaksud pada ayat (4) huruf a yang dapat dilakukan pembetulan kesalahan redaksional meliputi:</p></intro>
+                      <point eId="pasal_12__ayat_5__huruf_a">
+                        <num>a.</num>
+                        <content><p>identitas Penjual;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_5__huruf_b">
+                        <num>b.</num>
+                        <content><p>identitas Pembeli;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_5__huruf_c">
+                        <num>c.</num>
+                        <content><p>jenis dan/atau spesifikasi Barang;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_5__huruf_d">
+                        <num>d.</num>
+                        <content><p>dokumen kepemilikan;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_5__huruf_e">
+                        <num>e.</num>
+                        <content><p>surat keterangan tanah atau surat keterangan pendaftaran tanah/surat keterangan pendaftaran rumah susun/surat keterangan lainnya dari instansi terkait;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_5__huruf_f">
+                        <num>f.</num>
+                        <content><p>dasar hukum penjualan Lelang, seperti nomor dan tanggal putusan atau hak kebendaan dan akta pembebanannya; dan</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_5__huruf_g">
+                        <num>g.</num>
+                        <content><p>kesalahan redaksional lain yang mengakibatkan Pembeli tidak dapat memohon peralihan hak kepada instansi yang berwenang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Pembetulan kesalahan redaksional sebagaimana dimaksud pada ayat (4) huruf a dilakukan dalam hal terdapat permohonan tertulis dari Pembeli dan/atau Penjual.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Pembetulan kesalahan redaksional sebagaimana dimaksud pada ayat (4) huruf b dilakukan dalam hal terdapat hasil verifikasi Superintenden atau laporan hasil pengawasan aparat fungsional pemeriksa, untuk kesalahan redaksional yang menjadi temuan Superintenden atau aparat fungsional pemeriksa.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Pembetulan kesalahan redaksional sebagaimana dimaksud pada ayat (4) dituangkan dalam berita acara pembetulan dan dicatat pada bagian bawah setelah kaki Minuta Risalah Lelang serta ditandatangani oleh Pejabat Lelang Kelas I atau Pejabat Lelang Kelas II sesuai kewenangannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_9">
+                    <num>(9)</num>
+                    <content><p>Berita acara pembetulan sebagaimana dimaksud pada ayat (8) dilekatkan pada Risalah Lelang dan merupakan bagian yang tidak terpisahkan dari Risalah Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_10">
+                    <num>(10)</num>
+                    <intro><p>Berita acara pembetulan sebagaimana dimaksud pada ayat (8) dibuat oleh Pejabat Lelang dan disaksikan oleh 2 (dua) orang saksi dari:</p></intro>
+                      <point eId="pasal_12__ayat_10__huruf_a">
+                        <num>a.</num>
+                        <content><p>KPKNL untuk lelang yang dilaksanakan oleh Pejabat Lelang Kelas I;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_10__huruf_b">
+                        <num>b.</num>
+                        <content><p>Kantor Pejabat Lelang Kelas II untuk lelang yang dilaksanakan oleh Pejabat Lelang Kelas II; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_10__huruf_c">
+                        <num>c.</num>
+                        <content><p>pihak lain selain pemohon pembetulan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_11">
+                    <num>(11)</num>
+                    <content><p>Dalam hal Pejabat Lelang Kelas I dibebastugaskan, dipindahtugaskan, cuti, atau berhalangan tetap, pembuatan dan penandatanganan berita acara pembetulan sebagaimana dimaksud pada ayat (8) dilakukan oleh Kepala KPKNL.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_12">
+                    <num>(12)</num>
+                    <content><p>Dalam hal Pejabat Lelang Kelas II dibebastugaskan, cuti atau berhalangan tetap, pembuatan dan penandatanganan berita acara pembetulan sebagaimana dimaksud pada ayat (8) dilakukan oleh Superintenden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                <content><p>Dalam hal Minuta Risalah Lelang telah dilakukan pembetulan, terhadap turunan Risalah Lelang juga dilakukan pembetulan, dicetak, ditandatangani, dan didistribusikan ulang.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Catatan Hal Penting</heading>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal terdapat hal penting yang diketahui setelah penutupan Risalah Lelang, Pejabat Lelang harus membuat catatan hal penting pada bagian bawah setelah bagian kaki Risalah Lelang dan membubuhi tanggal serta tanda tangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Hal penting sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                      <point eId="pasal_14__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>adanya verzet terhadap hasil Lelang;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>adanya Pembeli wanprestasi;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>adanya Pembeli yang tidak menandatangani Risalah Lelang dalam Lelang tanpa kehadiran peserta secara fisik;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>adanya penerbitan pengganti Kutipan Risalah Lelang;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>adanya penerbitan Grosse Risalah Lelang atas permintaan Pembeli atau Penjual;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>adanya Penjual yang tidak menandatangani Risalah Lelang atau tidak hadir pada saat Risalah Lelang ditutup;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_g">
+                        <num>g.</num>
+                        <content><p>adanya putusan pengadilan yang telah memperoleh kekuatan hukum tetap yang terkait dengan pelaksanaan Lelang;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_h">
+                        <num>h.</num>
+                        <content><p>adanya Pembeli yang ditunjuk oleh lembaga jasa keuangan selaku kreditor yang membeli agunannya sendiri berdasarkan acte de command; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_i">
+                        <num>i.</num>
+                        <content><p>adanya berita acara pembetulan kesalahan redaksional.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Dalam hal Pejabat Lelang dibebastugaskan, cuti di luar tanggungan negara, atau berhalangan tetap, pencatatan hal penting dan penandatanganan sebagaimana dimaksud pada ayat (1) dilakukan oleh:</p></intro>
+                      <point eId="pasal_14__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>Kepala KPKNL, untuk Pejabat Lelang Kelas I; atau</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>Superintenden, untuk Pejabat Lelang Kelas II.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Dalam hal:</p></intro>
+                      <point eId="pasal_14__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>Pejabat Lelang Kelas I dipindahtugaskan, pencatatan hal penting dan penandatanganan sebagaimana dimaksud pada ayat (1) dilakukan oleh Kepala KPKNL di wilayah jabatan sebelumnya; atau</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>Pejabat Lelang Kelas II pindah wilayah jabatan, pencatatan hal penting dan penandatanganan sebagaimana dimaksud pada ayat (1) dilakukan oleh Superintenden di wilayah jabatan sebelumnya.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                <intro><p>Ketentuan mengenai:</p></intro>
+                  <point eId="pasal_15__huruf_a">
+                    <num>a.</num>
+                    <content><p>Minuta Risalah Lelang sebagaimana dimaksud dalam Pasal 8;</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_b">
+                    <num>b.</num>
+                    <content><p>Permohonan tertulis sebagaimana dimaksud dalam Pasal 12 ayat (6);</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_c">
+                    <num>c.</num>
+                    <content><p>berita acara pembetulan sebagaimana dimaksud dalam Pasal 12 ayat (8), disusun sesuai dengan standar dan format sebagaimana tercantum dalam Lampiran huruf A yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>TATA CARA PEMBUATAN TURUNAN RISALAH LELANG</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Turunan Risalah Lelang sebagaimana dimaksud dalam Pasal 3 ayat (2) dapat diberikan kepada pihak yang berkepentingan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pihak yang berkepentingan sebagaimana pada ayat (1) meliputi:</p></intro>
+                      <point eId="pasal_16__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>Pembeli;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>Penjual;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>Superintenden;</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>instansi yang berwenang dalam balik nama kepemilikan hak Objek Lelang; dan</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>Balai Lelang selaku penyedia jasa pralelang atau Penyelenggara Lelang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Pembeli sebagaimana dimaksud pada ayat (2) huruf a hanya dapat memperoleh:</p></intro>
+                      <point eId="pasal_16__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>Kutipan Risalah Lelang sebagai akta jual beli; atau</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>Grosse Risalah Lelang sesuai kebutuhan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Penjual sebagaimana dimaksud pada ayat (2) huruf b hanya dapat memperoleh:</p></intro>
+                      <point eId="pasal_16__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>Salinan Risalah Lelang untuk laporan pelaksanaan Lelang; atau</p></content>
+                      </point>
+                      <point eId="pasal_16__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>Grosse Risalah Lelang sesuai kebutuhan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Superintenden sebagaimana dimaksud pada ayat (2) huruf c hanya dapat memperoleh Salinan Risalah Lelang untuk laporan pelaksanaan Lelang/kepentingan dinas.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Instansi yang berwenang dalam balik nama kepemilikan hak Objek Lelang sebagaimana dimaksud pada ayat (2) huruf d hanya dapat memperoleh Salinan Risalah Lelang sesuai kebutuhan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Balai Lelang selaku penyedia jasa pralelang atau Penyelenggara Lelang sebagaimana dimaksud pada ayat (2) huruf e hanya dapat memperoleh Salinan Risalah Lelang untuk kepentingan administrasi dan legal.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Penyimpanan Turunan Risalah Lelang</heading>
+              <article eId="pasal_17">
+                <num>17</num>
+                  <paragraph eId="pasal_17__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Turunan Risalah Lelang dibuat dan dapat disimpan dalam bentuk dokumen fisik dan/atau dokumen elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pembuatan dan penyimpanan Turunan Risalah Lelang dalam bentuk dokumen elektronik sebagaimana dimaksud pada ayat (1) dilakukan melalui sistem aplikasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal sistem aplikasi sebagaimana dimaksud pada ayat (2) belum tersedia, Salinan Risalah Lelang untuk Superintenden dibuat dalam bentuk file digital hasil pemindaian Salinan Risalah Lelang tercetak dan dikirimkan sesuai tata naskah dinas yang berlaku.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                  <paragraph eId="pasal_18__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pihak yang berkepentingan sebagaimana dimaksud dalam Pasal 16 ayat (2) dikenakan bea meterai atas pemberian Turunan Risalah Lelang sesuai ketentuan peraturan perundang-undangan mengenai bea meterai.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Dikecualikan dari pengenaan bea meterai sebagaimana dimaksud pada ayat (1), Salinan Risalah Lelang untuk kepentingan dinas berupa pelaporan kepada:</p></intro>
+                      <point eId="pasal_18__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>Superintenden;</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>instansi Pemerintah yang berwenang dalam urusan balik nama; atau</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>Penjual yang merupakan Instansi Pemerintah.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Turunan Risalah Lelang sebagaimana dimaksud dalam Pasal 3 ayat (2) dilakukan penandatanganan dan diberi tanggal penerbitan oleh Kepala KPKNL atau Pejabat Lelang Kelas II yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Penandatanganan sebagaimana dimaksud pada ayat (1) dilakukan secara:</p></intro>
+                      <point eId="pasal_19__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>elektronik sesuai ketentuan penandatanganan untuk Turunan Risalah Lelang dalam bentuk dokumen elektronik; atau</p></content>
+                      </point>
+                      <point eId="pasal_19__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>langsung dengan diberikan teraan cap atau stempel basah untuk Turunan Risalah Lelang dalam bentuk dokumen fisik.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal Pejabat Lelang Kelas II sebagaimana dimaksud pada ayat (1) berhalangan tetap, penandatanganan Turunan Risalah Lelang dilakukan oleh Superintenden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Dalam hal terjadi:</p></intro>
+                      <point eId="pasal_19__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemindahan tempat penyimpanan Minuta Risalah Lelang; atau</p></content>
+                      </point>
+                      <point eId="pasal_19__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>reorganisasi, penandatanganan Turunan Risalah Lelang dilakukan oleh pimpinan kantor tempat penyimpanan Minuta Risalah Lelang.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Salinan Risalah Lelang</heading>
+              <article eId="pasal_20">
+                <num>20</num>
+                  <paragraph eId="pasal_20__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Salinan Risalah Lelang dibuat dalam bentuk dokumen fisik dan/atau dokumen elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Salinan Risalah Lelang merupakan Turunan Risalah Lelang yang terdiri atas bagian kepala, badan, dan kaki, tanpa lampiran.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal Salinan Risalah Lelang diberikan kepada Penjual, penyampaian Salinan Risalah Lelang dapat dilengkapi dengan bukti setoran Bea Lelang, bukti setoran Pajak dan hasil bersih Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Salinan Risalah Lelang berfungsi sebagai:</p></intro>
+                      <point eId="pasal_20__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>laporan pelaksanaan Lelang;</p></content>
+                      </point>
+                      <point eId="pasal_20__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>kepentingan kedinasan; atau</p></content>
+                      </point>
+                      <point eId="pasal_20__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>pertanggungjawaban administrasi dan hasil Lelang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Jangka waktu penyelesaian Salinan Risalah Lelang paling lama 3 (tiga) hari kerja terhitung sejak diselesaikannya Minuta Risalah Lelang.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Kutipan Risalah Lelang</heading>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Kutipan Risalah Lelang dibuat dalam bentuk dokumen fisik dan/atau dokumen elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Kutipan Risalah Lelang dalam bentuk dokumen fisik dicetak pada kertas sekuriti.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Kutipan Risalah Lelang untuk Objek Lelang berupa tanah dan/atau bangunan ditandatangani oleh Kepala KPKNL atau Pejabat Lelang Kelas II setelah Pembeli menyerahkan bukti pembayaran bea perolehan hak atas tanah dan bangunan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Kutipan Risalah Lelang untuk Lelang terjadwal khusus dapat dibuat dalam bentuk sederhana.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_22">
+                <num>22</num>
+                <content><p>Dalam hal Objek Lelang berupa barang tidak bergerak dan/atau barang bergerak yang memiliki dokumen kepemilikan yang dijual dalam 1 (satu) paket dan memerlukan proses balik nama pada instansi yang berwenang, Kutipan Risalah Lelang dapat dibuat sesuai dengan jumlah yang dibutuhkan oleh instansi yang berwenang dalam rangka pemenuhan syarat balik nama kepemilikan hak Objek Lelang.</p></content>
+              </article>
+              <article eId="pasal_23">
+                <num>23</num>
+                  <paragraph eId="pasal_23__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Kutipan Risalah Lelang dibuat paling lambat 1 (satu) hari kerja setelah permohonan dari Pembeli dan dokumennya diterima secara lengkap oleh KPKNL atau Kantor Pejabat Lelang Kelas II.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Permohonan sebagaimana dimaksud pada ayat (1) dapat diajukan melalui Aplikasi Lelang atau permohonan yang diajukan secara manual.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Dalam hal permohonan sebagaimana dimaksud pada ayat (2) diajukan secara manual, dilengkapi dengan:</p></intro>
+                      <point eId="pasal_23__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>fotokopi/hasil pemindaian identitas diri;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>kuitansi pembayaran harga lelang; dan</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>fotokopi/hasil pemindaian bukti setor pelunasan bea perolehan hak atas tanah dan bangunan, dalam hal Objek Lelang berupa tanah dan/atau bangunan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal permohonan sebagaimana dimaksud pada ayat (2) diajukan melalui Aplikasi Lelang, dan Objek Lelang berupa tanah dan/atau bangunan dilengkapi dengan fotokopi/hasil pemindaian bukti setor pelunasan bea perolehan hak atas tanah dan bangunan dengan menggunakan media elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Kutipan Risalah Lelang dapat diambil oleh Pembeli atau kuasanya pada KPKNL atau Kantor Pejabat Lelang Kelas II yang menyelenggarakan Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Kutipan Risalah Lelang dapat dicetak dan diambil pada KPKNL lain yang bukan Penyelenggara Lelang atas permintaan Pembeli dan persetujuan Kepala KPKNL Penyelenggara lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_7">
+                    <num>(7)</num>
+                    <intro><p>Pengambilan Kutipan Risalah Lelang sebagaimana dimaksud pada ayat (5) dan ayat (6), dilakukan dengan syarat:</p></intro>
+                      <point eId="pasal_23__ayat_7__huruf_a">
+                        <num>a.</num>
+                        <content><p>memperlihatkan asli identitas diri, dalam hal Kutipan Risalah Lelang diambil sendiri oleh Pembeli; atau</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_7__huruf_b">
+                        <num>b.</num>
+                        <content><p>menyerahkan asli surat kuasa bermeterai cukup, memperlihatkan asli identitas diri kuasa Pembeli, dan menyerahkan fotokopi/hasil pemindaian identitas Pembeli dalam hal Kutipan Risalah Lelang diambil oleh kuasanya.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                  <paragraph eId="pasal_24__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Lembaga jasa keuangan sebagai kreditor yang ditunjuk sebagai pemenang Lelang untuk Pembeli yang akan ditunjuk kemudian terhadap Objek Lelang berupa tanah dan/atau bangunan, dalam jangka waktu paling lama 1 (satu) tahun terhitung mulai tanggal pelaksanaan Lelang, harus menyampaikan pernyataan tertulis mengenai nama dan identitas Pembeli yang ditunjuk kepada Kepala KPKNL.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal lembaga jasa keuangan sebagai kreditor tidak menyampaikan pernyataan tertulis mengenai nama dan identitas Pembeli dalam jangka waktu 1 (satu) tahun terhitung mulai tanggal pelaksanaan Lelang, Kutipan Risalah Lelang diterbitkan atas nama lembaga jasa keuangan setelah lembaga jasa keuangan melunasi kewajiban pembayaran bea perolehan hak atas tanah dan bangunan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Grosse Risalah Lelang</heading>
+              <article eId="pasal_25">
+                <num>25</num>
+                  <paragraph eId="pasal_25__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Grosse Risalah Lelang memiliki kekuatan eksekutorial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Grosse Risalah Lelang sebagaimana dimaksud pada ayat (1) dibuat dalam bentuk dokumen fisik dan/atau dokumen elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Grosse Risalah Lelang sebagaimana dimaksud pada ayat (1) dibuat atas permintaan Penjual dan/atau Pembeli sesuai ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Permintaan Penjual dan/atau Pembeli sebagaimana dimaksud pada ayat (3) dapat diajukan melalui Aplikasi Lelang atau permohonan yang diajukan secara manual.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Dalam hal Lelang Eksekusi, Grosse Risalah Lelang digunakan untuk pengosongan Objek Lelang.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_26">
+                <num>26</num>
+                <content><p>Kepala KPKNL menandatangani lembar terakhir Grosse Risalah Lelang di atas Meterai secukupnya, dengan membubuhkan kata “diberikan sebagai Grosse”, serta menyebutkan nama orang yang memintanya, untuk siapa Grosse Risalah Lelang diterbitkan, dan tanggal penerbitannya.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PENGELOLAAN ARSIP MINUTA RISALAH LELANG</heading>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_1">
+                <num>(1)</num>
+                <content><p>Minuta Risalah Lelang yang telah diselesaikan Pejabat Lelang Kelas I diserahkan kepada Kepala KPKNL untuk dikelola oleh unit yang mempunyai tugas mengelola fisik arsip Minuta Risalah Lelang sebagai arsip vital di lingkungan DJKN.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <content><p>Minuta Risalah Lelang yang telah diselesaikan oleh Pejabat Lelang Kelas II dikelola oleh Pejabat Lelang Kelas II yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_3">
+                <num>(3)</num>
+                <intro><p>Dalam hal Pejabat Lelang Kelas II:</p></intro>
+                  <point eId="pasal_27__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>berhenti atau diberhentikan dari jabatannya, Minuta Risalah Lelang yang telah diselesaikan oleh Pejabat Lelang Kelas II diserahkan kepada Superintenden; atau</p></content>
+                  </point>
+                  <point eId="pasal_27__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>pindah wilayah jabatan, Minuta Risalah Lelang yang telah diselesaikan oleh Pejabat Lelang Kelas II diserahkan kepada Superintenden wilayah jabatan sebelumnya, untuk dikelola oleh unit yang mempunyai tugas mengelola fisik arsip Minuta Risalah Lelang sebagai arsip vital.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_4">
+                <num>(4)</num>
+                <content><p>Penyerahan Minuta Risalah Lelang sebagaimana dimaksud pada ayat (1) dan ayat (3) dilakukan dengan membuat berita acara serah terima fisik Minuta Risalah Lelang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_5">
+                <num>(5)</num>
+                <content><p>Jangka waktu simpan Minuta Risalah Lelang selama 30 (tiga puluh) tahun sejak pelaksanaan Lelang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_6">
+                <num>(6)</num>
+                <content><p>Dalam hal jangka waktu simpan sebagaimana dimaksud pada ayat (5) telah terlampaui, pihak yang berkepentingan tidak dapat menuntut haknya mendapatkan Turunan Risalah Lelang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_7">
+                <num>(7)</num>
+                <content><p>Dalam hal Pejabat Lelang Kelas II berprofesi sebagai notaris dan/atau pejabat pembuat akta tanah penyimpanan dokumen sebagaimana dimaksud pada ayat (1) harus dilakukan secara terpisah dari dokumen yang terkait jabatannya sebagai notaris dan/atau pejabat pembuat akta tanah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_28">
+            <num>28</num>
+            <content><p>Pengelolaan, klasifikasi keamanan, dan akses arsip Minuta Risalah Lelang berpedoman pada ketentuan peraturan perundang-undangan mengenai kearsipan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KUTIPAN RISALAH LELANG PENGGANTI</heading>
+          <part eId="bab_6__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Penerbitan Kutipan Risalah Lelang Pengganti Karena Hilang atau Rusak</heading>
+              <article eId="pasal_29">
+                <num>29</num>
+                  <paragraph eId="pasal_29__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Kepala KPKNL atau Pejabat Lelang Kelas II dapat menerbitkan Kutipan Risalah Lelang pengganti dalam hal Kutipan Risalah Lelang:</p></intro>
+                      <point eId="pasal_29__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>hilang; atau</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>rusak.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penerbitan Kutipan Risalah Lelang pengganti sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan permohonan Pembeli, kuasanya, atau ahli warisnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Permohonan penerbitan Kutipan Risalah Lelang pengganti sebagaimana dimaksud pada ayat (2) disampaikan kepada Kepala KPKNL atau Pejabat Lelang Kelas II yang menyimpan Minuta Risalah Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Permohonan Kutipan Risalah Lelang pengganti sebagaimana dimaksud pada ayat (2) hanya dapat diproses apabila status kepemilikan masih atas nama pemilik lama terakhir sebelum dilakukan Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_5">
+                    <num>(5)</num>
+                    <intro><p>Permohonan penerbitan Kutipan Risalah Lelang pengganti sebagaimana dimaksud pada ayat (2) dilampiri dokumen persyaratan sebagai berikut:</p></intro>
+                      <point eId="pasal_29__ayat_5__huruf_a">
+                        <num>a.</num>
+                        <content><p>fotokopi/hasil pemindaian identitas diri dari Pembeli atau penerima kuasa atau ahli waris yang sah;</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_5__huruf_b">
+                        <num>b.</num>
+                        <content><p>surat kuasa bermeterai cukup dan fotokopi/hasil pemindaian tanda pengenal dari pihak pemberi dan penerima kuasa dalam hal pemohon merupakan penerima kuasa;</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_5__huruf_c">
+                        <num>c.</num>
+                        <content><p>penetapan ahli waris yang sah dari pengadilan, surat keterangan waris dari notaris, atau surat keterangan waris dari kecamatan dalam hal pemohon adalah ahli waris yang sah dari Pembeli;</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_5__huruf_d">
+                        <num>d.</num>
+                        <content><p>fotokopi/hasil pemindaian bukti kepemilikan atas nama pemilik lama terakhir sebelum dilakukan penjualan secara Lelang, dengan menunjukkan aslinya, kecuali dalam Lelang eksekusi yang dokumen kepemilikannya pada saat Lelang tidak dikuasai.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_6">
+                    <num>(6)</num>
+                    <intro><p>Selain dokumen persyaratan sebagaimana dimaksud pada ayat (5), untuk penerbitan Kutipan Risalah Lelang pengganti karena:</p></intro>
+                      <point eId="pasal_29__ayat_6__huruf_a">
+                        <num>a.</num>
+                        <intro><p>hilang, harus dilengkapi dengan:</p></intro>
+                          <point eId="pasal_29__ayat_6__huruf_a__angka_1">
+                            <num>1.</num>
+                            <content><p>surat keterangan dari Kepolisian tentang laporan kehilangan Kutipan Risalah Lelang dengan menyebutkan nomor Risalah Lelang dan tahun pembuatannya; dan</p></content>
+                          </point>
+                          <point eId="pasal_29__ayat_6__huruf_a__angka_2">
+                            <num>2.</num>
+                            <content><p>surat kabar harian yang memuat pengumuman kehilangan Kutipan Risalah Lelang yang mencantumkan nomor, tahun pembuatan Kutipan Risalah Lelang yang hilang, kantor yang mengeluarkan serta uraian singkat Objek Lelang yang dibeli; atau</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_29__ayat_6__huruf_b">
+                        <num>b.</num>
+                        <content><p>rusak, harus dilengkapi dengan fotokopi/hasil pemindaian Kutipan Risalah Lelang yang rusak.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_7">
+                    <num>(7)</num>
+                    <intro><p>Dalam hal Kutipan Risalah Lelang pengganti berdasarkan permohonan Pembeli, kuasanya, atau ahli warisnya sebagaimana dimaksud pada ayat (2), terhadap Lelang eksekusi dengan objek berupa:</p></intro>
+                      <point eId="pasal_29__ayat_7__huruf_a">
+                        <num>a.</num>
+                        <content><p>tanah dan/atau bangunan yang dokumen kepemilikannya pada saat Lelang tidak dikuasai, pemohon harus mengajukan surat keterangan pendaftaran tanah atau surat keterangan tanah ke instansi yang berwenang di bidang pertanahan;</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_7__huruf_b">
+                        <num>b.</num>
+                        <content><p>kendaraan bermotor yang dokumen kepemilikannya pada saat Lelang tidak dikuasai, pemohon harus mengajukan surat keterangan ke instansi yang berwenang di bidang administrasi kendaraan bermotor; atau</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_7__huruf_c">
+                        <num>c.</num>
+                        <content><p>Barang yang berdasarkan peraturan perundang- undangan kepemilikannya wajib didaftarkan, yang dokumen kepemilikannya pada saat Lelang tidak dikuasai, pemohon harus mengajukan surat keterangan ke instansi yang berwenang.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_30">
+                <num>30</num>
+                  <paragraph eId="pasal_30__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Penerbitan dan penyerahan Kutipan Risalah Lelang pengganti dilakukan dengan cara sebagai berikut:</p></intro>
+                      <point eId="pasal_30__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Kutipan Risalah Lelang pengganti ditandatangani oleh Kepala KPKNL atau Pejabat Lelang Kelas II yang menjabat pada saat diterbitkannya Kutipan Risalah Lelang pengganti.</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Kepala KPKNL atau Pejabat Lelang Kelas II harus meminta asli Kutipan Risalah Lelang yang rusak.</p></content>
+                      </point>
+                      <point eId="pasal_30__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>Kutipan Risalah Lelang pengganti diserahkan kepada pemohon setelah melunasi biaya penerbitan atas Kutipan Risalah Lelang pengganti karena rusak atau hilang, sesuai ketentuan peraturan perundang- undangan mengenai jenis dan tarif atas jenis penerimaan negara bukan pajak yang berlaku pada Kementerian Keuangan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_30__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap penerbitan Kutipan Risalah Lelang pengganti dicatat sebagai hal penting pada bagian bawah setelah bagian kaki Risalah Lelang dan dibubuhi tanggal serta tanda tangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_30__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setelah terbitnya Kutipan Risalah Lelang pengganti, Terhadap Kutipan Risalah Lelang yang hilang atau rusak, tidak berlaku dan tidak mempunyai kekuatan hukum.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Penggantian Kutipan Risalah Lelang Karena Kesalahan Redaksional</heading>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penggantian Kutipan Risalah Lelang dapat dimohonkan karena kesalahan redaksional.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penggantian Kutipan Risalah Lelang sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan permohonan Pembeli, kuasanya, atau ahli warisnya yang sah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Permohonan penerbitan penggantian Kutipan Risalah Lelang karena kesalahan redaksional sebagaimana dimaksud pada ayat (2) disampaikan kepada Kepala KPKNL atau Pejabat Lelang Kelas II yang menyimpan Minuta Risalah Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Permohonan penerbitan penggantian Kutipan Risalah Lelang karena kesalahan redaksional sebagaimana dimaksud pada ayat (2) dilampiri dokumen persyaratan sebagai berikut:</p></intro>
+                      <point eId="pasal_31__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>fotokopi/hasil pemindaian identitas diri dari Pembeli atau penerima kuasa atau ahli waris yang sah;</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>surat kuasa bermeterai cukup dan fotokopi/hasil pemindaian tanda pengenal dari pihak pemberi dan penerima kuasa dalam hal pemohon merupakan penerima kuasa;</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>penetapan ahli waris yang sah dari pengadilan, surat keterangan waris dari notaris, atau surat keterangan waris dari kecamatan dalam hal pemohon adalah ahli waris yang sah dari Pembeli;</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_4__huruf_d">
+                        <num>d.</num>
+                        <content><p>fotokopi/hasil pemindaian Kutipan Risalah Lelang; dan</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_4__huruf_e">
+                        <num>e.</num>
+                        <content><p>surat penolakan dari instansi yang berwenang (apabila ada).</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Kutipan Risalah Lelang yang terdapat kesalahan redaksional sebagaimana dimaksud pada ayat (1) harus diserahkan kepada KPKNL atau Kantor Pejabat Lelang Kelas II.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Penggantian sebagaimana dimaksud pada ayat (1) dilakukan dengan mencetak ulang Kutipan Risalah Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Penomoran Kutipan Risalah Lelang sebagaimana dimaksud pada ayat (5) menggunakan nomor yang sama dengan Minuta Risalah Lelang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Kutipan Risalah Lelang sebagaimana dimaksud pada ayat (5) ditandatangani oleh Kepala KPKNL atau Pejabat Lelang Kelas II yang menjabat pada saat diterbitkannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_9">
+                    <num>(9)</num>
+                    <content><p>Setiap penggantian Kutipan Risalah Lelang karena kesalahan redaksional dicatat sebagai hal penting pada bagian bawah setelah bagian kaki Risalah Lelang dan dibubuhi tanggal serta tanda tangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_10">
+                    <num>(10)</num>
+                    <content><p>Setelah terbitnya Kutipan Risalah Lelang sebagaimana dimaksud pada ayat (5), Kutipan Risalah Lelang yang terdapat kesalahan redaksional, tidak berlaku dan tidak mempunyai kekuatan hukum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_11">
+                    <num>(11)</num>
+                    <content><p>Penggantian Kutipan Risalah Lelang yang terdapat kesalahan redaksional tidak dikenakan biaya.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_32">
+                <num>32</num>
+                <content><p>Penerbitan Kutipan Risalah Lelang pengganti dan penggantian Kutipan Risalah Lelang karena kesalahan redaksional dicatat dan dilaporkan dalam laporan penatausahaan Kertas Sekuriti oleh KPKNL, Superintenden, dan kantor Pejabat Lelang Kelas II.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pemusnahan Kertas Sekuriti Kutipan Risalah Lelang Rusak dan Terdapat Kesalahan Redaksional</heading>
+              <article eId="pasal_33">
+                <num>33</num>
+                  <paragraph eId="pasal_33__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemusnahan Kertas Sekuriti Kutipan Risalah Lelang rusak dan terdapat kesalahan redaksional dilakukan oleh KPKNL, Superintenden, atau Kantor Pejabat Lelang Kelas II setiap semester.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pelaksanaan pemusnahan Kertas Sekuriti sebagaimana dimaksud pada ayat (1) disaksikan oleh perwakilan Superintenden dan dibuat berita acara pemusnahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Berita acara pemusnahan Kertas Sekuriti Kutipan Risalah Lelang yang rusak dan terdapat kesalahan redaksional sebagaimana dimaksud pada ayat (2) disampaikan kepada:</p></intro>
+                      <point eId="pasal_33__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>Superintenden dengan tembusan kepada Direktur, dalam hal pemusnahan Kertas Sekuriti Kutipan Risalah Lelang rusak dan terdapat kesalahan redaksional dilakukan oleh KPKNL atau Kantor Pejabat Lelang Kelas II; dan</p></content>
+                      </point>
+                      <point eId="pasal_33__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>Direktur, dalam hal pemusnahan Kertas Sekuriti Kutipan Risalah Lelang rusak dan terdapat kesalahan redaksional dilakukan oleh Superintenden.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_34">
+                <num>34</num>
+                <intro><p>Ketentuan mengenai:</p></intro>
+                  <point eId="pasal_34__huruf_a">
+                    <num>a.</num>
+                    <content><p>Salinan Risalah Lelang sebagaimana dimaksud dalam Pasal 20;</p></content>
+                  </point>
+                  <point eId="pasal_34__huruf_b">
+                    <num>b.</num>
+                    <content><p>Kutipan Risalah Lelang sebagaimana dimaksud dalam Pasal 21;</p></content>
+                  </point>
+                  <point eId="pasal_34__huruf_c">
+                    <num>c.</num>
+                    <content><p>Grosse Risalah Lelang sebagaimana dimaksud dalam Pasal 25, disusun sesuai dengan standar dan format sebagaimana tercantum dalam Lampiran huruf B yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>RISALAH LELANG ELEKTRONIK</heading>
+          <article eId="pasal_35">
+            <num>35</num>
+              <paragraph eId="pasal_35__ayat_1">
+                <num>(1)</num>
+                <content><p>Risalah Lelang dan/atau Turunan Risalah Lelang dapat dibuat secara elektronik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_35__ayat_2">
+                <num>(2)</num>
+                <content><p>Risalah Lelang Elektronik dan/atau Turunan Risalah Lelang Elektronik sebagaimana dimaksud pada ayat (1) dilaksanakan dalam hal telah terdapat sistem elektronik dan sistem penyimpanan yang mendukung Risalah Lelang Elektronik secara nasional.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_35__ayat_3">
+                <num>(3)</num>
+                <content><p>Direktur Jenderal dapat menetapkan ketentuan mengenai tata cara penciptaan, penggunaan, pemeliharaan, dan penyusutan Risalah Lelang dan/atau Turunan Risalah Lelang Elektronik sebagaimana dimaksud pada ayat (2).</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_36">
+            <num>36</num>
+            <intro><p>Pada saat Peraturan Menteri ini mulai berlaku:</p></intro>
+              <point eId="pasal_36__huruf_a">
+                <num>a.</num>
+                <content><p>Pembuatan Risalah Lelang dan Turunan Risalah Lelang sepenuhnya berpedoman pada Peraturan Menteri ini; dan</p></content>
+              </point>
+              <point eId="pasal_36__huruf_b">
+                <num>b.</num>
+                <content><p>Risalah Lelang dan Turunan Risalah Lelang yang telah diterbitkan sebelum berlakunya Peraturan Menteri ini, dinyatakan tetap sah dan berlaku.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_37">
+            <num>37</num>
+            <content><p>Peraturan Menteri ini mulai berlaku pada tanggal 1 Januari 2025.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>
