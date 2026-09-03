@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="pp">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/pp/2015/21/!main"/>
+          <FRBRuri value="/akn/id/act/pp/2015/21"/>
+          <FRBRdate date="2015-04-06" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/pp/2015/21/ind@2015-04-06/!main"/>
+          <FRBRuri value="/akn/id/act/pp/2015/21/ind@2015-04-06"/>
+          <FRBRdate date="2015-04-06" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/pp/2015/21/ind@2015-04-06/!main.xml"/>
+          <FRBRuri value="/akn/id/act/pp/2015/21/ind@2015-04-06.akn"/>
+          <FRBRdate date="2026-09-03" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Peraturan Pemerintah Nomor 21 Tahun 2015 tentang Tata Cara Pendaftaran Jaminan Fidusia dan Biaya Pembuatan Akta Jaminan Fidusia</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Peraturan Pemerintah ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Jaminan Fidusia adalah hak jaminan atas benda bergerak baik yang berwujud maupun yang tidak berwujud dan benda tidak bergerak khususnya bangunan yang tidak dapat dibebani hak tanggungan sebagaimana dimaksud dalam Undang-Undang Nomor 4 Tahun 1996 tentang Hak Tanggungan yang tetap berada dalam penguasaan Pemberi Fidusia, sebagai agunan bagi pelunasan utang tertentu, yang memberikan kedudukan yang diutamakan kepada Penerima Fidusia terhadap kreditor lainnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Pemberi Fidusia adalah orang perseorangan atau korporasi pemilik benda yang menjadi objek Jaminan Fidusia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Penerima Fidusia adalah orang perseorangan atau korporasi yang mempunyai piutang yang pembayarannya dijamin dengan Jaminan Fidusia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Kantor Pendaftaran Fidusia adalah kantor yang menerima permohonan pendaftaran Jaminan Fidusia dan menerbitkan Sertifikat Jaminan Fidusia secara elektronik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Pejabat Pendaftaran Jaminan Fidusia yang selanjutnya disebut Pejabat adalah pejabat yang ditunjuk untuk menerima pendaftaran Jaminan Fidusia dan menandatangani secara elektronik sertifikat Jaminan Fidusia sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_2">
+            <num>2</num>
+              <paragraph eId="pasal_2__ayat_1">
+                <num>(1)</num>
+                <content><p>Permohonan pendaftaran Jaminan Fidusia, permohonan perbaikan sertifikat Jaminan Fidusia, permohonan perubahan sertifikat Jaminan Fidusia, dan pemberitahuan penghapusan sertifikat Jaminan Fidusia diajukan oleh Penerima Fidusia, kuasa atau wakilnya kepada Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_2">
+                <num>(2)</num>
+                <content><p>Permohonan sebagaimana dimaksud pada ayat (1) diajukan melalui sistem pendaftaran Jaminan Fidusia secara elektronik.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>PENDAFTARAN JAMINAN FIDUSIA</heading>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Permohonan pendaftaran Jaminan Fidusia sebagaimana dimaksud dalam Pasal 2 memuat:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>identitas pihak Pemberi Fidusia dan Penerima Fidusia;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>tanggal, nomor akta Jaminan Fidusia, nama, dan tempat kedudukan notaris yang membuat akta Jaminan Fidusia;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>data perjanjian pokok yang dijamin fidusia;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>uraian mengenai benda yang menjadi objek Jaminan Fidusia;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_e">
+                <num>e.</num>
+                <content><p>nilai penjaminan; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_f">
+                <num>f.</num>
+                <content><p>nilai benda yang menjadi obyek Jaminan Fidusia.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Permohonan pendaftaran Jaminan Fidusia sebagaimana dimaksud dalam Pasal 3 diajukan dalam jangka waktu paling lama 30 (tiga puluh) hari terhitung sejak tanggal pembuatan akta Jaminan Fidusia.</p></content>
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Permohonan pendaftaran Jaminan Fidusia yang telah memenuhi ketentuan sebagaimana dimaksud dalam Pasal 3 memperoleh bukti pendaftaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <intro><p>Bukti pendaftaran sebagaimana dimaksud pada ayat (1) paling sedikit memuat:</p></intro>
+                  <point eId="pasal_5__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>nomor pendaftaran;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>tanggal pengisian aplikasi;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>nama pemohon;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>nama Kantor Pendaftaran Fidusia;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>jenis permohonan; dan</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>biaya pendaftaran Jaminan Fidusia.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemohon melakukan pembayaran biaya pendaftaran Jaminan Fidusia melalui bank persepsi berdasarkan bukti pendaftaran sebagaimana dimaksud dalam Pasal 5 ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Pendaftaran Jaminan Fidusia dicatat secara elektronik setelah pemohon melakukan pembayaran biaya pendaftaran Jaminan Fidusia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <content><p>Jaminan Fidusia lahir pada tanggal yang sama dengan tanggal Jaminan Fidusia dicatat sebagaimana dimaksud dalam Pasal 6 ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Sertifikat Jaminan Fidusia ditandatangani secara elektronik oleh Pejabat pada Kantor Pendaftaran Fidusia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+            <content><p>Sertifikat Jaminan Fidusia dapat dicetak pada tanggal yang sama dengan tanggal Jaminan Fidusia dicatat.</p></content>
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal terjadi kesalahan pengisian data dalam permohonan pendaftaran Jaminan Fidusia sebagaimana dimaksud dalam Pasal 3 huruf a, huruf b, huruf c, huruf d, dan huruf f yang diketahui setelah sertifikat Jaminan Fidusia dicetak, Penerima Fidusia, kuasa atau wakilnya harus mengajukan permohonan perbaikan sertifikat Jaminan Fidusia kepada Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <intro><p>Permohonan perbaikan sertifikat Jaminan Fidusia sebagaimana dimaksud pada ayat (1) paling sedikit memuat:</p></intro>
+                  <point eId="pasal_9__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>nomor dan tanggal sertifikat Jaminan Fidusia yang akan diperbaiki;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>data perbaikan; dan</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>keterangan perbaikan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_3">
+                <num>(3)</num>
+                <intro><p>Permohonan perbaikan sertifikat Jaminan Fidusia sebagaimana dimaksud pada ayat (2) melampirkan:</p></intro>
+                  <point eId="pasal_9__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>salinan sertifikat Jaminan Fidusia yang akan diperbaiki;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>fotokopi bukti pembayaran biaya pendaftaran Jaminan Fidusia; dan</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>salinan akta Jaminan Fidusia.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+            <content><p>Permohonan perbaikan sertifikat Jaminan Fidusia sebagaimana dimaksud dalam Pasal 9 diajukan dalam jangka waktu paling lama 30 (tiga puluh) hari terhitung sejak tanggal sertifikat Jaminan Fidusia diterbitkan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PERUBAHAN SERTIFIKAT JAMINAN FIDUSIA</heading>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal terjadi kesalahan pengisian atau perubahan data dalam permohonan pendaftaran Jaminan Fidusia mengenai jumlah nilai penjaminan sebagaimana dimaksud dalam Pasal 3 huruf e dalam kategori nilai penjaminan yang berbeda, Penerima Fidusia, kuasa atau wakilnya harus mengajukan permohonan perubahan sertifikat Jaminan Fidusia kepada Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <intro><p>Permohonan perubahan sertifikat Jaminan Fidusia sebagaimana dimaksud pada ayat (1) paling sedikit memuat:</p></intro>
+                  <point eId="pasal_11__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>nomor dan tanggal sertifikat terakhir;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>nama dan tempat kedudukan notaris;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>data perubahan; dan</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>keterangan perubahan.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Permohonan perubahan sertifikat Jaminan Fidusia yang telah memenuhi ketentuan sebagaimana dimaksud dalam Pasal 11 memperoleh bukti pendaftaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <intro><p>Bukti pendaftaran sebagaimana dimaksud pada ayat (1) paling sedikit memuat:</p></intro>
+                  <point eId="pasal_12__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>nomor pendaftaran;</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>tanggal pengisian aplikasi;</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>nama pemohon;</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>nama Kantor Pendaftaran Fidusia;</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>jenis permohonan; dan</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>biaya permohonan perubahan sertifikat Jaminan Fidusia.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemohon melakukan pembayaran biaya permohonan perubahan sertifikat Jaminan Fidusia melalui bank persepsi berdasarkan bukti pendaftaran sebagaimana dimaksud dalam Pasal 12 ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Pendaftaran perubahan sertifikat Jaminan Fidusia dicatat setelah pemohon melakukan pembayaran sebagaimana dimaksud pada ayat (1).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <content><p>Sertifikat perubahan atas sertifikat Jaminan Fidusia sebagaimana dimaksud dalam Pasal 7 dapat dicetak setelah pembayaran biaya permohonan dilakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Sertifikat perubahan sebagaimana dimaksud pada ayat (1) dapat dicetak pada tanggal yang sama dengan tanggal permohonan perubahan sertifikat Jaminan Fidusia dicatat.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+            <content><p>Sertifikat perubahan ditandatangani secara elektronik oleh Pejabat pada Kantor Pendaftaran Fidusia.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENGHAPUSAN JAMINAN FIDUSIA</heading>
+          <article eId="pasal_16">
+            <num>16</num>
+              <paragraph eId="pasal_16__ayat_1">
+                <num>(1)</num>
+                <intro><p>Jaminan Fidusia hapus karena:</p></intro>
+                  <point eId="pasal_16__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>hapusnya utang yang dijamin dengan fidusia;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pelepasan hak atas Jaminan Fidusia oleh Penerima Fidusia; atau</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>musnahnya benda yang menjadi objek Jaminan Fidusia.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Jaminan Fidusia hapus sebagaimana dimaksud pada ayat (1) maka Penerima Fidusia, kuasa atau wakilnya, wajib memberitahukan kepada Menteri dalam jangka waktu paling lama 14 (empat belas) hari terhitung sejak tanggal hapusnya Jaminan Fidusia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_3">
+                <num>(3)</num>
+                <intro><p>Pemberitahuan penghapusan Jaminan Fidusia sebagaimana dimaksud pada ayat (2) paling sedikit memuat:</p></intro>
+                  <point eId="pasal_16__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>keterangan atau alasan hapusnya Jaminan Fidusia;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>nomor dan tanggal sertifikat Jaminan Fidusia;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>nama dan tempat kedudukan notaris; dan</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>tanggal hapusnya Jaminan Fidusia.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+              <paragraph eId="pasal_17__ayat_1">
+                <num>(1)</num>
+                <content><p>Berdasarkan pemberitahuan penghapusan sebagaimana dimaksud dalam Pasal 16, Jaminan Fidusia dihapus dari daftar Jaminan Fidusia dan diterbitkan keterangan penghapusan yang menyatakan sertifikat Jaminan Fidusia yang bersangkutan tidak berlaku lagi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_2">
+                <num>(2)</num>
+                <content><p>Jika Penerima Fidusia, kuasa atau wakilnya tidak memberitahukan penghapusan Jaminan Fidusia sebagaimana dimaksud dalam Pasal 16, Jaminan Fidusia yang bersangkutan tidak dapat didaftarkan kembali.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>BIAYA PEMBUATAN AKTA JAMINAN FIDUSIA</heading>
+          <article eId="pasal_18">
+            <num>18</num>
+            <intro><p>Pembuatan akta Jaminan Fidusia dikenakan biaya yang besarnya ditentukan berdasarkan nilai penjaminan, dengan ketentuan sebagai berikut:</p></intro>
+              <point eId="pasal_18__huruf_a">
+                <num>a.</num>
+                <content><p>nilai penjaminan sampai dengan Rp100.000.000,00 (seratus juta rupiah), biaya pembuatan akta paling banyak 2,5% (dua koma lima perseratus);</p></content>
+              </point>
+              <point eId="pasal_18__huruf_b">
+                <num>b.</num>
+                <content><p>nilai penjaminan di atas Rp100.000.000,00 (seratus juta rupiah) sampai dengan Rp1.000.000.000,00, (satu miliar rupiah), biaya pembuatan akta paling banyak 1,5% (satu koma lima perseratus); dan</p></content>
+              </point>
+              <point eId="pasal_18__huruf_c">
+                <num>c.</num>
+                <content><p>nilai penjaminan di atas Rp1.000.000.000,00 (satu miliar rupiah), biaya pembuatan akta berdasarkan kesepakatan antara notaris dengan para pihak, tetapi tidak melebihi 1% (satu perseratus) dari objek yang dibuatkan aktanya.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KETENTUAN LAIN-LAIN</heading>
+          <article eId="pasal_19">
+            <num>19</num>
+            <content><p>Seluruh data yang diisi dalam permohonan pendaftaran Jaminan Fidusia, permohonan perbaikan sertifikat Jaminan Fidusia, permohonan perubahan sertifikat Jaminan Fidusia, dan pemberitahuan penghapusan sertifikat Jaminan Fidusia secara elektronik serta penyimpanan dokumen fisiknya menjadi tanggung jawab Penerima Fidusia, kuasa atau wakilnya.</p></content>
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Seluruh data yang tersimpan dalam pangkalan data sebagai hasil proses pendaftaran Jaminan Fidusia mempunyai kekuatan yang sama dengan buku daftar fidusia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Menteri berwenang melaksanakan pengelolaan pangkalan data pendaftaran Jaminan Fidusia.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_21">
+            <num>21</num>
+            <content><p>Jaminan Fidusia yang telah didaftarkan sebelum Peraturan Pemerintah ini mulai berlaku, pemberitahuan penghapusannya dilakukan berdasarkan ketentuan Peraturan Pemerintah ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_22">
+            <num>22</num>
+            <content><p>Pada saat Peraturan Pemerintah ini mulai berlaku, Peraturan Pemerintah Nomor 86 Tahun 2000 tentang Tata Cara Pendaftaran Jaminan Fidusia dan Biaya Pembuatan Akta Jaminan Fidusia (Lembaran Negara Republik Indonesia Nomor 170 Tahun 2000, Tambahan Lembaran Negara Republik Indonesia Nomor 4005), dicabut dan dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_23">
+            <num>23</num>
+            <content><p>Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

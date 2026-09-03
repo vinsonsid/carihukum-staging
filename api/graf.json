@@ -76,7 +76,7 @@
    "id": "pp-2015-21",
    "nama": "PP 21/2015",
    "jenis": "pp",
-   "jalur": null
+   "jalur": "/pp/2015/21/"
   },
   {
    "id": "pp-2015-43",
@@ -303,6 +303,11 @@
  ],
  "edges": [
   {
+   "dari": "kuhperdata-1847",
+   "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
    "dari": "permenkumham-2016-61",
    "ke": "uu-2004-30",
    "tipe": "dasar-hukum"
@@ -354,32 +359,12 @@
   },
   {
    "dari": "pp-1997-24",
-   "ke": "uud-1945",
-   "tipe": "dasar-hukum"
-  },
-  {
-   "dari": "pp-1997-24",
-   "ke": "uu-1960-5",
-   "tipe": "dasar-hukum"
-  },
-  {
-   "dari": "pp-1997-24",
-   "ke": "uu-1996-4",
-   "tipe": "dasar-hukum"
-  },
-  {
-   "dari": "pp-1998-37",
-   "ke": "uud-1945",
-   "tipe": "dasar-hukum"
-  },
-  {
-   "dari": "pp-1998-37",
    "ke": "uu-1960-5",
    "tipe": "dasar-hukum"
   },
   {
    "dari": "pp-1998-37",
-   "ke": "uu-1996-4",
+   "ke": "uud-1945",
    "tipe": "dasar-hukum"
   },
   {
@@ -493,18 +478,23 @@
    "tipe": "dasar-hukum"
   },
   {
+   "dari": "uu-1999-42",
+   "ke": "kuhperdata-1847",
+   "tipe": "dasar-hukum"
+  },
+  {
    "dari": "uu-2001-16",
    "ke": "uud-1945",
    "tipe": "dasar-hukum"
   },
   {
-   "dari": "uu-2004-28",
-   "ke": "uud-1945",
+   "dari": "uu-2001-16",
+   "ke": "kuhperdata-1847",
    "tipe": "dasar-hukum"
   },
   {
    "dari": "uu-2004-28",
-   "ke": "uu-2001-16",
+   "ke": "uud-1945",
    "tipe": "dasar-hukum"
   },
   {
@@ -520,6 +510,11 @@
   {
    "dari": "uu-2007-40",
    "ke": "uud-1945",
+   "tipe": "dasar-hukum"
+  },
+  {
+   "dari": "uu-2007-40",
+   "ke": "kuhperdata-1847",
    "tipe": "dasar-hukum"
   },
   {
