@@ -27,17 +27,17 @@
   "bahasa": "id",
   "lokasi": "Pemerintah Pusat",
   "cakupan_pilot": "hanya-relasi",
-  "catatan_kurasi": "KUHP nasional baru; berlaku 2 Januari 2026 (3 tahun sejak diundangkan). TEKS DASAR dari kompilasi digital tidak resmi (PDF teks bersih) karena seluruh salinan LN yang tersedia di JDIH pemerintah adalah scan dengan OCR buruk; SELURUH unit diverifikasi silang otomatis terhadap salinan LN resmi (scan Setneg via BPK) — laporan skor di build/verifikasi-silang-kuhp.json. Penjelasan resmi (umum + 624 pasal) ikut dimuat. Pasal 622 mencabut sebagian UU ITE (terenkode sebagai peristiwa).",
+  "catatan_kurasi": "KUHP nasional baru; berlaku 2 Januari 2026 (3 tahun sejak diundangkan). TEKS DASAR dari kompilasi digital tidak resmi (PDF teks bersih) karena seluruh salinan LN yang tersedia di JDIH pemerintah adalah scan dengan OCR buruk; SELURUH unit diverifikasi silang terhadap salinan LN resmi (scan Setneg via BPK) — per 4 Sep 2026: 1.815/1.815 unit terkonfirmasi (1.808 langsung, 2 setelah peleburan kelas glyph OCR, 5 dibaca manusia dan alasannya tercatat di build/verifikasi-silang-kuhp.json). Verifikasi silang ini bagian dari gerbang rilis (npm run cek), bukan pemeriksaan sekali jalan. Dua cacat kompilasi sumber ditemukan lewat verifikasi ini dan direparasi bercatatan: Pasal 54 ayat (1) huruf j (penanda tercetak kapital 'J.' sehingga butirnya tertelan ke huruf i) dan BAB X Buku Kedua (kepala tercetak 'BABX' sehingga judulnya masuk ke ekor Pasal 372 ayat (2) dan Pasal 373 salah induk). Penjelasan resmi (umum + 624 pasal) ikut dimuat. Pasal 622 mencabut sebagian UU ITE (terenkode sebagai peristiwa).",
   "dasar_hukum": [
    {
     "teks": "Pasal 5 ayat (1) dan Pasal 20 Undang-Undarrg Dasar Negara Tahun 1945",
     "target": "uud-1945"
    }
   ],
-  "tahap": "terstruktur",
+  "tahap": "terverifikasi",
   "kelompok": "siber-pidana"
  },
- "dihasilkan": "2026-09-03T18:49:55.111Z",
+ "dihasilkan": "2026-09-04T02:22:17.665Z",
  "timeline": [
   {
    "tanggal": "2026-01-02",
@@ -84,7 +84,6 @@
          "id": "pasal-1",
          "tipe": "pasal",
          "nomor": "1",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-1/ayat-1",
@@ -112,7 +111,6 @@
          "id": "pasal-2",
          "tipe": "pasal",
          "nomor": "2",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-2/ayat-1",
@@ -225,7 +223,6 @@
             "id": "pasal-3",
             "tipe": "pasal",
             "nomor": "3",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-3/ayat-1",
@@ -556,7 +553,6 @@
               "id": "pasal-8",
               "tipe": "pasal",
               "nomor": "8",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-8/ayat-1",
@@ -704,7 +700,6 @@
            "id": "pasal-12",
            "tipe": "pasal",
            "nomor": "12",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-12/ayat-1",
@@ -751,7 +746,6 @@
            "id": "pasal-13",
            "tipe": "pasal",
            "nomor": "13",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-13/ayat-1",
@@ -845,7 +839,6 @@
            "id": "pasal-15",
            "tipe": "pasal",
            "nomor": "15",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-15/ayat-1",
@@ -919,7 +912,6 @@
            "id": "pasal-17",
            "tipe": "pasal",
            "nomor": "17",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-17/ayat-1",
@@ -994,7 +986,6 @@
            "id": "pasal-18",
            "tipe": "pasal",
            "nomor": "18",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-18/ayat-1",
@@ -1108,7 +1099,6 @@
            "id": "pasal-21",
            "tipe": "pasal",
            "nomor": "21",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-21/ayat-1",
@@ -1202,7 +1192,6 @@
            "id": "pasal-23",
            "tipe": "pasal",
            "nomor": "23",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-23/ayat-1",
@@ -1269,7 +1258,6 @@
            "id": "pasal-24",
            "tipe": "pasal",
            "nomor": "24",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-24/ayat-1",
@@ -1297,7 +1285,6 @@
            "id": "pasal-25",
            "tipe": "pasal",
            "nomor": "25",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-25/ayat-1",
@@ -1343,7 +1330,6 @@
            "id": "pasal-26",
            "tipe": "pasal",
            "nomor": "26",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-26/ayat-1",
@@ -1389,7 +1375,6 @@
            "id": "pasal-28",
            "tipe": "pasal",
            "nomor": "28",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-28/ayat-1",
@@ -1417,7 +1402,6 @@
            "id": "pasal-29",
            "tipe": "pasal",
            "nomor": "29",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-29/ayat-1",
@@ -1465,7 +1449,6 @@
            "id": "pasal-30",
            "tipe": "pasal",
            "nomor": "30",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-30/ayat-1",
@@ -1568,7 +1551,6 @@
            "id": "pasal-36",
            "tipe": "pasal",
            "nomor": "36",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-36/ayat-1",
@@ -1778,7 +1760,6 @@
            "id": "pasal-45",
            "tipe": "pasal",
            "nomor": "45",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-45/ayat-1",
@@ -2042,7 +2023,6 @@
            "id": "pasal-53",
            "tipe": "pasal",
            "nomor": "53",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-53/ayat-1",
@@ -2070,7 +2050,6 @@
            "id": "pasal-54",
            "tipe": "pasal",
            "nomor": "54",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-54/ayat-1",
@@ -2155,8 +2134,19 @@
                "id": "pasal-54/ayat-1/huruf-i",
                "tipe": "huruf",
                "nomor": "i.",
-               "teks": "pengaruh Tindak Pidana terhadap Korban atau keluarga Korban; J. pemaafan dari Korban dan/atau keluarga Korban; dan/atau",
-               "verifikasi": "pdf-resmi",
+               "teks": "pengaruh Tindak Pidana terhadap Korban atau keluarga Korban;",
+               "verifikasi": "pdf-ocr",
+               "catatan_kurasi": "Kompilasi digital sumber mencetak penanda huruf j sebagai kapital ('J.') di tengah baris, sehingga butir j sebelumnya tertelan ke dalam huruf i. Butir dipisahkan kembali sesuai salinan LN resmi (scan Setneg, hlm. -20-); bunyi kata tidak diubah.",
+               "sumber": "uu-2023-1",
+               "berlaku_mulai": "2026-01-02"
+              },
+              {
+               "id": "pasal-54/ayat-1/huruf-j",
+               "tipe": "huruf",
+               "nomor": "j.",
+               "teks": "pemaafan dari Korban dan/atau keluarga Korban; dan/atau",
+               "verifikasi": "pdf-ocr",
+               "catatan_kurasi": "Butir ini sebelumnya hilang sebagai unit tersendiri karena penanda hurufnya tercetak kapital ('J.') pada kompilasi sumber. Dipulihkan sesuai salinan LN resmi (scan Setneg, hlm. -20-).",
                "sumber": "uu-2023-1",
                "berlaku_mulai": "2026-01-02"
               },
@@ -2379,7 +2369,6 @@
            "id": "pasal-60",
            "tipe": "pasal",
            "nomor": "60",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-60/ayat-1",
@@ -2407,7 +2396,6 @@
            "id": "pasal-61",
            "tipe": "pasal",
            "nomor": "61",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-61/ayat-1",
@@ -2435,7 +2423,6 @@
            "id": "pasal-62",
            "tipe": "pasal",
            "nomor": "62",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-62/ayat-1",
@@ -2530,7 +2517,6 @@
            "id": "pasal-65",
            "tipe": "pasal",
            "nomor": "65",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-65/ayat-1",
@@ -2728,7 +2714,6 @@
               "id": "pasal-66",
               "tipe": "pasal",
               "nomor": "66",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-66/ayat-1",
@@ -2854,7 +2839,6 @@
            "id": "pasal-68",
            "tipe": "pasal",
            "nomor": "68",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-68/ayat-1",
@@ -2931,7 +2915,6 @@
               "id": "pasal-69",
               "tipe": "pasal",
               "nomor": "69",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-69/ayat-1",
@@ -2965,7 +2948,6 @@
            "id": "pasal-70",
            "tipe": "pasal",
            "nomor": "70",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-70/ayat-1",
@@ -3168,7 +3150,6 @@
            "id": "pasal-71",
            "tipe": "pasal",
            "nomor": "71",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-71/ayat-1",
@@ -3243,7 +3224,6 @@
            "id": "pasal-72",
            "tipe": "pasal",
            "nomor": "72",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-72/ayat-1",
@@ -3298,7 +3278,6 @@
            "id": "pasal-73",
            "tipe": "pasal",
            "nomor": "73",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-73/ayat-1",
@@ -3373,7 +3352,6 @@
            "id": "pasal-74",
            "tipe": "pasal",
            "nomor": "74",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-74/ayat-1",
@@ -3524,7 +3502,6 @@
               "id": "pasal-76",
               "tipe": "pasal",
               "nomor": "76",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-76/ayat-1",
@@ -3597,6 +3574,7 @@
                 "nomor": "(6)",
                 "teks": "Jaksa dapat mengusulkan pengurangan masa pengawasan kepada hakim jika selama dalam pengawasan terpidana menunjukkan kelakuan yang baik, berdasarkan pertimbangan pembimbing kemasyarakatan.",
                 "verifikasi": "pdf-resmi",
+                "catatan_kurasi": "Salinan LN resmi (scan Setneg, hlm. -28-) memutus butir ini pada '...pertimbangan pembimbing' lalu melompat ke ayat (7) — kata 'kemasyarakatan' hilang di scan pembanding, bukan di teks kami. Teks dipertahankan apa adanya; bandingkan ayat (5) pada pasal yang sama.",
                 "sumber": "uu-2023-1",
                 "berlaku_mulai": "2026-01-02"
                },
@@ -3636,7 +3614,6 @@
               "id": "pasal-77",
               "tipe": "pasal",
               "nomor": "77",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-77/ayat-1",
@@ -3670,7 +3647,6 @@
            "id": "pasal-78",
            "tipe": "pasal",
            "nomor": "78",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-78/ayat-1",
@@ -3698,7 +3674,6 @@
            "id": "pasal-79",
            "tipe": "pasal",
            "nomor": "79",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-79/ayat-1",
@@ -3800,7 +3775,6 @@
            "id": "pasal-80",
            "tipe": "pasal",
            "nomor": "80",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-80/ayat-1",
@@ -3828,7 +3802,6 @@
            "id": "pasal-81",
            "tipe": "pasal",
            "nomor": "81",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-81/ayat-1",
@@ -3914,7 +3887,6 @@
               "id": "pasal-82",
               "tipe": "pasal",
               "nomor": "82",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-82/ayat-1",
@@ -4048,7 +4020,6 @@
               "id": "pasal-83",
               "tipe": "pasal",
               "nomor": "83",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-83/ayat-1",
@@ -4110,7 +4081,6 @@
            "id": "pasal-85",
            "tipe": "pasal",
            "nomor": "85",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-85/ayat-1",
@@ -4563,7 +4533,6 @@
               "id": "pasal-90",
               "tipe": "pasal",
               "nomor": "90",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-90/ayat-1",
@@ -4775,7 +4744,6 @@
            "id": "pasal-92",
            "tipe": "pasal",
            "nomor": "92",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-92/ayat-1",
@@ -4812,7 +4780,6 @@
            "id": "pasal-93",
            "tipe": "pasal",
            "nomor": "93",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-93/ayat-1",
@@ -4840,7 +4807,6 @@
            "id": "pasal-94",
            "tipe": "pasal",
            "nomor": "94",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-94/ayat-1",
@@ -4955,7 +4921,6 @@
               "id": "pasal-95",
               "tipe": "pasal",
               "nomor": "95",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-95/ayat-1",
@@ -5045,7 +5010,6 @@
            "id": "pasal-96",
            "tipe": "pasal",
            "nomor": "96",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-96/ayat-1",
@@ -5149,7 +5113,6 @@
               "id": "pasal-99",
               "tipe": "pasal",
               "nomor": "99",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-99/ayat-1",
@@ -5259,7 +5222,6 @@
               "id": "pasal-100",
               "tipe": "pasal",
               "nomor": "100",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-100/ayat-1",
@@ -5566,7 +5528,6 @@
               "id": "pasal-103",
               "tipe": "pasal",
               "nomor": "103",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-103/ayat-1",
@@ -5712,7 +5673,6 @@
            "id": "pasal-105",
            "tipe": "pasal",
            "nomor": "105",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-105/ayat-1",
@@ -5789,7 +5749,6 @@
            "id": "pasal-106",
            "tipe": "pasal",
            "nomor": "106",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-106/ayat-1",
@@ -5873,7 +5832,6 @@
            "id": "pasal-110",
            "tipe": "pasal",
            "nomor": "110",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-110/ayat-1",
@@ -5958,7 +5916,6 @@
            "id": "pasal-113",
            "tipe": "pasal",
            "nomor": "113",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-113/ayat-1",
@@ -6475,7 +6432,6 @@
               "id": "pasal-120",
               "tipe": "pasal",
               "nomor": "120",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-120/ayat-1",
@@ -6697,7 +6653,6 @@
               "id": "pasal-121",
               "tipe": "pasal",
               "nomor": "121",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-121/ayat-1",
@@ -6760,7 +6715,6 @@
            "id": "pasal-122",
            "tipe": "pasal",
            "nomor": "122",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-122/ayat-1",
@@ -6877,7 +6831,6 @@
          "id": "pasal-125",
          "tipe": "pasal",
          "nomor": "125",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-125/ayat-1",
@@ -6905,7 +6858,6 @@
          "id": "pasal-126",
          "tipe": "pasal",
          "nomor": "126",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-126/ayat-1",
@@ -6933,7 +6885,6 @@
          "id": "pasal-127",
          "tipe": "pasal",
          "nomor": "127",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-127/ayat-1",
@@ -6961,7 +6912,6 @@
          "id": "pasal-128",
          "tipe": "pasal",
          "nomor": "128",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-128/ayat-1",
@@ -7036,7 +6986,6 @@
          "id": "pasal-130",
          "tipe": "pasal",
          "nomor": "130",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-130/ayat-1",
@@ -7113,7 +7062,6 @@
          "id": "pasal-131",
          "tipe": "pasal",
          "nomor": "131",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-131/ayat-1",
@@ -7322,7 +7270,6 @@
             "id": "pasal-132",
             "tipe": "pasal",
             "nomor": "132",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-132/ayat-1",
@@ -7430,7 +7377,6 @@
          "id": "pasal-133",
          "tipe": "pasal",
          "nomor": "133",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-133/ayat-1",
@@ -7592,7 +7538,6 @@
             "id": "pasal-136",
             "tipe": "pasal",
             "nomor": "136",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-136/ayat-1",
@@ -7702,7 +7647,6 @@
          "id": "pasal-138",
          "tipe": "pasal",
          "nomor": "138",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-138/ayat-1",
@@ -7814,7 +7758,6 @@
          "id": "pasal-142",
          "tipe": "pasal",
          "nomor": "142",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-142/ayat-1",
@@ -7860,7 +7803,6 @@
          "id": "pasal-143",
          "tipe": "pasal",
          "nomor": "143",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-143/ayat-1",
@@ -8517,7 +8459,6 @@
            "id": "pasal-188",
            "tipe": "pasal",
            "nomor": "188",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-188/ayat-1",
@@ -8620,7 +8561,6 @@
            "id": "pasal-190",
            "tipe": "pasal",
            "nomor": "190",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-190/ayat-1",
@@ -8735,7 +8675,6 @@
            "id": "pasal-193",
            "tipe": "pasal",
            "nomor": "193",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-193/ayat-1",
@@ -8763,7 +8702,6 @@
            "id": "pasal-194",
            "tipe": "pasal",
            "nomor": "194",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-194/ayat-1",
@@ -8811,7 +8749,6 @@
            "id": "pasal-195",
            "tipe": "pasal",
            "nomor": "195",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-195/ayat-1",
@@ -8946,7 +8883,6 @@
               "id": "pasal-196",
               "tipe": "pasal",
               "nomor": "196",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-196/ayat-1",
@@ -9018,7 +8954,6 @@
            "id": "pasal-199",
            "tipe": "pasal",
            "nomor": "199",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-199/ayat-1",
@@ -9141,7 +9076,6 @@
            "id": "pasal-203",
            "tipe": "pasal",
            "nomor": "203",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-203/ayat-1",
@@ -9358,7 +9292,6 @@
            "id": "pasal-212",
            "tipe": "pasal",
            "nomor": "212",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-212/ayat-1",
@@ -9601,7 +9534,6 @@
          "id": "pasal-218",
          "tipe": "pasal",
          "nomor": "218",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-218/ayat-1",
@@ -9638,7 +9570,6 @@
          "id": "pasal-220",
          "tipe": "pasal",
          "nomor": "220",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-220/ayat-1",
@@ -9795,7 +9726,6 @@
            "id": "pasal-228",
            "tipe": "pasal",
            "nomor": "228",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-228/ayat-1",
@@ -9823,7 +9753,6 @@
            "id": "pasal-229",
            "tipe": "pasal",
            "nomor": "229",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-229/ayat-1",
@@ -10088,7 +10017,6 @@
            "id": "pasal-240",
            "tipe": "pasal",
            "nomor": "240",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-240/ayat-1",
@@ -10134,7 +10062,6 @@
            "id": "pasal-241",
            "tipe": "pasal",
            "nomor": "241",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-241/ayat-1",
@@ -10230,7 +10157,6 @@
               "id": "pasal-243",
               "tipe": "pasal",
               "nomor": "243",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-243/ayat-1",
@@ -10350,7 +10276,6 @@
            "id": "pasal-248",
            "tipe": "pasal",
            "nomor": "248",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-248/ayat-1",
@@ -10406,7 +10331,6 @@
            "id": "pasal-250",
            "tipe": "pasal",
            "nomor": "250",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-250/ayat-1",
@@ -10474,7 +10398,6 @@
               "id": "pasal-251",
               "tipe": "pasal",
               "nomor": "251",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-251/ayat-1",
@@ -10508,7 +10431,6 @@
            "id": "pasal-252",
            "tipe": "pasal",
            "nomor": "252",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-252/ayat-1",
@@ -10575,7 +10497,6 @@
            "id": "pasal-254",
            "tipe": "pasal",
            "nomor": "254",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-254/ayat-1",
@@ -10680,7 +10601,6 @@
            "id": "pasal-257",
            "tipe": "pasal",
            "nomor": "257",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-257/ayat-1",
@@ -10736,7 +10656,6 @@
            "id": "pasal-258",
            "tipe": "pasal",
            "nomor": "258",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-258/ayat-1",
@@ -10821,7 +10740,6 @@
            "id": "pasal-260",
            "tipe": "pasal",
            "nomor": "260",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-260/ayat-1",
@@ -10877,7 +10795,6 @@
            "id": "pasal-261",
            "tipe": "pasal",
            "nomor": "261",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-261/ayat-1",
@@ -10915,7 +10832,6 @@
            "id": "pasal-262",
            "tipe": "pasal",
            "nomor": "262",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-262/ayat-1",
@@ -10993,7 +10909,6 @@
               "id": "pasal-263",
               "tipe": "pasal",
               "nomor": "263",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-263/ayat-1",
@@ -11172,7 +11087,6 @@
          "id": "pasal-272",
          "tipe": "pasal",
          "nomor": "272",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-272/ayat-1",
@@ -11244,7 +11158,6 @@
            "id": "pasal-274",
            "tipe": "pasal",
            "nomor": "274",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-274/ayat-1",
@@ -11393,7 +11306,6 @@
          "id": "pasal-278",
          "tipe": "pasal",
          "nomor": "278",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-278/ayat-1",
@@ -11536,7 +11448,6 @@
          "id": "pasal-279",
          "tipe": "pasal",
          "nomor": "279",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-279/ayat-1",
@@ -11564,7 +11475,6 @@
          "id": "pasal-280",
          "tipe": "pasal",
          "nomor": "280",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-280/ayat-1",
@@ -11667,7 +11577,6 @@
          "id": "pasal-282",
          "tipe": "pasal",
          "nomor": "282",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-282/ayat-1",
@@ -11818,7 +11727,6 @@
          "id": "pasal-289",
          "tipe": "pasal",
          "nomor": "289",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-289/ayat-1",
@@ -11884,7 +11792,6 @@
          "id": "pasal-291",
          "tipe": "pasal",
          "nomor": "291",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-291/ayat-1",
@@ -11912,7 +11819,6 @@
          "id": "pasal-292",
          "tipe": "pasal",
          "nomor": "292",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-292/ayat-1",
@@ -11950,7 +11856,6 @@
          "id": "pasal-293",
          "tipe": "pasal",
          "nomor": "293",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-293/ayat-1",
@@ -12095,7 +12000,6 @@
             "id": "pasal-295",
             "tipe": "pasal",
             "nomor": "295",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-295/ayat-1",
@@ -12375,7 +12279,6 @@
          "id": "pasal-301",
          "tipe": "pasal",
          "nomor": "301",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-301/ayat-1",
@@ -12403,7 +12306,6 @@
          "id": "pasal-302",
          "tipe": "pasal",
          "nomor": "302",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-302/ayat-1",
@@ -12441,7 +12343,6 @@
          "id": "pasal-303",
          "tipe": "pasal",
          "nomor": "303",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-303/ayat-1",
@@ -12487,7 +12388,6 @@
          "id": "pasal-305",
          "tipe": "pasal",
          "nomor": "305",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-305/ayat-1",
@@ -12550,7 +12450,6 @@
            "id": "pasal-307",
            "tipe": "pasal",
            "nomor": "307",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-307/ayat-1",
@@ -12588,7 +12487,6 @@
            "id": "pasal-308",
            "tipe": "pasal",
            "nomor": "308",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-308/ayat-1",
@@ -12728,7 +12626,6 @@
            "id": "pasal-316",
            "tipe": "pasal",
            "nomor": "316",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-316/ayat-1",
@@ -12975,7 +12872,6 @@
            "id": "pasal-323",
            "tipe": "pasal",
            "nomor": "323",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-323/ayat-1",
@@ -13012,7 +12908,6 @@
            "id": "pasal-324",
            "tipe": "pasal",
            "nomor": "324",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-324/ayat-1",
@@ -13404,7 +13299,6 @@
               "id": "pasal-332",
               "tipe": "pasal",
               "nomor": "332",
-              "verifikasi": "draf",
               "anak": [
                {
                 "id": "pasal-332/ayat-1",
@@ -13675,7 +13569,6 @@
          "id": "pasal-337",
          "tipe": "pasal",
          "nomor": "337",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-337/ayat-1",
@@ -13732,7 +13625,6 @@
          "id": "pasal-338",
          "tipe": "pasal",
          "nomor": "338",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-338/ayat-1",
@@ -13864,7 +13756,6 @@
          "id": "pasal-340",
          "tipe": "pasal",
          "nomor": "340",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-340/ayat-1",
@@ -13931,7 +13822,6 @@
          "id": "pasal-342",
          "tipe": "pasal",
          "nomor": "342",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-342/ayat-1",
@@ -13968,7 +13858,6 @@
          "id": "pasal-343",
          "tipe": "pasal",
          "nomor": "343",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-343/ayat-1",
@@ -14053,7 +13942,6 @@
          "id": "pasal-346",
          "tipe": "pasal",
          "nomor": "346",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-346/ayat-1",
@@ -14245,7 +14133,6 @@
            "id": "pasal-358",
            "tipe": "pasal",
            "nomor": "358",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-358/ayat-1",
@@ -14283,7 +14170,6 @@
            "id": "pasal-359",
            "tipe": "pasal",
            "nomor": "359",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-359/ayat-1",
@@ -14407,7 +14293,6 @@
            "id": "pasal-364",
            "tipe": "pasal",
            "nomor": "364",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-364/ayat-1",
@@ -14571,7 +14456,6 @@
          "id": "pasal-372",
          "tipe": "pasal",
          "nomor": "372",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-372/ayat-1",
@@ -14595,6 +14479,7 @@
              "nomor": "b.",
              "teks": "mengumumkan seluruh atau sebagian Surat sebagaimana dimaksud dalam huruf a; atau",
              "verifikasi": "pdf-resmi",
+             "catatan_kurasi": "Salinan LN resmi (scan Setneg, hlm. -125-) mencetak huruf b tanpa kata kerja pembuka ('b. <rumpang> seluruh atau sebagian Surat...'). Teks kami memuat 'mengumumkan', sejalan dengan huruf c pada pasal yang sama; tidak diubah.",
              "sumber": "uu-2023-1",
              "berlaku_mulai": "2026-01-02"
             },
@@ -14615,45 +14500,9 @@
            "id": "pasal-372/ayat-2",
            "tipe": "ayat",
            "nomor": "(2)",
-           "teks": "Tindak Pidana sebagaimana dimaksud pada ayat (1) tidak dapat dipidana, jika perintah untuk merahasiakan diberikan karena alasan lain yang bukan kepentingan dinas atau kepentingan umum. BABX TINDAK PIDANA KETERANGAN PALSU DI ATAS SUMPAH",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2023-1",
-           "berlaku_mulai": "2026-01-02"
-          }
-         ],
-         "sumber": "uu-2023-1",
-         "berlaku_mulai": "2026-01-02"
-        },
-        {
-         "id": "pasal-373",
-         "tipe": "pasal",
-         "nomor": "373",
-         "verifikasi": "draf",
-         "anak": [
-          {
-           "id": "pasal-373/ayat-1",
-           "tipe": "ayat",
-           "nomor": "(1)",
-           "teks": "Setiap Orang yang berdasarkan ketentuan peraturan perundang-undangan harus memberikan keterangan di atas sumpah atau keterangan tersebut menimbulkan akibat hukum, memberikan keterangan palsu di atas sumpah, baik dengan lisan maupun tulisan, yang dilakukan sendiri atau oleh kuasanya yang khusus ditunjuk untuk itu, dipidana dengan pidana penjara paling lama 7 (tujuh) tahun.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2023-1",
-           "berlaku_mulai": "2026-01-02"
-          },
-          {
-           "id": "pasal-373/ayat-2",
-           "tipe": "ayat",
-           "nomor": "(2)",
-           "teks": "Disamakan dengan sumpah sebagaimana dimaksud pada ayat (1) adalah janji atau pernyataan yang menguatkan yang diharuskan berdasarkan ketentuan peraturan perundang-undangan atau yang menjadi pengganti sumpah.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2023-1",
-           "berlaku_mulai": "2026-01-02"
-          },
-          {
-           "id": "pasal-373/ayat-3",
-           "tipe": "ayat",
-           "nomor": "(3)",
-           "teks": "Setiap Orang sebagaimana dimaksud pada ayat (1) dapat dijatuhi pidana tambahan berupa pencabutan hak sebagaimana dimaksud dalam Pasal 86 huruf a, huruf b, huruf c, dan/ atau huruf d.",
-           "verifikasi": "pdf-resmi",
+           "teks": "Tindak Pidana sebagaimana dimaksud pada ayat (1) tidak dapat dipidana, jika perintah untuk merahasiakan diberikan karena alasan lain yang bukan kepentingan dinas atau kepentingan umum.",
+           "verifikasi": "pdf-ocr",
+           "catatan_kurasi": "Kompilasi sumber mencetak kepala 'BABX' tanpa spasi sehingga judul BAB X ('TINDAK PIDANA KETERANGAN PALSU DI ATAS SUMPAH') ikut tersambung ke ekor ayat ini. Judul dikeluarkan dan BAB X dipulihkan sebagai unit tersendiri; bunyi ayat tidak diubah.",
            "sumber": "uu-2023-1",
            "berlaku_mulai": "2026-01-02"
           }
@@ -14666,6 +14515,53 @@
        "berlaku_mulai": "2026-01-02"
       }
      ],
+     "sumber": "uu-2023-1",
+     "berlaku_mulai": "2026-01-02"
+    },
+    {
+     "id": "buku-2-bab-10",
+     "tipe": "bab",
+     "nomor": "X",
+     "judul": "TINDAK PIDANA KETERANGAN PALSU DI ATAS SUMPAH",
+     "anak": [
+      {
+       "id": "pasal-373",
+       "tipe": "pasal",
+       "nomor": "373",
+       "anak": [
+        {
+         "id": "pasal-373/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Setiap Orang yang berdasarkan ketentuan peraturan perundang-undangan harus memberikan keterangan di atas sumpah atau keterangan tersebut menimbulkan akibat hukum, memberikan keterangan palsu di atas sumpah, baik dengan lisan maupun tulisan, yang dilakukan sendiri atau oleh kuasanya yang khusus ditunjuk untuk itu, dipidana dengan pidana penjara paling lama 7 (tujuh) tahun.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-1",
+         "berlaku_mulai": "2026-01-02"
+        },
+        {
+         "id": "pasal-373/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Disamakan dengan sumpah sebagaimana dimaksud pada ayat (1) adalah janji atau pernyataan yang menguatkan yang diharuskan berdasarkan ketentuan peraturan perundang-undangan atau yang menjadi pengganti sumpah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-1",
+         "berlaku_mulai": "2026-01-02"
+        },
+        {
+         "id": "pasal-373/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Setiap Orang sebagaimana dimaksud pada ayat (1) dapat dijatuhi pidana tambahan berupa pencabutan hak sebagaimana dimaksud dalam Pasal 86 huruf a, huruf b, huruf c, dan/ atau huruf d.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-1",
+         "berlaku_mulai": "2026-01-02"
+        }
+       ],
+       "sumber": "uu-2023-1",
+       "berlaku_mulai": "2026-01-02"
+      }
+     ],
+     "catatan_kurasi": "Kepala bab tercetak 'BABX' tanpa spasi pada kompilasi sumber sehingga bab ini dulu tidak terbentuk dan Pasal 373 salah induk (masuk ke BAB IX Bagian Kelima). Dipulihkan sesuai salinan LN resmi (scan Setneg, hlm. -126-).",
      "sumber": "uu-2023-1",
      "berlaku_mulai": "2026-01-02"
     },
@@ -14728,7 +14624,6 @@
           "id": "pasal-375",
           "tipe": "pasal",
           "nomor": "375",
-          "verifikasi": "draf",
           "anak": [
            {
             "id": "pasal-375/ayat-1",
@@ -14827,7 +14722,6 @@
        "id": "pasal-380",
        "tipe": "pasal",
        "nomor": "380",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-380/ayat-1",
@@ -14855,7 +14749,6 @@
        "id": "pasal-381",
        "tipe": "pasal",
        "nomor": "381",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-381/ayat-1",
@@ -14976,7 +14869,6 @@
          "id": "pasal-384",
          "tipe": "pasal",
          "nomor": "384",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-384/ayat-1",
@@ -15033,7 +14925,6 @@
          "id": "pasal-385",
          "tipe": "pasal",
          "nomor": "385",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-385/ayat-1",
@@ -15099,7 +14990,6 @@
          "id": "pasal-386",
          "tipe": "pasal",
          "nomor": "386",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-386/ayat-1",
@@ -15147,7 +15037,6 @@
          "id": "pasal-387",
          "tipe": "pasal",
          "nomor": "387",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-387/ayat-1",
@@ -15195,7 +15084,6 @@
          "id": "pasal-388",
          "tipe": "pasal",
          "nomor": "388",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-388/ayat-1",
@@ -15300,7 +15188,6 @@
          "id": "pasal-390",
          "tipe": "pasal",
          "nomor": "390",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-390/ayat-1",
@@ -15348,7 +15235,6 @@
          "id": "pasal-391",
          "tipe": "pasal",
          "nomor": "391",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-391/ayat-1",
@@ -15376,7 +15262,6 @@
          "id": "pasal-392",
          "tipe": "pasal",
          "nomor": "392",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-392/ayat-1",
@@ -15469,7 +15354,6 @@
          "id": "pasal-393",
          "tipe": "pasal",
          "nomor": "393",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-393/ayat-1",
@@ -15526,7 +15410,6 @@
          "id": "pasal-395",
          "tipe": "pasal",
          "nomor": "395",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-395/ayat-1",
@@ -15672,7 +15555,6 @@
             "id": "pasal-398",
             "tipe": "pasal",
             "nomor": "398",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-398/ayat-1",
@@ -15807,7 +15689,6 @@
        "id": "pasal-402",
        "tipe": "pasal",
        "nomor": "402",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-402/ayat-1",
@@ -15979,7 +15860,6 @@
             "id": "pasal-407",
             "tipe": "pasal",
             "nomor": "407",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-407/ayat-1",
@@ -16041,7 +15921,6 @@
          "id": "pasal-410",
          "tipe": "pasal",
          "nomor": "410",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-410/ayat-1",
@@ -16088,7 +15967,6 @@
          "id": "pasal-411",
          "tipe": "pasal",
          "nomor": "411",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-411/ayat-1",
@@ -16154,7 +16032,6 @@
          "id": "pasal-412",
          "tipe": "pasal",
          "nomor": "412",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-412/ayat-1",
@@ -16245,7 +16122,6 @@
            "id": "pasal-414",
            "tipe": "pasal",
            "nomor": "414",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-414/ayat-1",
@@ -16331,7 +16207,6 @@
            "id": "pasal-416",
            "tipe": "pasal",
            "nomor": "416",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-416/ayat-1",
@@ -16368,7 +16243,6 @@
            "id": "pasal-418",
            "tipe": "pasal",
            "nomor": "418",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-418/ayat-1",
@@ -16426,7 +16300,6 @@
            "id": "pasal-419",
            "tipe": "pasal",
            "nomor": "419",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-419/ayat-1",
@@ -16472,7 +16345,6 @@
            "id": "pasal-422",
            "tipe": "pasal",
            "nomor": "422",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-422/ayat-1",
@@ -16523,7 +16395,6 @@
          "id": "pasal-424",
          "tipe": "pasal",
          "nomor": "424",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-424/ayat-1",
@@ -16608,7 +16479,6 @@
          "id": "pasal-425",
          "tipe": "pasal",
          "nomor": "425",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-425/ayat-1",
@@ -16646,7 +16516,6 @@
          "id": "pasal-426",
          "tipe": "pasal",
          "nomor": "426",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-426/ayat-1",
@@ -16726,7 +16595,6 @@
        "id": "pasal-428",
        "tipe": "pasal",
        "nomor": "428",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-428/ayat-1",
@@ -16783,7 +16651,6 @@
        "id": "pasal-429",
        "tipe": "pasal",
        "nomor": "429",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-429/ayat-1",
@@ -16883,7 +16750,6 @@
          "id": "pasal-433",
          "tipe": "pasal",
          "nomor": "433",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-433/ayat-1",
@@ -16930,7 +16796,6 @@
          "id": "pasal-434",
          "tipe": "pasal",
          "nomor": "434",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-434/ayat-1",
@@ -16987,7 +16852,6 @@
          "id": "pasal-435",
          "tipe": "pasal",
          "nomor": "435",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-435/ayat-1",
@@ -17053,7 +16917,6 @@
          "id": "pasal-437",
          "tipe": "pasal",
          "nomor": "437",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-437/ayat-1",
@@ -17110,7 +16973,6 @@
          "id": "pasal-439",
          "tipe": "pasal",
          "nomor": "439",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-439/ayat-1",
@@ -17175,7 +17037,6 @@
          "id": "pasal-441",
          "tipe": "pasal",
          "nomor": "441",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-441/ayat-1",
@@ -17226,7 +17087,6 @@
        "id": "pasal-443",
        "tipe": "pasal",
        "nomor": "443",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-443/ayat-1",
@@ -17254,7 +17114,6 @@
        "id": "pasal-444",
        "tipe": "pasal",
        "nomor": "444",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-444/ayat-1",
@@ -17307,7 +17166,6 @@
          "id": "pasal-446",
          "tipe": "pasal",
          "nomor": "446",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-446/ayat-1",
@@ -17353,7 +17211,6 @@
          "id": "pasal-447",
          "tipe": "pasal",
          "nomor": "447",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-447/ayat-1",
@@ -17390,7 +17247,6 @@
          "id": "pasal-448",
          "tipe": "pasal",
          "nomor": "448",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-448/ayat-1",
@@ -17438,7 +17294,6 @@
          "id": "pasal-449",
          "tipe": "pasal",
          "nomor": "449",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-449/ayat-1",
@@ -17586,7 +17441,6 @@
            "id": "pasal-452",
            "tipe": "pasal",
            "nomor": "452",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-452/ayat-1",
@@ -17624,7 +17478,6 @@
            "id": "pasal-453",
            "tipe": "pasal",
            "nomor": "453",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-453/ayat-1",
@@ -17662,7 +17515,6 @@
            "id": "pasal-454",
            "tipe": "pasal",
            "nomor": "454",
-           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-454/ayat-1",
@@ -17762,7 +17614,6 @@
             "id": "pasal-455",
             "tipe": "pasal",
             "nomor": "455",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-455/ayat-1",
@@ -17893,7 +17744,6 @@
          "id": "pasal-458",
          "tipe": "pasal",
          "nomor": "458",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-458/ayat-1",
@@ -17939,7 +17789,6 @@
          "id": "pasal-460",
          "tipe": "pasal",
          "nomor": "460",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-460/ayat-1",
@@ -18024,7 +17873,6 @@
          "id": "pasal-463",
          "tipe": "pasal",
          "nomor": "463",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-463/ayat-1",
@@ -18052,7 +17900,6 @@
          "id": "pasal-464",
          "tipe": "pasal",
          "nomor": "464",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-464/ayat-1",
@@ -18109,7 +17956,6 @@
          "id": "pasal-465",
          "tipe": "pasal",
          "nomor": "465",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-465/ayat-1",
@@ -18166,7 +18012,6 @@
          "id": "pasal-466",
          "tipe": "pasal",
          "nomor": "466",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-466/ayat-1",
@@ -18221,7 +18066,6 @@
          "id": "pasal-467",
          "tipe": "pasal",
          "nomor": "467",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-467/ayat-1",
@@ -18258,7 +18102,6 @@
          "id": "pasal-468",
          "tipe": "pasal",
          "nomor": "468",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-468/ayat-1",
@@ -18286,7 +18129,6 @@
          "id": "pasal-469",
          "tipe": "pasal",
          "nomor": "469",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-469/ayat-1",
@@ -18352,7 +18194,6 @@
          "id": "pasal-471",
          "tipe": "pasal",
          "nomor": "471",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-471/ayat-1",
@@ -18609,7 +18450,6 @@
             "id": "pasal-473",
             "tipe": "pasal",
             "nomor": "473",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-473/ayat-1",
@@ -18805,7 +18645,6 @@
        "id": "pasal-474",
        "tipe": "pasal",
        "nomor": "474",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-474/ayat-1",
@@ -18842,7 +18681,6 @@
        "id": "pasal-475",
        "tipe": "pasal",
        "nomor": "475",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-475/ayat-1",
@@ -18889,7 +18727,6 @@
        "id": "pasal-477",
        "tipe": "pasal",
        "nomor": "477",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-477/ayat-1",
@@ -18991,7 +18828,6 @@
        "id": "pasal-479",
        "tipe": "pasal",
        "nomor": "479",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-479/ayat-1",
@@ -19084,7 +18920,6 @@
        "id": "pasal-481",
        "tipe": "pasal",
        "nomor": "481",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-481/ayat-1",
@@ -19131,7 +18966,6 @@
        "id": "pasal-482",
        "tipe": "pasal",
        "nomor": "482",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-482/ayat-1",
@@ -19179,7 +19013,6 @@
        "id": "pasal-483",
        "tipe": "pasal",
        "nomor": "483",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-483/ayat-1",
@@ -19300,7 +19133,6 @@
        "id": "pasal-491",
        "tipe": "pasal",
        "nomor": "491",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-491/ayat-1",
@@ -19562,7 +19394,6 @@
        "id": "pasal-503",
        "tipe": "pasal",
        "nomor": "503",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-503/ayat-1",
@@ -19944,7 +19775,6 @@
          "id": "pasal-520",
          "tipe": "pasal",
          "nomor": "520",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-520/ayat-1",
@@ -20061,7 +19891,6 @@
             "id": "pasal-521",
             "tipe": "pasal",
             "nomor": "521",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-521/ayat-1",
@@ -20179,7 +20008,6 @@
          "id": "pasal-528",
          "tipe": "pasal",
          "nomor": "528",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-528/ayat-1",
@@ -20245,7 +20073,6 @@
          "id": "pasal-531",
          "tipe": "pasal",
          "nomor": "531",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-531/ayat-1",
@@ -20273,7 +20100,6 @@
          "id": "pasal-532",
          "tipe": "pasal",
          "nomor": "532",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-532/ayat-1",
@@ -20453,7 +20279,6 @@
          "id": "pasal-539",
          "tipe": "pasal",
          "nomor": "539",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-539/ayat-1",
@@ -20528,7 +20353,6 @@
          "id": "pasal-543",
          "tipe": "pasal",
          "nomor": "543",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-543/ayat-1",
@@ -20614,7 +20438,6 @@
          "id": "pasal-546",
          "tipe": "pasal",
          "nomor": "546",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-546/ayat-1",
@@ -20736,7 +20559,6 @@
          "id": "pasal-553",
          "tipe": "pasal",
          "nomor": "553",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-553/ayat-1",
@@ -20813,7 +20635,6 @@
          "id": "pasal-554",
          "tipe": "pasal",
          "nomor": "554",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-554/ayat-1",
@@ -20879,7 +20700,6 @@
          "id": "pasal-556",
          "tipe": "pasal",
          "nomor": "556",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-556/ayat-1",
@@ -21029,7 +20849,6 @@
          "id": "pasal-562",
          "tipe": "pasal",
          "nomor": "562",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-562/ayat-1",
@@ -21111,7 +20930,6 @@
          "id": "pasal-569",
          "tipe": "pasal",
          "nomor": "569",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-569/ayat-1",
@@ -21225,7 +21043,6 @@
          "id": "pasal-574",
          "tipe": "pasal",
          "nomor": "574",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-574/ayat-1",
@@ -21293,7 +21110,6 @@
          "id": "pasal-575",
          "tipe": "pasal",
          "nomor": "575",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-575/ayat-1",
@@ -21330,7 +21146,6 @@
          "id": "pasal-576",
          "tipe": "pasal",
          "nomor": "576",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-576/ayat-1",
@@ -21367,7 +21182,6 @@
          "id": "pasal-577",
          "tipe": "pasal",
          "nomor": "577",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-577/ayat-1",
@@ -21413,7 +21227,6 @@
          "id": "pasal-578",
          "tipe": "pasal",
          "nomor": "578",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-578/ayat-1",
@@ -21469,7 +21282,6 @@
          "id": "pasal-579",
          "tipe": "pasal",
          "nomor": "579",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-579/ayat-1",
@@ -21517,7 +21329,6 @@
          "id": "pasal-580",
          "tipe": "pasal",
          "nomor": "580",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-580/ayat-1",
@@ -21658,7 +21469,6 @@
          "id": "pasal-584",
          "tipe": "pasal",
          "nomor": "584",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-584/ayat-1",
@@ -21722,7 +21532,6 @@
          "id": "pasal-588",
          "tipe": "pasal",
          "nomor": "588",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-588/ayat-1",
@@ -21779,7 +21588,6 @@
          "id": "pasal-589",
          "tipe": "pasal",
          "nomor": "589",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-589/ayat-1",
@@ -21826,7 +21634,6 @@
          "id": "pasal-590",
          "tipe": "pasal",
          "nomor": "590",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-590/ayat-1",
@@ -21932,7 +21739,6 @@
          "id": "pasal-592",
          "tipe": "pasal",
          "nomor": "592",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-592/ayat-1",
@@ -22091,7 +21897,6 @@
           "id": "pasal-597",
           "tipe": "pasal",
           "nomor": "597",
-          "verifikasi": "draf",
           "anak": [
            {
             "id": "pasal-597/ayat-1",
@@ -22372,7 +22177,6 @@
             "id": "pasal-605",
             "tipe": "pasal",
             "nomor": "605",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-605/ayat-1",
@@ -22457,7 +22261,6 @@
             "id": "pasal-606",
             "tipe": "pasal",
             "nomor": "606",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-606/ayat-1",
@@ -22501,7 +22304,6 @@
          "id": "pasal-607",
          "tipe": "pasal",
          "nomor": "607",
-         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-607/ayat-1",
@@ -22912,7 +22714,6 @@
             "id": "pasal-609",
             "tipe": "pasal",
             "nomor": "609",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-609/ayat-1",
@@ -23093,7 +22894,6 @@
             "id": "pasal-610",
             "tipe": "pasal",
             "nomor": "610",
-            "verifikasi": "draf",
             "anak": [
              {
               "id": "pasal-610/ayat-1",
@@ -23278,7 +23078,6 @@
           "id": "pasal-613",
           "tipe": "pasal",
           "nomor": "613",
-          "verifikasi": "draf",
           "anak": [
            {
             "id": "pasal-613/ayat-1",
@@ -23359,7 +23158,6 @@
        "id": "pasal-615",
        "tipe": "pasal",
        "nomor": "615",
-       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-615/ayat-1",
@@ -24434,7 +24232,6 @@
           "id": "pasal-622",
           "tipe": "pasal",
           "nomor": "622",
-          "verifikasi": "draf",
           "anak": [
            {
             "id": "pasal-622/ayat-1",
@@ -25774,9 +25571,9 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 1831,
-  "pdf-resmi": 1831,
-  "pdf-ocr": 0,
+  "total": 1832,
+  "pdf-resmi": 1829,
+  "pdf-ocr": 3,
   "draf": 0,
   "lainnya": 0
  },
