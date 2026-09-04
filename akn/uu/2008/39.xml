@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2008/39/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2008/39"/>
+          <FRBRdate date="2008-11-06" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2008/39/ind@2008-11-06/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2008/39/ind@2008-11-06"/>
+          <FRBRdate date="2008-11-06" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2008/39/ind@2008-11-06/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2008/39/ind@2008-11-06.akn"/>
+          <FRBRdate date="2026-09-04" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Kementerian Negara yang selanjutnya disebut Kementerian adalah perangkat pemerintah yang membidangi urusan tertentu dalam pemerintahan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Menteri Negara yang selanjutnya disebut Menteri adalah pembantu Presiden yang memimpin Kementerian.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Urusan Pemerintahan adalah setiap urusan sebagaimana dimaksud dalam ketentuan Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Pembentukan Kementerian adalah pembentukan Kementerian dengan nomenklatur tertentu setelah Presiden mengucapkan sumpah/janji.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Pengubahan Kementerian adalah pengubahan nomenklatur Kementerian dengan cara menggabungkan, memisahkan, dan/atau mengganti nomenklatur Kementerian yang sudah terbentuk.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Pembubaran Kementerian adalah menghapus Kementerian yang sudah terbentuk.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>KEDUDUKAN DAN URUSAN PEMERINTAHAN</heading>
+          <part eId="bab_2__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Kedudukan</heading>
+              <article eId="pasal_2">
+                <num>2</num>
+                <content><p>Kementerian berkedudukan di Ibu Kota Negara Republik Indonesia.</p></content>
+              </article>
+              <article eId="pasal_3">
+                <num>3</num>
+                <content><p>Kementerian berada di bawah dan bertanggung jawab kepada Presiden.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Urusan Pemerintahan</heading>
+              <article eId="pasal_4">
+                <num>4</num>
+                  <paragraph eId="pasal_4__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Menteri membidangi urusan tertentu dalam pemerintahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Urusan tertentu dalam pemerintahan sebagaimana dimaksud pada ayat (1) terdiri atas:</p></intro>
+                      <point eId="pasal_4__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>urusan pemerintahan yang nomenklatur Kementeriannya secara tegas disebutkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+                      </point>
+                      <point eId="pasal_4__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>urusan pemerintahan yang ruang lingkupnya disebutkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; dan</p></content>
+                      </point>
+                      <point eId="pasal_4__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>urusan pemerintahan dalam rangka penajaman, koordinasi, dan sinkronisasi program pemerintah.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_5">
+                <num>5</num>
+                  <paragraph eId="pasal_5__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Urusan pemerintahan sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf a meliputi urusan luar negeri, dalam negeri, dan pertahanan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Urusan pemerintahan sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf b meliputi urusan agama, hukum, keuangan, keamanan, hak asasi manusia, pendidikan, kebudayaan, kesehatan, sosial, ketenagakerjaan, industri, perdagangan, pertambangan, energi, pekerjaan umum, transmigrasi, transportasi, informasi, komunikasi, pertanian, perkebunan, kehutanan, peternakan, kelautan, dan perikanan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Urusan pemerintahan sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf c meliputi urusan perencanaan pembangunan nasional, aparatur negara, kesekretariatan negara, badan usaha milik negara, pertanahan, kependudukan, lingkungan hidup, ilmu pengetahuan, teknologi, investasi, koperasi, usaha kecil dan menengah, pariwisata, pemberdayaan perempuan, pemuda, olahraga, perumahan, dan pembangunan kawasan atau daerah tertinggal.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_6">
+                <num>6</num>
+                <content><p>Setiap urusan pemerintahan sebagaimana dimaksud dalam Pasal 5 ayat (2) dan ayat (3) tidak harus dibentuk dalam satu Kementerian tersendiri.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>TUGAS, FUNGSI, DAN SUSUNAN ORGANISASI</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Tugas</heading>
+              <article eId="pasal_7">
+                <num>7</num>
+                <content><p>Kementerian mempunyai tugas menyelenggarakan urusan tertentu dalam pemerintahan untuk membantu Presiden dalam menyelenggarakan pemerintahan negara.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Fungsi</heading>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Dalam melaksanakan tugasnya, Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (1) menyelenggarakan fungsi:</p></intro>
+                      <point eId="pasal_8__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>perumusan, penetapan, dan pelaksanaan kebijakan di bidangnya;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>pengawasan atas pelaksanaan tugas di bidangnya; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>pelaksanaan kegiatan teknis dari pusat sampai ke daerah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Dalam melaksanakan tugasnya, Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (2) menyelenggarakan fungsi:</p></intro>
+                      <point eId="pasal_8__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>perumusan, penetapan, dan pelaksanaan kebijakan di bidangnya;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pengawasan atas pelaksanaan tugas di bidangnya;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>pelaksanaan bimbingan teknis dan supervisi atas pelaksanaan urusan Kementerian di daerah; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>pelaksanaan kegiatan teknis yang berskala nasional.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Dalam melaksanakan tugasnya, Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (3) menyelenggarakan fungsi:</p></intro>
+                      <point eId="pasal_8__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>perumusan dan penetapan kebijakan di bidangnya;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>koordinasi dan sinkronisasi pelaksanaan kebijakan di bidangnya;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>pengawasan atas pelaksanaan tugas di bidangnya.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Susunan Organisasi</heading>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Susunan organisasi Kementerian yang menangani urusan sebagaimana dimaksud dalam Pasal 5 ayat (1) terdiri atas unsur:</p></intro>
+                      <point eId="pasal_9__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemimpin, yaitu Menteri;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pembantu pemimpin, yaitu sekretariat jenderal;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>pelaksana tugas pokok, yaitu direktorat jenderal;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>pengawas, yaitu inspektorat jenderal;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>pendukung, yaitu badan dan/atau pusat; dan</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>pelaksana tugas pokok di daerah dan/atau perwakilan luar negeri sesuai dengan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Susunan organisasi Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (2) terdiri atas unsur:</p></intro>
+                      <point eId="pasal_9__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemimpin, yaitu Menteri;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pembantu pemimpin, yaitu sekretariat jenderal;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pelaksana, yaitu direktorat jenderal;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>pengawas, yaitu inspektorat jenderal; dan</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>pendukung, yaitu badan dan/atau pusat.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Kementerian yang menangani urusan agama, hukum, keuangan, dan keamanan sebagaimana dimaksud dalam Pasal 5 ayat (2) juga memiliki unsur pelaksana tugas pokok di daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Susunan organisasi Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (3) terdiri atas unsur:</p></intro>
+                      <point eId="pasal_9__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemimpin, yaitu Menteri;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>pembantu pemimpin, yaitu sekretariat Kementerian;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>pelaksana, yaitu deputi; dan</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_4__huruf_d">
+                        <num>d.</num>
+                        <content><p>pengawas, yaitu inspektorat.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                <content><p>Dalam hal terdapat beban kerja yang membutuhkan penanganan secara khusus, Presiden dapat mengangkat wakil Menteri pada Kementerian tertentu.</p></content>
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                <content><p>Ketentuan lebih lanjut mengenai tugas, fungsi, dan susunan organisasi Kementerian diatur dengan Peraturan Presiden.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PEMBENTUKAN, PENGUBAHAN, DAN PEMBUBARAN KEMENTERIAN</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Pembentukan Kementerian</heading>
+              <article eId="pasal_12">
+                <num>12</num>
+                <content><p>Presiden membentuk Kementerian luar negeri, dalam negeri, dan pertahanan, sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Presiden membentuk Kementerian sebagaimana dimaksud dalam Pasal 5 ayat (2) dan ayat (3).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pembentukan Kementerian sebagaimana dimaksud pada ayat (1) dengan mempertimbangkan:</p></intro>
+                      <point eId="pasal_13__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>efisiensi dan efektivitas;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>cakupan tugas dan proporsionalitas beban tugas;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>kesinambungan, keserasian, dan keterpaduan pelaksanaan tugas; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>perkembangan lingkungan global.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                <content><p>Untuk kepentingan sinkronisasi dan koordinasi urusan Kementerian, Presiden dapat membentuk Kementerian koordinasi.</p></content>
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                <content><p>Jumlah keseluruhan Kementerian sebagaimana dimaksud dalam Pasal 12, Pasal 13, dan Pasal 14 paling banyak 34 (tiga puluh empat).</p></content>
+              </article>
+              <article eId="pasal_16">
+                <num>16</num>
+                <content><p>Pembentukan Kementerian sebagaimana dimaksud dalam Pasal 12, Pasal 13, dan Pasal 14 paling lama 14 (empat belas) hari kerja sejak Presiden mengucapkan sumpah/janji.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pengubahan Kementerian</heading>
+              <article eId="pasal_17">
+                <num>17</num>
+                <content><p>Kementerian sebagaimana dimaksud dalam Pasal 12 tidak dapat diubah oleh Presiden.</p></content>
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                  <paragraph eId="pasal_18__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Kementerian sebagaimana dimaksud dalam Pasal 13 dapat diubah oleh Presiden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pengubahan sebagaimana dimaksud pada ayat (1) dilakukan dengan mempertimbangkan:</p></intro>
+                      <point eId="pasal_18__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>efisiensi dan efektivitas;</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>perubahan dan/atau perkembangan tugas dan fungsi;</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>cakupan tugas dan proporsionalitas beban tugas;</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>kesinambungan, keserasian, dan keterpaduan pelaksanaan tugas;</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>peningkatan kinerja dan beban kerja pemerintah;</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>kebutuhan penanganan urusan tertentu dalam pemerintahan secara mandiri; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_2__huruf_g">
+                        <num>g.</num>
+                        <content><p>kebutuhan penyesuaian peristilahan yang berkembang.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengubahan sebagai akibat pemisahan atau penggabungan Kementerian dilakukan dengan pertimbangan Dewan Perwakilan Rakyat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pertimbangan sebagaimana dimaksud pada ayat (1) diberikan Dewan Perwakilan Rakyat paling lama 7 (tujuh) hari kerja sejak surat Presiden diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Apabila dalam waktu 7 (tujuh) hari kerja sebagaimana dimaksud pada ayat (2) Dewan Perwakilan Rakyat belum menyampaikan pertimbangannya, Dewan Perwakilan Rakyat dianggap sudah memberikan pertimbangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pembubaran Kementerian</heading>
+              <article eId="pasal_20">
+                <num>20</num>
+                <content><p>Kementerian sebagaimana dimaksud dalam Pasal 12 tidak dapat dibubarkan oleh Presiden.</p></content>
+              </article>
+              <article eId="pasal_21">
+                <num>21</num>
+                <content><p>Kementerian sebagaimana dimaksud dalam Pasal 13 dapat dibubarkan oleh Presiden dengan meminta pertimbangan Dewan Perwakilan Rakyat, kecuali Kementerian yang menangani urusan agama, hukum, keuangan, dan keamanan harus dengan persetujuan Dewan Perwakilan Rakyat.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PENGANGKATAN DAN PEMBERHENTIAN</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Pengangkatan</heading>
+              <article eId="pasal_22">
+                <num>22</num>
+                  <paragraph eId="pasal_22__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Menteri diangkat oleh Presiden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Untuk dapat diangkat menjadi Menteri, seseorang harus memenuhi persyaratan:</p></intro>
+                      <point eId="pasal_22__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>warga negara Indonesia;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>bertakwa kepada Tuhan Yang Maha Esa;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>setia kepada Pancasila sebagai dasar negara, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan cita-cita proklamasi kemerdekaan;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>sehat jasmani dan rohani;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>memiliki integritas dan kepribadian yang baik; dan</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>tidak pernah dipidana penjara berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_23">
+                <num>23</num>
+                <intro><p>Menteri dilarang merangkap jabatan sebagai:</p></intro>
+                  <point eId="pasal_23__huruf_a">
+                    <num>a.</num>
+                    <content><p>pejabat negara lainnya sesuai dengan peraturan perundang-undangan;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_b">
+                    <num>b.</num>
+                    <content><p>komisaris atau direksi pada perusahaan negara atau perusahaan swasta; atau</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_c">
+                    <num>c.</num>
+                    <content><p>pimpinan organisasi yang dibiayai dari Anggaran Pendapatan Belanja Negara dan/atau Anggaran Pendapatan Belanja Daerah.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pemberhentian</heading>
+              <article eId="pasal_24">
+                <num>24</num>
+                  <paragraph eId="pasal_24__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Menteri berhenti dari jabatannya karena:</p></intro>
+                      <point eId="pasal_24__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>meninggal dunia; atau</p></content>
+                      </point>
+                      <point eId="pasal_24__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>berakhir masa jabatan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Menteri diberhentikan dari jabatannya oleh Presiden karena:</p></intro>
+                      <point eId="pasal_24__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>mengundurkan diri atas permintaan sendiri secara tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_24__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>tidak dapat melaksanakan tugas selama 3 (tiga) bulan secara berturut-turut;</p></content>
+                      </point>
+                      <point eId="pasal_24__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>dinyatakan bersalah berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih;</p></content>
+                      </point>
+                      <point eId="pasal_24__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>melanggar ketentuan larangan rangkap jabatan sebagaimana dimaksud dalam Pasal 23; atau</p></content>
+                      </point>
+                      <point eId="pasal_24__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>alasan lain yang ditetapkan oleh Presiden.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Presiden memberhentikan sementara Menteri yang didakwa melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>HUBUNGAN FUNGSIONAL KEMENTERIAN DAN LEMBAGA PEMERINTAH NONKEMENTERIAN</heading>
+          <article eId="pasal_25">
+            <num>25</num>
+              <paragraph eId="pasal_25__ayat_1">
+                <num>(1)</num>
+                <content><p>Hubungan fungsional antara Kementerian dan lembaga pemerintah nonkementerian dilaksanakan secara sinergis sebagai satu sistem pemerintahan dalam Negara Kesatuan Republik Indonesia sesuai dengan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_2">
+                <num>(2)</num>
+                <content><p>Lembaga pemerintah nonkementerian berkedudukan di bawah Presiden dan bertanggung jawab kepada Presiden melalui Menteri yang mengoordinasikan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai hubungan fungsional antara Menteri dan lembaga pemerintah nonkementerian sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>HUBUNGAN KEMENTERIAN DENGAN PEMERINTAH DAERAH</heading>
+          <article eId="pasal_26">
+            <num>26</num>
+            <content><p>Hubungan antara Kementerian dan pemerintah daerah dilaksanakan dalam kerangka sistem pemerintahan Negara Kesatuan Republik Indonesia dengan memperhatikan prinsip-prinsip penyelenggaraan otonomi daerah sesuai peraturan perundang-undangan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_27">
+            <num>27</num>
+            <content><p>Kementerian yang sudah ada pada saat berlakunya Undang-Undang ini tetap menjalankan tugasnya sampai dengan terbentuknya Kementerian berdasarkan ketentuan dalam Undang-Undang ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_28">
+            <num>28</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

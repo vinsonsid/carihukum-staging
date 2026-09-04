@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2012/2/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2012/2"/>
+          <FRBRdate date="2012-01-14" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2012/2/ind@2012-01-14/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2012/2/ind@2012-01-14"/>
+          <FRBRdate date="2012-01-14" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2012/2/ind@2012-01-14/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2012/2/ind@2012-01-14.akn"/>
+          <FRBRdate date="2026-09-04" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 2 Tahun 2012 tentang Pengadaan Tanah Bagi Pembangunan Untuk Kepentingan Umum</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Instansi adalah lembaga negara, kementerian dan lembaga pemerintah nonkementerian, pemerintah provinsi, pemerintah kabupaten/kota, dan Badan Hukum Milik Negara/Badan Usaha Milik Negara yang mendapat penugasan khusus Pemerintah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Pengadaan Tanah adalah kegiatan menyediakan tanah dengan cara memberi ganti kerugian yang layak dan adil kepada pihak yang berhak.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Pihak yang Berhak adalah pihak yang menguasai atau memiliki objek pengadaan tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Objek Pengadaan Tanah adalah tanah, ruang atas tanah dan bawah tanah, bangunan, tanaman, benda yang berkaitan dengan tanah, atau lainnya yang dapat dinilai.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Hak atas Tanah adalah hak atas tanah sebagaimana dimaksud dalam Undang-Undang Nomor 5 Tahun 1960 tentang Peraturan Dasar Pokok-Pokok Agraria dan hak lain yang akan ditetapkan dengan undang-undang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Kepentingan Umum adalah kepentingan bangsa, negara, dan masyarakat yang harus diwujudkan oleh pemerintah dan digunakan sebesar-besarnya untuk kemakmuran rakyat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Hak Pengelolaan adalah hak menguasai dari negara yang kewenangan pelaksanaannya sebagian dilimpahkan kepada pemegangnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Konsultasi Publik adalah proses komunikasi dialogis atau musyawarah antarpihak yang berkepentingan guna mencapai kesepahaman dan kesepakatan dalam perencanaan pengadaan tanah bagi pembangunan untuk kepentingan umum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Pelepasan Hak adalah kegiatan pemutusan hubungan hukum dari pihak yang berhak kepada negara melalui Lembaga Pertanahan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Ganti Kerugian adalah penggantian yang layak dan adil kepada pihak yang berhak dalam proses pengadaan tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Penilai Pertanahan, yang selanjutnya disebut Penilai, adalah orang perseorangan yang melakukan penilaian secara independen dan profesional yang telah mendapat izin praktik penilaian dari Menteri Keuangan dan telah mendapat lisensi dari Lembaga Pertanahan untuk menghitung nilai/harga objek pengadaan tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Pemerintah Pusat, yang selanjutnya disebut Pemerintah, adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Pemerintah Daerah adalah gubernur, bupati, atau wali kota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Lembaga Pertanahan adalah Badan Pertanahan Nasional Republik Indonesia, lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang pertanahan.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS DAN TUJUAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>Pengadaan Tanah untuk Kepentingan Umum dilaksanakan berdasarkan asas:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>kemanusiaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>keadilan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_c">
+                <num>c.</num>
+                <content><p>kemanfaatan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_d">
+                <num>d.</num>
+                <content><p>kepastian;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_e">
+                <num>e.</num>
+                <content><p>keterbukaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_f">
+                <num>f.</num>
+                <content><p>kesepakatan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_g">
+                <num>g.</num>
+                <content><p>keikutsertaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_h">
+                <num>h.</num>
+                <content><p>kesejahteraan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_i">
+                <num>i.</num>
+                <content><p>keberlanjutan; dan</p></content>
+              </point>
+              <point eId="pasal_2__huruf_j">
+                <num>j.</num>
+                <content><p>keselarasan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <content><p>Pengadaan Tanah untuk Kepentingan Umum bertujuan menyediakan tanah bagi pelaksanaan pembangunan guna meningkatkan kesejahteraan dan kemakmuran bangsa, negara, dan masyarakat dengan tetap menjamin kepentingan hukum Pihak yang Berhak.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>POKOK-POKOK PENGADAAN TANAH</heading>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah dan/atau Pemerintah Daerah menjamin tersedianya tanah untuk Kepentingan Umum.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah dan/atau Pemerintah Daerah menjamin tersedianya pendanaan untuk Kepentingan Umum.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+            <content><p>Pihak yang Berhak wajib melepaskan tanahnya pada saat pelaksanaan Pengadaan Tanah untuk Kepentingan Umum setelah pemberian Ganti Kerugian atau berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.</p></content>
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+            <content><p>Pengadaan Tanah untuk Kepentingan Umum diselenggarakan oleh Pemerintah.</p></content>
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pengadaan Tanah untuk Kepentingan Umum diselenggarakan sesuai dengan:</p></intro>
+                  <point eId="pasal_7__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Rencana Tata Ruang Wilayah;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Rencana Pembangunan Nasional/Daerah;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Rencana Strategis; dan</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>Rencana Kerja setiap Instansi yang memerlukan tanah.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Pengadaan Tanah dilakukan untuk infrastruktur minyak, gas, dan panas bumi, pengadaannya diselenggarakan berdasarkan Rencana Strategis dan Rencana Kerja Instansi yang memerlukan tanah sebagaimana dimaksud pada ayat (1) huruf c dan huruf d.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_3">
+                <num>(3)</num>
+                <content><p>Pengadaan Tanah untuk Kepentingan Umum diselenggarakan melalui perencanaan dengan melibatkan semua pengampu dan pemangku kepentingan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+            <content><p>Pihak yang Berhak dan pihak yang menguasai Objek Pengadaan Tanah untuk Kepentingan Umum wajib mematuhi ketentuan dalam Undang-Undang ini.</p></content>
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelenggaraan Pengadaan Tanah untuk Kepentingan Umum memperhatikan keseimbangan antara kepentingan pembangunan dan kepentingan masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengadaan Tanah untuk Kepentingan Umum dilaksanakan dengan pemberian Ganti Kerugian yang layak dan adil.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENYELENGGARAAN PENGADAAN TANAH</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_10">
+                <num>10</num>
+                <intro><p>Tanah untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 4 ayat (1) digunakan untuk pembangunan:</p></intro>
+                  <point eId="pasal_10__huruf_a">
+                    <num>a.</num>
+                    <content><p>pertahanan dan keamanan nasional;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_b">
+                    <num>b.</num>
+                    <content><p>jalan umum, jalan tol, terowongan, jalur kereta api, stasiun kereta api, dan fasilitas operasi kereta api;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_c">
+                    <num>c.</num>
+                    <content><p>waduk, bendungan, bendung, irigasi, saluran air minum, saluran pembuangan air dan sanitasi, dan bangunan pengairan lainnya;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_d">
+                    <num>d.</num>
+                    <content><p>pelabuhan, bandar udara, dan terminal;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_e">
+                    <num>e.</num>
+                    <content><p>infrastruktur minyak, gas, dan panas bumi;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_f">
+                    <num>f.</num>
+                    <content><p>pembangkit, transmisi, gardu, jaringan, dan distribusi tenaga listrik;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_g">
+                    <num>g.</num>
+                    <content><p>jaringan telekomunikasi dan informatika Pemerintah;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_h">
+                    <num>h.</num>
+                    <content><p>tempat pembuangan dan pengolahan sampah;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_i">
+                    <num>i.</num>
+                    <content><p>rumah sakit Pemerintah/Pemerintah Daerah;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_j">
+                    <num>j.</num>
+                    <content><p>fasilitas keselamatan umum;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_k">
+                    <num>k.</num>
+                    <content><p>tempat pemakaman umum Pemerintah/Pemerintah Daerah;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_l">
+                    <num>l.</num>
+                    <content><p>fasilitas sosial, fasilitas umum, dan ruang terbuka hijau publik;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_m">
+                    <num>m.</num>
+                    <content><p>cagar alam dan cagar budaya;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_n">
+                    <num>n.</num>
+                    <content><p>kantor Pemerintah/Pemerintah Daerah/desa;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_o">
+                    <num>o.</num>
+                    <content><p>penataan permukiman kumuh perkotaan dan/atau konsolidasi tanah, serta perumahan untuk masyarakat berpenghasilan rendah dengan status sewa;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_p">
+                    <num>p.</num>
+                    <content><p>prasarana pendidikan atau sekolah Pemerintah/Pemerintah Daerah;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_q">
+                    <num>q.</num>
+                    <content><p>prasarana olahraga Pemerintah/Pemerintah Daerah; dan</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_r">
+                    <num>r.</num>
+                    <content><p>pasar umum dan lapangan parkir umum.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 10 wajib diselenggarakan oleh Pemerintah dan tanahnya selanjutnya dimiliki Pemerintah atau Pemerintah Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Instansi yang memerlukan Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 10 adalah Badan Usaha Milik Negara, tanahnya menjadi milik Badan Usaha Milik Negara.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 10 huruf b sampai dengan huruf r wajib diselenggarakan Pemerintah dan dapat bekerja sama dengan Badan Usaha Milik Negara, Badan Usaha Milik Daerah, atau Badan Usaha Swasta.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal pembangunan pertahanan dan keamanan nasional sebagaimana dimaksud dalam Pasal 10 huruf a, pembangunannya diselenggarakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                <intro><p>Pengadaan Tanah untuk Kepentingan Umum diselenggarakan melalui tahapan:</p></intro>
+                  <point eId="pasal_13__huruf_a">
+                    <num>a.</num>
+                    <content><p>perencanaan;</p></content>
+                  </point>
+                  <point eId="pasal_13__huruf_b">
+                    <num>b.</num>
+                    <content><p>persiapan;</p></content>
+                  </point>
+                  <point eId="pasal_13__huruf_c">
+                    <num>c.</num>
+                    <content><p>pelaksanaan; dan</p></content>
+                  </point>
+                  <point eId="pasal_13__huruf_d">
+                    <num>d.</num>
+                    <content><p>penyerahan hasil.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Perencanaan Pengadaan Tanah</heading>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Instansi yang memerlukan tanah membuat perencanaan Pengadaan Tanah untuk Kepentingan Umum menurut ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Perencanaan Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud pada ayat (1) didasarkan atas Rencana Tata Ruang Wilayah dan prioritas pembangunan yang tercantum dalam Rencana Pembangunan Jangka Menengah, Rencana Strategis, Rencana Kerja Pemerintah Instansi yang bersangkutan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Perencanaan Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 14 ayat (1) disusun dalam bentuk dokumen perencanaan Pengadaan Tanah, yang paling sedikit memuat:</p></intro>
+                      <point eId="pasal_15__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>maksud dan tujuan rencana pembangunan;</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>kesesuaian dengan Rencana Tata Ruang Wilayah dan Rencana Pembangunan Nasional dan Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>letak tanah;</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>luas tanah yang dibutuhkan;</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>gambaran umum status tanah;</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>perkiraan waktu pelaksanaan Pengadaan Tanah;</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>perkiraan jangka waktu pelaksanaan pembangunan;</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_h">
+                        <num>h.</num>
+                        <content><p>perkiraan nilai tanah; dan</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_i">
+                        <num>i.</num>
+                        <content><p>rencana penganggaran.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dokumen perencanaan Pengadaan Tanah sebagaimana dimaksud pada ayat (1) disusun berdasarkan studi kelayakan yang dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dokumen perencanaan Pengadaan Tanah sebagaimana dimaksud pada ayat (2) ditetapkan oleh Instansi yang memerlukan tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dokumen perencanaan Pengadaan Tanah sebagaimana dimaksud pada ayat (3) diserahkan kepada pemerintah provinsi.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Persiapan Pengadaan Tanah</heading>
+              <article eId="pasal_16">
+                <num>16</num>
+                <intro><p>Instansi yang memerlukan tanah bersama pemerintah provinsi berdasarkan dokumen perencanaan Pengadaan Tanah sebagaimana dimaksud dalam Pasal 15 melaksanakan:</p></intro>
+                  <point eId="pasal_16__huruf_a">
+                    <num>a.</num>
+                    <content><p>pemberitahuan rencana pembangunan;</p></content>
+                  </point>
+                  <point eId="pasal_16__huruf_b">
+                    <num>b.</num>
+                    <content><p>pendataan awal lokasi rencana pembangunan; dan</p></content>
+                  </point>
+                  <point eId="pasal_16__huruf_c">
+                    <num>c.</num>
+                    <content><p>Konsultasi Publik rencana pembangunan.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_17">
+                <num>17</num>
+                <content><p>Pemberitahuan rencana pembangunan sebagaimana dimaksud dalam Pasal 16 huruf a disampaikan kepada masyarakat pada rencana lokasi pembangunan untuk Kepentingan Umum, baik langsung maupun tidak langsung.</p></content>
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                  <paragraph eId="pasal_18__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pendataan awal lokasi rencana pembangunan sebagaimana dimaksud dalam Pasal 16 huruf b meliputi kegiatan pengumpulan data awal Pihak yang Berhak dan Objek Pengadaan Tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pendataan awal sebagaimana dimaksud pada ayat (1) dilaksanakan dalam waktu paling lama 30 (tiga puluh) hari kerja sejak pemberitahuan rencana pembangunan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Hasil pendataan awal lokasi rencana pembangunan sebagaimana dimaksud pada ayat (1) digunakan sebagai data untuk pelaksanaan Konsultasi Publik rencana pembangunan sebagaimana dimaksud dalam Pasal 16 huruf c.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Konsultasi Publik rencana pembangunan sebagaimana dimaksud dalam Pasal 18 ayat (3) dilaksanakan untuk mendapatkan kesepakatan lokasi rencana pembangunan dari Pihak yang Berhak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Konsultasi Publik sebagaimana dimaksud pada ayat (1) dilakukan dengan melibatkan Pihak yang Berhak dan masyarakat yang terkena dampak serta dilaksanakan di tempat rencana pembangunan Kepentingan Umum atau di tempat yang disepakati.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pelibatan Pihak yang Berhak sebagaimana dimaksud pada ayat (2) dapat dilakukan melalui perwakilan dengan surat kuasa dari dan oleh Pihak yang Berhak atas lokasi rencana pembangunan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Kesepakatan sebagaimana dimaksud pada ayat (1) dituangkan dalam bentuk berita acara kesepakatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Atas dasar kesepakatan sebagaimana dimaksud pada ayat (4), Instansi yang memerlukan tanah mengajukan permohonan penetapan lokasi kepada gubernur.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Gubernur menetapkan lokasi sebagaimana dimaksud pada ayat (5) dalam waktu paling lama 14 (empat belas) hari kerja terhitung sejak diterimanya pengajuan permohonan penetapan oleh Instansi yang memerlukan tanah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_20">
+                <num>20</num>
+                  <paragraph eId="pasal_20__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Konsultasi Publik rencana pembangunan sebagaimana dimaksud dalam Pasal 19 dilaksanakan dalam waktu paling lama 60 (enam puluh) hari kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Apabila sampai dengan jangka waktu 60 (enam puluh) hari kerja pelaksanaan Konsultasi Publik rencana pembangunan sebagaimana dimaksud pada ayat (1) terdapat pihak yang keberatan mengenai rencana lokasi pembangunan, dilaksanakan Konsultasi Publik ulang dengan pihak yang keberatan paling lama 30 (tiga puluh) hari kerja.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Apabila dalam Konsultasi Publik ulang sebagaimana dimaksud dalam Pasal 20 ayat (2) masih terdapat pihak yang keberatan mengenai rencana lokasi pembangunan, Instansi yang memerlukan tanah melaporkan keberatan dimaksud kepada gubernur setempat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Gubernur membentuk tim untuk melakukan kajian atas keberatan rencana lokasi pembangunan sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Tim sebagaimana dimaksud pada ayat (2) terdiri atas:</p></intro>
+                      <point eId="pasal_21__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>sekretaris daerah provinsi atau pejabat yang ditunjuk sebagai ketua merangkap anggota;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>Kepala Kantor Wilayah Badan Pertanahan Nasional sebagai sekretaris merangkap anggota;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>instansi yang menangani urusan di bidang perencanaan pembangunan daerah sebagai anggota;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>Kepala Kantor Wilayah Kementerian Hukum dan Hak Asasi Manusia sebagai anggota;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_3__huruf_e">
+                        <num>e.</num>
+                        <content><p>bupati/wali kota atau pejabat yang ditunjuk sebagai anggota; dan</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_3__huruf_f">
+                        <num>f.</num>
+                        <content><p>akademisi sebagai anggota.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Tim sebagaimana dimaksud pada ayat (3) bertugas:</p></intro>
+                      <point eId="pasal_21__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>menginventarisasi masalah yang menjadi alasan keberatan;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>melakukan pertemuan atau klarifikasi dengan pihak yang keberatan; dan</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>membuat rekomendasi diterima atau ditolaknya keberatan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Hasil kajian tim sebagaimana dimaksud pada ayat (2) berupa rekomendasi diterima atau ditolaknya keberatan rencana lokasi pembangunan dalam waktu paling lama 14 (empat belas) hari kerja terhitung sejak diterimanya permohonan oleh gubernur.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Gubernur berdasarkan rekomendasi sebagaimana dimaksud pada ayat (4) mengeluarkan surat diterima atau ditolaknya keberatan atas rencana lokasi pembangunan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_22">
+                <num>22</num>
+                  <paragraph eId="pasal_22__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal ditolaknya keberatan atas rencana lokasi pembangunan sebagaimana dimaksud dalam Pasal 21 ayat (6), gubernur menetapkan lokasi pembangunan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal diterimanya keberatan atas rencana lokasi pembangunan sebagaimana dimaksud dalam Pasal 21 ayat (6), gubernur memberitahukan kepada Instansi yang memerlukan tanah untuk mengajukan rencana lokasi pembangunan di tempat lain.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_23">
+                <num>23</num>
+                  <paragraph eId="pasal_23__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal setelah penetapan lokasi pembangunan sebagaimana dimaksud dalam Pasal 19 ayat (6) dan Pasal 22 ayat (1) masih terdapat keberatan, Pihak yang Berhak terhadap penetapan lokasi dapat mengajukan gugatan ke Pengadilan Tata Usaha Negara setempat paling lambat 30 (tiga puluh) hari kerja sejak dikeluarkannya penetapan lokasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengadilan Tata Usaha Negara memutus diterima atau ditolaknya gugatan sebagaimana dimaksud pada ayat (1) dalam waktu paling lama 30 (tiga puluh) hari kerja sejak diterimanya gugatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pihak yang keberatan terhadap putusan Pengadilan Tata Usaha Negara sebagaimana dimaksud pada ayat (2) dalam waktu paling lama 14 (empat belas) hari kerja dapat mengajukan kasasi kepada Mahkamah Agung Republik Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Mahkamah Agung wajib memberikan putusan dalam waktu paling lama 30 (tiga puluh) hari kerja sejak permohonan kasasi diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Putusan pengadilan yang telah mempunyai kekuatan hukum tetap menjadi dasar diteruskan atau tidaknya Pengadaan Tanah bagi pembangunan untuk Kepentingan Umum.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                <content><p>Penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 19 ayat (6) atau Pasal 22 ayat (1) diberikan dalam waktu 2 (dua) tahun dan dapat diperpanjang paling lama 1 (satu) tahun.</p></content>
+              </article>
+              <article eId="pasal_25">
+                <num>25</num>
+                <content><p>Dalam hal jangka waktu penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 24 tidak terpenuhi, penetapan lokasi pembangunan untuk Kepentingan Umum dilaksanakan proses ulang terhadap sisa tanah yang belum selesai pengadaannya.</p></content>
+              </article>
+              <article eId="pasal_26">
+                <num>26</num>
+                  <paragraph eId="pasal_26__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Gubernur bersama Instansi yang memerlukan tanah mengumumkan penetapan lokasi pembangunan untuk Kepentingan Umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengumuman sebagaimana dimaksud pada ayat (1) dimaksudkan untuk pemberitahuan kepada masyarakat bahwa di lokasi tersebut akan dilaksanakan pembangunan untuk Kepentingan Umum.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Pelaksanaan Pengadaan Tanah</heading>
+              <subpart eId="bab_4__bagian_keempat__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_27">
+                    <num>27</num>
+                      <paragraph eId="pasal_27__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Berdasarkan penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 26 ayat (1), Instansi yang memerlukan tanah mengajukan pelaksanaan Pengadaan Tanah kepada Lembaga Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Pelaksanaan Pengadaan Tanah sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                          <point eId="pasal_27__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah;</p></content>
+                          </point>
+                          <point eId="pasal_27__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>penilaian Ganti Kerugian;</p></content>
+                          </point>
+                          <point eId="pasal_27__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>musyawarah penetapan Ganti Kerugian;</p></content>
+                          </point>
+                          <point eId="pasal_27__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>pemberian Ganti Kerugian; dan</p></content>
+                          </point>
+                          <point eId="pasal_27__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>pelepasan tanah Instansi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Setelah penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 26 ayat (1), Pihak yang Berhak hanya dapat mengalihkan hak atas tanahnya kepada Instansi yang memerlukan tanah melalui Lembaga Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Beralihnya hak sebagaimana dimaksud pada ayat (3) dilakukan dengan memberikan Ganti Kerugian yang nilainya ditetapkan saat nilai pengumuman penetapan lokasi.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_2">
+                <num>2</num>
+                <heading>Inventarisasi dan Identifikasi Penguasaan, Pemilikan, Penggunaan, serta Pemanfaatan Tanah</heading>
+                  <article eId="pasal_28">
+                    <num>28</num>
+                      <paragraph eId="pasal_28__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud dalam Pasal 27 ayat (2) huruf a meliputi kegiatan:</p></intro>
+                          <point eId="pasal_28__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>pengukuran dan pemetaan bidang per bidang tanah; dan</p></content>
+                          </point>
+                          <point eId="pasal_28__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>pengumpulan data Pihak yang Berhak dan Objek Pengadaan Tanah.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_28__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud pada ayat (1) dilaksanakan dalam waktu paling lama 30 (tiga puluh) hari kerja.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_29">
+                    <num>29</num>
+                      <paragraph eId="pasal_29__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hasil inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud dalam Pasal 28 wajib diumumkan di kantor desa/kelurahan, kantor kecamatan, dan tempat Pengadaan Tanah dilakukan dalam waktu paling lama 14 (empat belas) hari kerja.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hasil inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud dalam Pasal 28 wajib diumumkan secara bertahap, parsial, atau keseluruhan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pengumuman hasil inventarisasi dan identifikasi sebagaimana dimaksud pada ayat (2) meliputi subjek hak, luas, letak, dan peta bidang tanah Objek Pengadaan Tanah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Dalam hal tidak menerima hasil inventarisasi sebagaimana dimaksud pada ayat (3), Pihak yang Berhak dapat mengajukan keberatan kepada Lembaga Pertanahan dalam waktu paling lama 14 (empat belas) hari kerja terhitung sejak diumumkan hasil inventarisasi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Dalam hal terdapat keberatan atas hasil inventarisasi sebagaimana dimaksud pada ayat (4), dilakukan verifikasi dan perbaikan dalam waktu paling lama 14 (empat belas) hari kerja terhitung sejak diterimanya pengajuan keberatan atas hasil inventarisasi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Inventarisasi dan identifikasi dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_30">
+                    <num>30</num>
+                    <content><p>Hasil pengumuman atau verifikasi dan perbaikan sebagaimana dimaksud dalam Pasal 29 ditetapkan oleh Lembaga Pertanahan dan selanjutnya menjadi dasar penentuan Pihak yang Berhak dalam pemberian Ganti Kerugian.</p></content>
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_3">
+                <num>3</num>
+                <heading>Penilaian Ganti Kerugian</heading>
+                  <article eId="pasal_31">
+                    <num>31</num>
+                      <paragraph eId="pasal_31__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Lembaga Pertanahan menetapkan Penilai sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_31__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Lembaga Pertanahan mengumumkan Penilai yang telah ditetapkan sebagaimana dimaksud pada ayat (1) untuk melaksanakan penilaian Objek Pengadaan Tanah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_32">
+                    <num>32</num>
+                      <paragraph eId="pasal_32__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penilai yang ditetapkan sebagaimana dimaksud dalam Pasal 31 ayat (1) wajib bertanggung jawab terhadap penilaian yang telah dilaksanakan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pelanggaran terhadap kewajiban Penilai sebagaimana dimaksud pada ayat (1) dikenakan sanksi administratif dan/atau pidana sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_33">
+                    <num>33</num>
+                    <intro><p>Penilaian besarnya nilai Ganti Kerugian oleh Penilai sebagaimana dimaksud dalam Pasal 32 ayat (1) dilakukan bidang per bidang tanah, meliputi:</p></intro>
+                      <point eId="pasal_33__huruf_a">
+                        <num>a.</num>
+                        <content><p>tanah;</p></content>
+                      </point>
+                      <point eId="pasal_33__huruf_b">
+                        <num>b.</num>
+                        <content><p>ruang atas tanah dan bawah tanah;</p></content>
+                      </point>
+                      <point eId="pasal_33__huruf_c">
+                        <num>c.</num>
+                        <content><p>bangunan;</p></content>
+                      </point>
+                      <point eId="pasal_33__huruf_d">
+                        <num>d.</num>
+                        <content><p>tanaman;</p></content>
+                      </point>
+                      <point eId="pasal_33__huruf_e">
+                        <num>e.</num>
+                        <content><p>benda yang berkaitan dengan tanah; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_33__huruf_f">
+                        <num>f.</num>
+                        <content><p>kerugian lain yang dapat dinilai.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_34">
+                    <num>34</num>
+                      <paragraph eId="pasal_34__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Nilai Ganti Kerugian yang dinilai oleh Penilai sebagaimana dimaksud dalam Pasal 33 merupakan nilai pada saat pengumuman penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 26.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_34__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Besarnya nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (1) disampaikan kepada Lembaga Pertanahan dengan berita acara.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_34__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (2) menjadi dasar musyawarah penetapan Ganti Kerugian.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_35">
+                    <num>35</num>
+                    <content><p>Dalam hal bidang tanah tertentu yang terkena Pengadaan Tanah terdapat sisa yang tidak lagi dapat difungsikan sesuai dengan peruntukan dan penggunaannya, Pihak yang Berhak dapat meminta penggantian secara utuh atas bidang tanahnya.</p></content>
+                  </article>
+                  <article eId="pasal_36">
+                    <num>36</num>
+                    <intro><p>Pemberian Ganti Kerugian dapat diberikan dalam bentuk:</p></intro>
+                      <point eId="pasal_36__huruf_a">
+                        <num>a.</num>
+                        <content><p>uang;</p></content>
+                      </point>
+                      <point eId="pasal_36__huruf_b">
+                        <num>b.</num>
+                        <content><p>tanah pengganti;</p></content>
+                      </point>
+                      <point eId="pasal_36__huruf_c">
+                        <num>c.</num>
+                        <content><p>permukiman kembali;</p></content>
+                      </point>
+                      <point eId="pasal_36__huruf_d">
+                        <num>d.</num>
+                        <content><p>kepemilikan saham; atau</p></content>
+                      </point>
+                      <point eId="pasal_36__huruf_e">
+                        <num>e.</num>
+                        <content><p>bentuk lain yang disetujui oleh kedua belah pihak.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_4">
+                <num>4</num>
+                <heading>Musyawarah Penetapan Ganti Kerugian</heading>
+                  <article eId="pasal_37">
+                    <num>37</num>
+                      <paragraph eId="pasal_37__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Lembaga Pertanahan melakukan musyawarah dengan Pihak yang Berhak dalam waktu paling lama 30 (tiga puluh) hari kerja sejak hasil penilaian dari Penilai disampaikan kepada Lembaga Pertanahan untuk menetapkan bentuk dan/atau besarnya Ganti Kerugian berdasarkan hasil penilaian Ganti Kerugian sebagaimana dimaksud dalam Pasal 34.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_37__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hasil kesepakatan dalam musyawarah sebagaimana dimaksud pada ayat (1) menjadi dasar pemberian Ganti Kerugian kepada Pihak yang Berhak yang dimuat dalam berita acara kesepakatan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_38">
+                    <num>38</num>
+                      <paragraph eId="pasal_38__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Dalam hal tidak terjadi kesepakatan mengenai bentuk dan/atau besarnya Ganti Kerugian, Pihak yang Berhak dapat mengajukan keberatan kepada pengadilan negeri setempat dalam waktu paling lama 14 (empat belas) hari kerja setelah musyawarah penetapan Ganti Kerugian sebagaimana dimaksud dalam Pasal 37 ayat (1).</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pengadilan negeri memutus bentuk dan/atau besarnya Ganti Kerugian dalam waktu paling lama 30 (tiga puluh) hari kerja sejak diterimanya pengajuan keberatan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pihak yang keberatan terhadap putusan pengadilan negeri sebagaimana dimaksud pada ayat (2) dalam waktu paling lama 14 (empat belas) hari kerja dapat mengajukan kasasi kepada Mahkamah Agung Republik Indonesia.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Mahkamah Agung wajib memberikan putusan dalam waktu paling lama 30 (tiga puluh) hari kerja sejak permohonan kasasi diterima.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Putusan pengadilan negeri/Mahkamah Agung yang telah memperoleh kekuatan hukum tetap menjadi dasar pembayaran Ganti Kerugian kepada pihak yang mengajukan keberatan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_39">
+                    <num>39</num>
+                    <content><p>Dalam hal Pihak yang Berhak menolak bentuk dan/atau besarnya Ganti Kerugian, tetapi tidak mengajukan keberatan dalam waktu sebagaimana dimaksud dalam Pasal 38 ayat (1), karena hukum Pihak yang Berhak dianggap menerima bentuk dan besarnya Ganti Kerugian sebagaimana dimaksud dalam Pasal 37 ayat (1).</p></content>
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_5">
+                <num>5</num>
+                <heading>Pemberian Ganti Kerugian</heading>
+                  <article eId="pasal_40">
+                    <num>40</num>
+                    <content><p>Pemberian Ganti Kerugian atas Objek Pengadaan Tanah diberikan langsung kepada Pihak yang Berhak.</p></content>
+                  </article>
+                  <article eId="pasal_41">
+                    <num>41</num>
+                      <paragraph eId="pasal_41__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Ganti Kerugian diberikan kepada Pihak yang Berhak berdasarkan hasil penilaian yang ditetapkan dalam musyawarah sebagaimana dimaksud dalam Pasal 37 ayat (2) dan/atau putusan pengadilan negeri/Mahkamah Agung sebagaimana dimaksud dalam Pasal 38 ayat (5).</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Pada saat pemberian Ganti Kerugian Pihak yang Berhak menerima Ganti Kerugian wajib:</p></intro>
+                          <point eId="pasal_41__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>melakukan pelepasan hak; dan</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>menyerahkan bukti penguasaan atau kepemilikan Objek Pengadaan Tanah kepada Instansi yang memerlukan tanah melalui Lembaga Pertanahan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Bukti sebagaimana dimaksud pada ayat (2) huruf b merupakan satu-satunya alat bukti yang sah menurut hukum dan tidak dapat diganggu gugat di kemudian hari.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Pihak yang Berhak menerima Ganti Kerugian bertanggung jawab atas kebenaran dan keabsahan bukti penguasaan atau kepemilikan yang diserahkan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Tuntutan pihak lain atas Objek Pengadaan Tanah yang telah diserahkan kepada Instansi yang memerlukan tanah sebagaimana dimaksud pada ayat (2) menjadi tanggung jawab Pihak yang Berhak menerima Ganti Kerugian.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Setiap orang yang melanggar ketentuan sebagaimana dimaksud pada ayat (4) dikenai sanksi pidana sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_42">
+                    <num>42</num>
+                      <paragraph eId="pasal_42__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Dalam hal Pihak yang Berhak menolak bentuk dan/atau besarnya Ganti Kerugian berdasarkan hasil musyawarah sebagaimana dimaksud dalam Pasal 37, atau putusan pengadilan negeri/Mahkamah Agung sebagaimana dimaksud dalam Pasal 38, Ganti Kerugian dititipkan di pengadilan negeri setempat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_42__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Penitipan Ganti Kerugian selain sebagaimana dimaksud pada ayat (1), juga dilakukan terhadap:</p></intro>
+                          <point eId="pasal_42__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>Pihak yang Berhak menerima Ganti Kerugian tidak diketahui keberadaannya; atau</p></content>
+                          </point>
+                          <point eId="pasal_42__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <intro><p>Objek Pengadaan Tanah yang akan diberikan Ganti Kerugian:</p></intro>
+                              <point eId="pasal_42__ayat_2__huruf_b__angka_1">
+                                <num>1.</num>
+                                <content><p>sedang menjadi objek perkara di pengadilan;</p></content>
+                              </point>
+                              <point eId="pasal_42__ayat_2__huruf_b__angka_2">
+                                <num>2.</num>
+                                <content><p>masih dipersengketakan kepemilikannya;</p></content>
+                              </point>
+                              <point eId="pasal_42__ayat_2__huruf_b__angka_3">
+                                <num>3.</num>
+                                <content><p>diletakkan sita oleh pejabat yang berwenang; atau</p></content>
+                              </point>
+                              <point eId="pasal_42__ayat_2__huruf_b__angka_4">
+                                <num>4.</num>
+                                <content><p>menjadi jaminan di bank.</p></content>
+                              </point>
+
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_43">
+                    <num>43</num>
+                    <content><p>Pada saat pelaksanaan pemberian Ganti Kerugian dan Pelepasan Hak sebagaimana dimaksud dalam Pasal 41 ayat (2) huruf a telah dilaksanakan atau pemberian Ganti Kerugian sudah dititipkan di pengadilan negeri sebagaimana dimaksud dalam Pasal 42 ayat (1), kepemilikan atau Hak Atas Tanah dari Pihak yang Berhak menjadi hapus dan alat bukti haknya dinyatakan tidak berlaku dan tanahnya menjadi tanah yang dikuasai langsung oleh negara.</p></content>
+                  </article>
+                  <article eId="pasal_44">
+                    <num>44</num>
+                      <paragraph eId="pasal_44__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pihak yang Berhak menerima Ganti Kerugian atau Instansi yang memperoleh tanah dalam Pengadaan Tanah untuk Kepentingan Umum dapat diberikan insentif perpajakan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_44__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai insentif perpajakan diatur oleh Pemerintah atau Pemerintah Daerah sesuai dengan kewenangannya.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_6">
+                <num>6</num>
+                <heading>Pelepasan Tanah Instansi</heading>
+                  <article eId="pasal_45">
+                    <num>45</num>
+                      <paragraph eId="pasal_45__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pelepasan Objek Pengadaan Tanah untuk Kepentingan Umum yang dimiliki pemerintah dilakukan sesuai dengan ketentuan peraturan perundang-undangan yang mengatur pengelolaan barang milik negara/daerah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_45__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pelepasan Objek Pengadaan Tanah untuk Kepentingan Umum yang dikuasai oleh pemerintah atau dikuasai/dimiliki oleh Badan Usaha Milik Negara/Badan Usaha Milik Daerah dilakukan berdasarkan Undang-Undang ini.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_45__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pelepasan Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) dan ayat (2) dilakukan oleh pejabat yang berwenang atau pejabat yang diberi pelimpahan kewenangan untuk itu.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_46">
+                    <num>46</num>
+                      <paragraph eId="pasal_46__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Pelepasan Objek Pengadaan Tanah sebagaimana dimaksud dalam Pasal 45 ayat (1) dan ayat (2) tidak diberikan Ganti Kerugian, kecuali:</p></intro>
+                          <point eId="pasal_46__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Objek Pengadaan Tanah yang telah berdiri bangunan yang dipergunakan secara aktif untuk penyelenggaraan tugas pemerintahan;</p></content>
+                          </point>
+                          <point eId="pasal_46__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>Objek Pengadaan Tanah yang dimiliki/dikuasai oleh Badan Usaha Milik Negara/Badan Usaha Milik Daerah; dan/atau</p></content>
+                          </point>
+                          <point eId="pasal_46__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>Objek Pengadaan Tanah kas desa.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_46__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ganti Kerugian atas Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf a dan huruf c diberikan dalam bentuk tanah dan/atau bangunan atau relokasi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_46__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ganti Kerugian atas objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf b dapat diberikan dalam bentuk sebagaimana dimaksud dalam Pasal 36.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_46__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Nilai Ganti Kerugian sebagaimana dimaksud pada ayat (2) dan ayat (3) didasarkan atas hasil penilaian Ganti Kerugian sebagaimana dimaksud dalam Pasal 34 ayat (2).</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_47">
+                    <num>47</num>
+                      <paragraph eId="pasal_47__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pelepasan objek Pengadaan Tanah sebagaimana dimaksud dalam Pasal 45 dan Pasal 46 dilaksanakan paling lama 60 (enam puluh) hari kerja sejak penetapan lokasi pembangunan untuk Kepentingan Umum.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_47__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Apabila pelepasan objek Pengadaan Tanah belum selesai dalam waktu sebagaimana dimaksud pada ayat (1) tanahnya dinyatakan telah dilepaskan dan menjadi tanah negara dan dapat langsung digunakan untuk pembangunan bagi Kepentingan Umum.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_47__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pejabat yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Penyerahan Hasil Pengadaan Tanah</heading>
+              <article eId="pasal_48">
+                <num>48</num>
+                  <paragraph eId="pasal_48__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Lembaga Pertanahan menyerahkan hasil Pengadaan Tanah kepada Instansi yang memerlukan tanah setelah:</p></intro>
+                      <point eId="pasal_48__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemberian Ganti Kerugian kepada Pihak yang Berhak dan Pelepasan Hak sebagaimana dimaksud dalam Pasal 41 ayat (2) huruf a telah dilaksanakan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_48__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemberian Ganti Kerugian telah dititipkan di pengadilan negeri sebagaimana dimaksud dalam Pasal 42 ayat (1).</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_48__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Instansi yang memerlukan tanah dapat mulai melaksanakan kegiatan pembangunan setelah dilakukan serah terima hasil Pengadaan Tanah sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_49">
+                <num>49</num>
+                  <paragraph eId="pasal_49__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengadaan Tanah untuk Kepentingan Umum karena keadaan mendesak akibat bencana alam, perang, konflik sosial yang meluas, dan wabah penyakit dapat langsung dilaksanakan pembangunannya setelah dilakukan penetapan lokasi pembangunan untuk Kepentingan Umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_49__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Sebelum penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud pada ayat (1), terlebih dahulu disampaikan pemberitahuan kepada Pihak yang Berhak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_49__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal terdapat keberatan atau gugatan atas pelaksanaan Pengadaan Tanah, Instansi yang memerlukan tanah tetap dapat melaksanakan kegiatan pembangunan sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_50">
+                <num>50</num>
+                <content><p>Instansi yang memperoleh tanah wajib mendaftarkan tanah yang telah diperoleh sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Pemantauan dan Evaluasi</heading>
+              <article eId="pasal_51">
+                <num>51</num>
+                  <paragraph eId="pasal_51__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemantauan dan evaluasi penyelenggaraan Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 13 dilakukan oleh Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_51__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemantauan dan evaluasi hasil penyerahan Pengadaan Tanah untuk Kepentingan Umum yang telah diperoleh, sebagaimana dimaksud dalam Pasal 48 ayat (1) dilakukan oleh Lembaga Pertanahan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>SUMBER DANA PENGADAAN TANAH</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Sumber Pendanaan</heading>
+              <article eId="pasal_52">
+                <num>52</num>
+                  <paragraph eId="pasal_52__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pendanaan Pengadaan Tanah untuk Kepentingan Umum bersumber dari Anggaran Pendapatan dan Belanja Negara (APBN) dan/atau Anggaran Pendapatan dan Belanja Daerah (APBD).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_52__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Instansi yang memerlukan tanah Badan Hukum Milik Negara/Badan Usaha Milik Negara yang mendapatkan penugasan khusus, pendanaan bersumber dari internal perusahaan atau sumber lain sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_52__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penugasan khusus sebagaimana dimaksud pada ayat (2) sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_53">
+                <num>53</num>
+                  <paragraph eId="pasal_53__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Dana Pengadaan Tanah sebagaimana dimaksud dalam Pasal 52 meliputi dana:</p></intro>
+                      <point eId="pasal_53__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>perencanaan;</p></content>
+                      </point>
+                      <point eId="pasal_53__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>persiapan;</p></content>
+                      </point>
+                      <point eId="pasal_53__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>pelaksanaan;</p></content>
+                      </point>
+                      <point eId="pasal_53__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>penyerahan hasil;</p></content>
+                      </point>
+                      <point eId="pasal_53__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>administrasi dan pengelolaan; dan</p></content>
+                      </point>
+                      <point eId="pasal_53__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>sosialisasi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_53__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pendanaan Pengadaan Tanah untuk Kepentingan Umum dilakukan oleh Instansi dan dituangkan dalam dokumen penganggaran sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_53__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan mengenai mekanisme pelaksanaan pendanaan Pengadaan Tanah untuk Kepentingan Umum diatur dengan Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Penyediaan dan Penggunaan Pendanaan</heading>
+              <article eId="pasal_54">
+                <num>54</num>
+                <content><p>Jaminan ketersediaan pendanaan bagi Pengadaan Tanah untuk Kepentingan Umum dialokasikan oleh Instansi sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>HAK, KEWAJIBAN, DAN PERAN SERTA MASYARAKAT</heading>
+          <article eId="pasal_55">
+            <num>55</num>
+            <intro><p>Dalam penyelenggaraan Pengadaan Tanah, Pihak yang Berhak mempunyai hak:</p></intro>
+              <point eId="pasal_55__huruf_a">
+                <num>a.</num>
+                <content><p>mengetahui rencana penyelenggaraan Pengadaan Tanah; dan</p></content>
+              </point>
+              <point eId="pasal_55__huruf_b">
+                <num>b.</num>
+                <content><p>memperoleh informasi mengenai Pengadaan Tanah.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_56">
+            <num>56</num>
+            <content><p>Dalam penyelenggaraan Pengadaan Tanah untuk Kepentingan Umum, setiap orang wajib mematuhi ketentuan Pengadaan Tanah bagi Pembangunan untuk Kepentingan Umum.</p></content>
+          </article>
+          <article eId="pasal_57">
+            <num>57</num>
+            <intro><p>Dalam penyelenggaraan Pengadaan Tanah untuk Kepentingan Umum, masyarakat dapat berperan serta, antara lain:</p></intro>
+              <point eId="pasal_57__huruf_a">
+                <num>a.</num>
+                <content><p>memberikan masukan secara lisan atau tertulis mengenai Pengadaan Tanah; dan</p></content>
+              </point>
+              <point eId="pasal_57__huruf_b">
+                <num>b.</num>
+                <content><p>memberikan dukungan dalam penyelenggaraan Pengadaan Tanah.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_58">
+            <num>58</num>
+            <intro><p>Pada saat Undang-Undang ini mulai berlaku:</p></intro>
+              <point eId="pasal_58__huruf_a">
+                <num>a.</num>
+                <content><p>proses Pengadaan Tanah yang sedang dilaksanakan sebelum berlakunya Undang-Undang ini diselesaikan berdasarkan ketentuan sebelum berlakunya Undang- Undang ini;</p></content>
+              </point>
+              <point eId="pasal_58__huruf_b">
+                <num>b.</num>
+                <content><p>sisa tanah yang belum selesai pengadaannya dalam proses Pengadaan Tanah sebagaimana dimaksud dalam huruf a, pengadaannya diselesaikan berdasarkan ketentuan yang diatur dalam Undang- Undang ini; dan</p></content>
+              </point>
+              <point eId="pasal_58__huruf_c">
+                <num>c.</num>
+                <content><p>peraturan perundang-undangan mengenai tata cara Pengadaan Tanah dinyatakan tetap berlaku sepanjang tidak bertentangan atau belum diganti dengan yang baru berdasarkan ketentuan Undang-Undang ini.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_59">
+            <num>59</num>
+            <content><p>Ketentuan lebih lanjut mengenai penyelenggaraan Pengadaan Tanah bagi Pembangunan untuk Kepentingan Umum diatur dengan Peraturan Presiden.</p></content>
+          </article>
+          <article eId="pasal_60">
+            <num>60</num>
+            <content><p>Peraturan pelaksanaan Undang-Undang ini harus ditetapkan paling lama 1 (satu) tahun sejak Undang- Undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>
