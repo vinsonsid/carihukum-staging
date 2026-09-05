@@ -6,7 +6,7 @@
    "perdata"
   ],
   "kelompok": "badan-usaha-jaminan",
-  "catatan_kurasi": "BUMN sebagai badan usaha: persero berbentuk PT sehingga bersinggungan dengan UU 40/2007. Dipanen ujung-ke-ujung oleh tools/panen.py. STATUS: kartu registri BPK menyebut 'diubah' sedangkan halaman Details menyebut 'Berlaku'; blok relasi Details memastikan ada pengubah (UU 16/2025, UU 1/2025, UU 6/2023, Perppu 2/2022), jadi dipakai 'diubah'. Peristiwa perubahannya BELUM dienkode — halaman menandainya terus terang.",
+  "catatan_kurasi": "BUMN sebagai badan usaha: persero berbentuk PT sehingga bersinggungan dengan UU 40/2007. Dipanen ujung-ke-ujung oleh tools/panen.py. STATUS: kartu registri BPK menyebut 'diubah' sedangkan halaman Details menyebut 'Berlaku'; blok relasi Details memastikan ada pengubah (UU 16/2025, UU 1/2025, UU 6/2023, Perppu 2/2022), jadi dipakai 'diubah'. Peristiwa perubahannya BELUM dienkode — halaman menandainya terus terang. PENJELASAN BELUM DIMUAT: salinan yang tersedia di BPK adalah cetakan halaman web JDIH Kemenkeu (FullText/2003/19Tahun2003UU.HTM, 26 halaman) yang berhenti pada batang tubuh dan hanya menyebut 'Penjelasan....' sebagai rujukan. Bukan cacat parser — naskahnya memang tak memuatnya; menunggu salinan LN/TLN yang utuh.",
   "id": "uu-2003-19",
   "jenis": "uu",
   "nomor": "19",
@@ -26,9 +26,27 @@
    "BUMN"
   ],
   "lokasi": "Pemerintah Pusat",
-  "tahap": "terverifikasi"
+  "tahap": "terverifikasi",
+  "dasar_hukum": [
+   {
+    "teks": "Pasal 5 ayat (1), Pasal 20, Pasal 23 ayat (4), dan Pasal 33 Undang-Undang Dasar Tahun 1945",
+    "target": "uud-1945"
+   },
+   {
+    "teks": "Ketetapan Majelis Permusyawaratan Rakyat Nomor IV/MPR/1999 tentang Garis-Garis Besar Haluan Negara Tahun 1999 - 2004",
+    "target": null
+   },
+   {
+    "teks": "Undang-undang Nomor 1 Tahun 1995 tentang Perseroan Terbatas (Lembaran Negara Tahun 1995 Nomor 13, Tambahan Lembaran Negara Nomor 3587)",
+    "target": null
+   },
+   {
+    "teks": "Undang-undang Nomor 17 Tahun 2003 tentang Keuangan Negara (Lembaran Negara Tahun 2003 Nomor 47, Tambahan Lembaran Negara Nomor 4286)",
+    "target": null
+   }
+  ]
  },
- "dihasilkan": "2026-09-04T11:50:33.366Z",
+ "dihasilkan": "2026-09-05T12:09:52.029Z",
  "timeline": [
   {
    "tanggal": "2003-06-19",
