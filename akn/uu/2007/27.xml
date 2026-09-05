@@ -1,0 +1,2223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2007/27/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2007/27"/>
+          <FRBRdate date="2007-07-17" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2007/27/ind@2007-07-17/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2007/27/ind@2007-07-17"/>
+          <FRBRdate date="2007-07-17" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2007/27/ind@2007-07-17/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2007/27/ind@2007-07-17.akn"/>
+          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 27 Tahun 2007 tentang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang–Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil adalah suatu proses perencanaan, pemanfaatan, pengawasan, dan pengendalian Sumber Daya Pesisir dan Pulau-Pulau Kecil antarsektor, antara Pemerintah dan Pemerintah Daerah, antara ekosistem darat dan laut, serta antara ilmu pengetahuan dan manajemen untuk meningkatkan kesejahteraan masyarakat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Wilayah Pesisir adalah daerah peralihan antara Ekosistem darat dan laut yang dipengaruhi oleh perubahan di darat dan laut.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Pulau Kecil adalah pulau dengan luas lebih kecil atau sama dengan 2.000 km2 (dua ribu kilometer persegi) beserta kesatuan Ekosistemnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Sumber Daya Pesisir dan Pulau-Pulau Kecil adalah sumber daya hayati, sumber daya nonhayati; sumber daya buatan, dan jasa-jasa lingkungan; sumber daya hayati meliputi ikan, terumbu karang, padang lamun, mangrove dan biota laut lain; sumber daya nonhayati meliputi pasir, air laut, mineral dasar laut; sumber daya buatan meliputi infrastruktur laut yang terkait dengan kelautan dan perikanan, dan jasa-jasa lingkungan berupa keindahan alam, permukaan dasar laut tempat instalasi bawah air yang terkait dengan kelautan dan perikanan serta energi gelombang laut yang terdapat di Wilayah Pesisir.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Ekosistem adalah kesatuan komunitas tumbuh- tumbuhan, hewan, organisme dan non organisme lain serta proses yang menghubungkannya dalam membentuk keseimbangan, stabilitas, dan produktivitas.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Bioekoregion adalah bentang alam yang berada di dalam satu hamparan kesatuan ekologis yang ditetapkan oleh batas-batas alam, seperti daerah aliran sungai, teluk, dan arus.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Perairan Pesisir adalah laut yang berbatasan dengan daratan meliputi perairan sejauh 12 (dua belas) mil laut diukur dari garis pantai, perairan yang menghubungkan pantai dan pulau-pulau, estuari, teluk, perairan dangkal, rawa payau, dan laguna.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Kawasan adalah bagian Wilayah Pesisir dan Pulau-Pulau Kecil yang memiliki fungsi tertentu yang ditetapkan berdasarkan kriteria karakteristik fisik, biologi, sosial, dan ekonomi untuk dipertahankan keberadaannya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Kawasan Pemanfaatan Umum adalah bagian dari Wilayah Pesisir yang ditetapkan peruntukkannya bagi berbagai sektor kegiatan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Kawasan Strategis Nasional Tertentu adalah Kawasan yang terkait dengan kedaulatan negara, pengendalian lingkungan hidup, dan/atau situs warisan dunia, yang pengembangannya diprioritaskan bagi kepentingan nasional.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Zona adalah ruang yang penggunaannya disepakati bersama antara berbagai pemangku kepentingan dan telah ditetapkan status hukumnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Zonasi adalah suatu bentuk rekayasa teknik pemanfaatan ruang melalui penetapan batas-batas fungsional sesuai dengan potensi sumber daya dan daya dukung serta proses-proses ekologis yang berlangsung sebagai satu kesatuan dalam Ekosistem pesisir.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Rencana Strategis adalah rencana yang memuat arah kebijakan lintas sektor untuk Kawasan perencanaan pembangunan melalui penetapan tujuan, sasaran dan strategi yang luas, serta target pelaksanaan dengan indikator yang tepat untuk memantau rencana tingkat nasional.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Rencana Zonasi adalah rencana yang menentukan arah penggunaan sumber daya tiap-tiap satuan perencanaan disertai dengan penetapan struktur dan pola ruang pada Kawasan perencanaan yang memuat kegiatan yang boleh dilakukan dan tidak boleh dilakukan serta kegiatan yang hanya dapat dilakukan setelah memperoleh izin.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Rencana Pengelolaan adalah rencana yang memuat susunan kerangka kebijakan, prosedur, dan tanggung jawab dalam rangka pengoordinasian pengambilan keputusan di antara berbagai lembaga/instansi pemerintah mengenai kesepakatan penggunaan sumber daya atau kegiatan pembangunan di zona yang ditetapkan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Rencana Aksi Pengelolaan adalah tindak lanjut rencana pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang memuat tujuan, sasaran, anggaran, dan jadwal untuk satu atau beberapa tahun ke depan secara terkoordinasi untuk melaksanakan berbagai kegiatan yang diperlukan oleh instansi Pemerintah, Pemerintah Daerah, dan pemangku kepentingan lainnya guna mencapai hasil pengelolaan sumber daya pesisir dan pulau-pulau kecil di setiap Kawasan perencanaan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Rencana Zonasi Rinci adalah rencana detail dalam 1 (satu) Zona berdasarkan arahan pengelolaan di dalam Rencana Zonasi yang dapat disusun oleh Pemerintah Daerah dengan memperhatikan daya dukung lingkungan dan teknologi yang dapat diterapkan serta ketersediaan sarana yang pada gilirannya menunjukkan jenis dan jumlah surat izin yang dapat diterbitkan oleh Pemerintah Daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Hak Pengusahaan Perairan Pesisir, selanjutnya disebut HP-3, adalah hak atas bagian-bagian tertentu dari perairan pesisir untuk usaha kelautan dan perikanan, serta usaha lain yang terkait dengan pemanfaatan Sumber Daya Pesisir dan Pulau-Pulau Kecil yang mencakup atas permukaan laut dan kolom air sampai dengan permukaan dasar laut pada batas keluasan tertentu.</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Konservasi Wilayah Pesisir dan Pulau-Pulau Kecil adalah upaya perlindungan, pelestarian, dan pemanfaatan Wilayah Pesisir dan Pulau-Pulau Kecil serta ekosistemnya untuk menjamin keberadaan, ketersediaan, dan kesinambungan Sumber Daya Pesisir dan Pulau-Pulau Kecil dengan tetap memelihara dan meningkatkan kualitas nilai dan keanekaragamannya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Kawasan Konservasi di Wilayah Pesisir dan Pulau-Pulau Kecil adalah kawasan pesisir dan pulau-pulau kecil dengan ciri khas tertentu yang dilindungi untuk mewujudkan pengelolaan Wilayah Pesisir dan Pulau- Pulau Kecil secara berkelanjutan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_21">
+                <num>21.</num>
+                <content><p>Sempadan Pantai adalah daratan sepanjang tepian yang lebarnya proporsional dengan bentuk dan kondisi fisik pantai, minimal 100 (seratus) meter dari titik pasang tertinggi ke arah darat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_22">
+                <num>22.</num>
+                <content><p>Rehabilitasi Sumber Daya Pesisir dan Pulau-Pulau Kecil adalah proses pemulihan dan perbaikan kondisi Ekosistem atau populasi yang telah rusak walaupun hasilnya berbeda dari kondisi semula.</p></content>
+              </point>
+              <point eId="pasal_1__angka_23">
+                <num>23.</num>
+                <content><p>Reklamasi adalah kegiatan yang dilakukan oleh Orang dalam rangka meningkatkan manfaat sumber daya lahan ditinjau dari sudut lingkungan dan sosial ekonomi dengan cara pengurugan, pengeringan lahan atau drainase.</p></content>
+              </point>
+              <point eId="pasal_1__angka_24">
+                <num>24.</num>
+                <content><p>Daya Dukung Wilayah Pesisir dan Pulau-Pulau Kecil adalah kemampuan Wilayah Pesisir dan Pulau-Pulau Kecil untuk mendukung perikehidupan manusia dan makhluk hidup lain.</p></content>
+              </point>
+              <point eId="pasal_1__angka_25">
+                <num>25.</num>
+                <content><p>Mitigasi Bencana adalah upaya untuk mengurangi risiko bencana, baik secara struktur atau fisik melalui pembangunan fisik alami dan/atau buatan maupun nonstruktur atau nonfisik melalui peningkatan kemampuan menghadapi ancaman bencana di Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+              </point>
+              <point eId="pasal_1__angka_26">
+                <num>26.</num>
+                <content><p>Bencana Pesisir adalah kejadian karena peristiwa alam atau karena perbuatan Orang yang menimbulkan perubahan sifat fisik dan/atau hayati pesisir dan mengakibatkan korban jiwa, harta, dan/atau kerusakan di Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+              </point>
+              <point eId="pasal_1__angka_27">
+                <num>27.</num>
+                <content><p>Dampak Besar adalah terjadinya perubahan negatif fungsi lingkungan dalam skala yang luas dan intensitas lama yang diakibatkan oleh suatu usaha dan/atau kegiatan di Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+              </point>
+              <point eId="pasal_1__angka_28">
+                <num>28.</num>
+                <content><p>Pencemaran Pesisir adalah masuknya atau dimasukkannya makhluk hidup, zat, energi, dan/atau komponen lain ke dalam lingkungan pesisir akibat adanya kegiatan Orang sehingga kualitas pesisir turun sampai ke tingkat tertentu yang menyebabkan lingkungan pesisir tidak dapat berfungsi sesuai dengan peruntukannya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_29">
+                <num>29.</num>
+                <content><p>Akreditasi adalah prosedur pengakuan suatu kegiatan yang secara konsisten telah memenuhi standar baku sistem Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang meliputi penilaian, penghargaan, dan insentif terhadap program-program pengelolaan yang dilakukan oleh masyarakat secara sukarela.</p></content>
+              </point>
+              <point eId="pasal_1__angka_30">
+                <num>30.</num>
+                <content><p>Pemangku Kepentingan Utama adalah para pengguna Sumber Daya Pesisir dan Pulau-Pulau Kecil yang mempunyai kepentingan langsung dalam mengoptimalkan pemanfaatan Sumber Daya Pesisir dan Pulau-Pulau Kecil, seperti nelayan tradisional, nelayan modern, pembudidaya ikan, pengusaha pariwisata, pengusaha perikanan, dan Masyarakat Pesisir.</p></content>
+              </point>
+              <point eId="pasal_1__angka_31">
+                <num>31.</num>
+                <content><p>Pemberdayaan Masyarakat adalah upaya pemberian fasilitas, dorongan atau bantuan kepada Masyarakat Pesisir agar mampu menentukan pilihan yang terbaik dalam memanfaatkan Sumber Daya Pesisir dan Pulau- Pulau Kecil secara lestari.</p></content>
+              </point>
+              <point eId="pasal_1__angka_32">
+                <num>32.</num>
+                <content><p>Masyarakat adalah masyarakat yang terdiri dari Masyarakat Adat dan Masyarakat Lokal yang bermukim di Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+              </point>
+              <point eId="pasal_1__angka_33">
+                <num>33.</num>
+                <content><p>Masyarakat Adat adalah kelompok Masyarakat Pesisir yang secara turun-temurun bermukim di wilayah geografis tertentu karena adanya ikatan pada asal-usul leluhur, adanya hubungan yang kuat dengan Sumber Daya Pesisir dan Pulau-Pulau Kecil, serta adanya sistem nilai yang menentukan pranata ekonomi, politik, sosial, dan hukum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_34">
+                <num>34.</num>
+                <content><p>Masyarakat Lokal adalah kelompok Masyarakat yang menjalankan tata kehidupan sehari-hari berdasarkan kebiasaan yang sudah diterima sebagai nilai-nilai yang berlaku umum tetapi tidak sepenuhnya bergantung pada Sumber Daya Pesisir dan Pulau-Pulau Kecil tertentu.</p></content>
+              </point>
+              <point eId="pasal_1__angka_35">
+                <num>35.</num>
+                <content><p>Masyarakat tradisional adalah masyarakat perikanan tradisional yang masih diakui hak tradisionalnya dalam melakukan kegiatan penangkapan ikan atau kegiatan lainnya yang sah di daerah tertentu yang berada dalam perairan kepulauan sesuai dengan kaidah hukum laut internasional.</p></content>
+              </point>
+              <point eId="pasal_1__angka_36">
+                <num>36.</num>
+                <content><p>Kearifan Lokal adalah nilai-nilai luhur yang masih berlaku dalam tata kehidupan masyarakat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_37">
+                <num>37.</num>
+                <content><p>Gugatan Perwakilan adalah gugatan yang berupa hak kelompok kecil Masyarakat untuk bertindak mewakili Masyarakat dalam jumlah besar dalam upaya mengajukan tuntutan berdasarkan kesamaan permasalahan, fakta hukum, dan tuntutan ganti kerugian.</p></content>
+              </point>
+              <point eId="pasal_1__angka_38">
+                <num>38.</num>
+                <content><p>Orang adalah orang perseorangan dan/atau badan hukum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_39">
+                <num>39.</num>
+                <content><p>Dewan Perwakilan Rakyat, selanjutnya disebut DPR, adalah Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_40">
+                <num>40.</num>
+                <content><p>Pemerintah Pusat, selanjutnya disebut Pemerintah, adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan Negara Kesatuan Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_41">
+                <num>41.</num>
+                <content><p>Pemerintah Daerah adalah gubernur, bupati, atau walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_42">
+                <num>42.</num>
+                <content><p>Pemerintahan Daerah adalah penyelenggaraan urusan pemerintahan oleh Pemerintah Daerah dan Dewan Perwakilan Rakyat Daerah, menurut asas otonomi dan tugas pembantuan dengan prinsip otonomi seluas- luasnya dalam sistem dan prinsip Negara Kesatuan Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_43">
+                <num>43.</num>
+                <content><p>Mitra Bahari adalah jejaring pemangku kepentingan di bidang pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dalam penguatan kapasitas sumber daya manusia, lembaga, pendidikan, penyuluhan, pendampingan, pelatihan, penelitian terapan, dan pengembangan rekomendasi kebijakan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_44">
+                <num>44.</num>
+                <content><p>Menteri adalah Menteri yang bertanggung jawab di bidang kelautan dan perikanan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Ruang lingkup pengaturan Wilayah Pesisir dan Pulau-Pulau Kecil meliputi daerah peralihan antara Ekosistem darat dan laut yang dipengaruhi oleh perubahan di darat dan laut, ke arah darat mencakup wilayah administrasi kecamatan dan ke arah laut sejauh 12 (dua belas) mil laut diukur dari garis pantai.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS DAN TUJUAN</heading>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil berasaskan:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>keberlanjutan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>konsistensi;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>keterpaduan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>kepastian hukum;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_e">
+                <num>e.</num>
+                <content><p>kemitraan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_f">
+                <num>f.</num>
+                <content><p>pemerataan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_g">
+                <num>g.</num>
+                <content><p>peran serta masyarakat;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_h">
+                <num>h.</num>
+                <content><p>keterbukaan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_i">
+                <num>i.</num>
+                <content><p>desentralisasi;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_j">
+                <num>j.</num>
+                <content><p>akuntabilitas; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_k">
+                <num>k.</num>
+                <content><p>keadilan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <intro><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dilaksanakan dengan tujuan:</p></intro>
+              <point eId="pasal_4__huruf_a">
+                <num>a.</num>
+                <content><p>melindungi, mengonservasi, merehabilitasi, memanfaatkan, dan memperkaya Sumber Daya Pesisir dan Pulau-Pulau Kecil serta sistem ekologisnya secara berkelanjutan;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_b">
+                <num>b.</num>
+                <content><p>menciptakan keharmonisan dan sinergi antara Pemerintah dan Pemerintah Daerah dalam pengelolaan Sumber Daya Pesisir dan Pulau-Pulau Kecil;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_c">
+                <num>c.</num>
+                <content><p>memperkuat peran serta masyarakat dan lembaga pemerintah serta mendorong inisiatif Masyarakat dalam pengelolaan Sumber Daya Pesisir dan Pulau-Pulau Kecil agar tercapai keadilan, keseimbangan, dan keberkelanjutan; dan</p></content>
+              </point>
+              <point eId="pasal_4__huruf_d">
+                <num>d.</num>
+                <content><p>meningkatkan nilai sosial, ekonomi, dan budaya Masyarakat melalui peran serta Masyarakat dalam pemanfaatan Sumber Daya Pesisir dan Pulau-Pulau Kecil.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PROSES PENGELOLAAN WILAYAH PESISIR DAN PULAU-PULAU KECIL</heading>
+          <article eId="pasal_5">
+            <num>5</num>
+            <content><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil meliputi kegiatan perencanaan, pemanfaatan, pengawasan, dan pengendalian terhadap interaksi manusia dalam memanfaatkan Sumber Daya Pesisir dan Pulau-Pulau Kecil serta proses alamiah secara berkelanjutan dalam upaya meningkatkan kesejahteraan Masyarakat dan menjaga keutuhan Negara Kesatuan Republik Indonesia.</p></content>
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+            <intro><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud dalam Pasal 5 wajib dilakukan dengan cara mengintegrasikan kegiatan:</p></intro>
+              <point eId="pasal_6__huruf_a">
+                <num>a.</num>
+                <content><p>antara Pemerintah dan Pemerintah Daerah;</p></content>
+              </point>
+              <point eId="pasal_6__huruf_b">
+                <num>b.</num>
+                <content><p>antar-Pemerintah Daerah;</p></content>
+              </point>
+              <point eId="pasal_6__huruf_c">
+                <num>c.</num>
+                <content><p>antarsektor;</p></content>
+              </point>
+              <point eId="pasal_6__huruf_d">
+                <num>d.</num>
+                <content><p>antara Pemerintah, dunia usaha, dan Masyarakat;</p></content>
+              </point>
+              <point eId="pasal_6__huruf_e">
+                <num>e.</num>
+                <content><p>antara Ekosistem darat dan Ekosistem laut; dan</p></content>
+              </point>
+              <point eId="pasal_6__huruf_f">
+                <num>f.</num>
+                <content><p>antara ilmu pengetahuan dan prinsip-prinsip manajemen.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PERENCANAAN</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Perencanaan Pengelolaan Wilayah Pesisir dan Pulau- Pulau Kecil sebagaimana dimaksud dalam Pasal 5, terdiri atas:</p></intro>
+                      <point eId="pasal_7__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Rencana Strategis Wilayah Pesisir dan Pulau-Pulau Kecil yang selanjutnya disebut RSWP-3-K;</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Rencana Zonasi Wilayah Pesisir dan Pulau-Pulau Kecil yang selanjutnya disebut RZWP-3-K;</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>Rencana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang selanjutnya disebut RPWP-3-K; dan</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>Rencana Aksi Pengelolaan Wilayah Pesisir dan Pulau- Pulau Kecil yang selanjutnya disebut RAPWP-3-K.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Norma, standar, dan pedoman penyusunan perencanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil diatur dengan Peraturan Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemerintah Daerah wajib menyusun semua rencana sebagaimana dimaksud pada ayat (1) sesuai dengan kewenangan masing-masing.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pemerintah Daerah menyusun rencana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dengan melibatkan masyarakat berdasarkan norma, standar, dan pedoman sebagaimana dimaksud pada ayat (2).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pemerintah Daerah Kabupaten/Kota menyusun Rencana Zonasi rinci di setiap Zona Kawasan Pesisir dan Pulau- Pulau Kecil tertentu dalam wilayahnya.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Rencana Strategis Wilayah Pesisir dan Pulau-Pulau Kecil</heading>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <content><p>RSWP-3-K merupakan bagian yang tidak terpisahkan dari rencana pembangunan jangka panjang setiap Pemerintah Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>RSWP-3-K sebagaimana dimaksud pada ayat (1) wajib mempertimbangkan kepentingan Pemerintah dan Pemerintah Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Jangka waktu RSWP-3-K Pemerintah Daerah selama 20 (dua puluh) tahun dan dapat ditinjau kembali sekurang- kurangnya 5 (lima) tahun sekali.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Rencana Zonasi Wilayah Pesisir dan Pulau-Pulau Kecil</heading>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <content><p>RZWP-3-K merupakan arahan pemanfaatan sumber daya di Wilayah Pesisir dan Pulau-Pulau Kecil pemerintah provinsi dan/atau pemerintah kabupaten/kota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <content><p>RZWP-3-K diserasikan, diselaraskan, dan diseimbangkan dengan Rencana Tata Ruang Wilayah (RTRW) pemerintah provinsi atau pemerintah kabupaten/kota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Perencanaan RZWP-3-K dilakukan dengan mempertimbangkan:</p></intro>
+                      <point eId="pasal_9__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>keserasian, keselarasan, dan keseimbangan dengan daya dukung ekosistem, fungsi pemanfaatan dan fungsi perlindungan, dimensi ruang dan waktu, dimensi teknologi dan sosial budaya, serta fungsi pertahanan dan keamanan;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>keterpaduan pemanfaatan berbagai jenis sumber daya, fungsi, estetika lingkungan, dan kualitas lahan pesisir; dan</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>kewajiban untuk mengalokasikan ruang dan akses Masyarakat dalam pemanfaatan Wilayah Pesisir dan Pulau-Pulau Kecil yang mempunyai fungsi sosial dan ekonomi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Jangka waktu berlakunya RZWP-3-K selama 20 (dua puluh) tahun dan dapat ditinjau kembali setiap 5 (lima) tahun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_5">
+                    <num>(5)</num>
+                    <content><p>RZWP-3-K ditetapkan dengan Peraturan Daerah.</p></content>
+                  </paragraph>
+
+              </article>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Rencana Zonasi Wilayah Pesisir dan Pulau-Pulau Kecil Provinsi</heading>
+                  <article eId="pasal_10">
+                    <num>10</num>
+                    <intro><p>RZWP-3-K Provinsi sebagaimana dimaksud dalam Pasal 9, terdiri atas:</p></intro>
+                      <point eId="pasal_10__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengalokasian ruang dalam Kawasan Pemanfaatan Umum, Kawasan Konservasi, Kawasan Strategis Nasional Tertentu, dan alur laut;</p></content>
+                      </point>
+                      <point eId="pasal_10__huruf_b">
+                        <num>b.</num>
+                        <content><p>keterkaitan antara Ekosistem darat dan Ekosistem laut dalam suatu Bioekoregion;</p></content>
+                      </point>
+                      <point eId="pasal_10__huruf_c">
+                        <num>c.</num>
+                        <content><p>penetapan pemanfaatan ruang laut; dan</p></content>
+                      </point>
+                      <point eId="pasal_10__huruf_d">
+                        <num>d.</num>
+                        <content><p>penetapan prioritas Kawasan laut untuk tujuan konservasi, sosial budaya, ekonomi, transportasi laut, industri strategis, serta pertahanan dan keamanan.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Rencana Zonasi Wilayah Pesisir dan Pulau-Pulau Kecil Kabupaten/Kota</heading>
+                  <article eId="pasal_11">
+                    <num>11</num>
+                      <paragraph eId="pasal_11__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>RZWP-3-K Kabupaten/Kota berisi arahan tentang:</p></intro>
+                          <point eId="pasal_11__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>alokasi ruang dalam Rencana Kawasan Pemanfaatan Umum, rencana Kawasan Konservasi, rencana Kawasan Strategis Nasional Tertentu, dan rencana alur;</p></content>
+                          </point>
+                          <point eId="pasal_11__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>keterkaitan antarekosistem Pesisir dan Pulau-Pulau Kecil dalam suatu Bioekoregion.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_11__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Penyusunan RZWP-3-K sebagaimana dimaksud pada ayat (1) diwajibkan mengikuti dan memadukan rencana Pemerintah dan Pemerintah Daerah dengan memperhatikan Kawasan, Zona, dan/atau Alur Laut yang telah ditetapkan sesuai dengan peraturan perundang- undangan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Rencana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil</heading>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>RPWP-3-K berisi:</p></intro>
+                      <point eId="pasal_12__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>kebijakan tentang pengaturan serta prosedur administrasi penggunaan sumber daya yang diizinkan dan yang dilarang;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>skala prioritas pemanfaatan sumber daya sesuai dengan karakteristik Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>jaminan terakomodasikannya pertimbangan- pertimbangan hasil konsultasi publik dalam penetapan tujuan pengelolaan Kawasan serta revisi terhadap penetapan tujuan dan perizinan;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>mekanisme pelaporan yang teratur dan sistematis untuk menjamin tersedianya data dan informasi yang akurat dan dapat diakses; serta</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>ketersediaan sumber daya manusia yang terlatih untuk mengimplementasikan kebijakan dan prosedurnya.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>RPWP-3-K berlaku selama 5 (lima) tahun dan dapat ditinjau kembali sekurang- kurangnya 1 (satu) kali.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Rencana Aksi Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil</heading>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>RAPWP-3-K dilakukan dengan mengarahkan Rencana Pengelolaan dan Rencana Zonasi sebagai upaya mewujudkan rencana strategis.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <content><p>RAPWP-3-K berlaku 1 (satu) sampai dengan 3 (tiga) tahun.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Mekanisme Penyusunan Rencana</heading>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Usulan penyusunan RSWP-3-K, RZWP-3-K, RPWP-3-K, dan RAPWP-3-K dilakukan oleh Pemerintah Daerah serta dunia usaha.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Mekanisme penyusunan RSWP-3-K, RZWP-3-K, RPWP-3- K, dan RAPWP-3-K pemerintah provinsi dan pemerintah kabupaten/kota dilakukan dengan melibatkan Masyarakat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemerintah Daerah berkewajiban menyebarluaskan konsep RSWP-3-K, RZWP-3-K, RPWP-3-K, dan RAPWP-3- K untuk mendapatkan masukan, tanggapan, dan saran perbaikan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Bupati/walikota menyampaikan dokumen final perencanaan Pengelolaan Wilayah Pesisir dan Pulau- Pulau Kecil kabupaten/kota kepada gubernur dan Menteri untuk diketahui.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Gubernur menyampaikan dokumen final perencanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil provinsi kepada Menteri dan bupati/walikota di wilayah provinsi yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Gubernur atau Menteri memberikan tanggapan dan/atau saran terhadap usulan dokumen final perencanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dalam jangka waktu 30 (tiga puluh) hari kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Dalam hal tanggapan dan/atau saran sebagaimana dimaksud pada ayat (6) tidak dipenuhi, maka dokumen final perencanaan pengelolaan Wilayah Pesisir dan Pulau- Pulau Kecil dimaksud diberlakukan secara definitif.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketujuh">
+            <num>Ketujuh</num>
+            <heading>Data dan Informasi</heading>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah dan Pemerintah Daerah wajib mengelola data dan informasi mengenai Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemutakhiran data dan informasi dilakukan oleh Pemerintah dan Pemerintah Daerah secara periodik dan didokumentasikan serta dipublikasikan secara resmi, sebagai dokumen publik, sesuai dengan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Data dan informasi sebagaimana dimaksud pada ayat (1) dapat dimanfaatkan oleh setiap Orang dan/atau pemangku kepentingan utama dengan tetap memperhatikan kepentingan Pemerintah dan Pemerintah Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Setiap Orang yang memanfaatkan Sumber Daya Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud pada ayat (2) wajib menyampaikan data dan informasi kepada Pemerintah dan/atau Pemerintah Daerah selambat- lambatnya 60 (enam puluh) hari kerja sejak dimulainya pemanfaatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Perubahan data dan informasi sebagaimana dimaksud pada ayat (1) hanya dapat dilakukan dengan seizin Pemerintah dan/atau Pemerintah Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Pedoman pengelolaan data dan informasi tentang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PEMANFAATAN</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Hak Pengusahaan Perairan Pesisir</heading>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemanfaatan perairan pesisir diberikan dalam bentuk HP- 3.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_2">
+                    <num>(2)</num>
+                    <content><p>HP-3 sebagaimana dimaksud pada ayat (1) meliputi pengusahaan atas permukaan laut dan kolom air sampai dengan permukaan dasar laut.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_17">
+                <num>17</num>
+                  <paragraph eId="pasal_17__ayat_1">
+                    <num>(1)</num>
+                    <content><p>HP-3 diberikan dalam luasan dan waktu tertentu.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemberian HP-3 sebagaimana dimaksud pada ayat (1) wajib mempertimbangkan kepentingan kelestarian Ekosistem Pesisir dan Pulau-Pulau Kecil, Masyarakat Adat, dan kepentingan nasional serta hak lintas damai bagi kapal asing.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                <intro><p>HP-3 dapat diberikan kepada:</p></intro>
+                  <point eId="pasal_18__huruf_a">
+                    <num>a.</num>
+                    <content><p>Orang perseorangan warga negara Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_18__huruf_b">
+                    <num>b.</num>
+                    <content><p>Badan hukum yang didirikan berdasarkan hukum Indonesia; atau</p></content>
+                  </point>
+                  <point eId="pasal_18__huruf_c">
+                    <num>c.</num>
+                    <content><p>Masyarakat Adat.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>HP-3 diberikan untuk jangka waktu 20 (dua puluh) tahun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jangka waktu sebagaimana dimaksud pada ayat (1) dapat diperpanjang tahap kesatu paling lama 20 (dua puluh) tahun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Jangka waktu sebagaimana dimaksud pada ayat (2) dapat diperpanjang lagi untuk tahap kedua sesuai dengan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_20">
+                <num>20</num>
+                  <paragraph eId="pasal_20__ayat_1">
+                    <num>(1)</num>
+                    <content><p>HP-3 dapat beralih, dialihkan, dan dijadikan jaminan utang dengan dibebankan hak tanggungan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_2">
+                    <num>(2)</num>
+                    <content><p>HP-3 diberikan dalam bentuk sertifikat HP-3.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>HP-3 berakhir karena:</p></intro>
+                      <point eId="pasal_20__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>jangka waktunya habis dan tidak diperpanjang lagi;</p></content>
+                      </point>
+                      <point eId="pasal_20__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>ditelantarkan; atau</p></content>
+                      </point>
+                      <point eId="pasal_20__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>dicabut untuk kepentingan umum.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Tata cara pemberian, pendaftaran, dan pencabutan HP-3 diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemberian HP-3 wajib memenuhi persyaratan teknis, administratif, dan operasional.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Persyaratan teknis sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                      <point eId="pasal_21__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>kesesuaian dengan rencana Zona dan/atau rencana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>hasil konsultasi publik sesuai dengan besaran dan volume pemanfaatannya; serta</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pertimbangan hasil pengujian dari berbagai alternatif usulan atau kegiatan yang berpotensi merusak Sumber Daya Pesisir dan Pulau-Pulau Kecil.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Persyaratan administratif sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                      <point eId="pasal_21__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>penyediaan dokumen administratif;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>penyusunan rencana dan pelaksanaan pemanfaatan Sumber Daya Pesisir dan Pulau-Pulau Kecil sesuai dengan daya dukung ekosistem;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>pembuatan sistem pengawasan dan pelaporan hasilnya kepada pemberi HP-3; serta</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>dalam hal HP-3 berbatasan langsung dengan garis pantai, pemohon wajib memiliki hak atas tanah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Persyaratan operasional sebagaimana dimaksud pada ayat (1) mencakup kewajiban pemegang HP-3 untuk:</p></intro>
+                      <point eId="pasal_21__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>memberdayakan Masyarakat sekitar lokasi kegiatan;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>mengakui, menghormati, dan melindungi hak-hak Masyarakat Adat dan/atau Masyarakat lokal;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>memperhatikan hak Masyarakat untuk mendapatkan akses ke sempadan pantai dan muara sungai; serta</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_4__huruf_d">
+                        <num>d.</num>
+                        <content><p>melakukan rehabilitasi sumber daya yang mengalami kerusakan di lokasi HP-3.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_5">
+                    <num>(5)</num>
+                    <intro><p>Penolakan atas permohonan HP-3 wajib disertai dengan salah satu alasan di bawah ini:</p></intro>
+                      <point eId="pasal_21__ayat_5__huruf_a">
+                        <num>a.</num>
+                        <content><p>terdapat ancaman yang serius terhadap kelestarian Wilayah Pesisir;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_5__huruf_b">
+                        <num>b.</num>
+                        <content><p>tidak didukung bukti ilmiah; atau</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_5__huruf_c">
+                        <num>c.</num>
+                        <content><p>kerusakan yang diperkirakan terjadi tidak dapat dipulihkan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Pemberian HP-3 sebagaimana dimaksud pada ayat (1) dilakukan melalui pengumuman secara terbuka.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_22">
+                <num>22</num>
+                <content><p>HP-3 tidak dapat diberikan pada Kawasan Konservasi, suaka perikanan, alur pelayaran, kawasan pelabuhan, dan pantai umum.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pemanfaatan Pulau–Pulau Kecil dan Perairan di Sekitarnya</heading>
+              <article eId="pasal_23">
+                <num>23</num>
+                  <paragraph eId="pasal_23__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemanfaatan Pulau-Pulau Kecil dan perairan di sekitarnya dilakukan berdasarkan kesatuan ekologis dan ekonomis secara menyeluruh dan terpadu dengan pulau besar di dekatnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pemanfaatan Pulau-Pulau Kecil dan perairan di sekitarnya diprioritaskan untuk salah satu atau lebih kepentingan berikut:</p></intro>
+                      <point eId="pasal_23__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>konservasi;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pendidikan dan pelatihan;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>penelitian dan pengembangan;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>budidaya laut;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>pariwisata;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>usaha perikanan dan kelautan dan industri perikanan secara lestari;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_g">
+                        <num>g.</num>
+                        <content><p>pertanian organik; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_2__huruf_h">
+                        <num>h.</num>
+                        <content><p>peternakan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Kecuali untuk tujuan konservasi, pendidikan dan pelatihan, serta penelitian dan pengembangan, pemanfaatan pulau-pulau kecil dan perairan di sekitarnya wajib:</p></intro>
+                      <point eId="pasal_23__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>memenuhi persyaratan pengelolaan lingkungan;</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>memperhatikan kemampuan sistem tata air setempat; serta</p></content>
+                      </point>
+                      <point eId="pasal_23__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>menggunakan teknologi yang ramah lingkungan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pemanfaatan Pulau-Pulau Kecil dan perairan di sekitarnya sebagaimana dimaksud pada ayat (2) dan memenuhi persyaratan pada ayat (3) wajib mempunyai HP-3 yang diterbitkan oleh Pemerintah atau Pemerintah Daerah sesuai dengan kewenangannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Untuk pemanfaatan Pulau-Pulau Kecil dan perairan di sekitarnya yang telah digunakan untuk kepentingan kehidupan Masyarakat, Pemerintah atau Pemerintah Daerah menerbitkan HP-3 setelah melakukan musyawarah dengan Masyarakat yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Bupati/walikota memfasilitasi mekanisme musyawarah sebagaimana dimaksud pada ayat (5).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Pemanfaatan Pulau-Pulau Kecil dan perairan di sekitarnya oleh Orang asing harus mendapat persetujuan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                <content><p>Pulau Kecil, gosong, atol, dan gugusan karang yang ditetapkan sebagai titik pangkal pengukuran perairan Indonesia ditetapkan oleh Menteri sebagai kawasan yang dilindungi.</p></content>
+              </article>
+              <article eId="pasal_25">
+                <num>25</num>
+                <content><p>Pemanfaatan Pulau-Pulau Kecil dan perairan di sekitarnya untuk tujuan observasi, penelitian, dan kompilasi data untuk pengembangan ilmu pengetahuan wajib melibatkan lembaga dan/atau instansi terkait dan/atau pakar setempat.</p></content>
+              </article>
+              <article eId="pasal_26">
+                <num>26</num>
+                <content><p>Pengaturan lebih lanjut mengenai pemanfaatan Pulau-Pulau Kecil dan perairan di sekitarnya sebagaimana dimaksud dalam Pasal 23, Pasal 24, dan Pasal 25 diatur dengan Peraturan Menteri.</p></content>
+              </article>
+              <article eId="pasal_27">
+                <num>27</num>
+                  <paragraph eId="pasal_27__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemanfaatan Pulau-Pulau Kecil terluar dilakukan oleh Pemerintah bersama-sama dengan Pemerintah Daerah dalam upaya menjaga kedaulatan Negara Kesatuan Republik Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemanfaatan Pulau-Pulau Kecil terluar sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Konservasi</heading>
+              <article eId="pasal_28">
+                <num>28</num>
+                  <paragraph eId="pasal_28__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Konservasi Wilayah Pesisir dan Pulau-Pulau Kecil diselenggarakan untuk</p></intro>
+                      <point eId="pasal_28__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>menjaga kelestarian Ekosistem Pesisir dan Pulau- Pulau Kecil;</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>melindungi alur migrasi ikan dan biota laut lain;</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>melindungi habitat biota laut; dan</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>melindungi situs budaya tradisional.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk kepentingan konservasi sebagaimana dimaksud pada ayat (1), sebagian Wilayah Pesisir dan Pulau-Pulau Kecil dapat ditetapkan sebagai Kawasan Konservasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Kawasan konservasi sebagaimana dimaksud pada ayat (2) yang mempunyai ciri khas sebagai satu kesatuan Ekosistem diselenggarakan untuk melindungi:</p></intro>
+                      <point eId="pasal_28__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>sumber daya ikan;</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>tempat persinggahan dan/atau alur migrasi biota laut lain;</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>wilayah yang diatur oleh adat tertentu, seperti sasi, mane’e, panglima laot, awig-awig, dan/atau istilah lain adat tertentu; dan</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>ekosistem pesisir yang unik dan/atau rentan terhadap perubahan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Kawasan Konservasi di Wilayah Pesisir dan Pulau-Pulau Kecil ditetapkan dengan Peraturan Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pengelolaan Kawasan Konservasi sebagaimana dimaksud pada ayat (2) dilaksanakan oleh Pemerintah atau Pemerintah Daerah berdasarkan kewenangan sesuai dengan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_6">
+                    <num>(6)</num>
+                    <intro><p>Untuk mencapai tujuan sebagaimana dimaksud pada ayat (1), Menteri menetapkan:</p></intro>
+                      <point eId="pasal_28__ayat_6__huruf_a">
+                        <num>a.</num>
+                        <content><p>kategori Kawasan Konservasi;</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_6__huruf_b">
+                        <num>b.</num>
+                        <content><p>Kawasan Konservasi nasional;</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_6__huruf_c">
+                        <num>c.</num>
+                        <content><p>pola dan tata cara pengelolaan Kawasan Konservasi; dan</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_6__huruf_d">
+                        <num>d.</num>
+                        <content><p>hal lain yang dianggap penting dalam pencapaian tujuan tersebut.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Pengusulan Kawasan Konservasi sebagaimana dimaksud pada ayat (3) dapat dilakukan oleh perseorangan, kelompok masyarakat, dan/atau oleh Pemerintah/Pemerintah Daerah berdasarkan ciri khas Kawasan yang ditunjang dengan data dan informasi ilmiah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_29">
+                <num>29</num>
+                <intro><p>Kawasan konservasi sebagaimana dimaksud dalam Pasal 28 ayat (2) dibagi atas tiga Zona, yaitu:</p></intro>
+                  <point eId="pasal_29__huruf_a">
+                    <num>a.</num>
+                    <content><p>Zona inti;</p></content>
+                  </point>
+                  <point eId="pasal_29__huruf_b">
+                    <num>b.</num>
+                    <content><p>Zona pemanfaatan terbatas; dan</p></content>
+                  </point>
+                  <point eId="pasal_29__huruf_c">
+                    <num>c.</num>
+                    <content><p>Zona lain sesuai dengan peruntukan Kawasan.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_30">
+                <num>30</num>
+                <content><p>Perubahan status Zona inti sebagaimana dimaksud dalam Pasal 29 untuk kegiatan eksploitasi yang dapat menimbulkan dampak besar dilakukan oleh Pemerintah atau Pemerintah Daerah dengan memperhatikan pertimbangan DPR.</p></content>
+              </article>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah Daerah menetapkan batas Sempadan Pantai yang disesuaikan dengan karakteristik topografi, biofisik, hidro-oseanografi pesisir, kebutuhan ekonomi dan budaya, serta ketentuan lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Penetapan batas Sempadan Pantai mengikuti ketentuan:</p></intro>
+                      <point eId="pasal_31__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>perlindungan terhadap gempa dan/atau tsunami;</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>perlindungan pantai dari erosi atau abrasi;</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>perlindungan sumber daya buatan di pesisir dari badai, banjir, dan bencana alam lainnya;</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>perlindungan terhadap ekosistem pesisir, seperti lahan basah, mangrove, terumbu karang, padang lamun, gumuk pasir, estuaria, dan delta;</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>pengaturan akses publik; serta</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>pengaturan untuk saluran air dan limbah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai batas sempadan pantai sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Rehabilitasi</heading>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Rehabilitasi Wilayah Pesisir dan Pulau-Pulau Kecil wajib dilakukan dengan memperhatikan keseimbangan Ekosistem dan/atau keanekaragaman hayati setempat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Rehabilitasi sebagaimana dimaksud pada ayat (1) dilakukan dengan cara:</p></intro>
+                      <point eId="pasal_32__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengayaan sumber daya hayati;</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>perbaikan habitat;</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>perlindungan spesies biota laut agar tumbuh dan berkembang secara alami; dan</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>ramah lingkungan.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_33">
+                <num>33</num>
+                  <paragraph eId="pasal_33__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Rehabilitasi sebagaimana dimaksud dalam Pasal 32 dilakukan oleh Pemerintah dan/atau Pemerintah Daerah dan/atau setiap Orang yang secara langsung atau tidak langsung memperoleh manfaat dari Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Rehabilitasi diatur dengan Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Reklamasi</heading>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Reklamasi Wilayah Pesisir dan Pulau-Pulau Kecil dilakukan dalam rangka meningkatkan manfaat dan/atau nilai tambah Wilayah Pesisir dan Pulau-Pulau Kecil ditinjau dari aspek teknis, lingkungan, dan sosial ekonomi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pelaksanaan Reklamasi sebagaimana dimaksud pada ayat (1) wajib menjaga dan memperhatikan:</p></intro>
+                      <point eId="pasal_34__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>keberlanjutan kehidupan dan penghidupan Masyarakat;</p></content>
+                      </point>
+                      <point eId="pasal_34__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>keseimbangan antara kepentingan pemanfaatan dan kepentingan pelestarian fungsi lingkungan Pesisir dan Pulau-Pulau Kecil; serta</p></content>
+                      </point>
+                      <point eId="pasal_34__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>persyaratan teknis pengambilan, pengerukan, dan penimbunan material.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Perencanaan dan pelaksanaan Reklamasi diatur lebih lanjut dengan Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Larangan</heading>
+              <article eId="pasal_35">
+                <num>35</num>
+                <intro><p>Dalam pemanfaatan Wilayah Pesisir dan Pulau-Pulau Kecil, setiap Orang secara langsung atau tidak langsung dilarang:</p></intro>
+                  <point eId="pasal_35__huruf_a">
+                    <num>a.</num>
+                    <content><p>menambang terumbu karang yang menimbulkan kerusakan Ekosistem terumbu karang;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_b">
+                    <num>b.</num>
+                    <content><p>mengambil terumbu karang di Kawasan konservasi;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_c">
+                    <num>c.</num>
+                    <content><p>menggunakan bahan peledak, bahan beracun, dan/atau bahan lain yang merusak Ekosistem terumbu karang;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_d">
+                    <num>d.</num>
+                    <content><p>menggunakan peralatan, cara, dan metode lain yang merusak Ekosistem terumbu karang;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_e">
+                    <num>e.</num>
+                    <content><p>menggunakan cara dan metode yang merusak Ekosistem mangrove yang tidak sesuai dengan karakteristik Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_f">
+                    <num>f.</num>
+                    <content><p>melakukan konversi Ekosistem mangrove di Kawasan atau Zona budidaya yang tidak memperhitungkan keberlanjutan fungsi ekologis Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_g">
+                    <num>g.</num>
+                    <content><p>menebang mangrove di Kawasan konservasi untuk kegiatan industri, pemukiman, dan/atau kegiatan lain;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_h">
+                    <num>h.</num>
+                    <content><p>menggunakan cara dan metode yang merusak padang lamun;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_i">
+                    <num>i.</num>
+                    <content><p>melakukan penambangan pasir pada wilayah yang apabila secara teknis, ekologis, sosial, dan/atau budaya menimbulkan kerusakan lingkungan dan/atau pencemaran lingkungan dan/atau merugikan Masyarakat sekitarnya;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_j">
+                    <num>j.</num>
+                    <content><p>melakukan penambangan minyak dan gas pada wilayah yang apabila secara teknis, ekologis, sosial dan/atau budaya menimbulkan kerusakan lingkungan dan/atau pencemaran lingkungan dan/atau merugikan Masyarakat sekitarnya;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_k">
+                    <num>k.</num>
+                    <content><p>melakukan penambangan mineral pada wilayah yang apabila secara teknis dan/atau ekologis dan/atau sosial dan/atau budaya menimbulkan kerusakan lingkungan dan/atau pencemaran lingkungan dan/atau merugikan Masyarakat sekitarnya; serta</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_l">
+                    <num>l.</num>
+                    <content><p>melakukan pembangunan fisik yang menimbulkan kerusakan lingkungan dan/atau merugikan Masyarakat sekitarnya.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PENGAWASAN DAN PENGENDALIAN</heading>
+          <part eId="bab_6__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_36">
+                <num>36</num>
+                  <paragraph eId="pasal_36__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Untuk menjamin terselenggaranya Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil secara terpadu dan berkelanjutan, dilakukan pengawasan dan/atau pengendalian terhadap pelaksanaan ketentuan di bidang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil, oleh pejabat tertentu yang berwewenang di bidang pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sesuai dengan sifat pekerjaaannya dan diberikan wewenang kepolisian khusus.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengawasan dan/atau pengendalian sebagaimana dimaksud pada ayat (1) dilakukan oleh pejabat pegawai negeri sipil tertentu yang menangani bidang pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sesuai dengan sifat pekerjaan yang dimilikinya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Pejabat pegawai negeri sipil tertentu sebagaimana dimaksud pada ayat (2) berwenang:</p></intro>
+                      <point eId="pasal_36__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>mengadakan patroli/perondaan di Wilayah Pesisir dan Pulau-Pulau Kecil atau wilayah hukumnya; serta</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>menerima laporan yang menyangkut perusakan Ekositem Pesisir, Kawasan Konservasi, Kawasan Pemanfaatan Umum, dan Kawasan Strategis Nasional Tertentu.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Wewenang Pejabat sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Dalam rangka pelaksanaan pengawasan dan pengendalian Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud pada ayat (1), Pemerintah dan Pemerintah Daerah wajib melakukan pemantauan, pengamatan lapangan, dan/atau evaluasi terhadap perencanaan dan pelaksanaannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Masyarakat dapat berperan serta dalam pengawasan dan pengendalian Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pengawasan</heading>
+              <article eId="pasal_37">
+                <num>37</num>
+                <content><p>Pengawasan terhadap perencanaan dan pelaksanaan pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dilakukan secara terkoordinasi oleh instansi terkait sesuai dengan kewenangannya.</p></content>
+              </article>
+              <article eId="pasal_38">
+                <num>38</num>
+                <content><p>Pengawasan oleh Masyarakat dilakukan melalui penyampaian laporan dan/atau pengaduan kepada pihak yang berwenang.</p></content>
+              </article>
+              <article eId="pasal_39">
+                <num>39</num>
+                <content><p>Ketentuan lebih lanjut mengenai pengawasan terhadap perencanaan dan pelaksanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud dalam Pasal 37 dan Pasal 38 diatur dengan Peraturan Menteri.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pengendalian</heading>
+              <subpart eId="bab_6__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Program Akreditasi</heading>
+                  <article eId="pasal_40">
+                    <num>40</num>
+                      <paragraph eId="pasal_40__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Dalam melaksanakan pengendalian sebagaimana dimaksud dalam Pasal 36 ayat (1), Pemerintah wajib menyelenggarakan Akreditasi terhadap program Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam hal penyelenggaraan akreditasi sebagaimana dimaksud pada ayat (1) Pemerintah dapat melimpahkan wewenang penyelenggaraan akreditasi kepada Pemerintah Daerah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Standar dan Pedoman Akreditasi sebagaimana dimaksud pada ayat (1) mencakup:</p></intro>
+                          <point eId="pasal_40__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>relevansi isu prioritas;</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>proses konsultasi publik;</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_3__huruf_c">
+                            <num>c.</num>
+                            <content><p>dampak positif terhadap pelestarian lingkungan;</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_3__huruf_d">
+                            <num>d.</num>
+                            <content><p>dampak terhadap peningkatan kesejahteraan Masyarakat;</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_3__huruf_e">
+                            <num>e.</num>
+                            <content><p>kemampuan implementasi yang memadai; dan</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_3__huruf_f">
+                            <num>f.</num>
+                            <content><p>dukungan kebijakan dan program Pemerintah dan Pemerintah Daerah.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_4">
+                        <num>(4)</num>
+                        <intro><p>Pemerintah dan/atau Pemerintah Daerah memberikan insentif kepada pengelola Program Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang telah mendapat akreditasi berupa:</p></intro>
+                          <point eId="pasal_40__ayat_4__huruf_a">
+                            <num>a.</num>
+                            <content><p>bantuan program sesuai dengan kemampuan Pemerintah yang dapat diarahkan untuk mengoptimalkan program akreditasi; dan/atau</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_4__huruf_b">
+                            <num>b.</num>
+                            <content><p>bantuan teknis.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Gubernur berwenang menyusun dan/atau mengajukan usulan akreditasi program Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang menjadi kewenangannya kepada Pemerintah sesuai dengan standar dan pedoman sebagaimana dimaksud pada ayat (3).</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Bupati/walikota berwenang menyusun dan/atau mengajukan usulan akreditasi program Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang menjadi kewenangannya kepada gubernur dan/atau Pemerintah sesuai dengan standar dan pedoman sebagaimana dimaksud pada ayat (3).</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_7">
+                        <num>(7)</num>
+                        <content><p>Organisasi Masyarakat dan/atau kelompok Masyarakat dapat menyusun dan/atau mengajukan usulan akreditasi program Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil kepada Pemerintah dan/atau Pemerintah Daerah sesuai dengan standar dan pedoman sebagaimana dimaksud pada ayat (3).</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_8">
+                        <num>(8)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai program akreditasi sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Mitra Bahari</heading>
+                  <article eId="pasal_41">
+                    <num>41</num>
+                      <paragraph eId="pasal_41__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Dalam upaya peningkatan kapasitas pemangku kepentingan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dibentuk Mitra Bahari sebagai forum kerja sama antara Pemerintah, Pemerintah Daerah, perguruan tinggi, lembaga swadaya masyarakat, organisasi profesi, tokoh Masyarakat, dan/atau dunia usaha.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Mitra Bahari sebagaimana dimaksud pada ayat (1) difasilitasi oleh Pemerintah, Pemerintah Daerah, dan/atau dunia usaha.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Kegiatan Mitra Bahari difokuskan pada:</p></intro>
+                          <point eId="pasal_41__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>pendampingan dan/atau penyuluhan;</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>pendidikan dan pelatihan;</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_3__huruf_c">
+                            <num>c.</num>
+                            <content><p>penelitian terapan; serta</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_3__huruf_d">
+                            <num>d.</num>
+                            <content><p>rekomendasi kebijakan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai kegiatan Mitra Bahari sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PENELITIAN DAN PENGEMBANGAN</heading>
+          <article eId="pasal_42">
+            <num>42</num>
+              <paragraph eId="pasal_42__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk meningkatkan kualitas perencanaan dan implementasi Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil, Pemerintah melakukan penelitian dan pengembangan ilmu pengetahuan dan teknologi serta pengembangan sumber daya manusia di bidang pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil secara berkelanjutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah mengatur, mendorong, dan/atau menyelenggarakan penelitian dan pengembangan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil untuk menghasilkan pengetahuan dan teknologi yang dibutuhkan dalam pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil agar lebih efektif, efisien, ekonomis, berdaya saing tinggi dan ramah lingkungan, serta menghargai kearifan tradisi atau budaya lokal.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_43">
+            <num>43</num>
+            <content><p>Penelitian dan pengembangan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dapat dilaksanakan oleh Pemerintah, Pemerintah Daerah, perguruan tinggi, lembaga swadaya masyarakat, lembaga penelitian dan pengembangan swasta, dan/atau perseorangan sesuai dengan peraturan perundang-undangan.</p></content>
+          </article>
+          <article eId="pasal_44">
+            <num>44</num>
+            <content><p>Hasil penelitian bersifat terbuka untuk semua pihak, kecuali hasil penelitian tertentu yang oleh Pemerintah dinyatakan tidak untuk dipublikasikan.</p></content>
+          </article>
+          <article eId="pasal_45">
+            <num>45</num>
+              <paragraph eId="pasal_45__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang asing yang melakukan penelitian di Wilayah Pesisir dan Pulau-Pulau Kecil wajib terlebih dahulu memperoleh izin dari Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_2">
+                <num>(2)</num>
+                <content><p>Penelitian yang dilakukan oleh orang asing dan/atau badan hukum asing sebagaimana dimaksud pada ayat (1) harus mengikutsertakan peneliti Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap orang asing yang melakukan penelitian di Wilayah Pesisir dan Pulau-Pulau Kecil harus menyerahkan hasil penelitiannya kepada Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_46">
+            <num>46</num>
+            <content><p>Ketentuan lebih lanjut mengenai penyelenggaraan penelitian dan pengembangan di Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud dalam Pasal 42, Pasal 43, Pasal 44, dan Pasal 45 diatur dengan Peraturan Presiden.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PENDIDIKAN, PELATIHAN, DAN PENYULUHAN</heading>
+          <article eId="pasal_47">
+            <num>47</num>
+            <content><p>Pemerintah menyelenggarakan pendidikan, pelatihan, dan penyuluhan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil untuk meningkatkan pengembangan sumber daya manusia di bidang Pengelolaan Wilayah Pesisir dan Pulau- Pulau Kecil, sesuai dengan peraturan perundang- undangan.</p></content>
+          </article>
+          <article eId="pasal_48">
+            <num>48</num>
+            <content><p>Pemerintah dalam menyelenggarakan pendidikan, pelatihan, dan penyuluhan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dapat bekerja sama dengan berbagai pihak, baik di tingkat nasional, maupun di tingkat internasional.</p></content>
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+            <content><p>Ketentuan lebih lanjut mengenai penyelenggaraan pendidikan, pelatihan, dan penyuluhan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud dalam Pasal 47 dan Pasal 48 diatur dengan Peraturan Presiden.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KEWENANGAN</heading>
+          <article eId="pasal_50">
+            <num>50</num>
+              <paragraph eId="pasal_50__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri berwenang memberikan HP-3 di wilayah Perairan Pesisir lintas provinsi dan Kawasan Strategis Nasional Tertentu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_2">
+                <num>(2)</num>
+                <content><p>Gubernur berwenang memberikan HP-3 di wilayah Perairan Pesisir sampai dengan 12 (dua belas) mil laut diukur dari garis pantai ke arah laut lepas dan/atau ke arah perairan kepulauan, dan Perairan Pesisir lintas kabupaten/kota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_3">
+                <num>(3)</num>
+                <content><p>Bupati/walikota berwenang memberikan HP-3 di wilayah Perairan Pesisir 1/3 (satu pertiga) dari wilayah kewenangan provinsi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_51">
+            <num>51</num>
+              <paragraph eId="pasal_51__ayat_1">
+                <num>(1)</num>
+                <intro><p>Menteri berwenang menetapkan:</p></intro>
+                  <point eId="pasal_51__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>HP-3 di Kawasan Strategis Nasional Tertentu,</p></content>
+                  </point>
+                  <point eId="pasal_51__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Ijin pemanfaatan Pulau-Pulau Kecil yang menimbulkan dampak besar terhadap perubahan lingkungan, dan</p></content>
+                  </point>
+                  <point eId="pasal_51__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Perubahan status Zona inti pada Kawasan Konservasi Perairan nasional.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_2">
+                <num>(2)</num>
+                <content><p>Penetapan HP-3 sebagaimana dimaksud pada ayat (1), dilakukan setelah memperhatikan pertimbangan DPR.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_3">
+                <num>(3)</num>
+                <content><p>Tata cara penetapan sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_52">
+            <num>52</num>
+              <paragraph eId="pasal_52__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil dilaksanakan oleh Pemerintah dan Pemerintah Daerah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_2">
+                <num>(2)</num>
+                <content><p>Untuk meningkatkan efektivitas Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil, Pemerintah dapat melakukan pendampingan terhadap Pemerintah Daerah dalam merumuskan dan melaksanakan Rencana Aksi Pengelolaan Wilayah Pesisir dan Pulau- Pulau Kecil.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam upaya mendorong percepatan pelaksanaan otonomi daerah di Wilayah Pesisir dan Pulau-Pulau Kecil, Pemerintah dapat membentuk unit pelaksana teknis pengelola Wilayah Pesisir dan Pulau-Pulau Kecil sesuai dengan kebutuhan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_53">
+            <num>53</num>
+              <paragraph eId="pasal_53__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil pada tingkat nasional dilaksanakan secara terpadu di bawah koordinasi Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_53__ayat_2">
+                <num>(2)</num>
+                <intro><p>Jenis kegiatan yang dikoordinasikan sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                  <point eId="pasal_53__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>penilaian setiap usulan rencana kegiatan tiap-tiap sektor sesuai dengan perencanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil terpadu;</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>perencanaan sektor, daerah, dan dunia usaha yang bersifat lintas provinsi dan Kawasan Strategis Nasional Tertentu;</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>program akreditasi nasional;</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>rekomendasi izin kegiatan sesuai dengan kewenangan tiap-tiap instansi Pemerintah; serta</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>penyediaan data dan informasi bagi Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang bersifat lintas provinsi dan Kawasan tertentu yang bertujuan strategis.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_53__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaksanaan kegiatan sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_54">
+            <num>54</num>
+              <paragraph eId="pasal_54__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil pada tingkat provinsi dilaksanakan secara terpadu yang dikoordinasikan oleh dinas yang membidangi Kelautan dan Perikanan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_54__ayat_2">
+                <num>(2)</num>
+                <intro><p>Jenis kegiatan yang dikoordinasikan sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                  <point eId="pasal_54__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>penilaian setiap usulan rencana kegiatan tiap-tiap dinas otonom atau badan sesuai dengan perencanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil terpadu Provinsi;</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>perencanaan tiap-tiap instansi daerah, antarkabupaten/kota, dan dunia usaha;</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>program akreditasi skala provinsi;</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>rekomendasi izin kegiatan sesuai dengan kewenangan instansi vertikal di daerah, dinas otonom, atau badan daerah;</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>penyediaan data dan informasi bagi Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil di provinsi.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_54__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaksanaan kegiatan sebagaimana dimaksud pada ayat (2) diatur oleh gubernur.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_55">
+            <num>55</num>
+              <paragraph eId="pasal_55__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil pada tingkat kabupaten/kota dilaksanakan secara terpadu yang dikoordinasi oleh dinas yang membidangi kelautan dan perikanan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_2">
+                <num>(2)</num>
+                <intro><p>Jenis kegiatan yang dikoordinasikan sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                  <point eId="pasal_55__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>penilaian setiap usulan rencana kegiatan tiap-tiap pemangku kepentingan sesuai dengan perencanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil terpadu;</p></content>
+                  </point>
+                  <point eId="pasal_55__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>perencanaan antarinstansi, dunia usaha, dan masyarakat;</p></content>
+                  </point>
+                  <point eId="pasal_55__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>program akreditasi skala kabupaten/kota;</p></content>
+                  </point>
+                  <point eId="pasal_55__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>rekomendasi izin kegiatan sesuai dengan kewenangan tiap-tiap dinas otonom atau badan daerah; serta</p></content>
+                  </point>
+                  <point eId="pasal_55__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>penyediaan data dan informasi bagi Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil skala kabupaten/kota.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaksanaan kegiatan sebagaimana dimaksud pada ayat (2) diatur oleh bupati/walikota.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>MITIGASI BENCANA</heading>
+          <article eId="pasal_56">
+            <num>56</num>
+            <content><p>Dalam menyusun rencana pengelolaan dan pemanfaatan Wilayah Pesisir dan Pulau–Pulau Kecil terpadu, Pemerintah dan/atau Pemerintah Daerah wajib memasukkan dan melaksanakan bagian yang memuat mitigasi bencana di Wilayah Pesisir dan Pulau-Pulau Kecil sesuai dengan jenis, tingkat, dan wilayahnya.</p></content>
+          </article>
+          <article eId="pasal_57">
+            <num>57</num>
+            <content><p>Mitigasi bencana Wilayah Pesisir dan Pulau-Pulau Kecil dilakukan dengan melibatkan tanggung jawab Pemerintah, Pemerintah Daerah, dan/atau Masyarakat.</p></content>
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+            <intro><p>Penyelenggaraan mitigasi bencana Wilayah Pesisir sebagaimana dimaksud dalam Pasal 57 dilaksanakan dengan memperhatikan aspek:</p></intro>
+              <point eId="pasal_58__huruf_a">
+                <num>a.</num>
+                <content><p>sosial, ekonomi, dan budaya Masyarakat;</p></content>
+              </point>
+              <point eId="pasal_58__huruf_b">
+                <num>b.</num>
+                <content><p>kelestarian lingkungan hidup;</p></content>
+              </point>
+              <point eId="pasal_58__huruf_c">
+                <num>c.</num>
+                <content><p>kemanfaatan dan efektivitas; serta</p></content>
+              </point>
+              <point eId="pasal_58__huruf_d">
+                <num>d.</num>
+                <content><p>lingkup luas wilayah.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+              <paragraph eId="pasal_59__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang yang berada di Wilayah Pesisir dan Pulau-Pulau Kecil wajib melaksanakan mitigasi bencana terhadap kegiatan yang berpotensi mengakibatkan kerusakan Wilayah Pesisir dan Pulau- Pulau Kecil.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_2">
+                <num>(2)</num>
+                <content><p>Mitigasi bencana sebagaimana dimaksud pada ayat (1) dilakukan melalui kegiatan struktur/fisik dan/atau nonstruktur/nonfisik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_3">
+                <num>(3)</num>
+                <content><p>Pilihan kegiatan sebagaimana dimaksud pada ayat (1) ditentukan oleh instansi yang berwenang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai mitigasi bencana dan kerusakan Wilayah Pesisir dan Pulau-Pulau Kecil diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>HAK, KEWAJIBAN, DAN PERAN SERTA MASYARAKAT</heading>
+          <article eId="pasal_60">
+            <num>60</num>
+              <paragraph eId="pasal_60__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil, Masyarakat mempunyai hak untuk:</p></intro>
+                  <point eId="pasal_60__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>memperoleh akses terhadap perairan yang telah ditetapkan HP-3;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>memperoleh kompensasi karena hilangnya akses terhadap Sumber Daya Pesisir dan Pulau-Pulau Kecil yang menjadi lapangan kerja untuk memenuhi kebutuhan akibat pemberian HP-3 sesuai dengan peraturan perundang-undangan;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan kegiatan pengelolaan Sumber Daya Pesisir dan Pulau-Pulau Kecil berdasarkan hukum adat yang berlaku dan tidak bertentangan dengan peraturan perundang-undangan;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>memperoleh manfaat atas pelaksanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>memperoleh informasi berkenaan dengan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>mengajukan laporan dan pengaduan kepada pihak yang berwenang atas kerugian yang menimpa dirinya yang berkaitan dengan pelaksanaan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>menyatakan keberatan terhadap rencana pengelolaan yang sudah diumumkan dalam jangka waktu tertentu;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>melaporkan kepada penegak hukum atas pencemaran dan/atau perusakan Wilayah Pesisir dan Pulau-Pulau Kecil yang merugikan kehidupannya;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>mengajukan gugatan kepada pengadilan terhadap berbagai masalah Wilayah Pesisir dan Pulau-Pulau Kecil yang merugikan kehidupannya; serta</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_1__huruf_j">
+                    <num>j.</num>
+                    <content><p>memperoleh ganti kerugian.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_2">
+                <num>(2)</num>
+                <intro><p>Masyarakat dalam Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil berkewajiban:</p></intro>
+                  <point eId="pasal_60__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>memberikan informasi berkenaan dengan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>menjaga, melindungi, dan memelihara kelestarian Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>menyampaikan laporan terjadinya bahaya, pencemaran, dan/atau perusakan lingkungan di Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>memantau pelaksanaan rencana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>melaksanakan program Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang disepakati di tingkat desa.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+              <paragraph eId="pasal_61__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah mengakui, menghormati, dan melindungi hak-hak Masyarakat Adat, Masyarakat Tradisional, dan Kearifan Lokal atas Wilayah Pesisir dan Pulau- Pulau Kecil yang telah dimanfaatkan secara turun- temurun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_61__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengakuan hak-hak Masyarakat Adat, Masyarakat Tradisional, dan Kearifan Lokal sebagaimana dimaksud pada ayat (1) dijadikan acuan dalam Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang berkelanjutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_62">
+            <num>62</num>
+              <paragraph eId="pasal_62__ayat_1">
+                <num>(1)</num>
+                <content><p>Masyarakat mempunyai kesempatan yang sama untuk berperan serta dalam perencanaan, pelaksanaan, dan pengawasan terhadap Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_62__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai peran serta masyarakat dalam Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dalam Peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>PEMBERDAYAAN MASYARAKAT</heading>
+          <article eId="pasal_63">
+            <num>63</num>
+              <paragraph eId="pasal_63__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah dan Pemerintah Daerah berkewajiban memberdayakan Masyarakat dalam meningkatkan kesejahteraannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah wajib mendorong kegiatan usaha Masyarakat melalui berbagai kegiatan di bidang Pengelolaan Sumber Daya Pesisir dan Pulau-Pulau Kecil yang berdaya guna dan berhasil guna.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_3">
+                <num>(3)</num>
+                <intro><p>Dalam upaya pemberdayaan Masyarakat, Pemerintah dan Pemerintah Daerah mewujudkan, menumbuhkan, dan meningkatkan kesadaran dan tanggung jawab dalam:</p></intro>
+                  <point eId="pasal_63__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>pengambilan keputusan;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>pelaksanaan pengelolaan;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>kemitraan antara masyarakat, dunia usaha, dan Pemerintah/Pemerintah Daerah;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>pengembangan dan penerapan kebijakan nasional di bidang lingkungan hidup;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>pengembangan dan penerapan upaya preventif dan proaktif untuk mencegah penurunan daya dukung dan daya tampung Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_3__huruf_f">
+                    <num>f.</num>
+                    <content><p>pemanfaatan dan pengembangan teknologi yang ramah lingkungan;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_3__huruf_g">
+                    <num>g.</num>
+                    <content><p>penyediaan dan penyebarluasan informasi lingkungan; serta</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_3__huruf_h">
+                    <num>h.</num>
+                    <content><p>pemberian penghargaan kepada orang yang berjasa di bidang Pengelolaan Wilayah Pesisir dan Pulau- Pulau Kecil.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai pedoman Pemberdayaan Masyarakat diatur lebih lanjut dengan Peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_13">
+        <num>XIII</num>
+        <heading>PENYELESAIAN SENGKETA</heading>
+          <article eId="pasal_64">
+            <num>64</num>
+              <paragraph eId="pasal_64__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelesaian sengketa dalam Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil ditempuh melalui pengadilan dan/atau di luar pengadilan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_64__ayat_2">
+                <num>(2)</num>
+                <content><p>Penyelesaian sengketa di luar pengadilan sebagaimana dimaksud pada ayat (1) tidak berlaku terhadap tindak pidana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana dimaksud dalam Undang-Undang ini.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_65">
+            <num>65</num>
+              <paragraph eId="pasal_65__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelesaian sengketa di luar pengadilan dilakukan para pihak sesuai dengan peraturan perundang- undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_2">
+                <num>(2)</num>
+                <content><p>Penyelesaian sengketa di luar pengadilan diselenggarakan untuk mencapai kesepakatan mengenai bentuk dan besarnya ganti kerugian dan/atau mengenai tindakan tertentu guna mencegah terjadinya atau terulangnya dampak besar sebagai akibat tidak dilaksanakannya Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam penyelesaian sengketa di luar pengadilan sebagaimana dimaksud pada ayat (1) dapat digunakan jasa pihak ketiga, baik yang memiliki kewenangan mengambil keputusan maupun yang tidak memiliki kewenangan mengambil keputusan untuk membantu penyelesaian sengketa.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_4">
+                <num>(4)</num>
+                <content><p>Hasil kesepakatan penyelesaian sengketa di luar pengadilan harus dinyatakan secara tertulis dan bersifat mengikat para pihak.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_66">
+            <num>66</num>
+              <paragraph eId="pasal_66__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang dan/atau penanggung jawab kegiatan yang melawan hukum dan mengakibatkan kerusakan Wilayah Pesisir dan Pulau-Pulau Kecil sebagaimana diatur dalam Undang-Undang ini wajib membayar ganti kerugian kepada negara dan/atau melakukan tindakan tertentu berdasarkan putusan pengadilan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_2">
+                <num>(2)</num>
+                <content><p>Tindakan tertentu sebagaimana dimaksud pada ayat (1) berupa kewajiban untuk melakukan rehabilitasi dan/atau pemulihan kondisi Wilayah Pesisir dan Pulau-Pulau Kecil.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaku perusakan sebagaimana dimaksud pada ayat (1) wajib membayar biaya rehabilitasi lingkungan Pesisir dan Pulau-Pulau Kecil kepada negara.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_4">
+                <num>(4)</num>
+                <content><p>Selain pembebanan untuk melakukan tindakan tertentu sebagaimana dimaksud pada ayat (2), hakim dapat menetapkan sita jaminan dan jumlah uang paksa (dwangsom) atas setiap hari keterlambatan pembayaran.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_67">
+            <num>67</num>
+              <paragraph eId="pasal_67__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Orang dan/atau penanggung jawab kegiatan yang mengelola Wilayah Pesisir Pesisir dan Pulau- Pulau Kecil bertanggung jawab secara langsung dan seketika pada saat terjadinya pencemaran dan/atau perusakan dengan kewajiban mengganti kerugian sebagai akibat tindakannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pengelola Wilayah Pesisir dan Pulau-Pulau Kecil dapat dibebaskan dari kewajiban membayar ganti kerugian sebagaimana dimaksud pada ayat (1) jika yang bersangkutan dapat membuktikan bahwa pencemaran dan/atau perusakan lingkungan Wilayah Pesisir dan Pulau-Pulau Kecil disebabkan oleh salah satu alasan berikut:</p></intro>
+                  <point eId="pasal_67__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>bencana alam;</p></content>
+                  </point>
+                  <point eId="pasal_67__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>peperangan;</p></content>
+                  </point>
+                  <point eId="pasal_67__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>keadaan terpaksa di luar kemampuan manusia (force majeure); atau</p></content>
+                  </point>
+                  <point eId="pasal_67__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>tindakan pihak ketiga.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal terjadi kerugian yang disebabkan kesengajaan oleh pihak ketiga sebagaimana dimaksud pada ayat (2) huruf d, pihak ketiga bertanggung jawab membayar ganti kerugian.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_14">
+        <num>XIV</num>
+        <heading>GUGATAN PERWAKILAN</heading>
+          <article eId="pasal_68">
+            <num>68</num>
+            <content><p>Masyarakat berhak mengajukan gugatan perwakilan ke pengadilan sesuai dengan peraturan perundang-undangan.</p></content>
+          </article>
+          <article eId="pasal_69">
+            <num>69</num>
+              <paragraph eId="pasal_69__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam rangka pelaksanaan tanggung jawab Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil, organisasi kemasyarakatan berhak mengajukan gugatan untuk kepentingan pelestarian fungsi lingkungan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_69__ayat_2">
+                <num>(2)</num>
+                <intro><p>Organisasi kemasyarakatan sebagaimana dimaksud pada ayat (1) harus memenuhi persyaratan berikut:</p></intro>
+                  <point eId="pasal_69__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>merupakan organisasi resmi di wilayah tersebut atau organisasi nasional;</p></content>
+                  </point>
+                  <point eId="pasal_69__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>berbentuk badan hukum;</p></content>
+                  </point>
+                  <point eId="pasal_69__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>memiliki anggaran dasar yang dengan tegas menyebutkan tujuan didirikannya organisasi untuk kepentingan pelestarian lingkungan; dan</p></content>
+                  </point>
+                  <point eId="pasal_69__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>telah melaksanakan kegiatan sesuai dengan anggaran dasar dan anggaran rumah tangganya.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_69__ayat_3">
+                <num>(3)</num>
+                <content><p>Hak mengajukan gugatan sebagaimana dimaksud pada ayat (1) terbatas pada tuntutan untuk melakukan tindakan tertentu tanpa adanya tuntutan ganti kerugian kecuali penggantian biaya atau pengeluaran yang nyata- nyata dibayarkan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_15">
+        <num>XV</num>
+        <heading>PENYIDIKAN</heading>
+          <article eId="pasal_70">
+            <num>70</num>
+              <paragraph eId="pasal_70__ayat_1">
+                <num>(1)</num>
+                <content><p>Selain pejabat penyidik Kepolisian Negara Republik Indonesia, pejabat pegawai negeri sipil tertentu yang lingkup tugas dan tanggung jawabnya di bidang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil, dapat diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Kitab Undang-Undang Hukum Acara Pidana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_2">
+                <num>(2)</num>
+                <content><p>Pejabat pegawai negeri sipil tertentu sebagaimana dimaksud pada ayat (1) adalah penyidik pegawai negeri sipil.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_3">
+                <num>(3)</num>
+                <intro><p>Penyidik pegawai negeri sipil sebagaimana dimaksud pada ayat (2) berwenang:</p></intro>
+                  <point eId="pasal_70__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>menerima laporan atau pengaduan dari seseorang tentang adanya tindak pidana bidang kelautan dan perikanan di Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan pemeriksaan atas kebenaran laporan atau keterangan tentang adanya tindak pidana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>memanggil orang untuk didengar dan diperiksa sebagai saksi atau tersangka dalam perkara tindak pidana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan pemeriksaan prasarana Wilayah Pesisir dan menghentikan peralatan yang diduga digunakan untuk melakukan tindak pidana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>menyegel dan/atau menyita bahan dan alat-alat kegiatan yang digunakan untuk melakukan tindak pidana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil sebagai alat bukti;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_f">
+                    <num>f.</num>
+                    <content><p>mendatangkan Orang ahli yang diperlukan dalam hubungannya dengan tindak pidana Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_g">
+                    <num>g.</num>
+                    <content><p>membuat dan menandatangani berita acara pemeriksaan;</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_h">
+                    <num>h.</num>
+                    <content><p>melakukan penghentian penyidikan; dan</p></content>
+                  </point>
+                  <point eId="pasal_70__ayat_3__huruf_i">
+                    <num>i.</num>
+                    <content><p>mengadakan tindakan lain menurut hukum.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_4">
+                <num>(4)</num>
+                <content><p>Penyidik pejabat pegawai negeri sipil memberitahukan dimulainya penyidikan kepada penyidik pejabat Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_5">
+                <num>(5)</num>
+                <content><p>Penyidik pejabat pegawai negeri sipil menyampaikan hasil penyidikan kepada penuntut umum melalui penyidik pejabat Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_16">
+        <num>XVI</num>
+        <heading>SANKSI ADMINISTRATIF</heading>
+          <article eId="pasal_71">
+            <num>71</num>
+              <paragraph eId="pasal_71__ayat_1">
+                <num>(1)</num>
+                <content><p>Pelanggaran terhadap persyaratan sebagaimana tercantum di dalam HP-3 dikenakan sanksi administratif.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_71__ayat_2">
+                <num>(2)</num>
+                <content><p>Sanksi administratif sebagaimana yang dimaksud pada ayat (1) berupa peringatan, pembekuan sementara, denda administratif, dan/atau pencabutan HP-3.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_71__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai denda administratif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_72">
+            <num>72</num>
+              <paragraph eId="pasal_72__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal program Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil tidak dilaksanakan sesuai dengan dokumen perencanaan, Pemerintah dapat menghentikan dan/atau menarik kembali insentif yang telah diberikan kepada Pemerintah Daerah, pengusaha, dan Masyarakat yang telah memperoleh Akreditasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_72__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah Daerah, pengusaha, dan Masyarakat wajib memperbaiki ketidaksesuaian antara program pengelolaan dan dokumen perencanaan sebagaimana dimaksud pada ayat (1).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_72__ayat_3">
+                <num>(3)</num>
+                <intro><p>Dalam hal Pemerintah Daerah, pengusaha, dan Masyarakat tidak melakukan perbaikan terhadap ketidaksesuaian pada ayat (2), Pemerintah dapat melakukan tindakan:</p></intro>
+                  <point eId="pasal_72__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>pembekuan sementara bantuan melalui Akreditasi; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_72__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>pencabutan tetap Akreditasi program.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_17">
+        <num>XVII</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_73">
+            <num>73</num>
+              <paragraph eId="pasal_73__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dipidana dengan pidana penjara paling singkat 2 (dua) tahun dan paling lama 10 (sepuluh) tahun dan pidana denda paling sedikit Rp2.000.000.000,00 (dua miliar rupiah) dan paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah) setiap Orang yang dengan sengaja:</p></intro>
+                  <point eId="pasal_73__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan kegiatan menambang terumbu karang, mengambil terumbu karang di Kawasan konservasi, menggunakan bahan peledak dan bahan beracun, dan/atau cara lain yang mengakibatkan rusaknya ekosistem terumbu karang sebagaimana dimaksud dalam Pasal 35 huruf a, huruf b, huruf c, dan huruf d;</p></content>
+                  </point>
+                  <point eId="pasal_73__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>menggunakan cara dan metode yang merusak Ekosistem mangrove, melakukan konversi Ekosistem mangrove, menebang mangrove untuk kegiatan industri dan permukiman, dan/atau kegiatan lain sebagaimana dimaksud dalam Pasal 35 huruf e, huruf f, dan huruf g;</p></content>
+                  </point>
+                  <point eId="pasal_73__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>menggunakan cara dan metode yang merusak padang lamun sebagaimana dimaksud dalam Pasal 35 huruf h;</p></content>
+                  </point>
+                  <point eId="pasal_73__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan penambangan pasir sebagaimana dimaksud dalam Pasal 35 huruf i.</p></content>
+                  </point>
+                  <point eId="pasal_73__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan penambangan minyak dan gas sebagaimana dimaksud dalam Pasal 35 huruf j.</p></content>
+                  </point>
+                  <point eId="pasal_73__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>melakukan penambangan mineral sebagaimana dimaksud dalam Pasal 35 huruf k.</p></content>
+                  </point>
+                  <point eId="pasal_73__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>melakukan pembangunan fisik yang menimbulkan kerusakan sebagaimana dimaksud dalam Pasal 35 huruf l.</p></content>
+                  </point>
+                  <point eId="pasal_73__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>tidak melaksanakan mitigasi bencana di Wilayah Pesisir dan Pulau-Pulau Kecil yang diakibatkan oleh alam dan/atau Orang sehingga mengakibatkan timbulnya bencana atau dengan sengaja melakukan kegiatan yang dapat mengakibatkan terjadinya kerentanan bencana sebagaimana dimaksud dalam Pasal 59 ayat (1).</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_73__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal terjadi kerusakan sebagaimana dimaksud pada ayat (1) karena kelalaian, dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_74">
+            <num>74</num>
+            <intro><p>Dipidana dengan pidana kurungan paling lama 6 (enam) bulan atau denda paling banyak Rp300.000.000,00 (tiga ratus juta rupiah) setiap Orang yang karena kelalaiannya:</p></intro>
+              <point eId="pasal_74__huruf_a">
+                <num>a.</num>
+                <content><p>tidak melaksanakan kewajiban rehabilitasi sebagaimana dimaksud dalam Pasal 32 ayat (1); dan/atau</p></content>
+              </point>
+              <point eId="pasal_74__huruf_b">
+                <num>b.</num>
+                <content><p>tidak melaksanakan kewajiban reklamasi sebagaimana dimaksud dalam Pasal 34 ayat (2).</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_75">
+            <num>75</num>
+            <intro><p>Dipidana dengan pidana kurungan paling lama 6 (enam) bulan atau denda paling banyak Rp300.000.000,00 (tiga ratus juta rupiah) setiap Orang yang karena kelalaiannya:</p></intro>
+              <point eId="pasal_75__huruf_a">
+                <num>a.</num>
+                <content><p>melakukan kegiatan usaha di Wilayah Pesisir tanpa hak sebagaimana dimaksud dalam Pasal 21ayat (1); dan/atau</p></content>
+              </point>
+              <point eId="pasal_75__huruf_b">
+                <num>b.</num>
+                <content><p>tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 21 ayat (4).</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_18">
+        <num>XVIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_76">
+            <num>76</num>
+            <content><p>Program Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil serta lembaga/instansi yang telah ditunjuk untuk melaksanakannya masih tetap berlaku dan menjalankan kewenangannya sepanjang tidak bertentangan dengan Undang-Undang ini.</p></content>
+          </article>
+          <article eId="pasal_77">
+            <num>77</num>
+            <content><p>Setiap instansi yang terkait dengan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil menjalankan tugas pokok dan fungsi serta kewenangannya secara terpadu sesuai dengan Undang-Undang ini.</p></content>
+          </article>
+          <article eId="pasal_78">
+            <num>78</num>
+            <content><p>Semua peraturan perundang-undangan yang terkait dengan Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil yang telah ada, sepanjang tidak bertentangan dengan Undang- Undang ini, tetap berlaku sampai dengan dikeluarkannya peraturan pelaksanaan yang baru berdasarkan Undang- Undang ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_19">
+        <num>XIX</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_79">
+            <num>79</num>
+            <intro><p>Peraturan pelaksanaan Undang-Undang ini harus sudah ditetapkan paling lambat :</p></intro>
+              <point eId="pasal_79__huruf_a">
+                <num>a.</num>
+                <content><p>Peraturan Pemerintah yang diamanatkan Undang-Undang ini diselesaikan paling lambat 12 (dua belas) bulan terhitung sejak Undang-Undang ini diberlakukan.</p></content>
+              </point>
+              <point eId="pasal_79__huruf_b">
+                <num>b.</num>
+                <content><p>Peraturan Presiden yang diamanatkan Undang-Undang ini diselesaikan paling lambat 6 (enam) bulan terhitung sejak Undang-Undang ini diberlakukan.</p></content>
+              </point>
+              <point eId="pasal_79__huruf_c">
+                <num>c.</num>
+                <content><p>Peraturan Menteri yang diamanatkan Undang-Undang ini diselesaikan paling lambat 3 (tiga) bulan terhitung sejak Undang-Undang ini diberlakukan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_80">
+            <num>80</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

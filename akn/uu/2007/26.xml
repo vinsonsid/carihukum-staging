@@ -1,0 +1,2450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2007/26/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2007/26"/>
+          <FRBRdate date="2007-04-26" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2007/26/ind@2007-04-26/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2007/26/ind@2007-04-26"/>
+          <FRBRdate date="2007-04-26" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2007/26/ind@2007-04-26/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2007/26/ind@2007-04-26.akn"/>
+          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 26 Tahun 2007 tentang Penataan Ruang</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Ruang adalah wadah yang meliputi ruang darat, ruang laut, dan ruang udara, termasuk ruang di dalam bumi sebagai satu kesatuan wilayah, tempat manusia dan makhluk lain hidup, melakukan kegiatan, dan memelihara kelangsungan hidupnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Tata ruang adalah wujud struktur ruang dan pola ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Struktur ruang adalah susunan pusat-pusat permukiman dan sistem jaringan prasarana dan sarana yang berfungsi sebagai pendukung kegiatan sosial ekonomi masyarakat yang secara hierarkis memiliki hubungan fungsional.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Pola ruang adalah distribusi peruntukan ruang dalam suatu wilayah yang meliputi peruntukan ruang untuk fungsi lindung dan peruntukan ruang untuk fungsi budi daya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Penataan ruang adalah suatu sistem proses perencanaan tata ruang, pemanfaatan ruang, dan pengendalian pemanfaatan ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Penyelenggaraan penataan ruang adalah kegiatan yang meliputi pengaturan, pembinaan, pelaksanaan, dan pengawasan penataan ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Pemerintah Pusat, selanjutnya disebut Pemerintah, adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Pemerintah daerah adalah Gubernur, Bupati, atau Walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Pengaturan penataan ruang adalah upaya pembentukan landasan hukum bagi Pemerintah, pemerintah daerah, dan masyarakat dalam penataan ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Pembinaan penataan ruang adalah upaya untuk meningkatkan kinerja penataan ruang yang diselenggarakan oleh Pemerintah, pemerintah daerah, dan masyarakat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Pelaksanaan penataan ruang adalah upaya pencapaian tujuan penataan ruang melalui pelaksanaan perencanaan tata ruang, pemanfaatan ruang, dan pengendalian pemanfaatan ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Pengawasan penataan ruang adalah upaya agar penyelenggaraan penataan ruang dapat diwujudkan sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Perencanaan tata ruang adalah suatu proses untuk menentukan struktur ruang dan pola ruang yang meliputi penyusunan dan penetapan rencana tata ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Pemanfaatan ruang adalah upaya untuk mewujudkan struktur ruang dan pola ruang sesuai dengan rencana tata ruang melalui penyusunan dan pelaksanaan program beserta pembiayaannya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Pengendalian pemanfaatan ruang adalah upaya untuk mewujudkan tertib tata ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Rencana tata ruang adalah hasil perencanaan tata ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Wilayah adalah ruang yang merupakan kesatuan geografis beserta segenap unsur terkait yang batas dan sistemnya ditentukan berdasarkan aspek administratif dan/atau aspek fungsional.</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Sistem wilayah adalah struktur ruang dan pola ruang yang mempunyai jangkauan pelayanan pada tingkat wilayah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Sistem internal perkotaan adalah struktur ruang dan pola ruang yang mempunyai jangkauan pelayanan pada tingkat internal perkotaan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Kawasan adalah wilayah yang memiliki fungsi utama lindung atau budi daya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_21">
+                <num>21.</num>
+                <content><p>Kawasan lindung adalah wilayah yang ditetapkan dengan fungsi utama melindungi kelestarian lingkungan hidup yang mencakup sumber daya alam dan sumber daya buatan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_22">
+                <num>22.</num>
+                <content><p>Kawasan budi daya adalah wilayah yang ditetapkan dengan fungsi utama untuk dibudidayakan atas dasar kondisi dan potensi sumber daya alam, sumber daya manusia, dan sumber daya buatan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_23">
+                <num>23.</num>
+                <content><p>Kawasan perdesaan adalah wilayah yang mempunyai kegiatan utama pertanian, termasuk pengelolaan sumber daya alam dengan susunan fungsi kawasan sebagai tempat permukiman perdesaan, pelayanan jasa pemerintahan, pelayanan sosial, dan kegiatan ekonomi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_24">
+                <num>24.</num>
+                <content><p>Kawasan agropolitan adalah kawasan yang terdiri atas satu atau lebih pusat kegiatan pada wilayah perdesaan sebagai sistem produksi pertanian dan pengelolaan sumber daya alam tertentu yang ditunjukkan oleh adanya keterkaitan fungsional dan hierarki keruangan satuan sistem permukiman dan sistem agrobisnis.</p></content>
+              </point>
+              <point eId="pasal_1__angka_25">
+                <num>25.</num>
+                <content><p>Kawasan perkotaan adalah wilayah yang mempunyai kegiatan utama bukan pertanian dengan susunan fungsi kawasan sebagai tempat permukiman perkotaan, pemusatan dan distribusi pelayanan jasa pemerintahan, pelayanan sosial, dan kegiatan ekonomi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_26">
+                <num>26.</num>
+                <content><p>Kawasan metropolitan adalah kawasan perkotaan yang terdiri atas sebuah kawasan perkotaan yang berdiri sendiri atau kawasan perkotaan inti dengan kawasan perkotaan di sekitarnya yang saling memiliki keterkaitan fungsional yang dihubungkan dengan sistem jaringan prasarana wilayah yang terintegrasi dengan jumlah penduduk secara keseluruhan sekurang-kurangnya 1.000.000 (satu juta) jiwa.</p></content>
+              </point>
+              <point eId="pasal_1__angka_27">
+                <num>27.</num>
+                <content><p>Kawasan megapolitan adalah kawasan yang terbentuk dari 2 (dua) atau lebih kawasan metropolitan yang memiliki hubungan fungsional dan membentuk sebuah sistem.</p></content>
+              </point>
+              <point eId="pasal_1__angka_28">
+                <num>28.</num>
+                <content><p>Kawasan strategis nasional adalah wilayah yang penataan ruangnya diprioritaskan karena mempunyai pengaruh sangat penting secara nasional terhadap kedaulatan negara, pertahanan dan keamanan negara, ekonomi, sosial, budaya, dan/atau lingkungan, termasuk wilayah yang telah ditetapkan sebagai warisan dunia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_29">
+                <num>29.</num>
+                <content><p>Kawasan strategis provinsi adalah wilayah yang penataan ruangnya diprioritaskan karena mempunyai pengaruh sangat penting dalam lingkup provinsi terhadap ekonomi, sosial, budaya, dan/atau lingkungan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_30">
+                <num>30.</num>
+                <content><p>Kawasan strategis kabupaten/kota adalah wilayah yang penataan ruangnya diprioritaskan karena mempunyai pengaruh sangat penting dalam lingkup kabupaten/kota terhadap ekonomi, sosial, budaya, dan/atau lingkungan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_31">
+                <num>31.</num>
+                <content><p>Ruang terbuka hijau adalah area memanjang/jalur dan/atau mengelompok, yang penggunaannya lebih bersifat terbuka, tempat tumbuh tanaman, baik yang tumbuh secara alamiah maupun yang sengaja ditanam.</p></content>
+              </point>
+              <point eId="pasal_1__angka_32">
+                <num>32.</num>
+                <content><p>Izin pemanfaatan ruang adalah izin yang dipersyaratkan dalam kegiatan pemanfaatan ruang sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_33">
+                <num>33.</num>
+                <content><p>Orang adalah orang perseorangan dan/atau korporasi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_34">
+                <num>34.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan dalam bidang penataan ruang.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS DAN TUJUAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>Dalam kerangka Negara Kesatuan Republik Indonesia, penataan ruang diselenggarakan berdasarkan asas:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>keterpaduan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>keserasian, keselarasan, dan keseimbangan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_c">
+                <num>c.</num>
+                <content><p>keberlanjutan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_d">
+                <num>d.</num>
+                <content><p>keberdayagunaan dan keberhasilgunaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_e">
+                <num>e.</num>
+                <content><p>keterbukaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_f">
+                <num>f.</num>
+                <content><p>kebersamaan dan kemitraan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_g">
+                <num>g.</num>
+                <content><p>pelindungan kepentingan umum;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_h">
+                <num>h.</num>
+                <content><p>kepastian hukum dan keadilan; dan</p></content>
+              </point>
+              <point eId="pasal_2__huruf_i">
+                <num>i.</num>
+                <content><p>akuntabilitas.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Penyelenggaraan penataan ruang bertujuan untuk mewujudkan ruang wilayah nasional yang aman, nyaman, produktif, dan berkelanjutan berlandaskan Wawasan Nusantara dan Ketahanan Nasional dengan:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>terwujudnya keharmonisan antara lingkungan alam dan lingkungan buatan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>terwujudnya keterpaduan dalam penggunaan sumber daya alam dan sumber daya buatan dengan memperhatikan sumber daya manusia; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>terwujudnya pelindungan fungsi ruang dan pencegahan dampak negatif terhadap lingkungan akibat pemanfaatan ruang.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>KLASIFIKASI PENATAAN RUANG</heading>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Penataan ruang diklasifikasikan berdasarkan sistem, fungsi utama kawasan, wilayah administratif, kegiatan kawasan, dan nilai strategis kawasan.</p></content>
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Penataan ruang berdasarkan sistem terdiri atas sistem wilayah dan sistem internal perkotaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Penataan ruang berdasarkan fungsi utama kawasan terdiri atas kawasan lindung dan kawasan budi daya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_3">
+                <num>(3)</num>
+                <content><p>Penataan ruang berdasarkan wilayah administratif terdiri atas penataan ruang wilayah nasional, penataan ruang wilayah provinsi, dan penataan ruang wilayah kabupaten/kota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_4">
+                <num>(4)</num>
+                <content><p>Penataan ruang berdasarkan kegiatan kawasan terdiri atas penataan ruang kawasan perkotaan dan penataan ruang kawasan perdesaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_5">
+                <num>(5)</num>
+                <content><p>Penataan ruang berdasarkan nilai strategis kawasan terdiri atas penataan ruang kawasan strategis nasional, penataan ruang kawasan strategis provinsi, dan penataan ruang kawasan strategis kabupaten/kota.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <intro><p>Penataan ruang diselenggarakan dengan memperhatikan:</p></intro>
+                  <point eId="pasal_6__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>kondisi fisik wilayah Negara Kesatuan Republik Indonesia yang rentan terhadap bencana;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>potensi sumber daya alam, sumber daya manusia, dan sumber daya buatan; kondisi ekonomi, sosial, budaya, politik, hukum, pertahanan keamanan, lingkungan hidup, serta ilmu pengetahuan dan teknologi sebagai satu kesatuan; dan</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>geostrategi, geopolitik, dan geoekonomi.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Penataan ruang wilayah nasional, penataan ruang wilayah provinsi, dan penataan ruang wilayah kabupaten/kota dilakukan secara berjenjang dan komplementer.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_3">
+                <num>(3)</num>
+                <content><p>Penataan ruang wilayah nasional meliputi ruang wilayah yurisdiksi dan wilayah kedaulatan nasional yang mencakup ruang darat, ruang laut, dan ruang udara, termasuk ruang di dalam bumi sebagai satu kesatuan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_4">
+                <num>(4)</num>
+                <content><p>Penataan ruang wilayah provinsi dan kabupaten/kota meliputi ruang darat, ruang laut, dan ruang udara, termasuk ruang di dalam bumi sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_5">
+                <num>(5)</num>
+                <content><p>Ruang laut dan ruang udara, pengelolaannya diatur dengan undang-undang tersendiri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>TUGAS DAN WEWENANG</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Tugas</heading>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Negara menyelenggarakan penataan ruang untuk sebesar-besar kemakmuran rakyat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), negara memberikan kewenangan penyelenggaraan penataan ruang kepada Pemerintah dan pemerintah daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penyelenggaraan penataan ruang sebagaimana dimaksud pada ayat (2) dilakukan dengan tetap menghormati hak yang dimiliki orang sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Wewenang Pemerintah</heading>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Wewenang Pemerintah dalam penyelenggaraan penataan ruang meliputi:</p></intro>
+                      <point eId="pasal_8__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengaturan, pembinaan, dan pengawasan terhadap pelaksanaan penataan ruang wilayah nasional, provinsi, dan kabupaten/kota, serta terhadap pelaksanaan penataan ruang kawasan strategis nasional, provinsi, dan kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pelaksanaan penataan ruang wilayah nasional;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>pelaksanaan penataan ruang kawasan strategis nasional; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>kerja sama penataan ruang antarnegara dan pemfasilitasan kerja sama penataan ruang antarprovinsi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Wewenang Pemerintah dalam pelaksanaan penataan ruang nasional meliputi:</p></intro>
+                      <point eId="pasal_8__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>perencanaan tata ruang wilayah nasional;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemanfaatan ruang wilayah nasional; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pengendalian pemanfaatan ruang wilayah nasional.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Wewenang Pemerintah dalam pelaksanaan penataan ruang kawasan strategis nasional meliputi:</p></intro>
+                      <point eId="pasal_8__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>penetapan kawasan strategis nasional;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>perencanaan tata ruang kawasan strategis nasional;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>pemanfaatan ruang kawasan strategis nasional; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>pengendalian pemanfaatan ruang kawasan strategis nasional.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pelaksanaan pemanfaatan ruang dan pengendalian pemanfaatan ruang kawasan strategis nasional sebagaimana dimaksud pada ayat (3) huruf c dan huruf d dapat dilaksanakan pemerintah daerah melalui dekonsentrasi dan/atau tugas pembantuan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Dalam rangka penyelenggaraan penataan ruang, Pemerintah berwenang menyusun dan menetapkan pedoman bidang penataan ruang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_6">
+                    <num>(6)</num>
+                    <intro><p>Dalam pelaksanaan wewenang sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), ayat (4), dan ayat (5), Pemerintah:</p></intro>
+                      <point eId="pasal_8__ayat_6__huruf_a">
+                        <num>a.</num>
+                        <content><p>menyebarluaskan informasi yang berkaitan dengan: 1) rencana umum dan rencana rinci tata ruang dalam rangka pelaksanaan penataan ruang wilayah nasional; 2) arahan peraturan zonasi untuk sistem nasional yang disusun dalam rangka pengendalian pemanfaatan ruang wilayah nasional; dan 3) pedoman bidang penataan ruang;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_6__huruf_b">
+                        <num>b.</num>
+                        <content><p>menetapkan standar pelayanan minimal bidang penataan ruang.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggaraan penataan ruang dilaksanakan oleh seorang Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Tugas dan tanggung jawab Menteri dalam penyelenggaraan penataan ruang sebagaimana dimaksud pada ayat (1) mencakup:</p></intro>
+                      <point eId="pasal_9__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengaturan, pembinaan, dan pengawasan penataan ruang;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pelaksanaan penataan ruang nasional; dan</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>koordinasi penyelenggaraan penataan ruang lintas sektor, lintas wilayah, dan lintas pemangku kepentingan.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Wewenang Pemerintah Daerah Provinsi</heading>
+              <article eId="pasal_10">
+                <num>10</num>
+                  <paragraph eId="pasal_10__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Wewenang pemerintah daerah provinsi dalam penyelenggaraan penataan ruang meliputi:</p></intro>
+                      <point eId="pasal_10__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengaturan, pembinaan, dan pengawasan terhadap pelaksanaan penataan ruang wilayah provinsi, dan kabupaten/kota, serta terhadap pelaksanaan penataan ruang kawasan strategis provinsi dan kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pelaksanaan penataan ruang wilayah provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>pelaksanaan penataan ruang kawasan strategis provinsi; dan</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>kerja sama penataan ruang antarprovinsi dan pemfasilitasan kerja sama penataan ruang antarkabupaten/kota.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Wewenang pemerintah daerah provinsi dalam pelaksanaan penataan ruang wilayah provinsi sebagaimana dimaksud pada ayat (1) huruf b meliputi:</p></intro>
+                      <point eId="pasal_10__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>perencanaan tata ruang wilayah provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemanfaatan ruang wilayah provinsi; dan</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pengendalian pemanfaatan ruang wilayah provinsi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Dalam penataan ruang kawasan strategis provinsi sebagaimana dimaksud pada ayat (1) huruf c, pemerintah daerah provinsi melaksanakan:</p></intro>
+                      <point eId="pasal_10__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>penetapan kawasan strategis provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>perencanaan tata ruang kawasan strategis provinsi;</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>pemanfaatan ruang kawasan strategis provinsi; dan</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>pengendalian pemanfaatan ruang kawasan strategis provinsi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pelaksanaan pemanfaatan ruang dan pengendalian pemanfaatan ruang kawasan strategis provinsi sebagaimana dimaksud pada ayat (3) huruf c dan huruf d dapat dilaksanakan pemerintah daerah kabupaten/kota melalui tugas pembantuan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Dalam rangka penyelenggaraan penataan ruang wilayah provinsi, pemerintah daerah provinsi dapat menyusun petunjuk pelaksanaan bidang penataan ruang pada tingkat provinsi dan kabupaten/kota.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_6">
+                    <num>(6)</num>
+                    <intro><p>Dalam pelaksanaan wewenang sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), ayat (4), dan ayat (5), pemerintah daerah provinsi:</p></intro>
+                      <point eId="pasal_10__ayat_6__huruf_a">
+                        <num>a.</num>
+                        <content><p>menyebarluaskan informasi yang berkaitan dengan: 1) rencana umum dan rencana rinci tata ruang dalam rangka pelaksanaan penataan ruang wilayah provinsi; 2) arahan peraturan zonasi untuk sistem provinsi yang disusun dalam rangka pengendalian pemanfaatan ruang wilayah provinsi; dan 3) petunjuk pelaksanaan bidang penataan ruang;</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_6__huruf_b">
+                        <num>b.</num>
+                        <content><p>melaksanakan standar pelayanan minimal bidang penataan ruang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Dalam hal pemerintah daerah provinsi tidak dapat memenuhi standar pelayanan minimal bidang penataan ruang, Pemerintah mengambil langkah penyelesaian sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Wewenang Pemerintah Daerah Kabupaten/Kota</heading>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Wewenang pemerintah daerah kabupaten/kota dalam penyelenggaraan penataan ruang meliputi:</p></intro>
+                      <point eId="pasal_11__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengaturan, pembinaan, dan pengawasan terhadap pelaksanaan penataan ruang wilayah kabupaten/kota dan kawasan strategis kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pelaksanaan penataan ruang wilayah kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>pelaksanaan penataan ruang kawasan strategis kabupaten/kota; dan</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>kerja sama penataan ruang antarkabupaten/ kota.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Wewenang pemerintah daerah kabupaten/kota dalam pelaksanaan penataan ruang wilayah kabupaten/kota sebagaimana dimaksud pada ayat (1) huruf b meliputi:</p></intro>
+                      <point eId="pasal_11__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>perencanaan tata ruang wilayah kabupaten/ kota;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemanfaatan ruang wilayah kabupaten/kota; dan</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pengendalian pemanfaatan ruang wilayah kabupaten/kota.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Dalam pelaksanaan penataan ruang kawasan strategis kabupaten/kota sebagaimana dimaksud pada ayat (1) huruf c, pemerintah daerah kabupaten/kota melaksanakan:</p></intro>
+                      <point eId="pasal_11__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>penetapan kawasan strategis kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>perencanaan tata ruang kawasan strategis kabupaten/kota;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>pemanfaatan ruang kawasan strategis kabupaten/kota; dan</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>pengendalian pemanfaatan ruang kawasan strategis kabupaten/kota.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam melaksanakan kewenangan sebagaimana dimaksud pada ayat (1) dan ayat (2), pemerintah daerah kabupaten/kota mengacu pada pedoman bidang penataan ruang dan petunjuk pelaksanaannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_5">
+                    <num>(5)</num>
+                    <intro><p>Dalam pelaksanaan wewenang sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), dan ayat (4), pemerintah daerah kabupaten/kota:</p></intro>
+                      <point eId="pasal_11__ayat_5__huruf_a">
+                        <num>a.</num>
+                        <content><p>menyebarluaskan informasi yang berkaitan dengan rencana umum dan rencana rinci tata ruang dalam rangka pelaksanaan penataan ruang wilayah kabupaten/kota; dan</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_5__huruf_b">
+                        <num>b.</num>
+                        <content><p>melaksanakan standar pelayanan minimal bidang penataan ruang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Dalam hal pemerintah daerah kabupaten/kota tidak dapat memenuhi standar pelayanan minimal bidang penataan ruang, pemerintah daerah provinsi dapat mengambil langkah penyelesaian sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PENGATURAN DAN PEMBINAAN PENATAAN RUANG</heading>
+          <article eId="pasal_12">
+            <num>12</num>
+            <content><p>Pengaturan penataan ruang dilakukan melalui penetapan ketentuan peraturan perundang-undangan bidang penataan ruang termasuk pedoman bidang penataan ruang.</p></content>
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah melakukan pembinaan penataan ruang kepada pemerintah daerah provinsi, pemerintah daerah kabupaten/kota, dan masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pembinaan penataan ruang sebagaimana dimaksud pada ayat (1) dilaksanakan melalui:</p></intro>
+                  <point eId="pasal_13__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>koordinasi penyelenggaraan penataan ruang;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>sosialisasi peraturan perundang-undangan dan sosialisasi pedoman bidang penataan ruang;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemberian bimbingan, supervisi, dan konsultasi pelaksanaan penataan ruang;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pendidikan dan pelatihan;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>penelitian dan pengembangan;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>pengembangan sistem informasi dan komunikasi penataan ruang;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>penyebarluasan informasi penataan ruang kepada masyarakat; dan</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_h">
+                    <num>h.</num>
+                    <content><p>pengembangan kesadaran dan tanggung jawab masyarakat.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_3">
+                <num>(3)</num>
+                <content><p>Pemerintah daerah provinsi dan pemerintah daerah kabupaten/kota menyelenggarakan pembinaan penataan ruang sebagaimana dimaksud pada ayat (2) menurut kewenangannya masing-masing.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan lebih lanjut mengenai penyelenggaraan pembinaan sebagaimana dimaksud pada ayat (1) diatur dengan peraturan pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PELAKSANAAN PENATAAN RUANG</heading>
+          <part eId="bab_6__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Perencanaan Tata Ruang</heading>
+              <subpart eId="bab_6__bagian_kesatu__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_14">
+                    <num>14</num>
+                      <paragraph eId="pasal_14__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Perencanaan tata ruang dilakukan untuk menghasilkan:</p></intro>
+                          <point eId="pasal_14__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>rencana umum tata ruang; dan</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana rinci tata ruang.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Rencana umum tata ruang sebagaimana dimaksud pada ayat (1) huruf a secara berhierarki terdiri atas:</p></intro>
+                          <point eId="pasal_14__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>Rencana Tata Ruang Wilayah Nasional;</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana tata ruang wilayah provinsi; dan</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana tata ruang wilayah kabupaten dan rencana tata ruang wilayah kota.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Rencana rinci tata ruang sebagaimana dimaksud pada ayat (1) huruf b terdiri atas:</p></intro>
+                          <point eId="pasal_14__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>rencana tata ruang pulau/kepulauan dan rencana tata ruang kawasan strategis nasional;</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana tata ruang kawasan strategis provinsi; dan</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_3__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana detail tata ruang kabupaten/kota dan rencana tata ruang kawasan strategis kabupaten/kota.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Rencana rinci tata ruang sebagaimana dimaksud pada ayat (1) huruf b disusun sebagai perangkat operasional rencana umum tata ruang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_5">
+                        <num>(5)</num>
+                        <intro><p>Rencana rinci tata ruang sebagaimana dimaksud pada ayat (3) huruf a dan huruf b disusun apabila:</p></intro>
+                          <point eId="pasal_14__ayat_5__huruf_a">
+                            <num>a.</num>
+                            <content><p>rencana umum tata ruang belum dapat dijadikan dasar dalam pelaksanaan pemanfaatan ruang dan pengendalian pemanfaatan ruang; dan/atau</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_5__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana umum tata ruang mencakup wilayah perencanaan yang luas dan skala peta dalam rencana umum tata ruang tersebut memerlukan perincian sebelum dioperasionalkan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Rencana detail tata ruang sebagaimana dimaksud pada ayat (3) huruf c dijadikan dasar bagi penyusunan peraturan zonasi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_7">
+                        <num>(7)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai tingkat ketelitian peta rencana tata ruang diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_15">
+                    <num>15</num>
+                    <content><p>Rencana Tata Ruang Wilayah Nasional, rencana tata ruang wilayah provinsi, dan rencana tata ruang wilayah kabupaten/kota mencakup ruang darat, ruang laut, dan ruang udara, termasuk ruang di dalam bumi.</p></content>
+                  </article>
+                  <article eId="pasal_16">
+                    <num>16</num>
+                      <paragraph eId="pasal_16__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Rencana tata ruang dapat ditinjau kembali.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Peninjauan kembali rencana tata ruang sebagaimana dimaksud pada ayat (1) dapat menghasilkan rekomendasi berupa:</p></intro>
+                          <point eId="pasal_16__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>rencana tata ruang yang ada dapat tetap berlaku sesuai dengan masa berlakunya; atau</p></content>
+                          </point>
+                          <point eId="pasal_16__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana tata ruang yang ada perlu direvisi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Apabila peninjauan kembali rencana tata ruang menghasilkan rekomendasi sebagaimana dimaksud pada ayat (2) huruf b, revisi rencana tata ruang dilaksanakan dengan tetap menghormati hak yang dimiliki orang sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai kriteria dan tata cara peninjauan kembali rencana tata ruang sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_17">
+                    <num>17</num>
+                      <paragraph eId="pasal_17__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Muatan rencana tata ruang mencakup rencana struktur ruang dan rencana pola ruang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Rencana struktur ruang sebagaimana dimaksud pada ayat (1) meliputi rencana sistem pusat permukiman dan rencana sistem jaringan prasarana.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Rencana pola ruang sebagaimana dimaksud pada ayat (1) meliputi peruntukan kawasan lindung dan kawasan budi daya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Peruntukan kawasan lindung dan kawasan budi daya sebagaimana dimaksud pada ayat (3) meliputi peruntukan ruang untuk kegiatan pelestarian lingkungan, sosial, budaya, ekonomi, pertahanan, dan keamanan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Dalam rangka pelestarian lingkungan sebagaimana dimaksud pada ayat (4), dalam rencana tata ruang wilayah ditetapkan kawasan hutan paling sedikit 30 (tiga puluh) persen dari luas daerah aliran sungai.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Penyusunan rencana tata ruang harus memperhatikan keterkaitan antarwilayah, antarfungsi kawasan, dan antarkegiatan kawasan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_7">
+                        <num>(7)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai tata cara penyusunan rencana tata ruang yang berkaitan dengan fungsi pertahanan dan keamanan sebagai subsistem rencana tata ruang wilayah diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_18">
+                    <num>18</num>
+                      <paragraph eId="pasal_18__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penetapan rancangan peraturan daerah provinsi tentang rencana tata ruang wilayah provinsi dan rencana rinci tata ruang terlebih dahulu harus mendapat persetujuan substansi dari Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Penetapan rancangan peraturan daerah kabupaten/kota tentang rencana tata ruang wilayah kabupaten/kota dan rencana rinci tata ruang terlebih dahulu harus mendapat persetujuan substansi dari Menteri setelah mendapatkan rekomendasi Gubernur.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai muatan, pedoman, dan tata cara penyusunan rencana tata ruang wilayah provinsi sebagaimana dimaksud pada ayat (1) dan penyusunan rencana tata ruang wilayah kabupaten/kota sebagaimana dimaksud pada ayat (2) diatur dengan peraturan Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_kesatu__paragraf_2">
+                <num>2</num>
+                <heading>Perencanaan Tata Ruang Wilayah Nasional</heading>
+                  <article eId="pasal_19">
+                    <num>19</num>
+                    <intro><p>Penyusunan Rencana Tata Ruang Wilayah Nasional harus memperhatikan:</p></intro>
+                      <point eId="pasal_19__huruf_a">
+                        <num>a.</num>
+                        <content><p>Wawasan Nusantara dan Ketahanan Nasional;</p></content>
+                      </point>
+                      <point eId="pasal_19__huruf_b">
+                        <num>b.</num>
+                        <content><p>perkembangan permasalahan regional dan global, serta hasil pengkajian implikasi penataan ruang nasional;</p></content>
+                      </point>
+                      <point eId="pasal_19__huruf_c">
+                        <num>c.</num>
+                        <content><p>upaya pemerataan pembangunan dan pertumbuhan serta stabilitas ekonomi;</p></content>
+                      </point>
+                      <point eId="pasal_19__huruf_d">
+                        <num>d.</num>
+                        <content><p>keselarasan aspirasi pembangunan nasional dan pembangunan daerah;</p></content>
+                      </point>
+                      <point eId="pasal_19__huruf_e">
+                        <num>e.</num>
+                        <content><p>daya dukung dan daya tampung lingkungan hidup;</p></content>
+                      </point>
+                      <point eId="pasal_19__huruf_f">
+                        <num>f.</num>
+                        <content><p>rencana pembangunan jangka panjang nasional;</p></content>
+                      </point>
+                      <point eId="pasal_19__huruf_g">
+                        <num>g.</num>
+                        <content><p>rencana tata ruang kawasan strategis nasional; dan</p></content>
+                      </point>
+                      <point eId="pasal_19__huruf_h">
+                        <num>h.</num>
+                        <content><p>rencana tata ruang wilayah provinsi dan rencana tata ruang wilayah kabupaten/kota.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_20">
+                    <num>20</num>
+                      <paragraph eId="pasal_20__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Rencana Tata Ruang Wilayah Nasional memuat:</p></intro>
+                          <point eId="pasal_20__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>tujuan, kebijakan, dan strategi penataan ruang wilayah nasional;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana struktur ruang wilayah nasional yang meliputi sistem perkotaan nasional yang terkait dengan kawasan perdesaan dalam wilayah pelayanannya dan sistem jaringan prasarana utama;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana pola ruang wilayah nasional yang meliputi kawasan lindung nasional dan kawasan budi daya yang memiliki nilai strategis nasional;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>penetapan kawasan strategis nasional;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>arahan pemanfaatan ruang yang berisi indikasi program utama jangka menengah lima tahunan; dan</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_1__huruf_f">
+                            <num>f.</num>
+                            <content><p>arahan pengendalian pemanfaatan ruang wilayah nasional yang berisi indikasi arahan peraturan zonasi sistem nasional, arahan perizinan, arahan insentif dan disinsentif, serta arahan sanksi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Rencana Tata Ruang Wilayah Nasional menjadi pedoman untuk:</p></intro>
+                          <point eId="pasal_20__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>penyusunan rencana pembangunan jangka panjang nasional;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>penyusunan rencana pembangunan jangka menengah nasional;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemanfaatan ruang dan pengendalian pemanfaatan ruang di wilayah nasional;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>mewujudkan keterpaduan, keterkaitan, dan keseimbangan perkembangan antarwilayah provinsi, serta keserasian antarsektor;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>penetapan lokasi dan fungsi ruang untuk investasi;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_2__huruf_f">
+                            <num>f.</num>
+                            <content><p>penataan ruang kawasan strategis nasional; dan</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_2__huruf_g">
+                            <num>g.</num>
+                            <content><p>penataan ruang wilayah provinsi dan kabupaten/kota.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Jangka waktu Rencana Tata Ruang Wilayah Nasional adalah 20 (dua puluh) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Rencana Tata Ruang Wilayah Nasional sebagaimana dimaksud pada ayat (1) ditinjau kembali 1 (satu) kali dalam 5 (lima) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Dalam kondisi lingkungan strategis tertentu yang berkaitan dengan bencana alam skala besar yang ditetapkan dengan peraturan perundang-undangan dan/atau perubahan batas teritorial negara yang ditetapkan dengan Undang-Undang, Rencana Tata Ruang Wilayah Nasional ditinjau kembali lebih dari 1 (satu) kali dalam 5 (lima) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Rencana Tata Ruang Wilayah Nasional diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_21">
+                    <num>21</num>
+                      <paragraph eId="pasal_21__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Rencana rinci tata ruang sebagaimana dimaksud dalam Pasal 14 ayat (3) huruf a diatur dengan peraturan presiden.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_21__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan mengenai muatan, pedoman, dan tata cara penyusunan rencana rinci tata ruang sebagaimana dimaksud pada ayat (1) diatur dengan peraturan Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_kesatu__paragraf_3">
+                <num>3</num>
+                <heading>Perencanaan Tata Ruang Wilayah Provinsi</heading>
+                  <article eId="pasal_22">
+                    <num>22</num>
+                      <paragraph eId="pasal_22__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Penyusunan rencana tata ruang wilayah provinsi mengacu pada:</p></intro>
+                          <point eId="pasal_22__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Rencana Tata Ruang Wilayah Nasional;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>pedoman bidang penataan ruang; dan</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana pembangunan jangka panjang daerah.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_22__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Penyusunan rencana tata ruang wilayah provinsi harus memperhatikan:</p></intro>
+                          <point eId="pasal_22__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>perkembangan permasalahan nasional dan hasil pengkajian implikasi penataan ruang provinsi;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>upaya pemerataan pembangunan dan pertumbuhan ekonomi provinsi;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>keselarasan aspirasi pembangunan provinsi dan pembangunan kabupaten/kota;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>daya dukung dan daya tampung lingkungan hidup;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>rencana pembangunan jangka panjang daerah;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_2__huruf_f">
+                            <num>f.</num>
+                            <content><p>rencana tata ruang wilayah provinsi yang berbatasan;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_2__huruf_g">
+                            <num>g.</num>
+                            <content><p>rencana tata ruang kawasan strategis provinsi; dan</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_2__huruf_h">
+                            <num>h.</num>
+                            <content><p>rencana tata ruang wilayah kabupaten/kota.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_23">
+                    <num>23</num>
+                      <paragraph eId="pasal_23__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Rencana tata ruang wilayah provinsi memuat:</p></intro>
+                          <point eId="pasal_23__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>tujuan, kebijakan, dan strategi penataan ruang wilayah provinsi;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana struktur ruang wilayah provinsi yang meliputi sistem perkotaan dalam wilayahnya yang berkaitan dengan kawasan perdesaan dalam wilayah pelayanannya dan sistem jaringan prasarana wilayah provinsi;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana pola ruang wilayah provinsi yang meliputi kawasan lindung dan kawasan budi daya yang memiliki nilai strategis provinsi;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>penetapan kawasan strategis provinsi;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>arahan pemanfaatan ruang wilayah provinsi yang berisi indikasi program utama jangka menengah lima tahunan; dan</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_1__huruf_f">
+                            <num>f.</num>
+                            <content><p>arahan pengendalian pemanfaatan ruang wilayah provinsi yang berisi indikasi arahan peraturan zonasi sistem provinsi, arahan perizinan, arahan insentif dan disinsentif, serta arahan sanksi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Rencana tata ruang wilayah provinsi menjadi pedoman untuk:</p></intro>
+                          <point eId="pasal_23__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>penyusunan rencana pembangunan jangka panjang daerah;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>penyusunan rencana pembangunan jangka menengah daerah;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemanfaatan ruang dan pengendalian pemanfaatan ruang dalam wilayah provinsi;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>mewujudkan keterpaduan, keterkaitan, dan keseimbangan perkembangan antarwilayah kabupaten/kota, serta keserasian antarsektor;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>penetapan lokasi dan fungsi ruang untuk investasi;</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_2__huruf_f">
+                            <num>f.</num>
+                            <content><p>penataan ruang kawasan strategis provinsi; dan</p></content>
+                          </point>
+                          <point eId="pasal_23__ayat_2__huruf_g">
+                            <num>g.</num>
+                            <content><p>penataan ruang wilayah kabupaten/kota.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Jangka waktu rencana tata ruang wilayah provinsi adalah 20 (dua puluh) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Rencana tata ruang wilayah provinsi sebagaimana dimaksud pada ayat (1) ditinjau kembali 1 (satu) kali dalam 5 (lima) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Dalam kondisi lingkungan strategis tertentu yang berkaitan dengan bencana alam skala besar yang ditetapkan dengan peraturan perundang-undangan dan/atau perubahan batas teritorial negara dan/atau wilayah provinsi yang ditetapkan dengan Undang-Undang, rencana tata ruang wilayah provinsi ditinjau kembali lebih dari 1 (satu) kali dalam 5 (lima) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Rencana tata ruang wilayah provinsi ditetapkan dengan peraturan daerah provinsi.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_24">
+                    <num>24</num>
+                      <paragraph eId="pasal_24__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Rencana rinci tata ruang sebagaimana dimaksud dalam Pasal 14 ayat (3) huruf b ditetapkan dengan peraturan daerah provinsi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan mengenai muatan, pedoman, dan tata cara penyusunan rencana rinci tata ruang sebagaimana dimaksud pada ayat (1) diatur dengan peraturan Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_kesatu__paragraf_4">
+                <num>4</num>
+                <heading>Perencanaan Tata Ruang Wilayah Kabupaten</heading>
+                  <article eId="pasal_25">
+                    <num>25</num>
+                      <paragraph eId="pasal_25__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Penyusunan rencana tata ruang wilayah kabupaten mengacu pada:</p></intro>
+                          <point eId="pasal_25__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Rencana Tata Ruang Wilayah Nasional dan rencana tata ruang wilayah provinsi;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>pedoman dan petunjuk pelaksanaan bidang penataan ruang; dan</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana pembangunan jangka panjang daerah.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_25__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Penyusunan rencana tata ruang wilayah kabupaten harus memperhatikan:</p></intro>
+                          <point eId="pasal_25__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>perkembangan permasalahan provinsi dan hasil pengkajian implikasi penataan ruang kabupaten;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>upaya pemerataan pembangunan dan pertumbuhan ekonomi kabupaten;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>keselarasan aspirasi pembangunan kabupaten;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>daya dukung dan daya tampung lingkungan hidup;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>rencana pembangunan jangka panjang daerah;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_2__huruf_f">
+                            <num>f.</num>
+                            <content><p>rencana tata ruang wilayah kabupaten yang berbatasan; dan</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_2__huruf_g">
+                            <num>g.</num>
+                            <content><p>rencana tata ruang kawasan strategis kabupaten.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_26">
+                    <num>26</num>
+                      <paragraph eId="pasal_26__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Rencana tata ruang wilayah kabupaten memuat:</p></intro>
+                          <point eId="pasal_26__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>tujuan, kebijakan, dan strategi penataan ruang wilayah kabupaten;</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana struktur ruang wilayah kabupaten yang meliputi sistem perkotaan di wilayahnya yang terkait dengan kawasan perdesaan dan sistem jaringan prasarana wilayah kabupaten;</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana pola ruang wilayah kabupaten yang meliputi kawasan lindung kabupaten dan kawasan budi daya kabupaten;</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>penetapan kawasan strategis kabupaten;</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>arahan pemanfaatan ruang wilayah kabupaten yang berisi indikasi program utama jangka menengah lima tahunan; dan</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_1__huruf_f">
+                            <num>f.</num>
+                            <content><p>ketentuan pengendalian pemanfaatan ruang wilayah kabupaten yang berisi ketentuan umum peraturan zonasi, ketentuan perizinan, ketentuan insentif dan disinsentif, serta arahan sanksi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Rencana tata ruang wilayah kabupaten menjadi pedoman untuk:</p></intro>
+                          <point eId="pasal_26__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>penyusunan rencana pembangunan jangka panjang daerah;</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>penyusunan rencana pembangunan jangka menengah daerah;</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemanfaatan ruang dan pengendalian pemanfaatan ruang di wilayah kabupaten;</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>mewujudkan keterpaduan, keterkaitan, dan keseimbangan antarsektor;</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>penetapan lokasi dan fungsi ruang untuk investasi; dan</p></content>
+                          </point>
+                          <point eId="pasal_26__ayat_2__huruf_f">
+                            <num>f.</num>
+                            <content><p>penataan ruang kawasan strategis kabupaten.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Rencana tata ruang wilayah kabupaten menjadi dasar untuk penerbitan perizinan lokasi pembangunan dan administrasi pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Jangka waktu rencana tata ruang wilayah kabupaten adalah 20 (dua puluh) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Rencana tata ruang wilayah kabupaten sebagaimana dimaksud pada ayat (1) ditinjau kembali 1 (satu) kali dalam 5 (lima) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Dalam kondisi lingkungan strategis tertentu yang berkaitan dengan bencana alam skala besar yang ditetapkan dengan peraturan perundang-undangan dan/atau perubahan batas teritorial negara, wilayah provinsi, dan/atau wilayah kabupaten yang ditetapkan dengan Undang-Undang, rencana tata ruang wilayah kabupaten ditinjau kembali lebih dari 1 (satu) kali dalam 5 (lima) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_7">
+                        <num>(7)</num>
+                        <content><p>Rencana tata ruang wilayah kabupaten ditetapkan dengan peraturan daerah kabupaten.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_27">
+                    <num>27</num>
+                      <paragraph eId="pasal_27__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Rencana rinci tata ruang sebagaimana dimaksud dalam Pasal 14 ayat (3) huruf c ditetapkan dengan peraturan daerah kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan mengenai muatan, pedoman, dan tata cara penyusunan rencana rinci tata ruang sebagaimana dimaksud pada ayat (1) diatur dengan peraturan Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_kesatu__paragraf_5">
+                <num>5</num>
+                <heading>Perencanaan Tata Ruang Wilayah Kota</heading>
+                  <article eId="pasal_28">
+                    <num>28</num>
+                    <intro><p>Ketentuan perencanaan tata ruang wilayah kabupaten sebagaimana dimaksud dalam Pasal 25, Pasal 26, dan Pasal 27 berlaku mutatis mutandis untuk perencanaan tata ruang wilayah kota, dengan ketentuan selain rincian dalam Pasal 26 ayat (1) ditambahkan:</p></intro>
+                      <point eId="pasal_28__huruf_a">
+                        <num>a.</num>
+                        <content><p>rencana penyediaan dan pemanfaatan ruang terbuka hijau;</p></content>
+                      </point>
+                      <point eId="pasal_28__huruf_b">
+                        <num>b.</num>
+                        <content><p>rencana penyediaan dan pemanfaatan ruang terbuka nonhijau; dan</p></content>
+                      </point>
+                      <point eId="pasal_28__huruf_c">
+                        <num>c.</num>
+                        <content><p>rencana penyediaan dan pemanfaatan prasarana dan sarana jaringan pejalan kaki, angkutan umum, kegiatan sektor informal, dan ruang evakuasi bencana, yang dibutuhkan untuk menjalankan fungsi wilayah kota sebagai pusat pelayanan sosial ekonomi dan pusat pertumbuhan wilayah.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_29">
+                    <num>29</num>
+                      <paragraph eId="pasal_29__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Ruang terbuka hijau sebagaimana dimaksud dalam Pasal 28 huruf a terdiri dari ruang terbuka hijau publik dan ruang terbuka hijau privat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Proporsi ruang terbuka hijau pada wilayah kota paling sedikit 30 (tiga puluh) persen dari luas wilayah kota.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Proporsi ruang terbuka hijau publik pada wilayah kota paling sedikit 20 (dua puluh) persen dari luas wilayah kota.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_30">
+                    <num>30</num>
+                    <content><p>Distribusi ruang terbuka hijau publik sebagaimana dimaksud dalam Pasal 29 ayat (1) dan ayat (3) disesuaikan dengan sebaran penduduk dan hierarki pelayanan dengan memperhatikan rencana struktur dan pola ruang.</p></content>
+                  </article>
+                  <article eId="pasal_31">
+                    <num>31</num>
+                    <content><p>Ketentuan lebih lanjut mengenai penyediaan dan pemanfaatan ruang terbuka hijau dan ruang terbuka nonhijau sebagaimana dimaksud dalam Pasal 28 huruf a dan huruf b diatur dengan peraturan Menteri.</p></content>
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pemanfaatan Ruang</heading>
+              <subpart eId="bab_6__bagian_kedua__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_32">
+                    <num>32</num>
+                      <paragraph eId="pasal_32__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemanfaatan ruang dilakukan melalui pelaksanaan program pemanfaatan ruang beserta pembiayaannya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pemanfaatan ruang sebagaimana dimaksud pada ayat (1) dapat dilaksanakan dengan pemanfaatan ruang, baik pemanfaatan ruang secara vertikal maupun pemanfaatan ruang di dalam bumi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Program pemanfaatan ruang beserta pembiayaannya sebagaimana dimaksud pada ayat (1) termasuk jabaran dari indikasi program utama yang termuat di dalam rencana tata ruang wilayah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Pemanfaatan ruang diselenggarakan secara bertahap sesuai dengan jangka waktu indikasi program utama pemanfaatan ruang yang ditetapkan dalam rencana tata ruang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Pelaksanaan pemanfaatan ruang di wilayah sebagaimana dimaksud pada ayat (3) disinkronisasikan dengan pelaksanaan pemanfaatan ruang wilayah administratif sekitarnya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Pemanfaatan ruang sebagaimana dimaksud pada ayat (1) dilaksanakan dengan memperhatikan standar pelayanan minimal dalam penyediaan sarana dan prasarana.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_33">
+                    <num>33</num>
+                      <paragraph eId="pasal_33__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemanfaatan ruang mengacu pada fungsi ruang yang ditetapkan dalam rencana tata ruang dilaksanakan dengan mengembangkan penatagunaan tanah, penatagunaan air, penatagunaan udara, dan penatagunaan sumber daya alam lain.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_33__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam rangka pengembangan penatagunaan sebagaimana dimaksud pada ayat (1) diselenggarakan kegiatan penyusunan dan penetapan neraca penatagunaan tanah, neraca penatagunaan sumber daya air, neraca penatagunaan udara, dan neraca penatagunaan sumber daya alam lain.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_33__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Penatagunaan tanah pada ruang yang direncanakan untuk pembangunan prasarana dan sarana bagi kepentingan umum memberikan hak prioritas pertama bagi Pemerintah dan pemerintah daerah untuk menerima pengalihan hak atas tanah dari pemegang hak atas tanah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_33__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Dalam pemanfaatan ruang pada ruang yang berfungsi lindung, diberikan prioritas pertama bagi Pemerintah dan pemerintah daerah untuk menerima pengalihan hak atas tanah dari pemegang hak atas tanah jika yang bersangkutan akan melepaskan haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_33__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai penatagunaan tanah, penatagunaan air, penatagunaan udara, dan penatagunaan sumber daya alam lainnya sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_kedua__paragraf_2">
+                <num>2</num>
+                <heading>Pemanfaatan Ruang Wilayah</heading>
+                  <article eId="pasal_34">
+                    <num>34</num>
+                      <paragraph eId="pasal_34__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Dalam pemanfaatan ruang wilayah nasional, provinsi, dan kabupaten/kota dilakukan:</p></intro>
+                          <point eId="pasal_34__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>perumusan kebijakan strategis operasionalisasi rencana tata ruang wilayah dan rencana tata ruang kawasan strategis;</p></content>
+                          </point>
+                          <point eId="pasal_34__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>perumusan program sektoral dalam rangka perwujudan struktur ruang dan pola ruang wilayah dan kawasan strategis; dan</p></content>
+                          </point>
+                          <point eId="pasal_34__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>pelaksanaan pembangunan sesuai dengan program pemanfaatan ruang wilayah dan kawasan strategis.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_34__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam rangka pelaksanaan kebijakan strategis operasionalisasi rencana tata ruang wilayah dan rencana tata ruang kawasan strategis sebagaimana dimaksud pada ayat (1) huruf a ditetapkan kawasan budi daya yang dikendalikan dan kawasan budi daya yang didorong pengembangannya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_34__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pelaksanaan pembangunan sebagaimana dimaksud pada ayat (1) huruf c dilaksanakan melalui pengembangan kawasan secara terpadu.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_34__ayat_4">
+                        <num>(4)</num>
+                        <intro><p>Pemanfaatan ruang sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan:</p></intro>
+                          <point eId="pasal_34__ayat_4__huruf_a">
+                            <num>a.</num>
+                            <content><p>standar pelayanan minimal bidang penataan ruang;</p></content>
+                          </point>
+                          <point eId="pasal_34__ayat_4__huruf_b">
+                            <num>b.</num>
+                            <content><p>standar kualitas lingkungan; dan</p></content>
+                          </point>
+                          <point eId="pasal_34__ayat_4__huruf_c">
+                            <num>c.</num>
+                            <content><p>daya dukung dan daya tampung lingkungan hidup.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pengendalian Pemanfaatan Ruang</heading>
+              <article eId="pasal_35">
+                <num>35</num>
+                <content><p>Pengendalian pemanfaatan ruang dilakukan melalui penetapan peraturan zonasi, perizinan, pemberian insentif dan disinsentif, serta pengenaan sanksi.</p></content>
+              </article>
+              <article eId="pasal_36">
+                <num>36</num>
+                  <paragraph eId="pasal_36__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Peraturan zonasi sebagaimana dimaksud dalam Pasal 35 disusun sebagai pedoman pengendalian pemanfaatan ruang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Peraturan zonasi disusun berdasarkan rencana rinci tata ruang untuk setiap zona pemanfaatan ruang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Peraturan zonasi ditetapkan dengan:</p></intro>
+                      <point eId="pasal_36__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>peraturan pemerintah untuk arahan peraturan zonasi sistem nasional;</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>peraturan daerah provinsi untuk arahan peraturan zonasi sistem provinsi; dan</p></content>
+                      </point>
+                      <point eId="pasal_36__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>peraturan daerah kabupaten/kota untuk peraturan zonasi.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_37">
+                <num>37</num>
+                  <paragraph eId="pasal_37__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Ketentuan perizinan sebagaimana dimaksud dalam Pasal 35 diatur oleh Pemerintah dan pemerintah daerah menurut kewenangan masing-masing sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Izin pemanfaatan ruang yang tidak sesuai dengan rencana tata ruang wilayah dibatalkan oleh Pemerintah dan pemerintah daerah menurut kewenangan masing-masing sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Izin pemanfaatan ruang yang dikeluarkan dan/atau diperoleh dengan tidak melalui prosedur yang benar, batal demi hukum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Izin pemanfaatan ruang yang diperoleh melalui prosedur yang benar tetapi kemudian terbukti tidak sesuai dengan rencana tata ruang wilayah, dibatalkan oleh Pemerintah dan pemerintah daerah sesuai dengan kewenangannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Terhadap kerugian yang ditimbulkan akibat pembatalan izin sebagaimana dimaksud pada ayat (4), dapat dimintakan penggantian yang layak kepada instansi pemberi izin.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Izin pemanfaatan ruang yang tidak sesuai lagi akibat adanya perubahan rencana tata ruang wilayah dapat dibatalkan oleh Pemerintah dan pemerintah daerah dengan memberikan ganti kerugian yang layak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Setiap pejabat pemerintah yang berwenang menerbitkan izin pemanfaatan ruang dilarang menerbitkan izin yang tidak sesuai dengan rencana tata ruang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai prosedur perolehan izin dan tata cara penggantian yang layak sebagaimana dimaksud pada ayat (4) dan ayat (5) diatur dengan peraturan pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_38">
+                <num>38</num>
+                  <paragraph eId="pasal_38__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam pelaksanaan pemanfaatan ruang agar pemanfaatan ruang sesuai dengan rencana tata ruang wilayah dapat diberikan insentif dan/atau disinsentif oleh Pemerintah dan pemerintah daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Insentif sebagaimana dimaksud dalam Pasal 35, yang merupakan perangkat atau upaya untuk memberikan imbalan terhadap pelaksanaan kegiatan yang sejalan dengan rencana tata ruang, berupa:</p></intro>
+                      <point eId="pasal_38__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>keringanan pajak, pemberian kompensasi, subsidi silang, imbalan, sewa ruang, dan urun saham;</p></content>
+                      </point>
+                      <point eId="pasal_38__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>pembangunan serta pengadaan infrastruktur;</p></content>
+                      </point>
+                      <point eId="pasal_38__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>kemudahan prosedur perizinan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_38__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>pemberian penghargaan kepada masyarakat, swasta dan/atau pemerintah daerah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Disinsentif sebagaimana dimaksud dalam Pasal 35, yang merupakan perangkat untuk mencegah, membatasi pertumbuhan, atau mengurangi kegiatan yang tidak sejalan dengan rencana tata ruang, berupa:</p></intro>
+                      <point eId="pasal_38__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengenaan pajak yang tinggi yang disesuaikan dengan besarnya biaya yang dibutuhkan untuk mengatasi dampak yang ditimbulkan akibat pemanfaatan ruang; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_38__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>pembatasan penyediaan infrastruktur, pengenaan kompensasi, dan penalti.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Insentif dan disinsentif diberikan dengan tetap menghormati hak masyarakat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_5">
+                    <num>(5)</num>
+                    <intro><p>Insentif dan disinsentif dapat diberikan oleh:</p></intro>
+                      <point eId="pasal_38__ayat_5__huruf_a">
+                        <num>a.</num>
+                        <content><p>Pemerintah kepada pemerintah daerah;</p></content>
+                      </point>
+                      <point eId="pasal_38__ayat_5__huruf_b">
+                        <num>b.</num>
+                        <content><p>pemerintah daerah kepada pemerintah daerah lainnya; dan</p></content>
+                      </point>
+                      <point eId="pasal_38__ayat_5__huruf_c">
+                        <num>c.</num>
+                        <content><p>pemerintah kepada masyarakat.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai bentuk dan tata cara pemberian insentif dan disinsentif diatur dengan peraturan pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_39">
+                <num>39</num>
+                <content><p>Pengenaan sanksi sebagaimana dimaksud dalam Pasal 35 merupakan tindakan penertiban yang dilakukan terhadap pemanfaatan ruang yang tidak sesuai dengan rencana tata ruang dan peraturan zonasi.</p></content>
+              </article>
+              <article eId="pasal_40">
+                <num>40</num>
+                <content><p>Ketentuan lebih lanjut mengenai pengendalian pemanfaatan ruang diatur dengan peraturan pemerintah.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Penataan Ruang Kawasan Perkotaan</heading>
+              <subpart eId="bab_6__bagian_keempat__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_41">
+                    <num>41</num>
+                      <paragraph eId="pasal_41__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Penataan ruang kawasan perkotaan diselenggarakan pada:</p></intro>
+                          <point eId="pasal_41__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>kawasan perkotaan yang merupakan bagian wilayah kabupaten; atau</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>kawasan yang secara fungsional berciri perkotaan yang mencakup 2 (dua) atau lebih wilayah kabupaten/kota pada satu atau lebih wilayah provinsi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Kawasan perkotaan sebagaimana dimaksud pada ayat (1) huruf a dan huruf b menurut besarannya dapat berbentuk kawasan perkotaan kecil, kawasan perkotaan sedang, kawasan perkotaan besar, kawasan metropolitan, atau kawasan megapolitan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Kriteria mengenai kawasan perkotaan menurut besarannya sebagaimana dimaksud pada ayat (2) diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_keempat__paragraf_2">
+                <num>2</num>
+                <heading>Perencanaan Tata Ruang Kawasan Perkotaan</heading>
+                  <article eId="pasal_42">
+                    <num>42</num>
+                      <paragraph eId="pasal_42__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Rencana tata ruang kawasan perkotaan yang merupakan bagian wilayah kabupaten adalah rencana rinci tata ruang wilayah kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_42__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Dalam perencanaan tata ruang kawasan perkotaan sebagaimana dimaksud pada ayat (1) berlaku ketentuan Pasal 29, dan Pasal 30.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_43">
+                    <num>43</num>
+                      <paragraph eId="pasal_43__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Rencana tata ruang kawasan perkotaan yang mencakup 2 (dua) atau lebih wilayah kabupaten/kota pada satu atau lebih wilayah provinsi merupakan alat koordinasi dalam pelaksanaan pembangunan yang bersifat lintas wilayah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_43__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Rencana tata ruang sebagaimana dimaksud pada ayat (1) berisi arahan struktur ruang dan pola ruang yang bersifat lintas wilayah administratif.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_44">
+                    <num>44</num>
+                      <paragraph eId="pasal_44__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Rencana tata ruang kawasan metropolitan merupakan alat koordinasi pelaksanaan pembangunan lintas wilayah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_44__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Rencana tata ruang kawasan metropolitan dan/atau kawasan megapolitan berisi:</p></intro>
+                          <point eId="pasal_44__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>tujuan, kebijakan, dan strategi penataan ruang kawasan metropolitan dan/atau megapolitan;</p></content>
+                          </point>
+                          <point eId="pasal_44__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana struktur ruang kawasan metropolitan yang meliputi sistem pusat kegiatan dan sistem jaringan prasarana kawasan metropolitan dan/atau megapolitan;</p></content>
+                          </point>
+                          <point eId="pasal_44__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana pola ruang kawasan metropolitan dan/atau megapolitan yang meliputi kawasan lindung dan kawasan budi daya;</p></content>
+                          </point>
+                          <point eId="pasal_44__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>arahan pemanfaatan ruang kawasan metropolitan dan/atau megapolitan yang berisi indikasi program utama yang bersifat interdependen antarwilayah administratif; dan</p></content>
+                          </point>
+                          <point eId="pasal_44__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>ketentuan pengendalian pemanfaatan ruang kawasan metropolitan dan/atau megapolitan yang berisi arahan peraturan zonasi kawasan metropolitan dan/atau megapolitan, arahan ketentuan perizinan, arahan ketentuan insentif dan disinsentif, serta arahan sanksi.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_keempat__paragraf_3">
+                <num>3</num>
+                <heading>Pemanfaatan Ruang Kawasan Perkotaan</heading>
+                  <article eId="pasal_45">
+                    <num>45</num>
+                      <paragraph eId="pasal_45__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemanfaatan ruang kawasan perkotaan yang merupakan bagian wilayah kabupaten merupakan bagian pemanfaatan ruang wilayah kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_45__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pemanfaatan ruang kawasan perkotaan yang merupakan bagian dari 2 (dua) atau lebih wilayah kabupaten/kota pada satu atau lebih wilayah provinsi dilaksanakan melalui penyusunan program pembangunan beserta pembiayaannya secara terkoordinasi antarwilayah kabupaten/kota terkait.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_keempat__paragraf_4">
+                <num>4</num>
+                <heading>Pengendalian Pemanfaatan Ruang Kawasan Perkotaan</heading>
+                  <article eId="pasal_46">
+                    <num>46</num>
+                      <paragraph eId="pasal_46__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pengendalian pemanfaatan ruang kawasan perkotaan yang merupakan bagian wilayah kabupaten merupakan bagian pengendalian pemanfaatan ruang wilayah kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_46__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pengendalian pemanfaatan ruang kawasan perkotaan yang mencakup 2 (dua) atau lebih wilayah kabupaten/kota pada satu atau lebih wilayah provinsi dilaksanakan oleh setiap kabupaten/kota.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_46__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Untuk kawasan perkotaan yang mencakup 2 (dua) atau lebih wilayah kabupaten/kota yang mempunyai lembaga pengelolaan tersendiri, pengendaliannya dapat dilaksanakan oleh lembaga dimaksud.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_keempat__paragraf_5">
+                <num>5</num>
+                <heading>Kerja Sama Penataan Ruang Kawasan Perkotaan</heading>
+                  <article eId="pasal_47">
+                    <num>47</num>
+                      <paragraph eId="pasal_47__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penataan ruang kawasan perkotaan yang mencakup 2 (dua) atau lebih wilayah kabupaten/kota dilaksanakan melalui kerja sama antardaerah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_47__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai penataan ruang kawasan perkotaan diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_6__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Penataan Ruang Kawasan Perdesaan</heading>
+              <subpart eId="bab_6__bagian_kelima__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_48">
+                    <num>48</num>
+                      <paragraph eId="pasal_48__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Penataan ruang kawasan perdesaan diarahkan untuk:</p></intro>
+                          <point eId="pasal_48__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>pemberdayaan masyarakat perdesaan;</p></content>
+                          </point>
+                          <point eId="pasal_48__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>pertahanan kualitas lingkungan setempat dan wilayah yang didukungnya;</p></content>
+                          </point>
+                          <point eId="pasal_48__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>konservasi sumber daya alam;</p></content>
+                          </point>
+                          <point eId="pasal_48__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>pelestarian warisan budaya lokal;</p></content>
+                          </point>
+                          <point eId="pasal_48__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>pertahanan kawasan lahan abadi pertanian pangan untuk ketahanan pangan; dan</p></content>
+                          </point>
+                          <point eId="pasal_48__ayat_1__huruf_f">
+                            <num>f.</num>
+                            <content><p>penjagaan keseimbangan pembangunan perdesaan-perkotaan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_48__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai pelindungan terhadap kawasan lahan abadi pertanian pangan sebagaimana dimaksud pada ayat (1) huruf e diatur dengan Undang-Undang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_48__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Penataan ruang kawasan perdesaan diselenggarakan pada:</p></intro>
+                          <point eId="pasal_48__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>kawasan perdesaan yang merupakan bagian wilayah kabupaten; atau</p></content>
+                          </point>
+                          <point eId="pasal_48__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>kawasan yang secara fungsional berciri perdesaan yang mencakup 2 (dua) atau lebih wilayah kabupaten pada satu atau lebih wilayah provinsi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_48__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Kawasan perdesaan sebagaimana dimaksud pada ayat (1) dapat berbentuk kawasan agropolitan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_48__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai penataan ruang kawasan agropolitan diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_48__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai penataan ruang kawasan perdesaan diatur dengan peraturan pemerintah. Paragraf`2 Perencanaan Tata Ruang Kawasan Perdesaan</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_49">
+                    <num>49</num>
+                    <content><p>Rencana tata ruang kawasan perdesaan yang merupakan bagian wilayah kabupaten adalah bagian rencana tata ruang wilayah kabupaten.</p></content>
+                  </article>
+                  <article eId="pasal_50">
+                    <num>50</num>
+                      <paragraph eId="pasal_50__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penataan ruang kawasan perdesaan dalam 1 (satu) wilayah kabupaten dapat dilakukan pada tingkat wilayah kecamatan atau beberapa wilayah desa atau nama lain yang disamakan dengan desa yang merupakan bentuk detail dari penataan ruang wilayah kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_50__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Rencana tata ruang kawasan perdesaan yang mencakup 2 (dua) atau lebih wilayah kabupaten merupakan alat koordinasi dalam pelaksanaan pembangunan yang bersifat lintas wilayah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_50__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Rencana tata ruang sebagaimana dimaksud pada ayat (2) berisi struktur ruang dan pola ruang yang bersifat lintas wilayah administratif.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_51">
+                    <num>51</num>
+                      <paragraph eId="pasal_51__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Rencana tata ruang kawasan agropolitan merupakan rencana rinci tata ruang 1 (satu) atau beberapa wilayah kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_51__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Rencana tata ruang kawasan agropolitan memuat:</p></intro>
+                          <point eId="pasal_51__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>tujuan, kebijakan, dan strategi penataan ruang kawasan agropolitan;</p></content>
+                          </point>
+                          <point eId="pasal_51__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>rencana struktur ruang kawasan agropolitan yang meliputi sistem pusat kegiatan dan sistem jaringan prasarana kawasan agropolitan;</p></content>
+                          </point>
+                          <point eId="pasal_51__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>rencana pola ruang kawasan agropolitan yang meliputi kawasan lindung dan kawasan budi daya;</p></content>
+                          </point>
+                          <point eId="pasal_51__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>arahan pemanfaatan ruang kawasan agropolitan yang berisi indikasi program utama yang bersifat interdependen antardesa; dan</p></content>
+                          </point>
+                          <point eId="pasal_51__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>ketentuan pengendalian pemanfaatan ruang kawasan agropolitan yang berisi arahan peraturan zonasi kawasan agropolitan, arahan ketentuan perizinan, arahan ketentuan insentif dan disinsentif, serta arahan sanksi.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_kelima__paragraf_3">
+                <num>3</num>
+                <heading>Pemanfaatan Ruang Kawasan Perdesaan</heading>
+                  <article eId="pasal_52">
+                    <num>52</num>
+                      <paragraph eId="pasal_52__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemanfaatan ruang kawasan perdesaan yang merupakan bagian wilayah kabupaten merupakan bagian pemanfaatan ruang wilayah kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_52__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pemanfaatan ruang kawasan perdesaan yang merupakan bagian dari 2 (dua) atau lebih wilayah kabupaten dilaksanakan melalui penyusunan program pembangunan beserta pembiayaannya secara terkoordinasi antarwilayah kabupaten terkait.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_kelima__paragraf_4">
+                <num>4</num>
+                <heading>Pengendalian Pemanfaatan Ruang Kawasan Perdesaan</heading>
+                  <article eId="pasal_53">
+                    <num>53</num>
+                      <paragraph eId="pasal_53__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pengendalian pemanfaatan ruang kawasan perdesaan yang merupakan bagian wilayah kabupaten merupakan bagian pengendalian pemanfaatan ruang wilayah kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_53__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pengendalian pemanfaatan ruang kawasan perdesaan yang mencakup 2 (dua) atau lebih wilayah kabupaten dilaksanakan oleh setiap kabupaten.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_53__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Untuk kawasan perdesaan yang mencakup 2 (dua) atau lebih wilayah kabupaten yang mempunyai lembaga kerja sama antarwilayah kabupaten, pengendaliannya dapat dilaksanakan oleh lembaga dimaksud.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_6__bagian_kelima__paragraf_5">
+                <num>5</num>
+                <heading>Kerja Sama Penataan Ruang Kawasan Perdesaan</heading>
+                  <article eId="pasal_54">
+                    <num>54</num>
+                      <paragraph eId="pasal_54__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penataan ruang kawasan perdesaan yang mencakup 2 (dua) atau lebih wilayah kabupaten dilaksanakan melalui kerja sama antardaerah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_54__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai penataan ruang kawasan perdesaan sebagaimana dimaksud pada ayat (1) untuk kawasan agropolitan yang berada dalam 1 (satu) kabupaten diatur dengan peraturan daerah kabupaten, untuk kawasan agropolitan yang berada pada 2 (dua) atau lebih wilayah kabupaten diatur dengan peraturan daerah provinsi, dan untuk kawasan agropolitan yang berada pada 2 (dua) atau lebih wilayah provinsi diatur dengan peraturan pemerintah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_54__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Penataan ruang kawasan perdesaan diselenggarakan secara terintegrasi dengan kawasan perkotaan sebagai satu kesatuan pemanfaatan ruang wilayah kabupaten/kota.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_54__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Penataan ruang kawasan agropolitan diselenggarakan dalam keterpaduan sistem perkotaan wilayah dan nasional.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_54__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Keterpaduan sebagaimana dimaksud pada ayat (4) mencakup keterpaduan sistem permukiman, prasarana, sistem ruang terbuka, baik ruang terbuka hijau maupun ruang terbuka nonhijau.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PENGAWASAN PENATAAN RUANG</heading>
+          <article eId="pasal_55">
+            <num>55</num>
+              <paragraph eId="pasal_55__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk menjamin tercapainya tujuan penyelenggaraan penataan ruang sebagaimana dimaksud dalam Pasal 3, dilakukan pengawasan terhadap kinerja pengaturan, pembinaan, dan pelaksanaan penataan ruang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengawasan sebagaimana dimaksud pada ayat (1) terdiri atas tindakan pemantauan, evaluasi, dan pelaporan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_3">
+                <num>(3)</num>
+                <content><p>Pengawasan sebagaimana dimaksud pada ayat (2) dilaksanakan oleh Pemerintah dan pemerintah daerah sesuai dengan kewenangannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_4">
+                <num>(4)</num>
+                <content><p>Pengawasan Pemerintah dan pemerintah daerah sebagaimana dimaksud pada ayat (3) dilakukan dengan melibatkan peran masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_5">
+                <num>(5)</num>
+                <content><p>Peran masyarakat sebagaimana dimaksud pada ayat (4) dapat dilakukan dengan menyampaikan laporan dan/atau pengaduan kepada Pemerintah dan pemerintah daerah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_56">
+            <num>56</num>
+              <paragraph eId="pasal_56__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemantauan dan evaluasi sebagaimana dimaksud dalam Pasal 55 ayat (2) dilakukan dengan mengamati dan memeriksa kesesuaian antara penyelenggaraan penataan ruang dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_2">
+                <num>(2)</num>
+                <content><p>Apabila hasil pemantauan dan evaluasi sebagaimana dimaksud pada ayat (1) terbukti terjadi penyimpangan administratif dalam penyelenggaraan penataan ruang, Menteri, Gubernur, dan Bupati/Walikota mengambil langkah penyelesaian sesuai dengan kewenangannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal Bupati/Walikota tidak melaksanakan langkah penyelesaian sebagaimana dimaksud pada ayat (2), Gubernur mengambil langkah penyelesaian yang tidak dilaksanakan Bupati/Walikota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal Gubernur tidak melaksanakan langkah penyelesaian sebagaimana dimaksud pada ayat (2) dan ayat (3), Menteri mengambil langkah penyelesaian yang tidak dilaksanakan Gubernur.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_57">
+            <num>57</num>
+            <content><p>Dalam hal penyimpangan dalam penyelenggaraan penataan ruang sebagaimana dimaksud dalam Pasal 56 ayat (2), pihak yang melakukan penyimpangan dapat dikenai sanksi sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+              <paragraph eId="pasal_58__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk menjamin tercapainya tujuan penyelenggaraan penataan ruang sebagaimana dimaksud dalam Pasal 3, dilakukan pula pengawasan terhadap kinerja fungsi dan manfaat penyelenggaraan penataan ruang dan kinerja pemenuhan standar pelayanan minimal bidang penataan ruang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_58__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam rangka peningkatan kinerja fungsi dan manfaat penyelenggaraan penataan ruang wilayah nasional disusun standar pelayanan penyelenggaraan penataan ruang untuk tingkat nasional.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_58__ayat_3">
+                <num>(3)</num>
+                <content><p>Standar pelayanan minimal bidang penataan ruang sebagaimana dimaksud pada ayat (1) meliputi aspek pelayanan dalam perencanaan tata ruang, pemanfaatan ruang, dan pengendalian pemanfaatan ruang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_58__ayat_4">
+                <num>(4)</num>
+                <content><p>Standar pelayanan minimal sebagaimana dimaksud pada ayat (1) mencakup standar pelayanan minimal bidang penataan ruang provinsi dan standar pelayanan minimal bidang penataan ruang kabupaten/kota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_58__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan lebih lanjut mengenai standar pelayanan minimal bidang penataan ruang sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur dengan peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+              <paragraph eId="pasal_59__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengawasan terhadap penataan ruang pada setiap tingkat wilayah dilakukan dengan menggunakan pedoman bidang penataan ruang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengawasan sebagaimana dimaksud pada ayat (1) ditujukan pada pengaturan, pembinaan, dan pelaksanaan penataan ruang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara pengawasan terhadap pengaturan, pembinaan, dan pelaksanaan penataan ruang diatur dengan peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>HAK, KEWAJIBAN, DAN PERAN MASYARAKAT</heading>
+          <article eId="pasal_60">
+            <num>60</num>
+            <intro><p>Dalam penataan ruang, setiap orang berhak untuk:</p></intro>
+              <point eId="pasal_60__huruf_a">
+                <num>a.</num>
+                <content><p>mengetahui rencana tata ruang;</p></content>
+              </point>
+              <point eId="pasal_60__huruf_b">
+                <num>b.</num>
+                <content><p>menikmati pertambahan nilai ruang sebagai akibat penataan ruang;</p></content>
+              </point>
+              <point eId="pasal_60__huruf_c">
+                <num>c.</num>
+                <content><p>memperoleh penggantian yang layak atas kerugian yang timbul akibat pelaksanaan kegiatan pembangunan yang sesuai dengan rencana tata ruang;</p></content>
+              </point>
+              <point eId="pasal_60__huruf_d">
+                <num>d.</num>
+                <content><p>mengajukan keberatan kepada pejabat berwenang terhadap pembangunan yang tidak sesuai dengan rencana tata ruang di wilayahnya;</p></content>
+              </point>
+              <point eId="pasal_60__huruf_e">
+                <num>e.</num>
+                <content><p>mengajukan tuntutan pembatalan izin dan penghentian pembangunan yang tidak sesuai dengan rencana tata ruang kepada pejabat berwenang; dan</p></content>
+              </point>
+              <point eId="pasal_60__huruf_f">
+                <num>f.</num>
+                <content><p>mengajukan gugatan ganti kerugian kepada pemerintah dan/atau pemegang izin apabila kegiatan pembangunan yang tidak sesuai dengan rencana tata ruang menimbulkan kerugian.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <intro><p>Dalam pemanfaatan ruang, setiap orang wajib:</p></intro>
+              <point eId="pasal_61__huruf_a">
+                <num>a.</num>
+                <content><p>menaati rencana tata ruang yang telah ditetapkan;</p></content>
+              </point>
+              <point eId="pasal_61__huruf_b">
+                <num>b.</num>
+                <content><p>memanfaatkan ruang sesuai dengan izin pemanfaatan ruang dari pejabat yang berwenang;</p></content>
+              </point>
+              <point eId="pasal_61__huruf_c">
+                <num>c.</num>
+                <content><p>mematuhi ketentuan yang ditetapkan dalam persyaratan izin pemanfaatan ruang; dan</p></content>
+              </point>
+              <point eId="pasal_61__huruf_d">
+                <num>d.</num>
+                <content><p>memberikan akses terhadap kawasan yang oleh ketentuan peraturan perundang-undangan dinyatakan sebagai milik umum.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_62">
+            <num>62</num>
+            <content><p>Setiap orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 61, dikenai sanksi administratif.</p></content>
+          </article>
+          <article eId="pasal_63">
+            <num>63</num>
+            <intro><p>Sanksi administratif sebagaimana dimaksud dalam Pasal 62 dapat berupa:</p></intro>
+              <point eId="pasal_63__huruf_a">
+                <num>a.</num>
+                <content><p>peringatan tertulis;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_b">
+                <num>b.</num>
+                <content><p>penghentian sementara kegiatan;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_c">
+                <num>c.</num>
+                <content><p>penghentian sementara pelayanan umum;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_d">
+                <num>d.</num>
+                <content><p>penutupan lokasi;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_e">
+                <num>e.</num>
+                <content><p>pencabutan izin;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_f">
+                <num>f.</num>
+                <content><p>pembatalan izin;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_g">
+                <num>g.</num>
+                <content><p>pembongkaran bangunan;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_h">
+                <num>h.</num>
+                <content><p>pemulihan fungsi ruang; dan/atau</p></content>
+              </point>
+              <point eId="pasal_63__huruf_i">
+                <num>i.</num>
+                <content><p>denda administratif.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_64">
+            <num>64</num>
+            <content><p>Ketentuan lebih lanjut mengenai kriteria dan tata cara pengenaan sanksi administratif sebagaimana dimaksud dalam Pasal 63 diatur dengan peraturan pemerintah.</p></content>
+          </article>
+          <article eId="pasal_65">
+            <num>65</num>
+              <paragraph eId="pasal_65__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelenggaraan penataan ruang dilakukan oleh pemerintah dengan melibatkan peran masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_2">
+                <num>(2)</num>
+                <intro><p>Peran masyarakat dalam penataan ruang sebagaimana dimaksud pada ayat (1) dilakukan, antara lain, melalui:</p></intro>
+                  <point eId="pasal_65__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>partisipasi dalam penyusunan rencana tata ruang;</p></content>
+                  </point>
+                  <point eId="pasal_65__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>partisipasi dalam pemanfaatan ruang; dan</p></content>
+                  </point>
+                  <point eId="pasal_65__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>partisipasi dalam pengendalian pemanfaatan ruang.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara dan bentuk peran masyarakat dalam penataan ruang sebagaimana dimaksud pada ayat (1) diatur dengan peraturan pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_66">
+            <num>66</num>
+              <paragraph eId="pasal_66__ayat_1">
+                <num>(1)</num>
+                <content><p>Masyarakat yang dirugikan akibat penyelenggaraan penataan ruang dapat mengajukan gugatan melalui pengadilan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal masyarakat mengajukan gugatan sebagaimana dimaksud pada ayat (1), tergugat dapat membuktikan bahwa tidak terjadi penyimpangan dalam penyelenggaraan penataan ruang.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>PENYELESAIAN SENGKETA</heading>
+          <article eId="pasal_67">
+            <num>67</num>
+              <paragraph eId="pasal_67__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelesaian sengketa penataan ruang pada tahap pertama diupayakan berdasarkan prinsip musyawarah untuk mufakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal penyelesaian sengketa sebagaimana dimaksud pada ayat (1) tidak diperoleh kesepakatan, para pihak dapat menempuh upaya penyelesaian sengketa melalui pengadilan atau di luar pengadilan sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>PENYIDIKAN</heading>
+          <article eId="pasal_68">
+            <num>68</num>
+              <paragraph eId="pasal_68__ayat_1">
+                <num>(1)</num>
+                <content><p>Selain pejabat penyidik kepolisian negara Republik Indonesia, pegawai negeri sipil tertentu di lingkungan instansi pemerintah yang lingkup tugas dan tanggung jawabnya di bidang penataan ruang diberi wewenang khusus sebagai penyidik untuk membantu pejabat penyidik kepolisian negara Republik Indonesia sebagaimana dimaksud dalam Kitab Undang-Undang Hukum Acara Pidana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_2">
+                <num>(2)</num>
+                <intro><p>Penyidik pegawai negeri sipil sebagaimana dimaksud pada ayat (1) berwenang:</p></intro>
+                  <point eId="pasal_68__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan pemeriksaan atas kebenaran laporan atau keterangan yang berkenaan dengan tindak pidana dalam bidang penataan ruang;</p></content>
+                  </point>
+                  <point eId="pasal_68__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan pemeriksaan terhadap orang yang diduga melakukan tindak pidana dalam bidang penataan ruang;</p></content>
+                  </point>
+                  <point eId="pasal_68__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>meminta keterangan dan bahan bukti dari orang sehubungan dengan peristiwa tindak pidana dalam bidang penataan ruang;</p></content>
+                  </point>
+                  <point eId="pasal_68__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan pemeriksaan atas dokumen-dokumen yang berkenaan dengan tindak pidana dalam bidang penataan ruang;</p></content>
+                  </point>
+                  <point eId="pasal_68__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan pemeriksaan di tempat tertentu yang diduga terdapat bahan bukti dan dokumen lain serta melakukan penyitaan dan penyegelan terhadap bahan dan barang hasil pelanggaran yang dapat dijadikan bukti dalam perkara tindak pidana dalam bidang penataan ruang; dan</p></content>
+                  </point>
+                  <point eId="pasal_68__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>meminta bantuan tenaga ahli dalam rangka pelaksanaan tugas penyidikan tindak pidana dalam bidang penataan ruang.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_3">
+                <num>(3)</num>
+                <content><p>Penyidik pegawai negeri sipil sebagaimana dimaksud pada ayat (1) memberitahukan dimulainya penyidikan kepada pejabat penyidik kepolisian negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_4">
+                <num>(4)</num>
+                <content><p>Apabila pelaksanaan kewenangan sebagaimana dimaksud pada ayat (2) memerlukan tindakan penangkapan dan penahanan, penyidik pegawai negeri sipil melakukan koordinasi dengan pejabat penyidik kepolisian negara Republik Indonesia sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_5">
+                <num>(5)</num>
+                <content><p>Penyidik pegawai negeri sipil sebagaimana dimaksud pada ayat (1) menyampaikan hasil penyidikan kepada penuntut umum melalui pejabat penyidik kepolisian negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_6">
+                <num>(6)</num>
+                <content><p>Pengangkatan pejabat penyidik pegawai negeri sipil dan tata cara serta proses penyidikan dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_69">
+            <num>69</num>
+              <paragraph eId="pasal_69__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang tidak menaati rencana tata ruang yang telah ditetapkan sebagaimana dimaksud dalam Pasal 61 huruf a yang mengakibatkan perubahan fungsi ruang, dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_69__ayat_2">
+                <num>(2)</num>
+                <content><p>Jika tindak pidana sebagaimana dimaksud pada ayat (1) mengakibatkan kerugian terhadap harta benda atau kerusakan barang, pelaku dipidana dengan pidana penjara paling lama 8 (delapan) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_69__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika tindak pidana sebagaimana dimaksud pada ayat (1) mengakibatkan kematian orang, pelaku dipidana dengan pidana penjara paling lama 15 (lima belas) tahun dan denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_70">
+            <num>70</num>
+              <paragraph eId="pasal_70__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang memanfaatkan ruang tidak sesuai dengan izin pemanfaatan ruang dari pejabat yang berwenang sebagaimana dimaksud dalam Pasal 61 huruf b, dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_2">
+                <num>(2)</num>
+                <content><p>Jika tindak pidana sebagaimana dimaksud pada ayat (1) mengakibatkan perubahan fungsi ruang, pelaku dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika tindak pidana sebagaimana dimaksud pada ayat (1) mengakibatkan kerugian terhadap harta benda atau kerusakan barang, pelaku dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_4">
+                <num>(4)</num>
+                <content><p>Jika tindak pidana sebagaimana dimaksud pada ayat (1) mengakibatkan kematian orang, pelaku dipidana dengan pidana penjara paling lama 15 (lima belas) tahun dan denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_71">
+            <num>71</num>
+            <content><p>Setiap orang yang tidak mematuhi ketentuan yang ditetapkan dalam persyaratan izin pemanfaatan ruang sebagaimana dimaksud dalam Pasal 61 huruf c, dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_72">
+            <num>72</num>
+            <content><p>Setiap orang yang tidak memberikan akses terhadap kawasan yang oleh peraturan perundang-undangan dinyatakan sebagai milik umum sebagaimana dimaksud dalam Pasal 61 huruf d, dipidana dengan pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp100.000.000,00 (seratus juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_73">
+            <num>73</num>
+              <paragraph eId="pasal_73__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap pejabat pemerintah yang berwenang yang menerbitkan izin tidak sesuai dengan rencana tata ruang sebagaimana dimaksud dalam Pasal 37 ayat (7), dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_73__ayat_2">
+                <num>(2)</num>
+                <content><p>Selain sanksi pidana sebagaimana dimaksud pada ayat (1) pelaku dapat dikenai pidana tambahan berupa pemberhentian secara tidak dengan hormat dari jabatannya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_74">
+            <num>74</num>
+              <paragraph eId="pasal_74__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 69, Pasal 70, Pasal 71, dan Pasal 72 dilakukan oleh suatu korporasi, selain pidana penjara dan denda terhadap pengurusnya, pidana yang dapat dijatuhkan terhadap korporasi berupa pidana denda dengan pemberatan 3 (tiga) kali dari pidana denda sebagaimana dimaksud dalam Pasal 69, Pasal 70, Pasal 71, dan Pasal 72.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_74__ayat_2">
+                <num>(2)</num>
+                <intro><p>Selain pidana denda sebagaimana dimaksud pada ayat (1), korporasi dapat dijatuhi pidana tambahan berupa:</p></intro>
+                  <point eId="pasal_74__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>pencabutan izin usaha; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_74__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pencabutan status badan hukum.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_75">
+            <num>75</num>
+              <paragraph eId="pasal_75__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang menderita kerugian akibat tindak pidana sebagaimana dimaksud dalam Pasal 69, Pasal 70, Pasal 71, dan Pasal 72, dapat menuntut ganti kerugian secara perdata kepada pelaku tindak pidana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_75__ayat_2">
+                <num>(2)</num>
+                <content><p>Tuntutan ganti kerugian secara perdata sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan hukum acara pidana.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_76">
+            <num>76</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, semua peraturan pelaksanaan yang berkaitan dengan penataan ruang yang telah ada tetap berlaku sepanjang tidak bertentangan dan belum diganti berdasarkan Undang- Undang ini.</p></content>
+          </article>
+          <article eId="pasal_77">
+            <num>77</num>
+              <paragraph eId="pasal_77__ayat_1">
+                <num>(1)</num>
+                <content><p>Pada saat rencana tata ruang ditetapkan, semua pemanfaatan ruang yang tidak sesuai dengan rencana tata ruang harus disesuaikan dengan rencana tata ruang melalui kegiatan penyesuaian pemanfaatan ruang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_77__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemanfataan ruang yang sah menurut rencana tata ruang sebelumnya diberi masa transisi selama 3 (tiga) tahun untuk penyesuaian.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_77__ayat_3">
+                <num>(3)</num>
+                <content><p>Untuk pemanfaatan ruang yang izinnya diterbitkan sebelum penetapan rencana tata ruang dan dapat dibuktikan bahwa izin tersebut diperoleh sesuai dengan prosedur yang benar, kepada pemegang izin diberikan penggantian yang layak.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_13">
+        <num>XIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_78">
+            <num>78</num>
+              <paragraph eId="pasal_78__ayat_1">
+                <num>(1)</num>
+                <content><p>Peraturan pemerintah yang diamanatkan Undang- Undang ini diselesaikan paling lambat 2 (dua) tahun terhitung sejak Undang-Undang ini diberlakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_78__ayat_2">
+                <num>(2)</num>
+                <content><p>Peraturan presiden yang diamanatkan Undang- Undang ini diselesaikan paling lambat 5 (lima) tahun terhitung sejak Undang-Undang ini diberlakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_78__ayat_3">
+                <num>(3)</num>
+                <content><p>Peraturan Menteri yang diamanatkan Undang- Undang ini diselesaikan paling lambat 3 (tiga) tahun terhitung sejak Undang-Undang ini diberlakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_78__ayat_4">
+                <num>(4)</num>
+                <intro><p>Dengan berlakunya Undang-Undang ini:</p></intro>
+                  <point eId="pasal_78__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>Peraturan Pemerintah tentang Rencana Tata Ruang Wilayah Nasional disesuaikan paling lambat dalam waktu 1 (satu) tahun 6 (enam) bulan terhitung sejak Undang-Undang ini diberlakukan;</p></content>
+                  </point>
+                  <point eId="pasal_78__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>semua peraturan daerah provinsi tentang rencana tata ruang wilayah provinsi disusun atau disesuaikan paling lambat dalam waktu 2 (dua) tahun terhitung sejak Undang-Undang ini diberlakukan; dan</p></content>
+                  </point>
+                  <point eId="pasal_78__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>semua peraturan daerah kabupaten/kota tentang rencana tata ruang wilayah kabupaten/kota disusun atau disesuaikan paling lambat 3 (tiga) tahun terhitung sejak Undang-Undang ini diberlakukan.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_79">
+            <num>79</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, Undang- Undang Nomor 24 Tahun 1992 tentang Penataan Ruang (Lembaran Negara Republik Indonesia Tahun 1992 Nomor 115, Tambahan Lembaran Negara Nomor 3501) dicabut dan dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_80">
+            <num>80</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

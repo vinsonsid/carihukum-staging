@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/1992/7/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1992/7"/>
+          <FRBRdate date="1992-03-25" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/1992/7/ind@1992-03-25/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1992/7/ind@1992-03-25"/>
+          <FRBRdate date="1992-03-25" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/1992/7/ind@1992-03-25/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1992/7/ind@1992-03-25.akn"/>
+          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 7 Tahun 1992 tentang Perbankan</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-undang ini yang dimaksud dengan :</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Bank adalah badan usaha yang menghimpun dana dari masyarakat dalam bentuk simpanan, dan menyalurkannya kepada masyarakat dalam rangka meningkatkan taraf hidup rakyat banyak;</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Bank Umum adalah bank yang dapat memberikan jasa dalam lalu lintas pembayaran;</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Bank Perkreditan Rakyat adalah bank yang menerima simpanan hanya dalam bentuk deposito berjangka, tabungan, dan/atau bentuk lainnya yang dipersamakan dengan itu;</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Bank Campuran adalah Bank Umum yang didirikan bersama oleh satu atau lebih Bank Umum yang berkedudukan di Indonesia dan didirikan oleh warga negara Indonesia dan/atau badan hukum Indonesia yang dimiliki sepenuhnya oleh warga negara Indonesia, dengan satu atau lebih bank yang berkedudukan di luar negeri;</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Kantor Cabang adalah setiap kantor bank yang secara langsung bertanggung jawab kepada kantor pusat bank yang bersangkutan, dengan tempat usaha yang permanen dimana kantor cabang tersebut melakukan kegiatannya;</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Simpanan adalah dana yang dipercayakan oleh masyarakat kepada bank dalam bentuk giro, deposito berjangka, sertifikat deposito, tabungan, dan/atau bentuk lainnya yang dipersamakan dengan itu;</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Giro adalah simpanan yang dapat digunakan sebagai alat pembayaran dan penarikannya dapat dilakukan setiap saat dengan menggunakan cek, sarana perintah pembayaran lainnya, atau dengan cara pemindahbukuan;</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Deposito berjangka adalah simpanan yang penarikannya hanya dapat dilakukan pada waktu tertentu menurut perjanjian antara penyimpan dengan bank yang bersangkutan;</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Sertifikat Deposito adalah deposito berjangka yang bukti simpanannya dapat diperdagangkan;</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Tabungan adalah simpanan yang penarikannya hanya dapat dilakukan menurut syarat tertentu yang disepakati, tetapi tidak dapat ditarik dengan cek atau alat yang dapat dipersamakan dengan itu;</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Surat Berharga adalah surat pengakuan hutang, wesel, saham, obligasi, sekuritas kredit, atau setiap derivatif dari surat berharga atau kepentingan lain atau suatu kewajiban dari penerbit, dalam bentuk yang lazim diperdagangkan dalam pasar modal: dan pasar uang;</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Kredit adalah penyediaan uang atau tagihan yang dapat dipersamakan dengan itu, berdasarkan persetujuan atau kesepakatan pinjam-meminjam antara bank dengan pihak lain yang mewajibkan pihak peminjam untuk melunasi hutangnya setelah jangka waktu tertentu dengan jumlah bunga, imbalan atau pembagian hasil keuntungan;</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Penitipan adalah penyimpanan harta berdasarkan kontrak antara Bank Umum dengan penitip yang didalamnya ditentukan bahwa Bank Umum yang bersangkutan melakukan penyimpanan harta tanpa mempunyai hak kepemilikan atas harta tersebut;</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Wali Amanat adalah Bank Umum, yang berdasarkan suatu perjanjian antara Bank Umum tersebut dengan emiten surat berharga, ditunjuk untuk mewakili kepentingan semua pemegang surat berharga tersebut;</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <intro><p>Pihak Terafiliasi adalah:</p></intro>
+                  <point eId="pasal_1__angka_15__huruf_a">
+                    <num>a.</num>
+                    <content><p>anggota dewan komisaris atau pengawas, direksi, pejabat, atau karyawan bank;</p></content>
+                  </point>
+                  <point eId="pasal_1__angka_15__huruf_b">
+                    <num>b.</num>
+                    <content><p>anggota pengurus, badan pemeriksa, direksi, pejabat, atau karyawan bank, khusus bagi bank yang berbentuk hukum koperasi sesuai dengan peraturan perundang-undangan yang berlaku;</p></content>
+                  </point>
+                  <point eId="pasal_1__angka_15__huruf_c">
+                    <num>c.</num>
+                    <content><p>pihak yang memberikan jasanya kepada bank yang bersangkutan, termasuk konsultan, konsultan hukum, akuntan publik, penilai;</p></content>
+                  </point>
+                  <point eId="pasal_1__angka_15__huruf_d">
+                    <num>d.</num>
+                    <content><p>pihak yang berdasarkan ketentuan yang ditetapkan oleh Bank Indonesia turut serta mempengaruhi pengelolaan bank;</p></content>
+                  </point>
+
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Rahasia Bank adalah segala sesuatu yang berhubungan dengan keuangan dan hal-hal lain dari nasabah bank yang menurut kelaziman dunia perbankan wajib dirahasiakan;</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Bank Indonesia adalah Bank Sentral Republik Indonesia sebagaimana dimaksud dalam Undang-undang yang berlaku;</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Dewan Moneter adalah dewan moneter sebagaimana dimaksud dalam Undang-undang yang berlaku;</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Menteri adalah Menteri Keuangan Republik Indonesia; 20. Pemerintah adalah Pemerintah Republik Indonesia.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS, FUNGSI, DAN TUJUAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Perbankan Indonesia dalam melakukan usahanya berasaskan demokrasi ekonomi dengan menggunakan prinsip kehati-hatian.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <content><p>Fungsi utama perbankan Indonesia adalah sebagai penghimpun dan penyalur dana masyarakat.</p></content>
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Perbankan Indonesia bertujuan menunjang pelaksanaan pembangunan nasional dalam rangka meningkatkan pemerataan, pertumbuhan ekonomi, dan stabilitas nasional kearah peningkatan kesejahteraan rakyat banyak.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>JENIS DAN USAHA BANK</heading>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <intro><p>Menurut jenisnya, bank terdiri dari :</p></intro>
+                  <point eId="pasal_5__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Bank Umum;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Bank Perkreditan Rakyat.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Bank Umum dapat mengkhususkan diri untuk melaksanakan kegiatan tertentu atau memberikan perhatian yang lebih besar kepada kegiatan tertentu.</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Usahas Bank Umum</heading>
+              <article eId="pasal_6">
+                <num>6</num>
+                <intro><p>Usaha Bank Umum meliputi :</p></intro>
+                  <point eId="pasal_6__huruf_a">
+                    <num>a.</num>
+                    <content><p>menghimpun dana dari masyarakat dalam bentuk simpanan berupa giro, deposito berjangka, sertifikat deposito, tabungan, dan/atau bentuk lainnya yang dipersamakan dengan itu;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberikan kredit;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_c">
+                    <num>c.</num>
+                    <content><p>menerbitkan surat pengakuan hutang;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_d">
+                    <num>d.</num>
+                    <intro><p>membeli, menjual atau menjamin atas risiko sendiri maupun untuk kepentingan dan atas perintah nasabahnya:</p></intro>
+                      <point eId="pasal_6__huruf_d__angka_1">
+                        <num>1.</num>
+                        <content><p>surat-surat wesel termasuk wesel yang diakseptasi oleh bank yang masa berlakunya tidak lebih lama daripada kebiasaan dalam perdagangan surat-surat dimaksud;</p></content>
+                      </point>
+                      <point eId="pasal_6__huruf_d__angka_2">
+                        <num>2.</num>
+                        <content><p>surat pengakuan hutang dan kertas dagang lainnya yang masa berlakunya tidak lebih lama dari kebiasaan dalam perdagangan surat-surat dimaksud;</p></content>
+                      </point>
+                      <point eId="pasal_6__huruf_d__angka_3">
+                        <num>3.</num>
+                        <content><p>kertas perbendaharaan negara dan surat jaminan pemerintah;</p></content>
+                      </point>
+                      <point eId="pasal_6__huruf_d__angka_4">
+                        <num>4.</num>
+                        <content><p>Sertifikat Bank Indonesia (SBI);</p></content>
+                      </point>
+                      <point eId="pasal_6__huruf_d__angka_5">
+                        <num>5.</num>
+                        <content><p>obligasi;</p></content>
+                      </point>
+                      <point eId="pasal_6__huruf_d__angka_6">
+                        <num>6.</num>
+                        <content><p>surat dagang berjangka waktu sampai dengan 1 (satu) tahun;</p></content>
+                      </point>
+                      <point eId="pasal_6__huruf_d__angka_7">
+                        <num>7.</num>
+                        <content><p>instrumen surat berharga lain yang berjangka waktu sampai dengan 1 (satu) tahun;</p></content>
+                      </point>
+
+                  </point>
+                  <point eId="pasal_6__huruf_e">
+                    <num>e.</num>
+                    <content><p>memindahkan uang baik untuk kepentingan sendiri maupun untuk kepentingan nasabah;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_f">
+                    <num>f.</num>
+                    <content><p>menempatkan dana pada, meminjam dana dari, atau meminjamkan dana kepada bank lain, baik dengan menggunakan surat, sarana telekomunikasi maupun dengan wesel unjuk, cek atau sarana lainnya;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_g">
+                    <num>g.</num>
+                    <content><p>menerima pembayaran dari tagihan atas surat berharga dan melakukan perhitungan dengan atau antar pihak ketiga;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_h">
+                    <num>h.</num>
+                    <content><p>menyediakan tempat untuk menyimpan barang dan surat berharga;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_i">
+                    <num>i.</num>
+                    <content><p>melakukan kegiatan penitipan untuk kepentingan pihak lain berdasarkan suatu kontrak;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_j">
+                    <num>j.</num>
+                    <content><p>melakukan penempatan dana dari nasabah kepada nasabah lainnya dalam bentuk surat berharga yang tidak tercatat di bursa efek;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_k">
+                    <num>k.</num>
+                    <content><p>membeli melalui pelelangan agunan baik semua maupun sebagian dalam hal debitur tidak memenuhi kewajibannya kepada bank, dengan ketentuan agunan yang dibeli tersebut wajib dicairkan secepatnya;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_l">
+                    <num>l.</num>
+                    <content><p>melakukan kegiatan anjak piutang, usaha kartu kredit dan kegiatan wali amanat;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_m">
+                    <num>m.</num>
+                    <content><p>menyediakan pembiayaan bagi nasabah berdasarkan prinsip bagi hasil sesuai dengan ketentuan yang ditetapkan dalam Peraturan Pemerintah;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_n">
+                    <num>n.</num>
+                    <content><p>melakukan kegiatan lain yang lazim dilakukan oleh bank sepanjang tidak bertentangan dengan Undang-undang ini dan peraturan perundang-undangan yang berlaku.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_7">
+                <num>7</num>
+                <intro><p>Selain melakukan kegiatan usaha sebagaimana dimaksud dalam Pasal 6, Bank Umum dapat pula:</p></intro>
+                  <point eId="pasal_7__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan kegiatan dalam valuta asing dengan memenuhi ketentuan yang ditetapkan oleh Bank Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_7__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan kegiatan penyertaan modal pada bank atau perusahaan lain di bidang keuangan, seperti sewa guna usaha, modal ventura, perusahaan efek, asuransi, serta lembaga kliring penyelesaian dan penyimpanan, dengan memenuhi ketentuan yang ditetapkan oleh Bank Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_7__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan kegiatan penyertaan modal sementara untuk mengatasi akibat kegagalan kredit, dengan syarat harus menarik kembali penyertaannya, dengan memenuhi ketentuan yang ditetapkan oleh Bank Indonesia; dan</p></content>
+                  </point>
+                  <point eId="pasal_7__huruf_d">
+                    <num>d.</num>
+                    <content><p>bertindak sebagai pendiri dana pensiun dan pengurus dana pensiun sesuai dengan ketentuan dalam peraturan perundang-undangan dana pensiun yang berlaku.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_8">
+                <num>8</num>
+                <content><p>Dalam memberikan kredit, Bank Umum wajib mempunyai keyakinan atas kemampuan dan kesanggupan debitur untuk melunasi hutangnya sesuai dengan yang diperjanjikan.</p></content>
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Bank Umum yang menyelenggarakan kegiatan penitipan sebagai mana dimaksud dalam Pasal 6 huruf i, bertanggung jawab untuk menyimpan harta milik penitip, dan memenuhi kewajiban lain sesuai dengan kontrak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Harta yang dititipkan wajib dibukukan dan dicatat secara tersendiri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal bank mengalami kepailitan, semua harta yang dititip kan pada bank tersebut tidak dimasukkan dalam harta kepailitan dan wajib dikembalikan kepada penitip yang bersangkutan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                <intro><p>Bank Umum dilarang:</p></intro>
+                  <point eId="pasal_10__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan penyertaan modal, kecuali sebagaimana dimaksud dalam Pasal 7 huruf b dan huruf c;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan usaha perasuransian;</p></content>
+                  </point>
+                  <point eId="pasal_10__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan usaha lain di luar kegiatan usaha sebagaimana dimaksud dalam Pasal 6 dan Pasal 7.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Bank Indonesia menetapkan ketentuan mengenai batas maksimum pemberian kredit, pemberian jaminan, penempatan investasi surat berharga, atau hal lain yang serupa, yang dapat dilakukan oleh bank kepada peminjam atau sekelompok peminjam yang terkait, termasuk kepada perusahaan-perusahaan dalam kelompok yang sama dengan bank yang bersangkutan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Batas maksimum sebagaimana dimaksud dalam ayat (1) tidak boleh melebihi 30% (tiga puluh perseratus) dari modal bank yang sesuai dengan ketentuan yang ditetapkan oleh Bank Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Bank Indonesia menetapkan ketentuan mengenai batas maksimum pemberian kredit, pemberian jaminan, penempatan investasi surat berharga, atau hal lain yang serupa, yang dapat dilakukan oleh bank kepada:</p></intro>
+                      <point eId="pasal_11__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemegang saham yang memiliki 10% (sepuluh perseratus) atau lebih dari modal disetor bank;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>anggota dewan komisaris;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_c">
+                        <num>c.</num>
+                        <content><p>anggota direksi;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_d">
+                        <num>d.</num>
+                        <content><p>keluarga dari pihak sebagaimana dimaksud dalam huruf a, huruf b dan huruf c; dan</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_e">
+                        <num>e.</num>
+                        <content><p>pejabat bank lainnya; serta</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_f">
+                        <num>f.</num>
+                        <content><p>perusahaan-perusahaan yang didalamnya terdapat kepen tingan dari pihak-pihak sebagaimana dimaksud dalam huruf a, huruf b, huruf c, huruf d, dan huruf e.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Batas maksimum sebagaimana dimaksud dalam ayat (3) tidak boleh melebihi 10% (sepuluh perseratus) dari modal bank yang sesuai dengan ketentuan yang ditetapkan oleh Bank Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) dan ayat (3) wajib dilaporkan sesuai dengan ketentuan yang ditetapkan oleh Bank Indonesia.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                <content><p>Pemerintah dapat menugaskan Bank Umum untuk melaksanakan pro gram pemerintah guna mengembangkan sektor-sektor perekonomian tertentu, atau memberikan perhatian yang lebih besar pada koperasi dan pengusaha golongan ekonomi lemah/pengusaha kecil dalam rangka meningkatkan taraf hidup rakyat banyak, berdasarkan ketentuan yang diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Usaha Bank Perkreditan Rakyat</heading>
+              <article eId="pasal_13">
+                <num>13</num>
+                <intro><p>Usaha Bank Perkreditan Rakyat meliputi:</p></intro>
+                  <point eId="pasal_13__huruf_a">
+                    <num>a.</num>
+                    <content><p>menghimpun dana dari masyarakat dalam bentuk simpanan berupa deposito berjangka, tabungan, dan/atau bentuk lainnya yang dipersamakan dengan itu;</p></content>
+                  </point>
+                  <point eId="pasal_13__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberikan kredit;</p></content>
+                  </point>
+                  <point eId="pasal_13__huruf_c">
+                    <num>c.</num>
+                    <content><p>menyediakan pembiayaan bagi nasabah berdasarkan prinsip bagi hasil sesuai dengan ketentuan yang ditetapkan dalam Peraturan Pemerintah;</p></content>
+                  </point>
+                  <point eId="pasal_13__huruf_d">
+                    <num>d.</num>
+                    <content><p>menempatkan dananya dalam bentuk Sertifikat Bank Indonesia (SBI), deposito berjangka, sertifikat deposito dan/atau tabungan pada bank lain.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                <intro><p>Bank Perkreditan Rakyat dilarang:</p></intro>
+                  <point eId="pasal_14__huruf_a">
+                    <num>a.</num>
+                    <content><p>menerima simpanan berupa giro dan ikut serta dalam lalu lintas pembayaran;</p></content>
+                  </point>
+                  <point eId="pasal_14__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan kegiatan usaha dalam valuta asing;</p></content>
+                  </point>
+                  <point eId="pasal_14__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan penyertaan modal;</p></content>
+                  </point>
+                  <point eId="pasal_14__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan usaha perasuransian;</p></content>
+                  </point>
+                  <point eId="pasal_14__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan usaha lain di luar kegiatan usaha sebagaimana dimaksud dalam Pasal 13.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                <content><p>Ketentuan sebagaimana dimaksud dalam Pasal 8 dan Pasal 11 berlaku juga bagi Bank Perkreditan Rakyat.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PERIZINAN, BENTUK HUKUM DAN KEPEMILIKAN</heading>
+          <article eId="pasal_16">
+            <num>16</num>
+              <paragraph eId="pasal_16__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap pihak yang melakukan kegiatan menghimpun dana dari masyarakat dalam bentuk simpanan berupa giro, deposito berjangka, sertifikat deposito, tabungan, dan/atau bentuk lainnya yang dipersamakan dengan itu, wajib terlebih dahulu memperoleh izin usaha sebagai Bank Umum atau Bank Perkreditan Rakyat dari Menteri, kecuali apabila kegiatan menghimpun dana dari masyarakat dimaksud diatur dengan Undang-undang tersendiri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_2">
+                <num>(2)</num>
+                <content><p>Izin usaha Bank Umum dan Bank Perkreditan Rakyat diberikan oleh Menteri setelah mendengar pertimbangan Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_3">
+                <num>(3)</num>
+                <intro><p>Untuk mendapatkan izin usaha Bank Umum dan Bank Perkreditan Rakyat sebagaimana dimaksud dalam ayat (2) wajib dipenuhi persyaratan tentang:</p></intro>
+                  <point eId="pasal_16__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>susunan organisasi;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>permodalan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>kepemilikan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>keahlian di bidang perbankan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>kelayakan rencana kerja; dan</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_3__huruf_f">
+                    <num>f.</num>
+                    <content><p>hal-hal lain yang ditetapkan oleh Menteri, setelah mendengar pertimbangan Bank Indonesia.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_4">
+                <num>(4)</num>
+                <content><p>Untuk mendapatkan izin usaha Bank Perkreditan Rakyat, di samping memenuhi syarat-syarat sebagaimana dimaksud dalam ayat (3), wajib dipenuhi pula persyaratan tentang tempat kedudukan kantor pusat Bank Perkreditan Rakyat di kecamatan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_5">
+                <num>(5)</num>
+                <content><p>Tanpa mengurangi ketentuan sebagaimana dimaksud dalam ayat (4), dengan memenuhi ketentuan yang diatur lebih lanjut dalam Peraturan Pemerintah, Bank Perkreditan Rakyat dapat didirikan di ibukota kabupaten atau kotamadya, sepanjang di ibukota kabupaten atau kotamadya dimaksud belum terdapat Bank Perkreditan Rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_6">
+                <num>(6)</num>
+                <content><p>Persyaratan sebagaimana dimaksud dalam ayat (3), ayat (4), ayat (5), dan tata cara perizinannya diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+            <intro><p>Untuk mendapatkan izin usaha sebagai Bank Umum yang berbentuk bank campuran, wajib dipenuhi persyaratan sebagaimana dimaksud dalam Pasal 16 ayat (3) dan ayat (6), serta ketentuan yang ditetapkan dengan Peraturan Pemerintah, yang mengatur:</p></intro>
+              <point eId="pasal_17__huruf_a">
+                <num>a.</num>
+                <content><p>jumlah kepemilikan dan kepengurusan pihak asing yang diizinkan;</p></content>
+              </point>
+              <point eId="pasal_17__huruf_b">
+                <num>b.</num>
+                <content><p>pihak-pihak yang diizinkan bekerja sama;</p></content>
+              </point>
+              <point eId="pasal_17__huruf_c">
+                <num>c.</num>
+                <content><p>hal-hal lain yang menurut Dewan Moneter perlu diatur untuk kepentingan pembangunan nasional.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembukaan kantor cabang Bank Umum hanya dapat dilakukan dengan izin Menteri, setelah mendengar pertimbangan Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Pembukaan kantor cabang dan perwakilan Bank Umum di luar negeri hanya dapat dilakukan dengan izin Menteri, setelah mendengar pertimbangan Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_3">
+                <num>(3)</num>
+                <content><p>Pembukaan kantor di bawah kantor cabang Bank Umum wajib dilaporkan kepada Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_4">
+                <num>(4)</num>
+                <content><p>Persyaratan dan tata cara pembukaan kantor-kantor Bank Umum sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) ditetapkan oleh Menteri setelah mendengar pertimbangan Bank Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+              <paragraph eId="pasal_19__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembukaan kantor cabang Bank Perkreditan Rakyat di ibukota negara, ibukota propinsi, ibukota kabupaten dan kotamadya, hanya dapat dilakukan dengan izin Menteri, setelah mendengar pertimbangan Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_2">
+                <num>(2)</num>
+                <content><p>Pembukaan kantor cabang di luar ibukota negara, ibukota propinsi, ibukota kabupaten dan kotamadya, serta pembukaan kantor di bawah kantor cabang Bank Perkreditan Rakyat wajib dilaporkan kepada Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_3">
+                <num>(3)</num>
+                <content><p>Persyaratan dan tata cara pembukaan kantor-kantor Bank Perkreditan Rakyat sebagaimana dimaksud dalam ayat (1) dan ayat (2) ditetapkan oleh Menteri setelah mendengar pertimbangan Bank Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembukaan kantor cabang, kantor cabang pembantu dan kantor perwakilan dari suatu bank yang berkedudukan di luar negeri hanya dapat dilakukan dengan izin. Menteri, setelah mendengar pertimbangan Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Pembukaan kantor di bawah kantor cabang pembantu dari bank sebagaimana dimaksud dalam ayat (1) wajib dilaporkan kepada Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_3">
+                <num>(3)</num>
+                <content><p>Persyaratan dan tata cara pembukaan kantor-kantor sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Bentuk Hukum</heading>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Bentuk hukum suatu Bank Umum dapat berupa salah satu dari:</p></intro>
+                      <point eId="pasal_21__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Perusahaan Perseroan (PERSERO);</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Perusahaan Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>Koperasi;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>Perseroan Terbatas.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Bentuk hukum suatu Bank Perkreditan Rakyat dapat berupa salah satu dari:</p></intro>
+                      <point eId="pasal_21__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>Perusahaan Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>Koperasi;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>Perseroan Terbatas;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>Bentuk lain yang ditetapkan dengan Peraturan Pemerintah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Bentuk hukum dari kantor perwakilan dan kantor cabang bank yang berkedudukan di luar negeri mengikuti bentuk hukum kantor pusatnya.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Kepemilikan</heading>
+              <article eId="pasal_22">
+                <num>22</num>
+                <intro><p>Bank Umum hanya dapat didirikan oleh:</p></intro>
+                  <point eId="pasal_22__huruf_a">
+                    <num>a.</num>
+                    <content><p>Warga negara Indonesia dan/atau badan hukum Indonesia yang sepenuhnya dimiliki oleh warga negara Indonesia dan/atau badan hukum Indonesia; atau</p></content>
+                  </point>
+                  <point eId="pasal_22__huruf_b">
+                    <num>b.</num>
+                    <content><p>Bank yang pendirinya sebagaimana dimaksud dalam huruf a dengan bank yang berkedudukan di luar negeri.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_23">
+                <num>23</num>
+                <content><p>Bank Perkreditan Rakyat hanya dapat didirikan dan dimiliki oleh warga negara Indonesia, badan hukum Indonesia yang seluruh pemiliknya warga negara Indonesia, pemerintah daerah, atau dapat dimiliki bersama diantara ketiganya.</p></content>
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                <content><p>Bank Umum dan Bank Perkreditan Rakyat yang berbentuk hukum koperasi, kepemilikannya diatur berdasarkan ketentuan dalam Undang-undang tentang perkoperasian yang berlaku.</p></content>
+              </article>
+              <article eId="pasal_25">
+                <num>25</num>
+                <content><p>Bank Umum dan Bank Perkreditan Rakyat yang berbentuk hukum perseroan terbatas, sahamnya hanya dapat diterbitkan dalam bentuk saham atas nama.</p></content>
+              </article>
+              <article eId="pasal_26">
+                <num>26</num>
+                  <paragraph eId="pasal_26__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Bank Umum dapat melakukan emisi saham melalui bursa efek di Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Warga negara Indonesia, warga negara asing, badan hukum Indonesia dan/atau badan hukum asing dapat membeli saham Bank Umum yang dijual berdasarkan ketentuan sebagaimana dimaksud dalam ayat (1).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Warga negara asing dan/atau badan hukum asing dapat membeli saham Bank Umum melalui bursa efek, dengan ketentuan tidak menjadi mayoritas.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Khusus bagi Bank Umum milik negara, emisi saham sebagaimana dimaksud dalam ayat (1) hanya dapat dilakukan tanpa mengakibatkan perubahan atas mayoritas kepemilikan saham oleh negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (2), ayat (3), dan ayat (4) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_27">
+                <num>27</num>
+                <intro><p>Perubahan kepemilikan bank wajib:</p></intro>
+                  <point eId="pasal_27__huruf_a">
+                    <num>a.</num>
+                    <content><p>memenuhi ketentuan sebagaimana dimaksud dalam Pasal 16 ayat (6), Pasal 17, Pasal 22, Pasal 23, Pasal 24, Pasal 25, dan Pasal 26;</p></content>
+                  </point>
+                  <point eId="pasal_27__huruf_b">
+                    <num>b.</num>
+                    <content><p>dilaporkan kepada Bank Indonesia.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_28">
+                <num>28</num>
+                  <paragraph eId="pasal_28__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Merger dan konsolidasi antar bank, serta akuisisi bank wajib terlebih dahulu mendapat izin Menteri setelah mendengar pertimbangan Bank Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan mengenai merger, konsolidasi, dan akuisisi ditetapkan dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PEMBINAAN DAN PENGAWASAN</heading>
+          <article eId="pasal_29">
+            <num>29</num>
+              <paragraph eId="pasal_29__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembinaan dan pengawasan bank dilakukan oleh Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_2">
+                <num>(2)</num>
+                <content><p>Bank Indonesia menetapkan ketentuan tentang kesehatan bank dengan memperhatikan aspek permodalan, kualitas asset, kualitas manajemen, rentabilitas, likuiditas, solvabilitas, dan aspek lain yang berhubungan dengan usaha bank.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_3">
+                <num>(3)</num>
+                <content><p>Bank wajib memelihara kesehatan bank sesuai dengan ketentuan sebagaimana dimaksud dalam ayat (2) dan wajib melakukan usaha sesuai dengan prinsip kehati-hatian.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam memberikan kredit dan melakukan kegiatan usaha lainnya, bank wajib menempuh cara-cara yang tidak merugikan bank dan kepentingan nasabah yang mempercayakan dananya kepada bank.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_5">
+                <num>(5)</num>
+                <content><p>Untuk kepentingan nasabah., bank menyediakan informasi mengenai kemungkinan timbulnya risiko kerugian bagi transaksi nasabah yang dilakukan melalui bank.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_30">
+            <num>30</num>
+              <paragraph eId="pasal_30__ayat_1">
+                <num>(1)</num>
+                <content><p>Bank wajib menyampaikan kepada Bank Indonesia, segala keterangan, dan penjelasan mengenai usahanya menurut tata cara yang ditetapkan oleh Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_2">
+                <num>(2)</num>
+                <content><p>Bank atas permintaan Bank Indonesia, wajib memberikan kesempatan bagi pemeriksaan buku-buku dan berkas-berkas yang ada padanya, serta wajib memberikan bantuan yang diperlukan dalam rangka memperoleh kebenaran dari segala keterangan, dokumen dan penjelasan yang dilaporkan oleh bank yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_3">
+                <num>(3)</num>
+                <content><p>Keterangan tentang bank yang diperoleh berdasarkan ketentuan sebagaimana dimaksud dalam ayat (1) dan ayat (2) tidak diumumkan dan bersifat rahasia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_31">
+            <num>31</num>
+              <paragraph eId="pasal_31__ayat_1">
+                <num>(1)</num>
+                <content><p>Bank Indonesia melakukan pemeriksaan terhadap bank, baik secara berkala maupun setiap waktu apabila diperlukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_2">
+                <num>(2)</num>
+                <intro><p>Dalam hal diperlukan untuk menetapkan kebijaksanaan makro, dewan moneter dapat meminta Bank Indonesia untuk :</p></intro>
+                  <point eId="pasal_31__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>menyampaikan laporan mengenai hasil pemeriksaan bank yang diperlukan;</p></content>
+                  </point>
+                  <point eId="pasal_31__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan pemeriksaan khusus terhadap bank, dan melaporkan hasil pemeriksaan yang dilakukannya.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_32">
+            <num>32</num>
+            <content><p>Jika dianggap perlu, Menteri dapat pula meminta Bank Indonesia untuk menyampaikan laporan mengenai hasil pemeriksaan bank atau meminta Bank Indonesia untuk melakukan pemeriksaan khusus terhadap bank dan melaporkan hasil pemeriksaan yang dilakukannya.</p></content>
+          </article>
+          <article eId="pasal_33">
+            <num>33</num>
+              <paragraph eId="pasal_33__ayat_1">
+                <num>(1)</num>
+                <content><p>Laporan pemeriksaan bank sebagaimana dimaksud dalam Pasal 31 dan Pasal 32 bersifat rahasia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_2">
+                <num>(2)</num>
+                <content><p>Persyaratan dan tata cara pemeriksaan sebagaimana dimaksud dalam Pasal 31 dan Pasal 32 ditetapkan oleh Bank Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_34">
+            <num>34</num>
+              <paragraph eId="pasal_34__ayat_1">
+                <num>(1)</num>
+                <content><p>Bank wajib menyampaikan kepada Bank Indonesia neraca dan perhitungan laba/rugi tahunan serta penjelasannya, serta laporan berkala lainnya, dalam waktu dan bentuk yang ditetapkan oleh Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_2">
+                <num>(2)</num>
+                <content><p>Neraca serta perhitungan laba/rugi tahunan sebagaimana dimaksud dalam ayat (1) wajib terlebih dahulu diaudit oleh akuntan publik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_3">
+                <num>(3)</num>
+                <content><p>Tahun buku bank adalah tahun takwim.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_35">
+            <num>35</num>
+            <content><p>Bank wajib mengumumkan neraca dan perhitungan laba/rugi dalam waktu dan bentuk yang ditetapkan oleh Bank Indonesia.</p></content>
+          </article>
+          <article eId="pasal_36">
+            <num>36</num>
+            <content><p>Bank Indonesia dapat menetapkan pengecualian dari ketentuan sebagaimana dimaksud dalam Pasal 34 ayat (2) bagi Bank Perkreditan Rakyat.</p></content>
+          </article>
+          <article eId="pasal_37">
+            <num>37</num>
+              <paragraph eId="pasal_37__ayat_1">
+                <num>(1)</num>
+                <content><p>Apabila menurut penilaian Bank Indonesia suatu bank diperkirakan mengalami kesulitan yang membahayakan kelangsungan usahanya, Bank Indonesia memberitahukan hal tersebut kepada Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_2">
+                <num>(2)</num>
+                <intro><p>Dalam hal suatu bank mengalami kesulitan yang membahayakan kelangsungan usahanya, maka Bank Indonesia dapat:</p></intro>
+                  <point eId="pasal_37__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <intro><p>melakukan tindakan agar:</p></intro>
+                      <point eId="pasal_37__ayat_2__huruf_a__angka_1">
+                        <num>1.</num>
+                        <content><p>pemegang saham menambah modal;</p></content>
+                      </point>
+                      <point eId="pasal_37__ayat_2__huruf_a__angka_2">
+                        <num>2.</num>
+                        <content><p>pemegang saham mengganti dewan komisaris dan/atau direksi bank;</p></content>
+                      </point>
+                      <point eId="pasal_37__ayat_2__huruf_a__angka_3">
+                        <num>3.</num>
+                        <content><p>bank menghapus-bukukan kredit yang macet, dan memperhitungkan kerugian bank dengan modalnya;</p></content>
+                      </point>
+                      <point eId="pasal_37__ayat_2__huruf_a__angka_4">
+                        <num>4.</num>
+                        <content><p>bank melakukan merger atau konsolidasi dengan bank lain;</p></content>
+                      </point>
+                      <point eId="pasal_37__ayat_2__huruf_a__angka_5">
+                        <num>5.</num>
+                        <content><p>bank dijual kepada pembeli yang bersedia mengambil alih seluruh kewajiban;</p></content>
+                      </point>
+
+                  </point>
+                  <point eId="pasal_37__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>mengambil tindakan lain sesuai dengan peraturan perundang-undangan yang berlaku.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_3">
+                <num>(3)</num>
+                <intro><p>Apabila menurut penilaian Bank Indonesia:</p></intro>
+                  <point eId="pasal_37__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>keadaan suatu bank membahayakan sistem perbankan; atau</p></content>
+                  </point>
+                  <point eId="pasal_37__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>tindakan sebagaimana dimaksud dalam ayat (2) belum cukup untuk mengatasi kesulitan yang dihadapi bank; Bank Indonesia mengusulkan kepada Menteri untuk mencabut izin usaha bank tersebut.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_4">
+                <num>(4)</num>
+                <content><p>Berdasarkan usul Bank Indonesia sebagaimana dimaksud dalam ayat (3), Menteri mencabut izin usaha bank yang bersangkutan dan memerintahkan direksi untuk melikuidasi bank tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_5">
+                <num>(5)</num>
+                <content><p>Dalam hal direksi tidak melikuidasi bank sebagaimana dimaksud dalam ayat (4), Menteri setelah mendengar pertimbangan Bank Indonesia meminta kepada Pengadilan untuk melikuidasi bank yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>DEWAN KOMISARIS, DIREKSI DAN TENAGA ASING</heading>
+          <article eId="pasal_38">
+            <num>38</num>
+              <paragraph eId="pasal_38__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengangkatan keanggotaan dewan komisaris dan direksi bank, wajib memenuhi ketentuan sebagaimana dimaksud dalam Pasal 16 ayat (6) dan Pasal 17.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_2">
+                <num>(2)</num>
+                <content><p>Perubahan keanggotaan dewan komisaris dan direksi bank sebagaimana dimaksud dalam ayat (1) wajib dilaporkan kepada Bank Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_39">
+            <num>39</num>
+              <paragraph eId="pasal_39__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam menjalankan kegiatannya, bank dapat menggunakan tenaga asing.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_2">
+                <num>(2)</num>
+                <content><p>Persyaratan mengenai penggunaan tenaga asing sebagaimana dimaksud dalam ayat (1) ditetapkan dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>RAHASIA BANK</heading>
+          <article eId="pasal_40">
+            <num>40</num>
+              <paragraph eId="pasal_40__ayat_1">
+                <num>(1)</num>
+                <content><p>Bank dilarang memberikan keterangan yang tercatat pada bank tentang keadaan keuangan dan hal-hal lain dari nasabahnya, yang wajib dirahasiakan oleh bank menurut kelaziman dalam dunia perbankan, kecuali dalam hal sebagaimana dimaksud dalam Pasal 41, Pasal 42, Pasal 43, dan Pasal 44.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_40__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan sebagaimana dimaksud dalam ayat (1) berlaku pula bagi pihak terafiliasi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_41">
+            <num>41</num>
+              <paragraph eId="pasal_41__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk kepentingan perpajakan Menteri berwenang mengeluarkan perintah tertulis kepada Bank agar memberikan keterangan dan memperlihatkan bukti-bukti tertulis serta surat-surat mengenai keadaan keuangan nasabah tertentu kepada pejabat pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_2">
+                <num>(2)</num>
+                <content><p>Perintah tertulis sebagaimana dimaksud dalam ayat (1), harus menyebutkan nama pejabat pajak dan nama nasabah wajib pajak yang dikehendaki keterangannya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_42">
+            <num>42</num>
+              <paragraph eId="pasal_42__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk kepentingan peradilan dalam perkara pidana, Menteri dapat memberi izin kepada polisi, jaksa atau hakim untuk memperoleh keterangan dari bank tentang keadaan keuangan tersangka/terdakwa pada bank.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_2">
+                <num>(2)</num>
+                <content><p>Izin sebagaimana dimaksud dalam ayat (1) diberikan secara tertulis atas permintaan tertulis dari Kepala Kepolisian Republik Indonesia, Jaksa Agung, atau Ketua Mahkamah Agung.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_3">
+                <num>(3)</num>
+                <content><p>Permintaan sebagaimana dimaksud dalam ayat (2) harus menyebutkan nama dan jabatan polisi, jaksa atau hakim, nama tersangka/ terdakwa, sebab-sebab keterangan diperlukan dan hubungan perkara pidana yang bersangkutan dengan keterangan-keterangan yang diperlukan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_43">
+            <num>43</num>
+            <content><p>Dalam perkara perdata antara bank dengan nasabahnya, direksi bank yang bersangkutan dapat menginformasikan kepada pengadilan tentang keadaan keuangan nasabah yang bersangkutan dan memberikan keterangan lain yang relevan dengan perkara tersebut.</p></content>
+          </article>
+          <article eId="pasal_44">
+            <num>44</num>
+              <paragraph eId="pasal_44__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam rangka tukar menukar informasi antar bank, direksi bank dapat memberitahukan keadaan keuangan nasabahnya kepada bank lain.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai tukar menukar informasi sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut oleh Bank Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_45">
+            <num>45</num>
+            <content><p>Pihak yang merasa dirugikan oleh keterangan yang diberikan oleh bank sebagaimana dimaksud dalam Pasal 41, Pasal 42, Pasal 43, dan Pasal 44, berhak untuk mengetahui isi keterangan' tersebut dan meminta pembetulan jika terdapat kesalahan dalam keterangan yang diberikan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PIDANA DAN SANKSI ADMINISTRATIF</heading>
+          <article eId="pasal_46">
+            <num>46</num>
+              <paragraph eId="pasal_46__ayat_1">
+                <num>(1)</num>
+                <content><p>Barang siapa menghimpun dana dari masyarakat dalam bentuk simpanan berupa giro, deposito berjangka, sertifikat deposito, tabungan, dan/atau bentuk lainnya yang dipersamakan dengan itu tanpa izin usaha dari Menteri sebagaimana dimaksud dalam Pasal 16 dan Pasal 17, diancam dengan pidana penjara paling lama 15 (lima belas) tahun dan denda paling banyak Rp. 10.000.000.000,- (sepuluh milyar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal kegiatan sebagaimana dimaksud dalam ayat (1) dilakukan oleh badan hukum yang berbentuk perseroan terbatas, perserikatan, yayasan atau koperasi, maka penuntutan terhadap badan-badan dimaksud dilakukan baik terhadap mereka yang memberi perintah melakukan perbuatan itu atau yang bertindak sebagai pimpinan dalam perbuatan itu atau terhadap kedua-duanya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_47">
+            <num>47</num>
+              <paragraph eId="pasal_47__ayat_1">
+                <num>(1)</num>
+                <content><p>Barang siapa tanpa membawa perintah tertulis dari Menteri kepada bank sebagaimana dimaksud dalam Pasal 41 atau tanpa izin Menteri sebagaimana dimaksud dalam Pasal 42, dengan sengaja memaksa bank atau pihak terafiliasi untuk memberikan keterangan sebagaimana dimaksud dalam Pasal 40, diancam dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling banyak Rp. 3.000.000.000,- (tiga milyar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_2">
+                <num>(2)</num>
+                <content><p>Anggota dewan komisaris, direksi, pegawai bank atau pihak terafiliasi lainnya yang dengan sengaja memberikan keterangan yang wajib dirahasiakan menurut Pasal 40, diancam dengan pidana penjara paling lama 2 (dua) tahun dan denda paling banyak Rp. 2.000.000.000,- (dua milyar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_48">
+            <num>48</num>
+              <paragraph eId="pasal_48__ayat_1">
+                <num>(1)</num>
+                <content><p>Anggota dewan komisaris, direksi atau pegawai bank yang dengan sengaja tidak memberikan keterangan yang wajib dipenuhi sebagaimana dimaksud dalam Pasal 30 ayat (1) dan ayat (2) dan Pasal 34 ayat (1) dan ayat (2), diancam dengan pidana penjara paling lama 2 (dua) tahun dan denda paling banyak Rp. 2.000.000.000,- (dua milyar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_2">
+                <num>(2)</num>
+                <content><p>Anggota dewan komisaris, direksi atau pegawai bank yang lalai memberikan keterangan yang wajib dipenuhi sebagaimana dimaksud dalam Pasal 30 ayat (1) dan ayat (2) dan Pasal 34 ayat (1) dan ayat (2), diancam dengan pidana kurungan paling lama 1 (satu) tahun dan/atau denda paling banyak Rp. 1.000.000.000,- (satu milyar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+              <paragraph eId="pasal_49__ayat_1">
+                <num>(1)</num>
+                <intro><p>Anggota dewan komisaris, direksi atau pegawai bank yang dengan sengaja:</p></intro>
+                  <point eId="pasal_49__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>membuat atau menyebabkan adanya pencatatan palsu dalam pembukuan atau dalam laporan, maupun dalam dokumen atau laporan kegiatan usaha, laporan transaksi atau rekening suatu bank;</p></content>
+                  </point>
+                  <point eId="pasal_49__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>menghilangkan atau tidak memasukkan atau menyebabkan tidak dilakukannya pencatatan dalam pembukuan atau dalam laporan, maupun dalam dokumen atau laporan kegiatan usaha, laporan transaksi atau rekening suatu bank;</p></content>
+                  </point>
+                  <point eId="pasal_49__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>mengubah, mengaburkan, menyembunyikan, menghapus, atau menghilangkan adanya suatu pencatatan dalam pembukuan atau dalam laporan, maupun dalam dokumen atau laporan kegiatan usaha, laporan transaksi atau rekening suatu bank, atau dengan sengaja mengubah, mengaburkan, menghilangkan, menyembunyikan atau merusak catatan pembukuan tersebut, diancam dengan pidana penjara paling lama 15 (lima belas) tahun dan denda paling banyak Rp. 10.000.000.000,- (sepuluh milyar rupiah).</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_2">
+                <num>(2)</num>
+                <intro><p>Anggota dewan komisaris, direksi atau pegawai bank yang dengan sengaja:</p></intro>
+                  <point eId="pasal_49__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>meminta atau menerima, mengizinkan atau menyetujui untuk menerima suatu imbalan, komisi, uang tambahan, pelayanan, uang atau barang berharga, untuk keuntungan pribadinya atau untuk keuntungan keluarganya, dalam rangka mendapatkan atau berusaha mendapatkan bagi orang lain dalam memperoleh uang muka, bank garansi, atau fasilitas kredit dari bank, atau dalam rangka pembelian atau pendiskontoan oleh bank atas surat-surat wesel, surat promes, cek, dan kertas dagang atau bukti kewajiban lainnya, ataupun dalam rangka memberikan persetujuan bagi orang lain untuk melaksanakan penarikan dana yang melebihi batas kreditnya pada bank;</p></content>
+                  </point>
+                  <point eId="pasal_49__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>tidak melaksanakan langkah-langkah yang diperlukan untuk memastikan ketaatan bank terhadap ketentuan dalam Undang-undang ini dan ketentuan peraturan perundang-undangan lainnya yang berlaku bagi bank, diancam dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp. 6.000.000.000,- (enam milyar rupiah).</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_50">
+            <num>50</num>
+            <content><p>Pihak terafiliasi yang dengan sengaja tidak melaksanakan langkah-langkah yang diperlukan untuk memastikan ketaatan bank terhadap ketentuan dalam Undang-undang ini dan peraturan perundang-undangan lainnya yang berlaku bagi bank diancam dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp. 6.000.000.000,- (enam milyar rupiah).</p></content>
+          </article>
+          <article eId="pasal_51">
+            <num>51</num>
+              <paragraph eId="pasal_51__ayat_1">
+                <num>(1)</num>
+                <content><p>Tindak pidana sebagaimana dimaksud dalam Pasal 46, Pasal 47, Pasal 48 ayat (1), Pasal 49, dan Pasal 50 adalah kejahatan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_2">
+                <num>(2)</num>
+                <content><p>Tindak pidana sebagaimana dimaksud dalam Pasal 48 ayat (2) adalah pelanggaran.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_52">
+            <num>52</num>
+            <content><p>Dengan tidak mengurangi ketentuan pidana sebagaimana dimaksud dalam Pasal 47, Pasal 48, dan Pasal 49, Bank Indonesia dapat menetapkan sanksi administratif kepada bank yang tidak memenuhi kewajibannya sebagaimana ditentukan dalam Undang-undang ini atau menyampaikan pertimbangan kepada Menteri untuk mencabut izin usaha bank yang bersangkutan.</p></content>
+          </article>
+          <article eId="pasal_53">
+            <num>53</num>
+            <content><p>Dengan tidak mengurangi ketentuan pidana sebagaimana dimaksud dalam Pasal 50, Bank Indonesia dapat menetapkan sanksi administratif kepada pihak terafiliasi yang tidak memenuhi kewajibannya sebagaimana ditentukan dalam Undang-undang ini atau menyampaikan pertimbangan kepada instansi yang berwenang untuk mencabut izin yang bersangkutan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_54">
+            <num>54</num>
+              <paragraph eId="pasal_54__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dengan berlakunya Undang-undang ini :</p></intro>
+                  <point eId="pasal_54__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Peraturan Pemerintah Pengganti Undang-undang Nomor 21 Tahun 1960 tentang Bank Pembangunan Indonesia (Lembaran Negara Tahun 1960 Nomor 65, Tambahan Lembaran Negara Nomor 1996);</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Undang-undang Nomor 13 Tahun 1962 tentang Ketentuan-ketentuan Pokok Bank Pembangunan Daerah (Lembaran Negara Tahun 1962 Nomor 59, Tambahan Lembaran Negara Nomor 2490);</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Undang-undang Nomor 17 Tahun 1968 tentang Bank Negara Indonesia 1946 (Lembaran Negara Tahun 1968 Nomor 70, Tambahan Lembaran Negara Nomor 2870);</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>Undang-undang Nomor 18 Tahun 1968 tentang Bank Dagang Negara (Lembaran Negara Tahun 1968 Nomor 71, Tambahan Lembaran Negara Nomor 2871);</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>Undang-undang Nomor 19 Tahun 1968 tentang Bank Bumi Daya (Lembaran Negara Tahun 1968 Nomor 72, Tambahan Lembaran Negara Nomor 2872);</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>Undang-undang Nomor 20 Tahun 1968 tentang Bank Tabungan Negara (Lembaran Negara Tahun 1968 Nomor 73, Tambahan Lembaran Negara Nomor 2873);</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>Undang-undang Nomor 21 Tahun 1968 tentang Bank Rakyat Indonesia (Lembaran Negara Tahun 1968 Nomor 74, Tambahan Lembaran Negara Nomor 2874);</p></content>
+                  </point>
+                  <point eId="pasal_54__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>Undang-undang Nomor 22 Tahun 1968 tentang Bank Ekspor Impor Indonesia (Lembaran Negara Tahun 1968 Nomor 75, Tambahan Lembaran Negara Nomor 2875), dinyatakan tetap berlaku untuk jangka waktu selama-lamanya 1 (satu) tahun sejak mulai berlakunya Undang-undang ini.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_54__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam jangka waktu sebagaimana dimaksud dalam ayat (1), bank yang didirikan berdasarkan Undang-undang sebagaimana dimaksud dalam ayat (1) wajib memenuhi ketentuan dalam Undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_54__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal bank sebagaimana dimaksud dalam ayat (2) telah menyesuaikan dengan ketentuan dalam Undang-undang ini lebih awal dari jangka waktu sebagaimana dimaksud dalam ayat (1), maka Undang-undang sebagaimana dimaksud dalam ayat (1), menjadi tidak berlaku lagi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_55">
+            <num>55</num>
+              <paragraph eId="pasal_55__ayat_1">
+                <num>(1)</num>
+                <content><p>Bank yang telah memiliki izin usaha dari Menteri pada saat Undang- undang ini mulai berlaku, dinyatakan telah memperoleh izin usaha berdasarkan Undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_2">
+                <num>(2)</num>
+                <content><p>Bank sebagaimana dimaksud dalam ayat (1) wajib menyesuaikan dengan ketentuan dalam Undang-undang ini selambat-lambatnya dalam jangka waktu 1 (satu) tahun sejak mulai berlakunya Undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_3">
+                <num>(3)</num>
+                <content><p>Bank Perkreditan Rakyat yang telah mempunyai izin usaha pada saat Undang-undang ini mulai berlaku, dan berkedudukan di ibukota negara, ibukota propinsi, ibukota kabupaten, dan kotamadya, tetap dapat melanjutkan usahanya sebagai Bank Perkreditan Rakyat hingga dapat ditingkatkan menjadi Bank Umum.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_56">
+            <num>56</num>
+            <content><p>Ketentuan batas maksimum pemberian kredit sebagaimana dimaksud dalam Pasal 11 ayat (2) dan ayat (4), wajib dipenuhi oleh bank selambat-lambatnya dalam jangka waktu 5 (lima) tahun sejak mulai berlakunya Undang-undang ini.</p></content>
+          </article>
+          <article eId="pasal_57">
+            <num>57</num>
+            <content><p>Lembaga Keuangan Bukan Bank yang telah memiliki izin usaha dari Menteri pada saat Undang-undang ini mulai berlaku, dapat menyesuaikan kegiatan usahanya sebagai bank berdasarkan ketentuan dalam Undang-undang ini, selambat-lambatnya dalam jangka waktu 1 (satu) tahun sejak mulai berlakunya Undang-undang ini.</p></content>
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+            <content><p>Bank Desa, Lumbung Desa, Bank Pasar, Bank Pegawai, Lumbung Pitih Nagari (LPN), Lembaga Perkreditan Desa (LPD), Badan Kredit Desa (BKD), Badan Kredit Kecamatan (BKK), Kredit Usaha Rakyat Kecil (KURK), Lembaga Perkreditan Kecamatan (LPK), Bank Karya Produksi Desa (BKPD) dan/atau lembaga-lembaga lainnya yang dipersamakan dengan itu diberikan status sebagai Bank Perkreditan Rakyat berdasarkan Undang-undang ini dengan memenuhi persyaratan tata cara yang ditetapkan dengan Peraturan Pemerintah.</p></content>
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+            <content><p>Peraturan perundang-undangan yang telah dikeluarkan sebelum berlakunya Undang-undang ini sepanjang tidak bertentangan dengan Undang-n undang ini, dinyatakan tetap berlaku sampai dengan dicabut, diganti atau diperbaharui.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_60">
+            <num>60</num>
+            <intro><p>Dengan berlakunya Undang-undang ini maka :</p></intro>
+              <point eId="pasal_60__huruf_a">
+                <num>a.</num>
+                <content><p>Staatsblad Tahun 1929 Nomor 357 tanggal 14 September 1929 tentang Aturan-aturan mengenai Badan-badan Kredit Desa dalam propinsi-propinsi di Jawa dan Madura di luar wilayah kotapraja-kotapraja;</p></content>
+              </point>
+              <point eId="pasal_60__huruf_b">
+                <num>b.</num>
+                <content><p>Undang-undang Nomor 12 Tahun 1962 tentang Bank Pembangunan Swasta (Lembaran Negara Tahun 1962 Nomor 58, Tambahan Lembaran Negara Nomor 2489);</p></content>
+              </point>
+              <point eId="pasal_60__huruf_c">
+                <num>c.</num>
+                <content><p>Undang-undang Nomor 14 Tahun 1967 tentang Pokok-pokok Perbankan (Lembaran Negara Tahun 1967 Nomor 34, Tambahan Lembaran Negara Nomor 2842), dinyatakan tidak berlaku lagi.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <content><p>Undang-undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

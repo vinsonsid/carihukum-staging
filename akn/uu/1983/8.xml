@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/1983/8/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1983/8"/>
+          <FRBRdate date="1983-12-31" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/1983/8/ind@1984-07-01/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1983/8/ind@1984-07-01"/>
+          <FRBRdate date="1984-07-01" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/1983/8/ind@1984-07-01/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1983/8/ind@1984-07-01.akn"/>
+          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM PASAL 1</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+              <paragraph eId="pasal_2__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal Harga Jual atau Penggantian dipengaruhi oleh hubungan istimewa, maka Harga Jual atau Penggantian dihitung atas dasar harga pasar wajar pada saat penyerahan Barang Kena Pajak atau Jasa Kena Pajak itu dilakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_2">
+                <num>(2)</num>
+                <intro><p>Hubungan istimewa sebagaimana dimaksud dalam ayat (1) di- anggap ada apabila:</p></intro>
+                  <point eId="pasal_2__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>dua atau lebih Pengusaha, langsung atau tidak langsung berada di bawah pemilikan atau penguasaan Pengusaha yang sama, atau</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pengusaha yang satu menyertakan modal sebesar 25% (dua puluh lima persen) atau lebih dari jumlah modal pada Pengusaha yang lain, atau hubungan antara Pengusaha yang menyertakan modalnya sebesar 25% (dua puluh lima persen) atau lebih pada dua pihak atau lebih, demikian pula hubungan antara dua pihak atau lebih yang disebutkan terakhir.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>PENGUKUHAN PENGUSAHA KENA PAJAK</heading>
+          <article eId="pasal_3">
+            <num>3</num>
+              <paragraph eId="pasal_3__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengusaha yang berdasarkan ketentuan Pasal 4 ayat (1) huruf a dan d dikenakan pajak, wajib melaporkan usahanya kepada Direktorat Jenderal Pajak di tempat Pengusaha itu bertempat tinggal atau berkedudukan untuk dikukuhkan menjadi Pengusaha Kena Pajak dalam jangka waktu yang ditentukan dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_2">
+                <num>(2)</num>
+                <content><p>Orang atau badan yang mengekspor barang dan/atau menyerahkan Barang Kena Pajak di Daerah Pabean kepada Pengusaha Kena Pajak, dapat memilih untuk dikukuhkan menjadi Pengusaha Kena Pajak di tempat orang atau badan itu bertempat tinggal atau berkedudukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_3">
+                <num>(3)</num>
+                <content><p>Direktur Jenderal Pajak mengeluarkan Surat Keputusan Pengukuhan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_4">
+                <num>(4)</num>
+                <content><p>Pengusaha Kena Pajak yang tidak melaporkan usahanya sebagaimana dimaksud dalam ayat (1), wajib menyetor pajak yang terhutang dengan sanksi berupa denda administrasi sebesar 2% (dua persen) dari Dasar Pengenaan Pajak.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>OBYEK PAJAK DAN KEWAJIBAN PENCATATAN</heading>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pajak Pertambahan Nilai dikenakan atas:</p></intro>
+                  <point eId="pasal_4__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>penyerahan Barang Kena Pajak yang dilakukan di Daerah Pabean dalam lingkungan perusahaan atau pekerjaan oleh Pengusaha yang: 1) menghasilkan Barang Kena Pajak tersebut; 2) mengimpor Barang Kena Pajak tersebut; 3) mempunyai hubungan istimewa dengan Pengusaha yang dimaksud pada huruf a angka 1) dan angka 2); 4) bertindak sebagai penyalur utama atau agen utama dari Pengusaha yang dimaksud pada huruf a angka 1) dan angka 2); 5) menjadi pemegang hak atau pemegang hak menggunakan paten dan merek dagang dari Barang Kena Pajak tersebut;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>penyerahan Barang Kena Pajak kepada Pengusaha Kena Pajak yang dilakukan di Daerah Pabean dalam lingkungan perusahaan atau pekerjaan oleh Pengusaha yang memilih untuk dikukuhkan menjadi Pengusaha Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>impor Barang Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>penyerahan Jasa Kena Pajak.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <intro><p>Dengan Peraturan Pemerintah :</p></intro>
+                  <point eId="pasal_4__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>Pajak Pertambahan Nilai dapat diberlakukan terhadap semua penyerahan Barang Kena Pajak yang diberlakukan di Daerah Pabean oleh pedagang besar atau pedagang eceran dalam lingkungan perusahaan atau pekerjaannya;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>diatur penyerahan jenis-jenis jasa yang dikenakan Pajak Pertambahan Nilai.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <intro><p>Di samping pengenaan pajak sebagaimana dimaksud dalam Pasal 4, dikenakan juga Pajak Penjualan Atas Barang Mewah terhadap :</p></intro>
+                  <point eId="pasal_5__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>penyerahan Barang Mewah yang dilakukan oleh Pengusaha yang menghasilkan Barang Mewah di Daerah Pabean dalam lingkungan perusahaan atau pekerjaannya;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>impor Barang Mewah.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Pajak Penjualan atas Barang Mewah dikenakan hanya satu kali pada waktu penyerahan oleh Pengusaha yang menghasilkan atau pada waktu impor.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Pengusaha Kena Pajak diwajibkan mencatat semua jumlah harga perolehan dan penyerahan Barang Kena Pajak atau Jasa Kena Pajak dalam pembukuan perusahaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Pada catatan dalam pembukuan itu harus dicantumkan secara terpisah dan jelas, jumlah harga perolehan dan penyerahan Barang atau Jasa yang terhutang pajak, yang tidak terhutang pajak, yang dikenakan tarif 0% (nol persen), dan yang dikenakan Pajak Penjualan Atas Barang Mewah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_3">
+                <num>(3)</num>
+                <content><p>Pengusaha yang berdasarkan Undang-undang Pajak Penghasilan 1984 memilih dikenakan pajak dengan pedoman norma penghitungan, sepanjang terhutang Pajak Pertambahan Nilai Barang dan Jasa, wajib membuat catatan nilai peredaran bruto secara teratur, yang menjadi Dasar Pengenaan Pajak Pertambahan Nilai itu.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>TARIF PAJAK DAN CARA MENGHITUNG PAJAK</heading>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <content><p>Tarif Pajak Pertambahan Nilai berjumlah 10% (sepuluh persen),</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Atas ekspor Barang dikenakan pajak dengan tarif 0% (nol persen),</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_3">
+                <num>(3)</num>
+                <content><p>Dengan Peraturan Pemerintah, tarif pajak sebagaimana ditentukan dalam ayat (1) dapat diubah menjadi serendah-rendahnya 5% (lima persen) dan setinggi-tingginya 15% (lima belas per-sen).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+              <paragraph eId="pasal_8__ayat_1">
+                <num>(1)</num>
+                <content><p>Tarif Pajak Penjualan Atas Barang Mewah adalah 10% (sepuluh persen) dan 20% (dua puluh persen).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2">
+                <num>(2)</num>
+                <content><p>Atas ekspor Barang Mewah dikenakan pajak dengan tarif 0% (nol persen).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_3">
+                <num>(3)</num>
+                <content><p>Dengan Peraturan Pemerintah tarif pajak sebagaimana ditentukan pada ayat (1) dapat diubah menjadi setinggi-tingginya 35% (tiga puluh lima persen).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_4">
+                <num>(4)</num>
+                <content><p>Dengan Peraturan Pemerintah ditetapkan Kelompok Barang yang dikenakan Pajak Penjualan Atas Barang Mewah sebagaimana dimaksud dalam ayat (1).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_5">
+                <num>(5)</num>
+                <content><p>Macam dan jenis Barang yang dikenakan Pajak Penjualan Atas Barang Mewah menurut ayat (4) diatur oleh Menteri Keuangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Pajak Pertambahan Nilai yang terhutang dalam suatu Masa Pajak dihitung dengan mengalihkan tarif sebagaimana diatur dalam Pasal 7 dengan Dasar Pengenaan Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <content><p>Pajak Masukan dalam suatu Masa Pajak dapat dikreditkan dengan Pajak Keluaran untuk masa yang sama.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_3">
+                <num>(3)</num>
+                <content><p>Apabila dalam suatu Masa Pajak, Pajak Keluaran lebih besar dari pada Pajak Masukan, maka selisihnya merupakan pajak yang harus dibayar oleh Pengusaha Kena Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_4">
+                <num>(4)</num>
+                <content><p>Apabila dalam suatu Masa Pajak, Pajak Masukan lebih besar dari pada Pajak Keluaran, maka selisihnya merupakan kelebihan pajak yang dapat dikompensasikan dengan pajak terhutang dalam Masa Pajak berikutnya, atau dapat dikembalikan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_5">
+                <num>(5)</num>
+                <content><p>Apabila dalam suatu Masa Pajak, Pengusaha Kena Pajak di samping melakukan penyerahan kena pajak juga melakukan penyerahan tidak kena pajak, sepanjang bagian penyerahan kena pajak itu dapat diketahui dengan pasti dari catatan dalam pembukuan, maka jumlah Pajak Masukan yang dapat dikreditkan hanya sebesar Pajak Masukan yang telah dibayar pada waktu perolehan atau pengimporan Barang Kena Pajak yang diserahkan kepada Pengusaha Kena Pajak, atau yang dipakai untuk menghasilkan Barang Kena Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_6">
+                <num>(6)</num>
+                <content><p>Dalam hal bagian penyerahan kena pajak maupun bagian penyerahan tidak kena pajak sebagaimana dimaksud dalam ayat (5) tidak dapat diketahui dengan pasti, Menteri Keuangan dapat menetapkan suatu pedoman penghitungan jumlah Pajak Masukan yang dapat dikreditkan untuk bagian penyerahan kena pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_7">
+                <num>(7)</num>
+                <content><p>Pengusaha yang berdasarkan Undang-undang Pajak Penghasilan 1984 memilih dikenakan pajak dengan pedoman Norma Penghitungan, sepanjang terhutang Pajak Pertambahan Nilai, dapat mengkreditkan Pajak Masukan yang telah dibayar terhadap Pajak Keluaran yang harus dipungut, dengan mempergunakan pedoman penghitungan kredit Pajak Masukan yang ditetapkan dengan Keputusan Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_8">
+                <num>(8)</num>
+                <intro><p>Pajak Masukan tidak dapat dikreditkan menurut cara yang diatur dalam ayat (2) bagi pengeluaran untuk:</p></intro>
+                  <point eId="pasal_9__ayat_8__huruf_a">
+                    <num>a.</num>
+                    <content><p>pembelian Barang atau Jasa sebelum Pengusaha dikukuhkan menjadi Pengusaha Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_8__huruf_b">
+                    <num>b.</num>
+                    <content><p>pembelian Barang dan pengeluaran biaya lain yang tidak mempunyai hubungan langsung dengan proses menghasilkan Barang Kena Pajak atau Jasa Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_8__huruf_c">
+                    <num>c.</num>
+                    <content><p>pembelian dan pemeliharaan kendaraan bermotor sedan, jeep, stasion wagon, van dan kombi.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <content><p>Pajak Penjualan Atas Barang Mewah yang terhutang dalam suatu Masa Pajak dihitung dengan mengalihkan tarif sebagaimana diatur dalam Pasal 8, dengan Dasar Pengenaan Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Pajak Penjualan Atas Barang Mewah yang sudah dibayar pada waktu perolehan atau impor Barang Mewah, tidak dapat di- kreditkan dengan Pajak Pertambahan Nilai yang dipungut menurut ketentuan sebagaimana diatur dalam Pasal 7.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_3">
+                <num>(3)</num>
+                <content><p>Pengusaha Kena Pajak yang mengekspor Barang Mewah dapat meminta kembali pajak yang dibayar pada waktu perolehan Barang Mewah yang diekspor itu.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>SAAT DAN TEMPAT PAJAK TERHUTANG DAN LAPORAN PENGHITUNGAN PAJAK</heading>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Pajak yang terhutang dalam Masa Pajak terjadi pada saat penyerahan Barang Kena Pajak atau Jasa Kena Pajak, atau pada saat impor Barang Kena Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal pembayaran diterima sebelum penyerahan Barang Kena Pajak atau Jasa Kena Pajak. maka pajak yang terhutang dalam Masa Pajak terjadi pada saat pembayaran.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengusaha Kena Pajak yang menyerahkan Barang Kena Pajak atau Jasa Kena Pajak, terhutang pajak di tempat tinggal atau kedudukan mereka dan/atau di tempat usaha dilakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <content><p>Atas permohonan tertulis dari Pengusaha Kena Pajak yang mempunyai lebih dari satu tempat usaha, Direktur Jenderal Pajak dapat menetapkan salah satu tempat usaha sebagai tempat pajak terhutang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal impor, pajak terhutang di tempat Barang Kena Pajak dimasukkan dan dipungut melalui Direktorat Jenderal Bea dan Cukai.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Pengusaha Kena Pajak wajib membuat Faktur Pajak pada saat penyerahan Barang Kena Pajak atau Jasa Kena Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Apabila pembayaran diterima sebelum penyerahan Barang Kena Pajak atau Jasa Kena Pajak, Faktur Pajak dibuat pada saat pembayaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_3">
+                <num>(3)</num>
+                <content><p>Menyimpang dari ayat (1) dan ayat (2), Pengusaha Kena Pajak dapat diizinkan oleh Direktur Jenderal Pajak untuk membuat satu Faktur Pajak meliputi seluruh penyerahan yang dilakukan kepada Pembeli Barang Kena Pajak atau Penerima Jasa Kena Pajak yang sama selama sebulan takwim setelah akhir bulan takwim yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_4">
+                <num>(4)</num>
+                <content><p>Pengusaha yang berdasarkan Pasal 4 ayat (1) huruf b dikenakan pajak, hanya membuat Faktur Pajak sematamata untuk Penyerahan Barang Kena Pajak kepada Pengusaha Kena Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_5">
+                <num>(5)</num>
+                <content><p>Direktorat Jenderal Bea dan Cukai membuat Faktur Pajak untuk setiap pemungutan pajak sebagaimana dimaksud dalam Pasal 12 ayat (3).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_6">
+                <num>(6)</num>
+                <intro><p>Dalam Faktur Pajak harus dicantumkan catatan tentang penyerahan yang dikenakan pajak menurut undang-undang ini yang meliputi :</p></intro>
+                  <point eId="pasal_13__ayat_6__huruf_a">
+                    <num>a.</num>
+                    <content><p>Nama, alamat, dan Nomor Pokok Wajib Pajak Pengusaha yang menyerahkan Barang Kena Pajak atau Jasa Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_6__huruf_b">
+                    <num>b.</num>
+                    <content><p>Nama, alamat, dan Nomor Pokok Wajib Pajak Pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_6__huruf_c">
+                    <num>c.</num>
+                    <content><p>Macam, jenis, kuantum, harga satuan, dan jumlah Harga Jual atau Penggantian;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_6__huruf_d">
+                    <num>d.</num>
+                    <content><p>Pajak Pertambahan Nilai yang dipungut;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_6__huruf_e">
+                    <num>e.</num>
+                    <content><p>Pajak Penjualan Atas Barang Mewah yang dipungut;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_6__huruf_f">
+                    <num>f.</num>
+                    <content><p>Tanggal penyerahan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_7">
+                <num>(7)</num>
+                <content><p>Bentuk ukuran, pengadaan serta tata cara penyampaian Faktur Pajak diatur lebih lanjut oleh Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_8">
+                <num>(8)</num>
+                <content><p>Pengusaha Kena Pajak yang tidak membuat atau tidak mengisi selengkapnya Faktur Pajak menurut ketentuan sebagaimana diatur dalam ayat (1), ayat (2), dan ayat (6) dikenakan sanksi berupa denda administrasi sebesar 2 % (dua persen) dari Dasar Pengenaan Pajak.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <content><p>Orang atau badan yang tidak dikukuhkan menjadi Pengusaha Kena Pajak dilarang membuat Faktur Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Faktur Pajak telah dibuat, maka orang atau badan sebagaimana dimaksud dalam ayat (1) harus menyetorkan jumlah pajak yang tercantum dalam Faktur Pajak kepada Kas Negara dan dikenakan sanksi berupa denda administrasi sebesar 2 % (dua persen) dari Dasar Pengenaan Pajak.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+              <paragraph eId="pasal_15__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengusaha Kena Pajak wajib melaporkan penghitungan pajak- sebagaimana dimaksud dalam Pasal 9 dan Pasal 10 kepada Direktorat Jenderal Pajak dalam jangka waktu 20 (dua puluh) hari setelah akhir Masa Pajak dengan menggunakan Surat Pemberitahuan Masa.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_2">
+                <num>(2)</num>
+                <content><p>Keterangan dan dokumen yang harus dicantumkan dan/atau dilampirkan pada Surat Pemberitahuan Masa ditetapkan oleh Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_3">
+                <num>(3)</num>
+                <content><p>Surat Pemberitahuan Masa dianggap tidak dimasukkan jika Pengusaha Kena Pajak tidak melaksanakan, atau tidak sepenuhnya melaksanakan ketentuan sebagaimana diatur dalam ayat (1) dan ayat (2).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_16">
+            <num>16</num>
+              <paragraph eId="pasal_16__ayat_1">
+                <num>(1)</num>
+                <content><p>Atas permohonan tertulis Pengusaha Kena Pajak, kelebihan pembayaran pajak yang belum dikompensasikan sebagaimana dimaksud dalam Pasal 9 ayat (4), pengembaliannya dilakukan dalam jangka waktu sebagaimana diatur dalam Undang-undang tentang Ketentuan Umum Dan Tata Cara Perpajakan, atau dalam jangka waktu lain yang ditetapkan oleh Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_2">
+                <num>(2)</num>
+                <content><p>Kelebihan pembayaran pajak atas Barang yang diekspor dikembalikan dalam waktu satu bulan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KETENTUAN LAIN-LAIN</heading>
+          <article eId="pasal_17">
+            <num>17</num>
+            <content><p>Hal-hal yang menyangkut pengertian, tata cara pemungutan dan sanksi administrasi dan sanksi pidana berkenaan dengan pelaksanaan undang-undang ini, yang secara khusus belum diatur dalam undang-undang ini, berlaku ketentuan dalam Undang-undang tentang Ketentuan Umum Dan Tata Cara Perpajakan serta peraturan perundang-undangan lainnya.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dengan berlakunya undang-undang ini:</p></intro>
+                  <point eId="pasal_18__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>semua Penyerahan Barang Kena Pajak atau Jasa Kena Pajak dan Impor Barang Kena Pajak yang telah dilakukan sebelum undang-undang ini berlaku, tetap terhutang pajak menurut Undang-undang Pajak Penjualan 1951;</p></content>
+                  </point>
+                  <point eId="pasal_18__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>selama peraturan pelaksanaan undang-undang ini belum dikeluarkan, maka peraturan pelaksanaan yang tidak bertentangan dengan undang-undang ini yang belum dicabut dan diganti dinyatakan masih berlaku.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan pelaksanaan sebagaimana dimaksud pada ayat (1) diatur lebih lanjut oleh Menteri Keuangan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_19">
+            <num>19</num>
+            <content><p>Hal-hal yang belum diatur dalam undang-undang ini diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+            <content><p>Undang-undang ini dapat disebut Undang-undang Pajak Pertambahan Nilai 1984.</p></content>
+          </article>
+          <article eId="pasal_21">
+            <num>21</num>
+            <content><p>Undang-undang ini mulai berlaku pada tanggal 1 Juli 1984. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

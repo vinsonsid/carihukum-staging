@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2014/33/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2014/33"/>
+          <FRBRdate date="2014-10-17" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2014/33/ind@2014-10-17/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2014/33/ind@2014-10-17"/>
+          <FRBRdate date="2014-10-17" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2014/33/ind@2014-10-17/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2014/33/ind@2014-10-17.akn"/>
+          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 33 Tahun 2014 tentang Jaminan Produk Halal</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Produk adalah barang dan/atau jasa yang terkait dengan makanan, minuman, obat, kosmetik, produk kimiawi, produk biologi, produk rekayasa genetik, serta barang gunaan yang dipakai, digunakan, atau dimanfaatkan oleh masyarakat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Produk Halal adalah Produk yang telah dinyatakan halal sesuai dengan syariat Islam.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Proses Produk Halal yang selanjutnya disingkat PPH adalah rangkaian kegiatan untuk menjamin kehalalan Produk mencakup penyediaan bahan, pengolahan, penyimpanan, pengemasan, pendistribusian, penjualan, dan penyajian Produk.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Bahan adalah unsur yang digunakan untuk membuat atau menghasilkan Produk.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Jaminan Produk Halal yang selanjutnya disingkat JPH adalah kepastian hukum terhadap kehalalan suatu Produk yang dibuktikan dengan Sertifikat Halal.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Badan Penyelenggara Jaminan Produk Halal yang selanjutnya disingkat BPJPH adalah badan yang dibentuk oleh Pemerintah untuk menyelenggarakan JPH.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Majelis Ulama Indonesia yang selanjutnya disingkat MUI adalah wadah musyawarah para ulama, zuama, dan cendekiawan muslim.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Lembaga Pemeriksa Halal yang selanjutnya disingkat LPH adalah lembaga yang melakukan kegiatan pemeriksaan dan/atau pengujian terhadap kehalalan Produk.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Auditor Halal adalah orang yang memiliki kemampuan melakukan pemeriksaan kehalalan Produk.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Sertifikat Halal adalah pengakuan kehalalan suatu Produk yang dikeluarkan oleh BPJPH berdasarkan fatwa halal tertulis yang dikeluarkan oleh MUI.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Label Halal adalah tanda kehalalan suatu Produk.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Pelaku Usaha adalah orang perseorangan atau badan usaha berbentuk badan hukum atau bukan badan hukum yang menyelenggarakan kegiatan usaha di wilayah Indonesia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Penyelia Halal adalah orang yang bertanggung jawab terhadap PPH.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Setiap orang adalah orang perseorangan atau badan hukum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang agama.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>Penyelenggaraan JPH berasaskan:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>pelindungan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>keadilan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_c">
+                <num>c.</num>
+                <content><p>kepastian hukum;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_d">
+                <num>d.</num>
+                <content><p>akuntabilitas dan transparansi;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_e">
+                <num>e.</num>
+                <content><p>efektivitas dan efisiensi; dan</p></content>
+              </point>
+              <point eId="pasal_2__huruf_f">
+                <num>f.</num>
+                <content><p>profesionalitas.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Penyelenggaraan JPH bertujuan:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>memberikan kenyamanan, keamanan, keselamatan, dan kepastian ketersediaan Produk Halal bagi masyarakat dalam mengonsumsi dan menggunakan Produk; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>meningkatkan nilai tambah bagi Pelaku Usaha untuk memproduksi dan menjual Produk Halal.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Produk yang masuk, beredar, dan diperdagangkan di wilayah Indonesia wajib bersertifikat halal.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>PENYELENGGARA JAMINAN PRODUK HALAL</heading>
+          <part eId="bab_2__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_5">
+                <num>5</num>
+                  <paragraph eId="pasal_5__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah bertanggung jawab dalam menyelenggarakan JPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggaraan JPH sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Untuk melaksanakan penyelenggaraan JPH sebagaimana dimaksud pada ayat (2), dibentuk BPJPH yang berkedudukan di bawah dan bertanggung jawab kepada Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal diperlukan, BPJPH dapat membentuk perwakilan di daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan mengenai tugas, fungsi, dan susunan organisasi BPJPH diatur dalam Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Badan Penyelenggara Jaminan Produk Halal</heading>
+              <article eId="pasal_6">
+                <num>6</num>
+                <intro><p>Dalam penyelenggaraan JPH, BPJPH berwenang:</p></intro>
+                  <point eId="pasal_6__huruf_a">
+                    <num>a.</num>
+                    <content><p>merumuskan dan menetapkan kebijakan JPH;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_b">
+                    <num>b.</num>
+                    <content><p>menetapkan norma, standar, prosedur, dan kriteria JPH;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_c">
+                    <num>c.</num>
+                    <content><p>menerbitkan dan mencabut Sertifikat Halal dan Label Halal pada Produk;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan registrasi Sertifikat Halal pada Produk luar negeri;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan sosialisasi, edukasi, dan publikasi Produk Halal;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_f">
+                    <num>f.</num>
+                    <content><p>melakukan akreditasi terhadap LPH;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_g">
+                    <num>g.</num>
+                    <content><p>melakukan registrasi Auditor Halal;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_h">
+                    <num>h.</num>
+                    <content><p>melakukan pengawasan terhadap JPH;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_i">
+                    <num>i.</num>
+                    <content><p>melakukan pembinaan Auditor Halal; dan</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_j">
+                    <num>j.</num>
+                    <content><p>melakukan kerja sama dengan lembaga dalam dan luar negeri di bidang penyelenggaraan JPH.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_7">
+                <num>7</num>
+                <intro><p>Dalam melaksanakan wewenang sebagaimana dimaksud dalam Pasal 6, BPJPH bekerja sama dengan:</p></intro>
+                  <point eId="pasal_7__huruf_a">
+                    <num>a.</num>
+                    <content><p>kementerian dan/atau lembaga terkait;</p></content>
+                  </point>
+                  <point eId="pasal_7__huruf_b">
+                    <num>b.</num>
+                    <content><p>LPH; dan</p></content>
+                  </point>
+                  <point eId="pasal_7__huruf_c">
+                    <num>c.</num>
+                    <content><p>MUI.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_8">
+                <num>8</num>
+                <content><p>Kerja sama BPJPH dengan kementerian dan/atau lembaga terkait sebagaimana dimaksud dalam Pasal 7 huruf a dilakukan sesuai dengan tugas dan fungsi kementerian dan/atau lembaga terkait.</p></content>
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                <content><p>Kerja sama BPJPH dengan LPH sebagaimana dimaksud dalam Pasal 7 huruf b dilakukan untuk pemeriksaan dan/atau pengujian Produk.</p></content>
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                  <paragraph eId="pasal_10__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Kerja sama BPJPH dengan MUI sebagaimana dimaksud dalam Pasal 7 huruf c dilakukan dalam bentuk:</p></intro>
+                      <point eId="pasal_10__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>sertifikasi Auditor Halal;</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>penetapan kehalalan Produk; dan</p></content>
+                      </point>
+                      <point eId="pasal_10__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>akreditasi LPH.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penetapan kehalalan Produk sebagaimana dimaksud pada ayat (1) huruf b dikeluarkan MUI dalam bentuk Keputusan Penetapan Halal Produk.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                <content><p>Ketentuan lebih lanjut mengenai kerja sama sebagaimana dimaksud dalam Pasal 7, Pasal 8, Pasal 9, dan Pasal 10 diatur dengan atau berdasarkan Peraturan Pemerintah.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_2__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Lembaga Pemeriksa Halal</heading>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah dan/atau masyarakat dapat mendirikan LPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>LPH sebagaimana dimaksud pada ayat (1) mempunyai kesempatan yang sama dalam membantu BPJPH melakukan pemeriksaan dan/atau pengujian kehalalan Produk.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Untuk mendirikan LPH sebagaimana dimaksud dalam Pasal 12, harus dipenuhi persyaratan:</p></intro>
+                      <point eId="pasal_13__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>memiliki kantor sendiri dan perlengkapannya;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>memiliki akreditasi dari BPJPH;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>memiliki Auditor Halal paling sedikit 3 (tiga) orang; dan</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>memiliki laboratorium atau kesepakatan kerja sama dengan lembaga lain yang memiliki laboratorium.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal LPH sebagaimana dimaksud pada ayat (1) didirikan oleh masyarakat, LPH harus diajukan oleh lembaga keagamaan Islam berbadan hukum.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Auditor Halal sebagaimana dimaksud dalam Pasal 13 huruf c diangkat dan diberhentikan oleh LPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pengangkatan Auditor Halal oleh LPH sebagaimana dimaksud pada ayat (1) harus memenuhi persyaratan:</p></intro>
+                      <point eId="pasal_14__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>warga negara Indonesia;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>beragama Islam;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>berpendidikan paling rendah sarjana strata 1 (satu) di bidang pangan, kimia, biokimia, teknik industri, biologi, atau farmasi;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>memahami dan memiliki wawasan luas mengenai kehalalan produk menurut syariat Islam;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>mendahulukan kepentingan umat di atas kepentingan pribadi dan/atau golongan; dan</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>memperoleh sertifikat dari MUI.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                <intro><p>Auditor Halal sebagaimana dimaksud dalam Pasal 14 bertugas:</p></intro>
+                  <point eId="pasal_15__huruf_a">
+                    <num>a.</num>
+                    <content><p>memeriksa dan mengkaji Bahan yang digunakan;</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_b">
+                    <num>b.</num>
+                    <content><p>memeriksa dan mengkaji proses pengolahan Produk;</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_c">
+                    <num>c.</num>
+                    <content><p>memeriksa dan mengkaji sistem penyembelihan;</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_d">
+                    <num>d.</num>
+                    <content><p>meneliti lokasi Produk;</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_e">
+                    <num>e.</num>
+                    <content><p>meneliti peralatan, ruang produksi, dan penyimpanan;</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_f">
+                    <num>f.</num>
+                    <content><p>memeriksa pendistribusian dan penyajian Produk;</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_g">
+                    <num>g.</num>
+                    <content><p>memeriksa sistem jaminan halal Pelaku Usaha; dan</p></content>
+                  </point>
+                  <point eId="pasal_15__huruf_h">
+                    <num>h.</num>
+                    <content><p>melaporkan hasil pemeriksaan dan/atau pengujian kepada LPH.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_16">
+                <num>16</num>
+                <content><p>Ketentuan lebih lanjut mengenai LPH diatur dalam Peraturan Pemerintah.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>BAHAN DAN PROSES PRODUK HALAL</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Bahan</heading>
+              <article eId="pasal_17">
+                <num>17</num>
+                  <paragraph eId="pasal_17__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Bahan yang digunakan dalam PPH terdiri atas bahan baku, bahan olahan, bahan tambahan, dan bahan penolong.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Bahan sebagaimana dimaksud pada ayat (1) berasal dari:</p></intro>
+                      <point eId="pasal_17__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>hewan;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>tumbuhan;</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>mikroba; atau</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>bahan yang dihasilkan melalui proses kimiawi, proses biologi, atau proses rekayasa genetik.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Bahan yang berasal dari hewan sebagaimana dimaksud pada ayat (2) huruf a pada dasarnya halal, kecuali yang diharamkan menurut syariat.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                  <paragraph eId="pasal_18__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Bahan yang berasal dari hewan yang diharamkan sebagaimana dimaksud dalam Pasal 17 ayat (3) meliputi:</p></intro>
+                      <point eId="pasal_18__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>bangkai;</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>darah;</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>babi; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_18__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>hewan yang disembelih tidak sesuai dengan syariat.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Bahan yang berasal dari hewan yang diharamkan selain sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri berdasarkan fatwa MUI.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hewan yang digunakan sebagai bahan Produk wajib disembelih sesuai dengan syariat dan memenuhi kaidah kesejahteraan hewan serta kesehatan masyarakat veteriner.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tuntunan penyembelihan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_20">
+                <num>20</num>
+                  <paragraph eId="pasal_20__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Bahan yang berasal dari tumbuhan sebagaimana dimaksud dalam Pasal 17 ayat (2) huruf b pada dasarnya halal, kecuali yang memabukkan dan/atau membahayakan kesehatan bagi orang yang mengonsumsinya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Bahan yang berasal dari mikroba dan bahan yang dihasilkan melalui proses kimiawi, proses biologi, atau proses rekayasa genetik sebagaimana dimaksud dalam Pasal 17 ayat (2) huruf c dan huruf d diharamkan jika proses pertumbuhan dan/atau pembuatannya tercampur, terkandung, dan/atau terkontaminasi dengan bahan yang diharamkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Bahan yang diharamkan sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan oleh Menteri berdasarkan fatwa MUI.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Proses Produk Halal</heading>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Lokasi, tempat, dan alat PPH wajib dipisahkan dengan lokasi, tempat, dan alat penyembelihan, pengolahan, penyimpanan, pengemasan, pendistribusian, penjualan, dan penyajian Produk tidak halal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Lokasi, tempat, dan alat PPH sebagaimana dimaksud pada ayat (1) wajib:</p></intro>
+                      <point eId="pasal_21__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>dijaga kebersihan dan higienitasnya;</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>bebas dari najis; dan</p></content>
+                      </point>
+                      <point eId="pasal_21__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>bebas dari Bahan tidak halal.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai lokasi, tempat, dan alat PPH sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_22">
+                <num>22</num>
+                  <paragraph eId="pasal_22__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pelaku Usaha yang tidak memisahkan lokasi, tempat, dan alat PPH sebagaimana dimaksud dalam Pasal 21 ayat (1) dan ayat (2) dikenai sanksi administratif berupa:</p></intro>
+                      <point eId="pasal_22__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>peringatan tertulis; atau</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>denda administratif.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PELAKU USAHA</heading>
+          <article eId="pasal_23">
+            <num>23</num>
+            <intro><p>Pelaku Usaha berhak memperoleh:</p></intro>
+              <point eId="pasal_23__huruf_a">
+                <num>a.</num>
+                <content><p>informasi, edukasi, dan sosialisasi mengenai sistem JPH;</p></content>
+              </point>
+              <point eId="pasal_23__huruf_b">
+                <num>b.</num>
+                <content><p>pembinaan dalam memproduksi Produk Halal; dan</p></content>
+              </point>
+              <point eId="pasal_23__huruf_c">
+                <num>c.</num>
+                <content><p>pelayanan untuk mendapatkan Sertifikat Halal secara cepat, efisien, biaya terjangkau, dan tidak diskriminatif.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_24">
+            <num>24</num>
+            <intro><p>Pelaku Usaha yang mengajukan permohonan Sertifikat Halal wajib:</p></intro>
+              <point eId="pasal_24__huruf_a">
+                <num>a.</num>
+                <content><p>memberikan informasi secara benar, jelas, dan jujur;</p></content>
+              </point>
+              <point eId="pasal_24__huruf_b">
+                <num>b.</num>
+                <content><p>memisahkan lokasi, tempat dan alat penyembelihan, pengolahan, penyimpanan, pengemasan, pendistribusian, penjualan, dan penyajian antara Produk Halal dan tidak halal;</p></content>
+              </point>
+              <point eId="pasal_24__huruf_c">
+                <num>c.</num>
+                <content><p>memiliki Penyelia Halal; dan</p></content>
+              </point>
+              <point eId="pasal_24__huruf_d">
+                <num>d.</num>
+                <content><p>melaporkan perubahan komposisi Bahan kepada BPJPH.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_25">
+            <num>25</num>
+            <intro><p>Pelaku Usaha yang telah memperoleh Sertifikat Halal wajib:</p></intro>
+              <point eId="pasal_25__huruf_a">
+                <num>a.</num>
+                <content><p>mencantumkan Label Halal terhadap Produk yang telah mendapat Sertifikat Halal;</p></content>
+              </point>
+              <point eId="pasal_25__huruf_b">
+                <num>b.</num>
+                <content><p>menjaga kehalalan Produk yang telah memperoleh Sertifikat Halal;</p></content>
+              </point>
+              <point eId="pasal_25__huruf_c">
+                <num>c.</num>
+                <content><p>memisahkan lokasi, tempat dan penyembelihan, alat pengolahan, penyimpanan, pengemasan, pendistribusian, penjualan, dan penyajian antara Produk Halal dan tidak halal;</p></content>
+              </point>
+              <point eId="pasal_25__huruf_d">
+                <num>d.</num>
+                <content><p>memperbarui Sertifikat Halal jika masa berlaku Sertifikat Halal berakhir; dan</p></content>
+              </point>
+              <point eId="pasal_25__huruf_e">
+                <num>e.</num>
+                <content><p>melaporkan perubahan komposisi Bahan kepada BPJPH.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_26">
+            <num>26</num>
+              <paragraph eId="pasal_26__ayat_1">
+                <num>(1)</num>
+                <content><p>Pelaku Usaha yang memproduksi Produk dari Bahan yang berasal dari Bahan yang diharamkan sebagaimana dimaksud dalam Pasal 18 dan Pasal 20 dikecualikan dari mengajukan permohonan Sertifikat Halal.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_2">
+                <num>(2)</num>
+                <content><p>Pelaku Usaha sebagaimana dimaksud pada ayat (1) wajib mencantumkan keterangan tidak halal pada Produk.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pelaku Usaha yang tidak melakukan kewajiban sebagaimana dimaksud dalam Pasal 25 dikenai sanksi administratif berupa:</p></intro>
+                  <point eId="pasal_27__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_27__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>denda administratif; atau</p></content>
+                  </point>
+                  <point eId="pasal_27__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>pencabutan Sertifikat Halal.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pelaku Usaha yang tidak melakukan kewajiban sebagaimana dimaksud dalam Pasal 26 ayat (2) dikenai sanksi administratif berupa:</p></intro>
+                  <point eId="pasal_27__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>teguran lisan;</p></content>
+                  </point>
+                  <point eId="pasal_27__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>peringatan tertulis; atau</p></content>
+                  </point>
+                  <point eId="pasal_27__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>denda administratif.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_28">
+            <num>28</num>
+              <paragraph eId="pasal_28__ayat_1">
+                <num>(1)</num>
+                <intro><p>Penyelia Halal sebagaimana dimaksud dalam Pasal 24 huruf c bertugas:</p></intro>
+                  <point eId="pasal_28__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>mengawasi PPH di perusahaan;</p></content>
+                  </point>
+                  <point eId="pasal_28__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>menentukan tindakan perbaikan dan pencegahan;</p></content>
+                  </point>
+                  <point eId="pasal_28__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>mengoordinasikan PPH; dan</p></content>
+                  </point>
+                  <point eId="pasal_28__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>mendampingi Auditor Halal LPH pada saat pemeriksaan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_2">
+                <num>(2)</num>
+                <intro><p>Penyelia Halal harus memenuhi persyaratan:</p></intro>
+                  <point eId="pasal_28__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>beragama Islam; dan</p></content>
+                  </point>
+                  <point eId="pasal_28__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>memiliki wawasan luas dan memahami syariat tentang kehalalan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_3">
+                <num>(3)</num>
+                <content><p>Penyelia Halal ditetapkan oleh pimpinan perusahaan dan dilaporkan kepada BPJPH.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan lebih lanjut mengenai Penyelia Halal diatur dalam Peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>TATA CARA MEMPEROLEH SERTIFIKAT HALAL</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Pengajuan Permohonan</heading>
+              <article eId="pasal_29">
+                <num>29</num>
+                  <paragraph eId="pasal_29__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Permohonan Sertifikat Halal diajukan oleh Pelaku Usaha secara tertulis kepada BPJPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Permohonan Sertifikat Halal harus dilengkapi dengan dokumen:</p></intro>
+                      <point eId="pasal_29__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>data Pelaku Usaha;</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>nama dan jenis Produk;</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>daftar Produk dan Bahan yang digunakan; dan</p></content>
+                      </point>
+                      <point eId="pasal_29__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>proses pengolahan Produk.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengajuan permohonan Sertifikat Halal diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Penetapan Lembaga Pemeriksa Halal</heading>
+              <article eId="pasal_30">
+                <num>30</num>
+                  <paragraph eId="pasal_30__ayat_1">
+                    <num>(1)</num>
+                    <content><p>BPJPH menetapkan LPH untuk melakukan pemeriksaan dan/atau pengujian kehalalan Produk.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_30__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penetapan LPH sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 5 (lima) hari kerja terhitung sejak dokumen permohonan sebagaimana dimaksud dalam Pasal 29 ayat (2) dinyatakan lengkap.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_30__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara penetapan LPH diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pemeriksaan dan Pengujian</heading>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemeriksaan dan/atau pengujian kehalalan Produk sebagaimana dimaksud dalam Pasal 30 ayat (1) dilakukan oleh Auditor Halal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemeriksaan terhadap Produk dilakukan di lokasi usaha pada saat proses produksi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal pemeriksaan Produk sebagaimana dimaksud pada ayat (1) terdapat Bahan yang diragukan kehalalannya, dapat dilakukan pengujian di laboratorium.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam pelaksanaan pemeriksaan di lokasi usaha sebagaimana dimaksud pada ayat (2), Pelaku Usaha wajib memberikan informasi kepada Auditor Halal.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>LPH menyerahkan hasil pemeriksaan dan/atau pengujian kehalalan Produk kepada BPJPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <content><p>BPJPH menyampaikan hasil pemeriksaan dan/atau pengujian kehalalan Produk kepada MUI untuk memperoleh penetapan kehalalan Produk.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Penetapan Kehalalan Produk</heading>
+              <article eId="pasal_33">
+                <num>33</num>
+                  <paragraph eId="pasal_33__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penetapan kehalalan Produk dilakukan oleh MUI.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penetapan kehalalan Produk sebagaimana dimaksud pada ayat (1) dilakukan dalam Sidang Fatwa Halal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Sidang Fatwa Halal MUI sebagaimana dimaksud pada ayat (2) mengikutsertakan pakar, unsur kementerian/lembaga, dan/atau instansi terkait.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Sidang Fatwa Halal sebagaimana dimaksud pada ayat (3) memutuskan kehalalan Produk paling lama 30 (tiga puluh) hari kerja sejak MUI menerima hasil pemeriksaan dan/atau pengujian Produk dari BPJPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Keputusan Penetapan Halal Produk sebagaimana dimaksud pada ayat (4) ditandatangani oleh MUI.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Keputusan Penetapan Halal Produk sebagaimana dimaksud pada ayat (5) disampaikan kepada BPJPH untuk menjadi dasar penerbitan Sertifikat Halal.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Penerbitan Sertifikat Halal</heading>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal Sidang Fatwa Halal sebagaimana dimaksud dalam Pasal 33 ayat (2) menetapkan halal pada Produk yang dimohonkan Pelaku Usaha, BPJPH menerbitkan Sertifikat Halal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Sidang Fatwa Halal sebagaimana dimaksud dalam Pasal 33 ayat (2) menyatakan Produk tidak halal, BPJPH mengembalikan permohonan Sertifikat Halal kepada Pelaku Usaha disertai dengan alasan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_35">
+                <num>35</num>
+                <content><p>Sertifikat Halal sebagaimana dimaksud dalam Pasal 34 ayat (1) diterbitkan oleh BPJPH paling lama 7 (tujuh) hari kerja terhitung sejak keputusan kehalalan Produk diterima dari MUI.</p></content>
+              </article>
+              <article eId="pasal_36">
+                <num>36</num>
+                <content><p>Penerbitan Sertifikat Halal sebagaimana dimaksud dalam Pasal 35 wajib dipublikasikan oleh BPJPH.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Label Halal</heading>
+              <article eId="pasal_37">
+                <num>37</num>
+                <content><p>BPJPH menetapkan bentuk Label Halal yang berlaku nasional.</p></content>
+              </article>
+              <article eId="pasal_38">
+                <num>38</num>
+                <intro><p>Pelaku Usaha yang telah memperoleh Sertifikat Halal wajib mencantumkan Label Halal pada:</p></intro>
+                  <point eId="pasal_38__huruf_a">
+                    <num>a.</num>
+                    <content><p>kemasan Produk;</p></content>
+                  </point>
+                  <point eId="pasal_38__huruf_b">
+                    <num>b.</num>
+                    <content><p>bagian tertentu dari Produk; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_38__huruf_c">
+                    <num>c.</num>
+                    <content><p>tempat tertentu pada Produk.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_39">
+                <num>39</num>
+                <content><p>Pencantuman Label Halal sebagaimana dimaksud dalam Pasal 38 harus mudah dilihat dan dibaca serta tidak mudah dihapus, dilepas, dan dirusak.</p></content>
+              </article>
+              <article eId="pasal_40">
+                <num>40</num>
+                <content><p>Ketentuan lebih lanjut mengenai Label Halal diatur dalam Peraturan Menteri.</p></content>
+              </article>
+              <article eId="pasal_41">
+                <num>41</num>
+                  <paragraph eId="pasal_41__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pelaku Usaha yang mencantumkan Label Halal tidak sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 38 dan Pasal 39 dikenai sanksi administratif berupa:</p></intro>
+                      <point eId="pasal_41__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>teguran lisan;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>peringatan tertulis; atau</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>pencabutan Sertifikat Halal.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketujuh">
+            <num>Ketujuh</num>
+            <heading>Pembaruan Sertifikat Halal</heading>
+              <article eId="pasal_42">
+                <num>42</num>
+                  <paragraph eId="pasal_42__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Sertifikat Halal berlaku selama 4 (empat) tahun sejak diterbitkan oleh BPJPH, kecuali terdapat perubahan komposisi Bahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_42__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Sertifikat Halal wajib diperpanjang oleh Pelaku Usaha dengan mengajukan pembaruan Sertifikat Halal paling lambat 3 (tiga) bulan sebelum masa berlaku Sertifikat Halal berakhir.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_42__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai pembaruan Sertifikat Halal diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_43">
+                <num>43</num>
+                <content><p>Setiap orang yang terlibat dalam penyelenggaraan proses JPH wajib menjaga kerahasiaan formula yang tercantum dalam informasi yang diserahkan oleh Pelaku Usaha.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedelapan">
+            <num>Kedelapan</num>
+            <heading>Pembiayaan</heading>
+              <article eId="pasal_44">
+                <num>44</num>
+                  <paragraph eId="pasal_44__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Biaya Sertifikasi Halal dibebankan kepada Pelaku Usaha yang mengajukan permohonan Sertifikat Halal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_44__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Pelaku Usaha merupakan usaha mikro dan kecil, biaya Sertifikasi Halal dapat difasilitasi oleh pihak lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_44__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai biaya sertifikasi halal diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_45">
+                <num>45</num>
+                  <paragraph eId="pasal_45__ayat_1">
+                    <num>(1)</num>
+                    <content><p>BPJPH dalam mengelola keuangan menggunakan pengelolaan keuangan badan layanan umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan mengenai pengelolaan keuangan BPJPH diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KERJA SAMA INTERNASIONAL</heading>
+          <article eId="pasal_46">
+            <num>46</num>
+              <paragraph eId="pasal_46__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah dapat melakukan kerja sama internasional dalam bidang JPH sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_2">
+                <num>(2)</num>
+                <content><p>Kerja sama internasional dalam bidang JPH sebagaimana dimaksud pada ayat (1) dapat berbentuk pengembangan JPH, penilaian kesesuaian, dan/atau pengakuan Sertifikat Halal.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai kerja sama JPH sebagaimana dimaksud pada ayat (2) diatur dengan atau berdasarkan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_47">
+            <num>47</num>
+              <paragraph eId="pasal_47__ayat_1">
+                <num>(1)</num>
+                <content><p>Produk Halal luar negeri yang diimpor ke Indonesia berlaku ketentuan sebagaimana diatur dalam Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_2">
+                <num>(2)</num>
+                <content><p>Produk Halal, sebagaimana dimaksud pada ayat (1) tidak perlu diajukan permohonan Sertifikat Halalnya sepanjang Sertifikat Halal diterbitkan oleh lembaga halal luar negeri yang telah melakukan kerja sama saling pengakuan sebagaimana dimaksud dalam Pasal 46 ayat (2).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_3">
+                <num>(3)</num>
+                <content><p>Sertifikat Halal sebagaimana dimaksud pada ayat (2) wajib diregistrasi oleh BPJPH sebelum Produk diedarkan di Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai tata cara registrasi sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_48">
+            <num>48</num>
+              <paragraph eId="pasal_48__ayat_1">
+                <num>(1)</num>
+                <content><p>Pelaku Usaha yang tidak melakukan registrasi sebagaimana dimaksud dalam Pasal 47 ayat (3) dikenai sanksi administratif berupa penarikan barang dari peredaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Menteri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PENGAWASAN</heading>
+          <article eId="pasal_49">
+            <num>49</num>
+            <content><p>BPJPH melakukan pengawasan terhadap JPH.</p></content>
+          </article>
+          <article eId="pasal_50">
+            <num>50</num>
+            <intro><p>Pengawasan JPH dilakukan terhadap:</p></intro>
+              <point eId="pasal_50__huruf_a">
+                <num>a.</num>
+                <content><p>LPH;</p></content>
+              </point>
+              <point eId="pasal_50__huruf_b">
+                <num>b.</num>
+                <content><p>masa berlaku Sertifikat Halal;</p></content>
+              </point>
+              <point eId="pasal_50__huruf_c">
+                <num>c.</num>
+                <content><p>kehalalan Produk;</p></content>
+              </point>
+              <point eId="pasal_50__huruf_d">
+                <num>d.</num>
+                <content><p>pencantuman Label Halal;</p></content>
+              </point>
+              <point eId="pasal_50__huruf_e">
+                <num>e.</num>
+                <content><p>pencantuman keterangan tidak halal;</p></content>
+              </point>
+              <point eId="pasal_50__huruf_f">
+                <num>f.</num>
+                <content><p>pemisahan lokasi, tempat dan alat penyembelihan, pengolahan, penyimpanan, pengemasan, pendistribusian, penjualan, serta penyajian antara Produk Halal dan tidak halal;</p></content>
+              </point>
+              <point eId="pasal_50__huruf_g">
+                <num>g.</num>
+                <content><p>keberadaan Penyelia Halal; dan/atau</p></content>
+              </point>
+              <point eId="pasal_50__huruf_h">
+                <num>h.</num>
+                <content><p>kegiatan lain yang berkaitan dengan JPH.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_51">
+            <num>51</num>
+              <paragraph eId="pasal_51__ayat_1">
+                <num>(1)</num>
+                <content><p>BPJPH dan kementerian dan/atau lembaga terkait yang memiliki kewenangan pengawasan JPH dapat melakukan pengawasan secara sendiri-sendiri atau bersama-sama.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengawasan JPH dengan kementerian dan/atau lembaga terkait sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_52">
+            <num>52</num>
+            <content><p>Ketentuan lebih lanjut mengenai pengawasan diatur dalam Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PERAN SERTA MASYARAKAT</heading>
+          <article eId="pasal_53">
+            <num>53</num>
+              <paragraph eId="pasal_53__ayat_1">
+                <num>(1)</num>
+                <content><p>Masyarakat dapat berperan serta dalam penyelenggaraan JPH.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_53__ayat_2">
+                <num>(2)</num>
+                <intro><p>Peran serta masyarakat sebagaimana dimaksud pada ayat (1) dapat berupa:</p></intro>
+                  <point eId="pasal_53__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan sosialisasi mengenai JPH; dan</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>mengawasi Produk dan Produk Halal yang beredar.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_53__ayat_3">
+                <num>(3)</num>
+                <content><p>Peran serta masyarakat berupa pengawasan Produk dan Produk Halal yang beredar sebagaimana dimaksud pada ayat (2) huruf b berbentuk pengaduan atau pelaporan ke BPJPH.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_54">
+            <num>54</num>
+            <content><p>BPJPH dapat memberikan penghargaan kepada masyarakat yang berperan serta dalam penyelenggaraan JPH.</p></content>
+          </article>
+          <article eId="pasal_55">
+            <num>55</num>
+            <content><p>Ketentuan lebih lanjut mengenai tata cara peran serta masyarakat dan pemberian penghargaan diatur dalam Peraturan Menteri.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_56">
+            <num>56</num>
+            <content><p>Pelaku Usaha yang tidak menjaga kehalalan Produk yang telah memperoleh Sertifikat Halal sebagaimana dimaksud dalam Pasal 25 huruf b dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_57">
+            <num>57</num>
+            <content><p>Setiap orang yang terlibat dalam penyelenggaraan proses JPH yang tidak menjaga kerahasiaan formula yang tercantum dalam informasi yang diserahkan Pelaku Usaha sebagaimana dimaksud dalam Pasal 43 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau pidana denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_58">
+            <num>58</num>
+            <content><p>Sertifikat Halal yang telah ditetapkan oleh MUI sebelum Undang-Undang ini berlaku dinyatakan tetap berlaku sampai jangka waktu Sertifikat Halal tersebut berakhir.</p></content>
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+            <content><p>Sebelum BPJPH dibentuk, pengajuan permohonan atau perpanjangan Sertifikat Halal dilakukan sesuai dengan tata cara memperoleh Sertifikat Halal yang berlaku sebelum Undang-Undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_60">
+            <num>60</num>
+            <content><p>MUI tetap menjalankan tugasnya di bidang Sertifikasi Halal sampai dengan BPJPH dibentuk.</p></content>
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <content><p>LPH yang sudah ada sebelum Undang-Undang ini berlaku diakui sebagai LPH dan wajib menyesuaikan dengan ketentuan dalam Pasal 13 paling lama 2 (dua) tahun terhitung sejak BPJPH dibentuk.</p></content>
+          </article>
+          <article eId="pasal_62">
+            <num>62</num>
+            <content><p>Auditor halal yang sudah ada sebelum Undang-Undang ini berlaku diakui sebagai Auditor Halal dan wajib menyesuaikan dengan ketentuan dalam Pasal 14 dan Pasal 15 paling lama 2 (dua) tahun terhitung sejak Undang-Undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_63">
+            <num>63</num>
+            <content><p>Penyelia Halal perusahaan yang sudah ada sebelum Undang-Undang ini berlaku diakui sebagai Penyelia Halal dan wajib menyesuaikan dengan ketentuan dalam Pasal 28 paling lama 2 (dua) tahun terhitung sejak Undang- Undang ini diundangkan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_64">
+            <num>64</num>
+            <content><p>BPJPH harus dibentuk paling lambat 3 (tiga) tahun terhitung sejak Undang-Undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_65">
+            <num>65</num>
+            <content><p>Peraturan pelaksanaan Undang-Undang ini harus ditetapkan paling lama 2 (dua) tahun terhitung sejak Undang-Undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_66">
+            <num>66</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, semua Peraturan Perundang-undangan yang mengatur mengenai JPH dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang- Undang ini.</p></content>
+          </article>
+          <article eId="pasal_67">
+            <num>67</num>
+              <paragraph eId="pasal_67__ayat_1">
+                <num>(1)</num>
+                <content><p>Kewajiban bersertifikat halal bagi Produk yang beredar dan diperdagangkan di wilayah Indonesia sebagaimana dimaksud dalam Pasal 4 mulai berlaku 5 (lima) tahun terhitung sejak Undang-Undang ini diundangkan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_2">
+                <num>(2)</num>
+                <content><p>Sebelum kewajiban bersertifikat halal sebagaimana dimaksud pada ayat (1) berlaku, jenis Produk yang bersertifikat halal diatur secara bertahap.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_67__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai jenis Produk yang bersertifikat halal secara bertahap sebagaimana diatur pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_68">
+            <num>68</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

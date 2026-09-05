@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2004/40/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2004/40"/>
+          <FRBRdate date="2004-10-19" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2004/40/ind@2004-10-19/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2004/40/ind@2004-10-19"/>
+          <FRBRdate date="2004-10-19" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2004/40/ind@2004-10-19/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2004/40/ind@2004-10-19.akn"/>
+          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Jaminan sosial adalah salah satu bentuk perlindungan sosial untuk menjamin seluruh rakyat agar dapat memenuhi kebutuhan dasar hidupnya yang layak.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Sistem Jaminan Sosial Nasional adalah suatu tata cara penyelenggaraan program jaminan sosial oleh beberapa badan penyelenggara jaminan sosial.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Asuransi sosial adalah suatu mekanisme pengumpulan dana yang bersifat wajib yang berasal dari iuran guna memberikan perlindungan atas risiko sosial ekonomi yang menimpa peserta dan/atau anggota keluarganya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Tabungan wajib adalah simpanan yang bersifat wajib bagi peserta program jaminan sosial.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Bantuan iuran adalah iuran yang dibayar oleh Pemerintah bagi fakir miskin dan orang tidak mampu sebagai peserta program jaminan sosial.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Badan Penyelenggara Jaminan Sosial adalah badan hukum yang dibentuk untuk menyelenggarakan program jaminan sosial.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Dana Jaminan Sosial adalah dana amanat milik seluruh peserta yang merupakan himpunan iuran beserta hasil pengembangannya yang dikelola oleh Badan Penyelenggara Jaminan Sosial untuk pembayaran manfaat kepada peserta dan pembiayaan operasional penyelenggaraan program jaminan sosial.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Peserta adalah setiap orang, termasuk orang asing yang bekerja paling singkat 6 (enam) bulan di Indonesia, yang telah membayar iuran.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Manfaat adalah faedah jaminan sosial yang menjadi hak peserta dan/atau anggota keluarganya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Iuran adalah sejumlah uang yang dibayar secara teratur oleh peserta, pemberi kerja, dan/atau Pemerintah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Pekerja adalah setiap orang yang bekerja dengan menerima gaji, upah, atau imbalan dalam bentuk lain.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Pemberi kerja adalah orang perseorangan, pengusaha, badan hukum, atau badan-badan lainnya yang mempekerjakan tenaga kerja atau penyelenggara negara yang mempekerjakan pegawai negeri dengan membayar gaji, upah, atau imbalan dalam bentuk lainnya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Gaji atau upah adalah hak pekerja yang diterima dan dinyatakan dalam bentuk uang sebagai imbalan dari pemberi kerja kepada pekerja yang ditetapkan dan dibayar menurut suatu perjanjian kerja, kesepakatan, atau peraturan perundang-undangan, termasuk tunjangan bagi pekerja dan keluarganya atas suatu pekerjaan dan/atau jasa yang telah atau akan dilakukan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Kecelakaan kerja adalah kecelakaan yang terjadi dalam hubungan kerja, termasuk kecelakaan yang terjadi dalam perjalanan dari rumah menuju tempat kerja atau sebaliknya, dan penyakit yang disebabkan oleh lingkungan kerja.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Cacat adalah keadaan berkurang atau hilangnya fungsi tubuh atau hilangnya anggota badan yang secara langsung atau tidak langsung mengakibatkan berkurang atau hilangnya kemampuan pekerja untuk menjalankan pekerjaannya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Cacat total tetap adalah cacat yang mengakibatkan ketidak-mampuan seseorang untuk melakukan pekerjaan.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS, TUJUAN, DAN PRINSIP PENYELENGGARAAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Sistem Jaminan Sosial Nasional diselenggarakan berdasarkan asas kemanusiaan, asas manfaat, dan asas keadilan sosial bagi seluruh rakyat Indonesia.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <content><p>Sistem Jaminan Sosial Nasional bertujuan untuk memberikan jaminan terpenuhinya kebutuhan dasar hidup yang layak bagi setiap peserta dan/atau anggota keluarganya.</p></content>
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <intro><p>Sistem Jaminan Sosial Nasional diselenggarakan berdasarkan pada prinsip :</p></intro>
+              <point eId="pasal_4__huruf_a">
+                <num>a.</num>
+                <content><p>kegotong-royongan;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_b">
+                <num>b.</num>
+                <content><p>nirlaba;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_c">
+                <num>c.</num>
+                <content><p>keterbukaan;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_d">
+                <num>d.</num>
+                <content><p>kehati-hatian;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_e">
+                <num>e.</num>
+                <content><p>akuntabilitas;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_f">
+                <num>f.</num>
+                <content><p>portabilitas;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_g">
+                <num>g.</num>
+                <content><p>kepesertaan bersifat wajib;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_h">
+                <num>h.</num>
+                <content><p>dana amanat; dan</p></content>
+              </point>
+              <point eId="pasal_4__huruf_i">
+                <num>i.</num>
+                <content><p>hasil pengelolaan Dana Jaminan Sosial dipergunakan seluruhnya untuk pengembangan program dan untuk sebesar-besar kepentingan peserta.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>BADAN PENYELENGGARA JAMINAN SOSIAL</heading>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan Penyelenggara Jaminan Sosial harus dibentuk dengan Undang- Undang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Sejak berlakunya Undang-Undang ini, badan penyelenggara jaminan sosial yang ada dinyatakan sebagai Badan Penyelenggara Jaminan Sosial menurut Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_3">
+                <num>(3)</num>
+                <intro><p>Badan Penyelenggara Jaminan Sosial sebagaimana dimaksud pada ayat (1) adalah:</p></intro>
+                  <point eId="pasal_5__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>Perusahaan Perseroan (Persero) Jaminan Sosial Tenaga Kerja (JAMSOSTEK);</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>Perusahaan Perseroan (Persero) Dana Tabungan dan Asuransi Pegawai Negeri (TASPEN);</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>Perusahaan Perseroan (Persero) Asuransi Sosial Angkatan Bersenjata Republik Indonesia (ASABRI); dan</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>Perusahaan Perseroan (Persero) Asuransi Kesehatan Indonesia (ASKES).</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal diperlukan Badan Penyelenggara Jaminan Sosial selain dimaksud pada ayat (3), dapat dibentuk yang baru dengan Undang- Undang.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>DEWAN JAMINAN SOSIAL NASIONAL</heading>
+          <article eId="pasal_6">
+            <num>6</num>
+            <content><p>Untuk penyelenggaraan Sistem Jaminan Sosial Nasional dengan Undang- Undang ini dibentuk Dewan Jaminan Sosial Nasional.</p></content>
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <content><p>Dewan Jaminan Sosial Nasional bertanggung jawab kepada Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Dewan Jaminan Sosial Nasional berfungsi merumuskan kebijakan umum dan sinkronisasi penyelenggaraan Sistem Jaminan Sosial Nasional.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_3">
+                <num>(3)</num>
+                <intro><p>Dewan Jaminan Sosial Nasional bertugas :</p></intro>
+                  <point eId="pasal_7__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan kajian dan penelitian yang berkaitan dengan penyelenggaraan jaminan sosial;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>mengusulkan kebijakan investasi Dana Jaminan Sosial Nasional; dan</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>mengusulkan anggaran jaminan sosial bagi penerima bantuan iuran dan tersedianya anggaran operasional kepada Pemerintah.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_4">
+                <num>(4)</num>
+                <content><p>Dewan Jaminan Sosial Nasional berwenang melakukan monitoring dan evaluasi penyelenggaraan program jaminan sosial.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+              <paragraph eId="pasal_8__ayat_1">
+                <num>(1)</num>
+                <content><p>Dewan Jaminan Sosial Nasional beranggotakan 15 (lima belas) orang, yang terdiri dari unsur Pemerintah, tokoh dan/atau ahli yang memahami bidang jaminan sosial, organisasi pemberi kerja, dan organisasi pekerja.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2">
+                <num>(2)</num>
+                <content><p>Dewan Jaminan Sosial Nasional dipimpin oleh seorang Ketua merangkap anggota dan anggota lainnya diangkat dan diberhentikan oleh Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketua sebagaimana dimaksud pada ayat (2) berasal dari unsur Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam melaksanakan tugasnya, Dewan Jaminan Sosial Nasional dibantu oleh Sekretariat Dewan yang dipimpin oleh seorang sekretaris yang diangkat dan diberhentikan oleh Ketua Dewan Jaminan Sosial Nasional.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_5">
+                <num>(5)</num>
+                <content><p>Masa jabatan anggota Dewan Jaminan Sosial Nasional adalah 5 (lima) tahun, dan dapat diangkat kembali untuk satu kali masa jabatan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_6">
+                <num>(6)</num>
+                <intro><p>Untuk dapat diangkat menjadi anggota Dewan Jaminan Sosial Nasional harus memenuhi syarat sebagai berikut :</p></intro>
+                  <point eId="pasal_8__ayat_6__huruf_a">
+                    <num>a.</num>
+                    <content><p>Warga Negara Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_6__huruf_b">
+                    <num>b.</num>
+                    <content><p>bertaqwa kepada Tuhan Yang Maha Esa;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_6__huruf_c">
+                    <num>c.</num>
+                    <content><p>sehat jasmani dan rohani;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_6__huruf_d">
+                    <num>d.</num>
+                    <content><p>berkelakuan baik;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_6__huruf_e">
+                    <num>e.</num>
+                    <content><p>berusia sekurang-kurangnya 40 (empat puluh) tahun dan setinggi- tingginya 60 (enam puluh) tahun pada saat menjadi anggota;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_6__huruf_f">
+                    <num>f.</num>
+                    <content><p>lulusan pendidikan paling rendah jenjang strata 1 (satu);</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_6__huruf_g">
+                    <num>g.</num>
+                    <content><p>memiliki keahlian di bidang jaminan sosial;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_6__huruf_h">
+                    <num>h.</num>
+                    <content><p>memiliki kepedulian terhadap bidang jaminan sosial; dan</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_6__huruf_i">
+                    <num>i.</num>
+                    <content><p>tidak pernah dipidana berdasarkan keputusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana kejahatan.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+            <content><p>Dalam melaksanakan tugasnya, Dewan Jaminan Sosial Nasional dapat meminta masukan dan bantuan tenaga ahli sesuai dengan kebutuhan.</p></content>
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+            <content><p>Susunan organisasi dan tata kerja Dewan Jaminan Sosial Nasional sebagaimana dimaksud dalam Pasal 6, Pasal 7, Pasal 8, dan Pasal 9 diatur lebih lanjut dengan Peraturan Presiden.</p></content>
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+            <intro><p>Anggota Dewan Jaminan Sosial Nasional dapat berhenti atau diberhentikan sebelum berakhir masa jabatan karena :</p></intro>
+              <point eId="pasal_11__huruf_a">
+                <num>a.</num>
+                <content><p>meninggal dunia;</p></content>
+              </point>
+              <point eId="pasal_11__huruf_b">
+                <num>b.</num>
+                <content><p>berhalangan tetap;</p></content>
+              </point>
+              <point eId="pasal_11__huruf_c">
+                <num>c.</num>
+                <content><p>mengundurkan diri;</p></content>
+              </point>
+              <point eId="pasal_11__huruf_d">
+                <num>d.</num>
+                <content><p>tidak memenuhi syarat sebagaimana dimaksud dalam Pasal 8 ayat (6).</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk pertama kali, Ketua dan anggota Dewan Jaminan Sosial Nasional diusulkan oleh Menteri yang bidang tugasnya meliputi kesejahteraan sosial.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <content><p>Tata cara pengangkatan, penggantian, dan pemberhentian anggota Dewan Jaminan Sosial Nasional diatur lebih lanjut dalam Peraturan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>KEPESERTAAN DAN IURAN</heading>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemberi kerja secara bertahap wajib mendaftarkan dirinya dan pekerjanya sebagai peserta kepada Badan Penyelenggara Jaminan Sosial, sesuai dengan program jaminan sosial yang diikuti.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Pentahapan sebagaimana dimaksud pada ayat (1), diatur lebih lanjut dengan Peraturan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah secara bertahap mendaftarkan penerima bantuan iuran sebagai peserta kepada Badan Penyelenggara Jaminan Sosial.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Penerima bantuan iuran sebagaimana dimaksud pada ayat (1) adalah fakir miskin dan orang tidak mampu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+              <paragraph eId="pasal_15__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan Penyelenggara Jaminan Sosial wajib memberikan nomor identitas tunggal kepada setiap peserta dan anggota keluarganya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_2">
+                <num>(2)</num>
+                <content><p>Badan Penyelenggara Jaminan Sosial wajib memberikan informasi tentang hak dan kewajiban kepada peserta untuk mengikuti ketentuan yang berlaku.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_16">
+            <num>16</num>
+            <content><p>Setiap peserta berhak memperoleh manfaat dan informasi tentang pelaksanaan program jaminan sosial yang diikuti.</p></content>
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+              <paragraph eId="pasal_17__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap peserta wajib membayar iuran yang besarnya ditetapkan berdasarkan persentase dari upah atau suatu jumlah nominal tertentu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap pemberi kerja wajib memungut iuran dari pekerjanya, menambahkan iuran yang menjadi kewajibannya dan membayarkan iuran tersebut kepada Badan Penyelenggara Jaminan Sosial secara berkala.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_3">
+                <num>(3)</num>
+                <content><p>Besarnya iuran sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan untuk setiap jenis program secara berkala sesuai dengan perkembangan sosial, ekonomi dan kebutuhan dasar hidup yang layak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_4">
+                <num>(4)</num>
+                <content><p>Iuran program jaminan sosial bagi fakir miskin dan orang yang tidak mampu dibayar oleh Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_5">
+                <num>(5)</num>
+                <content><p>Pada tahap pertama, iuran sebagaimana dimaksud pada ayat (4) dibayar oleh Pemerintah untuk program jaminan kesehatan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_6">
+                <num>(6)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (4) dan ayat (5) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PROGRAM JAMINAN SOSIAL</heading>
+          <part eId="bab_6__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Jenis Program Jaminan Sosial</heading>
+              <article eId="pasal_18">
+                <num>18</num>
+                <intro><p>Jenis program jaminan sosial meliputi :</p></intro>
+                  <point eId="pasal_18__huruf_a">
+                    <num>a.</num>
+                    <content><p>jaminan kesehatan;</p></content>
+                  </point>
+                  <point eId="pasal_18__huruf_b">
+                    <num>b.</num>
+                    <content><p>jaminan kecelakaan kerja;</p></content>
+                  </point>
+                  <point eId="pasal_18__huruf_c">
+                    <num>c.</num>
+                    <content><p>jaminan hari tua;</p></content>
+                  </point>
+                  <point eId="pasal_18__huruf_d">
+                    <num>d.</num>
+                    <content><p>jaminan pensiun; dan</p></content>
+                  </point>
+                  <point eId="pasal_18__huruf_e">
+                    <num>e.</num>
+                    <content><p>jaminan kematian.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Jaminan Kesehatan</heading>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Jaminan kesehatan diselenggarakan secara nasional berdasarkan prinsip asuransi sosial dan prinsip ekuitas.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jaminan kesehatan diselenggarakan dengan tujuan menjamin agar peserta memperoleh manfaat pemeliharaan kesehatan dan perlindungan dalam memenuhi kebutuhan dasar kesehatan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_20">
+                <num>20</num>
+                  <paragraph eId="pasal_20__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Peserta jaminan kesehatan adalah setiap orang yang telah membayar iuran atau iurannya dibayar oleh Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Anggota keluarga peserta berhak menerima manfaat jaminan kesehatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_20__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setiap peserta dapat mengikutsertakan anggota keluarga yang lain yang menjadi tanggungannya dengan penambahan iuran.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Kepesertaan jaminan kesehatan tetap berlaku paling lama 6 (enam) bulan sejak seorang peserta mengalami pemutusan hubungan kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal peserta sebagaimana dimaksud pada ayat (1) setelah 6 (enam) bulan belum memperoleh pekerjaan dan tidak mampu, iurannya dibayar oleh Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Peserta yang mengalami cacat total tetap dan tidak mampu, iurannya dibayar oleh Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur lebih lanjut dengan Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_22">
+                <num>22</num>
+                  <paragraph eId="pasal_22__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Manfaat jaminan kesehatan bersifat pelayanan perseorangan berupa pelayanan kesehatan yang mencakup pelayanan promotif, preventif, kuratif dan rehabilitatif, termasuk obat dan bahan medis habis pakai yang diperlukan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk jenis pelayanan yang dapat menimbulkan penyalah-gunaan pelayanan, peserta dikenakan urun biaya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan mengenai pelayanan kesehatan dan urun biaya sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur lebih lanjut dalam Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_23">
+                <num>23</num>
+                  <paragraph eId="pasal_23__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Manfaat jaminan kesehatan sebagaimana dimaksud dalam Pasal 22 diberikan pada fasilitas kesehatan milik Pemerintah atau swasta yang menjalin kerjasama dengan Badan Penyelenggara Jaminan Sosial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam keadaan darurat, pelayanan sebagaimana dimaksud pada ayat (1), dapat diberikan pada fasilitas kesehatan yang tidak menjalin kerja sama dengan Badan Penyelenggara Jaminan Sosial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal di suatu daerah belum tersedia fasilitas kesehatan yang memenuhi syarat guna memenuhi kebutuhan medik sejumlah peserta, Badan Penyelenggara Jaminan Sosial wajib memberikan kompensasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal peserta membutuhkan rawat inap di rumah sakit, maka kelas pelayanan di rumah sakit diberikan berdasarkan kelas standar.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_23__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur lebih lanjut dalam Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                  <paragraph eId="pasal_24__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Besarnya pembayaran kepada fasilitas kesehatan untuk setiap wilayah ditetapkan berdasarkan kesepakatan antara Badan Penyelenggara Jaminan Sosial dan asosiasi fasilitas kesehatan di wilayah tersebut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Badan Penyelenggara Jaminan Sosial wajib membayar fasilitas kesehatan atas pelayanan yang diberikan kepada peserta paling lambat 15 (lima belas) hari sejak permintaan pembayaran diterima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Badan Penyelenggara Jaminan Sosial mengembangkan sistem pelayanan kesehatan, sistem kendali mutu pelayanan, dan sistem pembayaran pelayanan kesehatan untuk meningkatkan efisiensi dan efektivitas jaminan kesehatan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_25">
+                <num>25</num>
+                <content><p>Daftar dan harga tertinggi obat-obatan, serta bahan medis habis pakai yang dijamin oleh Badan Penyelenggara Jaminan Sosial ditetapkan sesuai dengan peraturan perundang-undangan.</p></content>
+              </article>
+              <article eId="pasal_26">
+                <num>26</num>
+                <content><p>Jenis-jenis pelayanan yang tidak dijamin Badan Penyelenggara Jaminan Sosial akan diatur lebih lanjut dalam Peraturan Presiden.</p></content>
+              </article>
+              <article eId="pasal_27">
+                <num>27</num>
+                  <paragraph eId="pasal_27__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Besarnya iuran jaminan kesehatan untuk peserta penerima upah ditentukan berdasarkan persentase dari upah sampai batas tertentu, yang secara bertahap ditanggung bersama oleh pekerja dan pemberi kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Besarnya iuran jaminan kesehatan untuk peserta yang tidak menerima upah ditentukan berdasarkan nominal yang ditinjau secara berkala.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Besarnya iuran jaminan kesehatan untuk penerima bantuan iuran ditentukan berdasarkan nominal yang ditetapkan secara berkala.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Batas upah sebagaimana dimaksud pada ayat (1), ditinjau secara berkala.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Besarnya iuran sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3), serta batas upah sebagaimana dimaksud pada ayat (4) diatur lebih lanjut dalam Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_28">
+                <num>28</num>
+                  <paragraph eId="pasal_28__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pekerja yang memiliki anggota keluarga lebih dari 5 (lima) orang dan ingin mengikutsertakan anggota keluarga yang lain wajib membayar tambahan iuran.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tambahan iuran sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dalam Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Jaminan Kecelakaan Kerja</heading>
+              <article eId="pasal_29">
+                <num>29</num>
+                  <paragraph eId="pasal_29__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Jaminan kecelakaan kerja diselenggarakan secara nasional berdasarkan prinsip asuransi sosial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jaminan kecelakaan kerja diselenggarakan dengan tujuan menjamin agar peserta memperoleh manfaat pelayanan kesehatan dan santunan uang tunai apabila seorang pekerja mengalami kecelakaan kerja atau menderita penyakit akibat kerja.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_30">
+                <num>30</num>
+                <content><p>Peserta jaminan kecelakaan kerja adalah seseorang yang telah membayar iuran.</p></content>
+              </article>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Peserta yang mengalami kecelakaan kerja berhak mendapatkan manfaat berupa pelayanan kesehatan sesuai dengan kebutuhan medisnya dan mendapatkan manfaat berupa uang tunai apabila terjadi cacat total tetap atau meninggal dunia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Manfaat jaminan kecelakaan kerja yang berupa uang tunai diberikan sekaligus kepada ahli waris pekerja yang meninggal dunia atau pekerja yang cacat sesuai dengan tingkat kecacatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Untuk jenis-jenis pelayanan tertentu atau kecelakaan tertentu, pemberi kerja dikenakan urun biaya.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Manfaat jaminan kecelakaan kerja sebagaimana dimaksud dalam Pasal 31 ayat (1) diberikan pada fasilitas kesehatan milik Pemerintah atau swasta yang memenuhi syarat dan menjalin kerja sama dengan Badan Penyelenggara Jaminan Sosial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam keadaan darurat, pelayanan sebagaimana dimaksud pada ayat (1) dapat diberikan pada fasilitas kesehatan yang tidak menjalin kerja sama dengan Badan Penyelenggara Jaminan Sosial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal kecelakaan kerja terjadi di suatu daerah yang belum tersedia fasilitas kesehatan yang memenuhi syarat, maka guna memenuhi kebutuhan medis bagi peserta, Badan Penyelenggara Jaminan Sosial wajib memberikan kompensasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal peserta membutuhkan rawat inap di rumah sakit, maka kelas perawatan di rumah sakit diberikan kelas standar.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_33">
+                <num>33</num>
+                <content><p>Ketentuan lebih lanjut mengenai besarnya manfaat uang tunai, hak ahli waris, kompensasi, dan pelayanan medis sebagaimana dimaksud dalam Pasal 31 dan Pasal 32 diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+              </article>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Besarnya iuran jaminan kecelakaan kerja adalah sebesar persentase tertentu dari upah atau penghasilan yang ditanggung seluruhnya oleh pemberi kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Besarnya iuran jaminan kecelakaan kerja untuk peserta yang tidak menerima upah adalah jumlah nominal yang ditetapkan secara berkala oleh Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Besarnya iuran sebagaimana dimaksud pada ayat (1) bervariasi untuk setiap kelompok pekerja sesuai dengan risiko lingkungan kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (3) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Jaminan Hari Tua</heading>
+              <article eId="pasal_35">
+                <num>35</num>
+                  <paragraph eId="pasal_35__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Jaminan hari tua diselenggarakan secara nasional berdasarkan prinsip asuransi sosial atau tabungan wajib.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jaminan hari tua diselenggarakan dengan tujuan untuk menjamin agar peserta menerima uang tunai apabila memasuki masa pensiun, mengalami cacat total tetap, atau meninggal dunia.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_36">
+                <num>36</num>
+                <content><p>Peserta jaminan hari tua adalah peserta yang telah membayar iuran.</p></content>
+              </article>
+              <article eId="pasal_37">
+                <num>37</num>
+                  <paragraph eId="pasal_37__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Manfaat jaminan hari tua berupa uang tunai dibayarkan sekaligus pada saat peserta memasuki usia pensiun, meninggal dunia, atau mengalami cacat total tetap.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Besarnya manfaat jaminan hari tua ditentukan berdasarkan seluruh akumulasi iuran yang telah disetorkan ditambah hasil pengembangannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pembayaran manfaat jaminan hari tua dapat diberikan sebagian sampai batas tertentu setelah kepesertaan mencapai minimal 10 (sepuluh) tahun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Apabila peserta meninggal dunia, ahli warisnya yang sah berhak menerima manfaat jaminan hari tua.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_38">
+                <num>38</num>
+                  <paragraph eId="pasal_38__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Besarnya iuran jaminan hari tua untuk peserta penerima upah ditetapkan berdasarkan persentase tertentu dari upah atau penghasilan tertentu yang ditanggung bersama oleh pemberi kerja dan pekerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Besarnya iuran jaminan hari tua untuk peserta yang tidak menerima upah ditetapkan berdasarkan jumlah nominal yang ditetapkan secara berkala oleh Pemerintah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Jaminan Pensiun</heading>
+              <article eId="pasal_39">
+                <num>39</num>
+                  <paragraph eId="pasal_39__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Jaminan pensiun diselenggarakan secara nasional berdasarkan prinsip asuransi sosial atau tabungan wajib.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jaminan pensiun diselenggarakan untuk mempertahankan derajat kehidupan yang layak pada saat peserta kehilangan atau berkurang penghasilannya karena memasuki usia pensiun atau mengalami cacat total tetap.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Jaminan pensiun diselenggarakan berdasarkan manfaat pasti.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Usia pensiun ditetapkan menurut ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_40">
+                <num>40</num>
+                <content><p>Peserta jaminan pensiun adalah pekerja yang telah membayar iuran.</p></content>
+              </article>
+              <article eId="pasal_41">
+                <num>41</num>
+                  <paragraph eId="pasal_41__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Manfaat jaminan pensiun berwujud uang tunai yang diterima setiap bulan sebagai :</p></intro>
+                      <point eId="pasal_41__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Pensiun hari tua, diterima peserta setelah pensiun sampai meninggal dunia;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Pensiun cacat, diterima peserta yang cacat akibat kecelakaan atau akibat penyakit sampai meninggal dunia;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>Pensiun janda/duda, diterima janda/duda ahli waris peserta sampai meninggal dunia atau menikah lagi;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>Pensiun anak, diterima anak ahli waris peserta sampai mencapai usia 23 (dua puluh tiga) tahun, bekerja, atau menikah; atau</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>Pensiun orang tua, diterima orang tua ahli waris peserta lajang sampai batas waktu tertentu sesuai dengan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap peserta atau ahli warisnya berhak mendapatkan pembayaran uang pensiun berkala setiap bulan setelah memenuhi masa iur minimal 15 (lima belas) tahun, kecuali ditetapkan lain oleh peraturan perundang- undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Manfaat jaminan pensiun dibayarkan kepada peserta yang telah mencapai usia pensiun sesuai formula yang ditetapkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Apabila peserta meninggal dunia sebelum mencapai usia pensiun atau belum memenuhi masa iur 15 (lima belas) tahun, ahli warisnya tetap berhak mendapatkan manfaat jaminan pensiun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Apabila peserta mencapai usia pensiun sebelum memenuhi masa iur 15 (lima belas) tahun, peserta tersebut berhak mendapatkan seluruh akumulasi iurannya ditambah hasil pengembangannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Hak ahli waris atas manfaat pensiun anak berakhir apabila anak tersebut menikah, bekerja tetap, atau mencapai usia 23 (dua puluh tiga) tahun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Manfaat pensiun cacat dibayarkan kepada peserta yang mengalami cacat total tetap meskipun peserta tersebut belum memasuki usia pensiun.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Ketentuan mengenai manfaat pensiun sebagaimana dimaksud pada ayat (3), diatur lebih lanjut dalam Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_42">
+                <num>42</num>
+                  <paragraph eId="pasal_42__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Besarnya iuran jaminan pensiun untuk peserta penerima upah ditentukan berdasarkan persentase tertentu dari upah atau penghasilan atau suatu jumlah nominal tertentu yang ditanggung bersama antara pemberi kerja dan pekerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_42__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Jaminan Kematian</heading>
+              <article eId="pasal_43">
+                <num>43</num>
+                  <paragraph eId="pasal_43__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Jaminan kematian diselenggarakan secara nasional berdasarkan prinsip asuransi sosial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_43__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jaminan kematian diselenggarakan dengan tujuan untuk memberikan santunan kematian yang dibayarkan kepada ahli waris peserta yang meninggal dunia.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_44">
+                <num>44</num>
+                <content><p>Peserta jaminan kematian adalah setiap orang yang telah membayar iuran.</p></content>
+              </article>
+              <article eId="pasal_45">
+                <num>45</num>
+                  <paragraph eId="pasal_45__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Manfaat jaminan kematian berupa uang tunai dibayarkan paling lambat 3 (tiga) hari kerja setelah klaim diterima dan disetujui Badan Penyelenggara Jaminan Sosial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Besarnya manfaat jaminan kematian ditetapkan berdasarkan suatu jumlah nominal tertentu.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan mengenai manfaat sebagaimana dimaksud pada ayat (2) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_46">
+                <num>46</num>
+                  <paragraph eId="pasal_46__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Iuran jaminan kematian ditanggung oleh pemberi kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_46__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Besarnya iuran jaminan kematian bagi peserta penerima upah ditentukan berdasarkan persentase tertentu dari upah atau penghasilan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_46__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Besarnya iuran jaminan kematian bagi peserta bukan penerima upah ditentukan berdasarkan jumlah nominal tertentu dibayar oleh peserta.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_46__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PENGELOLAAN DANA JAMINAN SOSIAL</heading>
+          <article eId="pasal_47">
+            <num>47</num>
+              <paragraph eId="pasal_47__ayat_1">
+                <num>(1)</num>
+                <content><p>Dana Jaminan Sosial wajib dikelola dan dikembangkan oleh Badan Penyelenggara Jaminan Sosial secara optimal dengan mempertimbangkan aspek likuiditas, solvabilitas, kehati-hatian, keamanan dana, dan hasil yang memadai.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_2">
+                <num>(2)</num>
+                <content><p>Tata cara pengelolaan dan pengembangan Dana Jaminan Sosial sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_48">
+            <num>48</num>
+            <content><p>Pemerintah dapat melakukan tindakan-tindakan khusus guna menjamin terpeliharanya tingkat kesehatan keuangan Badan Penyelenggara Jaminan Sosial.</p></content>
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+              <paragraph eId="pasal_49__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan Penyelenggara Jaminan Sosial mengelola pembukuan sesuai dengan standar akuntansi yang berlaku.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_2">
+                <num>(2)</num>
+                <content><p>Subsidi silang antarprogram dengan membayarkan manfaat suatu program dari dana program lain tidak diperkenankan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_3">
+                <num>(3)</num>
+                <content><p>Peserta berhak setiap saat memperoleh informasi tentang akumulasi iuran dan hasil pengembangannya serta manfaat dari jenis program jaminan hari tua, jaminan pensiun, dan jaminan kematian.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_49__ayat_4">
+                <num>(4)</num>
+                <content><p>Badan Penyelenggara Jaminan Sosial wajib memberikan informasi akumulasi iuran berikut hasil pengembangannya kepada setiap peserta jaminan hari tua sekurang-kurangnya sekali dalam satu tahun.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_50">
+            <num>50</num>
+              <paragraph eId="pasal_50__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan Penyelenggara Jaminan Sosial wajib membentuk cadangan teknis sesuai dengan standar praktek aktuaria yang lazim dan berlaku umum.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_51">
+            <num>51</num>
+            <content><p>Pengawasan terhadap pengelolaan keuangan Badan Penyelenggara Jaminan Sosial dilakukan oleh instansi yang berwenang sesuai dengan peraturan perundangan-undangan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_52">
+            <num>52</num>
+              <paragraph eId="pasal_52__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pada saat Undang-Undang ini mulai berlaku:</p></intro>
+                  <point eId="pasal_52__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Perusahaan Perseroan (Persero) Jaminan Sosial Tenaga Kerja (JAMSOSTEK) yang dibentuk dengan Peraturan Pemerintah Nomor 36 Tahun 1995 tentang Penetapan Badan Penyelenggara Program Jaminan Sosial Tenaga Kerja (Lembaran Negara Republik Indonesia Tahun 1995 Nomor 59), berdasarkan Undang-Undang Nomor 3 Tahun 1992 tentang Jaminan Sosial Tenaga Kerja (Lembaran Negara Republik Indonesia Tahun 1992 Nomor 14, Tambahan Lembaran Negara Nomor 3468);</p></content>
+                  </point>
+                  <point eId="pasal_52__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Perusahaan Perseroan (Persero) Dana Tabungan dan Asuransi Pegawai Negeri (TASPEN) yang dibentuk dengan Peraturan Pemerintah Nomor 26 Tahun 1981 tentang Pengalihan Bentuk Perusahaan Umum Dana Tabungan dan Asuransi Pegawai Negeri Menjadi Perusahaan Perseroan (Persero) (Lembaran Negara Republik Indonesia Tahun 1981 Nomor 38), berdasarkan Undang-Undang Nomor 11 Tahun 1969 tentang Pensiun Pegawai dan Pensiun Janda/Duda Pegawai (Lembaran Negara Republik Indonesia Tahun 1969 Nomor 42, Tambahan Lembaran Negara Nomor 2906), Undang-Undang Nomor 8 Tahun 1974 tentang Pokok-pokok Kepegawaian (Lembaran Negara Republik Indonesia Tahun 1974 Nomor 55, Tambahan Lembaran Negara Nomor 3014) sebagaimana telah diubah dengan Undang- Undang Nomor 43 Tahun 1999 (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 169, Tambahan Lembaran Negara Nomor 3890), dan Peraturan Pemerintah Nomor 25 Tahun 1981 tentang Asuransi Sosial Pegawai Negeri Sipil (Lembaran Negara Republik Indonesia Tahun 1981 Nomor 37, Tambahan Lembaran Negara Nomor 3200);</p></content>
+                  </point>
+                  <point eId="pasal_52__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Perusahaan Perseroan (Persero) Asuransi Sosial Angkatan Bersenjata Republik Indonesia (ASABRI) yang dibentuk dengan Peraturan Pemerintah Nomor 68 Tahun 1991 tentang Pengalihan Bentuk Perusahaan Umum (Perum) Asuransi Sosial Angkatan Bersenjata Republik Indonesia menjadi Perusahaan Perseroan (Persero) (Lembaran Negara Republik Indonesia Tahun 1991 Nomor 88);</p></content>
+                  </point>
+                  <point eId="pasal_52__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>Perusahaan Perseroan (Persero) Asuransi Kesehatan Indonesia (ASKES) yang dibentuk dengan Peraturan Pemerintah Nomor 6 Tahun 1992 tentang Pengalihan Bentuk Perusahaan Umum (Perum) Husada Bhakti menjadi Perusahaan Perseroan (Persero) (Lembaran Negara Republik Indonesia Tahun 1992 Nomor 16); tetap berlaku sepanjang belum disesuaikan dengan Undang-Undang ini.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_2">
+                <num>(2)</num>
+                <content><p>Semua ketentuan yang mengatur mengenai Badan Penyelenggara Jaminan Sosial sebagaimana dimaksud pada ayat (1) disesuaikan dengan Undang-Undang ini paling lambat 5 (lima) tahun sejak Undang-Undang ini diundangkan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_53">
+            <num>53</num>
+            <content><p>Undang-Undang ini mulai berlaku sejak tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

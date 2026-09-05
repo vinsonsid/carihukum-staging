@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/1983/7/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1983/7"/>
+          <FRBRdate date="1983-12-31" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/1983/7/ind@1984-01-01/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1983/7/ind@1984-01-01"/>
+          <FRBRdate date="1984-01-01" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/1983/7/ind@1984-01-01/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1983/7/ind@1984-01-01.akn"/>
+          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <content><p>Pajak Penghasilan dikenakan terhadap orang pribadi atau perseorangan dan badan berkenaan dengan penghasilan yang diterima atau diperolehnya selama satu tahun pajak.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>SUBYEK PAJAK</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+              <paragraph eId="pasal_2__ayat_1">
+                <num>(1)</num>
+                <intro><p>Yang menjadi Subyek Pajak adalah:</p></intro>
+                  <point eId="pasal_2__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>1) orang pribadi atau perseorangan; 2) warisan yang belum terbagi sebagai suatu kesatuan, menggantikan yang berhak;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>badan yang terdiri dari perseroan terbatas, perseroan komanditer, badan usaha milik negara dan daerah dengan nama dan dalam bentuk apapun, persekutuan, perseroan atau perkumpulan lainnya, firma, kongsi, perkumpulan koperasi, yayasan atau lembaga, dan bentuk usaha tetap.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_2">
+                <num>(2)</num>
+                <content><p>Subyek Pajak terdiri dari Subyek Pajak dalam negeri dan Subyek Pajak luar negeri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_3">
+                <num>(3)</num>
+                <intro><p>Yang dimaksudkan dengan Subyek Pajak dalam negeri adalah:</p></intro>
+                  <point eId="pasal_2__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>orang yang berada di Indonesia lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu dua belas bulan atau orang yang dalam suatu tahun pajak berada di Indonesia dan mempunyai niat untuk bertempat tinggal di Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>badan yang didirikan atau bertempat kedudukan di Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>bentuk usaha tetap yaitu bentuk usaha, yang dipergunakan untuk menjalankan kegiatan usaha secara teratur di Indonesia, oleh badan atau perusahaan yang tidak didirikan atau tidak bertempat kedudukan di Indonesia, yang dapat berupa tempat kedudukan manajemen, kantor cabang, kantor perwakilan, agen, gedung kantor, pabrik, bengkel, proyek konstruksi, pertambangan dan penggalian sumber alam, perikanan, tenaga ahli, pemberian jasa dalam bentuk apapun oleh pegawai atau oleh orang lain, orang atau badan yang kedudukannya tidak bebas yang bertindak atas nama badan atau perusahaan yang tidak didirikan atau tidak bertempat kedudukan di Indonesia dan perusahaan asuransi yang tidak didirikan atau tidak bertempat kedudukan di Indonesia yang menerima premi asuransi atau menanggung risiko di Indonesia.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_4">
+                <num>(4)</num>
+                <content><p>Yang dimaksudkan dengan Subyek Pajak luar negeri adalah Subyek Pajak yang tidak bertempat tinggal, tidak didirikan, atau tidak berkedudukan di Indonesia, yang dapat menerima atau memperoleh penghasilan dari Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_5">
+                <num>(5)</num>
+                <content><p>Seseorang atau suatu badan berada, bertempat tinggal, atau berkedudukan di Indonesia ditentukan menurut keadaan sebenarnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_6">
+                <num>(6)</num>
+                <content><p>Direktur Jenderal Pajak berwenang menetapkan seseorang atau suatu badan berada, bertempat tinggal atau bertempat kedudukan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Tidak termasuk Subyek Pajak sebagaimana dimaksud dalam Pasal 2 adalah :</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>pejabat-pejabat perwakilan diplomatik, konsulat dan pejabat- pejabat lain dari negara asing, dan orang- orang yang diperbantukan kepada mereka yang bekerja pada dan bertempat tinggal bersama-sama mereka, dengan syarat bukan warga negara Indonesia, dan di Indonesia tidak melakukan pekerjaan lain atau kegiatan usaha, serta negara yang bersangkutan memberikan perlakuan timbal balik;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>pejabat-pejabat perwakilan organisasi internasional yang ditentukan oleh Menteri Keuangan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>Perusahaan Jawatan berdasarkan Keputusan Menteri Keuangan</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>OBYEK PAJAK</heading>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <intro><p>Yang menjadi Obyek Pajak adalah penghasilan yaitu setiap tambahan kemampuan ekonomis yang diterima atau diperoleh Wajib Pajak, baik yang berasal dari Indonesia maupun dari luar Indonesia, yang dapat dipakai untuk konsumsi atau untuk menambah kekayaan Wajib Pajak yang bersangkutan, dengan nama dan dalam bentuk apapun, termasuk di dalamnya:</p></intro>
+                  <point eId="pasal_4__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>gaji, upah, komisi, bonus, atau gratifikasi, uang pensiun atau imbalan lainnya untuk pekerjaan yang dilakukan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>honorarium, hadiah undian dan penghargaan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>laba bruto usaha;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>keuntungan karena penjualan atau karena pengalihan harta, termasuk keuntungan yang diperoleh oleh perseroan, persekutuan, dan badan lainnya karena pengalihan harta kepada pemegang saham, sekutu, anggota, serta karena likuidasi;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>penerimaan kembali pembayaran pajak yang telah diperhitungkan sebagai biaya;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>bunga;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>dividen, dengan nama dan dalam bentuk apapun, yang, dibayarkan oleh perseroan, pembayaran dividen dari perusahaan asuransi kepada pemegang polis, pembagian Sisa Hasil Usaha koperasi kepada pengurus dan pengembalian Sisa Hasil Usaha koperasi kepada anggota;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>royalti;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>sewa dari harta;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_1__huruf_j">
+                    <num>j.</num>
+                    <content><p>penerimaan atau perolehan pembayaran berkala;</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengenaan pajak atas bunga deposito berjangka dan tabungan- tabungan lainnya diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_3">
+                <num>(3)</num>
+                <intro><p>Tidak termasuk sebagai Obyek Pajak adalah</p></intro>
+                  <point eId="pasal_4__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>harta hibahan atau bantuan yang, tidak ada hubungannya dengan usaha atau pekerjaan dari pihak yang bersangkutan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>warisan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>pembayaran dari perusahaan asuransi karena kecelakaan, sakit atau karena meninggalnya orang yang tertanggung, dan pembayaran asuransi bea siswa;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>penggantian berkenaan dengan pekerjaan atau jasa, yang dinikmati dalam bentuk natura, dengan ketentuan, bahwa yang memberikan penggantian adalah Pemerintah atau Wajib Pajak menurut undang-undang ini dan Wajib Pajak yang memberikan penggantian tersebut, sesuai ketentuan dalam Pasal 9 ayat (1) huruf d, tidak boleh mengurangkan penggantian itu sebagai biaya;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>keuntungan karena pengalihan harta orang pribadi, harta anggota firma, perseroan komanditer atau kongsi tersebut kepada perseroan terbatas di dalam negeri sebagai pengganti sahamnya, dengan syarat : 1) pihak yang mengalihkan atau pihak-pihak yang mengalihkan secara bersama-sama memiliki paling sedikit 90% (sembilan puluh persen) dari jumlah modal yang disetor; 2) pengalihan tersebut diberitahukan kepada Direktur Jenderal Pajak; 3) pengenaan pajak dikemudian hari atas keuntungan tersebut dijamin.</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_f">
+                    <num>f.</num>
+                    <content><p>harta yang, diterima oleh perseroan, persekutuan atau badan lainnya sebagai pengganti saham atau sebagai pengganti penyertaan modal;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_g">
+                    <num>g.</num>
+                    <content><p>dividen yang diterima oleh perseroan dalam negeri, selain bank atau lembaga keuangan lainnya, dari perseroan lain di Indonesia dengan syarat, bahwa perseroan yang menerima dividen tersebut paling sedikit memiliki 25% (dua puluh lima persen) dari nilai saham yang disetor dari badan yang membayar dividen dan kedua badan tersebut mempunyai hubungan ekonomis dalam jalur usahanya;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_h">
+                    <num>h.</num>
+                    <content><p>iuran yang diterima atau diperoleh dana pensiun yang disetujui Menteri Keuangan, baik yang dibayar oleh pemberi kerja maupun oleh karyawan, dan penghasilan dana pensiun serupa dari modal yang ditanamkan dalam bidang-bidang tertentu berdasarkan Keputusan Menteri Keuangan;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_i">
+                    <num>i.</num>
+                    <content><p>penghasilan yayasan dari usaha yang semata-mata ditujukan untuk kepentingan umum;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_j">
+                    <num>j.</num>
+                    <content><p>penghasilan yayasan dari modal sepanjang penghasilan itu semata-mata digunakan untuk kepentingan umum;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_3__huruf_k">
+                    <num>k.</num>
+                    <content><p>pembagian keuntungan dari perseroan komanditer yang modalnya tidak terbagi atas saham-saham, firma, kongsi dan persekutuan kepada para anggotanya, kecuali apabila ditetapkan lain oleh Menteri Keuangan, karena terdapat penyalahgunaan.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <intro><p>Yang menjadi Obyek Pajak bentuk usaha tetap adalah:</p></intro>
+                  <point eId="pasal_5__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>penghasilan dari kegiatan usaha bentuk usaha tetap tersebut dan dari harta yang dikuasai atau dimilikinya;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>penghasilan induk perusahaan dan badan lain yang bukan Wajib Pajak dalam negeri yang mempunyai hubungan istimewa dengan induk perusahaan tersebut, dari kegiatan usaha atau penjualan barang-barang dan/atau pemberian jasa di Indonesia, yang sejenis dengan kegiatan usaha atau penjualan barang-barang dan/atau pemberian jasa yang dilakukan oleh bentuk usaha tetap di Indonesia, kecuali penghasilan sebagaimana dimaksud dalam ayat (2).</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <intro><p>Apabila induk perusahaan dari suatu bentuk usaha tetap di Indonesia atau badan lain yang bukan Wajib Pajak dalam negeri yang mempunyai hubungan istimewa dengan induk perusahaan tersebut, menerima atau memperoleh penghasilan dari Indonesia berdasarkan Pasal 26, maka:</p></intro>
+                  <point eId="pasal_5__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>penghasilan bentuk usaha tetap itu tidak boleh dikurangi dengan biaya-biaya yang berkenaan dengan penghasilan induk perusahaan atau badan lain tersebut;</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pajak induk perusahaan atau badan lain itu tidak boleh dikreditkan dengan pajak bentuk usaha tetap.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <intro><p>Besarnya penghasilan kena pajak, ditentukan oleh penghasilan bruto dikurangi :</p></intro>
+                  <point eId="pasal_6__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>biaya untuk mendapatkan, menagih, dan memelihara penghasilan itu, meliputi biaya pembelian bahan, upah, dan gaji karyawan termasuk bonus atau gratifikasi, honorarium, bunga, sewa, royalti, biaya perjalanan, piutang yang tidak dapat ditagih, premi asuransi, biaya administrasi, dan pajak, kecuali Pajak Penghasilan;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>penyusutan atas biaya untuk memperoleh harta berwujud perusahaan dan amortisasi atas biaya untuk memperoleh hak dan/atau biaya lain yang mempunyai masa manfaat lebih dari satu tahun sebagaimana dimaksud dalam Pasal 11;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>iuran kepada dana pensiun yang mendapat persetujuan Menteri Keuangan;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>kerugian yang diderita karena penjualan atau pengalihan barang dan/atau hak yang dimiliki dan dipergunakan dalam perusahaan atau yang dimiliki untuk mendapatkan, menagih, dan memelihara penghasilan itu;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>Sisa Hasil Usaha koperasi sehubungan dengan kegiatan usahanya yang semata-mata dari dan untuk anggota.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Kepada orang pribadi atau perseorangan sebagai Wajib Pajak- dalam negeri diberikan pengurangan berupa penghasilan tidak kena pajak sebagaimana dimaksud dalam Pasal 7.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_3">
+                <num>(3)</num>
+                <intro><p>Jika penghasilan bruto sesudah dikurangi biaya sebagaimana dimaksud dalam ayat (1) didapat kerugian, maka kerugian tersebut dapat dikompensasikan dengan penghasilan dalam:</p></intro>
+                  <point eId="pasal_6__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>5 (lima) tahun, atau</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>lebih dari 5 (lima) tahun tetapi tidak lebih dari 8 (delapan) tahun khusus untuk jenis-jenis usaha tertentu, berdasarkan Keputusan Menteri Keuangan. terhitung mulai tahun pertama sesudah kerugian tersebut diderita.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <intro><p>Kepada orang pribadi atau perseorangan sebagai Wajib Pajak dalam negeri diberikan pengurangan berupa penghasilan tidak kena pajak yang besarnya:</p></intro>
+                  <point eId="pasal_7__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Rp 960.000,- (sembilan ratus enam puluh ribu rupiah) untuk diri Wajib Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Rp. 480.000,- (empat ratus delapan puluh ribu rupiah) tambahan untuk Wajib Pajak yang kawin;</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Rp 960.000,- (sembilan ratus enam puluh ribu rupiah) tambahan untuk seorang isteri yang mempunyai penghasilan dari usaha atau dari pekerjaan yang tidak ada hubungannya dengan usaha suami atau anggota keluarga lain:</p></content>
+                  </point>
+                  <point eId="pasal_7__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>Rp 480.000,- (empat ratus delapan puluh ribu rupiah) tambahan untuk setiap orang keluarga sedarah dan semenda dalam garis keturunan lurus, serta anak angkat, yang menjadi tanggungan sepenuhnya, paling banyak 3 (tiga) orang untuk setiap keluarga.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Penerapan ayat (1) ditentukan oleh keadaan pada permulaan tahun pajak atau pada permulaan menjadi Subyek Pajak dalam negeri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_3">
+                <num>(3)</num>
+                <content><p>Besarnya penghasilan tidak kena pajak tersebut dalam ayat (1) akan disesuaikan dengan suatu faktor penyesuaian yang ditetapkan dengan Keputusan Menteri Keuangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+              <paragraph eId="pasal_8__ayat_1">
+                <num>(1)</num>
+                <content><p>Penghasilan atau kerugian bagi wanita yang telah kawin pada awal tahun pajak, begitu pula kerugian dari tahun- tahun sebelumnya yang belum dikompensasikan sebagaimana dimaksud dalam Pasal 6 ayat (3), dianggap sebagai penghasilan atau kerugian suaminya, kecuali penghasilan isteri dari pekerjaan yang telah dipotong pajak berdasarkan Pasal 21 dan yang tidak ada hubungannya dengan usaha suami atau anggota keluarga lainnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2">
+                <num>(2)</num>
+                <content><p>Penghasilan anak belum dewasa yang bukan dari pekerjaan dan penghasilan dari pekerjaan yang ada hubungannya dengan usaha anggota keluarga lainnya, digabung dengan penghasilan orang tuanya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <intro><p>Untuk menentukan besarnya penghasilan kena pajak tidak diperbolehkan dikurangkan :</p></intro>
+                  <point eId="pasal_9__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pembayaran dividen atau pembagian laba lainnya dari perseroan atau badan lainnya kepada pemegang saham, sekutu, atau anggota dengan nama dan dalam bentuk apapun, termasuk pembagian Sisa Hasil Usaha dari koperasi yang bukan pengembalian Sisa Hasil Usaha sehubungan dengan jasa anggota, dividen yang dibayarkan oleh perusahaan asuransi kepada pemegang polis dan biaya yang dikeluarkan untuk kepentingan pemegang saham, sekutu atau anggota;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pembentukan atau pemupukan dana cadangan, kecuali dalam hal-hal yang ditentukan dalam Peraturan Pemerintah,</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>premi asuransi jiwa, asuransi kesehatan, asuransi dwiguna, dan asuransi bea siswa, kecuali jika dibayarkan pihak pemberi kerja dan premi yang demikian itu dianggap sebagai penghasilan bagi Wajib Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemberian kenikmatan perjalanan cuti, kenikmatan rekreasi, dan kenikmatan lainnya yang diperuntukkan bagi keperluan pegawai dari Wajib Pajak, termasuk kenikmatan pemakaian kendaraan bermotor perusahaan dan kenikmatan perumahan, kecuali perumahan di daerah terpencil berdasarkan Keputusan Menteri Keuangan;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>pembayaran yang melebihi kewajaran sebagai imbalan atas pekerjaan yang dilakukan, yang dibayarkan kepada pemegang saham atau pihak yang mempunyai hubungan istimewa;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>harta yang dihibahkan, bantuan, dan warisan sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf a dan huruf b;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>Pajak Penghasilan;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>biaya yang dikeluarkan untuk keperluan pribadi Wajib Pajak atau yang menjadi tanggungannya;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>sumbangan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <content><p>Biaya untuk mendapatkan, menagih, dan memelihara penghasilan yang mempunyai masa manfaat lebih dari setahun tidak diperbolehkan dikurangkan sekaligus, melainkan dibebankan melalui amortisasi sebagaimana dimaksud dalam Pasal 11 ayat (10).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam melakukan penyusutan dan amortisasi terhadap harta dan penghitungan keuntungan atau kerugian dalam hal penjualan yang tidak dipengaruhi hubungan istimewa. maka harga perolehannya adalah jumlah yang sesungguhnya dikeluarkan, sedangkan dalam ha] pengalihan harta nilai perolehannya adalah jumlah yang seharusnya dikeluarkan, kecuali:</p></intro>
+                  <point eId="pasal_10__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>dalam hal pengalihan sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf e, dasar penilaian saham atau penyertaan lainnya yang diterima oleh pihak yang melakukan pengalihan tersebut adalah sama dengan nilai dari harta yang dialihkan menurut pembukuan pihak yang mengalihkan;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>dalam hal pengalihan harta sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf f, dasar penilaian harta bagi yang menerima pengalihan adalah sama dengan nilai dari harta yang dialihkan menurut pembukuan pihak yang mengalihkan;</p></content>
+                  </point>
+                  <point eId="pasal_10__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>dalam hal penyerahan harta hibahan, pemberian bantuan yang bebas pajak, dan warisan, dasar penilaian yang dipergunakan oleh yang menerima penyerahan adalah sama dengan dasar penilaian bagi yang melakukan penyerahan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Harta yang telah dipergunakan oleh Wajib Pajak untuk menerima atau memperoleh penghasilan, harga perolehan atau nilai perolehannya disesuaikan dengan penyusutan dan/atau amortisasi, tambahan, perbaikan atau tambahan yang dilakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_3">
+                <num>(3)</num>
+                <content><p>Penilaian persediaan hanya diperbolehkan menggunakan harga perolehan, yang didasarkan atas pemakaian persediaan untuk penghitungan harga pokok yang dilakukan secara rata-rata ataupun yang dilakukan dengan mendahulukan persediaan yang didapat pertama.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Harta yang dapat disusutkan adalah harta berwujud yang dimiliki dan dipergunakan dalam perusahaan atau yang dimiliki untuk mendapatkan, menagih, dan memelihara penghasilan, dengan suatu masa manfaat yang lebih dari satu tahun, kecuali tanah. Keuntungan atau kerugian dari pengalihan harta yang dapat disusutkan harus dihitung dengan cara sebagaimana dimaksud dalam ayat (7) huruf b.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <content><p>Penyusutan yang dapat dilakukan, dalam suatu tahun pajak adalah jumlah penyusutan dari setiap golongan harta sebagaimana dimaksud dalam ayat (3) dan penyusutan untuk setiap golongan harta ditetapkan dengan mengalihkan dasar penyusutan golongan itu sebagaimana dimaksud dalam ayat (4) dengan tarif penyusutan sebagaimana dimaksud dalam ayat (9).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_3">
+                <num>(3)</num>
+                <intro><p>Untuk menghitung penyusutan, harta yang dapat disusutkan dibagi menjadi golongan-golongan harta sebagai berikut</p></intro>
+                  <point eId="pasal_11__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>Golongan 2 : harta yang dapat disusutkan dan tidak termasuk Golongan Bangunan, yang mempunyai masa manfaat tidak lebih dari 4 (empat) tahun;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>Golongan 2: harta yang dapat disusutkan dan tidak termasuk Golongan Bangunan, yang mempunyai masa manfaat lebih dari 4 (empat) tahun dan tidak lebih dari 8 (delapan) tahun;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>Golongan 3 : harta yang dapat disusutkan dan yang tidak termasuk Golongan Bangunan, yang mempunyai masa manfaat lebih dari 8 (delapan) tahun;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>Golongan Bangunan: bangunan dan harta tak gerak lainnya, termasuk tambahan, perbaikan atau perubahan yang dilakukan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_4">
+                <num>(4)</num>
+                <content><p>Dasar penyusutan setiap golongan harta untuk suatu tahun pajak sama dengan jumlah awal pada tahun pajak untuk golongan harta itu ditambah dengan tambahan, perbaikan atau perubahan dan dikurangkan dengan pengurangan sebagaimana dimaksud dalam ayat (7).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_5">
+                <num>(5)</num>
+                <content><p>Jumlah awal dari masing-masing Golongan 1, Golongan 2, dan Golongan 3 untuk suatu tahun pajak adalah sama dengan dasar penyusutan pada tahun pajak sebelumnya, dikurangi dengan penyusutan yang diperkenankan pada tahun pajak sebelumnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_6">
+                <num>(6)</num>
+                <content><p>Jumlah awal dari Golongan Bangunan untuk suatu tahun pajak adalah sama dengan dasar penyusutan pada tahun pajak sebelumnya, yaitu sebesar harga atau nilai perolehan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_7">
+                <num>(7)</num>
+                <intro><p>Apabila terjadi penarikan harta dari pemakaian :</p></intro>
+                  <point eId="pasal_11__ayat_7__huruf_a">
+                    <num>a.</num>
+                    <content><p>karena sebab luar biasa sebagai akibat bencana atau karena penghentian sebagian besar usaha, maka suatu jumlah sebesar harga sisa buku dikurangi dari jumlah awal untuk memperoleh dasar penyusutan, dan jumlah sebesar harga sisa buku itu merupakan kerugian dalam tahun pajak yang bersangkutan, sedangkan hasil penjualan atau penggantian asumsinya merupakan penghasilan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_7__huruf_b">
+                    <num>b.</num>
+                    <content><p>karena sebab biasa, yaitu lain dari yang tersebut pada huruf a, maka penerimaan netto dari harta yang bersangkutan dikurangkan dari jumlah awal untuk memperoleh dasar penyusutan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_8">
+                <num>(8)</num>
+                <content><p>Jika pengurangan yang dimaksud dalam ayat (7) dalam suatu tahun pajak menghasilkan dasar penyusutan di bawah not, maka dasar penyusutan itu harus dinaikkan menjadi nol dan jumlah yang sama dengan kenaikan itu harus ditambahkan pada penghasilan pada tahun pajak yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_9">
+                <num>(9)</num>
+                <intro><p>Tarif penyusutan tiap tahun pajak untuk:</p></intro>
+                  <point eId="pasal_11__ayat_9__huruf_a">
+                    <num>a.</num>
+                    <content><p>Golongan 1: 50% (lima puluh persen);</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_9__huruf_b">
+                    <num>b.</num>
+                    <content><p>Golongan 2: 25% (dua puluh lima persen);</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_9__huruf_c">
+                    <num>c.</num>
+                    <content><p>Golongan 3: 10% (sepuluh persen);</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_9__huruf_d">
+                    <num>d.</num>
+                    <content><p>Golongan Bangunan: 5% (lima persen).</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_10">
+                <num>(10)</num>
+                <content><p>Harga perolehan dari harta tak berwujud yang dipergunakan dalam perusahaan untuk mendapatkan, menagih, dan memelihara penghasilan, termasuk biaya lain yang mempunyai masa manfaat lebih dari satu tahun, seperti penyewaan harta berwujud, diamortisasi dengan tarif berdasarkan masa manfaatnya sebagaimana dimaksud dalam ayat (9) huruf a atau huruf b atau huruf c, atau dengan tingkat tarif Golongan I sebagaimana dimaksud dalam ayat (11), atau dengan mempergunakan metode satuan produksi sebagaimana dimaksud dalam ayat (12) atau ayat (13).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_11">
+                <num>(11)</num>
+                <content><p>Biaya pendirian dan biaya perluasan modal suatu perusahaan diamortisasi dengan tingkat tarif penyusutan Golongan 1, kecuali apabila Wajib Pajak menganggapnya sebagai biaya sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf a sesuai dengan pembukuannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_12">
+                <num>(12)</num>
+                <content><p>Biaya untuk memperoleh hak penambangan selain minyak dan gas bumi, dan hak pengusahaan hutan, diamortisasi dengan mempergunakan metode satuan produksi, setinggi- tingginya 20% (dua puluh persen) setahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_13">
+                <num>(13)</num>
+                <content><p>Biaya untuk memperoleh hak dan/atau biaya-biaya lain yang mempunyai masa manfaat lebih dari satu tahun di bidang penambangan minyak dan gas bumi diamortisasi dengan mempergunakan metode satuan produksi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_14">
+                <num>(14)</num>
+                <content><p>Menteri Keuangan mengeluarkan keputusan untuk menentukan jenis-jenis harta yang termasuk dalam masing-masing golongan harta sebagaimana dimaksud dalam ayat (3) dengan memperhatikan masa manfaat dari jenis harta yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Tahun Pajak adalah tahun takwim, kecuali bila Wajib Pajak menggunakan tahun buku yang tidak sama dengan tahun takwim.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <content><p>Wajib Pajak tidak diperbolehkan mengubah tahun pajak tanpa mendapat persetujuan dari Direktur Jenderal Pajak.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <content><p>Wajib Pajak dalam negeri yang menerima atau memperoleh penghasilan dari usaha dan/atau pekerjaan bebas, wajib menyelenggarakan pembukuan di Indonesia, sehingga dari pembukuan tersebut dapat dihitung besarnya penghasilan kena pajak berdasarkan undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Pada setiap tahun pajak berakhir, Wajib Pajak menutup pembukuannya dengan membuat neraca dan perhitungan rugi-laba berdasarkan prinsip pembukuan yang taat asas (konsisten) dengan tahun sebelumnya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <content><p>Norma Penghitungan adalah pedoman yang dipakai untuk menentukan peredaran atau penerimaan bruto dan untuk menentukan penghasilan netto berdasarkan jenis usaha perusahaan atau jenis pekerjaan bebas, yang dibuat dan disempurnakan terus-menerus serta diterbitkan oleh Direktur Jenderal Pajak, berdasarkan pegangan yang ditetapkan oleh Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Wajib Pajak yang peredaran usahanya atau penerimaan bruto dari pekerjaan bebasnya yang berjumlah kurang dari Rp 60.000.000,- (enam puluh juta rupiah) setahun dapat menghitung penghasilan netto dengan menggunakan Norma Penghitungan, asal hal itu diberitahukan kepada Direktur Jenderal Pajak dalam tenggang waktu 3 (tiga) bulan pertama dari tahun pajak yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_3">
+                <num>(3)</num>
+                <content><p>Jumlah Rp 60.000.000,- (enam puluh juta rupiah) disesuaikan dengan faktor penyesuaian yang ditetapkan dengan Keputusan Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_4">
+                <num>(4)</num>
+                <content><p>Wajib Pajak sebagaimana dimaksud dalam ayat (2) yang tidak memberitahukan kepada Direktur Jenderal Pajak untuk menghitung penghasilan netto dengan menggunakan Norma Penghitungan, dianggap memilih menyelenggarakan pembukuan, dan karenanya tidak diperbolehkan menghitung penghasilan netto dengan Norma Penghitungan tanpa kenaikan sebagaimana dimaksud dalam ayat (7).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_5">
+                <num>(5)</num>
+                <content><p>Wajib Pajak sebagaimana dimaksud dalam ayat (2) yang menghitung penghasilan nettonya dengan menggunakan Norma Penghitungan, wajib menyelenggarakan pencatatan tentang peredaran atau penerimaan brutonya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_6">
+                <num>(6)</num>
+                <content><p>Wajib Pajak yang wajib menyelenggarakan pembukuan atau menyelenggarakan pencatatan peredaran atau menyelenggarakan pencatatan penerimaan bruto tetapi tidak atau tidak sepenuhnya menyelenggarakannya sebagaimana ditetapkan oleh undang-undang ini, atau tidak memperlihatkan buku dan catatan serta bukti lain yang diminta oleh Direktur Jenderal Pajak sehubungan dengan kewajiban penyelenggaraan pembukuan atau pencatatan penghasilan nettonya dihitung dengan menggunakan Norma Penghitungan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_7">
+                <num>(7)</num>
+                <content><p>Pajak yang dihasilkan dari penghitungan sebagaimana dimaksud dalam ayat (6), ditambah dengan sanksi administrasi berupa kenaikan sebagaimana diatur dalam Pasal 13 ayat (3) Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+            <content><p>Menteri Keuangan dapat mengeluarkan keputusan untuk menetapkan Norma Penghitungan Khusus guna menghitung penghasilan netto dari Wajib Pajak tertentu yang tidak dapat dihitung berdasarkan Pasal 16.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>CARA MENGHITUNG PAJAK</heading>
+          <article eId="pasal_16">
+            <num>16</num>
+              <paragraph eId="pasal_16__ayat_1">
+                <num>(1)</num>
+                <content><p>Penghasilan kena pajak, sebagai dasar penerapan tarif bagi Wajib Pajak dalam negeri dalam suatu tahun pajak, dihitung dengan cara mengurangkan penghasilan sebagaimana dimaksud dalam Pasal 4 ayat (1), dengan pengurangan sebagaimana dimaksud dalam Pasal 6 ayat (1), Pasal 7 ayat (1), dan Pasal 9 ayat (1) huruf b, huruf c, dan huruf d.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_2">
+                <num>(2)</num>
+                <content><p>Penghasilan kena pajak bagi Wajib Pajak dalam negeri tertentu sebagaimana dimaksud dalam Pasal 14 ayat (2), dihitung dengan menggunakan Norma Penghitungan sebagaimana dimaksud dalam Pasal 14 ayat (1),</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_3">
+                <num>(3)</num>
+                <content><p>Penghasilan kena pajak bagi Wajib Pajak luar negeri adalah jumlah penghasilan bruto yang diterima atau diperoleh.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+              <paragraph eId="pasal_17__ayat_1">
+                <num>(1)</num>
+                <content><p>Tarif pajak yang diterapkan atas penghasilan kena pajak, kecuali atas penghasilan sebagaimana dimaksud dalam Pasal 26, adalah sebagai berikut: Penghasilan kena pajak Tarif pajak sampai dengan Rp 10.000.000,- 15% (sepuluh juta rupiah) (lima belas persen) di atas Rp 10.000.000,- (sepuluh 25% juta rupiah) sampai dengan (dua puluh lima persen) Rp. 50.000.000,- (lima puluh juta rupiah) di atas Rp 50.000.000,- (lima 35% puluh juta rupiah) (tiga puluh lima persen)</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_2">
+                <num>(2)</num>
+                <content><p>Jumlah penghasilan kena pajak sebagaimana dimaksud dalam ayat (1)tersebut akan disesuaikan dengan suatu faktor penyesuaian yang ditetapkan dengan Keputusan Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_3">
+                <num>(3)</num>
+                <content><p>Untuk keperluan penerapan tarif sebagaimana dimaksud dalam ayat (1), penghasilan kena pajak dibulatkan ke bawah hingga ribuan rupiah penuh.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_4">
+                <num>(4)</num>
+                <content><p>Bagi Wajib Pajak orang pribadi atau perseorangan yang kewajiban pajak subyektifnya sebagai Subyek Pajak dalam negeri dimulai setelah permulaan tahun pajak atau berakhir dalam tahun pajak, maka pajak yang terhutang adalah sebanyak jumlah hari dari bagian tahun pajak dibagi 360 (tiga ratus enam puluh) dikalikan dengan pajak yang terhutang untuk satu tahun pajak yang dihasilkan karena penerapan ayat (1) dan ayat (2). Penghasilan netto yang diperoleh selama bagian dari tahun pajak dihitung terlebih dahulu menjadi jumlah setahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_5">
+                <num>(5)</num>
+                <content><p>Untuk keperluan penghitungan pajak sebagaimana dimaksud dalam ayat (4) tiap bulan yang penuh dihitung 30 (tiga puluh) hari.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri Keuangan berwenang mengeluarkan keputusan mengenai besarnya perbandingan antara hutang dan modal perusahaan untuk keperluan pemungutan pajak berdasarkan undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Direktur Jenderal Pajak berwenang untuk menentukan kembali besarnya penghasilan dan/atau pengurangan, dan menentukan hutang sebagai modal untuk menghitung besarnya penghasilan kena pajak bagi Wajib Pajak yang mempunyai hubungan istimewa dengan Wajib Pajak lainnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_3">
+                <num>(3)</num>
+                <intro><p>Hubungan istimewa sebagaimana dimaksud dalam Pasal 5 ayat (1) dan ayat (2), Pasal 9 ayat (1) huruf e dan ayat (2) Pasal ini</p></intro>
+                  <point eId="pasal_18__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>dalam hal Wajib Pajak adalah badan : 1) hubungan antara dua atau lebih Wajib Pajak yang berada di bawah pemilikan atau penguasaan yang sama, baik langsung maupun tidak langsung; 2) hubungan antara Wajib Pajak yang mempunyai penyertaan 25% (dua puluh lima persen) atau lebih pada pihak yang lain, atau hubungan antara Wajib Pajak yang mempunyai penyertaan 25% (dua puluh lima persen) atau lebih pada dua pihak atau lebih, demikian pula hubungan antara dua pihak atau lebih yang disebut terakhir;</p></content>
+                  </point>
+                  <point eId="pasal_18__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>dalam hal Wajib Pajak adalah orang pribadi atau perseorangan : keluarga sedarah dan semenda dalam garis keturunan lurus satu derajat atau keluarga sedarah dan semenda dalam garis keturunan ke samping satu derajat.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_4">
+                <num>(4)</num>
+                <content><p>Dua pihak atau lebih yang masing-masing merupakan perseroan, persekutuan, atau perkumpulan lainnya yang mempunyai hubungan istimewa dengan penyertaan 50% (lima puluh persen) atau lebih, pengenaan pajaknya yang dihitung dengan menggunakan lapisan tarif terendah sebagaimana dimaksud dalam Pasal 17, hanya diterapkan satu kali saja.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+            <content><p>Dengan Peraturan Pemerintah dapat ditetapkan faktor penyesuaian dalam hal terjadi ketidakserasian antara unsur- unsur biaya dengan penghasilan yang disebabkan karena perkembangan harga.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PELUNASAN PAJAK DALAM TAHUN BERJALAN</heading>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Pajak yang diperkirakan akan terhutang dalam suatu tahun pajak, dilunasi oleh Wajib Pajak dalam tahun berjalan melalui pemotongan dan pemungutan pajak oleh pihak lain, serta pembayaran pajak oleh Wajib Pajak sendiri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Pelunasan pajak melalui pemotongan dan pemungutan pajak oleh pihak lain serta pembayaran pajak oleh Wajib Pajak sendiri tersebut, merupakan angsuran pajak yang akan dikreditkan terhadap Pajak Penghasilan yang terhutang untuk seluruh tahun pajak yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_3">
+                <num>(3)</num>
+                <content><p>Masa pajak dipergunakan sebagai jangka waktu untuk menentukan besarnya Obyek Pajak dan besarnya pajak yang terhutang, yang harus dilunasi sebagai angsuran dalam tahun berjalan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_4">
+                <num>(4)</num>
+                <content><p>Masa pajak sebagaimana dimaksud dalam ayat (3) adalah 1 (satu) bulan atau selama jangka waktu lain yang ditetapkan oleh Menteri Keuangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_21">
+            <num>21</num>
+              <paragraph eId="pasal_21__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pemotongan pajak atas penghasilan sehubungan dengan pekerjaan dan penyetorannya ke Kas Negara, wajib dilakukan oleh:</p></intro>
+                  <point eId="pasal_21__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pemberi kerja yang membayar gaji, upah, dan honorarium dengan nama apapun, sebagai imbalan atas pekerjaan yang dilakukan oleh pegawai atau orang lain yang dilakukan di Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>bendaharawan Pemerintah yang membayar gaji, upah, honorarium, tunjangan tetap, dan pembayaran lain, dengan nama apapun sehubungan dengan pekerjaan atau jabatan yang dibebankan kepada Keuangan Negara;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>badan dana pensiun yang membayarkan uang pensiun;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>perusahaan dan badan-badan yang membayar honorarium atau pembayaran lain sebagai imbalan atas jasa yang dilakukan di Indonesia oleh tenaga ahli dan/atau persekutuan tenaga ahli sebagai Wajib Pajak dalam negeri yang melakukan pekerjaan bebas.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_2">
+                <num>(2)</num>
+                <content><p>Bagian penghasilan yang dipotong pajak untuk setiap masa pajak adalah bagian penghasilan yang melebihi seperdua belas dari penghasilan tidak kena pajak sebagaimana dimaksud dalam Pasal 7.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_3">
+                <num>(3)</num>
+                <content><p>Pada saat seseorang mulai bekerja atau mulai pensiun, untuk mendapat pengurangan sebagaimana dimaksud dalam Pasal 7, ia harus menyerahkan surat pernyataan kepada pemberi kerja, bendaharawan Pemerintah atau badan dana pensiun, yang menyatakan jumlah tanggungan keluarganya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_4">
+                <num>(4)</num>
+                <content><p>Pernyataan sebagaimana dimaksud dalam ayat (3) akan digunakan oleh pemberi kerja, bendaharawan Pemerintah atau badan dana pensiun, untuk menetapkan besarnya penghasilan kena pajak, kecuali apabila Wajib Pajak yang bersangkutan memasukkan surat pernyataan baru tentang adanya perubahan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_5">
+                <num>(5)</num>
+                <content><p>Tarif pemotongan pajak atas gaji, upah, dan honorarium adalah sama dengan tarif penghasilan kena pajak sebagaimana dimaksud dalam Pasal 17.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_6">
+                <num>(6)</num>
+                <content><p>Jumlah pajak yang dipotong atas bagian upah setiap masa pajak akan dimuat dalam Buku Petunjuk yang dikeluarkan oleh Direktur Jenderal Pajak sebagaimana dimaksud dalam ayat (9).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_7">
+                <num>(7)</num>
+                <content><p>Setiap orang yang tidak mempunyai penghasilan lain kecuali penghasilan sehubungan dengan pekerjaan yang secara benar dan tepat telah dipotong pajaknya, jumlah pajak yang telah dipotong sebagaimana dimaksud dalam ayat (2) dan ayat (5) merupakan pelunasan pajak yang terhutang untuk tahun yang bersangkutan berdasarkan undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_8">
+                <num>(8)</num>
+                <content><p>Setiap orang yang mempunyai penghasilan lain di luar penghasilan sehubungan dengan pekerjaan dan setiap orang yang memperoleh penghasilan sehubungan dengan pekerjaan lebih dari satu pemberi kerja diharuskan menyampaikan Surat Pemberitahuan Tahunan sebagaimana dimaksud dalam Pasal 30 dan Pasal 3 Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan. Pajak yang terhutang seluruhnya dikurangi dengan pajak yang telah dipotong sebagai kredit sebagaimana dimaksud dalam Pasal 28.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_9">
+                <num>(9)</num>
+                <content><p>Direktur Jenderal Pajak menerbitkan Buku Petunjuk tentang pemotongan pajak atas pembayaran gaji, upah, honorarium, dan lain-lain sehubungan dengan pekerjaan atau jasa lain yang diberikan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_22">
+            <num>22</num>
+              <paragraph eId="pasal_22__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri Keuangan dapat menetapkan badan-badan tertentu untuk memungut pajak dari Wajib Pajak yang melakukan kegiatan usaha di bidang impor atau kegiatan usaha di bidang lain yang memperoleh pembayaran untuk barang dan jasa dari Belanja Negara.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_22__ayat_2">
+                <num>(2)</num>
+                <content><p>Dasar pemungutan dan besarnya pungutan ditetapkan dengan Keputusan Menteri Keuangan berdasarkan pertimbangan, bahwa jumlah pungutan itu diperkirakan mendekati jumlah pajak yang terhutang atas penghasilan dari kegiatan usaha yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_23">
+            <num>23</num>
+              <paragraph eId="pasal_23__ayat_1">
+                <num>(1)</num>
+                <intro><p>Atas penghasilan tersebut di bawah ini, dengan nama dan dalam bentuk apapun, yang dibayarkan atau yang terhutang oleh badan Pemerintah, badan usaha milik negara dan daerah dengan nama dan dalam bentuk apapun atau oleh Wajib Pajak badan dalam negeri lainnya kepada Wajib Pajak dalam negeri, selain bank atau lembaga keuangan lainnya, dipotong pajak sebesar 15% (lima belas persen) dari jumlah bruto, oleh pihak yang wajib membayarkan:</p></intro>
+                  <point eId="pasal_23__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>dividen dari perseroan dalam negeri;</p></content>
+                  </point>
+                  <point eId="pasal_23__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>bunga, termasuk imbalan karena jaminan pengembalian hutang;</p></content>
+                  </point>
+                  <point eId="pasal_23__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>sewa, royalti, dan penghasilan lain sehubungan dengan penggunaan harta;</p></content>
+                  </point>
+                  <point eId="pasal_23__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>imbalan yang dibayarkan untuk jasa teknik dan jasa manajemen yang dilakukan di Indonesia.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_2">
+                <num>(2)</num>
+                <content><p>Orang pribadi atau perseorangan sebagai Wajib Pajak dalam negeri dapat ditunjuk oleh Direktur Jenderal Pajak untuk memotong pajak sebagaimana dimaksud dalam ayat (1).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_3">
+                <num>(3)</num>
+                <content><p>Bunga dan dividen tertentu yang tidak melampaui suatu jumlah yang diatur lebih lanjut dengan Peraturan Pemerintah, dikecualikan dari pemotongan pajak sebagaimana dimaksud dalam ayat (1).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_24">
+            <num>24</num>
+              <paragraph eId="pasal_24__ayat_1">
+                <num>(1)</num>
+                <content><p>Pajak yang dikenakan dalam suatu tahun pajak yang dihitung menurut ketentuan undang-undang ini dikreditkan dengan pajak yang dibayar atau terhutang di luar negeri oleh Wajib Pajak dalam tahun pajak yang sama atas penghasilan yang diterima atau diperoleh di luar negeri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_2">
+                <num>(2)</num>
+                <content><p>Kredit yang diperbolehkan berkenaan dengan penghasilan yang diterima atau diperoleh di luar negeri itu untuk tahun pajak yang bersangkutan, terbatas pada jumlah pajak yang dihitung atas penghasilan luar negeri, berdasarkan undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam menghitung batas jumlah pajak yang dapat dikreditkan, penghasilan-penghasilan yang dimaksud dalam Pasal 26 dianggap berasal dari Indonesia, dan dalam menentukan sumber penghasilan lainnya dipergunakan prinsip yang sama.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_4">
+                <num>(4)</num>
+                <content><p>Jika pajak penghasilan luar negeri yang diminta untuk dikreditkan itu ternyata dikurangkan atau dikembalikan, maka pajak yang terhutang menurut undang-undang ini harus ditambah dengan jumlah tersebut pada tahun pengurangan atau pengembalian itu dilakukan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_25">
+            <num>25</num>
+              <paragraph eId="pasal_25__ayat_1">
+                <num>(1)</num>
+                <content><p>Besarnya angsuran pajak dalam tahun berjalan yang harus dibayar sendiri oleh Wajib Pajak untuk setiap masa pajak, adalah sebesar pajak yang terhutang pada tahun pajak yang lalu dikurangi dengan pemotongan dan pemungutan pajak serta pajak yang dibayar atau terhutang di luar negeri sebagaimana dimaksud masing- masing dalam Pasal 21, Pasal 22, Pasal 23, dan Pasal 24, dibagi dengan banyaknya masa pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_2">
+                <num>(2)</num>
+                <content><p>Yang dimaksud dengan pajak yang terhutang dalam ayat (1) adalah pajak menurut Surat Pemberitahuan Tahunan terakhir, kecuali apabila pajak yang ditetapkan terakhir oleh Direktur Jenderal Pajak jumlahnya lebih besar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_3">
+                <num>(3)</num>
+                <content><p>Besarnya angsuran pajak dalam tahun berjalan yang harus dibayar sendiri oleh Wajib Pajak tertentu untuk setiap masa pajak diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_26">
+            <num>26</num>
+            <intro><p>Atas penghasilan tersebut di bawah ini, dengan nama dan dalam bentuk apapun, yang dibayarkan atau yang terhutang oleh badan pemerintah, badan usaha milik negara dan daerah dengan nama dan dalam bentuk apapun atau oleh Wajib Pajak dalam negeri lainnya kepada Wajib Pajak luar negeri, dipotong pajak yang bersifat final sebesar 20% (dua puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan :</p></intro>
+              <point eId="pasal_26__huruf_a">
+                <num>a.</num>
+                <content><p>dividen dari perseroan dalam negeri;</p></content>
+              </point>
+              <point eId="pasal_26__huruf_b">
+                <num>b.</num>
+                <content><p>bunga, termasuk imbalan karena jaminan pengembalian hutang;</p></content>
+              </point>
+              <point eId="pasal_26__huruf_c">
+                <num>c.</num>
+                <content><p>sewa, royalti, dan penghasilan lain karena penggunaan harta;</p></content>
+              </point>
+              <point eId="pasal_26__huruf_d">
+                <num>d.</num>
+                <content><p>imbalan yang dibayarkan untuk jasa teknik, jasa manajemen dan jasa lainnya yang dilakukan di Indonesia;</p></content>
+              </point>
+              <point eId="pasal_26__huruf_e">
+                <num>e.</num>
+                <content><p>keuntungan sesudah dikurangi pajak dari suatu bentuk usaha tetap di Indonesia.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_27">
+            <num>27</num>
+            <content><p>Pengaturan lebih lanjut pemenuhan kewajiban pajak sebagaimana dimaksud dalam Pasal 21, Pasal 23, dan Pasal 25 ditetapkan dengan Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KREDIT PAJAK, PELUNASAN KEKURANGAN PEMBAYARAN PAJAK, SURAT PEMBERITAHUAN TAHUNAN, DAN PENGEMBALIAN KELEBIHAN PEMBAYARAN PAJAK</heading>
+          <article eId="pasal_28">
+            <num>28</num>
+            <intro><p>Bagi Wajib Pajak dalam negeri, pajak yang terhutang untuk seluruh tahun pajak menurut undang-undang ini, dikurangi dengan kredit pajak berupa :</p></intro>
+              <point eId="pasal_28__huruf_a">
+                <num>a.</num>
+                <content><p>pemotongan pajak atas penghasilan dari pekerjaan sebagaimana dimaksud dalam Pasal 21;</p></content>
+              </point>
+              <point eId="pasal_28__huruf_b">
+                <num>b.</num>
+                <content><p>pemungutan pajak atas penghasilan dari usaha sebagaimana dimaksud dalam Pasal 22;</p></content>
+              </point>
+              <point eId="pasal_28__huruf_c">
+                <num>c.</num>
+                <content><p>pemotongan pajak atas penghasilan berupa bunga, dividen, royalti sewa, dan imbalan lain sebagaimana dimaksud dalam Pasal 23;</p></content>
+              </point>
+              <point eId="pasal_28__huruf_d">
+                <num>d.</num>
+                <content><p>pajak yang dibayar atau terhutang di luar negeri sebagaimana dimaksud dalam Pasal 24;</p></content>
+              </point>
+              <point eId="pasal_28__huruf_e">
+                <num>e.</num>
+                <content><p>pembayaran yang dilakukan oleh Wajib Pajak sendiri untuk tahun pajak yang bersangkutan sebagaimana dimaksud dalam Pasal 25.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_29">
+            <num>29</num>
+            <content><p>Apabila pajak yang terhutang untuk suatu tahun pajak ternyata lebih besar daripada jumlah kredit pajak sebagaimana dimaksud dalam Pasal 28, maka kekurangan pajak yang terhutang harus dilunasi selambat-lambatnya pada akhir bulan ketiga sesudah tahun pajak yang bersangkutan berakhir, sebelum Surat Pemberitahuan Tahunan disampaikan.</p></content>
+          </article>
+          <article eId="pasal_30">
+            <num>30</num>
+              <paragraph eId="pasal_30__ayat_1">
+                <num>(1)</num>
+                <content><p>Wajib Pajak dalam negeri diwajibkan untuk menyampaikan Surat Pemberitahuan Tahunan yang dilampiri dengan Laporan Keuangan berupa neraca dan perhitungan rugilaba, sesuai dengan ketentuan yang dimuat dalam Pasal 4 Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_2">
+                <num>(2)</num>
+                <content><p>Surat Pemberitahuan Tahunan tersebut dalam ayat (1) sekurang-kurangnya memuat jumlah peredaran, jumlah penghasilan, jumlah penghasilan kena pajak, jumlah pajak yang terhutang, jumlah pajak yang telah dilunasi dalam tahun berjalan, dan jumlah kekurangan atau kelebihan pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_3">
+                <num>(3)</num>
+                <intro><p>Dikecualikan dari kewajiban sebagaimana dimaksud dalam ayat (1) adalah orang pribadi atau perseorangan:</p></intro>
+                  <point eId="pasal_30__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>yang tidak mempunyai penghasilan lain selain penghasilan sehubungan dengan pekerjaan atau jabatan dari satu pemberi kerja sebagaimana dimaksud dalam Pasal 21;</p></content>
+                  </point>
+                  <point eId="pasal_30__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>yang memperoleh penghasilan netto yang tidak melebihi jumlah penghasilan tidak kena pajak sebagaimana dimaksud dalam Pasal 7.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_4">
+                <num>(4)</num>
+                <content><p>Jumlah pajak yang terhutang menurut Surat Pemberitahuan Tahunan yang disampaikan oleh Wajib Pajak adalah jumlah pajak yang terhutang menurut undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_5">
+                <num>(5)</num>
+                <content><p>Apabila Direktur Jenderal Pajak mendapatkan bukti, bahwa jumlah pajak yang terhutang menurut Surat Pemberitahuan Tahunan itu tidak benar, maka Direktur Jenderal Pajak menetapkan jumlah pajak terhutang yang semestinya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_31">
+            <num>31</num>
+              <paragraph eId="pasal_31__ayat_1">
+                <num>(1)</num>
+                <content><p>Apabila pajak yang terhutang untuk suatu tahun pajak ternyata lebih kecil daripada jumlah kredit pajak sebagaimana dimaksud dalam Pasal 28, maka kelebihan pembayaran pajak dikembalikan atau diperhitungkan dengan hutang pajak lainnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_2">
+                <num>(2)</num>
+                <content><p>Sebelum dilakukan pengembalian atau diperhitungkan kelebihan pembayaran pajak sebagaimana dimaksud dalam ayat (1), Direktur Jenderal Pajak berwenang untuk mengadakan pemeriksaan atas Laporan Keuangan, buku, dan catatan lainnya, serta atas hal lain yang dianggapnya perlu untuk menetapkan besarnya pajak yang terhutang sesuai dengan ketentuan undang-undang ini.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN LAIN-LAIN</heading>
+          <article eId="pasal_32">
+            <num>32</num>
+            <content><p>Tata cara pengenaan pajak dan sanksi-sanksi berkenaan dengan pelaksanaan undang-undang ini diatur dalam Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan, kecuali apabila tata cara pengenaan pajak ditentukan lain dalam undang-undang ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_33">
+            <num>33</num>
+              <paragraph eId="pasal_33__ayat_1">
+                <num>(1)</num>
+                <content><p>Wajib Pajak yang tahun bukunya berakhir pada tanggal 30 Juni 1984 serta yang berakhir antara tanggal 30 Juni 1984 dan tanggal 31 Desember 1984 dapat memilih cara menghitung pajaknya berdasarkan ketentuan dalam Ordonansi Pajak Perseroan 1925 atau Ordonansi Pajak Pendapatan 1944, atau berdasarkan ketentuan dalam undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_2">
+                <num>(2)</num>
+                <intro><p>Fasilitas perpajakan yang telah diberikan sampai dengan tanggal 31 Desember 1983, yang:</p></intro>
+                  <point eId="pasal_33__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>jangka waktunya terbatas, dapat dinikmati oleh Wajib Pajak yang bersangkutan sampai selesai;`</p></content>
+                  </point>
+                  <point eId="pasal_33__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>jangka waktunya tidak ditentukan, dapat dinikmati sampai dengan tahun pajak sebelum tahun pajak 1984.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_3">
+                <num>(3)</num>
+                <content><p>Penghasilan kena pajak yang diterima atau diperoleh dalam bidang penambangan minyak dan gas bumi serta dalam bidang penambangan lainnya sehubungan dengan Kontrak Karya dan Kontrak Bagi Hasil, yang masih berlaku pada saat berlakunya undang-undang ini, dikenakan pajak berdasarkan ketentuan- ketentuan Ordonansi Pajak Perseroan 1925 dan Undang-undang Pajak atas Bunga, Dividen dan Royalti 1970 beserta semua peraturan pelaksanaannya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_34">
+            <num>34</num>
+            <content><p>Dengan berlakunya undang-undang ini, peraturan pelaksanaan di bidang pengenaan Pajak Perseroan 1925, Pajak Pendapatan 1944 dan Pajak atas Bunga, Dividen dan Royalti 1970 tetap berlaku, sepanjang tidak bertentangan dengan undang-undang ini dan sepanjang belum diganti dengan peraturan pelaksanaan yang baru.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_35">
+            <num>35</num>
+            <content><p>Hal-hal yang belum cukup diatur dalam undang-undang ini diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+          <article eId="pasal_36">
+            <num>36</num>
+              <paragraph eId="pasal_36__ayat_1">
+                <num>(1)</num>
+                <content><p>Undang-undang ini mulai berlaku pada tanggal 1 Januari 1984.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_2">
+                <num>(2)</num>
+                <content><p>Undang-undang ini dapat disebut Undang-undang Pajak Penghasilan 1984. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

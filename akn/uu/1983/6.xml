@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/1983/6/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1983/6"/>
+          <FRBRdate date="1983-12-31" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/1983/6/ind@1984-01-01/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1983/6/ind@1984-01-01"/>
+          <FRBRdate date="1984-01-01" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/1983/6/ind@1984-01-01/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1983/6/ind@1984-01-01.akn"/>
+          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Yang dimaksud dalam undang-undang ini dengan:</p></intro>
+              <point eId="pasal_1__huruf_a">
+                <num>a.</num>
+                <content><p>Wajib Pajak adalah orang atau badan yang menurut ketentuan peraturan perundang- undangan perpajakan ditentukan untuk melakukan kewajiban perpajakan;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_b">
+                <num>b.</num>
+                <content><p>Badan adalah perseroan terbatas, perseroan komanditer, badan usaha milik Negara atau Daerah dengan nama dan dalam bentuk apapun, persekutuan, perseroan atau perkumpulan lainnya, firma, kongsi, perkumpulan koperasi, yayasan atau lembaga, dan bentuk usaha tetap;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_c">
+                <num>c.</num>
+                <content><p>Masa Pajak adalah jangka waktu tertentu yang digunakan sebagai dasar untuk menghitung jumlah pajak yang terhutang;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_d">
+                <num>d.</num>
+                <content><p>Tahun Pajak adalah jangka waktu satu tahun takwim atau satu tahun buku;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_e">
+                <num>e.</num>
+                <content><p>Bagian Tahun Pajak adalah bagian dari jangka waktu satu Tahun Pajak;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_f">
+                <num>f.</num>
+                <content><p>Surat Pemberitahuan adalah surat yang oleh Wajib Pajak digunakan untuk melaporkan penghitungan dan pembayaran pajak yang terhutang menurut ketentuan peraturan perundang-undangan perpajakan;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_g">
+                <num>g.</num>
+                <content><p>Surat Pemberitahuan Masa adalah surat yang oleh Wajib Pajak digunakan untuk memberitahukan pajak yang terhutang dalam suatu Masa Pajak atau pada suatu saat;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_h">
+                <num>h.</num>
+                <content><p>Surat Pemberitahuan Tahunan adalah surat yang oleh Wajib Pajak digunakan untuk memberitahukan pajak yang terhutang dalam suatu Tahun Pajak;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_i">
+                <num>i.</num>
+                <content><p>Surat Setoran Pajak adalah surat yang oleh Wajib Pajak digunakan untuk melakukan pembayaran pajak yang terhutang di Kas Negara atau di tempat pembayaran lainnya yang ditunjuk oleh Menteri Keuangan, dan/atau untuk melaporkan ke Direktorat Jenderal Pajak;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_j">
+                <num>j.</num>
+                <content><p>Surat Tagihan Pajak adalah surat untuk melakukan tagihan pajak dan,/atau sanksi berupa bunga dan denda administrasi;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_k">
+                <num>k.</num>
+                <content><p>Surat Ketetapan Pajak adalah, surat keputusan yang menentukan besarnya jumlah pajak yang terhutang, jumlah pengurangan pembayaran pajak, jumlah kekurangan pembayaran pokok pajak, besarnya sanksi administrasi, dan jumlah pajak yang masih harus dibayar;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_l">
+                <num>l.</num>
+                <content><p>Surat Ketetapan Pajak Tambahan adalah Surat keputusan yang menambah jumlah pajak yang telah ditetapkan;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_m">
+                <num>m.</num>
+                <content><p>Surat Keputusan Kelebihan Pembayaran Pajak adalah surat keputusan yang menentukan pengembalian kelebihan pembayaran jumlah pajak yang telah dibayar dan/atau dipotong dan/atau dipungut, karena jumlah pajak yang telah dibayar dan/atau dipotong dan/atau dipungut lebih besar dari pajak yang terhutang;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_n">
+                <num>n.</num>
+                <content><p>Surat Pemberitaan adalah surat yang berisi pemberitahuan kepada Wajib Pajak, bahwa jumlah pajak yang terhutang sama besarnya dengan jumlah pajak yang sudah dibayar, dan/atau dipotong dan/atau dipungut;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_o">
+                <num>o.</num>
+                <content><p>Pajak yang terhutang adalah pajak yang harus dibayar pada suatu saat, dalam Masa Pajak, dalam Tahun Pajak atau dalam Bagian Tahun Pajak menurut ketentuan peraturan perundang-undangan perpajakan;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_p">
+                <num>p.</num>
+                <content><p>Surat Paksa adalah surat perintah membayar pajak dan tagihan yang berkaitan dengan pajak, sesuai dengan Undang-undang Nomor 19 Tahun 1959 tentang Penagihan Pajak Negara dengan Surat Paksa (Lembaran Negara Tahun 1959 Nomor 63, Tambahan Lembaran Negara Nomor 1850);</p></content>
+              </point>
+              <point eId="pasal_1__huruf_q">
+                <num>q.</num>
+                <content><p>Kredit Pajak adalah jumlah pembayaran pajak yang dibayar oleh Wajib Pajak sendiri, setelah ditambah dengan pajak yang dipotong atau dipungut oleh pihak lain dan dikurangkan dari seluruh pajak yang terhutang termasuk apabila ada jumlah pajak atas penghasilan yang terhutang di luar negeri;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_r">
+                <num>r.</num>
+                <content><p>Pekerjaan Bebas adalah pekerjaan yang dilakukan oleh seseorang yang mempunyai keahlian khusus sebagai usaha untuk memperoleh penghasilan yang tidak terikat oleh suatu hubungan kerja;</p></content>
+              </point>
+              <point eId="pasal_1__huruf_s">
+                <num>s.</num>
+                <content><p>Tindakan Pemeriksaan adalah tindakan yang dilakukan oleh petugas perpajakan dalam rangka melaksanakan pemeriksaan terhadap Wajib Pajak, untuk mencari bahan-bahan guna penghitungan jumlah pajak yang terhutang dan jumlah pajak yang harus dibayar.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>NOMOR POKOK WAJIB PAJAK, SURAT PEMBERITAHUAN, DAN TATA CARA PEMBAYARAN PAJAK</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Setiap Wajib Pajak wajib mendaftarkan dirinya pada Direktorat Jenderal Pajak dan kepadanya diberikan Nomor Pokok Wajib Pajak.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+              <paragraph eId="pasal_3__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Wajib Pajak wajib mengisi Surat Pemberitahuan, menandatangani, dan menyampaikannya ke Direktorat Jenderal Pajak dalam wilayah Wajib Pajak bertempat tinggal atau berkedudukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_2">
+                <num>(2)</num>
+                <content><p>Wajib Pajak sebagaimana dimaksud dalam ayat (1) harus mengambil sendiri Surat Pemberitahuan di tempat yang ditentukan oleh Direktorat Jenderal Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_3">
+                <num>(3)</num>
+                <intro><p>Batas waktu penyampaian Surat Pemberitahuan adalah:</p></intro>
+                  <point eId="pasal_3__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>Untuk Surat Pemberitahuan Masa, selambat-lambatnya dua puluh hari setelah akhir Masa Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_3__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>Untuk Surat Pemberitahuan Tahunan, selambat-lambatnya tiga bulan setelah akhir Tahun Pajak.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_4">
+                <num>(4)</num>
+                <content><p>Direktur Jenderal Pajak atas permohonan Wajib Pajak dapat memperpanjang jangka waktu penyampaian Surat Pemberitahuan Tahunan sebagaimana dimaksud dalam ayat (3) huruf b.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_5">
+                <num>(5)</num>
+                <content><p>Permohonan sebagaimana dimaksud dalam ayat (4) diajukan secara tertulis, disertai surat pernyataan mengenai penghitungan sementara pajak yang terhutang dalam satu Tahun Pajak dan bukti pelunasan kekurangan pembayaran pajak yang terhutang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_6">
+                <num>(6)</num>
+                <content><p>Surat Pemberitahuan sebagaimana dimaksud dalam ayat (1) harus dilengkapi dengan lampiran-lampiran yang diperlukan sesuai dengan persyaratan yang ditetapkan dalam ketentuan peraturan perundang-undangan perpajakan yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <content><p>Wajib Pajak wajib mengisi dan menyampaikan Surat Pemberitahuan dengan benar, lengkap, jelas, dan menandatanganinya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Wajib Pajak adalah Badan, Surat Pemberitahuan harus ditandatangani oleh pengurus atau direksi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal Surat Pemberitahuan diisi dan ditandatangani oleh orang lain bukan Wajib Pajak, harus dilampiri surat kuasa khusus.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_4">
+                <num>(4)</num>
+                <content><p>Pengisian Surat Pemberitahuan Tahunan Pajak Penghasilan oleh Wajib Pajak yang wajib melakukan pembukuan harus dilengkapi dengan laporan keuangan berupa neraca dan perhitungan rugi laba serta keterangan-keterangan lain yang diperlukan untuk menghitung besarnya penghasilan kena pajak.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+            <content><p>Untuk menyampaikan Surat Pemberitahuan, Direktur Jenderal Pajak dalam hal-hal tertentu dapat menentukan tempat lain bukan tempat sebagaimana dimaksud dalam Pasal 3 ayat (1).</p></content>
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <content><p>Surat Pemberitahuan yang disampaikan langsung oleh Wajib Pajak ke Direktorat Jenderal Pajak harus diberi tanggal penerimaan oleh pejabat yang ditunjuk untuk itu, sedangkan untuk Surat Pemberitahuan Tahunan harus diberikan juga bukti penerimaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengiriman Surat Pemberitahuan melalui Kantor Pos dan Giro harus dilakukan secara tercatat, dan tanda bukti serta tanggal pengiriman (dianggap sebagai tanda bukti dan tanggal penerimaan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+            <content><p>Apabila Surat Pemberitahuan tidak disampaikan atau disampaikan tidak sesuai dengan batas waktu sebagaimana dimaksud dalam Pasal 3 ayat (3), dikenakan sanksi berupa denda administrasi sebesar Rp 10.000,- (sepuluh ribu rupiah).</p></content>
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+              <paragraph eId="pasal_8__ayat_1">
+                <num>(1)</num>
+                <content><p>Wajib Pajak dapat membetulkan sendiri Surat Pemberitahuan dengan menyampaikan pernyataan tertulis, sepanjang Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Wajib Pajak membetulkan sendiri Surat Pemberitahuan yang mengakibatkan hutang pajak menjadi lebih besar, maka kepadanya dikenakan sanksi berupa bunga sebesar 2% (dua per-sen) sebulan atas jumlah pajak yang kurang dibayar, dihitung mulai saat penyampaian Surat Pemberitahuan berakhir sampai dengan tanggal pembayaran karena pembetulan Surat Pemberitahuan itu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_3">
+                <num>(3)</num>
+                <content><p>Sekalipun telah dilakukan tindakan pemeriksaan, tetapi sepanjang belum dilakukan tindakan penyidikan mengenai adanya ketidakbenaran yang dilakukan Wajib Pajak sebagaimana dimaksud dalam Pasal 38, terhadap ketidakbenaran perbuatan Wajib Pajak tersebut tidak akan dilakukan penyidikan, apabila Wajib Pajak dengan kemauan sendiri mengungkapkan ketidakbenaran perbuatannya tersebut dengan disertai pelunasan kekurangan pembayaran jumlah pajak yang sebenarnya terhutang beserta denda administrasi sebesar dua kali jumlah pajak yang kurang dibayar.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri Keuangan menentukan tanggal jatuh tempo pembayaran dan penyetoran pajak yang terhutang untuk suatu saat atau Masa Pajak bagi masing-masing jenis pajak, selambat-lambatnya lima belas hari setelah saat terhutangnya pajak atau Masa Pajak berakhir.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <content><p>Kekurangan pembayaran pajak yang terhutang berdasarkan Surat Pemberitahuan Tahunan harus dibayar lunas dalam jangka waktu tiga bulan setelah Tahun Pajak atau Bagian Tahun Pajak berakhir, sebelum Surat Pemberitahuan itu disampaikan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_3">
+                <num>(3)</num>
+                <content><p>Surat Tagihan Pajak, Surat Ketetapan Pajak, atau Surat Ketetapan Pajak Tambahan harus dilunasi dalam jangka waktu satu bulan sejak tanggal diterbitkan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_4">
+                <num>(4)</num>
+                <content><p>Direktur Jenderal Pajak atas permohonan Wajib Pajak dapat memberikan persetujuan kepada Wajib Pajak untuk mengangsur atau memberikan penundaan pembayaran pajak.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <content><p>Wajib Pajak wajib membayar atau menyetor pajak yang terhutang di Kas Negara atau di tempat pembayaran lain yang ditunjuk oleh Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Tata cara pembayaran, penyetoran pajak, dan pelaporannya serta tata cara mengangsur dan menunda pembayaran pajak diatur lebih lanjut oleh Menteri Keuangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Atas permohonan Wajib Pajak, kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a dikembalikan, atau apabila ternyata Wajib Pajak mempunyai hutang pajak lainnya, langsung dapat diperhitungkan untuk melunasi dahulu pajak yang terhutang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengembalian kelebihan pembayaran pajak sebagaimana dimaksud dalam ayat (1) dilakukan dalam jangka waktu satu bulan setelah Surat Keputusan Kelebihan Pembayaran Pajak sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a ditetapkan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_3">
+                <num>(3)</num>
+                <content><p>Apabila pengembalian kelebihan pembayaran pajak dilakukan setelah jangka waktu satu bulan, Pemerintah memberikan bunga sebesar 2% (dua persen) sebulan atas kelambatan pembayaran kelebihan pembayaran pajak, dihitung dari saat berlakunya batas waktu sebagaimana dimaksud dalam ayat (2) sampai dengan saat dilakukan pembayaran kelebihan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_4">
+                <num>(4)</num>
+                <content><p>Tata cara perhitungan dan pengembalian kelebihan pembayaran pajak diatur lebih lanjut oleh Menteri Keuangan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PENETAPAN DAN KETETAPAN PAJAK</heading>
+          <article eId="pasal_12">
+            <num>12</num>
+            <content><p>Setiap Wajib Pajak wajib membayar pajak yang terhutang berdasarkan ketentuan peraturan perundang-undangan perpajakan, dengan tidak menggantungkan pada adanya Surat Ketetapan Pajak.</p></content>
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam jangka waktu lima tahun sesudah saat terhutangnya pajak, atau berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak, Direktur Jenderal Pajak dapat mengeluarkan Surat Ketetapan Pajak dalam hal-hal sebagai berikut :</p></intro>
+                  <point eId="pasal_13__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>apabila berdasarkan hasil pemeriksaan atau keterangan lain ternyata jumlah pajak yang terhutang kurang atau tidak dibayar;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>apabila Surat Pemberitahuan tidak (disampaikan dalam jangka waktu sebagaimana dimaksud dalam Pasal 3 ayat (3) dan setelah ditegur secara tertulis tidak disampaikan pada waktunya sebagaimana ditentukan dalam Surat Teguran;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>apabila berdasarkan hasil pemeriksaan mengenai Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah ternyata tidak seharusnya dikompensasikan selisih lebih pajak, tidak seharusnya dikenakan tarif 0% (nol persen), atau tidak seharusnya diberikan pengembalian pajak;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>apabila kewajiban tidak dipenuhi sebagaimana dimaksud dalam Pasal 26 dan Pasal 29, sehingga tidak dapat diketahui besarnya pajak yang terhutang.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Jumlah kekurangan pajak yang terhutang dalam Surat Ketetapan Pajak sebagaimana dimaksud dalam ayat (1) huruf a ditambah dengan sanksi administrasi berlipat bunga sebesar 2 % (dua persen) sebulan untuk selama-lamanya dua puluh empat bulan, dihitung mulai saat terhutangnya pajak atau berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak sampai dengan diterbitkannya Surat Ketetapan Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_3">
+                <num>(3)</num>
+                <intro><p>Jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud dalam ayat (1) huruf b, huruf c, dan huruf d ditambah dengan sanksi administrasi berupa kenaikan sebesar :</p></intro>
+                  <point eId="pasal_13__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>50 % (lima puluh persen) dari Pajak Penghasilan yang kurang atau tidak dibayar dalam satu Tahun Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>100% (seratus persen) dari Pajak Penghasilan yang tidak atau kurang dipotong, tidak atau kurang dipungut, tidak atau kurang disetorkan, dan dipotong atau dipungut tetapi tidak atau kurang disetorkan;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>100%(seratus persen) dari Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah yang tidak atau kurang dibayar.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_4">
+                <num>(4)</num>
+                <content><p>Jumlah Pajak Penghasilan yang dipotong dan dipungut oleh pihak ketiga untuk satu Tahun Pajak, jumlah Pajak Penghasilan yang dibayar sendiri, pajak yang ditagih dalam Surat Tagihan Pajak untuk Tahun Pajak tersebut, sera pajak atas penghasilan yang dibayar atau terhutang di luar negeri untuk Tahun Pajak yang bersangkutan, dikreditkan dari jumlah Pajak Penghasilan yang terhutang dalam Surat Ketetapan Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_5">
+                <num>(5)</num>
+                <content><p>Sanksi administrasi berupa bunga, denda administrasi, dan kenaikan, tidak dapat dikreditkan dari jumlah pajak yang terhutang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_6">
+                <num>(6)</num>
+                <content><p>Besarnya pajak yang terhutang dalam suatu Tahun Pajak yang diberitahukan oleh Wajib Pajak dalam Surat Pemberitahuan Tahunan, menjadi pasti menurut ketentuan peraturan perundang-undangan perpajakan, apabila dalam jangka waktu sebagaimana dimaksud dalam ayat (1) tidak diterbitkan Surat Ketetapan Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_7">
+                <num>(7)</num>
+                <content><p>Apabila jangka waktu lima tahun sebagaimana dimaksud dalam ayat (1) telah lewat, Surat Keputusan Pajak tetap dapat diterbitkan dalam hak Wajib Pajak setelah jangka waktu lima tahun tersebut dipidana, karena melakukan tindak pidana di bidang perpajakan yang dilakukan mengenai pajak yang penagihannya telah lewat waktu, berdasarkan putusan Pengadilan yang telah memperoleh kekuatan hukum itu.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <intro><p>Surat Tagihan Pajak dikeluarkan apabila :</p></intro>
+                  <point eId="pasal_14__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pajak dalam tahun berjalan tidak atau kurang dibayar;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Wajib Pajak dikenakan sanksi administrasi berupa denda administrasi dan/atau bunga;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>dari hasil penelitian Surat Pemberitahuan terdapat kekurangan pembayaran pajak sebagai akibat salah tulis dan/atau salah hitung.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Surat Tagihan Pajak sebagaimana dimaksud dalam ayat (1) mempunyai kekuatan hukum yang sama dengan Surat Ketetapan Pajak.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+              <paragraph eId="pasal_15__ayat_1">
+                <num>(1)</num>
+                <content><p>Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Tambahan dalam jangka waktu lima tahun sesudah saat pajak terhutang, berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak, apabila diketemukan data baru dan/atau data yang semula belum terungkap yang menyebabkan penambahan jumlah pajak yang terhutang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_2">
+                <num>(2)</num>
+                <content><p>Jumlah kekurangan pajak yang terhutang dalam Surat Ketetapan Pajak Tambahan, ditambah dengan sanksi administrasi berupa kenaikan sebesar 100% (seratus persen) dari jumlah kekurangan pajak tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_3">
+                <num>(3)</num>
+                <content><p>Kenaikan sebagaimana dimaksud dalam ayat (2) tidak dikenakan, apabila Surat Ketetapan Pajak Tambahan itu diterbitkan berdasarkan keterangan tertulis oleh Wajib Pajak atas kehendak sendiri, sepanjang Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_4">
+                <num>(4)</num>
+                <content><p>Apabila jangka waktu lima tahun sebagaimana dimaksud dalam ayat (1) telah lewat, Surat Ketetapan Pajak Tambahan tetap dapat diterbitkan dalam hal Wajib Pajak setelah jangka waktu lima tahun tersebut dipidana, karena melakukan tindak pidana di bidang perpajakan yang dilakukan mengenai pajak yang penagihannya telah lewat waktu, berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_16">
+            <num>16</num>
+            <content><p>Kesalahan tulis, kesalahan hitung, atau kekeliruan dalam penerapan ketentuan peraturan perundang-undangan perpajakan yang terdapat dalam surat ketetapan pajak, dapat dibetulkan oleh Direktur Jenderal Pajak karena jabatan atas permohonan Wajib Pajak.</p></content>
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+              <paragraph eId="pasal_17__ayat_1">
+                <num>(1)</num>
+                <intro><p>Direktur Jenderal Pajak setelah melakukan penelitian atau pemeriksaan, menerbitkan :</p></intro>
+                  <point eId="pasal_17__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Surat Keputusan Kelebihan Pembayaran Pajak dalam jangka waktu paling lama dua belas bulan sejak diterima surat permohonan, apabila jumlah pajak yang dibayar atau jumlah Pajak Penghasilan yang dipotong atau dipungut ternyata lebih besar dari jumlah pajak yang terhutang atau telah dilakukan pembayaran pajak yang seharusnya tidak terhutang;</p></content>
+                  </point>
+                  <point eId="pasal_17__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Surat Pemberitaan, apabila jumlah pajak yang dibayar atau jumlah Pajak Penghasilan yang dipotong atau dipungut sama dengan jumlah pajak yang terhutang.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_2">
+                <num>(2)</num>
+                <content><p>Apabila setelah lewat jangka waktu sebagaimana dimaksud dalam ayat (1) huruf a Direktur Jenderal Pajak tidak memberi suatu keputusan, permohonan kelebihan pembayaran pajak tersebut dianggap dikabulkan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENAGIHAN PAJAK</heading>
+          <article eId="pasal_18">
+            <num>18</num>
+            <content><p>Surat Tagihan Pajak, Surat Ketetapan Pajak, dan Surat Ketetapan Pajak Tambahan merupakan dasar penagihan pajak. Tata cara pelaksanaan penagihan pajak diatur lebih lanjut oleh Menteri Keuangan.</p></content>
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+              <paragraph eId="pasal_19__ayat_1">
+                <num>(1)</num>
+                <content><p>Apabila atas pajak yang terhutang, pada saat jatuh tempo pembayaran tidak dibayar atau kurang dibayar, maka atas jumlah pajak yang tidak dibayar atau kurang dibayar itu, dikenakan bunga sebesar 2% (dua persen) sebulan untuk seluruh masa, yang dihitung dari jatuh tempo sampai dengan hari pembayaran dan bagian dari bulan dihitung penuh satu bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Wajib Pajak diperbolehkan mengangsur, atau menunda pembayaran pajak, juga dikenakan bunga sebesar 2%, (dua persen) sebulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal Wajib Pajak diperbolehkan menunda penyampaian Surat Pemberitahuan dan ternyata penghitungan sementara pajak yang terhutang sebagaimana dimaksud dalam Pasal, 3 ayat (5) kurang dari jumlah pajak yang sebenarnya terhutang, maka atas kekurangan pembayaran pajak tersebut, dikenakan bunga sebesar 2% (dua persen) sebulan yang dihitung dari saat berakhirnya kewajiban menyampaikan Surat Pemberitahuan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf b sampai dengan hari dibayarnya kekurangan pembayaran tersebut..</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+            <intro><p>Menyimpang dari ketentuan sebagaimana dimaksud dalam Pasal 9, jumlah pajak yang terhutang berdasarkan Surat Tagihan Pajak, Surat Ketetapan Pajak, atau Surat Ketetapan Pajak Tambahan ditagih seketika, dalam hal:</p></intro>
+              <point eId="pasal_20__huruf_a">
+                <num>a.</num>
+                <content><p>Wajib Pajak atau wakilnya sebagaimana dimaksud dalam Pasal 32 ayat (2) akan meninggalkan Indonesia untuk selama-lamanya ataupun berniat untuk itu;</p></content>
+              </point>
+              <point eId="pasal_20__huruf_b">
+                <num>b.</num>
+                <content><p>Wajib Pajak atau wakilnya sebagaimana dimaksud dalam Pasal 32 ayat (2) menghentikan atau secara nyata mengecilkan kegiatan perusahaannya atau pekerjaan yang dilakukannya di Indonesia ataupun memindah tangankan barang bergerak atau barang tidak bergerak yang dimilikinya atau dikuasainya;</p></content>
+              </point>
+              <point eId="pasal_20__huruf_c">
+                <num>c.</num>
+                <content><p>Pembubaran Badan atau niat untuk membubarkannya, pernyataan pailit, begitu pula dalam hal terjadi penyitaan atas barang bergerak atau barang tidak bergerak milik Wajib Pajak atau wakilnya sebagaimana dimaksud dalam Pasal 32 ayat (2).</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_21">
+            <num>21</num>
+              <paragraph eId="pasal_21__ayat_1">
+                <num>(1)</num>
+                <content><p>Negara mempunyai hak mendahului untuk tagihan pajak atas barang-barang Wajib Pajak begitu pula atas barang-barang milik wakilnya, serta orang atau Badan yang menurut Pasal 32 ayat (2)dan ketentuan undang-undang perpajakan lainnya, bertanggung jawab secara pribadi dan/ atau secara renteng.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan tentang hak mendahulu sebagaimana dimaksud dalam ayat (1), meliputi pokok pajak, bunga, denda administrasi, kenaikan, dan biaya penagihan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_3">
+                <num>(3)</num>
+                <content><p>Hak mendahulu untuk tagihan pajak melebihi segala hak mendahulu lainnya, kecuali terhadap hak mendahulu dari pihak- pihak sebagaimana dimaksud dalam Pasal 1139 angka 1 dan angka 4, Pasal 1149 angka 1 Kitab Undang-undang Hukum Perdata dan dalam Pasal 80 dan Pasal 81 Kitab Undang-undang Hukum Dagang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_4">
+                <num>(4)</num>
+                <content><p>Hak mendahulu itu hilang setelah lampau waktu dua tahun sejak tanggal diterbitkan Surat Tagihan Pajak, Surat Ketetapan Pajak, atau Surat Ketetapan Pajak Tambahan, kecuali apabila dalam jangka waktu Surat Paksa untuk membayar itu diberitahukan secara resmi, atau diberikan penundaan pembayaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_5">
+                <num>(5)</num>
+                <content><p>Dalam hal Surat Paksa untuk membayar diberitahukan secara resmi, jangka waktu dua tahun sebagaimana dimaksud dalam ayat (4), dihitung sejak tanggal pemberitahuan Surat Paksa, atau dalam hal diberikan penundaan pembayaran jangka waktu dua tahun tersebut ditambah dengan jangka waktu penundaan pembayaran.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_22">
+            <num>22</num>
+            <content><p>Hak untuk melakukan penagihan pajak termasuk bunga denda administrasi, kenaikan dan biaya penagihan gugur setelah lampau waktu lima tahun terhitung sejak saat terhutangnya pajak atau berakhirnya Masa Pajak, Bagian Tahun Pajak, atau Tahun Pajak yang bersangkutan, kecuali apabila Wajib Pajak melakukan tindak pidana di bidang perpajakan sebagaimana dimaksud dalam Pasal 13 ayat (7) dan Pasal 15 ayat (4).</p></content>
+          </article>
+          <article eId="pasal_23">
+            <num>23</num>
+            <content><p>Jumlah pajak yang terhutang berdasarkan Surat Tagihan Pajak, Surat Ketetapan Pajak, dan Surat Ketetapan Pajak Tambahan yang tidak dibayar pada waktunya dapat ditagih dengan Surat Paksa.</p></content>
+          </article>
+          <article eId="pasal_24">
+            <num>24</num>
+            <content><p>Tata cara penghapusan piutang pajak dan penetapan besarnya penghapusan diatur oleh Menteri Keuangan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>KEBERATAN DAN BANDING</heading>
+          <article eId="pasal_25">
+            <num>25</num>
+              <paragraph eId="pasal_25__ayat_1">
+                <num>(1)</num>
+                <intro><p>Wajib Pajak dapat mengajukan keberatan kepada Direktur Jenderal Pajak atas suatu :</p></intro>
+                  <point eId="pasal_25__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Surat Pemberitaan;</p></content>
+                  </point>
+                  <point eId="pasal_25__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Surat Ketetapan Pajak,</p></content>
+                  </point>
+                  <point eId="pasal_25__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Surat Ketetapan Pajak Tambahan;</p></content>
+                  </point>
+                  <point eId="pasal_25__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>Surat Keputusan Kelebihan Pembayaran;</p></content>
+                  </point>
+                  <point eId="pasal_25__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>Pemotongan atau pemungutan oleh pihak ketiga berdasarkan ketentuan peraturan perundang-undangan perpajakan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_2">
+                <num>(2)</num>
+                <content><p>Keberatan diajukan secara tertulis dalam bahasa Indonesia dengan menyatakan alasan-alasan secara jelas.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_3">
+                <num>(3)</num>
+                <content><p>Keberatan harus diajukan, dalam jangka waktu tiga bulan sejak tanggal surat, tanggal pemotongan atau pemungutan sebagaimana dimaksud dalam ayat (1), kecuali apabila Wajib Pajak dapat menunjukkan bahwa jangka waktu itu tidak dapat dipenuhi karena keadaan di luar kekuasaannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_4">
+                <num>(4)</num>
+                <content><p>Tanda penerimaan Surat Keberatan yang diberikan oleh pejabat Direktorat Jenderal Pajak yang ditunjuk untuk itu atau tanda pengiriman Surat Keberatan melalui pos tercatat menjadi tanda bukti penerimaan Surat Keberatan tersebut bagi kepentingan Wajib Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_5">
+                <num>(5)</num>
+                <content><p>Apabila diminta oleh Wajib Pajak untuk keperluan pengajuan keberatan, Direktur Jenderal Pajak wajib memberikan secara tertulis hal-hal yang menjadi dasar pengenaan, pemotongan, atau pemungutan pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_6">
+                <num>(6)</num>
+                <content><p>Pengajuan keberatan tidak menunda kewajiban membayar pajak.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_26">
+            <num>26</num>
+              <paragraph eId="pasal_26__ayat_1">
+                <num>(1)</num>
+                <content><p>Direktur Jenderal Pajak dalam jangka waktu paling lama dua belas bulan sejak tanggal Surat Keberatan diterima, harus memberi keputusan atas keberatan yang diajukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_2">
+                <num>(2)</num>
+                <content><p>Sebelum surat keputusan diterbitkan, Wajib Pajak dapat menyampaikan alasan tambahan atau penjelasan tertulis.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_3">
+                <num>(3)</num>
+                <content><p>Keputusan Direktur Jenderal Pajak atas keberatan dapat berupa menerima seluruhnya atau sebagian, menolak atau menambah besarnya jumlah pajak yang terhutang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal Wajib Pajak mengajukan keberatan atas ketetapan pajak yang ditentukan dalam Pasal 13 ayat (1) huruf b dan huruf d, Wajib Pajak yang bersangkutan harus dapat membuktikan ketidakbenaran ketetapan pajak tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_5">
+                <num>(5)</num>
+                <content><p>Apabila jangka waktu sebagaimana dimaksud dalam ayat (1) telah lewat dan Direktur Jenderal Pajak tidak memberi suatu keputusan maka keberatan yang diajukan tersebut dianggap diterima.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_1">
+                <num>(1)</num>
+                <content><p>Wajib Pajak dapat mengajukan banding kepada badan peradilan pajak terhadap keputusan yang ditetapkan oleh Direktur Jenderal Pajak mengenai keberatannya dalam jangka waktu tiga bulan sejak tanggal keputusan ditetapkan, dengan dilampiri salinan Surat Keputusan tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <content><p>Permohonan banding diajukan secara tertulis dalam bahasa Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_3">
+                <num>(3)</num>
+                <content><p>Pengajuan permohonan banding tidak menunda kewajiban membayar pajak.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PEMBUKUAN DAN PEMERIKSAAN</heading>
+          <article eId="pasal_28">
+            <num>28</num>
+              <paragraph eId="pasal_28__ayat_1">
+                <num>(1)</num>
+                <content><p>Orang atau Badan yang melakukan kegiatan usaha atau pekerjaan bebas di Indonesia harus mengadakan pembukuan yang dapat menyajikan keterangan- keterangan yang cukup untuk menghitung Penghasilan Kena Pajak atau harga perolahan dan penyerahan barang atau jasa guna penghitungan jumlah pajak terhitung berdasarkan ketentuan peraturan perundang-undangan perpajakan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_2">
+                <num>(2)</num>
+                <content><p>Bagi Wajib Pajak yang menurut ketentuan peraturan perundang- undangan perpajakan dibebaskan dari kewajiban untuk mengadakan pembukuan sebagaimana dimaksud dalam ayat (1), sekurang- kurangnya harus menyelenggarakan pencatatan untuk dijadikan dasar pengenaan pajak yang terhutang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_3">
+                <num>(3)</num>
+                <content><p>Pembukuan atau pencatatan tersebut harus diselenggarakan dengan memperhatikan itikad baik dan mencerminkan keadaan atau kegiatan usaha yang sebenarnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_4">
+                <num>(4)</num>
+                <content><p>Pembukuan sebagaimana dimaksud dalam ayat (1) sekurang-- kurangnya terdiri dari catatan yang dikerjakan secara teratur tentang keadaan kas dan bank, daftar hutang-piutang dari daftar persediaan barang, dan pada setiap Tahun Pajak berakhir Wajib Pajak harus menutup pembukuannya dengan membuat neraca dan perhitungan rugi laba berdasarkan prinsip pembukuan yang taat asas (konsisten) dengan tahun sebelumnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_5">
+                <num>(5)</num>
+                <content><p>Pembukuan atau pencatatan harus diselenggarakan di Indonesia dengan menggunakan huruf Latin, angka Arab, satuan mata uang rupiah, dan disusun dalam bahasa Indonesia atau dalam bahasa asing yang diizinkan oleh Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_6">
+                <num>(6)</num>
+                <content><p>Pembukuan atau pencatatan dan dokumen yang menjadi dasarnya serta dokumen lain yang berhubungan dengan kegiatan usaha atau pekerjaan bebas Wajib Pajak harus disimpan selama sepuluh tahun.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_29">
+            <num>29</num>
+              <paragraph eId="pasal_29__ayat_1">
+                <num>(1)</num>
+                <content><p>Direktur Jenderal Pajak berwenang melakukan pemeriksaan untuk menetapkan besarnya jumlah pajak yang terhutang dan untuk tujuan lain dalam rangka melaksanakan ketentuan peraturan perundang-undangan perpajakan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_2">
+                <num>(2)</num>
+                <content><p>Untuk keperluan pemeriksaan petugas pemeriksa harus dilengkapi dengan Surat Perintah Pemeriksaan dan harus memperlihatkannya kepada Wajib Pajak yang diperiksa.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_3">
+                <num>(3)</num>
+                <intro><p>Wajib Pajak yang diperiksa harus :</p></intro>
+                  <point eId="pasal_29__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>memperlihatkan dan meminjamkan pembukuan atau pencatatan, dokumen yang menjadi dasarnya, dan dokumen lain yang berhubungan dengan kegiatan usaha atau pekerjaan bebas Wajib Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_29__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberi kesempatan untuk memasuki tempat atau ruangan yang dipandang perlu dan memberi bantuan guna kelancaran pemeriksaan;</p></content>
+                  </point>
+                  <point eId="pasal_29__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>memberikan keterangan yang diperlukan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_4">
+                <num>(4)</num>
+                <content><p>Apabila dalam pengungkapan pembukuan, pencatatan, atau dokumen serta keterangan yang diminta, Wajib Pajak yang terikat oleh suatu kewajiban untuk merahasiakan, maka kewajiban untuk merahasiakan itu ditiadakan oleh permintaan untuk keperluan pemeriksaan sebagaimana dimaksud dalam ayat (3), sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_30">
+            <num>30</num>
+            <content><p>Direktur Jenderal Pajak berwenang melakukan penyegelan tempat atau ruangan tertentu, bila Wajib Pajak tidak memenuhi kewajiban sebagaimana dimaksud dalam Pasal 29 ayat (3) huruf b.</p></content>
+          </article>
+          <article eId="pasal_31">
+            <num>31</num>
+            <content><p>Tata cara pemeriksaan diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN KHUSUS</heading>
+          <article eId="pasal_32">
+            <num>32</num>
+              <paragraph eId="pasal_32__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam menjalankan hak dan memenuhi kewajiban menurut ketentuan peraturan perundang-undangan perpajakan, Wajib Pajak diwakili, dalam hal</p></intro>
+                  <point eId="pasal_32__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Badan oleh pengurus;</p></content>
+                  </point>
+                  <point eId="pasal_32__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Badan dalam pembubaran atau pailit oleh orang atau Badan yang dibebani dengan pemberesan;</p></content>
+                  </point>
+                  <point eId="pasal_32__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>suatu warisan yang belum terbagi oleh salah seorang ahli warisnya, pelaksana wasiatnya atau yang mengurus harta peninggalannya;</p></content>
+                  </point>
+                  <point eId="pasal_32__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>anak yang belum dewasa atau orang yang berada dalam pengampunan oleh wali atau pengampunya.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_32__ayat_2">
+                <num>(2)</num>
+                <content><p>Wakil sebagaimana dimaksud dalam ayat (1) bertanggung jawab secara pribadi dan/atau secara renteng atas pembayaran pajak yang terhutang, kecuali apabila dapat membuktikan dan meyakinkan Direktur Jenderal Pajak, bahwa mereka dalam kedudukannya benar-benar tidak mungkin untuk dibebani tanggung jawab atas pajak yang terhutang tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_32__ayat_3">
+                <num>(3)</num>
+                <content><p>Orang atau Badan dapat menunjuk seorang kuasa dengan surat kuasa khusus untuk menjalankan hak dan memenuhi kewajiban menurut ketentuan peraturan perundang-undangan perpajakan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_33">
+            <num>33</num>
+            <content><p>Pembeli atau penerima jasa sebagaimana dimaksud dalam Undang- Undang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah bertanggung jawab secara renteng atas pembayaran pajak, sepanjang tidak dapat menunjukkan bukti pembayaran pajak.</p></content>
+          </article>
+          <article eId="pasal_34">
+            <num>34</num>
+              <paragraph eId="pasal_34__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap pejabat dilarang memberitahukan kepada pihak lain yang tidak berhak segala sesuatu yang diketahui atau diberitahukan kepadanya oleh Wajib Pajak dalam rangka jabatan atau pekerjaannya untuk menjalankan ketentuan peraturan perundang-undangan perpajakan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_2">
+                <num>(2)</num>
+                <content><p>Larangan sebagaimana dimaksud dalam ayat (1) berlaku juga terhadap ahli yang ditunjuk oleh Direktur Jenderal Pajak untuk membantu dalam pelaksanaan ketentuan peraturan perundang-undangan perpajakan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_3">
+                <num>(3)</num>
+                <content><p>Menteri Keuangan berwenang memerintahkan secara tertulis kepada pejabat sebagaimana dimaksud dalam ayat (1) dan ahli- ahli sebagaimana dimaksud dalam ayat (2), supaya memberikan keterangan, memperlihatkan bukti tertulis dari Wajib Pajak kepada Pejabat Pemeriksa untuk keperluan pemeriksaan Keuangan Negara. Surat Perintah tersebut di atas menyebutkan nama Wajib Pajak yang dikehendaki keterangannya dan nama pemeriksa.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_4">
+                <num>(4)</num>
+                <content><p>Untuk kepentingan pemeriksaan di Pengadilan dalam perkara pidana, atas permintaan Hakim sebagaimana dimaksud dalam Pasal 180 Undang-undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana, Menteri Keuangan dapat memberi izin tertulis untuk meminta kepada pejabat pajak sebagaimana dimaksud dalam ayat (1) dan ahli sebagaimana dimaksud dalam ayat (2), bukti tertulis dan keterangan Wajib Pajak yang ada padanya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_5">
+                <num>(5)</num>
+                <content><p>Permintaan Hakim sebagaimana dimaksud dalam ayat (4), harus menyebutkan nama tersangka, keterangan-keterangan yang diminta serta kaitan antara perkara pidana yang bersangkutan dengan keterangan yang diminta tersebut</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_35">
+            <num>35</num>
+              <paragraph eId="pasal_35__ayat_1">
+                <num>(1)</num>
+                <content><p>Apabila dalam menjalankan ketentuan peraturan perundang- undangan perpajakan diperlukan keterangan atau bukti dari pihak ketiga yang mempunyai hubungan dengan Wajib Pajak yang diperiksa, atas permintaan Direktur Jenderal Pajak pihak ketiga tersebut harus memberikan keterangan atau bukti yang diminta.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_35__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal pihak ketiga yang bersangkutan tersebut terikat oleh kewajiban untuk merahasiakan, kewajiban untuk merahasiakan itu ditiadakan oleh permintaan untuk keperluan pemeriksaan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_36">
+            <num>36</num>
+              <paragraph eId="pasal_36__ayat_1">
+                <num>(1)</num>
+                <intro><p>Direktur Jenderal Pajak dapat :</p></intro>
+                  <point eId="pasal_36__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>mengurangkan atau menghapuskan sanksi administrasi berupa bunga, denda, dan kenaikan yang terhutang menurut ketentuan peraturan perundang- undangan perpajakan dalam hal sanksi tersebut dikenakan karena kekhilafan Wajib Pajak atau bukan karena kesalahannya;</p></content>
+                  </point>
+                  <point eId="pasal_36__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>mengurangkan atau membatalkan ketetapan pajak yang tidak benar.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_2">
+                <num>(2)</num>
+                <content><p>Tata cara pengurangan, penghapusan, atau pembatalan hutang pajak sebagaimana dimaksud dalam ayat (1), diatur oleh Menteri Keuangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_37">
+            <num>37</num>
+            <content><p>Perubahan besarnya sanksi administrasi berupa bunga, denda administrasi, dan kenaikan diatur dengan Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_38">
+            <num>38</num>
+            <intro><p>Barang siapa karena kealpaannya :</p></intro>
+              <point eId="pasal_38__huruf_a">
+                <num>a.</num>
+                <content><p>tidak menyampaikan Surat Pemberitahuan; atau</p></content>
+              </point>
+              <point eId="pasal_38__huruf_b">
+                <num>b.</num>
+                <content><p>menyampaikan Surat Pemberitahuan, tetapi yang isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang tidak benar; sehingga dapat menimbulkan kerugian pada Negara, dipidana dengan pidana kurungan selama-lamanya satu tahun dan/atau denda setinggitingginya sebesar dua kali jumlah pajak yang terhutang.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_39">
+            <num>39</num>
+              <paragraph eId="pasal_39__ayat_1">
+                <num>(1)</num>
+                <intro><p>Barang siapa dengan sengaja :</p></intro>
+                  <point eId="pasal_39__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>tidak mendaftarkan diri atau menyalahgunakan atau menggunakan tanpa hak Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 2; atau</p></content>
+                  </point>
+                  <point eId="pasal_39__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>tidak menyampaikan Surat Pemberitahuan; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_39__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>menyampaikan Surat Pemberitahuan dan/atau keterangan yang isinya tidak benar atau tidak lengkap; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_39__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>memperlihatkan pembukuan, pencatatan, atau dokumen lain yang palsu atau dipalsukan seolah-olah benar; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_39__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>tidak memperlihatkan atau tidak meminjamkan pembukuan, pencatatan, atau dokumen lainnya; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_39__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>tidak menyetorkan pajak yang telah dipotong atau dipungut sehingga dapat menimbulkan kerugian pada negara, dipidana dengan pidana penjara selama- lamanya tiga tahun dan /atau denda setinggi-tingginya sebesar empat kali jumlah pajak yang terhutang yang kurang atau yang tidak dibayar.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_2">
+                <num>(2)</num>
+                <content><p>Ancaman dana sebagaimana dimaksud dalam ayat (1) dilipat- kan dua apabila seseorang melakukan lagi tindak pidana di bidang perpajakan sebelum lewat satu tahun, terhitung sejak selesainya menjalani sebagian atau seluruh pidana penjara yang dijatuhkan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_40">
+            <num>40</num>
+            <content><p>Tindak pidana di bidang perpajakan tidak dapat dituntut setelah lampau waktu sepuluh tahun sejak saat terhutangnya pajak, berakhirnya Masa Pajak, berakhirnya Bagian Tahun Pajak, atau berakhirnya Tahun Pajak yang bersangkutan.</p></content>
+          </article>
+          <article eId="pasal_41">
+            <num>41</num>
+              <paragraph eId="pasal_41__ayat_1">
+                <num>(1)</num>
+                <content><p>Pejabat yang karena kealpaannya tidak memenuhi kewajiban merahasiakan hal sebagaimana dimaksud dalam Pasal 34, di- pidana dengan pidana kurungan selama-lamanya enam bulan dan/atau denda setinggi-tingginya Rp 1.000.000,- (satu juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_2">
+                <num>(2)</num>
+                <content><p>Pejabat yang dengan sengaja tidak memenuhi kewajibannya atau seseorang yang menyebabkan tidak dipenuhinya kewajiban pejabat sebagaimana dimaksud dalam Pasal 34 dipidana dengan pidana penjara selama-lamanya satu tahun dan/atau denda setinggi-tingginya Rp 2.000.000,- (dua juta rupiah)</p></content>
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_3">
+                <num>(3)</num>
+                <content><p>Penuntutan terhadap tindak pidana sebagaimana dimaksud dalam ayat (1) dan ayat (2) hanya dilakukan atas pengaduan orang yang kerahasiaannya dilanggar.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_42">
+            <num>42</num>
+              <paragraph eId="pasal_42__ayat_1">
+                <num>(1)</num>
+                <content><p>Tindak pidana sebagaimana dimaksud dalam Pasal 38 dan Pasal 41 ayat (1) adalah pelanggaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_2">
+                <num>(2)</num>
+                <content><p>Tindak pidana sebagaimana dimaksud dalam Pasal 39 dan Pasal 41 ayat (2) adalah kejahatan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_43">
+            <num>43</num>
+            <content><p>Ketentuan sebagaimana dimaksud dalam Pasal 38 dan Pasal 39, berlaku juga bagi wakil, kuasa, atau pegawai dari Wajib Pajak.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>PENYIDIKAN</heading>
+          <article eId="pasal_44">
+            <num>44</num>
+              <paragraph eId="pasal_44__ayat_1">
+                <num>(1)</num>
+                <content><p>Pejabat Pegawai Negeri Sipil tertentu di lingkungan Direktorat Jenderal Pajak diberi wewenang khusus sebagai Penyidik untuk melakukan penyidikan tindak pidana di bidang perpajakan, sebagaimana dimaksud dalam Undang-undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_2">
+                <num>(2)</num>
+                <intro><p>Penyidik sebagaimana dimaksud dalam ayat (1) berwenang :</p></intro>
+                  <point eId="pasal_44__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan penelitian atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana di bidang perpajakan;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan penelitian terhadap orang yang diduga melakukan tindak pidana di bidang perpajakan;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>meminta keterangan dan bahan bukti dari orang atau Badan sehubungan dengan peristiwa tindak pidana di bidang perpajakan,</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan pemeriksaan atas pembukuan, pencatatan , dan dokumen-dokumen lain berkenan dengan tindak pidana di bidang perpajakan;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan pemeriksaan di tempat tertentu yang diduga terdapat bahan bukti pembukuan, pencatatan, dan dokumen- dokumen lain serta melakukan penyitaan terhadap bahan yang dapat dijadikan bukti dalam perkara tindak pidana di bidang perpajakan;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>meminta bantuan ahli dalam rangka pelaksanaan tugas penyidikan tindak pidana di bidang perpajakan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_3">
+                <num>(3)</num>
+                <content><p>Penyidik sebagaimana dimaksud dalam ayat (1) memberitahukan dimulainya penyidikan dan menyampaikan hasil penyidikannya kepada Penuntut Umum, sesuai dengan ketentuan yang diatur dalam Undang-undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_45">
+            <num>45</num>
+            <content><p>Terhadap pajak-pajak yang terhutang pada suatu saat, untuk Masa Pajak, Bagian Tahun Pajak, atau Tahun Pajak yang berakhir sebelum saat berlakunya undang-undang ini, tetap berlaku ketentuan peraturan perundang-undangan perpajakan yang lama, sampai dengan tanggal 31 Desember 1988.</p></content>
+          </article>
+          <article eId="pasal_46">
+            <num>46</num>
+            <content><p>Dengan berlakunya undang-undang ini semua peraturan pelaksanaan di bidang perpajakan yang lama tetap berlaku sepanjang tidak bertentangan dengan undang-undang ini.</p></content>
+          </article>
+          <article eId="pasal_47">
+            <num>47</num>
+            <content><p>Terhadap penghasilan kena pajak yang diterima atau diperoleh dalam bidang penambangan minyak dan gas bumi serta dalam bidang penambangan lainnya sehubungan dengan Kontrak Karya dan Kontrak Bagi Hasil, yang masih berlaku pada saat berlakunya undang-undang ini, dikenakan pajak berdasarkan ketentuan-ketentuan Ordonansi Pajak Perseroan 1925 dan Undang-undang Pajak atas Bunga, Dividen dan Royalti 1970 beserta semua peraturan pelaksanaannya.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_48">
+            <num>48</num>
+            <content><p>Hal-hal yang belum cukup diatur dalam undang-undang ini, diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+            <content><p>Ketentuan dalam undang-undang ini berlaku pula bagi undang- undang perpajakan lainnya, kecuali apabila ditentukan lain.</p></content>
+          </article>
+          <article eId="pasal_50">
+            <num>50</num>
+            <content><p>Undang-undang ini mulai berlaku pada tanggal 1 Januari 1984. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>
