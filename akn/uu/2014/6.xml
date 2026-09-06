@@ -26,102 +26,134 @@
       </identification>
       <lifecycle source="#carihukum">
         <eventRef eId="e_pengundangan" date="2014-01-15" source="#pemerintah-ri" type="generation"/>
-        <eventRef eId="e_1" date="2024-04-25" source="#org_1" type="amendment"/>
+        <eventRef eId="e_1" date="2020-03-31" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2020-11-02" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2022-12-30" source="#org_3" type="amendment"/>
+        <eventRef eId="e_4" date="2023-03-31" source="#org_4" type="amendment"/>
+        <eventRef eId="e_5" date="2024-04-25" source="#org_5" type="amendment"/>
       </lifecycle>
       <analysis source="#carihukum">
         <passiveModifications>
         <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_1"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_87"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_1"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_87"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_1"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_87"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_2"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_2">
+        <textualMod type="substitution" eId="pmod_8">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_4"/>
         </textualMod>
-        <textualMod type="insertion" eId="pmod_3">
+        <textualMod type="insertion" eId="pmod_9">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_5a"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_4">
+        <textualMod type="substitution" eId="pmod_10">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_26"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_5">
+        <textualMod type="substitution" eId="pmod_11">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_27"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_6">
+        <textualMod type="substitution" eId="pmod_12">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_33"/>
         </textualMod>
-        <textualMod type="insertion" eId="pmod_7">
+        <textualMod type="insertion" eId="pmod_13">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_34a"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_8">
+        <textualMod type="substitution" eId="pmod_14">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_39"/>
         </textualMod>
-        <textualMod type="insertion" eId="pmod_9">
+        <textualMod type="insertion" eId="pmod_15">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_53a"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_10">
+        <textualMod type="substitution" eId="pmod_16">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_56"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_11">
+        <textualMod type="substitution" eId="pmod_17">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_57"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_12">
+        <textualMod type="substitution" eId="pmod_18">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_62"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_13">
+        <textualMod type="substitution" eId="pmod_19">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_67"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_14">
+        <textualMod type="substitution" eId="pmod_20">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_72"/>
         </textualMod>
-        <textualMod type="insertion" eId="pmod_15">
+        <textualMod type="insertion" eId="pmod_21">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_72a"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_16">
+        <textualMod type="substitution" eId="pmod_22">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_74"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_17">
+        <textualMod type="substitution" eId="pmod_23">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_78"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_18">
+        <textualMod type="substitution" eId="pmod_24">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_79"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_19">
+        <textualMod type="substitution" eId="pmod_25">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_86"/>
         </textualMod>
-        <textualMod type="insertion" eId="pmod_20">
+        <textualMod type="insertion" eId="pmod_26">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_87a"/>
         </textualMod>
-        <textualMod type="substitution" eId="pmod_21">
+        <textualMod type="substitution" eId="pmod_27">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_118"/>
         </textualMod>
-        <textualMod type="insertion" eId="pmod_22">
+        <textualMod type="insertion" eId="pmod_28">
           <source href="/akn/id/act/uu/2024/3"/>
           <destination href="#pasal_121a"/>
         </textualMod>
         </passiveModifications>
       </analysis>
       <references source="#carihukum">
-        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2024/3" showAs="Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa"/>
+        <TLCOrganization eId="org_1" href="/akn/id/act/perppu/2020/1" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 1 Tahun 2020 tentang Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan untuk Penanganan Pandemi Corona Virus Disease 2019 (COVID-19) dan/atau dalam Rangka Menghadapi Ancaman yang Membahayakan Perekonomian Nasional dan/atau Stabilitas Sistem Keuangan"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_4" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
+        <TLCOrganization eId="org_5" href="/akn/id/act/uu/2024/3" showAs="Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -143,15 +175,15 @@
               </point>
               <point eId="pasal_1__angka_2">
                 <num>2.</num>
-                <content><p>Pemerintahan Desa adalah penyelenggaraan urusan pemerintahan dan kepentingan masyarakat setempat dalam sistem pemerintahan Negara Kesatuan Republik Indonesia.</p></content>
+                <content><p>Pemerintahan Desa adalah penyelenggaraa.n urusan pemerintahan dan kepentingan masyarakat setempat dalam sistem pemerintahan Negara Kesatuan Republik Indonesia.</p></content>
               </point>
               <point eId="pasal_1__angka_3">
                 <num>3.</num>
-                <content><p>Pemerintah Desa adalah Kepala Desa atau yang disebut dengan nama lain dibantu perangkat Desa sebagai unsur penyelenggara Pemerintahan Desa.</p></content>
+                <content><p>Pemerintah Desa adalah Kepala Desa atau yang disebut dengan nama lain yang dibantu perangkat Desa sebagai unsur penyelenggara Pemerintahan Desa.</p></content>
               </point>
               <point eId="pasal_1__angka_4">
                 <num>4.</num>
-                <content><p>Badan Permusyawaratan Desa atau yang disebut dengan nama lain adalah lembaga yang melaksanakan fungsi pemerintahan yang anggotanya merupakan wakil dari penduduk Desa berdasarkan keterwakilan wilayah dan ditetapkan secara demokratis.</p></content>
+                <content><p>Badan Permusyawaratan Desa atau yang disebut dengan nama lain adalah lembaga yang melaksanakan fungsi pemerintahan yang anggotanya merupakan wakil dari penduduk Desa berdasarkan keterwakilan wilayah dan ditetapkan . secara demokratis.</p></content>
               </point>
               <point eId="pasal_1__angka_5">
                 <num>5.</num>
@@ -159,11 +191,11 @@
               </point>
               <point eId="pasal_1__angka_6">
                 <num>6.</num>
-                <content><p>Badan Usaha Milik Desa, yang selanjutnya disebut BUM Desa, adalah badan usaha yang seluruh atau sebagian besar modalnya dimiliki oleh Desa melalui penyertaan secara langsung yang berasal dari kekayaan Desa yang dipisahkan guna mengelola aset, jasa pelayanan, dan usaha lainnya untuk sebesar- besarnya kesejahteraan masyarakat Desa.</p></content>
+                <content><p>Badan Usaha Milik Desa yang selanjutnya disebut BUM Desa adalah badan hukum yang didirikan oleh Desa dan/atau bersama Desa-Desa guna mengelola usaha, memanfaatkan aset, mengembangkan investasi dan produktivitas, menyediakan jasa pelayanan, dan/atau menyediakan jenis usaha lainnya untuk sebesar- besarnya kesejahteraan masyarakat Desa.</p></content>
               </point>
               <point eId="pasal_1__angka_7">
                 <num>7.</num>
-                <content><p>Peraturan Desa adalah peraturan perundang- undangan yang ditetapkan oleh Kepala Desa setelah dibahas dan disepakati bersama Badan Permusyawaratan Desa.</p></content>
+                <content><p>Peraturan Desa adalah peraturan perundang- undangan yang ditetapkan oleh kepala desa setelah dibahas dan disepakati bersama Badan Permusyawaratan Desa.</p></content>
               </point>
               <point eId="pasal_1__angka_8">
                 <num>8.</num>
@@ -183,11 +215,11 @@
               </point>
               <point eId="pasal_1__angka_12">
                 <num>12.</num>
-                <content><p>Pemberdayaan Masyarakat Desa adalah upaya mengembangkan kemandirian dan kesejahteraan masyarakat dengan meningkatkan pengetahuan, sikap, keterampilan, perilaku, kemampuan, kesadaran, serta memanfaatkan sumber daya melalui penetapan kebijakan, program, kegiatan, dan pendampingan yang sesuai dengan esensi masalah dan prioritas kebutuhan masyarakat Desa.</p></content>
+                <content><p>Pemberdayaan L2. Pemberdayaan Masyarakat Desa adalah upaya mengembangkan kemandirian dan kesejahteraan masyarakat dengan meningkatkan pengetahlran, sikap, keterampilan, perilaku, kemampuan, kesadaran, serta memanfaatkan sumber daya melalui penetapan kebijakan, program, kegiatan, dan pendampingan yang sesuai dengan esensi masalah dan prioritas kebutuhan masyarakat Desa.</p></content>
               </point>
               <point eId="pasal_1__angka_13">
                 <num>13.</num>
-                <content><p>Pemerintah Pusat selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+                <content><p>Pemerintah Pusat yang selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
               </point>
               <point eId="pasal_1__angka_14">
                 <num>14.</num>
@@ -195,7 +227,7 @@
               </point>
               <point eId="pasal_1__angka_15">
                 <num>15.</num>
-                <content><p>Pemerintah Daerah adalah Gubernur, Bupati, atau Walikota dan perangkat daerah sebagai unsur penyelenggara Pemerintahan Daerah.</p></content>
+                <content><p>Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara .Pemerintahan Daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom.</p></content>
               </point>
               <point eId="pasal_1__angka_16">
                 <num>16.</num>
@@ -2555,15 +2587,23 @@
             <num>87</num>
               <paragraph eId="pasal_87__ayat_1">
                 <num>(1)</num>
-                <content><p>Desa dapat mendirikan Badan Usaha Milik Desa yang disebut BUM Desa.</p></content>
+                <content><p>Desa dapat mendirikan BUM Desa.</p></content>
               </paragraph>
               <paragraph eId="pasal_87__ayat_2">
                 <num>(2)</num>
-                <content><p>BUM Desa dikelola dengan semangat kekeluargaan dan kegotongroyongan.</p></content>
+                <content><p>BUM Desa sebagaimana dimaksud pada ayat (1) dikelola dengan semangat kekeluargaan dan kegotongroyongan.</p></content>
               </paragraph>
               <paragraph eId="pasal_87__ayat_3">
                 <num>(3)</num>
-                <content><p>BUM Desa dapat menjalankan usaha di bidang ekonomi dan/atau pelayanan umum sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                <content><p>BUM Desa dapat menjalankan usaha di bidang ekonomi dan/atau pelayanan umum sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_87__ayat_4">
+                <num>(4)</num>
+                <content><p>BUM Desa sebagaimana dimaksud pada ayat (1) dapat membentuk unit usaha berbadan hukum sesuai dengan kebutuhan dan tujuan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_87__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan lebih lanjut mengenai BUM Desa sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), dan ayat (4) diatur dengan Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
