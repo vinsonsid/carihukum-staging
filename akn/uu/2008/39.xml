@@ -11,20 +11,45 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2008/39/ind@2008-11-06/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2008/39/ind@2008-11-06"/>
-          <FRBRdate date="2008-11-06" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2008/39/ind@2024-10-15/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2008/39/ind@2024-10-15"/>
+          <FRBRdate date="2024-10-15" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2008/39/ind@2008-11-06/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2008/39/ind@2008-11-06.akn"/>
-          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/2008/39/ind@2024-10-15/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2008/39/ind@2024-10-15.akn"/>
+          <FRBRdate date="2026-09-06" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2008-11-06" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2024-10-15" source="#org_1" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="insertion" eId="pmod_1">
+          <source href="/akn/id/act/uu/2024/61"/>
+          <destination href="#pasal_6a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_2">
+          <source href="/akn/id/act/uu/2024/61"/>
+          <destination href="#pasal_9a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2024/61"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2024/61"/>
+          <destination href="#pasal_25"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2024/61" showAs="Undang-Undang Nomor 61 Tahun 2024 tentang Perubahan atas Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -131,6 +156,10 @@
               <article eId="pasal_6">
                 <num>6</num>
                 <content><p>Setiap urusan pemerintahan sebagaimana dimaksud dalam Pasal 5 ayat (2) dan ayat (3) tidak harus dibentuk dalam satu Kementerian tersendiri.</p></content>
+              </article>
+              <article eId="pasal_6a">
+                <num>6A</num>
+                <content><p>Dalam hal tertentu, pembentukan kementerian tersendiri dapat didasarkan pada subumsan pemerintahan atau perincian urusan pemerintahan sepanjang memiliki keterkaitan ruang lingkup urusan pemerintahan sebagaimana dimaksud dalam Pasal 5 ayat (1), ayat (2), dan ayat (3).</p></content>
               </article>
 
           </part>
@@ -310,6 +339,10 @@
                   </paragraph>
 
               </article>
+              <article eId="pasal_9a">
+                <num>9A</num>
+                <content><p>Dalam hal terdapat Undang-Undang yang menuliskan, mencantumkan dan/atau mengatur unsur organisasi sebagaimana dimaksud dalam Pasal 9, Presiden dapat melakukan perubahan unsur organisasi dimaksud dalam peraturan pelaksanaan sesuai dengan kebutuhan penyelenggaraan pemerintahan.</p></content>
+              </article>
               <article eId="pasal_10">
                 <num>10</num>
                 <content><p>Dalam hal terdapat beban kerja yang membutuhkan penanganan secara khusus, Presiden dapat mengangkat wakil Menteri pada Kementerian tertentu.</p></content>
@@ -367,7 +400,7 @@
               </article>
               <article eId="pasal_15">
                 <num>15</num>
-                <content><p>Jumlah keseluruhan Kementerian sebagaimana dimaksud dalam Pasal 12, Pasal 13, dan Pasal 14 paling banyak 34 (tiga puluh empat).</p></content>
+                <content><p>Jumlah keseluruhan Kementerian yang dibentuk sebagaimana dimaksud dalam Pasal 12, Pasal 13, dan Pasal 14 ditetapkan sesuai dengan kebutuhan penyelenggaraan pemerintahan oleh Presiden.</p></content>
               </article>
               <article eId="pasal_16">
                 <num>16</num>
@@ -573,20 +606,24 @@
       </chapter>
       <chapter eId="bab_6">
         <num>VI</num>
-        <heading>HUBUNGAN FUNGSIONAL KEMENTERIAN DAN LEMBAGA PEMERINTAH NONKEMENTERIAN</heading>
+        <heading>HUBUNGAN FUNGSIONAL KEMENTERIAN DAN LEMBAGA PEMERINTAH NONKEMENTERIAN, LEMBAGA NONSTRUKTURAL, DAN LEMBAGA PEMERINTAH LAINNYA</heading>
           <article eId="pasal_25">
             <num>25</num>
               <paragraph eId="pasal_25__ayat_1">
                 <num>(1)</num>
-                <content><p>Hubungan fungsional antara Kementerian dan lembaga pemerintah nonkementerian dilaksanakan secara sinergis sebagai satu sistem pemerintahan dalam Negara Kesatuan Republik Indonesia sesuai dengan peraturan perundang-undangan.</p></content>
+                <content><p>Hubungan fungsional antara Kementerian, lembaga pemerintah nonkementerian, lembaga nonstruktural, dan/atau lembaga pemerintah lainnya dilaksanakan secara sinergis sebagai 1 (satu) sistem pemerintahan dalam Negara Kesatuan Republik Indonesia sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
               </paragraph>
               <paragraph eId="pasal_25__ayat_2">
                 <num>(2)</num>
-                <content><p>Lembaga pemerintah nonkementerian berkedudukan di bawah Presiden dan bertanggung jawab kepada Presiden melalui Menteri yang mengoordinasikan.</p></content>
+                <content><p>l*mbaga pemerintah nonkementerian sebagaimana dimaksud pada ayat (1) berkedudukan di bawah Presiden dan bertanggung jawab kepada Presiden melalui menteri yang mengoordinasikan, kecuali ditentukan lain oleh Presiden.</p></content>
               </paragraph>
               <paragraph eId="pasal_25__ayat_3">
                 <num>(3)</num>
-                <content><p>Ketentuan lebih lanjut mengenai hubungan fungsional antara Menteri dan lembaga pemerintah nonkementerian sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Presiden.</p></content>
+                <content><p>Lembaga nonstruktural dan/atau lembaga pemerintah lainnya sebagaimana dimaksud pada ayat (1) berkedudukan dan bertanggung jawab sesuai dengan yang ditentukan Presiden atau sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan lebih lanjut mengenai lembaga pemerintah nonkementerian, lembaga nonstruktural, dan/atau lembaga pemerintah lainnya secara tersendiri diatur dengan Peraturan Presiden.</p></content>
               </paragraph>
 
           </article>

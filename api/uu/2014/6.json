@@ -31,9 +31,24 @@
     "teks": "Pasal 5 ayat (1), Pasal 18, Pasal 18B ayat (2), Pasal 20, dan Pasal 22D ayat (2) Undang-Undang Dasar Negara Tahun 1945; Dengan",
     "target": "uud-1945"
    }
+  ],
+  "perubahan_belum_dienkode": [
+   {
+    "id": "perppu-2020-1"
+   },
+   {
+    "id": "uu-2020-11"
+   },
+   {
+    "id": "perppu-2022-2"
+   },
+   {
+    "id": "uu-2023-6",
+    "tanggal": "2023-03-31"
+   }
   ]
  },
- "dihasilkan": "2026-09-05T23:12:23.046Z",
+ "dihasilkan": "2026-09-06T03:24:45.755Z",
  "timeline": [
   {
    "tanggal": "2014-01-15",
@@ -43,6 +58,17 @@
    "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2024-04-25",
+   "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+   "tipe": "perubahan",
+   "pelaku": "uu-2024-3",
+   "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+   "jumlah_operasi": 24,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
   }
  ],
  "peringatan": [],
@@ -212,10 +238,29 @@
      "id": "pasal-2",
      "tipe": "pasal",
      "nomor": "2",
-     "teks": "Penyelenggaraan Pemerintahan Desa, pelaksanaan Pembangunan Desa, pembinaan kemasyarakatan Desa, dan pemberdayaan masyarakat Desa berdasarkan Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika.",
+     "teks": "Desa menyelenggarakan pemerintahan, pembangunan, pembinaan kemasyarakatan, dan pemberdayaan masyarakat berdasarkan pancasila, undang-Undang Dasar Negara Republik Indonesia Tahun Lg4s, Negara Kesatuan Republik Indonesia, dan Bhinneka tunggaf lka sesuai dengan ketentuan peraturan perundang-undangan.",
      "verifikasi": "pdf-resmi",
-     "sumber": "uu-2014-6",
-     "berlaku_mulai": "2014-01-15"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+       "pelaku": "uu-2024-3",
+       "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+       "tanggal": "2024-04-25",
+       "sebelum": {
+        "id": "pasal-2",
+        "tipe": "pasal",
+        "nomor": "2",
+        "teks": "Penyelenggaraan Pemerintahan Desa, pelaksanaan Pembangunan Desa, pembinaan kemasyarakatan Desa, dan pemberdayaan masyarakat Desa berdasarkan Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika.",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2014-6",
+        "berlaku_mulai": "2014-01-15"
+       },
+       "catatan": "Ketentuan Pasal 2 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-3",
+     "berlaku_mulai": "2024-04-25"
     },
     {
      "id": "pasal-3",
@@ -356,17 +401,17 @@
        "nomor": "a.",
        "teks": "memberikan pengakuan dan penghormatan atas Desa yang sudah ada dengan keberagamannya sebelum dan sesudah terbentuknya Negara Kesatuan Republik Indonesia;",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-4/huruf-b",
        "tipe": "huruf",
        "nomor": "b.",
-       "teks": "memberikan kejelasan status dan kepastian hukum atas Desa dalam sistem ketatanegaraan Republik Indonesia demi mewujudkan keadilan bagi seluruh rakyat Indonesia;",
+       "teks": "memberikan kejelasan kedudukan Desa dalam sistem ketatanegaraan Republik Indonesia dalam mengatur dan mengurus urusan pemerintahan Desa dan kepentingan masyarakat setempat demi mewujudkan keadilan bagi seluruh rakyat Indonesia;",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-4/huruf-c",
@@ -374,8 +419,8 @@
        "nomor": "c.",
        "teks": "melestarikan dan memajukan adat, tradisi, dan budaya masyarakat Desa;",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-4/huruf-d",
@@ -383,8 +428,8 @@
        "nomor": "d.",
        "teks": "mendorong prakarsa, gerakan, dan partisipasi masyarakat Desa untuk pengembangan potensi dan Aset Desa guna kesejahteraan bersama;",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-4/huruf-e",
@@ -392,17 +437,17 @@
        "nomor": "e.",
        "teks": "membentuk Pemerintahan Desa yang profesional, efisien dan efektif, terbuka, serta bertanggung jawab;",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-4/huruf-f",
        "tipe": "huruf",
        "nomor": "f.",
-       "teks": "meningkatkan pelayanan publik bagi warga masyarakat Desa guna mempercepat perwujudan kesejahteraan umum;",
+       "teks": "meningkatkan pelayanan publik bagi warga masyarakat Desa guna mempercepat perwujudan kesejahteraan umum; g.meningkatkan...",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-4/huruf-g",
@@ -410,8 +455,8 @@
        "nomor": "g.",
        "teks": "meningkatkan ketahanan sosial budaya masyarakat Desa guna mewujudkan masyarakat Desa yang mampu memelihara kesatuan sosial sebagai bagian dari ketahanan nasional;",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-4/huruf-h",
@@ -419,8 +464,8 @@
        "nomor": "h.",
        "teks": "memajukan perekonomian masyarakat Desa serta mengatasi kesenjangan pembangunan nasional; dan",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-4/huruf-i",
@@ -428,14 +473,116 @@
        "nomor": "i.",
        "teks": "memperkuat masyarakat Desa sebagai subjek pembangunan.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       }
      ],
      "teks": "Pengaturan Desa bertujuan:",
      "verifikasi": "pdf-resmi",
-     "sumber": "uu-2014-6",
-     "berlaku_mulai": "2014-01-15"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+       "pelaku": "uu-2024-3",
+       "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+       "tanggal": "2024-04-25",
+       "sebelum": {
+        "id": "pasal-4",
+        "tipe": "pasal",
+        "nomor": "4",
+        "anak": [
+         {
+          "id": "pasal-4/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "memberikan pengakuan dan penghormatan atas Desa yang sudah ada dengan keberagamannya sebelum dan sesudah terbentuknya Negara Kesatuan Republik Indonesia;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-4/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "memberikan kejelasan status dan kepastian hukum atas Desa dalam sistem ketatanegaraan Republik Indonesia demi mewujudkan keadilan bagi seluruh rakyat Indonesia;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-4/huruf-c",
+          "tipe": "huruf",
+          "nomor": "c.",
+          "teks": "melestarikan dan memajukan adat, tradisi, dan budaya masyarakat Desa;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-4/huruf-d",
+          "tipe": "huruf",
+          "nomor": "d.",
+          "teks": "mendorong prakarsa, gerakan, dan partisipasi masyarakat Desa untuk pengembangan potensi dan Aset Desa guna kesejahteraan bersama;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-4/huruf-e",
+          "tipe": "huruf",
+          "nomor": "e.",
+          "teks": "membentuk Pemerintahan Desa yang profesional, efisien dan efektif, terbuka, serta bertanggung jawab;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-4/huruf-f",
+          "tipe": "huruf",
+          "nomor": "f.",
+          "teks": "meningkatkan pelayanan publik bagi warga masyarakat Desa guna mempercepat perwujudan kesejahteraan umum;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-4/huruf-g",
+          "tipe": "huruf",
+          "nomor": "g.",
+          "teks": "meningkatkan ketahanan sosial budaya masyarakat Desa guna mewujudkan masyarakat Desa yang mampu memelihara kesatuan sosial sebagai bagian dari ketahanan nasional;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-4/huruf-h",
+          "tipe": "huruf",
+          "nomor": "h.",
+          "teks": "memajukan perekonomian masyarakat Desa serta mengatasi kesenjangan pembangunan nasional; dan",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-4/huruf-i",
+          "tipe": "huruf",
+          "nomor": "i.",
+          "teks": "memperkuat masyarakat Desa sebagai subjek pembangunan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         }
+        ],
+        "teks": "Pengaturan Desa bertujuan:",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2014-6",
+        "berlaku_mulai": "2014-01-15"
+       },
+       "catatan": "Ketentuan Pasal 4 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-3",
+     "berlaku_mulai": "2024-04-25"
     }
    ],
    "sumber": "uu-2014-6",
@@ -461,6 +608,43 @@
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2014-6",
        "berlaku_mulai": "2014-01-15"
+      },
+      {
+       "id": "pasal-5a",
+       "tipe": "pasal",
+       "nomor": "5A",
+       "anak": [
+        {
+         "id": "pasal-5a/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Desa yang berada di kawasan suaka alam, kawasan pelestarian alam, hutan produksi, dan kebun produksi berhak mendapatkan dana konservasi dan/atau dana rehabilitasi berdasarkan ketentuan peraturan perundang-undangan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-5a/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Ketentuan mengenai dana konservasi dan/atau dana rehabilitasi sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "catatan": "Di antara Pasal 5 dan Pasal 6 disisipkan 1 (satu) pasal, yakni Pasal 5A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       }
      ],
      "sumber": "uu-2014-6",
@@ -805,7 +989,15 @@
       }
      ],
      "sumber": "uu-2014-6",
-     "berlaku_mulai": "2014-01-15"
+     "berlaku_mulai": "2014-01-15",
+     "anotasi": [
+      {
+       "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+       "pelaku": "uu-2024-3",
+       "tanggal": "2024-04-25",
+       "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 8 ayat (3) huruf h diubah sebagaimana tercantum dalam penjelasan.”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
+      }
+     ]
     },
     {
      "id": "pasal-9",
@@ -1288,10 +1480,10 @@
          "id": "pasal-26/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Kepala Desa bertugas menyelenggarakan Pemerintahan Desa, melaksanakan Pembangunan Desa, pembinaan kemasyarakatan Desa, dan pemberdayaan masyarakat Desa.",
+         "teks": "Kepala Desa bertugas menyelenggarakan pemerintahan, pembangunan, pembinaan kemasyarakatan, dan pemberdayaan masyarakat di Desa sesuai dengan ketentuan peraturan perundang- undangan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-26/ayat-2",
@@ -1306,26 +1498,26 @@
            "nomor": "a.",
            "teks": "memimpin penyelenggaraan Pemerintahan Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
-           "teks": "mengangkat dan memberhentikan perangkat Desa;",
+           "teks": "mengusulkan pengangkatan dan pemberhentian perangkat Desa kepada bupati/wali kota;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-c",
            "tipe": "huruf",
            "nomor": "c.",
-           "teks": "memegang kekuasaan pengelolaan Keuangan dan Aset Desa;",
+           "teks": "memegang kekuasaan pengelolaan Keuangan Desa dan Aset Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-d",
@@ -1333,17 +1525,17 @@
            "nomor": "d.",
            "teks": "menetapkan Peraturan Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-e",
            "tipe": "huruf",
            "nomor": "e.",
-           "teks": "menetapkan Anggaran Pendapatan dan Belanja Desa;",
+           "teks": "menetapkan anggaran pendapatan dan belanja Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-f",
@@ -1351,8 +1543,8 @@
            "nomor": "f.",
            "teks": "membina kehidupan masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-g",
@@ -1360,17 +1552,17 @@
            "nomor": "g.",
            "teks": "membina ketenteraman dan ketertiban masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-h",
            "tipe": "huruf",
            "nomor": "h.",
-           "teks": "membina dan meningkatkan perekonomian Desa serta mengintegrasikannya agar mencapai perekonomian skala produktif untuk sebesar-besarnya kemakmuran masyarakat Desa;",
+           "teks": "membina dan meningkatkan perekonomian Desa serta mengintegrasikannya agar mencapai perekonomian skala produktif untuk sebesar- besarnya kemal.<muran masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-i",
@@ -1378,8 +1570,8 @@
            "nomor": "i.",
            "teks": "mengembangkan sumber pendapatan Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-j",
@@ -1387,8 +1579,8 @@
            "nomor": "j.",
            "teks": "mengusulkan dan menerima pelimpahan sebagian kekayaan negara guna meningkatkan kesejahteraan masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-k",
@@ -1396,17 +1588,19 @@
            "nomor": "k.",
            "teks": "mengembangkan kehidupan sosial budaya masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
-          },
-          {
-           "id": "pasal-26/ayat-2/huruf-l",
-           "tipe": "huruf",
-           "nomor": "l.",
-           "teks": "memanfaatkan teknologi tepat guna;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "anak": [
+            {
+             "id": "pasal-26/ayat-2/huruf-k/angka-1",
+             "tipe": "angka",
+             "nomor": "1.",
+             "teks": "memanfaatkan teknologi tepat guna;",
+             "verifikasi": "pdf-resmi",
+             "sumber": "uu-2024-3",
+             "berlaku_mulai": "2024-04-25"
+            }
+           ],
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-m",
@@ -1414,17 +1608,17 @@
            "nomor": "m.",
            "teks": "mengoordinasikan Pembangunan Desa secara partisipatif;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-n",
            "tipe": "huruf",
            "nomor": "n.",
-           "teks": "mewakili Desa di dalam dan di luar pengadilan atau menunjuk kuasa hukum untuk mewakilinya sesuai dengan ketentuan peraturan perundang-undangan; dan",
+           "teks": "mewakili Desa di dalam dan di luar pengadilan atau menunjuk kuasa hukum untuk mewakilinya sesuai dengan ketentuan peraturan perundang- undangan; dan",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-2/huruf-o",
@@ -1432,12 +1626,12 @@
            "nomor": "o.",
            "teks": "melaksanakan wewenang lain yang sesuai dengan ketentuan peraturan perundang-undangan.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           }
          ],
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-26/ayat-3",
@@ -1452,8 +1646,8 @@
            "nomor": "a.",
            "teks": "mengusulkan struktur organisasi dan tata kerja Pemerintah Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-3/huruf-b",
@@ -1461,39 +1655,48 @@
            "nomor": "b.",
            "teks": "mengajukan rancangan dan menetapkan Peraturan Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-3/huruf-c",
            "tipe": "huruf",
            "nomor": "c.",
-           "teks": "menerima penghasilan tetap setiap bulan, tunjangan, dan penerimaan lainnya yang sah, serta mendapat jaminan kesehatan;",
+           "teks": "menerima penghasilan tetap setiap bulan, tunjangan, dan penerimaan lainnya yang sah, serta mendapat jaminan sosial di bidang kesehatan dan ketenagakerjaan; d.mendapatkan...",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-3/huruf-d",
            "tipe": "huruf",
            "nomor": "d.",
-           "teks": "mendapatkan pelindungan hukum atas kebijakan yang dilaksanakan; dan",
+           "teks": "mendapatkan tunjangan purnatugas 1 (satu) kali di akhir masa jabatan sesuai kemampuan Keuangan Desa yang diatur dalam Peraturan Pemerintah;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-3/huruf-e",
            "tipe": "huruf",
            "nomor": "e.",
+           "teks": "mendapatkan pelindungan hukum atas kebijakan yang dilaksanakan; dan",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
+          },
+          {
+           "id": "pasal-26/ayat-3/huruf-f",
+           "tipe": "huruf",
+           "nomor": "f.",
            "teks": "memberikan mandat pelaksanaan tugas dan kewajiban lainnya kepada perangkat Desa.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           }
          ],
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-26/ayat-4",
@@ -1506,10 +1709,10 @@
            "id": "pasal-26/ayat-4/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika;",
+           "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia, dan Bhinneka T\\rnggal lka;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-b",
@@ -1517,8 +1720,8 @@
            "nomor": "b.",
            "teks": "meningkatkan kesejahteraan masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-c",
@@ -1526,8 +1729,8 @@
            "nomor": "c.",
            "teks": "memelihara ketenteraman dan ketertiban masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-d",
@@ -1535,8 +1738,8 @@
            "nomor": "d.",
            "teks": "menaati dan menegakkan peraturan perundang- undangan;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-e",
@@ -1544,115 +1747,511 @@
            "nomor": "e.",
            "teks": "melaksanakan kehidupan demokrasi dan berkeadilan gender;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-f",
            "tipe": "huruf",
            "nomor": "f.",
-           "teks": "melaksanakan prinsip tata Pemerintahan Desa yang akuntabel, transparan, profesional, efektif dan efisien, bersih, serta bebas dari kolusi, korupsi, dan nepotisme;",
+           "teks": "melaksanakan prinsip tata Pemerintahan Desa yang akuntabel, transparan, profesional, efektif dan efisien, bersih, serta bebas dari korupsi, kolusi, dan nepotisme;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-g",
            "tipe": "huruf",
            "nomor": "g.",
-           "teks": "menjalin kerja sama dan koordinasi dengan seluruh pemangku kepentingan di Desa;",
+           "teks": "mengundurkan diri sebagai Kepala Desa apabila mencalonkan diri sebagai anggota lembaga perwakilan ra\\rat, kepala daerah, atau jabatan politik lain sejak ditetapkan sebagai calon peserta pemilihan yang dinyatakan secara tertulis dan tidak dapat ditarik kembali;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-h",
            "tipe": "huruf",
            "nomor": "h.",
-           "teks": "menyelenggarakan administrasi Pemerintahan Desa yang baik;",
+           "teks": "menjalin kerja sama dan koordinasi dengan seluruh pemangku kepentingan di Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-i",
            "tipe": "huruf",
            "nomor": "i.",
-           "teks": "mengelola Keuangan dan Aset Desa;",
+           "teks": "menyelenggarakan administrasi Pemerintahan Desa yang baik;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-j",
            "tipe": "huruf",
            "nomor": "j.",
-           "teks": "melaksanakan urusan pemerintahan yang menjadi kewenangan Desa;",
+           "teks": "mengelola Keuangan Desa dan Aset Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-k",
            "tipe": "huruf",
            "nomor": "k.",
-           "teks": "menyelesaikan perselisihan masyarakat di Desa;",
+           "teks": "melaksanakan urusan pemerintahan yang menjadi kewenangan Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
-          },
-          {
-           "id": "pasal-26/ayat-4/huruf-l",
-           "tipe": "huruf",
-           "nomor": "l.",
-           "teks": "mengembangkan perekonomian masyarakat Desa;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "anak": [
+            {
+             "id": "pasal-26/ayat-4/huruf-k/angka-1",
+             "tipe": "angka",
+             "nomor": "1.",
+             "teks": "menyelesaikan perselisihan masyarakat di Desa;",
+             "verifikasi": "pdf-resmi",
+             "sumber": "uu-2024-3",
+             "berlaku_mulai": "2024-04-25"
+            }
+           ],
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-m",
            "tipe": "huruf",
            "nomor": "m.",
-           "teks": "membina dan melestarikan nilai sosial budaya masyarakat Desa;",
+           "teks": "mengembangkan perekonomian masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-n",
            "tipe": "huruf",
            "nomor": "n.",
-           "teks": "memberdayakan masyarakat dan lembaga kemasyarakatan di Desa;",
+           "teks": "membina dan melestarikan nilai sosial budaya masyarakat Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-o",
            "tipe": "huruf",
            "nomor": "o.",
-           "teks": "mengembangkan potensi sumber daya alam dan melestarikan lingkungan hidup; dan",
+           "teks": "memberdayakan masyarakat dan lembaga kemasyarakatan di Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-26/ayat-4/huruf-p",
            "tipe": "huruf",
            "nomor": "p.",
+           "teks": "mengembangkan potensi sumber daya alam dan melestarikan lingkungan hidup; dan",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
+          },
+          {
+           "id": "pasal-26/ayat-4/huruf-q",
+           "tipe": "huruf",
+           "nomor": "q.",
            "teks": "memberikan informasi kepada masyarakat Desa.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           }
          ],
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-26",
+          "tipe": "pasal",
+          "nomor": "26",
+          "anak": [
+           {
+            "id": "pasal-26/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Kepala Desa bertugas menyelenggarakan Pemerintahan Desa, melaksanakan Pembangunan Desa, pembinaan kemasyarakatan Desa, dan pemberdayaan masyarakat Desa.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-26/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Kepala Desa berwenang:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-26/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "memimpin penyelenggaraan Pemerintahan Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "mengangkat dan memberhentikan perangkat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "memegang kekuasaan pengelolaan Keuangan dan Aset Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "menetapkan Peraturan Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "menetapkan Anggaran Pendapatan dan Belanja Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-f",
+              "tipe": "huruf",
+              "nomor": "f.",
+              "teks": "membina kehidupan masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-g",
+              "tipe": "huruf",
+              "nomor": "g.",
+              "teks": "membina ketenteraman dan ketertiban masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-h",
+              "tipe": "huruf",
+              "nomor": "h.",
+              "teks": "membina dan meningkatkan perekonomian Desa serta mengintegrasikannya agar mencapai perekonomian skala produktif untuk sebesar-besarnya kemakmuran masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-i",
+              "tipe": "huruf",
+              "nomor": "i.",
+              "teks": "mengembangkan sumber pendapatan Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-j",
+              "tipe": "huruf",
+              "nomor": "j.",
+              "teks": "mengusulkan dan menerima pelimpahan sebagian kekayaan negara guna meningkatkan kesejahteraan masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-k",
+              "tipe": "huruf",
+              "nomor": "k.",
+              "teks": "mengembangkan kehidupan sosial budaya masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-l",
+              "tipe": "huruf",
+              "nomor": "l.",
+              "teks": "memanfaatkan teknologi tepat guna;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-m",
+              "tipe": "huruf",
+              "nomor": "m.",
+              "teks": "mengoordinasikan Pembangunan Desa secara partisipatif;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-n",
+              "tipe": "huruf",
+              "nomor": "n.",
+              "teks": "mewakili Desa di dalam dan di luar pengadilan atau menunjuk kuasa hukum untuk mewakilinya sesuai dengan ketentuan peraturan perundang-undangan; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-2/huruf-o",
+              "tipe": "huruf",
+              "nomor": "o.",
+              "teks": "melaksanakan wewenang lain yang sesuai dengan ketentuan peraturan perundang-undangan.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             }
+            ],
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-26/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Kepala Desa berhak:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-26/ayat-3/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "mengusulkan struktur organisasi dan tata kerja Pemerintah Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-3/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "mengajukan rancangan dan menetapkan Peraturan Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-3/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "menerima penghasilan tetap setiap bulan, tunjangan, dan penerimaan lainnya yang sah, serta mendapat jaminan kesehatan;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-3/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "mendapatkan pelindungan hukum atas kebijakan yang dilaksanakan; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-3/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "memberikan mandat pelaksanaan tugas dan kewajiban lainnya kepada perangkat Desa.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             }
+            ],
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-26/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Kepala Desa berkewajiban:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-26/ayat-4/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "meningkatkan kesejahteraan masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "memelihara ketenteraman dan ketertiban masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "menaati dan menegakkan peraturan perundang- undangan;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "melaksanakan kehidupan demokrasi dan berkeadilan gender;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-f",
+              "tipe": "huruf",
+              "nomor": "f.",
+              "teks": "melaksanakan prinsip tata Pemerintahan Desa yang akuntabel, transparan, profesional, efektif dan efisien, bersih, serta bebas dari kolusi, korupsi, dan nepotisme;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-g",
+              "tipe": "huruf",
+              "nomor": "g.",
+              "teks": "menjalin kerja sama dan koordinasi dengan seluruh pemangku kepentingan di Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-h",
+              "tipe": "huruf",
+              "nomor": "h.",
+              "teks": "menyelenggarakan administrasi Pemerintahan Desa yang baik;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-i",
+              "tipe": "huruf",
+              "nomor": "i.",
+              "teks": "mengelola Keuangan dan Aset Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-j",
+              "tipe": "huruf",
+              "nomor": "j.",
+              "teks": "melaksanakan urusan pemerintahan yang menjadi kewenangan Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-k",
+              "tipe": "huruf",
+              "nomor": "k.",
+              "teks": "menyelesaikan perselisihan masyarakat di Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-l",
+              "tipe": "huruf",
+              "nomor": "l.",
+              "teks": "mengembangkan perekonomian masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-m",
+              "tipe": "huruf",
+              "nomor": "m.",
+              "teks": "membina dan melestarikan nilai sosial budaya masyarakat Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-n",
+              "tipe": "huruf",
+              "nomor": "n.",
+              "teks": "memberdayakan masyarakat dan lembaga kemasyarakatan di Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-o",
+              "tipe": "huruf",
+              "nomor": "o.",
+              "teks": "mengembangkan potensi sumber daya alam dan melestarikan lingkungan hidup; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-26/ayat-4/huruf-p",
+              "tipe": "huruf",
+              "nomor": "p.",
+              "teks": "memberikan informasi kepada masyarakat Desa.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             }
+            ],
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-27",
@@ -1663,43 +2262,118 @@
          "id": "pasal-27/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "menyampaikan laporan penyelenggaraan Pemerintahan Desa setiap akhir tahun anggaran kepada Bupati/Walikota;",
+         "teks": "memberikan dan/atau menyebarkan informasi penyelenggaraan Pemerintahan Desa secara tertulis kepada masyarakat Desa setempat setiap akhir tahun anggaran;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-27/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "menyampaikan laporan penyelenggaraan Pemerintahan Desa pada akhir masa jabatan kepada Bupati/Walikota;",
+         "teks": "menyampaikan laporan pertanggungjawaban penyelenggaraan Pemerintahan Desa pada akhir masa jabatan dalam forum Musyawarah Desa;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-27/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "memberikan laporan keterangan penyelenggaraan pemerintahan secara tertulis kepada Badan Permusyawaratan Desa setiap akhir tahun anggaran; dan",
+         "teks": "memberikan laporan pertanggungjawaban penyelenggaraan Pemerintahan Desa secara horizontal dalam bentuk lisan dan tertulis kepada Badan Permusyawaratan Desa setiap akhir tahun anggAran;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-27/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "memberikan dan/atau menyebarkan informasi penyelenggaraan pemerintahan secara tertulis kepada masyarakat Desa setiap akhir tahun anggaran.",
+         "teks": "menjadi pengayom semua golongan masyarakat;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-27/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "menyampaikan laporan pertanggungjawaban penyelenggaraan Pemerintahan Desa setiap akhir tahun anggaran secara vertikal kepada bupati/wali kota; dan f.menyampaikan... REPUEUK TNDONESTA",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-27/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "menyampaikan laporan pertanggungjawaban penyelenggaraan Pemerintahan Desa pada akhir masa jabatan kepada bupati/wali kota.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
        "teks": "Dalam melaksanakan tugas, kewenangan, hak, dan kewajiban sebagaimana dimaksud dalam Pasal 26, Kepala Desa wajib:",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-27",
+          "tipe": "pasal",
+          "nomor": "27",
+          "anak": [
+           {
+            "id": "pasal-27/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "menyampaikan laporan penyelenggaraan Pemerintahan Desa setiap akhir tahun anggaran kepada Bupati/Walikota;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-27/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "menyampaikan laporan penyelenggaraan Pemerintahan Desa pada akhir masa jabatan kepada Bupati/Walikota;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-27/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "memberikan laporan keterangan penyelenggaraan pemerintahan secara tertulis kepada Badan Permusyawaratan Desa setiap akhir tahun anggaran; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-27/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "memberikan dan/atau menyebarkan informasi penyelenggaraan pemerintahan secara tertulis kepada masyarakat Desa setiap akhir tahun anggaran.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "teks": "Dalam melaksanakan tugas, kewenangan, hak, dan kewajiban sebagaimana dimaksud dalam Pasal 26, Kepala Desa wajib:",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 27 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-28",
@@ -1974,28 +2648,28 @@
          "id": "pasal-33/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "warga negara Republik Indonesia;",
+         "teks": "Warga Negara Indonesia;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "bertakwa kepada Tuhan Yang Maha Esa;",
+         "teks": "bertakwa kepada Thhan Yang Maha Esa;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka Tunggal Ika;",
+         "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka T\\.rnggal Ika;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-d",
@@ -2003,8 +2677,8 @@
          "nomor": "d.",
          "teks": "berpendidikan paling rendah tamat sekolah menengah pertama atau sederajat;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-e",
@@ -2012,8 +2686,8 @@
          "nomor": "e.",
          "teks": "berusia paling rendah 25 (dua puluh lima) tahun pada saat mendaftar;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-f",
@@ -2021,77 +2695,208 @@
          "nomor": "f.",
          "teks": "bersedia dicalonkan menjadi Kepala Desa;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-g",
          "tipe": "huruf",
          "nomor": "g.",
-         "teks": "terdaftar sebagai penduduk dan bertempat tinggal di Desa setempat paling kurang 1 (satu) tahun sebelum pendaftaran;",
+         "teks": "tidak sedang menjalani hukuman pidana penjara;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-h",
          "tipe": "huruf",
          "nomor": "h.",
-         "teks": "tidak sedang menjalani hukuman pidana penjara;",
+         "teks": "tidak pernah dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah mempunyai kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara paling singkat 5 (lima) tahun atau lebih, kecuali 5 (lima) tahun setelah selesai menjalani pidana penjara dan mengumumkan secara jujur dan terbuka kepada publik bahwa yang bersangkutan pernah dipidana serta bukan sebagai pelaku kejahatan berulang-ulang;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-i",
          "tipe": "huruf",
          "nomor": "i.",
-         "teks": "tidak pernah dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah mempunyai kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara paling singkat 5 (lima) tahun atau lebih, kecuali 5 (lima) tahun setelah selesai menjalani pidana penjara dan mengumumkan secara jujur dan terbuka kepada publik bahwa yang bersangkutan pernah dipidana serta bukan sebagai pelaku kejahatan berulang-ulang;",
+         "teks": "tidak sedang dicabut hak pilihnya sesuai dengan putusan pengadilan yang telah mempunyai kekuatan hukum tetap;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-j",
          "tipe": "huruf",
          "nomor": "j.",
-         "teks": "tidak sedang dicabut hak pilihnya sesuai dengan putusan pengadilan yang telah mempunyai kekuatan hukum tetap;",
+         "teks": "berbadan sehat;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-33/huruf-k",
          "tipe": "huruf",
          "nomor": "k.",
-         "teks": "berbadan sehat;",
+         "teks": "tidak pernah sebagai Kepala Desa selama 2 (dua) kali masa jabatan; dan",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
-        },
-        {
-         "id": "pasal-33/huruf-l",
-         "tipe": "huruf",
-         "nomor": "l.",
-         "teks": "tidak pernah sebagai Kepala Desa selama 3 (tiga) kali masa jabatan; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
-        },
-        {
-         "id": "pasal-33/huruf-m",
-         "tipe": "huruf",
-         "nomor": "m.",
-         "teks": "syarat lain yang diatur dalam Peraturan Daerah.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "anak": [
+          {
+           "id": "pasal-33/huruf-k/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "syarat lain yang diatur dalam Peraturan Daerah kabupaten/kota.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
+          }
+         ],
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
        "teks": "Calon Kepala Desa wajib memenuhi persyaratan:",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-33",
+          "tipe": "pasal",
+          "nomor": "33",
+          "anak": [
+           {
+            "id": "pasal-33/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "warga negara Republik Indonesia;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "bertakwa kepada Tuhan Yang Maha Esa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka Tunggal Ika;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "berpendidikan paling rendah tamat sekolah menengah pertama atau sederajat;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "berusia paling rendah 25 (dua puluh lima) tahun pada saat mendaftar;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "bersedia dicalonkan menjadi Kepala Desa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "terdaftar sebagai penduduk dan bertempat tinggal di Desa setempat paling kurang 1 (satu) tahun sebelum pendaftaran;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "tidak sedang menjalani hukuman pidana penjara;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "tidak pernah dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah mempunyai kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara paling singkat 5 (lima) tahun atau lebih, kecuali 5 (lima) tahun setelah selesai menjalani pidana penjara dan mengumumkan secara jujur dan terbuka kepada publik bahwa yang bersangkutan pernah dipidana serta bukan sebagai pelaku kejahatan berulang-ulang;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "tidak sedang dicabut hak pilihnya sesuai dengan putusan pengadilan yang telah mempunyai kekuatan hukum tetap;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-k",
+            "tipe": "huruf",
+            "nomor": "k.",
+            "teks": "berbadan sehat;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-l",
+            "tipe": "huruf",
+            "nomor": "l.",
+            "teks": "tidak pernah sebagai Kepala Desa selama 3 (tiga) kali masa jabatan; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-33/huruf-m",
+            "tipe": "huruf",
+            "nomor": "m.",
+            "teks": "syarat lain yang diatur dalam Peraturan Daerah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "teks": "Calon Kepala Desa wajib memenuhi persyaratan:",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 33 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-34",
@@ -2155,6 +2960,70 @@
        ],
        "sumber": "uu-2014-6",
        "berlaku_mulai": "2014-01-15"
+      },
+      {
+       "id": "pasal-34a",
+       "tipe": "pasal",
+       "nomor": "34A",
+       "anak": [
+        {
+         "id": "pasal-34a/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Calon Kepala Desa paling sedikit berjumlah 2 (dua) orang.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-34a/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Dalam hal jumlah calon Kepala Desa sebagaimana dimaksud pada ayat (1) tidak terpenuhi dan hanya terdapat 1 (satu) calon Kepala Desa terdaftar, panitia pemilihan Kepala Desa memperpanjang masa pendaftaran calon Kepala Desa selama 15 (lima belas) hari.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-34a/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Dalam hal tidak bertambahnya calon Kepala Desa terdaftar setelah perpanjangan masa pendaftaran sebagaimana dimaksud pada ayat (2) berakhir, panitia pemilihan Kepala Desa memperpanjang kembali masa pendaftaran selama 10 (sepuluh) hari berikutnya.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-34a/ayat-4",
+         "tipe": "ayat",
+         "nomor": "(4)",
+         "teks": "Dalam hal perpanjangan kembali masa pendaftaran calon Kepala Desa sebagaimana dimaksud pada ayat (3) berakhir dan hanya terdapat 1 (satu) calon Kepala Desa terdaftar, panitia pemilihan Kepala Desa bersama-sama dengan Badan Permusyawaratan Desa menetapkan calon Kepala Desa terdaftar secara musyawarah untuk mufakat.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-34a/ayat-5",
+         "tipe": "ayat",
+         "nomor": "(5)",
+         "teks": "Ketentuan lebih lanjut mengenai tata cara pemilihan 1 (satu) calon Kepala Desa diatur dengan Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "catatan": "Di antara Pasal 34 dan Pasal 35 disisipkan I (satu) pasal, yakni Pasal 34A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-35",
@@ -2309,23 +3178,60 @@
          "id": "pasal-39/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Kepala Desa memegang jabatan selama 6 (enam) tahun terhitung sejak tanggal pelantikan.",
+         "teks": "Kepala Desa memegang jabatan selama 8 (delapan) tahun terhitung sejak tanggal pelantikan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-39/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Kepala Desa sebagaimana dimaksud pada ayat (1) dapat menjabat paling banyak 3 (tiga) kali masa jabatan secara berturut-turut atau tidak secara berturut-turut.",
+         "teks": "Kepala Desa sebagaimana dimaksud pada ayat (1) dapat menjabat paling banyak 2 (dua) kali masa jabatan secara berturut-turut atau tidak secara berturut-turut.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-39",
+          "tipe": "pasal",
+          "nomor": "39",
+          "anak": [
+           {
+            "id": "pasal-39/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Kepala Desa memegang jabatan selama 6 (enam) tahun terhitung sejak tanggal pelantikan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-39/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Kepala Desa sebagaimana dimaksud pada ayat (1) dapat menjabat paling banyak 3 (tiga) kali masa jabatan secara berturut-turut atau tidak secara berturut-turut.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 39 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       }
      ],
      "sumber": "uu-2014-6",
@@ -2648,7 +3554,15 @@
        "teks": "Perangkat Desa terdiri atas:",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "berlaku_mulai": "2014-01-15",
+       "anotasi": [
+        {
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "tanggal": "2024-04-25",
+         "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 48 diubah sebagaimana tercantum dalam penjelasan. ll.Ketentuan Pasal 50 diubah sehingga berbunyi sebagai berikut:”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
+        }
+       ]
       },
       {
        "id": "pasal-49",
@@ -3008,6 +3922,25 @@
        ],
        "sumber": "uu-2014-6",
        "berlaku_mulai": "2014-01-15"
+      },
+      {
+       "id": "pasal-53a",
+       "tipe": "pasal",
+       "nomor": "53A",
+       "teks": "Dalam rangka meningkatkan kompetensi dan akuntabilitas kinerja Pemerintah Desa maka perlu dilakukan penatalaksanaan Pemerintah Desa yang diatur lebih lanjut dengan Peraturan Pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "catatan": "Di antara Pasal 53 dan Pasal 54 disisipkan 1 (satu) pasal, yakni Pasal 53A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       }
      ],
      "sumber": "uu-2014-6",
@@ -3186,32 +4119,78 @@
          "id": "pasal-56/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Anggota Badan Permusyawaratan Desa merupakan wakil dari penduduk Desa berdasarkan keterwakilan wilayah yang pengisiannya dilakukan secara demokratis.",
+         "teks": "Anggota Badan Permusyawaratan Desa merupakan wakil dari penduduk Desa berdasarkan keterwakilan wilayah yang pengisiannya dilakukan secara demokratis dengan memperhatikan 30% (tiga puluh persen) keterwakilan perempuan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-56/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Masa keanggotaan Badan Permusyawaratan Desa selama 6 (enam) tahun terhitung sejak tanggal pengucapan sumpah/janji.",
+         "teks": "Masa keanggotaan Badan Permusyawaratan Desa selama 8 (delapan) tahun terhitung sejak tanggal pengucapan sumpah/janji dan dapat dipilih kembali dalam jabatan yang sama.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-56/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Anggota Badan Permusyawaratan Desa sebagaimana dimaksud pada ayat (1) dapat dipilih untuk masa keanggotaan paling banyak 3 (tiga) kali secara berturut-turut atau tidak secara berturut-turut.",
+         "teks": "Anggota Badan Permusyawaratan Desa sebagaimana dimaksud pada ayat (1) dapat dipilih untuk masa keanggotaan paling banyak 2 (dua) kali secara berturut-turut atau tidak secara berturut-turut.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-56",
+          "tipe": "pasal",
+          "nomor": "56",
+          "anak": [
+           {
+            "id": "pasal-56/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Anggota Badan Permusyawaratan Desa merupakan wakil dari penduduk Desa berdasarkan keterwakilan wilayah yang pengisiannya dilakukan secara demokratis.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-56/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Masa keanggotaan Badan Permusyawaratan Desa selama 6 (enam) tahun terhitung sejak tanggal pengucapan sumpah/janji.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-56/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Anggota Badan Permusyawaratan Desa sebagaimana dimaksud pada ayat (1) dapat dipilih untuk masa keanggotaan paling banyak 3 (tiga) kali secara berturut-turut atau tidak secara berturut-turut.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 56 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-57",
@@ -3222,28 +4201,28 @@
          "id": "pasal-57/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "bertakwa kepada Tuhan Yang Maha Esa;",
+         "teks": "bertakwa kepada T\\rhan Yang Maha Esa;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-57/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka Tunggal Ika;",
+         "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka T\\.rnggal lka;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-57/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "berusia paling rendah 20 (dua puluh) tahun atau sudah/pernah menikah;",
+         "teks": "berusia paling rendah 20 (dua puluh) tahun atau sudah pernah menikah;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-57/huruf-d",
@@ -3251,8 +4230,8 @@
          "nomor": "d.",
          "teks": "berpendidikan paling rendah tamat sekolah menengah pertama atau sederajat;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-57/huruf-e",
@@ -3260,8 +4239,8 @@
          "nomor": "e.",
          "teks": "bukan sebagai perangkat Pemerintah Desa;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-57/huruf-f",
@@ -3269,8 +4248,8 @@
          "nomor": "f.",
          "teks": "bersedia dicalonkan menjadi anggota Badan Permusyawaratan Desa; dan",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-57/huruf-g",
@@ -3278,14 +4257,98 @@
          "nomor": "g.",
          "teks": "wakil penduduk Desa yang dipilih secara demokratis.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
        "teks": "Persyaratan calon anggota Badan Permusyawaratan Desa adalah:",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-57",
+          "tipe": "pasal",
+          "nomor": "57",
+          "anak": [
+           {
+            "id": "pasal-57/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "bertakwa kepada Tuhan Yang Maha Esa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-57/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka Tunggal Ika;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-57/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "berusia paling rendah 20 (dua puluh) tahun atau sudah/pernah menikah;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-57/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "berpendidikan paling rendah tamat sekolah menengah pertama atau sederajat;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-57/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "bukan sebagai perangkat Pemerintah Desa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-57/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "bersedia dicalonkan menjadi anggota Badan Permusyawaratan Desa; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-57/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "wakil penduduk Desa yang dipilih secara demokratis.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "teks": "Persyaratan calon anggota Badan Permusyawaratan Desa adalah:",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 57 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-58",
@@ -3426,8 +4489,8 @@
          "nomor": "a.",
          "teks": "mengajukan usul rancangan Peraturan Desa;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-62/huruf-b",
@@ -3435,8 +4498,8 @@
          "nomor": "b.",
          "teks": "mengajukan pertanyaan;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-62/huruf-c",
@@ -3444,32 +4507,116 @@
          "nomor": "c.",
          "teks": "menyampaikan usul dan/atau pendapat;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-62/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "memilih dan dipilih; dan",
+         "teks": "memilih dan dipilih;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-62/huruf-e",
          "tipe": "huruf",
          "nomor": "e.",
-         "teks": "mendapat tunjangan dari Anggaran Pendapatan dan Belanja Desa.",
+         "teks": "mendapatkan tunjangan dari anggaran pendapatan dan belanja Desa yang bersumber dari alokasi dana Desa dan besarannya ditetapkan dengan Peraturan Bupati/Wali Kota;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-62/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "mendapatkan jaminan sosial di bidang kesehatan dan ketenagakerjaan; dan",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-62/huruf-g",
+         "tipe": "huruf",
+         "nomor": "g.",
+         "teks": "mendapatkan tunjangan purnatugas 1 (satu) kali di akhir masa jabatan sesuai kemampuan Keuangan Desa yang diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
        "teks": "Anggota Badan Permusyawaratan Desa berhak:",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-62",
+          "tipe": "pasal",
+          "nomor": "62",
+          "anak": [
+           {
+            "id": "pasal-62/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "mengajukan usul rancangan Peraturan Desa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-62/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "mengajukan pertanyaan;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-62/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "menyampaikan usul dan/atau pendapat;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-62/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "memilih dan dipilih; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-62/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "mendapat tunjangan dari Anggaran Pendapatan dan Belanja Desa.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "teks": "Anggota Badan Permusyawaratan Desa berhak:",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 62 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-63",
@@ -3805,10 +4952,10 @@
          "id": "pasal-67/ayat-1/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "mengatur dan mengurus kepentingan masyarakat berdasarkan hak asal usul, adat istiadat, dan nilai sosial budaya masyarakat Desa;",
+         "teks": "mengatur dan mengurus kepentingan masyarakat setempat berdasarkan hak asal usul, adat istiadat, dan nilai sosial budaya masyarakat setempat;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-67/ayat-1/huruf-b",
@@ -3816,8 +4963,8 @@
          "nomor": "b.",
          "teks": "menetapkan dan mengelola kelembagaan Desa; dan",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-67/ayat-1/huruf-c",
@@ -3825,12 +4972,12 @@
          "nomor": "c.",
          "teks": "mendapatkan sumber pendapatan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-67/ayat-2",
@@ -3845,17 +4992,17 @@
          "nomor": "a.",
          "teks": "melindungi dan menjaga persatuan, kesatuan, serta kerukunan masyarakat Desa dalam rangka kerukunan nasional dan keutuhan Negara Kesatuan Republik Indonesia;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-67/ayat-2/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "meningkatkan kualitas kehidupan masyarakat Desa;",
+         "teks": "meningkatkan kualitas kehidupan masyarakat setempat;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-67/ayat-2/huruf-c",
@@ -3863,34 +5010,147 @@
          "nomor": "c.",
          "teks": "mengembangkan kehidupan demokrasi;",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-67/ayat-2/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "mengembangkan pemberdayaan masyarakat Desa; dan",
+         "teks": "mengembangkan pemberdayaan masyarakat setempat; dan",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-67/ayat-2/huruf-e",
          "tipe": "huruf",
          "nomor": "e.",
-         "teks": "memberikan dan meningkatkan pelayanan kepada masyarakat Desa.",
+         "teks": "memberikan dan meningkatkan pelayanan kepada masyarakat setempat.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       }
      ],
-     "sumber": "uu-2014-6",
-     "berlaku_mulai": "2014-01-15"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+       "pelaku": "uu-2024-3",
+       "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+       "tanggal": "2024-04-25",
+       "sebelum": {
+        "id": "pasal-67",
+        "tipe": "pasal",
+        "nomor": "67",
+        "anak": [
+         {
+          "id": "pasal-67/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Desa berhak:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-67/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "mengatur dan mengurus kepentingan masyarakat berdasarkan hak asal usul, adat istiadat, dan nilai sosial budaya masyarakat Desa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-67/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "menetapkan dan mengelola kelembagaan Desa; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-67/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "mendapatkan sumber pendapatan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-67/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Desa berkewajiban:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-67/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "melindungi dan menjaga persatuan, kesatuan, serta kerukunan masyarakat Desa dalam rangka kerukunan nasional dan keutuhan Negara Kesatuan Republik Indonesia;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-67/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "meningkatkan kualitas kehidupan masyarakat Desa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-67/ayat-2/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "mengembangkan kehidupan demokrasi;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-67/ayat-2/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "mengembangkan pemberdayaan masyarakat Desa; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-67/ayat-2/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "memberikan dan meningkatkan pelayanan kepada masyarakat Desa.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         }
+        ],
+        "sumber": "uu-2014-6",
+        "berlaku_mulai": "2014-01-15"
+       },
+       "catatan": "Ketentuan Pasal 67 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-3",
+     "berlaku_mulai": "2024-04-25"
     },
     {
      "id": "pasal-68",
@@ -4257,53 +5517,53 @@
          "id": "pasal-72/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Pendapatan Desa sebagaimana dimaksud dalam Pasal 71 ayat (2) bersumber dari:",
+         "teks": "Pendapatan Desa sebagaimana dimaksud dalam Pasal 7I ayat (2) bersumber dari:",
          "verifikasi": "pdf-resmi",
          "anak": [
           {
            "id": "pasal-72/ayat-1/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "pendapatan asli Desa terdiri atas hasil usaha, hasil aset, swadaya dan partisipasi, gotong royong, dan lain-lain pendapatan asli Desa;",
+           "teks": "pendapatan asli Desa terdiri atas hasil usaha, hasil aset, swadaya dan partisipasi, gotong- royong, dan lain-lain pendapatan asli Desa;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-72/ayat-1/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
-           "teks": "alokasi Anggaran Pendapatan dan Belanja Negara;",
+           "teks": "alokasi anggaran pendapatan dan belanja negara;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-72/ayat-1/huruf-c",
            "tipe": "huruf",
            "nomor": "c.",
-           "teks": "bagian dari hasil pajak daerah dan retribusi daerah Kabupaten/Kota;",
+           "teks": "bagian dari hasil pajak daerah dan retribusi daerah kabupaten/ kota;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-72/ayat-1/huruf-d",
            "tipe": "huruf",
            "nomor": "d.",
-           "teks": "alokasi dana Desa yang merupakan bagian dari dana perimbangan yang diterima Kabupaten/Kota;",
+           "teks": "alokasi dana Desa yang merupakan bagian dari dana perimbangan yang diterima kabupaten/kota;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-72/ayat-1/huruf-e",
            "tipe": "huruf",
            "nomor": "e.",
-           "teks": "bantuan keuangan dari Anggaran Pendapatan dan Belanja Daerah Provinsi dan Anggaran Pendapatan dan Belanja Daerah Kabupaten/Kota;",
+           "teks": "bantuan keuangan dari anggaran pendapatan dan belanja daerah provinsi dan anggaran pendapatan dan belanja daerah kabupaten/ kota;",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-72/ayat-1/huruf-f",
@@ -4311,8 +5571,8 @@
            "nomor": "f.",
            "teks": "hibah dan sumbangan yang tidak mengikat dari pihak ketiga; dan",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-72/ayat-1/huruf-g",
@@ -4320,61 +5580,236 @@
            "nomor": "g.",
            "teks": "lain-lain pendapatan Desa yang sah.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           }
          ],
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-72/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Alokasi anggaran sebagaimana dimaksud pada ayat (1) huruf b bersumber dari Belanja Pusat dengan mengefektifkan program yang berbasis Desa secara merata dan berkeadilan.",
+         "teks": "Alokasi anggaran sebagaimana dimaksud pada ayat (1) huruf b bersumber dari belanja pusat berupa dana Desa dari dana transfer daerah dengan mengefektifkan program yang berbasis Desa secara berkeadilan, dan dapat ditingkatkan sesuai dengan kemampuan keuangan negara.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-72/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Bagian hasil pajak daerah dan retribusi daerah Kabupaten/Kota sebagaimana dimaksud pada ayat (1) huruf c paling sedikit 10% (sepuluh perseratus) dari pajak dan retribusi daerah.",
+         "teks": "Bagian hasil pajak daerah dan retribusi daerah kabupaten/kota sebagaimana dimaksud pada ayat (1) huruf c paling sedikit 10% (sepuluh persen) dari pajak daerah dan retribusi daerah.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-72/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Alokasi dana Desa sebagaimana dimaksud pada ayat (1) huruf d paling sedikit 10% (sepuluh perseratus) dari dana perimbangan yang diterima Kabupaten/Kota dalam Anggaran Pendapatan dan Belanja Daerah setelah dikurangi Dana Alokasi Khusus.",
+         "teks": "Alokasi dana Desa sebagaimana dimaksud pada ayat (1) huruf d paling sedikit 10% (sepuluh persen) dari dana alokasi umum dan dana bagi hasil yang diterima kabupaten/kota dalam anggaran pendapatan dan belanja daerah.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-72/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Dalam rangka pengelolaan Keuangan Desa, Kepala Desa melimpahkan sebagian kewenangan kepada perangkat Desa yang ditunjuk.",
+         "teks": "Besaran loo/o (sepuluh persen) dari dana alokasi umum sebagaimana dimaksud pada ayat (4) diprioritaskan untuk pembayaran penghasilan tetap yang diteruskan dari rekening Pemerintah kepada rekening Desa.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-72/ayat-6",
          "tipe": "ayat",
          "nomor": "(6)",
-         "teks": "Bagi Kabupaten/Kota yang tidak memberikan alokasi dana Desa sebagaimana dimaksud pada ayat (4), Pemerintah dapat melakukan penundaan dan/atau pemotongan sebesar alokasi dana perimbangan setelah dikurangi Dana Alokasi Khusus yang seharusnya disalurkan ke Desa.",
+         "teks": "Dalam rangka pengelolaan Keuangan Desa, Kepala Desa melimpahkan sebagian kewenangan kepada perangkat Desa yang ditunjuk.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-72/ayat-7",
+         "tipe": "ayat",
+         "nomor": "(7)",
+         "teks": "Bagi REPUELIK TNDONESIA (7) Bagi kabupaten/kota yang tidak memberikan alokasi dana Desa sebagaimana dimaksud pada ayat (4),, Pemerintah dapat melakukan penundaan dan/atau pemotongan sebesar alokasi dana perimbangan setelah dikurangi dana alokasi khusus yang seharusnya disalurkan ke Desa.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-72/ayat-8",
+         "tipe": "ayat",
+         "nomor": "(8)",
+         "teks": "Ketentuan lebih lanjut mengenai pendapatan Desa dan penyaluran dana alokasi umum sebagaimana dimaksud pada ayat (1) dan ayat (5) diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-72",
+          "tipe": "pasal",
+          "nomor": "72",
+          "anak": [
+           {
+            "id": "pasal-72/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pendapatan Desa sebagaimana dimaksud dalam Pasal 71 ayat (2) bersumber dari:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-72/ayat-1/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "pendapatan asli Desa terdiri atas hasil usaha, hasil aset, swadaya dan partisipasi, gotong royong, dan lain-lain pendapatan asli Desa;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-72/ayat-1/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "alokasi Anggaran Pendapatan dan Belanja Negara;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-72/ayat-1/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "bagian dari hasil pajak daerah dan retribusi daerah Kabupaten/Kota;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-72/ayat-1/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "alokasi dana Desa yang merupakan bagian dari dana perimbangan yang diterima Kabupaten/Kota;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-72/ayat-1/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "bantuan keuangan dari Anggaran Pendapatan dan Belanja Daerah Provinsi dan Anggaran Pendapatan dan Belanja Daerah Kabupaten/Kota;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-72/ayat-1/huruf-f",
+              "tipe": "huruf",
+              "nomor": "f.",
+              "teks": "hibah dan sumbangan yang tidak mengikat dari pihak ketiga; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-72/ayat-1/huruf-g",
+              "tipe": "huruf",
+              "nomor": "g.",
+              "teks": "lain-lain pendapatan Desa yang sah.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             }
+            ],
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-72/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Alokasi anggaran sebagaimana dimaksud pada ayat (1) huruf b bersumber dari Belanja Pusat dengan mengefektifkan program yang berbasis Desa secara merata dan berkeadilan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-72/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Bagian hasil pajak daerah dan retribusi daerah Kabupaten/Kota sebagaimana dimaksud pada ayat (1) huruf c paling sedikit 10% (sepuluh perseratus) dari pajak dan retribusi daerah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-72/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Alokasi dana Desa sebagaimana dimaksud pada ayat (1) huruf d paling sedikit 10% (sepuluh perseratus) dari dana perimbangan yang diterima Kabupaten/Kota dalam Anggaran Pendapatan dan Belanja Daerah setelah dikurangi Dana Alokasi Khusus.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-72/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Dalam rangka pengelolaan Keuangan Desa, Kepala Desa melimpahkan sebagian kewenangan kepada perangkat Desa yang ditunjuk.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-72/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Bagi Kabupaten/Kota yang tidak memberikan alokasi dana Desa sebagaimana dimaksud pada ayat (4), Pemerintah dapat melakukan penundaan dan/atau pemotongan sebesar alokasi dana perimbangan setelah dikurangi Dana Alokasi Khusus yang seharusnya disalurkan ke Desa.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 72 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
+      },
+      {
+       "id": "pasal-72a",
+       "tipe": "pasal",
+       "nomor": "72A",
+       "teks": "Pendapatan Desa seb aimana dimaksud dalam Pasal 72 dikelola sesuai dengan prioritas Pembangunan Desa, pendidikan, pendidikan kemasyarakatan, pembinaan kemasyarakatan, dan pemberdayaan masyarakat guna menciptakan lapangan kerja yang meningkatkan perekonomian dan kesejahteraan masyarakat Desa.",
+       "verifikasi": "pdf-resmi",
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "catatan": "Di antara Pasal 72 dan Pasal 73 disisipkan 1 (satu) pasal, yakni Pasal 72A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-73",
@@ -4421,23 +5856,69 @@
          "id": "pasal-74/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Belanja Desa diprioritaskan untuk memenuhi kebutuhan pembangunan yang disepakati dalam Musyawarah Desa dan sesuai dengan prioritas Pemerintah Daerah Kabupaten/Kota, Pemerintah Daerah Provinsi, dan Pemerintah.",
+         "teks": "Belanja Desa diprioritaskan untuk memenuhi kebutuhan pembangunan yang disepakati dalam Musyawarah Desa dan sesuai dengan prioritas Pemerintah Daerah kabupaten/kota, Pemerintah Daerah provinsi, dan Pemerintah.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-74/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
+         "teks": "Prioritas kebutuhan pembangunan sebagaimana dimaksud pada ayat (1) termasuk pemberian insentif bagi rukun tetangga dan rukun warga sesuai dengan pertimbangan kemampuan keuangan daerah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
+        },
+        {
+         "id": "pasal-74/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
          "teks": "Kebutuhan pembangunan sebagaimana dimaksud pada ayat (1) meliputi, tetapi tidak terbatas pada kebutuhan primer, pelayanan dasar, lingkungan, dan kegiatan pemberdayaan masyarakat Desa.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-74",
+          "tipe": "pasal",
+          "nomor": "74",
+          "anak": [
+           {
+            "id": "pasal-74/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Belanja Desa diprioritaskan untuk memenuhi kebutuhan pembangunan yang disepakati dalam Musyawarah Desa dan sesuai dengan prioritas Pemerintah Daerah Kabupaten/Kota, Pemerintah Daerah Provinsi, dan Pemerintah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-74/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Kebutuhan pembangunan sebagaimana dimaksud pada ayat (1) meliputi, tetapi tidak terbatas pada kebutuhan primer, pelayanan dasar, lingkungan, dan kegiatan pemberdayaan masyarakat Desa.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 74 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "pasal-75",
@@ -4660,10 +6141,10 @@
          "id": "pasal-78/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Pembangunan Desa bertujuan meningkatkan kesejahteraan masyarakat Desa dan kualitas hidup manusia serta penanggulangan kemiskinan melalui pemenuhan kebutuhan dasar, pembangunan sarana dan prasarana Desa, pengembangan potensi ekonomi lokal, serta pemanfaatan sumber daya alam dan lingkungan secara berkelanjutan.",
+         "teks": "Pembangunan Desa bertujuan menciptakan kesejahteraan masyarakat Desa dan kualitas hidup manusia serta penanggulangan kesenjangan sosial ekonomi melalui pemenuhan kebutuhan dasar, pembangunan sarana dan prasarana Desa, pengembangan potensi ekonomi lokal, serta pemanfaatan sumber daya alam dan lingkungan secara berkelanjutan bagi kehidupan dan penghidupan masyarakat setempat.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-78/ayat-2",
@@ -4671,8 +6152,8 @@
          "nomor": "(2)",
          "teks": "Pembangunan Desa meliputi tahap perencanaan, pelaksanaan, dan pengawasan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-78/ayat-3",
@@ -4680,12 +6161,58 @@
          "nomor": "(3)",
          "teks": "Pembangunan Desa sebagaimana dimaksud pada ayat (2) mengedepankan kebersamaan, kekeluargaan, dan kegotongroyongan guna mewujudkan pengarusutamaan perdamaian dan keadilan sosial.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-78",
+          "tipe": "pasal",
+          "nomor": "78",
+          "anak": [
+           {
+            "id": "pasal-78/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pembangunan Desa bertujuan meningkatkan kesejahteraan masyarakat Desa dan kualitas hidup manusia serta penanggulangan kemiskinan melalui pemenuhan kebutuhan dasar, pembangunan sarana dan prasarana Desa, pengembangan potensi ekonomi lokal, serta pemanfaatan sumber daya alam dan lingkungan secara berkelanjutan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-78/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pembangunan Desa meliputi tahap perencanaan, pelaksanaan, dan pengawasan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-78/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pembangunan Desa sebagaimana dimaksud pada ayat (2) mengedepankan kebersamaan, kekeluargaan, dan kegotongroyongan guna mewujudkan pengarusutamaan perdamaian dan keadilan sosial.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 78 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
        "id": "bab-9/bagian-kesatu/paragraf-1",
@@ -4702,10 +6229,10 @@
            "id": "pasal-79/ayat-1",
            "tipe": "ayat",
            "nomor": "(1)",
-           "teks": "Pemerintah Desa menyusun perencanaan Pembangunan Desa sesuai dengan kewenangannya dengan mengacu pada perencanaan pembangunan Kabupaten/Kota.",
+           "teks": "Pemerintah Desa menJrusun perencanaan Pembangunan Desa sesuai dengan kewenangannya dengan mengacu pada perencanaan pembangunan kabupaten/kota.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-79/ayat-2",
@@ -4718,10 +6245,10 @@
              "id": "pasal-79/ayat-2/huruf-a",
              "tipe": "huruf",
              "nomor": "a.",
-             "teks": "Rencana Pembangunan Jangka Menengah Desa untuk jangka waktu 6 (enam) tahun; dan",
+             "teks": "Rencana Pembangunan Jangka Menengah Desa untuk jangka waktu 8 (delapan) tahun; dan",
              "verifikasi": "pdf-resmi",
-             "sumber": "uu-2014-6",
-             "berlaku_mulai": "2014-01-15"
+             "sumber": "uu-2024-3",
+             "berlaku_mulai": "2024-04-25"
             },
             {
              "id": "pasal-79/ayat-2/huruf-b",
@@ -4729,12 +6256,12 @@
              "nomor": "b.",
              "teks": "Rencana Pembangunan Tahunan Desa atau yang disebut Rencana Kerja Pemerintah Desa, merupakan penjabaran dari Rencana Pembangunan Jangka Menengah Desa untuk jangka waktu 1 (satu) tahun.",
              "verifikasi": "pdf-resmi",
-             "sumber": "uu-2014-6",
-             "berlaku_mulai": "2014-01-15"
+             "sumber": "uu-2024-3",
+             "berlaku_mulai": "2024-04-25"
             }
            ],
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-79/ayat-3",
@@ -4742,8 +6269,8 @@
            "nomor": "(3)",
            "teks": "Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa sebagaimana dimaksud pada ayat (2) ditetapkan dengan Peraturan Desa.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-79/ayat-4",
@@ -4751,17 +6278,17 @@
            "nomor": "(4)",
            "teks": "Peraturan Desa tentang Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa merupakan satu-satunya dokumen perencanaan di Desa.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-79/ayat-5",
            "tipe": "ayat",
            "nomor": "(5)",
-           "teks": "Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa merupakan pedoman dalam penyusunan Anggaran Pendapatan dan Belanja Desa yang diatur dalam Peraturan Pemerintah.",
+           "teks": "Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa merupakan pedoman dalam penJrusunan anggaran pendapatan dan belanja Desa yang diatur dalam Peraturan Pemerintah.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-79/ayat-6",
@@ -4769,21 +6296,123 @@
            "nomor": "(6)",
            "teks": "Program Pemerintah dan/atau Pemerintah Daerah yang berskala lokal Desa dikoordinasikan dan/atau didelegasikan pelaksanaannya kepada Desa.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           },
           {
            "id": "pasal-79/ayat-7",
            "tipe": "ayat",
            "nomor": "(7)",
-           "teks": "Perencanaan Pembangunan Desa sebagaimana dimaksud pada ayat (1) merupakan salah satu sumber masukan dalam perencanaan pembangunan Kabupaten/Kota.",
+           "teks": "Perencanaan Pembangunan Desa sebagaimana dimaksud pada ayat (1) merupakan salah satu sumber masukan dalam perencanaan pembangunan kabupaten/kota.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-6",
-           "berlaku_mulai": "2014-01-15"
+           "sumber": "uu-2024-3",
+           "berlaku_mulai": "2024-04-25"
           }
          ],
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "riwayat": [
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+           "pelaku": "uu-2024-3",
+           "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+           "tanggal": "2024-04-25",
+           "sebelum": {
+            "id": "pasal-79",
+            "tipe": "pasal",
+            "nomor": "79",
+            "anak": [
+             {
+              "id": "pasal-79/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pemerintah Desa menyusun perencanaan Pembangunan Desa sesuai dengan kewenangannya dengan mengacu pada perencanaan pembangunan Kabupaten/Kota.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-79/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Perencanaan Pembangunan Desa sebagaimana dimaksud pada ayat (1) disusun secara berjangka meliputi:",
+              "verifikasi": "pdf-resmi",
+              "anak": [
+               {
+                "id": "pasal-79/ayat-2/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "Rencana Pembangunan Jangka Menengah Desa untuk jangka waktu 6 (enam) tahun; dan",
+                "verifikasi": "pdf-resmi",
+                "sumber": "uu-2014-6",
+                "berlaku_mulai": "2014-01-15"
+               },
+               {
+                "id": "pasal-79/ayat-2/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "Rencana Pembangunan Tahunan Desa atau yang disebut Rencana Kerja Pemerintah Desa, merupakan penjabaran dari Rencana Pembangunan Jangka Menengah Desa untuk jangka waktu 1 (satu) tahun.",
+                "verifikasi": "pdf-resmi",
+                "sumber": "uu-2014-6",
+                "berlaku_mulai": "2014-01-15"
+               }
+              ],
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-79/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa sebagaimana dimaksud pada ayat (2) ditetapkan dengan Peraturan Desa.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-79/ayat-4",
+              "tipe": "ayat",
+              "nomor": "(4)",
+              "teks": "Peraturan Desa tentang Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa merupakan satu-satunya dokumen perencanaan di Desa.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-79/ayat-5",
+              "tipe": "ayat",
+              "nomor": "(5)",
+              "teks": "Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa merupakan pedoman dalam penyusunan Anggaran Pendapatan dan Belanja Desa yang diatur dalam Peraturan Pemerintah.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-79/ayat-6",
+              "tipe": "ayat",
+              "nomor": "(6)",
+              "teks": "Program Pemerintah dan/atau Pemerintah Daerah yang berskala lokal Desa dikoordinasikan dan/atau didelegasikan pelaksanaannya kepada Desa.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             },
+             {
+              "id": "pasal-79/ayat-7",
+              "tipe": "ayat",
+              "nomor": "(7)",
+              "teks": "Perencanaan Pembangunan Desa sebagaimana dimaksud pada ayat (1) merupakan salah satu sumber masukan dalam perencanaan pembangunan Kabupaten/Kota.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-6",
+              "berlaku_mulai": "2014-01-15"
+             }
+            ],
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           "catatan": "Ketentuan Pasal 79 diubah sehingga berbunyi sebagai berikut:"
+          }
+         ],
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-80",
@@ -5202,10 +6831,10 @@
          "id": "pasal-86/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Desa berhak mendapatkan akses informasi melalui sistem informasi Desa yang dikembangkan oleh Pemerintah Daerah Kabupaten/Kota.",
+         "teks": "Desa berhak mendapatkan akses informasi melalui sistem informasi Desa yang dikembangkan oleh Pemerintah Daerah kabupaten / kota.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-86/ayat-2",
@@ -5213,8 +6842,8 @@
          "nomor": "(2)",
          "teks": "Pemerintah dan Pemerintah Daerah wajib mengembangkan sistem informasi Desa dan pembangunan Kawasan Perdesaan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-86/ayat-3",
@@ -5222,8 +6851,8 @@
          "nomor": "(3)",
          "teks": "Sistem informasi Desa sebagaimana dimaksud pada ayat (2) meliputi fasilitas perangkat keras dan perangkat lunak, jaringan, serta sumber daya manusia.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-86/ayat-4",
@@ -5231,30 +6860,103 @@
          "nomor": "(4)",
          "teks": "Sistem informasi Desa sebagaimana dimaksud pada ayat (2) meliputi data Desa, data Pembangunan Desa, Kawasan Perdesaan, serta informasi lain yang berkaitan dengan Pembangunan Desa dan pembangunan Kawasan Perdesaan.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-86/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Sistem informasi Desa sebagaimana dimaksud pada ayat (2) dikelola oleh Pemerintah Desa dan dapat diakses oleh masyarakat Desa dan semua pemangku kepentingan.",
+         "teks": "Sistem informasi Desa sebagaimana dimaksud pada ayat (2) dikelola oleh Pemerintah Desa dan dapat diakses oleh masyarakat Desa setempat.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         },
         {
          "id": "pasal-86/ayat-6",
          "tipe": "ayat",
          "nomor": "(6)",
-         "teks": "Pemerintah Daerah Kabupaten/Kota menyediakan informasi perencanaan pembangunan Kabupaten/Kota untuk Desa.",
+         "teks": "Pemerintah Daerah kabupaten/kota menyediakan informasi perencanaan pembangunan kabupaten/ kota untuk Desa.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-6",
-         "berlaku_mulai": "2014-01-15"
+         "sumber": "uu-2024-3",
+         "berlaku_mulai": "2024-04-25"
         }
        ],
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+         "pelaku": "uu-2024-3",
+         "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+         "tanggal": "2024-04-25",
+         "sebelum": {
+          "id": "pasal-86",
+          "tipe": "pasal",
+          "nomor": "86",
+          "anak": [
+           {
+            "id": "pasal-86/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Desa berhak mendapatkan akses informasi melalui sistem informasi Desa yang dikembangkan oleh Pemerintah Daerah Kabupaten/Kota.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-86/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pemerintah dan Pemerintah Daerah wajib mengembangkan sistem informasi Desa dan pembangunan Kawasan Perdesaan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-86/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Sistem informasi Desa sebagaimana dimaksud pada ayat (2) meliputi fasilitas perangkat keras dan perangkat lunak, jaringan, serta sumber daya manusia.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-86/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Sistem informasi Desa sebagaimana dimaksud pada ayat (2) meliputi data Desa, data Pembangunan Desa, Kawasan Perdesaan, serta informasi lain yang berkaitan dengan Pembangunan Desa dan pembangunan Kawasan Perdesaan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-86/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Sistem informasi Desa sebagaimana dimaksud pada ayat (2) dikelola oleh Pemerintah Desa dan dapat diakses oleh masyarakat Desa dan semua pemangku kepentingan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           },
+           {
+            "id": "pasal-86/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Pemerintah Daerah Kabupaten/Kota menyediakan informasi perencanaan pembangunan Kabupaten/Kota untuk Desa.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-6",
+            "berlaku_mulai": "2014-01-15"
+           }
+          ],
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         "catatan": "Ketentuan Pasal 86 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       }
      ],
      "sumber": "uu-2014-6",
@@ -5305,6 +7007,61 @@
      ],
      "sumber": "uu-2014-6",
      "berlaku_mulai": "2014-01-15"
+    },
+    {
+     "id": "pasal-87a",
+     "tipe": "pasal",
+     "nomor": "87A",
+     "anak": [
+      {
+       "id": "pasal-87a/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pengelolaan BUM Desa sebagaimana dimaksud dalam Pasal 87 ayat (2) dilakukan secara profesional untuk mendapatkan keuntungan bagi peningkatan kesej ahteraan masyarakat.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
+      },
+      {
+       "id": "pasal-87a/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "BUM Desa sebagaimana dimaksud pada ayat (1) dapat bekerja sama dengan badan usaha milik negara, badan usaha milik daerah, badan usaha milik swasta, dan/atau koperasi.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
+      },
+      {
+       "id": "pasal-87a/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Kerja sama BUM Desa sebagaimana dimaksud pada ayat (2) dilakukan untuk membentuk kemitraan yang saling menguntungkan antarpelaku ekonomi dan saling menguatkan untuk mewujudkan demokrasi ekonomi dan efisiensi nasional yang berdaya saing tinggi.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
+      },
+      {
+       "id": "pasal-87a/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Ketentuan lebih lanjut mengenai kerja sama BUM Desa sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+       "pelaku": "uu-2024-3",
+       "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+       "tanggal": "2024-04-25",
+       "catatan": "Di antara Pasal 87 dan Pasal 88 disisipkan 1 (satu) pasal, yakni Pasal 87A sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-3",
+     "berlaku_mulai": "2024-04-25"
     },
     {
      "id": "pasal-88",
@@ -6773,62 +8530,137 @@
      "nomor": "118",
      "anak": [
       {
-       "id": "pasal-118/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Masa jabatan Kepala Desa yang ada pada saat ini tetap berlaku sampai habis masa jabatannya.",
+       "id": "pasal-118/huruf-a",
+       "tipe": "huruf",
+       "nomor": "a.",
+       "teks": "Kepala Desa dan anggota Badan Permusyawaratan Desa yang telah menjabat selama 2 (dua) periode sebelum Undang-Undang ini berlaku dapat mencalonkan diri 1 (satu) periode lagi berdasarkan Undang-Undang ini.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
-       "id": "pasal-118/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Periodisasi masa jabatan Kepala Desa mengikuti ketentuan Undang-Undang ini.",
+       "id": "pasal-118/huruf-b",
+       "tipe": "huruf",
+       "nomor": "b.",
+       "teks": "Kepala Desa dan anggota Badan Permusyawaratan Desa yang masih menjabat pada periode pertama dan periode kedua menyelesaikan sisa masa jabatannya sesuai dengan ketentuan Undang-Undang ini dan dapat mencalonkan diri 1 (satu) periode lagi.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
-       "id": "pasal-118/ayat-3",
-       "tipe": "ayat",
-       "nomor": "(3)",
-       "teks": "Anggota Badan Permusyawaratan Desa yang ada pada saat ini tetap menjalankan tugas sampai habis masa keanggotaanya.",
+       "id": "pasal-118/huruf-c",
+       "tipe": "huruf",
+       "nomor": "c.",
+       "teks": "Kepala Desa dan anggota Badan Permusyawaratan Desa yang masih menjabat pada periode ketiga menyelesaikan sisa masa jabatannya sesuai Undang- Undang ini.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
-       "id": "pasal-118/ayat-4",
-       "tipe": "ayat",
-       "nomor": "(4)",
-       "teks": "Periodisasi keanggotaan Badan Permusyawaratan Desa mengikuti ketentuan Undang-Undang ini.",
+       "id": "pasal-118/huruf-d",
+       "tipe": "huruf",
+       "nomor": "d.",
+       "teks": "Kepala Desa yang sudah terpilih tetapi belum dilantik, masa jabatannya mengikuti ketentuan Undang- Undang ini.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
-       "id": "pasal-118/ayat-5",
-       "tipe": "ayat",
-       "nomor": "(5)",
-       "teks": "Perangkat Desa yang tidak berstatus pegawai negeri sipil tetap melaksanakan tugas sampai habis masa tugasnya.",
+       "id": "pasal-118/huruf-e",
+       "tipe": "huruf",
+       "nomor": "e.",
+       "teks": "Kepala Desa yang berakhir masa jabatannya sampai dengan bulan Februari 2024 dapat diperpanjang sesuai dengan ketentuan Undang-Undang ini.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       },
       {
-       "id": "pasal-118/ayat-6",
-       "tipe": "ayat",
-       "nomor": "(6)",
+       "id": "pasal-118/huruf-f",
+       "tipe": "huruf",
+       "nomor": "f.",
        "teks": "Perangkat Desa yang berstatus sebagai pegawai negeri sipil melaksanakan tugasnya sampai ditetapkan penempatannya yang diatur dengan Peraturan Pemerintah.",
        "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-6",
-       "berlaku_mulai": "2014-01-15"
+       "sumber": "uu-2024-3",
+       "berlaku_mulai": "2024-04-25"
       }
      ],
-     "sumber": "uu-2014-6",
-     "berlaku_mulai": "2014-01-15"
+     "teks": "Pada saat Undang-Undang ini berlaku:",
+     "verifikasi": "pdf-resmi",
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+       "pelaku": "uu-2024-3",
+       "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+       "tanggal": "2024-04-25",
+       "sebelum": {
+        "id": "pasal-118",
+        "tipe": "pasal",
+        "nomor": "118",
+        "anak": [
+         {
+          "id": "pasal-118/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Masa jabatan Kepala Desa yang ada pada saat ini tetap berlaku sampai habis masa jabatannya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-118/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Periodisasi masa jabatan Kepala Desa mengikuti ketentuan Undang-Undang ini.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-118/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Anggota Badan Permusyawaratan Desa yang ada pada saat ini tetap menjalankan tugas sampai habis masa keanggotaanya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-118/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Periodisasi keanggotaan Badan Permusyawaratan Desa mengikuti ketentuan Undang-Undang ini.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-118/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Perangkat Desa yang tidak berstatus pegawai negeri sipil tetap melaksanakan tugas sampai habis masa tugasnya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         },
+         {
+          "id": "pasal-118/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Perangkat Desa yang berstatus sebagai pegawai negeri sipil melaksanakan tugasnya sampai ditetapkan penempatannya yang diatur dengan Peraturan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-6",
+          "berlaku_mulai": "2014-01-15"
+         }
+        ],
+        "sumber": "uu-2014-6",
+        "berlaku_mulai": "2014-01-15"
+       },
+       "catatan": "Ketentuan Pasal 118 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-3",
+     "berlaku_mulai": "2024-04-25"
     }
    ],
    "sumber": "uu-2014-6",
@@ -6886,6 +8718,25 @@
      "berlaku_mulai": "2014-01-15"
     },
     {
+     "id": "pasal-121a",
+     "tipe": "pasal",
+     "nomor": "121A",
+     "teks": "Pemerintah harus melaporkan pelaksanaan Undang- Undang ini kepada Dewan Perwakilan Rakyat Republik Indonesia melalui alat kelengkapan yang menangani urusan di bidang legislasi paling lambat 3 (tiga) tahun sejak Undang-Undang ini berlaku.",
+     "verifikasi": "pdf-resmi",
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2024-3/amandemen-uu-2014-6",
+       "pelaku": "uu-2024-3",
+       "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa",
+       "tanggal": "2024-04-25",
+       "catatan": "Di antara Pasal l2l dan Pasal 122 disisipkan 1 (satu) pasal, yakni Pasal l2lL sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2024-3",
+     "berlaku_mulai": "2024-04-25"
+    },
+    {
      "id": "pasal-122",
      "tipe": "pasal",
      "nomor": "122",
@@ -6912,8 +8763,8 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 633,
-  "pdf-resmi": 633,
+  "total": 656,
+  "pdf-resmi": 656,
   "pdf-ocr": 0,
   "draf": 0,
   "lainnya": 0

@@ -11,20 +11,117 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2014/6/ind@2014-01-15/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2014/6/ind@2014-01-15"/>
-          <FRBRdate date="2014-01-15" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2014/6/ind@2024-04-25/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2014/6/ind@2024-04-25"/>
+          <FRBRdate date="2024-04-25" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2014/6/ind@2014-01-15/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2014/6/ind@2014-01-15.akn"/>
-          <FRBRdate date="2026-09-05" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/2014/6/ind@2024-04-25/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2014/6/ind@2024-04-25.akn"/>
+          <FRBRdate date="2026-09-06" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2014-01-15" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2024-04-25" source="#org_1" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_2"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_4"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_3">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_5a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_27"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_7">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_34a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_39"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_9">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_53a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_56"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_11">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_57"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_62"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_67"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_72"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_15">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_72a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_16">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_74"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_17">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_78"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_79"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_86"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_20">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_87a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_21">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_118"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_22">
+          <source href="/akn/id/act/uu/2024/3"/>
+          <destination href="#pasal_121a"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2024/3" showAs="Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -108,7 +205,7 @@
           </article>
           <article eId="pasal_2">
             <num>2</num>
-            <content><p>Penyelenggaraan Pemerintahan Desa, pelaksanaan Pembangunan Desa, pembinaan kemasyarakatan Desa, dan pemberdayaan masyarakat Desa berdasarkan Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika.</p></content>
+            <content><p>Desa menyelenggarakan pemerintahan, pembangunan, pembinaan kemasyarakatan, dan pemberdayaan masyarakat berdasarkan pancasila, undang-Undang Dasar Negara Republik Indonesia Tahun Lg4s, Negara Kesatuan Republik Indonesia, dan Bhinneka tunggaf lka sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
           </article>
           <article eId="pasal_3">
             <num>3</num>
@@ -176,7 +273,7 @@
               </point>
               <point eId="pasal_4__huruf_b">
                 <num>b.</num>
-                <content><p>memberikan kejelasan status dan kepastian hukum atas Desa dalam sistem ketatanegaraan Republik Indonesia demi mewujudkan keadilan bagi seluruh rakyat Indonesia;</p></content>
+                <content><p>memberikan kejelasan kedudukan Desa dalam sistem ketatanegaraan Republik Indonesia dalam mengatur dan mengurus urusan pemerintahan Desa dan kepentingan masyarakat setempat demi mewujudkan keadilan bagi seluruh rakyat Indonesia;</p></content>
               </point>
               <point eId="pasal_4__huruf_c">
                 <num>c.</num>
@@ -192,7 +289,7 @@
               </point>
               <point eId="pasal_4__huruf_f">
                 <num>f.</num>
-                <content><p>meningkatkan pelayanan publik bagi warga masyarakat Desa guna mempercepat perwujudan kesejahteraan umum;</p></content>
+                <content><p>meningkatkan pelayanan publik bagi warga masyarakat Desa guna mempercepat perwujudan kesejahteraan umum; g.meningkatkan...</p></content>
               </point>
               <point eId="pasal_4__huruf_g">
                 <num>g.</num>
@@ -219,6 +316,18 @@
               <article eId="pasal_5">
                 <num>5</num>
                 <content><p>Desa berkedudukan di wilayah Kabupaten/Kota.</p></content>
+              </article>
+              <article eId="pasal_5a">
+                <num>5A</num>
+                  <paragraph eId="pasal_5a__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Desa yang berada di kawasan suaka alam, kawasan pelestarian alam, hutan produksi, dan kebun produksi berhak mendapatkan dana konservasi dan/atau dana rehabilitasi berdasarkan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_5a__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan mengenai dana konservasi dan/atau dana rehabilitasi sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
               </article>
 
           </part>
@@ -591,7 +700,7 @@
                 <num>26</num>
                   <paragraph eId="pasal_26__ayat_1">
                     <num>(1)</num>
-                    <content><p>Kepala Desa bertugas menyelenggarakan Pemerintahan Desa, melaksanakan Pembangunan Desa, pembinaan kemasyarakatan Desa, dan pemberdayaan masyarakat Desa.</p></content>
+                    <content><p>Kepala Desa bertugas menyelenggarakan pemerintahan, pembangunan, pembinaan kemasyarakatan, dan pemberdayaan masyarakat di Desa sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_26__ayat_2">
                     <num>(2)</num>
@@ -602,11 +711,11 @@
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_b">
                         <num>b.</num>
-                        <content><p>mengangkat dan memberhentikan perangkat Desa;</p></content>
+                        <content><p>mengusulkan pengangkatan dan pemberhentian perangkat Desa kepada bupati/wali kota;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_c">
                         <num>c.</num>
-                        <content><p>memegang kekuasaan pengelolaan Keuangan dan Aset Desa;</p></content>
+                        <content><p>memegang kekuasaan pengelolaan Keuangan Desa dan Aset Desa;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_d">
                         <num>d.</num>
@@ -614,7 +723,7 @@
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_e">
                         <num>e.</num>
-                        <content><p>menetapkan Anggaran Pendapatan dan Belanja Desa;</p></content>
+                        <content><p>menetapkan anggaran pendapatan dan belanja Desa;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_f">
                         <num>f.</num>
@@ -626,7 +735,7 @@
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_h">
                         <num>h.</num>
-                        <content><p>membina dan meningkatkan perekonomian Desa serta mengintegrasikannya agar mencapai perekonomian skala produktif untuk sebesar-besarnya kemakmuran masyarakat Desa;</p></content>
+                        <content><p>membina dan meningkatkan perekonomian Desa serta mengintegrasikannya agar mencapai perekonomian skala produktif untuk sebesar- besarnya kemal.&lt;muran masyarakat Desa;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_i">
                         <num>i.</num>
@@ -638,11 +747,12 @@
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_k">
                         <num>k.</num>
-                        <content><p>mengembangkan kehidupan sosial budaya masyarakat Desa;</p></content>
-                      </point>
-                      <point eId="pasal_26__ayat_2__huruf_l">
-                        <num>l.</num>
-                        <content><p>memanfaatkan teknologi tepat guna;</p></content>
+                        <intro><p>mengembangkan kehidupan sosial budaya masyarakat Desa;</p></intro>
+                          <point eId="pasal_26__ayat_2__huruf_k__angka_1">
+                            <num>1.</num>
+                            <content><p>memanfaatkan teknologi tepat guna;</p></content>
+                          </point>
+
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_m">
                         <num>m.</num>
@@ -650,7 +760,7 @@
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_n">
                         <num>n.</num>
-                        <content><p>mewakili Desa di dalam dan di luar pengadilan atau menunjuk kuasa hukum untuk mewakilinya sesuai dengan ketentuan peraturan perundang-undangan; dan</p></content>
+                        <content><p>mewakili Desa di dalam dan di luar pengadilan atau menunjuk kuasa hukum untuk mewakilinya sesuai dengan ketentuan peraturan perundang- undangan; dan</p></content>
                       </point>
                       <point eId="pasal_26__ayat_2__huruf_o">
                         <num>o.</num>
@@ -671,14 +781,18 @@
                       </point>
                       <point eId="pasal_26__ayat_3__huruf_c">
                         <num>c.</num>
-                        <content><p>menerima penghasilan tetap setiap bulan, tunjangan, dan penerimaan lainnya yang sah, serta mendapat jaminan kesehatan;</p></content>
+                        <content><p>menerima penghasilan tetap setiap bulan, tunjangan, dan penerimaan lainnya yang sah, serta mendapat jaminan sosial di bidang kesehatan dan ketenagakerjaan; d.mendapatkan...</p></content>
                       </point>
                       <point eId="pasal_26__ayat_3__huruf_d">
                         <num>d.</num>
-                        <content><p>mendapatkan pelindungan hukum atas kebijakan yang dilaksanakan; dan</p></content>
+                        <content><p>mendapatkan tunjangan purnatugas 1 (satu) kali di akhir masa jabatan sesuai kemampuan Keuangan Desa yang diatur dalam Peraturan Pemerintah;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_3__huruf_e">
                         <num>e.</num>
+                        <content><p>mendapatkan pelindungan hukum atas kebijakan yang dilaksanakan; dan</p></content>
+                      </point>
+                      <point eId="pasal_26__ayat_3__huruf_f">
+                        <num>f.</num>
                         <content><p>memberikan mandat pelaksanaan tugas dan kewajiban lainnya kepada perangkat Desa.</p></content>
                       </point>
 
@@ -688,7 +802,7 @@
                     <intro><p>Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Kepala Desa berkewajiban:</p></intro>
                       <point eId="pasal_26__ayat_4__huruf_a">
                         <num>a.</num>
-                        <content><p>memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika;</p></content>
+                        <content><p>memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia, dan Bhinneka T\rnggal lka;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_b">
                         <num>b.</num>
@@ -708,46 +822,51 @@
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_f">
                         <num>f.</num>
-                        <content><p>melaksanakan prinsip tata Pemerintahan Desa yang akuntabel, transparan, profesional, efektif dan efisien, bersih, serta bebas dari kolusi, korupsi, dan nepotisme;</p></content>
+                        <content><p>melaksanakan prinsip tata Pemerintahan Desa yang akuntabel, transparan, profesional, efektif dan efisien, bersih, serta bebas dari korupsi, kolusi, dan nepotisme;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_g">
                         <num>g.</num>
-                        <content><p>menjalin kerja sama dan koordinasi dengan seluruh pemangku kepentingan di Desa;</p></content>
+                        <content><p>mengundurkan diri sebagai Kepala Desa apabila mencalonkan diri sebagai anggota lembaga perwakilan ra\rat, kepala daerah, atau jabatan politik lain sejak ditetapkan sebagai calon peserta pemilihan yang dinyatakan secara tertulis dan tidak dapat ditarik kembali;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_h">
                         <num>h.</num>
-                        <content><p>menyelenggarakan administrasi Pemerintahan Desa yang baik;</p></content>
+                        <content><p>menjalin kerja sama dan koordinasi dengan seluruh pemangku kepentingan di Desa;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_i">
                         <num>i.</num>
-                        <content><p>mengelola Keuangan dan Aset Desa;</p></content>
+                        <content><p>menyelenggarakan administrasi Pemerintahan Desa yang baik;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_j">
                         <num>j.</num>
-                        <content><p>melaksanakan urusan pemerintahan yang menjadi kewenangan Desa;</p></content>
+                        <content><p>mengelola Keuangan Desa dan Aset Desa;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_k">
                         <num>k.</num>
-                        <content><p>menyelesaikan perselisihan masyarakat di Desa;</p></content>
-                      </point>
-                      <point eId="pasal_26__ayat_4__huruf_l">
-                        <num>l.</num>
-                        <content><p>mengembangkan perekonomian masyarakat Desa;</p></content>
+                        <intro><p>melaksanakan urusan pemerintahan yang menjadi kewenangan Desa;</p></intro>
+                          <point eId="pasal_26__ayat_4__huruf_k__angka_1">
+                            <num>1.</num>
+                            <content><p>menyelesaikan perselisihan masyarakat di Desa;</p></content>
+                          </point>
+
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_m">
                         <num>m.</num>
-                        <content><p>membina dan melestarikan nilai sosial budaya masyarakat Desa;</p></content>
+                        <content><p>mengembangkan perekonomian masyarakat Desa;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_n">
                         <num>n.</num>
-                        <content><p>memberdayakan masyarakat dan lembaga kemasyarakatan di Desa;</p></content>
+                        <content><p>membina dan melestarikan nilai sosial budaya masyarakat Desa;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_o">
                         <num>o.</num>
-                        <content><p>mengembangkan potensi sumber daya alam dan melestarikan lingkungan hidup; dan</p></content>
+                        <content><p>memberdayakan masyarakat dan lembaga kemasyarakatan di Desa;</p></content>
                       </point>
                       <point eId="pasal_26__ayat_4__huruf_p">
                         <num>p.</num>
+                        <content><p>mengembangkan potensi sumber daya alam dan melestarikan lingkungan hidup; dan</p></content>
+                      </point>
+                      <point eId="pasal_26__ayat_4__huruf_q">
+                        <num>q.</num>
                         <content><p>memberikan informasi kepada masyarakat Desa.</p></content>
                       </point>
 
@@ -759,19 +878,27 @@
                 <intro><p>Dalam melaksanakan tugas, kewenangan, hak, dan kewajiban sebagaimana dimaksud dalam Pasal 26, Kepala Desa wajib:</p></intro>
                   <point eId="pasal_27__huruf_a">
                     <num>a.</num>
-                    <content><p>menyampaikan laporan penyelenggaraan Pemerintahan Desa setiap akhir tahun anggaran kepada Bupati/Walikota;</p></content>
+                    <content><p>memberikan dan/atau menyebarkan informasi penyelenggaraan Pemerintahan Desa secara tertulis kepada masyarakat Desa setempat setiap akhir tahun anggaran;</p></content>
                   </point>
                   <point eId="pasal_27__huruf_b">
                     <num>b.</num>
-                    <content><p>menyampaikan laporan penyelenggaraan Pemerintahan Desa pada akhir masa jabatan kepada Bupati/Walikota;</p></content>
+                    <content><p>menyampaikan laporan pertanggungjawaban penyelenggaraan Pemerintahan Desa pada akhir masa jabatan dalam forum Musyawarah Desa;</p></content>
                   </point>
                   <point eId="pasal_27__huruf_c">
                     <num>c.</num>
-                    <content><p>memberikan laporan keterangan penyelenggaraan pemerintahan secara tertulis kepada Badan Permusyawaratan Desa setiap akhir tahun anggaran; dan</p></content>
+                    <content><p>memberikan laporan pertanggungjawaban penyelenggaraan Pemerintahan Desa secara horizontal dalam bentuk lisan dan tertulis kepada Badan Permusyawaratan Desa setiap akhir tahun anggAran;</p></content>
                   </point>
                   <point eId="pasal_27__huruf_d">
                     <num>d.</num>
-                    <content><p>memberikan dan/atau menyebarkan informasi penyelenggaraan pemerintahan secara tertulis kepada masyarakat Desa setiap akhir tahun anggaran.</p></content>
+                    <content><p>menjadi pengayom semua golongan masyarakat;</p></content>
+                  </point>
+                  <point eId="pasal_27__huruf_e">
+                    <num>e.</num>
+                    <content><p>menyampaikan laporan pertanggungjawaban penyelenggaraan Pemerintahan Desa setiap akhir tahun anggaran secara vertikal kepada bupati/wali kota; dan f.menyampaikan... REPUEUK TNDONESTA</p></content>
+                  </point>
+                  <point eId="pasal_27__huruf_f">
+                    <num>f.</num>
+                    <content><p>menyampaikan laporan pertanggungjawaban penyelenggaraan Pemerintahan Desa pada akhir masa jabatan kepada bupati/wali kota.</p></content>
                   </point>
 
               </article>
@@ -898,15 +1025,15 @@
                 <intro><p>Calon Kepala Desa wajib memenuhi persyaratan:</p></intro>
                   <point eId="pasal_33__huruf_a">
                     <num>a.</num>
-                    <content><p>warga negara Republik Indonesia;</p></content>
+                    <content><p>Warga Negara Indonesia;</p></content>
                   </point>
                   <point eId="pasal_33__huruf_b">
                     <num>b.</num>
-                    <content><p>bertakwa kepada Tuhan Yang Maha Esa;</p></content>
+                    <content><p>bertakwa kepada Thhan Yang Maha Esa;</p></content>
                   </point>
                   <point eId="pasal_33__huruf_c">
                     <num>c.</num>
-                    <content><p>memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka Tunggal Ika;</p></content>
+                    <content><p>memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka T\.rnggal Ika;</p></content>
                   </point>
                   <point eId="pasal_33__huruf_d">
                     <num>d.</num>
@@ -922,31 +1049,28 @@
                   </point>
                   <point eId="pasal_33__huruf_g">
                     <num>g.</num>
-                    <content><p>terdaftar sebagai penduduk dan bertempat tinggal di Desa setempat paling kurang 1 (satu) tahun sebelum pendaftaran;</p></content>
+                    <content><p>tidak sedang menjalani hukuman pidana penjara;</p></content>
                   </point>
                   <point eId="pasal_33__huruf_h">
                     <num>h.</num>
-                    <content><p>tidak sedang menjalani hukuman pidana penjara;</p></content>
+                    <content><p>tidak pernah dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah mempunyai kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara paling singkat 5 (lima) tahun atau lebih, kecuali 5 (lima) tahun setelah selesai menjalani pidana penjara dan mengumumkan secara jujur dan terbuka kepada publik bahwa yang bersangkutan pernah dipidana serta bukan sebagai pelaku kejahatan berulang-ulang;</p></content>
                   </point>
                   <point eId="pasal_33__huruf_i">
                     <num>i.</num>
-                    <content><p>tidak pernah dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah mempunyai kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara paling singkat 5 (lima) tahun atau lebih, kecuali 5 (lima) tahun setelah selesai menjalani pidana penjara dan mengumumkan secara jujur dan terbuka kepada publik bahwa yang bersangkutan pernah dipidana serta bukan sebagai pelaku kejahatan berulang-ulang;</p></content>
+                    <content><p>tidak sedang dicabut hak pilihnya sesuai dengan putusan pengadilan yang telah mempunyai kekuatan hukum tetap;</p></content>
                   </point>
                   <point eId="pasal_33__huruf_j">
                     <num>j.</num>
-                    <content><p>tidak sedang dicabut hak pilihnya sesuai dengan putusan pengadilan yang telah mempunyai kekuatan hukum tetap;</p></content>
+                    <content><p>berbadan sehat;</p></content>
                   </point>
                   <point eId="pasal_33__huruf_k">
                     <num>k.</num>
-                    <content><p>berbadan sehat;</p></content>
-                  </point>
-                  <point eId="pasal_33__huruf_l">
-                    <num>l.</num>
-                    <content><p>tidak pernah sebagai Kepala Desa selama 3 (tiga) kali masa jabatan; dan</p></content>
-                  </point>
-                  <point eId="pasal_33__huruf_m">
-                    <num>m.</num>
-                    <content><p>syarat lain yang diatur dalam Peraturan Daerah.</p></content>
+                    <intro><p>tidak pernah sebagai Kepala Desa selama 2 (dua) kali masa jabatan; dan</p></intro>
+                      <point eId="pasal_33__huruf_k__angka_1">
+                        <num>1.</num>
+                        <content><p>syarat lain yang diatur dalam Peraturan Daerah kabupaten/kota.</p></content>
+                      </point>
+
                   </point>
 
               </article>
@@ -975,6 +1099,30 @@
                   <paragraph eId="pasal_34__ayat_6">
                     <num>(6)</num>
                     <content><p>Biaya pemilihan Kepala Desa dibebankan pada Anggaran Pendapatan dan Belanja Daerah Kabupaten/Kota.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_34a">
+                <num>34A</num>
+                  <paragraph eId="pasal_34a__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Calon Kepala Desa paling sedikit berjumlah 2 (dua) orang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34a__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal jumlah calon Kepala Desa sebagaimana dimaksud pada ayat (1) tidak terpenuhi dan hanya terdapat 1 (satu) calon Kepala Desa terdaftar, panitia pemilihan Kepala Desa memperpanjang masa pendaftaran calon Kepala Desa selama 15 (lima belas) hari.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34a__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal tidak bertambahnya calon Kepala Desa terdaftar setelah perpanjangan masa pendaftaran sebagaimana dimaksud pada ayat (2) berakhir, panitia pemilihan Kepala Desa memperpanjang kembali masa pendaftaran selama 10 (sepuluh) hari berikutnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34a__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal perpanjangan kembali masa pendaftaran calon Kepala Desa sebagaimana dimaksud pada ayat (3) berakhir dan hanya terdapat 1 (satu) calon Kepala Desa terdaftar, panitia pemilihan Kepala Desa bersama-sama dengan Badan Permusyawaratan Desa menetapkan calon Kepala Desa terdaftar secara musyawarah untuk mufakat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34a__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pemilihan 1 (satu) calon Kepala Desa diatur dengan Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1046,11 +1194,11 @@
                 <num>39</num>
                   <paragraph eId="pasal_39__ayat_1">
                     <num>(1)</num>
-                    <content><p>Kepala Desa memegang jabatan selama 6 (enam) tahun terhitung sejak tanggal pelantikan.</p></content>
+                    <content><p>Kepala Desa memegang jabatan selama 8 (delapan) tahun terhitung sejak tanggal pelantikan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_39__ayat_2">
                     <num>(2)</num>
-                    <content><p>Kepala Desa sebagaimana dimaksud pada ayat (1) dapat menjabat paling banyak 3 (tiga) kali masa jabatan secara berturut-turut atau tidak secara berturut-turut.</p></content>
+                    <content><p>Kepala Desa sebagaimana dimaksud pada ayat (1) dapat menjabat paling banyak 2 (dua) kali masa jabatan secara berturut-turut atau tidak secara berturut-turut.</p></content>
                   </paragraph>
 
               </article>
@@ -1359,6 +1507,10 @@
                   </paragraph>
 
               </article>
+              <article eId="pasal_53a">
+                <num>53A</num>
+                <content><p>Dalam rangka meningkatkan kompetensi dan akuntabilitas kinerja Pemerintah Desa maka perlu dilakukan penatalaksanaan Pemerintah Desa yang diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </article>
 
           </part>
           <part eId="bab_5__bagian_keenam">
@@ -1439,15 +1591,15 @@
                 <num>56</num>
                   <paragraph eId="pasal_56__ayat_1">
                     <num>(1)</num>
-                    <content><p>Anggota Badan Permusyawaratan Desa merupakan wakil dari penduduk Desa berdasarkan keterwakilan wilayah yang pengisiannya dilakukan secara demokratis.</p></content>
+                    <content><p>Anggota Badan Permusyawaratan Desa merupakan wakil dari penduduk Desa berdasarkan keterwakilan wilayah yang pengisiannya dilakukan secara demokratis dengan memperhatikan 30% (tiga puluh persen) keterwakilan perempuan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_56__ayat_2">
                     <num>(2)</num>
-                    <content><p>Masa keanggotaan Badan Permusyawaratan Desa selama 6 (enam) tahun terhitung sejak tanggal pengucapan sumpah/janji.</p></content>
+                    <content><p>Masa keanggotaan Badan Permusyawaratan Desa selama 8 (delapan) tahun terhitung sejak tanggal pengucapan sumpah/janji dan dapat dipilih kembali dalam jabatan yang sama.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_56__ayat_3">
                     <num>(3)</num>
-                    <content><p>Anggota Badan Permusyawaratan Desa sebagaimana dimaksud pada ayat (1) dapat dipilih untuk masa keanggotaan paling banyak 3 (tiga) kali secara berturut-turut atau tidak secara berturut-turut.</p></content>
+                    <content><p>Anggota Badan Permusyawaratan Desa sebagaimana dimaksud pada ayat (1) dapat dipilih untuk masa keanggotaan paling banyak 2 (dua) kali secara berturut-turut atau tidak secara berturut-turut.</p></content>
                   </paragraph>
 
               </article>
@@ -1456,15 +1608,15 @@
                 <intro><p>Persyaratan calon anggota Badan Permusyawaratan Desa adalah:</p></intro>
                   <point eId="pasal_57__huruf_a">
                     <num>a.</num>
-                    <content><p>bertakwa kepada Tuhan Yang Maha Esa;</p></content>
+                    <content><p>bertakwa kepada T\rhan Yang Maha Esa;</p></content>
                   </point>
                   <point eId="pasal_57__huruf_b">
                     <num>b.</num>
-                    <content><p>memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka Tunggal Ika;</p></content>
+                    <content><p>memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta mempertahankan dan memelihara keutuhan Negara Kesatuan Republik Indonesia dan Bhinneka T\.rnggal lka;</p></content>
                   </point>
                   <point eId="pasal_57__huruf_c">
                     <num>c.</num>
-                    <content><p>berusia paling rendah 20 (dua puluh) tahun atau sudah/pernah menikah;</p></content>
+                    <content><p>berusia paling rendah 20 (dua puluh) tahun atau sudah pernah menikah;</p></content>
                   </point>
                   <point eId="pasal_57__huruf_d">
                     <num>d.</num>
@@ -1558,11 +1710,19 @@
                   </point>
                   <point eId="pasal_62__huruf_d">
                     <num>d.</num>
-                    <content><p>memilih dan dipilih; dan</p></content>
+                    <content><p>memilih dan dipilih;</p></content>
                   </point>
                   <point eId="pasal_62__huruf_e">
                     <num>e.</num>
-                    <content><p>mendapat tunjangan dari Anggaran Pendapatan dan Belanja Desa.</p></content>
+                    <content><p>mendapatkan tunjangan dari anggaran pendapatan dan belanja Desa yang bersumber dari alokasi dana Desa dan besarannya ditetapkan dengan Peraturan Bupati/Wali Kota;</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_f">
+                    <num>f.</num>
+                    <content><p>mendapatkan jaminan sosial di bidang kesehatan dan ketenagakerjaan; dan</p></content>
+                  </point>
+                  <point eId="pasal_62__huruf_g">
+                    <num>g.</num>
+                    <content><p>mendapatkan tunjangan purnatugas 1 (satu) kali di akhir masa jabatan sesuai kemampuan Keuangan Desa yang diatur dalam Peraturan Pemerintah.</p></content>
                   </point>
 
               </article>
@@ -1716,7 +1876,7 @@
                 <intro><p>Desa berhak:</p></intro>
                   <point eId="pasal_67__ayat_1__huruf_a">
                     <num>a.</num>
-                    <content><p>mengatur dan mengurus kepentingan masyarakat berdasarkan hak asal usul, adat istiadat, dan nilai sosial budaya masyarakat Desa;</p></content>
+                    <content><p>mengatur dan mengurus kepentingan masyarakat setempat berdasarkan hak asal usul, adat istiadat, dan nilai sosial budaya masyarakat setempat;</p></content>
                   </point>
                   <point eId="pasal_67__ayat_1__huruf_b">
                     <num>b.</num>
@@ -1737,7 +1897,7 @@
                   </point>
                   <point eId="pasal_67__ayat_2__huruf_b">
                     <num>b.</num>
-                    <content><p>meningkatkan kualitas kehidupan masyarakat Desa;</p></content>
+                    <content><p>meningkatkan kualitas kehidupan masyarakat setempat;</p></content>
                   </point>
                   <point eId="pasal_67__ayat_2__huruf_c">
                     <num>c.</num>
@@ -1745,11 +1905,11 @@
                   </point>
                   <point eId="pasal_67__ayat_2__huruf_d">
                     <num>d.</num>
-                    <content><p>mengembangkan pemberdayaan masyarakat Desa; dan</p></content>
+                    <content><p>mengembangkan pemberdayaan masyarakat setempat; dan</p></content>
                   </point>
                   <point eId="pasal_67__ayat_2__huruf_e">
                     <num>e.</num>
-                    <content><p>memberikan dan meningkatkan pelayanan kepada masyarakat Desa.</p></content>
+                    <content><p>memberikan dan meningkatkan pelayanan kepada masyarakat setempat.</p></content>
                   </point>
 
               </paragraph>
@@ -1919,26 +2079,26 @@
                 <num>72</num>
                   <paragraph eId="pasal_72__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Pendapatan Desa sebagaimana dimaksud dalam Pasal 71 ayat (2) bersumber dari:</p></intro>
+                    <intro><p>Pendapatan Desa sebagaimana dimaksud dalam Pasal 7I ayat (2) bersumber dari:</p></intro>
                       <point eId="pasal_72__ayat_1__huruf_a">
                         <num>a.</num>
-                        <content><p>pendapatan asli Desa terdiri atas hasil usaha, hasil aset, swadaya dan partisipasi, gotong royong, dan lain-lain pendapatan asli Desa;</p></content>
+                        <content><p>pendapatan asli Desa terdiri atas hasil usaha, hasil aset, swadaya dan partisipasi, gotong- royong, dan lain-lain pendapatan asli Desa;</p></content>
                       </point>
                       <point eId="pasal_72__ayat_1__huruf_b">
                         <num>b.</num>
-                        <content><p>alokasi Anggaran Pendapatan dan Belanja Negara;</p></content>
+                        <content><p>alokasi anggaran pendapatan dan belanja negara;</p></content>
                       </point>
                       <point eId="pasal_72__ayat_1__huruf_c">
                         <num>c.</num>
-                        <content><p>bagian dari hasil pajak daerah dan retribusi daerah Kabupaten/Kota;</p></content>
+                        <content><p>bagian dari hasil pajak daerah dan retribusi daerah kabupaten/ kota;</p></content>
                       </point>
                       <point eId="pasal_72__ayat_1__huruf_d">
                         <num>d.</num>
-                        <content><p>alokasi dana Desa yang merupakan bagian dari dana perimbangan yang diterima Kabupaten/Kota;</p></content>
+                        <content><p>alokasi dana Desa yang merupakan bagian dari dana perimbangan yang diterima kabupaten/kota;</p></content>
                       </point>
                       <point eId="pasal_72__ayat_1__huruf_e">
                         <num>e.</num>
-                        <content><p>bantuan keuangan dari Anggaran Pendapatan dan Belanja Daerah Provinsi dan Anggaran Pendapatan dan Belanja Daerah Kabupaten/Kota;</p></content>
+                        <content><p>bantuan keuangan dari anggaran pendapatan dan belanja daerah provinsi dan anggaran pendapatan dan belanja daerah kabupaten/ kota;</p></content>
                       </point>
                       <point eId="pasal_72__ayat_1__huruf_f">
                         <num>f.</num>
@@ -1952,25 +2112,37 @@
                   </paragraph>
                   <paragraph eId="pasal_72__ayat_2">
                     <num>(2)</num>
-                    <content><p>Alokasi anggaran sebagaimana dimaksud pada ayat (1) huruf b bersumber dari Belanja Pusat dengan mengefektifkan program yang berbasis Desa secara merata dan berkeadilan.</p></content>
+                    <content><p>Alokasi anggaran sebagaimana dimaksud pada ayat (1) huruf b bersumber dari belanja pusat berupa dana Desa dari dana transfer daerah dengan mengefektifkan program yang berbasis Desa secara berkeadilan, dan dapat ditingkatkan sesuai dengan kemampuan keuangan negara.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_72__ayat_3">
                     <num>(3)</num>
-                    <content><p>Bagian hasil pajak daerah dan retribusi daerah Kabupaten/Kota sebagaimana dimaksud pada ayat (1) huruf c paling sedikit 10% (sepuluh perseratus) dari pajak dan retribusi daerah.</p></content>
+                    <content><p>Bagian hasil pajak daerah dan retribusi daerah kabupaten/kota sebagaimana dimaksud pada ayat (1) huruf c paling sedikit 10% (sepuluh persen) dari pajak daerah dan retribusi daerah.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_72__ayat_4">
                     <num>(4)</num>
-                    <content><p>Alokasi dana Desa sebagaimana dimaksud pada ayat (1) huruf d paling sedikit 10% (sepuluh perseratus) dari dana perimbangan yang diterima Kabupaten/Kota dalam Anggaran Pendapatan dan Belanja Daerah setelah dikurangi Dana Alokasi Khusus.</p></content>
+                    <content><p>Alokasi dana Desa sebagaimana dimaksud pada ayat (1) huruf d paling sedikit 10% (sepuluh persen) dari dana alokasi umum dan dana bagi hasil yang diterima kabupaten/kota dalam anggaran pendapatan dan belanja daerah.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_72__ayat_5">
                     <num>(5)</num>
-                    <content><p>Dalam rangka pengelolaan Keuangan Desa, Kepala Desa melimpahkan sebagian kewenangan kepada perangkat Desa yang ditunjuk.</p></content>
+                    <content><p>Besaran loo/o (sepuluh persen) dari dana alokasi umum sebagaimana dimaksud pada ayat (4) diprioritaskan untuk pembayaran penghasilan tetap yang diteruskan dari rekening Pemerintah kepada rekening Desa.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_72__ayat_6">
                     <num>(6)</num>
-                    <content><p>Bagi Kabupaten/Kota yang tidak memberikan alokasi dana Desa sebagaimana dimaksud pada ayat (4), Pemerintah dapat melakukan penundaan dan/atau pemotongan sebesar alokasi dana perimbangan setelah dikurangi Dana Alokasi Khusus yang seharusnya disalurkan ke Desa.</p></content>
+                    <content><p>Dalam rangka pengelolaan Keuangan Desa, Kepala Desa melimpahkan sebagian kewenangan kepada perangkat Desa yang ditunjuk.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_72__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Bagi REPUELIK TNDONESIA (7) Bagi kabupaten/kota yang tidak memberikan alokasi dana Desa sebagaimana dimaksud pada ayat (4),, Pemerintah dapat melakukan penundaan dan/atau pemotongan sebesar alokasi dana perimbangan setelah dikurangi dana alokasi khusus yang seharusnya disalurkan ke Desa.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_72__ayat_8">
+                    <num>(8)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai pendapatan Desa dan penyaluran dana alokasi umum sebagaimana dimaksud pada ayat (1) dan ayat (5) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
+              </article>
+              <article eId="pasal_72a">
+                <num>72A</num>
+                <content><p>Pendapatan Desa seb aimana dimaksud dalam Pasal 72 dikelola sesuai dengan prioritas Pembangunan Desa, pendidikan, pendidikan kemasyarakatan, pembinaan kemasyarakatan, dan pemberdayaan masyarakat guna menciptakan lapangan kerja yang meningkatkan perekonomian dan kesejahteraan masyarakat Desa.</p></content>
               </article>
               <article eId="pasal_73">
                 <num>73</num>
@@ -1992,10 +2164,14 @@
                 <num>74</num>
                   <paragraph eId="pasal_74__ayat_1">
                     <num>(1)</num>
-                    <content><p>Belanja Desa diprioritaskan untuk memenuhi kebutuhan pembangunan yang disepakati dalam Musyawarah Desa dan sesuai dengan prioritas Pemerintah Daerah Kabupaten/Kota, Pemerintah Daerah Provinsi, dan Pemerintah.</p></content>
+                    <content><p>Belanja Desa diprioritaskan untuk memenuhi kebutuhan pembangunan yang disepakati dalam Musyawarah Desa dan sesuai dengan prioritas Pemerintah Daerah kabupaten/kota, Pemerintah Daerah provinsi, dan Pemerintah.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_74__ayat_2">
                     <num>(2)</num>
+                    <content><p>Prioritas kebutuhan pembangunan sebagaimana dimaksud pada ayat (1) termasuk pemberian insentif bagi rukun tetangga dan rukun warga sesuai dengan pertimbangan kemampuan keuangan daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_3">
+                    <num>(3)</num>
                     <content><p>Kebutuhan pembangunan sebagaimana dimaksud pada ayat (1) meliputi, tetapi tidak terbatas pada kebutuhan primer, pelayanan dasar, lingkungan, dan kegiatan pemberdayaan masyarakat Desa.</p></content>
                   </paragraph>
 
@@ -2100,7 +2276,7 @@
                 <num>78</num>
                   <paragraph eId="pasal_78__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pembangunan Desa bertujuan meningkatkan kesejahteraan masyarakat Desa dan kualitas hidup manusia serta penanggulangan kemiskinan melalui pemenuhan kebutuhan dasar, pembangunan sarana dan prasarana Desa, pengembangan potensi ekonomi lokal, serta pemanfaatan sumber daya alam dan lingkungan secara berkelanjutan.</p></content>
+                    <content><p>Pembangunan Desa bertujuan menciptakan kesejahteraan masyarakat Desa dan kualitas hidup manusia serta penanggulangan kesenjangan sosial ekonomi melalui pemenuhan kebutuhan dasar, pembangunan sarana dan prasarana Desa, pengembangan potensi ekonomi lokal, serta pemanfaatan sumber daya alam dan lingkungan secara berkelanjutan bagi kehidupan dan penghidupan masyarakat setempat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_78__ayat_2">
                     <num>(2)</num>
@@ -2119,14 +2295,14 @@
                     <num>79</num>
                       <paragraph eId="pasal_79__ayat_1">
                         <num>(1)</num>
-                        <content><p>Pemerintah Desa menyusun perencanaan Pembangunan Desa sesuai dengan kewenangannya dengan mengacu pada perencanaan pembangunan Kabupaten/Kota.</p></content>
+                        <content><p>Pemerintah Desa menJrusun perencanaan Pembangunan Desa sesuai dengan kewenangannya dengan mengacu pada perencanaan pembangunan kabupaten/kota.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_79__ayat_2">
                         <num>(2)</num>
                         <intro><p>Perencanaan Pembangunan Desa sebagaimana dimaksud pada ayat (1) disusun secara berjangka meliputi:</p></intro>
                           <point eId="pasal_79__ayat_2__huruf_a">
                             <num>a.</num>
-                            <content><p>Rencana Pembangunan Jangka Menengah Desa untuk jangka waktu 6 (enam) tahun; dan</p></content>
+                            <content><p>Rencana Pembangunan Jangka Menengah Desa untuk jangka waktu 8 (delapan) tahun; dan</p></content>
                           </point>
                           <point eId="pasal_79__ayat_2__huruf_b">
                             <num>b.</num>
@@ -2144,7 +2320,7 @@
                       </paragraph>
                       <paragraph eId="pasal_79__ayat_5">
                         <num>(5)</num>
-                        <content><p>Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa merupakan pedoman dalam penyusunan Anggaran Pendapatan dan Belanja Desa yang diatur dalam Peraturan Pemerintah.</p></content>
+                        <content><p>Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa merupakan pedoman dalam penJrusunan anggaran pendapatan dan belanja Desa yang diatur dalam Peraturan Pemerintah.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_79__ayat_6">
                         <num>(6)</num>
@@ -2152,7 +2328,7 @@
                       </paragraph>
                       <paragraph eId="pasal_79__ayat_7">
                         <num>(7)</num>
-                        <content><p>Perencanaan Pembangunan Desa sebagaimana dimaksud pada ayat (1) merupakan salah satu sumber masukan dalam perencanaan pembangunan Kabupaten/Kota.</p></content>
+                        <content><p>Perencanaan Pembangunan Desa sebagaimana dimaksud pada ayat (1) merupakan salah satu sumber masukan dalam perencanaan pembangunan kabupaten/kota.</p></content>
                       </paragraph>
 
                   </article>
@@ -2344,7 +2520,7 @@
                 <num>86</num>
                   <paragraph eId="pasal_86__ayat_1">
                     <num>(1)</num>
-                    <content><p>Desa berhak mendapatkan akses informasi melalui sistem informasi Desa yang dikembangkan oleh Pemerintah Daerah Kabupaten/Kota.</p></content>
+                    <content><p>Desa berhak mendapatkan akses informasi melalui sistem informasi Desa yang dikembangkan oleh Pemerintah Daerah kabupaten / kota.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_86__ayat_2">
                     <num>(2)</num>
@@ -2360,11 +2536,11 @@
                   </paragraph>
                   <paragraph eId="pasal_86__ayat_5">
                     <num>(5)</num>
-                    <content><p>Sistem informasi Desa sebagaimana dimaksud pada ayat (2) dikelola oleh Pemerintah Desa dan dapat diakses oleh masyarakat Desa dan semua pemangku kepentingan.</p></content>
+                    <content><p>Sistem informasi Desa sebagaimana dimaksud pada ayat (2) dikelola oleh Pemerintah Desa dan dapat diakses oleh masyarakat Desa setempat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_86__ayat_6">
                     <num>(6)</num>
-                    <content><p>Pemerintah Daerah Kabupaten/Kota menyediakan informasi perencanaan pembangunan Kabupaten/Kota untuk Desa.</p></content>
+                    <content><p>Pemerintah Daerah kabupaten/kota menyediakan informasi perencanaan pembangunan kabupaten/ kota untuk Desa.</p></content>
                   </paragraph>
 
               </article>
@@ -2388,6 +2564,26 @@
               <paragraph eId="pasal_87__ayat_3">
                 <num>(3)</num>
                 <content><p>BUM Desa dapat menjalankan usaha di bidang ekonomi dan/atau pelayanan umum sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_87a">
+            <num>87A</num>
+              <paragraph eId="pasal_87a__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengelolaan BUM Desa sebagaimana dimaksud dalam Pasal 87 ayat (2) dilakukan secara profesional untuk mendapatkan keuntungan bagi peningkatan kesej ahteraan masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_87a__ayat_2">
+                <num>(2)</num>
+                <content><p>BUM Desa sebagaimana dimaksud pada ayat (1) dapat bekerja sama dengan badan usaha milik negara, badan usaha milik daerah, badan usaha milik swasta, dan/atau koperasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_87a__ayat_3">
+                <num>(3)</num>
+                <content><p>Kerja sama BUM Desa sebagaimana dimaksud pada ayat (2) dilakukan untuk membentuk kemitraan yang saling menguntungkan antarpelaku ekonomi dan saling menguatkan untuk mewujudkan demokrasi ekonomi dan efisiensi nasional yang berdaya saing tinggi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_87a__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan lebih lanjut mengenai kerja sama BUM Desa sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -3051,30 +3247,31 @@
           </article>
           <article eId="pasal_118">
             <num>118</num>
-              <paragraph eId="pasal_118__ayat_1">
-                <num>(1)</num>
-                <content><p>Masa jabatan Kepala Desa yang ada pada saat ini tetap berlaku sampai habis masa jabatannya.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_118__ayat_2">
-                <num>(2)</num>
-                <content><p>Periodisasi masa jabatan Kepala Desa mengikuti ketentuan Undang-Undang ini.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_118__ayat_3">
-                <num>(3)</num>
-                <content><p>Anggota Badan Permusyawaratan Desa yang ada pada saat ini tetap menjalankan tugas sampai habis masa keanggotaanya.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_118__ayat_4">
-                <num>(4)</num>
-                <content><p>Periodisasi keanggotaan Badan Permusyawaratan Desa mengikuti ketentuan Undang-Undang ini.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_118__ayat_5">
-                <num>(5)</num>
-                <content><p>Perangkat Desa yang tidak berstatus pegawai negeri sipil tetap melaksanakan tugas sampai habis masa tugasnya.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_118__ayat_6">
-                <num>(6)</num>
+            <intro><p>Pada saat Undang-Undang ini berlaku:</p></intro>
+              <point eId="pasal_118__huruf_a">
+                <num>a.</num>
+                <content><p>Kepala Desa dan anggota Badan Permusyawaratan Desa yang telah menjabat selama 2 (dua) periode sebelum Undang-Undang ini berlaku dapat mencalonkan diri 1 (satu) periode lagi berdasarkan Undang-Undang ini.</p></content>
+              </point>
+              <point eId="pasal_118__huruf_b">
+                <num>b.</num>
+                <content><p>Kepala Desa dan anggota Badan Permusyawaratan Desa yang masih menjabat pada periode pertama dan periode kedua menyelesaikan sisa masa jabatannya sesuai dengan ketentuan Undang-Undang ini dan dapat mencalonkan diri 1 (satu) periode lagi.</p></content>
+              </point>
+              <point eId="pasal_118__huruf_c">
+                <num>c.</num>
+                <content><p>Kepala Desa dan anggota Badan Permusyawaratan Desa yang masih menjabat pada periode ketiga menyelesaikan sisa masa jabatannya sesuai Undang- Undang ini.</p></content>
+              </point>
+              <point eId="pasal_118__huruf_d">
+                <num>d.</num>
+                <content><p>Kepala Desa yang sudah terpilih tetapi belum dilantik, masa jabatannya mengikuti ketentuan Undang- Undang ini.</p></content>
+              </point>
+              <point eId="pasal_118__huruf_e">
+                <num>e.</num>
+                <content><p>Kepala Desa yang berakhir masa jabatannya sampai dengan bulan Februari 2024 dapat diperpanjang sesuai dengan ketentuan Undang-Undang ini.</p></content>
+              </point>
+              <point eId="pasal_118__huruf_f">
+                <num>f.</num>
                 <content><p>Perangkat Desa yang berstatus sebagai pegawai negeri sipil melaksanakan tugasnya sampai ditetapkan penempatannya yang diatur dengan Peraturan Pemerintah.</p></content>
-              </paragraph>
+              </point>
 
           </article>
 
@@ -3101,6 +3298,10 @@
           <article eId="pasal_121">
             <num>121</num>
             <content><p>Pada saat Undang-Undang ini mulai berlaku, Pasal 200 sampai dengan Pasal 216 Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 125, Tambahan Lembaran Negara Republik Indonesia Nomor 4437) sebagaimana telah diubah beberapa kali terakhir dengan Undang-Undang Nomor 12 Tahun 2008 tentang Perubahan Kedua atas Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 59, Tambahan Lembaran Negara Republik Indonesia Nomor 4844) dicabut dan dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_121a">
+            <num>121A</num>
+            <content><p>Pemerintah harus melaporkan pelaksanaan Undang- Undang ini kepada Dewan Perwakilan Rakyat Republik Indonesia melalui alat kelengkapan yang menangani urusan di bidang legislasi paling lambat 3 (tiga) tahun sejak Undang-Undang ini berlaku.</p></content>
           </article>
           <article eId="pasal_122">
             <num>122</num>
