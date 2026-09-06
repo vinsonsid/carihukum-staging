@@ -36,23 +36,9 @@
     "target": "uu-2004-40"
    }
   ],
-  "tahap": "terverifikasi",
-  "perubahan_belum_dienkode": [
-   {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
-   }
-  ]
+  "tahap": "terverifikasi"
  },
- "dihasilkan": "2026-09-06T08:00:47.129Z",
+ "dihasilkan": "2026-09-06T09:41:09.455Z",
  "timeline": [
   {
    "tanggal": "2011-11-25",
@@ -62,6 +48,39 @@
    "judul_pelaku": "Undang-Undang Nomor 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-2011-24",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 3,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-2011-24",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 3,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-2011-24",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 3,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
   }
  ],
  "peringatan": [],
@@ -430,61 +449,282 @@
          "id": "pasal-6/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a menyelenggarakan program jaminan kesehatan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-24",
-         "berlaku_mulai": "2011-11-25"
+         "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal5 ayat (2) huruf a menyelenggarakan program jaminan kesehatan.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-6/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b menyelenggarakan program:",
-         "verifikasi": "pdf-resmi",
+         "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b menyelenggarakan program: a- jaminan kecelakaan kerja;",
+         "verifikasi": "draf",
          "anak": [
-          {
-           "id": "pasal-6/ayat-2/huruf-a",
-           "tipe": "huruf",
-           "nomor": "a.",
-           "teks": "jaminan kecelakaan kerja;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-24",
-           "berlaku_mulai": "2011-11-25"
-          },
           {
            "id": "pasal-6/ayat-2/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
            "teks": "jaminan hari tua;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-24",
-           "berlaku_mulai": "2011-11-25"
+           "verifikasi": "draf",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-6/ayat-2/huruf-c",
            "tipe": "huruf",
            "nomor": "c.",
-           "teks": "jaminan pensiun; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-24",
-           "berlaku_mulai": "2011-11-25"
+           "teks": "jaminan pensiun;",
+           "verifikasi": "draf",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-6/ayat-2/huruf-d",
            "tipe": "huruf",
            "nomor": "d.",
-           "teks": "jaminan kematian.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-24",
-           "berlaku_mulai": "2011-11-25"
+           "teks": "jaminan kematian; dan",
+           "verifikasi": "draf",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-6/ayat-2/huruf-e",
+           "tipe": "huruf",
+           "nomor": "e.",
+           "teks": "jaminan kehilangan pekerjaan.",
+           "verifikasi": "draf",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2011-24",
-         "berlaku_mulai": "2011-11-25"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2011-24",
-       "berlaku_mulai": "2011-11-25"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-24",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-6",
+          "tipe": "pasal",
+          "nomor": "6",
+          "anak": [
+           {
+            "id": "pasal-6/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a menyelenggarakan program jaminan kesehatan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-24",
+            "berlaku_mulai": "2011-11-25"
+           },
+           {
+            "id": "pasal-6/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b menyelenggarakan program:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-6/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "jaminan kecelakaan kerja;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-24",
+              "berlaku_mulai": "2011-11-25"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "jaminan hari tua;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-24",
+              "berlaku_mulai": "2011-11-25"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "jaminan pensiun; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-24",
+              "berlaku_mulai": "2011-11-25"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "jaminan kematian.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-24",
+              "berlaku_mulai": "2011-11-25"
+             }
+            ],
+            "sumber": "uu-2011-24",
+            "berlaku_mulai": "2011-11-25"
+           }
+          ],
+          "sumber": "uu-2011-24",
+          "berlaku_mulai": "2011-11-25"
+         },
+         "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-24",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-6",
+          "tipe": "pasal",
+          "nomor": "6",
+          "anak": [
+           {
+            "id": "pasal-6/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a menyelenggarakan program jaminan kesehatan.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-6/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b menyelenggarakan program: a- jaminan kecelakaan kerja;",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-6/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "jaminan hari tua;",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "jaminan pensiun;",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "jaminan kematian; dan",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "jaminan kehilangan pekerjaan.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2011-24",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-6",
+          "tipe": "pasal",
+          "nomor": "6",
+          "anak": [
+           {
+            "id": "pasal-6/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayal (21huruf a menyelenggarakan program jaminan kesehatan.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-6/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b menyelenggarakan program: a jaminan kecelakaan kerja;",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-6/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "jaminan hari tua;",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "jaminan pensiun;",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "jaminan kematian; dan",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-6/ayat-2/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "jaminan kehilangan pekerjaan.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "sumber": "uu-2011-24",
@@ -600,22 +840,120 @@
          "tipe": "ayat",
          "nomor": "(1)",
          "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a berfungsi menyelenggarakan program jaminan kesehatan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-24",
-         "berlaku_mulai": "2011-11-25"
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-9/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b berfungsi menyelenggarakan program jaminan kecelakaan kerja, program jaminan kematian, program jaminan pensiun, dan jaminan hari tua.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-24",
-         "berlaku_mulai": "2011-11-25"
+         "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b berfungsi menyelenggarakan program jaminan kecelakaan kerja, program jaminan kematian, program jaminan pensiun, program jaminan hari tua, dan program jaminan kehilangan pekerjaan.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2011-24",
-       "berlaku_mulai": "2011-11-25"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-24",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-9",
+          "tipe": "pasal",
+          "nomor": "9",
+          "anak": [
+           {
+            "id": "pasal-9/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a berfungsi menyelenggarakan program jaminan kesehatan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-24",
+            "berlaku_mulai": "2011-11-25"
+           },
+           {
+            "id": "pasal-9/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b berfungsi menyelenggarakan program jaminan kecelakaan kerja, program jaminan kematian, program jaminan pensiun, dan jaminan hari tua.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-24",
+            "berlaku_mulai": "2011-11-25"
+           }
+          ],
+          "sumber": "uu-2011-24",
+          "berlaku_mulai": "2011-11-25"
+         },
+         "catatan": "Ketentuan Pasal 9 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-24",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-9",
+          "tipe": "pasal",
+          "nomor": "9",
+          "anak": [
+           {
+            "id": "pasal-9/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a berfungsi menyelenggarakan program jaminan kesehatan.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-9/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b berfungsi menyelenggarakan program jaminan kecelakaan kerja, program jaminan kematian, program jaminan pensiun, program jaminan hari tua, dan program jaminan kehilangan pekerjaan.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 9 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2011-24",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-9",
+          "tipe": "pasal",
+          "nomor": "9",
+          "anak": [
+           {
+            "id": "pasal-9/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a berfungsi menyelenggarakan program jaminan kesehatan. l2l BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b berfungsi menyelenggarakan program jaminan kecelakaan kerja, program jaminan kematian, program jaminan pensiun, program jaminan hari tua, dan program jaminan kehilangan pekerjaan.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 9 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "sumber": "uu-2011-24",
@@ -2697,10 +3035,117 @@
        "id": "pasal-42",
        "tipe": "pasal",
        "nomor": "42",
-       "teks": "Modal awal sebagaimana dimaksud dalam Pasal 41 ayat (1) huruf a untuk BPJS Kesehatan dan BPJS Ketenagakerjaan ditetapkan masing-masing paling banyak Rp2.000.000.000.000,00 (dua triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2011-24",
-       "berlaku_mulai": "2011-11-25"
+       "anak": [
+        {
+         "id": "pasal-42/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Modal awal sebagaimana dimaksud dalam Pasal4l ayat (1) huruf a untuk BPJS Kesehatan dan BPJS Ketenagakerjaan ditetapkan masing-masing paling banyak Rp2.000.000.000.000,00 (dua triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-42/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Modal awal sebagaimana dimaksud dalam Pasal 41 ayat (1) huruf a untuk program jaminan kehilangan pekerjaan ditetapkan paling sedikit Rp6.000.000.000.OO0,00 (enam triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-24",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-42",
+          "tipe": "pasal",
+          "nomor": "42",
+          "teks": "Modal awal sebagaimana dimaksud dalam Pasal 41 ayat (1) huruf a untuk BPJS Kesehatan dan BPJS Ketenagakerjaan ditetapkan masing-masing paling banyak Rp2.000.000.000.000,00 (dua triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2011-24",
+          "berlaku_mulai": "2011-11-25"
+         },
+         "catatan": "Ketentuan Pasal 42 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-24",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-42",
+          "tipe": "pasal",
+          "nomor": "42",
+          "anak": [
+           {
+            "id": "pasal-42/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Modal awal sebagaimana dimaksud dalam Pasal 4I ayat (1) huruf a untuk BPJS Kesehatan dan BPJS Ketenagakerjaan ditetapkan masing-masing paling banyak Rp2.000.000.000.000,00 (dua triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-42/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Modal awal sebagaimana dimaksud dalam Pasal 4l ayat (1) huruf a untuk program jaminan kehilangan pekerjaan ditetapkan paling sedikit Rp6.000.000.000.000,00 (enam triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 42 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2011-24",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-42",
+          "tipe": "pasal",
+          "nomor": "42",
+          "anak": [
+           {
+            "id": "pasal-42/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Modal awd sebagaimana dimaksud dalam Pasal 4l ayat (1) huruf a untuk BPJS Kesehatan dan BPJS Ketenagakerjaan ditetapkan masing-masing paling banyak Rp2.O0O.0O0.000.000,00 (dua triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara. PRESIOEN",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-42/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Modal awal sebagaimana dimaksud dalam Pasal 41 ayat (1) huruf a untuk program jaminan kehilangan pekerjaan ditetapkan paling sedikit Rp6.O00.00O.0O0.000,00 (enam triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 42 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "sumber": "uu-2011-24",
@@ -3951,10 +4396,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 337,
-  "pdf-resmi": 337,
+  "total": 338,
+  "pdf-resmi": 328,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 10,
   "lainnya": 0
  },
  "istilah": [

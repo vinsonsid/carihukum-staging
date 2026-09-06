@@ -33,23 +33,9 @@
     "target": "uud-1945"
    }
   ],
-  "tahap": "terverifikasi",
-  "perubahan_belum_dienkode": [
-   {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
-   }
-  ]
+  "tahap": "terverifikasi"
  },
- "dihasilkan": "2026-09-06T08:00:47.063Z",
+ "dihasilkan": "2026-09-06T09:41:09.384Z",
  "timeline": [
   {
    "tanggal": "2008-07-04",
@@ -59,6 +45,39 @@
    "judul_pelaku": "Undang-Undang Nomor 20 Tahun 2008 tentang Usaha Mikro, Kecil, dan Menengah",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 8,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 8,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 8,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
   }
  ],
  "peringatan": [],
@@ -469,101 +488,208 @@
        "id": "pasal-6/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Kriteria Usaha Mikro adalah sebagai berikut:",
-       "verifikasi": "pdf-resmi",
-       "anak": [
-        {
-         "id": "pasal-6/ayat-1/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "memiliki kekayaan bersih paling banyak Rp50.000.000,00 (lima puluh juta rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
-        },
-        {
-         "id": "pasal-6/ayat-1/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "memiliki hasil penjualan tahunan paling banyak Rp300.000.000,00 (tiga ratus juta rupiah).",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
-        }
-       ],
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "teks": "Kriteria Usaha Mikro, Kecil, dan Menengah dapat memuat modal usaha, indikator kekayaan bersih, hasil penjualan tahunan, atau nilai investasi, insentif dan disinsentif, penerapan teknologi ramah lingkungan, kandungan lokal, atau jumlah tenaga kerja sesuai dengan kriteria setiap sektor usaha.",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-6/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Kriteria Usaha Kecil adalah sebagai berikut:",
-       "verifikasi": "pdf-resmi",
-       "anak": [
-        {
-         "id": "pasal-6/ayat-2/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "memiliki kekayaan bersih lebih dari Rp50.000.000,00 (lima puluh juta rupiah) sampai dengan paling banyak Rp500.000.000,00 (lima ratus juta rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
-        },
-        {
-         "id": "pasal-6/ayat-2/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "memiliki hasil penjualan tahunan lebih dari Rp300.000.000,00 (tiga ratus juta rupiah) sampai dengan paling banyak Rp2.500.000.000,00 (dua milyar lima ratus juta rupiah).",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
-        }
-       ],
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
-      },
-      {
-       "id": "pasal-6/ayat-3",
-       "tipe": "ayat",
-       "nomor": "(3)",
-       "teks": "Kriteria Usaha Menengah adalah sebagai berikut:",
-       "verifikasi": "pdf-resmi",
-       "anak": [
-        {
-         "id": "pasal-6/ayat-3/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "memiliki kekayaan bersih lebih dari Rp500.000.000,00 (lima ratus juta rupiah) sampai dengan paling banyak Rp10.000.000.000,00 (sepuluh milyar rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
-        },
-        {
-         "id": "pasal-6/ayat-3/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "memiliki hasil penjualan tahunan lebih dari Rp2.500.000.000,00 (dua milyar lima ratus juta rupiah) sampai dengan paling banyak Rp50.000.000.000,00 (lima puluh milyar rupiah).",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
-        }
-       ],
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
-      },
-      {
-       "id": "pasal-6/ayat-4",
-       "tipe": "ayat",
-       "nomor": "(4)",
-       "teks": "Kriteria sebagaimana dimaksud pada ayat (1) huruf a, huruf b, dan ayat (2) huruf a, huruf b, serta ayat (3) huruf a, huruf b nilai nominalnya dapat diubah sesuai dengan perkembangan perekonomian yang diatur dengan Peraturan Presiden.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "teks": "Ketentuan lebih lanjut mengenai kriteria Usaha Mikro, Kecil, dan Menengah diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2008-20",
-     "berlaku_mulai": "2008-07-04"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-6",
+        "tipe": "pasal",
+        "nomor": "6",
+        "anak": [
+         {
+          "id": "pasal-6/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Kriteria Usaha Mikro adalah sebagai berikut:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-6/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "memiliki kekayaan bersih paling banyak Rp50.000.000,00 (lima puluh juta rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           },
+           {
+            "id": "pasal-6/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "memiliki hasil penjualan tahunan paling banyak Rp300.000.000,00 (tiga ratus juta rupiah).",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           }
+          ],
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-6/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Kriteria Usaha Kecil adalah sebagai berikut:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-6/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "memiliki kekayaan bersih lebih dari Rp50.000.000,00 (lima puluh juta rupiah) sampai dengan paling banyak Rp500.000.000,00 (lima ratus juta rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           },
+           {
+            "id": "pasal-6/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "memiliki hasil penjualan tahunan lebih dari Rp300.000.000,00 (tiga ratus juta rupiah) sampai dengan paling banyak Rp2.500.000.000,00 (dua milyar lima ratus juta rupiah).",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           }
+          ],
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-6/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Kriteria Usaha Menengah adalah sebagai berikut:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-6/ayat-3/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "memiliki kekayaan bersih lebih dari Rp500.000.000,00 (lima ratus juta rupiah) sampai dengan paling banyak Rp10.000.000.000,00 (sepuluh milyar rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           },
+           {
+            "id": "pasal-6/ayat-3/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "memiliki hasil penjualan tahunan lebih dari Rp2.500.000.000,00 (dua milyar lima ratus juta rupiah) sampai dengan paling banyak Rp50.000.000.000,00 (lima puluh milyar rupiah).",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           }
+          ],
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-6/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Kriteria sebagaimana dimaksud pada ayat (1) huruf a, huruf b, dan ayat (2) huruf a, huruf b, serta ayat (3) huruf a, huruf b nilai nominalnya dapat diubah sesuai dengan perkembangan perekonomian yang diatur dengan Peraturan Presiden.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         }
+        ],
+        "sumber": "uu-2008-20",
+        "berlaku_mulai": "2008-07-04"
+       },
+       "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-6",
+        "tipe": "pasal",
+        "nomor": "6",
+        "anak": [
+         {
+          "id": "pasal-6/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Kriteria Usaha Mikro, Kecil, dan Menengah dapat memuat modal usaha, omzet, indikator kekayaan bersih, hasil penjualan tahunan, atau nilai investasi, insentif dan disinsentif, penerapan teknologi ramah lingkungan, kandungan lokal, atau jumlah tenaga kerja sesuai dengan kriteria setiap sektor usaha.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-6/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan lebih lanjut mengenai kriteria Usaha Mikro, Kecil, dan Menengah diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-6",
+        "tipe": "pasal",
+        "nomor": "6",
+        "anak": [
+         {
+          "id": "pasal-6/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Kriteria Usaha Mikro, Kecil, dan Menengah dapat memuat modal usaha, indikator kekayaan bersih, hasil penjualan tahunan, atau nilai investasi, insentif dan disinsentif, penerapan teknologi ramah lingkungan, kandungan lokal, atau jumlah tenaga kerja sesuai dengan kriteria setiap sektor usaha.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-6/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan lebih lanjut mengenai kriteria Usaha Mikro, Kecil, dan Menengah diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     }
    ],
    "sumber": "uu-2008-20",
@@ -874,42 +1000,209 @@
        "tipe": "ayat",
        "nomor": "(1)",
        "teks": "Aspek perizinan usaha sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf e ditujukan untuk:",
-       "verifikasi": "pdf-resmi",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-12/ayat-1/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "menyederhanakan tata cara dan jenis perizinan usaha dengan sistem pelayanan terpadu satu pintu; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
+         "teks": "menyederhanakan tata cara dan jenis Perizinan Berusaha dengan sistem pelayanan terpadu satu pintu; dan",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-12/ayat-1/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "membebaskan biaya perizinan bagi Usaha Mikro dan memberikan keringanan biaya perizinan bagi Usaha Kecil.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
+         "teks": "membebaskan biaya Perizinan Berusaha bagi Usaha Mikro dan memberikan keringanan biaya Perizinan Berusaha bagi Usaha Kecil.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-12/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara permohonan izin usaha diatur dengan Peraturan Pemerintah.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "teks": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara Perizinan Berusaha diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2008-20",
-     "berlaku_mulai": "2008-07-04"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-12",
+        "tipe": "pasal",
+        "nomor": "12",
+        "anak": [
+         {
+          "id": "pasal-12/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Aspek perizinan usaha sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf e ditujukan untuk:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-12/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "menyederhanakan tata cara dan jenis perizinan usaha dengan sistem pelayanan terpadu satu pintu; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           },
+           {
+            "id": "pasal-12/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "membebaskan biaya perizinan bagi Usaha Mikro dan memberikan keringanan biaya perizinan bagi Usaha Kecil.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           }
+          ],
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-12/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara permohonan izin usaha diatur dengan Peraturan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         }
+        ],
+        "sumber": "uu-2008-20",
+        "berlaku_mulai": "2008-07-04"
+       },
+       "catatan": "Ketentuan Pasal 12 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-12",
+        "tipe": "pasal",
+        "nomor": "12",
+        "anak": [
+         {
+          "id": "pasal-12/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Aspek perizinan usaha sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf e ditujukan untuk:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-12/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "menyederhanakan tata cara dan jenis Perizinan Berusaha dengan sistem pelayanan terpadu satu pintu; dan",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-12/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "membebaskan biaya Perizinan Berusaha bagi Usaha Mikro dan memberikan keringanan biaya Perizinan Berusaha bagi Usaha Kecil.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-12/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara Perizinar, Berusaha diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 12 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-12",
+        "tipe": "pasal",
+        "nomor": "12",
+        "anak": [
+         {
+          "id": "pasal-12/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Aspek perizinan usaha sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf e ditujukan untuk:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-12/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "menyederhanakan tata cara dan jenis Perizinan Benrsaha dengan sistem pelayanan terpadu satu pintu; dan",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-12/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "membebaskan biaya Perizinan Berusaha bagi Usaha Mikro dan memberikan keringanan biaya Perizinan Berusaha bagi Usaha Kecil.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-12/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara Perizinan Berusaha diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 12 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-13",
@@ -1401,50 +1694,238 @@
          "id": "pasal-21/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Pemerintah dan Pemerintah Daerah menyediakan pembiayaan bagi Usaha Mikro dan Kecil.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
+         "teks": "Pemerintah Pusat dan Pemerintah Daerah menyediakan Pembiayaan bagi Usaha Mikro dan Kecil.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-21/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Badan Usaha Milik Negara dapat menyediakan pembiayaan dari penyisihan bagian laba tahunan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, penjaminan, hibah, dan pembiayaan lainnya.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
+         "teks": "Badan Usaha Milik Negara menyediakan Pembiayaan dari penyisihan bagian laba tahunan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, Penjaminan, hibah, dan Pembiayaan lainnya.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-21/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Usaha Besar nasional dan asing dapat menyediakan pembiayaan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, penjaminan, hibah, dan pembiayaan lainnya.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
+         "teks": "Usaha Besar nasional dan asing menyediakan Pembiayaan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, Penjaminan, hibah, dan Pembiayaan lainnya.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-21/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Pemerintah, Pemerintah Daerah, dan Dunia Usaha dapat memberikan hibah, mengusahakan bantuan luar negeri, dan mengusahakan sumber pembiayaan lain yang sah serta tidak mengikat untuk Usaha Mikro dan Kecil.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
+         "teks": "Pemerintah Pusat, Pemerintah Daerah, dan Dunia Usaha memberikan hibah, mengusahakan bantuan luar negeri, dan mengusahakan sumber Pembiayaan lain yang sah serta tidak mengikat untuk Usaha Mikro dan Kecil.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-21/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Pemerintah dan Pemerintah Daerah dapat memberikan insentif dalam bentuk kemudahan persyaratan perizinan, keringanan tarif sarana dan prasarana, dan bentuk insentif lainnya yang sesuai dengan ketentuan peraturan perundang- undangan kepada dunia usaha yang menyediakan pembiayaan bagi Usaha Mikro dan Kecil.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2008-20",
-         "berlaku_mulai": "2008-07-04"
+         "teks": "Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya memberikan insentif dalam bentuk kemudahan persyaratan perizinan, keringanan tarif sarana dan prasarana, dan bentuk insentif lainnya yang sesuai dengan ketentuan peraturan perundang-undangan kepada Dunia Usaha yang menyediakan Pembiayaan bagi Usaha Mikro dan Kecil.",
+         "verifikasi": "draf",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-21",
+          "tipe": "pasal",
+          "nomor": "21",
+          "anak": [
+           {
+            "id": "pasal-21/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pemerintah dan Pemerintah Daerah menyediakan pembiayaan bagi Usaha Mikro dan Kecil.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           },
+           {
+            "id": "pasal-21/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Badan Usaha Milik Negara dapat menyediakan pembiayaan dari penyisihan bagian laba tahunan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, penjaminan, hibah, dan pembiayaan lainnya.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           },
+           {
+            "id": "pasal-21/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Usaha Besar nasional dan asing dapat menyediakan pembiayaan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, penjaminan, hibah, dan pembiayaan lainnya.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           },
+           {
+            "id": "pasal-21/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Pemerintah, Pemerintah Daerah, dan Dunia Usaha dapat memberikan hibah, mengusahakan bantuan luar negeri, dan mengusahakan sumber pembiayaan lain yang sah serta tidak mengikat untuk Usaha Mikro dan Kecil.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           },
+           {
+            "id": "pasal-21/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Pemerintah dan Pemerintah Daerah dapat memberikan insentif dalam bentuk kemudahan persyaratan perizinan, keringanan tarif sarana dan prasarana, dan bentuk insentif lainnya yang sesuai dengan ketentuan peraturan perundang- undangan kepada dunia usaha yang menyediakan pembiayaan bagi Usaha Mikro dan Kecil.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2008-20",
+            "berlaku_mulai": "2008-07-04"
+           }
+          ],
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-21",
+          "tipe": "pasal",
+          "nomor": "21",
+          "anak": [
+           {
+            "id": "pasal-21/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pemerintah Pusat dan Pemerintah Daerah menyediakan pembiayaan bagi Usaha Mikro dan Kecil;",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-21/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Badan Usaha Milik Negara menyediakan pembiayaan dari penyisihan bagian laba tahunan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, penjaminan, hibah, dan pembiayaan lainnya.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-21/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Usaha Besar nasional dan asing menyediakan pembiayaarl yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, penjaminan, hibah, dan pembiayaan lainnya.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-21/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Pemerintah Pusat, Pemerintah Daerah, dan Dunia Usaha memberikan hibah, mengusahakan bantuan luar negeri, dan mengusahakan sumber pembiayaan lain yang sah serta tidak mengikat untuk Usaha Mikro dan Kecil.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-21/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya memberikan insentif dalam bentuk kemudahan persyaratan perizinan, keringanan tarif sarana dan prasarana, dan bentuk insentif lainnya yang sesuai dengan ketentuan peraturan perundang- undangan kepada Dunia Usaha yang menyediakan pembiayaan bagi Usaha Mikro dan Kecil.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-21",
+          "tipe": "pasal",
+          "nomor": "21",
+          "anak": [
+           {
+            "id": "pasal-21/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pemerintah Pusat dan Pemerintah Daerah menyediakan Pembiayaan bagi Usaha Mikro dan Kecil.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-21/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Badan Usaha Milik Negara menyediakan Pembiayaan dari penyisihan bagian laba tahunan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, Penjaminan, hibah, dan Pembiayaan lainnya.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-21/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Usaha Besar nasional dan asing menyediakan Pembiayaan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, Penjaminan, hibah, dan Pembiayaan lainnya.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-21/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Pemerintah Pusat, Pemerintah Daerah, dan Dunia Usaha memberikan hibah, mengusahakan bantuan luar negeri, dan mengusahakan sumber Pembiayaan lain yang sah serta tidak mengikat untuk Usaha Mikro dan Kecil.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-21/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya memberikan insentif dalam bentuk kemudahan persyaratan perizinan, keringanan tarif sarana dan prasarana, dan bentuk insentif lainnya yang sesuai dengan ketentuan peraturan perundang-undangan kepada Dunia Usaha yang menyediakan Pembiayaan bagi Usaha Mikro dan Kecil.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-22",
@@ -1652,7 +2133,8 @@
        "teks": "Pemerintah, Pemerintah Daerah, Dunia Usaha, dan masyarakat memfasilitasi, mendukung, dan menstimulasi kegiatan kemitraan, yang saling membutuhkan, mempercayai, memperkuat, dan menguntungkan.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "berlaku_mulai": "2008-07-04",
+       "status": "dicabut"
       },
       {
        "id": "pasal-25/ayat-2",
@@ -1661,7 +2143,8 @@
        "teks": "Kemitraan antar-Usaha Mikro, Kecil, dan Menengah dan Kemitraan antara Usaha Mikro, Kecil, dan Menengah dengan Usaha Besar mencakup proses alih keterampilan di bidang produksi dan pengolahan, pemasaran, permodalan, sumber daya manusia, dan teknologi.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "berlaku_mulai": "2008-07-04",
+       "status": "dicabut"
       },
       {
        "id": "pasal-25/ayat-3",
@@ -1670,11 +2153,39 @@
        "teks": "Menteri dan Menteri Teknis mengatur pemberian insentif kepada Usaha Besar yang melakukan kemitraan dengan Usaha Mikro, Kecil, dan Menengah melalui inovasi dan pengembangan produk berorientasi ekspor, penyerapan tenaga kerja, penggunaan teknologi tepat guna dan ramah lingkungan, serta menyelenggarakan pendidikan dan pelatihan.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "berlaku_mulai": "2008-07-04",
+       "status": "dicabut"
       }
      ],
      "sumber": "uu-2008-20",
-     "berlaku_mulai": "2008-07-04"
+     "berlaku_mulai": "2008-07-04",
+     "status": "dicabut",
+     "riwayat": [
+      {
+       "aksi": "dicabut",
+       "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Pasal 25 dihapus"
+      },
+      {
+       "aksi": "dicabut",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "catatan": "Pasal 25 dihapus."
+      },
+      {
+       "aksi": "dicabut",
+       "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Pasal 25 dihapus"
+      }
+     ]
     },
     {
      "id": "pasal-26",
@@ -1686,60 +2197,308 @@
        "tipe": "huruf",
        "nomor": "a.",
        "teks": "inti-plasma;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-26/huruf-b",
        "tipe": "huruf",
        "nomor": "b.",
-       "teks": "subkontrak;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "teks": "subkontrak'",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-26/huruf-c",
        "tipe": "huruf",
        "nomor": "c.",
        "teks": "waralaba;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-26/huruf-d",
        "tipe": "huruf",
        "nomor": "d.",
        "teks": "perdagangan umum;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-26/huruf-e",
        "tipe": "huruf",
        "nomor": "e.",
-       "teks": "distribusi dan keagenan; dan",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "teks": "distribusi dan keagenan;",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-26/huruf-f",
        "tipe": "huruf",
        "nomor": "f.",
-       "teks": "bentuk-bentuk kemitraan lain, seperti: bagi hasil, kerjasama operasional, usaha patungan (joint venture), dan penyumberluaran (outsourching).",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "teks": "rantai pasok; dan",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-26/huruf-g",
+       "tipe": "huruf",
+       "nomor": "g.",
+       "teks": "bentuk-bentuk kemitraan lain.",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "teks": "Kemitraan dilaksanakan dengan pola:",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-2008-20",
-     "berlaku_mulai": "2008-07-04"
+     "verifikasi": "draf",
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-26",
+        "tipe": "pasal",
+        "nomor": "26",
+        "anak": [
+         {
+          "id": "pasal-26/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "inti-plasma;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-26/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "subkontrak;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-26/huruf-c",
+          "tipe": "huruf",
+          "nomor": "c.",
+          "teks": "waralaba;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-26/huruf-d",
+          "tipe": "huruf",
+          "nomor": "d.",
+          "teks": "perdagangan umum;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-26/huruf-e",
+          "tipe": "huruf",
+          "nomor": "e.",
+          "teks": "distribusi dan keagenan; dan",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-26/huruf-f",
+          "tipe": "huruf",
+          "nomor": "f.",
+          "teks": "bentuk-bentuk kemitraan lain, seperti: bagi hasil, kerjasama operasional, usaha patungan (joint venture), dan penyumberluaran (outsourching).",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         }
+        ],
+        "teks": "Kemitraan dilaksanakan dengan pola:",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2008-20",
+        "berlaku_mulai": "2008-07-04"
+       },
+       "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-26",
+        "tipe": "pasal",
+        "nomor": "26",
+        "anak": [
+         {
+          "id": "pasal-26/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "inti-plasma;",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "subkontrak'",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/huruf-c",
+          "tipe": "huruf",
+          "nomor": "c.",
+          "teks": "waralaba;",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/huruf-d",
+          "tipe": "huruf",
+          "nomor": "d.",
+          "teks": "perdagangan umum;",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/huruf-e",
+          "tipe": "huruf",
+          "nomor": "e.",
+          "teks": "distribusi dan keagenan;",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/huruf-f",
+          "tipe": "huruf",
+          "nomor": "f.",
+          "teks": "rantai pasok; dan",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/huruf-g",
+          "tipe": "huruf",
+          "nomor": "g.",
+          "teks": "bentuk-bentuk kemitraan lain.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "teks": "Kemitraan dilaksanakan dengan pola:",
+        "verifikasi": "draf",
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-26",
+        "tipe": "pasal",
+        "nomor": "26",
+        "anak": [
+         {
+          "id": "pasal-26/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "inti-plasma;",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "subkontrak;",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/huruf-c",
+          "tipe": "huruf",
+          "nomor": "c.",
+          "teks": "waralaba;",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/huruf-d",
+          "tipe": "huruf",
+          "nomor": "d.",
+          "teks": "perdagangan umum;",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/huruf-e",
+          "tipe": "huruf",
+          "nomor": "e.",
+          "teks": "distribusi dan keagenan;",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/huruf-f",
+          "tipe": "huruf",
+          "nomor": "f.",
+          "teks": "rantai pasok; dan",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/huruf-g",
+          "tipe": "huruf",
+          "nomor": "g.",
+          "teks": "bentuk-bentuk kemitraan lain.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "teks": "Kemitraan dilaksanakan dengan pola:",
+        "verifikasi": "draf",
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-27",
@@ -1943,32 +2702,166 @@
        "id": "pasal-30/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Pelaksanaan kemitraan dengan pola perdagangan umum sebagaimana dimaksud dalam Pasal 26 huruf d, dapat dilakukan dalam bentuk kerjasama pemasaran, penyediaan lokasi usaha, atau penerimaan pasokan dari Usaha Mikro, Kecil, dan Menengah oleh Usaha Besar yang dilakukan secara terbuka.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "teks": "Pelaksanaan Kemitraan dengan pola perdagangErn umum sebagaimana dimaksud dalam Pasal 26 huruf d, dapat dilakukan dalam bentuk kerja sama pemasaran atau penyediaan lokasi usaha dari Usaha Mikro, Kecil, dan Menengah oleh Usaha Besar yang dilakukan secara terbuka.",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-30/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
        "teks": "Pemenuhan kebutuhan barang dan jasa yang diperlukan oleh Usaha Besar dilakukan dengan mengutamakan pengadaan hasil produksi Usaha Kecil atau Usaha Mikro sepanjang memenuhi standar mutu barang dan jasa yang diperlukan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-30/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
        "teks": "Pengaturan sistem pembayaran dilakukan dengan tidak merugikan salah satu pihak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2008-20",
-       "berlaku_mulai": "2008-07-04"
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2008-20",
-     "berlaku_mulai": "2008-07-04"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-30",
+        "tipe": "pasal",
+        "nomor": "30",
+        "anak": [
+         {
+          "id": "pasal-30/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pelaksanaan kemitraan dengan pola perdagangan umum sebagaimana dimaksud dalam Pasal 26 huruf d, dapat dilakukan dalam bentuk kerjasama pemasaran, penyediaan lokasi usaha, atau penerimaan pasokan dari Usaha Mikro, Kecil, dan Menengah oleh Usaha Besar yang dilakukan secara terbuka.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-30/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pemenuhan kebutuhan barang dan jasa yang diperlukan oleh Usaha Besar dilakukan dengan mengutamakan pengadaan hasil produksi Usaha Kecil atau Usaha Mikro sepanjang memenuhi standar mutu barang dan jasa yang diperlukan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         },
+         {
+          "id": "pasal-30/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pengaturan sistem pembayaran dilakukan dengan tidak merugikan salah satu pihak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2008-20",
+          "berlaku_mulai": "2008-07-04"
+         }
+        ],
+        "sumber": "uu-2008-20",
+        "berlaku_mulai": "2008-07-04"
+       },
+       "catatan": "Ketentuan Pasal 30 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-30",
+        "tipe": "pasal",
+        "nomor": "30",
+        "anak": [
+         {
+          "id": "pasal-30/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pelaksanaan kemitraan dengan pola perdagangan umum sebagaimana dimaksud dalam Pasal 26 huruf d, dapat dilakukan dalam bentuk kerja sama pemasaran, atau penyediaan lokasi usaha dari Usaha Mikro, Kecil, dan Menengah oleh Usaha Besar yang dilakukan secara terbuka.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-30/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pemenuhan kebutuhan barang dan jasa yang diperlukan oleh Usaha Besar dilakukan dengan mengutamakan pengadaan hasil produksi Usaha Kecil atau Usaha Mikro sepanjang memenuhi standar mutu barang dan jasa yang diperlukan.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-30/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pengaturan sistem pembayaran dilakukan dengan tidak merugikan salah satu pihak.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 30 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-30",
+        "tipe": "pasal",
+        "nomor": "30",
+        "anak": [
+         {
+          "id": "pasal-30/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pelaksanaan Kemitraan dengan pola perdagangan umum sebagaimana dimaksud dalam Pasal 26 huruf d, dapat dilakukan dalam bentuk kerja sama pemasaran atau penyediaan lokasi usaha dari Usaha Mikro, Kecil, dan Menengah oleh Usaha Besar yang dilakukan secara terbuka.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-30/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pemenuhan kebutuhan barang dan jasa yang diperlukan oleh Usaha Besar dilakukan dengan mengutamakan pengadaan hasil produksi Usaha Kecil atau Usaha Mikro sepanjang memenuhi standar mutu barang dan jasa yang diperlukan.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-30/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pengaturan sistem pembayaran dilakukan dengan tidak merugikan salah satu pihak.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 30 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-31",
@@ -1987,6 +2880,70 @@
      "verifikasi": "pdf-resmi",
      "sumber": "uu-2008-20",
      "berlaku_mulai": "2008-07-04"
+    },
+    {
+     "id": "pasal-32a",
+     "tipe": "pasal",
+     "nomor": "32A",
+     "anak": [
+      {
+       "id": "pasal-32a/huruf-a",
+       "tipe": "huruf",
+       "nomor": "a.",
+       "teks": "pengelolaan perpindahan produk yang dilakukan oleh perrrsahaan dengan penyedia bahan baku;",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-32a/huruf-b",
+       "tipe": "huruf",
+       "nomor": "b.",
+       "teks": "pendistribusian produk dari perusahaan ke konsumen; dan/atau",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-32a/huruf-c",
+       "tipe": "huruf",
+       "nomor": "c.",
+       "teks": "pengelolaan ketersediaan bahan baku, pasokan bahan baku serta proses fabrikasi.",
+       "verifikasi": "draf",
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "teks": "Dalam pelaksanaan Kemitraan dengan pola rantai pasok sebagaimana dimaksud dalam Pasal 26 huruf f, dapat dilakukan melalui kegiatan dari Usaha Mikro dan Kecil oleh Usaha Menengah dan Usaha Besar paling sedikit meliputi:",
+     "verifikasi": "draf",
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 32 dan Pasal 33 disisipkan 1 (satu) pasal yakni Pasal 32A yang berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "catatan": "Di antara Pasal 32 dan Pasal 33 disisipkan 1 (satu) pasal yakni Pasal 32A sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
+       "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "Di antara Pasal 32 dan Pasal33 disisipkan 1 (satu) pasal yakni Pasal 32A sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-33",
@@ -2067,7 +3024,27 @@
       }
      ],
      "sumber": "uu-2008-20",
-     "berlaku_mulai": "2008-07-04"
+     "berlaku_mulai": "2008-07-04",
+     "anotasi": [
+      {
+       "peristiwa": "uu-2020-11/amandemen-uu-2008-20",
+       "pelaku": "uu-2020-11",
+       "tanggal": "2020-11-02",
+       "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 35 diubah sebagaimana tercantum dalam penjelasan.”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
+      },
+      {
+       "peristiwa": "perppu-2022-2/amandemen-uu-2008-20",
+       "pelaku": "perppu-2022-2",
+       "tanggal": "2022-12-30",
+       "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 35 diubah sebagaimana tercantum dalam penjelasan.”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
+      },
+      {
+       "peristiwa": "uu-2023-6/amandemen-uu-2008-20",
+       "pelaku": "uu-2023-6",
+       "tanggal": "2023-03-31",
+       "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 35 diubah sebagaimana tercantum dalam penjelasan.”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
+      }
+     ]
     },
     {
      "id": "pasal-36",
@@ -2290,10 +3267,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 205,
-  "pdf-resmi": 205,
+  "total": 202,
+  "pdf-resmi": 176,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 26,
   "lainnya": 0
  },
  "istilah": [

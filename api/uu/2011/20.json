@@ -39,19 +39,9 @@
    }
   ],
   "catatan_kurasi": "Akta terkait sarusun (jual beli, SHM sarusun). Diubah UU 6/2023 (Cipta Kerja) — peristiwa terenkode & terverifikasi.",
-  "kelompok": "koperasi-rusun",
-  "perubahan_belum_dienkode": [
-   {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   }
-  ]
+  "kelompok": "koperasi-rusun"
  },
- "dihasilkan": "2026-09-06T08:00:47.123Z",
+ "dihasilkan": "2026-09-06T09:41:09.448Z",
  "timeline": [
   {
    "tanggal": "2011-11-10",
@@ -61,6 +51,43 @@
    "judul_pelaku": "Undang-Undang Nomor 20 Tahun 2011 tentang Rumah Susun",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 24,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan"
+    },
+    {
+     "instruksi": "replace pasal-52: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): Ketentuan | replace pasal-52: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 23,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "instruksi nomor 22 tak dikenali polanya: 22. Keten1ntan Pasal 113 diubah sehingga berbunyi sebagai",
+     "unit": "pasal-113"
+    },
+    {
+     "instruksi": "replace pasal-52: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): instruksi nomor 22 tak dikenali polanya: 22. Keten1ntan Pasal 113 diubah sehingg | replace pasal-52: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
   },
   {
    "tanggal": "2023-03-31",
@@ -1387,10 +1414,10 @@
        "riwayat": [
         {
          "aksi": "diganti",
-         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-         "pelaku": "uu-2023-6",
-         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-         "tanggal": "2023-03-31",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
          "sebelum": {
           "id": "pasal-16",
           "tipe": "pasal",
@@ -1435,6 +1462,148 @@
           ],
           "sumber": "uu-2011-20",
           "berlaku_mulai": "2011-11-10"
+         },
+         "catatan": "Ketentuan Pasal 16 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-16",
+          "tipe": "pasal",
+          "nomor": "16",
+          "anak": [
+           {
+            "id": "pasal-16/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pembangunan rumah susun komersial sebagaimana dimaksud dalam Pasal 13 ayat (2) dapat dilaksanakan oleh setiap orang.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-16/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pelaku pembangunan rumah susun komersial sebagaimana dimaksud pada ayat (1) wajib menyediakan rumah susun umum paling sedikit 20% (dua puluh persen) dari total luas lantai rumah susun komersial yang dibangun.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-16/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Dalam hal pembangunan rumah susun umum sebagaimana dimaksud pada ayat (2) tidak dalam 1 (satu) lokasi kawasan rumah susun komersial pembangunan rumah susun umum dapat dilaksanakan dalam 1 (satu) daerah kabupatenlkota yang sama.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-16/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Kewajiban menyediakan rumah susun umum paling sedikit 2OVo (dua puluh persen) sebagaimana dimaksud pada ayat (2) dapat dikonversi dalam bentuk dana untuk pembangunan rumah susun umum.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-16/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Pengelolaan dana sebagaimana dimaksud pada ayat (4) dilaksanakan oleh badan percepatan penyelenggaraan perumahan.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-16/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Ketentuan lebih lanjut mengenai kewajiban menyediakan rumah susun umum sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 16 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-16",
+          "tipe": "pasal",
+          "nomor": "16",
+          "anak": [
+           {
+            "id": "pasal-16/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pembangunan Rumah Susun Komersial sebagaimana dimaksud dalam Pasal 13 ayat (2) dapat dilaksanakan oleh Setiap Orang.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-16/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pelaku Pembangunan Rumah Susun Komersial sebagaimana dimaksud pada ayat (1) wajib menyediakan Rumah Susun Umum paling sedikit 2Oo/o (dua puluh persen) dari total luas lantai Rumah Susun Komersial yang dibangun.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-16/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Dalam hal pembangunan Rumah Susun Umum sebagaimana dimaksud pada ayat (2) tidak dalam 1 (satu) lokasi kawasan Rumah Susun Komersial, pembangunan Rumah Susun Umum dapat dilaksanakan dalam 1 (satu) daerah kabupaten/ kota yang sama.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-16/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Kewajiban menyediakan Rumah Susun Umum paling sedikit 20% (dua puluh persen) sebagaimana dimaksud pada ayat (2) dapat dikonversi dalam bentuk dana untuk pembangunan Rumah Susun Umum.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-16/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Pengelolaan dana sebagaimana dimaksud pada ayat (4) dilaksanakan oleh badan percepatan penyelenggaraan perumahan.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-16/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Ketentuan lebih lanjut mengenai kewajiban menyediakan Rumah Susun Umum sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
          },
          "catatan": "Ketentuan Pasal 16 diubah sehingga berbunyi sebagai berikut:"
         }
@@ -1902,10 +2071,10 @@
          "riwayat": [
           {
            "aksi": "diganti",
-           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-           "pelaku": "uu-2023-6",
-           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-           "tanggal": "2023-03-31",
+           "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
            "sebelum": {
             "id": "pasal-24",
             "tipe": "pasal",
@@ -1943,6 +2112,134 @@
             "verifikasi": "pdf-resmi",
             "sumber": "uu-2011-20",
             "berlaku_mulai": "2011-11-10"
+           },
+           "catatan": "Ketentuan Pasal 24 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+           "pelaku": "perppu-2022-2",
+           "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+           "tanggal": "2022-12-30",
+           "sebelum": {
+            "id": "pasal-24",
+            "tipe": "pasal",
+            "nomor": "24",
+            "anak": [
+             {
+              "id": "pasal-24/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Standar pembangunan rumah susun meliputi",
+              "verifikasi": "draf",
+              "anak": [
+               {
+                "id": "pasal-24/ayat-1/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "persyaratan administratif;",
+                "verifikasi": "draf",
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-24/ayat-1/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "persyaratan teknis; dan",
+                "verifikasi": "draf",
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-24/ayat-1/huruf-c",
+                "tipe": "huruf",
+                "nomor": "c.",
+                "teks": "persyaratan ekologis.",
+                "verifikasi": "draf",
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               }
+              ],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-24/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Ketentuan lebih lanjut mengenai standar pembangunan rumah susun sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 24 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-24",
+            "tipe": "pasal",
+            "nomor": "24",
+            "anak": [
+             {
+              "id": "pasal-24/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Standar pembangunan Rumah Susun meliputi:",
+              "verifikasi": "draf",
+              "anak": [
+               {
+                "id": "pasal-24/ayat-1/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "persyaratanadministratif;",
+                "verifikasi": "draf",
+                "sumber": "perppu-2022-2",
+                "berlaku_mulai": "2022-12-30"
+               },
+               {
+                "id": "pasal-24/ayat-1/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "persyaratan teknis; dan",
+                "verifikasi": "draf",
+                "sumber": "perppu-2022-2",
+                "berlaku_mulai": "2022-12-30"
+               },
+               {
+                "id": "pasal-24/ayat-1/huruf-c",
+                "tipe": "huruf",
+                "nomor": "c.",
+                "teks": "persyaratanekologis.",
+                "verifikasi": "draf",
+                "sumber": "perppu-2022-2",
+                "berlaku_mulai": "2022-12-30"
+               }
+              ],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-24/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Ketentuan lebih lanjut mengenai standar pembangunan Rumah Susun sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
            },
            "catatan": "Ketentuan Pasal 24 diubah sehingga berbunyi sebagai berikut:"
           }
@@ -2060,10 +2357,10 @@
          "riwayat": [
           {
            "aksi": "diganti",
-           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-           "pelaku": "uu-2023-6",
-           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-           "tanggal": "2023-03-31",
+           "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
            "sebelum": {
             "id": "pasal-26",
             "tipe": "pasal",
@@ -2119,6 +2416,103 @@
             "berlaku_mulai": "2011-11-10"
            },
            "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+           "pelaku": "perppu-2022-2",
+           "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+           "tanggal": "2022-12-30",
+           "sebelum": {
+            "id": "pasal-26",
+            "tipe": "pasal",
+            "nomor": "26",
+            "anak": [
+             {
+              "id": "pasal-26/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pemisahan rumah susun sebagaimana dimaksud dalam Pasal 25 ayat (1) wajib dituangkan dalam bentuk gambar dan uraian. {2) Gambar dan uraian sebagaimana dimaksud pada ayat (1) dibuat sebelum pelaksanaan pembangunan rumah susun.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-26/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Gambar dan uraian sebagaimana dimaksud pada ayat (2) dituangkan dalam bentuk akta pemisahan yang disahkan oleh bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-26/ayat-4",
+              "tipe": "ayat",
+              "nomor": "(4)",
+              "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, akta pemisahan sebagaimana dimaksud pada ayat (3) disahkan oleh Gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-26",
+            "tipe": "pasal",
+            "nomor": "26",
+            "anak": [
+             {
+              "id": "pasal-26/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pemisahan Rumah Susun sebagaimana dimaksud dalam Pasal 25 ayal (1) wajib dituangkan dalam bentuk gambar dan uraian.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-26/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Gambar dan uraian sebagaimana dimaksud pada ayat (1) dibuat sebelum pelaksanaan pembangunan Rumah Susun.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-26/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Gambar dan uraian sebagaimana dimaksud pada ayat (2) dituangkan dalam bentuk akta pemisahan yang disahkan oleh bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-26/ayat-4",
+              "tipe": "ayat",
+              "nomor": "(4)",
+              "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jalarta, akta pemisahan sebagaimana dimaksud pada ayat (3) disahkan oleh gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
           }
          ],
          "sumber": "uu-2023-6",
@@ -2172,10 +2566,10 @@
          "riwayat": [
           {
            "aksi": "diganti",
-           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-           "pelaku": "uu-2023-6",
-           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-           "tanggal": "2023-03-31",
+           "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
            "sebelum": {
             "id": "pasal-28",
             "tipe": "pasal",
@@ -2204,6 +2598,80 @@
             "verifikasi": "pdf-resmi",
             "sumber": "uu-2011-20",
             "berlaku_mulai": "2011-11-10"
+           },
+           "catatan": "Ketentuan Pasal 28 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+           "pelaku": "perppu-2022-2",
+           "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+           "tanggal": "2022-12-30",
+           "sebelum": {
+            "id": "pasal-28",
+            "tipe": "pasal",
+            "nomor": "28",
+            "anak": [
+             {
+              "id": "pasal-28/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "status hak atas tanah; dan",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-28/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Persetujuan Bangunan Gedung.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "teks": "Dalam melakukan pembangunan rumah susun, pelaku pembangunan harus memenuhi ketentuan administratif yang meliputi:",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 28 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-28",
+            "tipe": "pasal",
+            "nomor": "28",
+            "anak": [
+             {
+              "id": "pasal-28/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "status hak atas tanah; dan",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-28/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Persetujuan Bangunan Gedung.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "teks": "Dalam melakukan pembangunan Rumah Susun, Pelaku Pembangunan harus memenuhi ketentuan administratif yang meliputi :",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
            },
            "catatan": "Ketentuan Pasal 28 diubah sehingga berbunyi sebagai berikut:"
           }
@@ -2256,10 +2724,10 @@
          "riwayat": [
           {
            "aksi": "diganti",
-           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-           "pelaku": "uu-2023-6",
-           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-           "tanggal": "2023-03-31",
+           "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
            "sebelum": {
             "id": "pasal-29",
             "tipe": "pasal",
@@ -2380,6 +2848,112 @@
             "berlaku_mulai": "2011-11-10"
            },
            "catatan": "Ketentuan Pasal 29 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+           "pelaku": "perppu-2022-2",
+           "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+           "tanggal": "2022-12-30",
+           "sebelum": {
+            "id": "pasal-29",
+            "tipe": "pasal",
+            "nomor": "29",
+            "anak": [
+             {
+              "id": "pasal-29/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pelaku pembangunan harus membangun rumah susun dan lingkungannya sesuai dengan rencana fungsi dan pemanfaatannya.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-29/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Rencana fungsi dan pemanfaatan sebagaimana dimaksud pada ayat (1) harus mendapatkan Perizinan Berusaha dari bupatilwali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-29/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, rencana fungsi dan pemanfaatan sebagaimana dimaksud pada ayat (1) harus mendapatkan Perrzinan Berusaha dari Gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-29/ayat-4",
+              "tipe": "ayat",
+              "nomor": "(4)",
+              "teks": "Ketentuan lebih lanjut mengenai rencana fungsi dan pemanfaatan pembangunan Rumah Susun diatur dalam Peraturan Pemerintah.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 29 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-29",
+            "tipe": "pasal",
+            "nomor": "29",
+            "anak": [
+             {
+              "id": "pasal-29/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pelaku Pembangunan harus membangun Rumah Susun dan lingkungannya sesuai dengan rencana fungsi dan pemanfaatan.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-29/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Rencana fungsi dan pemanfaatan sebagaimana dimaksud pada ayat (1) harus mendapatkan Perizinan Berusaha dari bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-29/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, rencana fungsi dan pemanfaatan sebagaimana dimaksud pada ayat (1) harus mendapatkan Perizinan Berusaha dari gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-29/ayat-4",
+              "tipe": "ayat",
+              "nomor": "(4)",
+              "teks": "Ketentuan lebih lanjut mengenai rencana fungsi dan pemanfaatan pembangunan Rumah Susun diatur dalam Peraturan Pemerintah.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           "catatan": "Ketentuan Pasal 29 diubah sehingga berbunyi sebagai berikut:"
           }
          ],
          "sumber": "uu-2023-6",
@@ -2395,6 +2969,22 @@
          "berlaku_mulai": "2011-11-10",
          "status": "dicabut",
          "riwayat": [
+          {
+           "aksi": "dicabut",
+           "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
+           "catatan": "Pasal 30 dihapus"
+          },
+          {
+           "aksi": "dicabut",
+           "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+           "pelaku": "perppu-2022-2",
+           "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+           "tanggal": "2022-12-30",
+           "catatan": "Pasal 30 dihapus."
+          },
           {
            "aksi": "dicabut",
            "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
@@ -2441,10 +3031,10 @@
          "riwayat": [
           {
            "aksi": "diganti",
-           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-           "pelaku": "uu-2023-6",
-           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-           "tanggal": "2023-03-31",
+           "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
            "sebelum": {
             "id": "pasal-31",
             "tipe": "pasal",
@@ -2565,6 +3155,94 @@
             "berlaku_mulai": "2011-11-10"
            },
            "catatan": "Ketentuan Pasal 31 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+           "pelaku": "perppu-2022-2",
+           "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+           "tanggal": "2022-12-30",
+           "sebelum": {
+            "id": "pasal-31",
+            "tipe": "pasal",
+            "nomor": "31",
+            "anak": [
+             {
+              "id": "pasal-31/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pengubahan rencana fungsi dan pemanfaatan rumah susun sebagaimana dimaksud dalam Pasal 29 ayat (2) harus memenuhi Perizinan Berusaha dari bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-31/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, pengubahan rencana fungsi dan pemanfaatan rumah susun sebagaimana dimaksud pada ayat (1) harus memenuhi Perizinan Berusaha dari Gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-31/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Pengubahan rencana fungsi dan pemanfaatan rumah susun sebagaimana dimaksud pada ayat (1) tidak mengurangi fungsi bagian bersama, benda bersama, dan fungsi hunian.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 31 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-31",
+            "tipe": "pasal",
+            "nomor": "31",
+            "anak": [
+             {
+              "id": "pasal-31/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pengubahan rencana fungsi dan pemanfaatan Rumah Susun sebagaimana dimaksud dalam Pasal 29 ayat (2) harus memenuhi Perizinan Berusaha dari bupati/wali kota sesuai dengan nonna, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-31/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, pengubahan rencana fungsi dan pemanfaatan Rumah Susun sebagaimana dimaksud pada ayat (1) harus memenuhi Perizinart Berusaha dari gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-31/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Pengubahan rencana fungsi dan pemanfaatan Rumah Susun sebagaimana dimaksud pada ayat (1) tidak mengurangi fungsi Bagian Bersama, Benda Bersama, dan fungsi hunian.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           "catatan": "Ketentuan Pasal 31 diubah sehingga berbunyi sebagai berikut:"
           }
          ],
          "sumber": "uu-2023-6",
@@ -2579,10 +3257,10 @@
          "riwayat": [
           {
            "aksi": "diganti",
-           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-           "pelaku": "uu-2023-6",
-           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-           "tanggal": "2023-03-31",
+           "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
            "sebelum": {
             "id": "pasal-32",
             "tipe": "pasal",
@@ -2591,6 +3269,40 @@
             "verifikasi": "pdf-resmi",
             "sumber": "uu-2011-20",
             "berlaku_mulai": "2011-11-10"
+           },
+           "catatan": "Ketentuan Pasal 32 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+           "pelaku": "perppu-2022-2",
+           "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+           "tanggal": "2022-12-30",
+           "sebelum": {
+            "id": "pasal-32",
+            "tipe": "pasal",
+            "nomor": "32",
+            "teks": "Ketentuan lebih lanjut mengenat Perizinan Berusaha terkait rencana fungsi dan pemanfaatan serta pengubahannya diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 32 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-32",
+            "tipe": "pasal",
+            "nomor": "32",
+            "teks": "Ketentuan lebih lanjut mengenai Perizinan Berusaha terkait rencana fungsi dan pemanfaatan serta pengubahannya diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
            },
            "catatan": "Ketentuan Pasal 32 diubah sehingga berbunyi sebagai berikut:"
           }
@@ -2608,6 +3320,22 @@
          "berlaku_mulai": "2011-11-10",
          "status": "dicabut",
          "riwayat": [
+          {
+           "aksi": "dicabut",
+           "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
+           "catatan": "Pasal 33 dihapus."
+          },
+          {
+           "aksi": "dicabut",
+           "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+           "pelaku": "perppu-2022-2",
+           "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+           "tanggal": "2022-12-30",
+           "catatan": "Pasal 33 dihapus."
+          },
           {
            "aksi": "dicabut",
            "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
@@ -2791,10 +3519,10 @@
        "riwayat": [
         {
          "aksi": "diganti",
-         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-         "pelaku": "uu-2023-6",
-         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-         "tanggal": "2023-03-31",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
          "sebelum": {
           "id": "pasal-39",
           "tipe": "pasal",
@@ -2830,6 +3558,94 @@
           ],
           "sumber": "uu-2011-20",
           "berlaku_mulai": "2011-11-10"
+         },
+         "catatan": "Ketentuan Pasal 39 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-39",
+          "tipe": "pasal",
+          "nomor": "39",
+          "anak": [
+           {
+            "id": "pasal-39/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pelaku pembangunan wajib mengajukan permohonan sertifikat laik fungsi kepada bupati lwali kota setelah menyelesaikan seluruh atau sebagian pembangunan rumah susun sepanjang tidak bertentangan dengan Persetujuan Bangunan Gedung sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-39/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Khusus . REPUBUK TNDONESIA (2) Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, permohonan sertifikat laik fungsi sebagaimana dimaksud pada ayat (1) diajukan kepada Gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-39/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pemerintah Daerah menerbitkan sertifikat laik fungsi setelah melakukan pemeriksaan kelaikan fungsi bangunan rumah susun sesuai dengan ketentuan peraturan perundang-undangan. 1 1. Ketentuan Pasal 40 diubah sehingga berbunyi sebagai berikut:",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 39 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-39",
+          "tipe": "pasal",
+          "nomor": "39",
+          "anak": [
+           {
+            "id": "pasal-39/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pelaku Pembangunan wajib mengajukan perrnohonan sertifikat laik fungsi kepada bupati/wali kota setelah menyelesaikan seluruh atau sebagian pembangunan Rumah Susun sepanjang tidak bertentangan dengan Persetujuan Bangunan Gedung sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-39/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, permohonan sertiflkat laik fungsi sebagaimana dimaksud pada ayat (1) diajukan kepada gubernur sesuai dengan norrna, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-39/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pemerintah Daerah menerbitkan sertifikat laik fungsi setelah melakukan pemeriksaan kelaikan fungsi bangunan Rumah Susun sesuai dengan ketentuan peraturan perundang-undangan.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
          },
          "catatan": "Ketentuan Pasal 39 diubah sehingga berbunyi sebagai berikut:"
         }
@@ -2921,10 +3737,10 @@
        "riwayat": [
         {
          "aksi": "diganti",
-         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-         "pelaku": "uu-2023-6",
-         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-         "tanggal": "2023-03-31",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
          "sebelum": {
           "id": "pasal-40",
           "tipe": "pasal",
@@ -2998,6 +3814,170 @@
           ],
           "sumber": "uu-2011-20",
           "berlaku_mulai": "2011-11-10"
+         },
+         "catatan": "Ketentuan Pasal 39 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-40",
+          "tipe": "pasal",
+          "nomor": "40",
+          "anak": [
+           {
+            "id": "pasal-40/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pelaku pembangunan wajib melengkapi lingkungan rumah susun dengan prasarana, sarana, dan utilitas umum.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-40/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Prasarana, sarana, dan utilitas umum sebagaimana dimaksud pada ayat (1) harus mempertimbangkan:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-40/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "kemudahan dan keserasian hubungan dalam kegiatan sehari-hari;",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-40/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "pengamanan jika terjadi hal yang membahayakan; dan",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-40/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "struktur, ukuran, dan kekuatan sesuai dengan fungsi dan penggunaannya.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-40/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Prasarana, sarana, dan utilitas umum sebagaimana dimaksud pada ayat (1) harus memenuhi standar pelayanan minimal.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-40/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Ketentuan lebih lanjut mengenai standar pelayanan minimal prasarana, sarana, dan utilitas umum diatur dalam Peraturan Pemerintah. L2. Ketentuan Pasal 43 diubah sehingga berbunyi sebagai berikut: Pasal43...",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 40 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-40",
+          "tipe": "pasal",
+          "nomor": "40",
+          "anak": [
+           {
+            "id": "pasal-40/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pelaku Pembangunan wajib melengkapi lingkungan Rumah Susun dengan prasarana, sarana, dan utilitas umum.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-40/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Prasarana, sarana, dan utilitas umum sebagaimana dimaksud pada ayat (1) harus mempertimbangkan:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-40/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "kemudahan dan keserasian hubungan dalam kegiatan sehari-hari;",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-40/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "pengamanan jika terjadi hal yang membahayakan; dan",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-40/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "struktur, ukuran, dan kekuatan sesuai dengan fungsi dan penggunaannya.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-40/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Prasarana, sarana, dan utilitas umum sebagaimana dimaksud pada ayat (1) harus memenuhi standar pelayanan minimal.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-40/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Ketentuan lebih lanjut mengenai standar pelayanan minimal prasarana, sarana, dan utilitas umum diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
          },
          "catatan": "Ketentuan Pasal 40 diubah sehingga berbunyi sebagai berikut:"
         }
@@ -3192,10 +4172,10 @@
        "riwayat": [
         {
          "aksi": "diganti",
-         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-         "pelaku": "uu-2023-6",
-         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-         "tanggal": "2023-03-31",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
          "sebelum": {
           "id": "pasal-43",
           "tipe": "pasal",
@@ -3269,6 +4249,170 @@
           ],
           "sumber": "uu-2011-20",
           "berlaku_mulai": "2011-11-10"
+         },
+         "catatan": "Ketentuan Pasal 39 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-43",
+          "tipe": "pasal",
+          "nomor": "43",
+          "anak": [
+           {
+            "id": "pasal-43/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Proses jual beli sarusun sebelum pembangunan rumah susun selesai dapat dilakukan melalui PPJB yang dibuat di hadapan notaris.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-43/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "PPJB sebagaimana dimaksud pada ayat (1) dilakukan setelah memenuhi persyaratan kepastian atas:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-43/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "status kepemilikan tanah;",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-43/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Persetujuan Bangunan Gedung;",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-43/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "ketersediaan prasarana, sarana, dan utilitas umum;",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-43/ayat-2/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "keterbangunan paling sedikit 2Oo/o (dua puluh persen); dan",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-43/ayat-2/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "hal yang diperjanjikan.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 43 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-43",
+          "tipe": "pasal",
+          "nomor": "43",
+          "anak": [
+           {
+            "id": "pasal-43/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Proses jual beli Sarusun sebelum pembangunan Rumah Susun selesai dapat dilakukan melalui PPJB yang dibuat di hadapan notaris.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-43/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "PPJB sebagaimana dimaksud pada ayat (1) dilakukan setelah memenuhi persyaratan kepastian atas:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-43/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "status kepemilikan tanah;",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-43/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Persetqiuan Bangunan Gedung;",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-43/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "ketersediaan prasarana, sarana, dan utilitas umum;",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-43/ayat-2/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "keterbangunan paling sedikit 2O% (dua puluh persen); dan",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-43/ayat-2/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "hal yang diperjanjikan.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
          },
          "catatan": "Ketentuan Pasal 43 diubah sehingga berbunyi sebagai berikut:"
         }
@@ -3832,10 +4976,10 @@
        "riwayat": [
         {
          "aksi": "diganti",
-         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-         "pelaku": "uu-2023-6",
-         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-         "tanggal": "2023-03-31",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
          "sebelum": {
           "id": "pasal-54",
           "tipe": "pasal",
@@ -3918,6 +5062,143 @@
           ],
           "sumber": "uu-2011-20",
           "berlaku_mulai": "2011-11-10"
+         },
+         "catatan": "Ketentuan Pasal 54 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-54",
+          "tipe": "pasal",
+          "nomor": "54",
+          "anak": [
+           {
+            "id": "pasal-54/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Sarusun umum yang memperoleh kemudahan dari pemerintah hanya dapat dimiliki atau disewa oleh MBR.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-54/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Setiap orang yang memiliki sarusun umum sebagaimana dimaksud pada ayat (1) hanya dapat mengalihkan kepemilikannya kepada pihak lain dalam hal:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-54/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "pewarisan; atau",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-54/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "perikatan kepemilikan rumah susun setelah jangka waktu 20 (dua puluh) tahun.",
+              "verifikasi": "draf",
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-54/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pengalihan sebagaimana dimaksud pada ayat (2) huruf b hanya dapat dilakukan oleh badan percepatan penyelenggaraan perumahan.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-54/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Ketentuan lebih lanjut mengenai pengalihan sebagaimana dimaksud pada ayat (2) dan ayat (3) dan kriteria dan tata cara pemberian kemudahan kepemilikan sarusun umum sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Presiden.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 54 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-54",
+          "tipe": "pasal",
+          "nomor": "54",
+          "anak": [
+           {
+            "id": "pasal-54/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Sarusun umum yang memperoleh kemudahan dari pemerintah hanya dapat dimiliki atau disewa oleh MBR.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-54/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Setiap Orang yang memiliki Sarusun umum sebagaimana dimaksud pada ayat (1) hanya dapat mengalihkan kepemilikannya kepada pihak lain dalam hal:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-54/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "pewarisan; atau",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-54/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "perikatan kepemilikan Rumah Susun setelah jangka waktu 20 (dua puluh) tahun.",
+              "verifikasi": "draf",
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-54/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pengalihan sebagaimana dimaksud pada ayat (2) huruf b hanya dapat dilakukan oleh badan percepatan penyelenggaraan perumahan. l4l Ketentuan lebih lanjut mengenai kriteria dan tata cara pemberian kemudahan kepemilikan Sarusun umum oleh MBR sebagaimana dimaksud pada ayat (1) dan pengalihan sebagaimana dimaksud pada ayat (2) dan ayat (3) diatur dalam Peraturan Presiden. T",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
          },
          "catatan": "Ketentuan Pasal 54 diubah sehingga berbunyi sebagai berikut:"
         }
@@ -4021,10 +5302,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
        "sebelum": {
         "id": "pasal-56",
         "tipe": "pasal",
@@ -4069,6 +5350,130 @@
         ],
         "sumber": "uu-2011-20",
         "berlaku_mulai": "2011-11-10"
+       },
+       "catatan": "Ketentuan Pasal 56 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-56",
+        "tipe": "pasal",
+        "nomor": "56",
+        "anak": [
+         {
+          "id": "pasal-56/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pengelolaan rumah susun meliputi kegiatan operasional, pemeliharaarr, dan perawatan bagian bersama, benda bersama, dan tanah bersama.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-56/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pengelolaan rumah susun sebagaimana dimaksud pada ayat (1) harus dilaksanakan oleh pengelola yang berbadan hukum, kecuali rumah susun umum sewa, rumah susun khusus, dan rumah susun negara.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-56/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Badan hukum sebagaimana dimaksud pada ayat (2) harus mendaftar dan mendapatkan pertzinan Berusaha dari bupati/wali kota sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-56/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, badan hukum sebagaimana dimaksud pada ayat (2) harus mendaftar dan mendapatkan perizinan Berusaha dari Gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-56/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 56 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-56",
+        "tipe": "pasal",
+        "nomor": "56",
+        "anak": [
+         {
+          "id": "pasal-56/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pengelolaan Rumah Susun meliputi kegiatan operasional, pemeliharaan, dan perawatan Bagian Bersama, Benda Bersama, dan Tanah Bersama.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-56/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pengelolaan Rumah Susun sebagaimana dimaksud pada ayat (1) harus dilaksanakan oleh Pengelola yang berbadan hukum, kecuali Rumah Susun Umum sewa, Rumah Susun Khusus, dan Rumah Susun Negara.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-56/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Badan Hukum sebagaimana dimaksud pada ayat (2) harus mendaftar dan mendapatkan Perizinan Berusaha dari bupati/wali kota sesuai dengan norna, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-56/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta, Badan Hukum sebagaimana dimaksud pada ayat (2) harus mendaftar dan mendapatkan Perizinan Berusaha dari gubernur sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-56/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Ketentuan lebih lanjut mengenai Perizinarr Berusaha sebagaimana dimaksud pada ayat (3) dan ayat (4) diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
        },
        "catatan": "Ketentuan Pasal 56 diubah sehingga berbunyi sebagai berikut:"
       }
@@ -4425,10 +5830,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
        "sebelum": {
         "id": "pasal-67",
         "tipe": "pasal",
@@ -4464,6 +5869,95 @@
         ],
         "sumber": "uu-2011-20",
         "berlaku_mulai": "2011-11-10"
+       },
+       "catatan": "Ketentuan Pasal 67 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-67",
+        "tipe": "pasal",
+        "nomor": "67",
+        "anak": [
+         {
+          "id": "pasal-67/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Dalam pelaksanaan peningkatan kualitas rumah susun sebagaimana dimaksud dalam Pasal 65 ayat (1) huruf a, PPPSRS dapat bekerja sama dengan pelaku pembangunan rumah susun.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-67/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Kerja sama sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan perjanjian tertulis yang dibuat di hadapan pejabat yang berwenang berdasarkan prinsip kesetaraan.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-67/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pelaksanaan peningkatan kualitas rumah susun umum dan rumah susun khusus dilaksanakan oleh badan percepatan penyelenggaraan perumahan.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 67 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-67",
+        "tipe": "pasal",
+        "nomor": "67",
+        "anak": [
+         {
+          "id": "pasal-67/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Dalam pelaksanaan peningkatan kualitas Rumah Susun sebagaimana dimaksud dalam Pasal 65 ayat (1) huruf a, PPPSRS dapat bekerja sama dengan Pelaku Pembangunan.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-67/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Kerja... PRESIOEN (2) Kerja sama sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan perjanjian tertulis yang dibuat di hadapan pejabat yang berwenang berdasarkan prinsip kesetaraan.",
+          "verifikasi": "pdf-ocr",
+          "catatan_kurasi": "Kop halaman pindaian hancur menjadi huruf tak terbaca (mis. \"ekllfietrnl\", \"trlrl:fitrlin\", \"phesiden\") dan menyelip di TENGAH ayat, di antara kata-tangkap kaki halaman dan pengulangan isinya. Teks unit ini bersih dan sesuai naskah; yang rusak arsipnya. Diperiksa manual 6 Sep 2026 terhadap PDF sumber.",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-67/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pelaksanaan peningkatan kualitas Rumah Susun Umum dan Rumah Susun Khusus dilaksanakan oleh badan percepatan penyelenggaraan perumahan.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
        },
        "catatan": "Ketentuan Pasal 67 diubah sehingga berbunyi sebagai berikut:"
       }
@@ -4954,6 +6448,22 @@
        "riwayat": [
         {
          "aksi": "dicabut",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "catatan": "Pasal 72 dihapus."
+        },
+        {
+         "aksi": "dicabut",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "catatan": "Pasal 72 dihapus."
+        },
+        {
+         "aksi": "dicabut",
          "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
          "pelaku": "uu-2023-6",
          "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -4972,6 +6482,22 @@
        "berlaku_mulai": "2011-11-10",
        "status": "dicabut",
        "riwayat": [
+        {
+         "aksi": "dicabut",
+         "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "catatan": "Pasal 73 dihapus."
+        },
+        {
+         "aksi": "dicabut",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "catatan": "Pasal 73 dihapus."
+        },
         {
          "aksi": "dicabut",
          "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
@@ -7114,10 +8640,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
        "sebelum": {
         "id": "pasal-107",
         "tipe": "pasal",
@@ -7126,6 +8652,40 @@
         "verifikasi": "pdf-resmi",
         "sumber": "uu-2011-20",
         "berlaku_mulai": "2011-11-10"
+       },
+       "catatan": "Ketentuan Pasal lO7 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-107",
+        "tipe": "pasal",
+        "nomor": "107",
+        "teks": "Setiap orang yang menyelenggarakan rumah susun tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 16 ayat (2), Pasal 22 ayat (3), Pasal 25 ayat (1), Pasal 26 ayat (1), Pasal 39 ayat (1), Pasal 40 ayat (1), Pasal 51 ayat (3), Pasal 52, Pasal 59 ayat (1), Pasal 6l ayat (1), Pasal 66, Pasal 74 ayat (1), Pasal 98, Pasal 1O0, atau Pasal 101 dikenai sanksi administratif.",
+        "verifikasi": "draf",
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 1O7 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-107",
+        "tipe": "pasal",
+        "nomor": "107",
+        "teks": "Setiap Orang yang menyelenggarakan Rumah Susun tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 16 ayat (2), Pasal 22 ayat (3), Pasal 25 ayat (1), Pasal 26 ayat (1), Pasal 39 ayat (1), Pasal 40 ayat (1), Pasal 51 ayat (3), Pasal 52, Pasal 59 ayat (1), Pasal 6l ayat (1), Pasal 66, PasalT4 ayat (1), Pasal 98, Pasal l0O, atau Pasal 101 dikenai sanksi administratif.",
+        "verifikasi": "draf",
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
        },
        "catatan": "Ketentuan Pasal 107 diubah sehingga berbunyi sebagai berikut:"
       }
@@ -7261,10 +8821,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
        "sebelum": {
         "id": "pasal-108",
         "tipe": "pasal",
@@ -7394,6 +8954,278 @@
         "berlaku_mulai": "2011-11-10"
        },
        "catatan": "Ketentuan Pasal 108 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-108",
+        "tipe": "pasal",
+        "nomor": "108",
+        "anak": [
+         {
+          "id": "pasal-108/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Sanksi administratif sebagaimana dimaksud dalam Pasal lO7 dapat berupa:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-108/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "peringatan tertulis;",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pembatasan kegiatan pembangunan danf atau kegiatan usaha;",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "penghentian sementara pada pekerjaan pelaksanaan pembangunan ; d.penghentian...",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "penghentian sementara atau penghentian tetap pada pengelolaan rumah susun;",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "pencabutan Persetujuan Bangunan Gedung;",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "pencabutan sertifikat laik fungsi;",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "pencabutan SHM sarusun atau SKBG sarusun;",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "perintah pembongkaran bangunan rumah SLISLIN;",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "denda administratif; dan/atau",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "pencabutan Perizinan Berusaha.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-108/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan lebih lanjut mengenai kriteria, jenis, besaran denda, dan tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-108/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) tidak menghilangkan tanggung jawab pemulihan.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 108 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-108",
+        "tipe": "pasal",
+        "nomor": "108",
+        "anak": [
+         {
+          "id": "pasal-108/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Sanksi administratif sebagaimana dimaksud dalam Pasal 107 dapat berupa:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-108/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "peringatantertulis;",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pembatasan kegiatan pembangunan dan/ atau kegiatan usaha;",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "penghentian sementara pada pekerjaan pelaksanaan pembangunan ; I,li-d-{IEtrLINEENtrEM",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "penghentian sementara atau penghentian tetap pada pengelolaan Rumah Susun;",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "pencabutan persetqiuan bangunan gedung;",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "pencabutan sertilikat laik fungsi;",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "pencabutan SHM Sarusun atau SKBG Sarusun;",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "perintah pembongkaran bangunan Rumah Susun;",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "denda administratif; dan/atau",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-108/ayat-1/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "pencabutan Perizinan Berusaha.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-108/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Ketentuan lebih lanjut mengenai kriteria, jenis, besaran denda, dan tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-108/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) tidak menghilangkan tanggung jawab pemulihan.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 108 diubah sehingga berbunyi sebagai berikut:"
       }
      ],
      "sumber": "uu-2023-6",
@@ -7450,6 +9282,22 @@
      "berlaku_mulai": "2011-11-10",
      "status": "dicabut",
      "riwayat": [
+      {
+       "aksi": "dicabut",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Pasal 110 dihapus."
+      },
+      {
+       "aksi": "dicabut",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "catatan": "Pasal 11O dihapus."
+      },
       {
        "aksi": "dicabut",
        "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
@@ -7537,6 +9385,22 @@
      "riwayat": [
       {
        "aksi": "dicabut",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Pasal 112 dihapus"
+      },
+      {
+       "aksi": "dicabut",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "catatan": "Pasal 112 dihapus"
+      },
+      {
+       "aksi": "dicabut",
        "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -7574,10 +9438,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
        "sebelum": {
         "id": "pasal-113",
         "tipe": "pasal",
@@ -7626,6 +9490,43 @@
         "berlaku_mulai": "2011-11-10"
        },
        "catatan": "Ketentuan Pasal 113 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-113",
+        "tipe": "pasal",
+        "nomor": "113",
+        "anak": [
+         {
+          "id": "pasal-113/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "mengubah peruntukan lokasi rumah susun yang sudah ditetapkan; atau",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-113/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "mengubah fungsi dan pemanfaatan rumah susun sebagaimana dimaksud dalam Pasal 10 1 menimbulkan korban terhadap manusia atau kerusakan barang, pelaku dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp250.0O0.000,O0 (dua ratus lima puluh juta rupiah).",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "teks": "Setiap orang yang:",
+        "verifikasi": "draf",
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 113 diubah sehingga berbunyi sebagai berikut:"
       }
      ],
      "sumber": "uu-2023-6",
@@ -7661,10 +9562,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
        "sebelum": {
         "id": "pasal-114",
         "tipe": "pasal",
@@ -7693,6 +9594,80 @@
         "verifikasi": "pdf-resmi",
         "sumber": "uu-2011-20",
         "berlaku_mulai": "2011-11-10"
+       },
+       "catatan": "Ketentuan Pasal 174 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-114",
+        "tipe": "pasal",
+        "nomor": "114",
+        "anak": [
+         {
+          "id": "pasal-114/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "menetapkan lokasi yang berpotensi menimbulkan bahaya untuk pembangunan rumah susun; atau",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-114/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "mengeluarkan Persetujuan Bangunan Gedung rumah susun yang tidak sesuai dengan lokasi peruntukan sebagaimana dimaksud dalam Pasal 102 dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak RpS.000.000.000,00 (lima miliar rupiah).",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "teks": "Setiap pejabat yang:",
+        "verifikasi": "draf",
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 114 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-114",
+        "tipe": "pasal",
+        "nomor": "114",
+        "anak": [
+         {
+          "id": "pasal-114/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "menetapkan lokasi yang berpotensi menimbulkan bahaya untuk pembangunan Rumah Susun; atau",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-114/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "mengeluarkan persetujuan bangunan gedung Rumah Susun yang tidak sesuai dengan lokasi peruntukan, sebagaimana dimaksud dalam Pasal 1O2, dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp5.00O.000.O00,O0 (lima miliar rupiah).",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "teks": "Setiap pejabat yang:",
+        "verifikasi": "draf",
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
        },
        "catatan": "Ketentuan Pasal 114 diubah sehingga berbunyi sebagai berikut:"
       }
@@ -7766,10 +9741,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "uu-2020-11/amandemen-uu-2011-20",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
        "sebelum": {
         "id": "pasal-117",
         "tipe": "pasal",
@@ -7816,6 +9791,116 @@
         ],
         "sumber": "uu-2011-20",
         "berlaku_mulai": "2011-11-10"
+       },
+       "catatan": "Ketentuan Pasal 117 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2011-20",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-117",
+        "tipe": "pasal",
+        "nomor": "117",
+        "anak": [
+         {
+          "id": "pasal-117/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 109, Pasal 111, Pasal 11S atau pasal 116 dilakukan oleh badan hukum, selain pidana penjara dan denda terhadap pengurusnya, pidana dapat dijatuhkan terhadap badan hukum berupa pidana denda dengan pemberatan 3 (tiga) kati dari pidana denda terhadap orang.",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-117/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Selain pidana denda sebagaimana dimaksud pada ayat (1), badan hukum dapat dijatuhi pidana tambahan berupa:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-117/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pencabut an Perizinan Berusaha; atau",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-117/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pencabutan status badan hukum.",
+            "verifikasi": "draf",
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 117 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2011-20",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-117",
+        "tipe": "pasal",
+        "nomor": "117",
+        "anak": [
+         {
+          "id": "pasal-117/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 109, Pasal 111, Pasal 115 atau Pasal 116 dilakukan oleh Badan Hukum, selain pidana penjara dan pidana denda terhadap pengurusnya, pidana dapat d|atuhkan terhadap Badan Hukum berupa pidana denda dengan pemberatan 3 (tiga) kali dari pidana denda terhadap orang.",
+          "verifikasi": "draf",
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-117/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Selain pidana denda sebagaimana dimaksud pada ayat (1), Badan Hukum dapat dijatuhi pidana tambahan berupa:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-117/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pencabutan Perizinan Berusaha; atau",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pencabutan status Badan Hukum.",
+            "verifikasi": "draf",
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
        },
        "catatan": "Ketentuan Pasal 117 diubah sehingga berbunyi sebagai berikut:"
       }

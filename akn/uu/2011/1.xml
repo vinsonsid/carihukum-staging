@@ -11,20 +11,225 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2011/1/ind@2011-01-12/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2011/1/ind@2011-01-12"/>
-          <FRBRdate date="2011-01-12" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2011/1/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2011/1/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2011/1/ind@2011-01-12/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2011/1/ind@2011-01-12.akn"/>
+          <FRBRthis value="/akn/id/act/uu/2011/1/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2011/1/ind@2023-03-31.akn"/>
           <FRBRdate date="2026-09-06" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2011-01-12" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_35"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_36"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_55"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_107"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_11">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_109"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_114"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_13">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#bab_9a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_134"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_15">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_150"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_16">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_151"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_17">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_153"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_20">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_35"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_21">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_36"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_22">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_23">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_24">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_55"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_25">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_107"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_26">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_109"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_27">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_114"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_28">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#bab_9a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_29">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_134"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_30">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_150"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_31">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_151"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_32">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_153"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_33">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_34">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_35">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_35"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_36">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_36"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_37">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_38">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_39">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_40">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_55"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_41">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_107"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_42">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_109"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_43">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_114"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_44">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#bab_9a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_45">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_134"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_46">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_150"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_47">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_151"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_48">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_153"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -1014,15 +1219,11 @@
                     <num>26</num>
                       <paragraph eId="pasal_26__ayat_1">
                         <num>(1)</num>
-                        <content><p>Hasil perencanaan dan perancangan rumah harus memenuhi persyaratan teknis, administratif, tata ruang, dan ekologis.</p></content>
+                        <content><p>Hasil perencanaan dan perancangan Rumah harus memenuhi standar.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_26__ayat_2">
                         <num>(2)</num>
-                        <content><p>Persyaratan sebagaimana dimaksud pada ayat (1) merupakan syarat bagi diterbitkannya izin mendirikan bangunan.</p></content>
-                      </paragraph>
-                      <paragraph eId="pasal_26__ayat_3">
-                        <num>(3)</num>
-                        <content><p>Perencanaan dan perancangan rumah sebagaimana dimaksud pada ayat (1) merupakan bagian dari perencanaan perumahan dan/atau permukiman.</p></content>
+                        <content><p>Standar sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                       </paragraph>
 
                   </article>
@@ -1064,11 +1265,11 @@
                     <num>29</num>
                       <paragraph eId="pasal_29__ayat_1">
                         <num>(1)</num>
-                        <content><p>Perencanaan prasarana, sarana, dan utilitas umum sebagaimana dimaksud dalam Pasal 28 harus memenuhi persyaratan administratif, teknis, dan ekologis.</p></content>
+                        <content><p>Perencanaan prasarana, sarana, dan utilitas umum sebagaimana dimaksud dalam Pasal 28 harus memenuhi standar.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_29__ayat_2">
                         <num>(2)</num>
-                        <content><p>Perencanaan prasarana, sarana, dan utilitas umum yang telah memenuhi persyaratan wajib mendapat pengesahan dari pemerintah daerah.</p></content>
+                        <content><p>Ketentuan lebih lanjut mengenai standar sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                       </paragraph>
 
                   </article>
@@ -1127,15 +1328,11 @@
                     <num>33</num>
                       <paragraph eId="pasal_33__ayat_1">
                         <num>(1)</num>
-                        <content><p>Pemerintah daerah wajib memberikan kemudahan perizinan bagi badan hukum yang mengajukan rencana pembangunan perumahan untuk MBR.</p></content>
+                        <content><p>Pemerintah Pusat dan Pemerintah Daerah wajib memberikan kemudahan Perizinan Berusaha bagi Badan Hukum yang mengajukan rencana pembangunan Perumahan untuk MBR.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_33__ayat_2">
                         <num>(2)</num>
-                        <content><p>Pemerintah daerah berwenang mencabut izin pembangunan perumahan terhadap badan hukum yang tidak memenuhi kewajibannya.</p></content>
-                      </paragraph>
-                      <paragraph eId="pasal_33__ayat_3">
-                        <num>(3)</num>
-                        <content><p>Ketentuan lebih lanjut mengenai bentuk kemudahan perizinan dan tata cara pencabutan izin pembangunan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Menteri.</p></content>
+                        <content><p>Ketentuan lebih lanjut mengenai kemudahan Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                       </paragraph>
 
                   </article>
@@ -1161,33 +1358,42 @@
                   </article>
                   <article eId="pasal_35">
                     <num>35</num>
-                      <paragraph eId="pasal_35__ayat_1">
-                        <num>(1)</num>
-                        <content><p>Pembangunan perumahan skala besar dengan hunian berimbang meliputi rumah sederhana, rumah menengah, dan rumah mewah.</p></content>
-                      </paragraph>
-                      <paragraph eId="pasal_35__ayat_2">
-                        <num>(2)</num>
-                        <content><p>Ketentuan mengenai hunian berimbang diatur dengan Peraturan Menteri.</p></content>
-                      </paragraph>
-
+                    <content><p>Pembangunan Perumahan skala besar dengan hunian berimbang meliputi Rumah sederhana, Rumah menengah, dan Rumah mewah.</p></content>
                   </article>
                   <article eId="pasal_36">
                     <num>36</num>
                       <paragraph eId="pasal_36__ayat_1">
                         <num>(1)</num>
-                        <content><p>Dalam hal pembangunan perumahan dengan hunian berimbang tidak dalam satu hamparan, pembangunan rumah umum harus dilaksanakan dalam satu daerah kabupaten/kota.</p></content>
+                        <content><p>Dalam hal pembangunan Perumahan dengan hunian berimbang tidak dalam I (satu) hamparan, pembangunan Rumah Umum harus dilaksanakan dalam 1 (satu) daerah kabupaten/kota.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_36__ayat_2">
                         <num>(2)</num>
-                        <content><p>Pembangunan rumah umum sebagaimana dimaksud pada ayat (1) harus mempunyai akses menuju pusat pelayanan atau tempat kerja.</p></content>
+                        <intro><p>Dalam hal Rumah sederhana tidak dapat dibangun dalam bentuk Rumah tunggal atau Rumah deret, dapat dikonversi dalam:</p></intro>
+                          <point eId="pasal_36__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>bentuk Rumah susun umum yang dibangun dalam satu hamparan yang sama; atau</p></content>
+                          </point>
+                          <point eId="pasal_36__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>bentuk dana untuk pembangunan Rumah Umum.</p></content>
+                          </point>
+
                       </paragraph>
                       <paragraph eId="pasal_36__ayat_3">
                         <num>(3)</num>
-                        <content><p>Kemudahan akses sebagaimana dimaksud pada ayat (2) diatur dengan peraturan daerah.</p></content>
+                        <content><p>Pengelolaan dana dari konversi sebagaimana dimaksud pada ayat (21huruf b dilaksanakan oleh badan percepatan penyelenggaraan Perumahan.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_36__ayat_4">
                         <num>(4)</num>
-                        <content><p>Pembangunan perumahan dengan hunian berimbang sebagaimana dimaksud pada ayat (1) dilakukan oleh badan hukum yang sama.</p></content>
+                        <content><p>Pembangunan Rumah Umum sebagaimana dimaksud pada ayat (1) harus mempunyai akses menuju pusat pelayanan atau tempat kerja.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_36__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Pembangunan Perumahan dengan hunian berimbang sebagaimana dimaksud pada ayat (1) dilakukan oleh Badan Hukum yang sama.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_36__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai pembangunan Perumahan dengan hunian berimbang diatur dalam Peraturan Pemerintah.</p></content>
                       </paragraph>
 
                   </article>
@@ -1240,21 +1446,17 @@
                     <num>40</num>
                       <paragraph eId="pasal_40__ayat_1">
                         <num>(1)</num>
-                        <content><p>Dalam melaksanakan tanggung jawab sebagaimana dimaksud dalam Pasal 39 ayat (1), Pemerintah dan/atau pemerintah daerah menugasi dan/atau membentuk lembaga atau badan yang menangani pembangunan perumahan dan permukiman sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                        <content><p>Dalam melaksanakan tanggung jawab sebagaimana dimaksud dalam Pasal 39 ayat (1), Pemerintah Pusat dan/atau Pemerintah Daerah menugasi dan/atau membentuk lembaga atau badan yang menangani pembangunan Perumahan dan Permukiman sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_40__ayat_2">
                         <num>(2)</num>
                         <intro><p>Lembaga atau badan sebagaimana dimaksud pada ayat (1) bertanggung jawab:</p></intro>
                           <point eId="pasal_40__ayat_2__huruf_a">
                             <num>a.</num>
-                            <content><p>membangun rumah umum, rumah khusus, dan rumah negara;</p></content>
+                            <content><p>menyediakan tanah bagi Perumahan; dan</p></content>
                           </point>
                           <point eId="pasal_40__ayat_2__huruf_b">
                             <num>b.</num>
-                            <content><p>menyediakan tanah bagi perumahan; dan</p></content>
-                          </point>
-                          <point eId="pasal_40__ayat_2__huruf_c">
-                            <num>c.</num>
                             <content><p>melakukan koordinasi dalam proses perizinan dan pemastian kelayakan hunian.</p></content>
                           </point>
 
@@ -1281,7 +1483,7 @@
                     <num>42</num>
                       <paragraph eId="pasal_42__ayat_1">
                         <num>(1)</num>
-                        <content><p>Rumah tunggal, rumah deret, dan/atau rumah susun yang masih dalam tahap proses pembangunan dapat dipasarkan melalui sistem perjanjian pendahuluan jual beli sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                        <content><p>Rumah tunggal, Rumah deret, dan/atau Rumah susun yang masih dalam tahap pembangunan dapat dipasarkan melalui sistem perjanjian pendahuluan jual beli sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
                       </paragraph>
                       <paragraph eId="pasal_42__ayat_2">
                         <num>(2)</num>
@@ -1296,21 +1498,21 @@
                           </point>
                           <point eId="pasal_42__ayat_2__huruf_c">
                             <num>c.</num>
-                            <content><p>kepemilikan izin mendirikan bangunan induk;</p></content>
+                            <content><p>Persetujuan Bangunan Gedung;</p></content>
                           </point>
                           <point eId="pasal_42__ayat_2__huruf_d">
                             <num>d.</num>
-                            <content><p>ketersediaan prasarana, sarana, dan utilitas umum; dan</p></content>
+                            <content><p>ketersediaan Prasarana, Sarana, dan Utilitas Umum; dan</p></content>
                           </point>
                           <point eId="pasal_42__ayat_2__huruf_e">
                             <num>e.</num>
-                            <content><p>keterbangunan perumahan paling sedikit 20% (dua puluh persen).</p></content>
+                            <content><p>keterbangunan Perumahan paling sedikit 20% (dua puluh persen).</p></content>
                           </point>
 
                       </paragraph>
                       <paragraph eId="pasal_42__ayat_3">
                         <num>(3)</num>
-                        <content><p>Ketentuan lebih lanjut mengenai sistem perjanjian pendahuluan jual beli sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.</p></content>
+                        <content><p>Ketentuan lebih lanjut mengenai sistem perjanjian pendahuluan jual beli sebagaimana dimaksud pada ayat (1) dan keterbangunan Perumahan sebagaimana dimaksud pada ayat(21huruf e diatur dalam Peraturan Pemerintah.</p></content>
                       </paragraph>
 
                   </article>
@@ -1530,7 +1732,7 @@
                 <num>53</num>
                   <paragraph eId="pasal_53__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Pengendalian perumahan dimulai dari tahap:</p></intro>
+                    <intro><p>Pengendalian Perumahan dilakukan mulai dari tahap:</p></intro>
                       <point eId="pasal_53__ayat_1__huruf_a">
                         <num>a.</num>
                         <content><p>perencanaan;</p></content>
@@ -1547,10 +1749,10 @@
                   </paragraph>
                   <paragraph eId="pasal_53__ayat_2">
                     <num>(2)</num>
-                    <intro><p>Pengendalian perumahan sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Pemerintah dan/atau pemerintah daerah dalam bentuk:</p></intro>
+                    <intro><p>Pengendalian Perumahan sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Pemerintah Pusat dan/atau Pemerintah Daerah sesuai dengan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat dalam bentuk:</p></intro>
                       <point eId="pasal_53__ayat_2__huruf_a">
                         <num>a.</num>
-                        <content><p>perizinan;</p></content>
+                        <content><p>Perizinan Berr.rsaha atau persetujuan;</p></content>
                       </point>
                       <point eId="pasal_53__ayat_2__huruf_b">
                         <num>b.</num>
@@ -1564,7 +1766,7 @@
                   </paragraph>
                   <paragraph eId="pasal_53__ayat_3">
                     <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai pengendalian perumahan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai pengendalian Perumahan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1634,40 +1836,36 @@
                 <num>55</num>
                   <paragraph eId="pasal_55__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Orang perseorangan yang memiliki rumah umum dengan kemudahan yang diberikan Pemerintah atau pemerintah daerah hanya dapat menyewakan dan/atau mengalihkan kepemilikannya atas rumah kepada pihak lain, dalam hal:</p></intro>
+                    <intro><p>Orang perseorangan yang memiliki Rumah Umum dengan kemudahan yang diberikan Pemerintah Pusat atau Pemerintah Daerah hanya dapat menyewakan dan/atau mengalihkan kepemilikannya atas Rumah kepada pihak lain dalam hal:</p></intro>
                       <point eId="pasal_55__ayat_1__huruf_a">
                         <num>a.</num>
-                        <content><p>pewarisan;</p></content>
+                        <content><p>pewarisan; atau</p></content>
                       </point>
                       <point eId="pasal_55__ayat_1__huruf_b">
                         <num>b.</num>
-                        <content><p>penghunian setelah jangka waktu paling sedikit 5 (lima) tahun; atau</p></content>
-                      </point>
-                      <point eId="pasal_55__ayat_1__huruf_c">
-                        <num>c.</num>
-                        <content><p>pindah tempat tinggal karena tingkat sosial ekonomi yang lebih baik.</p></content>
+                        <content><p>penghunian setelah jangka waktu paling sedikit 5 (lima) tahun.</p></content>
                       </point>
 
                   </paragraph>
                   <paragraph eId="pasal_55__ayat_2">
                     <num>(2)</num>
-                    <content><p>Dalam hal dilakukan pengalihan kepemilikan sebagaimana dimaksud pada ayat (1) huruf b dan huruf c, pengalihannya wajib dilaksanakan oleh lembaga yang ditunjuk atau dibentuk oleh Pemerintah atau pemerintah daerah dalam bidang perumahan dan permukiman.</p></content>
+                    <content><p>Dalam hal dilakukan pengalihan kepemilikan sebagaimana dimaksud pada ayat (1) huruf b, pengalihannya wajib dilaksanakan oleh lembaga yang ditunjuk atau dibentuk oleh Pemerintah Pusat atau Pemerintah Daerah dalam bidang Perumahan dan Permukiman.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_55__ayat_3">
                     <num>(3)</num>
-                    <content><p>Jika pemilik meninggalkan rumah secara terus-menerus dalam waktu paling lama 1 (satu) tahun tanpa memenuhi kewajiban berdasarkan perjanjian, Pemerintah atau pemerintah daerah berwenang mengambil alih kepemilikan rumah tersebut.</p></content>
+                    <content><p>Jika pemilik meninggalkan Rumah secara terus- menerus dalam waktu paling lama 1 (satu) tahun tanpa memenuhi kewajiban berdasarkan perjanjian, Pemerintah Pusat atau Pemerintah Daerah berwenang mengambil alih kepemilikan Rumah tersebut.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_55__ayat_4">
                     <num>(4)</num>
-                    <content><p>Rumah yang telah diambil alih oleh Pemerintah atau pemerintah daerah sebagaimana dimaksud pada ayat (3) wajib didistribusikan kembali kepada MBR.</p></content>
+                    <content><p>Rumah yang telah diambil alih oleh Pemerintah Pusat atau Pemerintah Daerah sebagaimana dimaksud pada ayat (3) wajib didistribusikan kembali kepada MBR.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_55__ayat_5">
                     <num>(5)</num>
-                    <content><p>Ketentuan mengenai penunjukkan dan pembentukan lembaga oleh Pemerintah atau pemerintah daerah sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai penunjukan dan pembentukan lembaga sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Presiden.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_55__ayat_6">
                     <num>(6)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai kemudahan dan/atau bantuan pembangunan dan perolehan rumah bagi MBR sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai kemudahan dan/atau bantuan pembangunan dan perolehan Rumah bagi MBR diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -3016,15 +3214,15 @@
             <num>107</num>
               <paragraph eId="pasal_107__ayat_1">
                 <num>(1)</num>
-                <content><p>Tanah yang langsung dikuasai oleh negara sebagaimana dimaksud dalam Pasal 106 huruf a yang digunakan untuk pembangunan rumah, perumahan, dan/atau kawasan permukiman diserahkan melalui pemberian hak atas tanah kepada setiap orang yang melakukan pembangunan rumah, perumahan, dan kawasan permukiman.</p></content>
+                <content><p>Tanah yang langsung dikuasai negara sebagaimana dimaksud dalam Pasal 106 huruf a yang digunakan untuk pembangunan Rumah, Perumahan, dan/atau Kawasan Permukiman diserahkan melalui pemberian hak atas tanah kepada Setiap Orang yang melakukan pembangunan Rumah, Perumahan, dan Kawasan Permukiman.</p></content>
               </paragraph>
               <paragraph eId="pasal_107__ayat_2">
                 <num>(2)</num>
-                <content><p>Pemberian hak atas tanah sebagaimana dimaksud pada ayat (1) didasarkan pada keputusan gubernur atau bupati/walikota tentang penetapan lokasi atau izin lokasi.</p></content>
+                <content><p>Pemberian hak atas tanah sebagaimana dimaksud pada ayat (1) didasarkan pada penetapan lokasi atau konfirmasi, persetujuan, atau rekomendasi kesesuaian kegiatan pemanfaatan ruang.</p></content>
               </paragraph>
               <paragraph eId="pasal_107__ayat_3">
                 <num>(3)</num>
-                <content><p>Dalam hal tanah yang langsung dikuasai negara sebagaimana dimaksud pada ayat (1) terdapat garapan masyarakat, hak atas tanah diberikan setelah pelaku pembangunan perumahan dan permukiman selaku pemohon hak atas tanah menyelesaikan ganti rugi atas seluruh garapan masyarakat berdasarkan kesepakatan.</p></content>
+                <content><p>Dalam hal tanah yang langsung dikuasai negara sebagaimana dimaksud pada ayat (1) terdapat garapan masyarakat, hak atas tanah diberikan setelah pelaku pembangunan Perumahan dan Permukiman selaku pemohon hak atas tanah menyelesaikan ganti rugi atas seluruh garapan masyarakat berdasarkan kesepakatan.</p></content>
               </paragraph>
               <paragraph eId="pasal_107__ayat_4">
                 <num>(4)</num>
@@ -3069,19 +3267,19 @@
             <num>109</num>
               <paragraph eId="pasal_109__ayat_1">
                 <num>(1)</num>
-                <content><p>Konsolidasi tanah sebagaimana dimaksud dalam Pasal 106 huruf b dapat dilaksanakan bagi pembangunan rumah tunggal, rumah deret, atau rumah susun.</p></content>
+                <content><p>Konsolidasi Tanah sebagaimana dimaksud dalam Pasal 106 huruf b dapat dilaksanakan bagi pembangunan Rumah tunggal, Rumah deret, atau Rumah susun.</p></content>
               </paragraph>
               <paragraph eId="pasal_109__ayat_2">
                 <num>(2)</num>
-                <content><p>Penetapan lokasi konsolidasi tanah dilakukan oleh bupati/walikota.</p></content>
+                <content><p>Penetapan lokasi Konsolidasi Tanah dilakukan oleh bupati/wali kota.</p></content>
               </paragraph>
               <paragraph eId="pasal_109__ayat_3">
                 <num>(3)</num>
-                <content><p>Khusus untuk DKI Jakarta, penetapan lokasi konsolidasi tanah ditetapkan oleh gubernur.</p></content>
+                <content><p>Khusus untuk'Provinsi Daerah Khusus Ibukota Jakarta, penetapan lokasi Konsolidasi Tanah ditetapkan oleh gubernur.</p></content>
               </paragraph>
               <paragraph eId="pasal_109__ayat_4">
                 <num>(4)</num>
-                <content><p>Lokasi konsolidasi tanah yang sudah ditetapkan sebagaimana dimaksud pada ayat (2) dan ayat (3) tidak memerlukan izin lokasi.</p></content>
+                <content><p>Lokasi Konsolidasi Tanah yang sudah ditetapkan sebagaimana dimaksud pada ayat (2) dan ayat (3) tidak memerlukan konfirmasi, persetujuan, atau rekomendasi kesesuaian kegiatan pemanfaatan ruang.</p></content>
               </paragraph>
 
           </article>
@@ -3138,11 +3336,11 @@
             <num>114</num>
               <paragraph eId="pasal_114__ayat_1">
                 <num>(1)</num>
-                <content><p>Peralihan atau pelepasan hak atas tanah sebagaimana dimaksud dalam Pasal 106 huruf c dilakukan setelah badan hukum memperoleh izin lokasi.</p></content>
+                <content><p>Peralihan atau pelepasan hak atas tanah sebagaimana dimaksud dalam Pasal 106 huruf c dilakukan setelah Badan Hukum memperoleh konfirmasi, persetujuan, atau rekomendasi kesesuaian kegiatan pemanfaatan ruang.</p></content>
               </paragraph>
               <paragraph eId="pasal_114__ayat_2">
                 <num>(2)</num>
-                <content><p>Peralihan hak atas tanah sebagaimana dimaksud pada ayat (1) dibuat di hadapan pejabat pembuat akta tanah setelah ada kesepakatan bersama.</p></content>
+                <content><p>Peralihan hak atas tanah sebagaimana dimaksud pada ayat (1) dibuat di hadapan pejabat pembuat akta tanah setelah tercapai kesepakatan bersama.</p></content>
               </paragraph>
               <paragraph eId="pasal_114__ayat_3">
                 <num>(3)</num>
@@ -3150,7 +3348,7 @@
               </paragraph>
               <paragraph eId="pasal_114__ayat_4">
                 <num>(4)</num>
-                <content><p>Peralihan hak atau pelepasan hak atas tanah sebagaimana dimaksud pada ayat (2) dan ayat (3) wajib didaftarkan pada kantor pertanahan kabupaten/kota sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                <content><p>Peralihan hak atas tanah atau pelepasan hak atas tanah sebagaimana dimaksud pada ayat (2) dan ayat (3) wajib didaftarkan pada kantor pertanahan kabupaten/kota sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
               </paragraph>
 
           </article>
@@ -3187,6 +3385,110 @@
               <paragraph eId="pasal_117__ayat_2">
                 <num>(2)</num>
                 <content><p>Pengadaan tanah untuk pembangunan bagi kepentingan umum sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9a">
+        <num>IXA</num>
+        <heading>BADAN PERCEPATAN PEI{YELENGGARAAN PERUMAHAN</heading>
+          <article eId="pasal_117a">
+            <num>117A</num>
+              <paragraph eId="pasal_117a__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk mewujudkan penyediaan Rumah Umum yang layak dan terjangkau bagi MBR, Pemerintah Pusat membentuk badan percepatan penyelenggaraan Perumahan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_117a__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pembentukan badan percepatan penyelenggaraan Perumahan sebagaimana dimaksud pada ayat (1) bertujuan untuk:</p></intro>
+                  <point eId="pasal_117a__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>mempercepat penyediaan Rumah Umum;</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>menjamin bahwa Rumah Umum hanya dimiliki dan dihuni oleh MBR;</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>menjamin tercapainya asas manfaat Rumah Umum; dan d.melaksanakan...</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>melaksanakan berbagai kebijakan di bidang Rumah Umum dan Rumah Khusus.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_117a__ayat_3">
+                <num>(3)</num>
+                <content><p>Badan percepatan penyelenggaraan Perumahan sebagaimana dimaksud pada ayat (1) mempunyai fungsi mempercepat Penyelenggaraan Perumahan dan Kawasan Permukiman.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_117a__ayat_4">
+                <num>(4)</num>
+                <intro><p>Untuk melaksanakan fungsi sebagaimana dimaksud pada ayat (3), badan percepatan penyelenggaraan Perumahan bertugas:</p></intro>
+                  <point eId="pasal_117a__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan upaya percepatan pembangunan Perumahan;</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>melaksanakan pengelolaan dana konversi dan pembangunan Rumah sederhana serta Rumah susun umum;</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan koordinasi dalam proses perizinan dan pemastian kelayakan hunian;</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>melaksanakan penyediaan tanah bagi Perumahan;</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_4__huruf_e">
+                    <num>e.</num>
+                    <content><p>melaksanakan pengelolaan Rumah susun umum dan Rumah susun khusus serta memfasilitasi penghunian, pengalihan, dan pemanfaatan;</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_4__huruf_f">
+                    <num>f.</num>
+                    <content><p>melaksanakan pengalihan kepemilikan Rumah Umum dengan kemudahan yang diberikan oleh pemerintah;</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_4__huruf_g">
+                    <num>g.</num>
+                    <content><p>menyelenggarakan koordinasi operasional lintas sektor, termasuk dalam penyediaan Prasarana, Sarana, dan Utilitas Umum; dan</p></content>
+                  </point>
+                  <point eId="pasal_117a__ayat_4__huruf_h">
+                    <num>h.</num>
+                    <content><p>melakukan pengembangan hubungan kerja sama di bidang Rumah susun dengan berbagai instansi di dalam dan di luar negeri.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_1178">
+            <num>1178</num>
+              <paragraph eId="pasal_1178__ayat_1">
+                <num>(1)</num>
+                <intro><p>Badan percepatan penyelenggaraan Perumahan sebagaimana dimaksud dalam Pasal llTA terdiri atas:</p></intro>
+                  <point eId="pasal_1178__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>unsur pembina;</p></content>
+                  </point>
+                  <point eId="pasal_1178__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>unsur pengawas.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_1178__ayat_2">
+                <num>(2)</num>
+                <content><p>Unsur pengawas sebagaimana dimaksud pada ayat (1) huruf c berjumlah 5 (lima) orang yang proses seleksi dan pemilihannya dilakukan oleh Dewan Perwakilan Ralryat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_1178__ayat_3">
+                <num>(3)</num>
+                <content><p>Pembentukan badan percepatan penyelenggaraan Perumahan sebagaimana dimaksud pada ayat (1) ditetapkan dengan Peraturan Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_1178__ayat_4">
+                <num>(4)</num>
+                <content><p>Unsur pembina, unsur pelaksana, dan unsur pengawas sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan Presiden.</p></content>
               </paragraph>
 
           </article>
@@ -3659,7 +3961,7 @@
         <heading>LARANGAN</heading>
           <article eId="pasal_134">
             <num>134</num>
-            <content><p>Setiap orang dilarang menyelenggarakan pembangunan perumahan, yang tidak membangun perumahan sesuai dengan kriteria, spesifikasi, persyaratan, prasana, sarana, dan utilitas umum yang diperjanjikan.</p></content>
+            <content><p>Setiap Orang dilarang menyelenggarakan pembangunan Perrrmahan yang tidak sesuai dengan kriteria, spesifikasi, persyaratan, Prasarana, Sarana, dan Utilitas Umum yang diperjanjikan.</p></content>
           </article>
           <article eId="pasal_135">
             <num>135</num>
@@ -3780,7 +4082,7 @@
             <num>150</num>
               <paragraph eId="pasal_150__ayat_1">
                 <num>(1)</num>
-                <content><p>Setiap orang yang menyelenggarakan perumahan dan kawasan permukiman yang tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 26 ayat (1), 29 ayat (1), Pasal 30 ayat (2), Pasal 34 ayat (1) dan ayat (2), Pasal 36 ayat (1) dan ayat (2), Pasal 38 ayat (4), Pasal 45, Pasal 47 ayat (2), ayat (3) dan ayat (4), Pasal 49 ayat (2), Pasal 63, Pasal 71 ayat (1), Pasal 126 ayat (2), Pasal 134, Pasal 135, Pasal 136, Pasal 137, Pasal 138, Pasal 139, Pasal 140, Pasal 141, Pasal 142, Pasal 143, Pasal 144, Pasal 145, atau Pasal 146 ayat (1) dikenai sanksi administratif.</p></content>
+                <content><p>Setiap Orang yang menyelenggarakan Perumahan dan Kawasan Permukiman yang tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 26 ayat (1), Pasal 29 ayat (1), Pasal 30 ayat (2), Pasal 34 ayat (1) atau ayat (2), Pasal 36 ayat (1), ayat (2) atau ayat (4), Pasal 38 ayat (4), Pasal 45, Pasal 47 ayat (2), ayat (3), atau ayat (4), Pasal 49 ayat (2), Pasal63, Pasal 7l ayat (1), Pasal 126 ayat (2), Pasal 134, Pasal 135, Pasal 136, Pasal 137, Pasal 138, Pasal 139, Pasal 140, Pasal 141, Pasal 142, Pasal 143, Pasal 144, Pasal 145, atau Pasal 146 ayat (1) dikenai sanksi administratif.</p></content>
               </paragraph>
               <paragraph eId="pasal_150__ayat_2">
                 <num>(2)</num>
@@ -3799,7 +4101,7 @@
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_d">
                     <num>d.</num>
-                    <content><p>penghentian sementara atau penghentian tetap pada pengelolaan perumahan;</p></content>
+                    <content><p>penghentian sementara atau penghentian tetap pada pengelolaan Perumahan;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_e">
                     <num>e.</num>
@@ -3811,61 +4113,65 @@
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_g">
                     <num>g.</num>
-                    <content><p>pembatasan kegiatan usaha;</p></content>
+                    <content><p>membangun kembali Perumahan sesuai dengan kriteria, spesifikasi, persyaratan, Prasarana, Sarana, dan Utilitas Umum yang diperjanjikan, dan standar;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_h">
                     <num>h.</num>
-                    <content><p>pembekuan izin mendirikan bangunan;</p></content>
+                    <content><p>pembatasan kegiatan usaha;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_i">
                     <num>i.</num>
-                    <content><p>pencabutan izin mendirikan bangunan;</p></content>
+                    <content><p>pembekuan Persetujuan Bangunan Gedung;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_j">
                     <num>j.</num>
-                    <content><p>pembekuan/pencabutan surat bukti kepemilikan rumah;</p></content>
+                    <content><p>pencabutan Persetujuan Bangunan Gedung;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_k">
                     <num>k.</num>
-                    <content><p>perintah pembongkaran bangunan rumah;</p></content>
+                    <content><p>pembekuan/pencabutan surat bukti kepemilikan Rumah;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_l">
                     <num>l.</num>
-                    <content><p>pembekuan izin usaha;</p></content>
+                    <content><p>perintah pembongkaran bangunan Rumah;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_m">
                     <num>m.</num>
-                    <content><p>pencabutan izin usaha;</p></content>
+                    <content><p>pembekuan Perizinan Berusaha;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_n">
                     <num>n.</num>
-                    <content><p>pengawasan;</p></content>
+                    <content><p>pencabutan Perizinan Berrrsaha;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_o">
                     <num>o.</num>
-                    <content><p>pembatalan izin;</p></content>
+                    <content><p>pengawasan;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_p">
                     <num>p.</num>
-                    <content><p>kewajiban pemulihan fungsi lahan dalam jangka waktu tertentu;</p></content>
+                    <content><p>pembatalan Perizinan Berusaha;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_q">
                     <num>q.</num>
-                    <content><p>pencabutan insentif;</p></content>
+                    <content><p>kewajiban pemulihan fungsi lahan dalam jangka waktu tertentu;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_r">
                     <num>r.</num>
-                    <content><p>pengenaan denda administratif; dan/atau</p></content>
+                    <content><p>pencabutan insentif;</p></content>
                   </point>
                   <point eId="pasal_150__ayat_2__huruf_s">
                     <num>s.</num>
+                    <content><p>pengenaan denda administratif; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_150__ayat_2__huruf_t">
+                    <num>t.</num>
                     <content><p>penutupan lokasi.</p></content>
                   </point>
 
               </paragraph>
               <paragraph eId="pasal_150__ayat_3">
                 <num>(3)</num>
-                <content><p>Ketentuan lebih lanjut mengenai jenis, besaran denda, tata cara, dan mekanisme pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai kriteria, jenis, besaran denda, dan tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -3876,15 +4182,7 @@
         <heading>KETENTUAN PIDANA</heading>
           <article eId="pasal_151">
             <num>151</num>
-              <paragraph eId="pasal_151__ayat_1">
-                <num>(1)</num>
-                <content><p>Setiap orang yang menyelenggarakan pembangunan perumahan, yang tidak membangun perumahan sesuai dengan kriteria, spesifikasi, persyaratan, prasarana, sarana, dan utilitas umum yang diperjanjikan sebagaimana dimaksud dalam Pasal 134, dipidana dengan pidana denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
-              </paragraph>
-              <paragraph eId="pasal_151__ayat_2">
-                <num>(2)</num>
-                <content><p>Selain pidana sebagaimana dimaksud pada ayat (1) pelaku dapat dijatuhi pidana tambahan berupa membangun kembali perumahan sesuai dengan kriteria, spesifikasi, persyaratan, prasarana, sarana, dan utilitas umum yang diperjanjikan.</p></content>
-              </paragraph>
-
+            <content><p>Setiap Orang yang menyelenggarakan pembangunan Perumahan yang membangun Perumahan tidak sesuai dengan kriteria, spesifikasi, persyaratan, Prasarana, Sarana, dan Utilitas Umum yang diperjanjikan sebagaimana dimaksud dalam Pasal 134 yang mengakibatkan timbulnya korban/kerusakan terhadap kesehatan, keselamatan dan/atau lingkungan dipidana dengan pidana denda paling banyak RpS.000.000.000,00 (lima miliar rupiah).</p></content>
           </article>
           <article eId="pasal_152">
             <num>152</num>
@@ -3894,11 +4192,11 @@
             <num>153</num>
               <paragraph eId="pasal_153__ayat_1">
                 <num>(1)</num>
-                <content><p>Setiap orang yang menyelenggaraan lingkungan hunian atau Kasiba yang tidak memisahkan lingkungan hunian atau Kasiba menjadi satuan lingkungan perumahan atau Lisiba sebagaimana dimaksud dalam Pasal 136, dipidana dengan pidana denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
+                <content><p>Setiap Orang yang menyelenggarakan Lingkungan Hunian atau Kasiba yang tidak memisahkan Lingkungan Hunian atau Kasiba menjadi satuan lingkungan Perumahan atau Lisiba sebagaimana dimaksud dalam Pasal 136 dikenai sanksi administratif.</p></content>
               </paragraph>
               <paragraph eId="pasal_153__ayat_2">
                 <num>(2)</num>
-                <content><p>Selain pidana sebagaimana dimaksud pada ayat (1), pelaku dapat dijatuhi pidana tambahan berupa pencabutan izin.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Pemerintah. Pasal51...</p></content>
               </paragraph>
 
           </article>

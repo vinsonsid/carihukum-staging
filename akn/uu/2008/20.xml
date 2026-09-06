@@ -11,20 +11,117 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2008/20/ind@2008-07-04/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2008/20/ind@2008-07-04"/>
-          <FRBRdate date="2008-07-04" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2008/20/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2008/20/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2008/20/ind@2008-07-04/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2008/20/ind@2008-07-04.akn"/>
+          <FRBRthis value="/akn/id/act/uu/2008/20/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2008/20/ind@2023-03-31.akn"/>
           <FRBRdate date="2026-09-06" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2008-07-04" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_12"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_21"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_4">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_25"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_7">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_32a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_12"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_21"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_11">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_25"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_14">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_32a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_15">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_16">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_12"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_17">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_21"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_18">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_25"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_26"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_20">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_21">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_32a"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -218,46 +315,11 @@
             <num>6</num>
               <paragraph eId="pasal_6__ayat_1">
                 <num>(1)</num>
-                <intro><p>Kriteria Usaha Mikro adalah sebagai berikut:</p></intro>
-                  <point eId="pasal_6__ayat_1__huruf_a">
-                    <num>a.</num>
-                    <content><p>memiliki kekayaan bersih paling banyak Rp50.000.000,00 (lima puluh juta rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau</p></content>
-                  </point>
-                  <point eId="pasal_6__ayat_1__huruf_b">
-                    <num>b.</num>
-                    <content><p>memiliki hasil penjualan tahunan paling banyak Rp300.000.000,00 (tiga ratus juta rupiah).</p></content>
-                  </point>
-
+                <content><p>Kriteria Usaha Mikro, Kecil, dan Menengah dapat memuat modal usaha, indikator kekayaan bersih, hasil penjualan tahunan, atau nilai investasi, insentif dan disinsentif, penerapan teknologi ramah lingkungan, kandungan lokal, atau jumlah tenaga kerja sesuai dengan kriteria setiap sektor usaha.</p></content>
               </paragraph>
               <paragraph eId="pasal_6__ayat_2">
                 <num>(2)</num>
-                <intro><p>Kriteria Usaha Kecil adalah sebagai berikut:</p></intro>
-                  <point eId="pasal_6__ayat_2__huruf_a">
-                    <num>a.</num>
-                    <content><p>memiliki kekayaan bersih lebih dari Rp50.000.000,00 (lima puluh juta rupiah) sampai dengan paling banyak Rp500.000.000,00 (lima ratus juta rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau</p></content>
-                  </point>
-                  <point eId="pasal_6__ayat_2__huruf_b">
-                    <num>b.</num>
-                    <content><p>memiliki hasil penjualan tahunan lebih dari Rp300.000.000,00 (tiga ratus juta rupiah) sampai dengan paling banyak Rp2.500.000.000,00 (dua milyar lima ratus juta rupiah).</p></content>
-                  </point>
-
-              </paragraph>
-              <paragraph eId="pasal_6__ayat_3">
-                <num>(3)</num>
-                <intro><p>Kriteria Usaha Menengah adalah sebagai berikut:</p></intro>
-                  <point eId="pasal_6__ayat_3__huruf_a">
-                    <num>a.</num>
-                    <content><p>memiliki kekayaan bersih lebih dari Rp500.000.000,00 (lima ratus juta rupiah) sampai dengan paling banyak Rp10.000.000.000,00 (sepuluh milyar rupiah) tidak termasuk tanah dan bangunan tempat usaha; atau</p></content>
-                  </point>
-                  <point eId="pasal_6__ayat_3__huruf_b">
-                    <num>b.</num>
-                    <content><p>memiliki hasil penjualan tahunan lebih dari Rp2.500.000.000,00 (dua milyar lima ratus juta rupiah) sampai dengan paling banyak Rp50.000.000.000,00 (lima puluh milyar rupiah).</p></content>
-                  </point>
-
-              </paragraph>
-              <paragraph eId="pasal_6__ayat_4">
-                <num>(4)</num>
-                <content><p>Kriteria sebagaimana dimaksud pada ayat (1) huruf a, huruf b, dan ayat (2) huruf a, huruf b, serta ayat (3) huruf a, huruf b nilai nominalnya dapat diubah sesuai dengan perkembangan perekonomian yang diatur dengan Peraturan Presiden.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai kriteria Usaha Mikro, Kecil, dan Menengah diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -402,17 +464,17 @@
                 <intro><p>Aspek perizinan usaha sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf e ditujukan untuk:</p></intro>
                   <point eId="pasal_12__ayat_1__huruf_a">
                     <num>a.</num>
-                    <content><p>menyederhanakan tata cara dan jenis perizinan usaha dengan sistem pelayanan terpadu satu pintu; dan</p></content>
+                    <content><p>menyederhanakan tata cara dan jenis Perizinan Berusaha dengan sistem pelayanan terpadu satu pintu; dan</p></content>
                   </point>
                   <point eId="pasal_12__ayat_1__huruf_b">
                     <num>b.</num>
-                    <content><p>membebaskan biaya perizinan bagi Usaha Mikro dan memberikan keringanan biaya perizinan bagi Usaha Kecil.</p></content>
+                    <content><p>membebaskan biaya Perizinan Berusaha bagi Usaha Mikro dan memberikan keringanan biaya Perizinan Berusaha bagi Usaha Kecil.</p></content>
                   </point>
 
               </paragraph>
               <paragraph eId="pasal_12__ayat_2">
                 <num>(2)</num>
-                <content><p>Ketentuan lebih lanjut mengenai persyaratan dan tata cara permohonan izin usaha diatur dengan Peraturan Pemerintah.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai persyaratan dan tata cara Perizinan Berusaha diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -636,23 +698,23 @@
                 <num>21</num>
                   <paragraph eId="pasal_21__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pemerintah dan Pemerintah Daerah menyediakan pembiayaan bagi Usaha Mikro dan Kecil.</p></content>
+                    <content><p>Pemerintah Pusat dan Pemerintah Daerah menyediakan Pembiayaan bagi Usaha Mikro dan Kecil.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_21__ayat_2">
                     <num>(2)</num>
-                    <content><p>Badan Usaha Milik Negara dapat menyediakan pembiayaan dari penyisihan bagian laba tahunan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, penjaminan, hibah, dan pembiayaan lainnya.</p></content>
+                    <content><p>Badan Usaha Milik Negara menyediakan Pembiayaan dari penyisihan bagian laba tahunan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, Penjaminan, hibah, dan Pembiayaan lainnya.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_21__ayat_3">
                     <num>(3)</num>
-                    <content><p>Usaha Besar nasional dan asing dapat menyediakan pembiayaan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, penjaminan, hibah, dan pembiayaan lainnya.</p></content>
+                    <content><p>Usaha Besar nasional dan asing menyediakan Pembiayaan yang dialokasikan kepada Usaha Mikro dan Kecil dalam bentuk pemberian pinjaman, Penjaminan, hibah, dan Pembiayaan lainnya.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_21__ayat_4">
                     <num>(4)</num>
-                    <content><p>Pemerintah, Pemerintah Daerah, dan Dunia Usaha dapat memberikan hibah, mengusahakan bantuan luar negeri, dan mengusahakan sumber pembiayaan lain yang sah serta tidak mengikat untuk Usaha Mikro dan Kecil.</p></content>
+                    <content><p>Pemerintah Pusat, Pemerintah Daerah, dan Dunia Usaha memberikan hibah, mengusahakan bantuan luar negeri, dan mengusahakan sumber Pembiayaan lain yang sah serta tidak mengikat untuk Usaha Mikro dan Kecil.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_21__ayat_5">
                     <num>(5)</num>
-                    <content><p>Pemerintah dan Pemerintah Daerah dapat memberikan insentif dalam bentuk kemudahan persyaratan perizinan, keringanan tarif sarana dan prasarana, dan bentuk insentif lainnya yang sesuai dengan ketentuan peraturan perundang- undangan kepada dunia usaha yang menyediakan pembiayaan bagi Usaha Mikro dan Kecil.</p></content>
+                    <content><p>Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya memberikan insentif dalam bentuk kemudahan persyaratan perizinan, keringanan tarif sarana dan prasarana, dan bentuk insentif lainnya yang sesuai dengan ketentuan peraturan perundang-undangan kepada Dunia Usaha yang menyediakan Pembiayaan bagi Usaha Mikro dan Kecil.</p></content>
                   </paragraph>
 
               </article>
@@ -744,22 +806,6 @@
       <chapter eId="bab_8">
         <num>VIII</num>
         <heading>KEMITRAAN</heading>
-          <article eId="pasal_25">
-            <num>25</num>
-              <paragraph eId="pasal_25__ayat_1">
-                <num>(1)</num>
-                <content><p>Pemerintah, Pemerintah Daerah, Dunia Usaha, dan masyarakat memfasilitasi, mendukung, dan menstimulasi kegiatan kemitraan, yang saling membutuhkan, mempercayai, memperkuat, dan menguntungkan.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_25__ayat_2">
-                <num>(2)</num>
-                <content><p>Kemitraan antar-Usaha Mikro, Kecil, dan Menengah dan Kemitraan antara Usaha Mikro, Kecil, dan Menengah dengan Usaha Besar mencakup proses alih keterampilan di bidang produksi dan pengolahan, pemasaran, permodalan, sumber daya manusia, dan teknologi.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_25__ayat_3">
-                <num>(3)</num>
-                <content><p>Menteri dan Menteri Teknis mengatur pemberian insentif kepada Usaha Besar yang melakukan kemitraan dengan Usaha Mikro, Kecil, dan Menengah melalui inovasi dan pengembangan produk berorientasi ekspor, penyerapan tenaga kerja, penggunaan teknologi tepat guna dan ramah lingkungan, serta menyelenggarakan pendidikan dan pelatihan.</p></content>
-              </paragraph>
-
-          </article>
           <article eId="pasal_26">
             <num>26</num>
             <intro><p>Kemitraan dilaksanakan dengan pola:</p></intro>
@@ -769,7 +815,7 @@
               </point>
               <point eId="pasal_26__huruf_b">
                 <num>b.</num>
-                <content><p>subkontrak;</p></content>
+                <content><p>subkontrak'</p></content>
               </point>
               <point eId="pasal_26__huruf_c">
                 <num>c.</num>
@@ -781,11 +827,15 @@
               </point>
               <point eId="pasal_26__huruf_e">
                 <num>e.</num>
-                <content><p>distribusi dan keagenan; dan</p></content>
+                <content><p>distribusi dan keagenan;</p></content>
               </point>
               <point eId="pasal_26__huruf_f">
                 <num>f.</num>
-                <content><p>bentuk-bentuk kemitraan lain, seperti: bagi hasil, kerjasama operasional, usaha patungan (joint venture), dan penyumberluaran (outsourching).</p></content>
+                <content><p>rantai pasok; dan</p></content>
+              </point>
+              <point eId="pasal_26__huruf_g">
+                <num>g.</num>
+                <content><p>bentuk-bentuk kemitraan lain.</p></content>
               </point>
 
           </article>
@@ -879,7 +929,7 @@
             <num>30</num>
               <paragraph eId="pasal_30__ayat_1">
                 <num>(1)</num>
-                <content><p>Pelaksanaan kemitraan dengan pola perdagangan umum sebagaimana dimaksud dalam Pasal 26 huruf d, dapat dilakukan dalam bentuk kerjasama pemasaran, penyediaan lokasi usaha, atau penerimaan pasokan dari Usaha Mikro, Kecil, dan Menengah oleh Usaha Besar yang dilakukan secara terbuka.</p></content>
+                <content><p>Pelaksanaan Kemitraan dengan pola perdagangErn umum sebagaimana dimaksud dalam Pasal 26 huruf d, dapat dilakukan dalam bentuk kerja sama pemasaran atau penyediaan lokasi usaha dari Usaha Mikro, Kecil, dan Menengah oleh Usaha Besar yang dilakukan secara terbuka.</p></content>
               </paragraph>
               <paragraph eId="pasal_30__ayat_2">
                 <num>(2)</num>
@@ -898,6 +948,23 @@
           <article eId="pasal_32">
             <num>32</num>
             <content><p>Dalam hal Usaha Mikro, Kecil, dan Menengah menyelenggarakan usaha dengan modal patungan dengan pihak asing, berlaku ketentuan sebagaimana diatur dalam peraturan perundang- undangan.</p></content>
+          </article>
+          <article eId="pasal_32a">
+            <num>32A</num>
+            <intro><p>Dalam pelaksanaan Kemitraan dengan pola rantai pasok sebagaimana dimaksud dalam Pasal 26 huruf f, dapat dilakukan melalui kegiatan dari Usaha Mikro dan Kecil oleh Usaha Menengah dan Usaha Besar paling sedikit meliputi:</p></intro>
+              <point eId="pasal_32a__huruf_a">
+                <num>a.</num>
+                <content><p>pengelolaan perpindahan produk yang dilakukan oleh perrrsahaan dengan penyedia bahan baku;</p></content>
+              </point>
+              <point eId="pasal_32a__huruf_b">
+                <num>b.</num>
+                <content><p>pendistribusian produk dari perusahaan ke konsumen; dan/atau</p></content>
+              </point>
+              <point eId="pasal_32a__huruf_c">
+                <num>c.</num>
+                <content><p>pengelolaan ketersediaan bahan baku, pasokan bahan baku serta proses fabrikasi.</p></content>
+              </point>
+
           </article>
           <article eId="pasal_33">
             <num>33</num>

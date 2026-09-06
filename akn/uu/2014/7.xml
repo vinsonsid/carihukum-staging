@@ -11,20 +11,461 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2014/7/ind@2014-03-11/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2014/7/ind@2014-03-11"/>
-          <FRBRdate date="2014-03-11" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2014/7/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2014/7/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2014/7/ind@2014-03-11/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2014/7/ind@2014-03-11.akn"/>
+          <FRBRthis value="/akn/id/act/uu/2014/7/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2014/7/ind@2023-03-31.akn"/>
           <FRBRdate date="2026-09-06" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2014-03-11" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_17"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_24"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_11">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_45"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_46"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_15">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_47"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_16">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_49"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_17">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_51"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_20">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_57"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_21">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_22">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_61"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_23">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_63"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_24">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_65"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_25">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_74"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_26">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_77"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_27">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_77a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_28">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_81"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_29">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_98"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_30">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_99"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_31">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_100"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_32">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_102"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_33">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_104"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_34">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_106"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_35">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_109"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_36">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_116"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_37">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_38">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_39">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_40">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_41">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_17"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_42">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_24"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_43">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_44">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_45">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_46">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_47">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_48">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_49">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_45"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_50">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_46"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_51">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_47"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_52">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_49"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_53">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_51"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_54">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_55">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_56">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_57"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_57">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_58">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_61"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_59">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_63"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_60">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_65"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_61">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_74"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_62">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_77"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_63">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_77a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_64">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_81"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_65">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_98"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_66">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_99"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_67">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_100"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_68">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_102"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_69">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_104"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_70">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_106"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_71">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_109"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_72">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_116"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_73">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_74">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_75">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_76">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_77">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_17"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_78">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_24"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_79">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_80">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_81">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_82">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_83">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_84">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_85">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_45"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_86">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_46"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_87">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_47"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_88">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_49"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_89">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_51"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_90">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_91">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_92">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_57"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_93">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_94">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_61"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_95">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_63"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_96">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_65"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_97">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_74"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_98">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_77a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_99">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_81"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_100">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_98"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_101">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_99"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_102">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_100"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_103">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_102"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_104">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_104"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_105">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_106"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_106">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_109"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_107">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_116"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -495,7 +936,11 @@
                   </paragraph>
                   <paragraph eId="pasal_6__ayat_2">
                     <num>(2)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai penggunaan atau kelengkapan label berbahasa Indonesia diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Setiap Pelaku Usaha yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai penggunaan atau kelengkapan label berbahasa Indonesia diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -556,7 +1001,7 @@
               </article>
               <article eId="pasal_11">
                 <num>11</num>
-                <content><p>Ketentuan lebih lanjut mengenai Distribusi Barang diatur dengan Peraturan Menteri.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai Distribusi Barang diatur dalam Peraturan Pemerintah.</p></content>
               </article>
 
           </part>
@@ -645,15 +1090,15 @@
                 <num>14</num>
                   <paragraph eId="pasal_14__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pemerintah dan/atau Pemerintah Daerah sesuai dengan kewenangannya melakukan pengaturan tentang pengembangan, penataan dan pembinaan yang setara dan berkeadilan terhadap Pasar rakyat, pusat perbelanjaan, toko swalayan, dan perkulakan untuk menciptakan kepastian berusaha dan hubungan kerja sama yang seimbang antara pemasok dan pengecer dengan tetap memperhatikan keberpihakan kepada koperasi serta usaha mikro, kecil, dan menengah.</p></content>
+                    <content><p>Pemerintah Pusat melakukan pengaturan tentang pengembangan, penataan, dan pembinaan yang setara dan berkeadilan terhadap Pasar ralgrat, pusat perbelanjaan, toko swalayan, dan perkulakan untuk menciptakan kepastian berusaha dan hubungan kerja sama yang seimbang antara pemasok dan pengecer dengan tetap memperhatikan keberpihakan kepada koperasi dan usaha mikro, kecil, dan menengah.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_14__ayat_2">
                     <num>(2)</num>
-                    <content><p>Pengembangan, penataan, dan pembinaan sebagaimana dimaksud pada ayat (1) dilakukan melalui pengaturan perizinan, tata ruang, zonasi dengan memperhatikan jarak dan lokasi pendirian, kemitraan, dan kerja sama usaha.</p></content>
+                    <content><p>Pengembangan, penataan, dan pembinaan sebagaimana dimaksud pada ayat (1) dilakukan melalui pengaturan Perizinan Berusaha, tata mang, dan zonasi dengan memperhatikan jarak dan lokasi pendirian, kemitraan, dan kerja sama usaha.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_14__ayat_3">
                     <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai pengaturan perizinan, tata ruang, dan zonasi sebagaimana dimaksud pada ayat (2) diatur dengan atau berdasarkan Peraturan Presiden.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha, tata rLlang, dan zonasi sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -665,19 +1110,15 @@
                   </paragraph>
                   <paragraph eId="pasal_15__ayat_2">
                     <num>(2)</num>
-                    <content><p>Gudang sebagaimana dimaksud pada ayat (1) wajib didaftarkan oleh setiap pemilik Gudang sesuai dengan penggolongan Gudang menurut luas dan kapasitas penyimpanannya.</p></content>
+                    <content><p>Setiap pemilik Gudang wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_15__ayat_3">
                     <num>(3)</num>
-                    <content><p>Setiap pemilik Gudang yang tidak melakukan pendaftaran Gudang sebagaimana dimaksud pada ayat (2) dikenai sanksi administratif berupa penutupan Gudang untuk jangka waktu tertentu dan/atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).</p></content>
+                    <content><p>Setiap pemilik Gudang yang tidak memiliki Perizinan Berusaha sebagaimana dimaksud pada ayat (2) dikenai sanksi administratif.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_15__ayat_4">
                     <num>(4)</num>
-                    <content><p>Ketentuan mengenai tata cara pendaftaran Gudang sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Menteri.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_15__ayat_5">
-                    <num>(5)</num>
-                    <content><p>Ketentuan mengenai pengenaan sanksi administratif sebagaimana dimaksud pada ayat (3) diatur dengan atau berdasarkan Peraturan Pemerintah.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -701,11 +1142,11 @@
                   </paragraph>
                   <paragraph eId="pasal_17__ayat_2">
                     <num>(2)</num>
-                    <content><p>Setiap pemilik, pengelola, atau penyewa Gudang yang tidak menyelenggarakan pencatatan administrasi sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa pencabutan perizinan di bidang Perdagangan.</p></content>
+                    <content><p>Setiap pemilik, pengelola, atau penyewa Gudang yang tidak menyelenggarakan pencatatan administrasi sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_17__ayat_3">
                     <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai pencatatan administrasi Barang sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai pencatatan administrasi Barang sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -855,19 +1296,19 @@
                 <num>24</num>
                   <paragraph eId="pasal_24__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pelaku Usaha yang melakukan kegiatan usaha Perdagangan wajib memiliki perizinan di bidang Perdagangan yang diberikan oleh Menteri.</p></content>
+                    <content><p>Setiap Pelaku Usaha yang melakukan kegiatan usaha Perdagangan wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_24__ayat_2">
                     <num>(2)</num>
-                    <content><p>Menteri dapat melimpahkan atau mendelegasikan pemberian perizinan kepada Pemerintah Daerah atau instansi teknis tertentu.</p></content>
+                    <content><p>Pemerintah Pusat dapat memberikan pengecualian terhadap kewajiban pemenuhan Perizinan Berusaha sebagaimana dimaksud pada ayat (1).</p></content>
                   </paragraph>
                   <paragraph eId="pasal_24__ayat_3">
                     <num>(3)</num>
-                    <content><p>Menteri dapat memberikan pengecualian terhadap kewajiban memiliki perizinan di bidang Perdagangan sebagaimana dimaksud pada ayat (1).</p></content>
+                    <content><p>Setiap Pelaku Usaha yang tidak melakukan pemenuhan Perizinan Berusaha sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_24__ayat_4">
                     <num>(4)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai perizinan di bidang Perdagangan sebagaimana pada ayat (1) dan pengecualiannya sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha di bidang Perdagangan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -936,7 +1377,7 @@
                 <num>30</num>
                   <paragraph eId="pasal_30__ayat_1">
                     <num>(1)</num>
-                    <content><p>Menteri dapat meminta data dan/atau informasi kepada Pelaku Usaha mengenai persediaan Barang kebutuhan pokok dan/atau Barang penting.</p></content>
+                    <content><p>Pemerintah Pusat dapat meminta data dan/atau informasi kepada Pelaku Usaha mengenai persediaan Barang kebutuhan pokok dan/atau Barang penting.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_30__ayat_2">
                     <num>(2)</num>
@@ -994,10 +1435,6 @@
                         <num>a.</num>
                         <content><p>distributor;</p></content>
                       </point>
-                      <point eId="pasal_33__ayat_1__huruf_b">
-                        <num>b.</num>
-                        <content><p>agen;</p></content>
-                      </point>
                       <point eId="pasal_33__ayat_1__huruf_c">
                         <num>c.</num>
                         <content><p>grosir;</p></content>
@@ -1014,11 +1451,11 @@
                   </paragraph>
                   <paragraph eId="pasal_33__ayat_2">
                     <num>(2)</num>
-                    <content><p>Perintah penghentian kegiatan Perdagangan dan penarikan dari Distribusi terhadap Barang sebagaimana dimaksud pada ayat (1) dilakukan oleh Menteri.</p></content>
+                    <content><p>Perintah penghentian kegiatan Perdagangan dan penarikan dari Distribusi terhadap Barang sebagaimana dimaksud pada ayat (1) dilakukan oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_33__ayat_3">
                     <num>(3)</num>
-                    <content><p>Produsen atau Importir yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa pencabutan izin usaha.</p></content>
+                    <content><p>Produsen atau Importir yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
                   </paragraph>
 
               </article>
@@ -1088,7 +1525,7 @@
                   </paragraph>
                   <paragraph eId="pasal_37__ayat_2">
                     <num>(2)</num>
-                    <content><p>Setiap Pelaku Usaha yang melanggar ketentuan penetapan Barang dan/atau Jasa sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa pencabutan perizinan di bidang Perdagangan.</p></content>
+                    <content><p>Setiap Pelaku Usaha yang melanggar ketentuan penetapan Barang dan/atau Jasa sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
                   </paragraph>
 
               </article>
@@ -1106,7 +1543,7 @@
                 <num>38</num>
                   <paragraph eId="pasal_38__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pemerintah mengatur kegiatan Perdagangan Luar Negeri melalui kebijakan dan pengendalian di bidang Ekspor dan Impor.</p></content>
+                    <content><p>Pemerintah Pusat mengatur kegiatan Perdagangan Luar Negeri melalui kebijakan dan pengendalian di bidang Ekspor dan Impor.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_38__ayat_2">
                     <num>(2)</num>
@@ -1117,11 +1554,15 @@
                       </point>
                       <point eId="pasal_38__ayat_2__huruf_b">
                         <num>b.</num>
-                        <content><p>peningkatan dan perluasan akses Pasar di luar negeri; dan</p></content>
+                        <content><p>peningkatan dan perluasan akses Pasar di luar negeri;</p></content>
                       </point>
                       <point eId="pasal_38__ayat_2__huruf_c">
                         <num>c.</num>
-                        <content><p>peningkatan kemampuan Eksportir dan Importir sehingga menjadi Pelaku Usaha yang andal.</p></content>
+                        <content><p>peningkatan kemampuan Eksportir dan Importir sehingga menjadi Pelaku Usaha yang andal; dan</p></content>
+                      </point>
+                      <point eId="pasal_38__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>peningkatan dan pengembangan produk invensi dan inovasi nasional yang diekspor ke luar negeri.</p></content>
                       </point>
 
                   </paragraph>
@@ -1130,7 +1571,7 @@
                     <intro><p>Kebijakan Perdagangan Luar Negeri paling sedikit meliputi:</p></intro>
                       <point eId="pasal_38__ayat_3__huruf_a">
                         <num>a.</num>
-                        <content><p>peningkatan jumlah dan jenis serta nilai tambah produk ekspor;</p></content>
+                        <content><p>peningkatan jumlah dan jenis serta nilai tambah produk Ekspor;</p></content>
                       </point>
                       <point eId="pasal_38__ayat_3__huruf_b">
                         <num>b.</num>
@@ -1155,7 +1596,7 @@
                     <intro><p>Pengendalian Perdagangan Luar Negeri meliputi:</p></intro>
                       <point eId="pasal_38__ayat_4__huruf_a">
                         <num>a.</num>
-                        <content><p>perizinan;</p></content>
+                        <content><p>PerizinanBerusaha/persetujuan;</p></content>
                       </point>
                       <point eId="pasal_38__ayat_4__huruf_b">
                         <num>b.</num>
@@ -1223,11 +1664,7 @@
                 <num>42</num>
                   <paragraph eId="pasal_42__ayat_1">
                     <num>(1)</num>
-                    <content><p>Ekspor Barang dilakukan oleh Pelaku Usaha yang telah terdaftar dan ditetapkan sebagai Eksportir, kecuali ditentukan lain oleh Menteri.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_42__ayat_2">
-                    <num>(2)</num>
-                    <content><p>Ketentuan mengenai penetapan sebagai Eksportir sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Ekspor Barang dilakukan oleh Pelaku Usaha yang telah memenuhi Perizinan Berusaha dari Pemerintah Pusat. l2l Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1235,15 +1672,11 @@
                 <num>43</num>
                   <paragraph eId="pasal_43__ayat_1">
                     <num>(1)</num>
-                    <content><p>Eksportir bertanggung jawab sepenuhnya terhadap Barang yang diekspor.</p></content>
+                    <content><p>Eksportir bertanggungjawab sepenuhnya terhadap Barang yang diekspor.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_43__ayat_2">
                     <num>(2)</num>
-                    <content><p>Eksportir yang tidak bertanggung jawab terhadap Barang yang diekspor sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa pencabutan perizinan, persetujuan, pengakuan, dan/atau penetapan di bidang Perdagangan.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_43__ayat_3">
-                    <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Eksportir yang tidak bertanggung jawab terhadap Barang yang diekspor sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
                   </paragraph>
 
               </article>
@@ -1260,15 +1693,15 @@
                 <num>45</num>
                   <paragraph eId="pasal_45__ayat_1">
                     <num>(1)</num>
-                    <content><p>Impor Barang hanya dapat dilakukan oleh Importir yang memiliki pengenal sebagai Importir berdasarkan penetapan Menteri.</p></content>
+                    <content><p>Impor Barang hanya dapat dilakukan oleh Importir yang memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_45__ayat_2">
                     <num>(2)</num>
-                    <content><p>Dalam hal tertentu, Impor Barang dapat dilakukan oleh Importir yang tidak memiliki pengenal sebagai Importir.</p></content>
+                    <content><p>Dalam hal Impor tidak dilakukan untuk kegiatan usaha, Importir tidak memerlukan Perizinan Berrrsaha.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_45__ayat_3">
                     <num>(3)</num>
-                    <content><p>Ketentuan mengenai pengenal sebagai Importir sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1280,11 +1713,7 @@
                   </paragraph>
                   <paragraph eId="pasal_46__ayat_2">
                     <num>(2)</num>
-                    <content><p>Importir yang tidak bertanggung jawab atas Barang yang diimpor sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa pencabutan perizinan, persetujuan, pengakuan, dan/atau penetapan di bidang Perdagangan.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_46__ayat_3">
-                    <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Importir yang tidak bertanggung jawab atas Barang yang diimpor sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
                   </paragraph>
 
               </article>
@@ -1296,15 +1725,11 @@
                   </paragraph>
                   <paragraph eId="pasal_47__ayat_2">
                     <num>(2)</num>
-                    <content><p>Dalam hal tertentu Menteri dapat menetapkan Barang yang diimpor dalam keadaan tidak baru.</p></content>
+                    <content><p>Dalam hal tertentu, Pemerintah Pusat dapat menetapkan Barang yang diimpor dalam keadaan tidak baru.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_47__ayat_3">
                     <num>(3)</num>
-                    <content><p>Penetapan sebagaimana dimaksud pada ayat (2) disampaikan kepada menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_47__ayat_4">
-                    <num>(4)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai penetapan Barang yang diimpor dalam keadaan tidak baru sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai penetapan Barang yang diimpor dalam keadaan tidak baru sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1317,31 +1742,7 @@
           <part eId="bab_5__bagian_keempat">
             <num>Keempat</num>
             <heading>Perizinan Ekspor dan Impor</heading>
-              <article eId="pasal_49">
-                <num>49</num>
-                  <paragraph eId="pasal_49__ayat_1">
-                    <num>(1)</num>
-                    <content><p>Untuk kegiatan Ekspor dan Impor, Menteri mewajibkan Eksportir dan Importir untuk memiliki perizinan yang dapat berupa persetujuan, pendaftaran, penetapan, dan/atau pengakuan.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_49__ayat_2">
-                    <num>(2)</num>
-                    <content><p>Menteri mewajibkan Eksportir dan Importir untuk memiliki perizinan sebagaimana dimaksud pada ayat (1) dalam melakukan Ekspor sementara dan Impor sementara.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_49__ayat_3">
-                    <num>(3)</num>
-                    <content><p>Menteri dapat melimpahkan atau mendelegasikan pemberian perizinan sebagaimana dimaksud pada ayat (1) kepada Pemerintah Daerah atau instansi teknis tertentu.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_49__ayat_4">
-                    <num>(4)</num>
-                    <content><p>Dalam rangka peningkatan daya saing nasional Menteri dapat mengusulkan keringanan atau penambahan pembebanan bea masuk terhadap Barang Impor sementara.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_49__ayat_5">
-                    <num>(5)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai perizinan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Menteri.</p></content>
-                  </paragraph>
-
-              </article>
-
+            <content><p> </p></content>
           </part>
           <part eId="bab_5__bagian_kelima">
             <num>Kelima</num>
@@ -1383,7 +1784,7 @@
                   </paragraph>
                   <paragraph eId="pasal_51__ayat_3">
                     <num>(3)</num>
-                    <content><p>Barang yang dilarang sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai kriteria Barang yang dilarang sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan dengan Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1399,19 +1800,11 @@
                   </paragraph>
                   <paragraph eId="pasal_52__ayat_3">
                     <num>(3)</num>
-                    <content><p>Barang yang dibatasi sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan dengan Peraturan Menteri.</p></content>
+                    <content><p>Setiap Eksportir dan/atau Importir yang melakukan pelanggaran sebagaimana dimaksud pada ayat (1) dan ayat (2) dikenai sanksi administratif.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_52__ayat_4">
                     <num>(4)</num>
-                    <content><p>Setiap Eksportir yang mengekspor Barang yang tidak sesuai dengan ketentuan pembatasan Barang untuk diekspor sebagaimana dimaksud pada ayat (3) dikenai sanksi administratif dan/atau sanksi lainnya yang diatur dalam peraturan perundang-undangan.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_52__ayat_5">
-                    <num>(5)</num>
-                    <content><p>Setiap Importir yang mengimpor Barang yang tidak sesuai dengan ketentuan pembatasan Barang untuk diimpor sebagaimana dimaksud pada ayat (3) dikenai sanksi administratif dan/atau sanksi lainnya yang diatur dalam peraturan perundang-undangan.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_52__ayat_6">
-                    <num>(6)</num>
-                    <content><p>Ketentuan mengenai pengenaan sanksi administratif sebagaimana dimaksud pada ayat (4) dan ayat (5) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan mengenai kriteria Barang yang dibatasi sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1419,11 +1812,11 @@
                 <num>53</num>
                   <paragraph eId="pasal_53__ayat_1">
                     <num>(1)</num>
-                    <content><p>Eksportir yang dikenai sanksi administratif sebagaimana dimaksud dalam Pasal 52 ayat (4) terhadap Barang ekspornya dikuasai oleh negara sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                    <content><p>Eksportir yang dikenai sanksi administratif sebagaimana dimaksud dalam Pasal 52 ayat (3) terhadap Barang ekspornya dikuasai oleh negara sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_53__ayat_2">
                     <num>(2)</num>
-                    <content><p>Importir yang dikenai sanksi administratif sebagaimana dimaksud dalam Pasal 52 ayat (5) terhadap Barang impornya wajib diekspor kembali, dimusnahkan oleh Importir, atau ditentukan lain oleh Menteri.</p></content>
+                    <content><p>Importir yang dikenai sanksi administratif sebagaimana dimaksud dalam Pasal 52 ayat (3) terhadap Barang impornya wajib diekspor kembali, dimusnahkan oleh Importir, atau ditentukan lain oleh Pemerintah Pusat.</p></content>
                   </paragraph>
 
               </article>
@@ -1562,7 +1955,7 @@
                 <num>57</num>
                   <paragraph eId="pasal_57__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Barang yang diperdagangkan di dalam negeri harus memenuhi:</p></intro>
+                    <intro><p>Barangyang diperdagangkan di dalam negeri harus memenuhi:</p></intro>
                       <point eId="pasal_57__ayat_1__huruf_a">
                         <num>a.</num>
                         <content><p>SNI yang telah diberlakukan secara wajib; atau</p></content>
@@ -1579,7 +1972,7 @@
                   </paragraph>
                   <paragraph eId="pasal_57__ayat_3">
                     <num>(3)</num>
-                    <content><p>Pemberlakuan SNI atau persyaratan teknis sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri atau menteri sesuai dengan urusan pemerintahan yang menjadi tugas dan tanggung jawabnya.</p></content>
+                    <content><p>Pemberlakuan SNI atau persyaratan teknis sebagaimana dimaksud pada ayat (1) ditetapkan oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_57__ayat_4">
                     <num>(4)</num>
@@ -1604,7 +1997,7 @@
                   </paragraph>
                   <paragraph eId="pasal_57__ayat_5">
                     <num>(5)</num>
-                    <content><p>Barang yang telah diberlakukan SNI atau persyaratan teknis secara wajib sebagaimana dimaksud pada ayat (1) wajib dibubuhi tanda SNI atau tanda kesesuaian atau dilengkapi sertifikat kesesuaian yang diakui oleh Pemerintah.</p></content>
+                    <content><p>Barang yang telah diberlakukan SNI atau persyaratan teknis secara wajib sebagaimana dimaksud pada ayat (1) wajib dibubuhi tanda SNI atau tanda kesesuaian atau dilengkapi sertifikat kesesuaian yang diakui oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_57__ayat_6">
                     <num>(6)</num>
@@ -1612,7 +2005,7 @@
                   </paragraph>
                   <paragraph eId="pasal_57__ayat_7">
                     <num>(7)</num>
-                    <content><p>Pelaku Usaha yang memperdagangkan Barang yang telah diberlakukan SNI atau persyaratan teknis secara wajib, tetapi tidak membubuhi tanda SNI, tanda kesesuaian, atau tidak melengkapi sertifikat kesesuaian sebagaimana dimaksud pada ayat (5) dikenai sanksi administratif berupa penarikan Barang dari Distribusi.</p></content>
+                    <content><p>Pelaku Usaha yang memperdagangkan Barang yang telah diberlakukan SNI atau persyaratan teknis secara wajib, tetapi tidak membubuhi tanda SNI, tanda kesesuaian atau tidak melengkapi sertifikat kesesuaian sebagaimana dimaksud pada ayat (5) dikenai sanksi administratif. 2I. Ketentuan Pasal 60 diubah sehingga berbunyi sebagai berikut:</p></content>
                   </paragraph>
 
               </article>
@@ -1649,7 +2042,7 @@
                   </paragraph>
                   <paragraph eId="pasal_60__ayat_2">
                     <num>(2)</num>
-                    <content><p>Pemberlakuan SNI, persyaratan teknis, atau kualifikasi secara wajib sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri atau menteri sesuai dengan urusan pemerintahan yang menjadi tugas dan tanggung jawabnya.</p></content>
+                    <content><p>Pemberlakuan SNI, persyaratan teknis, atau kualifikasi secara wajib sebagaimana dimaksud pada ayat (1) ditetapkan oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_60__ayat_3">
                     <num>(3)</num>
@@ -1678,15 +2071,15 @@
                   </paragraph>
                   <paragraph eId="pasal_60__ayat_4">
                     <num>(4)</num>
-                    <content><p>Jasa yang telah diberlakukan SNI, persyaratan teknis, atau kualifikasi secara wajib sebagaimana dimaksud pada ayat (2) wajib dilengkapi dengan sertifikat kesesuaian yang diakui oleh Pemerintah.</p></content>
+                    <content><p>Jasa yang telah diberlakukan SNI, persyaratan teknis, atau kualifikasi secara wajib sebagaimana dimaksud pada ayat (2) wajib dilengkapi dengan sertifikat kesesuaian yang diakui oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_60__ayat_5">
                     <num>(5)</num>
-                    <content><p>Jasa yang diperdagangkan dan memenuhi SNI, persyaratan teknis, atau kualifikasi yang belum diberlakukan secara wajib dapat menggunakan sertifikat kesesuaian sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                    <content><p>Jasa yang diperdagangkan dan memenuhi SNI, persyaratan teknis, atau kualilikasi yang belum diberlakukan secara wajib dapat menggunakan sertifikat kesesuaian sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_60__ayat_6">
                     <num>(6)</num>
-                    <content><p>Penyedia Jasa yang memperdagangkan Jasa yang telah diberlakukan SNI, persyaratan teknis, atau kualifikasi secara wajib, tetapi tidak dilengkapi sertifikat kesesuaian sebagaimana dimaksud pada ayat (4) dikenai sanksi administratif berupa penghentian kegiatan usaha.</p></content>
+                    <content><p>Penyedia Jasa yang memperdagangkan Jasa yang telah diberlakukan SNI, persyaratan teknis, atau kualifikasi secara wajib, tetapi tidak dilengkapi sertifikat kesesuaian sebagaimana dimaksud pada ayat (4) dikenai sanksi administratif.</p></content>
                   </paragraph>
 
               </article>
@@ -1694,15 +2087,15 @@
                 <num>61</num>
                   <paragraph eId="pasal_61__ayat_1">
                     <num>(1)</num>
-                    <content><p>Tanda SNI, tanda kesesuaian, atau sertifikat kesesuaian sebagaimana dimaksud dalam Pasal 60 ayat (4) diterbitkan oleh lembaga penilaian kesesuaian yang terakreditasi oleh lembaga akreditasi sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                    <content><p>Tanda SNI, tanda kesesuaian, atau sertifikat kesesuaian sebagaimana dimaksud dalam Pasal 60 ayat (4) diterbitkan oleh lembaga penilaian kesesuaian yang terakreditasi sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_61__ayat_2">
                     <num>(2)</num>
-                    <content><p>Dalam hal lembaga penilaian kesesuaian sebagaimana dimaksud pada ayat (1) belum ada yang terakreditasi, Menteri atau menteri sesuai dengan urusan pemerintahan yang menjadi tugas dan tanggung jawabnya dapat menunjuk lembaga penilaian kesesuaian dengan persyaratan dan dalam jangka waktu tertentu.</p></content>
+                    <content><p>Dalam hal lembaga penilaian kesesuaian sebagaimana dimaksud pada ayat (1) belum ada yang terakreditasi, Pemerintah Pusat dapat menunjuk lembaga penilaian kesesuaian dengan persyaratan dan dalam jangka waktu tertentu.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_61__ayat_3">
                     <num>(3)</num>
-                    <content><p>Lembaga penilaian kesesuaian sebagaimana dimaksud pada ayat (1) dan ayat (2) harus terdaftar di lembaga yang ditetapkan oleh Menteri.</p></content>
+                    <content><p>Lembaga penilaian kesesuaian sebagaimana dimaksud pada ayat (1) dan ayat (2) harus terdaftar di lembaga yang ditetapkan oleh Pemerintah Pusat.</p></content>
                   </paragraph>
 
               </article>
@@ -1712,7 +2105,7 @@
               </article>
               <article eId="pasal_63">
                 <num>63</num>
-                <content><p>Penyedia Jasa yang memperdagangkan Jasa yang tidak dilengkapi dengan sertifikat kesesuaian sebagaimana dimaksud dalam Pasal 60 ayat (4) dikenai sanksi administratif berupa penghentian kegiatan Perdagangan Jasa.</p></content>
+                <content><p>Penyedia Jasa yang memperdagangkan Jasa yang tidak dilengkapi dengan sertifikat kesesuaian sebagaimana dimaksud dalam Pasal 60 ayat (4) dikenai sanksi administratif.</p></content>
               </article>
               <article eId="pasal_64">
                 <num>64</num>
@@ -1737,7 +2130,7 @@
               </paragraph>
               <paragraph eId="pasal_65__ayat_3">
                 <num>(3)</num>
-                <content><p>Penggunaan sistem elektronik sebagaimana dimaksud pada ayat (1) wajib memenuhi ketentuan yang diatur dalam Undang-Undang Informasi dan Transaksi Elektronik.</p></content>
+                <content><p>Penggunaan sistem elektronik sebagaimana dimaksud pada ayat (1) wajib memenuhi ketentuan yang diatur dalam Undang-Undang tentang Informasi dan Transaksi Elektronik.</p></content>
               </paragraph>
               <paragraph eId="pasal_65__ayat_4">
                 <num>(4)</num>
@@ -1766,11 +2159,11 @@
               </paragraph>
               <paragraph eId="pasal_65__ayat_5">
                 <num>(5)</num>
-                <content><p>Dalam hal terjadi sengketa terkait dengan transaksi dagang melalui sistem elektronik, orang atau badan usaha yang mengalami sengketa dapat menyelesaikan sengketa tersebut melalui pengadilan atau melalui mekanisme penyelesaian sengketa lainnya.</p></content>
+                <content><p>Dalam hal terjadi sengketa terkait dengan transaksi dagang melalui sistem elektronik, orang atau badan usaha yang sedang bersengketa dapat menyelesaikan sengketa tersebut melalui pengadilan atau melalui mekanisme penyelesaian sengketa lainnya.</p></content>
               </paragraph>
               <paragraph eId="pasal_65__ayat_6">
                 <num>(6)</num>
-                <content><p>Setiap Pelaku Usaha yang memperdagangkan Barang dan/atau Jasa dengan menggunakan sistem elektronik yang tidak menyediakan data dan/atau informasi secara lengkap dan benar sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa pencabutan izin.</p></content>
+                <content><p>Setiap Pelaku Usaha yang memperdagangkan Barang dan/atau Jasa dengan menggunakan sistem elektronik yang tidak menyediakan data dan/atau informasi secara lengkap dan benar sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
               </paragraph>
 
           </article>
@@ -1938,7 +2331,7 @@
                 <num>74</num>
                   <paragraph eId="pasal_74__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pemerintah melakukan pembinaan terhadap Pelaku Usaha dalam rangka pengembangan Ekspor untuk perluasan akses Pasar bagi Barang dan Jasa produksi dalam negeri.</p></content>
+                    <content><p>Pemerintah Pusat melakukan pembinaan terhadap Pelaku Usaha dalam rangka pengembangan Ekspor untuk perluasan akses Pasar bagi Barang dan Jasa produksi dalam negeri.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_74__ayat_2">
                     <num>(2)</num>
@@ -1946,15 +2339,15 @@
                   </paragraph>
                   <paragraph eId="pasal_74__ayat_3">
                     <num>(3)</num>
-                    <content><p>Menteri dapat mengusulkan insentif sebagaimana dimaksud pada ayat (2) berupa insentif fiskal dan/atau nonfiskal dalam upaya meningkatkan daya saing Ekspor Barang dan/atau Jasa produksi dalam negeri.</p></content>
+                    <content><p>Pemerintah Pusat dapat mengusulkan insentif sebagaimana dimaksud pada ayat (2) berupa insentif fiskal dan/atau nonfiskal dalam upaya meningkatkan daya saing Ekspor Barang dan/atau Jasa produksi dalam negeri.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_74__ayat_4">
                     <num>(4)</num>
-                    <content><p>Pemerintah dalam melakukan pembinaan sebagaimana dimaksud pada ayat (1) dapat bekerja sama dengan pihak lain.</p></content>
+                    <content><p>Pemerintah Pusat dalam melakukan pembinaan sebagaimana dimaksud pada ayat (1) dapat bekerja sama dengan pemangku kepentingan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_74__ayat_5">
                     <num>(5)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai pelaksanaan pembinaan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai pelaksanaan pembinaan sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -2030,19 +2423,61 @@
                 <num>77</num>
                   <paragraph eId="pasal_77__ayat_1">
                     <num>(1)</num>
-                    <content><p>Setiap Pelaku Usaha yang menyelenggarakan pameran dagang dan peserta pameran dagang wajib memenuhi Standar penyelenggaraan dan keikutsertaan dalam pameran dagang.</p></content>
+                    <content><p>Setiap Pelaku Usaha yang menyelenggarakan pameran dagang dan peserta pameran dagang wajib memenuhi Perizinar: Berusaha dari Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_77__ayat_2">
                     <num>(2)</num>
-                    <content><p>Setiap Pelaku Usaha yang menyelenggarakan pameran dagang dengan mengikutsertakan peserta dan/atau produk yang dipromosikan berasal dari luar negeri wajib mendapatkan izin dari Menteri.</p></content>
+                    <content><p>Setiap Pelaku Usaha yang menyelenggarakan pameran dagang dengan mengikutsertakan peserta dan/ atau produk yang dipromosikan berasal dari luar negeri wajib mendapatkan Per2inan Berusaha dari Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_77__ayat_3">
                     <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai Standar penyelenggaraan dan keikutsertaan dalam pameran dagang sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Setiap Pelaku Usaha yang menyelenggarakan pameran dagang dan peserta pameran dagang yang tidak memenuhi Perizinan Berusaha sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_77__ayat_4">
                     <num>(4)</num>
-                    <content><p>Setiap Pelaku Usaha yang menyelenggarakan pameran dagang dan peserta pameran dagang yang tidak memenuhi Standar penyelenggaraan dan keikutsertaan dalam pameran dagang sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa penghentian kegiatan.</p></content>
+                    <intro><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></intro>
+                      <point eId="pasal_77__ayat_4__angka_27">
+                        <num>27.</num>
+                        <content><p>Di ar:lara Pasal 77 dan Pasal 78 disisipkan 1 (satu) pasal, yakni Pasd 77A sehingga berbunyi sebagai berikut:</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_77a">
+                <num>77A</num>
+                  <paragraph eId="pasal_77a__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengenaan sanksi administratif sebagaimana dimaksud dalam Pasal 6 ayat (2), Pasal 15 ayat (3), Pasal LT ayat (2), Pasal 24 ayat (3), Pasal 33 ayat (3), Pasal 37 ayat (2), Pasal 43 ayat (2), Pasal 46 ayat (2), Pasal 52 ayat (3), Pasal 57 ayat (7), Pasal 60 ayat (6), Pasal 63, Pasal 65 ayat (6), atau Pasal 77 ayat (3) dapat berupa:</p></intro>
+                      <point eId="pasal_77a__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>teguran tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_77a__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>penarikan Barang dari Distribusi;</p></content>
+                      </point>
+                      <point eId="pasal_77a__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>penghentian sementara kegiatan usaha;</p></content>
+                      </point>
+                      <point eId="pasal_77a__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>penutupan Gudang;</p></content>
+                      </point>
+                      <point eId="pasal_77a__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>denda; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_77a__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>pencabutan Perizinan Berusaha.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_77a__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai kriteria, jenis, besaran denda, dan tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -2105,7 +2540,7 @@
               </article>
               <article eId="pasal_81">
                 <num>81</num>
-                <content><p>Ketentuan lebih lanjut mengenai tata cara penyelenggaraan, kemudahan, dan keikutsertaan dalam Promosi Dagang dalam rangka kegiatan pencitraan Indonesia diatur dengan Peraturan Menteri.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara penyelenggaraan, kemudahan, dan keikutsertaan dalam Promosi Dagang dalam rangka kegiatan pencitraan Indonesia diatur dalam Peraturan Pemerintah.</p></content>
               </article>
 
           </part>
@@ -2529,40 +2964,32 @@
             <num>98</num>
               <paragraph eId="pasal_98__ayat_1">
                 <num>(1)</num>
-                <content><p>Pemerintah dan Pemerintah Daerah mempunyai wewenang melakukan pengawasan terhadap kegiatan Perdagangan.</p></content>
+                <content><p>Pemerintah Pusat dan Pemerintah Daerah mempunyai wewenang melakukan pengawasan terhadap kegiatan Perdagangan.</p></content>
               </paragraph>
               <paragraph eId="pasal_98__ayat_2">
                 <num>(2)</num>
-                <content><p>Dalam melaksanakan pengawasan sebagaimana dimaksud pada ayat (1) Pemerintah menetapkan kebijakan pengawasan di bidang Perdagangan.</p></content>
+                <content><p>Pengawasan sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan norma, standar, prosedur, dan kriteria yang diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
           <article eId="pasal_99">
             <num>99</num>
-              <paragraph eId="pasal_99__ayat_1">
-                <num>(1)</num>
-                <content><p>Pengawasan oleh Pemerintah sebagaimana dimaksud dalam Pasal 98 dilakukan oleh Menteri.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_99__ayat_2">
-                <num>(2)</num>
-                <intro><p>Menteri dalam melakukan pengawasan sebagaimana dimaksud pada ayat (1) mempunyai wewenang melakukan:</p></intro>
-                  <point eId="pasal_99__ayat_2__huruf_a">
-                    <num>a.</num>
-                    <content><p>pelarangan mengedarkan untuk sementara waktu dan/atau perintah untuk menarik Barang dari Distribusi atau menghentikan kegiatan Jasa yang diperdagangkan tidak sesuai dengan ketentuan peraturan perundang-undangan di bidang Perdagangan; dan/atau</p></content>
-                  </point>
-                  <point eId="pasal_99__ayat_2__huruf_b">
-                    <num>b.</num>
-                    <content><p>pencabutan perizinan di bidang Perdagangan.</p></content>
-                  </point>
-
-              </paragraph>
+            <intro><p>Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya dalam melakukan pengawasan sebagaimana dimaksud dalam Pasal 98 ayat (1) mempunyai wewenang melakukan:</p></intro>
+              <point eId="pasal_99__huruf_a">
+                <num>a.</num>
+                <content><p>pelarangan mengedarkan untuk sementara waktu dan/atau perintah untuk menarik Barang dari Distribusi atau menghentikan kegiatan Jasa yang diperdagangkan yang tidak sesuai dengan ketentuan peraturan perundang-undangan di bidang Perdagangan; dan latau</p></content>
+              </point>
+              <point eId="pasal_99__huruf_b">
+                <num>b.</num>
+                <content><p>pencabutanPerizinan Berusaha.</p></content>
+              </point>
 
           </article>
           <article eId="pasal_100">
             <num>100</num>
               <paragraph eId="pasal_100__ayat_1">
                 <num>(1)</num>
-                <content><p>Dalam melaksanakan pengawasan sebagaimana dimaksud dalam Pasal 99 ayat (1), Menteri menunjuk petugas pengawas di bidang Perdagangan.</p></content>
+                <content><p>Dalam melaksanakan pengawasan sebagaimana dimaksud dalam Pasal 98 ayat (1), Pemerintah Pusat menunjuk petugas pengawas di bidang Perdagangan.</p></content>
               </paragraph>
               <paragraph eId="pasal_100__ayat_2">
                 <num>(2)</num>
@@ -2570,10 +2997,10 @@
               </paragraph>
               <paragraph eId="pasal_100__ayat_3">
                 <num>(3)</num>
-                <intro><p>Petugas Pengawas sebagaimana dimaksud pada ayat (2) dalam melaksanakan kewenangannya paling sedikit melakukan pengawasan terhadap:</p></intro>
+                <intro><p>Petugas pengawas sebagaimana dimaksud pada ayat (1) dalam melaksanakan kewenangannya paling sedikit melakukan pengawasan terhadap:</p></intro>
                   <point eId="pasal_100__ayat_3__huruf_a">
                     <num>a.</num>
-                    <content><p>perizinan di bidang Perdagangan;</p></content>
+                    <content><p>Perizinan Berusaha di bidang Perdagangan;</p></content>
                   </point>
                   <point eId="pasal_100__ayat_3__huruf_b">
                     <num>b.</num>
@@ -2593,7 +3020,7 @@
                   </point>
                   <point eId="pasal_100__ayat_3__huruf_f">
                     <num>f.</num>
-                    <content><p>pendaftaran Gudang; dan</p></content>
+                    <content><p>Perizinan Berusaha terkait Gudang; dan</p></content>
                   </point>
                   <point eId="pasal_100__ayat_3__huruf_g">
                     <num>g.</num>
@@ -2603,10 +3030,10 @@
               </paragraph>
               <paragraph eId="pasal_100__ayat_4">
                 <num>(4)</num>
-                <intro><p>Petugas Pengawas sebagaimana dimaksud pada ayat (3) dalam hal menemukan dugaan pelanggaran kegiatan di bidang Perdagangan dapat:</p></intro>
+                <intro><p>Petugas pengawas sebagaimana dimaksud pada ayat (1) dalam hal menemukan dugaan pelanggaran kegiatan di bidang Perdagangan dapat:</p></intro>
                   <point eId="pasal_100__ayat_4__huruf_a">
                     <num>a.</num>
-                    <content><p>merekomendasikan penarikan Barang dari Distribusi dan/atau pemusnahan Barang;</p></content>
+                    <content><p>merekomendasikan penarikan Barang dari Distribusi dan I atau pemusnahan Barang;</p></content>
                   </point>
                   <point eId="pasal_100__ayat_4__huruf_b">
                     <num>b.</num>
@@ -2614,17 +3041,17 @@
                   </point>
                   <point eId="pasal_100__ayat_4__huruf_c">
                     <num>c.</num>
-                    <content><p>merekomendasikan pencabutan perizinan di bidang Perdagangan.</p></content>
+                    <content><p>merekomendasikan pencabutan Perizinan Berusaha di bidang Perdagangan.</p></content>
                   </point>
 
               </paragraph>
               <paragraph eId="pasal_100__ayat_5">
                 <num>(5)</num>
-                <content><p>Dalam hal melaksanakan pengawasan sebagaimana dimaksud pada ayat (3) ditemukan bukti awal dugaan terjadi tindak pidana di bidang Perdagangan, petugas pengawas melaporkannya kepada penyidik untuk ditindaklanjuti.</p></content>
+                <content><p>Dalam hal pada pelaksanaan pengawasan sebagaimana dimaksud pada ayat (3) ditemukan bukti awal dugaan terjadi tindak pidana di bidang Perdagangan, petugas pengawas melaporkannya kepada penyidik untuk ditindaklanjuti.</p></content>
               </paragraph>
               <paragraph eId="pasal_100__ayat_6">
                 <num>(6)</num>
-                <content><p>Petugas Pengawas sebagaimana dimaksud pada ayat (1) dalam melaksanakan kewenangannya dapat berkoordinasi dengan instansi terkait.</p></content>
+                <content><p>Petugas pengawas sebagaimana dimaksud pada ayat (1) dalam melaksanakan kewenangannya dapat berkoordinasi dengan instansi terkait.</p></content>
               </paragraph>
 
           </article>
@@ -2646,7 +3073,7 @@
           </article>
           <article eId="pasal_102">
             <num>102</num>
-            <content><p>Ketentuan lebih lanjut mengenai pelaksanaan pengawasan kegiatan Perdagangan dan pengawasan terhadap Barang yang ditetapkan sebagai Barang dalam pengawasan diatur dengan Peraturan Menteri.</p></content>
+            <content><p>Ketentuan lebih lanjut mengenai pelaksanaan pengawasan kegiatan Perdagangan dan pengawasan terhadap Barang yang ditetapkan sebagai Barang dalam pengawasan diatur dalam Peraturan Pemerintah.</p></content>
           </article>
 
       </chapter>
@@ -2733,7 +3160,19 @@
         <heading>KETENTUAN PIDANA</heading>
           <article eId="pasal_104">
             <num>104</num>
-            <content><p>Setiap Pelaku Usaha yang tidak menggunakan atau tidak melengkapi label berbahasa Indonesia pada Barang yang diperdagangkan di dalam negeri sebagaimana dimaksud dalam Pasal 6 ayat (1) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
+              <paragraph eId="pasal_104__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap Pelaku Usahayang tidak menggunakan atau tidak melengkapi label berbahasa lndonesia pada Barang yang diperdagangkan di dalam negeri sebagaimana dimaksud dalam Pasal 6 ayat (1) dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp 1 0.000.0OO.OOO,00 (sepuluh miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_104__ayat_2">
+                <num>(2)</num>
+                <content><p>Dikecualikan dari pengenaan sanksi pidana sebagaimana dimaksud pada ayat (1) terhadap pelanggaran yang dilakukan oleh Pelaku Usaha yang melakukan usaha dan/atau kegiatan berisiko rendah atau menengah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_104__ayat_3">
+                <num>(3)</num>
+                <content><p>Bagi Pelaku Usaha yang melakukan usaha dan/atau kegiatan berisiko rendah atau menengah sebagaimana dimaksud pada ayat (2) dikenai sanksi sebagaimana dimaksud dalam Pasal 77A ayat (1).</p></content>
+              </paragraph>
+
           </article>
           <article eId="pasal_105">
             <num>105</num>
@@ -2741,7 +3180,19 @@
           </article>
           <article eId="pasal_106">
             <num>106</num>
-            <content><p>Pelaku Usaha yang melakukan kegiatan usaha Perdagangan tidak memiliki perizinan di bidang Perdagangan yang diberikan oleh Menteri sebagaimana dimaksud dalam Pasal 24 ayat (1) dipidana dengan pidana penjara paling lama 4 (empat) tahun atau pidana denda paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah).</p></content>
+              <paragraph eId="pasal_106__ayat_1">
+                <num>(1)</num>
+                <content><p>Pelaku Usaha yang melakukan kegiatan usaha Perdagangan tidak memenuhi Perizinan Berusaha di bidang Perdagangan sebagaimana dimaksud dalam Pasal 24 ayat (1) dipidana dengan pidana penjara paling lama 4 (empat) tahun atau pidana denda paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_106__ayat_2">
+                <num>(2)</num>
+                <content><p>Dikecualikan dari pengenaan sanksi pidana sebagaimana dimaksud pada ayat (1) terhadap pelanggaran yang dilakukan oleh Pelaku Usaha yang melakukan usaha dan/atau kegiatan berisiko rendah atau menengah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_106__ayat_3">
+                <num>(3)</num>
+                <content><p>Bagi Pelaku Usaha yang melakukan usaha dan/atau kegiatan berisiko rendah atau menengah sebagaimana dimaksud pada ayat l2l dikenai sanksi sebagaimana dimaksud dalam Pasal 77A ayat (1).</p></content>
+              </paragraph>
+
           </article>
           <article eId="pasal_107">
             <num>107</num>
@@ -2753,7 +3204,7 @@
           </article>
           <article eId="pasal_109">
             <num>109</num>
-            <content><p>Produsen atau Importir yang memperdagangkan Barang terkait dengan keamanan, keselamatan, kesehatan, dan lingkungan hidup yang tidak didaftarkan kepada Menteri sebagaimana dimaksud dalam Pasal 32 ayat (1) huruf a dipidana dengan pidana penjara paling lama 1 (satu) tahun dan/atau pidana denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
+            <content><p>Produsen atau Importir yang memperdagangkan Barang terkait dengan keamanan, keselamatan, kesehatan, dan/atau lingkungan hidup yang tidak didaftarkan kepada Pemerintah Pusat sebagaimana dimaksud dalam Pasal 32 ayat (1) yang mengakibatkan timbulnya korban/kerusakan terhadap keamanan, keselamatan, kesehatan, dan/atau lingkungan hidup dipidana dengan pidana penjara paling lama 1 (satu) tahun dan/atau pidana denda paling banyak RpS.000.000.000,00 (lima miliar rupiah).</p></content>
           </article>
           <article eId="pasal_110">
             <num>110</num>
@@ -2789,7 +3240,7 @@
           </article>
           <article eId="pasal_116">
             <num>116</num>
-            <content><p>Setiap Pelaku Usaha yang menyelenggarakan pameran dagang dengan mengikutsertakan peserta dan/atau produk yang dipromosikan berasal dari luar negeri yang tidak mendapatkan izin dari Menteri sebagaimana dimaksud dalam Pasal 77 ayat (2) dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan/atau pidana denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).</p></content>
+            <content><p>Setiap Pelaku Usaha yang menyelenggarakan pameran dagang dengan mengikutsertakan peserta dan/atau produk yang dipromosikan berasal dari luar negeri yang tidak mendapatkan Perizinan Berusaha dari Pemerintah Pusat sebagaimana dimaksud dalam Pasal 77 ayat (2) dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan/atau pidana denda paling banyak RpS.000.000.000,00 (lima miliar rupiah).</p></content>
           </article>
 
       </chapter>

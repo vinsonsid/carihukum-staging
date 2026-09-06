@@ -11,20 +11,405 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2014/33/ind@2014-10-17/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2014/33/ind@2014-10-17"/>
-          <FRBRdate date="2014-10-17" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2014/33/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2014/33/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2014/33/ind@2014-10-17/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2014/33/ind@2014-10-17.akn"/>
+          <FRBRthis value="/akn/id/act/uu/2014/33/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2014/33/ind@2023-03-31.akn"/>
           <FRBRdate date="2026-09-06" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2014-10-17" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="insertion" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_4a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_10"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_16"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_22"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_27"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_28"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_11">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_31"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_32"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_35"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_15">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_35a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_16">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_17">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_41"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_44"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_20">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_48"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_21">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_22">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_55"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_23">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_56"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_24">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_1"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_25">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_4a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_26">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_5"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_27">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_7"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_28">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_10"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_29">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_10a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_30">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_31">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_32">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_33">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_16"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_34">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_22"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_35">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_25"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_36">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_27"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_37">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_28"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_38">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_39">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_40">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_31"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_41">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_32"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_42">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_43">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_33a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_44">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_338"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_45">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_35"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_46">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_35a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_47">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_48">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_41"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_49">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_50">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_44"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_51">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_48"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_52">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_50"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_53">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#bab_7a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_54">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#bab_7b"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_55">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_56">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_55"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_57">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_63a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_58">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_638"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_59">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_63c"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_60">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_1"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_61">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_4a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_62">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_5"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_63">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_7"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_64">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_10"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_65">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_10a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_66">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_67">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_68">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_69">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_16"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_70">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_22"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_71">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_25"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_72">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_27"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_73">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_28"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_74">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_75">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_76">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_31"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_77">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_32"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_78">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_79">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_33a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_80">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_338"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_81">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_35"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_82">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_35a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_83">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_40"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_84">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_41"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_85">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_86">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_44"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_87">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_48"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_88">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_50"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_89">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#bab_7a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_90">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_91">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_55"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_92">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_63a"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_93">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_63c"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -66,7 +451,7 @@
               </point>
               <point eId="pasal_1__angka_7">
                 <num>7.</num>
-                <content><p>Majelis Ulama Indonesia yang selanjutnya disingkat MUI adalah wadah musyawarah para ulama, zuama, dan cendekiawan muslim.</p></content>
+                <content><p>Majelis Ulama Indonesia yang selanjutnya disingkat MUI adalah wadah musyawarah para ulama, zLtama, dan cendekiawan muslim.</p></content>
               </point>
               <point eId="pasal_1__angka_8">
                 <num>8.</num>
@@ -78,15 +463,11 @@
               </point>
               <point eId="pasal_1__angka_10">
                 <num>10.</num>
-                <content><p>Sertifikat Halal adalah pengakuan kehalalan suatu Produk yang dikeluarkan oleh BPJPH berdasarkan fatwa halal tertulis yang dikeluarkan oleh MUI.</p></content>
+                <content><p>Sertifikat Halal adalah pengakuan kehalalan suatu Produk yang diterbitkan oleh BPJPH berdasarkan fatwa halal tertulis atau penetapan kehalalan Produk oleh MUI, MUI Provinsi, MUI KabupatenfKota, Majelis Permusyawaratan Ulama Aceh, atau Komite Fatwa Produk Halal.</p></content>
               </point>
               <point eId="pasal_1__angka_11">
                 <num>11.</num>
-                <content><p>Label Halal adalah tanda kehalalan suatu Produk.</p></content>
-              </point>
-              <point eId="pasal_1__angka_12">
-                <num>12.</num>
-                <content><p>Pelaku Usaha adalah orang perseorangan atau badan usaha berbentuk badan hukum atau bukan badan hukum yang menyelenggarakan kegiatan usaha di wilayah Indonesia.</p></content>
+                <content><p>Label Halal adalah tanda kehalalan suatu Produk. L2. Pelaku Usaha adalah orang perseorangan atau badan usaha berbentuk badan hukum atau bukan badan hukum yang menyelenggarakan kegiatan usaha di wilayah Indonesia.</p></content>
               </point>
               <point eId="pasal_1__angka_13">
                 <num>13.</num>
@@ -94,7 +475,7 @@
               </point>
               <point eId="pasal_1__angka_14">
                 <num>14.</num>
-                <content><p>Setiap orang adalah orang perseorangan atau badan hukum.</p></content>
+                <content><p>Setiap Orang adalah orang perseorangan atau badan hukum.</p></content>
               </point>
               <point eId="pasal_1__angka_15">
                 <num>15.</num>
@@ -148,6 +529,18 @@
             <num>4</num>
             <content><p>Produk yang masuk, beredar, dan diperdagangkan di wilayah Indonesia wajib bersertifikat halal.</p></content>
           </article>
+          <article eId="pasal_4a">
+            <num>4A</num>
+              <paragraph eId="pasal_4a__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk Pelaku Usaha mikro dan kecil, kewajiban bersertifikat halal sebagaimana dimaksud dalam Pasal 4 didasarkan atas pernyataan halal Pelaku Usaha mikro dan kecil.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4a__ayat_2">
+                <num>(2)</num>
+                <content><p>Pernyataan halal Pelaku Usaha mikro dan kecil sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan standar halal yang ditetapkan oleh BPJPH.</p></content>
+              </paragraph>
+
+          </article>
 
       </chapter>
       <chapter eId="bab_2">
@@ -168,11 +561,7 @@
                   </paragraph>
                   <paragraph eId="pasal_5__ayat_3">
                     <num>(3)</num>
-                    <content><p>Untuk melaksanakan penyelenggaraan JPH sebagaimana dimaksud pada ayat (2), dibentuk BPJPH yang berkedudukan di bawah dan bertanggung jawab kepada Menteri.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_5__ayat_4">
-                    <num>(4)</num>
-                    <content><p>Dalam hal diperlukan, BPJPH dapat membentuk perwakilan di daerah.</p></content>
+                    <content><p>Untuk melaksanakan penyelenggaraan JPH sebagaimana dimaksud pada ayat (2), dibentuk BPJPH yang berkedudukan di bawah dan bertanggung jawab kepada Menteri. l4l Dalam hal diperlukan, Menteri dapat melakukan pengembangan organisasi BPJPH di daerah sesuai kebutuhan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_5__ayat_5">
                     <num>(5)</num>
@@ -232,19 +621,27 @@
               </article>
               <article eId="pasal_7">
                 <num>7</num>
-                <intro><p>Dalam melaksanakan wewenang sebagaimana dimaksud dalam Pasal 6, BPJPH bekerja sama dengan:</p></intro>
-                  <point eId="pasal_7__huruf_a">
-                    <num>a.</num>
-                    <content><p>kementerian dan/atau lembaga terkait;</p></content>
-                  </point>
-                  <point eId="pasal_7__huruf_b">
-                    <num>b.</num>
-                    <content><p>LPH; dan</p></content>
-                  </point>
-                  <point eId="pasal_7__huruf_c">
-                    <num>c.</num>
-                    <content><p>MUI.</p></content>
-                  </point>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Dalam melaksanakan wewenang sebagaimana dimaksud dalam Pasal 6, BPJPH bekerja sama dengan:</p></intro>
+                      <point eId="pasal_7__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>kementerian dan/atau lembaga terkait;</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>LPH; dan</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>MUI, MUI Provinsi, MUI Kabupatenf Kota, atau Majelis Permusyawaratan Ulama Aceh.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Selain kerja sama sebagaimana dimaksud pada ayat (1), BPJPH dapat bekerja sama dengan pergurLran tinggi.</p></content>
+                  </paragraph>
 
               </article>
               <article eId="pasal_8">
@@ -259,30 +656,21 @@
                 <num>10</num>
                   <paragraph eId="pasal_10__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Kerja sama BPJPH dengan MUI sebagaimana dimaksud dalam Pasal 7 huruf c dilakukan dalam bentuk:</p></intro>
-                      <point eId="pasal_10__ayat_1__huruf_a">
-                        <num>a.</num>
-                        <content><p>sertifikasi Auditor Halal;</p></content>
-                      </point>
-                      <point eId="pasal_10__ayat_1__huruf_b">
-                        <num>b.</num>
-                        <content><p>penetapan kehalalan Produk; dan</p></content>
-                      </point>
-                      <point eId="pasal_10__ayat_1__huruf_c">
-                        <num>c.</num>
-                        <content><p>akreditasi LPH.</p></content>
-                      </point>
-
+                    <content><p>Kerja sama BPJPH dengan MUI, MUI Provinsi, MUI Kabupaten/Kota, atau Majelis Permusyawaratan Ulama Aceh sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf c dilakukan dalam hal penetapan kehalalan Produk.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_10__ayat_2">
                     <num>(2)</num>
-                    <content><p>Penetapan kehalalan Produk sebagaimana dimaksud pada ayat (1) huruf b dikeluarkan MUI dalam bentuk Keputusan Penetapan Halal Produk.</p></content>
+                    <content><p>Penetapan kehalalan Produk sebagaimana dimaksud pada ayat (1) diterbitkan oleh MUI, MUI Provinsi, MUI Kabupaten/Kota, dan Majelis Permusyawaratan Ulama Aceh dalam bentuk Keputusan Penetapan Halal Produk.</p></content>
                   </paragraph>
 
               </article>
+              <article eId="pasal_10a">
+                <num>10A</num>
+                <content><p>Kerja sama BPJPH dengan perguruan tinggi sebagaimana dimaksud dalam Pasal 7 ayat (2) dilakukan untuk sosialisasi, edukasi, dan publikasi Produk Halal.</p></content>
+              </article>
               <article eId="pasal_11">
                 <num>11</num>
-                <content><p>Ketentuan lebih lanjut mengenai kerja sama sebagaimana dimaksud dalam Pasal 7, Pasal 8, Pasal 9, dan Pasal 10 diatur dengan atau berdasarkan Peraturan Pemerintah.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai kerja sarna sebagaimana dimaksud dalam Pasal 7, Pasal 8, Pasal 9, Pasal 10, dan Pasal 10A diatur dalam Peraturan Pemerintah.</p></content>
               </article>
 
           </part>
@@ -305,28 +693,28 @@
                 <num>13</num>
                   <paragraph eId="pasal_13__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Untuk mendirikan LPH sebagaimana dimaksud dalam Pasal 12, harus dipenuhi persyaratan:</p></intro>
+                    <intro><p>Untuk mendirikan LPH sebagaimana dimaksud dalam Pasal 12, harus mengajukan akreditasi kepada BPJPH dengan memenuhi persyaratan:</p></intro>
                       <point eId="pasal_13__ayat_1__huruf_a">
                         <num>a.</num>
                         <content><p>memiliki kantor sendiri dan perlengkapannya;</p></content>
                       </point>
                       <point eId="pasal_13__ayat_1__huruf_b">
                         <num>b.</num>
-                        <content><p>memiliki akreditasi dari BPJPH;</p></content>
+                        <content><p>memiliki Auditor Halal paling sedikit 3 (tiga) orang; dan</p></content>
                       </point>
                       <point eId="pasal_13__ayat_1__huruf_c">
                         <num>c.</num>
-                        <content><p>memiliki Auditor Halal paling sedikit 3 (tiga) orang; dan</p></content>
-                      </point>
-                      <point eId="pasal_13__ayat_1__huruf_d">
-                        <num>d.</num>
                         <content><p>memiliki laboratorium atau kesepakatan kerja sama dengan lembaga lain yang memiliki laboratorium.</p></content>
                       </point>
 
                   </paragraph>
                   <paragraph eId="pasal_13__ayat_2">
                     <num>(2)</num>
-                    <content><p>Dalam hal LPH sebagaimana dimaksud pada ayat (1) didirikan oleh masyarakat, LPH harus diajukan oleh lembaga keagamaan Islam berbadan hukum.</p></content>
+                    <content><p>Dalam hal LPH sebagaimana dimaksud pada ayat (1) didirikan oleh masyarakat, LPH harus diajukan oleh lembaga keagamaan lslam berbadan hukum dan perguruan tinggi swasta yang berada di bawah naungan lembaga keagamaan Islam berbadan hukum atau yayasan Islam berbadan hukum. PRESTDEN</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal suatu daerah tidak terdapat LPH yang didirikan oleh masyarakat sebagaimana dimaksud pada ayat (2),, lembaga keagamaan Islam berbadan hukum dan perguruan tinggi swasta yang berada di bawah naungan lembaga keagamaan Islam berbadan hukum atau yayasan Islam berbadan hukum dapat bekerja sama dengan badan usaha milik negara atau Badan Pengawas Obat dan Makanan.</p></content>
                   </paragraph>
 
               </article>
@@ -334,7 +722,7 @@
                 <num>14</num>
                   <paragraph eId="pasal_14__ayat_1">
                     <num>(1)</num>
-                    <content><p>Auditor Halal sebagaimana dimaksud dalam Pasal 13 huruf c diangkat dan diberhentikan oleh LPH.</p></content>
+                    <content><p>Auditor Halal sebagaimana dimaksud dalam Pasal 13 ayat (1) huruf b diangkat dan diberhentikan oleh LPH.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_14__ayat_2">
                     <num>(2)</num>
@@ -349,19 +737,15 @@
                       </point>
                       <point eId="pasal_14__ayat_2__huruf_c">
                         <num>c.</num>
-                        <content><p>berpendidikan paling rendah sarjana strata 1 (satu) di bidang pangan, kimia, biokimia, teknik industri, biologi, atau farmasi;</p></content>
+                        <content><p>berpendidikan paling rendah sarjana strata 1 (satu) di bidang pangan, kimia, biokimia, teknik industri, biologi, farmasi, kedokteran, tata boga, atau pertanian;</p></content>
                       </point>
                       <point eId="pasal_14__ayat_2__huruf_d">
                         <num>d.</num>
-                        <content><p>memahami dan memiliki wawasan luas mengenai kehalalan produk menurut syariat Islam;</p></content>
+                        <content><p>memahami dan memiliki wawasan luas mengenai kehalalan produk menurut syariat Islam; dan</p></content>
                       </point>
                       <point eId="pasal_14__ayat_2__huruf_e">
                         <num>e.</num>
-                        <content><p>mendahulukan kepentingan umat di atas kepentingan pribadi dan/atau golongan; dan</p></content>
-                      </point>
-                      <point eId="pasal_14__ayat_2__huruf_f">
-                        <num>f.</num>
-                        <content><p>memperoleh sertifikat dari MUI.</p></content>
+                        <content><p>mendahulukan kepentingan umat di atas kepentingan pribadi dan/ atau golongan.</p></content>
                       </point>
 
                   </paragraph>
@@ -406,7 +790,7 @@
               </article>
               <article eId="pasal_16">
                 <num>16</num>
-                <content><p>Ketentuan lebih lanjut mengenai LPH diatur dalam Peraturan Pemerintah.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai LPH dan Auditor Halal diatur dalam Peraturan Pemerintah.</p></content>
               </article>
 
           </part>
@@ -546,20 +930,11 @@
                 <num>22</num>
                   <paragraph eId="pasal_22__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Pelaku Usaha yang tidak memisahkan lokasi, tempat, dan alat PPH sebagaimana dimaksud dalam Pasal 21 ayat (1) dan ayat (2) dikenai sanksi administratif berupa:</p></intro>
-                      <point eId="pasal_22__ayat_1__huruf_a">
-                        <num>a.</num>
-                        <content><p>peringatan tertulis; atau</p></content>
-                      </point>
-                      <point eId="pasal_22__ayat_1__huruf_b">
-                        <num>b.</num>
-                        <content><p>denda administratif.</p></content>
-                      </point>
-
+                    <content><p>Pelaku Usaha yang tidak memisahkan lokasi, tempat, dan alat PPH sebagaimana dimaksud dalam Pasal 21 ayat (1) atau ayat (2) dikenai sanksi administratif.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_22__ayat_2">
                     <num>(2)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai kriteria, jenis, besaran denda, dan tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -617,7 +992,7 @@
               </point>
               <point eId="pasal_25__huruf_b">
                 <num>b.</num>
-                <content><p>menjaga kehalalan Produk yang telah memperoleh Sertifikat Halal;</p></content>
+                <content><p>menjaga kehalalan Produkyang telah memperoleh Sertifikat Halal;</p></content>
               </point>
               <point eId="pasal_25__huruf_c">
                 <num>c.</num>
@@ -625,11 +1000,11 @@
               </point>
               <point eId="pasal_25__huruf_d">
                 <num>d.</num>
-                <content><p>memperbarui Sertifikat Halal jika masa berlaku Sertifikat Halal berakhir; dan</p></content>
+                <content><p>memperbarui Sertifikat Halal jika terdapat perubahan komposisi Bahan dan/atau PPH; dan</p></content>
               </point>
               <point eId="pasal_25__huruf_e">
                 <num>e.</num>
-                <content><p>melaporkan perubahan komposisi Bahan kepada BPJPH.</p></content>
+                <content><p>melaporkan perubahan komposisi Bahan dan/atau PPH kepada BPJPH.</p></content>
               </point>
 
           </article>
@@ -649,41 +1024,16 @@
             <num>27</num>
               <paragraph eId="pasal_27__ayat_1">
                 <num>(1)</num>
-                <intro><p>Pelaku Usaha yang tidak melakukan kewajiban sebagaimana dimaksud dalam Pasal 25 dikenai sanksi administratif berupa:</p></intro>
-                  <point eId="pasal_27__ayat_1__huruf_a">
-                    <num>a.</num>
-                    <content><p>peringatan tertulis;</p></content>
-                  </point>
-                  <point eId="pasal_27__ayat_1__huruf_b">
-                    <num>b.</num>
-                    <content><p>denda administratif; atau</p></content>
-                  </point>
-                  <point eId="pasal_27__ayat_1__huruf_c">
-                    <num>c.</num>
-                    <content><p>pencabutan Sertifikat Halal.</p></content>
-                  </point>
-
+                <content><p>Pelaku Usaha yang tidak melakukan kewajiban sebagaimana dimaksud dalam Pasal 25 atau Pasal 26 ayat (2) dikenai sanksi administratif.</p></content>
               </paragraph>
               <paragraph eId="pasal_27__ayat_2">
                 <num>(2)</num>
-                <intro><p>Pelaku Usaha yang tidak melakukan kewajiban sebagaimana dimaksud dalam Pasal 26 ayat (2) dikenai sanksi administratif berupa:</p></intro>
-                  <point eId="pasal_27__ayat_2__huruf_a">
-                    <num>a.</num>
-                    <content><p>teguran lisan;</p></content>
-                  </point>
-                  <point eId="pasal_27__ayat_2__huruf_b">
-                    <num>b.</num>
-                    <content><p>peringatan tertulis; atau</p></content>
-                  </point>
-                  <point eId="pasal_27__ayat_2__huruf_c">
-                    <num>c.</num>
-                    <content><p>denda administratif.</p></content>
+                <intro><p>Ketentuan lebih lanjut mengenai kriteria, jenis, besaran denda, dan tata cara pengenaan sanksi administratif diatur dalam Peraturan Pemerintah.</p></intro>
+                  <point eId="pasal_27__ayat_2__angka_14">
+                    <num>14.</num>
+                    <content><p>Ketentuan... t4. Ketentuan Pasal 28 diubah sehingga berbunyi sebagai berikut:</p></content>
                   </point>
 
-              </paragraph>
-              <paragraph eId="pasal_27__ayat_3">
-                <num>(3)</num>
-                <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Menteri.</p></content>
               </paragraph>
 
           </article>
@@ -729,7 +1079,11 @@
               </paragraph>
               <paragraph eId="pasal_28__ayat_4">
                 <num>(4)</num>
-                <content><p>Ketentuan lebih lanjut mengenai Penyelia Halal diatur dalam Peraturan Menteri.</p></content>
+                <content><p>Dalam hal kegiatan usaha dilakukan oleh Pelaku Usaha mikro dan kecil, Penyelia Halal dapat berasal dari organisasi kemasyarakatan keagamaan Islam.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan lebih lanjut mengenai Penyelia Halal diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -745,7 +1099,7 @@
                 <num>29</num>
                   <paragraph eId="pasal_29__ayat_1">
                     <num>(1)</num>
-                    <content><p>Permohonan Sertifikat Halal diajukan oleh Pelaku Usaha secara tertulis kepada BPJPH.</p></content>
+                    <content><p>Permohonan Sertifikat Halal diajukan oleh Pelaku Usaha kepada BPJPH.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_29__ayat_2">
                     <num>(2)</num>
@@ -764,13 +1118,17 @@
                       </point>
                       <point eId="pasal_29__ayat_2__huruf_d">
                         <num>d.</num>
-                        <content><p>proses pengolahan Produk.</p></content>
+                        <content><p>pengolahan Produk.</p></content>
                       </point>
 
                   </paragraph>
                   <paragraph eId="pasal_29__ayat_3">
                     <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengajuan permohonan Sertifikat Halal diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Jangka waktu verifikasi permohonan Sertifikat Halal dilaksanakan paling lama 1 (satu) hari kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengajuan permohonan Sertifikat Halal diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -783,15 +1141,11 @@
                 <num>30</num>
                   <paragraph eId="pasal_30__ayat_1">
                     <num>(1)</num>
-                    <content><p>BPJPH menetapkan LPH untuk melakukan pemeriksaan dan/atau pengujian kehalalan Produk.</p></content>
+                    <content><p>BPJPH menetapkan LPH untuk melakukan pemeriksaan dan/atau pengujian kehalalan Produk berdasarkan permohonan Pelaku Usaha.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_30__ayat_2">
                     <num>(2)</num>
-                    <content><p>Penetapan LPH sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 5 (lima) hari kerja terhitung sejak dokumen permohonan sebagaimana dimaksud dalam Pasal 29 ayat (2) dinyatakan lengkap.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_30__ayat_3">
-                    <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai tata cara penetapan LPH diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Penetapan LPH sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 1 (satu) hari kerja terhitung sejak dokumen permohonan sebagaimana dimaksud dalam Pasal 29 ayat (2) dinyatakan lengkap.</p></content>
                   </paragraph>
 
               </article>
@@ -804,7 +1158,7 @@
                 <num>31</num>
                   <paragraph eId="pasal_31__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pemeriksaan dan/atau pengujian kehalalan Produk sebagaimana dimaksud dalam Pasal 30 ayat (1) dilakukan oleh Auditor Halal.</p></content>
+                    <content><p>Pemeriksaan dan/atau pengujian kehalalan Produk sebagaimana dimaksud dalam Pasal 30 ayat (1) dilakukan oleh Auditor Halal paling lama 15 (lima belas) hari kerja.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_31__ayat_2">
                     <num>(2)</num>
@@ -816,21 +1170,21 @@
                   </paragraph>
                   <paragraph eId="pasal_31__ayat_4">
                     <num>(4)</num>
+                    <content><p>Dalam hal pemeriksaan Produk sebagaimana dimaksud pada ayat (3) memerlukan tambahan waktu pemeriksaan, LPH dapat mengajukan perpanjangan waktu kepada BPJPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_5">
+                    <num>(5)</num>
                     <content><p>Dalam pelaksanaan pemeriksaan di lokasi usaha sebagaimana dimaksud pada ayat (2), Pelaku Usaha wajib memberikan informasi kepada Auditor Halal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pemeriksaan dan/atau pengujian kehalalan Produk diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
               <article eId="pasal_32">
                 <num>32</num>
-                  <paragraph eId="pasal_32__ayat_1">
-                    <num>(1)</num>
-                    <content><p>LPH menyerahkan hasil pemeriksaan dan/atau pengujian kehalalan Produk kepada BPJPH.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_32__ayat_2">
-                    <num>(2)</num>
-                    <content><p>BPJPH menyampaikan hasil pemeriksaan dan/atau pengujian kehalalan Produk kepada MUI untuk memperoleh penetapan kehalalan Produk.</p></content>
-                  </paragraph>
-
+                <content><p>LPH menyerahkan hasil pemeriksaan dan/atau pengujian kehalalan Produk kepada MUI, MUI Provinsi, MUI Kabupatenf Kota, atau Majetis Permusyawaratan Ulama Aceh dengan tembusan yang dikirimkan kepada BPJPH, melalui sistem elektronik terintegrasi.</p></content>
               </article>
 
           </part>
@@ -841,7 +1195,7 @@
                 <num>33</num>
                   <paragraph eId="pasal_33__ayat_1">
                     <num>(1)</num>
-                    <content><p>Penetapan kehalalan Produk dilakukan oleh MUI.</p></content>
+                    <content><p>Penetapan kehalalan Produk dilakukan oleh MUI, MUI Provinsi, MUI Kabupatenf Kota, atau Majelis Permusyawaratan Ulama Aceh.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_33__ayat_2">
                     <num>(2)</num>
@@ -849,19 +1203,59 @@
                   </paragraph>
                   <paragraph eId="pasal_33__ayat_3">
                     <num>(3)</num>
-                    <content><p>Sidang Fatwa Halal MUI sebagaimana dimaksud pada ayat (2) mengikutsertakan pakar, unsur kementerian/lembaga, dan/atau instansi terkait.</p></content>
+                    <content><p>Sidang Fatwa Halal MUI, MUI Provinsi, MUI Kabupaten f Kota, atau Majelis Permusyawaratan Ulama Aceh sebagaimana dimaksud pada ayat (2) memutuskan kehalalan Produk paling lama 3 (tiga) hari kerja sejak MUI, MUI Provinsi, MUI Kabupaten f Kota, atau Majelis Permusyawaratan Ulama Aceh menerima hasil pemeriksaan dan/atau pengujian Produk dari LPH.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_33__ayat_4">
                     <num>(4)</num>
-                    <content><p>Sidang Fatwa Halal sebagaimana dimaksud pada ayat (3) memutuskan kehalalan Produk paling lama 30 (tiga puluh) hari kerja sejak MUI menerima hasil pemeriksaan dan/atau pengujian Produk dari BPJPH.</p></content>
+                    <content><p>Penetapan kehalalan Produk sebagaimana dimaksud pada ayat (2) disampaikan oleh MUI, MUI Provinsi, MUI Kabupatenf Kota, atau Majelis Permusyawaratan Ulama Aceh kepada BPJPH sebagai dasar penerbitan Sertifikat Halal.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_33__ayat_5">
                     <num>(5)</num>
-                    <content><p>Keputusan Penetapan Halal Produk sebagaimana dimaksud pada ayat (4) ditandatangani oleh MUI.</p></content>
+                    <content><p>Dalam hal batas waktu sebagaimana dimaksud pada ayat (3) terlampaui, penetapan kehalalan Produk dilakukan oleh Komite Fatwa Produk Halal, berdasarkan ketentuan Fatwa Halal.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_33__ayat_6">
                     <num>(6)</num>
-                    <content><p>Keputusan Penetapan Halal Produk sebagaimana dimaksud pada ayat (5) disampaikan kepada BPJPH untuk menjadi dasar penerbitan Sertifikat Halal.</p></content>
+                    <content><p>Penetapan kehalalan Produk sebagaimana dimaksud pada ayat (5) dilakukan paling lama 2 (dua) hari kerja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai penetapan kehalalan Produk sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_33a">
+                <num>33A</num>
+                  <paragraph eId="pasal_33a__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal permohonan sertifikasi halal dilakukan oleh Pelaku Usaha mikro dan kecil melalui pernyataan halal, penetapan kehalalan Produk dilakukan oleh Komite Fatwa Produk Halal berdasarkan ketentuan Fatwa Halal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33a__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penetapan kehalalan Produk oleh Komite Fatwa Produk Halal sebagaimana dimaksud pada ayat (1) dilakukan paling lama 1 (satu) hari kerja sejak diterimanya hasil pendampingan PPH.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33a__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pendampingan PPH sebagaimana dimaksud pada ayat (21diselesaikan paling lama 10 (sepuluh) hari kerja sejak permohonan sertifikasi halal disampaikan Pelaku Usaha mikro dan kecil sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33a__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Berdasarkan penetapan kehalalan Produk sebagaimana dimaksud pada ayat (2), BPJPH menerbitkan Sertifikat Halal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_33a__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai penetapan kehalalan Produk sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_338">
+                <num>338</num>
+                  <paragraph eId="pasal_338__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Komite Fatwa Produk Halal dibentuk dan bertanggung jawab kepada Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_338__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Komite Fatwa Produk Halal terdiri atas unsur: a ulama; dan b akademisi.</p></content>
                   </paragraph>
 
               </article>
@@ -884,7 +1278,11 @@
               </article>
               <article eId="pasal_35">
                 <num>35</num>
-                <content><p>Sertifikat Halal sebagaimana dimaksud dalam Pasal 34 ayat (1) diterbitkan oleh BPJPH paling lama 7 (tujuh) hari kerja terhitung sejak keputusan kehalalan Produk diterima dari MUI.</p></content>
+                <content><p>Sertifikat Halal sebagaimana dimaksud dalam Pasal 33A ayat (4) dan Pasal 34 ayat (1) diterbitkan oleh BPJPH paling lama 1 (satu) hari kerja terhitung sejak penetapan kehalalan Produk diterima oleh BPJPH.</p></content>
+              </article>
+              <article eId="pasal_35a">
+                <num>35A</num>
+                <content><p>Apabila LPH tidak dapat memenuhi batas waktu yang telah ditetapkan dalam proses sertifikasi halal, LPH tersebut akan dievaluasi dan/atau dikenai sanksi administratif.</p></content>
               </article>
               <article eId="pasal_36">
                 <num>36</num>
@@ -922,30 +1320,17 @@
               </article>
               <article eId="pasal_40">
                 <num>40</num>
-                <content><p>Ketentuan lebih lanjut mengenai Label Halal diatur dalam Peraturan Menteri.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai Label Halal diatur dalam Peraturan Pemerintah.</p></content>
               </article>
               <article eId="pasal_41">
                 <num>41</num>
                   <paragraph eId="pasal_41__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Pelaku Usaha yang mencantumkan Label Halal tidak sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 38 dan Pasal 39 dikenai sanksi administratif berupa:</p></intro>
-                      <point eId="pasal_41__ayat_1__huruf_a">
-                        <num>a.</num>
-                        <content><p>teguran lisan;</p></content>
-                      </point>
-                      <point eId="pasal_41__ayat_1__huruf_b">
-                        <num>b.</num>
-                        <content><p>peringatan tertulis; atau</p></content>
-                      </point>
-                      <point eId="pasal_41__ayat_1__huruf_c">
-                        <num>c.</num>
-                        <content><p>pencabutan Sertifikat Halal.</p></content>
-                      </point>
-
+                    <content><p>Pelaku Usaha yang mencantumkan Label Halal tidak sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 38 atau Pasal 39 dikenai sanksi administratif.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_41__ayat_2">
                     <num>(2)</num>
-                    <content><p>Ketentuan mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -958,15 +1343,15 @@
                 <num>42</num>
                   <paragraph eId="pasal_42__ayat_1">
                     <num>(1)</num>
-                    <content><p>Sertifikat Halal berlaku selama 4 (empat) tahun sejak diterbitkan oleh BPJPH, kecuali terdapat perubahan komposisi Bahan.</p></content>
+                    <content><p>Sertifikat Ha1al berlaku sejak diterbitkan oleh BPJPH dan tetap berlaku sepanjang tidak terdapat perubahan komposisi Bahan dan/atau PPH.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_42__ayat_2">
                     <num>(2)</num>
-                    <content><p>Sertifikat Halal wajib diperpanjang oleh Pelaku Usaha dengan mengajukan pembaruan Sertifikat Halal paling lambat 3 (tiga) bulan sebelum masa berlaku Sertifikat Halal berakhir.</p></content>
+                    <content><p>Dalam hal terdapat perubahan komposisi Bahan dan/atau PPH, Pelaku Usaha wajib memperbarui Sertifikat Halal.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_42__ayat_3">
                     <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai pembaruan Sertifikat Halal diatur dalam Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai pembaruan Sertifikat Halal sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -983,15 +1368,11 @@
                 <num>44</num>
                   <paragraph eId="pasal_44__ayat_1">
                     <num>(1)</num>
-                    <content><p>Biaya Sertifikasi Halal dibebankan kepada Pelaku Usaha yang mengajukan permohonan Sertifikat Halal.</p></content>
+                    <content><p>Biaya sertifikasi halal dibebankan kepada Pelaku Usaha yang mengajukan permohonan sertifikasi halal.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_44__ayat_2">
                     <num>(2)</num>
-                    <content><p>Dalam hal Pelaku Usaha merupakan usaha mikro dan kecil, biaya Sertifikasi Halal dapat difasilitasi oleh pihak lain.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_44__ayat_3">
-                    <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai biaya sertifikasi halal diatur dalam Peraturan Pemerintah.</p></content>
+                    <content><p>Dalam hal permohonan sertifikasi halal sebagaimana dimaksud pada ayat (1) diajukan oleh Pelaku Usaha mikro dan kecil melalui pernyataan halal, tidak dikenai biaya.</p></content>
                   </paragraph>
 
               </article>
@@ -1054,11 +1435,11 @@
             <num>48</num>
               <paragraph eId="pasal_48__ayat_1">
                 <num>(1)</num>
-                <content><p>Pelaku Usaha yang tidak melakukan registrasi sebagaimana dimaksud dalam Pasal 47 ayat (3) dikenai sanksi administratif berupa penarikan barang dari peredaran.</p></content>
+                <content><p>Pelaku Usaha yang tidak melakukan registrasi sebagaimana dimaksud dalam Pasal 47 ayat (3) dikenai sanksi administratif.</p></content>
               </paragraph>
               <paragraph eId="pasal_48__ayat_2">
                 <num>(2)</num>
-                <content><p>Ketentuan mengenai tata cara pengenaan sanksi administratif diatur dalam Peraturan Menteri.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -1073,37 +1454,29 @@
           </article>
           <article eId="pasal_50">
             <num>50</num>
-            <intro><p>Pengawasan JPH dilakukan terhadap:</p></intro>
-              <point eId="pasal_50__huruf_a">
-                <num>a.</num>
-                <content><p>LPH;</p></content>
-              </point>
+            <intro><p>Pengawasan JPH dilakukan terhadap: a- LPH;</p></intro>
               <point eId="pasal_50__huruf_b">
                 <num>b.</num>
-                <content><p>masa berlaku Sertifikat Halal;</p></content>
+                <content><p>kehalalan Produk;</p></content>
               </point>
               <point eId="pasal_50__huruf_c">
                 <num>c.</num>
-                <content><p>kehalalan Produk;</p></content>
+                <content><p>pencantuman Label Halal;</p></content>
               </point>
               <point eId="pasal_50__huruf_d">
                 <num>d.</num>
-                <content><p>pencantuman Label Halal;</p></content>
+                <content><p>pencantuman keterangan tidak Halal;</p></content>
               </point>
               <point eId="pasal_50__huruf_e">
                 <num>e.</num>
-                <content><p>pencantuman keterangan tidak halal;</p></content>
+                <content><p>pemisahan lokasi, tempat dan alat penyembelihan, pengolahan, penyimpanan, pengemasan, pendistribusian, penjualan, serta penyajian antara Produk Halal dan tidak Halal;</p></content>
               </point>
               <point eId="pasal_50__huruf_f">
                 <num>f.</num>
-                <content><p>pemisahan lokasi, tempat dan alat penyembelihan, pengolahan, penyimpanan, pengemasan, pendistribusian, penjualan, serta penyajian antara Produk Halal dan tidak halal;</p></content>
+                <content><p>keberadaan Penyelia Halal; dan/atau</p></content>
               </point>
               <point eId="pasal_50__huruf_g">
                 <num>g.</num>
-                <content><p>keberadaan Penyelia Halal; dan/atau</p></content>
-              </point>
-              <point eId="pasal_50__huruf_h">
-                <num>h.</num>
                 <content><p>kegiatan lain yang berkaitan dengan JPH.</p></content>
               </point>
 
@@ -1126,6 +1499,49 @@
           </article>
 
       </chapter>
+      <chapter eId="bab_7a">
+        <num>VIIA</num>
+        <heading>LAYANAN PENYELENGGARAAN JAMINAN PRODUK HALAL BERBASIS ELEKTRONIK</heading>
+          <article eId="pasal_52a">
+            <num>52A</num>
+              <paragraph eId="pasal_52a__ayat_1">
+                <num>(1)</num>
+                <content><p>Layanan penyelenggaraan JPH wajib menggunakan sistem elektronik terintegrasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52a__ayat_2">
+                <num>(2)</num>
+                <content><p>Sistem elektronik terintegrasi sebagaimana dimaksud pada ayat (1) menghubungkan proses layanan sertifikasi halal yang dilakukan oleh: a- BPJPH; h LPH; c MUI, MUI Provinsi, MUI Kabupatenf Kota, dan Majelis Permusyawaratan Ulama Aceh; d Komite Fatwa Produk Halal; dan e pendamping PPH.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52a__ayat_3">
+                <num>(3)</num>
+                <content><p>Sistem elektronik terintegrasi sebagaimana dimaksud pada ayat (1) juga digunakan untuk mendukung layanan lainnya terkait penyelenggaraan JPH.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52a__ayat_4">
+                <num>(4)</num>
+                <content><p>Sistem elektronik terintegrasi sebagaimana dimaksud pada ayat (1) dikelola oleh BPJPH.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7b">
+        <num>VIIB</num>
+        <heading>SUMBER PENDANAAN</heading>
+          <article eId="pasal_528">
+            <num>528</num>
+            <intro><p>Pendanaan pelaksanaan Undang-Undang ini bersumber dari: a anggaran pendapatan dan belanja negara;</p></intro>
+              <point eId="pasal_528__huruf_b">
+                <num>b.</num>
+                <content><p>anggaran pendapatan dan belanja daerah; dan/atau</p></content>
+              </point>
+              <point eId="pasal_528__huruf_c">
+                <num>c.</num>
+                <content><p>sumber lainnya yang sah dan tidak mengikat sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
       <chapter eId="bab_8">
         <num>VIII</num>
         <heading>PERAN SERTA MASYARAKAT</heading>
@@ -1140,17 +1556,25 @@
                 <intro><p>Peran serta masyarakat sebagaimana dimaksud pada ayat (1) dapat berupa:</p></intro>
                   <point eId="pasal_53__ayat_2__huruf_a">
                     <num>a.</num>
-                    <content><p>melakukan sosialisasi mengenai JPH; dan</p></content>
+                    <content><p>sosialisasi dan edukasi mengenai JPH;</p></content>
                   </point>
                   <point eId="pasal_53__ayat_2__huruf_b">
                     <num>b.</num>
-                    <content><p>mengawasi Produk dan Produk Halal yang beredar.</p></content>
+                    <content><p>pendampingan dalam PPH;</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>publikasi bahwa Produk berada dalam pendampingan; dan</p></content>
+                  </point>
+                  <point eId="pasal_53__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pengawasan Produk Halal yang beredar.</p></content>
                   </point>
 
               </paragraph>
               <paragraph eId="pasal_53__ayat_3">
                 <num>(3)</num>
-                <content><p>Peran serta masyarakat berupa pengawasan Produk dan Produk Halal yang beredar sebagaimana dimaksud pada ayat (2) huruf b berbentuk pengaduan atau pelaporan ke BPJPH.</p></content>
+                <content><p>Peran serta masyarakat berupa pengawasan Produk Halal yang beredar sebagaimana dimaksud pada ayat (2) huruf d berbentuk pengaduan atau pelaporan ke BPJPH.</p></content>
               </paragraph>
 
           </article>
@@ -1160,7 +1584,7 @@
           </article>
           <article eId="pasal_55">
             <num>55</num>
-            <content><p>Ketentuan lebih lanjut mengenai tata cara peran serta masyarakat dan pemberian penghargaan diatur dalam Peraturan Menteri.</p></content>
+            <content><p>Ketentuan lebih lanjut mengenai tata cara peran serta masyarakat dan pemberian penghargaan diatur dalam Peraturan Pemerintah.</p></content>
           </article>
 
       </chapter>
@@ -1169,7 +1593,7 @@
         <heading>KETENTUAN PIDANA</heading>
           <article eId="pasal_56">
             <num>56</num>
-            <content><p>Pelaku Usaha yang tidak menjaga kehalalan Produk yang telah memperoleh Sertifikat Halal sebagaimana dimaksud dalam Pasal 25 huruf b dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).</p></content>
+            <content><p>Pelaku Usaha yang tidak menjaga kehalalan Produk yang telah memperoleh Sertifikat Halal sebagaimana dimaksud dalam Pasal 25 hurrf b dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).</p></content>
           </article>
           <article eId="pasal_57">
             <num>57</num>
@@ -1203,6 +1627,26 @@
           <article eId="pasal_63">
             <num>63</num>
             <content><p>Penyelia Halal perusahaan yang sudah ada sebelum Undang-Undang ini berlaku diakui sebagai Penyelia Halal dan wajib menyesuaikan dengan ketentuan dalam Pasal 28 paling lama 2 (dua) tahun terhitung sejak Undang- Undang ini diundangkan.</p></content>
+          </article>
+          <article eId="pasal_63a">
+            <num>63A</num>
+            <content><p>Pelaksanaan layanan penyelenggaraan JPH menggunakan sistem elektronik terintegrasi sebagaimana dimaksud dalam Pasal 52A dibangun secara bertahap paling lambat 1 (satu) tahun sejak Undang-Undang ini diundangkan. Pasal 63E} Sertifikat Halal yang telah diterbitkan oleh BPJPH sebelum Undang-Undang ini berlaku dinyatakan tetap berlaku sepanjang tidak terdapat perubahan komposisi Bahan dan/atau PPH.</p></content>
+          </article>
+          <article eId="pasal_638">
+            <num>638</num>
+            <content><p>Sertifikat Halal yang telah diterbitkan oleh BPJPH sebelum Undang-Undang ini berlaku dinyatakan tetap berlaku sepanjang tidak terdapat perubahan komposisi Bahan dan/atau PPH.</p></content>
+          </article>
+          <article eId="pasal_63c">
+            <num>63C</num>
+              <paragraph eId="pasal_63c__ayat_1">
+                <num>(1)</num>
+                <content><p>Komite Fatwa Produk Halal sudah harus dibentuk paling lambat 1 (satu) tahun sejak Undang- Undang ini diundangkan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_63c__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah menjalankan tugas Komite Fatwa Produk Halal sampai dengan terbentuknya Komite Fatwa Produk Halal. Paragrafg ... REPUELIK TNDONESIA</p></content>
+              </paragraph>
+
           </article>
 
       </chapter>

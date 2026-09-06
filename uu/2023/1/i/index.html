@@ -346,6 +346,18 @@ function konsolidasi(workId, asOf) {
         tandai(baru, ev.pelaku, ev.tanggal_berlaku);
         t.induk[t.idx] = baru;
       } else if (op.op === "insert_after" || op.op === "insert_bab_after") {
+        // Cermin tools/lib/karya.mjs: sisipan yang DITETAPKAN ULANG (rantai
+        // Cipta Kerja menyisipkan pasal yang sama tiga kali) mengganti di
+        // tempat, bukan melahirkan pasal kembar.
+        const sudah = op.unit?.id ? cari(pohon, op.unit.id) : null;
+        if (sudah) {
+          const baru = clone(op.unit);
+          baru.riwayat = [...(sudah.node.riwayat ?? []),
+            { aksi: "disisipkan ulang", pelaku: ev.pelaku, judul: ev.judul_pelaku, tanggal: ev.tanggal_berlaku }];
+          tandai(baru, ev.pelaku, ev.tanggal_berlaku);
+          sudah.induk[sudah.idx] = baru;
+          continue;
+        }
         const t = cari(pohon, op.acuan);
         if (!t) continue;
         const baru = clone(op.unit);

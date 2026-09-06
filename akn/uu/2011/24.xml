@@ -11,20 +11,69 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2011/24/ind@2011-11-25/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2011/24/ind@2011-11-25"/>
-          <FRBRdate date="2011-11-25" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2011/24/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2011/24/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2011/24/ind@2011-11-25/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2011/24/ind@2011-11-25.akn"/>
+          <FRBRthis value="/akn/id/act/uu/2011/24/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2011/24/ind@2023-03-31.akn"/>
           <FRBRdate date="2026-09-06" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2011-11-25" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_9"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_9"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_9"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -198,26 +247,26 @@
                 <num>6</num>
                   <paragraph eId="pasal_6__ayat_1">
                     <num>(1)</num>
-                    <content><p>BPJS Kesehatan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf a menyelenggarakan program jaminan kesehatan.</p></content>
+                    <content><p>BPJS Kesehatan sebagaimana dimaksud dalam Pasal5 ayat (2) huruf a menyelenggarakan program jaminan kesehatan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_6__ayat_2">
                     <num>(2)</num>
-                    <intro><p>BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b menyelenggarakan program:</p></intro>
-                      <point eId="pasal_6__ayat_2__huruf_a">
-                        <num>a.</num>
-                        <content><p>jaminan kecelakaan kerja;</p></content>
-                      </point>
+                    <intro><p>BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b menyelenggarakan program: a- jaminan kecelakaan kerja;</p></intro>
                       <point eId="pasal_6__ayat_2__huruf_b">
                         <num>b.</num>
                         <content><p>jaminan hari tua;</p></content>
                       </point>
                       <point eId="pasal_6__ayat_2__huruf_c">
                         <num>c.</num>
-                        <content><p>jaminan pensiun; dan</p></content>
+                        <content><p>jaminan pensiun;</p></content>
                       </point>
                       <point eId="pasal_6__ayat_2__huruf_d">
                         <num>d.</num>
-                        <content><p>jaminan kematian.</p></content>
+                        <content><p>jaminan kematian; dan</p></content>
+                      </point>
+                      <point eId="pasal_6__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>jaminan kehilangan pekerjaan.</p></content>
                       </point>
 
                   </paragraph>
@@ -280,7 +329,7 @@
                   </paragraph>
                   <paragraph eId="pasal_9__ayat_2">
                     <num>(2)</num>
-                    <content><p>BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b berfungsi menyelenggarakan program jaminan kecelakaan kerja, program jaminan kematian, program jaminan pensiun, dan jaminan hari tua.</p></content>
+                    <content><p>BPJS Ketenagakerjaan sebagaimana dimaksud dalam Pasal 5 ayat (2) huruf b berfungsi menyelenggarakan program jaminan kecelakaan kerja, program jaminan kematian, program jaminan pensiun, program jaminan hari tua, dan program jaminan kehilangan pekerjaan.</p></content>
                   </paragraph>
 
               </article>
@@ -1223,7 +1272,15 @@
               </article>
               <article eId="pasal_42">
                 <num>42</num>
-                <content><p>Modal awal sebagaimana dimaksud dalam Pasal 41 ayat (1) huruf a untuk BPJS Kesehatan dan BPJS Ketenagakerjaan ditetapkan masing-masing paling banyak Rp2.000.000.000.000,00 (dua triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.</p></content>
+                  <paragraph eId="pasal_42__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Modal awal sebagaimana dimaksud dalam Pasal4l ayat (1) huruf a untuk BPJS Kesehatan dan BPJS Ketenagakerjaan ditetapkan masing-masing paling banyak Rp2.000.000.000.000,00 (dua triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_42__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Modal awal sebagaimana dimaksud dalam Pasal 41 ayat (1) huruf a untuk program jaminan kehilangan pekerjaan ditetapkan paling sedikit Rp6.000.000.000.OO0,00 (enam triliun rupiah) yang bersumber dari Anggaran Pendapatan dan Belanja Negara.</p></content>
+                  </paragraph>
+
               </article>
 
           </part>
