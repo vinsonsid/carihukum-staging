@@ -40,20 +40,12 @@
   ],
   "perubahan_belum_dienkode": [
    {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
     "id": "perppu-2022-2",
     "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.460Z",
+ "dihasilkan": "2026-09-08T10:55:54.689Z",
  "timeline": [
   {
    "tanggal": "2012-01-14",
@@ -63,6 +55,43 @@
    "judul_pelaku": "Undang-Undang Nomor 2 Tahun 2012 tentang Pengadaan Tanah Bagi Pembangunan Untuk Kepentingan Umum",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 12,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan"
+    },
+    {
+     "instruksi": "insert_after pasal-19b: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    },
+    {
+     "instruksi": "insert_after pasal-19b: unit itu tidak ada pada uu-2012-2 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Di antara Pasal 19 dan Pas",
+     "unit": "pasal-19"
+    },
+    {
+     "instruksi": "insert_after pasal-19b: unit itu tidak ada pada uu-2012-2 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Di antara Pasal 19 dan Pas",
+     "unit": "pasal-19"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (4): Ketentuan | insert_after pasal-19b: muatan kosong (tak ada teks maupun anak) — tidak dienkod | insert_after pasal-19b: unit itu tidak ada pada uu-2012-2 pada saat operasi ini  | insert_after pasal-19b: unit itu tidak ada pada uu-2012-2 pada saat operasi ini "
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 13,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
   }
  ],
  "peringatan": [],
@@ -463,10 +492,168 @@
      "id": "pasal-8",
      "tipe": "pasal",
      "nomor": "8",
-     "teks": "Pihak yang Berhak dan pihak yang menguasai Objek Pengadaan Tanah untuk Kepentingan Umum wajib mematuhi ketentuan dalam Undang-Undang ini.",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-2012-2",
-     "berlaku_mulai": "2012-01-14"
+     "anak": [
+      {
+       "id": "pasal-8/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pihak yang Berhak dan pihak yang menguasai Objek Pengadaan Tanah untuk Kepentingan Umum wajib mematuhi ketentuan dalam Undang- Undang ini.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-8/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Dalam hal rencana Pengadaan Tanah, terdapat Objek Pengadaan Tanah yang masuk dalam kawasan hutan, tanah kas desa, tanah wakaf, tanah ulayat/tanah adat, dan/atau tanah aset Pemerintah Pusat, Pemerintah Daerah, badan usaha milik negara, atau badan usaha milik daerah, penyelesaian status tanahnya harr.rs dilakukan sampai dengan penetapan lokasi.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-8/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Penyelesaian perubahan kawasan hutan sebagaimana dimaksud pada ayat (2) dilakukan melalui mekanisme pelepasan kawasan hutan atau pinjam pakai kawasan hutan sesuai dengan ketentuan peraturan perundang-undangan di bidang kehutanan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-8/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Perubahan Objek Pengadaan Tanah yang masuk dalam kawasan hutan sebagaimana dimaksud pada ayat (2) khususnya untuk proyek prioritas Pemerintah Pusat dilakukan melalui mekanisme:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-8/ayat-4/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "pelepasan kawasan hutan dalam hal Pengadaan Tanah dilakukan oleh Instansi; atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-8/ayat-4/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "pelepasan kawasan hutan atau pinjam pakai kawasan hutan dalam hal Pengadaan Tanah dilakukan oleh swasta.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-8",
+        "tipe": "pasal",
+        "nomor": "8",
+        "teks": "Pihak yang Berhak dan pihak yang menguasai Objek Pengadaan Tanah untuk Kepentingan Umum wajib mematuhi ketentuan dalam Undang-Undang ini.",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2012-2",
+        "berlaku_mulai": "2012-01-14"
+       },
+       "catatan": "Ketentuan Pasal 8 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-8",
+        "tipe": "pasal",
+        "nomor": "8",
+        "anak": [
+         {
+          "id": "pasal-8/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pihak yang Berhak dan pihak yang menguasai Objek Pengadaan Tanah untuk Kepentingan Umum wajib mematuhi ketentuan dalam Undang-Undang ini.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-8/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Dalam hal rencana Pengadaan Tanah, terdapat Objek Pengadaan Tanah yang masuk dalam kawasan hutan, tanah kas desa, tanah wakaf, tanah ulayat/tanah adat, danf atau tanah aset Pemerintah Pusat, Pemerintah Daerah, Badan Usaha Milik Negara, atau Badan Usaha Milik Daerah, penyelesaian status tanahnya harus dilakukan sampai dengan penetapan lokasi.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-8/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Penyelesaian perubahan kawasan hutan sebagaimana dimaksud pada ayat (2) dilakukan melalui mekanisme pelepasan kawasan hutan atau pinjam pakai kawasan hutan sesuai dengan ketentuan peraturan perurndang-undangan di bidang kehutanan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-8/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Perubahan obyek Pengadaan Tanah yang masuk dalam kawasan hutan sebagaimana dimaksud pada ayat (2) khususnya untuk proyek prioritas Pemerintah Pusat dilakukan melalui mekanisme:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-8/ayat-4/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pelepasan kawasan hutan dalam hal Pengadaan Tanah dilakukan oleh Instansi; atau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-8/ayat-4/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pelepasan kawasan hutan atau pinjam pakai kawasan hutan dalam hal Pengadaan Tanah dilakukan oleh swasta.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 8 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-9",
@@ -521,168 +708,690 @@
          "tipe": "huruf",
          "nomor": "a.",
          "teks": "pertahanan dan keamanan nasional;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
          "teks": "jalan umum, jalan tol, terowongan, jalur kereta api, stasiun kereta api, dan fasilitas operasi kereta api;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "waduk, bendungan, bendung, irigasi, saluran air minum, saluran pembuangan air dan sanitasi, dan bangunan pengairan lainnya;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "waduk, bendungan, bendurg, irigasi, saluran air dan sanitasi, dan bangunan pengairan lainnya;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "pelabuhan, bandar udara, dan terminal;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "pelabuhan, bandar udara, dan terminal; e.infrastruktur...",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-e",
          "tipe": "huruf",
          "nomor": "e.",
          "teks": "infrastruktur minyak, gas, dan panas bumi;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-f",
          "tipe": "huruf",
          "nomor": "f.",
-         "teks": "pembangkit, transmisi, gardu, jaringan, dan distribusi tenaga listrik;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "pembangkit, transmisi, gardu, jaringan, dan/atau distribusi tenaga listrik;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-g",
          "tipe": "huruf",
          "nomor": "g.",
-         "teks": "jaringan telekomunikasi dan informatika Pemerintah;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "jaringan telekomunikasi dan informatika pemerintah;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-h",
          "tipe": "huruf",
          "nomor": "h.",
          "teks": "tempat pembuangan dan pengolahan sampah;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-i",
          "tipe": "huruf",
          "nomor": "i.",
-         "teks": "rumah sakit Pemerintah/Pemerintah Daerah;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "rumah sakit Pemerintah Pusat atau Pemerintah Daerah;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-j",
          "tipe": "huruf",
          "nomor": "j.",
          "teks": "fasilitas keselamatan umum;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-k",
          "tipe": "huruf",
          "nomor": "k.",
-         "teks": "tempat pemakaman umum Pemerintah/Pemerintah Daerah;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
-        },
-        {
-         "id": "pasal-10/huruf-l",
-         "tipe": "huruf",
-         "nomor": "l.",
-         "teks": "fasilitas sosial, fasilitas umum, dan ruang terbuka hijau publik;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "permakaman umum Pemerintah Pusat atau Pemerintah Daerah;",
+         "verifikasi": "draf",
+         "anak": [
+          {
+           "id": "pasal-10/huruf-k/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "fasilitas sosial, fasilitas umum, dan ruang terbuka hijau publik;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-m",
          "tipe": "huruf",
          "nomor": "m.",
          "teks": "cagar alam dan cagar budaya;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-n",
          "tipe": "huruf",
          "nomor": "n.",
-         "teks": "kantor Pemerintah/Pemerintah Daerah/desa;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "kantor Pemerintah Pusat, Pemerintah Daerah, atau Desa;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-o",
          "tipe": "huruf",
          "nomor": "o.",
-         "teks": "penataan permukiman kumuh perkotaan dan/atau konsolidasi tanah, serta perumahan untuk masyarakat berpenghasilan rendah dengan status sewa;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "penataan permukiman kumuh perkotaan dan/atau konsolidasi tanah serta perumahan untuk masyarakat berpenghasilan rendah dengan status sewa termasuk untuk pembangunan rumah umum dan rumah khusus;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-p",
          "tipe": "huruf",
          "nomor": "p.",
-         "teks": "prasarana pendidikan atau sekolah Pemerintah/Pemerintah Daerah;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "prasarana pendidikan atau sekolah Pemerintah Pusat atau Pemerintah Daerah;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-q",
          "tipe": "huruf",
          "nomor": "q.",
-         "teks": "prasarana olahraga Pemerintah/Pemerintah Daerah; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "prasarana olahraga Pemerintah Pusat atau Pemerintah Daerah;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-10/huruf-r",
          "tipe": "huruf",
          "nomor": "r.",
-         "teks": "pasar umum dan lapangan parkir umum.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "pasar umum dan lapangan parkir umum;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-10/huruf-s",
+         "tipe": "huruf",
+         "nomor": "s.",
+         "teks": "kawasan industri hulu dan hilir minyak dan gas yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, badan usaha milik negara, atau badan usaha milik daerah;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-10/huruf-t",
+         "tipe": "huruf",
+         "nomor": "t.",
+         "teks": "kawasan ekonomi khusus yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, badan usaha milik negara, atau badan usaha milik daerah; u.kawasan...",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-10/huruf-u",
+         "tipe": "huruf",
+         "nomor": "u.",
+         "teks": "kawasan industri yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, badan usaha milik negara, atau badan usaha milik daerah;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-10/huruf-v",
+         "tipe": "huruf",
+         "nomor": "v.",
+         "teks": "kawasan pariwisata yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, badan usaha milik negara, atau badan usaha milik daerah;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-10/huruf-w",
+         "tipe": "huruf",
+         "nomor": "w.",
+         "teks": "kawasan ketahanan pangan yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, badan usaha milik negara, atau badan usaha milik daerah; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-10/huruf-x",
+         "tipe": "huruf",
+         "nomor": "x.",
+         "teks": "kawasan pengembangair teknologi yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, badan usaha milik negara, atau badan usaha milik daerah.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
        "teks": "Tanah untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 4 ayat (1) digunakan untuk pembangunan:",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2012-2",
-       "berlaku_mulai": "2012-01-14"
+       "verifikasi": "draf",
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-10",
+          "tipe": "pasal",
+          "nomor": "10",
+          "anak": [
+           {
+            "id": "pasal-10/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pertahanan dan keamanan nasional;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "jalan umum, jalan tol, terowongan, jalur kereta api, stasiun kereta api, dan fasilitas operasi kereta api;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "waduk, bendungan, bendung, irigasi, saluran air minum, saluran pembuangan air dan sanitasi, dan bangunan pengairan lainnya;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "pelabuhan, bandar udara, dan terminal;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "infrastruktur minyak, gas, dan panas bumi;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "pembangkit, transmisi, gardu, jaringan, dan distribusi tenaga listrik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "jaringan telekomunikasi dan informatika Pemerintah;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "tempat pembuangan dan pengolahan sampah;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "rumah sakit Pemerintah/Pemerintah Daerah;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "fasilitas keselamatan umum;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-k",
+            "tipe": "huruf",
+            "nomor": "k.",
+            "teks": "tempat pemakaman umum Pemerintah/Pemerintah Daerah;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-l",
+            "tipe": "huruf",
+            "nomor": "l.",
+            "teks": "fasilitas sosial, fasilitas umum, dan ruang terbuka hijau publik;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-m",
+            "tipe": "huruf",
+            "nomor": "m.",
+            "teks": "cagar alam dan cagar budaya;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-n",
+            "tipe": "huruf",
+            "nomor": "n.",
+            "teks": "kantor Pemerintah/Pemerintah Daerah/desa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-o",
+            "tipe": "huruf",
+            "nomor": "o.",
+            "teks": "penataan permukiman kumuh perkotaan dan/atau konsolidasi tanah, serta perumahan untuk masyarakat berpenghasilan rendah dengan status sewa;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-p",
+            "tipe": "huruf",
+            "nomor": "p.",
+            "teks": "prasarana pendidikan atau sekolah Pemerintah/Pemerintah Daerah;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-q",
+            "tipe": "huruf",
+            "nomor": "q.",
+            "teks": "prasarana olahraga Pemerintah/Pemerintah Daerah; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-10/huruf-r",
+            "tipe": "huruf",
+            "nomor": "r.",
+            "teks": "pasar umum dan lapangan parkir umum.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           }
+          ],
+          "teks": "Tanah untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 4 ayat (1) digunakan untuk pembangunan:",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2012-2",
+          "berlaku_mulai": "2012-01-14"
+         },
+         "catatan": "Ketentuan Pasal 10 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-10",
+          "tipe": "pasal",
+          "nomor": "10",
+          "anak": [
+           {
+            "id": "pasal-10/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pertahanan dan keamanan nasional;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "jalan umum, jalan tol, terowongan, jalur kereta api, stasiun kereta api dan fasilitas operasi kereta api;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "waduk, bendungan, bendung, irigasi, saluran air dan sanitasi dan bangunan pengairan lainnya;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "pelabuhan, bandar udara, dan terminal;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "infrastruktur minyak, gas, dan panas bumi;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "pembangkit, transmisi, gardu, jaringan, dan/atau distribusi tenaga listrik;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "jaringan telekomunikasi dan informatika pemerintah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "tempat pembuangan dan pengolahan sampah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "rumah sakit Pemerintah Pusat atau Pemerintah Daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "fasilitas keselamatan umum;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-k",
+            "tipe": "huruf",
+            "nomor": "k.",
+            "teks": "permakaman umum Pemerintah Pusat atau Pemerintah Daerah;",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-10/huruf-k/angka-1",
+              "tipe": "angka",
+              "nomor": "1.",
+              "teks": "fasilitas sosial, fasilitas umum, dan ruang terbuka hijau publik;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-m",
+            "tipe": "huruf",
+            "nomor": "m.",
+            "teks": "cagar alam dan cagar budaya;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-n",
+            "tipe": "huruf",
+            "nomor": "n.",
+            "teks": "kantor Pemerintah Pusat, Pemerintah Daerah, atau Desa;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-o",
+            "tipe": "huruf",
+            "nomor": "o.",
+            "teks": "penataan permukiman kumuh perkotaan danfatau konsolidasi tanah serta perumahan untuk masyarakat berpenghasilan rendah dengan status sewa termasuk untuk pembangunan rumah umum dan rumah khusus;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-p",
+            "tipe": "huruf",
+            "nomor": "p.",
+            "teks": "prasarana pendidikan atau sekolah Pemerintah Pusat atau Pemerintah Daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-q",
+            "tipe": "huruf",
+            "nomor": "q.",
+            "teks": "prasarana olahraga Pemerintah Pusat atau Pemerintah Daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-r",
+            "tipe": "huruf",
+            "nomor": "r.",
+            "teks": "pasar umum dan lapangan parkir umum;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-s",
+            "tipe": "huruf",
+            "nomor": "s.",
+            "teks": "kawasan Industri Hulu dan Hilir Minyak dan Gas yang diprakarsai danlatau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, Badan Usaha Milik Negara, atau Badan Usaha Milik Daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-t",
+            "tipe": "huruf",
+            "nomor": "t.",
+            "teks": "kawasan Ekonomi Khusus yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, Badan Usaha Milik Negara, atau Badan Usaha Milik Daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-u",
+            "tipe": "huruf",
+            "nomor": "u.",
+            "teks": "kawasan Industri yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, Badan Usaha Milik Negara, atau Badan Usaha Milik Daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-v",
+            "tipe": "huruf",
+            "nomor": "v.",
+            "teks": "kawasan Pariwisata yang diprakarsai dan/atau dikuasai oleh Pemerintah Fusat, Pemerintah Daerah, Badan Usaha Milik Negara, atau Badan Usaha Milik Daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-w",
+            "tipe": "huruf",
+            "nomor": "w.",
+            "teks": "kawasan Ketahanan Pangan yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, Badan Usaha Milik Negara, atau Badan Usaha Milik Daerah; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-10/huruf-x",
+            "tipe": "huruf",
+            "nomor": "x.",
+            "teks": "kawasan pengembangan teknologi yang diprakarsai dan/atau dikuasai oleh Pemerintah Pusat, Pemerintah Daerah, Badan Usaha Milik Negara, atau Badan Usaha Milik Daerah.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "teks": "Tanah untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 4 ayat (1) digunakan untuk pembangunan:",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 10 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-11",
@@ -804,23 +1513,99 @@
          "id": "pasal-14/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Instansi yang memerlukan tanah membuat perencanaan Pengadaan Tanah untuk Kepentingan Umum menurut ketentuan peraturan perundang- undangan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "Instansi yang memerlukan tanah membuat perencanaan Pengadaan Tanah untuk Kepentingan Umum dengan melibatkan kementerian/lembaga yang menyelenggarakan urusan pemerintahan di bidang pertanahan sesuai dengan ketentuan peraturan perundang-undangan.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-14/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Perencanaan Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud pada ayat (1) didasarkan atas Rencana Tata Ruang Wilayah dan prioritas pembangunan yang tercantum dalam Rencana Pembangunan Jangka Menengah, Rencana Strategis, Rencana Kerja Pemerintah Instansi yang bersangkutan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "Perencanaan Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud pada ayat (1) didasarkan atas Rencana Tata Ruang Wilayah dan prioritas pembangunan yang tercantum dalam Rencana Pembangunan Jangka Menengah, Rencana Strategis, dan/atau Rencana Kerja Pemerintah/ Instansi yang bersangkutan.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2012-2",
-       "berlaku_mulai": "2012-01-14"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-14",
+          "tipe": "pasal",
+          "nomor": "14",
+          "anak": [
+           {
+            "id": "pasal-14/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Instansi yang memerlukan tanah membuat perencanaan Pengadaan Tanah untuk Kepentingan Umum menurut ketentuan peraturan perundang- undangan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-14/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Perencanaan Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud pada ayat (1) didasarkan atas Rencana Tata Ruang Wilayah dan prioritas pembangunan yang tercantum dalam Rencana Pembangunan Jangka Menengah, Rencana Strategis, Rencana Kerja Pemerintah Instansi yang bersangkutan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           }
+          ],
+          "sumber": "uu-2012-2",
+          "berlaku_mulai": "2012-01-14"
+         },
+         "catatan": "Ketentuan Pasal 14 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-14",
+          "tipe": "pasal",
+          "nomor": "14",
+          "anak": [
+           {
+            "id": "pasal-14/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Instansi yang memerlukan tanah membuat perencanaan Pengadaan Tanah untuk Kepentingan Umum dengan melibatkan kementerian/lembaga yang menyelenggarakan urusan pemerintahan di bidang pertanahan sesuai dengan ketentuan peraturan perundang-undangan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-14/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Perencanaan Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud pada ayat (1) didasarkan atas Rencana Tata Ruang Wilayah dan prioritas pembangunan yang tercantum dalam Rencana Pembangunan Jangka Menengah, Rencana Strategis, danf atau Rencana Kerja Pemerintah/ instansi yang bersangkutan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 14 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-15",
@@ -1052,59 +1837,435 @@
          "id": "pasal-19/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Konsultasi Publik rencana pembangunan sebagaimana dimaksud dalam Pasal 18 ayat (3) dilaksanakan untuk mendapatkan kesepakatan lokasi rencana pembangunan dari Pihak yang Berhak.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "Konsultasi Publik rencana pembangunan sebagaimana dimaksud dalam Pasal 18 ayat (3) dilaksanakan untuk mendapatkan kesepakatan lokasi rencana pembangunan dari:",
+         "verifikasi": "draf",
+         "anak": [
+          {
+           "id": "pasal-19/ayat-1/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "Pihak yang Berhak;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-19/ayat-1/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "pengelola barang milik negaralbarang milik daerah; dan",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-19/ayat-1/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "pengguna barang milik negarafbarang milik daerah.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-19/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Konsultasi Publik sebagaimana dimaksud pada ayat (1) dilakukan dengan melibatkan Pihak yang Berhak dan masyarakat yang terkena dampak serta dilaksanakan di tempat rencana pembangunan Kepentingan Umum atau di tempat yang disepakati.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "Konsultasi Publik sebagaimana dimaksud pada ayat (1) dilakukan dengan melibatkan Pihak yang Berhak, pengelola barang milik negara/barang milik daerah, pengguna barang milik negara/barang milik daerah, dan masyarakat yang terkena dampak serta dilaksanakan di tempat rencana pembangunan untuk Kepentingan Umum atau di tempat yang disepakati.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-19/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Pelibatan Pihak yang Berhak sebagaimana dimaksud pada ayat (2) dapat dilakukan melalui perwakilan dengan surat kuasa dari dan oleh Pihak yang Berhak atas lokasi rencana pembangunan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "Pelibatan Pihak yang Berhak, pengelola barang milik negara/barang milik daerah, dan pengguna barang milik negaraf barang milik daerah sebagaimana dimaksud pada ayat (2) dapat dilakukan melalui perwakilan dengan surat kuasa dari dan oleh Pihak yang Berhak, pengelola barang milik negara/barang milik daerah, dan pengguna barang milik negaraf barang milik daerah atas lokasi rencana pembangunan.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-19/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
          "teks": "Kesepakatan sebagaimana dimaksud pada ayat (1) dituangkan dalam bentuk berita acara kesepakatan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-19/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
          "teks": "Atas dasar kesepakatan sebagaimana dimaksud pada ayat (4), Instansi yang memerlukan tanah mengajukan permohonan penetapan lokasi kepada gubernur.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-19/ayat-6",
          "tipe": "ayat",
          "nomor": "(6)",
-         "teks": "Gubernur menetapkan lokasi sebagaimana dimaksud pada ayat (5) dalam waktu paling lama 14 (empat belas) hari kerja terhitung sejak diterimanya pengajuan permohonan penetapan oleh Instansi yang memerlukan tanah.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "teks": "Gubernur menetapkan lokasi sebagaimana dimaksud pada ayat (5) dalam waktu paling lama 14 (empat belas) hari terhitung sejak diterimanya pengajuan permohonan penetapan oleh Instansi yang memerlukan tanah.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-19/ayat-7",
+         "tipe": "ayat",
+         "nomor": "(7)",
+         "teks": "Pihak yang Berhak, pengelola barang milik negara/barang milik daerah, dan pengguna barang milik negaraf barang milik daerah yang tidak menghadiri Konsultasi Publik setelah diundang 3 (tiga) kali secara patut dianggap menyetujui rencana pembangunan sebagaimana dimaksud pada ayat (1).",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-19/ayat-8",
+         "tipe": "ayat",
+         "nomor": "(8)",
+         "teks": "Ketentuan lebih lanjut mengenai Konsultasi Publik sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2012-2",
-       "berlaku_mulai": "2012-01-14"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-19",
+          "tipe": "pasal",
+          "nomor": "19",
+          "anak": [
+           {
+            "id": "pasal-19/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Konsultasi Publik rencana pembangunan sebagaimana dimaksud dalam Pasal 18 ayat (3) dilaksanakan untuk mendapatkan kesepakatan lokasi rencana pembangunan dari Pihak yang Berhak.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-19/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Konsultasi Publik sebagaimana dimaksud pada ayat (1) dilakukan dengan melibatkan Pihak yang Berhak dan masyarakat yang terkena dampak serta dilaksanakan di tempat rencana pembangunan Kepentingan Umum atau di tempat yang disepakati.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-19/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pelibatan Pihak yang Berhak sebagaimana dimaksud pada ayat (2) dapat dilakukan melalui perwakilan dengan surat kuasa dari dan oleh Pihak yang Berhak atas lokasi rencana pembangunan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-19/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Kesepakatan sebagaimana dimaksud pada ayat (1) dituangkan dalam bentuk berita acara kesepakatan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-19/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Atas dasar kesepakatan sebagaimana dimaksud pada ayat (4), Instansi yang memerlukan tanah mengajukan permohonan penetapan lokasi kepada gubernur.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           {
+            "id": "pasal-19/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Gubernur menetapkan lokasi sebagaimana dimaksud pada ayat (5) dalam waktu paling lama 14 (empat belas) hari kerja terhitung sejak diterimanya pengajuan permohonan penetapan oleh Instansi yang memerlukan tanah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           }
+          ],
+          "sumber": "uu-2012-2",
+          "berlaku_mulai": "2012-01-14"
+         },
+         "catatan": "Ketentuan Pasal 19 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-19",
+          "tipe": "pasal",
+          "nomor": "19",
+          "anak": [
+           {
+            "id": "pasal-19/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Konsultasi Publik rencana pembangunan sebagaimana dimaksud dalam Pasal 18 ayat (3) dilaksanakan untuk mendapatkan kesepakatan lokasi rencana pembangunan dari:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-19/ayat-1/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Pihak yang Berhak;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-19/ayat-1/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Pengelola Barang Milik Negara/Barang Milik Daerah; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-19/ayat-1/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "Pengguna Barang Milik Negara/Barang Milik Daerah.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-19/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Konsultasi Publik sebagaimana dimaksud pada ayat (1) dilakukan dengan melibatkan Pihak yang Berhak, Pengelola Barang Milik Negara/Barang Milik Daerah, Pengguna Barang Milik Negara/Barang Milik Daerah dan masyarakat yang terkena dampak serta dilaksanakan di tempat rencana pembangunan untuk Kepentingan Umum atau di tempat yang disepakati.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-19/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pelibatan Pihak yang Berhak, Pengelola Barang Milik Negara/Barang Milik Daerah, dan Pengguna Barang Milik Negara/Barang Milik Daerah sebagaimana dimaksud pada ayat (2) dapat dilakukan melalui perwakilan dengan surat kuasa dari dan oleh Pihak yang Berhak, Pengelola Barang Milik Negara/Barang Milik Daerah, dan Pengguna Barang Milik Negara/Barang Milik Daerah atas lokasi rencana pembangunan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-19/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Kesepakatan sebagaimana dimaksud pada ayat (1) dituangkan dalam bentuk berita acara kesepakatan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-19/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Atas dasar kesepakatan sebagaimana dimaksud pada ayat (4), Instansi yang memerlukan tanah mengajukan permohonan penetapan lokasi kepada gubernur.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-19/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Gubernur menetapkan lokasi sebagaimana dimaksud pada ayat (5) dalam waktu paling lama 14 (empat belas) Hari terhitung sejak diterimanya pengajuan permohonan penetapan oleh Instansi yang memerlukan tanah.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-19/ayat-7",
+            "tipe": "ayat",
+            "nomor": "(7)",
+            "teks": "Pihak yang Berhak, Pengelola Barang Milik Negara/Barang Milik Daerah, dan Pengguna Barang Milik Negara/Barang Milik Daerah yang tidak menghadiri Konsultasi Publik setelah diundang 3 (tiga) kali secara patut dianggap menyetujui rencana pembangunan sebagaimana dimaksud pada ayat (1).",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-19/ayat-8",
+            "tipe": "ayat",
+            "nomor": "(8)",
+            "teks": "Ketentuan lebih lanjut mengenai Konsultasi Publik sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 19 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-19a",
+       "tipe": "pasal",
+       "nomor": "19A",
+       "anak": [
+        {
+         "id": "pasal-19a/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Dalam rangka efisiensi dan efektivitas, Pengadaan Tanah untuk Kepentingan Umum yang luasnya tidak lebih dari 5 (lima) hektare dapat dilakukan langsung oleh Instansi yang memerlukan tanah dengan Pihak yang Berhak.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-19a/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Pengadaan Tanah untuk Kepentingan Umum sebagaimana dimaksud pada ayat (1) harus dilakukan sesuai dengan kesesuaian tata ruang wilayah. Pasal19B... Pasal 19E} Dalam hal Pengadaan Tanah untuk Kepentingan Umum yang luasnya kurang dari 5 (lima) hektare dilakukan langsung antara Pihak yang Berhak dan Instansi yang memerlukan tanah sebagaimana dimaksud dalam Pasal 19A ayat (1), penetapan lokasi dilakukan oleh bupati/wali kota.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "catatan": "Di antara Pasal 19 dan Pasal 20 disisipkan 3 (tiga) pasal, yakni Pasal 19A, Pasal 19B, dan Pasal 19C sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "disisipkan ulang",
+         "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "catatan": "Di antara Pasal 19 dan Pasal20 disisipkan 3 (tiga) pasal, yakni Pasal 19A, Pasal 19B, dan Pasal 19C sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-19c",
+       "tipe": "pasal",
+       "nomor": "19C",
+       "anak": [
+        {
+         "id": "pasal-19c/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "kesesuaian kegiatan pemanfaatan ruang;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-19c/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "pertimbangan teknis;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-19c/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "di luar kawasan hutan dan di luar kawasan pertambangan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-19c/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "di luar kawasan gambut/sempadan pantai; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-19c/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "analisis mengenai dampak lingkungan hidup.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "teks": "Setelah penetapan lokasi Pengadaan Tanah dilakukan, tidak diperlukan lagi persyaratan:",
+       "verifikasi": "draf",
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "catatan": "Di antara Pasal 19 dan Pasal20 disisipkan 3 (tiga) pasal, yakni Pasal 19A, Pasal 19B, dan Pasal 19C sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-20",
@@ -1366,10 +2527,86 @@
        "id": "pasal-24",
        "tipe": "pasal",
        "nomor": "24",
-       "teks": "Penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 19 ayat (6) atau Pasal 22 ayat (1) diberikan dalam waktu 2 (dua) tahun dan dapat diperpanjang paling lama 1 (satu) tahun.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2012-2",
-       "berlaku_mulai": "2012-01-14"
+       "anak": [
+        {
+         "id": "pasal-24/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 19 ayat (6) atau Pasal 22 ayat (1) diberikan untuk jangka waktu 3 (tiga) tahun dan dapat diperpanjang 1 (satu) kali untuk jangka waktu 1 (satu) tahun.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-24/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Permohonan perpanjangan waktu penetapan lokasi disampaikan paling singkat 6 (enam) bulan sebelum masa berlaku penetapan lokasi berakhir.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-24",
+          "tipe": "pasal",
+          "nomor": "24",
+          "teks": "Penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 19 ayat (6) atau Pasal 22 ayat (1) diberikan dalam waktu 2 (dua) tahun dan dapat diperpanjang paling lama 1 (satu) tahun.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2012-2",
+          "berlaku_mulai": "2012-01-14"
+         },
+         "catatan": "Ketentuan Pasal 24 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-24",
+          "tipe": "pasal",
+          "nomor": "24",
+          "anak": [
+           {
+            "id": "pasal-24/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 19 ayat (6) atau Pasal 22 ayat (1) diberikan untuk jangka waktu 3 (tiga) tahun dan dapat diperpanjang 1 (satu) kali untuk jangka waktu 1 (satu) tahun.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-24/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Permohonan perpanjangan waktu penetapan lokasi disampaikan paling singkat 6 (enam) bulan sebelum masa berlaku penetapan lokasi berakhir.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 24 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-25",
@@ -1535,42 +2772,180 @@
            "tipe": "ayat",
            "nomor": "(1)",
            "teks": "Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud dalam Pasal 27 ayat (2) huruf a meliputi kegiatan:",
-           "verifikasi": "pdf-resmi",
+           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-28/ayat-1/huruf-a",
              "tipe": "huruf",
              "nomor": "a.",
              "teks": "pengukuran dan pemetaan bidang per bidang tanah; dan",
-             "verifikasi": "pdf-resmi",
-             "sumber": "uu-2012-2",
-             "berlaku_mulai": "2012-01-14"
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
             },
             {
              "id": "pasal-28/ayat-1/huruf-b",
              "tipe": "huruf",
              "nomor": "b.",
              "teks": "pengumpulan data Pihak yang Berhak dan Objek Pengadaan Tanah.",
-             "verifikasi": "pdf-resmi",
-             "sumber": "uu-2012-2",
-             "berlaku_mulai": "2012-01-14"
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
             }
            ],
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-28/ayat-2",
            "tipe": "ayat",
            "nomor": "(2)",
-           "teks": "Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud pada ayat (1) dilaksanakan dalam waktu paling lama 30 (tiga puluh) hari kerja.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "teks": "Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud pada ayat (1) dilaksanakan dalam waktu paling lama 30 (tiga puluh) hari.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-28/ayat-3",
+           "tipe": "ayat",
+           "nomor": "(3)",
+           "teks": "Pengumpulan data Pihak yang Berhak dan Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf b dapat dilakukan oleh penyurvei berlisensi.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "riwayat": [
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
+           "sebelum": {
+            "id": "pasal-28",
+            "tipe": "pasal",
+            "nomor": "28",
+            "anak": [
+             {
+              "id": "pasal-28/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud dalam Pasal 27 ayat (2) huruf a meliputi kegiatan:",
+              "verifikasi": "pdf-resmi",
+              "anak": [
+               {
+                "id": "pasal-28/ayat-1/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "pengukuran dan pemetaan bidang per bidang tanah; dan",
+                "verifikasi": "pdf-resmi",
+                "sumber": "uu-2012-2",
+                "berlaku_mulai": "2012-01-14"
+               },
+               {
+                "id": "pasal-28/ayat-1/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "pengumpulan data Pihak yang Berhak dan Objek Pengadaan Tanah.",
+                "verifikasi": "pdf-resmi",
+                "sumber": "uu-2012-2",
+                "berlaku_mulai": "2012-01-14"
+               }
+              ],
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-28/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud pada ayat (1) dilaksanakan dalam waktu paling lama 30 (tiga puluh) hari kerja.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             }
+            ],
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           "catatan": "Ketentuan Pasal 28 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-28",
+            "tipe": "pasal",
+            "nomor": "28",
+            "anak": [
+             {
+              "id": "pasal-28/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud dalam Pasal 27 ayat (2) huruf a meliputi kegiatan:",
+              "verifikasi": "draf",
+              "anak": [
+               {
+                "id": "pasal-28/ayat-1/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "pengukuran dan pemetaan bidang per bidang tanah; dan",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-28/ayat-1/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "pengumpulan data Pihak yang Berhak dan Objek Pengadaan Tanah.",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               }
+              ],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-28/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Inventarisasi dan identifikasi penguasaan, pemilikan, penggunaan, dan pemanfaatan tanah sebagaimana dimaksud pada ayat (1) dilaksanakan dalam waktu paling lama 30 (tiga puluh) Hari.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-28/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Pengumpulan data Pihak yang Berhak dan Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf b dapat dilakukan oleh penyurvei berlisensi.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 28 diubah sehingga berbunyi sebagai berikut:"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-29",
@@ -1783,31 +3158,167 @@
            "tipe": "ayat",
            "nomor": "(1)",
            "teks": "Nilai Ganti Kerugian yang dinilai oleh Penilai sebagaimana dimaksud dalam Pasal 33 merupakan nilai pada saat pengumuman penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 26.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-34/ayat-2",
            "tipe": "ayat",
            "nomor": "(2)",
-           "teks": "Besarnya nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (1) disampaikan kepada Lembaga Pertanahan dengan berita acara.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "teks": "Besarnya nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (1) disampaikan kepada Lembaga Pertanahan disertai dengan berita acara.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-34/ayat-3",
            "tipe": "ayat",
            "nomor": "(3)",
-           "teks": "Nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (2) menjadi dasar musyawarah penetapan Ganti Kerugian.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "teks": "Besarnya nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (1) bersifat final dan mengikat.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-34/ayat-4",
+           "tipe": "ayat",
+           "nomor": "(4)",
+           "teks": "Besarnya nilai Ganti Kerugian sebagaimana dimaksud pada ayat (2) dijadikan dasar untuk menetapkan bentuk Ganti Kerugian.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-34/ayat-5",
+           "tipe": "ayat",
+           "nomor": "(5)",
+           "teks": "Musyawarah penetapan bentuk Ganti Kerrrgian sebagaimana dimaksud pada ayat (4) dilaksanakan oleh ketua pelaksana Pengadaan Tanah bersama dengan Penilai dengan para Pihak yang Berhak. I Ketentuan Pasal 36 diubah sehingga berbunyi sebagai berikut:",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "riwayat": [
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
+           "sebelum": {
+            "id": "pasal-34",
+            "tipe": "pasal",
+            "nomor": "34",
+            "anak": [
+             {
+              "id": "pasal-34/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Nilai Ganti Kerugian yang dinilai oleh Penilai sebagaimana dimaksud dalam Pasal 33 merupakan nilai pada saat pengumuman penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 26.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-34/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Besarnya nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (1) disampaikan kepada Lembaga Pertanahan dengan berita acara.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-34/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (2) menjadi dasar musyawarah penetapan Ganti Kerugian.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             }
+            ],
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           "catatan": "Ketentuan Pasal 34 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-34",
+            "tipe": "pasal",
+            "nomor": "34",
+            "anak": [
+             {
+              "id": "pasal-34/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Nilai Ganti Kerugian yang dinilai oleh Penilai sebagaimana dimaksud dalam Pasal 33 merupakan nilai pada saat pengumuman penetapan lokasi pembangunan untuk Kepentingan Umum sebagaimana dimaksud dalam Pasal 26.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-34/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Besarnya nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (1) disampaikan kepada Lembaga Pertanahan disertai dengan berita acara.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-34/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Besarnya nilai Ganti Kerugian berdasarkan hasil penilaian Penilai sebagaimana dimaksud pada ayat (1) bersifat final dan mengikat.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-34/ayat-4",
+              "tipe": "ayat",
+              "nomor": "(4)",
+              "teks": "Besarnya nilai Ganti Kerugian sebagaimana dimaksud pada ayat (2), dijadikan dasar untuk menetapkan bentuk Ganti Kerugian.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-34/ayat-5",
+              "tipe": "ayat",
+              "nomor": "(5)",
+              "teks": "Musyawarah penetapan bentuk Ganti Kerugian sebagaimana dimaksud pada ayat (4) dilaksanakan oleh Ketua Pelaksana Pengadaan Tanah bersama dengan Penilai dengan para Pihak yang Berhak.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 34 diubah sehingga berbunyi sebagai berikut:"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-35",
@@ -1824,55 +3335,233 @@
          "nomor": "36",
          "anak": [
           {
-           "id": "pasal-36/huruf-a",
-           "tipe": "huruf",
-           "nomor": "a.",
-           "teks": "uang;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "id": "pasal-36/ayat-1",
+           "tipe": "ayat",
+           "nomor": "(1)",
+           "teks": "Pemberian Ganti Kerugian dapat diberikan dalam bentuk:",
+           "verifikasi": "draf",
+           "anak": [
+            {
+             "id": "pasal-36/ayat-1/huruf-a",
+             "tipe": "huruf",
+             "nomor": "a.",
+             "teks": "uang;",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
+            },
+            {
+             "id": "pasal-36/ayat-1/huruf-b",
+             "tipe": "huruf",
+             "nomor": "b.",
+             "teks": "tanah pengganti;",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
+            },
+            {
+             "id": "pasal-36/ayat-1/huruf-c",
+             "tipe": "huruf",
+             "nomor": "c.",
+             "teks": "pemukiman kembali;",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
+            },
+            {
+             "id": "pasal-36/ayat-1/huruf-d",
+             "tipe": "huruf",
+             "nomor": "d.",
+             "teks": "kepemilikan saham; atau",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
+            },
+            {
+             "id": "pasal-36/ayat-1/huruf-e",
+             "tipe": "huruf",
+             "nomor": "e.",
+             "teks": "bentuk lain yang disetujui oleh kedua belah pihak.",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
+            }
+           ],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
-           "id": "pasal-36/huruf-b",
-           "tipe": "huruf",
-           "nomor": "b.",
-           "teks": "tanah pengganti;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
-          },
-          {
-           "id": "pasal-36/huruf-c",
-           "tipe": "huruf",
-           "nomor": "c.",
-           "teks": "permukiman kembali;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
-          },
-          {
-           "id": "pasal-36/huruf-d",
-           "tipe": "huruf",
-           "nomor": "d.",
-           "teks": "kepemilikan saham; atau",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
-          },
-          {
-           "id": "pasal-36/huruf-e",
-           "tipe": "huruf",
-           "nomor": "e.",
-           "teks": "bentuk lain yang disetujui oleh kedua belah pihak.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "id": "pasal-36/ayat-2",
+           "tipe": "ayat",
+           "nomor": "(2)",
+           "teks": "Ketentuan lebih lanjut mengenai pemberian Ganti Kerugian dalam bentuk tanah pengganti, pemukiman kembali, kepemilikan saham, atau bentuk lainnya sebagaimana dimaksud pada ayat (1) huruf b, huruf c, huruf d, dan huruf e, diatur dalam Peraturan Pemerintah.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "teks": "Pemberian Ganti Kerugian dapat diberikan dalam bentuk:",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "riwayat": [
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
+           "sebelum": {
+            "id": "pasal-36",
+            "tipe": "pasal",
+            "nomor": "36",
+            "anak": [
+             {
+              "id": "pasal-36/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "uang;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-36/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "tanah pengganti;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-36/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "permukiman kembali;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-36/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "kepemilikan saham; atau",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-36/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "bentuk lain yang disetujui oleh kedua belah pihak.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             }
+            ],
+            "teks": "Pemberian Ganti Kerugian dapat diberikan dalam bentuk:",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           "catatan": "Ketentuan Pasal 36 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-36",
+            "tipe": "pasal",
+            "nomor": "36",
+            "anak": [
+             {
+              "id": "pasal-36/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pemberian Ganti Kerugian dapat diberikan dalam bentuk:",
+              "verifikasi": "draf",
+              "anak": [
+               {
+                "id": "pasal-36/ayat-1/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "uang;",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-36/ayat-1/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "tanah pengganti;",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-36/ayat-1/huruf-c",
+                "tipe": "huruf",
+                "nomor": "c.",
+                "teks": "pemukiman kembali;",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-36/ayat-1/huruf-d",
+                "tipe": "huruf",
+                "nomor": "d.",
+                "teks": "kepemilikan saham; atau",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-36/ayat-1/huruf-e",
+                "tipe": "huruf",
+                "nomor": "e.",
+                "teks": "bentuk lain yang disetujui oleh kedua belah pihak.",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               }
+              ],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-36/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Ketentuan lebih lanjut mengenai pemberian Ganti Kerugian dalam bentuk tanah pengganti, pemukiman kembali, kepemilikan saham, atau bentuk lainnya sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 34 diubah sehingga berbunyi sebagai berikut:"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
        "sumber": "uu-2012-2",
@@ -1991,7 +3680,21 @@
          "teks": "Pemberian Ganti Kerugian atas Objek Pengadaan Tanah diberikan langsung kepada Pihak yang Berhak.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "berlaku_mulai": "2012-01-14",
+         "anotasi": [
+          {
+           "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+           "pelaku": "uu-2020-11",
+           "tanggal": "2020-11-02",
+           "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 40 diubah sebagaimana tercantum dalam Penjelasan.”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
+          },
+          {
+           "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+           "pelaku": "uu-2023-6",
+           "tanggal": "2023-03-31",
+           "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 40 diubah sebagaimana tercantum dalam Penjelasan.”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
+          }
+         ]
         },
         {
          "id": "pasal-41",
@@ -2086,80 +3789,300 @@
            "tipe": "ayat",
            "nomor": "(1)",
            "teks": "Dalam hal Pihak yang Berhak menolak bentuk dan/atau besarnya Ganti Kerugian berdasarkan hasil musyawarah sebagaimana dimaksud dalam Pasal 37, atau putusan pengadilan negeri/Mahkamah Agung sebagaimana dimaksud dalam Pasal 38, Ganti Kerugian dititipkan di pengadilan negeri setempat.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-42/ayat-2",
            "tipe": "ayat",
            "nomor": "(2)",
-           "teks": "Penitipan Ganti Kerugian selain sebagaimana dimaksud pada ayat (1), juga dilakukan terhadap:",
-           "verifikasi": "pdf-resmi",
+           "teks": "Penitipan Ganti Kerugian selain sebagaimana dimaksud pada ayat (1) dilakukan juga terhadap:",
+           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-42/ayat-2/huruf-a",
              "tipe": "huruf",
              "nomor": "a.",
              "teks": "Pihak yang Berhak menerima Ganti Kerugian tidak diketahui keberadaannya; atau",
-             "verifikasi": "pdf-resmi",
-             "sumber": "uu-2012-2",
-             "berlaku_mulai": "2012-01-14"
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
             },
             {
              "id": "pasal-42/ayat-2/huruf-b",
              "tipe": "huruf",
              "nomor": "b.",
              "teks": "Objek Pengadaan Tanah yang akan diberikan Ganti Kerugian:",
-             "verifikasi": "pdf-resmi",
+             "verifikasi": "draf",
              "anak": [
               {
                "id": "pasal-42/ayat-2/huruf-b/angka-1",
                "tipe": "angka",
                "nomor": "1.",
                "teks": "sedang menjadi objek perkara di pengadilan;",
-               "verifikasi": "pdf-resmi",
-               "sumber": "uu-2012-2",
-               "berlaku_mulai": "2012-01-14"
+               "verifikasi": "draf",
+               "anak": [],
+               "sumber": "uu-2023-6",
+               "berlaku_mulai": "2023-03-31"
               },
               {
                "id": "pasal-42/ayat-2/huruf-b/angka-2",
                "tipe": "angka",
                "nomor": "2.",
-               "teks": "masih dipersengketakan kepemilikannya;",
-               "verifikasi": "pdf-resmi",
-               "sumber": "uu-2012-2",
-               "berlaku_mulai": "2012-01-14"
+               "teks": "masihdipersengketakankepemilikannya;",
+               "verifikasi": "draf",
+               "anak": [],
+               "sumber": "uu-2023-6",
+               "berlaku_mulai": "2023-03-31"
               },
               {
                "id": "pasal-42/ayat-2/huruf-b/angka-3",
                "tipe": "angka",
                "nomor": "3.",
                "teks": "diletakkan sita oleh pejabat yang berwenang; atau",
-               "verifikasi": "pdf-resmi",
-               "sumber": "uu-2012-2",
-               "berlaku_mulai": "2012-01-14"
+               "verifikasi": "draf",
+               "anak": [],
+               "sumber": "uu-2023-6",
+               "berlaku_mulai": "2023-03-31"
               },
               {
                "id": "pasal-42/ayat-2/huruf-b/angka-4",
                "tipe": "angka",
                "nomor": "4.",
                "teks": "menjadi jaminan di bank.",
-               "verifikasi": "pdf-resmi",
-               "sumber": "uu-2012-2",
-               "berlaku_mulai": "2012-01-14"
+               "verifikasi": "draf",
+               "anak": [],
+               "sumber": "uu-2023-6",
+               "berlaku_mulai": "2023-03-31"
               }
              ],
-             "sumber": "uu-2012-2",
-             "berlaku_mulai": "2012-01-14"
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
             }
            ],
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-42/ayat-3",
+           "tipe": "ayat",
+           "nomor": "(3)",
+           "teks": "Pengadilan negeri paling lama dalam jangka waktu 14 (empat belas) hari wajib menerima penitipan Ganti Kerugian sebagaimana dimaksud pada ayat (1) dan ayat (2). L2. Ketentuan Pasal 46 diubah sehingga berbunyi sebagai berikut:",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "riwayat": [
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
+           "sebelum": {
+            "id": "pasal-42",
+            "tipe": "pasal",
+            "nomor": "42",
+            "anak": [
+             {
+              "id": "pasal-42/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Dalam hal Pihak yang Berhak menolak bentuk dan/atau besarnya Ganti Kerugian berdasarkan hasil musyawarah sebagaimana dimaksud dalam Pasal 37, atau putusan pengadilan negeri/Mahkamah Agung sebagaimana dimaksud dalam Pasal 38, Ganti Kerugian dititipkan di pengadilan negeri setempat.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-42/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Penitipan Ganti Kerugian selain sebagaimana dimaksud pada ayat (1), juga dilakukan terhadap:",
+              "verifikasi": "pdf-resmi",
+              "anak": [
+               {
+                "id": "pasal-42/ayat-2/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "Pihak yang Berhak menerima Ganti Kerugian tidak diketahui keberadaannya; atau",
+                "verifikasi": "pdf-resmi",
+                "sumber": "uu-2012-2",
+                "berlaku_mulai": "2012-01-14"
+               },
+               {
+                "id": "pasal-42/ayat-2/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "Objek Pengadaan Tanah yang akan diberikan Ganti Kerugian:",
+                "verifikasi": "pdf-resmi",
+                "anak": [
+                 {
+                  "id": "pasal-42/ayat-2/huruf-b/angka-1",
+                  "tipe": "angka",
+                  "nomor": "1.",
+                  "teks": "sedang menjadi objek perkara di pengadilan;",
+                  "verifikasi": "pdf-resmi",
+                  "sumber": "uu-2012-2",
+                  "berlaku_mulai": "2012-01-14"
+                 },
+                 {
+                  "id": "pasal-42/ayat-2/huruf-b/angka-2",
+                  "tipe": "angka",
+                  "nomor": "2.",
+                  "teks": "masih dipersengketakan kepemilikannya;",
+                  "verifikasi": "pdf-resmi",
+                  "sumber": "uu-2012-2",
+                  "berlaku_mulai": "2012-01-14"
+                 },
+                 {
+                  "id": "pasal-42/ayat-2/huruf-b/angka-3",
+                  "tipe": "angka",
+                  "nomor": "3.",
+                  "teks": "diletakkan sita oleh pejabat yang berwenang; atau",
+                  "verifikasi": "pdf-resmi",
+                  "sumber": "uu-2012-2",
+                  "berlaku_mulai": "2012-01-14"
+                 },
+                 {
+                  "id": "pasal-42/ayat-2/huruf-b/angka-4",
+                  "tipe": "angka",
+                  "nomor": "4.",
+                  "teks": "menjadi jaminan di bank.",
+                  "verifikasi": "pdf-resmi",
+                  "sumber": "uu-2012-2",
+                  "berlaku_mulai": "2012-01-14"
+                 }
+                ],
+                "sumber": "uu-2012-2",
+                "berlaku_mulai": "2012-01-14"
+               }
+              ],
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             }
+            ],
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           "catatan": "Ketentuan Pasal 42 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-42",
+            "tipe": "pasal",
+            "nomor": "42",
+            "anak": [
+             {
+              "id": "pasal-42/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Dalam hal Pihak yang Berhak menolak bentuk dan/atau besarnya Ganti Kerrrgian berdasarkan hasil musyawarah sebagaimana dimaksud dalam Pasal 37, atau putusan pengadilan negeri/Mahkamah Agung sebagaimana dimaksud dalam Pasal 38, Ganti Kerugian dititipkan di pengadilan negeri setempat.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-42/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Penitipan Ganti Kerugian selain sebagaimana dimaksud pada ayat (1) dilakukan juga terhadap:",
+              "verifikasi": "draf",
+              "anak": [
+               {
+                "id": "pasal-42/ayat-2/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "Pihak yang Berhak menerima Ganti Kerugian tidak diketahui keberadaannya; atau",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-42/ayat-2/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "Objek Pengadaan Tanah yang akan diberikan Ganti Kerugian:",
+                "verifikasi": "draf",
+                "anak": [
+                 {
+                  "id": "pasal-42/ayat-2/huruf-b/angka-1",
+                  "tipe": "angka",
+                  "nomor": "1.",
+                  "teks": "sedang menjadi objek perkara di pengadilan;",
+                  "verifikasi": "draf",
+                  "anak": [],
+                  "sumber": "uu-2020-11",
+                  "berlaku_mulai": "2020-11-02"
+                 },
+                 {
+                  "id": "pasal-42/ayat-2/huruf-b/angka-2",
+                  "tipe": "angka",
+                  "nomor": "2.",
+                  "teks": "masih dipersengketakan kepemilikannya;",
+                  "verifikasi": "draf",
+                  "anak": [],
+                  "sumber": "uu-2020-11",
+                  "berlaku_mulai": "2020-11-02"
+                 },
+                 {
+                  "id": "pasal-42/ayat-2/huruf-b/angka-3",
+                  "tipe": "angka",
+                  "nomor": "3.",
+                  "teks": "diletakkan sita oleh pejabat yang berwenang; atau",
+                  "verifikasi": "draf",
+                  "anak": [],
+                  "sumber": "uu-2020-11",
+                  "berlaku_mulai": "2020-11-02"
+                 },
+                 {
+                  "id": "pasal-42/ayat-2/huruf-b/angka-4",
+                  "tipe": "angka",
+                  "nomor": "4.",
+                  "teks": "menjadi jaminan di Bank.",
+                  "verifikasi": "draf",
+                  "anak": [],
+                  "sumber": "uu-2020-11",
+                  "berlaku_mulai": "2020-11-02"
+                 }
+                ],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               }
+              ],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-42/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Pengadilan negeri paling lama dalam jangka waktu 14 (empat belas) Hari wajib menerima penitipan Ganti Kerugian sebagaimana dimaksud pada ayat (1) dan ayat (2).",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 42 diubah sehingga berbunyi sebagai berikut:"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-43",
@@ -2252,70 +4175,288 @@
            "id": "pasal-46/ayat-1",
            "tipe": "ayat",
            "nomor": "(1)",
-           "teks": "Pelepasan Objek Pengadaan Tanah sebagaimana dimaksud dalam Pasal 45 ayat (1) dan ayat (2) tidak diberikan Ganti Kerugian, kecuali:",
-           "verifikasi": "pdf-resmi",
+           "teks": "Pelepasan Objek Pengadaan Tanah sebagaimana dimaksud dalam Pasal45 ayat (1) dan ayat(21tidak diberikan Ganti Kerugian, kecuali:",
+           "verifikasi": "draf",
            "anak": [
             {
              "id": "pasal-46/ayat-1/huruf-a",
              "tipe": "huruf",
              "nomor": "a.",
-             "teks": "Objek Pengadaan Tanah yang telah berdiri bangunan yang dipergunakan secara aktif untuk penyelenggaraan tugas pemerintahan;",
-             "verifikasi": "pdf-resmi",
-             "sumber": "uu-2012-2",
-             "berlaku_mulai": "2012-01-14"
+             "teks": "Objek Pengadaan Tanah yang dipergunakan sesuai dengan tugas dan fungsi pemerintahan;",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
             },
             {
              "id": "pasal-46/ayat-1/huruf-b",
              "tipe": "huruf",
              "nomor": "b.",
-             "teks": "Objek Pengadaan Tanah yang dimiliki/dikuasai oleh Badan Usaha Milik Negara/Badan Usaha Milik Daerah; dan/atau",
-             "verifikasi": "pdf-resmi",
-             "sumber": "uu-2012-2",
-             "berlaku_mulai": "2012-01-14"
+             "teks": "Objek Pengadaan Tanah yang dimiliki/dikuasai oleh badan usaha milik negara/badan usaha milik daerah; dan/atau",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
             },
             {
              "id": "pasal-46/ayat-1/huruf-c",
              "tipe": "huruf",
              "nomor": "c.",
              "teks": "Objek Pengadaan Tanah kas desa.",
-             "verifikasi": "pdf-resmi",
-             "sumber": "uu-2012-2",
-             "berlaku_mulai": "2012-01-14"
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2023-6",
+             "berlaku_mulai": "2023-03-31"
             }
            ],
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-46/ayat-2",
            "tipe": "ayat",
            "nomor": "(2)",
-           "teks": "Ganti Kerugian atas Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf a dan huruf c diberikan dalam bentuk tanah dan/atau bangunan atau relokasi.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "teks": "Ganti Kerugian atas Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf a diberikan dalam bentuk tanah dan/atau bangunan atau relokasi.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-46/ayat-3",
            "tipe": "ayat",
            "nomor": "(3)",
-           "teks": "Ganti Kerugian atas objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf b dapat diberikan dalam bentuk sebagaimana dimaksud dalam Pasal 36.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "teks": "Ganti Kerugian atas Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf b dapat diberikan dalam bentuk sebagaimana dimaksud dalam Pasal 36.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-46/ayat-4",
            "tipe": "ayat",
            "nomor": "(4)",
-           "teks": "Nilai Ganti Kerugian sebagaimana dimaksud pada ayat (2) dan ayat (3) didasarkan atas hasil penilaian Ganti Kerugian sebagaimana dimaksud dalam Pasal 34 ayat (2).",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2012-2",
-           "berlaku_mulai": "2012-01-14"
+           "teks": "Ganti Kerugian atas Objek Pengadaan Tanah kas desa sebagaimana dimaksud pada ayat (1) huruf c dapat diberikan dalam bentuk sebagaimana dimaksud dalam Pasal 36.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-46/ayat-5",
+           "tipe": "ayat",
+           "nomor": "(5)",
+           "teks": "Nilai Ganti Kerugian sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) didasarkan atas hasil penilaian Ganti Kerugian sebagaimana dimaksud dalam Pasal 34 ayat (2).",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-46/ayat-6",
+           "tipe": "ayat",
+           "nomor": "(6)",
+           "teks": "Nilai Ganti Kerugian atas Objek Pengadaan Tanah berupa harta benda wakaf ditentukan sama dengan nilai hasil penilaian Penilai atas harta benda wakaf yang diganti.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2012-2",
-         "berlaku_mulai": "2012-01-14"
+         "riwayat": [
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2020-11/amandemen-uu-2012-2",
+           "pelaku": "uu-2020-11",
+           "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+           "tanggal": "2020-11-02",
+           "sebelum": {
+            "id": "pasal-46",
+            "tipe": "pasal",
+            "nomor": "46",
+            "anak": [
+             {
+              "id": "pasal-46/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pelepasan Objek Pengadaan Tanah sebagaimana dimaksud dalam Pasal 45 ayat (1) dan ayat (2) tidak diberikan Ganti Kerugian, kecuali:",
+              "verifikasi": "pdf-resmi",
+              "anak": [
+               {
+                "id": "pasal-46/ayat-1/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "Objek Pengadaan Tanah yang telah berdiri bangunan yang dipergunakan secara aktif untuk penyelenggaraan tugas pemerintahan;",
+                "verifikasi": "pdf-resmi",
+                "sumber": "uu-2012-2",
+                "berlaku_mulai": "2012-01-14"
+               },
+               {
+                "id": "pasal-46/ayat-1/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "Objek Pengadaan Tanah yang dimiliki/dikuasai oleh Badan Usaha Milik Negara/Badan Usaha Milik Daerah; dan/atau",
+                "verifikasi": "pdf-resmi",
+                "sumber": "uu-2012-2",
+                "berlaku_mulai": "2012-01-14"
+               },
+               {
+                "id": "pasal-46/ayat-1/huruf-c",
+                "tipe": "huruf",
+                "nomor": "c.",
+                "teks": "Objek Pengadaan Tanah kas desa.",
+                "verifikasi": "pdf-resmi",
+                "sumber": "uu-2012-2",
+                "berlaku_mulai": "2012-01-14"
+               }
+              ],
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-46/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Ganti Kerugian atas Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf a dan huruf c diberikan dalam bentuk tanah dan/atau bangunan atau relokasi.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-46/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Ganti Kerugian atas objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf b dapat diberikan dalam bentuk sebagaimana dimaksud dalam Pasal 36.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             },
+             {
+              "id": "pasal-46/ayat-4",
+              "tipe": "ayat",
+              "nomor": "(4)",
+              "teks": "Nilai Ganti Kerugian sebagaimana dimaksud pada ayat (2) dan ayat (3) didasarkan atas hasil penilaian Ganti Kerugian sebagaimana dimaksud dalam Pasal 34 ayat (2).",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2012-2",
+              "berlaku_mulai": "2012-01-14"
+             }
+            ],
+            "sumber": "uu-2012-2",
+            "berlaku_mulai": "2012-01-14"
+           },
+           "catatan": "Ketentuan Pasal 46 diubah sehingga berbunyi sebagai berikut:"
+          },
+          {
+           "aksi": "diganti",
+           "peristiwa": "uu-2023-6/amandemen-uu-2012-2",
+           "pelaku": "uu-2023-6",
+           "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+           "tanggal": "2023-03-31",
+           "sebelum": {
+            "id": "pasal-46",
+            "tipe": "pasal",
+            "nomor": "46",
+            "anak": [
+             {
+              "id": "pasal-46/ayat-1",
+              "tipe": "ayat",
+              "nomor": "(1)",
+              "teks": "Pelepasan Objek Pengadaan Tanah sebagaimana dimaksud dalam Pasal 45 ayat (1) dan ayat (2) tidak diberikan Ganti Kerugian, kecuali:",
+              "verifikasi": "draf",
+              "anak": [
+               {
+                "id": "pasal-46/ayat-1/huruf-a",
+                "tipe": "huruf",
+                "nomor": "a.",
+                "teks": "Objek Pengadaan Tanah yang dipergunakan sesuai dengan tugas dan fungsi pemerintahan;",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-46/ayat-1/huruf-b",
+                "tipe": "huruf",
+                "nomor": "b.",
+                "teks": "Objek Pengadaan Tanah yang dimiliki/dikuasai oleh Badan Usaha Milik Negara/Badan Usaha Milik Daerah; dan/atau c.Objek...",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               },
+               {
+                "id": "pasal-46/ayat-1/huruf-c",
+                "tipe": "huruf",
+                "nomor": "c.",
+                "teks": "Objek Pengadaan Tanah kas desa;",
+                "verifikasi": "draf",
+                "anak": [],
+                "sumber": "uu-2020-11",
+                "berlaku_mulai": "2020-11-02"
+               }
+              ],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-46/ayat-2",
+              "tipe": "ayat",
+              "nomor": "(2)",
+              "teks": "Ganti Kerugian atas Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf a diberikan dalam bentuk tanah dan/atau bangunan atau relokasi.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-46/ayat-3",
+              "tipe": "ayat",
+              "nomor": "(3)",
+              "teks": "Ganti Kemgian atas Objek Pengadaan Tanah sebagaimana dimaksud pada ayat (1) huruf b dapat diberikan dalam bentuk sebagaimana dimaksud dalam Pasal 36.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-46/ayat-4",
+              "tipe": "ayat",
+              "nomor": "(4)",
+              "teks": "Ganti Kerugian atas Objek Pengadaan Tanah Kas Desa sebagaimana dimaksud pada ayat (1) huruf c dapat diberikan dalam bentuk sebagaimana dimaksud dalam Pasal 36.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-46/ayat-5",
+              "tipe": "ayat",
+              "nomor": "(5)",
+              "teks": "Nilai Ganti Kerugian sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) didasarkan atas hasil penilaian Ganti Kerugian sebagaimana dimaksud dalam Pasal 34 ayat (2).",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-46/ayat-6",
+              "tipe": "ayat",
+              "nomor": "(6)",
+              "teks": "Nilai Ganti Kerugian atas Objek Pengadaan Tanah berupa harta benda wakaf ditentukan sama dengan nilai hasil penilaian Penilai atas harta benda wakaf yang diganti.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           "catatan": "Ketentuan Pasal 42 diubah sehingga berbunyi sebagai berikut:"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-47",
@@ -2847,10 +4988,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 245,
-  "pdf-resmi": 245,
+  "total": 277,
+  "pdf-resmi": 188,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 89,
   "lainnya": 0
  },
  "istilah": [

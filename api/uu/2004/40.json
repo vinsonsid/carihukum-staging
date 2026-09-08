@@ -35,23 +35,15 @@
   "tahap": "terverifikasi",
   "perubahan_belum_dienkode": [
    {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
     "id": "perppu-2022-2",
     "tanggal": "2022-12-30"
    },
    {
     "id": "uu-2023-4"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.333Z",
+ "dihasilkan": "2026-09-08T10:55:54.507Z",
  "timeline": [
   {
    "tanggal": "2004-10-19",
@@ -61,9 +53,59 @@
    "judul_pelaku": "Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-2004-40",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 1,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Di antara Pasal 46 dan Pasal 47 disisipkan 1 (satu) Bagian yakni Bagian Ketujuh Jaminan Kehilangan Pekerjaan sehingga berbunyi sebagai berikut:",
+     "unit": "pasal-46"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Di antara Pasal 46 dan Pasal 47 disisipkan 1 (satu) Bagian yakni Bagian Ketujuh "
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-2004-40",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 0,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Di antara Pasal 46 dan Pasal 47 disisipkan 1 (satu) Bagian yakni Bagran Ketujuh Jaminan Kehilangan Pekerjaan sehingga berbunyi sebagai berikut:",
+     "unit": "pasal-46"
+    }
+   ],
+   "status_kurasi": "belum-dienkode",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Di antara Pasal 46 dan Pasal 47 disisipkan 1 (satu) Bagian yakni Bagran Ketujuh "
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-2004-40",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 1,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Di antara Pasal 46 dan Pasal 47 disisipkan 1 (satu) Bagian yakni Bagian Ketujuh Jaminan Kehilangan Pekerjaan sehingga berbunyi sebagai berikut:",
+     "unit": "pasal-46"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Di antara Pasal 46 dan Pasal 47 disisipkan 1 (satu) Bagian yakni Bagian Ketujuh "
   }
  ],
- "peringatan": [],
+ "peringatan": [
+  "Peristiwa perppu-2022-2/amandemen-uu-2004-40 (perubahan, berlaku 2022-12-30) belum dienkode — teks konsolidasi BELUM mencerminkan peristiwa ini. Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Di antara Pasal 46 dan Pasal 47 disisipkan 1 (satu) Bagian yakni Bagran Ketujuh "
+ ],
  "pohon": [
   {
    "id": "bab-1",
@@ -968,51 +1010,211 @@
          "tipe": "huruf",
          "nomor": "a.",
          "teks": "jaminan kesehatan;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2004-40",
-         "berlaku_mulai": "2004-10-19"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
          "teks": "jaminan kecelakaan kerja;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2004-40",
-         "berlaku_mulai": "2004-10-19"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
          "teks": "jaminan hari tua;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2004-40",
-         "berlaku_mulai": "2004-10-19"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "jaminan pensiun; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2004-40",
-         "berlaku_mulai": "2004-10-19"
+         "teks": "jaminan pensiun;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/huruf-e",
          "tipe": "huruf",
          "nomor": "e.",
-         "teks": "jaminan kematian.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2004-40",
-         "berlaku_mulai": "2004-10-19"
+         "teks": "jaminan kematian; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-18/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "jaminan kehilangan pekerjaan.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "teks": "Jenis program jaminan sosial meliputi :",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2004-40",
-       "berlaku_mulai": "2004-10-19"
+       "teks": "Jenis program jaminan sosial meliputi:",
+       "verifikasi": "draf",
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2004-40",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-18",
+          "tipe": "pasal",
+          "nomor": "18",
+          "anak": [
+           {
+            "id": "pasal-18/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "jaminan kesehatan;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2004-40",
+            "berlaku_mulai": "2004-10-19"
+           },
+           {
+            "id": "pasal-18/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "jaminan kecelakaan kerja;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2004-40",
+            "berlaku_mulai": "2004-10-19"
+           },
+           {
+            "id": "pasal-18/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "jaminan hari tua;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2004-40",
+            "berlaku_mulai": "2004-10-19"
+           },
+           {
+            "id": "pasal-18/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "jaminan pensiun; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2004-40",
+            "berlaku_mulai": "2004-10-19"
+           },
+           {
+            "id": "pasal-18/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "jaminan kematian.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2004-40",
+            "berlaku_mulai": "2004-10-19"
+           }
+          ],
+          "teks": "Jenis program jaminan sosial meliputi :",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2004-40",
+          "berlaku_mulai": "2004-10-19"
+         },
+         "catatan": "Ketentuan Pasal 18 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2004-40",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-18",
+          "tipe": "pasal",
+          "nomor": "18",
+          "anak": [
+           {
+            "id": "pasal-18/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "jaminan kesehatan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-18/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "jaminan kecelakaan kerja;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-18/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "jaminan hari tua;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-18/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "jaminan pensiun;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-18/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "jaminan kematian; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-18/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "jaminan kehilangan pekerjaan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "teks": "Jenis program jaminan sosial meliputi:",
+          "verifikasi": "draf",
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 18 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "sumber": "uu-2004-40",
@@ -2263,10 +2465,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 191,
-  "pdf-resmi": 191,
+  "total": 192,
+  "pdf-resmi": 185,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 7,
   "lainnya": 0
  },
  "istilah": [

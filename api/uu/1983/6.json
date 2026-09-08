@@ -74,23 +74,11 @@
     "tanggal": "2020-03-31"
    },
    {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
     "id": "uu-2021-7"
-   },
-   {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.272Z",
+ "dihasilkan": "2026-09-08T10:55:54.433Z",
  "timeline": [
   {
    "tanggal": "1984-01-01",
@@ -100,6 +88,112 @@
    "judul_pelaku": "Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-1983-6",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 7,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan"
+    },
+    {
+     "instruksi": "replace pasal-114: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    },
+    {
+     "instruksi": "repeal pasal-13a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Pasal 13A dihapus.)",
+     "unit": "pasal-13a"
+    },
+    {
+     "instruksi": "replace pasal-178: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 17B diubah sehi",
+     "unit": "pasal-17b"
+    },
+    {
+     "instruksi": "repeal pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Pasal 27A dihapus.)",
+     "unit": "pasal-27a"
+    },
+    {
+     "instruksi": "insert_after pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Di antara Pasal 27A dan Pa",
+     "unit": "pasal-27a"
+    },
+    {
+     "instruksi": "replace pasal-44b: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 448 diubah sehi",
+     "unit": "pasal-448"
+    },
+    {
+     "unit": "pasal-14",
+     "instruksi": "Ketentuan Pasal 14 diubah sehingga berbunyi sebagai berikut:"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (7): Ketentuan | replace pasal-114: muatan kosong (tak ada teks maupun anak) — tidak dienkode | repeal pasal-13a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini ditera | replace pasal-178: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diter | repeal pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini ditera | insert_after pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini  | replace pasal-44b: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diter"
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-1983-6",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 5,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "repeal pasal-13a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Pasal 13A dihapus.)",
+     "unit": "pasal-13a"
+    },
+    {
+     "instruksi": "replace pasal-17b: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 178 diubah sehi",
+     "unit": "pasal-178"
+    },
+    {
+     "instruksi": "repeal pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Pasal 27A dihapus.)",
+     "unit": "pasal-27a"
+    },
+    {
+     "instruksi": "insert_after pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Di antara Pasal 27A dan Pa",
+     "unit": "pasal-27a"
+    },
+    {
+     "instruksi": "replace pasal-114: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 38 diubah sehin",
+     "unit": "pasal-38"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (5): repeal pasal-13a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini ditera | replace pasal-17b: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diter | repeal pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini ditera | insert_after pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini  | replace pasal-114: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diter"
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-1983-6",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 4,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan Pasal 17B diubah sehingga berbunyi sebagai berikut:",
+     "unit": "pasal-17b"
+    },
+    {
+     "instruksi": "repeal pasal-13a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Pasal 13A dihapus.)",
+     "unit": "pasal-13a"
+    },
+    {
+     "instruksi": "repeal pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Pasal 27A dihapus.)",
+     "unit": "pasal-27a"
+    },
+    {
+     "instruksi": "insert_after pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Di antara Pasal 27A dan Pa",
+     "unit": "pasal-27a"
+    },
+    {
+     "instruksi": "replace pasal-114: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 38 diubah sehin",
+     "unit": "pasal-38"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (5): Ketentuan Pasal 17B diubah sehingga berbunyi sebagai berikut: | repeal pasal-13a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini ditera | repeal pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini ditera | insert_after pasal-27a: unit itu tidak ada pada uu-1983-6 pada saat operasi ini  | replace pasal-114: unit itu tidak ada pada uu-1983-6 pada saat operasi ini diter"
   }
  ],
  "peringatan": [],
@@ -493,32 +587,234 @@
        "id": "pasal-8/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Wajib Pajak dapat membetulkan sendiri Surat Pemberitahuan dengan menyampaikan pernyataan tertulis, sepanjang Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Wajib Pajak dengan kemauan sendiri dapat membetulkan Surat Pemberitahuan yang telah disampaikan dengan menyampaikan pernyataan tertulis dengan syarat Direktur Jenderal Pajak belum melakukan tindakan pemeriksaan. (la) Dalam hal pembetulan Surat Pemberitahuan sebagaimana dimaksud pada ayat (1) menyatakan rugi atau lebih bayar, pembetulan Surat Pemberitahuan harus disampaikan paling lama 2 (dua) tahun sebelum daluwarsa penetapan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-8/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Dalam hal Wajib Pajak membetulkan sendiri Surat Pemberitahuan yang mengakibatkan hutang pajak menjadi lebih besar, maka kepadanya dikenakan sanksi berupa bunga sebesar 2% (dua per-sen) sebulan atas jumlah pajak yang kurang dibayar, dihitung mulai saat penyampaian Surat Pemberitahuan berakhir sampai dengan tanggal pembayaran karena pembetulan Surat Pemberitahuan itu.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Dalam hal Wajib Pajak membetulkan sendiri Surat Pemberitahuan Tahunan yang mengakibatkan utang pajak menjadi lebih besar, kepadanya dikenai sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan atas jumlah pajak yang kurang dibayar, dihitung sejak saat penyampaian Surat Pemberitahuan berakhir sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-8/ayat-2a",
+       "tipe": "ayat",
+       "nomor": "(2a)",
+       "teks": "Dalam hal Wajib Pajak membetulkan sendiri Surat Pemberitahuan Masa yang mengakibatkan utang pajak menjadi lebih besar, kepadanya dikenai sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan atas jumlah pajak yang kurang dibayar, dihitung sejak jatuh tempo pembayaran sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-8/ayat-2b",
+       "tipe": "ayat",
+       "nomor": "(2b)",
+       "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (2) dan ayat (2a) dihitung berdasarkan suku bunga acuan ditambah 5% (lima persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-8/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Sekalipun telah dilakukan tindakan pemeriksaan, tetapi sepanjang belum dilakukan tindakan penyidikan mengenai adanya ketidakbenaran yang dilakukan Wajib Pajak sebagaimana dimaksud dalam Pasal 38, terhadap ketidakbenaran perbuatan Wajib Pajak tersebut tidak akan dilakukan penyidikan, apabila Wajib Pajak dengan kemauan sendiri mengungkapkan ketidakbenaran perbuatannya tersebut dengan disertai pelunasan kekurangan pembayaran jumlah pajak yang sebenarnya terhutang beserta denda administrasi sebesar dua kali jumlah pajak yang kurang dibayar.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Walaupun telah dilakukan tindakan pemeriksaan bukti permulaan, Wajib Pajak dengan kemauan sendiri dapat mengungkapkan dengan pernyataan tertulis mengenai ketidakbenaran perbuatannya, yaitu sebagai berikut:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-8/ayat-3/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "tidak menyampaikan Surat Pemberitahuan; atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-8/ayat-3/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "menyampaikan Surat Pemberitahuan yang isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang isinya tidak benar sebagaimana dimaksud dalam Pasal 38 atau Pasal 39 ayat (1) huruf c dan huruf d sepanjang mulainya penyidikan belum diberitahukan kepada Penuntut Umum melalui penyidik pejabat Polisi Negara Republik Indonesia.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        }
+       ],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-8/ayat-3a",
+       "tipe": "ayat",
+       "nomor": "(3a)",
+       "teks": "Pengungkapan ketidakbenaran perbuatan sebagaimana dimaksud pada ayat (3) disertai pelunasan kekurangan pembayaran jumlah pajak yang sebenarnya terutang beserta sanksi administrasi berupa denda sebesar looo/o (seratus persen) dari jumlah pajak yang kurang dibayar.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-8/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Walaupun Direktur Jenderal Pajak telah melakukan pemeriksaan, dengan syarat Direktur Jenderal Pajak belum menerbitkan surat ketetapan pajak, Wajib Pajak dengan kesadaran sendiri dapat mengungkapkan dalam laporan tersendiri tentang ketidakbenaran pengisian Surat Pemberitahuan yang telah disampaikan sesuai dengan keadaan yang sebenarnya, yang dapat mengakibatkan:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-8/ayat-4/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "pajak-pajak yang masih harus dibayar menjadi lebih besar atau lebih kecil;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-8/ayat-4/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "rugi berdasarkan ketentuan perpajakan menjadi lebih kecil atau lebih besar;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-8/ayat-4/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "jumlah harta menjadi lebih besar atau lebih kecil; atau d.jumlah...",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-8/ayat-4/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "jumlah modal menjadi lebih besar atau lebih kecil dan pemeriksaan tetap dilanjutkan.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        }
+       ],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-8/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Pajak yang kurang dibayar yang timbul sebagai akibat dari pengungkapan ketidakbenaran pengisian Surat Pemberitahuan sebagaimana dimaksud pada ayat (4) harus dilunasi oleh Wajib Pajak sebelum laporan tersendiri disampaikan beserta sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dari pajak yang kurang dibayar, yang dihitung sejak:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-8/ayat-5/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "batas waktu penyampaian Surat Pemberitahuan Tahunan berakhir sampai dengan tanggal pembayaran, untuk pengungkapan ketidakbenaran pengisian Surat Pemberitahuan Tahunan; atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-8/ayat-5/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "jatuh tempo pembayaran berakhir sampai dengan tanggal pembayaran, untuk pengungkapan ketidakbenaran pengisian Surat Pemberitahuan Masa dan dikenakan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        }
+       ],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-8/ayat-5a",
+       "tipe": "ayat",
+       "nomor": "(5a)",
+       "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (5) dihitung berdasarkan suku bunga acuan ditambah 10% (sepuluh persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-8/ayat-6",
+       "tipe": "ayat",
+       "nomor": "(6)",
+       "teks": "Wajib Pajak dapat membetulkan Surat Pemberitahuan Tahunan yang telah disampaikan, dalam hal Wajib Pajak menerima surat ketetapan pajak, Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, atau Putusan Peninjauan Kembali Tahun Pajak sebelumnya atau beberapa Tahun Pajak sebelumnya, yang menyatakan rugi fiskal yang berbeda dengan rugi fiskal yang telah dikompensasikan dalam Surat Pemberitahuan Tahunan yang akan dibetulkan tersebut, dalam jangka waktu 3 (tiga) bulan setelah menerima surat ketetapan pajak, Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, atau Putusan Peninjauan Kembali dengan syarat Direktur Jenderal Pajak belum melakukan tindakan pemeriksaan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       }
      ],
-     "sumber": "uu-1983-6",
-     "berlaku_mulai": "1984-01-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-6",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-8",
+        "tipe": "pasal",
+        "nomor": "8",
+        "anak": [
+         {
+          "id": "pasal-8/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Wajib Pajak dapat membetulkan sendiri Surat Pemberitahuan dengan menyampaikan pernyataan tertulis, sepanjang Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-8/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Dalam hal Wajib Pajak membetulkan sendiri Surat Pemberitahuan yang mengakibatkan hutang pajak menjadi lebih besar, maka kepadanya dikenakan sanksi berupa bunga sebesar 2% (dua per-sen) sebulan atas jumlah pajak yang kurang dibayar, dihitung mulai saat penyampaian Surat Pemberitahuan berakhir sampai dengan tanggal pembayaran karena pembetulan Surat Pemberitahuan itu.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-8/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Sekalipun telah dilakukan tindakan pemeriksaan, tetapi sepanjang belum dilakukan tindakan penyidikan mengenai adanya ketidakbenaran yang dilakukan Wajib Pajak sebagaimana dimaksud dalam Pasal 38, terhadap ketidakbenaran perbuatan Wajib Pajak tersebut tidak akan dilakukan penyidikan, apabila Wajib Pajak dengan kemauan sendiri mengungkapkan ketidakbenaran perbuatannya tersebut dengan disertai pelunasan kekurangan pembayaran jumlah pajak yang sebenarnya terhutang beserta denda administrasi sebesar dua kali jumlah pajak yang kurang dibayar.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "sumber": "uu-1983-6",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 8 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2020-11",
+     "berlaku_mulai": "2020-11-02"
     },
     {
      "id": "pasal-9",
@@ -529,41 +825,237 @@
        "id": "pasal-9/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Menteri Keuangan menentukan tanggal jatuh tempo pembayaran dan penyetoran pajak yang terhutang untuk suatu saat atau Masa Pajak bagi masing-masing jenis pajak, selambat-lambatnya lima belas hari setelah saat terhutangnya pajak atau Masa Pajak berakhir.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Menteri Keuangan menentukan tanggal jatuh tempo pembayaran dan penyetoran pajak yang terutang untuk suatu saat atau Masa Pajak bagi masing-masing jenis pajak paling lama 15 (lima belas) hari setelah saat terutangnya pajak atau berakhirnya Masa Pajak.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
       },
       {
        "id": "pasal-9/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Kekurangan pembayaran pajak yang terhutang berdasarkan Surat Pemberitahuan Tahunan harus dibayar lunas dalam jangka waktu tiga bulan setelah Tahun Pajak atau Bagian Tahun Pajak berakhir, sebelum Surat Pemberitahuan itu disampaikan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Kekurangan pembayaran pajak yang terutang berdasarkan Surat Pemberitahuan Tahunan Pajak Penghasilan harus dibayar lunas sebelum Surat Pemberitahuan Pajak Penghasilan disampaikan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
+      },
+      {
+       "id": "pasal-9/ayat-2a",
+       "tipe": "ayat",
+       "nomor": "(2a)",
+       "teks": "Pembayaran atau penyetoran pajak sebagaimana dimaksud pada ayat (1), yang dilakukan setelah tanggal jatuh tempo pembayaran atau penyetoran pajak, dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung sejak berakhimya tanggal jatuh tempo pembayaran sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
+      },
+      {
+       "id": "pasal-9/ayat-2b",
+       "tipe": "ayat",
+       "nomor": "(2b)",
+       "teks": "Atas pembayaran atau penyetoran pajak sebagaimana dimaksud pada ayat (2) yang dilakukan setelah tanggal jatuh tempo penyampaian Surat Pemberitahuan Tahunan, dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung sejak berakhirnya batas waktu penyampaian Surat Pemberitahuan Tahunan sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh I (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
+      },
+      {
+       "id": "pasal-9/ayat-2c",
+       "tipe": "ayat",
+       "nomor": "(2c)",
+       "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (2a) dan ayat (2b) dihitung berdasarkan suku bunga acuan ditambah 5% (lima persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
       },
       {
        "id": "pasal-9/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Surat Tagihan Pajak, Surat Ketetapan Pajak, atau Surat Ketetapan Pajak Tambahan harus dilunasi dalam jangka waktu satu bulan sejak tanggal diterbitkan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pbmbetulan, Putusan Banding, serta Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang harus dibayar bertambah, harus dilunasi dalam jangka waktu 1 (satu) bulan sejak tanggal diterbitkan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
+      },
+      {
+       "id": "pasal-9/ayat-3a",
+       "tipe": "ayat",
+       "nomor": "(3a)",
+       "teks": "Bagi Wajib Pajak usaha kecil dan Wajib Pajak di daerah tertentu, jangka waktu pelunasan sebagaimana dimaksud pada ayat (3) dapat diperpanjang paling lama menjadi 2 (dua) bulan yang ketentuannya diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
       },
       {
        "id": "pasal-9/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Direktur Jenderal Pajak atas permohonan Wajib Pajak dapat memberikan persetujuan kepada Wajib Pajak untuk mengangsur atau memberikan penundaan pembayaran pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Direktur Jenderal Pajak atas permohonan Wajib Pajak dapat memberikan persetujuan untuk mengangsur atau menunda pembayaran pajak termasuk kekurangan pembayaran sebagaimana dimaksud pada ayat (2) yang pelaksanaannya diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
       }
      ],
-     "sumber": "uu-1983-6",
-     "berlaku_mulai": "1984-01-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-6",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-9",
+        "tipe": "pasal",
+        "nomor": "9",
+        "anak": [
+         {
+          "id": "pasal-9/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Menteri Keuangan menentukan tanggal jatuh tempo pembayaran dan penyetoran pajak yang terhutang untuk suatu saat atau Masa Pajak bagi masing-masing jenis pajak, selambat-lambatnya lima belas hari setelah saat terhutangnya pajak atau Masa Pajak berakhir.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-9/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Kekurangan pembayaran pajak yang terhutang berdasarkan Surat Pemberitahuan Tahunan harus dibayar lunas dalam jangka waktu tiga bulan setelah Tahun Pajak atau Bagian Tahun Pajak berakhir, sebelum Surat Pemberitahuan itu disampaikan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-9/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Surat Tagihan Pajak, Surat Ketetapan Pajak, atau Surat Ketetapan Pajak Tambahan harus dilunasi dalam jangka waktu satu bulan sejak tanggal diterbitkan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-9/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Direktur Jenderal Pajak atas permohonan Wajib Pajak dapat memberikan persetujuan kepada Wajib Pajak untuk mengangsur atau memberikan penundaan pembayaran pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "sumber": "uu-1983-6",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 9 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1983-6",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-9",
+        "tipe": "pasal",
+        "nomor": "9",
+        "anak": [
+         {
+          "id": "pasal-9/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Menteri Keuangan menentukan tanggal jatuh tempo pembayaran dan penyetoran pajak yang terutang untuk suatu saat atau Masa Pajak bagi masing- masing jenis pajak paling lama 15 (lima belas) hari setelah saat terutangnya pajak atau berakhirnya Masa Pajak.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-9/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Kekurangan pembayaran pajak yang terutang berdasarkan Surat Pemberitahuan Tahunan Pajak Penghasilan harus dibayar lunas sebelum Surat Pemberitahuan Pajak Penghasilan disampaikan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-9/ayat-2a",
+          "tipe": "ayat",
+          "nomor": "(2a)",
+          "teks": "Pembayaran atau penyetoran pajak sebagaimana dimaksud pada ayat (1), yang dilakukan setelah tanggal jatuh tempo pembayaran atau penyetoran pajak, dikenai sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung dari tanggal jatuh tempo pembayaran sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-9/ayat-2b",
+          "tipe": "ayat",
+          "nomor": "(2b)",
+          "teks": "Atas pembayaran atau penyetoran pajak sebagaimana dimaksud pada ayat (2) yang dilakukan setelah tanggal jatuh tempo penyampaian Surat Pemberitahuan Tahunan, dikenai sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung mulai dari berakhirnya batas waktu penyampaian Surat Pemberitahuan Tahunan sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-9/ayat-2c",
+          "tipe": "ayat",
+          "nomor": "(2c)",
+          "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (2a) dan ayat (2b) dihitung berdasarkan suku bunga acuan ditambah 5% (lima persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-9/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, serta Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang harus dibayar bertambah, harus dilunasi dalam jangka waktu 1 (satu) bulan sejak tanggal diterbitkan. FRES!DEN",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-9/ayat-3a",
+          "tipe": "ayat",
+          "nomor": "(3a)",
+          "teks": "Bagi Wajib Pajak usaha kecil dan Wajib Pajak di daerah tertentu, jangka waktu pelunasan sebagaimana dimaksud pada ayat (3) dapat diperpanjang paling lama menjadi 2 (dua) bulan yang ketentuannya diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-9/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Direktur Jenderal Pajak atas permohonan Wajib Pajak dapat memberikan persetujuan untuk mengangsur atau menunda pembayaran pajak termasuk kekurangan pembayaran sebagaimana dimaksud pada ayat (21yang pelaksanaannya diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 9 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "perppu-2022-2",
+     "berlaku_mulai": "2022-12-30"
     },
     {
      "id": "pasal-10",
@@ -601,41 +1093,274 @@
        "id": "pasal-11/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Atas permohonan Wajib Pajak, kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a dikembalikan, atau apabila ternyata Wajib Pajak mempunyai hutang pajak lainnya, langsung dapat diperhitungkan untuk melunasi dahulu pajak yang terhutang.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Atas permohonan Wajib Pajak, kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 17, Pasal l7B, Pasal 17C, atau Pasal 17D dikembalikan dengan ketentuan bahwa apabila ternyata Wajib Pajak mempunyai utang pajak, langsung diperhitungkan untuk melunasi terlebih dahulu utang pajak tersebut.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-11/ayat-1a",
+       "tipe": "ayat",
+       "nomor": "(1a)",
+       "teks": "Kelebihan pembayaran pajak sebagai akibat adanya Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak, dan Putusan Banding atau Putusan Peninjauan Kembali, serta Surat Keputusan Pemberian Imbalan Bunga dikembalikan kepada Wajib Pajak dengan ketentuan jika ternyata Wajib Pajak mempunyai utang pajak langsung diperhitungkan untuk melunasi terlebih dahulu utang pajak tersebut.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-11/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Pengembalian kelebihan pembayaran pajak sebagaimana dimaksud dalam ayat (1) dilakukan dalam jangka waktu satu bulan setelah Surat Keputusan Kelebihan Pembayaran Pajak sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a ditetapkan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Pengembalian kelebihan pembayaran pajak sebagaimana dimaksud pada ayat (1) dan ayat (1a) dilakukan paling lama 1 (satu) bulan sejak permohonan pengembalian kelebihan pembayaran pajak diterima sehubungan dengan diterbitkannya Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 17 ayat (1), atau sejak diterbitkannya Surat Ketetapan Pajak Irbih Bayar sebagaimana dimaksud dalam Pasal 17 ayat (2) dan Pasal l7B, atau sejak diterbitkannya Surat Keputusan Pengembalian Pendahuluan Kelebihan Pajak sebagaimana dimaksud dalam Pasal l7C atau Pasal 17D, atau sejak diterbitkannya Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak atau Surat Keputusan Pemberian Imbalan Bunga, atau sejak diterimanya Putusan Banding atau Putusan Peninjauan Kembali yang menyebabkan kelebihan pembayaran pajak.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-11/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Apabila pengembalian kelebihan pembayaran pajak dilakukan setelah jangka waktu satu bulan, Pemerintah memberikan bunga sebesar 2% (dua persen) sebulan atas kelambatan pembayaran kelebihan pembayaran pajak, dihitung dari saat berlakunya batas waktu sebagaimana dimaksud dalam ayat (2) sampai dengan saat dilakukan pembayaran kelebihan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Apabila pengembalian kelebihan pembayaran pajak dilakukan setelah jangka waktu 1 (satu) bulan, Pemerintah memberikan imbalan bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan atas keterlambatan pengembalian kelebihan pembayaran pajak dihitung sejak batas waktu penerbitan Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak berakhir sampai dengan saat dilakukan pengembalian kelebihan dan diberikan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-11/ayat-3a",
+       "tipe": "ayat",
+       "nomor": "(3a)",
+       "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (3) dihitung berdasarkan suku bunga acuan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan imbalan bunga.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-11/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Tata cara perhitungan dan pengembalian kelebihan pembayaran pajak diatur lebih lanjut oleh Menteri Keuangan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Tata cara penghitungan dan pengembalian kelebihan pembayaran pajak diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-1983-6",
-     "berlaku_mulai": "1984-01-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-6",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-11",
+        "tipe": "pasal",
+        "nomor": "11",
+        "anak": [
+         {
+          "id": "pasal-11/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Atas permohonan Wajib Pajak, kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a dikembalikan, atau apabila ternyata Wajib Pajak mempunyai hutang pajak lainnya, langsung dapat diperhitungkan untuk melunasi dahulu pajak yang terhutang.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-11/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pengembalian kelebihan pembayaran pajak sebagaimana dimaksud dalam ayat (1) dilakukan dalam jangka waktu satu bulan setelah Surat Keputusan Kelebihan Pembayaran Pajak sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a ditetapkan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-11/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Apabila pengembalian kelebihan pembayaran pajak dilakukan setelah jangka waktu satu bulan, Pemerintah memberikan bunga sebesar 2% (dua persen) sebulan atas kelambatan pembayaran kelebihan pembayaran pajak, dihitung dari saat berlakunya batas waktu sebagaimana dimaksud dalam ayat (2) sampai dengan saat dilakukan pembayaran kelebihan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-11/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Tata cara perhitungan dan pengembalian kelebihan pembayaran pajak diatur lebih lanjut oleh Menteri Keuangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "sumber": "uu-1983-6",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 11 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1983-6",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-11",
+        "tipe": "pasal",
+        "nomor": "11",
+        "anak": [
+         {
+          "id": "pasal-11/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Atas permohonan Wajib Pajak, kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 17, Pasal I7B, Pasal l7C, atau Pasal I7D dikembalikan dengan ketentuan bahwa apabila ternyata Wajib Pajak mempunyai utang pajak, langsung diperhitungkan untuk melunasi terlebih dahulu utang pajak tersebut.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-11/ayat-1a",
+          "tipe": "ayat",
+          "nomor": "(1a)",
+          "teks": "Kelebihan pembayaran pajak sebagai akibat adanya Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak, dan Putusan Banding atau Putusan Peninjauan Kembali, serta Surat Keputusan Pemberian Imbalan Bunga dikembalikan kepada Wajib Pajak dengan ketentuan jika ternyata Wajib Pajak mempunyai utang pajak langsung diperhitungkan untuk melunasi terlebih dahulu utang pajak tersebut.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-11/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pengembalian kelebihan pembayaran pajak sebagaimana dimaksud pada ayat (1) dan ayat (1a) dilakukan paling lama 1 (satu) bulan sejak permohonan pengembalian kelebihan pembayaran pajak diterima sehubungan dengan diterbitkannya Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 17 ayat (1), atau sejak diterbitkannya Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 17 ayat (2) dan Pasal l7B, atau sejak diterbitkannya Surat Keputusan Pengembalian Pendahuluan Kelebihan Pajak sebagaimana dimaksud dalam Pasal l7C atau Pasal l7D, atau sejak diterbitkannya Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak atau Surat Keputusan Pemberian Imbalan Bunga, atau sejak diterimanya Putusan Banding atau Putusan Peninjauan Kembali yang menyebabkan kelebihan pembayaran pajak.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-11/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Apabila pengembalian kelebihan pembayaran pajak dilakukan setelah jangka waktu 1 (satu) bulan, Pemerintah memberikan imbalan bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan atas keterlambatan pengembalian kelebihan pembayaran pajak dihitung sejak batas waktu penerbitan Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak berakhir sampai dengan saat dilakukan pengembalian kelebihan dan diberikan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-11/ayat-3a",
+          "tipe": "ayat",
+          "nomor": "(3a)",
+          "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (3) dihitung berdasarkan suku bunga acuan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan imbalan bunga.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-11/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Tata cara penghitungan dan pengembalian kelebihan pembayaran pajak diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 11 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1983-6",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-11",
+        "tipe": "pasal",
+        "nomor": "11",
+        "anak": [
+         {
+          "id": "pasal-11/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Atas permohonan Wajib Pajak, kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 17, Pasal 178, Pasal 17C, atau Pasal 17D dikembalikan dengan ketentuan bahwa apabila ternyata Wajib Pajak mempunyai utang pajak, langsung diperhitungkan untuk melunasi terlebih dahulu utang pajak tersebut.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-11/ayat-1a",
+          "tipe": "ayat",
+          "nomor": "(1a)",
+          "teks": "Kelebihan pembayaran pajak sebagai akibat adanya Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak, dan Putusan Banding atau Putusan Peninjauan Kembali, serta Surat Keputusan Pemberian Imbalan Bunga dikembalikan kepada Wajib Pajak dengan ketentuan jika ternyata Wajib Pajak mempunyai utang pajak langsung diperhitungkan untuk melunasi terlebih dahulu utang pajak tersebut.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-11/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pengembalian kelebihan pembayaran pajak sslagaiman4 dimaksud pada ayat (1) dan ayat (la) dilakukan paling lama 1 (satu) bulan sejak permohonan pengembalian kelebihan pembayaran pajak diterima sehubungan dengan diterbitkannya Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 17 ayat (1), atau sejak diterbitkannya Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 17 ayat (2) dan Pasal l7B, atau sejak diterbitkannya Surat Keputusan Pengembalian Pendahuluan Kelebihan Pajak sebagaimana dimaksud dalam Pasal 17C atau Pasal 17D, atau sejak diterbitkannya Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak atau Surat Keputusan Pemberian Imbalan Bunga, atau sejak diterimanya Putusan Banding atau Putusan Peninjauan Kembali yang menyebabkan kelebihan pembayaran pajak.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-11/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Apabila pengembalian kelebihan pembayaran pajak dilakukan setelah jangka waktu 1 (satu) bu1an, Pemerintah memberikan imbalan bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan atas keterlambatan pengembalian kelebihan pembayaran pajak dihitung sejak batas waktu penerbitan Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak berakhir sampai dengan saat dilakukan pengembalian kelebihan dan diberikan paling lama 24 (dtua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-11/ayat-3a",
+          "tipe": "ayat",
+          "nomor": "(3a)",
+          "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (3) dihitung berdasarkan suku bunga acuan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan imbalan bunga.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-11/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Tata cara penghitungan dan pengembalian kelebihan pembayaran pajak diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 11 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     }
    ],
    "sumber": "uu-1983-6",
@@ -665,135 +1390,347 @@
        "id": "pasal-13/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Dalam jangka waktu lima tahun sesudah saat terhutangnya pajak, atau berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak, Direktur Jenderal Pajak dapat mengeluarkan Surat Ketetapan Pajak dalam hal-hal sebagai berikut :",
-       "verifikasi": "pdf-resmi",
+       "teks": "Dalam jangka waktu 5 (lima) tahun setelah saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak, Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Kurang Bayar dalam hal-hal sebagai berikut:",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-13/ayat-1/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "apabila berdasarkan hasil pemeriksaan atau keterangan lain ternyata jumlah pajak yang terhutang kurang atau tidak dibayar;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-6",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "apabila berdasarkan hasil pemeriksaan, pajak yang terutang tidak atau kurang dibayar;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         },
         {
          "id": "pasal-13/ayat-1/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "apabila Surat Pemberitahuan tidak (disampaikan dalam jangka waktu sebagaimana dimaksud dalam Pasal 3 ayat (3) dan setelah ditegur secara tertulis tidak disampaikan pada waktunya sebagaimana ditentukan dalam Surat Teguran;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-6",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "apabila Surat Pemberitahuan tidak disampaikan dalam jangka waktu sebagaimana dimaksud dalam Pasal 3 ayat (3) dan setelah ditegur secara tertulis tidak disampaikan pada waktunya sebagaimana ditentukan dalam Surat Teguran;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         },
         {
          "id": "pasal-13/ayat-1/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "apabila berdasarkan hasil pemeriksaan mengenai Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah ternyata tidak seharusnya dikompensasikan selisih lebih pajak, tidak seharusnya dikenakan tarif 0% (nol persen), atau tidak seharusnya diberikan pengembalian pajak;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-6",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "apabila berdasarkan hasil pemeriksaan mengenai Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah ternyata tidak seharusnya dikompensasikan selisih lebih pajak atau tidak seharusnya dikenai tarif Oo/o (nol persen);",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         },
         {
          "id": "pasal-13/ayat-1/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "apabila kewajiban tidak dipenuhi sebagaimana dimaksud dalam Pasal 26 dan Pasal 29, sehingga tidak dapat diketahui besarnya pajak yang terhutang.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-6",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "apabila kewajiban sebagaimana dimaksud dalam Pasal 28 atau Pasal 29 tidak dipenuhi sehingga tidak dapat diketahui besarnya pajak yang terutang;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-13/ayat-1/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "apabila kepada Wajib Pajak diterbitkan Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud dalam Pasal 2 ayat (4a); atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-13/ayat-1/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "Pengusaha Kena Pajak tidak melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak dan/atau ekspor Barang Kena Pajak danf atau Jasa Kena Pajak dan telah diberikan pengembalian Pajak Masukan atau telah mengkreditkan Pajak Masukan sebagaimana dimaksud dalam Pasal 9 ayat (6e) Undang- Undang Pajak Pertambahan Nilai 1984 dan perubahannya.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         }
        ],
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-13/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Jumlah kekurangan pajak yang terhutang dalam Surat Ketetapan Pajak sebagaimana dimaksud dalam ayat (1) huruf a ditambah dengan sanksi administrasi berlipat bunga sebesar 2 % (dua persen) sebulan untuk selama-lamanya dua puluh empat bulan, dihitung mulai saat terhutangnya pajak atau berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak sampai dengan diterbitkannya Surat Ketetapan Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Jumlah kekurangan pajak yang terutang dalam Surat Ketetapan Pajak Kurang Bayar sebagaimana dimaksud pada ayat (1) huruf a dan huruf e ditambah dengan sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dihitung sejak saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak sampai dengan diterbitkannya Surat Ketetapan Pajak Kurang Bayar, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-13/ayat-2a",
+       "tipe": "ayat",
+       "nomor": "(2a)",
+       "teks": "Jumlah kekurangan pajak yang terutang dalam Surat Ketetapan Pajak Kurang Bayar sebagaimana dimaksud pada ayat (1) huruf f ditambah dengan sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dihitung sejak saat jatuh tempo pembayaran kembali berakhir sampai dengan tanggal diterbitkannya Surat Ketetapan Pajak Kurang Bayar, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-13/ayat-2b",
+       "tipe": "ayat",
+       "nomor": "(2b)",
+       "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (2) dan ayat (2a) dihitung berdasarkan suku bunga acuan ditambah 15% (lima belas persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-13/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud dalam ayat (1) huruf b, huruf c, dan huruf d ditambah dengan sanksi administrasi berupa kenaikan sebesar :",
-       "verifikasi": "pdf-resmi",
+       "teks": "Jumlah pajak dalam Surat Ketetapan Pajak Kurang Bayar sebagaimana dimaksud pada ayat (1) huruf b, huruf c, dan huruf d ditambah dengan sanksi administrasi berupa kenaikan sebesar:",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-13/ayat-3/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "50 % (lima puluh persen) dari Pajak Penghasilan yang kurang atau tidak dibayar dalam satu Tahun Pajak;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-6",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "50% (lima puluh persen) dari Pajak Penghasilan yang tidak atau kurang dibayar dalam satu Tahun Pajak;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         },
         {
          "id": "pasal-13/ayat-3/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "100% (seratus persen) dari Pajak Penghasilan yang tidak atau kurang dipotong, tidak atau kurang dipungut, tidak atau kurang disetorkan, dan dipotong atau dipungut tetapi tidak atau kurang disetorkan;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-6",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "lOOo/o (seratus persen) dari Pajak Penghasilan yang tidak atau kurang dipotong, tidak atau kurang dipungut, tidak atau kurang disetor, dan dipotong atau dipungut tetapi tidak atau kurang disetor; atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         },
         {
          "id": "pasal-13/ayat-3/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "100%(seratus persen) dari Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah yang tidak atau kurang dibayar.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-6",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "looo/o (seratus persen) dari Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan Atas Barang Mewah yang tidak atau kurang dibayar.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         }
        ],
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-13/ayat-3a",
+       "tipe": "ayat",
+       "nomor": "(3a)",
+       "teks": "Dalam hal terdapat penerapan sanksi administrasi berupa bunga dan kenaikan berdasarkan hasil pemeriksaan Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah sebagaimana dimaksud pada ayat (1) huruf a dan huruf c, hanya diterapkan satu jenis sanksi administrasi yang tertinggi nilai besaran sanksinya.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-13/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Jumlah Pajak Penghasilan yang dipotong dan dipungut oleh pihak ketiga untuk satu Tahun Pajak, jumlah Pajak Penghasilan yang dibayar sendiri, pajak yang ditagih dalam Surat Tagihan Pajak untuk Tahun Pajak tersebut, sera pajak atas penghasilan yang dibayar atau terhutang di luar negeri untuk Tahun Pajak yang bersangkutan, dikreditkan dari jumlah Pajak Penghasilan yang terhutang dalam Surat Ketetapan Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Besarnya pajak yang terutang yang diberitahukan oleh Wajib Pajak dalam Surat Pemberitahuan menjadi pasti sesuai dengan ketentuan peraturan perundang-undangan perpajakan apabila dalam jangka waktu 5 (lima) tahun sebagaimana dimaksud pada ayat (1), setelah saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak tidak diterbitkan surat ketetapan pajak, kecuali Wajib Pajak melakukan tindak pidana di bidang perpajakan dalam Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak dimaksud.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-13/ayat-5",
        "tipe": "ayat",
        "nomor": "(5)",
-       "teks": "Sanksi administrasi berupa bunga, denda administrasi, dan kenaikan, tidak dapat dikreditkan dari jumlah pajak yang terhutang.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Dihapus.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-13/ayat-6",
        "tipe": "ayat",
        "nomor": "(6)",
-       "teks": "Besarnya pajak yang terhutang dalam suatu Tahun Pajak yang diberitahukan oleh Wajib Pajak dalam Surat Pemberitahuan Tahunan, menjadi pasti menurut ketentuan peraturan perundang-undangan perpajakan, apabila dalam jangka waktu sebagaimana dimaksud dalam ayat (1) tidak diterbitkan Surat Ketetapan Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
-      },
-      {
-       "id": "pasal-13/ayat-7",
-       "tipe": "ayat",
-       "nomor": "(7)",
-       "teks": "Apabila jangka waktu lima tahun sebagaimana dimaksud dalam ayat (1) telah lewat, Surat Keputusan Pajak tetap dapat diterbitkan dalam hak Wajib Pajak setelah jangka waktu lima tahun tersebut dipidana, karena melakukan tindak pidana di bidang perpajakan yang dilakukan mengenai pajak yang penagihannya telah lewat waktu, berdasarkan putusan Pengadilan yang telah memperoleh kekuatan hukum itu.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Tata cara penerbitan Surat Ketetapan Pajak Kurang Bayar sebagaimana dimaksud pada ayat (1) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-13/ayat-6/angka-5",
+         "tipe": "angka",
+         "nomor": "5.",
+         "teks": "Pasal.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        }
+       ],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       }
      ],
-     "sumber": "uu-1983-6",
-     "berlaku_mulai": "1984-01-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-6",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-13",
+        "tipe": "pasal",
+        "nomor": "13",
+        "anak": [
+         {
+          "id": "pasal-13/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Dalam jangka waktu lima tahun sesudah saat terhutangnya pajak, atau berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak, Direktur Jenderal Pajak dapat mengeluarkan Surat Ketetapan Pajak dalam hal-hal sebagai berikut :",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-13/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "apabila berdasarkan hasil pemeriksaan atau keterangan lain ternyata jumlah pajak yang terhutang kurang atau tidak dibayar;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-6",
+            "berlaku_mulai": "1984-01-01"
+           },
+           {
+            "id": "pasal-13/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "apabila Surat Pemberitahuan tidak (disampaikan dalam jangka waktu sebagaimana dimaksud dalam Pasal 3 ayat (3) dan setelah ditegur secara tertulis tidak disampaikan pada waktunya sebagaimana ditentukan dalam Surat Teguran;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-6",
+            "berlaku_mulai": "1984-01-01"
+           },
+           {
+            "id": "pasal-13/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "apabila berdasarkan hasil pemeriksaan mengenai Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah ternyata tidak seharusnya dikompensasikan selisih lebih pajak, tidak seharusnya dikenakan tarif 0% (nol persen), atau tidak seharusnya diberikan pengembalian pajak;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-6",
+            "berlaku_mulai": "1984-01-01"
+           },
+           {
+            "id": "pasal-13/ayat-1/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "apabila kewajiban tidak dipenuhi sebagaimana dimaksud dalam Pasal 26 dan Pasal 29, sehingga tidak dapat diketahui besarnya pajak yang terhutang.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-6",
+            "berlaku_mulai": "1984-01-01"
+           }
+          ],
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-13/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Jumlah kekurangan pajak yang terhutang dalam Surat Ketetapan Pajak sebagaimana dimaksud dalam ayat (1) huruf a ditambah dengan sanksi administrasi berlipat bunga sebesar 2 % (dua persen) sebulan untuk selama-lamanya dua puluh empat bulan, dihitung mulai saat terhutangnya pajak atau berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak sampai dengan diterbitkannya Surat Ketetapan Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-13/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud dalam ayat (1) huruf b, huruf c, dan huruf d ditambah dengan sanksi administrasi berupa kenaikan sebesar :",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-13/ayat-3/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "50 % (lima puluh persen) dari Pajak Penghasilan yang kurang atau tidak dibayar dalam satu Tahun Pajak;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-6",
+            "berlaku_mulai": "1984-01-01"
+           },
+           {
+            "id": "pasal-13/ayat-3/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "100% (seratus persen) dari Pajak Penghasilan yang tidak atau kurang dipotong, tidak atau kurang dipungut, tidak atau kurang disetorkan, dan dipotong atau dipungut tetapi tidak atau kurang disetorkan;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-6",
+            "berlaku_mulai": "1984-01-01"
+           },
+           {
+            "id": "pasal-13/ayat-3/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "100%(seratus persen) dari Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah yang tidak atau kurang dibayar.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-6",
+            "berlaku_mulai": "1984-01-01"
+           }
+          ],
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-13/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Jumlah Pajak Penghasilan yang dipotong dan dipungut oleh pihak ketiga untuk satu Tahun Pajak, jumlah Pajak Penghasilan yang dibayar sendiri, pajak yang ditagih dalam Surat Tagihan Pajak untuk Tahun Pajak tersebut, sera pajak atas penghasilan yang dibayar atau terhutang di luar negeri untuk Tahun Pajak yang bersangkutan, dikreditkan dari jumlah Pajak Penghasilan yang terhutang dalam Surat Ketetapan Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-13/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Sanksi administrasi berupa bunga, denda administrasi, dan kenaikan, tidak dapat dikreditkan dari jumlah pajak yang terhutang.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-13/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Besarnya pajak yang terhutang dalam suatu Tahun Pajak yang diberitahukan oleh Wajib Pajak dalam Surat Pemberitahuan Tahunan, menjadi pasti menurut ketentuan peraturan perundang-undangan perpajakan, apabila dalam jangka waktu sebagaimana dimaksud dalam ayat (1) tidak diterbitkan Surat Ketetapan Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-13/ayat-7",
+          "tipe": "ayat",
+          "nomor": "(7)",
+          "teks": "Apabila jangka waktu lima tahun sebagaimana dimaksud dalam ayat (1) telah lewat, Surat Keputusan Pajak tetap dapat diterbitkan dalam hak Wajib Pajak setelah jangka waktu lima tahun tersebut dipidana, karena melakukan tindak pidana di bidang perpajakan yang dilakukan mengenai pajak yang penagihannya telah lewat waktu, berdasarkan putusan Pengadilan yang telah memperoleh kekuatan hukum itu.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "sumber": "uu-1983-6",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 13 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2020-11",
+     "berlaku_mulai": "2020-11-02"
     },
     {
      "id": "pasal-14",
@@ -860,41 +1797,234 @@
        "id": "pasal-15/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Tambahan dalam jangka waktu lima tahun sesudah saat pajak terhutang, berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak, apabila diketemukan data baru dan/atau data yang semula belum terungkap yang menyebabkan penambahan jumlah pajak yang terhutang.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Kurang Bayar Tambahan dalam jangka waktu 5 (lima) tahun setelah saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak apabila ditemukan data baru yang mengakibatkan penambahan jumlah pajak yang terutang setelah dilakukan tindakan pemeriksaan dalam rangka penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-15/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Jumlah kekurangan pajak yang terhutang dalam Surat Ketetapan Pajak Tambahan, ditambah dengan sanksi administrasi berupa kenaikan sebesar 100% (seratus persen) dari jumlah kekurangan pajak tersebut.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Jumlah kekurangan pajak yang terutang dalam Surat Ketetapan Pajak Kurang Bayar Tambahan ditambah dengan sanksi administratif berupa kenaikan sebesar IOOVI (seratus persen) dari jumlah kekurangan pajak tersebut.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-15/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Kenaikan sebagaimana dimaksud dalam ayat (2) tidak dikenakan, apabila Surat Ketetapan Pajak Tambahan itu diterbitkan berdasarkan keterangan tertulis oleh Wajib Pajak atas kehendak sendiri, sepanjang Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Kenaikan sebagaimana dimaksud pada ayat (2) tidak dikenakan apabila Surat Ketetapan Pajak Kurang Bayar Tambahan itu diterbitkan berdasarkan keterangan tertulis dari Wajib Pajak atas kehendak sendiri, dengan syarat Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan dalam rangka penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-15/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Apabila jangka waktu lima tahun sebagaimana dimaksud dalam ayat (1) telah lewat, Surat Ketetapan Pajak Tambahan tetap dapat diterbitkan dalam hal Wajib Pajak setelah jangka waktu lima tahun tersebut dipidana, karena melakukan tindak pidana di bidang perpajakan yang dilakukan mengenai pajak yang penagihannya telah lewat waktu, berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Dihapus. (s) Tata cara penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan sebagaimana dimaksud pada ayat (1) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-1983-6",
-     "berlaku_mulai": "1984-01-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-6",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-15",
+        "tipe": "pasal",
+        "nomor": "15",
+        "anak": [
+         {
+          "id": "pasal-15/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Tambahan dalam jangka waktu lima tahun sesudah saat pajak terhutang, berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak, apabila diketemukan data baru dan/atau data yang semula belum terungkap yang menyebabkan penambahan jumlah pajak yang terhutang.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-15/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Jumlah kekurangan pajak yang terhutang dalam Surat Ketetapan Pajak Tambahan, ditambah dengan sanksi administrasi berupa kenaikan sebesar 100% (seratus persen) dari jumlah kekurangan pajak tersebut.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-15/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Kenaikan sebagaimana dimaksud dalam ayat (2) tidak dikenakan, apabila Surat Ketetapan Pajak Tambahan itu diterbitkan berdasarkan keterangan tertulis oleh Wajib Pajak atas kehendak sendiri, sepanjang Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-15/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Apabila jangka waktu lima tahun sebagaimana dimaksud dalam ayat (1) telah lewat, Surat Ketetapan Pajak Tambahan tetap dapat diterbitkan dalam hal Wajib Pajak setelah jangka waktu lima tahun tersebut dipidana, karena melakukan tindak pidana di bidang perpajakan yang dilakukan mengenai pajak yang penagihannya telah lewat waktu, berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "sumber": "uu-1983-6",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 15 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1983-6",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-15",
+        "tipe": "pasal",
+        "nomor": "15",
+        "anak": [
+         {
+          "id": "pasal-15/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Kurang Bayar Tambahan dalam jangka waktu 5 (lima) tahun setelah saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak apabila ditemukan data baru yang mengakibatkan penambahan jumlah pajak yang terutang setelah dilakukan tindakan pemeriksaan dalam rangka penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-15/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Jumlah kekurangan pajak yang terutang dalam Surat Ketetapan Pajak Kurang Bayar Tambahan ditambah dengan sanksi administrasi berupa kenaikan sebesar lOOo/o (seratus persen) dari jumlah kekurangan pajak tersebut.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-15/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Kenaikan sebagaimana dimaksud pada ayat (21tidak dikenakan apabila Surat Ketetapan Pajak Kurang Bayar Tambahan itu diterbitkan berdasarkan keterangan tertulis dari Wajib Pajak atas kehendak sendiri dengan syarat Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan dalam rangka penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-15/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Dihapus",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-15/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Tata cara penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan sebagaimana dimaksud pada ayat (1) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 15 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1983-6",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-15",
+        "tipe": "pasal",
+        "nomor": "15",
+        "anak": [
+         {
+          "id": "pasal-15/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Kurang Bayar Tambahan dalam jangka waktu 5 (lima) tahun setelah saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak apabila ditemukan data baru yang mengakibatkan penambahan jumlah pajak yang terutang setelah dilakukan tindalan pemeriksaan dalam rangka penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-15/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Jumlah kekurangan pajak yang terutang dalam Surat Ketetapan Pajak Kurang Bayar Tambahan ditambah dengan sanksi administratif berupa kenaikan sebesar l0O7o (seratus persen) dari jumlah kekurangan pajak tersebut.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-15/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Kenaikan sebagaimana dimaksud pada ayat (2) tidak dikenakan apabila Surat Ketetapan Pajak Kurang Bayar Tambahan itu diterbitkan berdasarkan keterangan tertulis dari Wajib Pajak atas kehendak sendiri, dengan syarat Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan dalam rangka penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-15/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Dihapus.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-15/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Tata cara penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan sebagaimana dimaksud pada ayat (1) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 15 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-16",
@@ -980,32 +2110,205 @@
        "id": "pasal-19/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Apabila atas pajak yang terhutang, pada saat jatuh tempo pembayaran tidak dibayar atau kurang dibayar, maka atas jumlah pajak yang tidak dibayar atau kurang dibayar itu, dikenakan bunga sebesar 2% (dua persen) sebulan untuk seluruh masa, yang dihitung dari jatuh tempo sampai dengan hari pembayaran dan bagian dari bulan dihitung penuh satu bulan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Apabila Surat Ketetapan Pajak Kurang Bayar atau Surat Ketetapan Pajak Kurang Bayar Tambahan, serta Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Putusan Banding atau Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah, pada saatjatuh tempo pelunasan tidak atau kurang dibayar, atas jumlah pajak yang tidak atau kurang dibayar itu dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan untuk seluruh masa, yang dihitung sejak berakhirnya tanggal jatuh tempo sampai dengan tanggal pembayaran atau tanggal diterbitkannya Surat Tagihan Pajak, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-19/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Dalam hal Wajib Pajak diperbolehkan mengangsur, atau menunda pembayaran pajak, juga dikenakan bunga sebesar 2%, (dua persen) sebulan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Dalam hal Wajib Pajak diperbolehkan mengangsur atau menunda pembayaran pajak juga dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dari jumlah pajak yang masih harus dibayar dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-19/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Dalam hal Wajib Pajak diperbolehkan menunda penyampaian Surat Pemberitahuan dan ternyata penghitungan sementara pajak yang terhutang sebagaimana dimaksud dalam Pasal, 3 ayat (5) kurang dari jumlah pajak yang sebenarnya terhutang, maka atas kekurangan pembayaran pajak tersebut, dikenakan bunga sebesar 2% (dua persen) sebulan yang dihitung dari saat berakhirnya kewajiban menyampaikan Surat Pemberitahuan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf b sampai dengan hari dibayarnya kekurangan pembayaran tersebut..",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Dalam hal Wajib Pajak diperbolehkan menunda penyampaian Surat Pemberitahuan Tahunan dan ternyata penghitungan sementara pajak yang terrrtang sebagaimana dimaksud dalam Pasal 3 ayat (5) kurang dari jumlah pajak yang sebenarnya terutang atas kekurangan pembayaran pajak tersebut, Wajib Pajak dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung sejak berakhirnya batas waktu penyampaian Surat Pemberitahuan Tahunan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf b dan huruf c sampai dengan tanggal dibayarnya kekurangan pembayaran tersebut dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-19/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dihitung berdasarkan suku bunga acuan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-1983-6",
-     "berlaku_mulai": "1984-01-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-6",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-19",
+        "tipe": "pasal",
+        "nomor": "19",
+        "anak": [
+         {
+          "id": "pasal-19/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Apabila atas pajak yang terhutang, pada saat jatuh tempo pembayaran tidak dibayar atau kurang dibayar, maka atas jumlah pajak yang tidak dibayar atau kurang dibayar itu, dikenakan bunga sebesar 2% (dua persen) sebulan untuk seluruh masa, yang dihitung dari jatuh tempo sampai dengan hari pembayaran dan bagian dari bulan dihitung penuh satu bulan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-19/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Dalam hal Wajib Pajak diperbolehkan mengangsur, atau menunda pembayaran pajak, juga dikenakan bunga sebesar 2%, (dua persen) sebulan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-19/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Dalam hal Wajib Pajak diperbolehkan menunda penyampaian Surat Pemberitahuan dan ternyata penghitungan sementara pajak yang terhutang sebagaimana dimaksud dalam Pasal, 3 ayat (5) kurang dari jumlah pajak yang sebenarnya terhutang, maka atas kekurangan pembayaran pajak tersebut, dikenakan bunga sebesar 2% (dua persen) sebulan yang dihitung dari saat berakhirnya kewajiban menyampaikan Surat Pemberitahuan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf b sampai dengan hari dibayarnya kekurangan pembayaran tersebut..",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "sumber": "uu-1983-6",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 19 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1983-6",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-19",
+        "tipe": "pasal",
+        "nomor": "19",
+        "anak": [
+         {
+          "id": "pasal-19/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Apabila Surat Ketetapan Pajak Kurang Bayar atau Surat Ketetapan Pajak Kurang Bayar Tambahan, serta Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Putusan Banding atau Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah, pada saat jatuh tempo pelunasan tidak atau kurang dibayar, atas jumlah pajak yang tidak atau kurang dibayar itu dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan untuk seluruh masa, yang dihitung dari tanggal jatuh tempo sampai dengan tanggal pembayaran atau tanggal diterbitkannya Surat Tagihan Pajak, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-19/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Dalam hal Wajib Pajak diperbolehkan mengangsur atau menunda pembayaran pajak juga dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dari jumlah pajak yang masih harus dibayar dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-19/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Dalam hal Wajib Pajak diperbolehkan menunda penyampaian Surat Pemberitahuan Tahunan dan ternyata penghitungan sementara pajak yang terutang sebagaimana dimaksud dalam Pasal 3 ayat (5) kurang dari jumlah pajak yang sebenarnya terutang atas kekurangan pembayaran pajak tersebut, Wajib Pajak dikenai bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung dari saat berakhirnya batas waktu penyampaian Surat Pemberitahuan Tahunan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf b dan huruf c sampai dengan tanggal dibayarnya kekurangan pembayaran tersebut dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-19/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dihitung berdasarkan suku bunga acuan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 19 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1983-6",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-19",
+        "tipe": "pasal",
+        "nomor": "19",
+        "anak": [
+         {
+          "id": "pasal-19/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Apabila Surat Ketetapan Pajak Kurang Bayar atau Surat Ketetapan Pajak Kurang Bayar Tambahan, serta Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Putusan Banding atau Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah, pada saat jatuh tempo pelunasan tidak atau kurang dibayar, atas jumlah pajak yang tidak atau kurang dibayar itu dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan untuk seluruh masa, yang dihitung sejak berakhirnya tanggal jatuh tempo sampai dengan tanggal pembayaran atau tanggal diterbitkannya Surat Tagihan Pajak, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-19/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Dalam hal Wajib Pajak diperbolehkan mengangsur atau menunda pembayaran pajak juga dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dari jumlah pajak yang masih harus dibayar dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-19/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Dalam hal Wajib Pajak diperbolehkan menunda penyampaian Surat Pemberitahuan Tahunan dan ternyata penghitungan sementara pajak yang terutang sebagaimana dimaksud dalam Pasal 3 ayat (5) kurang dari jumlah pajak yang sebenarnya terutang atas kekurangan pembayaran pajak tersebut, Wajib Pajak dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung sejak berakhirnya batas waktu penyampaian Surat Pemberitahuan Tahunan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf b dan huruf c sampai dengan tanggal dibayarnya kekurangan pembayaran tersebut dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh I (satu) bulan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-19/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dihitung berdasarkan suku bunga acuan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 19 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-20",
@@ -1751,24 +3054,143 @@
        "tipe": "huruf",
        "nomor": "a.",
        "teks": "tidak menyampaikan Surat Pemberitahuan; atau",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-38/huruf-b",
        "tipe": "huruf",
        "nomor": "b.",
-       "teks": "menyampaikan Surat Pemberitahuan, tetapi yang isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang tidak benar; sehingga dapat menimbulkan kerugian pada Negara, dipidana dengan pidana kurungan selama-lamanya satu tahun dan/atau denda setinggitingginya sebesar dua kali jumlah pajak yang terhutang.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-6",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "menyampaikan Surat Pemberitahuan, tetapi isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang isinya tidak benar, sehingga dapat menimbulkan kerugian pada pendapatan negara dipidana denda paling sedikit 1 (satu) kali jumlah pajak terutang yang tidak atau kurang dibayar dan paling banyak 2 (dua) kali jumlah pajak terutang yang tidak atau kurang dibayar, atau dipidana kurungan paling singkat 3 (tiga) bulan atau paling lama 1 (satu) tahun.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "teks": "Barang siapa karena kealpaannya :",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-1983-6",
-     "berlaku_mulai": "1984-01-01"
+     "teks": "Setiap orang yang karena kealpaannya:",
+     "verifikasi": "draf",
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-6",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-38",
+        "tipe": "pasal",
+        "nomor": "38",
+        "anak": [
+         {
+          "id": "pasal-38/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "tidak menyampaikan Surat Pemberitahuan; atau",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-38/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "menyampaikan Surat Pemberitahuan, tetapi yang isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang tidak benar; sehingga dapat menimbulkan kerugian pada Negara, dipidana dengan pidana kurungan selama-lamanya satu tahun dan/atau denda setinggitingginya sebesar dua kali jumlah pajak yang terhutang.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-6",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "teks": "Barang siapa karena kealpaannya :",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-1983-6",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 38 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1983-6",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-38",
+        "tipe": "pasal",
+        "nomor": "38",
+        "anak": [
+         {
+          "id": "pasal-38/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "tidak menyampaikan Surat Pemberitahuan; atau",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-38/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "menyampaikan Surat Pemberitahuan, tetapi isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang isinya tidak benar sehingga dapat menimbulkan kerugian pada pendapatan negara didenda paling sedikit 1 (satu) kali jumlah pajak terutang yang tidak atau kurang dibayar dan paling banyak 2 (dua) kali jumlah pajak terutang yang tidak atau kurang dibayar, atau dipidana kurungan paling singkat 3 (tiga) bulan atau paling lama 1 (satu) tahun.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "teks": "Setiap orang yang karena kealpaannya:",
+        "verifikasi": "draf",
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 38 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1983-6",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-38",
+        "tipe": "pasal",
+        "nomor": "38",
+        "anak": [
+         {
+          "id": "pasal-38/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "tidak menyampaikan Surat Pemberitahuan; atau",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-38/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "menyampaikan Surat Pemberitahuan, tetapi isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang isinya tidak benar, sehingga dapat menimbulkan kerugian pada pendapatan negara dipidana denda paling sedikit 1 (satu) kali jumlah pajak terutang yang tidak atau kurang dibayar dan paling banyak 2 (dua) kali jumlah pajak terutang yang tidak atau kurang dibayar, atau dipidana kurungan paling singkat 3 (tiga) bulan atau paling lama 1 (satu) tahun.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "teks": "Setiap orang yang karena kealpaannya:",
+        "verifikasi": "draf",
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 38 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-39",
@@ -2128,10 +3550,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 182,
-  "pdf-resmi": 182,
+  "total": 209,
+  "pdf-resmi": 147,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 62,
   "lainnya": 0
  },
  "istilah": [],

@@ -41,14 +41,10 @@
    {
     "id": "perppu-2022-2",
     "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.337Z",
+ "dihasilkan": "2026-09-08T10:55:54.514Z",
  "timeline": [
   {
    "tanggal": "2008-04-26",
@@ -58,6 +54,28 @@
    "judul_pelaku": "Undang-Undang Nomor 25 Tahun 2007 tentang Penanaman Modal",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-2007-25",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 4,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan ."
+    },
+    {
+     "instruksi": "Ketentuan ."
+    },
+    {
+     "unit": "pasal-25",
+     "instruksi": "Ketentuan Pasal 25 diubah sehingga berbunyi sebagai berikut:"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): Ketentuan . | Ketentuan ."
   }
  ],
  "peringatan": [],
@@ -200,10 +218,30 @@
      "id": "pasal-2",
      "tipe": "pasal",
      "nomor": "2",
-     "teks": "Ketentuan dalam Undang-Undang ini berlaku bagi penanaman modal di semua sektor di wilayah negara Republik Indonesia.",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-2007-25",
-     "berlaku_mulai": "2008-04-26"
+     "teks": "Ketentuan dalam Undang-Undang ini berlaku dan menjadi acuan utama bagi Penanaman Modal di semua sektor di wilayah Negara Kesatuan Republik Indonesia.",
+     "verifikasi": "draf",
+     "anak": [],
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-25",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-2",
+        "tipe": "pasal",
+        "nomor": "2",
+        "teks": "Ketentuan dalam Undang-Undang ini berlaku bagi penanaman modal di semua sektor di wilayah negara Republik Indonesia.",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2007-25",
+        "berlaku_mulai": "2008-04-26"
+       },
+       "catatan": "Ketentuan Pasal 2 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     }
    ],
    "sumber": "uu-2007-25",
@@ -1030,70 +1068,180 @@
        "id": "pasal-12/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Semua bidang usaha atau jenis usaha terbuka bagi kegiatan penanaman modal, kecuali bidang usaha atau jenis usaha yang dinyatakan tertutup dan terbuka dengan persyaratan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "teks": "Semua bidang usaha terbuka bagi kegiatan Penanaman Modal, kecuali bidang usaha yang dinyatakan tertutup untuk Penanaman Modal atau kegiatan yang hanya dapat dilakukan oleh Pemerintah Pusat.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-12/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Bidang usaha yang tertutup bagi penanam modal asing adalah:",
-       "verifikasi": "pdf-resmi",
+       "teks": "Bidang usaha yang tertutup untuk Penanaman Modal sebagaimana dimaksud pada ayat (1) meliputi:",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-12/ayat-2/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "produksi senjata, mesiu, alat peledak, dan peralatan perang; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "teks": "budi daya dan industri narkotika golongan I;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-12/ayat-2/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "bidang usaha yang secara eksplisit dinyatakan tertutup berdasarkan undang-undang.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "teks": "segala bentuk kegiatan perjudian dan/atau kasino;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-12/ayat-2/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "penangkapan spesies ikan yang tercantum dalam Appendix I Conuention on International Tlade in Endangered Species of Wild Fauna and Flora (CITES);",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-12/ayat-2/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "pemanfaatan atau pengambilan koral dan pemanfaatan atau pengambilan karang dari alam yang digunakan untuk bahan bangunanlkapurlkalsium, akuarium, dan souvenir/perhiasan, serta koral hidup atau koral mati (recent death coral) dari alam;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-12/ayat-2/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "industri pembuatan senjata kimia; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-12/ayat-2/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "industri bahan kimia industri dan industri bahan perusak lapisan ozon.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-12/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Pemerintah berdasarkan Peraturan Presiden menetapkan bidang usaha yang tertutup untuk penanaman modal, baik asing maupun dalam negeri, dengan berdasarkan kriteria kesehatan, moral, kebudayaan, lingkungan hidup, pertahanan dan keamanan nasional, serta kepentingan nasional lainnya.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
-      },
-      {
-       "id": "pasal-12/ayat-4",
-       "tipe": "ayat",
-       "nomor": "(4)",
-       "teks": "Kriteria dan persyaratan bidang usaha yang tertutup dan yang terbuka dengan persyaratan serta daftar bidang usaha yang tertutup dan yang terbuka dengan persyaratan masing-masing akan diatur dengan Peraturan Presiden.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
-      },
-      {
-       "id": "pasal-12/ayat-5",
-       "tipe": "ayat",
-       "nomor": "(5)",
-       "teks": "Pemerintah menetapkan bidang usaha yang terbuka dengan persyaratan berdasarkan kriteria kepentingan nasional, yaitu perlindungan sumber daya alam, perlindungan, pengembangan usaha mikro, kecil, menengah, dan koperasi, pengawasan produksi dan distribusi, peningkatan kapasitas teknologi, partisipasi modal dalam negeri, serta kerja sama dengan badan usaha yang ditunjuk Pemerintah.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "teks": "Ketentuan lebih lanjut mengenai bidang usaha sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Presiden.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2007-25",
-     "berlaku_mulai": "2008-04-26"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-25",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-12",
+        "tipe": "pasal",
+        "nomor": "12",
+        "anak": [
+         {
+          "id": "pasal-12/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Semua bidang usaha atau jenis usaha terbuka bagi kegiatan penanaman modal, kecuali bidang usaha atau jenis usaha yang dinyatakan tertutup dan terbuka dengan persyaratan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-12/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Bidang usaha yang tertutup bagi penanam modal asing adalah:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-12/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "produksi senjata, mesiu, alat peledak, dan peralatan perang; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-12/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "bidang usaha yang secara eksplisit dinyatakan tertutup berdasarkan undang-undang.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           }
+          ],
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-12/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pemerintah berdasarkan Peraturan Presiden menetapkan bidang usaha yang tertutup untuk penanaman modal, baik asing maupun dalam negeri, dengan berdasarkan kriteria kesehatan, moral, kebudayaan, lingkungan hidup, pertahanan dan keamanan nasional, serta kepentingan nasional lainnya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-12/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Kriteria dan persyaratan bidang usaha yang tertutup dan yang terbuka dengan persyaratan serta daftar bidang usaha yang tertutup dan yang terbuka dengan persyaratan masing-masing akan diatur dengan Peraturan Presiden.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-12/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Pemerintah menetapkan bidang usaha yang terbuka dengan persyaratan berdasarkan kriteria kepentingan nasional, yaitu perlindungan sumber daya alam, perlindungan, pengembangan usaha mikro, kecil, menengah, dan koperasi, pengawasan produksi dan distribusi, peningkatan kapasitas teknologi, partisipasi modal dalam negeri, serta kerja sama dengan badan usaha yang ditunjuk Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         }
+        ],
+        "sumber": "uu-2007-25",
+        "berlaku_mulai": "2008-04-26"
+       },
+       "catatan": "Ketentuan Pasal 12 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     }
    ],
    "sumber": "uu-2007-25",
@@ -1114,23 +1262,133 @@
        "id": "pasal-13/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Pemerintah wajib menetapkan bidang usaha yang dicadangkan untuk usaha mikro, kecil, menengah, dan koperasi serta bidang usaha yang terbuka untuk usaha besar dengan syarat harus bekerja sama dengan usaha mikro, kecil, menengah, dan koperasi.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "teks": "Pemerintah Pusat atau Pemerintah Daerah sesuai dengan kewenangannya memberikan kemudahan, pelindungan, dan pemberdayaan bagi koperasi dan usaha mikro, kecil, dan menengah dalam pelaksanaan Penanaman Modal berdasarkan norma, standar, prosedur, dan kriteria yang ditetapkan Pemerintah Pusat.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-13/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Pemerintah melakukan pembinaan dan pengembangan usaha mikro, kecil, menengah, dan koperasi melalui program kemitraan, peningkatan daya saing, pemberian dorongan inovasi dan perluasan pasar, serta penyebaran informasi yang seluas-luasnya.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "teks": "Pelindungan dan pemberdayaan sebagaimana dimaksud pada ayat (1) berupa pembinaan dan pengembangan koperasi dan usaha mikro, kecil, dan menengah melalui:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-13/ayat-2/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "program kemitraan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-2/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "pelatihan sumber daya manusia;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-2/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "peningkatan daya saing;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-2/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "pemberian dorongan inovasi dan perluasan pasar;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-2/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "akses pembiayaan; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-2/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "penyebaran informasi yang seluas-luasnya.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-13/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Program kemitraan sebagaimana dimaksud pada ayat (2) huruf a merupakan kemitraan sebagaimana dimaksud dalam undang-undang di bidang usaha mikro, kecil, dan menengah.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2007-25",
-     "berlaku_mulai": "2008-04-26"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-25",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-13",
+        "tipe": "pasal",
+        "nomor": "13",
+        "anak": [
+         {
+          "id": "pasal-13/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemerintah wajib menetapkan bidang usaha yang dicadangkan untuk usaha mikro, kecil, menengah, dan koperasi serta bidang usaha yang terbuka untuk usaha besar dengan syarat harus bekerja sama dengan usaha mikro, kecil, menengah, dan koperasi.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-13/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pemerintah melakukan pembinaan dan pengembangan usaha mikro, kecil, menengah, dan koperasi melalui program kemitraan, peningkatan daya saing, pemberian dorongan inovasi dan perluasan pasar, serta penyebaran informasi yang seluas-luasnya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         }
+        ],
+        "sumber": "uu-2007-25",
+        "berlaku_mulai": "2008-04-26"
+       },
+       "catatan": "Ketentuan Pasal 13 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     }
    ],
    "sumber": "uu-2007-25",
@@ -1338,236 +1596,427 @@
        "id": "pasal-18/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Pemerintah memberikan fasilitas kepada penanam modal yang melakukan penanaman modal.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "teks": "Pemerintah Pusat memberikan fasilitas kepada Penanam Modal yang melakukan Penanaman Modal.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-18/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Fasilitas penanaman modal sebagaimana dimaksud pada ayat (1) dapat diberikan kepada penanaman modal yang :",
-       "verifikasi": "pdf-resmi",
+       "teks": "Fasilitas Penanaman Modal sebagaimana dimaksud pada ayat (1) dapat diberikan kepada Penanaman Modal yang:",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-18/ayat-2/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "melakukan peluasan usaha; atau",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "teks": "melakukan perluasan usaha; atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-2/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "melakukan penanaman modal baru.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "teks": "melakukan Penanaman Modal baru.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-18/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Penanaman modal yang mendapat fasilitas sebagaimana dimaksud pada ayat (2) adalah yang sekurang-kurangnya memenuhi salah satu kriteria berikut ini:",
-       "verifikasi": "pdf-resmi",
+       "teks": "Penanaman Modal yang mendapat fasilitas sebagaimana dimaksud pada ayat (2) minimal memenuhi kriteria:",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-18/ayat-3/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
          "teks": "menyerap banyak tenaga kerja;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
          "teks": "termasuk skala prioritas tinggi;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "termasuk pembangunan infrastruktur;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "teks": "termasukpembangunaninfrastruktur;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
          "teks": "melakukan alih teknologi;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-e",
          "tipe": "huruf",
          "nomor": "e.",
          "teks": "melakukan industri pionir;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-f",
          "tipe": "huruf",
          "nomor": "f.",
          "teks": "berada di daerah terpencil, daerah tertinggal, daerah perbatasan, atau daerah lain yang dianggap perlu;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-g",
          "tipe": "huruf",
          "nomor": "g.",
          "teks": "menjaga kelestarian lingkungan hidup;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-h",
          "tipe": "huruf",
          "nomor": "h.",
          "teks": "melaksanakan kegiatan penelitian, pengembangan, dan inovasi;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-i",
          "tipe": "huruf",
          "nomor": "i.",
-         "teks": "bermitra dengan usaha mikro, kecil, menengah atau koperasi; atau",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "teks": "bermitra dengan usaha mikro, kecil, menengah, atau koperasi;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-18/ayat-3/huruf-j",
          "tipe": "huruf",
          "nomor": "j.",
-         "teks": "industri yang menggunakan barang modal atau mesin atau peralatan yang diproduksi di dalam negeri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
+         "teks": "industri yang menggunakan barang modal atau mesin atau peralatan yang diproduksi di dalam negeri; dan/atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-18/ayat-3/huruf-k",
+         "tipe": "huruf",
+         "nomor": "k.",
+         "teks": "termasuk pengembangan usaha pariwisata.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-18/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Bentuk fasilitas yang diberikan kepada penanaman modal sebagaimana dimaksud pada ayat (2) dan ayat (3) dapat berupa:",
-       "verifikasi": "pdf-resmi",
-       "anak": [
-        {
-         "id": "pasal-18/ayat-4/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "pajak penghasilan melalui pengurangan penghasilan neto sampai tingkat tertentu terhadap jumlah penanaman modal yang dilakukan dalam waktu tertentu;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
-        },
-        {
-         "id": "pasal-18/ayat-4/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "pembebasan atau keringanan bea masuk atas impor barang modal, mesin, atau peralatan untuk keperluan produksi yang belum dapat diproduksi di dalam negeri;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
-        },
-        {
-         "id": "pasal-18/ayat-4/huruf-c",
-         "tipe": "huruf",
-         "nomor": "c.",
-         "teks": "pembebasan atau keringanan bea masuk bahan baku atau bahan penolong untuk keperluan produksi untuk jangka waktu tertentu dan persyaratan tertentu;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
-        },
-        {
-         "id": "pasal-18/ayat-4/huruf-d",
-         "tipe": "huruf",
-         "nomor": "d.",
-         "teks": "pembebasan atau penangguhan Pajak Pertambahan Nilai atas impor barang modal atau mesin atau peralatan untuk keperluan produksi yang belum dapat diproduksi di dalam negeri selama jangka waktu tertentu;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
-        },
-        {
-         "id": "pasal-18/ayat-4/huruf-e",
-         "tipe": "huruf",
-         "nomor": "e.",
-         "teks": "penyusutan atau amortisasi yang dipercepat; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
-        },
-        {
-         "id": "pasal-18/ayat-4/huruf-f",
-         "tipe": "huruf",
-         "nomor": "f.",
-         "teks": "keringanan Pajak Bumi dan Bangunan, khususnya untuk bidang usaha tertentu, pada wilayah atau daerah atau kawasan tertentu.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2007-25",
-         "berlaku_mulai": "2008-04-26"
-        }
-       ],
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
-      },
-      {
-       "id": "pasal-18/ayat-5",
-       "tipe": "ayat",
-       "nomor": "(5)",
-       "teks": "Pembebasan atau pengurangan pajak penghasilan badan dalam jumlah dan waktu tertentu hanya dapat diberikan kepada penanaman modal baru yang merupakan industri pionir, yaitu industri yang memiliki keterkaitan yang luas, memberi nilai tambah dan eksternalitas yang tinggi, memperkenalkan teknologi baru, serta memiliki nilai strategis bagi perekonomian nasional.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
-      },
-      {
-       "id": "pasal-18/ayat-6",
-       "tipe": "ayat",
-       "nomor": "(6)",
-       "teks": "Bagi penanaman modal yang sedang berlangsung yang melakukan penggantian mesin atau barang modal lainnya, dapat diberikan fasilitas berupa keringanan atau pembebasan bea masuk.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
-      },
-      {
-       "id": "pasal-18/ayat-7",
-       "tipe": "ayat",
-       "nomor": "(7)",
-       "teks": "Ketentuan lebih lanjut mengenai pemberian fasilitas fiskal sebagaimana dimaksud pada ayat (4) sampai dengan ayat (6) diatur dengan Peraturan Menteri Keuangan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2007-25",
-       "berlaku_mulai": "2008-04-26"
+       "teks": "Bentuk fasilitas yang diberikan kepada Penanaman Modal sebagaimana dimaksud pada ayat (2) dan ayat (3) dilakukan sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2007-25",
-     "berlaku_mulai": "2008-04-26"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-25",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-18",
+        "tipe": "pasal",
+        "nomor": "18",
+        "anak": [
+         {
+          "id": "pasal-18/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemerintah memberikan fasilitas kepada penanam modal yang melakukan penanaman modal.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-18/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Fasilitas penanaman modal sebagaimana dimaksud pada ayat (1) dapat diberikan kepada penanaman modal yang :",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-18/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "melakukan peluasan usaha; atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "melakukan penanaman modal baru.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           }
+          ],
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-18/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Penanaman modal yang mendapat fasilitas sebagaimana dimaksud pada ayat (2) adalah yang sekurang-kurangnya memenuhi salah satu kriteria berikut ini:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-18/ayat-3/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "menyerap banyak tenaga kerja;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "termasuk skala prioritas tinggi;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "termasuk pembangunan infrastruktur;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "melakukan alih teknologi;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "melakukan industri pionir;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "berada di daerah terpencil, daerah tertinggal, daerah perbatasan, atau daerah lain yang dianggap perlu;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "menjaga kelestarian lingkungan hidup;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "melaksanakan kegiatan penelitian, pengembangan, dan inovasi;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "bermitra dengan usaha mikro, kecil, menengah atau koperasi; atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-3/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "industri yang menggunakan barang modal atau mesin atau peralatan yang diproduksi di dalam negeri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           }
+          ],
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-18/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Bentuk fasilitas yang diberikan kepada penanaman modal sebagaimana dimaksud pada ayat (2) dan ayat (3) dapat berupa:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-18/ayat-4/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pajak penghasilan melalui pengurangan penghasilan neto sampai tingkat tertentu terhadap jumlah penanaman modal yang dilakukan dalam waktu tertentu;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-4/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pembebasan atau keringanan bea masuk atas impor barang modal, mesin, atau peralatan untuk keperluan produksi yang belum dapat diproduksi di dalam negeri;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-4/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "pembebasan atau keringanan bea masuk bahan baku atau bahan penolong untuk keperluan produksi untuk jangka waktu tertentu dan persyaratan tertentu;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-4/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "pembebasan atau penangguhan Pajak Pertambahan Nilai atas impor barang modal atau mesin atau peralatan untuk keperluan produksi yang belum dapat diproduksi di dalam negeri selama jangka waktu tertentu;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-4/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "penyusutan atau amortisasi yang dipercepat; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           },
+           {
+            "id": "pasal-18/ayat-4/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "keringanan Pajak Bumi dan Bangunan, khususnya untuk bidang usaha tertentu, pada wilayah atau daerah atau kawasan tertentu.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2007-25",
+            "berlaku_mulai": "2008-04-26"
+           }
+          ],
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-18/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Pembebasan atau pengurangan pajak penghasilan badan dalam jumlah dan waktu tertentu hanya dapat diberikan kepada penanaman modal baru yang merupakan industri pionir, yaitu industri yang memiliki keterkaitan yang luas, memberi nilai tambah dan eksternalitas yang tinggi, memperkenalkan teknologi baru, serta memiliki nilai strategis bagi perekonomian nasional.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-18/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Bagi penanaman modal yang sedang berlangsung yang melakukan penggantian mesin atau barang modal lainnya, dapat diberikan fasilitas berupa keringanan atau pembebasan bea masuk.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         },
+         {
+          "id": "pasal-18/ayat-7",
+          "tipe": "ayat",
+          "nomor": "(7)",
+          "teks": "Ketentuan lebih lanjut mengenai pemberian fasilitas fiskal sebagaimana dimaksud pada ayat (4) sampai dengan ayat (6) diatur dengan Peraturan Menteri Keuangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2007-25",
+          "berlaku_mulai": "2008-04-26"
+         }
+        ],
+        "sumber": "uu-2007-25",
+        "berlaku_mulai": "2008-04-26"
+       },
+       "catatan": "Ketentuan Pasal 18 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-19",
@@ -2722,10 +3171,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 244,
-  "pdf-resmi": 244,
+  "total": 245,
+  "pdf-resmi": 209,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 36,
   "lainnya": 0
  },
  "istilah": [

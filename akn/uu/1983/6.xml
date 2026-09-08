@@ -11,20 +11,97 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/1983/6/ind@1984-01-01/!main"/>
-          <FRBRuri value="/akn/id/act/uu/1983/6/ind@1984-01-01"/>
-          <FRBRdate date="1984-01-01" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/1983/6/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1983/6/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/1983/6/ind@1984-01-01/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/1983/6/ind@1984-01-01.akn"/>
-          <FRBRdate date="2026-09-06" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/1983/6/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1983/6/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-08" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="1984-01-01" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_8"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_9"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_19"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_9"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_11">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_19"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_15">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_19"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_16">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -208,15 +285,78 @@
             <num>8</num>
               <paragraph eId="pasal_8__ayat_1">
                 <num>(1)</num>
-                <content><p>Wajib Pajak dapat membetulkan sendiri Surat Pemberitahuan dengan menyampaikan pernyataan tertulis, sepanjang Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan.</p></content>
+                <content><p>Wajib Pajak dengan kemauan sendiri dapat membetulkan Surat Pemberitahuan yang telah disampaikan dengan menyampaikan pernyataan tertulis dengan syarat Direktur Jenderal Pajak belum melakukan tindakan pemeriksaan. (la) Dalam hal pembetulan Surat Pemberitahuan sebagaimana dimaksud pada ayat (1) menyatakan rugi atau lebih bayar, pembetulan Surat Pemberitahuan harus disampaikan paling lama 2 (dua) tahun sebelum daluwarsa penetapan.</p></content>
               </paragraph>
               <paragraph eId="pasal_8__ayat_2">
                 <num>(2)</num>
-                <content><p>Dalam hal Wajib Pajak membetulkan sendiri Surat Pemberitahuan yang mengakibatkan hutang pajak menjadi lebih besar, maka kepadanya dikenakan sanksi berupa bunga sebesar 2% (dua per-sen) sebulan atas jumlah pajak yang kurang dibayar, dihitung mulai saat penyampaian Surat Pemberitahuan berakhir sampai dengan tanggal pembayaran karena pembetulan Surat Pemberitahuan itu.</p></content>
+                <content><p>Dalam hal Wajib Pajak membetulkan sendiri Surat Pemberitahuan Tahunan yang mengakibatkan utang pajak menjadi lebih besar, kepadanya dikenai sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan atas jumlah pajak yang kurang dibayar, dihitung sejak saat penyampaian Surat Pemberitahuan berakhir sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2a">
+                <num>(2a)</num>
+                <content><p>Dalam hal Wajib Pajak membetulkan sendiri Surat Pemberitahuan Masa yang mengakibatkan utang pajak menjadi lebih besar, kepadanya dikenai sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan atas jumlah pajak yang kurang dibayar, dihitung sejak jatuh tempo pembayaran sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2b">
+                <num>(2b)</num>
+                <content><p>Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (2) dan ayat (2a) dihitung berdasarkan suku bunga acuan ditambah 5% (lima persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.</p></content>
               </paragraph>
               <paragraph eId="pasal_8__ayat_3">
                 <num>(3)</num>
-                <content><p>Sekalipun telah dilakukan tindakan pemeriksaan, tetapi sepanjang belum dilakukan tindakan penyidikan mengenai adanya ketidakbenaran yang dilakukan Wajib Pajak sebagaimana dimaksud dalam Pasal 38, terhadap ketidakbenaran perbuatan Wajib Pajak tersebut tidak akan dilakukan penyidikan, apabila Wajib Pajak dengan kemauan sendiri mengungkapkan ketidakbenaran perbuatannya tersebut dengan disertai pelunasan kekurangan pembayaran jumlah pajak yang sebenarnya terhutang beserta denda administrasi sebesar dua kali jumlah pajak yang kurang dibayar.</p></content>
+                <intro><p>Walaupun telah dilakukan tindakan pemeriksaan bukti permulaan, Wajib Pajak dengan kemauan sendiri dapat mengungkapkan dengan pernyataan tertulis mengenai ketidakbenaran perbuatannya, yaitu sebagai berikut:</p></intro>
+                  <point eId="pasal_8__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>tidak menyampaikan Surat Pemberitahuan; atau</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>menyampaikan Surat Pemberitahuan yang isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang isinya tidak benar sebagaimana dimaksud dalam Pasal 38 atau Pasal 39 ayat (1) huruf c dan huruf d sepanjang mulainya penyidikan belum diberitahukan kepada Penuntut Umum melalui penyidik pejabat Polisi Negara Republik Indonesia.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_3a">
+                <num>(3a)</num>
+                <content><p>Pengungkapan ketidakbenaran perbuatan sebagaimana dimaksud pada ayat (3) disertai pelunasan kekurangan pembayaran jumlah pajak yang sebenarnya terutang beserta sanksi administrasi berupa denda sebesar looo/o (seratus persen) dari jumlah pajak yang kurang dibayar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_4">
+                <num>(4)</num>
+                <intro><p>Walaupun Direktur Jenderal Pajak telah melakukan pemeriksaan, dengan syarat Direktur Jenderal Pajak belum menerbitkan surat ketetapan pajak, Wajib Pajak dengan kesadaran sendiri dapat mengungkapkan dalam laporan tersendiri tentang ketidakbenaran pengisian Surat Pemberitahuan yang telah disampaikan sesuai dengan keadaan yang sebenarnya, yang dapat mengakibatkan:</p></intro>
+                  <point eId="pasal_8__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>pajak-pajak yang masih harus dibayar menjadi lebih besar atau lebih kecil;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>rugi berdasarkan ketentuan perpajakan menjadi lebih kecil atau lebih besar;</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>jumlah harta menjadi lebih besar atau lebih kecil; atau d.jumlah...</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>jumlah modal menjadi lebih besar atau lebih kecil dan pemeriksaan tetap dilanjutkan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_5">
+                <num>(5)</num>
+                <intro><p>Pajak yang kurang dibayar yang timbul sebagai akibat dari pengungkapan ketidakbenaran pengisian Surat Pemberitahuan sebagaimana dimaksud pada ayat (4) harus dilunasi oleh Wajib Pajak sebelum laporan tersendiri disampaikan beserta sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dari pajak yang kurang dibayar, yang dihitung sejak:</p></intro>
+                  <point eId="pasal_8__ayat_5__huruf_a">
+                    <num>a.</num>
+                    <content><p>batas waktu penyampaian Surat Pemberitahuan Tahunan berakhir sampai dengan tanggal pembayaran, untuk pengungkapan ketidakbenaran pengisian Surat Pemberitahuan Tahunan; atau</p></content>
+                  </point>
+                  <point eId="pasal_8__ayat_5__huruf_b">
+                    <num>b.</num>
+                    <content><p>jatuh tempo pembayaran berakhir sampai dengan tanggal pembayaran, untuk pengungkapan ketidakbenaran pengisian Surat Pemberitahuan Masa dan dikenakan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_5a">
+                <num>(5a)</num>
+                <content><p>Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (5) dihitung berdasarkan suku bunga acuan ditambah 10% (sepuluh persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_6">
+                <num>(6)</num>
+                <content><p>Wajib Pajak dapat membetulkan Surat Pemberitahuan Tahunan yang telah disampaikan, dalam hal Wajib Pajak menerima surat ketetapan pajak, Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, atau Putusan Peninjauan Kembali Tahun Pajak sebelumnya atau beberapa Tahun Pajak sebelumnya, yang menyatakan rugi fiskal yang berbeda dengan rugi fiskal yang telah dikompensasikan dalam Surat Pemberitahuan Tahunan yang akan dibetulkan tersebut, dalam jangka waktu 3 (tiga) bulan setelah menerima surat ketetapan pajak, Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, atau Putusan Peninjauan Kembali dengan syarat Direktur Jenderal Pajak belum melakukan tindakan pemeriksaan.</p></content>
               </paragraph>
 
           </article>
@@ -224,19 +364,35 @@
             <num>9</num>
               <paragraph eId="pasal_9__ayat_1">
                 <num>(1)</num>
-                <content><p>Menteri Keuangan menentukan tanggal jatuh tempo pembayaran dan penyetoran pajak yang terhutang untuk suatu saat atau Masa Pajak bagi masing-masing jenis pajak, selambat-lambatnya lima belas hari setelah saat terhutangnya pajak atau Masa Pajak berakhir.</p></content>
+                <content><p>Menteri Keuangan menentukan tanggal jatuh tempo pembayaran dan penyetoran pajak yang terutang untuk suatu saat atau Masa Pajak bagi masing-masing jenis pajak paling lama 15 (lima belas) hari setelah saat terutangnya pajak atau berakhirnya Masa Pajak.</p></content>
               </paragraph>
               <paragraph eId="pasal_9__ayat_2">
                 <num>(2)</num>
-                <content><p>Kekurangan pembayaran pajak yang terhutang berdasarkan Surat Pemberitahuan Tahunan harus dibayar lunas dalam jangka waktu tiga bulan setelah Tahun Pajak atau Bagian Tahun Pajak berakhir, sebelum Surat Pemberitahuan itu disampaikan.</p></content>
+                <content><p>Kekurangan pembayaran pajak yang terutang berdasarkan Surat Pemberitahuan Tahunan Pajak Penghasilan harus dibayar lunas sebelum Surat Pemberitahuan Pajak Penghasilan disampaikan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2a">
+                <num>(2a)</num>
+                <content><p>Pembayaran atau penyetoran pajak sebagaimana dimaksud pada ayat (1), yang dilakukan setelah tanggal jatuh tempo pembayaran atau penyetoran pajak, dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung sejak berakhimya tanggal jatuh tempo pembayaran sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2b">
+                <num>(2b)</num>
+                <content><p>Atas pembayaran atau penyetoran pajak sebagaimana dimaksud pada ayat (2) yang dilakukan setelah tanggal jatuh tempo penyampaian Surat Pemberitahuan Tahunan, dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung sejak berakhirnya batas waktu penyampaian Surat Pemberitahuan Tahunan sampai dengan tanggal pembayaran, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh I (satu) bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2c">
+                <num>(2c)</num>
+                <content><p>Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (2a) dan ayat (2b) dihitung berdasarkan suku bunga acuan ditambah 5% (lima persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.</p></content>
               </paragraph>
               <paragraph eId="pasal_9__ayat_3">
                 <num>(3)</num>
-                <content><p>Surat Tagihan Pajak, Surat Ketetapan Pajak, atau Surat Ketetapan Pajak Tambahan harus dilunasi dalam jangka waktu satu bulan sejak tanggal diterbitkan.</p></content>
+                <content><p>Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pbmbetulan, Putusan Banding, serta Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang harus dibayar bertambah, harus dilunasi dalam jangka waktu 1 (satu) bulan sejak tanggal diterbitkan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_3a">
+                <num>(3a)</num>
+                <content><p>Bagi Wajib Pajak usaha kecil dan Wajib Pajak di daerah tertentu, jangka waktu pelunasan sebagaimana dimaksud pada ayat (3) dapat diperpanjang paling lama menjadi 2 (dua) bulan yang ketentuannya diatur dengan atau berdasarkan Peraturan Menteri Keuangan.</p></content>
               </paragraph>
               <paragraph eId="pasal_9__ayat_4">
                 <num>(4)</num>
-                <content><p>Direktur Jenderal Pajak atas permohonan Wajib Pajak dapat memberikan persetujuan kepada Wajib Pajak untuk mengangsur atau memberikan penundaan pembayaran pajak.</p></content>
+                <content><p>Direktur Jenderal Pajak atas permohonan Wajib Pajak dapat memberikan persetujuan untuk mengangsur atau menunda pembayaran pajak termasuk kekurangan pembayaran sebagaimana dimaksud pada ayat (2) yang pelaksanaannya diatur dengan atau berdasarkan Peraturan Menteri Keuangan.</p></content>
               </paragraph>
 
           </article>
@@ -256,19 +412,27 @@
             <num>11</num>
               <paragraph eId="pasal_11__ayat_1">
                 <num>(1)</num>
-                <content><p>Atas permohonan Wajib Pajak, kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a dikembalikan, atau apabila ternyata Wajib Pajak mempunyai hutang pajak lainnya, langsung dapat diperhitungkan untuk melunasi dahulu pajak yang terhutang.</p></content>
+                <content><p>Atas permohonan Wajib Pajak, kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 17, Pasal l7B, Pasal 17C, atau Pasal 17D dikembalikan dengan ketentuan bahwa apabila ternyata Wajib Pajak mempunyai utang pajak, langsung diperhitungkan untuk melunasi terlebih dahulu utang pajak tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_1a">
+                <num>(1a)</num>
+                <content><p>Kelebihan pembayaran pajak sebagai akibat adanya Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak, dan Putusan Banding atau Putusan Peninjauan Kembali, serta Surat Keputusan Pemberian Imbalan Bunga dikembalikan kepada Wajib Pajak dengan ketentuan jika ternyata Wajib Pajak mempunyai utang pajak langsung diperhitungkan untuk melunasi terlebih dahulu utang pajak tersebut.</p></content>
               </paragraph>
               <paragraph eId="pasal_11__ayat_2">
                 <num>(2)</num>
-                <content><p>Pengembalian kelebihan pembayaran pajak sebagaimana dimaksud dalam ayat (1) dilakukan dalam jangka waktu satu bulan setelah Surat Keputusan Kelebihan Pembayaran Pajak sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a ditetapkan.</p></content>
+                <content><p>Pengembalian kelebihan pembayaran pajak sebagaimana dimaksud pada ayat (1) dan ayat (1a) dilakukan paling lama 1 (satu) bulan sejak permohonan pengembalian kelebihan pembayaran pajak diterima sehubungan dengan diterbitkannya Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 17 ayat (1), atau sejak diterbitkannya Surat Ketetapan Pajak Irbih Bayar sebagaimana dimaksud dalam Pasal 17 ayat (2) dan Pasal l7B, atau sejak diterbitkannya Surat Keputusan Pengembalian Pendahuluan Kelebihan Pajak sebagaimana dimaksud dalam Pasal l7C atau Pasal 17D, atau sejak diterbitkannya Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak atau Surat Keputusan Pemberian Imbalan Bunga, atau sejak diterimanya Putusan Banding atau Putusan Peninjauan Kembali yang menyebabkan kelebihan pembayaran pajak.</p></content>
               </paragraph>
               <paragraph eId="pasal_11__ayat_3">
                 <num>(3)</num>
-                <content><p>Apabila pengembalian kelebihan pembayaran pajak dilakukan setelah jangka waktu satu bulan, Pemerintah memberikan bunga sebesar 2% (dua persen) sebulan atas kelambatan pembayaran kelebihan pembayaran pajak, dihitung dari saat berlakunya batas waktu sebagaimana dimaksud dalam ayat (2) sampai dengan saat dilakukan pembayaran kelebihan.</p></content>
+                <content><p>Apabila pengembalian kelebihan pembayaran pajak dilakukan setelah jangka waktu 1 (satu) bulan, Pemerintah memberikan imbalan bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan atas keterlambatan pengembalian kelebihan pembayaran pajak dihitung sejak batas waktu penerbitan Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak berakhir sampai dengan saat dilakukan pengembalian kelebihan dan diberikan paling lama 24 (dua puluh empat) bulan, serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_3a">
+                <num>(3a)</num>
+                <content><p>Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (3) dihitung berdasarkan suku bunga acuan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan imbalan bunga.</p></content>
               </paragraph>
               <paragraph eId="pasal_11__ayat_4">
                 <num>(4)</num>
-                <content><p>Tata cara perhitungan dan pengembalian kelebihan pembayaran pajak diatur lebih lanjut oleh Menteri Keuangan.</p></content>
+                <content><p>Tata cara penghitungan dan pengembalian kelebihan pembayaran pajak diatur dengan atau berdasarkan Peraturan Menteri Keuangan.</p></content>
               </paragraph>
 
           </article>
@@ -285,61 +449,82 @@
             <num>13</num>
               <paragraph eId="pasal_13__ayat_1">
                 <num>(1)</num>
-                <intro><p>Dalam jangka waktu lima tahun sesudah saat terhutangnya pajak, atau berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak, Direktur Jenderal Pajak dapat mengeluarkan Surat Ketetapan Pajak dalam hal-hal sebagai berikut :</p></intro>
+                <intro><p>Dalam jangka waktu 5 (lima) tahun setelah saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak, Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Kurang Bayar dalam hal-hal sebagai berikut:</p></intro>
                   <point eId="pasal_13__ayat_1__huruf_a">
                     <num>a.</num>
-                    <content><p>apabila berdasarkan hasil pemeriksaan atau keterangan lain ternyata jumlah pajak yang terhutang kurang atau tidak dibayar;</p></content>
+                    <content><p>apabila berdasarkan hasil pemeriksaan, pajak yang terutang tidak atau kurang dibayar;</p></content>
                   </point>
                   <point eId="pasal_13__ayat_1__huruf_b">
                     <num>b.</num>
-                    <content><p>apabila Surat Pemberitahuan tidak (disampaikan dalam jangka waktu sebagaimana dimaksud dalam Pasal 3 ayat (3) dan setelah ditegur secara tertulis tidak disampaikan pada waktunya sebagaimana ditentukan dalam Surat Teguran;</p></content>
+                    <content><p>apabila Surat Pemberitahuan tidak disampaikan dalam jangka waktu sebagaimana dimaksud dalam Pasal 3 ayat (3) dan setelah ditegur secara tertulis tidak disampaikan pada waktunya sebagaimana ditentukan dalam Surat Teguran;</p></content>
                   </point>
                   <point eId="pasal_13__ayat_1__huruf_c">
                     <num>c.</num>
-                    <content><p>apabila berdasarkan hasil pemeriksaan mengenai Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah ternyata tidak seharusnya dikompensasikan selisih lebih pajak, tidak seharusnya dikenakan tarif 0% (nol persen), atau tidak seharusnya diberikan pengembalian pajak;</p></content>
+                    <content><p>apabila berdasarkan hasil pemeriksaan mengenai Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah ternyata tidak seharusnya dikompensasikan selisih lebih pajak atau tidak seharusnya dikenai tarif Oo/o (nol persen);</p></content>
                   </point>
                   <point eId="pasal_13__ayat_1__huruf_d">
                     <num>d.</num>
-                    <content><p>apabila kewajiban tidak dipenuhi sebagaimana dimaksud dalam Pasal 26 dan Pasal 29, sehingga tidak dapat diketahui besarnya pajak yang terhutang.</p></content>
+                    <content><p>apabila kewajiban sebagaimana dimaksud dalam Pasal 28 atau Pasal 29 tidak dipenuhi sehingga tidak dapat diketahui besarnya pajak yang terutang;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>apabila kepada Wajib Pajak diterbitkan Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud dalam Pasal 2 ayat (4a); atau</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>Pengusaha Kena Pajak tidak melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak dan/atau ekspor Barang Kena Pajak danf atau Jasa Kena Pajak dan telah diberikan pengembalian Pajak Masukan atau telah mengkreditkan Pajak Masukan sebagaimana dimaksud dalam Pasal 9 ayat (6e) Undang- Undang Pajak Pertambahan Nilai 1984 dan perubahannya.</p></content>
                   </point>
 
               </paragraph>
               <paragraph eId="pasal_13__ayat_2">
                 <num>(2)</num>
-                <content><p>Jumlah kekurangan pajak yang terhutang dalam Surat Ketetapan Pajak sebagaimana dimaksud dalam ayat (1) huruf a ditambah dengan sanksi administrasi berlipat bunga sebesar 2 % (dua persen) sebulan untuk selama-lamanya dua puluh empat bulan, dihitung mulai saat terhutangnya pajak atau berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak sampai dengan diterbitkannya Surat Ketetapan Pajak.</p></content>
+                <content><p>Jumlah kekurangan pajak yang terutang dalam Surat Ketetapan Pajak Kurang Bayar sebagaimana dimaksud pada ayat (1) huruf a dan huruf e ditambah dengan sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dihitung sejak saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak sampai dengan diterbitkannya Surat Ketetapan Pajak Kurang Bayar, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2a">
+                <num>(2a)</num>
+                <content><p>Jumlah kekurangan pajak yang terutang dalam Surat Ketetapan Pajak Kurang Bayar sebagaimana dimaksud pada ayat (1) huruf f ditambah dengan sanksi administrasi berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dihitung sejak saat jatuh tempo pembayaran kembali berakhir sampai dengan tanggal diterbitkannya Surat Ketetapan Pajak Kurang Bayar, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2b">
+                <num>(2b)</num>
+                <content><p>Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (2) dan ayat (2a) dihitung berdasarkan suku bunga acuan ditambah 15% (lima belas persen) dan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.</p></content>
               </paragraph>
               <paragraph eId="pasal_13__ayat_3">
                 <num>(3)</num>
-                <intro><p>Jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud dalam ayat (1) huruf b, huruf c, dan huruf d ditambah dengan sanksi administrasi berupa kenaikan sebesar :</p></intro>
+                <intro><p>Jumlah pajak dalam Surat Ketetapan Pajak Kurang Bayar sebagaimana dimaksud pada ayat (1) huruf b, huruf c, dan huruf d ditambah dengan sanksi administrasi berupa kenaikan sebesar:</p></intro>
                   <point eId="pasal_13__ayat_3__huruf_a">
                     <num>a.</num>
-                    <content><p>50 % (lima puluh persen) dari Pajak Penghasilan yang kurang atau tidak dibayar dalam satu Tahun Pajak;</p></content>
+                    <content><p>50% (lima puluh persen) dari Pajak Penghasilan yang tidak atau kurang dibayar dalam satu Tahun Pajak;</p></content>
                   </point>
                   <point eId="pasal_13__ayat_3__huruf_b">
                     <num>b.</num>
-                    <content><p>100% (seratus persen) dari Pajak Penghasilan yang tidak atau kurang dipotong, tidak atau kurang dipungut, tidak atau kurang disetorkan, dan dipotong atau dipungut tetapi tidak atau kurang disetorkan;</p></content>
+                    <content><p>lOOo/o (seratus persen) dari Pajak Penghasilan yang tidak atau kurang dipotong, tidak atau kurang dipungut, tidak atau kurang disetor, dan dipotong atau dipungut tetapi tidak atau kurang disetor; atau</p></content>
                   </point>
                   <point eId="pasal_13__ayat_3__huruf_c">
                     <num>c.</num>
-                    <content><p>100%(seratus persen) dari Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah yang tidak atau kurang dibayar.</p></content>
+                    <content><p>looo/o (seratus persen) dari Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan Atas Barang Mewah yang tidak atau kurang dibayar.</p></content>
                   </point>
 
               </paragraph>
+              <paragraph eId="pasal_13__ayat_3a">
+                <num>(3a)</num>
+                <content><p>Dalam hal terdapat penerapan sanksi administrasi berupa bunga dan kenaikan berdasarkan hasil pemeriksaan Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah sebagaimana dimaksud pada ayat (1) huruf a dan huruf c, hanya diterapkan satu jenis sanksi administrasi yang tertinggi nilai besaran sanksinya.</p></content>
+              </paragraph>
               <paragraph eId="pasal_13__ayat_4">
                 <num>(4)</num>
-                <content><p>Jumlah Pajak Penghasilan yang dipotong dan dipungut oleh pihak ketiga untuk satu Tahun Pajak, jumlah Pajak Penghasilan yang dibayar sendiri, pajak yang ditagih dalam Surat Tagihan Pajak untuk Tahun Pajak tersebut, sera pajak atas penghasilan yang dibayar atau terhutang di luar negeri untuk Tahun Pajak yang bersangkutan, dikreditkan dari jumlah Pajak Penghasilan yang terhutang dalam Surat Ketetapan Pajak.</p></content>
+                <content><p>Besarnya pajak yang terutang yang diberitahukan oleh Wajib Pajak dalam Surat Pemberitahuan menjadi pasti sesuai dengan ketentuan peraturan perundang-undangan perpajakan apabila dalam jangka waktu 5 (lima) tahun sebagaimana dimaksud pada ayat (1), setelah saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak tidak diterbitkan surat ketetapan pajak, kecuali Wajib Pajak melakukan tindak pidana di bidang perpajakan dalam Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak dimaksud.</p></content>
               </paragraph>
               <paragraph eId="pasal_13__ayat_5">
                 <num>(5)</num>
-                <content><p>Sanksi administrasi berupa bunga, denda administrasi, dan kenaikan, tidak dapat dikreditkan dari jumlah pajak yang terhutang.</p></content>
+                <content><p>Dihapus.</p></content>
               </paragraph>
               <paragraph eId="pasal_13__ayat_6">
                 <num>(6)</num>
-                <content><p>Besarnya pajak yang terhutang dalam suatu Tahun Pajak yang diberitahukan oleh Wajib Pajak dalam Surat Pemberitahuan Tahunan, menjadi pasti menurut ketentuan peraturan perundang-undangan perpajakan, apabila dalam jangka waktu sebagaimana dimaksud dalam ayat (1) tidak diterbitkan Surat Ketetapan Pajak.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_13__ayat_7">
-                <num>(7)</num>
-                <content><p>Apabila jangka waktu lima tahun sebagaimana dimaksud dalam ayat (1) telah lewat, Surat Keputusan Pajak tetap dapat diterbitkan dalam hak Wajib Pajak setelah jangka waktu lima tahun tersebut dipidana, karena melakukan tindak pidana di bidang perpajakan yang dilakukan mengenai pajak yang penagihannya telah lewat waktu, berdasarkan putusan Pengadilan yang telah memperoleh kekuatan hukum itu.</p></content>
+                <intro><p>Tata cara penerbitan Surat Ketetapan Pajak Kurang Bayar sebagaimana dimaksud pada ayat (1) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.</p></intro>
+                  <point eId="pasal_13__ayat_6__angka_5">
+                    <num>5.</num>
+                    <content><p>Pasal.</p></content>
+                  </point>
+
               </paragraph>
 
           </article>
@@ -372,19 +557,19 @@
             <num>15</num>
               <paragraph eId="pasal_15__ayat_1">
                 <num>(1)</num>
-                <content><p>Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Tambahan dalam jangka waktu lima tahun sesudah saat pajak terhutang, berakhirnya Masa Pajak, Bagian Tahun Pajak atau Tahun Pajak, apabila diketemukan data baru dan/atau data yang semula belum terungkap yang menyebabkan penambahan jumlah pajak yang terhutang.</p></content>
+                <content><p>Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Kurang Bayar Tambahan dalam jangka waktu 5 (lima) tahun setelah saat terutangnya pajak atau berakhirnya Masa Pajak, bagian Tahun Pajak, atau Tahun Pajak apabila ditemukan data baru yang mengakibatkan penambahan jumlah pajak yang terutang setelah dilakukan tindakan pemeriksaan dalam rangka penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan.</p></content>
               </paragraph>
               <paragraph eId="pasal_15__ayat_2">
                 <num>(2)</num>
-                <content><p>Jumlah kekurangan pajak yang terhutang dalam Surat Ketetapan Pajak Tambahan, ditambah dengan sanksi administrasi berupa kenaikan sebesar 100% (seratus persen) dari jumlah kekurangan pajak tersebut.</p></content>
+                <content><p>Jumlah kekurangan pajak yang terutang dalam Surat Ketetapan Pajak Kurang Bayar Tambahan ditambah dengan sanksi administratif berupa kenaikan sebesar IOOVI (seratus persen) dari jumlah kekurangan pajak tersebut.</p></content>
               </paragraph>
               <paragraph eId="pasal_15__ayat_3">
                 <num>(3)</num>
-                <content><p>Kenaikan sebagaimana dimaksud dalam ayat (2) tidak dikenakan, apabila Surat Ketetapan Pajak Tambahan itu diterbitkan berdasarkan keterangan tertulis oleh Wajib Pajak atas kehendak sendiri, sepanjang Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan.</p></content>
+                <content><p>Kenaikan sebagaimana dimaksud pada ayat (2) tidak dikenakan apabila Surat Ketetapan Pajak Kurang Bayar Tambahan itu diterbitkan berdasarkan keterangan tertulis dari Wajib Pajak atas kehendak sendiri, dengan syarat Direktur Jenderal Pajak belum mulai melakukan tindakan pemeriksaan dalam rangka penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan.</p></content>
               </paragraph>
               <paragraph eId="pasal_15__ayat_4">
                 <num>(4)</num>
-                <content><p>Apabila jangka waktu lima tahun sebagaimana dimaksud dalam ayat (1) telah lewat, Surat Ketetapan Pajak Tambahan tetap dapat diterbitkan dalam hal Wajib Pajak setelah jangka waktu lima tahun tersebut dipidana, karena melakukan tindak pidana di bidang perpajakan yang dilakukan mengenai pajak yang penagihannya telah lewat waktu, berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.</p></content>
+                <content><p>Dihapus. (s) Tata cara penerbitan Surat Ketetapan Pajak Kurang Bayar Tambahan sebagaimana dimaksud pada ayat (1) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.</p></content>
               </paragraph>
 
           </article>
@@ -426,15 +611,19 @@
             <num>19</num>
               <paragraph eId="pasal_19__ayat_1">
                 <num>(1)</num>
-                <content><p>Apabila atas pajak yang terhutang, pada saat jatuh tempo pembayaran tidak dibayar atau kurang dibayar, maka atas jumlah pajak yang tidak dibayar atau kurang dibayar itu, dikenakan bunga sebesar 2% (dua persen) sebulan untuk seluruh masa, yang dihitung dari jatuh tempo sampai dengan hari pembayaran dan bagian dari bulan dihitung penuh satu bulan.</p></content>
+                <content><p>Apabila Surat Ketetapan Pajak Kurang Bayar atau Surat Ketetapan Pajak Kurang Bayar Tambahan, serta Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Putusan Banding atau Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah, pada saatjatuh tempo pelunasan tidak atau kurang dibayar, atas jumlah pajak yang tidak atau kurang dibayar itu dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan untuk seluruh masa, yang dihitung sejak berakhirnya tanggal jatuh tempo sampai dengan tanggal pembayaran atau tanggal diterbitkannya Surat Tagihan Pajak, dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
               </paragraph>
               <paragraph eId="pasal_19__ayat_2">
                 <num>(2)</num>
-                <content><p>Dalam hal Wajib Pajak diperbolehkan mengangsur, atau menunda pembayaran pajak, juga dikenakan bunga sebesar 2%, (dua persen) sebulan.</p></content>
+                <content><p>Dalam hal Wajib Pajak diperbolehkan mengangsur atau menunda pembayaran pajak juga dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan dari jumlah pajak yang masih harus dibayar dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
               </paragraph>
               <paragraph eId="pasal_19__ayat_3">
                 <num>(3)</num>
-                <content><p>Dalam hal Wajib Pajak diperbolehkan menunda penyampaian Surat Pemberitahuan dan ternyata penghitungan sementara pajak yang terhutang sebagaimana dimaksud dalam Pasal, 3 ayat (5) kurang dari jumlah pajak yang sebenarnya terhutang, maka atas kekurangan pembayaran pajak tersebut, dikenakan bunga sebesar 2% (dua persen) sebulan yang dihitung dari saat berakhirnya kewajiban menyampaikan Surat Pemberitahuan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf b sampai dengan hari dibayarnya kekurangan pembayaran tersebut..</p></content>
+                <content><p>Dalam hal Wajib Pajak diperbolehkan menunda penyampaian Surat Pemberitahuan Tahunan dan ternyata penghitungan sementara pajak yang terrrtang sebagaimana dimaksud dalam Pasal 3 ayat (5) kurang dari jumlah pajak yang sebenarnya terutang atas kekurangan pembayaran pajak tersebut, Wajib Pajak dikenai sanksi administratif berupa bunga sebesar tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan yang dihitung sejak berakhirnya batas waktu penyampaian Surat Pemberitahuan Tahunan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf b dan huruf c sampai dengan tanggal dibayarnya kekurangan pembayaran tersebut dan dikenakan paling lama 24 (dua puluh empat) bulan serta bagian dari bulan dihitung penuh 1 (satu) bulan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_4">
+                <num>(4)</num>
+                <content><p>Tarif bunga per bulan yang ditetapkan oleh Menteri Keuangan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dihitung berdasarkan suku bunga acuan dibagi 12 (dua belas) yang berlaku pada tanggal dimulainya penghitungan sanksi.</p></content>
               </paragraph>
 
           </article>
@@ -769,14 +958,14 @@
         <heading>KETENTUAN PIDANA</heading>
           <article eId="pasal_38">
             <num>38</num>
-            <intro><p>Barang siapa karena kealpaannya :</p></intro>
+            <intro><p>Setiap orang yang karena kealpaannya:</p></intro>
               <point eId="pasal_38__huruf_a">
                 <num>a.</num>
                 <content><p>tidak menyampaikan Surat Pemberitahuan; atau</p></content>
               </point>
               <point eId="pasal_38__huruf_b">
                 <num>b.</num>
-                <content><p>menyampaikan Surat Pemberitahuan, tetapi yang isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang tidak benar; sehingga dapat menimbulkan kerugian pada Negara, dipidana dengan pidana kurungan selama-lamanya satu tahun dan/atau denda setinggitingginya sebesar dua kali jumlah pajak yang terhutang.</p></content>
+                <content><p>menyampaikan Surat Pemberitahuan, tetapi isinya tidak benar atau tidak lengkap, atau melampirkan keterangan yang isinya tidak benar, sehingga dapat menimbulkan kerugian pada pendapatan negara dipidana denda paling sedikit 1 (satu) kali jumlah pajak terutang yang tidak atau kurang dibayar dan paling banyak 2 (dua) kali jumlah pajak terutang yang tidak atau kurang dibayar, atau dipidana kurungan paling singkat 3 (tiga) bulan atau paling lama 1 (satu) tahun.</p></content>
               </point>
 
           </article>

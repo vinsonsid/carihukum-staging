@@ -40,16 +40,12 @@
   "kelompok": "badan-usaha-jaminan",
   "perubahan_belum_dienkode": [
    {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
     "id": "perppu-2022-2",
     "tanggal": "2022-12-30"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.360Z",
+ "dihasilkan": "2026-09-08T10:55:54.572Z",
  "timeline": [
   {
    "tanggal": "2007-08-16",
@@ -59,6 +55,25 @@
    "judul_pelaku": "Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 13,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan ."
+    },
+    {
+     "unit": "pasal-1",
+     "instruksi": "Ketentuan Pasal 1 angka 1 diubah sehingga berbunyi sebagai berikut:"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Ketentuan ."
   },
   {
    "tanggal": "2023-03-31",
@@ -724,10 +739,10 @@
        "riwayat": [
         {
          "aksi": "diganti",
-         "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
-         "pelaku": "uu-2023-6",
-         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-         "tanggal": "2023-03-31",
+         "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
          "sebelum": {
           "id": "pasal-7",
           "tipe": "pasal",
@@ -819,6 +834,196 @@
           ],
           "sumber": "uu-2007-40",
           "berlaku_mulai": "2007-08-16"
+         },
+         "catatan": "Ketentuan Pasal 7 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-7",
+          "tipe": "pasal",
+          "nomor": "7",
+          "anak": [
+           {
+            "id": "pasal-7/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Perseroan didirikan oleh 2 (dua) orang atau lebih dengan akta notaris yang dibuat dalam Bahasa Indonesia.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-7/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Setiap pendiri Perseroan wajib mengambil bagian saham pada saat Perseroan didirikan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-7/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku dalam rangka Peleburan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-7/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Perseroan memperoleh status badan hukum setelah didaftarkan kepada Menteri dan mendapatkan bukti pendaftaran.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-7/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Setelah Perseroan memperoleh status badan hukum dan pemegang saham menjadi kurang dari 2 (dua) orang, dalam jangka waktu paling lama 6 (enam) bulan terhitung sejak keadaan tersebut, pemegang saham yang bersangkutan wajib:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-7/ayat-5/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "mengalihkan sebagian sahamnya kepada orang lain; atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-7/ayat-5/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Perseroan mengeluarkan saham baru kepada orang lain.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-7/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Dalam hal jangka waktu sebagaimana dimaksud pada ayat (5) telah dilampaui, pemegang saham tetap kurang dari 2 (dua) orang:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-7/ayat-6/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "pemegang saham bertanggung jawab secara pribadi atas segala perikatan dan kerugian Perseroan; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-7/ayat-6/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "atas permohonan pihak yang berkepentingan, pengadilan negeri dapat membubarkan Perseroan tersebut.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-7/ayat-7",
+            "tipe": "ayat",
+            "nomor": "(7)",
+            "teks": "Ketentuan yang mewajibkan Perseroan didirikan oleh 2 (dua) orang atau lebih sebagaimana dimaksud pada ayat (1), ayat (5), serta ayat (6) tidak berlaku bagi:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-7/ayat-7/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Persero yang seluruh sahamnya dimiliki oleh negara;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-7/ayat-7/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Badan Usaha Milik Daerah;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-7/ayat-7/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "Badan Usaha Milik Desa;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-7/ayat-7/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "Perseroan yang mengelola bursa efek, lembaga kliring dan penjaminan, lembaga penyimpanan dan penyelesaian, dan lembaga lain sesuai dengan Undang-Undang tentang Pasar Modal; atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-7/ayat-7/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "Perseroan yang memenuhi kriteria untuk Usaha Mikro dan Kecil.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-7/ayat-8",
+            "tipe": "ayat",
+            "nomor": "(8)",
+            "teks": "Usaha Mikro dan Kecil sebagaimana dimaksud pada ayat (7) huruf e merupakan Usaha Mikro dan Kecil sebagaimana diatur dalam peraturan perundang- undangan mengenai Usaha Mikro dan Kecil.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
          },
          "catatan": "Ketentuan Pasal 7 diubah sehingga berbunyi sebagai berikut:"
         }
@@ -2334,10 +2539,10 @@
        "riwayat": [
         {
          "aksi": "diganti",
-         "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
-         "pelaku": "uu-2023-6",
-         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-         "tanggal": "2023-03-31",
+         "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
          "sebelum": {
           "id": "pasal-32",
           "tipe": "pasal",
@@ -2373,6 +2578,53 @@
           ],
           "sumber": "uu-2007-40",
           "berlaku_mulai": "2007-08-16"
+         },
+         "catatan": "Ketentuan Pasal 32 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-32",
+          "tipe": "pasal",
+          "nomor": "32",
+          "anak": [
+           {
+            "id": "pasal-32/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Perseroan wajib memiliki modal dasar Perseroan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-32/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Besaran modal dasar Perseroan sebagaimana dimaksud pada ayat (1) ditentukan berdasarkan keputusan pendiri Perseroan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-32/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Ketentuan lebih lanjut mengenai modal dasar Perseroan diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
          },
          "catatan": "Ketentuan Pasal 32 diubah sehingga berbunyi sebagai berikut:"
         }
@@ -8942,10 +9194,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
        "sebelum": {
         "id": "pasal-153",
         "tipe": "pasal",
@@ -9012,6 +9264,24 @@
         "berlaku_mulai": "2007-08-16"
        },
        "catatan": "Ketentuan Pasal 153 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-153",
+        "tipe": "pasal",
+        "nomor": "153",
+        "teks": "Ketentuan mengenai biaya Perseroan sebagai badan hukum diatur sesuai dengan ketentuan peraturan perundang- undangan di bidang penerimaan negara bukan pajak.",
+        "verifikasi": "draf",
+        "anak": [],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 153 diubah sehingga berbunyi sebagai berikut:"
       }
      ],
      "sumber": "uu-2023-6",
@@ -9053,6 +9323,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9100,6 +9378,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9137,6 +9423,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9174,6 +9468,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9211,6 +9513,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9248,6 +9558,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9341,6 +9659,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9378,6 +9704,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9415,6 +9749,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
@@ -9491,6 +9833,14 @@
      "riwayat": [
       {
        "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2007-40",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 153 dan Pasal 154 disisipkan 10 (sepuluh) pasal, yakni Pasal 153A, Pasal 1528, Pasal 153C, Pasal 153D, Pasal 153E, Pasal 153F, Pasal 153G, Pasal 153H, Pasal 1531, dan Pasal 153J sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
        "peristiwa": "uu-2023-6/amandemen-uu-2007-40",
        "pelaku": "uu-2023-6",
        "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",

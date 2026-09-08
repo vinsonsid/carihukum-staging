@@ -11,20 +11,57 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2003/19/ind@2003-06-19/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2003/19/ind@2003-06-19"/>
-          <FRBRdate date="2003-06-19" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2003/19/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2003/19/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2003/19/ind@2003-06-19/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2003/19/ind@2003-06-19.akn"/>
-          <FRBRdate date="2026-09-06" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/2003/19/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2003/19/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-08" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2003-06-19" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_66"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_48"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_66"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_48"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_66"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_48"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -728,7 +765,19 @@
               </article>
               <article eId="pasal_48">
                 <num>48</num>
-                <content><p>Dalam melaksanakan tugasnya, Direksi wajib mencurahkan tenaga, pikiran, dan perhatian secara penuh pada tugas, kewajiban, dan pencapaian tujuan Perum.</p></content>
+                  <paragraph eId="pasal_48__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Untuk menjalankan Penelitian, Pengembangan, Pengkajian, dan Penerapan, serta Invensi dan Inovasi yang terintegrasi dibentuk badan riset dan inovasi nasional.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_48__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Untuk menjalankan Penelitian, Pengembangan, Pengkajian, dan Penerapan, serta Invensi dan Inovasi yang terintegrasi di daerah, Pemerintah Daerah membentuk badan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_48__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai badan riset dan inovasi nasional sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Presiden.</p></content>
+                  </paragraph>
+
               </article>
               <article eId="pasal_49">
                 <num>49</num>
@@ -941,11 +990,52 @@
             <num>66</num>
               <paragraph eId="pasal_66__ayat_1">
                 <num>(1)</num>
-                <content><p>Pemerintah dapat memberikan penugasan khusus kepada BUMN untuk menyelenggarakan fungsi kemanfaatan umum dengan tetap memperhatikan maksud dan tujuan kegiatan BUMN.</p></content>
+                <content><p>Pemerintah Pusat dapat memberikan penugasan khusus kepada BUMN untuk menyelenggarakan fungsi kemanfaatan umum serta riset dan inovasi nasional.</p></content>
               </paragraph>
               <paragraph eId="pasal_66__ayat_2">
                 <num>(2)</num>
-                <content><p>Setiap penugasan sebagaimana dimaksud dalam ayat (1) harus terlebih dahulu mendapatkan persetujuan RUPS/Menteri.</p></content>
+                <content><p>Penugasan khusus kepada BUMN sebagaimana dimaksud pada ayat (1) dilakukan dengan tetap memperhatikan maksud dan tujuan, kegiatan usaha BUMN, serta mempertimbangkan kemampuan BUMN.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_3">
+                <num>(3)</num>
+                <content><p>Rencana penugasan khusus sebagaimana dimaksud pada ayat (1) dikaji bersama antara BUMN yang bersangkutan dengan Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_4">
+                <num>(4)</num>
+                <content><p>Apabila penugasan tersebut secara finansial tidak fisibel, Pemerintah Pusat harus memberikan kompensasi atas semua biaya yang telah dikeluarkan oleh BUMN tersebut, termasuk margin yang diharapkan sepanjang dalam tingkat kewajaran sesuai dengan penugasan yang diberikan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_5">
+                <num>(5)</num>
+                <content><p>Penugasan kepada BUMN sebagaimana dimaksud pada ayat (1) harus terlebih dahulu mendapatkan persetujuan RUPS atau Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_6">
+                <num>(6)</num>
+                <intro><p>BUMN dalam melaksanakan penugasan khusus sebagaimana dimaksud pada ayat (1) dapat bekerja sama dengan:</p></intro>
+                  <point eId="pasal_66__ayat_6__huruf_a">
+                    <num>a.</num>
+                    <content><p>badan usaha milik swasta;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_6__huruf_b">
+                    <num>b.</num>
+                    <content><p>badan usaha milik daerah;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_6__huruf_c">
+                    <num>c.</num>
+                    <content><p>koperasi;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_6__huruf_e">
+                    <num>e.</num>
+                    <content><p>lembaga penelitian dan pengembangan;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_6__huruf_f">
+                    <num>f.</num>
+                    <content><p>lembaga pengkajian dan penerapan; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_6__huruf_g">
+                    <num>g.</num>
+                    <content><p>perguruan tinggi.</p></content>
+                  </point>
+
               </paragraph>
 
           </article>

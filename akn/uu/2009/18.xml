@@ -11,20 +11,225 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2009/18/ind@2009-06-04/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2009/18/ind@2009-06-04"/>
-          <FRBRdate date="2009-06-04" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2009/18/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2009/18/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2009/18/ind@2009-06-04/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2009/18/ind@2009-06-04.akn"/>
-          <FRBRdate date="2026-09-06" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/2009/18/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2009/18/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-08" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2009-06-04" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_16"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_22"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_54"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_11">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_59"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_62"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_69"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_15">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_72"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_16">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_85"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_17">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_88"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_20">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_16"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_21">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_22"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_22">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_23">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_24">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_25">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_54"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_26">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_59"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_27">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_28">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_62"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_29">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_69"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_30">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_72"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_31">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_85"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_32">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_88"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_33">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_34">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_35">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_36">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_16"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_37">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_22"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_38">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_29"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_39">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_40">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_41">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_42">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_59"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_43">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_44">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_62"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_45">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_69"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_46">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_72"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_47">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_85"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_48">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_88"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -312,40 +517,44 @@
                 <num>6</num>
                   <paragraph eId="pasal_6__ayat_1">
                     <num>(1)</num>
-                    <content><p>Lahan yang telah ditetapkan sebagai kawasan penggembalaan umum harus dipertahankan keberadaan dan kemanfaatannya secara berkelanjutan.</p></content>
+                    <content><p>Lahan yang telah ditetapkan sebagai Kawasan Penggembalaan Umum harus dipertahankan keberadaan dan kemanfaatannya secara berkelanjutan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_6__ayat_2">
                     <num>(2)</num>
-                    <intro><p>Kawasan penggembalaan umum sebagaimana dimaksud pada ayat (1) berfungsi sebagai:</p></intro>
+                    <intro><p>Kawasan Penggembalaan Umum sebagaimana dimaksud pada ayat (1) berfungsi sebagai:</p></intro>
                       <point eId="pasal_6__ayat_2__huruf_a">
                         <num>a.</num>
-                        <content><p>penghasil tumbuhan pakan;</p></content>
+                        <content><p>penghasil tumbuhan Pakan;</p></content>
                       </point>
                       <point eId="pasal_6__ayat_2__huruf_b">
                         <num>b.</num>
-                        <content><p>tempat perkawinan alami, seleksi, kastrasi, dan pelayanan inseminasi buatan;</p></content>
+                        <content><p>tempat perkawinan alami, seleksi, kastrasi, dan pelayanan Inseminasi Buatan;</p></content>
                       </point>
                       <point eId="pasal_6__ayat_2__huruf_c">
                         <num>c.</num>
-                        <content><p>tempat pelayanan kesehatan hewan; dan/atau</p></content>
+                        <content><p>tempat pelayanan Kesehatan Hewan; dan/atau d. tempat . . . -r77-</p></content>
                       </point>
                       <point eId="pasal_6__ayat_2__huruf_d">
                         <num>d.</num>
-                        <content><p>tempat atau objek penelitian dan pengembangan teknologi peternakan dan kesehatan hewan.</p></content>
+                        <content><p>tempat atau objek penelitian dan pengembangan teknologi Peternakan dan Kesehatan Hewan.</p></content>
                       </point>
 
                   </paragraph>
                   <paragraph eId="pasal_6__ayat_3">
                     <num>(3)</num>
-                    <content><p>Pemerintah daerah kabupaten/kota yang di daerahnya mempunyai persediaan lahan yang memungkinkan dan memprioritaskan budi daya ternak skala kecil diwajibkan menetapkan lahan sebagai kawasan penggembalaan umum.</p></content>
+                    <content><p>Pemerintah Daerah kabupaten/kota yang di daerahnya mempunyai persediaan lahan yang memungkinkan dan memprioritaskan budi daya Ternak skala kecil wajib menetapkan lahan sebagai Kawasan Penggembalaan Umum.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_6__ayat_4">
                     <num>(4)</num>
-                    <content><p>Pemerintah daerah kabupaten/kota membina bentuk kerja sama antara pengusahaan peternakan dan pengusahaan tanaman pangan, hortikultura, perikanan, perkebunan, dan kehutanan serta bidang lainnya dalam memanfaatkan lahan di kawasan tersebut sebagai sumber pakan ternak murah.</p></content>
+                    <content><p>Pemerintah Daerah kabupaten/kota membina bentuk kerja sama antara pengusahaan Peternakan dan pengusahaan tanaman pangan, hortikultura, perikanan, perkebunan, dan kehutanan, serta bidang lainnya dalam memanfaatkan lahan di kawasan tersebut sebagai sumber Pakan Ternak murah.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_6__ayat_5">
                     <num>(5)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai penyediaan dan pengelolaan kawasan penggembalaan umum sebagaimana dimaksud pada ayat (3) ditetapkan dengan peraturan daerah kabupaten/kota.</p></content>
+                    <content><p>Dalam hal Pemerintah Daerah kabupaten/kota tidak menetapkan lahan sebagai Kawasan Penggembalaan Umum sebagaimana dimaksud pada ayat (3), Pemerintah Pusat dapat menetapkan lahan sebagai Kawasan Penggembalaan Umum.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai penyediaan dan pengelolaan Kawasan Penggembalaan Umum sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -477,23 +686,27 @@
                 <num>13</num>
                   <paragraph eId="pasal_13__ayat_1">
                     <num>(1)</num>
-                    <content><p>Penyediaan dan pengembangan benih, bibit, dan/atau bakalan dilakukan dengan mengutamakan produksi dalam negeri dan kemampuan ekonomi kerakyatan.</p></content>
+                    <content><p>Penyediaan dan pengembangan Benih dan/atau Bibit dilakukan dengan memperhatikan keberlanjutan pengembangan usaha Peternak mikro, kecil, dan menengah.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_13__ayat_2">
                     <num>(2)</num>
-                    <content><p>Pemerintah berkewajiban untuk melakukan pengembangan usaha pembenihan dan/atau pembibitan dengan melibatkan peran serta masyarakat untuk menjamin ketersediaan benih, bibit, dan/atau bakalan.</p></content>
+                    <content><p>Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya wajib untuk melakukan pengembangan usaha pembenihan dan/atau pembibitan dengan melibatkan peran serta masyarakat untuk menjamin ketersediaan Benih, Bibit, dan/atau Bakalan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_13__ayat_3">
                     <num>(3)</num>
-                    <content><p>Dalam hal usaha pembenihan dan/atau pembibitan oleh masyarakat belum berkembang, Pemerintah membentuk unit pembenihan dan/atau pembibitan.</p></content>
+                    <content><p>Dalam hal usaha pembenihan dan/atau pembibitan oleh masyarakat belum berkembang, Pemerintah Pusat dan Pemerintah Daerah membentuk unit pembenihan dan/atau pembibitan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_13__ayat_4">
                     <num>(4)</num>
-                    <content><p>Setiap benih atau bibit yang beredar wajib memiliki sertifikat layak benih atau bibit yang memuat keterangan mengenai silsilah dan ciri-ciri keunggulan tertentu.</p></content>
+                    <content><p>Setiap Benih atau Bibit yang beredar wajib memiliki sertifikat layak Benih atau Bibit yang memuat keterangan mengenai silsilah dan ciri-ciri keunggulan tertentu.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_13__ayat_5">
                     <num>(5)</num>
-                    <content><p>Sertifikat layak benih atau bibit sebagaimana dimaksud pada ayat (4) dikeluarkan oleh lembaga sertifikasi benih atau bibit yang terakreditasi atau yang ditunjuk oleh Menteri.</p></content>
+                    <content><p>Sertifikat layak Benih atau Bibit sebagaimana dimaksud pada ayat (4) dikeluarkan oleh lembaga sertifikasi Benih atau Bibit yang terakreditasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Setiap Orang dilarang mengedarkan Benih atau Bibit yang tidak memenuhi kewajiban sertifikat layak Benih atau Bibit sebagaimana dimaksud pada ayat (4).</p></content>
                   </paragraph>
 
               </article>
@@ -521,7 +734,7 @@
                 <num>15</num>
                   <paragraph eId="pasal_15__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Dalam keadaan tertentu pemasukan benih dan/atau bibit dari luar negeri dapat dilakukan untuk:</p></intro>
+                    <intro><p>Pemasukan Benih dan/atau Bibit dari luar negeri ke dalam wilayah Negara Kesatuan Republik Indonesia dapat dilakukan untuk:</p></intro>
                       <point eId="pasal_15__ayat_1__huruf_a">
                         <num>a.</num>
                         <content><p>meningkatkan mutu dan keragaman genetik;</p></content>
@@ -532,7 +745,7 @@
                       </point>
                       <point eId="pasal_15__ayat_1__huruf_c">
                         <num>c.</num>
-                        <content><p>mengatasi kekurangan benih atau bibit di dalam negeri; dan/atau</p></content>
+                        <content><p>mengatasi kekurangan Benih dan/atau Bibit di dalam negeri; dan/atau</p></content>
                       </point>
                       <point eId="pasal_15__ayat_1__huruf_d">
                         <num>d.</num>
@@ -542,15 +755,11 @@
                   </paragraph>
                   <paragraph eId="pasal_15__ayat_2">
                     <num>(2)</num>
-                    <content><p>Pemasukan benih dan/atau bibit wajib memenuhi persyaratan mutu dan kesehatan hewan dan peraturan perundang-undangan di bidang karantina hewan serta memerhatikan kebijakan pewilayahan bibit sebagaimana dimaksud dalam Pasal 14.</p></content>
+                    <content><p>Setiap Orang yang melakukan pemasukan Benih dan/atau Bibit sebagaimana dimaksud pada ayat (1) wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_15__ayat_3">
                     <num>(3)</num>
-                    <content><p>Setiap orang yang melakukan pemasukan benih dan/atau bibit sebagaimana dimaksud pada ayat (1) wajib memperoleh izin dari menteri yang menyelenggarakan urusan perdagangan setelah mendapat rekomendasi dari Menteri.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_15__ayat_4">
-                    <num>(4)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai persyaratan mutu dan kesehatan hewan sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -558,11 +767,15 @@
                 <num>16</num>
                   <paragraph eId="pasal_16__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pengeluaran benih, bibit, dan/atau bakalan dari wilayah Negara Kesatuan Republik Indonesia ke luar negeri dapat dilakukan apabila kebutuhan dalam negeri telah terpenuhi dan kelestarian ternak lokal terjamin.</p></content>
+                    <content><p>Pengeluaran Benih dan/atau Bibit dari wilayah Negara Kesatuan Republik Indonesia ke luar negeri dapat dilakukan apabila kebutuhan dalam negeri telah terpenuhi dan kelestarian Ternak lokal terjamin. l2l Pengeluaran sebagaimana dimaksud pada ayat (1) dilarang dilakukan terhadap Benih dan/atau Bibit yang terbaik di dalam negeri.</p></content>
                   </paragraph>
-                  <paragraph eId="pasal_16__ayat_2">
-                    <num>(2)</num>
-                    <content><p>Setiap orang yang melakukan kegiatan sebagaimana dimaksud pada ayat (1) wajib memperoleh izin dari menteri yang menyelenggarakan urusan perdagangan setelah mendapat rekomendasi dari Menteri.</p></content>
+                  <paragraph eId="pasal_16__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setiap Orang yang melakukan kegiatan sebagaimana dimaksud pada ayat (1) wajib memenuhi Perizinan Berrrsaha dari Pemerintah Pusat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -655,36 +868,32 @@
                 <num>22</num>
                   <paragraph eId="pasal_22__ayat_1">
                     <num>(1)</num>
-                    <content><p>Setiap orang yang memproduksi pakan dan/atau bahan pakan untuk diedarkan secara komersial wajib memperoleh izin usaha.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_22__ayat_2">
-                    <num>(2)</num>
-                    <content><p>Pakan yang dibuat untuk diedarkan secara komersial harus memenuhi standar atau persyaratan teknis minimal dan keamanan pakan serta memenuhi ketentuan cara pembuatan pakan yang baik yang ditetapkan dengan Peraturan Menteri.</p></content>
+                    <content><p>Setiap Orang yang memproduksi Pakan dan/atau Bahan Pakan untuk diedarkan secara komersial wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat. l2l Pakan yang dibuat untuk diedarkan secara komersial harus memenuhi standar atau persyaratan teknis minimal dan keamanan Pakan serta memenuhi ketentuan cara pembuatan Pakan yang baik yang diatur dengan Peraturan Pemerintah.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_22__ayat_3">
                     <num>(3)</num>
-                    <content><p>Pakan sebagaimana dimaksud pada ayat (2) harus berlabel sesuai dengan peraturan perundang- undangan.</p></content>
+                    <content><p>Pakan sebagaimana dimaksud pada ayat (21harus berlabel sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_22__ayat_4">
                     <num>(4)</num>
-                    <intro><p>Setiap orang dilarang:</p></intro>
+                    <intro><p>Setiap Orang dilarang:</p></intro>
                       <point eId="pasal_22__ayat_4__huruf_a">
                         <num>a.</num>
-                        <content><p>mengedarkan pakan yang tidak layak dikonsumsi;</p></content>
+                        <content><p>mengedarkan Pakan yang tidak layak dikonsumsi; b.menggunakan...</p></content>
                       </point>
                       <point eId="pasal_22__ayat_4__huruf_b">
                         <num>b.</num>
-                        <content><p>menggunakan dan/atau mengedarkan pakan ruminansia yang mengandung bahan pakan yang berupa darah, daging, dan/atau tulang; dan/atau</p></content>
+                        <content><p>menggunakan dan/atau mengedarkan Pakan ruminansia yang mengandung Bahan Pakan yang berupa darah, daging, dan/atau tulang; dan/atau</p></content>
                       </point>
                       <point eId="pasal_22__ayat_4__huruf_c">
                         <num>c.</num>
-                        <content><p>menggunakan pakan yang dicampur hormon tertentu dan/atau antibiotik imbuhan pakan.</p></content>
+                        <content><p>menggunakan Pakan yang dicampur hormon tertentu dan/atau antibiotik imbuhan Pakan.</p></content>
                       </point>
 
                   </paragraph>
                   <paragraph eId="pasal_22__ayat_5">
                     <num>(5)</num>
-                    <content><p>Ketentuan lebih lanjut sebagaimana dimaksud pada ayat (4) huruf c ditetapkan dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai penggunaan Pakan yang dicampur hormon tertentu dan/atau antibiotik imbuhan Pakan sebagaimana dimaksud pada ayat (4) huruf c diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -782,23 +991,23 @@
                 <num>29</num>
                   <paragraph eId="pasal_29__ayat_1">
                     <num>(1)</num>
-                    <content><p>Budi daya ternak hanya dapat dilakukan oleh peternak, perusahaan peternakan, serta pihak tertentu untuk kepentingan khusus.</p></content>
+                    <content><p>Budi daya Ternak hanya dapat dilakukan oleh Peternak, Perusahaan Peternakan, dan pihak tertentu untuk kepentingan khusus.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_29__ayat_2">
                     <num>(2)</num>
-                    <content><p>Peternak yang melakukan budi daya ternak dengan jenis dan jumlah ternak di bawah skala usaha tertentu diberikan tanda daftar usaha peternakan oleh pemerintah daerah kabupaten/kota.</p></content>
+                    <content><p>Peternak yang melakukan budi daya Ternak dengan jenis dan jumlah Ternak di bawah skala usaha tertentu diberikan Perizinan Berusaha oleh Pemerintah Pusat dan Pemerintah Daerah kabupaten/kota sesuai dengan kewenangannya berdasarkan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_29__ayat_3">
                     <num>(3)</num>
-                    <content><p>Perusahaan peternakan yang melakukan budi daya ternak dengan jenis dan jumlah ternak di atas skala usaha tertentu wajib memiliki izin usaha peternakan dari pemerintah daerah kabupaten/kota.</p></content>
+                    <content><p>Perusahaan Peternakan yang melakukan budi daya Ternak dengan jenis dan jumlah Ternak di atas skala usaha tertentu wajib memenuhi Perizinan Berusaha oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_29__ayat_4">
                     <num>(4)</num>
-                    <content><p>Peternak, perusahaan peternakan, dan pihak tertentu yang mengusahakan ternak dengan skala usaha tertentu wajib mengikuti tata cara budi daya ternak yang baik dengan tidak mengganggu ketertiban umum sesuai dengan pedoman yang ditetapkan oleh Menteri.</p></content>
+                    <content><p>Peternak, Perusahaan Peternakan, dan pihak tertentu yang mengusahakan Ternak dengan skala usaha tertentu wajib mengikuti tata cara budi daya Ternak yang baik dengan tidak mengganggu ketertiban umum sesuai dengan pedoman yang ditetapkan oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_29__ayat_5">
                     <num>(5)</num>
-                    <content><p>Pemerintah berkewajiban untuk melindungi usaha peternakan dalam negeri dari persaingan tidak sehat di antara pelaku pasar.</p></content>
+                    <content><p>Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya wajib untuk melindungi usaha Peternakan dalam negeri dari persaingan tidak sehat di antara pelaku usaha.</p></content>
                   </paragraph>
 
               </article>
@@ -806,11 +1015,11 @@
                 <num>30</num>
                   <paragraph eId="pasal_30__ayat_1">
                     <num>(1)</num>
-                    <content><p>Budi daya hanya dapat diselenggarakan oleh perorangan warga negara Indonesia atau korporasi, baik yang berbadan hukum maupun yang tidak berbadan hukum Indonesia.</p></content>
+                    <content><p>Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya berdasarkan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat mengembangkan usaha budi daya melalui penanaman modal oleh perseorangan warga negara Indonesia atau korporasi yang berbadan hukum.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_30__ayat_2">
                     <num>(2)</num>
-                    <content><p>Perorangan warga negara Indonesia atau badan hukum Indonesia sebagaimana dimaksud pada ayat (1) dapat melakukan kerja sama dengan pihak asing sesuai dengan peraturan perundang- undangan di bidang penanaman modal dan peraturan perundang-undangan lainnya yang terkait.</p></content>
+                    <content><p>Pelaksanaan penanaman modal sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan peraturan perundang-undangan di bidang penanaman modal.</p></content>
                   </paragraph>
 
               </article>
@@ -922,19 +1131,7 @@
               </article>
               <article eId="pasal_37">
                 <num>37</num>
-                  <paragraph eId="pasal_37__ayat_1">
-                    <num>(1)</num>
-                    <content><p>Pemerintah membina dan memfasilitasi berkembangnya industri pengolahan produk hewan dengan mengutamakan penggunaan bahan baku dari dalam negeri.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_37__ayat_2">
-                    <num>(2)</num>
-                    <content><p>Pemerintah membina terselenggaranya kemitraan yang sehat antara industri pengolahan dan peternak dan/atau koperasi yang menghasilkan produk hewan yang digunakan sebagai bahan baku industri.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_37__ayat_3">
-                    <num>(3)</num>
-                    <content><p>Ketentuan lebih lanjut sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan peraturan perundang-undangan di bidang industri, kecuali untuk hal-hal yang diatur dalam Undang-Undang ini.</p></content>
-                  </paragraph>
-
+                <content><p>Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya berdasarkan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat membina dan memfasilitasi berkembangnya industri pengolahan Produk Hewan.</p></content>
               </article>
               <article eId="pasal_38">
                 <num>38</num>
@@ -1252,14 +1449,14 @@
                 <num>52</num>
                   <paragraph eId="pasal_52__ayat_1">
                     <num>(1)</num>
-                    <content><p>Setiap orang yang berusaha di bidang pembuatan, penyediaan, dan/atau peredaran obat hewan wajib memiliki izin usaha sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                    <content><p>Setiap Orang yang berusaha di bidang pembuatan, penyediaan, dan/atau peredaran Obat Hewan wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat atau Pemerintah Daerah sesuai dengan kewenangannya berdasarkan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_52__ayat_2">
                     <num>(2)</num>
-                    <intro><p>Setiap orang dilarang membuat, menyediakan, dan/atau mengedarkan obat hewan yang:</p></intro>
+                    <intro><p>Setiap Orang dilarang membuat, menyediakan, dan/atau mengedarkan Obat Hewan yang:</p></intro>
                       <point eId="pasal_52__ayat_2__huruf_a">
                         <num>a.</num>
-                        <content><p>berupa sediaan biologik yang penyakitnya tidak ada di Indonesia;</p></content>
+                        <content><p>berupa sediaan biologi yang penyakitnya tidak ada di Indonesia;</p></content>
                       </point>
                       <point eId="pasal_52__ayat_2__huruf_b">
                         <num>b.</num>
@@ -1274,6 +1471,10 @@
                         <content><p>tidak memenuhi standar mutu.</p></content>
                       </point>
 
+                  </paragraph>
+                  <paragraph eId="pasal_52__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1297,23 +1498,11 @@
                 <num>54</num>
                   <paragraph eId="pasal_54__ayat_1">
                     <num>(1)</num>
-                    <content><p>Penyediaan obat hewan dilakukan dengan mengutamakan produksi dalam negeri.</p></content>
+                    <content><p>Penyediaan Obat Hewan dapat berasal dari produksi dalam negeri atau dari luar negeri.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_54__ayat_2">
                     <num>(2)</num>
-                    <content><p>Dalam hal obat hewan sebagaimana dimaksud pada ayat (1) belum dapat diproduksi atau belum mencukupi kebutuhan dalam negeri, penyediaannya dapat dipenuhi melalui produk luar negeri.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_54__ayat_3">
-                    <num>(3)</num>
-                    <content><p>Pemasukan obat hewan untuk diedarkan ke dalam wilayah Negara Kesatuan Republik Indonesia harus memenuhi persyaratan peredaran obat hewan sebagaimana dimaksud dalam Pasal 50 ayat (1) dan peraturan perundang-undangan di bidang karantina.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_54__ayat_4">
-                    <num>(4)</num>
-                    <content><p>Pengeluaran obat hewan produksi dalam negeri ke luar negeri harus mengutamakan kepentingan nasional.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_54__ayat_5">
-                    <num>(5)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai pemasukan dan pengeluaran dari dan ke luar negeri sebagaimana dimaksud pada ayat (2), ayat (3) dan ayat (4) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai penyediaan Obat Hewan sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1429,32 +1618,15 @@
                 <num>59</num>
                   <paragraph eId="pasal_59__ayat_1">
                     <num>(1)</num>
-                    <intro><p>Setiap orang yang akan memasukkan produk hewan ke dalam wilayah Negara Kesatuan Republik Indonesia wajib memperoleh izin pemasukan dari menteri yang terkait di bidang perdagangan setelah memperoleh rekomendasi:</p></intro>
-                      <point eId="pasal_59__ayat_1__huruf_a">
-                        <num>a.</num>
-                        <content><p>untuk produk hewan segar dari Menteri; atau</p></content>
-                      </point>
-                      <point eId="pasal_59__ayat_1__huruf_b">
-                        <num>b.</num>
-                        <content><p>untuk produk hewan olahan dari pimpinan instansi yang bertanggung jawab di bidang pengawasan obat dan makanan dan/atau Menteri.</p></content>
-                      </point>
-
+                    <content><p>Setiap Orang yang akan memasukkan Produk Hewan ke dalam wilayah Negara Kesatuan Republik Indonesia wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_59__ayat_2">
                     <num>(2)</num>
-                    <content><p>Produk hewan segar yang dimasukkan ke dalam wilayah Negara Kesatuan Republik Indonesia sebagaimana dimaksud pada ayat (1) huruf a harus berasal dari unit usaha produk hewan pada suatu negara atau zona dalam suatu negara yang telah memenuhi persyaratan dan tata cara pemasukan produk hewan.</p></content>
+                    <content><p>Persyaratan dan tata cara pemasukan Produk Hewan dari luar negeri ke dalam wilayah Negara Kesatuan Republik Indonesia sebagaimana dimaksud pada ayat (1) mengacu pada ketentuan yang berbasis analisis risiko di bidang Kesehatan Hewan dan Kesehatan Masyarakat Veteriner.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_59__ayat_3">
                     <num>(3)</num>
-                    <content><p>Produk hewan olahan yang akan dimasukkan ke dalam wilayah Negara Kesatuan Republik Indonesia sebagaimana dimaksud pada ayat (1) huruf b, yang masih mempunyai risiko penyebaran zoonosis yang dapat mengancam kesehatan manusia, hewan, dan lingkungan budi daya, harus mendapatkan rekomendasi dari Menteri sebelum dikeluarkannya rekomendasi dari pimpinan instansi yang bertanggung jawab di bidang pengawasan obat dan makanan.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_59__ayat_4">
-                    <num>(4)</num>
-                    <content><p>Persyaratan dan tata cara pemasukan produk hewan dari luar negeri ke dalam wilayah Negara Kesatuan Republik Indonesia sebagaimana dimaksud pada ayat (2) dan ayat (3) mengacu pada ketentuan atau kaidah internasional yang berbasis analisis risiko di bidang kesehatan hewan dan kesehatan masyarakat veteriner serta mengutamakan kepentingan nasional.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_59__ayat_5">
-                    <num>(5)</num>
-                    <content><p>Ketentuan lebih lanjut mengenai persyaratan dan tata cara pemasukan produk hewan kedalam wilayah Negara Kesatuan Republik Indonesia sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) diatur dengan Peraturan Menteri.</p></content>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1462,11 +1634,15 @@
                 <num>60</num>
                   <paragraph eId="pasal_60__ayat_1">
                     <num>(1)</num>
-                    <content><p>Setiap orang yang mempunyai unit usaha produk hewan wajib mengajukan permohonan untuk memperoleh nomor kontrol veteriner kepada pemerintah daerah provinsi berdasarkan pedoman yang ditetapkan oleh Menteri.</p></content>
+                    <content><p>Setiap Orang yang mempunyai unit usaha Produk Hewan wajib memenuhi Perizinan Berusaha berupa nomor kontrol Veteriner dari Pemerintah Daerah provinsi sesuai dengan kewenangannya berdasarkan norma, standar, prosedur, dan kriteria yang ditetapkan oleh Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_60__ayat_2">
                     <num>(2)</num>
-                    <content><p>Pemerintah daerah kabupaten/kota melakukan pembinaan unit usaha yang memproduksi dan/atau mengedarkan produk hewan yang dihasilkan oleh unit usaha skala rumah tangga yang belum memenuhi persyaratan nomor kontrol veteriner.</p></content>
+                    <content><p>Pemerintah Daerah kabupaten/kota melakukan pembinaan unit usaha yang memproduksi dan/atau mengedarkan Produk Hewan yang dihasilkan oleh unit usaha skala rumah tangga yang belum memenuhi persyaratan nomor kontrol Veteriner.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_60__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1503,15 +1679,19 @@
                 <num>62</num>
                   <paragraph eId="pasal_62__ayat_1">
                     <num>(1)</num>
-                    <content><p>Pemerintah daerah kabupaten/kota wajib memiliki rumah potong hewan yang memenuhi persyaratan teknis.</p></content>
+                    <content><p>Pemerintah Daerah kabupaten/kota wajib memiliki rrrmah potong Hewan yang memenuhi persyaratan teknis.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_62__ayat_2">
                     <num>(2)</num>
-                    <content><p>Rumah potong hewan sebagaimana dimaksud pada ayat (1) dapat diusahakan oleh setiap orang setelah memiliki izin usaha dari bupati/walikota.</p></content>
+                    <content><p>Rumah potong Hewan sebagaimana dimaksud pada ayat (1) dapat diusahakan oleh Setiap Orang setelah memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
                   </paragraph>
                   <paragraph eId="pasal_62__ayat_3">
                     <num>(3)</num>
-                    <content><p>Usaha rumah potong hewan sebagaimana dimaksud pada ayat (2) harus dilakukan di bawah pengawasan dokter hewan berwenang di bidang pengawasan kesehatan masyarakat veteriner.</p></content>
+                    <content><p>Usaha rumah potong Hewan sebagaimana dimaksud pada ayat (2) harus dilakukan di bawah pengawasan Dokter Hewan Berwenang di bidang pengawasan Kesehatan Masyarakat Veteriner.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_62__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha r-umah potong sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Pemerintah.</p></content>
                   </paragraph>
 
               </article>
@@ -1657,11 +1837,15 @@
             <num>69</num>
               <paragraph eId="pasal_69__ayat_1">
                 <num>(1)</num>
-                <content><p>Pelayanan kesehatan hewan meliputi pelayanan jasa laboratorium veteriner, pelayanan jasa laboratorium pemeriksaan dan pengujian veteriner, pelayanan jasa medik veteriner, dan/atau pelayanan jasa di pusat kesehatan hewan atau pos kesehatan hewan.</p></content>
+                <content><p>Pelayanan Kesehatan Hewan meliputi pelayanan jasa laboratorium Veteriner, pelayanan jasa Iaboratorium pemeriksaan dan pengujian Veteriner, pelayanan jasa Medik Veteriner, dan/atau pelayanan jasa di pusat Kesehatan Hewan atau pos Kesehatan Hewan.</p></content>
               </paragraph>
               <paragraph eId="pasal_69__ayat_2">
                 <num>(2)</num>
-                <content><p>Setiap orang yang berusaha di bidang pelayanan kesehatan hewan sebagaimana dimaksud pada ayat (1) wajib memiliki izin usaha dari bupati/walikota.</p></content>
+                <content><p>Setiap Orang yang berusaha di bidang pelayanan Kesehatan Hewan sebagaimana dimaksud pada ayat (1) wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_69__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha pelayanan Kesehatan Hewan sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -1713,15 +1897,15 @@
             <num>72</num>
               <paragraph eId="pasal_72__ayat_1">
                 <num>(1)</num>
-                <content><p>Tenaga kesehatan hewan yang melakukan pelayanan kesehatan hewan wajib memiliki surat izin praktik kesehatan hewan yang dikeluarkan oleh bupati/walikota.</p></content>
+                <content><p>Tenaga Kesehatan Hewan yang melakukan pelayanan Kesehatan Hewan wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
               </paragraph>
               <paragraph eId="pasal_72__ayat_2">
                 <num>(2)</num>
-                <content><p>Untuk mendapatkan surat izin praktik kesehatan hewan sebagaimana dimaksud pada ayat (1), tenaga kesehatan hewan yang bersangkutan mengajukan surat permohonan untuk memperoleh surat izin praktik kepada bupati/walikota disertai dengan sertifikat kompetensi dari organisasi profesi kedokteran hewan.</p></content>
+                <content><p>Tenaga asing Kesehatan Hewan dapat melakukan praktik pelayanan Kesehatan Hewan di wilayah Negara Kesatuan Republik Indonesia berdasarkan perjanjian bilateral atau multilateral antara pihak Indonesia dan negara atau lembaga asing sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
               </paragraph>
               <paragraph eId="pasal_72__ayat_3">
                 <num>(3)</num>
-                <content><p>Tenaga asing kesehatan hewan dapat melakukan praktik pelayanan kesehatan hewan di wilayah Negara Kesatuan Republik Indonesia berdasarkan perjanjian bilateral atau multilateral antara pihak Indonesia dan negara atau lembaga asing sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -2002,11 +2186,11 @@
             <num>85</num>
               <paragraph eId="pasal_85__ayat_1">
                 <num>(1)</num>
-                <content><p>Setiap orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 9 ayat (1), Pasal 11 ayat (1), Pasal 13 ayat (4), Pasal 15 ayat (3), Pasal 18 ayat (2), Pasal 19 ayat (1), Pasal 22 ayat (1) atau ayat (2), Pasal 23, Pasal 24 ayat (2), Pasal 25 ayat (1), Pasal 29 ayat (3), Pasal 42 ayat (5), Pasal 45 ayat (1), Pasal 47 ayat (2) atau ayat (3), Pasal 50 ayat (3), Pasal 51 ayat (2), Pasal 52 ayat (1), Pasal 54 ayat (3), Pasal 58 ayat (5), Pasal 59 ayat (2), Pasal 61 ayat (1) atau ayat (2), Pasal 62 ayat (2) atau ayat (3), Pasal 69 ayat (2), dan Pasal 72 ayat (1) dikenai sanksi administratif.</p></content>
+                <content><p>Setiap Orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 9 ayat (1), Pasal 11 ayat (1), Pasal 13 ayat (4), Pasal 15 ayat (2), Pasal 18 ayat (4), Pasal 19 ayat (1), Pasal 22 ayat (1) atau ayat (2), Pasal 23, Pasal 24 ayat (3), Pasal 25 ayat (1), Pasal 29 ayat (3), Pasal 36E} ayat (2), Pasal 36C ayat (4), Pasal 42 ayat (5), Pasal 43 ayat (4), Pasal 45 ayat (1), Pasal 47 ayat (2) atau ayat (3), Pasal 50 ayat (1), Pasal 50 ayat (3), Pasal 51 ayat (2), Pasal 52 ayat (1), Pasal 53 ayat (2), Pasal 55 ayat (3), Pasal 58 ayat (5), Pasal 59 ayat (1), Pasal 60 ayat (1), Pasal 61 ayat (1) atau ayat (2), Pasal 62 ayat (2) atau ayat (3), Pasal 69 ayat (2), Pasal 72 ayat (1), atau Pasal 80 ayat (1) dikenai sanksi administratif.</p></content>
               </paragraph>
               <paragraph eId="pasal_85__ayat_2">
                 <num>(2)</num>
-                <intro><p>Sanksi admistratif sebagaimana dimaksud pada ayat (1) dapat berupa :</p></intro>
+                <intro><p>Sanksi administratif sebagaimana dimaksud pada ayat (1) dapat berupa:</p></intro>
                   <point eId="pasal_85__ayat_2__huruf_a">
                     <num>a.</num>
                     <content><p>peringatan secara tertulis;</p></content>
@@ -2017,11 +2201,11 @@
                   </point>
                   <point eId="pasal_85__ayat_2__huruf_c">
                     <num>c.</num>
-                    <content><p>pencabutan nomor pendaftaran dan penarikan obat hewan, pakan, alat dan mesin, atau produk hewan dari peredaran;</p></content>
+                    <content><p>pencabutan Perizinan Berusaha dan penarikan Obat Hewan, Pakan, Alat dan Mesin Peternakan, Alat dan Mesin Kesehatan Hewan, atau Produk Hewan dari peredaran;</p></content>
                   </point>
                   <point eId="pasal_85__ayat_2__huruf_d">
                     <num>d.</num>
-                    <content><p>pencabutan izin; atau</p></content>
+                    <content><p>pencabutanPerizinan Berusaha; dan latau</p></content>
                   </point>
                   <point eId="pasal_85__ayat_2__huruf_e">
                     <num>e.</num>
@@ -2031,28 +2215,7 @@
               </paragraph>
               <paragraph eId="pasal_85__ayat_3">
                 <num>(3)</num>
-                <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) huruf a sampai dengan huruf d diatur dengan Peraturan Pemerintah.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_85__ayat_4">
-                <num>(4)</num>
-                <intro><p>Besarnya denda sebagaimana dimaksud pada huruf e dikenakan kepada setiap orang yang:</p></intro>
-                  <point eId="pasal_85__ayat_4__huruf_a">
-                    <num>a.</num>
-                    <content><p>menyembelih ternak ruminansia kecil betina produktif paling sedikit sebesar Rp1.000.000,00 (satu juta rupiah) dan paling banyak sebesar Rp5.000.000,00 (lima juta rupiah);</p></content>
-                  </point>
-                  <point eId="pasal_85__ayat_4__huruf_b">
-                    <num>b.</num>
-                    <content><p>menyembelih ternak ruminansia besar betina produktif paling sedikit Rp5.000.000,00 (lima juta rupiah) dan paling banyak sebesar Rp25.000.000,00 (dua puluh lima juta rupiah); dan</p></content>
-                  </point>
-                  <point eId="pasal_85__ayat_4__huruf_c">
-                    <num>c.</num>
-                    <content><p>melanggar selain sebagaimana dimaksud pada huruf a dan huruf b paling sedikit Rp5.000.000,00 (lima juta rupiah) dan paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
-                  </point>
-
-              </paragraph>
-              <paragraph eId="pasal_85__ayat_5">
-                <num>(5)</num>
-                <content><p>Besarnya denda sebagaimana dimaksud pada ayat (4) ditambah 1/3 (sepertiga) dari denda tersebut jika pelanggaran sebagaimana dimaksud pada ayat (1) dilakukan oleh pejabat yang berwenang atau korporasi.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai kriteria, jenis, besaran denda, dan tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -2080,7 +2243,7 @@
           </article>
           <article eId="pasal_88">
             <num>88</num>
-            <content><p>Setiap orang yang memproduksi dan/atau mengedarkan alat dan mesin tanpa mengutamakan keselamatan dan keamanan bagi pemakai sebagaimana dimaksud dalam Pasal 24 ayat (2) dan/atau belum diuji berdasarkan ketentuan sebagaimana dimaksud dalam Pasal 24 ayat (3) dipidana dengan pidana kurungan paling singkat 3 (tiga) bulan dan paling lama 11 (sebelas) bulan dan denda paling sedikit Rp50.000.000,00 (lima puluh juta rupiah) dan paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
+            <content><p>Setiap Orang yang memproduksi dan/atau mengedarkan Alat dan Mesin Peternakan yang belum diuji sebagaimana dimaksud dalam Pasal 24 ayat (3) yang mengakibatkan kerusakan fungsi lingkungan atau membahayakan nyawa orang, dipidana dengan pidana kurungan paling singkat 3 (tiga) bulan dan paling lama 11 (sebelas) bulan dan pidana denda paling sedikit Rp50.000.000,00 (lima puluh juta rupiah) dan paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
           </article>
           <article eId="pasal_89">
             <num>89</num>

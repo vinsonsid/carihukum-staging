@@ -11,20 +11,45 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/1983/8/ind@1984-07-01/!main"/>
-          <FRBRuri value="/akn/id/act/uu/1983/8/ind@1984-07-01"/>
-          <FRBRdate date="1984-07-01" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/1983/8/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1983/8/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/1983/8/ind@1984-07-01/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/1983/8/ind@1984-07-01.akn"/>
-          <FRBRdate date="2026-09-06" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/1983/8/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1983/8/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-08" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="1984-07-01" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_9"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -212,46 +237,166 @@
             <num>9</num>
               <paragraph eId="pasal_9__ayat_1">
                 <num>(1)</num>
-                <content><p>Pajak Pertambahan Nilai yang terhutang dalam suatu Masa Pajak dihitung dengan mengalihkan tarif sebagaimana diatur dalam Pasal 7 dengan Dasar Pengenaan Pajak.</p></content>
+                <content><p>Dihapus. (2t Pajak Masukan dalam suatu Masa Pajak dikreditkan dengan Pajak Keluaran dalam Masa Pajak yang sama.</p></content>
               </paragraph>
-              <paragraph eId="pasal_9__ayat_2">
-                <num>(2)</num>
-                <content><p>Pajak Masukan dalam suatu Masa Pajak dapat dikreditkan dengan Pajak Keluaran untuk masa yang sama.</p></content>
+              <paragraph eId="pasal_9__ayat_2a">
+                <num>(2a)</num>
+                <content><p>Bagi Pengusaha Kena Pajak yang belum melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak dan/atau ekspor Barang Kena Pajak dan/atau Jasa Kena Pajak, Pajak Masukan atas perolehan Barang Kena Pajak dan/atau Jasa Kena Pajak, impor Barang Kena Pajak, serta pemanfaatan Barang Kena Pajak Tidak Berwujud dan/atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean dapat dikreditkan sepanjang memenuhi ketentuan pengkreditan sesuai dengan Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2b">
+                <num>(2b)</num>
+                <content><p>Pajak Masukan yang dikreditkan harus menggunakan Faktur Pajak yang memenuhi persyaratan sebagaimana dimaksud dalam Pasal 13 ayat (5) dan ayat (9).</p></content>
               </paragraph>
               <paragraph eId="pasal_9__ayat_3">
                 <num>(3)</num>
-                <content><p>Apabila dalam suatu Masa Pajak, Pajak Keluaran lebih besar dari pada Pajak Masukan, maka selisihnya merupakan pajak yang harus dibayar oleh Pengusaha Kena Pajak.</p></content>
+                <content><p>Apabila dalam suatu Masa Pajak, Pajak Keluaran lebih besar daripada Pajak Masukan, selisihnya merupakan Pajak Pertambahan Nilai yang harus disetor oleh Pengusaha Kena Pajak.</p></content>
               </paragraph>
               <paragraph eId="pasal_9__ayat_4">
                 <num>(4)</num>
-                <content><p>Apabila dalam suatu Masa Pajak, Pajak Masukan lebih besar dari pada Pajak Keluaran, maka selisihnya merupakan kelebihan pajak yang dapat dikompensasikan dengan pajak terhutang dalam Masa Pajak berikutnya, atau dapat dikembalikan.</p></content>
+                <content><p>Apabila dalam suatu Masa Pajak, Pajak Masukan yang dapat dikreditkan lebih besar daripada Pajak Keluaran, selisihnya merupakan kelebihan pajak yang dikompensasikan ke Masa Pajak berikutnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_4a">
+                <num>(4a)</num>
+                <intro><p>Atas kelebihan Pajak Masukan sebagaimana dimaksud pada ayat (4) dapat diajukan permohonan pengembalian pada akhir tahun buku. (ab) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (4) dan ayat (4a), atas kelebihan Pajak Masukan dapat diajukan permohonan pengembalian pada setiap Masa Pajak oleh:</p></intro>
+                  <point eId="pasal_9__ayat_4a__huruf_a">
+                    <num>a.</num>
+                    <content><p>Pengusaha Kena Pajak yang melakukan ekspor Barang Kena Pajak Berwujud;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_4a__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pengusaha Kena Pajak yang melakukan penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak kepada Pemungut Pajak Pertambahan Nilai;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_4a__huruf_c">
+                    <num>c.</num>
+                    <content><p>Pengusaha Kena Pajak yang melakukan penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang Pajak Pertambahan Nilainya tidak dipungut;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_4a__huruf_d">
+                    <num>d.</num>
+                    <content><p>Pengusaha Kena Pajak yang melakukan ekspor Barang Kena Pajak Tidak Berwujud;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_4a__huruf_e">
+                    <num>e.</num>
+                    <content><p>Pengusaha Kena Pajak yang melakukan ekspor Jasa Kena Pajak; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_4a__huruf_f">
+                    <num>f.</num>
+                    <content><p>Dihapus.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_4c">
+                <num>(4c)</num>
+                <content><p>Pengembalian kelebihan Pajak Masukan kepada Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (4b) huruf a sampai dengan huruf e, yang mempunyai kriteria sebagai Pengusaha Kena Pajak berisiko rendah, dilakukan dengan pengembalian pendahuluan kelebihan pajak sesuai ketentuan sebagaimana dimaksud dalam Pasal 17C ayat (1) Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan dan perubahannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_4d">
+                <num>(4d)</num>
+                <content><p>Ketentuan mengenai Pengusaha Kena Pajak berisiko rendah yang diberikan pengembalian pendahuluan kelebihan pajak sebagaimana dimaksud pada ayat (4c) diatur dengan Peraturan Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_4e">
+                <num>(4e)</num>
+                <content><p>Direktur Jenderal Pajak dapat melakukan pemeriksaan terhadap Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (4c) dan menerbitkan surat ketetapan pajak setelah melakukan pengembalian pendahuluan kelebihan pajak. (40 Apabila berdasarkan hasil pemeriksaan sebagaimana dimaksud pada ayat (4e), Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Kurang Bayar, jumlah kekurangan pajak ditambah dengan sanksi administrasi berupa bunga sebagaimana dimaksud dalam Pasal 13 ayat (2) Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan dan perubahannya.</p></content>
               </paragraph>
               <paragraph eId="pasal_9__ayat_5">
                 <num>(5)</num>
-                <content><p>Apabila dalam suatu Masa Pajak, Pengusaha Kena Pajak di samping melakukan penyerahan kena pajak juga melakukan penyerahan tidak kena pajak, sepanjang bagian penyerahan kena pajak itu dapat diketahui dengan pasti dari catatan dalam pembukuan, maka jumlah Pajak Masukan yang dapat dikreditkan hanya sebesar Pajak Masukan yang telah dibayar pada waktu perolehan atau pengimporan Barang Kena Pajak yang diserahkan kepada Pengusaha Kena Pajak, atau yang dipakai untuk menghasilkan Barang Kena Pajak.</p></content>
+                <content><p>Apabila dalam suatu Masa Pajak Pengusaha Kena Pajak selain melakukan penyerahan yang terutang pajak juga melakukan penyerahan yang tidak terutang pajak, sepanjang bagian penyerahan yang terutang pajak dapat diketahui dengan pasti dari pembukuannya, jumlah Pajak Masukan yang dapat dikreditkan adalah Pajak Masukan yang berkenaan dengan penyerahan yang terutang pajak.</p></content>
               </paragraph>
               <paragraph eId="pasal_9__ayat_6">
                 <num>(6)</num>
-                <content><p>Dalam hal bagian penyerahan kena pajak maupun bagian penyerahan tidak kena pajak sebagaimana dimaksud dalam ayat (5) tidak dapat diketahui dengan pasti, Menteri Keuangan dapat menetapkan suatu pedoman penghitungan jumlah Pajak Masukan yang dapat dikreditkan untuk bagian penyerahan kena pajak.</p></content>
+                <content><p>Apabila dalam suatu Masa Pajak Pengusaha Kena Pajak selain melakukan penyerahan yang terutang pajak juga melakukan penyerahan yang tidak terutang pajak, sedangkan Pajak Masukan untuk penyerahan yang terutang pajak tidak dapat diketahui dengan pasti, jumlah Pajak Masukan yang dapat dikreditkan untuk penyerahan yang terutang pajak dihitung dengan menggunakan pedoman yang diatur dengan Peraturan Menteri Keuangan.</p></content>
               </paragraph>
-              <paragraph eId="pasal_9__ayat_7">
-                <num>(7)</num>
-                <content><p>Pengusaha yang berdasarkan Undang-undang Pajak Penghasilan 1984 memilih dikenakan pajak dengan pedoman Norma Penghitungan, sepanjang terhutang Pajak Pertambahan Nilai, dapat mengkreditkan Pajak Masukan yang telah dibayar terhadap Pajak Keluaran yang harus dipungut, dengan mempergunakan pedoman penghitungan kredit Pajak Masukan yang ditetapkan dengan Keputusan Menteri Keuangan.</p></content>
+              <paragraph eId="pasal_9__ayat_6a">
+                <num>(6a)</num>
+                <content><p>Apabila sampai dengan jangka waktu 3 (tiga) tahun sejak Masa Pajak pengkreditan pertama kali Pajak Masukan sebagaimana dimaksud pada ayat (2a) Pengusaha Kena Pajak belum melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak dan/atau ekspor Barang Kena Pajak dan/atau Jasa Kena Pajak terkait dengan Pajak Masukan tersebut, Pajak Masukan yang telah dikreditkan dalam jangka waktu 3 (tiga) tahun tersebut menjadi tidak dapat dikreditkan.</p></content>
               </paragraph>
-              <paragraph eId="pasal_9__ayat_8">
-                <num>(8)</num>
-                <intro><p>Pajak Masukan tidak dapat dikreditkan menurut cara yang diatur dalam ayat (2) bagi pengeluaran untuk:</p></intro>
-                  <point eId="pasal_9__ayat_8__huruf_a">
+              <paragraph eId="pasal_9__ayat_6b">
+                <num>(6b)</num>
+                <content><p>Dihapus.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_6c">
+                <num>(6c)</num>
+                <content><p>Jangka waktu sebagaimana dimaksud pada ayat (6a) bagi sektor usaha tertentu dapat ditetapkan lebih dari 3 (tiga) tahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_6d">
+                <num>(6d)</num>
+                <content><p>Ketentuan sebagaimana dimaksud pada ayat (6a) berlaku juga bagi Pengusaha Kena Pajak yang melakukan pembubaran (pengakhiran) usaha, melakukan pencabutan Pengusaha Kena Pajak, atau dilakukan pencabutan Pengusaha Kena Pajak secara jabatan dalam jangka waktu 3 (tiga) tahun sejak Masa Pajak pengkreditan pertama kali Pajak Masukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_6e">
+                <num>(6e)</num>
+                <intro><p>Pajak Masukan yang tidak dapat dikreditkan sebagaimana dimaksud pada ayat (6a):</p></intro>
+                  <point eId="pasal_9__ayat_6e__huruf_a">
                     <num>a.</num>
-                    <content><p>pembelian Barang atau Jasa sebelum Pengusaha dikukuhkan menjadi Pengusaha Kena Pajak;</p></content>
+                    <intro><p>wajib dibayar kembali ke kas negara oleh Pengusaha Kena Pajak, dalam hal Pengusaha Kena Pajak:</p></intro>
+                      <point eId="pasal_9__ayat_6e__huruf_a__angka_1">
+                        <num>1.</num>
+                        <content><p>telah menerima pengembalian kelebihan pembayaran pajak atas Pajak Masukan dimaksud; danlatau</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_6e__huruf_a__angka_2">
+                        <num>2.</num>
+                        <intro><p>telah mengkreditkan Pajak Masukan dimaksud dengan Pajak Keluaran yang terutang dalam suatu Masa Pajak; dan/atau</p></intro>
+                          <point eId="pasal_9__ayat_6e__huruf_a__angka_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>akhir bulan berikutnya setelah tanggal berakhirnya jangka waktu 3 (tiga) tahun sebagaimana dimaksud pada ayat (6a);</p></content>
+                          </point>
+                          <point eId="pasal_9__ayat_6e__huruf_a__angka_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>akhir bulan berikutnya setelah tanggal berakhirnya jangka waktu bagi sektor usaha tertentu sebagaimana dimaksud pada ayat (6c); atau</p></content>
+                          </point>
+
+                      </point>
+
                   </point>
-                  <point eId="pasal_9__ayat_8__huruf_b">
+                  <point eId="pasal_9__ayat_6e__huruf_b">
                     <num>b.</num>
-                    <content><p>pembelian Barang dan pengeluaran biaya lain yang tidak mempunyai hubungan langsung dengan proses menghasilkan Barang Kena Pajak atau Jasa Kena Pajak;</p></content>
+                    <content><p>tidak dapat dikompensasikan ke Masa Pajak berikutnya dan tidak dapat diajukan permohonan pengembalian, setelah jangka waktu 3 (tiga) tahun sebagaimana dimaksud pada ayat (6a) berakhir atau pada saat pembubaran (pengakhiran) usaha, atau pencabutan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (6d) oleh Pengusaha Kena Pajak, dalam hal Pengusaha Kena Pajak melakukan kompensasi atas kelebihan pembayaran pajak dimaksud. (60 Pembayaran kembali Pajak Masukan sebagaimana dimaksud pada ayat (6e) huruf a dilakukan paling lambat:</p></content>
                   </point>
-                  <point eId="pasal_9__ayat_8__huruf_c">
+                  <point eId="pasal_9__ayat_6e__huruf_c">
                     <num>c.</num>
-                    <content><p>pembelian dan pemeliharaan kendaraan bermotor sedan, jeep, stasion wagon, van dan kombi.</p></content>
+                    <content><p>akhir bulan berikutnya setelah tanggal pembubaran (pengakhiran) usaha atau pencabutan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (6d).</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_69">
+                <num>(69)</num>
+                <intro><p>Dalam . . (6e) Dalam hal Pengusaha Kena Pajak tidak melaksanakan kewajiban pembayaran kembali sesuai dengan jangka waktu sebagaimana dimaksud pada ayat (6f), Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Kurang Bayar atas jumlah pajak yang seharusnya dibayar kembali sebagaimana dimaksud pada ayat (6e) huruf a oleh Pengusaha Kena Pajak ditambah sanksi administrasi berupa bunga sebagaimana dimaksud dalam Pasal 13 ayat (2a) Undang- Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan dan perubahannya. (7) Besarnya Pajak Masukan yang dapat dikreditkan oleh Pengusaha Kena Pajak yang peredaran usahanya dalam 1 (satu) tahun tidak melebihi jumlah tertentu, kecuali Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (7a) dapat dihitung dengan menggunakan pedoman penghitungan pengkreditan Pajak Masukan. (7a) Besarnya Pajak Masukan yang dapat dikreditkan oleh Pengusaha Kena Pajak yang melakukan kegiatan usaha tertentu dihitung dengan menggunakan pedoman penghitungan pengkreditan Pajak Masukan. (7b) Ketentuan mengenai peredaran usaha sebagaimana dimaksud pada ayat (7lr, kegiatan usaha tertentu sebagaimana dimaksud pada ayat (7a), dan pedoman penghitungan pengkreditan Pajak Masukan sebagaimana dimaksud pada ayat (7) dan ayat (7a) diatur dengan atau berdasarkan Peraturan Menteri Keuangan. (8) Pengkreditan Pajak Masukan sebagaimana dimaksud pada ayat (2) tidak dapat diberlakukan bagi pengeluaran untuk:</p></intro>
+                  <point eId="pasal_9__ayat_69__huruf_a">
+                    <num>a.</num>
+                    <content><p>kriteria belum melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak danf atau ekspor Barang Kena Pajak dan/atau Jasa Kena Pajak sebagaimana dimaksud pada ayat (2a);</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_b">
+                    <num>b.</num>
+                    <content><p>penghitungan dan tata cara pengembalian kelebihan Pajak Masukan sebagaimana dimaksud pada ayat (4a), ayat (4b), dan ayat</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_c">
+                    <num>c.</num>
+                    <content><p>perolehan dan pemeliharaan kendaraan bermotor berupa sedan dan station wagon, kecuali merupakan barang dagangan atau disewakan;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_d">
+                    <num>d.</num>
+                    <content><p>tata cara pembayaran kembali Pajak Masukan sebagaimana dimaksud pada ayat (6e) huruf a; dan</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_e">
+                    <num>e.</num>
+                    <content><p>tata cara pengkreditan Pajak Masukan sebagaimana dimaksud pada ayat (9a) , ayat (9b), dan ayat (9c) diatur dengan atau berdasarkan Peraturan Menteri Keuangan. (14) Dalam hal terjadi pengalihan Barang Kena Pajak dalam rangka penggabungan, peleburan, pemekaran, pemecahan, dan pengambilalihan usaha, Pajak Masukan atas Barang Kena Pajak yang dialihkan yang belum dikreditkan oleh Pengusaha Kena Pajak yang mengalihkan dapat dikreditkan oleh Pengusaha Kena Pajak yang menerima pengalihan sepanjang Faktur Pajaknya diterima setelah terjadinya pengalihan dan Pajak Masukan tersebut belum dibebankan sebagai biaya atau dikapitalisasi.</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_f">
+                    <num>f.</num>
+                    <content><p>perolehan Barang Kena Pajak atau Jasa Kena Pajak yang Faktur Pajaknya tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 13 ayat (5) atau ayat (9) atau tidak mencantumkan nama, alamat, dan Nomor Pokok Wajib Pajak pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_g">
+                    <num>g.</num>
+                    <content><p>pemanfaatan Barang Kena Pajak Tidak Bervrrujud atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean yang Faktur Pajaknya tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 13 ayat</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_h">
+                    <num>h.</num>
+                    <content><p>dihapus;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_i">
+                    <num>i.</num>
+                    <content><p>dihapus; dan</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_69__huruf_j">
+                    <num>j.</num>
+                    <content><p>dihapus. (9) Pajak Masukan yang dapat dikreditkan tetapi belum dikreditkan dengan Pajak Keluaran pada Masa Pajak yang sama dapat dikreditkan pada Masa Pajak berikutnya paling lama 3 (tiga) Masa Pajak setelah berakhirnya Masa Pajak saat Faktur Pajak dibuat sepanjang belum dibebankan sebagai biaya atau belum ditambahkan (dikapitalisasi) dalam harga perolehan Barang Kena Pajak atau Jasa Kena Pajak serta memenuhi ketentuan pengkreditan sesuai dengan Undang-Undang ini. (9a) Pajak (ea) Pajak Masukan atas perolehan Barang Kena Pajak dan/atau Jasa Kena Pajak, impor Barang Kena Pajak serta pemanfaatan Barang Kena Pajak Tidak Benvujud dan/atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean sebelum Pengusaha dikukuhkan sebagai Pengusaha Kena Pajak, dapat dikreditkan oleh Pengusaha Kena Pajak dengan menggunakan pedoman pengkreditan Pajak Masukan sebesar 80% (delapan puluh persen) dari Pajak Keluaran yang seharusnya dipungut. (eb) Pajak Masukan atas perolehan Barang Kena Pajak dan/atau Jasa Kena Pajak, impor Barang Kena Pajak, serta pemanfaatan Barang Kena Pajak Tidak Berwujud dan/atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean yang tidak dilaporkan dalam Surat Pemberitahuan Masa Pajak Pertambahan Nilai yang diberitahukan dan/atau ditemukan pada waktu dilakukan pemeriksaan dapat dikreditkan oleh Pengusaha Kena Pajak sepanjang memenuhi ketentuan pengkreditan sesuai dengan Undang- Undang ini. (ec) Pajak Masukan atas perolehan Barang Kena Pajak dan/atau Jasa Kena Pajak, impor Barang Kena Pajak, serta pemanfaatan Barang Kena Pajak Tidak Berwujud dan/atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean yang ditagih dengan penerbitan ketetapan pajak dapat dikreditkan oleh Pengusaha Kena Pajak sebesar jumlah pokok Pajak Pertambahan Nilai yang tercantum dalam ketetapan pajak dengan ketentuan ketetapan pajak dimaksud telah dilakukan pelunasan dan tidak dilakukan upaya hukum serta memenuhi ketentuan pengkreditan sesuai dengan Undang- Undang ini. (10) Dihapus. (11) Dihapus. (12) Dihapus. (13) Ketentuan lebih lanjut mengenai:</p></content>
                   </point>
 
               </paragraph>
@@ -310,60 +455,119 @@
             <num>13</num>
               <paragraph eId="pasal_13__ayat_1">
                 <num>(1)</num>
-                <content><p>Setiap Pengusaha Kena Pajak wajib membuat Faktur Pajak pada saat penyerahan Barang Kena Pajak atau Jasa Kena Pajak.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_13__ayat_2">
-                <num>(2)</num>
-                <content><p>Apabila pembayaran diterima sebelum penyerahan Barang Kena Pajak atau Jasa Kena Pajak, Faktur Pajak dibuat pada saat pembayaran.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_13__ayat_3">
-                <num>(3)</num>
-                <content><p>Menyimpang dari ayat (1) dan ayat (2), Pengusaha Kena Pajak dapat diizinkan oleh Direktur Jenderal Pajak untuk membuat satu Faktur Pajak meliputi seluruh penyerahan yang dilakukan kepada Pembeli Barang Kena Pajak atau Penerima Jasa Kena Pajak yang sama selama sebulan takwim setelah akhir bulan takwim yang bersangkutan.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_13__ayat_4">
-                <num>(4)</num>
-                <content><p>Pengusaha yang berdasarkan Pasal 4 ayat (1) huruf b dikenakan pajak, hanya membuat Faktur Pajak sematamata untuk Penyerahan Barang Kena Pajak kepada Pengusaha Kena Pajak.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_13__ayat_5">
-                <num>(5)</num>
-                <content><p>Direktorat Jenderal Bea dan Cukai membuat Faktur Pajak untuk setiap pemungutan pajak sebagaimana dimaksud dalam Pasal 12 ayat (3).</p></content>
-              </paragraph>
-              <paragraph eId="pasal_13__ayat_6">
-                <num>(6)</num>
-                <intro><p>Dalam Faktur Pajak harus dicantumkan catatan tentang penyerahan yang dikenakan pajak menurut undang-undang ini yang meliputi :</p></intro>
-                  <point eId="pasal_13__ayat_6__huruf_a">
+                <intro><p>Pengusaha Kena Pajak wajib membuat Faktur Pajak untuk setiap:</p></intro>
+                  <point eId="pasal_13__ayat_1__huruf_a">
                     <num>a.</num>
-                    <content><p>Nama, alamat, dan Nomor Pokok Wajib Pajak Pengusaha yang menyerahkan Barang Kena Pajak atau Jasa Kena Pajak;</p></content>
+                    <content><p>penyerahan Barang Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a atau huruf f dan/atau Pasal 16D;</p></content>
                   </point>
-                  <point eId="pasal_13__ayat_6__huruf_b">
+                  <point eId="pasal_13__ayat_1__huruf_b">
                     <num>b.</num>
-                    <content><p>Nama, alamat, dan Nomor Pokok Wajib Pajak Pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak;</p></content>
+                    <content><p>penyerahan Jasa Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf c;</p></content>
                   </point>
-                  <point eId="pasal_13__ayat_6__huruf_c">
+                  <point eId="pasal_13__ayat_1__huruf_c">
                     <num>c.</num>
-                    <content><p>Macam, jenis, kuantum, harga satuan, dan jumlah Harga Jual atau Penggantian;</p></content>
+                    <content><p>ekspor Barang Kena Pajak Tidak Berwujud sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf g; dan/atau</p></content>
                   </point>
-                  <point eId="pasal_13__ayat_6__huruf_d">
+                  <point eId="pasal_13__ayat_1__huruf_d">
                     <num>d.</num>
-                    <content><p>Pajak Pertambahan Nilai yang dipungut;</p></content>
-                  </point>
-                  <point eId="pasal_13__ayat_6__huruf_e">
-                    <num>e.</num>
-                    <content><p>Pajak Penjualan Atas Barang Mewah yang dipungut;</p></content>
-                  </point>
-                  <point eId="pasal_13__ayat_6__huruf_f">
-                    <num>f.</num>
-                    <content><p>Tanggal penyerahan.</p></content>
+                    <content><p>ekspor Jasa Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf h.</p></content>
                   </point>
 
               </paragraph>
+              <paragraph eId="pasal_13__ayat_1a">
+                <num>(1a)</num>
+                <intro><p>Faktur Pajak sebagaimana dimaksud pada ayat (1) harus dibuat pada:</p></intro>
+                  <point eId="pasal_13__ayat_1a__huruf_a">
+                    <num>a.</num>
+                    <content><p>saat penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1a__huruf_b">
+                    <num>b.</num>
+                    <content><p>saat penerimaan pembayaran dalam hal penerimaan pembayaran terjadi sebelum penyerahan Barang Kena Pajak dan/atau sebelum penyerahan Jasa Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1a__huruf_c">
+                    <num>c.</num>
+                    <content><p>saat penerimaan pembayaran termin dalam hal penyerahan sebagian tahap pekerjaan; atau</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_1a__huruf_d">
+                    <num>d.</num>
+                    <content><p>saat lain yang diatur dengan atau berdasarkan Peraturan Menteri Keuangan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1), Pengusaha Kena Pajak dapat membuat 1 (satu) Faktur Pajak meliputi selurrrh penyerahan yang dilakukan kepada pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak yang sama selama 1 (satu) bulan kalender.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2a">
+                <num>(2a)</num>
+                <content><p>Faktur Pajak sebagaimana dimaksud pada ayat (2) harus dibuat paling lama pada akhir bulan penyerahan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_3">
+                <num>(3)</num>
+                <content><p>Dihapus.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_4">
+                <num>(4)</num>
+                <intro><p>Dihapus. (s) Dalam Faktur Pajak harus dicantumkan keterangan tentang penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang paling sedikit memuat:</p></intro>
+                  <point eId="pasal_13__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>nama, alamat, dan Nomor Pokok Wajib Pajak yang menyerahkan Barang Kena Pajak atau Jasa Kena Pajak;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <intro><p>identitas pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak yang meliputi:</p></intro>
+                      <point eId="pasal_13__ayat_4__huruf_b__angka_1">
+                        <num>1.</num>
+                        <content><p>nama, alamat, dan Nomor Pokok Wajib Pajak atau nomor induk kependudukan atau nomor paspor bagi subjek pajak luar negeri orang pribadi; atau</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_4__huruf_b__angka_2">
+                        <num>2.</num>
+                        <content><p>nama dan alamat, dalam hal pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak merupakan subjek pajak luar negeri badan atau bukan merupakan subjek pajak sebagaimana dimaksud dalam Pasal 3 Undang-Undang tentang Pajak Penghasilan;</p></content>
+                      </point>
+
+                  </point>
+                  <point eId="pasal_13__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>jenis barang atau jasa, jumlah Harga Jual atau Penggantian, dan potongan harga;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>Pajak Pertambahan Nilai yang dipungut;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_4__huruf_e">
+                    <num>e.</num>
+                    <content><p>Pajak Penjualan atas Barang Mewah yang dipungut;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_4__huruf_f">
+                    <num>f.</num>
+                    <content><p>kode, nomor seri, dan tanggal pembuatan Faktur Pajak; dan</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_4__huruf_g">
+                    <num>g.</num>
+                    <content><p>nama dan tanda tangan yang berhak menandatangani Faktur Pajak.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_5a">
+                <num>(5a)</num>
+                <content><p>Pengusaha Kena Pajak pedagang eceran dapat membuat Faktur Pajak tanpa mencantumkan keterangan mengenai identitas pembeli serta nama dan tanda tangan penjual dalam hal melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak kepada pembeli dengan karakteristik konsumen akhir yang diatur lebih lanjut dengan Peraturan Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_6">
+                <num>(6)</num>
+                <content><p>Direktur Jenderal Pajak dapat menetapkan dokumen tertentu yang kedudukannya dipersamakan dengan Faktur Pajak.</p></content>
+              </paragraph>
               <paragraph eId="pasal_13__ayat_7">
                 <num>(7)</num>
-                <content><p>Bentuk ukuran, pengadaan serta tata cara penyampaian Faktur Pajak diatur lebih lanjut oleh Menteri Keuangan.</p></content>
+                <content><p>Dihapus.</p></content>
               </paragraph>
               <paragraph eId="pasal_13__ayat_8">
                 <num>(8)</num>
-                <content><p>Pengusaha Kena Pajak yang tidak membuat atau tidak mengisi selengkapnya Faktur Pajak menurut ketentuan sebagaimana diatur dalam ayat (1), ayat (2), dan ayat (6) dikenakan sanksi berupa denda administrasi sebesar 2 % (dua persen) dari Dasar Pengenaan Pajak.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara pembuatan Faktur Pajak dan tata cara pembetulan atau penggantian Faktur Pajak diatur dengan atau berdasarkan Peraturan Menteri Keuangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_9">
+                <num>(9)</num>
+                <content><p>Faktur Pajak harus memenuhi persyaratan formal dan material.</p></content>
               </paragraph>
 
           </article>

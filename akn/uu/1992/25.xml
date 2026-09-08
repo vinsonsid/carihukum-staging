@@ -20,40 +20,58 @@
         <FRBRManifestation>
           <FRBRthis value="/akn/id/act/uu/1992/25/ind@2023-03-31/!main.xml"/>
           <FRBRuri value="/akn/id/act/uu/1992/25/ind@2023-03-31.akn"/>
-          <FRBRdate date="2026-09-06" name="ekspor"/>
+          <FRBRdate date="2026-09-08" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
       <lifecycle source="#carihukum">
         <eventRef eId="e_pengundangan" date="1992-10-21" source="#pemerintah-ri" type="generation"/>
-        <eventRef eId="e_1" date="2023-03-31" source="#org_1" type="amendment"/>
+        <eventRef eId="e_1" date="2022-12-30" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2023-03-31" source="#org_2" type="amendment"/>
       </lifecycle>
       <analysis source="#carihukum">
         <passiveModifications>
         <textualMod type="substitution" eId="pmod_1">
-          <source href="/akn/id/act/uu/2023/6"/>
+          <source href="/akn/id/act/perppu/2022/2"/>
           <destination href="#pasal_6"/>
         </textualMod>
         <textualMod type="substitution" eId="pmod_2">
-          <source href="/akn/id/act/uu/2023/6"/>
+          <source href="/akn/id/act/perppu/2022/2"/>
           <destination href="#pasal_21"/>
         </textualMod>
         <textualMod type="substitution" eId="pmod_3">
-          <source href="/akn/id/act/uu/2023/6"/>
+          <source href="/akn/id/act/perppu/2022/2"/>
           <destination href="#pasal_22"/>
         </textualMod>
         <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_21"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_22"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
           <source href="/akn/id/act/uu/2023/6"/>
           <destination href="#pasal_43"/>
         </textualMod>
-        <textualMod type="insertion" eId="pmod_5">
+        <textualMod type="insertion" eId="pmod_9">
           <source href="/akn/id/act/uu/2023/6"/>
           <destination href="#pasal_44a"/>
         </textualMod>
         </passiveModifications>
       </analysis>
       <references source="#carihukum">
-        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
+        <TLCOrganization eId="org_1" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>

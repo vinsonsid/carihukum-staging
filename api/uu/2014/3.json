@@ -40,18 +40,10 @@
    {
     "id": "uu-2020-11",
     "tanggal": "2020-11-02"
-   },
-   {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.477Z",
+ "dihasilkan": "2026-09-08T10:55:54.711Z",
  "timeline": [
   {
    "tanggal": "2014-09-15",
@@ -61,6 +53,28 @@
    "judul_pelaku": "Undang-Undang Nomor 3 Tahun 2014 tentang Perindustrian",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 14,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 16,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
   }
  ],
  "peringatan": [],
@@ -1338,51 +1352,132 @@
          "tipe": "huruf",
          "nomor": "a.",
          "teks": "pembangunan sumber daya manusia;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-15/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
          "teks": "pemanfaatan sumber daya alam;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-15/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
          "teks": "pengembangan dan pemanfaatan Teknologi Industri;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-15/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "pengembangan dan pemanfaatan kreativitas dan inovasi; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "pengembangan dan pemanfaatan kreativitas dan inovasi;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-15/huruf-e",
          "tipe": "huruf",
          "nomor": "e.",
-         "teks": "penyediaan sumber pembiayaan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "penyediaan sumber pembiayaan; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-15/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "penyediaan Bahan Baku dan/atau bahan penolong bagi Industri.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
        "teks": "Pembangunan sumber daya Industri meliputi:",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "verifikasi": "draf",
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-15",
+          "tipe": "pasal",
+          "nomor": "15",
+          "anak": [
+           {
+            "id": "pasal-15/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pembangunan sumber daya manusia;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-15/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pemanfaatan sumber daya alam;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-15/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "pengembangan dan pemanfaatan Teknologi Industri;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-15/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "pengembangan dan pemanfaatan kreativitas dan inovasi; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-15/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "penyediaan sumber pembiayaan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "teks": "Pembangunan sumber daya Industri meliputi:",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 15 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "sumber": "uu-2014-3",
@@ -3205,6 +3300,63 @@
        ],
        "sumber": "uu-2014-3",
        "berlaku_mulai": "2014-09-15"
+      },
+      {
+       "id": "pasal-48a",
+       "tipe": "pasal",
+       "nomor": "48A",
+       "anak": [
+        {
+         "id": "pasal-48a/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Untuk menjaga kelangsungan proses produksi dan/atau pengembangan Industri, Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya memberikan kemudahan untuk mendapatkan Bahan Baku dan/atau bahan penolong sesuai dengan rencana kebutuhan Industri.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-48a/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Kemudahan sebagaimana dimaksud pada ayat (1) termasuk kemudahan dalam mengimpor Bahan Baku dan/atau bahan penolong untuk Industri sesuai dengan rencana kebutuhan Industri.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-48a/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Ketentuan lebih lanjut mengenai kemudahan untuk mendapatkan Bahan Baku dan/atau bahan penolong diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "catatan": "Di antara Pasal 48 dan Pasal 49 disisipkan 1 (satu) pasal, yakni Pasal 48A sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "disisipkan ulang",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "catatan": "Di antara Pasal 48 dan Pasal 49 disisipkan 1 (satu) pasal, yakni Pasal 48A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "sumber": "uu-2014-3",
@@ -3283,32 +3435,128 @@
          "id": "pasal-50/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Menteri melakukan perencanaan, pembinaan, pengembangan, dan pengawasan Standardisasi Industri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Pemerintah Pusat melakukan perencanaan, pembinaan, pengembangan, dan pengawasan Standardisasi Industri.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-50/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
          "teks": "Standardisasi Industri diselenggarakan dalam wujud SNI, spesifikasi teknis, dan/atau pedoman tata cara.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-50/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
          "teks": "SNI, spesifikasi teknis, dan/atau pedoman tata cara berlaku di seluruh wilayah Negara Kesatuan Republik Indonesia.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-50",
+          "tipe": "pasal",
+          "nomor": "50",
+          "anak": [
+           {
+            "id": "pasal-50/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Menteri melakukan perencanaan, pembinaan, pengembangan, dan pengawasan Standardisasi Industri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-50/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Standardisasi Industri diselenggarakan dalam wujud SNI, spesifikasi teknis, dan/atau pedoman tata cara.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-50/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "SNI, spesifikasi teknis, dan/atau pedoman tata cara berlaku di seluruh wilayah Negara Kesatuan Republik Indonesia.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 5O diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-50",
+          "tipe": "pasal",
+          "nomor": "50",
+          "anak": [
+           {
+            "id": "pasal-50/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pemerintah Pusat melakukan perencanaan, pembinaan, pengembangan, dan pengawasan Standardisasi Industri.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-50/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Standardisasi Industri diselenggarakan dalam wujud SNI, spesifikasi teknis, dan/ atau pedoman tata cara,",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-50/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "SNI, spesifikasi teknis, dan/atau pedoman tata cara berlaku di seluruh wilayah Negara Kesatuan Republik Indonesia.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 50 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-51",
@@ -3495,42 +3743,160 @@
          "tipe": "ayat",
          "nomor": "(1)",
          "teks": "Setiap Orang dilarang:",
-         "verifikasi": "pdf-resmi",
+         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-53/ayat-1/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
            "teks": "membubuhkan tanda SNI atau tanda kesesuaian pada barang dan/atau Jasa Industri yang tidak memenuhi ketentuan SNI, spesifikasi teknis, dan/atau pedoman tata cara; atau",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-53/ayat-1/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
            "teks": "memproduksi, mengimpor, dan/atau mengedarkan barang dan/atau Jasa Industri yang tidak memenuhi SNI, spesifikasi teknis, dan/atau pedoman tata cara yang diberlakukan secara wajib.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-53/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Menteri dapat menetapkan pengecualian atas SNI, spesifikasi teknis, dan/atau pedoman tata cara yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (1) huruf b untuk impor barang tertentu.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Pemerintah Pusat dapat menetapkan pengecualian atas SNI, spesifikasi teknis, danf atau pedoman tata cara yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (1) huruf b untuk impor barang tertentu.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-53",
+          "tipe": "pasal",
+          "nomor": "53",
+          "anak": [
+           {
+            "id": "pasal-53/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Setiap Orang dilarang:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-53/ayat-1/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "membubuhkan tanda SNI atau tanda kesesuaian pada barang dan/atau Jasa Industri yang tidak memenuhi ketentuan SNI, spesifikasi teknis, dan/atau pedoman tata cara; atau",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-53/ayat-1/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "memproduksi, mengimpor, dan/atau mengedarkan barang dan/atau Jasa Industri yang tidak memenuhi SNI, spesifikasi teknis, dan/atau pedoman tata cara yang diberlakukan secara wajib.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-53/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Menteri dapat menetapkan pengecualian atas SNI, spesifikasi teknis, dan/atau pedoman tata cara yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (1) huruf b untuk impor barang tertentu.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 53 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-53",
+          "tipe": "pasal",
+          "nomor": "53",
+          "anak": [
+           {
+            "id": "pasal-53/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Setiap Orang dilarang:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-53/ayat-1/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "membubuhkan tanda SNI atau tanda kesesuaian pada barang dan/ atau Jasa Industri yang tidak memenuhi ketentuan SNI, spesifikasi teknis, dan/ atau pedoman tata cara; atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-53/ayat-1/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "memproduksi, mengimpor, dan/atau mengedarkan barang dan/ atau Jasa Industri yang tidak memenuhi SNI, spesifikasi teknis, dan/ atau pedoman tata cara yang diberlakukan secara wajib.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-53/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Pemerintah Pusat dapat menetapkan pengecualian atas SNI, spesifikasi teknis, dan/atau pedoman tata cara yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (1) huruf b untuk impor barang tertentu.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 53 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-54",
@@ -3569,40 +3935,156 @@
          "tipe": "ayat",
          "nomor": "(1)",
          "teks": "Penerapan SNI secara sukarela sebagaimana dimaksud dalam Pasal 51 dan pemberlakuan SNI, spesifikasi teknis, dan/atau pedoman tata cara secara wajib sebagaimana dimaksud dalam Pasal 52 dilakukan melalui penilaian kesesuaian.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-57/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
          "teks": "Penilaian kesesuaian SNI yang diterapkan secara sukarela sebagaimana dimaksud pada ayat (1) dilakukan oleh lembaga penilaian kesesuaian yang telah terakreditasi.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-57/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Penilaian kesesuaian SNI, spesifikasi teknis, dan/atau pedoman tata cara yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (1) dilakukan oleh lembaga penilaian kesesuaian yang telah terakreditasi dan ditunjuk oleh Menteri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Penilaian kesesuaian SNI, spesifikasi teknis, dan/atau pedoman tata cara yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (1) dilakukan oleh lembaga penilaian kesesuaian yang telah terakreditasi dan ditunjuk oleh Pemerintah Pusat.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-57/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Pembinaan dan pengawasan terhadap lembaga penilaian kesesuaian sebagaimana dimaksud pada ayat (3) dilakukan oleh Menteri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Ketentuan lebih lanjut mengenai pembinaan dan pengawasan terhadap lembaga penilaian kesesuaian diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-57",
+          "tipe": "pasal",
+          "nomor": "57",
+          "anak": [
+           {
+            "id": "pasal-57/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Penerapan SNI secara sukarela sebagaimana dimaksud dalam Pasal 51 dan pemberlakuan SNI, spesifikasi teknis, dan/atau pedoman tata cara secara wajib sebagaimana dimaksud dalam Pasal 52 dilakukan melalui penilaian kesesuaian.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-57/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Penilaian kesesuaian SNI yang diterapkan secara sukarela sebagaimana dimaksud pada ayat (1) dilakukan oleh lembaga penilaian kesesuaian yang telah terakreditasi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-57/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Penilaian kesesuaian SNI, spesifikasi teknis, dan/atau pedoman tata cara yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (1) dilakukan oleh lembaga penilaian kesesuaian yang telah terakreditasi dan ditunjuk oleh Menteri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-57/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Pembinaan dan pengawasan terhadap lembaga penilaian kesesuaian sebagaimana dimaksud pada ayat (3) dilakukan oleh Menteri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 57 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-57",
+          "tipe": "pasal",
+          "nomor": "57",
+          "anak": [
+           {
+            "id": "pasal-57/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Penerapan SNI secara sukarela sebagaimana dimaksud dalam Pasal 5l dan pemberlakuan SNI, spesifikasi teknis, dan/ atau pedoman tata cara secara wajib sebagaimana dimaksud dalam Pasal 52 dilakukan melalui penilaian kesesuaian.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-57/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Penilaian kesesuaian SNI yang diterapkan secara sukarela sebagaimana dimaksud pada ayat (1) dilakukan oleh lembaga penilaian kesesuaian yang telah terakreditasi.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-57/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Penilaian kesesuaian SNI, spesilikasi teknis, dan/ atau pedoman tata cara yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (1) dilakukan oleh lembaga penilaian kesesuaian yang telah terakreditasi dan ditunjuk oleh Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-57/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Ketentuan lebih lanjut mengenai pembinaan dan pengawasan terhadap lembaga penilaian kesesuaian diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 57 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-58",
@@ -3637,10 +4119,86 @@
        "id": "pasal-59",
        "tipe": "pasal",
        "nomor": "59",
-       "teks": "Menteri mengawasi pelaksanaan seluruh rangkaian penerapan SNI sebagaimana dimaksud dalam Pasal 51 ayat (2) dan ayat (3) dan pemberlakuan SNI, spesifikasi teknis, dan/atau pedoman tata cara secara wajib sebagaimana dimaksud dalam Pasal 52.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "anak": [
+        {
+         "id": "pasal-59/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pemerintah Pusat mengawasi pelaksanaan seluruh rangkaian penerapan SNI sebagaimana dimaksud dalam Pasal 51 ayat (2) dan ayat (3) dan pemberlakuan SNI, spesifikasi teknis, dan/atau pedoman tata cara secara wajib sebagaimana dimaksud dalam Pasal 52.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-59/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Dalam melaksanakan kewenangan pengawasan sebagaimana dimaksud pada ayat (1), Pemerintah Pusat dapat menunjuk lembaga terakreditasi.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-59",
+          "tipe": "pasal",
+          "nomor": "59",
+          "teks": "Menteri mengawasi pelaksanaan seluruh rangkaian penerapan SNI sebagaimana dimaksud dalam Pasal 51 ayat (2) dan ayat (3) dan pemberlakuan SNI, spesifikasi teknis, dan/atau pedoman tata cara secara wajib sebagaimana dimaksud dalam Pasal 52.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 59 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-59",
+          "tipe": "pasal",
+          "nomor": "59",
+          "anak": [
+           {
+            "id": "pasal-59/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Pemerintah Pusat mengawasi pelaksanaan seluruh rangkaian penerapan SNI sebagaimana dimaksud dalam Pasal 51 ayat (2) dan ayat (3) dan pemberlakuan SNI, spesiflkasi teknis, danlatau pedoman tata cara secara wajib sebagaimana dimaksud dalam Pasal 52.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-59/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Dalam melaksanakan kewenangan pengawas€rn sebagaimana dimaksud pada ayat (1), Pemerintah Pusat dapat menunjuk lembaga terakreditasi.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 59 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-60",
@@ -5172,219 +5730,652 @@
          "tipe": "ayat",
          "nomor": "(1)",
          "teks": "Industri Strategis dikuasai oleh negara.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-84/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
          "teks": "Industri Strategis sebagaimana dimaksud pada ayat (1) terdiri atas Industri yang:",
-         "verifikasi": "pdf-resmi",
+         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-84/ayat-2/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "memenuhi kebutuhan yang penting bagi kesejahteraan rakyat atau menguasai hajat hidup orang banyak;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "teks": "memenuhi kebutuhan yang penting bagi kesejahteraan ralryat atau menguasai hajat hidup orang banyak;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-84/ayat-2/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
            "teks": "meningkatkan atau menghasilkan nilai tambah sumber daya alam strategis; dan/atau",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-84/ayat-2/huruf-c",
            "tipe": "huruf",
            "nomor": "c.",
            "teks": "mempunyai kaitan dengan kepentingan pertahanan serta keamanan negara.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-84/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
          "teks": "Penguasaan Industri Strategis oleh negara sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
-         "verifikasi": "pdf-resmi",
+         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-84/ayat-3/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
            "teks": "pengaturan kepemilikan;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-84/ayat-3/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
            "teks": "penetapan kebijakan;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-84/ayat-3/huruf-c",
            "tipe": "huruf",
            "nomor": "c.",
-           "teks": "pengaturan perizinan;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "teks": "pengaturan Perizinan Berusaha;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-84/ayat-3/huruf-d",
            "tipe": "huruf",
            "nomor": "d.",
            "teks": "pengaturan produksi, distribusi, dan harga; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-84/ayat-3/huruf-e",
            "tipe": "huruf",
            "nomor": "e.",
            "teks": "pengawasan.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-84/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
          "teks": "Pengaturan kepemilikan Industri Strategis sebagaimana dimaksud pada ayat (3) huruf a dilakukan melalui:",
-         "verifikasi": "pdf-resmi",
+         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-84/ayat-4/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "penyertaan modal seluruhnya oleh Pemerintah;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "teks": "penyertaan modal seluruhnya oleh Pemerintah Pusat;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-84/ayat-4/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
-           "teks": "pembentukan usaha patungan antara Pemerintah dan swasta; atau",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "teks": "pembentukan usaha patungan antara Pemerintah Pusat dan swasta; atau",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-84/ayat-4/huruf-c",
            "tipe": "huruf",
            "nomor": "c.",
-           "teks": "pembatasan kepemilikan oleh penanam modal asing.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "teks": "pembatasan kepemilikan oleh penanam modal asing sesuai dengan ketentuan peraturan perundang-undangan. (s) Penetapan kebijakan Industri Strategis sebagaimana dimaksud pada ayat (3) huruf b paling sedikit meliputi:",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
-        },
-        {
-         "id": "pasal-84/ayat-5",
-         "tipe": "ayat",
-         "nomor": "(5)",
-         "teks": "Penetapan kebijakan Industri Strategis sebagaimana dimaksud pada ayat (3) huruf b paling sedikit meliputi:",
-         "verifikasi": "pdf-resmi",
-         "anak": [
-          {
-           "id": "pasal-84/ayat-5/huruf-a",
-           "tipe": "huruf",
-           "nomor": "a.",
-           "teks": "penetapan jenis Industri Strategis;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
-          },
-          {
-           "id": "pasal-84/ayat-5/huruf-b",
-           "tipe": "huruf",
-           "nomor": "b.",
-           "teks": "pemberian fasilitas; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
-          },
-          {
-           "id": "pasal-84/ayat-5/huruf-c",
-           "tipe": "huruf",
-           "nomor": "c.",
-           "teks": "pemberian kompensasi kerugian.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
-          }
-         ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-84/ayat-6",
          "tipe": "ayat",
          "nomor": "(6)",
-         "teks": "Izin usaha Industri Strategis sebagaimana dimaksud pada ayat (3) huruf c diberikan oleh Menteri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Perizinan Berusaha terkait Industri Strategis sebagaimana dimaksud pada ayat (3) huruf c diberikan oleh Pemerintah Pusat.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-84/ayat-7",
          "tipe": "ayat",
          "nomor": "(7)",
          "teks": "Pengaturan produksi, distribusi, dan harga sebagaimana dimaksud pada ayat (3) huruf d dilakukan paling sedikit dengan menetapkan jumlah produksi, distribusi, dan harga produk.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-84/ayat-8",
          "tipe": "ayat",
          "nomor": "(8)",
          "teks": "Pengawasan sebagaimana dimaksud pada ayat (3) huruf e meliputi penetapan Industri Strategis sebagai objek vital nasional dan pengawasan distribusi.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-84/ayat-9",
          "tipe": "ayat",
          "nomor": "(9)",
-         "teks": "Ketentuan lebih lanjut mengenai Industri Strategis sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Ketentuan lebih lanjut mengenai Industri Strategis sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-84",
+          "tipe": "pasal",
+          "nomor": "84",
+          "anak": [
+           {
+            "id": "pasal-84/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Industri Strategis dikuasai oleh negara.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-84/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Industri Strategis sebagaimana dimaksud pada ayat (1) terdiri atas Industri yang:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-84/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "memenuhi kebutuhan yang penting bagi kesejahteraan rakyat atau menguasai hajat hidup orang banyak;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "meningkatkan atau menghasilkan nilai tambah sumber daya alam strategis; dan/atau",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "mempunyai kaitan dengan kepentingan pertahanan serta keamanan negara.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-84/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Penguasaan Industri Strategis oleh negara sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-84/ayat-3/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "pengaturan kepemilikan;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-3/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "penetapan kebijakan;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-3/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "pengaturan perizinan;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-3/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "pengaturan produksi, distribusi, dan harga; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-3/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "pengawasan.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-84/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Pengaturan kepemilikan Industri Strategis sebagaimana dimaksud pada ayat (3) huruf a dilakukan melalui:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-84/ayat-4/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "penyertaan modal seluruhnya oleh Pemerintah;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-4/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "pembentukan usaha patungan antara Pemerintah dan swasta; atau",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-4/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "pembatasan kepemilikan oleh penanam modal asing.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-84/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Penetapan kebijakan Industri Strategis sebagaimana dimaksud pada ayat (3) huruf b paling sedikit meliputi:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-84/ayat-5/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "penetapan jenis Industri Strategis;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-5/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "pemberian fasilitas; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-84/ayat-5/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "pemberian kompensasi kerugian.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-84/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Izin usaha Industri Strategis sebagaimana dimaksud pada ayat (3) huruf c diberikan oleh Menteri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-84/ayat-7",
+            "tipe": "ayat",
+            "nomor": "(7)",
+            "teks": "Pengaturan produksi, distribusi, dan harga sebagaimana dimaksud pada ayat (3) huruf d dilakukan paling sedikit dengan menetapkan jumlah produksi, distribusi, dan harga produk.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-84/ayat-8",
+            "tipe": "ayat",
+            "nomor": "(8)",
+            "teks": "Pengawasan sebagaimana dimaksud pada ayat (3) huruf e meliputi penetapan Industri Strategis sebagai objek vital nasional dan pengawasan distribusi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-84/ayat-9",
+            "tipe": "ayat",
+            "nomor": "(9)",
+            "teks": "Ketentuan lebih lanjut mengenai Industri Strategis sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 84 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-84",
+          "tipe": "pasal",
+          "nomor": "84",
+          "anak": [
+           {
+            "id": "pasal-84/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Industri Strategis dikuasai oleh negara. (2t Industri Strategis sebagaimana dimaksud pada ayat (1) terdiri atas Industri yang:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-84/ayat-1/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "memenuhi kebutuhan yang penting bagl kesejahteraan rakJrat atau menguasai hajat hidup oralg banyak;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-1/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "meningkatkan atau menghasilkan nilai tambah sumber daya alam strategis; dan/ atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-1/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "mempunyai kaitan dengan kepentingan pertahanan serta keamanErn negara,",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-84/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Penguasaan Industri Strategis oleh negara sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-84/ayat-3/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "pengaturankepemilikan;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-3/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "penetapankebijakan;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-3/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "pengaturan Perizinan Berusaha;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-3/huruf-d",
+              "tipe": "huruf",
+              "nomor": "d.",
+              "teks": "pengaturan produksi, distribusi, dan harga; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-3/huruf-e",
+              "tipe": "huruf",
+              "nomor": "e.",
+              "teks": "pengawasan.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-84/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Pengaturan kepemilikan Industri Strategis sebagaimana dimaksud pada ayat (3) hurrf a dilakukan melalui:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-84/ayat-4/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "penyertaan modal seluruhnya oleh Pemerintah Pusat;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-4/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "pembentukan usaha patungan antara Pemerintah Pusat dan swasta; atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-4/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "pembatasan kepemilikan oleh penanam modal asing sesuai dengan ketentuan peraturan perundang-undangan.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-84/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Penetapan kebijakan Industri Strategis sebagaimana dimaksud pada ayat (3) huruf b paling sedikit meliputi:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-84/ayat-5/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "penetapan jenis Industri Strategis;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-84/ayat-5/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "pemberian kompensasi kerugian.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-84/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Perizinan Berusaha terkait Industri Strategis sebagaimana dimaksud pada ayat (3) huruf c diberikan oleh Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-84/ayat-7",
+            "tipe": "ayat",
+            "nomor": "(7)",
+            "teks": "Pengaturan produksi, distribusi, dan harga sebagaimana dimaksud pada ayat (3) huruf d dilakukan paling sedikit dengan menetapkan jumlah produksi, distribusi, dan harga produk. (S) Pengawasan sebagaimana dimaksud pada ayht 1S1 huruf e meliputi penetapan Industri Strategis sebagai objek vital nasional dan pengawasan distribusi.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-84/ayat-9",
+            "tipe": "ayat",
+            "nomor": "(9)",
+            "teks": "Ketentuan lebih lanjut mengenai Industri Strategis sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 84 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "sumber": "uu-2014-3",
@@ -6048,137 +7039,337 @@
          "id": "pasal-101/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Setiap kegiatan usaha Industri wajib memiliki izin usaha Industri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Setiap kegiatan usaha Industri wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-101/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
          "teks": "Kegiatan usaha Industri sebagaimana dimaksud pada ayat (1) meliputi:",
-         "verifikasi": "pdf-resmi",
+         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-101/ayat-2/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
            "teks": "Industri kecil;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-101/ayat-2/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
            "teks": "Industri menengah; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-101/ayat-2/huruf-c",
            "tipe": "huruf",
            "nomor": "c.",
            "teks": "Industri besar.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-101/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Izin usaha Industri sebagaimana dimaksud pada ayat (1) diberikan oleh Menteri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
-        },
-        {
-         "id": "pasal-101/ayat-4",
-         "tipe": "ayat",
-         "nomor": "(4)",
-         "teks": "Menteri dapat melimpahkan sebagian kewenangan pemberian izin usaha Industri kepada gubernur dan bupati/walikota.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
-        },
-        {
-         "id": "pasal-101/ayat-5",
-         "tipe": "ayat",
-         "nomor": "(5)",
-         "teks": "Izin usaha Industri sebagaimana dimaksud pada ayat (1) meliputi:",
-         "verifikasi": "pdf-resmi",
+         "teks": "Perusahaan Industri yang telah memperoleh Perizinan Berusaha sebagaimana dimaksud pada ayat (1) wajib:",
+         "verifikasi": "draf",
          "anak": [
           {
-           "id": "pasal-101/ayat-5/huruf-a",
+           "id": "pasal-101/ayat-3/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "Izin Usaha Industri Kecil;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "teks": "melaksanakan kegiatan usaha Industri sesuai dengan Perizinan Berusaha yang dimiliki; dan",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
-           "id": "pasal-101/ayat-5/huruf-b",
-           "tipe": "huruf",
-           "nomor": "b.",
-           "teks": "Izin Usaha Industri Menengah; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
-          },
-          {
-           "id": "pasal-101/ayat-5/huruf-c",
-           "tipe": "huruf",
-           "nomor": "c.",
-           "teks": "Izin Usaha Industri Besar.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
-          }
-         ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
-        },
-        {
-         "id": "pasal-101/ayat-6",
-         "tipe": "ayat",
-         "nomor": "(6)",
-         "teks": "Perusahaan Industri yang telah memperoleh izin sebagaimana dimaksud pada ayat (5) wajib:",
-         "verifikasi": "pdf-resmi",
-         "anak": [
-          {
-           "id": "pasal-101/ayat-6/huruf-a",
-           "tipe": "huruf",
-           "nomor": "a.",
-           "teks": "melaksanakan kegiatan usaha Industri sesuai dengan izin yang dimiliki; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
-          },
-          {
-           "id": "pasal-101/ayat-6/huruf-b",
+           "id": "pasal-101/ayat-3/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
            "teks": "menjamin keamanan dan keselamatan alat, proses, hasil produksi, penyimpanan, serta pengangkutan.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-101",
+          "tipe": "pasal",
+          "nomor": "101",
+          "anak": [
+           {
+            "id": "pasal-101/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Setiap kegiatan usaha Industri wajib memiliki izin usaha Industri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-101/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Kegiatan usaha Industri sebagaimana dimaksud pada ayat (1) meliputi:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-101/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Industri kecil;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-101/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Industri menengah; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-101/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "Industri besar.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-101/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Izin usaha Industri sebagaimana dimaksud pada ayat (1) diberikan oleh Menteri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-101/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Menteri dapat melimpahkan sebagian kewenangan pemberian izin usaha Industri kepada gubernur dan bupati/walikota.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-101/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Izin usaha Industri sebagaimana dimaksud pada ayat (1) meliputi:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-101/ayat-5/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Izin Usaha Industri Kecil;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-101/ayat-5/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Izin Usaha Industri Menengah; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-101/ayat-5/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "Izin Usaha Industri Besar.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-101/ayat-6",
+            "tipe": "ayat",
+            "nomor": "(6)",
+            "teks": "Perusahaan Industri yang telah memperoleh izin sebagaimana dimaksud pada ayat (5) wajib:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-101/ayat-6/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "melaksanakan kegiatan usaha Industri sesuai dengan izin yang dimiliki; dan",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-101/ayat-6/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "menjamin keamanan dan keselamatan alat, proses, hasil produksi, penyimpanan, serta pengangkutan.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 101 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-101",
+          "tipe": "pasal",
+          "nomor": "101",
+          "anak": [
+           {
+            "id": "pasal-101/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Setiap kegiatan usaha Industri wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-101/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Kegiatan usaha Industri sebagaimana dimaksud pada ayat (1) meliputi:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-101/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Industri kecil;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-101/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Industri menengah; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-101/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "Industri besar.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-101/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Perusahaan Industri yang telah memperoleh Perizinan Berusaha sebagaimana dimaksud pada ayat (1) wajib:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-101/ayat-3/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "melaksanakan kegiatan usaha Industri sesuai dengan Perizinan Berusaha yang dimiliki; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-101/ayat-3/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "menjamin keamanan dan keselamatan alat, proses, hasil produksi, penyimpanan, serta pengangkutan.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 101 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-102",
@@ -6192,7 +7383,8 @@
          "teks": "Industri kecil sebagaimana dimaksud dalam Pasal 101 ayat (2) huruf a ditetapkan berdasarkan jumlah tenaga kerja dan nilai investasi tidak termasuk tanah dan bangunan tempat usaha.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "berlaku_mulai": "2014-09-15",
+         "status": "dicabut"
         },
         {
          "id": "pasal-102/ayat-2",
@@ -6201,7 +7393,8 @@
          "teks": "Industri menengah sebagaimana dimaksud dalam Pasal 101 ayat (2) huruf b ditetapkan berdasarkan jumlah tenaga kerja dan/atau nilai investasi.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "berlaku_mulai": "2014-09-15",
+         "status": "dicabut"
         },
         {
          "id": "pasal-102/ayat-3",
@@ -6210,7 +7403,8 @@
          "teks": "Industri besar sebagaimana dimaksud dalam Pasal 101 ayat (2) huruf c ditetapkan berdasarkan jumlah tenaga kerja dan/atau nilai investasi.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "berlaku_mulai": "2014-09-15",
+         "status": "dicabut"
         },
         {
          "id": "pasal-102/ayat-4",
@@ -6219,11 +7413,31 @@
          "teks": "Besaran jumlah tenaga kerja dan nilai investasi untuk Industri kecil, Industri menengah, dan Industri besar ditetapkan oleh Menteri.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "berlaku_mulai": "2014-09-15",
+         "status": "dicabut"
         }
        ],
        "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "berlaku_mulai": "2014-09-15",
+       "status": "dicabut",
+       "riwayat": [
+        {
+         "aksi": "dicabut",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "catatan": "Pasal 102 dihapus."
+        },
+        {
+         "aksi": "dicabut",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "catatan": "Pasal 102 dihapus."
+        }
+       ]
       },
       {
        "id": "pasal-103",
@@ -6274,28 +7488,48 @@
        "id": "pasal-104",
        "tipe": "pasal",
        "nomor": "104",
-       "anak": [
+       "teks": "Setiap Perusahaan Industri yang memenuhi Perizinan Berusaha sebagaimana dimaksud dalam Pasal 101 ayat (3) dapat melakukan perluasan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "riwayat": [
         {
-         "id": "pasal-104/ayat-1",
-         "tipe": "ayat",
-         "nomor": "(1)",
-         "teks": "Setiap Perusahaan Industri yang memiliki izin usaha Industri sebagaimana dimaksud dalam Pasal 101 ayat (6) dapat melakukan perluasan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
-        },
-        {
-         "id": "pasal-104/ayat-2",
-         "tipe": "ayat",
-         "nomor": "(2)",
-         "teks": "Perusahaan Industri yang melakukan perluasan dengan menggunakan sumber daya alam yang diwajibkan memiliki Analisis Mengenai Dampak Lingkungan wajib memiliki izin perluasan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-104",
+          "tipe": "pasal",
+          "nomor": "104",
+          "anak": [
+           {
+            "id": "pasal-104/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Setiap Perusahaan Industri yang memiliki izin usaha Industri sebagaimana dimaksud dalam Pasal 101 ayat (6) dapat melakukan perluasan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-104/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Perusahaan Industri yang melakukan perluasan dengan menggunakan sumber daya alam yang diwajibkan memiliki Analisis Mengenai Dampak Lingkungan wajib memiliki izin perluasan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 104 diubah sehingga berbunyi sebagai berikut:"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-105",
@@ -6306,50 +7540,174 @@
          "id": "pasal-105/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Setiap kegiatan usaha Kawasan Industri wajib memiliki izin usaha Kawasan Industri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Setiap kegiatan usaha Kawasan Industri wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-105/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Izin usaha Kawasan Industri sebagaimana dimaksud pada ayat (1) diberikan oleh Menteri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Perusahaan Kawasan Industri wajib memenuhi standar Kawasan Industri yang ditetapkan oleh Pemerintah Pusat.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-105/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Menteri dapat melimpahkan sebagian kewenangan pemberian izin usaha Kawasan Industri kepada gubernur dan bupati/walikota.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
-        },
-        {
-         "id": "pasal-105/ayat-4",
-         "tipe": "ayat",
-         "nomor": "(4)",
-         "teks": "Perusahaan Kawasan Industri wajib memenuhi standar Kawasan Industri yang ditetapkan oleh Menteri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
-        },
-        {
-         "id": "pasal-105/ayat-5",
-         "tipe": "ayat",
-         "nomor": "(5)",
-         "teks": "Setiap Perusahaan Kawasan Industri yang melakukan perluasan wajib memiliki izin perluasan Kawasan Industri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Setiap Perusahaan Kawasan Industri yang melakukan perluasan wajib memiliki Perizinan Berusaha dari Pemerintah Pusat.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-105",
+          "tipe": "pasal",
+          "nomor": "105",
+          "anak": [
+           {
+            "id": "pasal-105/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Setiap kegiatan usaha Kawasan Industri wajib memiliki izin usaha Kawasan Industri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-105/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Izin usaha Kawasan Industri sebagaimana dimaksud pada ayat (1) diberikan oleh Menteri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-105/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Menteri dapat melimpahkan sebagian kewenangan pemberian izin usaha Kawasan Industri kepada gubernur dan bupati/walikota.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-105/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Perusahaan Kawasan Industri wajib memenuhi standar Kawasan Industri yang ditetapkan oleh Menteri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-105/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Setiap Perusahaan Kawasan Industri yang melakukan perluasan wajib memiliki izin perluasan Kawasan Industri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 105 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-105",
+          "tipe": "pasal",
+          "nomor": "105",
+          "anak": [
+           {
+            "id": "pasal-105/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Setiap kegiatan usaha Kawasan Industri wajib memenuhi Penzinan Berusaha dari Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-105/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Perusahaan Kawasan Industri wajib memenuhi standar Kawasan Industri yang ditetapkan oleh Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-105/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Setiap Perusahaan Kawasan Industri yang melakukan perluasan wajib memiliki PerLinan Berusaha dari Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 105 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-105a",
+       "tipe": "pasal",
+       "nomor": "105A",
+       "teks": "Perizinan Berusaha untuk kegiatan usaha Kawasan Industri yang berada di kawasan ekonomi khusus dilakukan sesuai dengan norma, standar, prosedur, dan kriteria di bidang kawasan ekonomi khusus yang ditetapkan oleh Pemerintah Pusat.",
+       "verifikasi": "draf",
+       "anak": [],
+       "riwayat": [
+        {
+         "aksi": "disisipkan",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "catatan": "Di antara Pasal 105 dan Pasal 106 disisipkan I (satu) pasal, yakni Pasal 1O5A sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "disisipkan ulang",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "catatan": "Di antara Pasal 105 dan Pasal 106 disisipkan 1 (satu) pasal, yakni Pasal 105A sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-106",
@@ -6360,90 +7718,350 @@
          "id": "pasal-106/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Perusahaan Industri yang akan menjalankan Industri wajib berlokasi di Kawasan Industri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Perrrsahaan Industri yang akan menjalankan Industri wajib berlokasi di Kawasan lndustri.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-106/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
          "teks": "Kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud pada ayat (1) dikecualikan bagi Perusahaan Industri yang akan menjalankan Industri dan berlokasi di daerah kabupaten/kota yang:",
-         "verifikasi": "pdf-resmi",
+         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-106/ayat-2/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
            "teks": "belum memiliki Kawasan Industri;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-106/ayat-2/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
-           "teks": "telah memiliki Kawasan Industri tetapi seluruh kaveling Industri dalam Kawasan Industrinya telah habis;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "teks": "telah memiliki Kawasan Industri tetapi seluruh kaveling Industri dalam Kawasan Industrinya telah habis; atau",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-106/ayat-2/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "kawasan ekonomi khusus yang memiliki zorta Industri.",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-106/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Pengecualian terhadap kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud pada ayat (1) juga berlaku bagi:",
-         "verifikasi": "pdf-resmi",
+         "teks": "Pengecualian terhadap kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud pada ayat (1)juga berlaku bagi perusahaan:",
+         "verifikasi": "draf",
          "anak": [
           {
            "id": "pasal-106/ayat-3/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "Industri kecil dan Industri menengah yang tidak berpotensi menimbulkan pencemaran lingkungan hidup yang berdampak luas; atau",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "teks": "Industri kecil;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           },
           {
            "id": "pasal-106/ayat-3/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
+           "teks": "Industri menengah yang tidak berpotensi menimbulkan pencemaran lingkungan hidup yang berdampak luas; atau",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-106/ayat-3/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
            "teks": "Industri yang menggunakan Bahan Baku khusus dan/atau proses produksinya memerlukan lokasi khusus.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2014-3",
-           "berlaku_mulai": "2014-09-15"
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
           }
          ],
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-106/ayat-4",
          "tipe": "ayat",
          "nomor": "(4)",
-         "teks": "Perusahaan Industri yang dikecualikan sebagaimana dimaksud pada ayat (2) dan Perusahaan Industri menengah sebagaimana dimaksud pada ayat (3) huruf a wajib berlokasi di kawasan peruntukan Industri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Perusahaan Industri yang dikecualikan sebagaimana dimaksud pada ayat (2) dan Perusahaan Industri menengah sebagaimana dimaksud pada ayat (3) huruf b wajib berlokasi di kawasan peruntukan Industri.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-106/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Industri sebagaimana dimaksud pada ayat (3) ditetapkan oleh Menteri.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Industri sebagaimana dimaksud pada ayat (3) ditetapkan oleh Pemerintah Pusat.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-106",
+          "tipe": "pasal",
+          "nomor": "106",
+          "anak": [
+           {
+            "id": "pasal-106/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Perusahaan Industri yang akan menjalankan Industri wajib berlokasi di Kawasan Industri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-106/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud pada ayat (1) dikecualikan bagi Perusahaan Industri yang akan menjalankan Industri dan berlokasi di daerah kabupaten/kota yang:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-106/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "belum memiliki Kawasan Industri;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-106/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "telah memiliki Kawasan Industri tetapi seluruh kaveling Industri dalam Kawasan Industrinya telah habis;",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-106/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pengecualian terhadap kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud pada ayat (1) juga berlaku bagi:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-106/ayat-3/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Industri kecil dan Industri menengah yang tidak berpotensi menimbulkan pencemaran lingkungan hidup yang berdampak luas; atau",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             },
+             {
+              "id": "pasal-106/ayat-3/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Industri yang menggunakan Bahan Baku khusus dan/atau proses produksinya memerlukan lokasi khusus.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2014-3",
+              "berlaku_mulai": "2014-09-15"
+             }
+            ],
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-106/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Perusahaan Industri yang dikecualikan sebagaimana dimaksud pada ayat (2) dan Perusahaan Industri menengah sebagaimana dimaksud pada ayat (3) huruf a wajib berlokasi di kawasan peruntukan Industri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-106/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Industri sebagaimana dimaksud pada ayat (3) ditetapkan oleh Menteri.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 106 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-106",
+          "tipe": "pasal",
+          "nomor": "106",
+          "anak": [
+           {
+            "id": "pasal-106/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Perusahaan Industri yang akan menjalankan Industri wajib berlokasi di Kawasan Industri.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-106/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud pada ayat (1) dikecualikan bagi Perusahaan Industri yang akan menjalankan Industri dan berlokasi di daerah kabupaten/kota yang:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-106/ayat-2/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "belum memiliki Kawasan Industri;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-106/ayat-2/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "telah memiliki Kawasan Industri tetapi seluruh kaveling Industri dalam Kawasan Industrinya telah habis; atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-106/ayat-2/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "kawasan ekonomi khusus yang memiliki zona Industri.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-106/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Pengecualian terhadap kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud pada ayat (1) juga berlaku bagi perusahaan:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-106/ayat-3/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Industri kecil;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-106/ayat-3/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Industri menengah yang tidak berpotensi menimbulkan pencemaran lingkungan hidup yang berdampak luas; atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-106/ayat-3/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "Industri yang menggunakan Bahan Baku khusus dan/atau proses produksinya memerlukan lokasi khusus.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-106/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Perusahaan Industri yang dikecualikan sebagaimana dimaksud pada ayat (2) dan Perusahaan Industri menengah sebagaimana dimaksud pada ayat (3) huruf b wajib berlokasi di kawasan peruntukan Industri.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-106/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Industri sebagaimana dimaksud pada ayat (3) ditetapkan oleh Pemerintah Pusat.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 106 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-107",
@@ -6532,10 +8150,48 @@
        "id": "pasal-108",
        "tipe": "pasal",
        "nomor": "108",
-       "teks": "Ketentuan lebih lanjut mengenai pemberian izin usaha Industri sebagaimana dimaksud dalam Pasal 101, izin perluasan sebagaimana dimaksud dalam Pasal 104, izin usaha Kawasan Industri sebagaimana dimaksud dalam Pasal 105 dan kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud dalam Pasal 106 serta tata cara pengenaan sanksi administratif dan besaran denda administratif sebagaimana dimaksud dalam Pasal 107 diatur dalam Peraturan Pemerintah.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "teks": "Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud dalam Pasal 101, Pasal lO4, Pasal 105, dan kewajiban berlokasi di Kawasan lndustri sebagaimana dimaksud dalam Pasal 106 serta tata cara pengenaan sanksi administratif dan besaran denda administratif sebagaimana dimaksud dalam Pasal 107 diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "draf",
+       "anak": [],
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-108",
+          "tipe": "pasal",
+          "nomor": "108",
+          "teks": "Ketentuan lebih lanjut mengenai pemberian izin usaha Industri sebagaimana dimaksud dalam Pasal 101, izin perluasan sebagaimana dimaksud dalam Pasal 104, izin usaha Kawasan Industri sebagaimana dimaksud dalam Pasal 105 dan kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud dalam Pasal 106 serta tata cara pengenaan sanksi administratif dan besaran denda administratif sebagaimana dimaksud dalam Pasal 107 diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         "catatan": "Ketentuan Pasal 108 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-108",
+          "tipe": "pasal",
+          "nomor": "108",
+          "teks": "Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud dalam Pasal 101, Pasal 104, Pasal 105, dan kewajiban berlokasi di Kawasan Industri sebagaimana dimaksud dalam Pasal 106 serta tata cara pengenaan sanksi administratif dan besaran denda administratif sebagaimana dimaksud dalam Pasal 107 diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 108 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
      "sumber": "uu-2014-3",
@@ -6986,51 +8642,189 @@
        "tipe": "ayat",
        "nomor": "(1)",
        "teks": "Masyarakat dapat berperan serta dalam perencanaan, pelaksanaan, dan pengawasan pembangunan Industri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-115/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
        "teks": "Peran serta masyarakat sebagaimana dimaksud pada ayat (1) diwujudkan dalam bentuk:",
-       "verifikasi": "pdf-resmi",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-115/ayat-2/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
          "teks": "pemberian saran, pendapat, dan usul; dan/atau",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-115/ayat-2/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
          "teks": "penyampaian informasi dan/atau laporan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-115/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Ketentuan lebih lanjut mengenai peran serta masyarakat dalam pembangunan Industri sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "teks": "Ketentuan lebih lanjut mengenai peran serta masyarakat dalam pembangunan Industri sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2014-3",
-     "berlaku_mulai": "2014-09-15"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-115",
+        "tipe": "pasal",
+        "nomor": "115",
+        "anak": [
+         {
+          "id": "pasal-115/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Masyarakat dapat berperan serta dalam perencanaan, pelaksanaan, dan pengawasan pembangunan Industri.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         {
+          "id": "pasal-115/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Peran serta masyarakat sebagaimana dimaksud pada ayat (1) diwujudkan dalam bentuk:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-115/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pemberian saran, pendapat, dan usul; dan/atau",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-115/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "penyampaian informasi dan/atau laporan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         {
+          "id": "pasal-115/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Ketentuan lebih lanjut mengenai peran serta masyarakat dalam pembangunan Industri sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         }
+        ],
+        "sumber": "uu-2014-3",
+        "berlaku_mulai": "2014-09-15"
+       },
+       "catatan": "Ketentuan Pasal 115 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-115",
+        "tipe": "pasal",
+        "nomor": "115",
+        "anak": [
+         {
+          "id": "pasal-115/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Masyarakat dapat berperan serta dalam perencanaan, pelaksanaan, dan pengawasan pembangunan Industri.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-115/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Peran serta masyarakat sebagaimana dimaksud pada ayat (1) diwujudkan dalam bentuk:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-115/ayat-2/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pemberian saran, pendapat, dan usul; dan/ atau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-115/ayat-2/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "penyampaian informasi dan/ atau laporan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-115/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Ketentuan lebih lanjut mengenai peran serta masyarakat dalam pembangunan Industri sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 115 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-116",
@@ -7078,151 +8872,489 @@
        "id": "pasal-117/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Menteri melaksanakan pengawasan dan pengendalian terhadap kegiatan usaha Industri dan kegiatan usaha Kawasan Industri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "teks": "Pemerintah Pusat melaksanakan pengawasan dan pengendalian terhadap kegiatan usaha Industri dan kegiatan usaha Kawasan Industri.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-117/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
        "teks": "Pengawasan dan pengendalian sebagaimana dimaksud pada ayat (1) dilakukan untuk mengetahui pemenuhan dan kepatuhan terhadap peraturan di bidang Perindustrian yang dilaksanakan oleh Perusahaan Industri dan Perusahaan Kawasan Industri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-117/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
        "teks": "Pemenuhan dan kepatuhan terhadap peraturan di bidang Perindustrian yang dilaksanakan oleh Perusahaan Industri dan Perusahaan Kawasan Industri sebagaimana dimaksud pada ayat (2) paling sedikit meliputi:",
-       "verifikasi": "pdf-resmi",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-117/ayat-3/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
          "teks": "sumber daya manusia Industri;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
          "teks": "pemanfaatan sumber daya alam;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
          "teks": "manajemen energi;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
          "teks": "manajemen air;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-e",
          "tipe": "huruf",
          "nomor": "e.",
          "teks": "SNI, spesifikasi teknis, dan/atau pedoman tata cara;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-f",
          "tipe": "huruf",
          "nomor": "f.",
          "teks": "Data Industri dan Data Kawasan Industri;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-g",
          "tipe": "huruf",
          "nomor": "g.",
          "teks": "standar Industri Hijau;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-h",
          "tipe": "huruf",
          "nomor": "h.",
          "teks": "standar Kawasan Industri;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-i",
          "tipe": "huruf",
          "nomor": "i.",
-         "teks": "perizinan Industri dan perizinan Kawasan Industri; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "teks": "Perizinan Berusaha untuk kegiatan usaha Industri dan Perizinan Berusaha untuk kegiatan usaha Kawasan Industri; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-117/ayat-3/huruf-j",
          "tipe": "huruf",
          "nomor": "j.",
          "teks": "keamanan dan keselamatan alat, proses, hasil produksi, penyimpanan, dan pengangkutan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2014-3",
-         "berlaku_mulai": "2014-09-15"
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-117/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Pelaksanaan pengawasan dan pengendalian sebagaimana dimaksud pada ayat (1) dilakukan oleh pejabat dari unit kerja di bawah Menteri dan/atau lembaga terakreditasi yang ditunjuk oleh Menteri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "teks": "Dalam pelaksanaan pengawasan dan pengendalian sebagaimana dimaksud pada ayat (1), Pemerintah Pusat dapat menunjuk lembaga terakreditasi.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-117/ayat-5",
        "tipe": "ayat",
        "nomor": "(5)",
-       "teks": "Pemerintah, Pemerintah Daerah provinsi, dan Pemerintah Daerah kabupaten/kota secara bersama-sama atau sesuai dengan kewenangan masing-masing melaksanakan pengawasan dan pengendalian sesuai dengan ketentuan peraturan perundang-undangan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
-      },
-      {
-       "id": "pasal-117/ayat-6",
-       "tipe": "ayat",
-       "nomor": "(6)",
-       "teks": "Ketentuan lebih lanjut mengenai tata cara pengawasan dan pengendalian usaha Industri dan usaha Kawasan Industri diatur dengan Peraturan Menteri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2014-3",
-       "berlaku_mulai": "2014-09-15"
+       "teks": "Ketentuan lebih lanjut mengenai tata cara pengawasan dan pengendalian usaha Industri dan usaha Kawasan Industri diatur dalam Peraturan Pemerintah. ParagrafS. . .",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2014-3",
-     "berlaku_mulai": "2014-09-15"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2014-3",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-117",
+        "tipe": "pasal",
+        "nomor": "117",
+        "anak": [
+         {
+          "id": "pasal-117/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Menteri melaksanakan pengawasan dan pengendalian terhadap kegiatan usaha Industri dan kegiatan usaha Kawasan Industri.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         {
+          "id": "pasal-117/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pengawasan dan pengendalian sebagaimana dimaksud pada ayat (1) dilakukan untuk mengetahui pemenuhan dan kepatuhan terhadap peraturan di bidang Perindustrian yang dilaksanakan oleh Perusahaan Industri dan Perusahaan Kawasan Industri.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         {
+          "id": "pasal-117/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pemenuhan dan kepatuhan terhadap peraturan di bidang Perindustrian yang dilaksanakan oleh Perusahaan Industri dan Perusahaan Kawasan Industri sebagaimana dimaksud pada ayat (2) paling sedikit meliputi:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-117/ayat-3/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "sumber daya manusia Industri;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pemanfaatan sumber daya alam;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "manajemen energi;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "manajemen air;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "SNI, spesifikasi teknis, dan/atau pedoman tata cara;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "Data Industri dan Data Kawasan Industri;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "standar Industri Hijau;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "standar Kawasan Industri;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "perizinan Industri dan perizinan Kawasan Industri; dan",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "keamanan dan keselamatan alat, proses, hasil produksi, penyimpanan, dan pengangkutan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2014-3",
+            "berlaku_mulai": "2014-09-15"
+           }
+          ],
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         {
+          "id": "pasal-117/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Pelaksanaan pengawasan dan pengendalian sebagaimana dimaksud pada ayat (1) dilakukan oleh pejabat dari unit kerja di bawah Menteri dan/atau lembaga terakreditasi yang ditunjuk oleh Menteri.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         {
+          "id": "pasal-117/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Pemerintah, Pemerintah Daerah provinsi, dan Pemerintah Daerah kabupaten/kota secara bersama-sama atau sesuai dengan kewenangan masing-masing melaksanakan pengawasan dan pengendalian sesuai dengan ketentuan peraturan perundang-undangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         },
+         {
+          "id": "pasal-117/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Ketentuan lebih lanjut mengenai tata cara pengawasan dan pengendalian usaha Industri dan usaha Kawasan Industri diatur dengan Peraturan Menteri.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2014-3",
+          "berlaku_mulai": "2014-09-15"
+         }
+        ],
+        "sumber": "uu-2014-3",
+        "berlaku_mulai": "2014-09-15"
+       },
+       "catatan": "Ketentuan Pasal 117 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2014-3",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-117",
+        "tipe": "pasal",
+        "nomor": "117",
+        "anak": [
+         {
+          "id": "pasal-117/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemerintah Pusat melaksanakan pengawasan dan pengendalian terhadap kegiatan usaha Industri dan kegiatan usaha Kawasan Industri.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-117/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pengawasan dan pengendalian sebagaimana dimaksud pada ayat (1) dilakukan untuk mengetahui pemenuhan dan kepatuhan terhadap peratur€rn di bidang Perindustrian yang dilaksanakan oleh Perusahaan Industri dan Perusahaan Kawasan Industri.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-117/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pemenuhan dan kepatuhan terhadap peraturan di bidang Perindustrian yang dilaksanakan oleh Perusahaan Industri dan Perusahaan Kawasan Industri s6lagaimana dimaksud pada ayat (2) paling sedikit meliputi:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-117/ayat-3/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "sumber daya manusia Industri;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pemanfaatan sumber daya alam;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "manajemen energi;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "manajemen air;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "SNI, spesifrkasi teknis, dan/ atau pedoman tata cara;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "Data Industri dan Data Kawasan Industri;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "standar Industri Hijau;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "standar Kawasan Industri;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "Perizinan Berusaha untuk kegiatan usaha Industri dan Perizinan Berusaha untuk kegiatan usaha Kawasan Industri; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-117/ayat-3/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "keamanan dan keselamatan alat, proses, hasil produksi, penyimpanan, dan pengangkutan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-117/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Dalam pelaksanaan pengawasan dan pengendalian sebagaimana dimaksud pada ayat (1), Pemerintah Pusat dapat menunjuk lembaga terakreditasi.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-117/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Ketentuan lebih lanjut mengenai tata. cara pengawasan dan pengendalian usaha Industri dan usaha Kawasan Industri diatur dalam Peraturan Pemerintah. Paragraf 8 . . . Il -2AO-",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 117 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-118",
@@ -7520,10 +9652,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 686,
-  "pdf-resmi": 686,
+  "total": 680,
+  "pdf-resmi": 593,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 87,
   "lainnya": 0
  },
  "istilah": [

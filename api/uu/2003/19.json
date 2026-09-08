@@ -47,18 +47,6 @@
   ],
   "perubahan_belum_dienkode": [
    {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
-   },
-   {
     "id": "uu-2025-1"
    },
    {
@@ -66,7 +54,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.311Z",
+ "dihasilkan": "2026-09-08T10:55:54.481Z",
  "timeline": [
   {
    "tanggal": "2003-06-19",
@@ -76,6 +64,72 @@
    "judul_pelaku": "Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-2003-19",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 2,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan ."
+    },
+    {
+     "instruksi": "Ketentuan judul BAB V diubah sehingga berbunyi sebagai berikut:",
+     "unit": "bab-5"
+    },
+    {
+     "instruksi": "replace pasal-121: unit itu tidak ada pada uu-2003-19 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 66 diubah sehi",
+     "unit": "pasal-66"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (3): Ketentuan . | Ketentuan judul BAB V diubah sehingga berbunyi sebagai berikut: | replace pasal-121: unit itu tidak ada pada uu-2003-19 pada saat operasi ini dite"
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-2003-19",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 2,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan judul BAB V diubah sehingga berbunyi sebagai berikut:",
+     "unit": "bab-5"
+    },
+    {
+     "instruksi": "replace pasal-121: unit itu tidak ada pada uu-2003-19 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 66 diubah sehi",
+     "unit": "pasal-66"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): Ketentuan judul BAB V diubah sehingga berbunyi sebagai berikut: | replace pasal-121: unit itu tidak ada pada uu-2003-19 pada saat operasi ini dite"
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-2003-19",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 2,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan"
+    },
+    {
+     "instruksi": "Ketentuan judul BAB V diubah sehingga berbunyi sebagai berikut:",
+     "unit": "bab-5"
+    },
+    {
+     "instruksi": "replace pasal-121: unit itu tidak ada pada uu-2003-19 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 66 diubah sehi",
+     "unit": "pasal-66"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (3): Ketentuan | Ketentuan judul BAB V diubah sehingga berbunyi sebagai berikut: | replace pasal-121: unit itu tidak ada pada uu-2003-19 pada saat operasi ini dite"
   }
  ],
  "peringatan": [],
@@ -1621,10 +1675,153 @@
        "id": "pasal-48",
        "tipe": "pasal",
        "nomor": "48",
-       "teks": "Dalam melaksanakan tugasnya, Direksi wajib mencurahkan tenaga, pikiran, dan perhatian secara penuh pada tugas, kewajiban, dan pencapaian tujuan Perum.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2003-19",
-       "berlaku_mulai": "2003-06-19"
+       "anak": [
+        {
+         "id": "pasal-48/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Untuk menjalankan Penelitian, Pengembangan, Pengkajian, dan Penerapan, serta Invensi dan Inovasi yang terintegrasi dibentuk badan riset dan inovasi nasional.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-48/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Untuk menjalankan Penelitian, Pengembangan, Pengkajian, dan Penerapan, serta Invensi dan Inovasi yang terintegrasi di daerah, Pemerintah Daerah membentuk badan.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-48/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Ketentuan lebih lanjut mengenai badan riset dan inovasi nasional sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Presiden.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-11/amandemen-uu-2003-19",
+         "pelaku": "uu-2020-11",
+         "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+         "tanggal": "2020-11-02",
+         "sebelum": {
+          "id": "pasal-48",
+          "tipe": "pasal",
+          "nomor": "48",
+          "teks": "Dalam melaksanakan tugasnya, Direksi wajib mencurahkan tenaga, pikiran, dan perhatian secara penuh pada tugas, kewajiban, dan pencapaian tujuan Perum.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2003-19",
+          "berlaku_mulai": "2003-06-19"
+         },
+         "catatan": "Ketentuan Pasal 66 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-2003-19",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-48",
+          "tipe": "pasal",
+          "nomor": "48",
+          "anak": [
+           {
+            "id": "pasal-48/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Untuk menjalankan Penelitian, Pengembangan, Pengkajian, dan Penerapan, serta Invensi dan Inovasi yang terintegrasi dibentuk badan riset dan inovasi nasional.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-48/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Untuk menjalankan Penelitian, Pengembangan, Pengkajian, dan Penerapan, serta Invensi dan Inovasi yang terintegrasi di daerah, Pemerintah Daerah membentuk badan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-48/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Ketentuan lebih lanjut mengenai badan riset dan inovasi nasional sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Presiden.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         "catatan": "Ketentuan Pasal 66 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-2003-19",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-48",
+          "tipe": "pasal",
+          "nomor": "48",
+          "anak": [
+           {
+            "id": "pasal-48/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Untuk menjalankan Penelitian, Pengembangan, Pengkajian, dan Penerapan, serta Invensi dan Inovasi yang terintegrasi dibentuk badan riset dan inovasi nasional.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-48/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Untuk menjalankan Penelitian, Pengembangan, Pengkajian, dan Penerapan, serta Invensi dan Inovasi yang terintegrasi di daerah, Pemerintah Daerah membentuk badan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-48/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Ketentuan lebih lanjut mengenai badan riset dan inovasi nasional sebagaimana dimaksud pada ayat (1) diatur dalam Peratural Presiden.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 66 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-49",
@@ -2096,23 +2293,449 @@
        "id": "pasal-66/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Pemerintah dapat memberikan penugasan khusus kepada BUMN untuk menyelenggarakan fungsi kemanfaatan umum dengan tetap memperhatikan maksud dan tujuan kegiatan BUMN.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2003-19",
-       "berlaku_mulai": "2003-06-19"
+       "teks": "Pemerintah Pusat dapat memberikan penugasan khusus kepada BUMN untuk menyelenggarakan fungsi kemanfaatan umum serta riset dan inovasi nasional.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-66/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Setiap penugasan sebagaimana dimaksud dalam ayat (1) harus terlebih dahulu mendapatkan persetujuan RUPS/Menteri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2003-19",
-       "berlaku_mulai": "2003-06-19"
+       "teks": "Penugasan khusus kepada BUMN sebagaimana dimaksud pada ayat (1) dilakukan dengan tetap memperhatikan maksud dan tujuan, kegiatan usaha BUMN, serta mempertimbangkan kemampuan BUMN.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-66/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Rencana penugasan khusus sebagaimana dimaksud pada ayat (1) dikaji bersama antara BUMN yang bersangkutan dengan Pemerintah Pusat.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-66/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Apabila penugasan tersebut secara finansial tidak fisibel, Pemerintah Pusat harus memberikan kompensasi atas semua biaya yang telah dikeluarkan oleh BUMN tersebut, termasuk margin yang diharapkan sepanjang dalam tingkat kewajaran sesuai dengan penugasan yang diberikan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-66/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Penugasan kepada BUMN sebagaimana dimaksud pada ayat (1) harus terlebih dahulu mendapatkan persetujuan RUPS atau Menteri.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-66/ayat-6",
+       "tipe": "ayat",
+       "nomor": "(6)",
+       "teks": "BUMN dalam melaksanakan penugasan khusus sebagaimana dimaksud pada ayat (1) dapat bekerja sama dengan:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-66/ayat-6/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "badan usaha milik swasta;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-66/ayat-6/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "badan usaha milik daerah;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-66/ayat-6/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "koperasi;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-66/ayat-6/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "lembaga penelitian dan pengembangan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-66/ayat-6/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "lembaga pengkajian dan penerapan; dan/atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-66/ayat-6/huruf-g",
+         "tipe": "huruf",
+         "nomor": "g.",
+         "teks": "perguruan tinggi.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2003-19",
-     "berlaku_mulai": "2003-06-19"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-2003-19",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-66",
+        "tipe": "pasal",
+        "nomor": "66",
+        "anak": [
+         {
+          "id": "pasal-66/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemerintah dapat memberikan penugasan khusus kepada BUMN untuk menyelenggarakan fungsi kemanfaatan umum dengan tetap memperhatikan maksud dan tujuan kegiatan BUMN.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2003-19",
+          "berlaku_mulai": "2003-06-19"
+         },
+         {
+          "id": "pasal-66/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Setiap penugasan sebagaimana dimaksud dalam ayat (1) harus terlebih dahulu mendapatkan persetujuan RUPS/Menteri.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2003-19",
+          "berlaku_mulai": "2003-06-19"
+         }
+        ],
+        "sumber": "uu-2003-19",
+        "berlaku_mulai": "2003-06-19"
+       },
+       "catatan": "Ketentuan Pasal 66 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2003-19",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-66",
+        "tipe": "pasal",
+        "nomor": "66",
+        "anak": [
+         {
+          "id": "pasal-66/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemerintah Pusat dapat memberikan penugasan khusus kepada BUMN untuk menyelenggarakan fungsi kemanfaatan umum serta riset dan inovasi nasional.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-66/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Penugasan khusus kepada BUMN sebagaimana dimaksud pada ayat (1) dilakukan dengan tetap memperhatikan maksud dan tujuan, kegiatan usaha BUMN, serta mempertimbangkan kemampuan BUMN.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-66/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Rencana penugasan khusus sebagaimana dimaksud pada ayat (1) dikaji bersama antara BUMN yang bersangkutan dengan Pemerintah Pusat.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-66/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Apabila penugasan tersebut secara finansial tidak fisibel, Pemerintah Pusat harts memberikan kompensasi atas semua biaya yang telah dikeluarkan oleh BUMN tersebut, termasuk margin yang diharapkan sepanjang dalam tingkat kewajaran sesuai dengan penugasan yang diberikan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-66/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Penugasan kepada BUMN sebagaimana dimaksud pada ayat (1) harus terlebih dahulu mendapatkan persetujuan RUPS atau Menteri.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-66/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "BUMN dalam melaksanakan penugasan khusus sebagaimana dimaksud pada ayat (1) dapat bekerja sama dengan:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-66/ayat-6/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "badan usaha milik swasta;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "badan usaha milik daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "koperasi;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "BUMN;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "lembaga penelitian dan pengembangan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "lembaga pengkajian dan penerapan; dan/atau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "perguruan tinggi.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 66 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2003-19",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-66",
+        "tipe": "pasal",
+        "nomor": "66",
+        "anak": [
+         {
+          "id": "pasal-66/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemerintah Pusat dapat memberikan penugasan khusus kepada BUMN untuk menyelenggarakan fungsi kemanfaatan umum serta riset dan inovasi nasional.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-66/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Penugasan khusus kepada BUMN sebagaimana dimaksud pada ayat (1) dilakukan dengan tetap memperhatikan maksud dan tujuan, kegiatan usaha BUMN, serta mempertimbangkan kemampuan BUMN.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-66/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Rencana penugasan khusus sebagaimana dimaksud pada ayat (1) dikaji bersama antara BUMN yang bersangkutan dengan Pemerintah Pusat.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-66/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Apabila penugasan tersebut secara finansial tidak Iisibel, Pemerintah Pusat harus memberikan kompensasi atas semua biaya yang telah dikeluarkan oleh BUMN tersebut, termasuk margin yang diharapkan sepanjang dalam tingkat kewajaran sesuai dengan penugasan yang diberikan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-66/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Penugasan kepada BUMN sebagaimana dimaksud pada ayat (1) harus terlebih dahulu mendapatkan persetqiuan RUPS atau Menteri.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-66/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "BUMN dalam melaksanakan penugasan khusus sebagaimana dimaksud pada ayat (f ) dapat bekerja sama dengan:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-66/ayat-6/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "badan usaha milik swasta;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "badan usaha milik daerah;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "koperasi;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "lembaga penelitian dan pengembangan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "lembaga pengkajian dan penerapan; danlatau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-66/ayat-6/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "perguruan tinggi.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 66 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     }
    ],
    "sumber": "uu-2003-19",
@@ -3127,10 +3750,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 252,
-  "pdf-resmi": 252,
+  "total": 264,
+  "pdf-resmi": 249,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 15,
   "lainnya": 0
  },
  "istilah": [

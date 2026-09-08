@@ -38,23 +38,11 @@
     "id": "uu-2020-3"
    },
    {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
-   },
-   {
     "id": "uu-2025-2"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.407Z",
+ "dihasilkan": "2026-09-08T10:55:54.633Z",
  "timeline": [
   {
    "tanggal": "2009-01-12",
@@ -64,6 +52,51 @@
    "judul_pelaku": "Undang-Undang Nomor 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-2009-4",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 2,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "replace pasal-40: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): replace pasal-40: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-2009-4",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 2,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "replace pasal-40: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): replace pasal-40: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-2009-4",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 1,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "replace pasal-40: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): replace pasal-40: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
   }
  ],
  "peringatan": [],
@@ -5516,6 +5549,63 @@
      "berlaku_mulai": "2009-01-12"
     },
     {
+     "id": "pasal-128a",
+     "tipe": "pasal",
+     "nomor": "128A",
+     "anak": [
+      {
+       "id": "pasal-128a/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pemegang IUP atau IUPK pada tahap kegiatan Operasi Produksi yang melakukan Pengembangan dan/atau Pemanfaatan Batubara sebagaimana dimaksud dalam Pasal lO2 ayat (2) dapat diberikan perlakuan tertentu terhadap kewajiban penerimaan negara sebagaimana dimaksud dalam Pasal 128.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
+      },
+      {
+       "id": "pasal-128a/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Pemberian perlakuan tertentu terhadap kewajiban penerimaan negara sebagaimana dimaksud pada ayat (1) untuk kegiatan Pengembangan dan/ atau Pemanfaatan Batubara dapat berupa pengenaan iuran produksi/royalti sebesar 0% (nol persen).",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
+      },
+      {
+       "id": "pasal-128a/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Ketentuan lebih lanjut mengenai perlakuan tertentu sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "perppu-2022-2",
+       "berlaku_mulai": "2022-12-30"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2020-11/amandemen-uu-2009-4",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "catatan": "Di antara Pasal 128 dan 129 disisipkan 1 (satu) pasal, yakni Pasal 128A sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "disisipkan ulang",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2009-4",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "catatan": "Di antara Pasal 128 dan Pasal 129 disisipkan I (satu) pasal, yakni Pasal 128A sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "perppu-2022-2",
+     "berlaku_mulai": "2022-12-30"
+    },
+    {
      "id": "pasal-129",
      "tipe": "pasal",
      "nomor": "129",
@@ -6594,10 +6684,66 @@
      "id": "pasal-162",
      "tipe": "pasal",
      "nomor": "162",
-     "teks": "Setiap orang yang merintangi atau mengganggu kegiatan usaha pertambangan dari pemegang IUP atau IUPK yang telah memenuhi syarat-syarat sebagaimana dimaksud dalam Pasal 136 ayat (2) dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling banyak Rp100.000.000,00 (seratus juta rupiah).",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-2009-4",
-     "berlaku_mulai": "2009-01-12"
+     "teks": "Setiap Orang yang merintangi atau mengganggu kegiatan Usaha Pertambangan dari pemegang IUP, IUPK, IPR, atau SIPB yang telah memenuhi syarat- syarat sebagaimana dimaksud dalam Pasal 70, Pasal 86F huruf b, dan Pasal 136 ayat (2) dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling banyak Rp100.000.000,00 (seratus juta rupiah).",
+     "verifikasi": "draf",
+     "anak": [],
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-2009-4",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-162",
+        "tipe": "pasal",
+        "nomor": "162",
+        "teks": "Setiap orang yang merintangi atau mengganggu kegiatan usaha pertambangan dari pemegang IUP atau IUPK yang telah memenuhi syarat-syarat sebagaimana dimaksud dalam Pasal 136 ayat (2) dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling banyak Rp100.000.000,00 (seratus juta rupiah).",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-2009-4",
+        "berlaku_mulai": "2009-01-12"
+       },
+       "catatan": "Ketentuan Pasal 162 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2009-4",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-162",
+        "tipe": "pasal",
+        "nomor": "162",
+        "teks": "Setiap orang yang merintangi atau mengganggu kegiatan usaha pertambangan dari pemegang IUP, IUPK, IPR atau SIPB yang telah memenuhi syarat-syarat sebagaimana dimaksud dalam Pasal 86F huruf b dan Pasal 136 ayat (2) dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling banyak Rp100.O00.000,00 (seratus juta rupiah).",
+        "verifikasi": "draf",
+        "anak": [],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 162 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2009-4",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-162",
+        "tipe": "pasal",
+        "nomor": "162",
+        "teks": "Setiap Orang yang merintangi atau mengganggu kegiatan Usaha Pertambangan dari pemegang IUP, IUPK, IPR, atau SIPB yang telah memenuhi syarat- syarat sebagaimana dimaksud dalam Pasal 70, Pasal 86F huruf b, dan Pasal 136 ayat (2) dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling banyak Rp100.0O0.O00,00 (seratus juta rupiah).",
+        "verifikasi": "draf",
+        "anak": [],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 162 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-163",
@@ -6896,10 +7042,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 625,
-  "pdf-resmi": 625,
+  "total": 628,
+  "pdf-resmi": 624,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 4,
   "lainnya": 0
  },
  "istilah": [

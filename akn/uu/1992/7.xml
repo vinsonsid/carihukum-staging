@@ -11,20 +11,293 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/1992/7/ind@1992-03-25/!main"/>
-          <FRBRuri value="/akn/id/act/uu/1992/7/ind@1992-03-25"/>
-          <FRBRdate date="1992-03-25" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/1992/7/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/1992/7/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/1992/7/ind@1992-03-25/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/1992/7/ind@1992-03-25.akn"/>
-          <FRBRdate date="2026-09-06" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/1992/7/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/1992/7/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-08" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="1992-03-25" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_17"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_6">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_24"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_7">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_8">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_9">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_10">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_11">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_12">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_13">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_45"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_14">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_46"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_15">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_47"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_16">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_49"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_17">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_51"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_18">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_19">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_20">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_57"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_21">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_22">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_61"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_23">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_24">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_25">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_26">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_27">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_17"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_28">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_24"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_29">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_30">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_31">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_32">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_33">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_34">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_35">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_45"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_36">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_46"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_37">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_47"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_38">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_49"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_39">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_40">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_41">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_57"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_42">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_43">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_61"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_44">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_6"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_45">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_11"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_46">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_14"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_47">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_15"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_48">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_17"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_49">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_24"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_50">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_30"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_51">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_33"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_52">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_37"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_53">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_38"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_54">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_42"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_55">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_43"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_56">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_45"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_57">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_46"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_58">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_47"/>
+        </textualMod>
+        <textualMod type="repeal" eId="pmod_59">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_49"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_60">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_51"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_61">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_52"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_62">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_53"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_63">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_57"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_64">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_60"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_65">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_61"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -183,92 +456,18 @@
             <heading>Usahas Bank Umum</heading>
               <article eId="pasal_6">
                 <num>6</num>
-                <intro><p>Usaha Bank Umum meliputi :</p></intro>
-                  <point eId="pasal_6__huruf_a">
-                    <num>a.</num>
-                    <content><p>menghimpun dana dari masyarakat dalam bentuk simpanan berupa giro, deposito berjangka, sertifikat deposito, tabungan, dan/atau bentuk lainnya yang dipersamakan dengan itu;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_b">
-                    <num>b.</num>
-                    <content><p>memberikan kredit;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_c">
-                    <num>c.</num>
-                    <content><p>menerbitkan surat pengakuan hutang;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_d">
-                    <num>d.</num>
-                    <intro><p>membeli, menjual atau menjamin atas risiko sendiri maupun untuk kepentingan dan atas perintah nasabahnya:</p></intro>
-                      <point eId="pasal_6__huruf_d__angka_1">
-                        <num>1.</num>
-                        <content><p>surat-surat wesel termasuk wesel yang diakseptasi oleh bank yang masa berlakunya tidak lebih lama daripada kebiasaan dalam perdagangan surat-surat dimaksud;</p></content>
-                      </point>
-                      <point eId="pasal_6__huruf_d__angka_2">
-                        <num>2.</num>
-                        <content><p>surat pengakuan hutang dan kertas dagang lainnya yang masa berlakunya tidak lebih lama dari kebiasaan dalam perdagangan surat-surat dimaksud;</p></content>
-                      </point>
-                      <point eId="pasal_6__huruf_d__angka_3">
-                        <num>3.</num>
-                        <content><p>kertas perbendaharaan negara dan surat jaminan pemerintah;</p></content>
-                      </point>
-                      <point eId="pasal_6__huruf_d__angka_4">
-                        <num>4.</num>
-                        <content><p>Sertifikat Bank Indonesia (SBI);</p></content>
-                      </point>
-                      <point eId="pasal_6__huruf_d__angka_5">
-                        <num>5.</num>
-                        <content><p>obligasi;</p></content>
-                      </point>
-                      <point eId="pasal_6__huruf_d__angka_6">
-                        <num>6.</num>
-                        <content><p>surat dagang berjangka waktu sampai dengan 1 (satu) tahun;</p></content>
-                      </point>
-                      <point eId="pasal_6__huruf_d__angka_7">
-                        <num>7.</num>
-                        <content><p>instrumen surat berharga lain yang berjangka waktu sampai dengan 1 (satu) tahun;</p></content>
-                      </point>
-
-                  </point>
-                  <point eId="pasal_6__huruf_e">
-                    <num>e.</num>
-                    <content><p>memindahkan uang baik untuk kepentingan sendiri maupun untuk kepentingan nasabah;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_f">
-                    <num>f.</num>
-                    <content><p>menempatkan dana pada, meminjam dana dari, atau meminjamkan dana kepada bank lain, baik dengan menggunakan surat, sarana telekomunikasi maupun dengan wesel unjuk, cek atau sarana lainnya;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_g">
-                    <num>g.</num>
-                    <content><p>menerima pembayaran dari tagihan atas surat berharga dan melakukan perhitungan dengan atau antar pihak ketiga;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_h">
-                    <num>h.</num>
-                    <content><p>menyediakan tempat untuk menyimpan barang dan surat berharga;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_i">
-                    <num>i.</num>
-                    <content><p>melakukan kegiatan penitipan untuk kepentingan pihak lain berdasarkan suatu kontrak;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_j">
-                    <num>j.</num>
-                    <content><p>melakukan penempatan dana dari nasabah kepada nasabah lainnya dalam bentuk surat berharga yang tidak tercatat di bursa efek;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_k">
-                    <num>k.</num>
-                    <content><p>membeli melalui pelelangan agunan baik semua maupun sebagian dalam hal debitur tidak memenuhi kewajibannya kepada bank, dengan ketentuan agunan yang dibeli tersebut wajib dicairkan secepatnya;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_l">
-                    <num>l.</num>
-                    <content><p>melakukan kegiatan anjak piutang, usaha kartu kredit dan kegiatan wali amanat;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_m">
-                    <num>m.</num>
-                    <content><p>menyediakan pembiayaan bagi nasabah berdasarkan prinsip bagi hasil sesuai dengan ketentuan yang ditetapkan dalam Peraturan Pemerintah;</p></content>
-                  </point>
-                  <point eId="pasal_6__huruf_n">
-                    <num>n.</num>
-                    <content><p>melakukan kegiatan lain yang lazim dilakukan oleh bank sepanjang tidak bertentangan dengan Undang-undang ini dan peraturan perundang-undangan yang berlaku.</p></content>
-                  </point>
+                  <paragraph eId="pasal_6__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Pelaku Usaha wajib menggunakan atau melengkapi label berbahasa Indonesia pada Barang yang diperdagangkan di dalam negeri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap Pelaku Usaha yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai penggunaan atau kelengkapan label berbahasa Indonesia diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
 
               </article>
               <article eId="pasal_7">
@@ -331,52 +530,7 @@
               </article>
               <article eId="pasal_11">
                 <num>11</num>
-                  <paragraph eId="pasal_11__ayat_1">
-                    <num>(1)</num>
-                    <content><p>Bank Indonesia menetapkan ketentuan mengenai batas maksimum pemberian kredit, pemberian jaminan, penempatan investasi surat berharga, atau hal lain yang serupa, yang dapat dilakukan oleh bank kepada peminjam atau sekelompok peminjam yang terkait, termasuk kepada perusahaan-perusahaan dalam kelompok yang sama dengan bank yang bersangkutan.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_11__ayat_2">
-                    <num>(2)</num>
-                    <content><p>Batas maksimum sebagaimana dimaksud dalam ayat (1) tidak boleh melebihi 30% (tiga puluh perseratus) dari modal bank yang sesuai dengan ketentuan yang ditetapkan oleh Bank Indonesia.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_11__ayat_3">
-                    <num>(3)</num>
-                    <intro><p>Bank Indonesia menetapkan ketentuan mengenai batas maksimum pemberian kredit, pemberian jaminan, penempatan investasi surat berharga, atau hal lain yang serupa, yang dapat dilakukan oleh bank kepada:</p></intro>
-                      <point eId="pasal_11__ayat_3__huruf_a">
-                        <num>a.</num>
-                        <content><p>pemegang saham yang memiliki 10% (sepuluh perseratus) atau lebih dari modal disetor bank;</p></content>
-                      </point>
-                      <point eId="pasal_11__ayat_3__huruf_b">
-                        <num>b.</num>
-                        <content><p>anggota dewan komisaris;</p></content>
-                      </point>
-                      <point eId="pasal_11__ayat_3__huruf_c">
-                        <num>c.</num>
-                        <content><p>anggota direksi;</p></content>
-                      </point>
-                      <point eId="pasal_11__ayat_3__huruf_d">
-                        <num>d.</num>
-                        <content><p>keluarga dari pihak sebagaimana dimaksud dalam huruf a, huruf b dan huruf c; dan</p></content>
-                      </point>
-                      <point eId="pasal_11__ayat_3__huruf_e">
-                        <num>e.</num>
-                        <content><p>pejabat bank lainnya; serta</p></content>
-                      </point>
-                      <point eId="pasal_11__ayat_3__huruf_f">
-                        <num>f.</num>
-                        <content><p>perusahaan-perusahaan yang didalamnya terdapat kepen tingan dari pihak-pihak sebagaimana dimaksud dalam huruf a, huruf b, huruf c, huruf d, dan huruf e.</p></content>
-                      </point>
-
-                  </paragraph>
-                  <paragraph eId="pasal_11__ayat_4">
-                    <num>(4)</num>
-                    <content><p>Batas maksimum sebagaimana dimaksud dalam ayat (3) tidak boleh melebihi 10% (sepuluh perseratus) dari modal bank yang sesuai dengan ketentuan yang ditetapkan oleh Bank Indonesia.</p></content>
-                  </paragraph>
-                  <paragraph eId="pasal_11__ayat_5">
-                    <num>(5)</num>
-                    <content><p>Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) dan ayat (3) wajib dilaporkan sesuai dengan ketentuan yang ditetapkan oleh Bank Indonesia.</p></content>
-                  </paragraph>
-
+                <content><p>Ketentuan lebih lanjut mengenai Distribusi Barang diatur dalam Peraturan Pemerintah.</p></content>
               </article>
               <article eId="pasal_12">
                 <num>12</num>
@@ -410,32 +564,39 @@
               </article>
               <article eId="pasal_14">
                 <num>14</num>
-                <intro><p>Bank Perkreditan Rakyat dilarang:</p></intro>
-                  <point eId="pasal_14__huruf_a">
-                    <num>a.</num>
-                    <content><p>menerima simpanan berupa giro dan ikut serta dalam lalu lintas pembayaran;</p></content>
-                  </point>
-                  <point eId="pasal_14__huruf_b">
-                    <num>b.</num>
-                    <content><p>melakukan kegiatan usaha dalam valuta asing;</p></content>
-                  </point>
-                  <point eId="pasal_14__huruf_c">
-                    <num>c.</num>
-                    <content><p>melakukan penyertaan modal;</p></content>
-                  </point>
-                  <point eId="pasal_14__huruf_d">
-                    <num>d.</num>
-                    <content><p>melakukan usaha perasuransian;</p></content>
-                  </point>
-                  <point eId="pasal_14__huruf_e">
-                    <num>e.</num>
-                    <content><p>melakukan usaha lain di luar kegiatan usaha sebagaimana dimaksud dalam Pasal 13.</p></content>
-                  </point>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah Pusat melakukan pengaturan tentang pengembangan, penataan, dan pembinaan yang setara dan berkeadilan terhadap Pasar ralgrat, pusat perbelanjaan, toko swalayan, dan perkulakan untuk menciptakan kepastian berusaha dan hubungan kerja sama yang seimbang antara pemasok dan pengecer dengan tetap memperhatikan keberpihakan kepada koperasi dan usaha mikro, kecil, dan menengah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengembangan, penataan, dan pembinaan sebagaimana dimaksud pada ayat (1) dilakukan melalui pengaturan Perizinan Berusaha, tata mang, dan zonasi dengan memperhatikan jarak dan lokasi pendirian, kemitraan, dan kerja sama usaha.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha, tata rLlang, dan zonasi sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
 
               </article>
               <article eId="pasal_15">
                 <num>15</num>
-                <content><p>Ketentuan sebagaimana dimaksud dalam Pasal 8 dan Pasal 11 berlaku juga bagi Bank Perkreditan Rakyat.</p></content>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Gudang sebagaimana dimaksud dalam Pasal 12 ayat (1) huruf d merupakan salah satu sarana Perdagangan untuk mendorong kelancaran Distribusi Barang yang diperdagangkan di dalam negeri dan ke luar negeri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap pemilik Gudang wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setiap pemilik Gudang yang tidak memiliki Perizinan Berusaha sebagaimana dimaksud pada ayat (2) dikenai sanksi administratif.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
               </article>
 
           </part>
@@ -499,19 +660,18 @@
           </article>
           <article eId="pasal_17">
             <num>17</num>
-            <intro><p>Untuk mendapatkan izin usaha sebagai Bank Umum yang berbentuk bank campuran, wajib dipenuhi persyaratan sebagaimana dimaksud dalam Pasal 16 ayat (3) dan ayat (6), serta ketentuan yang ditetapkan dengan Peraturan Pemerintah, yang mengatur:</p></intro>
-              <point eId="pasal_17__huruf_a">
-                <num>a.</num>
-                <content><p>jumlah kepemilikan dan kepengurusan pihak asing yang diizinkan;</p></content>
-              </point>
-              <point eId="pasal_17__huruf_b">
-                <num>b.</num>
-                <content><p>pihak-pihak yang diizinkan bekerja sama;</p></content>
-              </point>
-              <point eId="pasal_17__huruf_c">
-                <num>c.</num>
-                <content><p>hal-hal lain yang menurut Dewan Moneter perlu diatur untuk kepentingan pembangunan nasional.</p></content>
-              </point>
+              <paragraph eId="pasal_17__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap pemilik, pengelola, atau penyewa Gudang yang melakukan penyimpanan Barang yang ditujukan untuk diperdagangkan harus menyelenggarakan pencatatan administrasi paling sedikit berupa jumlah Barang yang disimpan dan jumlah Barang yang masuk dan yang keluar dari Gudang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap pemilik, pengelola, atau penyewa Gudang yang tidak menyelenggarakan pencatatan administrasi sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_17__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai pencatatan administrasi Barang sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
 
           </article>
           <article eId="pasal_18">
@@ -643,7 +803,23 @@
               </article>
               <article eId="pasal_24">
                 <num>24</num>
-                <content><p>Bank Umum dan Bank Perkreditan Rakyat yang berbentuk hukum koperasi, kepemilikannya diatur berdasarkan ketentuan dalam Undang-undang tentang perkoperasian yang berlaku.</p></content>
+                  <paragraph eId="pasal_24__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Pelaku Usaha yang melakukan kegiatan usaha Perdagangan wajib memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemerintah Pusat dapat memberikan pengecualian terhadap kewajiban pemenuhan Perizinan Berusaha sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setiap Pelaku Usaha yang tidak melakukan pemenuhan Perizinan Berusaha sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha di bidang Perdagangan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
               </article>
               <article eId="pasal_25">
                 <num>25</num>
@@ -733,15 +909,11 @@
             <num>30</num>
               <paragraph eId="pasal_30__ayat_1">
                 <num>(1)</num>
-                <content><p>Bank wajib menyampaikan kepada Bank Indonesia, segala keterangan, dan penjelasan mengenai usahanya menurut tata cara yang ditetapkan oleh Bank Indonesia.</p></content>
+                <content><p>Pemerintah Pusat dapat meminta data dan/atau informasi kepada Pelaku Usaha mengenai persediaan Barang kebutuhan pokok dan/atau Barang penting.</p></content>
               </paragraph>
               <paragraph eId="pasal_30__ayat_2">
                 <num>(2)</num>
-                <content><p>Bank atas permintaan Bank Indonesia, wajib memberikan kesempatan bagi pemeriksaan buku-buku dan berkas-berkas yang ada padanya, serta wajib memberikan bantuan yang diperlukan dalam rangka memperoleh kebenaran dari segala keterangan, dokumen dan penjelasan yang dilaporkan oleh bank yang bersangkutan.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_30__ayat_3">
-                <num>(3)</num>
-                <content><p>Keterangan tentang bank yang diperoleh berdasarkan ketentuan sebagaimana dimaksud dalam ayat (1) dan ayat (2) tidak diumumkan dan bersifat rahasia.</p></content>
+                <content><p>Pelaku Usaha dilarang melakukan manipulasi data dan/atau informasi mengenai persediaan Barang kebutuhan pokok dan/atau Barang penting.</p></content>
               </paragraph>
 
           </article>
@@ -774,11 +946,32 @@
             <num>33</num>
               <paragraph eId="pasal_33__ayat_1">
                 <num>(1)</num>
-                <content><p>Laporan pemeriksaan bank sebagaimana dimaksud dalam Pasal 31 dan Pasal 32 bersifat rahasia.</p></content>
+                <intro><p>Produsen atau Importir yang tidak memenuhi ketentuan pendaftaran Barang sebagaimana dimaksud dalam Pasal 32 ayat (1) wajib menghentikan kegiatan Perdagangan Barang dan menarik Barang dari:</p></intro>
+                  <point eId="pasal_33__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>distributor;</p></content>
+                  </point>
+                  <point eId="pasal_33__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>grosir;</p></content>
+                  </point>
+                  <point eId="pasal_33__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>pengecer; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_33__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>konsumen.</p></content>
+                  </point>
+
               </paragraph>
               <paragraph eId="pasal_33__ayat_2">
                 <num>(2)</num>
-                <content><p>Persyaratan dan tata cara pemeriksaan sebagaimana dimaksud dalam Pasal 31 dan Pasal 32 ditetapkan oleh Bank Indonesia.</p></content>
+                <content><p>Perintah penghentian kegiatan Perdagangan dan penarikan dari Distribusi terhadap Barang sebagaimana dimaksud pada ayat (1) dilakukan oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_3">
+                <num>(3)</num>
+                <content><p>Produsen atau Importir yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
               </paragraph>
 
           </article>
@@ -810,62 +1003,11 @@
             <num>37</num>
               <paragraph eId="pasal_37__ayat_1">
                 <num>(1)</num>
-                <content><p>Apabila menurut penilaian Bank Indonesia suatu bank diperkirakan mengalami kesulitan yang membahayakan kelangsungan usahanya, Bank Indonesia memberitahukan hal tersebut kepada Menteri.</p></content>
+                <content><p>Setiap Pelaku Usaha wajib memenuhi ketentuan penetapan Barang dan/atau Jasa yang ditetapkan sebagai Barang dan/atau Jasa yang dibatasi Perdagangannya sebagaimana dimaksud dalam Pasal 35 ayat (2).</p></content>
               </paragraph>
               <paragraph eId="pasal_37__ayat_2">
                 <num>(2)</num>
-                <intro><p>Dalam hal suatu bank mengalami kesulitan yang membahayakan kelangsungan usahanya, maka Bank Indonesia dapat:</p></intro>
-                  <point eId="pasal_37__ayat_2__huruf_a">
-                    <num>a.</num>
-                    <intro><p>melakukan tindakan agar:</p></intro>
-                      <point eId="pasal_37__ayat_2__huruf_a__angka_1">
-                        <num>1.</num>
-                        <content><p>pemegang saham menambah modal;</p></content>
-                      </point>
-                      <point eId="pasal_37__ayat_2__huruf_a__angka_2">
-                        <num>2.</num>
-                        <content><p>pemegang saham mengganti dewan komisaris dan/atau direksi bank;</p></content>
-                      </point>
-                      <point eId="pasal_37__ayat_2__huruf_a__angka_3">
-                        <num>3.</num>
-                        <content><p>bank menghapus-bukukan kredit yang macet, dan memperhitungkan kerugian bank dengan modalnya;</p></content>
-                      </point>
-                      <point eId="pasal_37__ayat_2__huruf_a__angka_4">
-                        <num>4.</num>
-                        <content><p>bank melakukan merger atau konsolidasi dengan bank lain;</p></content>
-                      </point>
-                      <point eId="pasal_37__ayat_2__huruf_a__angka_5">
-                        <num>5.</num>
-                        <content><p>bank dijual kepada pembeli yang bersedia mengambil alih seluruh kewajiban;</p></content>
-                      </point>
-
-                  </point>
-                  <point eId="pasal_37__ayat_2__huruf_b">
-                    <num>b.</num>
-                    <content><p>mengambil tindakan lain sesuai dengan peraturan perundang-undangan yang berlaku.</p></content>
-                  </point>
-
-              </paragraph>
-              <paragraph eId="pasal_37__ayat_3">
-                <num>(3)</num>
-                <intro><p>Apabila menurut penilaian Bank Indonesia:</p></intro>
-                  <point eId="pasal_37__ayat_3__huruf_a">
-                    <num>a.</num>
-                    <content><p>keadaan suatu bank membahayakan sistem perbankan; atau</p></content>
-                  </point>
-                  <point eId="pasal_37__ayat_3__huruf_b">
-                    <num>b.</num>
-                    <content><p>tindakan sebagaimana dimaksud dalam ayat (2) belum cukup untuk mengatasi kesulitan yang dihadapi bank; Bank Indonesia mengusulkan kepada Menteri untuk mencabut izin usaha bank tersebut.</p></content>
-                  </point>
-
-              </paragraph>
-              <paragraph eId="pasal_37__ayat_4">
-                <num>(4)</num>
-                <content><p>Berdasarkan usul Bank Indonesia sebagaimana dimaksud dalam ayat (3), Menteri mencabut izin usaha bank yang bersangkutan dan memerintahkan direksi untuk melikuidasi bank tersebut.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_37__ayat_5">
-                <num>(5)</num>
-                <content><p>Dalam hal direksi tidak melikuidasi bank sebagaimana dimaksud dalam ayat (4), Menteri setelah mendengar pertimbangan Bank Indonesia meminta kepada Pengadilan untuk melikuidasi bank yang bersangkutan.</p></content>
+                <content><p>Setiap Pelaku Usaha yang melanggar ketentuan penetapan Barang dan/atau Jasa sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
               </paragraph>
 
           </article>
@@ -878,11 +1020,70 @@
             <num>38</num>
               <paragraph eId="pasal_38__ayat_1">
                 <num>(1)</num>
-                <content><p>Pengangkatan keanggotaan dewan komisaris dan direksi bank, wajib memenuhi ketentuan sebagaimana dimaksud dalam Pasal 16 ayat (6) dan Pasal 17.</p></content>
+                <content><p>Pemerintah Pusat mengatur kegiatan Perdagangan Luar Negeri melalui kebijakan dan pengendalian di bidang Ekspor dan Impor.</p></content>
               </paragraph>
               <paragraph eId="pasal_38__ayat_2">
                 <num>(2)</num>
-                <content><p>Perubahan keanggotaan dewan komisaris dan direksi bank sebagaimana dimaksud dalam ayat (1) wajib dilaporkan kepada Bank Indonesia.</p></content>
+                <intro><p>Kebijakan dan pengendalian Perdagangan Luar Negeri sebagaimana dimaksud pada ayat (1) diarahkan untuk:</p></intro>
+                  <point eId="pasal_38__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>peningkatan daya saing produk Ekspor Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>peningkatan dan perluasan akses Pasar di luar negeri;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>peningkatan kemampuan Eksportir dan Importir sehingga menjadi Pelaku Usaha yang andal; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>peningkatan dan pengembangan produk invensi dan inovasi nasional yang diekspor ke luar negeri.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_3">
+                <num>(3)</num>
+                <intro><p>Kebijakan Perdagangan Luar Negeri paling sedikit meliputi:</p></intro>
+                  <point eId="pasal_38__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>peningkatan jumlah dan jenis serta nilai tambah produk Ekspor;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengharmonisasian Standar dan prosedur kegiatan Perdagangan dengan negara mitra dagang;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>penguatan kelembagaan di sektor Perdagangan Luar Negeri;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>pengembangan sarana dan prasarana penunjang Perdagangan Luar Negeri; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>pelindungan dan pengamanan kepentingan nasional dari dampak negatif Perdagangan Luar Negeri.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_4">
+                <num>(4)</num>
+                <intro><p>Pengendalian Perdagangan Luar Negeri meliputi:</p></intro>
+                  <point eId="pasal_38__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>PerizinanBerusaha/persetujuan;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>Standar; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>pelarangan dan pembatasan.</p></content>
+                  </point>
+
               </paragraph>
 
           </article>
@@ -931,21 +1132,21 @@
             <num>42</num>
               <paragraph eId="pasal_42__ayat_1">
                 <num>(1)</num>
-                <content><p>Untuk kepentingan peradilan dalam perkara pidana, Menteri dapat memberi izin kepada polisi, jaksa atau hakim untuk memperoleh keterangan dari bank tentang keadaan keuangan tersangka/terdakwa pada bank.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_42__ayat_2">
-                <num>(2)</num>
-                <content><p>Izin sebagaimana dimaksud dalam ayat (1) diberikan secara tertulis atas permintaan tertulis dari Kepala Kepolisian Republik Indonesia, Jaksa Agung, atau Ketua Mahkamah Agung.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_42__ayat_3">
-                <num>(3)</num>
-                <content><p>Permintaan sebagaimana dimaksud dalam ayat (2) harus menyebutkan nama dan jabatan polisi, jaksa atau hakim, nama tersangka/ terdakwa, sebab-sebab keterangan diperlukan dan hubungan perkara pidana yang bersangkutan dengan keterangan-keterangan yang diperlukan.</p></content>
+                <content><p>Ekspor Barang dilakukan oleh Pelaku Usaha yang telah memenuhi Perizinan Berusaha dari Pemerintah Pusat. l2l Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
           <article eId="pasal_43">
             <num>43</num>
-            <content><p>Dalam perkara perdata antara bank dengan nasabahnya, direksi bank yang bersangkutan dapat menginformasikan kepada pengadilan tentang keadaan keuangan nasabah yang bersangkutan dan memberikan keterangan lain yang relevan dengan perkara tersebut.</p></content>
+              <paragraph eId="pasal_43__ayat_1">
+                <num>(1)</num>
+                <content><p>Eksportir bertanggungjawab sepenuhnya terhadap Barang yang diekspor.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_2">
+                <num>(2)</num>
+                <content><p>Eksportir yang tidak bertanggung jawab terhadap Barang yang diekspor sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
+              </paragraph>
+
           </article>
           <article eId="pasal_44">
             <num>44</num>
@@ -961,7 +1162,19 @@
           </article>
           <article eId="pasal_45">
             <num>45</num>
-            <content><p>Pihak yang merasa dirugikan oleh keterangan yang diberikan oleh bank sebagaimana dimaksud dalam Pasal 41, Pasal 42, Pasal 43, dan Pasal 44, berhak untuk mengetahui isi keterangan' tersebut dan meminta pembetulan jika terdapat kesalahan dalam keterangan yang diberikan.</p></content>
+              <paragraph eId="pasal_45__ayat_1">
+                <num>(1)</num>
+                <content><p>Impor Barang hanya dapat dilakukan oleh Importir yang memenuhi Perizinan Berusaha dari Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Impor tidak dilakukan untuk kegiatan usaha, Importir tidak memerlukan Perizinan Berrrsaha.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai Perizinan Berusaha sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
           </article>
 
       </chapter>
@@ -972,11 +1185,11 @@
             <num>46</num>
               <paragraph eId="pasal_46__ayat_1">
                 <num>(1)</num>
-                <content><p>Barang siapa menghimpun dana dari masyarakat dalam bentuk simpanan berupa giro, deposito berjangka, sertifikat deposito, tabungan, dan/atau bentuk lainnya yang dipersamakan dengan itu tanpa izin usaha dari Menteri sebagaimana dimaksud dalam Pasal 16 dan Pasal 17, diancam dengan pidana penjara paling lama 15 (lima belas) tahun dan denda paling banyak Rp. 10.000.000.000,- (sepuluh milyar rupiah).</p></content>
+                <content><p>Importir bertanggung jawab sepenuhnya terhadap Barang yang diimpor.</p></content>
               </paragraph>
               <paragraph eId="pasal_46__ayat_2">
                 <num>(2)</num>
-                <content><p>Dalam hal kegiatan sebagaimana dimaksud dalam ayat (1) dilakukan oleh badan hukum yang berbentuk perseroan terbatas, perserikatan, yayasan atau koperasi, maka penuntutan terhadap badan-badan dimaksud dilakukan baik terhadap mereka yang memberi perintah melakukan perbuatan itu atau yang bertindak sebagai pimpinan dalam perbuatan itu atau terhadap kedua-duanya.</p></content>
+                <content><p>Importir yang tidak bertanggung jawab atas Barang yang diimpor sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.</p></content>
               </paragraph>
 
           </article>
@@ -984,11 +1197,15 @@
             <num>47</num>
               <paragraph eId="pasal_47__ayat_1">
                 <num>(1)</num>
-                <content><p>Barang siapa tanpa membawa perintah tertulis dari Menteri kepada bank sebagaimana dimaksud dalam Pasal 41 atau tanpa izin Menteri sebagaimana dimaksud dalam Pasal 42, dengan sengaja memaksa bank atau pihak terafiliasi untuk memberikan keterangan sebagaimana dimaksud dalam Pasal 40, diancam dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling banyak Rp. 3.000.000.000,- (tiga milyar rupiah).</p></content>
+                <content><p>Setiap Importir wajib mengimpor Barang dalam keadaan baru.</p></content>
               </paragraph>
               <paragraph eId="pasal_47__ayat_2">
                 <num>(2)</num>
-                <content><p>Anggota dewan komisaris, direksi, pegawai bank atau pihak terafiliasi lainnya yang dengan sengaja memberikan keterangan yang wajib dirahasiakan menurut Pasal 40, diancam dengan pidana penjara paling lama 2 (dua) tahun dan denda paling banyak Rp. 2.000.000.000,- (dua milyar rupiah).</p></content>
+                <content><p>Dalam hal tertentu, Pemerintah Pusat dapat menetapkan Barang yang diimpor dalam keadaan tidak baru.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai penetapan Barang yang diimpor dalam keadaan tidak baru sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
@@ -1004,40 +1221,6 @@
               </paragraph>
 
           </article>
-          <article eId="pasal_49">
-            <num>49</num>
-              <paragraph eId="pasal_49__ayat_1">
-                <num>(1)</num>
-                <intro><p>Anggota dewan komisaris, direksi atau pegawai bank yang dengan sengaja:</p></intro>
-                  <point eId="pasal_49__ayat_1__huruf_a">
-                    <num>a.</num>
-                    <content><p>membuat atau menyebabkan adanya pencatatan palsu dalam pembukuan atau dalam laporan, maupun dalam dokumen atau laporan kegiatan usaha, laporan transaksi atau rekening suatu bank;</p></content>
-                  </point>
-                  <point eId="pasal_49__ayat_1__huruf_b">
-                    <num>b.</num>
-                    <content><p>menghilangkan atau tidak memasukkan atau menyebabkan tidak dilakukannya pencatatan dalam pembukuan atau dalam laporan, maupun dalam dokumen atau laporan kegiatan usaha, laporan transaksi atau rekening suatu bank;</p></content>
-                  </point>
-                  <point eId="pasal_49__ayat_1__huruf_c">
-                    <num>c.</num>
-                    <content><p>mengubah, mengaburkan, menyembunyikan, menghapus, atau menghilangkan adanya suatu pencatatan dalam pembukuan atau dalam laporan, maupun dalam dokumen atau laporan kegiatan usaha, laporan transaksi atau rekening suatu bank, atau dengan sengaja mengubah, mengaburkan, menghilangkan, menyembunyikan atau merusak catatan pembukuan tersebut, diancam dengan pidana penjara paling lama 15 (lima belas) tahun dan denda paling banyak Rp. 10.000.000.000,- (sepuluh milyar rupiah).</p></content>
-                  </point>
-
-              </paragraph>
-              <paragraph eId="pasal_49__ayat_2">
-                <num>(2)</num>
-                <intro><p>Anggota dewan komisaris, direksi atau pegawai bank yang dengan sengaja:</p></intro>
-                  <point eId="pasal_49__ayat_2__huruf_a">
-                    <num>a.</num>
-                    <content><p>meminta atau menerima, mengizinkan atau menyetujui untuk menerima suatu imbalan, komisi, uang tambahan, pelayanan, uang atau barang berharga, untuk keuntungan pribadinya atau untuk keuntungan keluarganya, dalam rangka mendapatkan atau berusaha mendapatkan bagi orang lain dalam memperoleh uang muka, bank garansi, atau fasilitas kredit dari bank, atau dalam rangka pembelian atau pendiskontoan oleh bank atas surat-surat wesel, surat promes, cek, dan kertas dagang atau bukti kewajiban lainnya, ataupun dalam rangka memberikan persetujuan bagi orang lain untuk melaksanakan penarikan dana yang melebihi batas kreditnya pada bank;</p></content>
-                  </point>
-                  <point eId="pasal_49__ayat_2__huruf_b">
-                    <num>b.</num>
-                    <content><p>tidak melaksanakan langkah-langkah yang diperlukan untuk memastikan ketaatan bank terhadap ketentuan dalam Undang-undang ini dan ketentuan peraturan perundang-undangan lainnya yang berlaku bagi bank, diancam dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp. 6.000.000.000,- (enam milyar rupiah).</p></content>
-                  </point>
-
-              </paragraph>
-
-          </article>
           <article eId="pasal_50">
             <num>50</num>
             <content><p>Pihak terafiliasi yang dengan sengaja tidak melaksanakan langkah-langkah yang diperlukan untuk memastikan ketaatan bank terhadap ketentuan dalam Undang-undang ini dan peraturan perundang-undangan lainnya yang berlaku bagi bank diancam dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp. 6.000.000.000,- (enam milyar rupiah).</p></content>
@@ -1046,21 +1229,49 @@
             <num>51</num>
               <paragraph eId="pasal_51__ayat_1">
                 <num>(1)</num>
-                <content><p>Tindak pidana sebagaimana dimaksud dalam Pasal 46, Pasal 47, Pasal 48 ayat (1), Pasal 49, dan Pasal 50 adalah kejahatan.</p></content>
+                <content><p>Eksportir dilarang mengekspor Barang yang ditetapkan sebagai Barang yang dilarang untuk diekspor.</p></content>
               </paragraph>
               <paragraph eId="pasal_51__ayat_2">
                 <num>(2)</num>
-                <content><p>Tindak pidana sebagaimana dimaksud dalam Pasal 48 ayat (2) adalah pelanggaran.</p></content>
+                <content><p>Importir dilarang mengimpor Barang yang ditetapkan sebagai Barang yang dilarang untuk diimpor.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai kriteria Barang yang dilarang sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan dengan Peraturan Pemerintah.</p></content>
               </paragraph>
 
           </article>
           <article eId="pasal_52">
             <num>52</num>
-            <content><p>Dengan tidak mengurangi ketentuan pidana sebagaimana dimaksud dalam Pasal 47, Pasal 48, dan Pasal 49, Bank Indonesia dapat menetapkan sanksi administratif kepada bank yang tidak memenuhi kewajibannya sebagaimana ditentukan dalam Undang-undang ini atau menyampaikan pertimbangan kepada Menteri untuk mencabut izin usaha bank yang bersangkutan.</p></content>
+              <paragraph eId="pasal_52__ayat_1">
+                <num>(1)</num>
+                <content><p>Eksportir dilarang mengekspor Barang yang tidak sesuai dengan ketentuan pembatasan Barang untuk diekspor.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_2">
+                <num>(2)</num>
+                <content><p>Importir dilarang mengimpor Barang yang tidak sesuai dengan ketentuan pembatasan Barang untuk diimpor.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap Eksportir dan/atau Importir yang melakukan pelanggaran sebagaimana dimaksud pada ayat (1) dan ayat (2) dikenai sanksi administratif.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai kriteria Barang yang dibatasi sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
           </article>
           <article eId="pasal_53">
             <num>53</num>
-            <content><p>Dengan tidak mengurangi ketentuan pidana sebagaimana dimaksud dalam Pasal 50, Bank Indonesia dapat menetapkan sanksi administratif kepada pihak terafiliasi yang tidak memenuhi kewajibannya sebagaimana ditentukan dalam Undang-undang ini atau menyampaikan pertimbangan kepada instansi yang berwenang untuk mencabut izin yang bersangkutan.</p></content>
+              <paragraph eId="pasal_53__ayat_1">
+                <num>(1)</num>
+                <content><p>Eksportir yang dikenai sanksi administratif sebagaimana dimaksud dalam Pasal 52 ayat (3) terhadap Barang ekspornya dikuasai oleh negara sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_53__ayat_2">
+                <num>(2)</num>
+                <content><p>Importir yang dikenai sanksi administratif sebagaimana dimaksud dalam Pasal 52 ayat (3) terhadap Barang impornya wajib diekspor kembali, dimusnahkan oleh Importir, atau ditentukan lain oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+
           </article>
 
       </chapter>
@@ -1138,7 +1349,61 @@
           </article>
           <article eId="pasal_57">
             <num>57</num>
-            <content><p>Lembaga Keuangan Bukan Bank yang telah memiliki izin usaha dari Menteri pada saat Undang-undang ini mulai berlaku, dapat menyesuaikan kegiatan usahanya sebagai bank berdasarkan ketentuan dalam Undang-undang ini, selambat-lambatnya dalam jangka waktu 1 (satu) tahun sejak mulai berlakunya Undang-undang ini.</p></content>
+              <paragraph eId="pasal_57__ayat_1">
+                <num>(1)</num>
+                <intro><p>Barangyang diperdagangkan di dalam negeri harus memenuhi:</p></intro>
+                  <point eId="pasal_57__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>SNI yang telah diberlakukan secara wajib; atau</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>persyaratan teknis yang telah diberlakukan secara wajib.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_2">
+                <num>(2)</num>
+                <content><p>Pelaku Usaha dilarang memperdagangkan Barang di dalam negeri yang tidak memenuhi SNI yang telah diberlakukan secara wajib atau persyaratan teknis yang telah diberlakukan secara wajib.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_3">
+                <num>(3)</num>
+                <content><p>Pemberlakuan SNI atau persyaratan teknis sebagaimana dimaksud pada ayat (1) ditetapkan oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_4">
+                <num>(4)</num>
+                <intro><p>Pemberlakuan SNI atau persyaratan teknis sebagaimana dimaksud pada ayat (3) dilakukan dengan mempertimbangkan aspek:</p></intro>
+                  <point eId="pasal_57__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>keamanan, keselamatan, kesehatan, dan lingkungan hidup;</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>daya saing produsen nasional dan persaingan usaha yang sehat;</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_4__huruf_c">
+                    <num>c.</num>
+                    <content><p>kemampuan dan kesiapan dunia usaha nasional; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_4__huruf_d">
+                    <num>d.</num>
+                    <content><p>kesiapan infrastruktur lembaga penilaian kesesuaian.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_5">
+                <num>(5)</num>
+                <content><p>Barang yang telah diberlakukan SNI atau persyaratan teknis secara wajib sebagaimana dimaksud pada ayat (1) wajib dibubuhi tanda SNI atau tanda kesesuaian atau dilengkapi sertifikat kesesuaian yang diakui oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_6">
+                <num>(6)</num>
+                <content><p>Barang yang diperdagangkan dan belum diberlakukan SNI secara wajib dapat dibubuhi tanda SNI atau tanda kesesuaian sepanjang telah dibuktikan dengan sertifikat produk penggunaan tanda SNI atau sertifikat kesesuaian.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_7">
+                <num>(7)</num>
+                <content><p>Pelaku Usaha yang memperdagangkan Barang yang telah diberlakukan SNI atau persyaratan teknis secara wajib, tetapi tidak membubuhi tanda SNI, tanda kesesuaian atau tidak melengkapi sertifikat kesesuaian sebagaimana dimaksud pada ayat (5) dikenai sanksi administratif. 2I. Ketentuan Pasal 60 diubah sehingga berbunyi sebagai berikut:</p></content>
+              </paragraph>
+
           </article>
           <article eId="pasal_58">
             <num>58</num>
@@ -1155,24 +1420,68 @@
         <heading>KETENTUAN PENUTUP</heading>
           <article eId="pasal_60">
             <num>60</num>
-            <intro><p>Dengan berlakunya Undang-undang ini maka :</p></intro>
-              <point eId="pasal_60__huruf_a">
-                <num>a.</num>
-                <content><p>Staatsblad Tahun 1929 Nomor 357 tanggal 14 September 1929 tentang Aturan-aturan mengenai Badan-badan Kredit Desa dalam propinsi-propinsi di Jawa dan Madura di luar wilayah kotapraja-kotapraja;</p></content>
-              </point>
-              <point eId="pasal_60__huruf_b">
-                <num>b.</num>
-                <content><p>Undang-undang Nomor 12 Tahun 1962 tentang Bank Pembangunan Swasta (Lembaran Negara Tahun 1962 Nomor 58, Tambahan Lembaran Negara Nomor 2489);</p></content>
-              </point>
-              <point eId="pasal_60__huruf_c">
-                <num>c.</num>
-                <content><p>Undang-undang Nomor 14 Tahun 1967 tentang Pokok-pokok Perbankan (Lembaran Negara Tahun 1967 Nomor 34, Tambahan Lembaran Negara Nomor 2842), dinyatakan tidak berlaku lagi.</p></content>
-              </point>
+              <paragraph eId="pasal_60__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyedia Jasa dilarang memperdagangkan Jasa di dalam negeri yang tidak memenuhi SNI, persyaratan teknis, atau kualifikasi yang telah diberlakukan secara wajib.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemberlakuan SNI, persyaratan teknis, atau kualifikasi secara wajib sebagaimana dimaksud pada ayat (1) ditetapkan oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_3">
+                <num>(3)</num>
+                <intro><p>Pemberlakuan SNI, persyaratan teknis, atau kualifikasi secara wajib sebagaimana dimaksud pada ayat (2) dilakukan dengan mempertimbangkan aspek:</p></intro>
+                  <point eId="pasal_60__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>keamanan, keselamatan, kesehatan, dan lingkungan hidup;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>daya saing produsen nasional dan persaingan usaha yang sehat;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>kemampuan dan kesiapan dunia usaha nasional;</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>kesiapan infrastruktur lembaga penilaian kesesuaian; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_60__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>budaya, adat istiadat, atau tradisi berdasarkan kearifan lokal.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_4">
+                <num>(4)</num>
+                <content><p>Jasa yang telah diberlakukan SNI, persyaratan teknis, atau kualifikasi secara wajib sebagaimana dimaksud pada ayat (2) wajib dilengkapi dengan sertifikat kesesuaian yang diakui oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_5">
+                <num>(5)</num>
+                <content><p>Jasa yang diperdagangkan dan memenuhi SNI, persyaratan teknis, atau kualilikasi yang belum diberlakukan secara wajib dapat menggunakan sertifikat kesesuaian sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_6">
+                <num>(6)</num>
+                <content><p>Penyedia Jasa yang memperdagangkan Jasa yang telah diberlakukan SNI, persyaratan teknis, atau kualifikasi secara wajib, tetapi tidak dilengkapi sertifikat kesesuaian sebagaimana dimaksud pada ayat (4) dikenai sanksi administratif.</p></content>
+              </paragraph>
 
           </article>
           <article eId="pasal_61">
             <num>61</num>
-            <content><p>Undang-undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+              <paragraph eId="pasal_61__ayat_1">
+                <num>(1)</num>
+                <content><p>Tanda SNI, tanda kesesuaian, atau sertifikat kesesuaian sebagaimana dimaksud dalam Pasal 60 ayat (4) diterbitkan oleh lembaga penilaian kesesuaian yang terakreditasi sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_61__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal lembaga penilaian kesesuaian sebagaimana dimaksud pada ayat (1) belum ada yang terakreditasi, Pemerintah Pusat dapat menunjuk lembaga penilaian kesesuaian dengan persyaratan dan dalam jangka waktu tertentu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_61__ayat_3">
+                <num>(3)</num>
+                <content><p>Lembaga penilaian kesesuaian sebagaimana dimaksud pada ayat (1) dan ayat (2) harus terdaftar di lembaga yang ditetapkan oleh Pemerintah Pusat.</p></content>
+              </paragraph>
+
           </article>
 
       </chapter>

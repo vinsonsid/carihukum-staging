@@ -54,23 +54,11 @@
     "id": "uu-2008-36"
    },
    {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
     "id": "uu-2021-7"
-   },
-   {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.277Z",
+ "dihasilkan": "2026-09-08T10:55:54.440Z",
  "timeline": [
   {
    "tanggal": "1984-01-01",
@@ -80,6 +68,59 @@
    "judul_pelaku": "Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-1983-7",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 1,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Ketentuan Pasal 4 diubah sehingga berbunyi sebagai berikut Pasal 4 (1) Yang menjadi objek pajak adalah penghasilan, yaitu setiap tambahan kemampuan ekonomis yang diterima atau diperoleh Wajib Pajak, b",
+     "unit": "pasal-4"
+    },
+    {
+     "instruksi": "replace pasal-112: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    },
+    {
+     "unit": "pasal-2",
+     "instruksi": "Ketentuan Pasal 2 diubah sehingga berbunyi sebagai berikut:"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): Ketentuan Pasal 4 diubah sehingga berbunyi sebagai berikut Pasal 4 (1) Yang menj | replace pasal-112: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-1983-7",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 2,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "replace pasal-112: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): replace pasal-112: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-1983-7",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 2,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "replace pasal-112: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): replace pasal-112: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
   }
  ],
  "peringatan": [],
@@ -118,108 +159,1086 @@
        "id": "pasal-2/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Yang menjadi Subyek Pajak adalah:",
-       "verifikasi": "pdf-resmi",
+       "teks": "Yang menjadi subjek pajak adalah:",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-2/ayat-1/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "1) orang pribadi atau perseorangan; 2) warisan yang belum terbagi sebagai suatu kesatuan, menggantikan yang berhak;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-7",
-         "berlaku_mulai": "1984-01-01"
+         "verifikasi": "draf",
+         "anak": [
+          {
+           "id": "pasal-2/ayat-1/huruf-a/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "orang pribadi; dan",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-1/huruf-a/angka-2",
+           "tipe": "angka",
+           "nomor": "2.",
+           "teks": "warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-2/ayat-1/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "badan yang terdiri dari perseroan terbatas, perseroan komanditer, badan usaha milik negara dan daerah dengan nama dan dalam bentuk apapun, persekutuan, perseroan atau perkumpulan lainnya, firma, kongsi, perkumpulan koperasi, yayasan atau lembaga, dan bentuk usaha tetap.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-7",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "badan; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-1/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "bentuk usaha tetap.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-2/ayat-1a",
+       "tipe": "ayat",
+       "nomor": "(1a)",
+       "teks": "Bentuk usaha tetap merupakan subjek pajak yang perlakuan perpajakannya dipersamakan dengan subjek pajak badan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-2/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Subyek Pajak terdiri dari Subyek Pajak dalam negeri dan Subyek Pajak luar negeri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Subjek pajak dibedakan menjadi subjek pajak dalam negeri dan subjek pajak luar negeri.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-2/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Yang dimaksudkan dengan Subyek Pajak dalam negeri adalah:",
-       "verifikasi": "pdf-resmi",
+       "teks": "Subjek pajak dalam negeri adalah:",
+       "verifikasi": "draf",
        "anak": [
         {
          "id": "pasal-2/ayat-3/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "orang yang berada di Indonesia lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu dua belas bulan atau orang yang dalam suatu tahun pajak berada di Indonesia dan mempunyai niat untuk bertempat tinggal di Indonesia;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-7",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "orang pribadi, baik yang merupakan Warga Negara Indonesia maupun warga negara asing yang:",
+         "verifikasi": "draf",
+         "anak": [
+          {
+           "id": "pasal-2/ayat-3/huruf-a/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "bertempat tinggal di Indonesia;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-3/huruf-a/angka-2",
+           "tipe": "angka",
+           "nomor": "2.",
+           "teks": "berada di Indonesia lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu 12 (dua belas) bulan; atau",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-3/huruf-a/angka-3",
+           "tipe": "angka",
+           "nomor": "3.",
+           "teks": "dalam suatu tahun pajak berada di Indonesia dan mempunyai niat untuk bertempat tinggal di Indonesia;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-2/ayat-3/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "badan yang didirikan atau bertempat kedudukan di Indonesia;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-7",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "badan yang didirikan atau bertempat kedudukan di Indonesia, kecuali unit tertentu dari badan pemerintah yang memenuhi kriteria:",
+         "verifikasi": "draf",
+         "anak": [
+          {
+           "id": "pasal-2/ayat-3/huruf-b/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "pembentukannyaberdasarkanketentuan peraturan perundang-undangan ;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-3/huruf-b/angka-2",
+           "tipe": "angka",
+           "nomor": "2.",
+           "teks": "pembiayaannya bersumber dari Anggaran Pendapatan dan Belanja Negara atau Anggaran Pendapatan dan Belanja Daerah;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-3/huruf-b/angka-3",
+           "tipe": "angka",
+           "nomor": "3.",
+           "teks": "penerimaannya dimasukkan dalam anggaran Pemerintah Pusat atau Pemerintah Daerah; dan",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-3/huruf-b/angka-4",
+           "tipe": "angka",
+           "nomor": "4.",
+           "teks": "pembukuannya diperiksa oleh aparat pengawasan fungsional negara; dan",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         },
         {
          "id": "pasal-2/ayat-3/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "bentuk usaha tetap yaitu bentuk usaha, yang dipergunakan untuk menjalankan kegiatan usaha secara teratur di Indonesia, oleh badan atau perusahaan yang tidak didirikan atau tidak bertempat kedudukan di Indonesia, yang dapat berupa tempat kedudukan manajemen, kantor cabang, kantor perwakilan, agen, gedung kantor, pabrik, bengkel, proyek konstruksi, pertambangan dan penggalian sumber alam, perikanan, tenaga ahli, pemberian jasa dalam bentuk apapun oleh pegawai atau oleh orang lain, orang atau badan yang kedudukannya tidak bebas yang bertindak atas nama badan atau perusahaan yang tidak didirikan atau tidak bertempat kedudukan di Indonesia dan perusahaan asuransi yang tidak didirikan atau tidak bertempat kedudukan di Indonesia yang menerima premi asuransi atau menanggung risiko di Indonesia.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-7",
-         "berlaku_mulai": "1984-01-01"
+         "teks": "warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-2/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Yang dimaksudkan dengan Subyek Pajak luar negeri adalah Subyek Pajak yang tidak bertempat tinggal, tidak didirikan, atau tidak berkedudukan di Indonesia, yang dapat menerima atau memperoleh penghasilan dari Indonesia.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Subjek pajak luar negeri adalah:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-2/ayat-4/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "orang pribadi yang tidak bertempat tinggal di Indonesia;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-4/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "warga negara asing yang berada di Indonesia tidak lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu 12 (dua belas) bulan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-4/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "Warga Negara lndonesia yang berada di luar Indonesia lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu 12 (dua belas) bulan serta memenuhi persyaratan:",
+         "verifikasi": "draf",
+         "anak": [
+          {
+           "id": "pasal-2/ayat-4/huruf-c/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "tempat tinggal;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-4/huruf-c/angka-2",
+           "tipe": "angka",
+           "nomor": "2.",
+           "teks": "pusat kegiatan utama;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-4/huruf-c/angka-3",
+           "tipe": "angka",
+           "nomor": "3.",
+           "teks": "tempat menjalankan kebiasaan;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-4/huruf-c/angka-4",
+           "tipe": "angka",
+           "nomor": "4.",
+           "teks": "status subjek pajak; dan/atau",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-2/ayat-4/huruf-c/angka-5",
+           "tipe": "angka",
+           "nomor": "5.",
+           "teks": "persyaratan tertentu lainnya, yang ketentuan lebih lanjut mengenai persyaratan tersebut diatur dalam Peraturan Menteri Keuangan; dan",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-4/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "badan yang tidak didirikan dan tidak bertempat kedudukan di Indonesia, yang menjalankan usaha atau melakukan kegiatan melalui bentuk usaha tetap di Indonesia atau yang dapat menerima atau memperoleh penghasilan dari Indonesia tidak dari menjalankan usaha atau melakukan kegiatan melalui bentuk usaha tetap di Indonesia.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-2/ayat-5",
        "tipe": "ayat",
        "nomor": "(5)",
-       "teks": "Seseorang atau suatu badan berada, bertempat tinggal, atau berkedudukan di Indonesia ditentukan menurut keadaan sebenarnya.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Bentuk usaha tetap adalah bentuk usaha yang dipergunakan oleh orang pribadi sebagaimana dimaksud pada ayat (4) huruf a, huruf b, dan huruf c, dan badan sebagaimana dimaksud pada ayat (4) huruf d untuk menjalankan usaha atau melakukan kegiatan di Indonesia yang dapat berupa:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-2/ayat-5/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "tempat kedudukan manajemen;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "cabang perusahaan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "kantor perwakilan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "gedung kantor;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "pabrik;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "bengkel;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-g",
+         "tipe": "huruf",
+         "nomor": "g.",
+         "teks": "gudang;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-h",
+         "tipe": "huruf",
+         "nomor": "h.",
+         "teks": "ruang untuk promosi dan penjualan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-i",
+         "tipe": "huruf",
+         "nomor": "i.",
+         "teks": "pertambangan dan penggalian sumber alam;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-j",
+         "tipe": "huruf",
+         "nomor": "j.",
+         "teks": "wilayah kerja pertambangan minyak dan gas bumi;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-k",
+         "tipe": "huruf",
+         "nomor": "k.",
+         "teks": "perikanan, peternakan, pertanian, perkebunan, atau kehutanan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-l",
+         "tipe": "huruf",
+         "nomor": "l.",
+         "teks": "proyek konstruksi, instalasi, atau proyek perakitan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-m",
+         "tipe": "huruf",
+         "nomor": "m.",
+         "teks": "pemberian jasa dalam bentuk apa pun oleh pegawai atau orang lain sepanjang dilakukan lebih dari 60 (enam puluh) hari dalam jangka waktu 12 (dua belas) bulan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-n",
+         "tipe": "huruf",
+         "nomor": "n.",
+         "teks": "orang atau badan yang bertindak selaku agen yang kedudukannya tidak bebas;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-o",
+         "tipe": "huruf",
+         "nomor": "o.",
+         "teks": "agen atau pegawai dari perusahaan asuransi yang tidak didirikan dan tidak bertempat kedudukan di Indonesia yang menerima premi asuransi atau menanggung risiko di Indonesia; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-2/ayat-5/huruf-p",
+         "tipe": "huruf",
+         "nomor": "p.",
+         "teks": "komputer, agen elektronik, atau peralatan otomatis yang dimiliki, disewa, atau digunakan oleh penyelenggara transaksi elektronik untuk menjalankan kegiatan usaha melalui internet.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-2/ayat-6",
        "tipe": "ayat",
        "nomor": "(6)",
-       "teks": "Direktur Jenderal Pajak berwenang menetapkan seseorang atau suatu badan berada, bertempat tinggal atau bertempat kedudukan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "teks": "Tempat tinggal orang pribadi atau tempat kedudukan badan ditetapkan oleh Direktur Jenderal Pajak menurut keadaan yang sebenarnya.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-1983-7",
-     "berlaku_mulai": "1984-01-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1983-7",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-2",
+        "tipe": "pasal",
+        "nomor": "2",
+        "anak": [
+         {
+          "id": "pasal-2/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Yang menjadi Subyek Pajak adalah:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-2/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "1) orang pribadi atau perseorangan; 2) warisan yang belum terbagi sebagai suatu kesatuan, menggantikan yang berhak;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-7",
+            "berlaku_mulai": "1984-01-01"
+           },
+           {
+            "id": "pasal-2/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "badan yang terdiri dari perseroan terbatas, perseroan komanditer, badan usaha milik negara dan daerah dengan nama dan dalam bentuk apapun, persekutuan, perseroan atau perkumpulan lainnya, firma, kongsi, perkumpulan koperasi, yayasan atau lembaga, dan bentuk usaha tetap.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-7",
+            "berlaku_mulai": "1984-01-01"
+           }
+          ],
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-2/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Subyek Pajak terdiri dari Subyek Pajak dalam negeri dan Subyek Pajak luar negeri.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-2/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Yang dimaksudkan dengan Subyek Pajak dalam negeri adalah:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-2/ayat-3/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "orang yang berada di Indonesia lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu dua belas bulan atau orang yang dalam suatu tahun pajak berada di Indonesia dan mempunyai niat untuk bertempat tinggal di Indonesia;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-7",
+            "berlaku_mulai": "1984-01-01"
+           },
+           {
+            "id": "pasal-2/ayat-3/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "badan yang didirikan atau bertempat kedudukan di Indonesia;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-7",
+            "berlaku_mulai": "1984-01-01"
+           },
+           {
+            "id": "pasal-2/ayat-3/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "bentuk usaha tetap yaitu bentuk usaha, yang dipergunakan untuk menjalankan kegiatan usaha secara teratur di Indonesia, oleh badan atau perusahaan yang tidak didirikan atau tidak bertempat kedudukan di Indonesia, yang dapat berupa tempat kedudukan manajemen, kantor cabang, kantor perwakilan, agen, gedung kantor, pabrik, bengkel, proyek konstruksi, pertambangan dan penggalian sumber alam, perikanan, tenaga ahli, pemberian jasa dalam bentuk apapun oleh pegawai atau oleh orang lain, orang atau badan yang kedudukannya tidak bebas yang bertindak atas nama badan atau perusahaan yang tidak didirikan atau tidak bertempat kedudukan di Indonesia dan perusahaan asuransi yang tidak didirikan atau tidak bertempat kedudukan di Indonesia yang menerima premi asuransi atau menanggung risiko di Indonesia.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-7",
+            "berlaku_mulai": "1984-01-01"
+           }
+          ],
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-2/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Yang dimaksudkan dengan Subyek Pajak luar negeri adalah Subyek Pajak yang tidak bertempat tinggal, tidak didirikan, atau tidak berkedudukan di Indonesia, yang dapat menerima atau memperoleh penghasilan dari Indonesia.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-2/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Seseorang atau suatu badan berada, bertempat tinggal, atau berkedudukan di Indonesia ditentukan menurut keadaan sebenarnya.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-2/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Direktur Jenderal Pajak berwenang menetapkan seseorang atau suatu badan berada, bertempat tinggal atau bertempat kedudukan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "sumber": "uu-1983-7",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 2 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1983-7",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-2",
+        "tipe": "pasal",
+        "nomor": "2",
+        "anak": [
+         {
+          "id": "pasal-2/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Yang menjadi subjek pajak adalah:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-2/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-2/ayat-1/huruf-a/angka-1",
+              "tipe": "angka",
+              "nomor": "1.",
+              "teks": "orang pribadi; dan",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-2/ayat-1/huruf-a/angka-2",
+              "tipe": "angka",
+              "nomor": "2.",
+              "teks": "warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "badan; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "bentuk usaha tetap.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-2/ayat-1a",
+          "tipe": "ayat",
+          "nomor": "(1a)",
+          "teks": "Bentuk usaha tetap merupakan subjek pajak yang perlakuan perpajakannya dipersamakan dengan subjek pajak badan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-2/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Subjek pajak dibedakan menjadi subjek pajak dalam negeri dan subjek pajak luar negeri.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-2/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Subjek pajak dalam negeri adalah:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-2/ayat-3/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "orang pribadi, baik yang merupakan Warga Negara Indonesia maupun warga negara asing yang: l bertempat tinggal di Indonesia;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-3/angka-2",
+            "tipe": "angka",
+            "nomor": "2.",
+            "teks": "berada di Indonesia lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu 12 (dua belas) bulan; atau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-3/angka-3",
+            "tipe": "angka",
+            "nomor": "3.",
+            "teks": "dalam suatu tahun pajak berada di Indonesia dan mempunyai niat untuk bertempat tinggal di Indonesia;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-3/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "badan yang didirikan atau bertempat kedudukan di Indonesia, kecuali unit tertentu dari badan pemerintah yang memenuhi kriteria:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-2/ayat-3/huruf-b/angka-1",
+              "tipe": "angka",
+              "nomor": "1.",
+              "teks": "pembentukannyaberdasarkanketentuan peraturan perundang-undangan;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-2/ayat-3/huruf-b/angka-2",
+              "tipe": "angka",
+              "nomor": "2.",
+              "teks": "pembiayaannya bersumber dari Anggaran Pendapatan dan Belanja Negara atau Anggaran Pendapatan dan Belanja Daerah;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-2/ayat-3/huruf-b/angka-3",
+              "tipe": "angka",
+              "nomor": "3.",
+              "teks": "penerimaannya dimasukkan dalam anggaran Pemerintah Pusat atau Pemerintah Daerah; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-2/ayat-3/huruf-b/angka-4",
+              "tipe": "angka",
+              "nomor": "4.",
+              "teks": "pembukuannya diperiksa oleh aparat pengawasan fungsional negara; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-3/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-2/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Subjek pajak luar negeri adalah:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-2/ayat-4/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "orang pribadi yang tidak bertempat tinggal di Indonesia;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-4/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "warga negara asing yang berada di Indonesia tidak lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu 12 (dua belas) bulan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-4/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "Warga Negara Indonesia yang berada di luar Indonesia lebih dari 183 (seratus delapan puluh tiga) hari dalam jangka waktu 12 (dua belas) bulan serta memenuhi persyaratan:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-2/ayat-4/huruf-c/angka-1",
+              "tipe": "angka",
+              "nomor": "1.",
+              "teks": "tempat tinggal;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-2/ayat-4/huruf-c/angka-2",
+              "tipe": "angka",
+              "nomor": "2.",
+              "teks": "pusat kegiatan utama;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-2/ayat-4/huruf-c/angka-3",
+              "tipe": "angka",
+              "nomor": "3.",
+              "teks": "tempat menjalankan kebiasaan;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-2/ayat-4/huruf-c/angka-4",
+              "tipe": "angka",
+              "nomor": "4.",
+              "teks": "status subjek pajak; dan/atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-2/ayat-4/huruf-c/angka-5",
+              "tipe": "angka",
+              "nomor": "5.",
+              "teks": "persyaratan tertentu lainnya, yang ketentuan lebih lanjut mengenai persyaratan tersebut diatur dalam Peraturan Menteri Keuangan; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-4/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "badan yang tidak didirikan dan tidak bertempat kedudukan di Indonesia, yang menjalankan usaha atau melakukan kegiatan melalui bentuk usaha tetap di Indonesia atau yang dapat menerima atau memperoleh penghasilan dari Indonesia tidak dari menjalankan usaha atau melakukan kegiatan melalui bentuk usaha tetap di Indonesia.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-2/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Bentuk usaha tetap adalah bentuk usaha yang dipergunakan oleh orang pribadi sebagaimana dimaksud pada ayat (4) huruf a, huruf b, dan huruf c, dan badan sebagaimana dimaksud pada ayat (4) huruf d untuk menjalankan usaha atau melakukan kegiatan di Indonesia yang dapat berupa:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-2/ayat-5/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "tempat kedudukan manajemen;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "cabang perusahaan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "kantor perwakilan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "gedung kantor;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "pabrik;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "bengkel;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "gudang;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "ruang untuk promosi dan penjualan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-i",
+            "tipe": "huruf",
+            "nomor": "i.",
+            "teks": "pertambangan dan penggalian sumber alam;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-j",
+            "tipe": "huruf",
+            "nomor": "j.",
+            "teks": "wilayah kerja pertambangan minyak dan gas bumi;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-k",
+            "tipe": "huruf",
+            "nomor": "k.",
+            "teks": "perikanan, peternakan, pertanian, perkebunan, atau kehutanan;",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-2/ayat-5/huruf-k/angka-1",
+              "tipe": "angka",
+              "nomor": "1.",
+              "teks": "proyek konstruksi, instalasi, atau proyek perakitan;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-m",
+            "tipe": "huruf",
+            "nomor": "m.",
+            "teks": "pemberian jasa dalam bentuk apa pun oleh pegawai atau orang lain sepanjang dilakukan lebih dari 60 (enam puluh) hari dalam jangka waktu 12 (dua belas) bulan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-n",
+            "tipe": "huruf",
+            "nomor": "n.",
+            "teks": "orang atau badan yang bertindak selaku agen yang kedudukannya tidak bebas;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-o",
+            "tipe": "huruf",
+            "nomor": "o.",
+            "teks": "agen atau pegawai dari perusahaan asuransi yang tidak didirikan dan tidak bertempat kedudukan di Indonesia yang menerima premi asuransi atau menanggung risiko di Indonesia; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-2/ayat-5/huruf-p",
+            "tipe": "huruf",
+            "nomor": "p.",
+            "teks": "komputer, agen elektronik, atau peralatan otomatis yang dimiliki, disewa, atau digunakan oleh penyelenggara transaksi elektronik untuk menjalankan kegiatan usaha melalui internet.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-2/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Tempat tinggal orang pribadi atau tempat kedudukan badan ditetapkan oleh Direktur Jenderal Pajak menurut keadaan yang sebenarnya.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 2 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-3",
@@ -1856,55 +2875,644 @@
      "nomor": "26",
      "anak": [
       {
-       "id": "pasal-26/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "dividen dari perseroan dalam negeri;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "id": "pasal-26/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Atas penghasilan tersebut di bawah ini, dengan nama dan dalam bentuk apa pur, yang dibayarkan, disediakan untuk dibayarkan, atau telah jatuh tempo pembayarannya oleh badan pemerintah, subjek pajak dalam negeri, penyelenggara kegiatan, bentuk usaha tetap, atau perwakilan perusahaan luar negeri lainnya kepada Wajib Pajak luar negeri selain bentuk usaha tetap di Indonesia dipotong pajak sebesar 2Oo/o (dua puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-26/ayat-1/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "dividen;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-26/ayat-1/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "bunga termasuk premium, diskonto, dan imbalan sehubungan dengan jaminan pengembalian utang;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-26/ayat-1/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "royalti, sewa, dan penghasilan lain sehubungan dengan penggunaan harta;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-26/ayat-1/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "imbalan sehubungan dengan jasa, pekerjaan, dan kegiatan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-26/ayat-1/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "hadiah dan penghargaan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-26/ayat-1/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "pensiun dan pembayaran berkala lainnya;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-26/ayat-1/huruf-g",
+         "tipe": "huruf",
+         "nomor": "g.",
+         "teks": "premi swap dan transaksi lindung nilai lainnya; dan/atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-26/ayat-1/huruf-h",
+         "tipe": "huruf",
+         "nomor": "h.",
+         "teks": "keuntungan karena pembebasan utang.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
-       "id": "pasal-26/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "bunga, termasuk imbalan karena jaminan pengembalian hutang;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "id": "pasal-26/ayat-1a",
+       "tipe": "ayat",
+       "nomor": "(1a)",
+       "teks": "Negara domisili dari Wajib Pajak luar negeri selain yang menjalankan usaha atau melakukan kegiatan usaha melalui bentuk usaha tetap di Indonesia sebagaimana dimaksud pada ayat (1) adalah negara tempat tinggal atau tempat kedudukan Wajib Pajak luar negeri yang sebenarnya menerima manfaat dari penghasilan tersebut (beneficial ownef .",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
-       "id": "pasal-26/huruf-c",
-       "tipe": "huruf",
-       "nomor": "c.",
-       "teks": "sewa, royalti, dan penghasilan lain karena penggunaan harta;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "id": "pasal-26/ayat-1b",
+       "tipe": "ayat",
+       "nomor": "(1b)",
+       "teks": "Tarif sebesar 2OYo (dua puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan bunga termasuk premium, diskonto, dan imbalan sehubungan dengan jaminan pengembalian utang sebagaimana dimaksud pada ayat (1) huruf b dapat diturunkan dengan Peraturan Pemerintah.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
-       "id": "pasal-26/huruf-d",
-       "tipe": "huruf",
-       "nomor": "d.",
-       "teks": "imbalan yang dibayarkan untuk jasa teknik, jasa manajemen dan jasa lainnya yang dilakukan di Indonesia;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "id": "pasal-26/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Atas penghasilan dari penjualan atau pengalihan harta di Indonesia, kecuali yang diatur dalam Pasal 4 ayat (2),yangditerima atau diperoleh Wajib Pajak luar negeri selain bentuk usaha tetap di Indonesia, dan premi asuransi yang dibayarkan kepada perusahaan asuransi luar negeri dipotong pajak 2Ooh (dua puluh persen) dari perkiraan penghasilan neto.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
-       "id": "pasal-26/huruf-e",
-       "tipe": "huruf",
-       "nomor": "e.",
-       "teks": "keuntungan sesudah dikurangi pajak dari suatu bentuk usaha tetap di Indonesia.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-7",
-       "berlaku_mulai": "1984-01-01"
+       "id": "pasal-26/ayat-2a",
+       "tipe": "ayat",
+       "nomor": "(2a)",
+       "teks": "Atas penghasilan dari penjualan atau pengalihan saham sebagaimana dimaksud dalam Pasal 18 ayat (3c) dipotong pajak sebesar 2Oo/o (dua puluh persen) dari perkiraan penghasilan neto.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-26/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Pelaksanaan ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (2a) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-26/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Penghasilan Kena Pajak sesudah dikurangi pajak dari suatu bentuk usaha tetap di Indonesia dikenai pajak sebesar 20%o (dua puluh persen), kecuali penghasilan tersebut ditanamkan kembali di Indonesia, yang ketentuannya diatur lebih lanjut dengan atau berdasarkan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-26/ayat-5",
+       "tipe": "ayat",
+       "nomor": "(5)",
+       "teks": "Pemotongan pajak sebagaimana dimaksud pada ayat (1), ayat (2), ayat (2a), dan ayat (4) bersifat final, kecuali:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-26/ayat-5/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "pemotongan atas penghasilan sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf b dan hurufc; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-26/ayat-5/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "pemotongan atas penghasilan yang diterima atau diperoleh orang pribadi atau badan luar negeri yang berubah status menjadi Wajib Pajak dalam negeri atau bentuk usaha tetap. PasallI2...",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "teks": "Atas penghasilan tersebut di bawah ini, dengan nama dan dalam bentuk apapun, yang dibayarkan atau yang terhutang oleh badan pemerintah, badan usaha milik negara dan daerah dengan nama dan dalam bentuk apapun atau oleh Wajib Pajak dalam negeri lainnya kepada Wajib Pajak luar negeri, dipotong pajak yang bersifat final sebesar 20% (dua puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan :",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-1983-7",
-     "berlaku_mulai": "1984-01-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-7",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-26",
+        "tipe": "pasal",
+        "nomor": "26",
+        "anak": [
+         {
+          "id": "pasal-26/huruf-a",
+          "tipe": "huruf",
+          "nomor": "a.",
+          "teks": "dividen dari perseroan dalam negeri;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-26/huruf-b",
+          "tipe": "huruf",
+          "nomor": "b.",
+          "teks": "bunga, termasuk imbalan karena jaminan pengembalian hutang;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-26/huruf-c",
+          "tipe": "huruf",
+          "nomor": "c.",
+          "teks": "sewa, royalti, dan penghasilan lain karena penggunaan harta;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-26/huruf-d",
+          "tipe": "huruf",
+          "nomor": "d.",
+          "teks": "imbalan yang dibayarkan untuk jasa teknik, jasa manajemen dan jasa lainnya yang dilakukan di Indonesia;",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         },
+         {
+          "id": "pasal-26/huruf-e",
+          "tipe": "huruf",
+          "nomor": "e.",
+          "teks": "keuntungan sesudah dikurangi pajak dari suatu bentuk usaha tetap di Indonesia.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-7",
+          "berlaku_mulai": "1984-01-01"
+         }
+        ],
+        "teks": "Atas penghasilan tersebut di bawah ini, dengan nama dan dalam bentuk apapun, yang dibayarkan atau yang terhutang oleh badan pemerintah, badan usaha milik negara dan daerah dengan nama dan dalam bentuk apapun atau oleh Wajib Pajak dalam negeri lainnya kepada Wajib Pajak luar negeri, dipotong pajak yang bersifat final sebesar 20% (dua puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan :",
+        "verifikasi": "pdf-resmi",
+        "sumber": "uu-1983-7",
+        "berlaku_mulai": "1984-01-01"
+       },
+       "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1983-7",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "sebelum": {
+        "id": "pasal-26",
+        "tipe": "pasal",
+        "nomor": "26",
+        "anak": [
+         {
+          "id": "pasal-26/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Atas penghasilan tersebut di bawah ini, dengan nama dan dalam bentuk apa pufl, yang dibayarkan, disediakan untuk dibayarkan, atau telah jatuh tempo pembayarannya oleh badan pemerintah, subjek pajak dalam negeri, penyelenggara kegiatan, bentuk usaha tetap, atau perwakilan perusahaan luar negeri lainnya kepada Wajib Pajak luar negeri selain bentuk usaha tetap di Indonesia dipotong pajak sebesar 2O%o (dua puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-26/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "dividen;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "bunga termasuk premium, diskonto, dan imbalan sehubungan dengan jaminan pengembalian utang;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "royalti, sewa, dan penghasilan lain sehubungan dengan penggunaan harta;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "imbalan sehubungan dengan jasa, pekerjaan, dan kegiatan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "hadiah dan penghargaan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "pensiun dan pembayaran berkala lainnya;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "premi swap dan transaksi lindung nilai lainnya; dan/atau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "keuntungan karena pembebasan utang.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/ayat-1a",
+          "tipe": "ayat",
+          "nomor": "(1a)",
+          "teks": "Negara domisili dari Wajib Pajak luar negeri selain yang menjalankan usaha atau melakukan kegiatan usaha melalui bentuk usaha tetap di Indonesia sebagaimana dimaksud pada ayat (1) adalah negara tempat tinggal atau tempat kedudukan Wajib Pajak luar negeri yang sebenarnya menerima manfaat dari penghasilan tersebut (beneficial ownefl . (lb) Tarif (lb) Tarif sebesar 2Ooh (dta puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan bunga termasuk premium, diskonto, dan imbalan sehubungan dengan jaminan pengembalian utang sebagaimana dimaksud pada ayat (1) huruf b dapat diturunkan dengan Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Atas penghasilan dari penjualan atau pengalihan harta di Indonesia, kecuali yang diatur dalam Pasal 4 ayat (2), yang diterima atau diperoleh Wajib Pajak luar negeri selain bentuk usaha tetap di Indonesia, dan premi asuransi yang dibayarkan kepada perusahaan asuransi luar negeri dipotong pajak 2Oo/o (dua puluh persen) dari perkiraan penghasilan neto.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/ayat-2a",
+          "tipe": "ayat",
+          "nomor": "(2a)",
+          "teks": "Atas penghasilan dari penjualan atau pengalihan saham sebagaimana dimaksud dalam Pasal 18 ayat (3c) dipotong pajak sebesar 207o (dua puluh persen) dari perkiraan penghasilan neto.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pelaksanaan ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (2a) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Penghasilan Kena Pajak sesudah dikurangi pajak dari suatu bentuk usaha tetap di Indonesia dikenai pajak sebesar 20%o (dua puluh persen), kecuali penghasilan tersebut ditanamkan kembali di Indonesia, yang ketentuannya diatur lebih lanjut dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-26/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Pemotongan pajak sebagaimana dimaksud pada ayat (1), ayat (2), ayat (2a), dan ayat (4) bersifat final, kecuali:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-26/ayat-5/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pemotongan atas penghasilan sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf b dan huruf c; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-26/ayat-5/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pemotongan atas penghasilan yang diterima atau diperoleh orang pribadi atau badan luar negeri yang berubah status menjadi Wajib Pajak dalam negeri atau bentuk usaha tetap.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1983-7",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-26",
+        "tipe": "pasal",
+        "nomor": "26",
+        "anak": [
+         {
+          "id": "pasal-26/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Atas penghasilan tersebut di bawah ini, dengan nama dan dalam bentuk apa pun, yang dibayarkan, disediakan untuk dibayarkan, atau telah jatuh tempo pembayarannya oleh badan pemerintah, subjek pajak dalam negeri, penyelenggara kegiatan, bentuk usaha tetap, atau perwakilan perusahaan luar negeri lainnya kepada Wajib Pajak luar negeri selain bentuk usaha tetap di Indonesia dipotong pajak sebesar 2Oo/o (dua puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-26/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "dividen;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "bunga termasuk premium, diskonto, dan imbalan sehubungan dengan jaminan pengembalian utang;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "royalti, sewa, dan penghasilan lain sehubungan dengan penggunaan harta;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "imbalan sehubungan dengan jasa, pekerjaan, dan kegiatan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "hadiah dan penghargaan;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "pensiun dan pembayaran berkala lainnya;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "premi swap dan transaksi lindung nilai lainnya; dan/atau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-26/ayat-1/huruf-h",
+            "tipe": "huruf",
+            "nomor": "h.",
+            "teks": "keuntungan karena pembebasan utang.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/ayat-1a",
+          "tipe": "ayat",
+          "nomor": "(1a)",
+          "teks": "Negara domisili dari Wajib Pajak luar negeri selain yang menjalankan usaha atau melakukan kegiatan usaha melalui bentuk usaha tetap di Indonesia sebagaimana dimaksud pada ayat (1) adalah negara tempat tinggal atau tempat kedudukan Wajib Pajak luar negeri yang sebenarnya menerima manfaat dari penghasilan tersebut (beneficial owner).",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/ayat-1b",
+          "tipe": "ayat",
+          "nomor": "(1b)",
+          "teks": "Tarif sebesar 2OVo (d.ua puluh persen) dari jumlah bruto oleh pihak yang wajib membayarkan bunga termasuk premium, diskonto, dan imbalan sehubungan dengan jaminan pengembalian utang sebagaimana dimaksud pada ayat (1) huruf b dapat diturunkan dengan Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Atas penghasilan dari penjualan atau pengalihan harta di Indonesia, kecuali yang diatur dalam Pasal 4 ayat (2), yang diterima atau diperoleh Wajib Pajak luar negeri selain bentuk usaha tetap di Indonesia, dan premi asuransi yang dibayarkan kepada perusahaan asuransi luar negeri dipotong pajak 2Oo/o (dua puluh persen) dari perkiraan penghasilan neto.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/ayat-2a",
+          "tipe": "ayat",
+          "nomor": "(2a)",
+          "teks": "Atas penghasilan dari penjualan atau pengalihan saham sebagaimana dimaksud dalam Pasal 18 ayat (3c) dipotong pajak sebesar 2O% (dua puluh persen) dari perkiraan penghasilan neto.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pelaksanaan ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (2a) diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Penghasilan Kena Pajak sesudah dikurangi pajak dari suatu bentuk usaha tetap di Indonesia dikenai pajak sebesar 2oo/o (dtua puluh persen), kecuali penghasilan tersebut ditanamkan kembali di Indonesia, yang ketentuannya diatur lebih lanjut dengan atau berdasarkan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-26/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Pemotongan pajak sebagaimana dimaksud pada ayat (1), ayat (2), ayat (2a), dan ayat (4) bersiflat final, kecuali:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-26/ayat-5/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pemotongan atas penghasilan sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf b dan huruf c; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-26/ayat-5/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pemotongan atas penghasilan yang diterima atau diperoleh orang pribadi atau badan luar negeri yang berubah status menjadi Wajib Pajak dalam negeri atau bentuk usaha tetap.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
+       },
+       "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-27",
@@ -2249,11 +3857,11 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 199,
-  "pdf-resmi": 198,
+  "total": 246,
+  "pdf-resmi": 181,
   "pdf-ocr": 1,
-  "draf": 0,
-  "lainnya": 0
+  "draf": 63,
+  "lainnya": 1
  },
  "istilah": [],
  "penjelasan": {

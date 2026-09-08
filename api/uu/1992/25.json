@@ -38,15 +38,11 @@
     "tanggal": "2020-11-02"
    },
    {
-    "id": "perppu-2022-2",
-    "tanggal": "2022-12-30"
-   },
-   {
     "id": "uu-2023-4"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.289Z",
+ "dihasilkan": "2026-09-08T10:55:54.452Z",
  "timeline": [
   {
    "tanggal": "1992-10-21",
@@ -56,6 +52,22 @@
    "judul_pelaku": "Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 5,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "Di antara Pasal44 dan Pasal 45 disisipkan I (satu) pasal, yakni Pasal 44A sehingga berbunyi sebagai berikut:",
+     "unit": "pasal-45"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Di antara Pasal44 dan Pasal 45 disisipkan I (satu) pasal, yakni Pasal 44A sehing"
   },
   {
    "tanggal": "2023-03-31",
@@ -370,10 +382,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
        "sebelum": {
         "id": "pasal-6",
         "tipe": "pasal",
@@ -400,6 +412,43 @@
         ],
         "sumber": "uu-1992-25",
         "berlaku_mulai": "1992-10-21"
+       },
+       "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-6",
+        "tipe": "pasal",
+        "nomor": "6",
+        "anak": [
+         {
+          "id": "pasal-6/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Koperasi Primer dibentuk paling sedikit oleh 9 (sembilan) orang.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-6/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Koperasi Sekunder dibentuk oleh paling sedikit 3 (tiga) Koperasi.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
        },
        "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
       }
@@ -775,6 +824,12 @@
      "berlaku_mulai": "1992-10-21",
      "anotasi": [
       {
+       "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
+       "pelaku": "perppu-2022-2",
+       "tanggal": "2022-12-30",
+       "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 17 diubah sebagaimana tercantum dalam penjelasan.”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
+      },
+      {
        "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
        "pelaku": "uu-2023-6",
        "tanggal": "2023-03-31",
@@ -1032,10 +1087,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
        "sebelum": {
         "id": "pasal-21",
         "tipe": "pasal",
@@ -1073,6 +1128,74 @@
         "verifikasi": "pdf-resmi",
         "sumber": "uu-1992-25",
         "berlaku_mulai": "1992-10-21"
+       },
+       "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-21",
+        "tipe": "pasal",
+        "nomor": "21",
+        "anak": [
+         {
+          "id": "pasal-21/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Perangkat organisasi Koperasi terdiri atas:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-21/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "Rapat Anggota;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-21/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "Pengurus; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-21/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "Pengawas.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-21/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Selain memiliki perangkat organisasi Koperasi sebagaimana dimaksud pada ayat (1), Koperasi yang menjalankan kegiatan usaha berdasarkan prinsip syariah wajib memiliki dewan pengawas syariah.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
        },
        "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
       }
@@ -1131,10 +1254,10 @@
        "riwayat": [
         {
          "aksi": "diganti",
-         "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
-         "pelaku": "uu-2023-6",
-         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-         "tanggal": "2023-03-31",
+         "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
          "sebelum": {
           "id": "pasal-22",
           "tipe": "pasal",
@@ -1161,6 +1284,63 @@
           ],
           "sumber": "uu-1992-25",
           "berlaku_mulai": "1992-10-21"
+         },
+         "catatan": "Ketentuan Pasal 22 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-22",
+          "tipe": "pasal",
+          "nomor": "22",
+          "anak": [
+           {
+            "id": "pasal-22/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Rapat Anggota merupakan pemegang kekuasaan tertinggi dalam Koperasi.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-22/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Rapat Anggota sebagaimana dimaksud pada ayat (1) dihadiri oleh anggota yang pelaksanaannya diatur dalam Anggaran Dasar/Anggaran Rumah Tangga.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-22/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Rapat Anggota sebagaimana dimaksud pada ayat (2) dapat dilakukan secara daring dan/ atau luring.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-22/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Ketentuan lebih lanjut mengenai Rapat Anggota sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dalam Anggaran Dasar/Anggaran Rumah Tangga.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
          },
          "catatan": "Ketentuan Pasal 22 diubah sehingga berbunyi sebagai berikut:"
         }
@@ -2056,10 +2236,10 @@
      "riwayat": [
       {
        "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
+       "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
        "sebelum": {
         "id": "pasal-43",
         "tipe": "pasal",
@@ -2095,6 +2275,63 @@
         ],
         "sumber": "uu-1992-25",
         "berlaku_mulai": "1992-10-21"
+       },
+       "catatan": "Ketentuan Pasal 43 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-43",
+        "tipe": "pasal",
+        "nomor": "43",
+        "anak": [
+         {
+          "id": "pasal-43/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Usaha Koperasi adalah usaha yang berkaitan langsung dengan kepentingan anggota untuk meningkatkan usaha dan kesejahteraan anggota. l2l Usaha Koperasi sebagaimana dimaksud pada ayat (1) dapat dilaksanakan secara tunggal usaha atau serba usaha.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-43/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Kelebihan kemampuan pelayanan Koperasi dapat digunakan untuk memenuhi kebutuhan masyarakat yang bukan anggota Koperasi dalam rangka menarik masyarakat menjadi anggota Koperasi.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-43/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Koperasi menjalankan kegiatan usaha dan berperan utama di segala bidang kehidupan ekonomi rakyat.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         {
+          "id": "pasal-43/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Ketentuan lebih lanjut mengenai kegiatan usaha Koperasi diatur dalam Peraturan Pemerintah.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         }
+        ],
+        "sumber": "perppu-2022-2",
+        "berlaku_mulai": "2022-12-30"
        },
        "catatan": "Ketentuan Pasal 43 diubah sehingga berbunyi sebagai berikut:"
       }

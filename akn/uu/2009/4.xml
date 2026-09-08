@@ -11,20 +11,53 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2009/4/ind@2009-01-12/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2009/4/ind@2009-01-12"/>
-          <FRBRdate date="2009-01-12" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2009/4/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2009/4/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2009/4/ind@2009-01-12/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2009/4/ind@2009-01-12.akn"/>
-          <FRBRdate date="2026-09-06" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/2009/4/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2009/4/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-08" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2009-01-12" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2020-11-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2022-12-30" source="#org_2" type="amendment"/>
+        <eventRef eId="e_3" date="2023-03-31" source="#org_3" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="insertion" eId="pmod_1">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_128a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2020/11"/>
+          <destination href="#pasal_162"/>
+        </textualMod>
+        <textualMod type="insertion" eId="pmod_3">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_128a"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/perppu/2022/2"/>
+          <destination href="#pasal_162"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_5">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_162"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2020/11" showAs="Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/perppu/2022/2" showAs="Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja"/>
+        <TLCOrganization eId="org_3" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -2477,6 +2510,22 @@
               </paragraph>
 
           </article>
+          <article eId="pasal_128a">
+            <num>128A</num>
+              <paragraph eId="pasal_128a__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemegang IUP atau IUPK pada tahap kegiatan Operasi Produksi yang melakukan Pengembangan dan/atau Pemanfaatan Batubara sebagaimana dimaksud dalam Pasal lO2 ayat (2) dapat diberikan perlakuan tertentu terhadap kewajiban penerimaan negara sebagaimana dimaksud dalam Pasal 128.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_128a__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemberian perlakuan tertentu terhadap kewajiban penerimaan negara sebagaimana dimaksud pada ayat (1) untuk kegiatan Pengembangan dan/ atau Pemanfaatan Batubara dapat berupa pengenaan iuran produksi/royalti sebesar 0% (nol persen).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_128a__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai perlakuan tertentu sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
           <article eId="pasal_129">
             <num>129</num>
               <paragraph eId="pasal_129__ayat_1">
@@ -2963,7 +3012,7 @@
           </article>
           <article eId="pasal_162">
             <num>162</num>
-            <content><p>Setiap orang yang merintangi atau mengganggu kegiatan usaha pertambangan dari pemegang IUP atau IUPK yang telah memenuhi syarat-syarat sebagaimana dimaksud dalam Pasal 136 ayat (2) dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling banyak Rp100.000.000,00 (seratus juta rupiah).</p></content>
+            <content><p>Setiap Orang yang merintangi atau mengganggu kegiatan Usaha Pertambangan dari pemegang IUP, IUPK, IPR, atau SIPB yang telah memenuhi syarat- syarat sebagaimana dimaksud dalam Pasal 70, Pasal 86F huruf b, dan Pasal 136 ayat (2) dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling banyak Rp100.000.000,00 (seratus juta rupiah).</p></content>
           </article>
           <article eId="pasal_163">
             <num>163</num>

@@ -59,23 +59,15 @@
     "id": "uu-2009-42"
    },
    {
-    "id": "uu-2020-11",
-    "tanggal": "2020-11-02"
-   },
-   {
     "id": "uu-2021-7"
    },
    {
     "id": "perppu-2022-2",
     "tanggal": "2022-12-30"
-   },
-   {
-    "id": "uu-2023-6",
-    "tanggal": "2023-03-31"
    }
   ]
  },
- "dihasilkan": "2026-09-06T09:41:09.284Z",
+ "dihasilkan": "2026-09-08T10:55:54.448Z",
  "timeline": [
   {
    "tanggal": "1984-07-01",
@@ -85,9 +77,76 @@
    "judul_pelaku": "Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah",
    "jumlah_operasi": null,
    "status_kurasi": "draf"
+  },
+  {
+   "tanggal": "2020-11-02",
+   "peristiwa": "uu-2020-11/amandemen-uu-1983-8",
+   "tipe": "perubahan",
+   "pelaku": "uu-2020-11",
+   "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+   "jumlah_operasi": 2,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "replace pasal-113: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    },
+    {
+     "instruksi": "replace pasal-1a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 1A diubah sehing",
+     "unit": "pasal-1a"
+    },
+    {
+     "instruksi": "replace pasal-4a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 4A diubah sehing",
+     "unit": "pasal-4a"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (3): replace pasal-113: muatan kosong (tak ada teks maupun anak) — tidak dienkode | replace pasal-1a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini ditera | replace pasal-4a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini ditera"
+  },
+  {
+   "tanggal": "2022-12-30",
+   "peristiwa": "perppu-2022-2/amandemen-uu-1983-8",
+   "tipe": "perubahan",
+   "pelaku": "perppu-2022-2",
+   "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+   "jumlah_operasi": 0,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "replace pasal-113: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    },
+    {
+     "instruksi": "replace pasal-1a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 1A diubah sehing",
+     "unit": "pasal-1a"
+    },
+    {
+     "unit": "pasal-13",
+     "instruksi": "Ketentuan Pasal 13 diubah sehingga berbunyi sebagai berikut:"
+    }
+   ],
+   "status_kurasi": "belum-dienkode",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): replace pasal-113: muatan kosong (tak ada teks maupun anak) — tidak dienkode | replace pasal-1a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini ditera"
+  },
+  {
+   "tanggal": "2023-03-31",
+   "peristiwa": "uu-2023-6/amandemen-uu-1983-8",
+   "tipe": "perubahan",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "jumlah_operasi": 1,
+   "operasi_belum_dienkode": [
+    {
+     "instruksi": "replace pasal-113: muatan kosong (tak ada teks maupun anak) — tidak dienkode"
+    },
+    {
+     "instruksi": "replace pasal-1a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini diterapkan — kemungkinan besar lahir dari amandemen terdahulu yang belum dienkode (instruksi: Ketentuan Pasal 1A diubah sehing",
+     "unit": "pasal-1a"
+    }
+   ],
+   "status_kurasi": "draf",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): replace pasal-113: muatan kosong (tak ada teks maupun anak) — tidak dienkode | replace pasal-1a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini ditera"
   }
  ],
- "peringatan": [],
+ "peringatan": [
+  "Peristiwa perppu-2022-2/amandemen-uu-1983-8 (perubahan, berlaku 2022-12-30) belum dienkode — teks konsolidasi BELUM mencerminkan peristiwa ini. Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): replace pasal-113: muatan kosong (tak ada teks maupun anak) — tidak dienkode | replace pasal-1a: unit itu tidak ada pada uu-1983-8 pada saat operasi ini ditera"
+ ],
  "pohon": [
   {
    "id": "bab-1",
@@ -484,106 +543,530 @@
        "id": "pasal-9/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Pajak Pertambahan Nilai yang terhutang dalam suatu Masa Pajak dihitung dengan mengalihkan tarif sebagaimana diatur dalam Pasal 7 dengan Dasar Pengenaan Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Dihapus. (2t Pajak Masukan dalam suatu Masa Pajak dikreditkan dengan Pajak Keluaran dalam Masa Pajak yang sama.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
-       "id": "pasal-9/ayat-2",
+       "id": "pasal-9/ayat-2a",
        "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Pajak Masukan dalam suatu Masa Pajak dapat dikreditkan dengan Pajak Keluaran untuk masa yang sama.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "nomor": "(2a)",
+       "teks": "Bagi Pengusaha Kena Pajak yang belum melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak dan/atau ekspor Barang Kena Pajak dan/atau Jasa Kena Pajak, Pajak Masukan atas perolehan Barang Kena Pajak dan/atau Jasa Kena Pajak, impor Barang Kena Pajak, serta pemanfaatan Barang Kena Pajak Tidak Berwujud dan/atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean dapat dikreditkan sepanjang memenuhi ketentuan pengkreditan sesuai dengan Undang-Undang ini.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-2b",
+       "tipe": "ayat",
+       "nomor": "(2b)",
+       "teks": "Pajak Masukan yang dikreditkan harus menggunakan Faktur Pajak yang memenuhi persyaratan sebagaimana dimaksud dalam Pasal 13 ayat (5) dan ayat (9).",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-9/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Apabila dalam suatu Masa Pajak, Pajak Keluaran lebih besar dari pada Pajak Masukan, maka selisihnya merupakan pajak yang harus dibayar oleh Pengusaha Kena Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Apabila dalam suatu Masa Pajak, Pajak Keluaran lebih besar daripada Pajak Masukan, selisihnya merupakan Pajak Pertambahan Nilai yang harus disetor oleh Pengusaha Kena Pajak.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-9/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Apabila dalam suatu Masa Pajak, Pajak Masukan lebih besar dari pada Pajak Keluaran, maka selisihnya merupakan kelebihan pajak yang dapat dikompensasikan dengan pajak terhutang dalam Masa Pajak berikutnya, atau dapat dikembalikan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Apabila dalam suatu Masa Pajak, Pajak Masukan yang dapat dikreditkan lebih besar daripada Pajak Keluaran, selisihnya merupakan kelebihan pajak yang dikompensasikan ke Masa Pajak berikutnya.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-4a",
+       "tipe": "ayat",
+       "nomor": "(4a)",
+       "teks": "Atas kelebihan Pajak Masukan sebagaimana dimaksud pada ayat (4) dapat diajukan permohonan pengembalian pada akhir tahun buku. (ab) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (4) dan ayat (4a), atas kelebihan Pajak Masukan dapat diajukan permohonan pengembalian pada setiap Masa Pajak oleh:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-9/ayat-4a/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "Pengusaha Kena Pajak yang melakukan ekspor Barang Kena Pajak Berwujud;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-4a/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "Pengusaha Kena Pajak yang melakukan penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak kepada Pemungut Pajak Pertambahan Nilai;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-4a/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "Pengusaha Kena Pajak yang melakukan penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang Pajak Pertambahan Nilainya tidak dipungut;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-4a/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "Pengusaha Kena Pajak yang melakukan ekspor Barang Kena Pajak Tidak Berwujud;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-4a/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "Pengusaha Kena Pajak yang melakukan ekspor Jasa Kena Pajak; dan/atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-4a/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "Dihapus.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        }
+       ],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-4c",
+       "tipe": "ayat",
+       "nomor": "(4c)",
+       "teks": "Pengembalian kelebihan Pajak Masukan kepada Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (4b) huruf a sampai dengan huruf e, yang mempunyai kriteria sebagai Pengusaha Kena Pajak berisiko rendah, dilakukan dengan pengembalian pendahuluan kelebihan pajak sesuai ketentuan sebagaimana dimaksud dalam Pasal 17C ayat (1) Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan dan perubahannya.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-4d",
+       "tipe": "ayat",
+       "nomor": "(4d)",
+       "teks": "Ketentuan mengenai Pengusaha Kena Pajak berisiko rendah yang diberikan pengembalian pendahuluan kelebihan pajak sebagaimana dimaksud pada ayat (4c) diatur dengan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-4e",
+       "tipe": "ayat",
+       "nomor": "(4e)",
+       "teks": "Direktur Jenderal Pajak dapat melakukan pemeriksaan terhadap Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (4c) dan menerbitkan surat ketetapan pajak setelah melakukan pengembalian pendahuluan kelebihan pajak. (40 Apabila berdasarkan hasil pemeriksaan sebagaimana dimaksud pada ayat (4e), Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Kurang Bayar, jumlah kekurangan pajak ditambah dengan sanksi administrasi berupa bunga sebagaimana dimaksud dalam Pasal 13 ayat (2) Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan dan perubahannya.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-9/ayat-5",
        "tipe": "ayat",
        "nomor": "(5)",
-       "teks": "Apabila dalam suatu Masa Pajak, Pengusaha Kena Pajak di samping melakukan penyerahan kena pajak juga melakukan penyerahan tidak kena pajak, sepanjang bagian penyerahan kena pajak itu dapat diketahui dengan pasti dari catatan dalam pembukuan, maka jumlah Pajak Masukan yang dapat dikreditkan hanya sebesar Pajak Masukan yang telah dibayar pada waktu perolehan atau pengimporan Barang Kena Pajak yang diserahkan kepada Pengusaha Kena Pajak, atau yang dipakai untuk menghasilkan Barang Kena Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Apabila dalam suatu Masa Pajak Pengusaha Kena Pajak selain melakukan penyerahan yang terutang pajak juga melakukan penyerahan yang tidak terutang pajak, sepanjang bagian penyerahan yang terutang pajak dapat diketahui dengan pasti dari pembukuannya, jumlah Pajak Masukan yang dapat dikreditkan adalah Pajak Masukan yang berkenaan dengan penyerahan yang terutang pajak.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
        "id": "pasal-9/ayat-6",
        "tipe": "ayat",
        "nomor": "(6)",
-       "teks": "Dalam hal bagian penyerahan kena pajak maupun bagian penyerahan tidak kena pajak sebagaimana dimaksud dalam ayat (5) tidak dapat diketahui dengan pasti, Menteri Keuangan dapat menetapkan suatu pedoman penghitungan jumlah Pajak Masukan yang dapat dikreditkan untuk bagian penyerahan kena pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Apabila dalam suatu Masa Pajak Pengusaha Kena Pajak selain melakukan penyerahan yang terutang pajak juga melakukan penyerahan yang tidak terutang pajak, sedangkan Pajak Masukan untuk penyerahan yang terutang pajak tidak dapat diketahui dengan pasti, jumlah Pajak Masukan yang dapat dikreditkan untuk penyerahan yang terutang pajak dihitung dengan menggunakan pedoman yang diatur dengan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
-       "id": "pasal-9/ayat-7",
+       "id": "pasal-9/ayat-6a",
        "tipe": "ayat",
-       "nomor": "(7)",
-       "teks": "Pengusaha yang berdasarkan Undang-undang Pajak Penghasilan 1984 memilih dikenakan pajak dengan pedoman Norma Penghitungan, sepanjang terhutang Pajak Pertambahan Nilai, dapat mengkreditkan Pajak Masukan yang telah dibayar terhadap Pajak Keluaran yang harus dipungut, dengan mempergunakan pedoman penghitungan kredit Pajak Masukan yang ditetapkan dengan Keputusan Menteri Keuangan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "nomor": "(6a)",
+       "teks": "Apabila sampai dengan jangka waktu 3 (tiga) tahun sejak Masa Pajak pengkreditan pertama kali Pajak Masukan sebagaimana dimaksud pada ayat (2a) Pengusaha Kena Pajak belum melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak dan/atau ekspor Barang Kena Pajak dan/atau Jasa Kena Pajak terkait dengan Pajak Masukan tersebut, Pajak Masukan yang telah dikreditkan dalam jangka waktu 3 (tiga) tahun tersebut menjadi tidak dapat dikreditkan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       },
       {
-       "id": "pasal-9/ayat-8",
+       "id": "pasal-9/ayat-6b",
        "tipe": "ayat",
-       "nomor": "(8)",
-       "teks": "Pajak Masukan tidak dapat dikreditkan menurut cara yang diatur dalam ayat (2) bagi pengeluaran untuk:",
-       "verifikasi": "pdf-resmi",
+       "nomor": "(6b)",
+       "teks": "Dihapus.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-6c",
+       "tipe": "ayat",
+       "nomor": "(6c)",
+       "teks": "Jangka waktu sebagaimana dimaksud pada ayat (6a) bagi sektor usaha tertentu dapat ditetapkan lebih dari 3 (tiga) tahun.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-6d",
+       "tipe": "ayat",
+       "nomor": "(6d)",
+       "teks": "Ketentuan sebagaimana dimaksud pada ayat (6a) berlaku juga bagi Pengusaha Kena Pajak yang melakukan pembubaran (pengakhiran) usaha, melakukan pencabutan Pengusaha Kena Pajak, atau dilakukan pencabutan Pengusaha Kena Pajak secara jabatan dalam jangka waktu 3 (tiga) tahun sejak Masa Pajak pengkreditan pertama kali Pajak Masukan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-6e",
+       "tipe": "ayat",
+       "nomor": "(6e)",
+       "teks": "Pajak Masukan yang tidak dapat dikreditkan sebagaimana dimaksud pada ayat (6a):",
+       "verifikasi": "draf",
        "anak": [
         {
-         "id": "pasal-9/ayat-8/huruf-a",
+         "id": "pasal-9/ayat-6e/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "pembelian Barang atau Jasa sebelum Pengusaha dikukuhkan menjadi Pengusaha Kena Pajak;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
+         "teks": "wajib dibayar kembali ke kas negara oleh Pengusaha Kena Pajak, dalam hal Pengusaha Kena Pajak:",
+         "verifikasi": "draf",
+         "anak": [
+          {
+           "id": "pasal-9/ayat-6e/huruf-a/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "telah menerima pengembalian kelebihan pembayaran pajak atas Pajak Masukan dimaksud; danlatau",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2020-11",
+           "berlaku_mulai": "2020-11-02"
+          },
+          {
+           "id": "pasal-9/ayat-6e/huruf-a/angka-2",
+           "tipe": "angka",
+           "nomor": "2.",
+           "teks": "telah mengkreditkan Pajak Masukan dimaksud dengan Pajak Keluaran yang terutang dalam suatu Masa Pajak; dan/atau",
+           "verifikasi": "draf",
+           "anak": [
+            {
+             "id": "pasal-9/ayat-6e/huruf-a/angka-2/huruf-a",
+             "tipe": "huruf",
+             "nomor": "a.",
+             "teks": "akhir bulan berikutnya setelah tanggal berakhirnya jangka waktu 3 (tiga) tahun sebagaimana dimaksud pada ayat (6a);",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2020-11",
+             "berlaku_mulai": "2020-11-02"
+            },
+            {
+             "id": "pasal-9/ayat-6e/huruf-a/angka-2/huruf-b",
+             "tipe": "huruf",
+             "nomor": "b.",
+             "teks": "akhir bulan berikutnya setelah tanggal berakhirnya jangka waktu bagi sektor usaha tertentu sebagaimana dimaksud pada ayat (6c); atau",
+             "verifikasi": "draf",
+             "anak": [],
+             "sumber": "uu-2020-11",
+             "berlaku_mulai": "2020-11-02"
+            }
+           ],
+           "sumber": "uu-2020-11",
+           "berlaku_mulai": "2020-11-02"
+          }
+         ],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         },
         {
-         "id": "pasal-9/ayat-8/huruf-b",
+         "id": "pasal-9/ayat-6e/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "pembelian Barang dan pengeluaran biaya lain yang tidak mempunyai hubungan langsung dengan proses menghasilkan Barang Kena Pajak atau Jasa Kena Pajak;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
+         "teks": "tidak dapat dikompensasikan ke Masa Pajak berikutnya dan tidak dapat diajukan permohonan pengembalian, setelah jangka waktu 3 (tiga) tahun sebagaimana dimaksud pada ayat (6a) berakhir atau pada saat pembubaran (pengakhiran) usaha, atau pencabutan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (6d) oleh Pengusaha Kena Pajak, dalam hal Pengusaha Kena Pajak melakukan kompensasi atas kelebihan pembayaran pajak dimaksud. (60 Pembayaran kembali Pajak Masukan sebagaimana dimaksud pada ayat (6e) huruf a dilakukan paling lambat:",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         },
         {
-         "id": "pasal-9/ayat-8/huruf-c",
+         "id": "pasal-9/ayat-6e/huruf-c",
          "tipe": "huruf",
          "nomor": "c.",
-         "teks": "pembelian dan pemeliharaan kendaraan bermotor sedan, jeep, stasion wagon, van dan kombi.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
+         "teks": "akhir bulan berikutnya setelah tanggal pembubaran (pengakhiran) usaha atau pencabutan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (6d).",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
         }
        ],
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
+      },
+      {
+       "id": "pasal-9/ayat-69",
+       "tipe": "ayat",
+       "nomor": "(69)",
+       "teks": "Dalam . . (6e) Dalam hal Pengusaha Kena Pajak tidak melaksanakan kewajiban pembayaran kembali sesuai dengan jangka waktu sebagaimana dimaksud pada ayat (6f), Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Kurang Bayar atas jumlah pajak yang seharusnya dibayar kembali sebagaimana dimaksud pada ayat (6e) huruf a oleh Pengusaha Kena Pajak ditambah sanksi administrasi berupa bunga sebagaimana dimaksud dalam Pasal 13 ayat (2a) Undang- Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan dan perubahannya. (7) Besarnya Pajak Masukan yang dapat dikreditkan oleh Pengusaha Kena Pajak yang peredaran usahanya dalam 1 (satu) tahun tidak melebihi jumlah tertentu, kecuali Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (7a) dapat dihitung dengan menggunakan pedoman penghitungan pengkreditan Pajak Masukan. (7a) Besarnya Pajak Masukan yang dapat dikreditkan oleh Pengusaha Kena Pajak yang melakukan kegiatan usaha tertentu dihitung dengan menggunakan pedoman penghitungan pengkreditan Pajak Masukan. (7b) Ketentuan mengenai peredaran usaha sebagaimana dimaksud pada ayat (7lr, kegiatan usaha tertentu sebagaimana dimaksud pada ayat (7a), dan pedoman penghitungan pengkreditan Pajak Masukan sebagaimana dimaksud pada ayat (7) dan ayat (7a) diatur dengan atau berdasarkan Peraturan Menteri Keuangan. (8) Pengkreditan Pajak Masukan sebagaimana dimaksud pada ayat (2) tidak dapat diberlakukan bagi pengeluaran untuk:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-9/ayat-69/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "kriteria belum melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak danf atau ekspor Barang Kena Pajak dan/atau Jasa Kena Pajak sebagaimana dimaksud pada ayat (2a);",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "penghitungan dan tata cara pengembalian kelebihan Pajak Masukan sebagaimana dimaksud pada ayat (4a), ayat (4b), dan ayat",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "perolehan dan pemeliharaan kendaraan bermotor berupa sedan dan station wagon, kecuali merupakan barang dagangan atau disewakan;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "tata cara pembayaran kembali Pajak Masukan sebagaimana dimaksud pada ayat (6e) huruf a; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "tata cara pengkreditan Pajak Masukan sebagaimana dimaksud pada ayat (9a) , ayat (9b), dan ayat (9c) diatur dengan atau berdasarkan Peraturan Menteri Keuangan. (14) Dalam hal terjadi pengalihan Barang Kena Pajak dalam rangka penggabungan, peleburan, pemekaran, pemecahan, dan pengambilalihan usaha, Pajak Masukan atas Barang Kena Pajak yang dialihkan yang belum dikreditkan oleh Pengusaha Kena Pajak yang mengalihkan dapat dikreditkan oleh Pengusaha Kena Pajak yang menerima pengalihan sepanjang Faktur Pajaknya diterima setelah terjadinya pengalihan dan Pajak Masukan tersebut belum dibebankan sebagai biaya atau dikapitalisasi.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "perolehan Barang Kena Pajak atau Jasa Kena Pajak yang Faktur Pajaknya tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 13 ayat (5) atau ayat (9) atau tidak mencantumkan nama, alamat, dan Nomor Pokok Wajib Pajak pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-g",
+         "tipe": "huruf",
+         "nomor": "g.",
+         "teks": "pemanfaatan Barang Kena Pajak Tidak Bervrrujud atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean yang Faktur Pajaknya tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 13 ayat",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-h",
+         "tipe": "huruf",
+         "nomor": "h.",
+         "teks": "dihapus;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-i",
+         "tipe": "huruf",
+         "nomor": "i.",
+         "teks": "dihapus; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        },
+        {
+         "id": "pasal-9/ayat-69/huruf-j",
+         "tipe": "huruf",
+         "nomor": "j.",
+         "teks": "dihapus. (9) Pajak Masukan yang dapat dikreditkan tetapi belum dikreditkan dengan Pajak Keluaran pada Masa Pajak yang sama dapat dikreditkan pada Masa Pajak berikutnya paling lama 3 (tiga) Masa Pajak setelah berakhirnya Masa Pajak saat Faktur Pajak dibuat sepanjang belum dibebankan sebagai biaya atau belum ditambahkan (dikapitalisasi) dalam harga perolehan Barang Kena Pajak atau Jasa Kena Pajak serta memenuhi ketentuan pengkreditan sesuai dengan Undang-Undang ini. (9a) Pajak (ea) Pajak Masukan atas perolehan Barang Kena Pajak dan/atau Jasa Kena Pajak, impor Barang Kena Pajak serta pemanfaatan Barang Kena Pajak Tidak Benvujud dan/atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean sebelum Pengusaha dikukuhkan sebagai Pengusaha Kena Pajak, dapat dikreditkan oleh Pengusaha Kena Pajak dengan menggunakan pedoman pengkreditan Pajak Masukan sebesar 80% (delapan puluh persen) dari Pajak Keluaran yang seharusnya dipungut. (eb) Pajak Masukan atas perolehan Barang Kena Pajak dan/atau Jasa Kena Pajak, impor Barang Kena Pajak, serta pemanfaatan Barang Kena Pajak Tidak Berwujud dan/atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean yang tidak dilaporkan dalam Surat Pemberitahuan Masa Pajak Pertambahan Nilai yang diberitahukan dan/atau ditemukan pada waktu dilakukan pemeriksaan dapat dikreditkan oleh Pengusaha Kena Pajak sepanjang memenuhi ketentuan pengkreditan sesuai dengan Undang- Undang ini. (ec) Pajak Masukan atas perolehan Barang Kena Pajak dan/atau Jasa Kena Pajak, impor Barang Kena Pajak, serta pemanfaatan Barang Kena Pajak Tidak Berwujud dan/atau pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean yang ditagih dengan penerbitan ketetapan pajak dapat dikreditkan oleh Pengusaha Kena Pajak sebesar jumlah pokok Pajak Pertambahan Nilai yang tercantum dalam ketetapan pajak dengan ketentuan ketetapan pajak dimaksud telah dilakukan pelunasan dan tidak dilakukan upaya hukum serta memenuhi ketentuan pengkreditan sesuai dengan Undang- Undang ini. (10) Dihapus. (11) Dihapus. (12) Dihapus. (13) Ketentuan lebih lanjut mengenai:",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2020-11",
+         "berlaku_mulai": "2020-11-02"
+        }
+       ],
+       "sumber": "uu-2020-11",
+       "berlaku_mulai": "2020-11-02"
       }
      ],
-     "sumber": "uu-1983-8",
-     "berlaku_mulai": "1984-07-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-8",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-9",
+        "tipe": "pasal",
+        "nomor": "9",
+        "anak": [
+         {
+          "id": "pasal-9/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pajak Pertambahan Nilai yang terhutang dalam suatu Masa Pajak dihitung dengan mengalihkan tarif sebagaimana diatur dalam Pasal 7 dengan Dasar Pengenaan Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-9/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pajak Masukan dalam suatu Masa Pajak dapat dikreditkan dengan Pajak Keluaran untuk masa yang sama.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-9/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Apabila dalam suatu Masa Pajak, Pajak Keluaran lebih besar dari pada Pajak Masukan, maka selisihnya merupakan pajak yang harus dibayar oleh Pengusaha Kena Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-9/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Apabila dalam suatu Masa Pajak, Pajak Masukan lebih besar dari pada Pajak Keluaran, maka selisihnya merupakan kelebihan pajak yang dapat dikompensasikan dengan pajak terhutang dalam Masa Pajak berikutnya, atau dapat dikembalikan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-9/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Apabila dalam suatu Masa Pajak, Pengusaha Kena Pajak di samping melakukan penyerahan kena pajak juga melakukan penyerahan tidak kena pajak, sepanjang bagian penyerahan kena pajak itu dapat diketahui dengan pasti dari catatan dalam pembukuan, maka jumlah Pajak Masukan yang dapat dikreditkan hanya sebesar Pajak Masukan yang telah dibayar pada waktu perolehan atau pengimporan Barang Kena Pajak yang diserahkan kepada Pengusaha Kena Pajak, atau yang dipakai untuk menghasilkan Barang Kena Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-9/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Dalam hal bagian penyerahan kena pajak maupun bagian penyerahan tidak kena pajak sebagaimana dimaksud dalam ayat (5) tidak dapat diketahui dengan pasti, Menteri Keuangan dapat menetapkan suatu pedoman penghitungan jumlah Pajak Masukan yang dapat dikreditkan untuk bagian penyerahan kena pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-9/ayat-7",
+          "tipe": "ayat",
+          "nomor": "(7)",
+          "teks": "Pengusaha yang berdasarkan Undang-undang Pajak Penghasilan 1984 memilih dikenakan pajak dengan pedoman Norma Penghitungan, sepanjang terhutang Pajak Pertambahan Nilai, dapat mengkreditkan Pajak Masukan yang telah dibayar terhadap Pajak Keluaran yang harus dipungut, dengan mempergunakan pedoman penghitungan kredit Pajak Masukan yang ditetapkan dengan Keputusan Menteri Keuangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-9/ayat-8",
+          "tipe": "ayat",
+          "nomor": "(8)",
+          "teks": "Pajak Masukan tidak dapat dikreditkan menurut cara yang diatur dalam ayat (2) bagi pengeluaran untuk:",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-9/ayat-8/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "pembelian Barang atau Jasa sebelum Pengusaha dikukuhkan menjadi Pengusaha Kena Pajak;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           },
+           {
+            "id": "pasal-9/ayat-8/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "pembelian Barang dan pengeluaran biaya lain yang tidak mempunyai hubungan langsung dengan proses menghasilkan Barang Kena Pajak atau Jasa Kena Pajak;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           },
+           {
+            "id": "pasal-9/ayat-8/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "pembelian dan pemeliharaan kendaraan bermotor sedan, jeep, stasion wagon, van dan kombi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           }
+          ],
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         }
+        ],
+        "sumber": "uu-1983-8",
+        "berlaku_mulai": "1984-07-01"
+       },
+       "catatan": "Ketentuan Pasal 9 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2020-11",
+     "berlaku_mulai": "2020-11-02"
     },
     {
      "id": "pasal-10",
@@ -703,133 +1186,737 @@
        "id": "pasal-13/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Setiap Pengusaha Kena Pajak wajib membuat Faktur Pajak pada saat penyerahan Barang Kena Pajak atau Jasa Kena Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Pengusaha Kena Pajak wajib membuat Faktur Pajak untuk setiap:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-13/ayat-1/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "penyerahan Barang Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a atau huruf f dan/atau Pasal 16D;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-1/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "penyerahan Jasa Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf c;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-1/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "ekspor Barang Kena Pajak Tidak Berwujud sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf g; dan/atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-1/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "ekspor Jasa Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf h.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-13/ayat-1a",
+       "tipe": "ayat",
+       "nomor": "(1a)",
+       "teks": "Faktur Pajak sebagaimana dimaksud pada ayat (1) harus dibuat pada:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-13/ayat-1a/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "saat penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-1a/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "saat penerimaan pembayaran dalam hal penerimaan pembayaran terjadi sebelum penyerahan Barang Kena Pajak dan/atau sebelum penyerahan Jasa Kena Pajak;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-1a/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "saat penerimaan pembayaran termin dalam hal penyerahan sebagian tahap pekerjaan; atau",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-1a/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "saat lain yang diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-13/ayat-2",
        "tipe": "ayat",
        "nomor": "(2)",
-       "teks": "Apabila pembayaran diterima sebelum penyerahan Barang Kena Pajak atau Jasa Kena Pajak, Faktur Pajak dibuat pada saat pembayaran.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1), Pengusaha Kena Pajak dapat membuat 1 (satu) Faktur Pajak meliputi selurrrh penyerahan yang dilakukan kepada pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak yang sama selama 1 (satu) bulan kalender.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-13/ayat-2a",
+       "tipe": "ayat",
+       "nomor": "(2a)",
+       "teks": "Faktur Pajak sebagaimana dimaksud pada ayat (2) harus dibuat paling lama pada akhir bulan penyerahan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-13/ayat-3",
        "tipe": "ayat",
        "nomor": "(3)",
-       "teks": "Menyimpang dari ayat (1) dan ayat (2), Pengusaha Kena Pajak dapat diizinkan oleh Direktur Jenderal Pajak untuk membuat satu Faktur Pajak meliputi seluruh penyerahan yang dilakukan kepada Pembeli Barang Kena Pajak atau Penerima Jasa Kena Pajak yang sama selama sebulan takwim setelah akhir bulan takwim yang bersangkutan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Dihapus.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-13/ayat-4",
        "tipe": "ayat",
        "nomor": "(4)",
-       "teks": "Pengusaha yang berdasarkan Pasal 4 ayat (1) huruf b dikenakan pajak, hanya membuat Faktur Pajak sematamata untuk Penyerahan Barang Kena Pajak kepada Pengusaha Kena Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Dihapus. (s) Dalam Faktur Pajak harus dicantumkan keterangan tentang penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang paling sedikit memuat:",
+       "verifikasi": "draf",
+       "anak": [
+        {
+         "id": "pasal-13/ayat-4/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "nama, alamat, dan Nomor Pokok Wajib Pajak yang menyerahkan Barang Kena Pajak atau Jasa Kena Pajak;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-4/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "identitas pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak yang meliputi:",
+         "verifikasi": "draf",
+         "anak": [
+          {
+           "id": "pasal-13/ayat-4/huruf-b/angka-1",
+           "tipe": "angka",
+           "nomor": "1.",
+           "teks": "nama, alamat, dan Nomor Pokok Wajib Pajak atau nomor induk kependudukan atau nomor paspor bagi subjek pajak luar negeri orang pribadi; atau",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-13/ayat-4/huruf-b/angka-2",
+           "tipe": "angka",
+           "nomor": "2.",
+           "teks": "nama dan alamat, dalam hal pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak merupakan subjek pajak luar negeri badan atau bukan merupakan subjek pajak sebagaimana dimaksud dalam Pasal 3 Undang-Undang tentang Pajak Penghasilan;",
+           "verifikasi": "draf",
+           "anak": [],
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-4/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "jenis barang atau jasa, jumlah Harga Jual atau Penggantian, dan potongan harga;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-4/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "Pajak Pertambahan Nilai yang dipungut;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-4/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "Pajak Penjualan atas Barang Mewah yang dipungut;",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-4/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "kode, nomor seri, dan tanggal pembuatan Faktur Pajak; dan",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-13/ayat-4/huruf-g",
+         "tipe": "huruf",
+         "nomor": "g.",
+         "teks": "nama dan tanda tangan yang berhak menandatangani Faktur Pajak.",
+         "verifikasi": "draf",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
-       "id": "pasal-13/ayat-5",
+       "id": "pasal-13/ayat-5a",
        "tipe": "ayat",
-       "nomor": "(5)",
-       "teks": "Direktorat Jenderal Bea dan Cukai membuat Faktur Pajak untuk setiap pemungutan pajak sebagaimana dimaksud dalam Pasal 12 ayat (3).",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "nomor": "(5a)",
+       "teks": "Pengusaha Kena Pajak pedagang eceran dapat membuat Faktur Pajak tanpa mencantumkan keterangan mengenai identitas pembeli serta nama dan tanda tangan penjual dalam hal melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak kepada pembeli dengan karakteristik konsumen akhir yang diatur lebih lanjut dengan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-13/ayat-6",
        "tipe": "ayat",
        "nomor": "(6)",
-       "teks": "Dalam Faktur Pajak harus dicantumkan catatan tentang penyerahan yang dikenakan pajak menurut undang-undang ini yang meliputi :",
-       "verifikasi": "pdf-resmi",
-       "anak": [
-        {
-         "id": "pasal-13/ayat-6/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "Nama, alamat, dan Nomor Pokok Wajib Pajak Pengusaha yang menyerahkan Barang Kena Pajak atau Jasa Kena Pajak;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
-        },
-        {
-         "id": "pasal-13/ayat-6/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "Nama, alamat, dan Nomor Pokok Wajib Pajak Pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
-        },
-        {
-         "id": "pasal-13/ayat-6/huruf-c",
-         "tipe": "huruf",
-         "nomor": "c.",
-         "teks": "Macam, jenis, kuantum, harga satuan, dan jumlah Harga Jual atau Penggantian;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
-        },
-        {
-         "id": "pasal-13/ayat-6/huruf-d",
-         "tipe": "huruf",
-         "nomor": "d.",
-         "teks": "Pajak Pertambahan Nilai yang dipungut;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
-        },
-        {
-         "id": "pasal-13/ayat-6/huruf-e",
-         "tipe": "huruf",
-         "nomor": "e.",
-         "teks": "Pajak Penjualan Atas Barang Mewah yang dipungut;",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
-        },
-        {
-         "id": "pasal-13/ayat-6/huruf-f",
-         "tipe": "huruf",
-         "nomor": "f.",
-         "teks": "Tanggal penyerahan.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-1983-8",
-         "berlaku_mulai": "1984-07-01"
-        }
-       ],
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Direktur Jenderal Pajak dapat menetapkan dokumen tertentu yang kedudukannya dipersamakan dengan Faktur Pajak.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-13/ayat-7",
        "tipe": "ayat",
        "nomor": "(7)",
-       "teks": "Bentuk ukuran, pengadaan serta tata cara penyampaian Faktur Pajak diatur lebih lanjut oleh Menteri Keuangan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Dihapus.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       },
       {
        "id": "pasal-13/ayat-8",
        "tipe": "ayat",
        "nomor": "(8)",
-       "teks": "Pengusaha Kena Pajak yang tidak membuat atau tidak mengisi selengkapnya Faktur Pajak menurut ketentuan sebagaimana diatur dalam ayat (1), ayat (2), dan ayat (6) dikenakan sanksi berupa denda administrasi sebesar 2 % (dua persen) dari Dasar Pengenaan Pajak.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1983-8",
-       "berlaku_mulai": "1984-07-01"
+       "teks": "Ketentuan lebih lanjut mengenai tata cara pembuatan Faktur Pajak dan tata cara pembetulan atau penggantian Faktur Pajak diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
+      },
+      {
+       "id": "pasal-13/ayat-9",
+       "tipe": "ayat",
+       "nomor": "(9)",
+       "teks": "Faktur Pajak harus memenuhi persyaratan formal dan material.",
+       "verifikasi": "draf",
+       "anak": [],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-1983-8",
-     "berlaku_mulai": "1984-07-01"
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2020-11/amandemen-uu-1983-8",
+       "pelaku": "uu-2020-11",
+       "judul_pelaku": "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja",
+       "tanggal": "2020-11-02",
+       "sebelum": {
+        "id": "pasal-13",
+        "tipe": "pasal",
+        "nomor": "13",
+        "anak": [
+         {
+          "id": "pasal-13/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Setiap Pengusaha Kena Pajak wajib membuat Faktur Pajak pada saat penyerahan Barang Kena Pajak atau Jasa Kena Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-13/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Apabila pembayaran diterima sebelum penyerahan Barang Kena Pajak atau Jasa Kena Pajak, Faktur Pajak dibuat pada saat pembayaran.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-13/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Menyimpang dari ayat (1) dan ayat (2), Pengusaha Kena Pajak dapat diizinkan oleh Direktur Jenderal Pajak untuk membuat satu Faktur Pajak meliputi seluruh penyerahan yang dilakukan kepada Pembeli Barang Kena Pajak atau Penerima Jasa Kena Pajak yang sama selama sebulan takwim setelah akhir bulan takwim yang bersangkutan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-13/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Pengusaha yang berdasarkan Pasal 4 ayat (1) huruf b dikenakan pajak, hanya membuat Faktur Pajak sematamata untuk Penyerahan Barang Kena Pajak kepada Pengusaha Kena Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-13/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Direktorat Jenderal Bea dan Cukai membuat Faktur Pajak untuk setiap pemungutan pajak sebagaimana dimaksud dalam Pasal 12 ayat (3).",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-13/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Dalam Faktur Pajak harus dicantumkan catatan tentang penyerahan yang dikenakan pajak menurut undang-undang ini yang meliputi :",
+          "verifikasi": "pdf-resmi",
+          "anak": [
+           {
+            "id": "pasal-13/ayat-6/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "Nama, alamat, dan Nomor Pokok Wajib Pajak Pengusaha yang menyerahkan Barang Kena Pajak atau Jasa Kena Pajak;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           },
+           {
+            "id": "pasal-13/ayat-6/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "Nama, alamat, dan Nomor Pokok Wajib Pajak Pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           },
+           {
+            "id": "pasal-13/ayat-6/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "Macam, jenis, kuantum, harga satuan, dan jumlah Harga Jual atau Penggantian;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           },
+           {
+            "id": "pasal-13/ayat-6/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "Pajak Pertambahan Nilai yang dipungut;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           },
+           {
+            "id": "pasal-13/ayat-6/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "Pajak Penjualan Atas Barang Mewah yang dipungut;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           },
+           {
+            "id": "pasal-13/ayat-6/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "Tanggal penyerahan.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1983-8",
+            "berlaku_mulai": "1984-07-01"
+           }
+          ],
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-13/ayat-7",
+          "tipe": "ayat",
+          "nomor": "(7)",
+          "teks": "Bentuk ukuran, pengadaan serta tata cara penyampaian Faktur Pajak diatur lebih lanjut oleh Menteri Keuangan.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         },
+         {
+          "id": "pasal-13/ayat-8",
+          "tipe": "ayat",
+          "nomor": "(8)",
+          "teks": "Pengusaha Kena Pajak yang tidak membuat atau tidak mengisi selengkapnya Faktur Pajak menurut ketentuan sebagaimana diatur dalam ayat (1), ayat (2), dan ayat (6) dikenakan sanksi berupa denda administrasi sebesar 2 % (dua persen) dari Dasar Pengenaan Pajak.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1983-8",
+          "berlaku_mulai": "1984-07-01"
+         }
+        ],
+        "sumber": "uu-1983-8",
+        "berlaku_mulai": "1984-07-01"
+       },
+       "catatan": "Ketentuan Pasal 13 diubah sehingga berbunyi sebagai berikut:"
+      },
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-1983-8",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "sebelum": {
+        "id": "pasal-13",
+        "tipe": "pasal",
+        "nomor": "13",
+        "anak": [
+         {
+          "id": "pasal-13/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pengusaha Kena Pajak wajib membuat Faktur Pajak untuk setiap:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-13/ayat-1/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "penyerahan Barang Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a atau huruf f danlatau Pasal 16D;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-1/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "penyerahan Jasa Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf c;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-1/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "ekspor Barang Kena Pajak Tidak Berwujud sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf g; dan/atau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-1/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "ekspor Jasa Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf h.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-1a",
+          "tipe": "ayat",
+          "nomor": "(1a)",
+          "teks": "Faktur Pajak sebagaimana dimaksud pada ayat (1) harus dibuat pada:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-13/ayat-1a/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "saat penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-1a/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "saat penerimaan pembayaran dalam hal penerimaan pembayaran terjadi sebelum penyerahan Barang Kena Pajak dan/atau sebelum penyerahan Jasa Kena Pajak;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-1a/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "saat penerimaan pembayaran termin dalam hal penyerahan sebagian tahap pekerjaan; atau",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-1a/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "saat lain yang diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1), Pengusaha Kena Pajak dapat membuat 1 (satu) Faktur Pajak meliputi seluruh penyerahan yang dilakukan kepada pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak yang sama selama 1 (satu) bulan kalender.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-2a",
+          "tipe": "ayat",
+          "nomor": "(2a)",
+          "teks": "Faktur Pajak sebagaimana dimaksud pada ayat (2) harus dibuat paling lama pada akhir bulan penyerahan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Dihapus",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Dihapus",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-5",
+          "tipe": "ayat",
+          "nomor": "(5)",
+          "teks": "Dalam Faktur Pajak harus dicantumkan keterangan tentang penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang paling sedikit memuat:",
+          "verifikasi": "draf",
+          "anak": [
+           {
+            "id": "pasal-13/ayat-5/huruf-a",
+            "tipe": "huruf",
+            "nomor": "a.",
+            "teks": "nama, alamat, dan Nomor Pokok Wajib Pajak yang menyerahkan Barang Kena Pajak atau Jasa Kena Pajak;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-5/huruf-b",
+            "tipe": "huruf",
+            "nomor": "b.",
+            "teks": "identitas pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak yang meliputi:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-13/ayat-5/huruf-b/angka-1",
+              "tipe": "angka",
+              "nomor": "1.",
+              "teks": "nama, alamat, dan Nomor Pokok Wajib Pajak atau nomor induk kependudukan atau nomor paspor bagi subjek pajak luar negeri orang pribadi; atau",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             },
+             {
+              "id": "pasal-13/ayat-5/huruf-b/angka-2",
+              "tipe": "angka",
+              "nomor": "2.",
+              "teks": "nama dan alamat, dalam hal pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak merupakan subjek pajak luar negeri badan atau bukan merupakan subjek pajak sebagaimana dimaksud dalam Pasal 3 Undang-Undang mengenai Pajak Penghasilan;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "uu-2020-11",
+              "berlaku_mulai": "2020-11-02"
+             }
+            ],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-5/huruf-c",
+            "tipe": "huruf",
+            "nomor": "c.",
+            "teks": "jenis barang atau jasa, jumlah Harga Jual atau Penggantian, dan potongan harga;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-5/huruf-d",
+            "tipe": "huruf",
+            "nomor": "d.",
+            "teks": "Pajak Pertambahan Nilai yang dipungut;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-5/huruf-e",
+            "tipe": "huruf",
+            "nomor": "e.",
+            "teks": "Pajak Penjualan atas Barang Mewah yang dipungut;",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-5/huruf-f",
+            "tipe": "huruf",
+            "nomor": "f.",
+            "teks": "kode, nomor seri, dan tanggal pembuatan Faktur Pajak; dan",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           },
+           {
+            "id": "pasal-13/ayat-5/huruf-g",
+            "tipe": "huruf",
+            "nomor": "g.",
+            "teks": "nama dan tanda tangan yang berhak menandatangani Faktur Pajak.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "uu-2020-11",
+            "berlaku_mulai": "2020-11-02"
+           }
+          ],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-5a",
+          "tipe": "ayat",
+          "nomor": "(5a)",
+          "teks": "Pengusaha... (sa) Pengusaha Kena Pajak pedagang eceran dapat membuat Faktur Pajak tanpa mencantumkan keterangan mengenai identitas pembeli serta nama dan tanda tangan penjual dalam hal melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak kepada pembeli dengan karakteristik konsumen akhir yang diatur lebih lanjut dengan Peraturan Menteri Keuangan.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-6",
+          "tipe": "ayat",
+          "nomor": "(6)",
+          "teks": "Direktur Jenderal Pajak dapat menetapkan dokumen tertentu yang kedudukannya dipersamakan dengan Faktur Pajak.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-7",
+          "tipe": "ayat",
+          "nomor": "(7)",
+          "teks": "Dihapus.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         },
+         {
+          "id": "pasal-13/ayat-8",
+          "tipe": "ayat",
+          "nomor": "(8)",
+          "teks": "Ketentuan lebih lanjut mengenai tata cara pembuatan Faktur Pajak dan tata cara pembetulan atau penggantian Faktur Pajak diatur dengan atau berdasarkan Peraturan Menteri Keuangan. (e) Faktur Pajak harus memenuhi persyaratan formal dan material.",
+          "verifikasi": "draf",
+          "anak": [],
+          "sumber": "uu-2020-11",
+          "berlaku_mulai": "2020-11-02"
+         }
+        ],
+        "sumber": "uu-2020-11",
+        "berlaku_mulai": "2020-11-02"
+       },
+       "catatan": "Ketentuan Pasal 13 diubah sehingga berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31"
     },
     {
      "id": "pasal-14",
@@ -1052,10 +2139,10 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 79,
-  "pdf-resmi": 79,
+  "total": 122,
+  "pdf-resmi": 54,
   "pdf-ocr": 0,
-  "draf": 0,
+  "draf": 68,
   "lainnya": 0
  },
  "istilah": [],

@@ -11,20 +11,45 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2007/25/ind@2008-04-26/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2007/25/ind@2008-04-26"/>
-          <FRBRdate date="2008-04-26" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2007/25/ind@2023-03-31/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2007/25/ind@2023-03-31"/>
+          <FRBRdate date="2023-03-31" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2007/25/ind@2008-04-26/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2007/25/ind@2008-04-26.akn"/>
-          <FRBRdate date="2026-09-06" name="ekspor"/>
+          <FRBRthis value="/akn/id/act/uu/2007/25/ind@2023-03-31/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2007/25/ind@2023-03-31.akn"/>
+          <FRBRdate date="2026-09-08" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
       </identification>
+      <lifecycle source="#carihukum">
+        <eventRef eId="e_pengundangan" date="2008-04-26" source="#pemerintah-ri" type="generation"/>
+        <eventRef eId="e_1" date="2023-03-31" source="#org_1" type="amendment"/>
+      </lifecycle>
+      <analysis source="#carihukum">
+        <passiveModifications>
+        <textualMod type="substitution" eId="pmod_1">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_2"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_2">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_12"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_3">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_13"/>
+        </textualMod>
+        <textualMod type="substitution" eId="pmod_4">
+          <source href="/akn/id/act/uu/2023/6"/>
+          <destination href="#pasal_18"/>
+        </textualMod>
+        </passiveModifications>
+      </analysis>
       <references source="#carihukum">
+        <TLCOrganization eId="org_1" href="/akn/id/act/uu/2023/6" showAs="Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
@@ -96,7 +121,7 @@
           </article>
           <article eId="pasal_2">
             <num>2</num>
-            <content><p>Ketentuan dalam Undang-Undang ini berlaku bagi penanaman modal di semua sektor di wilayah negara Republik Indonesia.</p></content>
+            <content><p>Ketentuan dalam Undang-Undang ini berlaku dan menjadi acuan utama bagi Penanaman Modal di semua sektor di wilayah Negara Kesatuan Republik Indonesia.</p></content>
           </article>
 
       </chapter>
@@ -469,32 +494,40 @@
             <num>12</num>
               <paragraph eId="pasal_12__ayat_1">
                 <num>(1)</num>
-                <content><p>Semua bidang usaha atau jenis usaha terbuka bagi kegiatan penanaman modal, kecuali bidang usaha atau jenis usaha yang dinyatakan tertutup dan terbuka dengan persyaratan.</p></content>
+                <content><p>Semua bidang usaha terbuka bagi kegiatan Penanaman Modal, kecuali bidang usaha yang dinyatakan tertutup untuk Penanaman Modal atau kegiatan yang hanya dapat dilakukan oleh Pemerintah Pusat.</p></content>
               </paragraph>
               <paragraph eId="pasal_12__ayat_2">
                 <num>(2)</num>
-                <intro><p>Bidang usaha yang tertutup bagi penanam modal asing adalah:</p></intro>
+                <intro><p>Bidang usaha yang tertutup untuk Penanaman Modal sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
                   <point eId="pasal_12__ayat_2__huruf_a">
                     <num>a.</num>
-                    <content><p>produksi senjata, mesiu, alat peledak, dan peralatan perang; dan</p></content>
+                    <content><p>budi daya dan industri narkotika golongan I;</p></content>
                   </point>
                   <point eId="pasal_12__ayat_2__huruf_b">
                     <num>b.</num>
-                    <content><p>bidang usaha yang secara eksplisit dinyatakan tertutup berdasarkan undang-undang.</p></content>
+                    <content><p>segala bentuk kegiatan perjudian dan/atau kasino;</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>penangkapan spesies ikan yang tercantum dalam Appendix I Conuention on International Tlade in Endangered Species of Wild Fauna and Flora (CITES);</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemanfaatan atau pengambilan koral dan pemanfaatan atau pengambilan karang dari alam yang digunakan untuk bahan bangunanlkapurlkalsium, akuarium, dan souvenir/perhiasan, serta koral hidup atau koral mati (recent death coral) dari alam;</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>industri pembuatan senjata kimia; dan</p></content>
+                  </point>
+                  <point eId="pasal_12__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>industri bahan kimia industri dan industri bahan perusak lapisan ozon.</p></content>
                   </point>
 
               </paragraph>
               <paragraph eId="pasal_12__ayat_3">
                 <num>(3)</num>
-                <content><p>Pemerintah berdasarkan Peraturan Presiden menetapkan bidang usaha yang tertutup untuk penanaman modal, baik asing maupun dalam negeri, dengan berdasarkan kriteria kesehatan, moral, kebudayaan, lingkungan hidup, pertahanan dan keamanan nasional, serta kepentingan nasional lainnya.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_12__ayat_4">
-                <num>(4)</num>
-                <content><p>Kriteria dan persyaratan bidang usaha yang tertutup dan yang terbuka dengan persyaratan serta daftar bidang usaha yang tertutup dan yang terbuka dengan persyaratan masing-masing akan diatur dengan Peraturan Presiden.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_12__ayat_5">
-                <num>(5)</num>
-                <content><p>Pemerintah menetapkan bidang usaha yang terbuka dengan persyaratan berdasarkan kriteria kepentingan nasional, yaitu perlindungan sumber daya alam, perlindungan, pengembangan usaha mikro, kecil, menengah, dan koperasi, pengawasan produksi dan distribusi, peningkatan kapasitas teknologi, partisipasi modal dalam negeri, serta kerja sama dengan badan usaha yang ditunjuk Pemerintah.</p></content>
+                <content><p>Ketentuan lebih lanjut mengenai bidang usaha sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Presiden.</p></content>
               </paragraph>
 
           </article>
@@ -507,11 +540,40 @@
             <num>13</num>
               <paragraph eId="pasal_13__ayat_1">
                 <num>(1)</num>
-                <content><p>Pemerintah wajib menetapkan bidang usaha yang dicadangkan untuk usaha mikro, kecil, menengah, dan koperasi serta bidang usaha yang terbuka untuk usaha besar dengan syarat harus bekerja sama dengan usaha mikro, kecil, menengah, dan koperasi.</p></content>
+                <content><p>Pemerintah Pusat atau Pemerintah Daerah sesuai dengan kewenangannya memberikan kemudahan, pelindungan, dan pemberdayaan bagi koperasi dan usaha mikro, kecil, dan menengah dalam pelaksanaan Penanaman Modal berdasarkan norma, standar, prosedur, dan kriteria yang ditetapkan Pemerintah Pusat.</p></content>
               </paragraph>
               <paragraph eId="pasal_13__ayat_2">
                 <num>(2)</num>
-                <content><p>Pemerintah melakukan pembinaan dan pengembangan usaha mikro, kecil, menengah, dan koperasi melalui program kemitraan, peningkatan daya saing, pemberian dorongan inovasi dan perluasan pasar, serta penyebaran informasi yang seluas-luasnya.</p></content>
+                <intro><p>Pelindungan dan pemberdayaan sebagaimana dimaksud pada ayat (1) berupa pembinaan dan pengembangan koperasi dan usaha mikro, kecil, dan menengah melalui:</p></intro>
+                  <point eId="pasal_13__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>program kemitraan;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pelatihan sumber daya manusia;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>peningkatan daya saing;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemberian dorongan inovasi dan perluasan pasar;</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>akses pembiayaan; dan</p></content>
+                  </point>
+                  <point eId="pasal_13__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>penyebaran informasi yang seluas-luasnya.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_3">
+                <num>(3)</num>
+                <content><p>Program kemitraan sebagaimana dimaksud pada ayat (2) huruf a merupakan kemitraan sebagaimana dimaksud dalam undang-undang di bidang usaha mikro, kecil, dan menengah.</p></content>
               </paragraph>
 
           </article>
@@ -608,24 +670,24 @@
             <num>18</num>
               <paragraph eId="pasal_18__ayat_1">
                 <num>(1)</num>
-                <content><p>Pemerintah memberikan fasilitas kepada penanam modal yang melakukan penanaman modal.</p></content>
+                <content><p>Pemerintah Pusat memberikan fasilitas kepada Penanam Modal yang melakukan Penanaman Modal.</p></content>
               </paragraph>
               <paragraph eId="pasal_18__ayat_2">
                 <num>(2)</num>
-                <intro><p>Fasilitas penanaman modal sebagaimana dimaksud pada ayat (1) dapat diberikan kepada penanaman modal yang :</p></intro>
+                <intro><p>Fasilitas Penanaman Modal sebagaimana dimaksud pada ayat (1) dapat diberikan kepada Penanaman Modal yang:</p></intro>
                   <point eId="pasal_18__ayat_2__huruf_a">
                     <num>a.</num>
-                    <content><p>melakukan peluasan usaha; atau</p></content>
+                    <content><p>melakukan perluasan usaha; atau</p></content>
                   </point>
                   <point eId="pasal_18__ayat_2__huruf_b">
                     <num>b.</num>
-                    <content><p>melakukan penanaman modal baru.</p></content>
+                    <content><p>melakukan Penanaman Modal baru.</p></content>
                   </point>
 
               </paragraph>
               <paragraph eId="pasal_18__ayat_3">
                 <num>(3)</num>
-                <intro><p>Penanaman modal yang mendapat fasilitas sebagaimana dimaksud pada ayat (2) adalah yang sekurang-kurangnya memenuhi salah satu kriteria berikut ini:</p></intro>
+                <intro><p>Penanaman Modal yang mendapat fasilitas sebagaimana dimaksud pada ayat (2) minimal memenuhi kriteria:</p></intro>
                   <point eId="pasal_18__ayat_3__huruf_a">
                     <num>a.</num>
                     <content><p>menyerap banyak tenaga kerja;</p></content>
@@ -636,7 +698,7 @@
                   </point>
                   <point eId="pasal_18__ayat_3__huruf_c">
                     <num>c.</num>
-                    <content><p>termasuk pembangunan infrastruktur;</p></content>
+                    <content><p>termasukpembangunaninfrastruktur;</p></content>
                   </point>
                   <point eId="pasal_18__ayat_3__huruf_d">
                     <num>d.</num>
@@ -660,54 +722,21 @@
                   </point>
                   <point eId="pasal_18__ayat_3__huruf_i">
                     <num>i.</num>
-                    <content><p>bermitra dengan usaha mikro, kecil, menengah atau koperasi; atau</p></content>
+                    <content><p>bermitra dengan usaha mikro, kecil, menengah, atau koperasi;</p></content>
                   </point>
                   <point eId="pasal_18__ayat_3__huruf_j">
                     <num>j.</num>
-                    <content><p>industri yang menggunakan barang modal atau mesin atau peralatan yang diproduksi di dalam negeri.</p></content>
+                    <content><p>industri yang menggunakan barang modal atau mesin atau peralatan yang diproduksi di dalam negeri; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_18__ayat_3__huruf_k">
+                    <num>k.</num>
+                    <content><p>termasuk pengembangan usaha pariwisata.</p></content>
                   </point>
 
               </paragraph>
               <paragraph eId="pasal_18__ayat_4">
                 <num>(4)</num>
-                <intro><p>Bentuk fasilitas yang diberikan kepada penanaman modal sebagaimana dimaksud pada ayat (2) dan ayat (3) dapat berupa:</p></intro>
-                  <point eId="pasal_18__ayat_4__huruf_a">
-                    <num>a.</num>
-                    <content><p>pajak penghasilan melalui pengurangan penghasilan neto sampai tingkat tertentu terhadap jumlah penanaman modal yang dilakukan dalam waktu tertentu;</p></content>
-                  </point>
-                  <point eId="pasal_18__ayat_4__huruf_b">
-                    <num>b.</num>
-                    <content><p>pembebasan atau keringanan bea masuk atas impor barang modal, mesin, atau peralatan untuk keperluan produksi yang belum dapat diproduksi di dalam negeri;</p></content>
-                  </point>
-                  <point eId="pasal_18__ayat_4__huruf_c">
-                    <num>c.</num>
-                    <content><p>pembebasan atau keringanan bea masuk bahan baku atau bahan penolong untuk keperluan produksi untuk jangka waktu tertentu dan persyaratan tertentu;</p></content>
-                  </point>
-                  <point eId="pasal_18__ayat_4__huruf_d">
-                    <num>d.</num>
-                    <content><p>pembebasan atau penangguhan Pajak Pertambahan Nilai atas impor barang modal atau mesin atau peralatan untuk keperluan produksi yang belum dapat diproduksi di dalam negeri selama jangka waktu tertentu;</p></content>
-                  </point>
-                  <point eId="pasal_18__ayat_4__huruf_e">
-                    <num>e.</num>
-                    <content><p>penyusutan atau amortisasi yang dipercepat; dan</p></content>
-                  </point>
-                  <point eId="pasal_18__ayat_4__huruf_f">
-                    <num>f.</num>
-                    <content><p>keringanan Pajak Bumi dan Bangunan, khususnya untuk bidang usaha tertentu, pada wilayah atau daerah atau kawasan tertentu.</p></content>
-                  </point>
-
-              </paragraph>
-              <paragraph eId="pasal_18__ayat_5">
-                <num>(5)</num>
-                <content><p>Pembebasan atau pengurangan pajak penghasilan badan dalam jumlah dan waktu tertentu hanya dapat diberikan kepada penanaman modal baru yang merupakan industri pionir, yaitu industri yang memiliki keterkaitan yang luas, memberi nilai tambah dan eksternalitas yang tinggi, memperkenalkan teknologi baru, serta memiliki nilai strategis bagi perekonomian nasional.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_18__ayat_6">
-                <num>(6)</num>
-                <content><p>Bagi penanaman modal yang sedang berlangsung yang melakukan penggantian mesin atau barang modal lainnya, dapat diberikan fasilitas berupa keringanan atau pembebasan bea masuk.</p></content>
-              </paragraph>
-              <paragraph eId="pasal_18__ayat_7">
-                <num>(7)</num>
-                <content><p>Ketentuan lebih lanjut mengenai pemberian fasilitas fiskal sebagaimana dimaksud pada ayat (4) sampai dengan ayat (6) diatur dengan Peraturan Menteri Keuangan.</p></content>
+                <content><p>Bentuk fasilitas yang diberikan kepada Penanaman Modal sebagaimana dimaksud pada ayat (2) dan ayat (3) dilakukan sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.</p></content>
               </paragraph>
 
           </article>
