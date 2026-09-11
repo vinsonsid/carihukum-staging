@@ -47,12 +47,12 @@
     <div class="kanan"><a href="/istilah/">📖 Glosarium</a><a href="/peta/">🕸 Peta jejaring</a><a href="/cakupan/">📊 Cakupan</a><a href="/registri/">🗂 Registri</a><a href="/api/index.json">API</a><a id="ch-akun" href="/akun/" style="font:500 .8rem var(--sans,sans-serif);color:var(--accent);text-decoration:none;white-space:nowrap">Masuk</a></div>
   </header>
   <h1>Peraturan perundang-undangan</h1>
-  <div class="sub">61 tersedia terstruktur · 95 terindeks — terkonsolidasi, dengan riwayat perubahan, dwibahasa. Staging.</div>
+  <div class="sub">62 tersedia terstruktur · 95 terindeks — terkonsolidasi, dengan riwayat perubahan, dwibahasa. Staging.</div>
   <div class="notice">⚠ Situs percobaan (noindex). Teks bukan naskah resmi; untuk keperluan hukum selalu rujuk PDF Lembaran Negara.</div>
   <div class="fitur">
     <a class="kartu-fitur" href="/istilah/">
       <div class="fitur-judul">📖 Glosarium Hukum</div>
-      <div class="fitur-desc">838 istilah yang definisinya ditetapkan undang-undang — lengkap dengan sitasi Pasal 1 sumbernya dan di mana istilah itu dipakai.</div>
+      <div class="fitur-desc">850 istilah yang definisinya ditetapkan undang-undang — lengkap dengan sitasi Pasal 1 sumbernya dan di mana istilah itu dipakai.</div>
     </a>
     <a class="kartu-fitur" href="/peta/">
       <div class="fitur-judul">🕸 Peta Jejaring Hukum</div>
@@ -535,7 +535,13 @@
 <section class="kelompok" data-kelompok="koperasi-rusun">
     <h2 class="kelompok-judul">Perkoperasian &amp; Rumah Susun <span class="kelompok-n">3</span></h2>
     <div class="kelompok-ket">Terdampak UU Cipta Kerja</div>
-    <div class="daftar"><div class="baris" data-jenis="uu" data-status="berlaku"
+    <div class="daftar"><div class="baris" data-jenis="pp" data-status="berlaku"
+    data-bidang="perdata">
+    <div class="atas"><a class="nm" href="/pp/2021/18/">PP 18/2021</a> <span class="badge hijau">lengkap</span></div>
+    <div class="desc">Peraturan Pemerintah Nomor 18 Tahun 2021 tentang Hak Pengelolaan, Hak Atas Tanah, Satuan Rumah Susun, dan Pendaftaran Tanah</div>
+    <div class="metabaris">Berlaku 2021-02-02 · status: berlaku</div>
+  </div>
+<div class="baris" data-jenis="uu" data-status="berlaku"
     data-bidang="perdata">
     <div class="atas"><a class="nm" href="/uu/1992/25/">UU Perkoperasian 25/1992</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian</div>
@@ -546,12 +552,6 @@
     <div class="atas"><a class="nm" href="/uu/2011/20/">UU Rumah Susun 20/2011</a> <span class="badge hijau">lengkap</span></div>
     <div class="desc">Undang-Undang Nomor 20 Tahun 2011 tentang Rumah Susun</div>
     <div class="metabaris">Berlaku 2011-11-10 · status: berlaku</div>
-  </div>
-<div class="baris" data-jenis="pp" data-status="berlaku"
-    data-bidang="perdata">
-    <div class="atas"><span class="nm mati">PP 18/2021</span> <span class="badge abu">metadata terpanen</span></div>
-    <div class="desc">Peraturan Pemerintah Nomor 18 Tahun 2021 tentang Hak Pengelolaan, Hak Atas Tanah, Satuan Rumah Susun, dan Pendaftaran Tanah</div>
-    <div class="metabaris">Berlaku 2021-02-02 · status: berlaku</div>
   </div></div>
     
   </section>
@@ -805,32 +805,110 @@
     .hasil a.item:hover { background:var(--surface-2) }
     .hasil .dimana { font-weight:600; font-size:.85rem; color:var(--accent) }
     .hasil .cuplikan { color:var(--ink-2); font-size:.82rem; margin-top:2px }
+    .hasil .varian { color:var(--ink-2); font-size:.76rem; margin-top:4px; font-style:italic }
+    .kartu-istilah { border:1px solid #e6d9a8; background:#fff8e6; border-radius:6px; padding:10px 12px; margin-bottom:12px }
+    .kartu-istilah .ki-judul { font:600 .85rem var(--sans); color:#6b5518 }
+    .kartu-istilah .ki-isi { font-size:.82rem; color:#6b5518; margin-top:3px }
+    .kartu-istilah .ki-kunci { margin-top:7px; display:flex; flex-wrap:wrap; gap:6px }
+    .kartu-istilah .ki-kunci a { border:1px solid #e6d9a8; background:var(--surface); border-radius:6px;
+      padding:2px 9px; font-size:.8rem; font-weight:600; color:var(--accent); text-decoration:none }
+    .kartu-istilah .ki-kunci a:hover { border-color:var(--accent) }
+    .kartu-istilah .ki-ambigu { font-size:.76rem; color:#6b5518; margin-top:7px; font-style:italic }
     .hasil mark { background:var(--amber-soft); color:var(--ink); border-radius:2px; padding:0 1px }
   </style>
   <script>
     var indeksCari = null, memuat = false;
+    // Naskah terjemahan memakai padanan yang berbeda dari yang diketik pembaca:
+    // KUHPerdata menulis "persetujuan" (overeenkomst) di Pasal 1313/1320/1338,
+    // sedangkan orang mencari "perjanjian". Teksnya tidak diseragamkan — yang
+    // menjembatani adalah pencarian, dan pertukarannya selalu dilabeli.
+    var VARIAN = [{"b":"KUHPerdata (1847)","kata":["persetujuan","perjanjian","kontrak"],"naskah":"persetujuan","lazim":"perjanjian","asal":"overeenkomst","ringkas":"Naskah ini menerjemahkan overeenkomst terutama menjadi 'persetujuan' — termasuk di Pasal 1313, 1320, dan 1338. Doktrin, buku ajar, dan undang-undang modern lebih sering memakai 'perjanjian' (atau 'kontrak') untuk kata yang sama. Keduanya menunjuk hal yang sama; naskah ini sendiri memakai keduanya bergantian.","ambigu":"Di Buku I kata 'persetujuan' justru berarti IZIN atau kesepakatan pribadi (Bld. toestemming) — mis. Pasal 28 dan Pasal 87 tentang persetujuan bebas calon suami dan istri, yang sama sekali bukan kontrak. Karena itu penukaran istilah pada pencarian hanya dijalankan untuk kueri lebih dari satu kata; kueri satu kata dijawab dengan kartu penjelas dan pasal kunci di atas, bukan dengan menghamburkan hasil substitusi.","diminta":5,"kunci":[{"n":"Pasal 1233","j":"/kodifikasi/1847/23/iii/","a":"#p-pasal_1233","t":"Perikatan, lahir karena suatu persetujuan atau karena undang-undang."},{"n":"Pasal 1313","j":"/kodifikasi/1847/23/iii/","a":"#p-pasal_1313","t":"Suatu persetujuan adalah suatu perbuatan dimana satu orang atau lebih mengikatkan diri terhadap satu orang lai"},{"n":"Pasal 1319","j":"/kodifikasi/1847/23/iii/","a":"#p-pasal_1319","t":"Semua persetujuan, baik yang mempunyai nama khusus maupun yang tidak dikenal dengan suatu nama tertentu, tundu"},{"n":"Pasal 1320","j":"/kodifikasi/1847/23/iii/","a":"#p-pasal_1320","t":"Supaya terjadi persetujuan yang sah, perlu dipenuhi empat syarat;"},{"n":"Pasal 1338","j":"/kodifikasi/1847/23/iii/","a":"#p-pasal_1338","t":"Semua persetujuan yang dibuat sesuai dengan undang-undang berlaku sebagai undang-undang bagi mereka yang membu"}]}];
     function esk(s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
     function cuplikan(t, q) {
       var i = t.toLowerCase().indexOf(q);
+      if (i < 0) return esk(t.slice(0, 150)) + (t.length > 150 ? "…" : "");
       var awal = Math.max(0, i - 60), akhir = Math.min(t.length, i + q.length + 90);
       var s = (awal > 0 ? "…" : "") + t.slice(awal, akhir) + (akhir < t.length ? "…" : "");
       return esk(s).replace(new RegExp("(" + q.replace(/[.*+?^$()\[\]{}|\\]/g, "\\$&") + ")", "ig"), "<mark>$1</mark>");
     }
+    // Sumbernya disuntikkan dari tools/lib/situs.mjs — satu-satunya salinan,
+    // dan itu yang diuji di tests/konsolidasi.test.mjs.
+    function kueriVarian(q, kelompok) {
+  var out = [];
+  for (var i = 0; i < kelompok.length; i++) {
+    var g = kelompok[i];
+    for (var a = 0; a < g.kata.length; a++) {
+      if (q.indexOf(g.kata[a]) === -1) continue;
+      for (var b = 0; b < g.kata.length; b++) {
+        if (b === a) continue;
+        out.push({ b: g.b, q2: q.split(g.kata[a]).join(g.kata[b]),
+          dari: g.kata[a], ke: g.kata[b], asal: g.asal });
+      }
+    }
+  }
+  return out;
+}
+    function cariDalamIndeks(indeks, q, kelompok, batas, batasVarian) {
+  var langsung = [], sudah = {}, i;
+  for (i = 0; i < indeks.length && langsung.length < batas; i++) {
+    var e = indeks[i];
+    if ((e.n + " " + e.t).toLowerCase().indexOf(q) === -1) continue;
+    langsung.push(e); sudah[e.j + e.a] = 1;
+  }
+  // Kartu penjelas: kueri menyentuh istilah yang punya varian di karya ini.
+  var kartu = [];
+  for (i = 0; i < kelompok.length; i++)
+    for (var w = 0; w < kelompok[i].kata.length; w++)
+      if (q.indexOf(kelompok[i].kata[w]) !== -1 && kartu.indexOf(kelompok[i]) === -1)
+        kartu.push(kelompok[i]);
+  // Substitusi istilah HANYA untuk kueri lebih dari satu kata. Satu kata terlalu
+  // tumpul: di Buku I KUHPerdata "persetujuan" berarti izin (toestemming), jadi
+  // menukar "perjanjian" -> "persetujuan" akan menghambur pasal perkawinan.
+  if (q.indexOf(" ") === -1) return { langsung: langsung, varian: [], kartu: kartu };
+  var alt = kueriVarian(q, kelompok), varian = [];
+  for (var k = 0; k < alt.length && varian.length < batasVarian; k++) {
+    var a = alt[k];
+    for (var j = 0; j < indeks.length && varian.length < batasVarian; j++) {
+      var x = indeks[j];
+      if (x.b !== a.b || sudah[x.j + x.a]) continue;
+      if ((x.n + " " + x.t).toLowerCase().indexOf(a.q2) === -1) continue;
+      sudah[x.j + x.a] = 1;
+      varian.push({ e: x, q2: a.q2, dari: a.dari, ke: a.ke, asal: a.asal });
+    }
+  }
+  return { langsung: langsung, varian: varian, kartu: kartu };
+}
+    function itemHasil(e, qs, v) {
+      return '<a class="item" href="' + e.j + e.a + '"><span class="dimana">' + esk(e.b) + ' · ' + esk(e.n) +
+        '</span><div class="cuplikan">' + cuplikan(e.t, qs) + '</div>' +
+        (v ? '<div class="varian">↔ naskah ini menulis “' + esk(v.ke) + '” di tempat Anda mengetik “' +
+             esk(v.dari) + '” — keduanya menerjemahkan kata Belanda ' + esk(v.asal) + '</div>' : '') + '</a>';
+    }
+    function blokHasil(judul, isi) {
+      return '<div class="hasil"><div class="kepala-hasil">' + judul + '</div>' + isi + '</div>';
+    }
     function cariTeks(q) {
       var wadah = document.getElementById("hasil-cari");
       if (q.length < 3 || !indeksCari) { wadah.innerHTML = ""; return; }
-      var hasil = [];
-      for (var i = 0; i < indeksCari.length; i++) {
-        var e = indeksCari[i];
-        if ((e.n + " " + e.t).toLowerCase().indexOf(q) !== -1) hasil.push(e);
-        if (hasil.length >= 20) break;
-      }
-      wadah.innerHTML = !hasil.length ? "" :
-        '<div class="hasil"><div class="kepala-hasil">Hasil di dalam teks pasal (' + hasil.length + (hasil.length >= 20 ? "+" : "") + ')</div>' +
-        hasil.map(function (e) {
-          return '<a class="item" href="' + e.j + e.a + '"><span class="dimana">' + esk(e.b) + ' · ' + esk(e.n) +
-            '</span><div class="cuplikan">' + cuplikan(e.t, q) + "</div></a>";
-        }).join("") + "</div>";
+      // Lapis kedua (varian) hanya berisi yang TAK ketemu lewat kueri asli.
+      var temu = cariDalamIndeks(indeksCari, q, VARIAN, 20, 10);
+      var hasil = temu.langsung, varian = temu.varian;
+      var html = temu.kartu.map(function (g) {
+        return '<div class="kartu-istilah"><div class="ki-judul">🔤 Di ' + esk(g.b) + ', “' + esk(g.lazim) +
+          '” ditulis “' + esk(g.naskah) + '”</div><div class="ki-isi">' + esk(g.ringkas) + '</div>' +
+          '<div class="ki-kunci">' + g.kunci.map(function (k) {
+            return '<a href="' + k.j + k.a + '" title="' + esk(k.t) + '">' + esk(k.n) + '</a>';
+          }).join("") + '</div>' +
+          (g.ambigu ? '<div class="ki-ambigu">' + esk(g.ambigu) + '</div>' : "") + '</div>';
+      }).join("");
+      if (hasil.length)
+        html += blokHasil("Hasil di dalam teks pasal (" + hasil.length + (hasil.length >= 20 ? "+" : "") + ")",
+          hasil.map(function (e) { return itemHasil(e, q, null); }).join(""));
+      if (varian.length)
+        html += blokHasil("Varian terjemahan — kata yang sama, padanan berbeda (" + varian.length +
+          (varian.length >= 10 ? "+" : "") + ")",
+          varian.map(function (v) { return itemHasil(v.e, v.q2, v); }).join(""));
+      wadah.innerHTML = html;
     }
     // ---- saringan gabungan: teks + faset (jenis/status/bidang) ----
     var pilih = { jenis: null, status: null, bidang: null };

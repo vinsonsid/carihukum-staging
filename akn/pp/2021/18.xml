@@ -1,0 +1,2789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="pp">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/pp/2021/18/!main"/>
+          <FRBRuri value="/akn/id/act/pp/2021/18"/>
+          <FRBRdate date="2021-02-02" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/pp/2021/18/ind@2021-02-02/!main"/>
+          <FRBRuri value="/akn/id/act/pp/2021/18/ind@2021-02-02"/>
+          <FRBRdate date="2021-02-02" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/pp/2021/18/ind@2021-02-02/!main.xml"/>
+          <FRBRuri value="/akn/id/act/pp/2021/18/ind@2021-02-02.akn"/>
+          <FRBRdate date="2026-09-11" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Peraturan Pemerintah Nomor 18 Tahun 2021 tentang Hak Pengelolaan, Hak Atas Tanah, Satuan Rumah Susun, dan Pendaftaran Tanah</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Peraturan Pemerintah ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Tanah adalah permukaan bumi baik berupa daratan maupun yang tertutup air, termasuk ruang di atas dan di dalam tubuh bumi, dalam batas tertentu yang penggunaan dan pemanfaatannya terkait langsung maupun tidak langsung dengan penggunaan dan pemanfaatan permukaan bumi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Tanah Negara atau Tanah yang Dikuasai Langsung oleh Negara adalah Tanah yang tidak dilekati dengan sesuatu hak atas tanah, bukan Tanah wakaf, bukan Tanah Ulayat dan/atau bukan merupakan aset barang milik negara/barang milik daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Hak Pengelolaan adalah hak menguasai dari negara yang kewenangan pelaksanaannya sebagian dilimpankan kepada pemegang Hak Pengelolaan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Hak Atas Tanah adalah hak yang diperoleh dari hubungan hukum antara pemegang hak dengan Tanah, termasuk ruang di atas Tanah, dan/atau ruang di bawah Tanah untuk menguasai, memiliki, menggunakan, dan memanfaatkan, serta memelihara Tanah, ruang di atas Tanah, dan/atau ruang di bawah Tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Ruang Atas Tanah adalah ruang yang berada di atas permukaan Tanah yang digunakan untuk kegiatan tertentu yang penguasaan, pemilikan, penggunaan dan pemanfaatannya terpisah dari penguasaan, pemilikan, penggunaan, dan pemanfaatan pada bidang Tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Ruang Bawah Tanah adalah ruang yang berada di bawah permukaan Tanah yang digunakan untuk kegiatan tertentu. yang penguasaan, pemilikan, penggunaan dan pemanfaatannya terpisah dari penguasaan, pemilikan, penggunaan, dan pemanfaatan pada bidang Tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Perpanjangan Jangka Waktu Hak yang selanjutnya disebut Perpanjangan adalah penambahan jangka waktu berlakunya sesuatu hak tanpa mengubah syarat-syarat dalam pemberian hak tersebut.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Pembaruan Hak yang selanjutnya disebut Pembaruan adalah penambahan jangka waktu_ berlakunya sesuatu hak setelah jangka waktu berakhir atau sebelum jangka waktu perpanjangannya. berakhir.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Pendaftaran Tanah adalah rangkaian kegiatan yang dilakukan oleh Pemerintah secara terus menerus, berkesinambungan dan teratur meliputi pengumpulan, pengolahan, pembukuan, dan penyajian serta pemeliharaan data fisik dan data yuridis, dalam bentuk peta dan daftar, mengenai bidang-bidang Tanah, Ruang Atas Tanah, Ruang Bawah Tanah dan satuan-satuan rumah _ susun, termasuk pemberian surat tanda bukti haknya bagi bidang-bidang Tanah, Ruang Atas Tanah, Ruang Bawah Tanah yang sudah ada haknya dan hak milik atas Satuan Rumah Susun serta hak-hak tertentu yang membebaninya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Satuan Rumah Susun adalah unit rumah susun yang tujuan utamanya digunakan secara terpisah dengan fungsi utama sebagai tempat hunian dan mempunyai sarana penghubung ke jalan umum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Tanah Telantar adalah Tanah hak, Tanah Hak Pengelolaan, atau Tanah yang diperoleh berdasarkan dasar penguasaan atas Tanah yang sengaja tidak diusahakan, tidak dipergunakan, tidak dimanfaatkan, atau tidak dipelihara.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Tanah Musnah adalah Tanah yang sudah berubah dari bentuk asalnya karena peristiwa alam dan tidak dapat diidentifikasi lagi sehingga tidak dapat difungsikan, digunakan, dan dimanfaatkan sebagaimana mestinya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Tanah Ulayat adalah Tanah yang berada di wilayah penguasaan masyarakat hukum adat yang menurut kenyataannya masih ada dan tidak dilekati dengan sesuatu Hak Atas Tanah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Orang Asing adalah orang yang bukan Warga Negara Indonesia yang keberadaannya memberikan manfaat, melakukan usaha, bekerja, atau berinvestasi di Indonesia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Pemerintah Pusat adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Pemerintah Daerah adalah kepala daerah sebayai unsur penyelenggara Pemerintahan Daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom.</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang agraria/pertanahan dan tata ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Kementerian adalah kementerian yang menyelenggarakan urusan pemerintahan di bidang agraria/pertanahan dan tata ruang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Kantor Wilayah Badan Pertanahan Nasional yang selanjutnya disebut Kantor Wilayah adalah instansi vertikal Kementerian di provinsi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Kantor Pertanahan adalah _ instansi vertikal Kementerian di kabupaten/kota.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_2">
+            <num>2</num>
+              <paragraph eId="pasal_2__ayat_1">
+                <num>(1)</num>
+                <content><p>Tanah Negara atau Tanah yang Dikuasai Langsung oleh Negara merupakan seluruh bidang Tanah di wilayah Negara Kesatuan Republik Indonesia yang tidak dipunyai dengan sesuatu hak oleh pihak Jain.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_2">
+                <num>(2)</num>
+                <content><p>Tanah Negara sebagaimana dimaksud pada ayat (1) oleh Negara dapat memberikannya kepada perorangan atau badan hukum dengan sesuatu Hak Atas Tanah sesuai dengan peruntukan dan keperluannya, atau memberikannya dengan Hak Pengelolaan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_3">
+                <num>(3)</num>
+                <intro><p>Tanah Negara sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                  <point eId="pasal_2__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>Tanah yang ditetapkan Undang-Undang atau Penetapan Pemerintah;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>Tanah reklamasi;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>Tanah timbul;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>Tanah yang berasal dari pelepasan/penyerahan hak;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>Tanah yang berasal dari pelepasan kawasan hutan;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_f">
+                    <num>f.</num>
+                    <content><p>Tanah Telantar;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_g">
+                    <num>g.</num>
+                    <content><p>Tanah hak yang berakhir jangka waktunya serta tidak dimohon Perpanjangan dan/atau Pembaruan;</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_h">
+                    <num>h.</num>
+                    <content><p>Tanah hak yang jangka waktunya berakhir dan karena kebijakan Pemerintah Pusat tidak dapat diperpanjang; dan</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_i">
+                    <num>i.</num>
+                    <content><p>Tanah yang sejak semula berstatus Tanah Negara.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>RUANG LINGKUP</heading>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Ruang lingkup Peraturan Pemerintah ini meliputi:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>Hak Pengelolaan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>hak guna usaha, hak guna bangunan dan hak pakai atas Tanah;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>Satuan Rumah Susun;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>Hak Atas Tanah atau Hak Pengelolaan pada Ruang Atas Tanah dan Ruang Bawah Tanah; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_e">
+                <num>e.</num>
+                <content><p>Pendaftaran Tanah.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>HAK PENGELOLAAN</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Tanah Yang Dapat Diberikan Dengan Hak Pengelolaan</heading>
+              <article eId="pasal_4">
+                <num>4</num>
+                <content><p>Hak Pengelolaan dapat berasal dari Tanah Negara dan Tanah Ulayat.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Subjek Hak Pengelolaan</heading>
+              <article eId="pasal_5">
+                <num>5</num>
+                  <paragraph eId="pasal_5__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Hak Pengelolaan yang berasal dari Tanah Negara diberikan kepada:</p></intro>
+                      <point eId="pasal_5__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>instansi Pemerintah Pusat;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Pemerintah Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>badan usaha milik negara/badan usaha milik daerah;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>badan hukum milik negara/badan hukum milik daerah;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>Badan Bank Tanah; atau</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>badan hukum yang ditunjuk oleh Pemerintah Pusat.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hak Pengelolaan yang berasal dari Tanah Ulayat ditetapkan kepada masyarakat hukum adat.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_6">
+                <num>6</num>
+                  <paragraph eId="pasal_6__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak Pengelolaan di atas Tanah Negara diberikan sepanjang tugas pokok dan fungsinya langsung berhubungan dengan pengelolaan Tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Instansi Pemerintah Pusat sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf a yang tugas pokok dan fungsinya tidak langsung berhubungan dengan pengelolaan Tanah dapat diberikan Hak Pengelolaan setelah mendapat persetujuan menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Badan usaha milik negara/badan usaha milik daerah sebagaimana dimaksud dalam Pasal 5 ayat (1) hurufc meliputi juga anak perusahaan yang dimiliki oleh badan usaha milik negara/badan usaha milik daerah berdasarkan penyertaan modal negara pada badan usaha milik negara/badan usaha milik daerah lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Badan hukum yang ditunjuk oleh Pemerintah Pusat sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf f merupakan badan hukum yang mendapat penugasan khusus yang ditetapkan dengan Peraturan Presiden.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pemanfaatan Tanah Hak Pengelolaan</heading>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pemegang Hak Pengelolaan diberikan kewenangan untuk:</p></intro>
+                      <point eId="pasal_7__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>menyusun rencana peruntukan, penggunaan, dan pemanfaatan Tanah sesuai dengan rencana tata ruang;</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>menggunakan dan memanfaatkan seluruh atau sebagian Tanah Hak Pengelolaan untuk digunakan sendiri atau dikerjasamakan dengan pihak lain; dan</p></content>
+                      </point>
+                      <point eId="pasal_7__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>menentukan tarif dan/atau uang wajib tahunan dari pihak lain sesuai dengan perjanjian.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Rencana peruntukan, penggunaan, dan pemanfaatan Tanah sesuai dengan rencana tata ruang sebagaimana dimaksud pada ayat (1) huruf a merupakan rencana induk yang disusun oleh pemegang Hak Pengelolaan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Hak Pengelolaan yang penggunaan dan pemanfaatan seluruh atau sebagian tanahnya untuk digunakan sendiri atau dikerjasamakan dengan pihak lain sebagaimana dimaksud daiam Pasal 7 ayat (1) huruf b dapat diberikan Hak Atas Tanah berupa hak guna usaha, hak guna bangunan dan/atau hak pakai di atas Hak Pengelolaan sesuai dengan sifat dan fungsinya, kepada:</p></intro>
+                      <point eId="pasal_8__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemegang Hak Pengelolaan sepanjang diatur dalam Peraturan Pemerintah; atau</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pihak lain, apabila Tanah Hak pengelolaan dikerjasamakan dengan perjanjian pemanfaatan Tanah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Perjanjian pemanfaatan Tanah sebagaimana dimaksud pada ayat (1) huruf b paling sedikit memuat:</p></intro>
+                      <point eId="pasal_8__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>identitas para pihak;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>letak, batas, dan luas Tanah;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>jenis penggunaan, pemanfaatan Tanah, dan/atau bangunan yang akan didirikan;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>ketentuan mengenai jenis hak, jangka waktu, perpanjangan, pembaruan, peralihan, pembebanan, perubahan, dan/atau hapus/ batalnya hak yang diberikan di atas Tanah Hak Pengelolaan, dan ketentuan pemilikan Tanah dan bangunan setelah berakhirnya Hak Atas Tanah;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>besaran tarif dan/atau uang wajib tahunan dan tata cara pembayarannya; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>persyaratan dan ketentuan yang mengikat para pihak, pelaksanaan pembangunan, denda atas wanprestasi termasuk klausul sanksi, dan pembatalan/pemutusan perjanjian.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Penentuan tarif dan/atau uang wajib tahunan disesuaikan dengan tujuan dari pemanfaatan, untuk:</p></intro>
+                      <point eId="pasal_9__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>kepentingan umum;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>_ kepentingan sosial;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>kepentingan pembangunan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>kepentingan ekonomi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penentuan tarif dan/atau uang wajib tahunan sebagaimana dimaksud pada ayat (1) dituangkan dalam perjanjian pemanfaatan Tanah = antara pemegang Hak Pengelolaan dengan pihak lain dan tidak boleh mengandung unsur-unsur yang merugikan para pihak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Selain ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2), penentuan tarif dan/atau uang wajib tahunan didasarkan pada karakteristik peruntukan dan kemanfaatan tertentu secara wajar.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Rumusan tarif dan/atau uang wajib tahunan yang dikenakan oleh pemegang Hak Pengelolaan ditetapkan oleh Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Terjadinya Hak Pengelolaan</heading>
+              <article eId="pasal_10">
+                <num>10</num>
+                  <paragraph eId="pasal_10__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak Pengelolaan yang berasal dari Tanah Negara atau Tanah Ulayat ditetapkan dengan keputusan Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Keputusan sebagaimana dimaksud pada ayat (1) dapat dibuat secara elektronik.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak Pengelolaan sebagaimana dimaksud dalam Pasal 10 wajib didaftarkan pada Kantor Pertanahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hak Pengelolaan terjadi sejak didaftar oleh Kantor Pertanahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemegang Hak Pengelolaan diberikan sertipikat sebagai tanda bukti kepemilikan Hak Pengelolaan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Pembebanan, Peralihan, dan Pelepasan Hak Pengelolaan dan Hak Atas Tanah di atas Hak Pengelolaan</heading>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak Pengelolaan tidak dapat dijadikan jaminan utang dengan dibebani hak tanggungan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hak Pengelolaan tidak dapat beralih dan dialihnkan kepada pihak lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Hak Pengelolaan hanya dapat dilepaskan dalam hal diberikan hak milik, dilepaskan untuk kepentingan umum, atau ketentuan lain yang diatur dalam peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal Hak Pengelolaan dilepaskan sebagaimana dimaksud pada ayat (3) merupakan Tanah barang milik negara/barang milik daerah, pelepasan/penghapusan Hak Pengelolaan dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Pelepasan Hak Pengelolaan dibuat oleh dan dihadapan pejabat yang berwenang dan dilaporkan kepada Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak Atas Tanah di atas Hak Pengelolaan yang dikerjasamakan dengan pihak lain dapat dibebani hak tanggungan, dialihkan, atau dilepaskan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap perbuatan hukum termasuk dijadikan jaminan utang dengan dibebani hak tanggungan terhadap Hak Atas Tanah di atas Hak Pengelolaan, memerlukan rekomendasi pemegang Hak Pengelolaan dan dimuat dalam perjanjian pemanfaatan Tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal Hak Atas Tanah di atas Hak Pengelolaan akan dilepaskan maka pelepasan dibuat oleh dan dihadapan pejabat yang berwenang dan dilaporkan kepada Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Hapusnya Hak Pengelolaan</heading>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Hak Pengelolaan hapus karena:</p></intro>
+                      <point eId="pasal_14__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <intro><p>dibatalkan haknya oleh Menteri karena:</p></intro>
+                          <point eId="pasal_14__ayat_1__huruf_a__angka_1">
+                            <num>1.</num>
+                            <content><p>cacat administrasi; atau</p></content>
+                          </point>
+                          <point eId="pasal_14__ayat_1__huruf_a__angka_2">
+                            <num>2.</num>
+                            <content><p>putusan pengadilan yang telah memperoleh kekuatan hukum tetap;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_14__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>dilepaskan secara sukarela oleh pemegang haknya;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>dilepaskan untuk kepentingan umum;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>dicabut berdasarkan Undang-Undang;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>diberikan hak milik;</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>ditetapkan sebagai Tanah Telantar; atau</p></content>
+                      </point>
+                      <point eId="pasal_14__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>ditetapkan sebagai Tanah Musnah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Hak Pengelolaan dibatalkan karena cacat administrasi sebagaimana dimaksud pada ayat (1) huruf a angka 1, Hak Atas Tanah di atas Hak Pengelolaan dapat dinyatakan batal apabila dinyatakan dalam surat keputusan pembatalan Hak Pengelolaan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal Hak Pengelolaan dibatalkan karena pelaksanaan putusan- pengadilan yang _ telah memperoleh kekuatan hukum tetap sebagaimana dimaksud pada ayat (1) huruf a angka 2, Hak Atas Tanah di atas Hak Pengelolaan dapat dinyatakan batal sepanjang amar putusan mencantumkan batalnya Hak Atas Tanah di atas Hak Pengelolaan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Hapusnya Hak Pengelolaan sebagaimana dimaksud dalam Pasal 14 di atas Tanah Negara, mengakibatkan:</p></intro>
+                      <point eId="pasal_15__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Tanah menjadi Tanah Negara; atau</p></content>
+                      </point>
+                      <point eId="pasal_15__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>sesuai dengan amar putusan pengadilan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tanah Negara sebagaimana dimaksud pada ayat (1) huruf a, penataan kembali penggunaan, pemanfaatan, dan pemilikan selanjutnya menjadi kewenangan Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Hapusnya Hak Pengelolaan sebagaimana dimaksud dalam Pasal 14 di atas Tanah Ulayat mengakibatkan tanahnya kembali ke dalam penguasaan masyarakat hukum adat.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketujuh">
+            <num>Ketujuh</num>
+            <heading>Pengawasan dan Pengendalian</heading>
+              <article eId="pasal_16">
+                <num>16</num>
+                <intro><p>Menteri secara berkala melakukan pengawasan dan pengendalian secara berjenjang melalui Kantor Wilayah dan Kantor Pertanahan, meliputi:</p></intro>
+                  <point eId="pasal_16__huruf_a">
+                    <num>a.</num>
+                    <content><p>pengawasan dan pengendalian Hak Pengelolaan; dan</p></content>
+                  </point>
+                  <point eId="pasal_16__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengawasan dan pengendalian Hak Atas Tanah di atas Hak Pengelolaan.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedelapan">
+            <num>Kedelapan</num>
+            <heading>Tanah Reklamasi</heading>
+              <article eId="pasal_17">
+                <num>17</num>
+                  <paragraph eId="pasal_17__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Tanah reklamasi dapat diberikan Hak Pengelolaan dan/atau Hak Atas Tanah dengan syarat telah memperoleh izin reklamasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal izin reklamasi diberikan kepada instansi Pemerintah Pusat, badan usaha milik negara/badan usaha milik daerah, badan hukum milik negara /badan hukum milik daerah, Badan Bank Tanah, atau badan hukum yang ditunjuk oleh Pemerintah Pusat, Tanah reklamasi sebagaimana dimaksud pada ayat (1) diberikan Hak Pengelolaan atau Hak Atas Tanah dengan mempertimbangkan syarat sebagai subjek hak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Dalam hal izin reklamasi diberikan kepada badan hukum atau perorangan, Tanah _ reklamasi sebagaimana dimaksud pada ayat (1) diberikan Hak Atas Tanah dan/atau Hak Pengelolaan dengan ketentuan:</p></intro>
+                      <point eId="pasal_17__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>untuk pemegang izin reklamasi, diberikan Hak Atas Tanah dan/atau Hak Atas Tanah di atas Hak Pengelolaan; dan</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>untuk Pemerintah Pusat atau Pemerintah Daerah yang memberikan izin reklamasi, diberikan Hak Pengelolaan, berdasarkan perjanjian antara pihak yang mendapat izin reklamasi dengan Pemerintah Pusat atau Pemerintah Daerah serta mempertimbangkan ketentuan tata ruang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Dalam hal kegiatan reklamasi dilakukan tanpa izin reklamasi maka pejabat yang berwenang memberikan izin reklamasi melakukan penelitian secara teknis maupun tata ruang sesuai dengan ketentuan peraturan perundang-undangan. (S) Dalam hal hasil penelitian sebagaimana dimaksud pada ayat (4):</p></intro>
+                      <point eId="pasal_17__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>telah memenuhi syarat, Tanah hasil reklamasi menjadi Tanah yang Dikuasai Langsung oleh Negara dan penggunaan, pemanfaatan, dan pemilikan selanjutnya menjadi kewenangan Menteri; atau</p></content>
+                      </point>
+                      <point eId="pasal_17__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>tidak memenuhi syarat, Tanah hasil reklamasi dapat dikembalikan seperti keadaan semula oleh pihak yang melakukan reklamasi sesuai dengan ketentuan peraturan perundang-undangan mengenai izin reklamasi.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                <intro><p>Ketentuan lebih lanjut mengenai:</p></intro>
+                  <point eId="pasal_18__huruf_a">
+                    <num>a.</num>
+                    <content><p>Tanah yang dapat diberikan dengan Hak Pengelolaan, subjek, pemanfaatan Tanah, terjadinya hak, tata cara dan syarat permohonan pemberian dan pendaftaran, pembebanan, peralihan dan pelepasan, hapusnya, serta pengawasan dan pengendalian Hak Pengelolaan dan Tanah reklamasi sebagaimana dimaksud dalam Pasal 4 sampai dengan Pasal 8 dan Pasal 10 sampai dengan Pasal 17; dan</p></content>
+                  </point>
+                  <point eId="pasal_18__huruf_b">
+                    <num>b.</num>
+                    <content><p>rumusan dan penentuan tarif dan/atau uang wayjib tahunan sebagaimana dimaksud dalam Pasal 9, diatur dalam Peraturan Menteri.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>HAK GUNA USAHA, HAK GUNA BANGUNAN, DAN HAK PAKAI ATAS TANAH</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Hak Guna Usaha</heading>
+              <subpart eId="bab_4__bagian_kesatu__paragraf_1">
+                <num>1</num>
+                <heading>Subjek Hak Guna Usaha</heading>
+                  <article eId="pasal_19">
+                    <num>19</num>
+                    <intro><p>Hak guna usaha diberikan kepada:</p></intro>
+                      <point eId="pasal_19__huruf_a">
+                        <num>a.</num>
+                        <content><p>Warga Negara Indonesia; dan</p></content>
+                      </point>
+                      <point eId="pasal_19__huruf_b">
+                        <num>b.</num>
+                        <content><p>badan hukum yang didirikan menurut hukum Indonesia dan berkedudukan di Indonesia.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_20">
+                    <num>20</num>
+                      <paragraph eId="pasal_20__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemegang hak guna usaha yang tidak lagi memenuhi syarat sebagaimana dimaksud dalam Pasal 19, dalam jangka waktu 1 (satu) tahun wajib melepaskan atau mengalihkan hak guna usaha kepada pihak lain yang memenuhi syarat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Apabila dalam jangka waktu sebagaimana dimaksud pada ayat {1) haknya tidak dilepaskan atau dialihkan maka hak tersebut hapus karena hukum.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kesatu__paragraf_2">
+                <num>2</num>
+                <heading>Tanah Yang Dapat Diberikan Dengan Hak Guna Usaha</heading>
+                  <article eId="pasal_21">
+                    <num>21</num>
+                    <intro><p>Tanah yang dapat diberikan dengan Hak Guna Usaha meliputi:</p></intro>
+                      <point eId="pasal_21__huruf_a">
+                        <num>a.</num>
+                        <content><p>Tanah Negara; dan</p></content>
+                      </point>
+                      <point eId="pasal_21__huruf_b">
+                        <num>b.</num>
+                        <content><p>Tanah Hak Pengelolaan.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kesatu__paragraf_3">
+                <num>3</num>
+                <heading>Jangka Waktu Hak Guna Usaha</heading>
+                  <article eId="pasal_22">
+                    <num>22</num>
+                      <paragraph eId="pasal_22__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak guna usaha diberikan untuk jangka waktu paling lama 35 (tiga puluh lima) tahun, diperpanjang untuk jangka waktu paling lama 25 (dua puluh lima) tahun dan diperbarui untuk jangka waktu paling lama 35 (tiga puluh lima) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_22__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Setelah jangka waktu pemberian, perpanjangan, dan pembaruan sebagaimana dimaksud pada ayat (i) berakhir, Tanah hak guna usaha kembali menjadi Tanah yang Dikuasai Langsung oleh Negara atau tanah Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_22__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Tanah yang Dikuasai Langsung oleh Negara sebagaimana dimaksud pada ayat (2), penataan kembali penggunaan, pemanfaatan, dan pemilikan menjadi kewenangan Menteri dan dapat diberikan prioritas kepada bekas pemegang hak dengan memperhatikan:</p></intro>
+                          <point eId="pasal_22__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>tanahnya masih diusahakan dan dimanfaatkan dengan baik sesuai dengan keadaan, sifat, dan tuyuan pemberian hak;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>syarat-syarat pemberian hak dipenuhi dengan baik oleh pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_3__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemegang hak masih memenuhi syarat sebagai pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_3__huruf_d">
+                            <num>d.</num>
+                            <content><p>tanahnya masih sesuai dengan rencana tata ruang;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_3__huruf_e">
+                            <num>e.</num>
+                            <content><p>tidak dipergunakan dan/atau direncanakan untuk kepentingan umum;</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_3__huruf_f">
+                            <num>f.</num>
+                            <content><p>sumber daya alam dan lingkungan hidup; dan</p></content>
+                          </point>
+                          <point eId="pasal_22__ayat_3__huruf_g">
+                            <num>g.</num>
+                            <content><p>keadaan Tanah dan masyarakat sekitar.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kesatu__paragraf_4">
+                <num>4</num>
+                <heading>Terjadinya Hak Guna Usaha</heading>
+                  <article eId="pasal_23">
+                    <num>23</num>
+                      <paragraph eId="pasal_23__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak guna usaha di atas Tanah Negara diberikan dengan keputusan pemberian hak oleh Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna usaha di atas Tanah Hak Pengelolaan diberikan dengan keputusan pemberian hak oleh Menteri berdasarkan persetujuan dari pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Keputusan sebagaimana dimaksud pada ayat (1) dan ayat (2) dapat dibuat secara elektronik.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_24">
+                    <num>24</num>
+                      <paragraph eId="pasal_24__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemberian hak guna usaha sebagaimana dimaksud dalam Pasal 23 wajib didaftarkan pada Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna usaha terjadi sejak didaftar oleh Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pemegang hak guna usaha diberikan sertipikat Hak Atas Tanah sebagai tanda bukti hak.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_25">
+                    <num>25</num>
+                      <paragraph eId="pasal_25__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Hak guna usaha di atas Tanah Negara sebagaimana dimaksud dalam Pasal 23 ayat (1) dapat diperpanjang atau diperbarui atas permohonan pemegang hak, apabila memenuhi syarat:</p></intro>
+                          <point eId="pasal_25__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>tanahnya masih diusahakan dan dimanfaatkan dengan baik sesuai dengan keadaan, sifat, dan tujuan pemberian hak;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>syarat-syarat pemberian hak dipenuhi dengan baik oleh pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemegang hak masih memenuhi syarat sebagai pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>tanahnya masih sesuai dengan rencana tata ruang; dan</p></content>
+                          </point>
+                          <point eId="pasal_25__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>tidak dipergunakan dan/atau direncanakan untuk kepentingan umum.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_25__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna usaha di atas Tanah Hak Pengelolaan sebagaimana dimaksud dalam Pasal 23 ayat (2) dapat diperpanjang atau diperbarui atas permohonan pemegang hak guna usaha apabila memenuhi syarat sebagaimana dimaksud pada ayat (1) dan mendapat persetujuan dari pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_26">
+                    <num>26</num>
+                      <paragraph eId="pasal_26__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Permohonan perpanjangan jangka waktu hak guna usaha dapat diajukan setelah usia tanaman atau usaha lainnya efektif atau paling lambat sebelum berakhirnya jangka waktu hak guna. usaha.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Permohonan pembaruan hak guna usaha diajukan paling lama 2 (dua) tahun setelah berakhirnya jangka waktu hak guna usaha.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Dalam hal hak guna usaha di atas Tanah Hak Pengelolaan maka jangka waktu perpanjangan dan pembaruan hak dapat diberikan apabila tanahnya telah digunakan dan dimanfaatkan sesuai dengan tujuan pemberian haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Perpanjangan atau pembaruan hak guna usaha wajib didaftarkan pada Kantor Pertanahan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kesatu__paragraf_5">
+                <num>5</num>
+                <heading>Kewajiban, Larangan, dan Hak Pemegang Hak Guna Usaha</heading>
+                  <article eId="pasal_27">
+                    <num>27</num>
+                    <intro><p>Pemegang hak guna usaha berkewajiban untuk:</p></intro>
+                      <point eId="pasal_27__huruf_a">
+                        <num>a.</num>
+                        <content><p>melaksanakan usaha pertanian, perikanan, dan/atau peternakan sesuai peruntukan dan _ persyaratan sebagaimana ditetapkan dalam keputusan pemberian haknya paling lama 2 (dua) tahun sejak hak diberikan;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_b">
+                        <num>b.</num>
+                        <content><p>mengusahakan Tanah hak guna usaha dengan baik sesuai dengan kelayakan usaha berdasarkan kriteria yang ditetapkan oleh instansi teknis;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_c">
+                        <num>c.</num>
+                        <content><p>membangun dan memelihara prasarana lingkungan dan fasilitas yang ada dalam lingkungan areal hak guna usaha;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_d">
+                        <num>d.</num>
+                        <content><p>memelihara Tanah, termasuk menambah kesuburan dan mencegah' kerusakannya serta menjaga kelestarian lingkungan hidup;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_e">
+                        <num>e.</num>
+                        <content><p>memberikan jalan keluar atau jalan air atau kemudahan lain bagi pekarangan atau bidang Tanah yang terkurung;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_f">
+                        <num>f.</num>
+                        <content><p>mengelola, memelihara, dan mengawasi_ serta mempertahankan fungsi kawasan konservasi bernilai tinggi (high conservation value), dalam hal areal konservasi berada pada areal hak guna usaha;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_g">
+                        <num>g.</num>
+                        <content><p>menjaga fungsi konservasi sempadan badan air atau fungsi konservasi lainnya;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_h">
+                        <num>h.</num>
+                        <content><p>mematuhi ketentuan pemanfaatan ruang yang diatur dalam rencana tata ruang;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_i">
+                        <num>i.</num>
+                        <content><p>memfasilitasi pembangunan kebun masyarakat sekitar paling sedikit 20% (dua puluh persen) dari luas Tanah yang diberikan hak guna usaha, dalam hal pemegang hak merupakan badan hukum berbentuk perseroan terbatas dan penggunaannya untuk perkebunan,;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_j">
+                        <num>j.</num>
+                        <content><p>menyampaikan laporan setiap akhir tahun mengenai penggunaan hak guna usaha;</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_k">
+                        <num>k.</num>
+                        <content><p>melepaskan Hak Atas Tanah baik sebagian atau keseluruhan dalam hal dipergunakan bagi pembangunan untuk kepentingan umum; dan</p></content>
+                      </point>
+                      <point eId="pasal_27__huruf_l">
+                        <num>l.</num>
+                        <content><p>menyerahkan kembali Tanah yang diberikan dengan hak guna usaha kepada negara atau pemegang Hak Pengelolaan, setelah hak guna usaha hapus.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_28">
+                    <num>28</num>
+                    <intro><p>Pemegang hak guna usaha dilarang:</p></intro>
+                      <point eId="pasal_28__huruf_a">
+                        <num>a.</num>
+                        <content><p>menyerahkan pemanfaatan Tanah hak guna usaha kepada pihak lain, kecuali dalam hal diperbolehkan menurut peraturan perundang-undangan,</p></content>
+                      </point>
+                      <point eId="pasal_28__huruf_b">
+                        <num>b.</num>
+                        <content><p>mengurung atau menutup pekarangan atau bidang Tanah lain dari lalu lintas umum, akses publik, dan/atau jalan air;</p></content>
+                      </point>
+                      <point eId="pasal_28__huruf_c">
+                        <num>c.</num>
+                        <content><p>membuka dan/atau mengolah lahan dengan cara membakar;</p></content>
+                      </point>
+                      <point eId="pasal_28__huruf_d">
+                        <num>d.</num>
+                        <content><p>merusak sumber daya alam dan_ kelestarian kemampuan lingkungan hidup;</p></content>
+                      </point>
+                      <point eId="pasal_28__huruf_e">
+                        <num>e.</num>
+                        <content><p>menelantarkan tanahnya; dan</p></content>
+                      </point>
+                      <point eId="pasal_28__huruf_f">
+                        <num>f.</num>
+                        <content><p>mendirikan bangunan permanen yang mengurangi fungsi konservasi tanggul, fungsi konservasi sempadan, atau fungsi konservasi lainnya, dalam hal dalam areal hak guna usaha terdapat sempadan badan air atau fungsi konservasi lainnya.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_29">
+                    <num>29</num>
+                    <intro><p>Pemegang hak guna usaha berhak:</p></intro>
+                      <point eId="pasal_29__huruf_a">
+                        <num>a.</num>
+                        <content><p>menggunakan dan memanfaatkan Tanah yang diberikan sesuai dengan peruntukannya dan persyaratan sebagaimana ditetapkan dalam keputusan dan perjanjian pemberiannya;</p></content>
+                      </point>
+                      <point eId="pasal_29__huruf_b">
+                        <num>b.</num>
+                        <content><p>memanfaatkan sumber air dan sumber daya alam lainnya di atas Tanah yang diberikan dengan hak guna usaha sepanjang untuk mendukung penggunaan dan pemanfaatan Tanah sebagaimana dimaksud pada huruf a sesuai dengan ketentuan peraturan perundang-undangan; dan/atau ec. melakukan perbuatan hukum yang _ bermaksud melepaskan, mengalihkan, dan mengubah penggunaannya serta membebankan dengan hak tanggungan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kesatu__paragraf_6">
+                <num>6</num>
+                <heading>Pembebanan, Peralihan, Pelepasan, dan Perubahan Hak Guna Usaha</heading>
+                  <article eId="pasal_30">
+                    <num>30</num>
+                      <paragraph eId="pasal_30__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak guna usaha dapat dijadikan jaminan utang dengan dibebani hak tanggungan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_30__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna usaha dapat beralih, dialihkan, atau dilepaskan kepada pihak lain serta diubah haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_30__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pelepasan hak guna usaha sebagaimana dimaksud pada ayat (2) dibuat oleh dan dihadapan pejabat yang berwenang dan dilaporkan kepada Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kesatu__paragraf_7">
+                <num>7</num>
+                <heading>Hapusnya Hak Guna Usaha</heading>
+                  <article eId="pasal_31">
+                    <num>31</num>
+                    <intro><p>Hak guna usaha hapus karena:</p></intro>
+                      <point eId="pasal_31__huruf_a">
+                        <num>a.</num>
+                        <content><p>berakhirnya jangka waktu sebagaimana ditetapkan dalam keputusan pemberian, perpanjangan, atau pembaruan haknya;</p></content>
+                      </point>
+                      <point eId="pasal_31__huruf_b">
+                        <num>b.</num>
+                        <intro><p>dibatalkan haknya oleh Menteri sebelum jangka waktunya berakhir karena:</p></intro>
+                          <point eId="pasal_31__huruf_b__angka_1">
+                            <num>1.</num>
+                            <content><p>tidak terpenuhinya’ ketentuan kewajiban dan/atau larangan sebagaimana dimaksud dalam Pasal 27 dan/atau Pasal 28;</p></content>
+                          </point>
+                          <point eId="pasal_31__huruf_b__angka_2">
+                            <num>2.</num>
+                            <content><p>cacat administrasi; atau</p></content>
+                          </point>
+                          <point eId="pasal_31__huruf_b__angka_3">
+                            <num>3.</num>
+                            <content><p>putusan pengadilan yang telah memperoleh kekuatan hukum tetap;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_31__huruf_c">
+                        <num>c.</num>
+                        <content><p>diubah haknya menjadi Hak Atas Tanah lain;</p></content>
+                      </point>
+                      <point eId="pasal_31__huruf_d">
+                        <num>d.</num>
+                        <content><p>dilepaskan secara sukarela oleh pemegang haknya sebelum jangka waktunya berakhir;</p></content>
+                      </point>
+                      <point eId="pasal_31__huruf_e">
+                        <num>e.</num>
+                        <content><p>dilepaskan untuk kepentingan umum;</p></content>
+                      </point>
+                      <point eId="pasal_31__huruf_f">
+                        <num>f.</num>
+                        <content><p>dicabut berdasarkan Undang-Undang;</p></content>
+                      </point>
+                      <point eId="pasal_31__huruf_g">
+                        <num>g.</num>
+                        <content><p>ditetapkan sebagai Tanah Telantar;</p></content>
+                      </point>
+                      <point eId="pasal_31__huruf_h">
+                        <num>h.</num>
+                        <content><p>ditetapkan sebagai Tanah Musnah;</p></content>
+                      </point>
+                      <point eId="pasal_31__huruf_i">
+                        <num>i.</num>
+                        <content><p>berakhirnya perjanjian pemanfaatan Tanah, untuk hak guna usaha di atas tanah Hak Pengelolaan; atau</p></content>
+                      </point>
+                      <point eId="pasal_31__huruf_j">
+                        <num>j.</num>
+                        <content><p>pemegang hak sudah tidak memenuhi syarat sebagai subjek hak.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_32">
+                    <num>32</num>
+                      <paragraph eId="pasal_32__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Hapusnya hak guna usaha sebagaimana dimaksud dalam Pasal 31 di atas Tanah Negara, mengakibatkan:</p></intro>
+                          <point eId="pasal_32__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Tanah menjadi Tanah Negara; atau</p></content>
+                          </point>
+                          <point eId="pasal_32__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>sesuai dengan amar putusan pengadilan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Tanah Negara sebagaimana dimaksud pada ayat (1) huruf a, penataan kembali penggunaan, pemanfaatan, dan pemilikan selanjutnya menjadi kewenangan Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hapusnya hak guna usaha sebagaimana dimaksud dalam Pasal 31 di atas Tanah Hak Pengelolaan mengakibatkan tanahnya kembali ke dalam penguasaan pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_33">
+                    <num>33</num>
+                    <content><p>Ketentuan lebih lanjut mengenai subjek, Tanah yang dapat diberikan dengan hak guna usaha, jangka waktu, terjadinya hak, tata cara dan syarat permohonan pemberian, perpanjangan, pembaruan, dan pendaftaran, kewajiban, larangan, dan hak, pembebanan, peralihan, pelepasan dan perubahan, serta hapusnya hak guna usaha sebagaimana dimaksud dalam Pasal 19 sampai dengan Pasal 32 diatur dalam Peraturan Menteri.</p></content>
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Hak Guna Bangunan</heading>
+              <subpart eId="bab_4__bagian_kedua__paragraf_1">
+                <num>1</num>
+                <heading>Subjek Hak Guna Bangunan</heading>
+                  <article eId="pasal_34">
+                    <num>34</num>
+                    <intro><p>Hak guna bangunan diberikan kepada:</p></intro>
+                      <point eId="pasal_34__huruf_a">
+                        <num>a.</num>
+                        <content><p>Warga Negara Indonesia; dan</p></content>
+                      </point>
+                      <point eId="pasal_34__huruf_b">
+                        <num>b.</num>
+                        <content><p>badan hukum yang didirikan menurut hukum Indonesia dan berkedudukan di Indonesia.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_35">
+                    <num>35</num>
+                      <paragraph eId="pasal_35__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemegang hak guna bangunan yang tidak lagi memenuhi syarat sebagaimana dimaksud dalam Pasal 34, dalam jangka waktu 1 (satu) tahun wajib melepaskan atau mengalihkan hak guna bangunan kepada pihak lain yang memenuhi syarat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_35__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Apabila dalam jangka waktu sebagaimana dimaksud pada ayat (1) haknya tidak dilepaskan atau dialihkan maka hak tersebut hapus karena hukum.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_2">
+                <num>2</num>
+                <heading>Tanah Yang Dapat Diberikan Dengan Hak Guna Bangunan</heading>
+                  <article eId="pasal_36">
+                    <num>36</num>
+                    <intro><p>Tanah yang dapat diberikan dengan hak guna bangunan meliputi:</p></intro>
+                      <point eId="pasal_36__huruf_a">
+                        <num>a.</num>
+                        <content><p>Tanah Negara;</p></content>
+                      </point>
+                      <point eId="pasal_36__huruf_b">
+                        <num>b.</num>
+                        <content><p>Tanah Hak Pengelolaan; dan</p></content>
+                      </point>
+                      <point eId="pasal_36__huruf_c">
+                        <num>c.</num>
+                        <content><p>Tanah hak milik.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_3">
+                <num>3</num>
+                <heading>Jangka Waktu Hak Guna Bangunan</heading>
+                  <article eId="pasal_37">
+                    <num>37</num>
+                      <paragraph eId="pasal_37__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak guna bangunan di atas Tanah Negara dan Tanah Hak Pengelolaan diberikan untuk jangka waktu paling lama 30 (tiga puluh) tahun, diperpanjang untuk jangka waktu paling lama 20 (dua puluh) tahun, dan diperbarui untuk jangka waktu paling lama 30 (tiga puluh) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_37__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna bangunan di atas Tanah hak milik diberikan untuk jangka waktu paling Jama 30 (tiga puluh) tahun dan dapat diperbarui dengan akta pemberian hak guna bangunan di atas hak milik.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_37__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Setelah jangka waktu pemberian, perpanjangan, dan pembaruan sebagaimana dimaksud pada ayat (1) berakhir, Tanah hak guna bangunan kembali menjadi Tanah yang Dikuasai Langsung oleh Negara atau Tanah Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_37__ayat_4">
+                        <num>(4)</num>
+                        <intro><p>Tanah yang Dikuasai Langsung oleh Negara sebagaimana dimaksud pada ayat (3}, penataan kembali penggunaan, pemanfaatan, dan pemilikan menjadi kewenangan Menteri dan dapat diberikan prioritas kepada bekas pemegang hak dengan memperhatikan:</p></intro>
+                          <point eId="pasal_37__ayat_4__huruf_a">
+                            <num>a.</num>
+                            <content><p>tanahnya masih diusahakan dan dimanfaatkan dengan baik sesuai dengan keadaan, sifat, dan tujuan pemberian hak;</p></content>
+                          </point>
+                          <point eId="pasal_37__ayat_4__huruf_b">
+                            <num>b.</num>
+                            <content><p>syarat-syarat pemberian hak dipenuhi dengan baik oleh pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_37__ayat_4__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemegang hak masih memenuhi syarat sebagai pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_37__ayat_4__huruf_d">
+                            <num>d.</num>
+                            <content><p>tanahnya masih sesuai dengan rencana tata ruang;</p></content>
+                          </point>
+                          <point eId="pasal_37__ayat_4__huruf_e">
+                            <num>e.</num>
+                            <content><p>tidak dipergunakan dan/atau_ direncanakan untuk kepentingan umum;</p></content>
+                          </point>
+                          <point eId="pasal_37__ayat_4__huruf_f">
+                            <num>f.</num>
+                            <content><p>sumber daya alam dan lingkungan hidup; dan</p></content>
+                          </point>
+                          <point eId="pasal_37__ayat_4__huruf_g">
+                            <num>g.</num>
+                            <content><p>keadaan Tanah dan masyarakat sekitar.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_4">
+                <num>4</num>
+                <heading>Terjadinya Hak Guna Bangunan</heading>
+                  <article eId="pasal_38">
+                    <num>38</num>
+                      <paragraph eId="pasal_38__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak guna bangunan di atas Tanah Negara diberikan dengan keputusan pemberian hak oleh Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna bangunan di atas Tanah Hak Pengelolaan diberikan dengan keputusan pemberian hak oleh Menteri berdasarkan persetujuan pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hak guna bangunan di atas Tanah hak milik terjadi melalui pemberian hak oleh pemegang hak milik dengan akta yang dibuat oleh Pejabat Pembuat Akta Tanah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Keputusan sebagaimana dimaksud pada ayat (1) dan ayat (2) dan akta yang dibuat oleh Pejabat Pembuat Akta Tanah sebagaimana dimaksud pada ayat (3) dapat dibuat secara elektronik.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_39">
+                    <num>39</num>
+                      <paragraph eId="pasal_39__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemberian hak guna bangunan_ sebagaimana dimaksud dalam Pasal 38 wajib didaftarkan pada Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_39__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna bangunan di atas Tanah Negara, di atas Tanah Hak Pengelolaan, atau di atas Tanah hak milik terjadi sejak didaftar oleh Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_39__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hak guna bangunan di atas Tanah hak milik mengikat pihak ketiga sejak didaftar oleh Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_39__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Pemegang hak guna bangunan diberikan sertipikat Hak Atas Tanah sebagai tanda bukti hak.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_40">
+                    <num>40</num>
+                      <paragraph eId="pasal_40__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Hak guna bangunan di atas Tanah Negara sebagaimana dimaksud dalam Pasal 38 ayat (1) dapat diperpanjang atau diperbarui atas permohonan pemegang hak apabila memenuhi syarat:</p></intro>
+                          <point eId="pasal_40__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>tanahnya masih diusahakan dan dimanfaatkan dengan baik sesuai dengan keadaan, sifat, dan tujuan pemberian hak;</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>syarat-syarat pemberian hak dipenuhi dengan baik oleh pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemegang hak masih memenuhi syarat sebagai pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>tanahnya masih sesuai dengan rencana tata ruang; dan</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>tidak dipergunakan dan/atau’ direncanakan untuk kepentingan umum.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna bangunan di atas Tanah Hak Pengelolaan sebagaimana dimaksud dalam Pasal 38 ayat (2) dapat diperpanjang atau diperbarui atas permohonan pemegang hak guna bangunan apabila memenuhi syarat sebagaimana dimaksud pada ayat (1) dan mendapat persetujuan dari pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Atas kesepakatan antara pemegang hak guna bangunan dengan pemegang hak milik, hak guna bangunan di atas Tanah hak milik dapat diperbarui dengan pemberian hak guna bangunan baru dengan akta yang dibuat oleh Pejabat Pembuat Akta Tanah dan hak tersebut harus didaftarkan pada Kantor Pertanahan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_41">
+                    <num>41</num>
+                      <paragraph eId="pasal_41__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Permohonan perpanjangan jangka waktu hak guna bangunan dapat diajukan setelah tanahnya sudah digunakan dan dimanfaatkan sesuai dengan tujuan pemberian haknya atau paling lambat sebelum berakhirnya jangka waktu hak guna bangunan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Permohonan pembaruan hak guna bangunan diajukan paling lama 2 (dua) tahun setelah berakhirnya jangka waktu hak guna bangunan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Pemberian hak guna bangunan bagi Satuan Rumah Susun yang dibangun di atas Tanah:</p></intro>
+                          <point eId="pasal_41__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>Hak guna bangunan di atas Tanah Negara, dapat diberikan sekaligus dengan perpanjangan haknya setelah mendapat sertifikat laik fungsi;</p></content>
+                          </point>
+                          <point eId="pasal_41__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>Hak guna bangunan di atas Tanah Hak Pengelolaan, dapat diberikan perpanjangan dan pembaruan hak setelah mendapat sertifikat laik fungsi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Dalam hal hak guna bangunan di atas Tanah Hak Pengelolaan maka jangka waktu perpanjangan dan pembaruan hak dapat diberikan apabila tanahnya telah digunakan dan dimanfaatkan sesuai dengan tujuan pemberian haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_41__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Perpanjangan atau pembaruan hak guna bangunan wajib didaftarkan pada Kantor Pertanahan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_5">
+                <num>5</num>
+                <heading>Kewajiban, Larangan, dan Hak Pemegang Hak Guna Bangunan</heading>
+                  <article eId="pasal_42">
+                    <num>42</num>
+                    <intro><p>Pemegang hak guna bangunan berkewajiban:</p></intro>
+                      <point eId="pasal_42__huruf_a">
+                        <num>a.</num>
+                        <content><p>melaksanakan pembangunan dan/atau mengusahakan tanahnya sesuai dengan tujuan peruntukan dan persyaratan sebagaimana ditetapkan dalam keputusan pemberian haknya paling lama 2 (dua) tahun sejak hak diberikan;</p></content>
+                      </point>
+                      <point eId="pasal_42__huruf_b">
+                        <num>b.</num>
+                        <content><p>memelihara Tanah, termasuk menambah kesuburannya dan mencegah kerusakannya serta menjaga kelestarian lingkungan hidup;</p></content>
+                      </point>
+                      <point eId="pasal_42__huruf_c">
+                        <num>c.</num>
+                        <content><p>menjaga fungsi konservasi sempadan badan air atau fungsi konservasi lainnya;</p></content>
+                      </point>
+                      <point eId="pasal_42__huruf_d">
+                        <num>d.</num>
+                        <content><p>mematuhi ketentuan pemanfaatan ruang yang diatur dalam rencana tata ruang;</p></content>
+                      </point>
+                      <point eId="pasal_42__huruf_e">
+                        <num>e.</num>
+                        <content><p>melepaskan Hak Atas Tanah baik sebagian atau keseluruhan dalam hal dipergunakan bagi pembangunan untuk kepentingan umum; dan</p></content>
+                      </point>
+                      <point eId="pasal_42__huruf_f">
+                        <num>f.</num>
+                        <content><p>menyerahkan kembali Tanah yang diberikan dengan hak guna bangunan kepada negara, pemegang Hak Pengelolaan atau pemegang hak milik, setelah hak guna bangunan hapus.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_43">
+                    <num>43</num>
+                    <intro><p>Pemegang hak guna bangunan dilarang:</p></intro>
+                      <point eId="pasal_43__huruf_a">
+                        <num>a.</num>
+                        <content><p>mengurung atau menutup pekarangan atau bidang Tanah lain dari lalu lintas umum, akses publik, dan/atau jalan air;</p></content>
+                      </point>
+                      <point eId="pasal_43__huruf_b">
+                        <num>b.</num>
+                        <content><p>merusak sumber daya alam dan_ kelestarian kemampuan lingkungan hidup;</p></content>
+                      </point>
+                      <point eId="pasal_43__huruf_c">
+                        <num>c.</num>
+                        <content><p>menelantarkan tanahnya; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_43__huruf_d">
+                        <num>d.</num>
+                        <content><p>mendirikan bangunan permanen yang mengurangi fungsi konservasi tanggul, fungsi konservasi sempadan, atau fungsi konservasi lainnya, dalam hal dalam areal hak guna bangunan terdapat sempadan badan air atau fungsi konservasi lainnya.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_44">
+                    <num>44</num>
+                    <intro><p>Pemegang hak guna bangunan berhak:</p></intro>
+                      <point eId="pasal_44__huruf_a">
+                        <num>a.</num>
+                        <content><p>menggunakan dan memanfaatkan Tanah _ sesuai dengan peruntukannya dan persyaratan sebagaimana ditetapkan dalam keputusan dan _ perjanjian pemberiannya;</p></content>
+                      </point>
+                      <point eId="pasal_44__huruf_b">
+                        <num>b.</num>
+                        <content><p>mendirikan dan mempunyai bangunan di atas Tanah yang diberikan dengan hak guna bangunan sepanjang untuk keperluan pribadi dan/atau mendukung usaha sesuai dengan ketentuan peraturan perundang- undangan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_44__huruf_c">
+                        <num>c.</num>
+                        <content><p>melakukan perbuatan hukum yang _ bermaksud melepaskan, mengalihkan, dan mengubah penggunaannya serta membebankan dengan hak tanggungan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_6">
+                <num>6</num>
+                <heading>Pembebanan, Peralihan, Pelepasan, dan Perubahan Hak Guna Bangunan</heading>
+                  <article eId="pasal_45">
+                    <num>45</num>
+                      <paragraph eId="pasal_45__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak guna bangunan dapat dijadikan jaminan utang dengan dibebani hak tanggungan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_45__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak guna bangunan dapat beralih, dialihkan, atau dilepaskan kepada pihak lain serta diubah haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_45__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pelepasan hak guna bangunan sebagaimana dimaksud pada ayat (2) dibuat oleh dan dihadapan pejabat yang berwenang dan dilaporkan kepada Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_kedua__paragraf_7">
+                <num>7</num>
+                <heading>Hapusnya Hak Guna Bangunan</heading>
+                  <article eId="pasal_46">
+                    <num>46</num>
+                    <intro><p>Hak guna bangunan hapus karena:</p></intro>
+                      <point eId="pasal_46__huruf_a">
+                        <num>a.</num>
+                        <content><p>berakhirnya jangka waktu sebagaimana ditetapkan dalam keputusan pemberian, perpanjangan, atau pembaruan haknya;</p></content>
+                      </point>
+                      <point eId="pasal_46__huruf_b">
+                        <num>b.</num>
+                        <intro><p>dibatalkan haknya oleh Menteri sebelum jangka waktunya berakhir karena:</p></intro>
+                          <point eId="pasal_46__huruf_b__angka_1">
+                            <num>1.</num>
+                            <content><p>tidak terpenuhinya ketentuan kewajiban dan/atau larangan sebagaimana dimaksud dalam Pasal 42 dan/atau Pasal 43;</p></content>
+                          </point>
+                          <point eId="pasal_46__huruf_b__angka_2">
+                            <num>2.</num>
+                            <content><p>tidak terpenuhinya syarat atau kewajiban yang tertuang dalam perjanjian pemberian hak guna bangunan antara pemegang hak guna bangunan dan pemegang hak milik atau perjanjian pemanfaatan Tanah Hak Pengelolaan;</p></content>
+                          </point>
+                          <point eId="pasal_46__huruf_b__angka_3">
+                            <num>3.</num>
+                            <content><p>cacat administrasi; atau</p></content>
+                          </point>
+                          <point eId="pasal_46__huruf_b__angka_4">
+                            <num>4.</num>
+                            <content><p>putusan pengadilan yang telah memperoleh kekuatan hukum tetap;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_46__huruf_c">
+                        <num>c.</num>
+                        <content><p>diubah haknya menjadi Hak Atas Tanah lain;</p></content>
+                      </point>
+                      <point eId="pasal_46__huruf_d">
+                        <num>d.</num>
+                        <content><p>dilepaskan secara sukarela oleh pemegang haknya sebelum jangka waktu berakhir;</p></content>
+                      </point>
+                      <point eId="pasal_46__huruf_e">
+                        <num>e.</num>
+                        <content><p>dilepaskan untuk kepentingan umum;</p></content>
+                      </point>
+                      <point eId="pasal_46__huruf_f">
+                        <num>f.</num>
+                        <content><p>dicabut berdasarkan Undang- Undang;</p></content>
+                      </point>
+                      <point eId="pasal_46__huruf_g">
+                        <num>g.</num>
+                        <content><p>ditetapkan sebagai Tanah Telantar;</p></content>
+                      </point>
+                      <point eId="pasal_46__huruf_h">
+                        <num>h.</num>
+                        <content><p>ditetapkan sebagai Tanah Musnah;</p></content>
+                      </point>
+                      <point eId="pasal_46__huruf_i">
+                        <num>i.</num>
+                        <content><p>berakhirnya perjanjian pemberian hak atau perjanjian pemanfaatan Tanah untuk hak guna bangunan di atas hak milik atau Hak Pengelolaan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_46__huruf_j">
+                        <num>j.</num>
+                        <content><p>pemegang hak sudah tidak memenuhi syarat sebagai subjek hak.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_47">
+                    <num>47</num>
+                      <paragraph eId="pasal_47__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Hapusnya hak guna bangunan sebagaimana dimaksud dalam Pasal 46 di atas Tanah Negara, mengakibatkan:</p></intro>
+                          <point eId="pasal_47__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Tanah menjadi Tanah Negara; atau</p></content>
+                          </point>
+                          <point eId="pasal_47__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>sesuai dengan amar putusan pengadilan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_47__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Tanah Negara sebagaimana dimaksud pada ayat (1) huruf a, penataan kembali penggunaan, pemanfaatan, dan pemilikan selanjutnya menjadi kewenangan Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_47__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hapusnya hak guna bangunan sebagaimana dimaksud dalam Pasal 46 di atas Tanah Hak Pengelolaan, mengakibatkan tanahnya kembali ke dalam penguasaan pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_47__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Hapusnya hak guna bangunan sebagaimana dimaksud dalam Pasal 46 di atas Tanah hak _ milik, mengakibatkan tanahnya kembali ke dalam penguasaan pemegang hak milik.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_48">
+                    <num>48</num>
+                    <content><p>Ketentuan lebih lanjut mengenai subjek, Tanah yang dapat diberikan dengan hak guna bangunan, jangka waktu, terjadinya hak, tata cara dan syarat permohonan pemberian, perpanjangan, pembaruan, dan pendaftaran, kewajiban, larangan, dan hak, pembebanan, peralihan, pelepasan, dan perubahan, serta hapusnya hak guna bangunan sebagaimana dimaksud dalam Pasal 34 sampai dengan Pasal 47 diatur dalam Peraturan Menteri.</p></content>
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Hak Pakai</heading>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Subjek Hak Pakai</heading>
+                  <article eId="pasal_49">
+                    <num>49</num>
+                      <paragraph eId="pasal_49__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Hak pakai terdiri atas:</p></intro>
+                          <point eId="pasal_49__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>hak pakai dengan jangka waktu; dan</p></content>
+                          </point>
+                          <point eId="pasal_49__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>hak pakai selama dipergunakan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_49__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Hak pakai dengan jangka waktu sebagaimana dimaksud pada ayat (1) huruf a diberikan kepada:</p></intro>
+                          <point eId="pasal_49__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>Warga Negara Indonesia;</p></content>
+                          </point>
+                          <point eId="pasal_49__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>badan hukum yang didirikan menurut hukum Indonesia dan berkedudukan di Jndonesia;</p></content>
+                          </point>
+                          <point eId="pasal_49__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>badan hukum asing yang mempunyai perwakilan di Indonesia;</p></content>
+                          </point>
+                          <point eId="pasal_49__ayat_2__huruf_d">
+                            <num>d.</num>
+                            <content><p>badan keagamaan dan sosial; dan</p></content>
+                          </point>
+                          <point eId="pasal_49__ayat_2__huruf_e">
+                            <num>e.</num>
+                            <content><p>Orang Asing.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_49__ayat_3">
+                        <num>(3)</num>
+                        <intro><p>Hak pakai selama dipergunakan sebagaimana dimaksud pada ayat (1) huruf b diberikan kepada:</p></intro>
+                          <point eId="pasal_49__ayat_3__huruf_a">
+                            <num>a.</num>
+                            <content><p>instansi Pemerintah Pusat;</p></content>
+                          </point>
+                          <point eId="pasal_49__ayat_3__huruf_b">
+                            <num>b.</num>
+                            <content><p>Pemerintah Daerah;</p></content>
+                          </point>
+                          <point eId="pasal_49__ayat_3__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemerintah ... Cc. pemerintah desa; dan</p></content>
+                          </point>
+                          <point eId="pasal_49__ayat_3__huruf_d">
+                            <num>d.</num>
+                            <content><p>perwakilan negara asing dan perwakilan badan internasional.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_50">
+                    <num>50</num>
+                      <paragraph eId="pasal_50__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemegang hak pakai yang tidak lagi memenuhi syarat sebagaimana dimaksud dalam Pasal 49, dalam jangka waktu 1 (satu) tahun wajib melepaskan atau mengalihkan hak pakai kepada pihak lain yang memenuhi syarat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_50__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Apabila dalam jangka waktu sebagaimana dimaksud pada ayat (1) haknya tidak dilepaskan atau dialihkan maka hak tersebut hapus karena hukum.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Tanah Yang Dapat Diberikan Dengan Hak Pakai</heading>
+                  <article eId="pasal_51">
+                    <num>51</num>
+                      <paragraph eId="pasal_51__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Tanah yang dapat diberikan dengan hak pakai dengan jangka waktu sebagaimana dimaksud dalam Pasal 49 ayat (1) huruf a meliputi:</p></intro>
+                          <point eId="pasal_51__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Tanah Negara;</p></content>
+                          </point>
+                          <point eId="pasal_51__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>Tanah hak milik; dan</p></content>
+                          </point>
+                          <point eId="pasal_51__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>Tanah Hak Pengelolaan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_51__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Tanah yang dapat diberikan dengan hak pakai selama dipergunakan sebagaimana dimaksud dalam Pasal 49 ayat (1) huruf b meliputi:</p></intro>
+                          <point eId="pasal_51__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>Tanah Negara; dan</p></content>
+                          </point>
+                          <point eId="pasal_51__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>Tanah Hak Pengelolaan.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_3">
+                <num>3</num>
+                <heading>Jangka Waktu Hak Pakai</heading>
+                  <article eId="pasal_52">
+                    <num>52</num>
+                      <paragraph eId="pasal_52__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak pakai di atas Tanah Negara dan Tanah Hak Pengelolaan dengan jangka waktu diberikan untuk jangka waktu paling lama 30 (tiga puluh) tahun. diperpanjang untuk jangka waktu paling lama 20 (dua puluh) tahun, dan diperbarui untuk jangka waktu paling lama 30 (tiga puluh) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_52__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak pakai selama dipergunakan diberikan untuk waktu yang tidak ditentukan selama dipergunakan dan dimanfaatkan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_52__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hak pakai dengan jangka waktu di atas Tanah hak milik, diberikan untuk jangka waktu paling lama 30 (tiga puluh) tahun dan dapat diperbarui dengan akta pemberian hak pakai di atas Tanah hak milik.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_52__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Setelah jangka waktu pemberian, perpanjangan, dan pembaruan sebagaimana dimaksud pada ayat (1) berakhir, Tanah hak pakai kembali menjadi Tanah yang Dikuasai Langsung oleh Negara atau Tanah Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_52__ayat_5">
+                        <num>(5)</num>
+                        <intro><p>Tanah yang ODikuasai Langsung oleh Negara sebagaimana dimaksud pada ayat (4), penataan kembali penggunaan, pemanfaatan, dan pemilikan menjadi kewenangan Menteri dan dapat diberikan prioritas kepada bekas pemegang hak dengan memperhatikan:</p></intro>
+                          <point eId="pasal_52__ayat_5__huruf_a">
+                            <num>a.</num>
+                            <content><p>tanahnya masih diusahakan dan dimanfaatkan dengan baik sesuai dengan keadaan, sifat, dan tujuan pemberian hak;</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_5__huruf_b">
+                            <num>b.</num>
+                            <content><p>syarat-syarat pemberian hak dipenuhi dengan baik oleh pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_5__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemegang hak masih memenuhi syarat sebagai pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_5__huruf_d">
+                            <num>d.</num>
+                            <content><p>tanahnya masih sesuai dengan rencana tata ruang;</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_5__huruf_e">
+                            <num>e.</num>
+                            <content><p>tidak dipergunakan dan/atau direncanakan untuk kepentingan umum;</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_5__huruf_f">
+                            <num>f.</num>
+                            <content><p>sumber daya alam dan lingkungan hidup; dan</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_5__huruf_g">
+                            <num>g.</num>
+                            <content><p>keadaan Tanah dan masyarakat sekitar.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_4">
+                <num>4</num>
+                <heading>Terjadinya Hak Pakai</heading>
+                  <article eId="pasal_53">
+                    <num>53</num>
+                      <paragraph eId="pasal_53__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak pakai di atas Tanah Negara diberikan dengan keputusan pemberian hak oleh Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_53__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak pakai di atas Tanah Hak Pengelolaan diberikan dengan keputusan pemberian hak oleh Menteri berdasarkan persetujuan pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_53__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hak pakai di atas Tanah hak milik terjadi melalui pemberian oleh pemegang hak milik dengan akta yang dibuat oleh Pejabat Pembuat Akta Tanah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_53__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Keputusan sebagaimana dimaksud pada ayat (1) dan ayat (2) dan akta yang dibuat oleh Pejabat Pembuat Akta Tanah sebagaimana dimaksud pada ayat (3) dapat dibuat secara elektronik.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_54">
+                    <num>54</num>
+                      <paragraph eId="pasal_54__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pemberian hak pakai sebagaimana dimaksud dalam Pasal 53 wajib didaftarkan pada Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_54__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak pakai di atas Tanah Negara, di atas Tanah Hak Pengelolaan, atau di atas Tanah hak milik terjadi sejak didaftar oleh Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_54__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hak Pakai di atas Tanah hak milik mengikat pihak ketiga sejak didaftar oleh Kantor Pertanahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_54__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Pemegang hak pakai diberikan sertipikat Hak Atas Tanah sebagai tanda bukti hak.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_55">
+                    <num>55</num>
+                      <paragraph eId="pasal_55__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Hak pakai di atas Tanah Negara sebagaimana dimaksud dalam Pasal 53 ayat (1) dapat diperpanjang atau diperbarui atas permohonan pemegang hak apabila memenuhi syarat:</p></intro>
+                          <point eId="pasal_55__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>tanahnya masih diusahakan dan dimanfaatkan dengan baik sesuai dengan keadaan, sifat, dan tujuan pemberian hak;</p></content>
+                          </point>
+                          <point eId="pasal_55__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>syarat-syarat pemberian hak dipenuhi dengan baik oleh pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_55__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemegang hak masih memenuhi syarat sebagai pemegang hak;</p></content>
+                          </point>
+                          <point eId="pasal_55__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>tanahnya masih sesuai dengan rencana tata ruang; dan</p></content>
+                          </point>
+                          <point eId="pasal_55__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>tidak dipergunakan dan/atau direncanakan untuk kepentingan umum.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_55__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak pakai di atas Tanah Hak Pengelolaan sebagaimana dimaksud dalam Pasal 53 ayat (2) dapat diperpanjang atau diperbarui atas permohonan pemegang hak pakai apabila memenuhi syarat sebagaimana dimaksud pada ayat (1) dan mendapat persetujuan dari pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_55__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Atas kesepakatan antara pemegang hak pakai dengan pemegang hak milik, hak pakai di atas Tanah hak milik dapat diperbarui dengan pemberian hak pakai baru dengan akta yang dibuat oleh Pejabat Pembuat Akta Tanah dan hak tersebut harus didaftarkan pada Kantor Pertanahan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_56">
+                    <num>56</num>
+                      <paragraph eId="pasal_56__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Permohonan perpanjangan jangka waktu hak pakai dapat diajukan setelah tanahnya sudah digunakan dan dimanfaatkan sesuai dengan tujuan pemberian haknya atau paling lambat sebelum_ berakhirnya jangka waktu hak pakai.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_56__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Permohonan pembaruan hak pakai diajukan paling lama 2 (dua) tahun setelah berakhirnya jangka waktu hak pakai.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_56__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Dalam hal hak pakai di atas Tanah Hak Pengelolaan maka jangka waktu perpanjangan dan pembaruan hak dapat diberikan apabila tanahnya telah digunakan dan dimanfaatkan sesuai dengan tujuan pemberian haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_56__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Perpanjangan atau pembaruan hak ovpakai_ wajib didaftarkan pada Kantor Pertanahan.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_5">
+                <num>5</num>
+                <heading>Kewajiban, Larangan, dan Hak Pemegang Hak Pakai</heading>
+                  <article eId="pasal_57">
+                    <num>57</num>
+                    <intro><p>Pemegang hak pakai berkewajiban:</p></intro>
+                      <point eId="pasal_57__huruf_a">
+                        <num>a.</num>
+                        <content><p>melaksanakan pembangunan dan/atau mengusahakan tanahnya sesuai dengan tujuan peruntukan dan persyaratan sebagaimana ditetapkan dalam keputusan pemberian haknya paling lama 2 (dua) tahun sejak hak diberikan;</p></content>
+                      </point>
+                      <point eId="pasal_57__huruf_b">
+                        <num>b.</num>
+                        <content><p>memelihara Tanah, termasuk menambah kesuburannya dan mencegah kerusakannya serta menjaga kelestarian lingkungan hidup;</p></content>
+                      </point>
+                      <point eId="pasal_57__huruf_c">
+                        <num>c.</num>
+                        <content><p>menjaga fungsi konservasi sempadan badan air atau fungsi konservasi lainnya;</p></content>
+                      </point>
+                      <point eId="pasal_57__huruf_d">
+                        <num>d.</num>
+                        <content><p>mematuhi ketentuan pemanfaatan ruang yang diatur dalam rencana tata ruang;</p></content>
+                      </point>
+                      <point eId="pasal_57__huruf_e">
+                        <num>e.</num>
+                        <content><p>melepaskan Hak Atas Tanah baik sebagian atau keseluruhan dalam hal dipergunakan bagi pembangunan untuk kepentingan umum; dan</p></content>
+                      </point>
+                      <point eId="pasal_57__huruf_f">
+                        <num>f.</num>
+                        <content><p>menyerahkan kembali Tanah yang diberikan dengan hak pakai kepada negara, pemegang Hak Pengelolaan, atau pemegang hak milik, setelah hak pakai hapus.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_58">
+                    <num>58</num>
+                    <intro><p>Pemegang hak pakai dilarang:</p></intro>
+                      <point eId="pasal_58__huruf_a">
+                        <num>a.</num>
+                        <content><p>mengurung atau menutup pekarangan atau bidang Tanah lain dari lalu lintas umum, akses_ publik, dan/atau jalan air;</p></content>
+                      </point>
+                      <point eId="pasal_58__huruf_b">
+                        <num>b.</num>
+                        <content><p>merusak sumber daya alam dan _ kelestarian kemampuan lingkungan hidup;</p></content>
+                      </point>
+                      <point eId="pasal_58__huruf_c">
+                        <num>c.</num>
+                        <content><p>menelantarkan tanahnya; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_58__huruf_d">
+                        <num>d.</num>
+                        <content><p>mendirikan bangunan permanen yang mengurangi fungsi konservasi tanggul, fungsi konservasi sempadan, atau fungsi konservasi lainnya, dalam hal dalam areal hak pakai terdapat sempadan badan air atau fungsi konservasi lainnya.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_59">
+                    <num>59</num>
+                    <intro><p>Pemegang hak pakai berhak:</p></intro>
+                      <point eId="pasal_59__huruf_a">
+                        <num>a.</num>
+                        <content><p>menggunakan dan memanfaatkan Tanah _ sesuai dengan peruntukannya dan persyaratan sebagaimana ditetapkan dalam keputusan dan _ perjanjian pemberiannya;</p></content>
+                      </point>
+                      <point eId="pasal_59__huruf_b">
+                        <num>b.</num>
+                        <content><p>memanfaatkan sumber air dan sumber daya alam lainnya di atas Tanah yang diberikan dengan hak pakai sepanjang untuk mendukung usaha sesuai dengan ketentuan peraturan perundang-undangan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_59__huruf_c">
+                        <num>c.</num>
+                        <content><p>melakukan perbuatan hukum yang bermaksud melepaskan, mengalihkan, dan mengubah penggunaannya serta membebankan dengan hak tanggungan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_6">
+                <num>6</num>
+                <heading>Pembebanan, Peralihan, Pelepasan, dan Perubahan Hak Pakai</heading>
+                  <article eId="pasal_60">
+                    <num>60</num>
+                      <paragraph eId="pasal_60__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Hak pakai dengan jangka waktu dapat dijadikan jaminan utang dengan dibebani hak tanggungan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_60__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Hak pakai dengan jangka waktu dapat beralih, dialinkan, dilepaskan kepada pihak lain, atau diubah haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_60__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hak pakai selama dipergunakan tidak dapat dijadikan jaminan utang dengan dibebani hak tanggungan, tidak dapat beralih, dialihkan kepada pihak lain, atau diubah haknya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_60__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Hak pakai selama dipergunakan hanya dapat dilepaskan kepada pihak yang memenuhi syarat. (S) Pelepasan hak pakai sebagaimana dimaksud pada ayat (2) dan ayat (4) dibuat oleh dan dihadapan pejabat yang berwenang dan dilaporkan kepada Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_7">
+                <num>7</num>
+                <heading>Hapusnya Hak Pakai</heading>
+                  <article eId="pasal_61">
+                    <num>61</num>
+                    <intro><p>Hak pakai hapus karena:</p></intro>
+                      <point eId="pasal_61__huruf_a">
+                        <num>a.</num>
+                        <content><p>berakhirnya jangka waktu sebagaimana ditetapkan dalam keputusan pemberian, perpanjangan, atau pembaruan haknya, untuk hak pakai dengan jangka waktu;</p></content>
+                      </point>
+                      <point eId="pasal_61__huruf_b">
+                        <num>b.</num>
+                        <intro><p>dibatalkan haknya oleh Menteri sebelum jangka waktunya berakhir karena:</p></intro>
+                          <point eId="pasal_61__huruf_b__angka_1">
+                            <num>1.</num>
+                            <content><p>tidak terpenuhinya ketentuan kewajiban dan/atau larangan sebagaimana dimaksud dalam Pasal 57 dan/atau Pasal 58;</p></content>
+                          </point>
+                          <point eId="pasal_61__huruf_b__angka_2">
+                            <num>2.</num>
+                            <content><p>tidak terpenuhinya syarat atau kewajiban yang tertuang dalam perjanjian pemberian hak pakai antara pemegang hak pakai dan pemegang hak milik atau perjanjian pemanfaatan Tanah Hak Pengelolaan;</p></content>
+                          </point>
+                          <point eId="pasal_61__huruf_b__angka_3">
+                            <num>3.</num>
+                            <content><p>cacat administrasi; atau</p></content>
+                          </point>
+                          <point eId="pasal_61__huruf_b__angka_4">
+                            <num>4.</num>
+                            <content><p>putusan pengadilan yang telah memperoleh kekuatan hukum tetap;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_61__huruf_c">
+                        <num>c.</num>
+                        <content><p>diubah haknya menjadi Hak Atas Tanah lain;</p></content>
+                      </point>
+                      <point eId="pasal_61__huruf_d">
+                        <num>d.</num>
+                        <content><p>dilepaskan secara sukarela oleh pemegang haknya sebelum jangka waktunya berakhir;</p></content>
+                      </point>
+                      <point eId="pasal_61__huruf_e">
+                        <num>e.</num>
+                        <content><p>dilepaskan untuk kepentingan umum;</p></content>
+                      </point>
+                      <point eId="pasal_61__huruf_f">
+                        <num>f.</num>
+                        <content><p>dicabut berdasarkan Undang-Undang;</p></content>
+                      </point>
+                      <point eId="pasal_61__huruf_g">
+                        <num>g.</num>
+                        <content><p>ditetapkan sebagai Tanah Telantar;</p></content>
+                      </point>
+                      <point eId="pasal_61__huruf_h">
+                        <num>h.</num>
+                        <content><p>ditetapkan sebagai Tanah Musnah;</p></content>
+                      </point>
+                      <point eId="pasal_61__huruf_i">
+                        <num>i.</num>
+                        <content><p>berakhirnya perjanjian pemberian hak atau perjanjian pemanfaatan Tanah untuk hak pakai di atas hak milik atau Hak Pengelolaan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_61__huruf_j">
+                        <num>j.</num>
+                        <content><p>pemegang hak sudah tidak memenuhi syarat sebagai subjek hak.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_62">
+                    <num>62</num>
+                      <paragraph eId="pasal_62__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Hapusnya hak pakai sebagaimana dimaksud dalam Pasal 61 di atas Tanah Negara mengakibatkan:</p></intro>
+                          <point eId="pasal_62__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Tanah menjadi Tanah Negara; atau</p></content>
+                          </point>
+                          <point eId="pasal_62__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>sesuai dengan amar putusan pengadilan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_62__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Tanah Negara sebagaimana dimaksud pada ayat (1) huruf a, penataan kembali penggunaan, pemanfaatan, dan pemilikan selanjutnya menjadi kewenangan Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_62__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Hapusnya hak pakai sebagaimana dimaksud dalam Pasal 61 di atas Tanah Hak Pengelolaan mengakibatkan tanahnya kembali dalam penguasaan pemegang Hak Pengelolaan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_62__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Hapusnya Hak Pakai sebagaimane dimaksud dalam Pasal 61 di atas Tanah hak milik mengakibatkan tanahnya kembali dalam penguasaan pemegang hak milik,</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_63">
+                    <num>63</num>
+                    <content><p>Ketentuan lebih lanjut mengenai subjek, Tanah yang dapat diberikan dengan hak pakai, jangka waktu, terjadinya hak, tata cara dan syarat permohonan pemberian, perpanjangan, pembaruan, dan pendaftaran, kewajiban, larangan, dan hak, pembebanan, peralihan, pelepasan dan perubahan, serta hapusnya hak pakai sebagaimana dimaksud dalam Pasal 49 sampai dengan Pasal 62 diatur dalam Peraturan Menteri.</p></content>
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Pembatalan Hak Atas Tanah Karena Cacat Administrasi</heading>
+              <article eId="pasal_64">
+                <num>64</num>
+                  <paragraph eId="pasal_64__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pembatalan Hak Atas Tanah karena cacat administrasi hanya dapat dilakukan:</p></intro>
+                      <point eId="pasal_64__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <intro><p>sebelum jangka waktu 5 (lima) tahun sejak diterbitkannya sertipikat Hak Atas Tanah, untuk:</p></intro>
+                          <point eId="pasal_64__ayat_1__huruf_a__angka_1">
+                            <num>1.</num>
+                            <content><p>Hak Atas Tanah yang diterbitkan pertama kali dan belum dialihkan; atau</p></content>
+                          </point>
+                          <point eId="pasal_64__ayat_1__huruf_a__angka_2">
+                            <num>2.</num>
+                            <content><p>Hak Atas Tanah yang telah dialihkan namun para pihak tidak beriktikad baik atas peralihan hak tersebut sesuai dengan ketentuan peraturan perundang-undangan; atau</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_64__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>karena adanya tumpang tindih Hak Atas Tanah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_64__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal jangka waktu 5 (lima) tahun sebagaimana dimaksud pada ayat (1) huruf a terlampaui maka pembatalan dilakukan melalui mekanisme peradilan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Pemberian Hak untuk Pulau Kecil dan Wilayah Perairan</heading>
+              <article eId="pasal_65">
+                <num>65</num>
+                  <paragraph eId="pasal_65__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemberian Hak Pengelolaan dan/atau Hak Atas Tanah atas sebidang Tanah yang seluruhnya merupakan 1 (satu) pulau kecil wajib memperhatikan hak publik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_65__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemberian Hak Atas Tanah di wilayah perairan dilaksanakan berdasarkan perizinan yang diterbitkan oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang kelautan dan _ perikanan sesuai dengari ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_65__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai pemberian hak untuk pulau kecil diatur dalam Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Tanah Musnah</heading>
+              <article eId="pasal_66">
+                <num>66</num>
+                  <paragraph eId="pasal_66__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal terdapat bidang tanah yang sudah tidak dapat diidentifikasi lagi karena sudah berubah dari bentuk asalnya karena peristiwa alam sehingga tidak dapat difungsikan, digunakan, dan dimanfaatkan sebagaimana mestinya, dinyatakan sebagai Tanah Musnah dan Hak Pengelolaan dan/atau Hak Atas Tanah dinyatakan hapus.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_66__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penetapan Tanah Musnah sebagaimana dimaksud pada ayat (1) dilakukan dengan tahapan identifikasi, inventarisasi, dan pengkajian.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_66__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Sebelum ditetapkan sebagai Tanah Musnah, pemegang Hak Pengelolaan dan/atau Hak Atas Tanah diberikan prioritas untuk melakukan _ rekonstruksi atau reklamasi atas pemanfaatan Tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_66__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal rekonstruksi atau reklamasi sebagaimana dimaksud pada ayat (3) dilakukan oleh Pemerintah Pusat, Pemerintah Daerah, atau pihak lain maka pemegang Hak Pengelolaan dan/atau Hak Atas Tanah diberikan bantuan dana kerohiman.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_66__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai penetapan Tanah Musnah diatur dengan Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>SATUAN RUMAH SUSUN</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Subjek Hak Milik atas Satuan Rumah Susun</heading>
+              <article eId="pasal_67">
+                <num>67</num>
+                  <paragraph eId="pasal_67__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Hak milik atas Satuan Rumah Susun diberikan kepada:</p></intro>
+                      <point eId="pasal_67__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Warga Negara Indonesia;</p></content>
+                      </point>
+                      <point eId="pasal_67__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>badan hukum Indonesia;</p></content>
+                      </point>
+                      <point eId="pasal_67__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>Orang Asing yang mempunyai izin sesuai dengan ketentuan peraturan perundang-undangan;</p></content>
+                      </point>
+                      <point eId="pasal_67__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>badan hukum asing yang mempunyai perwakilan di Indonesia; atau</p></content>
+                      </point>
+                      <point eId="pasal_67__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>perwakilan negara asing dan lembaga internasional yang berada atau mempunyai perwakilan di Indonesia.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_67__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Selain diberikan kepada sebagaimana dimaksud pada ayat (1), hak milik atas Satuan Rumah Susun juga dapat diberikan kepada instansi Pemerintah Pusat atau instansi Pemerintah Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_67__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Hak milik atas Satuan Rumah Susun yang diberikan kepada instansi Pemerintah Pusat atau instansi Pemerintah Daerah sebagaimana dimaksud pada ayat (2) tidak dapat dijaminkan dengan dibebani hak tanggungan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pemecahan dan Penggabungan Hak Milik Atas Satuan Rumah Susun</heading>
+              <article eId="pasal_68">
+                <num>68</num>
+                  <paragraph eId="pasal_68__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak milik atas Satuan Rumah Susun dapat dilakukan pemecahan atau penggabungan dengan melampirkan perubahan akta pemisahan hak milik atas Satuan Rumah Susun yang sudah disetujui atau disahkan oleh pejabat yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_68__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal hak milik atas Satuan Rumah Susun yang bersangkutan dibebani hak tanggungan, pemecahan atau penggabungan sebagaimana dimaksud pada ayat (1) dilaksanakan setelah memperoleh persetujuan tertulis dari pemegang hak tanggunganr.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Rumah Tempat Tinggal atau Hunian untuk Orang Asing</heading>
+              <article eId="pasal_69">
+                <num>69</num>
+                  <paragraph eId="pasal_69__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Orang Asing yang dapat memiliki rumah tempat tinggal atau hunian merupakan Orang Asing yang mempunyai dokumen keimigrasian sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_69__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal Orang Asing meninggal dunia, rumah tempat tinggal atau hunian sebagaimana dimaksud pada ayat (1) dapat diwariskan kepada ahli waris.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_69__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal ahli waris sebagaimana dimaksud pada ayat (2) merupakan Orang Asing, ahli waris harus mempunyai dokumen keimigrasian sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_70">
+                <num>70</num>
+                  <paragraph eId="pasal_70__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Warga Negara Indonesia yang melaksanakan perkawinan dengan Orang Asing dapat memiliki Hak Atas Tanah yang sama dengan Warga Negara Indonesia lainnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_70__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hak Atas Tanah sebagaimana dimaksud pada ayat (1), bukan merupakan harta bersama yang dibuktikan dengan perjanjian pemisahan harta antara suami dan istri yang dibuat dengan akta notaris.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_71">
+                <num>71</num>
+                  <paragraph eId="pasal_71__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Rumah tempat tinggal atau hunian yang dapat dimiliki oleh Orang Asing merupakan:</p></intro>
+                      <point eId="pasal_71__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <intro><p>rumah tapak di atas Tanah:</p></intro>
+                          <point eId="pasal_71__ayat_1__huruf_a__angka_1">
+                            <num>1.</num>
+                            <content><p>hak pakai; atau</p></content>
+                          </point>
+                          <point eId="pasal_71__ayat_1__huruf_a__angka_2">
+                            <num>2.</num>
+                            <content><p>hak pakai di atas: a) hak milik, yang dikuasai berdasarkan perjanjian pemberian hak pakai di atas hak milik dengan akta Pejabat Pembuat Akta Tanah; atau b) Hak Pengelolaan, berdasarkan perjanjian pemanfaatan Tanah dengan pemegang Hak Pengelolaan.</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_71__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <intro><p>Rumah susun yang dibangun di atas bidang Tanah:</p></intro>
+                          <point eId="pasal_71__ayat_1__huruf_b__angka_1">
+                            <num>1.</num>
+                            <content><p>hak pakai atau hak guna bangunan di atas Tanah Negara;</p></content>
+                          </point>
+                          <point eId="pasal_71__ayat_1__huruf_b__angka_2">
+                            <num>2.</num>
+                            <content><p>hak pakai atau hak guna bangunan di atas Tanah Hak Pengelolaan; atau</p></content>
+                          </point>
+                          <point eId="pasal_71__ayat_1__huruf_b__angka_3">
+                            <num>3.</num>
+                            <content><p>hak pakai atau hak guna bangunan di atas Tanah hak milik.</p></content>
+                          </point>
+
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_71__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Rumah susun yang dibangun di atas Tanah hak pakai atau hak guna bangunan sebagaimana dimaksud pada ayat (1) huruf b merupakan Satuan Rumah Susun yang dibangun di kawasan ekonomi khusus, kawasan perdagangan bebas dan pelabuhan bebas, kawasan industri, dan kawasan ekonomi lainnya.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_72">
+                <num>72</num>
+                <intro><p>Kepemilikan rumah tempat tinggal atau hunian Orang Asing sebagaimana dimaksud dalam Pasal 71 diberikan dengan batasan:</p></intro>
+                  <point eId="pasal_72__huruf_a">
+                    <num>a.</num>
+                    <content><p>minimal harga;</p></content>
+                  </point>
+                  <point eId="pasal_72__huruf_b">
+                    <num>b.</num>
+                    <content><p>luas bidang Tanah;</p></content>
+                  </point>
+                  <point eId="pasal_72__huruf_c">
+                    <num>c.</num>
+                    <content><p>jumlah bidang Tanah atau unit Satuan Rumah Susun; dan</p></content>
+                  </point>
+                  <point eId="pasal_72__huruf_d">
+                    <num>d.</num>
+                    <content><p>peruntukan untuk rumah tinggal atau hunian.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_73">
+                <num>73</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara pemberian dan batasan atas kepemilikan rumah tempat tinggal atau hunian oleh Orang Asing sebagaimana dimaksud dalam Pasal 69 sampai dengan Pasal 72 diatur dalam Peraturan Menteri.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>HAK ATAS TANAH ATAU HAK PENGELOLAAN PADA RUANG ATAS TANAH DAN RUANG BAWAH TANAH</heading>
+          <part eId="bab_6__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Objek Ruang Atas Tanah dan Ruang Bawah Tanah</heading>
+              <article eId="pasal_74">
+                <num>74</num>
+                  <paragraph eId="pasal_74__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Penggunaan dan pemanfaatan bidang Tanah yang dipunyai oleh pemegang Hak Atas Tanah dibatasi oleh:</p></intro>
+                      <point eId="pasal_74__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>batas ketinggian sesuai koefisien dasar bangunan dan koefisien lantai bangunan yang diatur dalam rencana tata ruang; dan</p></content>
+                      </point>
+                      <point eId="pasal_74__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>batas kedalaman yang diatur dalam rencana tata ruang atau sampai dengan kedalaman 30 (tiga puluh) meter dari permukaan Tanah dalam hal belum diatur dalam rencana tata ruang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tanah yang secara struktur dan/atau fungsi terpisah dari pemegang Hak Atas Tanah _ sebagaimana dimaksud pada ayat (1) merupakan Ruang Atas Tanah atau Ruang Bawah Tanah yang dikuasai langsung oleh negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Ruang Bawah Tanah terdiri dari:</p></intro>
+                      <point eId="pasal_74__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>Ruang Bawah Tanah dangkal; dan</p></content>
+                      </point>
+                      <point eId="pasal_74__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>Ruang Bawah Tanah dalam.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ruang Bawah Tanah dangkal merupakan Tanah yang dipunyai oleh pemegang Hak Atas Tanah dengan batas kedalaman sebagaimana dimaksud pada ayat (1) huruf b.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_74__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ruang Bawah Tanah dalam merupakan Tanah yang secara struktur dan/atau fungsi terpisah dari pemegang Hak Atas Tanah sebagaimana dimaksud pada ayat (2).</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_75">
+                <num>75</num>
+                <content><p>Dalam hal terdapat pemanfaatan sumber daya minyak dan gas bumi serta mineral dan batu bara, Hak Atas Tanah pada Ruang Bawah Tanah tidak dapat diberikan. Bagian .</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Terjadinya Hak Pengelolaan, Hak Guna Bangunan, dan Hak Pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah</heading>
+              <article eId="pasal_76">
+                <num>76</num>
+                  <paragraph eId="pasal_76__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemanfataan Ruang Atas Tanah atau Ruang Bawah Tanah sebagaimana dimaksud dalam Pasal 74 ayat (2) harus mendapat kesesuaian kegiatan pemanfaatan ruang yang diterbitkan oleh Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_76__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penerbitan kesesuaian kegiatan pemanfaatan ruang untuk Ruang Atas Tanah atau Ruang Bawah Tanah sebagaimana dimaksud pada ayat (1) sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_77">
+                <num>77</num>
+                  <paragraph eId="pasal_77__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Ruang Atas Tanah atau Ruang Bawah Tanah dapat diberikan Hak Pengelolaan, hak guna bangunan, atau hak pakai setelah Ruang Atas Tanah atau Ruang Bawah Tanah dimanfaatkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_77__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hak Pengelolaan, hak guna bangunan, dan hak pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah diberikan dengan keputusan pemberian hak oleh Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_77__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Hak guna bangunan dan hak pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah yang diberikan di atas Hak Pengelolaan Ruang Atas Tanah atau Ruang Bawah Tanah diberikan dengan keputusan pemberian hak oleh Menteri berdasarkan persetujuan pemegang Hak Pengelolaan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_78">
+                <num>78</num>
+                  <paragraph eId="pasal_78__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Dalam hal pemberian penggunaan dan pemanfaatan pada Ruang Atas Tanah mengganggu:</p></intro>
+                      <point eId="pasal_78__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>kepentingan umum maka diperlukan persetujuan dari Pemerintah Pusat; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_78__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>kepentingan pemegang Hak Atas Tanah pada bidang Tanah maka diperlukan persetujuan dari pemegang Hak Atas Tanah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_78__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Persetujuan dari pemegang Hak Atas Tanah dibuat dalam bentuk akta autentik sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_78__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Segala bentuk gangguan yang diterima pemegang Hak Atas Tanah diberikan ganti rugi yang dapat dinilai dalam bentuk uang atau bentuk lain sesuai kesepakatan dengan pihak yang akan menggunakan dan memanfaatkan Ruang Atas Tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_78__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Perhitungan nilai ganti rugi sebagaimana dimaksud pada ayat (3) dilakukan oleh penilai pertanahan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_79">
+                <num>79</num>
+                  <paragraph eId="pasal_79__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Hak Pengelolaan, hak guna bangunan dan hak pakai pada Ruang Bawah Tanah diberikan pada:</p></intro>
+                      <point eId="pasal_79__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Ruang Bawah Tanah dangkal; atau</p></content>
+                      </point>
+                      <point eId="pasal_79__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Ruang Bawah Tanah dalam.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_79__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal penggunaan dan pemanfaatan pada Ruang Bawah Tanah dangkal sebagaimana dimaksud pada ayat (1) huruf a mengganggu kepentingan umum dan/atau kepentingan pemegang Hak Atas Tanah pada permukaan Tanah maka diperlukan persetujuan dari pemegang Hak Atas Tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_79__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Persetujuan dari pemegang Hak Atas Tanah sebagaimana dimaksud pada ayat (2) dibuat dalam bentuk akta autentik sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_79__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Segala bentuk gangguan yang diterima pemegang Hak Atas Tanah diberikan ganti rugi yang dapat dinilai dalam bentuk uang atau bentuk lain sesuai kesepakatan denga pihak yang akan menggunakan dan memanfaatkan Ruang Bawah Tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_79__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Perhitungan nilai ganti rugi sebagaimana dimaksud pada ayat (4) dilakukan oleh penilai pertanahan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_80">
+                <num>80</num>
+                  <paragraph eId="pasal_80__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemberian Hak Pengelolaan, hak guna bangunan atau hak pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah wajib didaftarkan pada Kantor Pertanahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_80__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemegang Hak Pengelolaan, hak guna bangunan, atau hak pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah diberikan sertipikat sebagai tanda bukti kepemilikan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Subjek, Jangka Waktu, Pembebanan, Peralihan dan Pelepasan, dan Pembatalan Hak Pengelolaan, Hak Guna Bangunan, dan Hak Pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah</heading>
+              <article eId="pasal_81">
+                <num>81</num>
+                <content><p>Ketentuan mengenai subjek, jangka waktu, pembebanan, peralihan dan pelepasan, dan pembatalan Hak Pengelolaan, hak guna bangunan, dan hak pakai atas Tanah berlaku secara mutatis mutandis terhadap ketentuan mengenai subjek, jangka waktu, pembebanan, peralihan dan pelepasan, dan pembatalan Hak Pengelolaan, hak guna bangunan, dan hak pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_6__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Hapusnya Hak Pengelolaan, Hak Guna Bangunan, dan Hak Pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah</heading>
+              <article eId="pasal_82">
+                <num>82</num>
+                  <paragraph eId="pasal_82__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Hak Pengelolaan pada Ruang Atas Tanah atau Ruang Bawah Tanah hapus apabila:</p></intro>
+                      <point eId="pasal_82__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <intro><p>dibatalkan oleh Menteri karena:</p></intro>
+                          <point eId="pasal_82__ayat_1__huruf_a__angka_1">
+                            <num>1.</num>
+                            <content><p>cacat administrasi; atau</p></content>
+                          </point>
+                          <point eId="pasal_82__ayat_1__huruf_a__angka_2">
+                            <num>2.</num>
+                            <content><p>putusan pengadilan yang telah memperoleh kekuatan hukum tetap;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_82__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>bangunan/satuan ruangnya dan/atau tanahnya musnah dan tidak dapat digunakan atau dimanfaatkan lagi;</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>dilepaskan secara sukarela oleh pemegang haknya; .</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>dilepaskan untuk kepentingan umum; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>dicabut berdasarkan Undang-Undang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_82__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Hak guna bangunan dan hak pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah hapus apabila:</p></intro>
+                      <point eId="pasal_82__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>berakhirnya jangka waktu sebagaimana ditetapkan dalam keputusan pemberian, perpanjangan, atau pembaruan haknya;</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <intro><p>dibatalkan haknya oleh Menteri sebelum jangka waktunya berakhir karena:</p></intro>
+                          <point eId="pasal_82__ayat_2__huruf_b__angka_1">
+                            <num>1.</num>
+                            <content><p>tidak memenuhi- kewajiban dan/atau melanggar larangan;</p></content>
+                          </point>
+                          <point eId="pasal_82__ayat_2__huruf_b__angka_2">
+                            <num>2.</num>
+                            <content><p>tidak terpenuhinya syarat atau kewajiban yang tertuang dalam perjanjian pemanfaatan Hak Pengelolaan Ruang Atas Tanah atau Ruang Bawah Tanah;</p></content>
+                          </point>
+                          <point eId="pasal_82__ayat_2__huruf_b__angka_3">
+                            <num>3.</num>
+                            <content><p>cacat administrasi; atau</p></content>
+                          </point>
+                          <point eId="pasal_82__ayat_2__huruf_b__angka_4">
+                            <num>4.</num>
+                            <content><p>putusan pengadilan yang telah memperoleh kekuatan hukum tetap;</p></content>
+                          </point>
+
+                      </point>
+                      <point eId="pasal_82__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>diubah haknya menjadi Hak Atas Tanah lain;</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>dilepaskan secara sukarela oleh pemegang haknya sebelum jangka waktu berakhir;</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>dilepaskan untuk kepentingan umum;</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>dicabut berdasarkan Undang-Undang;</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_2__huruf_g">
+                        <num>g.</num>
+                        <content><p>bangunan/satuan ruangnya dan/atau tanahnya musnah dan tidak dapat digunakan atau dimanfaatkan lagi;</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_2__huruf_h">
+                        <num>h.</num>
+                        <content><p>berakhirnya perjanjian pemberian hak atau pemanfaatan Tanah untuk hak guna bangunan atau hak pakai di atas hak milik atau Hak Pengelolaan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_82__ayat_2__huruf_i">
+                        <num>i.</num>
+                        <content><p>pemegang hak sudah tidak memenuhi syarat sebagai subjek hak.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_83">
+                <num>83</num>
+                <content><p>Ketentuan lebih lanjut mengenai subjek, objek, jangka waktu, terjadinya hak, tata cara dan syarat permohonan pemberian, perpanjangan, pembaruan, dan pendaftaran, kewajiban, larangan dan hak, pembebanan, peralihan, pelepasan dan _ perubahan, serta hapusnya Hak Pengelolaan, hak guna bangunan, dan hak pakai pada Ruang Atas Tanah atau Ruang Bawah Tanah sebagaimana dimaksud dalam Pasal 74 sampai dengan Pasal 82 diatur dalam Peraturan Menteri.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PENDAFTARAN TANAH</heading>
+          <part eId="bab_7__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Penyelenggaraan Pendaftaran Tanah Secara Elektronik</heading>
+              <article eId="pasal_84">
+                <num>84</num>
+                  <paragraph eId="pasal_84__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggaraan dan pelaksanaan Pendaftaran Tanah dapat dilakukan secara elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_84__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Hasil penyelenggaraan dan pelaksanaan Pendaftaran Tanah secara elektronik sebagaimana dimaksud pada ayat (1) berupa data, informasi elektronik, dan/atau dokumen elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_84__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Data dan informasi elektronik dan/atau hasil cetaknya merupakan alat bukti hukum yang sah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_84__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Data dan informasi elektronik dan/atau hasil cetaknya sebagaimana dimaksud pada ayat (3) merupakan perluasan dari alat bukti yang sah sesuai dengan hukum acara yang berlaku di Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_84__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Penerapan Pendaftaran Tanah elektronik dilaksanakan secara bertahap dengan mempertimbangkan kesiapan sistem elektronik yang dibangun oleh Kementerian.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_85">
+                <num>85</num>
+                  <paragraph eId="pasal_85__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Seluruh data dan/atau dokumen dalam _ rangka kegiatan Pendaftaran Tanah secara bertahap disimpan dan disajikan dalam bentuk dokumen elektronik dengan memanfaatkan teknologi informasi dan komunikasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_85__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Data dan/atau dokumen sebagaimana dimaksud pada ayat (1) disimpan secara elektronik di pangkalan data Kementerian.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_85__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Untuk keperluan pembuktian di pengadilan dan/atau pemberian informasi pertanahan yang dimohonkan instansi yang memerlukan untuk _pelaksanaan tugasnya, data dan/atau dokumen sebagaimana dimaksud pada ayat (2) dapat diberikan akses melalui sistem elektronik.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_86">
+                <num>86</num>
+                <content><p>Pembuatan akta Pejabat Pembuat Akta Tanah dapat dilakukan secara elektronik.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_7__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Percepatan Pendaftaran Tanah</heading>
+              <article eId="pasal_87">
+                <num>87</num>
+                  <paragraph eId="pasal_87__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam rangka percepatan Pendaftaran Tanah maka pelaksanaan Pendaftaran Tanah secara_ sistematik wajib diikuti oleh pemilik bidang Tanah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_87__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal pemilik bidang Tanah tidak mengikuti Pendaftaran Tanah secara sistematik sebagaimana dimaksud pada ayat (1), pemilik bidang Tanah wajib mendaftarkan tanahnya secara sporadik.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_88">
+                <num>88</num>
+                  <paragraph eId="pasal_88__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengumuman hasil pengumpulan data fisik dan data yuridis:</p></intro>
+                      <point eId="pasal_88__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>dalam Pendaftaran Tanah secara_ sistematik dilakukan selama 14 (empat belas) hari kalender;</p></content>
+                      </point>
+                      <point eId="pasal_88__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>dalam Pendaftaran Tanah secara sporadik selama 30 (tiga puluh) hari kalender.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_88__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengumuman sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui website yang disediakan oleh Kementerian.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_89">
+                <num>89</num>
+                <content><p>Pendaftaran hak tanggungan dilakukan oleh Kantor Pertanahan secara elektronik paling lama 7 (tujuh) hari kalender setelah dokumen yang diperlukan untuk pendaftaran hak tanggungan dinyatakan memenuhi syarat.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_7__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Penertiban Administrasi Pendaftaran Tanah</heading>
+              <article eId="pasal_90">
+                <num>90</num>
+                  <paragraph eId="pasal_90__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pihak yang berkepentingan dapat mengajukan permohonan pencatatan perjanjian pengikatan jual beli atau perjanjian sewa atas Tanah terdaftar ke Kantor Pertanahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_90__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pencatatan sebagaimana dimaksud pada ayat (1) dilakukan pada daftar umum dan/atau sertipikat Hak Atas Tanah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_91">
+                <num>91</num>
+                  <paragraph eId="pasal_91__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal Tanah menjadi objek perkara di pengadilan, pihak yang berkepentingan dapat mengajukan permohonan pencatatan ke Kantor Pertanahan bahwa suatu Hak Atas Tanah atau hak milik atas Satuan Rumah Susun menjadi objek perkara di pengadilan dengan menyampaikan salinan surat gugatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_91__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Catatan sebagaimana dimaksud pada ayat (1) hapus dengan sendirinya dalam jangka waktu 30 (tiga puluh) hari kalender terhitung dari tanggal pencatatan atau apabila pihak yang mengajukan pencatatan telah mencabut permintaannya sebelum jangka waktu berakhir.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_91__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Apabila hakim yang memeriksa perkara sebagaimana dimaksud pada ayat (1) memerintahkan status quo atas Hak Atas Tanah atau hak milik atas Satuan Rumah Susun yang bersangkutan maka atas perintah hakim, permohonan tersebut dicatatkan ke Kantor Pertanahan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_91__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Catatan mengenai perintah status quo sebagaimana dimaksud pada ayat (3) hapus dengan sendirinya dalam waktu 30 (tiga puluh) hari kalender kecuali apabila diikuti dengan putusan sita jaminan yang salinan resmi dan oberita acara eksekusinya disampaikan kepada kepala Kantor Pertanahan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_92">
+                <num>92</num>
+                  <paragraph eId="pasal_92__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal Tanah merupakan objek perkara pengadilan, objek penetapan status quo oleh hakim yang memeriksa perkara atau objek sita pengadilan, kepala Kantor Pertanahan menolak untuk mielakukan pendaftaran peralihan atau pembebanan hak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_92__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setelah jangka waktu catatan objek perkara pengadilan sebagaimana dimaksud dalam Pasal 91 ayat (2) dan/atau catatan objek penetapan status quo sebagaimana dimaksud dalam Pasal 91 ayat (4) hapus dan objek perkara tidak diikuti penetapan sita jaminan maka pendaftaran peralihan atau pembebanan hak dapat dilaksanakan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_92__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penolakan kepala Kantor Pertanahan sebagaimana dimaksud pada ayat (1) dilakukan secara tertulis yang memuat alasan penolakan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_93">
+                <num>93</num>
+                  <paragraph eId="pasal_93__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Untuk memastikan letak dan batas Tanah objek gugatan yang sedang diperkarakan, hakim yang memeriksa perkara dapat meminta pengukuran pada Kantor Pertanahan setempat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_93__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Sebelum pelaksanaan eksekusi putusan pengadilan, panitera pengadilan wajib mengajukan permohonan pengukuran kepada Kantor Pertanahan atas objek eksekusi untuk memastikan letak dan batas Tanah objek eksekusi yang ditunjukan oleh juru sita dan bertanggung jawab atas letak dan batas Tanah objek eksekusi yang ditunjukannya.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_7__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Perubahan Hak</heading>
+              <article eId="pasal_94">
+                <num>94</num>
+                <content><p>Hak guna bangunan dan hak pakai yang dimiliki oleh Warga Negara Indonesia, yang digunakan dan dimanfaatkan untuk rumah tinggal termasuk rumah toko dan rumah kantor, dapat diberikan hak milik atas permohonan pemegang hak.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_7__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Bukti Hak Lama</heading>
+              <article eId="pasal_95">
+                <num>95</num>
+                  <paragraph eId="pasal_95__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Alat bukti tertulis Tanah bekas hak barat dinyatakan tidak berlaku dan statusnya menjadi Tanah yang Dikuasai Langsung oleh Negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_95__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pendaftaran Tanah bekas hak barat sebagaimana dimaksud pada ayat (1) mendasarkan pada surat pernyataan penguasaan fisik yang diketahui 2 (dua) orang saksi dan bertanggung jawab secara perdata dan pidana, yang menguraikan:</p></intro>
+                      <point eId="pasal_95__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>Tanah tersebut adalah benar milik yang bersangkutan bukan milik orang lain dan statusnya adalah Tanah yang Dikuasai Langsung oleh Negara bukan Tanah bekas milik adat;</p></content>
+                      </point>
+                      <point eId="pasal_95__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>Tanah secara fisik dikuasai;</p></content>
+                      </point>
+                      <point eId="pasal_95__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>penguasaan tersebut dilakukan dengan iktikad baik dan secara terbuka oleh yang bersangkutan sebagai yang berhak atas Tanah; dan</p></content>
+                      </point>
+                      <point eId="pasal_95__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>penguasaan tersebut tidak dipermasalahkan oleh pihak lain.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_96">
+                <num>96</num>
+                  <paragraph eId="pasal_96__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Alat bukti tertulis Tanah bekas milik adat yang dimiliki oleh perorangan wajib didaftarkan dalam jangka waktu paling lama 5 (lima) tahun sejak berlakunya Peraturan Pemerintah ini.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_96__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal jangka waktu sebagaimana dimaksud pada ayat (1) berakhir maka alat bukti tertulis Tanah bekas milik adat dinyatakan tidak berlaku dan tidak dapat digunakan sebagai alat pembuktian Hak Atas Tanah dan hanya sebagai petunjuk dalam _ rangka Pendaftaran Tanah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_97">
+                <num>97</num>
+                <content><p>Surat keterangan tanah, surat keterangan ganti rugi, surat keterangan desa, dan lainnya yang. sejenis yang dimaksudkan sebagai keterangan atas penguasaan dan pemilikan Tanah yang _ dikeluarkan oleh kepala desa/lurah/camat hanya dapat digunakan sebagai petunjuk dalam rangka Pendaftaran Tanah.</p></content>
+              </article>
+              <article eId="pasal_98">
+                <num>98</num>
+                  <paragraph eId="pasal_98__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Tanah swapraja atau bekas swapraja merupakan Tanah yang Dikuasai Langsung oleh Negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_98__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tanah swapraja atau bekas swapraja sebagaimana dimaksud pada ayat (1) dapat diberikan kepada bekas pemegang Tanah swapraja atau bekas_ swapraja, apabila memenuhi syarat dan mengusahakan atau menggarap sendiri Tanah untuk kepentingan swapraja.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_98__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Tanah swapraja atau bekas swapraja sebagaimana dimaksud pada ayat (1) yang dikuasai oleh pihak lain, diberikan kepada pihak yang mengusahakan atau menggarap Tanah dengan iktikad baik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_98__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Konsesi atau sewa atas Tanah bekas swapraja hapus dan menjadi Tanah yang Dikuasai Langsung oleh Negara.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_98__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), dan ayat (4) tidak berlaku untuk Tanah swapraja atau bekas swapraja yang diatur menurut Undang-Undang.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_99">
+                <num>99</num>
+                <content><p>Ketentuan lebih lanjut mengenai penyelenggaraan Pendattaran Tanah secara elektronik, penyimpanan dan penyajian data dan/atau dokumen elektronik, bentuk, isi dan tata cara pembuatan akta Pejabat Pembuat Akta Tanah secara elektronik, percepatan Pendaftaran Tanah, pendaftaran hak tanggungan secara elektronik, pencatatan perjanjian pengikatan jual beli dan perjanjian sewa, pencatatan objek perkara dan perintah status quo, perubahan hak guna bangunan dan hak pakai menjadi hak milik, dan Pendaftaran Tanah bekas hak barat atau Tanah bekas milik adat serta Tanah swapraja atau bekas swapraja sebagaimana dimaksud dalam Pasal 84 sampai dengan Pasal 98 diatur dalam Peraturan Menteri.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN LAIN-LAIN</heading>
+          <article eId="pasal_100">
+            <num>100</num>
+            <content><p>Dalam hal Peraturan Pemerintah ini memberikan pilihan tidak mengatur, tidak lengkap, atau tidak jelas, dan/atau adanya stagnasi pemerintahan, Menteri dapat melakukan diskresi untuk mengatasi persoalan konkret dalam penyelenggaraan urusan pemerintahan di bidang Hak Pengelolaan, Hak Atas Tanah, Satuan Rumah Susun, dan Pendaftaran Tanah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_101">
+            <num>101</num>
+            <intro><p>Pada saat Peraturan Pemerintah ini mulai berlaku: 1, Hak Pengelolaan, hak guna usaha, hak guna bangunan, atau hak pakai yang telah diberikan sebelum berlakunya Peraturan Pemerintah ini, tetap sah dan berlaku;</p></intro>
+              <point eId="pasal_101__angka_2">
+                <num>2.</num>
+                <content><p>Permohonan hak guna usaha, hak guna bangunan, atau hak pakai yang telah diterima lengkap dan belum diterbitkan surat keputusan pemberian haknya sebelum berlakunya Peraturan Pemerintah ini, diselesaikan sesuai dengan ketentuan Peraturan Pemerintah ini.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_102">
+            <num>102</num>
+            <intro><p>Pada saat Peraturan Pemerintah ini mulai berlaku, semua peraturan perundang-undangan yang merupakan ketentuan pelaksanaan dari:</p></intro>
+              <point eId="pasal_102__huruf_a">
+                <num>a.</num>
+                <content><p>Peraturan Pemerintah Nomor 40 Tahun 1996 tentang Hak Guna Usaha, Hak Guna Bangunan dan Hak Pakai Atas Tanah (Lembaran Negara Republik Indonesia Tahun 1996 Nomor 58, Tambahan Lembaran Negara Republik Indonesia Nomor 3643);</p></content>
+              </point>
+              <point eId="pasal_102__huruf_b">
+                <num>b.</num>
+                <content><p>Peraturan Pemerintah Nomor 24 Tahun 1997 tentang Pendaftaran Tanah (Lembaran Negara Republik Indonesia Tahun 1997 Nomor 59, Tambahan Lembaran Negara Republik Indonesia Nomor 3696); dan</p></content>
+              </point>
+              <point eId="pasal_102__huruf_c">
+                <num>c.</num>
+                <content><p>Peraturan Pemerintah Nomor 103 Tahun 2015 tentang Pemilikan Rumah Tempat Tinggal atau Hunian Oleh Orang Asing Yang Berkedudukan di Indonesia (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 325, Tambahan Lembaran Negara Republik Indonesia Nomor 5793); dinyatakan tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Peraturan Pemerintah ini.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_103">
+            <num>103</num>
+            <intro><p>Pada saat Peraturan Pemerintah ini mulai berlaku:</p></intro>
+              <point eId="pasal_103__huruf_a">
+                <num>a.</num>
+                <content><p>Peraturan Pemerintah Nomor 40 Tahun 1996 tentang Hak Guna Usaha, Hak Guna Bangunan dan Hak Pakai Atas Tanah (Lembaran Negara Republik Indonesia Tahun 1996 Nomor 58, Tambahan Lembaran Negara Republik Indonesia Nomor 3643);</p></content>
+              </point>
+              <point eId="pasal_103__huruf_b">
+                <num>b.</num>
+                <content><p>Peraturan Pemerintah Nomor 103 Tahun 2015 tentang Pemilikan Rumah Tempat Tinggal atau Hunian Oleh Orang Asing Yang Berkedudukan di Indonesia (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 325, Tambahan Lembaran Negara Republik Indonesia Nomor 5793); dan</p></content>
+              </point>
+              <point eId="pasal_103__huruf_c">
+                <num>c.</num>
+                <content><p>Ketentuan mengenai jangka waktu pengumuman Pendaftaran Tanah secara sistematik dan jangka waktu pengumuman Pendaftaran Tanah secara sporadik dalam Pasal 26 ayat (1) dan ketentuan Pasal 45 ayat (1) huruf e Peraturan Pemerintah Nomor 24 Tahun 1997 tentang Pendaftaran Tanah (Lembaran Negara Republik Indonesia Tahun 1997 Nomor 59, Tambahan Lembaran Negara Republik Indonesia Nomor 3696), dicabut dan dinyatakan tidak berlaku.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_104">
+            <num>104</num>
+            <content><p>Peraturan Pemerintah ini mulai berlaku pada _ tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>
