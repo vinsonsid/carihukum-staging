@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2002/2/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2002/2"/>
+          <FRBRdate date="2002-01-08" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2002/2/ind@2002-01-08/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2002/2/ind@2002-01-08"/>
+          <FRBRdate date="2002-01-08" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2002/2/ind@2002-01-08/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2002/2/ind@2002-01-08.akn"/>
+          <FRBRdate date="2026-09-15" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 2 Tahun 2002 tentang Kepolisian Negara Republik Indonesia</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Kepolisian adalah segala hal-ihwal yang berkaitan dengan fungsi dan lembaga polisi sesuai dengan peraturan perundang-undangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Anggota Kepolisian Negara Republik Indonesia adalah pegawai negeri pada Kepolisian Negara Republik Indonesia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Pejabat Kepolisian Negara Republik Indonesia adalah anggota Kepolisian Negara Republik Indonesia yang berdasarkan undang-undang memiliki wewenang umum Kepolisian.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Peraturan Kepolisian adalah segala peraturan yang dikeluarkan oleh Kepolisian Negara Republik Indonesia dalam rangka memelihara ketertiban dan menjamin keamanan umum sesuai dengan peraturan perundang-undangan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Keamanan dan ketertiban masyarakat adalah suatu kondisi dinamis masyarakat sebagai salah satu prasyarat terselenggaranya proses pembangunan nasional dalam rangka tercapainya tujuan nasional yang ditandai oleh terjaminnya keamanan, ketertiban, dan tegaknya hukum, serta terbinanya ketenteraman, yang mengandung kemampuan membina serta mengembangkan potensi dan kekuatan masyarakat dalam menangkal, mencegah, dan menanggulangi segala bentuk pelanggaran hukum dan bentuk-bentuk gangguan lainnya yang dapat meresahkan masyarakat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Keamanan dalam negeri adalah suatu keadaan yang ditandai dengan terjaminnya keamanan dan ketertiban masyarakat, tertib dan tegaknya hukum, serta terselenggaranya perlindungan, pengayoman, dan pelayanan kepada masyarakat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Kepentingan umum adalah kepentingan masyarakat dan/atau kepentingan bangsa dan negara demi terjaminnya keamanan dalam negeri.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Penyelidik adalah pejabat Kepolisian Negara Republik Indonesia yang diberi wewenang oleh undang-undang untuk melakukan penyelidikan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Penyelidikan adalah serangkaian tindakan penyelidik untuk mencari dan menemukan suatu peristiwa yang diduga sebagai tindak pidana guna menentukan dapat atau tidaknya dilakukan penyidikan menurut cara yang diatur dalam undang-undang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Penyidik adalah pejabat Kepolisian Negara Republik Indonesia yang diberi wewenang oleh undang-undang untuk melakukan penyidikan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Penyidik Pegawai Negeri Sipil adalah pejabat pegawai negeri sipil tertentu yang berdasarkan peraturan perundang-undangan ditunjuk selaku penyidik dan mempunyai wewenang untuk melakukan penyidikan tindak pidana dalam lingkup undang-undang yang menjadi dasar hukumnya masing-masing.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Pembantu adalah pejabat Kepolisian Negara Republik Indonesia yang diangkat oleh Kepala Kepolisian Negara Republik Indonesia berdasarkan syarat kepangkatan dan diberi wewenang tertentu dalam melakukan tugas penyidikan yang diatur dalam undang-undang.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Penyidikan adalah serangkaian tindakan penyidik dalam hal dan menurut cara yang diatur dalam undang-undang untuk mencari serta mengumpulkan bukti yang dengan bukti itu membuat terang tentang tindak pidana yang terjadi dan guna menemukan tersangkanya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Kepala Kepolisian Negara Republik Indonesia yang selanjutnya disebut Kapolri adalah pimpinan Kepolisian Negara Republik Indonesia dan penanggung jawab penyelenggaraan fungsi kepolisian.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Fungsi kepolisian adalah salah satu fungsi pemerintahan negara di bidang pemeliharaan keamanan dan ketertiban masyarakat, penegakan hukum, perlindungan, pengayoman, dan pelayanan kepada masyarakat.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+              <paragraph eId="pasal_3__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pengemban fungsi kepolisian adalah Kepolisian Negara Republik Indonesia yang dibantu oleh :</p></intro>
+                  <point eId="pasal_3__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>kepolisian khusus;</p></content>
+                  </point>
+                  <point eId="pasal_3__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>penyidik pegawai negeri sipil; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_3__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>bentuk-bentuk pengamanan swakarsa.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_2">
+                <num>(2)</num>
+                <content><p>Pengemban fungsi kepolisian sebagaimana dimaksud dalam ayat (1) huruf a, b, dan c, melaksanakan fungsi kepolisian sesuai dengan peraturan perundang-undangan yang menjadi dasar hukumnya masing-masing.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Kepolisian Negara Republik Indonesia bertujuan untuk mewujudkan keamanan dalam negeri yang meliputi terpeliharanya keamanan dan ketertiban masyarakat, tertib dan tegaknya hukum, terselenggaranya perlindungan, pengayoman, dan pelayanan kepada masyarakat, serta terbinanya ketenteraman masyarakat dengan menjunjung tinggi hak asasi manusia.</p></content>
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Kepolisian Negara Republik Indonesia merupakan alat negara yang berperan dalam memelihara keamanan dan ketertiban masyarakat, menegakkan hukum, serta memberikan perlindungan, pengayoman, dan pelayanan kepada masyarakat dalam rangka terpeliharanya keamanan dalam negeri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Kepolisian Negara Republik Indonesia adalah Kepolisian Nasional yang merupakan satu kesatuan dalam melaksanakan peran sebagaimana dimaksud dalam ayat (1).</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>SUSUNAN DAN KEDUDUKAN KEPOLISIAN NEGARAREPUBLIK INDONESIA</heading>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <content><p>Kepolisian Negara Republik Indonesia dalam melaksanakan peran dan fungsi kepolisian sebagaimana dimaksud dalam Pasal 2 dan 5 meliputi seluruh wilayah negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam rangka pelaksanaan peran dan fungsi kepolisian, wilayah negara Republik Indonesia dibagi dalam daerah hukum menurut kepentingan pelaksanaan tugas Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai daerah hukum sebagaimana dimaksud dalam ayat (2) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+            <content><p>Susunan organisasi dan tata kerja Kepolisian Negara Republik Indonesia disesuaikan dengan kepentingan pelaksanaan tugas dan wewenangnya yang diatur lebih lanjut dengan Keputusan Presiden.</p></content>
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+              <paragraph eId="pasal_8__ayat_1">
+                <num>(1)</num>
+                <content><p>Kepolisian Negara Republik Indonesia berada di bawah Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2">
+                <num>(2)</num>
+                <content><p>Kepolisian Negara Republik Indonesia dipimpin oleh Kapolri yang dalam pelaksanaan tugasnya bertanggung jawab kepada Presiden sesuai dengan peraturan perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Kapolri menetapkan, menyelenggarakan, dan mengendalikan kebijakan teknis kepolisian.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <intro><p>Kapolri memimpin Kepolisian Negara Republik Indonesia dalam melaksanakan tugas dan tanggung jawab atas :</p></intro>
+                  <point eId="pasal_9__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>penyelenggaraan kegiatan operasional kepolisian dalam rangka pelaksanaan tugas Kepolisian Negara Republik Indonesia; dan</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>penyelenggaraan pembinaan kemampuan Kepolisian Negara Republik Indonesia.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <content><p>Pimpinan Kepolisian Negara Republik Indonesia di daerah hukum sebagaimana dimaksud dalam Pasal 6 ayat (2), bertanggung jawab atas pelaksanaan tugas dan wewenang kepolisian secara hierarki.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai tanggung jawab secara hierarki sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Kapolri diangkat dan diberhentikan oleh Presiden dengan persetujuan Dewan Perwakilan Rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <content><p>Usul pengangkatan dan pemberhentian Kapolri diajukan oleh Presiden kepada Dewan Perwakilan Rakyat disertai dengan alasannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_3">
+                <num>(3)</num>
+                <content><p>Persetujuan atau penolakan Dewan Perwakilan Rakyat terhadap usul Presiden sebagaimana dimaksud dalam ayat (2) harus diberikan dalam jangka waktu paling lambat 20 (dua puluh) hari terhitung sejak tanggal surat Presiden diterima oleh Dewan Perwakilan Rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal Dewan Perwakilan Rakyat tidak memberikan jawaban dalam waktu sebagaimana dimaksud dalam ayat (3), calon yang diajukan oleh Presiden dianggap disetujui oleh Dewan Perwakilan Rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_5">
+                <num>(5)</num>
+                <content><p>Dalam keadaan mendesak, Presiden dapat memberhentikan sementara Kapolri dan mengangkat pelaksana tugas Kapolri dan selanjutnya dimintakan persetujuan Dewan Perwakilan Rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_6">
+                <num>(6)</num>
+                <content><p>Calon Kapolri adalah Perwira Tinggi Kepolisian Negara Republik Indonesia yang masih aktif dengan memperhatikan jenjang kepangkatan dan karier.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_7">
+                <num>(7)</num>
+                <content><p>Tata cara pengusulan atas pengangkatan dan pemberhentian Kapolri sebagaimana dimaksud dalam ayat (1), (2), dan (6) diatur lebih lanjut dengan Keputusan Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_8">
+                <num>(8)</num>
+                <content><p>Ketentuan mengenai pengangkatan dan pemberhentian dalam jabatan selain yang dimaksud dalam ayat (1) diatur lebih lanjut dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Jabatan penyidik dan penyidik pembantu adalah jabatan fungsional yang pejabatnya diangkat dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <content><p>Jabatan fungsional lainnya di lingkungan Kepolisian Negara Republik Indonesia ditentukan dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>TUGAS DAN WEWENANG</heading>
+          <article eId="pasal_13">
+            <num>13</num>
+            <intro><p>Tugas pokok Kepolisian Negara Republik Indonesia adalah:</p></intro>
+              <point eId="pasal_13__huruf_a">
+                <num>a.</num>
+                <content><p>memelihara keamanan dan ketertiban masyarakat;</p></content>
+              </point>
+              <point eId="pasal_13__huruf_b">
+                <num>b.</num>
+                <content><p>menegakkan hukum; dan</p></content>
+              </point>
+              <point eId="pasal_13__huruf_c">
+                <num>c.</num>
+                <content><p>memberikan perlindungan, pengayoman, dan pelayanan kepada masyarakat.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam melaksanakan tugas pokok sebagaimana dimaksud dalam Pasal 13, Kepolisian Negara Republik Indonesia bertugas :</p></intro>
+                  <point eId="pasal_14__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>melaksanakan pengaturan, penjagaan, pengawalan, dan patroli terhadap kegiatan masyarakat dan pemerintah sesuai kebutuhan;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>menyelenggarakan segala kegiatan dalam menjamin keamanan, ketertiban, dan kelancaran lalu lintas di jalan;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>membina masyarakat untuk meningkatkan partisipasi masyarakat, kesadaran hukum masyarakat serta ketaatan warga masyarakat terhadap hukum dan peraturan perundang-undangan;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>turut serta dalam pembinaan hukum nasional;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>memelihara ketertiban dan menjamin keamanan umum;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>melakukan koordinasi, pengawasan, dan pembinaan teknis terhadap kepolisian khusus, penyidik pegawai negeri sipil, dan bentuk-bentuk pengamanan swakarsa;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>melakukan penyelidikan dan penyidikan terhadap semua tindak pidana sesuai dengan hukum acara pidana dan peraturan perundang-undangan lainnya;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>menyelenggarakan identifikasi kepolisian, kedokteran kepolisian, laboratorium forensik dan psikologi kepolisian untuk kepentingan tugas kepolisian;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>melindungi keselamatan jiwa raga, harta benda, masyarakat, dan lingkungan hidup dari gangguan ketertiban dan/atau bencana termasuk memberikan bantuan dan pertolongan dengan menjunjung tinggi hak asasi manusia;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_j">
+                    <num>j.</num>
+                    <content><p>melayani kepentingan warga masyarakat untuk sementara sebelum ditangani oleh instansi dan/atau pihak yang berwenang;</p></content>
+                  </point>
+                  <point eId="pasal_14__ayat_1__huruf_k">
+                    <num>k.</num>
+                    <content><p>memberikan pelayanan kepada masyarakat sesuai dengan kepentingannya dalam lingkup tugas kepolisian; sertal. melaksanakan tugas lain sesuai dengan peraturan perundang-undangan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Tata cara pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) huruf f diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+              <paragraph eId="pasal_15__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam rangka menyelenggarakan tugas sebagaimana dimaksud dalam Pasal 13 dan 14 Kepolisian Negara Republik Indonesia secara umum berwenang:</p></intro>
+                  <point eId="pasal_15__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>menerima laporan dan/atau pengaduan;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>membantu menyelesaikan perselisihan warga masyarakat yang dapat mengganggu ketertiban umum;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>mencegah dan menanggulangi tumbuhnya penyakit masyarakat;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>mengawasi aliran yang dapat menimbulkan perpecahan atau mengancam persatuan dan kesatuan bangsa;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>mengeluarkan peraturan kepolisian dalam lingkup kewenangan administratif kepolisian;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>melaksanakan pemeriksaan khusus sebagai bagian dari tindakan kepolisian dalam rangka pencegahan;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>melakukan tindakan pertama di tempat kejadian;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>mengambil sidik jari dan identitas lainnya serta memotret seseorang;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>mencari keterangan dan barang bukti;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_j">
+                    <num>j.</num>
+                    <content><p>menyelenggarakan Pusat Informasi Kriminal Nasional;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_k">
+                    <num>k.</num>
+                    <content><p>mengeluarkan surat izin dan/atau surat keterangan yang diperlukan dalam rangka pelayanan masyarakat;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_l">
+                    <num>l.</num>
+                    <content><p>memberikan bantuan pengamanan dalam sidang dan pelaksanaan putusan pengadilan, kegiatan instansi lain, serta kegiatan masyarakat;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_1__huruf_m">
+                    <num>m.</num>
+                    <content><p>menerima dan menyimpan barang temuan untuk sementara waktu.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_2">
+                <num>(2)</num>
+                <intro><p>Kepolisian Negara Republik Indonesia sesuai dengan peraturan perundang-undangan lainnya berwenang :</p></intro>
+                  <point eId="pasal_15__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>memberikan izin dan mengawasi kegiatan keramaian umum dan kegiatan masyarakat lainnya;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>menyelenggarakan registrasi dan identifikasi kendaraan bermotor;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>memberikan surat izin mengemudi kendaraan bermotor;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>menerima pemberitahuan tentang kegiatan politik;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>memberikan izin dan melakukan pengawasan senjata api, bahan peledak, dan senjata tajam;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>memberikan izin operasional dan melakukan pengawasan terhadap badan usaha di bidang jasa pengamanan;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>memberikan petunjuk, mendidik, dan melatih aparat kepolisian khusus dan petugas pengamanan swakarsa dalam bidang teknis kepolisian;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_h">
+                    <num>h.</num>
+                    <content><p>melakukan kerja sama dengan kepolisian negara lain dalam menyidik dan memberantas kejahatan internasional;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_i">
+                    <num>i.</num>
+                    <content><p>melakukan pengawasan fungsional kepolisian terhadap orang asing yang berada di wilayah Indonesia dengan koordinasi instansi terkait;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_j">
+                    <num>j.</num>
+                    <content><p>mewakili pemerintah Republik Indonesia dalam organisasi kepolisian internasional;</p></content>
+                  </point>
+                  <point eId="pasal_15__ayat_2__huruf_k">
+                    <num>k.</num>
+                    <content><p>melaksanakan kewenangan lain yang termasuk dalam lingkup tugas kepolisian.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_3">
+                <num>(3)</num>
+                <content><p>Tata cara pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (2) huruf a dan d diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_16">
+            <num>16</num>
+              <paragraph eId="pasal_16__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam rangka menyelenggarakan tugas sebagaimana dimaksud dalam Pasal 13 dan 14 di bidang proses pidana, Kepolisian Negara Republik Indonesia berwenang untuk :</p></intro>
+                  <point eId="pasal_16__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan penangkapan, penahanan, penggeledahan, dan penyitaan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>melarang setiap orang meninggalkan atau memasuki tempat kejadian perkara untuk kepentingan penyidikan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>membawa dan menghadapkan orang kepada penyidik dalam rangka penyidikan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>menyuruh berhenti orang yang dicurigai dan menanyakan serta memeriksa tanda pengenal diri;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan pemeriksaan dan penyitaan surat;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>memanggil orang untuk didengar dan diperiksa sebagai tersangka atau saksi;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>mendatangkan orang ahli yang diperlukan dalam hubungannya dengan pemeriksaan perkara;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>mengadakan penghentian penyidikan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>menyerahkan berkas perkara kepada penuntut umum;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_j">
+                    <num>j.</num>
+                    <content><p>mengajukan permintaan secara langsung kepada pejabat imigrasi yang berwenang di tempat pemeriksaan imigrasi dalam keadaan mendesak atau mendadak untuk mencegah atau menangkal orang yang disangka melakukan tindak pidana;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_k">
+                    <num>k.</num>
+                    <content><p>memberi petunjuk dan bantuan penyidikan kepada penyidik pegawai negeri sipil serta menerima hasil penyidikan penyidik pegawai negeri sipil untuk diserahkan kepada penuntut umum; dan</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_1__huruf_l">
+                    <num>l.</num>
+                    <content><p>mengadakan tindakan lain menurut hukum yang bertanggung jawab.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_2">
+                <num>(2)</num>
+                <intro><p>Tindakan lain sebagaimana dimaksud dalam ayat (1) huruf l adalah tindakan penyelidikan dan penyidikan yang dilaksanakan jika memenuhi syarat sebagai berikut :</p></intro>
+                  <point eId="pasal_16__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>tidak bertentangan dengan suatu aturan hukum;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>selaras dengan kewajiban hukum yang mengharuskan tindakan tersebut dilakukan;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>harus patut, masuk akal, dan termasuk dalam lingkungan jabatannya;</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pertimbangan yang layak berdasarkan keadaan yang memaksa; dan</p></content>
+                  </point>
+                  <point eId="pasal_16__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>menghormati hak asasi manusia.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+            <content><p>Pejabat Kepolisian Negara Republik Indonesia menjalankan tugas dan wewenangnya di seluruh wilayah negara Republik Indonesia, khususnya di daerah hukum pejabat yang bersangkutan ditugaskan sesuai dengan peraturan perundang-undangan.</p></content>
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+              <paragraph eId="pasal_18__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk kepentingan umum pejabat Kepolisian Negara Republik Indonesia dalam melaksanakan tugas dan wewenangnya dapat bertindak menurut penilaiannya sendiri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_18__ayat_2">
+                <num>(2)</num>
+                <content><p>Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) hanya dapat dilakukan dalam keadaan yang sangat perlu dengan memperhatikan peraturan perundang-undangan, serta Kode Etik Profesi Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+              <paragraph eId="pasal_19__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam melaksanakan tugas dan wewenangnya, pejabat Kepolisian Negara Republik Indonesia senantiasa bertindak berdasarkan norma hukum dan mengindahkan norma agama, kesopanan, kesusilaan, serta menjunjung tinggi hak asasi manusia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam melaksanakan tugas dan wewenang sebagaimana dimaksud dalam ayat (1), Kepolisian Negara Republik Indonesia mengutamakan tindakan pencegahan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>ANGGOTA KEPOLISIAN NEGARA REPUBLIK INDONESIA</heading>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pegawai Negeri pada Kepolisian Negara Republik Indonesia terdiri atas:</p></intro>
+                  <point eId="pasal_20__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>anggota Kepolisian Negara Republik Indonesia; dan</p></content>
+                  </point>
+                  <point eId="pasal_20__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pegawai Negeri Sipil.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Terhadap Pegawai Negeri Sipil sebagaimana dimaksud dalam ayat (1) huruf b berlaku ketentuan peraturan perundang-undangan di bidang kepegawaian.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_21">
+            <num>21</num>
+              <paragraph eId="pasal_21__ayat_1">
+                <num>(1)</num>
+                <intro><p>Untuk diangkat menjadi anggota Kepolisian Negara Republik Indonesia seorang calon harus memenuhi syarat sekurang-kurangnya sebagai berikut :</p></intro>
+                  <point eId="pasal_21__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>warga negara Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>beriman dan bertakwa kepada Tuhan Yang Maha Esa;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>setia kepada Negara Kesatuan Republik Indonesia berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>berpendidikan paling rendah Sekolah Menengah Umum atau yang sederajat;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>berumur paling rendah 18 (delapan belas) tahun;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>sehat jasmani dan rohani;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>tidak pernah dipidana karena melakukan suatu kejahatan;</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>berwibawa, jujur, adil, dan berkelakuan tidak tercela; dan</p></content>
+                  </point>
+                  <point eId="pasal_21__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>lulus pendidikan dan pelatihan pembentukan anggota kepolisian.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai pembinaan anggota Kepolisian Negara Republik Indonesia diatur lebih lanjut dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_22">
+            <num>22</num>
+              <paragraph eId="pasal_22__ayat_1">
+                <num>(1)</num>
+                <content><p>Sebelum diangkat sebagai anggota Kepolisian Negara Republik Indonesia, seorang calon anggota yang telah lulus pendidikan pembentukan wajib mengucapkan sumpah atau janji menurut agamanya dan kepercayaannya itu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_22__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai tata cara pengambilan sumpah atau janji sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_23">
+            <num>23</num>
+            <content><p>Lafal sumpah atau janji sebagaimana diatur dalam Pasal 22 adalah sebagai berikut : "Demi Allah, saya bersumpah/berjanji : bahwa saya, untuk diangkat menjadi anggota Kepolisian Negara Republik Indonesia, akan setia dan taat sepenuhnya kepada Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Tri Brata, Catur Prasatya, dan Negara Kesatuan Republik Indonesia serta Pemerintah yang sah; bahwa saya, akan menaati segala peraturan perundang-undangan yang berlaku dan melaksanakan kedinasan di Kepolisian Negara Republik Indonesia yang dipercayakan kepada saya dengan penuh pengabdian, kesadaran, dan tanggung jawab; bahwa saya, akan senantiasa menjunjung tinggi kehormatan negara, Pemerintah, dan martabat anggota Kepolisian Negara Republik Indonesia, serta akan senantiasa mengutamakan kepentingan masyarakat, bangsa, dan negara daripada kepentingan saya sendiri, seseorang atau golongan; bahwa saya, akan memegang rahasia sesuatu yang menurut sifatnya atau menurut perintah harus saya rahasiakan; bahwa saya, akan bekerja dengan jujur, tertib, cermat dan bersemangat untuk kepentingan bangsa dan Negara Kesatuan Republik Indonesia dan tidak akan menerima pemberian berupa hadiah dan/atau janji-janji baik langsung maupun tidak langsung yang ada kaitannya dengan pekerjaan saya".</p></content>
+          </article>
+          <article eId="pasal_24">
+            <num>24</num>
+              <paragraph eId="pasal_24__ayat_1">
+                <num>(1)</num>
+                <content><p>Anggota Kepolisian Negara Republik Indonesia menjalani dinas keanggotaan dengan ikatan dinas.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai ikatan dinas sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Keputusan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_25">
+            <num>25</num>
+              <paragraph eId="pasal_25__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap anggota Kepolisian Negara Republik Indonesia diberi pangkat yang mencerminkan peran, fungsi dan kemampuan, serta sebagai keabsahan wewenang dan tanggung jawab dalam penugasannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai susunan, sebutan, dan keselarasan pangkat-pangkat sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_26">
+            <num>26</num>
+              <paragraph eId="pasal_26__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap anggota Kepolisian Negara Republik Indonesia memperoleh gaji dan hak-hak lainnya yang adil dan layak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_26__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai gaji dan hak-hak lainnya sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk membina persatuan dan kesatuan serta meningkatkan semangat kerja dan moril, diadakan peraturan disiplin anggota Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai peraturan disiplin sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_28">
+            <num>28</num>
+              <paragraph eId="pasal_28__ayat_1">
+                <num>(1)</num>
+                <content><p>Kepolisian Negara Republik Indonesia bersikap netral dalam kehidupan politik dan tidak melibatkan diri pada kegiatan politik praktis.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_2">
+                <num>(2)</num>
+                <content><p>Anggota Kepolisian Negara Republik Indonesia tidak menggunakan hak memilih dan dipilih.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_3">
+                <num>(3)</num>
+                <content><p>Anggota Kepolisian Negara Republik Indonesia dapat menduduki jabatan di luar kepolisian setelah mengundurkan diri atau pensiun dari dinas kepolisian.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_29">
+            <num>29</num>
+              <paragraph eId="pasal_29__ayat_1">
+                <num>(1)</num>
+                <content><p>Anggota Kepolisian Negara Republik Indonesia tunduk pada kekuasaan peradilan umum.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_30">
+            <num>30</num>
+              <paragraph eId="pasal_30__ayat_1">
+                <num>(1)</num>
+                <content><p>Anggota Kepolisian Negara Republik Indonesia dapat diberhentikan dengan hormat atau tidak dengan hormat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_2">
+                <num>(2)</num>
+                <content><p>Usia pensiun maksimum anggota Kepolisian Negara Republik Indonesia 58 (lima puluh delapan) tahun dan bagi anggota yang memiliki keahlian khusus dan sangat dibutuhkan dalam tugas kepolisian dapat dipertahankan sampai dengan 60 (enam puluh) tahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_30__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) dan (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PEMBINAAN PROFESI</heading>
+          <article eId="pasal_31">
+            <num>31</num>
+            <content><p>Pejabat Kepolisian Negara Republik Indonesia dalam melaksanakan tugas dan wewenangnya harus memiliki kemampuan profesi.</p></content>
+          </article>
+          <article eId="pasal_32">
+            <num>32</num>
+              <paragraph eId="pasal_32__ayat_1">
+                <num>(1)</num>
+                <content><p>Pembinaan kemampuan profesi pejabat Kepolisian Negara Republik Indonesia diselenggarakan melalui pembinaan etika profesi dan pengembangan pengetahuan serta pengalamannya di bidang teknis kepolisian melalui pendidikan, pelatihan, dan penugasan secara berjenjang dan berlanjut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_32__ayat_2">
+                <num>(2)</num>
+                <content><p>Pembinaan kemampuan profesi sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_33">
+            <num>33</num>
+            <content><p>Guna menunjang pembinaan profesi sebagaimana dimaksud dalam Pasal 32 dilakukan pengkajian, penelitian, serta pengembangan ilmu dan teknologi kepolisian.</p></content>
+          </article>
+          <article eId="pasal_34">
+            <num>34</num>
+              <paragraph eId="pasal_34__ayat_1">
+                <num>(1)</num>
+                <content><p>Sikap dan perilaku pejabat Kepolisian Negara Republik Indonesia terikat pada Kode Etik Profesi Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_2">
+                <num>(2)</num>
+                <content><p>Kode Etik Profesi Kepolisian Negara Republik Indonesia dapat menjadi pedoman bagi pengemban fungsi kepolisian lainnya dalam melaksanakan tugas sesuai dengan peraturan perundang-undangan yang berlaku di lingkungannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai Kode Etik Profesi Kepolisian Negara Republik Indonesia diatur dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_35">
+            <num>35</num>
+              <paragraph eId="pasal_35__ayat_1">
+                <num>(1)</num>
+                <content><p>Pelanggaran terhadap Kode Etik Profesi Kepolisian Negara Republik Indonesia oleh pejabat Kepolisian Negara Republik Indonesia diselesaikan oleh Komisi Kode Etik Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_35__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai susunan organisasi dan tata kerja Komisi Kode Etik Kepolisian Negara Republik Indonesia diatur dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_36">
+            <num>36</num>
+              <paragraph eId="pasal_36__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap pejabat Kepolisian Negara Republik Indonesia dan pengemban fungsi kepolisian lainnya wajib menunjukkan tanda pengenal sebagai keabsahan wewenang dan tanggung jawab dalam mengemban fungsinya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai bentuk, ukuran, pengeluaran, pemakaian, dan penggunaan tanda pengenal sebagaimana dimaksud dalam ayat (1) diatur dengan Keputusan Kapolri.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>LEMBAGA KEPOLISIAN NASIONAL</heading>
+          <article eId="pasal_37">
+            <num>37</num>
+              <paragraph eId="pasal_37__ayat_1">
+                <num>(1)</num>
+                <content><p>Lembaga kepolisian nasional yang disebut dengan Komisi Kepolisian Nasional berkedudukan di bawah dan bertanggung jawab kepada Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_2">
+                <num>(2)</num>
+                <content><p>Komisi Kepolisian Nasional sebagaimana dimaksud dalam ayat (1) dibentuk dengan Keputusan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_38">
+            <num>38</num>
+              <paragraph eId="pasal_38__ayat_1">
+                <num>(1)</num>
+                <intro><p>Komisi Kepolisian Nasional bertugas :</p></intro>
+                  <point eId="pasal_38__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>membantu Presiden dalam menetapkan arah kebijakan Kepolisian Negara Republik Indonesia; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberikan pertimbangan kepada Presiden dalam pengangkatan dan pemberhentian Kapolri.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_2">
+                <num>(2)</num>
+                <intro><p>Dalam melaksanakan tugas sebagaimana dimaksud dalam ayat (1), Komisi Kepolisian Nasional berwenang untuk :</p></intro>
+                  <point eId="pasal_38__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>mengumpulkan dan menganalisis data sebagai bahan pemberian saran kepada Presiden yang berkaitan dengan anggaran Kepolisian Negara Republik Indonesia, pengembangan sumber daya manusia Kepolisian Negara Republik Indonesia, dan pengembangan sarana dan prasarana Kepolisian Negara Republik Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberikan saran dan pertimbangan lain kepada Presiden dalam upaya mewujudkan Kepolisian Negara Republik Indonesia yang profesional dan mandiri; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>menerima saran dan keluhan dari masyarakat mengenai kinerja kepolisian dan menyampaikannya kepada Presiden.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_39">
+            <num>39</num>
+              <paragraph eId="pasal_39__ayat_1">
+                <num>(1)</num>
+                <content><p>Keanggotaan Komisi Kepolisian Nasional terdiri atas seorang Ketua merangkap anggota, seorang Wakil Ketua merangkap anggota, seorang Sekretaris merangkap anggota dan 6 (enam) orang anggota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_2">
+                <num>(2)</num>
+                <content><p>Keanggotaan sebagaimana dimaksud dalam ayat (1) berasal dari unsur-unsur pemerintah, pakar kepolisian, dan tokoh masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai susunan organisasi, tata kerja, pengangkatan dan pemberhentian anggota Komisi Kepolisian Nasional diatur dengan Keputusan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_40">
+            <num>40</num>
+            <content><p>Segala pembiayaan yang diperlukan untuk mendukung pelaksanaan tugas Komisi Kepolisian Nasional dibebankan pada Anggaran Pendapatan dan Belanja Negara.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>BANTUAN, HUBUNGAN, DAN KERJA SAMA</heading>
+          <article eId="pasal_41">
+            <num>41</num>
+              <paragraph eId="pasal_41__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam rangka melaksanakan tugas keamanan, Kepolisian Negara Republik Indonesia dapat meminta bantuan Tentara Nasional Indonesia yang diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam keadaan darurat militer dan keadaan perang, Kepolisian Negara Republik Indonesia memberikan bantuan kepada Tentara Nasional Indonesia sesuai dengan peraturan perundangan-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_41__ayat_3">
+                <num>(3)</num>
+                <content><p>Kepolisian Negara Republik Indonesia membantu secara aktif tugas pemeliharaan perdamaian dunia di bawah bendera Perserikatan Bangsa-Bangsa.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_42">
+            <num>42</num>
+              <paragraph eId="pasal_42__ayat_1">
+                <num>(1)</num>
+                <content><p>Hubungan dan kerja sama Kepolisian Negara Republik Indonesia dengan badan, lembaga, serta instansi di dalam dan di luar negeri didasarkan atas sendi-sendi hubungan fungsional, saling menghormati, saling membantu, mengutamakan kepentingan umum, serta memperhatikan hierarki.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_2">
+                <num>(2)</num>
+                <content><p>Hubungan dan kerja sama di dalam negeri dilakukan terutama dengan unsur-unsur pemerintah daerah, penegak hukum, badan, lembaga, instansi lain, serta masyarakat dengan mengembangkan asas partisipasi dan subsidiaritas.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_3">
+                <num>(3)</num>
+                <content><p>Hubungan dan kerja sama luar negeri dilakukan terutama dengan badan-badan kepolisian dan penegak hukum lain melalui kerja sama bilateral atau multilateral dan badan pencegahan kejahatan baik dalam rangka tugas operasional maupun kerja sama teknik dan pendidikan serta pelatihan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_4">
+                <num>(4)</num>
+                <content><p>Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1), (2), dan (3) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_43">
+            <num>43</num>
+            <intro><p>Pada saat Undang-Undang ini mulai berlaku :</p></intro>
+              <point eId="pasal_43__huruf_a">
+                <num>a.</num>
+                <content><p>semua peraturan perundang-undangan yang merupakan pelaksanaan mengenai Kepolisian Negara Republik Indonesia dinyatakan tetap berlaku sepanjang tidak bertentangan dengan Undang-Undang ini.</p></content>
+              </point>
+              <point eId="pasal_43__huruf_b">
+                <num>b.</num>
+                <content><p>tindak pidana yang dilakukan oleh anggota Kepolisian Negara Republik Indonesia yang sedang diperiksa baik di tingkat penyidikan maupun pemeriksaan di pengadilan militer dan belum mendapat putusan pengadilan yang mempunyai kekuatan hukum tetap berlaku ketentuan peraturan perundang-undangan peradilan militer.</p></content>
+              </point>
+              <point eId="pasal_43__huruf_c">
+                <num>c.</num>
+                <content><p>tindak pidana yang dilakukan oleh anggota Kepolisian Negara Republik Indonesia yang belum diperiksa baik di tingkat penyidikan maupun pemeriksaan di pengadilan militer berlaku ketentuan peraturan perundang-undangan di lingkungan peradilan umum.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_44">
+            <num>44</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, Undang-Undang Nomor 28 Tahun 1997 tentang Kepolisian Negara Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1997 Nomor 81, Tambahan Lembaran Negara Republik Indonesia Nomor 3710) dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_45">
+            <num>45</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>
