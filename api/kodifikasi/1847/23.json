@@ -38,7 +38,7 @@
   "bahasa_tampilan": "id",
   "kelompok": "perdata-keluarga"
  },
- "dihasilkan": "2026-09-15T14:03:15.083Z",
+ "dihasilkan": "2026-09-15T14:52:37.730Z",
  "timeline": [
   {
    "tanggal": "1848-05-01",
@@ -9569,8 +9569,9 @@
        "id": "pasal-743",
        "tipe": "pasal",
        "nomor": "743",
-       "verifikasi": "pdf-resmi",
-       "teks": "Demikan pula tidak ada yang harus diserahkan, bila tanaman gandum dipotong sebelum waktunya.",
+       "verifikasi": "pdf-ocr",
+       "teks": "Demikian pula tidak ada yang harus diserahkan, bila tanaman gandum dipotong sebelum waktunya.",
+       "catatan_kurasi": "Cacat EKSTRAKSI, bukan cacat cetak: citra halaman 140 berkas MA berbunyi \"Demikian pula\", sedangkan pdftotext menghasilkan \"Demikan\". Naskah dipulihkan sesuai citra.",
        "sumber": "kuhperdata-1847",
        "berlaku_mulai": "1848-05-01"
       },
@@ -25084,8 +25085,8 @@
  },
  "keandalan": {
   "total": 2497,
-  "pdf-resmi": 2479,
-  "pdf-ocr": 18,
+  "pdf-resmi": 2478,
+  "pdf-ocr": 19,
   "draf": 0,
   "lainnya": 0
  },
