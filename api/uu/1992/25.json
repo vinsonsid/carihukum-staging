@@ -42,7 +42,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-17T13:36:03.538Z",
+ "dihasilkan": "2026-09-17T13:51:08.403Z",
  "timeline": [
   {
    "tanggal": "1992-10-21",
@@ -64,7 +64,8 @@
     {
      "instruksi": "Di antara Pasal44 dan Pasal 45 disisipkan I (satu) pasal, yakni Pasal 44A sehingga berbunyi sebagai berikut:",
      "unit": "pasal-45"
-    }
+    },
+    "butir 2: Penjelasan Pasal 17 diubah sebagaimana tercantum dalam penjelasan (audit instruksi 17 Sep 2026 — tercetak di naskah, belum dienkode)"
    ],
    "status_kurasi": "draf",
    "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Di antara Pasal44 dan Pasal 45 disisipkan I (satu) pasal, yakni Pasal 44A sehing"
@@ -75,10 +76,10 @@
    "tipe": "perubahan",
    "pelaku": "uu-2023-6",
    "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-   "jumlah_operasi": 6,
+   "jumlah_operasi": 7,
    "operasi_belum_dienkode": [],
    "status_kurasi": "terverifikasi",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan.  Reparasi kurasi 2026-09-02: galat OCR salinan LN dibersihkan (2Oo/o->20%, Berrrsaha->Berusaha, pembangunzrn->pembangunan, persyaratanekologis dipisah, nomor ayat (2')); unit tersebut ditandai pdf-ocr."
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan.  Reparasi kurasi 2026-09-02: galat OCR salinan LN dibersihkan (2Oo/o->20%, Berrrsaha->Berusaha, pembangunzrn->pembangunan, persyaratanekologis dipisah, nomor ayat (2')); unit tersebut ditandai pdf-ocr. Audit instruksi 17 Sep 2026: 6 butir di naskah, satu (butir 2, Penjelasan Pasal 17) semula tak terenkode — kini ditambahkan verbatim."
   }
  ],
  "peringatan": [],
@@ -3327,7 +3328,15 @@
    "berlaku_mulai": "1992-10-21"
   }
  ],
- "penjelasan_efektif": null,
+ "penjelasan_efektif": {
+  "17": {
+   "teks": "Ayat (1)\nSebagai pemilik dan pengguna jasa Koperasi, anggota berpartisipasi aktif dalam kegiatan Koperasi. Sekalipun demikian, sepanjang tidak merugikan kepentingannya, Koperasi dapat pula memberikan pelayanan kepada bukan anggota sesuai dengan sifat kegiatan usahanya, dengan maksud untuk menarik yang bukan anggota menjadi anggota Koperasi.\nAyat (2)\nBuku daftar anggota Koperasi dapat berbentuk dokumen tertulis atau dokumen elektronik.",
+   "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
+   "pelaku": "uu-2023-6",
+   "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+   "tanggal": "2023-03-31"
+  }
+ },
  "bukti": {
   "tingkat": 3,
   "penerbit": "Badan Pemeriksa Keuangan (peraturan.bpk.go.id)",
