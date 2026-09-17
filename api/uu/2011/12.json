@@ -78,7 +78,7 @@
   "tahap": "terverifikasi",
   "kelompok": "pembentukan-peraturan"
  },
- "dihasilkan": "2026-09-17T14:02:02.993Z",
+ "dihasilkan": "2026-09-17T14:14:51.324Z",
  "timeline": [
   {
    "tanggal": "2011-08-12",
@@ -107,11 +107,9 @@
    "pelaku": "uu-2022-13",
    "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
    "jumlah_operasi": 34,
-   "operasi_belum_dienkode": [
-    "butir 3: Setelah Bagian Keenam Bab IV ditambahkan 1 (satu) bagian, yakni Bagian Ketujuh (audit instruksi 17 Sep 2026 — tercetak di naskah, belum dienkode)"
-   ],
-   "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): Ketentuan huruf D Bab II sebagaimana tercantum dalam Lampiran I Undang-Undang No | Ketentuan angka 2, angka 3, angka 4, angka 5, angka 6, angka 7, ang)<a 9, angka "
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "terverifikasi",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (2): Ketentuan huruf D Bab II sebagaimana tercantum dalam Lampiran I Undang-Undang No | Ketentuan angka 2, angka 3, angka 4, angka 5, angka 6, angka 7, ang)<a 9, angka Audit instruksi 17 Sep 2026: 16 instruksi Pasal I terwakili penuh — Bagian Ketujuh Bab IV yang semula hilang kini disisipkan beserta Pasal 42A di dalamnya (semula Pasal 42A duduk di Bagian Keenam), dan laporan 'Fenjelasan Pasal 78 hilang' terbukti alarm palsu OCR sebab operasinya sudah ada. Seluruh 60 unit pdf-resmi, 0 sisa belum-dienkode. Naik dari draf ke terverifikasi."
   },
   {
    "tanggal": "2026-01-02",
@@ -2417,29 +2415,39 @@
        ],
        "sumber": "uu-2011-12",
        "berlaku_mulai": "2011-08-12"
-      },
+      }
+     ],
+     "sumber": "uu-2011-12",
+     "berlaku_mulai": "2011-08-12"
+    },
+    {
+     "id": "bab-4/bagian-ketujuh",
+     "tipe": "bagian",
+     "nomor": "Ketujuh",
+     "judul": "Perencanaan Peraturan Perundang-undangan yang menggunakan Metode Omnibus",
+     "anak": [
       {
        "id": "pasal-42a",
        "tipe": "pasal",
        "nomor": "42A",
        "teks": "Penggunaan metode omnibus dalam penyusunan suatu Rancangan Peraturan Perundang-undangan harus ditetapkan dalam dokumen perencanaan.",
        "verifikasi": "pdf-resmi",
-       "riwayat": [
-        {
-         "aksi": "disisipkan",
-         "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
-         "pelaku": "uu-2022-13",
-         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
-         "tanggal": "2022-06-16",
-         "catatan": "Di antara Pasal 42 dan Pasal 43 disisipkan I (satu) pasal, yakni Pasal 42A sehingga berbunyi sebagai berikut:"
-        }
-       ],
        "sumber": "uu-2022-13",
        "berlaku_mulai": "2022-06-16"
       }
      ],
-     "sumber": "uu-2011-12",
-     "berlaku_mulai": "2011-08-12"
+     "riwayat": [
+      {
+       "aksi": "disisipkan",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "catatan": "3. Setelah Bagian Keenam Bab IV ditambahkan 1 (satu) bagian, yakni Bagian Ketujuh; 4. Di antara Pasal 42 dan Pasal 43 disisipkan 1 (satu) pasal, yakni Pasal 42A. Ditemukan pada audit instruksi 17 Sep 2026 (tools/audit-instruksi.py) sebagai instruksi yang tercetak di naskah tetapi tak terenkode. Kedua instruksi disatukan karena Pasal 42A adalah ISI Bagian Ketujuh: semula hanya butir 4 yang terenkode, sehingga Pasal 42A duduk di Bagian Keenam (Perencanaan Peraturan Perundang-undangan Lainnya) — bagian yang keliru. Judul bagian verbatim dari naskah (kepala 'Bagran Ketujuh' adalah cacat OCR pada kata 'Bagian', bukan bagian dari judul)."
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
     }
    ],
    "sumber": "uu-2011-12",

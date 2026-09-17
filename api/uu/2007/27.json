@@ -40,7 +40,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-17T14:02:02.858Z",
+ "dihasilkan": "2026-09-17T14:14:51.149Z",
  "timeline": [
   {
    "tanggal": "2007-07-17",
@@ -115,21 +115,10 @@
    "tipe": "perubahan",
    "pelaku": "perppu-2022-2",
    "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
-   "jumlah_operasi": 12,
-   "operasi_belum_dienkode": [
-    {
-     "instruksi": "instruksi nomor 18 tak dikenali polanya: 18. Dihapus."
-    },
-    {
-     "instruksi": "instruksi nomor 11 tak dikenali polanya: 11. Zona adalah rlrang yang penggunaannya"
-    },
-    {
-     "instruksi": "Ketentuan ."
-    },
-    "butir 11: Judul Bagian Kesatu pada Bab V diubah (audit instruksi 17 Sep 2026 — tercetak di naskah, belum dienkode)"
-   ],
+   "jumlah_operasi": 13,
+   "operasi_belum_dienkode": [],
    "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (3): instruksi nomor 18 tak dikenali polanya: 18. Dihapus. | instruksi nomor 11 tak dikenali polanya: 11. Zona adalah rlrang yang penggunaann | Ketentuan ."
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (3): instruksi nomor 18 tak dikenali polanya: 18. Dihapus. | instruksi nomor 11 tak dikenali polanya: 11. Zona adalah rlrang yang penggunaann | Ketentuan . Audit instruksi 17 Sep 2026: tiga entri belum-dienkode warisan parser dibuang karena terbukti BUKAN instruksi — '11. Zona adalah ruang…' dan '18. Dihapus.'/'18A Dihapus.' adalah butir definisi di dalam muatan pengganti Pasal 1 (angka 11, 18, 18A), sedangkan '+Ketentuan .' adalah penggalan kata-tangkap kaki halaman. Butir 11 yang SEBENARNYA (Judul Bagian Kesatu Bab V) kini terenkode. Seluruh 11 instruksi Pasal I segmen ini terwakili; peringatan 'belum dienkode' yang keliru dicabut. Peristiwa tetap draf karena unit teksnya belum diverifikasi terhadap arsip."
   },
   {
    "tanggal": "2023-03-31",
@@ -137,21 +126,10 @@
    "tipe": "perubahan",
    "pelaku": "uu-2023-6",
    "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-   "jumlah_operasi": 12,
-   "operasi_belum_dienkode": [
-    {
-     "instruksi": "instruksi nomor 18 tak dikenali polanya: 18. Dihapus."
-    },
-    {
-     "instruksi": "instruksi nomor 11 tak dikenali polanya: 11. Zona adalah ruang yang penggunaannya"
-    },
-    {
-     "instruksi": "Ketentuan ."
-    },
-    "butir 11: Judul Bagian Kesatu pada Bab V diubah (audit instruksi 17 Sep 2026 — tercetak di naskah, belum dienkode)"
-   ],
+   "jumlah_operasi": 13,
+   "operasi_belum_dienkode": [],
    "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (3): instruksi nomor 18 tak dikenali polanya: 18. Dihapus. | instruksi nomor 11 tak dikenali polanya: 11. Zona adalah ruang yang penggunaanny | Ketentuan ."
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (3): instruksi nomor 18 tak dikenali polanya: 18. Dihapus. | instruksi nomor 11 tak dikenali polanya: 11. Zona adalah ruang yang penggunaanny | Ketentuan . Audit instruksi 17 Sep 2026: tiga entri belum-dienkode warisan parser dibuang karena terbukti BUKAN instruksi — '11. Zona adalah ruang…' dan '18. Dihapus.'/'18A Dihapus.' adalah butir definisi di dalam muatan pengganti Pasal 1 (angka 11, 18, 18A), sedangkan '+Ketentuan .' adalah penggalan kata-tangkap kaki halaman. Butir 11 yang SEBENARNYA (Judul Bagian Kesatu Bab V) kini terenkode. Seluruh 11 instruksi Pasal I segmen ini terwakili; peringatan 'belum dienkode' yang keliru dicabut. Peristiwa tetap draf karena unit teksnya belum diverifikasi terhadap arsip."
   }
  ],
  "peringatan": [],
@@ -3444,7 +3422,7 @@
      "id": "bab-5/bagian-kesatu",
      "tipe": "bagian",
      "nomor": "Kesatu",
-     "judul": "Hak Pengusahaan Perairan Pesisir",
+     "judul": "Kesesuaian Kegiatan Pemanfaatan Ruang Laut dan Perizinan Berusaha",
      "anak": [
       {
        "id": "pasal-16",
@@ -4151,8 +4129,34 @@
        "berlaku_mulai": "2020-11-02"
       }
      ],
-     "sumber": "uu-2007-27",
-     "berlaku_mulai": "2007-07-17"
+     "sumber": "uu-2023-6",
+     "berlaku_mulai": "2023-03-31",
+     "riwayat": [
+      {
+       "aksi": "judul diganti",
+       "peristiwa": "perppu-2022-2/amandemen-uu-2007-27",
+       "pelaku": "perppu-2022-2",
+       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+       "tanggal": "2022-12-30",
+       "catatan": "11. Judul Bagian Kesatu pada Bab V diubah sehingga berbunyi sebagai berikut: Bagian Kesatu — Kesesuaian Kegiatan Pemanfaatan Ruang Laut dan Perizinan Berusaha. Ditemukan pada audit instruksi 17 Sep 2026 (tools/audit-instruksi.py) sebagai instruksi yang tercetak di naskah tetapi tak terenkode. Spasi yang hilang di naskah sumber ('danPerizinan') dipulihkan; itu cacat tata letak OCR pada JUDUL, bukan perubahan bunyi.",
+       "sebelum": {
+        "judul": "Hak Pengusahaan Perairan Pesisir",
+        "nomor": "Kesatu"
+       }
+      },
+      {
+       "aksi": "judul diganti",
+       "peristiwa": "uu-2023-6/amandemen-uu-2007-27",
+       "pelaku": "uu-2023-6",
+       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+       "tanggal": "2023-03-31",
+       "catatan": "11. Judul Bagian Kesatu pada Bab V diubah sehingga berbunyi sebagai berikut: Bagian Kesatu — Kesesuaian Kegiatan Pemanfaatan Ruang Laut dan Perizinan Berusaha. Ditemukan pada audit instruksi 17 Sep 2026 (tools/audit-instruksi.py) sebagai instruksi yang tercetak di naskah tetapi tak terenkode. Spasi yang hilang di naskah sumber ('danPerizinan') dipulihkan; itu cacat tata letak OCR pada JUDUL, bukan perubahan bunyi.",
+       "sebelum": {
+        "judul": "Kesesuaian Kegiatan Pemanfaatan Ruang Laut dan Perizinan Berusaha",
+        "nomor": "Kesatu"
+       }
+      }
+     ]
     },
     {
      "id": "bab-5/bagian-kedua",
