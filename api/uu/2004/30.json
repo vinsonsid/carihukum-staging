@@ -70,7 +70,7 @@
   ],
   "kelompok": "kenotariatan"
  },
- "dihasilkan": "2026-09-17T08:17:59.413Z",
+ "dihasilkan": "2026-09-17T13:23:29.507Z",
  "timeline": [
   {
    "tanggal": "2004-10-06",
@@ -87,10 +87,10 @@
    "tipe": "perubahan",
    "pelaku": "uu-2014-2",
    "judul_pelaku": "Perubahan atas Undang-Undang Nomor 30 Tahun 2004 Tentang Jabatan Notaris",
-   "jumlah_operasi": 84,
+   "jumlah_operasi": 86,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
+   "status_kurasi": "terverifikasi",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. Audit rantai 17 Sep 2026: 44 instruksi Pasal I dicocokkan satu per satu dengan naskah — 42 sudah terenkode parser, 2 instruksi perubahan judul (nomor 14 dan 34) yang semula hilang tanpa jejak ditambahkan manual verbatim; seluruh 285 unit teks pdf-resmi (0 beda, 0 tidak ditemukan), tidak ada sisa belum-dienkode. Naik dari draf ke terverifikasi."
   }
  ],
  "peringatan": [],
@@ -3333,7 +3333,7 @@
      "id": "bab-5/bagian-kedua",
      "tipe": "bagian",
      "nomor": "Kedua",
-     "judul": "Notaris Pengganti, Notaris Pengganti Khusus, dan Pejabat Sementara Notaris",
+     "judul": "Notaris Pengganti dan Pejabat Sementara Notaris",
      "anak": [
       {
        "id": "pasal-33",
@@ -3568,8 +3568,22 @@
        "berlaku_mulai": "2014-01-15"
       }
      ],
-     "sumber": "uu-2004-30",
-     "berlaku_mulai": "2004-10-06"
+     "sumber": "uu-2014-2",
+     "berlaku_mulai": "2014-01-15",
+     "riwayat": [
+      {
+       "aksi": "judul diganti",
+       "peristiwa": "uu-2014-2/amandemen-uu-2004-30",
+       "pelaku": "uu-2014-2",
+       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 30 Tahun 2004 Tentang Jabatan Notaris",
+       "tanggal": "2014-01-15",
+       "catatan": "14. Judul Bagian Kedua BAB V diubah sehingga berbunyi sebagai berikut: Bagian Kedua — Notaris Pengganti dan Pejabat Sementara Notaris. Ditambahkan manual 17 Sep 2026 (audit rantai UUJN): parser-perubahan tidak mengenali instruksi ini — nomor 14 tertukar dengan butir '14. Menteri adalah …' di dalam kutipan Pasal 1, nomor 34 tertulis 'Judul Bab VIII' (bukan 'BAB'). Judul disalin verbatim dari raw/teks/uu-2014-2.txt baris 548–552.",
+       "sebelum": {
+        "judul": "Notaris Pengganti, Notaris Pengganti Khusus, dan Pejabat Sementara Notaris",
+        "nomor": "Kedua"
+       }
+      }
+     ]
     }
    ],
    "sumber": "uu-2004-30",
@@ -6116,7 +6130,7 @@
    "id": "bab-8",
    "tipe": "bab",
    "nomor": "VIII",
-   "judul": "PENGAMBILAN MINUTA AKTA DAN PEMANGGILAN NOTARIS",
+   "judul": "PENGAMBILAN FOTOKOPI MINUTA AKTA DAN PEMANGGILAN NOTARIS",
    "anak": [
     {
      "id": "pasal-66",
@@ -6316,8 +6330,22 @@
      "berlaku_mulai": "2014-01-15"
     }
    ],
-   "sumber": "uu-2004-30",
-   "berlaku_mulai": "2004-10-06"
+   "sumber": "uu-2014-2",
+   "berlaku_mulai": "2014-01-15",
+   "riwayat": [
+    {
+     "aksi": "judul diganti",
+     "peristiwa": "uu-2014-2/amandemen-uu-2004-30",
+     "pelaku": "uu-2014-2",
+     "judul_pelaku": "Perubahan atas Undang-Undang Nomor 30 Tahun 2004 Tentang Jabatan Notaris",
+     "tanggal": "2014-01-15",
+     "catatan": "34. Judul Bab VIII diubah sehingga berbunyi sebagai berikut: BAB VIII — PENGAMBILAN FOTOKOPI MINUTA AKTA DAN PEMANGGILAN NOTARIS. Ditambahkan manual 17 Sep 2026 (audit rantai UUJN): parser-perubahan tidak mengenali instruksi ini — nomor 14 tertukar dengan butir '14. Menteri adalah …' di dalam kutipan Pasal 1, nomor 34 tertulis 'Judul Bab VIII' (bukan 'BAB'). Judul disalin verbatim dari raw/teks/uu-2014-2.txt baris 997–1002.",
+     "sebelum": {
+      "judul": "PENGAMBILAN MINUTA AKTA DAN PEMANGGILAN NOTARIS",
+      "nomor": "VIII"
+     }
+    }
+   ]
   },
   {
    "id": "bab-9",
