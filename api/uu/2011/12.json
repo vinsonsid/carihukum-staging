@@ -78,7 +78,7 @@
   "tahap": "terverifikasi",
   "kelompok": "pembentukan-peraturan"
  },
- "dihasilkan": "2026-09-17T13:23:29.635Z",
+ "dihasilkan": "2026-09-17T13:36:03.847Z",
  "timeline": [
   {
    "tanggal": "2011-08-12",
@@ -97,8 +97,8 @@
    "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
    "jumlah_operasi": 30,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Ketentuan Pasal 72 tetap, Penjelasan Pasal 72 diubah sebagaimana tercantum dalam"
+   "status_kurasi": "terverifikasi",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. Audit rantai 17 Sep 2026 (instruksi naskah dicocokkan satu per satu dengan operasi): 18 instruksi Pasal I — BAB XA dan BAB XIIA yang dibuang parser sebagai 'muatan kosong' dipulihkan sebagai insert_bab_after dengan Pasal 95A/95B dan 99A di dalamnya; Penjelasan Pasal 72 (instruksi 12) yang dulu gagal urai ditambahkan sebagai replace_penjelasan. Seluruh unit pdf-resmi; 0 sisa belum-dienkode. Naik dari draf ke terverifikasi."
   },
   {
    "tanggal": "2022-06-16",
@@ -5226,191 +5226,6 @@
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2011-12",
        "berlaku_mulai": "2011-08-12"
-      },
-      {
-       "id": "pasal-95a",
-       "tipe": "pasal",
-       "nomor": "95A",
-       "anak": [
-        {
-         "id": "pasal-95a/ayat-1",
-         "tipe": "ayat",
-         "nomor": "(1)",
-         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilakukan setelah Undang-Undang berlaku.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2022-13",
-         "berlaku_mulai": "2022-06-16"
-        },
-        {
-         "id": "pasal-95a/ayat-2",
-         "tipe": "ayat",
-         "nomor": "(2)",
-         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dilaksanakan oleh DPR, DPD, dan Pemerintah.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2022-13",
-         "berlaku_mulai": "2022-06-16"
-        },
-        {
-         "id": "pasal-95a/ayat-3",
-         "tipe": "ayat",
-         "nomor": "(3)",
-         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPR sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang legislasi. (3a) Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPD sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang perancangan Undang- Undang. (3b) Pemantauan dan Peninjauan terhadap Undang- Undang oleh Pemerintah sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan dengan melibatkan menteri atau kepala lembaga yang terkait.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2022-13",
-         "berlaku_mulai": "2022-06-16"
-        },
-        {
-         "id": "pasal-95a/ayat-4",
-         "tipe": "ayat",
-         "nomor": "(4)",
-         "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (2) dapat menjadi usul dalam pen5rusunan Prolegnas.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2022-13",
-         "berlaku_mulai": "2022-06-16"
-        }
-       ],
-       "riwayat": [
-        {
-         "aksi": "disisipkan",
-         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
-         "pelaku": "uu-2019-15",
-         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
-         "tanggal": "2019-10-04",
-         "catatan": "Di antara Pasal 95 dan Pasal 96 disisipkan 2 (dua) pasal, yakni Pasal 95A dan Pasal 95B sehingga berbunyi sebagai berikut:"
-        },
-        {
-         "aksi": "diganti",
-         "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
-         "pelaku": "uu-2022-13",
-         "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
-         "tanggal": "2022-06-16",
-         "sebelum": {
-          "id": "pasal-95a",
-          "tipe": "pasal",
-          "nomor": "95A",
-          "anak": [
-           {
-            "id": "pasal-95a/ayat-1",
-            "tipe": "ayat",
-            "nomor": "(1)",
-            "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilakukan setelah Undang-Undang berlaku.",
-            "verifikasi": "pdf-resmi",
-            "sumber": "uu-2019-15",
-            "berlaku_mulai": "2019-10-04"
-           },
-           {
-            "id": "pasal-95a/ayat-2",
-            "tipe": "ayat",
-            "nomor": "(2)",
-            "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dilaksanakan oleh DPR, DPD, dan Pemerintah.",
-            "verifikasi": "pdf-resmi",
-            "sumber": "uu-2019-15",
-            "berlaku_mulai": "2019-10-04"
-           },
-           {
-            "id": "pasal-95a/ayat-3",
-            "tipe": "ayat",
-            "nomor": "(3)",
-            "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dikoordinasikan oleh DPR melalui alat kelengkapan yang khusus menangani bidang legislasi.",
-            "verifikasi": "pdf-resmi",
-            "sumber": "uu-2019-15",
-            "berlaku_mulai": "2019-10-04"
-           },
-           {
-            "id": "pasal-95a/ayat-4",
-            "tipe": "ayat",
-            "nomor": "(4)",
-            "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (2) dapat menjadi usul dalam penyusunan Prolegnas.",
-            "verifikasi": "pdf-resmi",
-            "sumber": "uu-2019-15",
-            "berlaku_mulai": "2019-10-04"
-           }
-          ],
-          "sumber": "uu-2019-15",
-          "berlaku_mulai": "2019-10-04"
-         },
-         "catatan": "Ketentuan ayat (3) Pasal 95A diubah dan di antara ayat (3) dan ayat (4) disisipkan 2 (dua) ayat, yakni ayat (3a) dan ayat (3b), serta penjelasan ayat (21 dan ayat (4) Pasal 95A diubah sehingga Pasal 95A berbunyi sebagai berikut:"
-        }
-       ],
-       "sumber": "uu-2022-13",
-       "berlaku_mulai": "2022-06-16"
-      },
-      {
-       "id": "pasal-95b",
-       "tipe": "pasal",
-       "nomor": "95B",
-       "anak": [
-        {
-         "id": "pasal-95b/ayat-1",
-         "tipe": "ayat",
-         "nomor": "(1)",
-         "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilaksanakan dalam 3 (tiga) tahap sebagai berikut:",
-         "verifikasi": "pdf-resmi",
-         "anak": [
-          {
-           "id": "pasal-95b/ayat-1/huruf-a",
-           "tipe": "huruf",
-           "nomor": "a.",
-           "teks": "tahap perencanaan;",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2019-15",
-           "berlaku_mulai": "2019-10-04"
-          },
-          {
-           "id": "pasal-95b/ayat-1/huruf-b",
-           "tipe": "huruf",
-           "nomor": "b.",
-           "teks": "tahap pelaksanaan; dan",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2019-15",
-           "berlaku_mulai": "2019-10-04"
-          },
-          {
-           "id": "pasal-95b/ayat-1/huruf-c",
-           "tipe": "huruf",
-           "nomor": "c.",
-           "teks": "tahap tindak lanjut.",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2019-15",
-           "berlaku_mulai": "2019-10-04"
-          }
-         ],
-         "sumber": "uu-2019-15",
-         "berlaku_mulai": "2019-10-04"
-        },
-        {
-         "id": "pasal-95b/ayat-2",
-         "tipe": "ayat",
-         "nomor": "(2)",
-         "teks": "Ketentuan lebih lanjut mengenai Pemantauan dan Peninjauan terhadap Undang-Undang diatur masing- masing dengan Peraturan DPR, Peraturan DPD, dan Peraturan Presiden.",
-         "verifikasi": "pdf-resmi",
-         "anak": [
-          {
-           "id": "pasal-95b/ayat-2/angka-77",
-           "tipe": "angka",
-           "nomor": "77.",
-           "teks": "Di antara BAB XII dan BAB XIII disisipkan 1 (satu) bab, yakni BAB XIIA sehingga berbunyi sebagai berikut:",
-           "verifikasi": "pdf-resmi",
-           "sumber": "uu-2019-15",
-           "berlaku_mulai": "2019-10-04"
-          }
-         ],
-         "sumber": "uu-2019-15",
-         "berlaku_mulai": "2019-10-04"
-        }
-       ],
-       "riwayat": [
-        {
-         "aksi": "disisipkan",
-         "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
-         "pelaku": "uu-2019-15",
-         "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
-         "tanggal": "2019-10-04",
-         "catatan": "Di antara Pasal 95 dan Pasal 96 disisipkan 2 (dua) pasal, yakni Pasal 95A dan Pasal 95B sehingga berbunyi sebagai berikut:"
-        }
-       ],
-       "sumber": "uu-2019-15",
-       "berlaku_mulai": "2019-10-04"
       }
      ],
      "sumber": "uu-2011-12",
@@ -5419,6 +5234,193 @@
    ],
    "sumber": "uu-2011-12",
    "berlaku_mulai": "2011-08-12"
+  },
+  {
+   "id": "bab-10a",
+   "tipe": "bab",
+   "nomor": "XA",
+   "judul": "PEMANTAUAN DAN PENINJAUAN TERHADAP UNDANG-UNDANG",
+   "anak": [
+    {
+     "id": "pasal-95a",
+     "tipe": "pasal",
+     "nomor": "95A",
+     "anak": [
+      {
+       "id": "pasal-95a/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilakukan setelah Undang-Undang berlaku.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-95a/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dilaksanakan oleh DPR, DPD, dan Pemerintah.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-95a/ayat-3",
+       "tipe": "ayat",
+       "nomor": "(3)",
+       "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPR sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang legislasi. (3a) Pemantauan dan Peninjauan terhadap Undang- Undang oleh DPD sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh alat kelengkapan yang khusus menangani bidang perancangan Undang- Undang. (3b) Pemantauan dan Peninjauan terhadap Undang- Undang oleh Pemerintah sebagaimana dimaksud pada ayat (2) dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan dengan melibatkan menteri atau kepala lembaga yang terkait.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      },
+      {
+       "id": "pasal-95a/ayat-4",
+       "tipe": "ayat",
+       "nomor": "(4)",
+       "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (2) dapat menjadi usul dalam pen5rusunan Prolegnas.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-2022-13",
+       "berlaku_mulai": "2022-06-16"
+      }
+     ],
+     "riwayat": [
+      {
+       "aksi": "diganti",
+       "peristiwa": "uu-2022-13/amandemen-uu-2011-12",
+       "pelaku": "uu-2022-13",
+       "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
+       "tanggal": "2022-06-16",
+       "sebelum": {
+        "id": "pasal-95a",
+        "tipe": "pasal",
+        "nomor": "95A",
+        "anak": [
+         {
+          "id": "pasal-95a/ayat-1",
+          "tipe": "ayat",
+          "nomor": "(1)",
+          "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilakukan setelah Undang-Undang berlaku.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2019-15",
+          "berlaku_mulai": "2019-10-04"
+         },
+         {
+          "id": "pasal-95a/ayat-2",
+          "tipe": "ayat",
+          "nomor": "(2)",
+          "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dilaksanakan oleh DPR, DPD, dan Pemerintah.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2019-15",
+          "berlaku_mulai": "2019-10-04"
+         },
+         {
+          "id": "pasal-95a/ayat-3",
+          "tipe": "ayat",
+          "nomor": "(3)",
+          "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang sebagaimana dimaksud pada ayat (1) dikoordinasikan oleh DPR melalui alat kelengkapan yang khusus menangani bidang legislasi.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2019-15",
+          "berlaku_mulai": "2019-10-04"
+         },
+         {
+          "id": "pasal-95a/ayat-4",
+          "tipe": "ayat",
+          "nomor": "(4)",
+          "teks": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (2) dapat menjadi usul dalam penyusunan Prolegnas.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2019-15",
+          "berlaku_mulai": "2019-10-04"
+         }
+        ],
+        "sumber": "uu-2019-15",
+        "berlaku_mulai": "2019-10-04"
+       },
+       "catatan": "Ketentuan ayat (3) Pasal 95A diubah dan di antara ayat (3) dan ayat (4) disisipkan 2 (dua) ayat, yakni ayat (3a) dan ayat (3b), serta penjelasan ayat (21 dan ayat (4) Pasal 95A diubah sehingga Pasal 95A berbunyi sebagai berikut:"
+      }
+     ],
+     "sumber": "uu-2022-13",
+     "berlaku_mulai": "2022-06-16"
+    },
+    {
+     "id": "pasal-95b",
+     "tipe": "pasal",
+     "nomor": "95B",
+     "anak": [
+      {
+       "id": "pasal-95b/ayat-1",
+       "tipe": "ayat",
+       "nomor": "(1)",
+       "teks": "Pemantauan dan Peninjauan terhadap Undang- Undang dilaksanakan dalam 3 (tiga) tahap sebagai berikut:",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-95b/ayat-1/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "tahap perencanaan;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
+        },
+        {
+         "id": "pasal-95b/ayat-1/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "tahap pelaksanaan; dan",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
+        },
+        {
+         "id": "pasal-95b/ayat-1/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "tahap tindak lanjut.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
+      },
+      {
+       "id": "pasal-95b/ayat-2",
+       "tipe": "ayat",
+       "nomor": "(2)",
+       "teks": "Ketentuan lebih lanjut mengenai Pemantauan dan Peninjauan terhadap Undang-Undang diatur masing- masing dengan Peraturan DPR, Peraturan DPD, dan Peraturan Presiden.",
+       "verifikasi": "pdf-resmi",
+       "anak": [
+        {
+         "id": "pasal-95b/ayat-2/angka-77",
+         "tipe": "angka",
+         "nomor": "77.",
+         "teks": "Di antara BAB XII dan BAB XIII disisipkan 1 (satu) bab, yakni BAB XIIA sehingga berbunyi sebagai berikut:",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2019-15",
+         "berlaku_mulai": "2019-10-04"
+        }
+       ],
+       "sumber": "uu-2019-15",
+       "berlaku_mulai": "2019-10-04"
+      }
+     ],
+     "sumber": "uu-2019-15",
+     "berlaku_mulai": "2019-10-04"
+    }
+   ],
+   "riwayat": [
+    {
+     "aksi": "disisipkan",
+     "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+     "pelaku": "uu-2019-15",
+     "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+     "tanggal": "2019-10-04",
+     "catatan": "15. Di antara BAB X dan BAB XI disisipkan 1 (satu) bab, yakni BAB XA; 16. Di antara Pasal 95 dan Pasal 96 disisipkan Pasal 95A dan Pasal 95B. Distrukturkan ulang pada audit 17 Sep 2026: parser membuang BAB XA sebagai 'muatan kosong' dan menaruh Pasal 95A–95B di dalam BAB X; kedua pasal itu isi BAB XA (raw/teks/uu-2019-15.txt baris 473–517)."
+    }
+   ],
+   "sumber": "uu-2019-15",
+   "berlaku_mulai": "2019-10-04"
   },
   {
    "id": "bab-11",
@@ -5888,29 +5890,39 @@
      ],
      "sumber": "uu-2022-13",
      "berlaku_mulai": "2022-06-16"
-    },
+    }
+   ],
+   "sumber": "uu-2011-12",
+   "berlaku_mulai": "2011-08-12"
+  },
+  {
+   "id": "bab-12a",
+   "tipe": "bab",
+   "nomor": "XIIA",
+   "judul": "KETENTUAN PERALIHAN",
+   "anak": [
     {
      "id": "pasal-99a",
      "tipe": "pasal",
      "nomor": "99A",
      "teks": "Pada saat pembentukan kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan belum terbentuk, tugas dan fungsi Pembentukan Peraturan Perundang-undangan tetap dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
      "verifikasi": "pdf-resmi",
-     "riwayat": [
-      {
-       "aksi": "disisipkan",
-       "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
-       "pelaku": "uu-2019-15",
-       "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
-       "tanggal": "2019-10-04",
-       "catatan": "Di antara Pasal 99 dan Pasal 1OO disisipkan 1 (satu) pasal, yakni Pasal 99A sehingga berbunyi sebagai berikut:"
-      }
-     ],
      "sumber": "uu-2019-15",
      "berlaku_mulai": "2019-10-04"
     }
    ],
-   "sumber": "uu-2011-12",
-   "berlaku_mulai": "2011-08-12"
+   "riwayat": [
+    {
+     "aksi": "disisipkan",
+     "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+     "pelaku": "uu-2019-15",
+     "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+     "tanggal": "2019-10-04",
+     "catatan": "17. Di antara BAB XII dan BAB XIII disisipkan 1 (satu) bab, yakni BAB XIIA; 18. Di antara Pasal 99 dan Pasal 100 disisipkan Pasal 99A. Distrukturkan ulang pada audit 17 Sep 2026 (baris 519–530): Pasal 99A adalah isi BAB XIIA, bukan bagian BAB XII."
+    }
+   ],
+   "sumber": "uu-2019-15",
+   "berlaku_mulai": "2019-10-04"
   },
   {
    "id": "bab-13",
@@ -6045,6 +6057,13 @@
    "pelaku": "uu-2022-13",
    "judul_pelaku": "Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan",
    "tanggal": "2022-06-16"
+  },
+  "72": {
+   "teks": "Ayat (1)\nCukup jelas.\nAyat (2)\nTenggang waktu 7 (tujuh) hari kerja dianggap layak untuk mempersiapkan segala hal yang berkaitan dengan teknis penulisan Rancangan Undang-Undang ke Lembaran Resmi Presiden sampai dengan penandatanganan, pengesahan Undang-Undang oleh Presiden dan penandatanganan sekaligus pengundangan ke Lembaran Negara Republik Indonesia.",
+   "peristiwa": "uu-2019-15/amandemen-uu-2011-12",
+   "pelaku": "uu-2019-15",
+   "judul_pelaku": "Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan",
+   "tanggal": "2019-10-04"
   },
   "73": {
    "teks": "Ayat (1)\nKementerian yang membahas Rancangan Undang-Undang adalah menteri yang ditugasi oleh Presiden untuk mewakili Pemerintah dalam pembahasan Rancangan Undang-Undang dimaksud di DPR.\nAyat (2)\nCukup jelas.\nAyat (3)\nCukup jelas. (4)\nCukup jelas.\nAyat (3)\nCukup jelas.",

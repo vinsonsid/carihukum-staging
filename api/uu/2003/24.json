@@ -40,7 +40,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-17T13:23:29.499Z",
+ "dihasilkan": "2026-09-17T13:36:03.613Z",
  "timeline": [
   {
    "tanggal": "2003-08-13",
@@ -57,10 +57,10 @@
    "tipe": "perubahan",
    "pelaku": "uu-2011-8",
    "judul_pelaku": "Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi",
-   "jumlah_operasi": 30,
+   "jumlah_operasi": 32,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
+   "status_kurasi": "terverifikasi",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. Audit rantai 17 Sep 2026 (instruksi naskah dicocokkan satu per satu dengan operasi): 31 instruksi Pasal I — 28 sudah terenkode parser; instruksi 4 (judul Bagian Ketiga Bab II) dan 30 (Pasal 79) yang semula hilang tanpa jejak ditambahkan manual verbatim; instruksi 8 (Penjelasan Pasal 10) yang semula hanya anotasi kini replace_penjelasan bertekst. Seluruh unit pdf-resmi; 0 sisa belum-dienkode. Naik dari draf ke terverifikasi."
   },
   {
    "tanggal": "2014-02-13",
@@ -79,10 +79,10 @@
    "tipe": "perubahan",
    "pelaku": "uu-2020-7",
    "judul_pelaku": "Undang-Undang Nomor 7 Tahun 2020 tentang Perubahan Ketiga atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi",
-   "jumlah_operasi": 13,
+   "jumlah_operasi": 16,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. "
+   "status_kurasi": "terverifikasi",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. Audit rantai 17 Sep 2026 (instruksi naskah dicocokkan satu per satu dengan operasi): 15 instruksi Pasal I — instruksi 5 (Bagian Kedua Bab IV dihapus), 7 (Bagian Ketiga menjadi Bagian Kedua 'Pemberhentian'), dan 9 (rumusan utuh Pasal 26 dengan huruf b ayat (1) dihapus) yang semula hilang/setengah terenkode ditambahkan manual; dua unit pdf-ocr bercatatan; 0 sisa belum-dienkode. Naik dari draf ke terverifikasi."
   }
  ],
  "peringatan": [],
@@ -806,7 +806,7 @@
      "id": "bab-2/bagian-ketiga",
      "tipe": "bagian",
      "nomor": "Ketiga",
-     "judul": "Sekretariat Jenderal dan Kepaniteraan",
+     "judul": "Kepaniteraan dan Sekretariat Jenderal",
      "anak": [
       {
        "id": "pasal-7",
@@ -1106,8 +1106,22 @@
        "berlaku_mulai": "2003-08-13"
       }
      ],
-     "sumber": "uu-2003-24",
-     "berlaku_mulai": "2003-08-13"
+     "sumber": "uu-2011-8",
+     "berlaku_mulai": "2011-07-20",
+     "riwayat": [
+      {
+       "aksi": "judul diganti",
+       "peristiwa": "uu-2011-8/amandemen-uu-2003-24",
+       "pelaku": "uu-2011-8",
+       "judul_pelaku": "Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi",
+       "tanggal": "2011-07-20",
+       "catatan": "4. Judul Bagian Ketiga Bab II diubah sehingga berbunyi sebagai berikut: Bagian Ketiga — Kepaniteraan dan Sekretariat Jenderal. Ditambahkan manual pada audit 17 Sep 2026: parser menukar instruksi 4 dengan butir '4. Majelis Kehormatan …' di dalam kutipan Pasal 1 (raw/teks/uu-2011-8.txt baris 212–215).",
+       "sebelum": {
+        "judul": "Sekretariat Jenderal dan Kepaniteraan",
+        "nomor": "Ketiga"
+       }
+      }
+     ]
     }
    ],
    "sumber": "uu-2003-24",
@@ -1238,15 +1252,7 @@
       }
      ],
      "sumber": "uu-2003-24",
-     "berlaku_mulai": "2003-08-13",
-     "anotasi": [
-      {
-       "peristiwa": "uu-2011-8/amandemen-uu-2003-24",
-       "pelaku": "uu-2011-8",
-       "tanggal": "2011-07-20",
-       "catatan": "Penjelasan pasal ini diubah oleh dokumen perubahan (instruksi: “Penjelasan Pasal 10 diubah sehingga berbunyi sebagai berikut:”); teks penjelasan baru tercantum dalam bagian penjelasan dokumen perubahan."
-      }
-     ]
+     "berlaku_mulai": "2003-08-13"
     },
     {
      "id": "pasal-11",
@@ -2103,12 +2109,23 @@
       }
      ],
      "sumber": "uu-2003-24",
-     "berlaku_mulai": "2003-08-13"
+     "berlaku_mulai": "2003-08-13",
+     "status": "dicabut",
+     "riwayat": [
+      {
+       "aksi": "dicabut",
+       "peristiwa": "uu-2020-7/amandemen-uu-2003-24",
+       "pelaku": "uu-2020-7",
+       "judul_pelaku": "Undang-Undang Nomor 7 Tahun 2020 tentang Perubahan Ketiga atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi",
+       "tanggal": "2020-09-29",
+       "catatan": "5. Judul Bagian Kedua Bab IV dihapus (bagian itu hanya memuat Pasal 22, yang dihapus oleh instruksi 6). Ditambahkan manual pada audit 17 Sep 2026 — parser tak mengenali 'Judul Bagian … dihapus' (raw/teks/uu-2020-7.txt baris 290)."
+      }
+     ]
     },
     {
      "id": "bab-4/bagian-ketiga",
      "tipe": "bagian",
-     "nomor": "Ketiga",
+     "nomor": "Kedua",
      "judul": "Pemberhentian",
      "anak": [
       {
@@ -2771,39 +2788,41 @@
            "nomor": "a.",
            "teks": "memasuki usia sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf c; atau",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-8",
-           "berlaku_mulai": "2011-07-20"
+           "sumber": "uu-2020-7",
+           "berlaku_mulai": "2020-09-29"
           },
           {
            "id": "pasal-26/ayat-1/huruf-b",
            "tipe": "huruf",
            "nomor": "b.",
-           "teks": "berakhir masa jabatan sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf d.",
+           "teks": "dihapus.",
            "verifikasi": "pdf-resmi",
-           "sumber": "uu-2011-8",
-           "berlaku_mulai": "2011-07-20"
+           "sumber": "uu-2020-7",
+           "berlaku_mulai": "2020-09-29"
           }
          ],
-         "sumber": "uu-2011-8",
-         "berlaku_mulai": "2011-07-20"
+         "sumber": "uu-2020-7",
+         "berlaku_mulai": "2020-09-29"
         },
         {
          "id": "pasal-26/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
          "teks": "Dalam jangka waktu paling lama 14 (empat belas) hari kerja sejak Mahkamah Konstitusi menerima Keputusan Presiden sebagaimana dimaksud dalam Pasal 23 ayat (4), Mahkamah Konstitusi memberitahukan kepada lembaga yang berwenang sebagaimana dimaksud dalam Pasal 18 ayat (1) mengenai hakim konstitusi yang diberhentikan berdasarkan ketentuan sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf a, huruf b, huruf e, atau ayat (2).",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-8",
-         "berlaku_mulai": "2011-07-20"
+         "verifikasi": "pdf-ocr",
+         "catatan_kurasi": "OCR salinan BPK: '(21' → '(2)' pada nomor ayat dan 'ayat (4l\\',' → 'ayat (4),' (raw/teks/uu-2020-7.txt baris 383–386); dikoreksi mengikuti bunyi UU 24/2003 yang diubah.",
+         "sumber": "uu-2020-7",
+         "berlaku_mulai": "2020-09-29"
         },
         {
          "id": "pasal-26/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
          "teks": "Lembaga yang berwenang sebagaimana dimaksud pada ayat (1) dan ayat (2) mengajukan pengganti hakim konstitusi kepada Presiden dalam jangka waktu paling lama 30 (tiga puluh) hari kerja sejak menerima pemberitahuan Mahkamah Konstitusi.",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-8",
-         "berlaku_mulai": "2011-07-20"
+         "verifikasi": "pdf-ocr",
+         "catatan_kurasi": "OCR salinan BPK: '3O (tiga puluh)' → '30 (tiga puluh)' (baris 395); angka dikonfirmasi oleh kata bilangannya.",
+         "sumber": "uu-2020-7",
+         "berlaku_mulai": "2020-09-29"
         },
         {
          "id": "pasal-26/ayat-4",
@@ -2811,17 +2830,17 @@
          "nomor": "(4)",
          "teks": "Keputusan Presiden tentang pengangkatan pengganti hakim konstitusi sebagaimana dimaksud pada ayat (1) ditetapkan dalam jangka waktu paling lama 7 (tujuh) hari kerja sejak pengajuan diterima Presiden.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-8",
-         "berlaku_mulai": "2011-07-20"
+         "sumber": "uu-2020-7",
+         "berlaku_mulai": "2020-09-29"
         },
         {
          "id": "pasal-26/ayat-5",
          "tipe": "ayat",
          "nomor": "(5)",
-         "teks": "Hakim konstitusi yang menggantikan sebagaimana dimaksud pada ayat (2) melanjutkan sisa jabatan hakim konstitusi yang digantikannya.",
+         "teks": "Dihapus.",
          "verifikasi": "pdf-resmi",
-         "sumber": "uu-2011-8",
-         "berlaku_mulai": "2011-07-20",
+         "sumber": "uu-2020-7",
+         "berlaku_mulai": "2020-09-29",
          "status": "dicabut",
          "riwayat": [
           {
@@ -2870,10 +2889,92 @@
           "berlaku_mulai": "2003-08-13"
          },
          "catatan": "Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2020-7/amandemen-uu-2003-24",
+         "pelaku": "uu-2020-7",
+         "judul_pelaku": "Undang-Undang Nomor 7 Tahun 2020 tentang Perubahan Ketiga atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi",
+         "tanggal": "2020-09-29",
+         "sebelum": {
+          "id": "pasal-26",
+          "tipe": "pasal",
+          "nomor": "26",
+          "anak": [
+           {
+            "id": "pasal-26/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Mahkamah Konstitusi memberitahukan kepada lembaga yang berwenang sebagaimana dimaksud dalam Pasal 18 ayat (1) mengenai hakim konstitusi yang akan diberhentikan dalam jangka waktu paling lama 6 (enam) bulan sebelum:",
+            "verifikasi": "pdf-resmi",
+            "anak": [
+             {
+              "id": "pasal-26/ayat-1/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "memasuki usia sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf c; atau",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-8",
+              "berlaku_mulai": "2011-07-20"
+             },
+             {
+              "id": "pasal-26/ayat-1/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "berakhir masa jabatan sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf d.",
+              "verifikasi": "pdf-resmi",
+              "sumber": "uu-2011-8",
+              "berlaku_mulai": "2011-07-20"
+             }
+            ],
+            "sumber": "uu-2011-8",
+            "berlaku_mulai": "2011-07-20"
+           },
+           {
+            "id": "pasal-26/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Dalam jangka waktu paling lama 14 (empat belas) hari kerja sejak Mahkamah Konstitusi menerima Keputusan Presiden sebagaimana dimaksud dalam Pasal 23 ayat (4), Mahkamah Konstitusi memberitahukan kepada lembaga yang berwenang sebagaimana dimaksud dalam Pasal 18 ayat (1) mengenai hakim konstitusi yang diberhentikan berdasarkan ketentuan sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf a, huruf b, huruf e, atau ayat (2).",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-8",
+            "berlaku_mulai": "2011-07-20"
+           },
+           {
+            "id": "pasal-26/ayat-3",
+            "tipe": "ayat",
+            "nomor": "(3)",
+            "teks": "Lembaga yang berwenang sebagaimana dimaksud pada ayat (1) dan ayat (2) mengajukan pengganti hakim konstitusi kepada Presiden dalam jangka waktu paling lama 30 (tiga puluh) hari kerja sejak menerima pemberitahuan Mahkamah Konstitusi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-8",
+            "berlaku_mulai": "2011-07-20"
+           },
+           {
+            "id": "pasal-26/ayat-4",
+            "tipe": "ayat",
+            "nomor": "(4)",
+            "teks": "Keputusan Presiden tentang pengangkatan pengganti hakim konstitusi sebagaimana dimaksud pada ayat (1) ditetapkan dalam jangka waktu paling lama 7 (tujuh) hari kerja sejak pengajuan diterima Presiden.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-8",
+            "berlaku_mulai": "2011-07-20"
+           },
+           {
+            "id": "pasal-26/ayat-5",
+            "tipe": "ayat",
+            "nomor": "(5)",
+            "teks": "Hakim konstitusi yang menggantikan sebagaimana dimaksud pada ayat (2) melanjutkan sisa jabatan hakim konstitusi yang digantikannya.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-2011-8",
+            "berlaku_mulai": "2011-07-20"
+           }
+          ],
+          "sumber": "uu-2011-8",
+          "berlaku_mulai": "2011-07-20"
+         },
+         "catatan": "9. Ketentuan huruf b ayat (1) dan ayat (5) Pasal 26 dihapus sehingga Pasal 26 berbunyi sebagai berikut. Ditambahkan manual pada audit 17 Sep 2026: parser hanya mengenkode repeal ayat (5) dan melewatkan penghapusan huruf b ayat (1) beserta rumusan utuh pasalnya (raw/teks/uu-2020-7.txt baris 359–402)."
         }
        ],
-       "sumber": "uu-2011-8",
-       "berlaku_mulai": "2011-07-20"
+       "sumber": "uu-2020-7",
+       "berlaku_mulai": "2020-09-29"
       },
       {
        "id": "pasal-27",
@@ -2885,8 +2986,22 @@
        "berlaku_mulai": "2003-08-13"
       }
      ],
-     "sumber": "uu-2003-24",
-     "berlaku_mulai": "2003-08-13"
+     "sumber": "uu-2020-7",
+     "berlaku_mulai": "2020-09-29",
+     "riwayat": [
+      {
+       "aksi": "judul diganti",
+       "peristiwa": "uu-2020-7/amandemen-uu-2003-24",
+       "pelaku": "uu-2020-7",
+       "judul_pelaku": "Undang-Undang Nomor 7 Tahun 2020 tentang Perubahan Ketiga atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi",
+       "tanggal": "2020-09-29",
+       "catatan": "7. Judul Bagian Ketiga Bab IV diubah sehingga berbunyi sebagai berikut: Bagian Kedua — Pemberhentian (penomoran bagian bergeser sesudah Bagian Kedua dihapus). Ditambahkan manual pada audit 17 Sep 2026 (baris 293–297).",
+       "sebelum": {
+        "judul": "Pemberhentian",
+        "nomor": "Ketiga"
+       }
+      }
+     ]
     }
    ],
    "sumber": "uu-2003-24",
@@ -5909,10 +6024,121 @@
        "id": "pasal-79",
        "tipe": "pasal",
        "nomor": "79",
-       "teks": "Putusan Mahkamah Konstitusi mengenai perselisihan hasil pemilihan umum disampaikan kepada Presiden.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2003-24",
-       "berlaku_mulai": "2003-08-13"
+       "anak": [
+        {
+         "id": "pasal-79/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Putusan Mahkamah Konstitusi tentang Perselisihan Hasil Pemilihan Umum Presiden dan Wakil Presiden disampaikan kepada:",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-79/ayat-1/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "Majelis Permusyawaratan Rakyat;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2011-8",
+           "berlaku_mulai": "2011-07-20"
+          },
+          {
+           "id": "pasal-79/ayat-1/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "DPR;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2011-8",
+           "berlaku_mulai": "2011-07-20"
+          },
+          {
+           "id": "pasal-79/ayat-1/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "Dewan Perwakilan Daerah;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2011-8",
+           "berlaku_mulai": "2011-07-20"
+          },
+          {
+           "id": "pasal-79/ayat-1/huruf-d",
+           "tipe": "huruf",
+           "nomor": "d.",
+           "teks": "Presiden/Pemerintah;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2011-8",
+           "berlaku_mulai": "2011-07-20"
+          },
+          {
+           "id": "pasal-79/ayat-1/huruf-e",
+           "tipe": "huruf",
+           "nomor": "e.",
+           "teks": "Komisi Pemilihan Umum;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2011-8",
+           "berlaku_mulai": "2011-07-20"
+          },
+          {
+           "id": "pasal-79/ayat-1/huruf-f",
+           "tipe": "huruf",
+           "nomor": "f.",
+           "teks": "partai politik atau gabungan partai politik yang mengajukan calon; dan",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2011-8",
+           "berlaku_mulai": "2011-07-20"
+          },
+          {
+           "id": "pasal-79/ayat-1/huruf-g",
+           "tipe": "huruf",
+           "nomor": "g.",
+           "teks": "pasangan calon peserta pemilihan umum.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2011-8",
+           "berlaku_mulai": "2011-07-20"
+          }
+         ],
+         "sumber": "uu-2011-8",
+         "berlaku_mulai": "2011-07-20"
+        },
+        {
+         "id": "pasal-79/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Putusan Mahkamah Konstitusi tentang Perselisihan Hasil Pemilihan Umum Anggota DPR, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah disampaikan kepada Presiden, pemohon, dan Komisi Pemilihan Umum.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2011-8",
+         "berlaku_mulai": "2011-07-20"
+        },
+        {
+         "id": "pasal-79/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Putusan Mahkamah Konstitusi tentang Perselisihan Hasil Pemilihan Umum bersifat final dan mengikat.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2011-8",
+         "berlaku_mulai": "2011-07-20"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2011-8/amandemen-uu-2003-24",
+         "pelaku": "uu-2011-8",
+         "judul_pelaku": "Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi",
+         "tanggal": "2011-07-20",
+         "sebelum": {
+          "id": "pasal-79",
+          "tipe": "pasal",
+          "nomor": "79",
+          "teks": "Putusan Mahkamah Konstitusi mengenai perselisihan hasil pemilihan umum disampaikan kepada Presiden.",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-2003-24",
+          "berlaku_mulai": "2003-08-13"
+         },
+         "catatan": "30. Pasal 79 diubah sehingga berbunyi sebagai berikut. Ditambahkan manual pada audit 17 Sep 2026: instruksi tanpa kata 'Ketentuan' tak dikenali parser; teks verbatim raw/teks/uu-2011-8.txt baris 898–924."
+        }
+       ],
+       "sumber": "uu-2011-8",
+       "berlaku_mulai": "2011-07-20"
       }
      ],
      "sumber": "uu-2003-24",
@@ -6194,7 +6420,15 @@
    "berlaku_mulai": "2003-08-13"
   }
  ],
- "penjelasan_efektif": null,
+ "penjelasan_efektif": {
+  "10": {
+   "teks": "Ayat (1)\nPutusan Mahkamah Konstitusi bersifat final, yakni putusan Mahkamah Konstitusi langsung memperoleh kekuatan hukum tetap sejak diucapkan dan tidak ada upaya hukum yang dapat ditempuh. Sifat final dalam putusan Mahkamah Konstitusi dalam Undang-Undang ini mencakup pula kekuatan hukum mengikat (final and binding).\nAyat (2)\nYang dimaksud dengan “pendapat DPR” adalah pendapat DPR mengenai dugaan pelanggaran oleh Presiden dan/atau Wakil Presiden yang diambil dalam Keputusan Paripurna sesuai dengan Undang-Undang tentang Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Dewan Perwakilan Rakyat Daerah, dan Peraturan Dewan Perwakilan Rakyat tentang Tata Tertib.\nAyat (3)\nCukup jelas.",
+   "peristiwa": "uu-2011-8/amandemen-uu-2003-24",
+   "pelaku": "uu-2011-8",
+   "judul_pelaku": "Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi",
+   "tanggal": "2011-07-20"
+  }
+ },
  "bukti": {
   "tingkat": 3,
   "penerbit": "Badan Pemeriksa Keuangan (peraturan.bpk.go.id)",
@@ -6207,9 +6441,9 @@
   "diakses": null
  },
  "keandalan": {
-  "total": 374,
-  "pdf-resmi": 372,
-  "pdf-ocr": 2,
+  "total": 383,
+  "pdf-resmi": 379,
+  "pdf-ocr": 4,
   "draf": 0,
   "lainnya": 0
  },

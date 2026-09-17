@@ -78,7 +78,7 @@
   ],
   "kelompok": "kenotariatan"
  },
- "dihasilkan": "2026-09-17T13:23:29.384Z",
+ "dihasilkan": "2026-09-17T13:36:03.488Z",
  "timeline": [
   {
    "tanggal": "1998-03-05",
@@ -95,10 +95,10 @@
    "tipe": "perubahan",
    "pelaku": "pp-2016-24",
    "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
-   "jumlah_operasi": 34,
+   "jumlah_operasi": 35,
    "operasi_belum_dienkode": [],
-   "status_kurasi": "draf",
-   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. INSTRUKSI GAGAL URAI (1): Ketentuan . PR ES ID Et! | Butir 12 (Pasal 15) semula terlewat parser (nomor butir berakhiran koma di OCR); ditambahkan."
+   "status_kurasi": "terverifikasi",
+   "catatan": "Dienkode otomatis parser-perubahan dari naskah resmi; teks unit diverifikasi terhadap PDF perubahan. Butir 12 (Pasal 15) semula terlewat parser (nomor butir berakhiran koma di OCR); ditambahkan. Audit rantai 17 Sep 2026 (instruksi naskah dicocokkan satu per satu dengan operasi): 18 instruksi Pasal I — butir 7 ('Pasal ll dihapus', OCR untuk Pasal 11) semula hilang tanpa jejak, ditambahkan sebagai repeal pasal-11; 'Ketentuan . PR ES ID Et!' yang dulu dicatat gagal urai ternyata artefak kata-tangkap kaki halaman (baris 472/520), bukan instruksi. Seluruh 18 instruksi kini terwakili; 84 unit pdf-resmi + 2 pdf-ocr bercatatan; 0 sisa belum-dienkode. Naik dari draf ke terverifikasi."
   }
  ],
  "peringatan": [],
@@ -1367,7 +1367,8 @@
        "teks": "PPAT dapat diberhentikan untuk sementara dari jabatannya sebagai PPAT karena sedang dalam pemeriksaan pengadilan sebagai terdakwa suatu perbuatan pidana yang diancam dengan hukuman kurungan atau penjara selama-lamanya 5 (lima) tahun atau lebih berat.",
        "verifikasi": "pdf-resmi",
        "sumber": "pp-1998-37",
-       "berlaku_mulai": "1998-03-05"
+       "berlaku_mulai": "1998-03-05",
+       "status": "dicabut"
       },
       {
        "id": "pasal-11/ayat-2",
@@ -1376,11 +1377,23 @@
        "teks": "Pemberhentian sementara sebagaimana dimaksud pada ayat (1) berlaku sampai pada putusan pengadilan yang telah memperoleh kekuatan hukum tetap.",
        "verifikasi": "pdf-resmi",
        "sumber": "pp-1998-37",
-       "berlaku_mulai": "1998-03-05"
+       "berlaku_mulai": "1998-03-05",
+       "status": "dicabut"
       }
      ],
      "sumber": "pp-1998-37",
-     "berlaku_mulai": "1998-03-05"
+     "berlaku_mulai": "1998-03-05",
+     "status": "dicabut",
+     "riwayat": [
+      {
+       "aksi": "dicabut",
+       "peristiwa": "pp-2016-24/amandemen-pp-1998-37",
+       "pelaku": "pp-2016-24",
+       "judul_pelaku": "Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah",
+       "tanggal": "2016-06-27",
+       "catatan": "7. Pasal ll dihapus. [OCR: 'll' = 11] Ditambahkan manual pada audit 17 Sep 2026 — parser tak mengenali 'Pasal ll' (raw/teks/pp-2016-24.txt baris 346)."
+      }
+     ]
     }
    ],
    "sumber": "pp-1998-37",
