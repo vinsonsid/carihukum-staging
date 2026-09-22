@@ -35,7 +35,7 @@
   "nomor_resmi": "113/PMK.06/2019",
   "kelompok": "lelang"
  },
- "dihasilkan": "2026-09-18T13:09:19.245Z",
+ "dihasilkan": "2026-09-22T11:54:15.483Z",
  "timeline": [
   {
    "tanggal": "2019-09-05",
@@ -2231,8 +2231,18 @@
            "id": "pasal-30/ayat-3/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "pemberitahuan perubahan direksi dan/ atau dewan komisaris se bagaimana dimaksud pada ayat (1) tercantum dalain Lampiran huruf N; dan",
-           "verifikasi": "pdf-resmi",
+           "teks": "pemberitahuan perubahan direksi dan/ atau dewan komisaris se bagaimana dimaksud pada ayat (1) tercantum dalam Lampiran huruf N; dan",
+           "verifikasi": "ejaan-baku",
+           "ejaan_sumber": [
+            {
+             "dari": "dalain",
+             "ke": "dalam",
+             "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+             "bukti_korpus": "dalam 15028x vs dalain 1x",
+             "pada": "2026-09-22"
+            }
+           ],
+           "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"dalain\", ditayangkan \"dalam\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
            "sumber": "pmk-2019-113",
            "berlaku_mulai": "2019-09-05"
           },
@@ -4226,8 +4236,9 @@
  },
  "keandalan": {
   "total": 372,
-  "pdf-resmi": 372,
+  "pdf-resmi": 371,
   "pdf-ocr": 0,
+  "ejaan-baku": 1,
   "draf": 0,
   "lainnya": 0
  },

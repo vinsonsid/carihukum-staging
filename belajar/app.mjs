@@ -109,7 +109,7 @@ function init() {
 
   // ----- tab -----
   const tabs = document.querySelectorAll('nav.tabs [role="tab"]');
-  const tampil = { peta: renderPeta, lokasi: renderLokasi, instrumen: renderInstrumen, kartu: renderKartu };
+  const tampil = { peta: renderPeta, lokasi: renderLokasi, instrumen: renderInstrumen, kartu: renderKartu, anatomi: renderAnatomi };
   function bukaPanel(nama) {
     tabs.forEach((b) => b.setAttribute("aria-selected", String(b.dataset.panel === nama)));
     for (const p of document.querySelectorAll(".panel")) p.hidden = p.id !== `panel-${nama}`;
@@ -156,6 +156,133 @@ function init() {
         ${b.n.kosong ? `<p class="kecil meta">${b.n.kosong} pasal di bab ini naskahnya sendiri berbunyi "dihapus/dicabut dengan Staatsblad" dan tidak dijadikan kartu.</p>` : ""}`;
       r.scrollIntoView({ block: "nearest", behavior: "smooth" });
     });
+  }
+
+  // ----- Anatomi (docs/23) -----
+  // Tiga lapis dengan standar bukti berbeda, dan bedanya ditampilkan alih-alih
+  // diratakan: L1 resmi (di halaman baca), L2 turunan mesin (isi tab ini),
+  // L3 editorial beratribusi (hanya bila ada klaim `terbit`).
+  const NASIB_PITA = { dicabut: "c", disisipkan: "h", diubah: "d", asli: "h" };
+  const pitaNasib = (n) => n && n !== "asli"
+    ? `<span class="pita ${NASIB_PITA[n] ?? "k"}">${esc(n)}</span>` : "";
+
+  function tautUnit(B, unit, label) {
+    return `<a class="asal" href="${esc(B.jalur)}${anchorPasal(unit)}">${esc(label ?? unit)} →</a>`;
+  }
+  // "pasal-32/ayat-4/huruf-d" -> "Pasal 32 ayat (4) huruf d"
+  const namaUnit = (u) => String(u)
+    .replace(/^pasal-(\w+)/, (_, n) => "Pasal " + n.toUpperCase().replace(/^(\d+)/, "$1"))
+    .replace(/\/ayat-(\w+)/g, " ayat ($1)")
+    .replace(/\/huruf-(\w+)/g, " huruf $1")
+    .replace(/\/angka-(\w+)/g, " angka $1");
+
+  function blokFrasa(B) {
+    const f = B.frasa;
+    const kartu = (x) => `<div class="frasa ${x.panjang > 200 ? "panjang" : ""} ${x.nasib === "dicabut" ? "cabut" : ""}">
+      <span class="kutipan">“${esc(x.frasa)}”</span>
+      <span class="meta">${esc(namaUnit(x.unit))} ${pitaNasib(x.nasib)} ${tautUnit(B, x.unit, "baca")}</span></div>`;
+    const baris = (x) => `<tr class="${x.nasib === "dicabut" ? "cabut" : ""}"><td style="width:22%">${esc(namaUnit(x.unit))}<br>${tautUnit(B, x.unit, "baca")}</td>
+      <td style="width:18%"><span class="meta">${esc(x.sebab)}</span></td><td>${esc(x.teks)}</td></tr>`;
+    return `<div class="blok"><div class="kepala"><h3>Frasa yang wajib tercetak</h3>
+      <span class="meta">${f.harfiah.length} kutipan harfiah — dipungut apa adanya dari tanda kutip di dalam pasalnya sendiri. Tidak ada yang ditambahkan.</span></div>
+      <div class="isi">${f.harfiah.length ? f.harfiah.map(kartu).join("") : '<p class="kosong">Peraturan ini tak mengutip frasa wajib secara harfiah.</p>'}
+      ${f.penanda.length ? `<h3>Penanda pencantuman <span class="meta">(${f.penanda.length})</span></h3>
+        <p class="kecil meta">Ini <strong>hasil pencarian kata kunci</strong> atas bunyi pasal &mdash; bukan klasifikasi hukum, dan belum tentu lengkap. Yang disebut kewajiban di sini hanyalah: pasalnya memakai kata yang tertera di kolom tengah. Penilaian hukumnya bukan pekerjaan mesin.</p>
+        <table class="mx lis"><thead><tr><th>Unit</th><th>Kata yang ditemukan</th><th>Bunyi</th></tr></thead><tbody>${f.penanda.map(baris).join("")}</tbody></table>` : ""}</div></div>`;
+  }
+
+  function blokKomposisi(B) {
+    if (!B.komposisi.length) return "";
+    const tabel = (k) => {
+      const kepala = k.kelompok.map((g) => `<th>${esc(g.kepala)}<br><span class="meta">${esc(namaUnit(g.unit))}</span></th>`).join("");
+      const sel = k.kelompok.map((g) => `<td><ol>${g.butir.map((b) => `<li>${esc(b.teks)}</li>`).join("")}</ol></td>`).join("");
+      return `<h3>${esc(namaUnit(k.pasal))} ${pitaNasib(k.nasib)} ${tautUnit(B, k.pasal, "baca")}</h3>
+        <div style="overflow-x:auto"><table class="mx"><thead><tr>${kepala}</tr></thead><tbody><tr>${sel}</tr></tbody></table></div>`;
+    };
+    return `<div class="blok"><div class="kepala"><h3>Matriks komposisi</h3>
+      <span class="meta">${B.komposisi.length} pasal yang menguraikan susunan sesuatu (&ldquo;X memuat: a, b, c&rdquo;). Kolomnya adalah kelompok di dalam pasal itu; isinya butir apa adanya, urutannya urutan naskah.</span></div>
+      <div class="isi">${B.komposisi.map(tabel).join("")}</div></div>`;
+  }
+
+  function blokAkibat(B) {
+    if (!B.akibat.length) return "";
+    const baris = (a) => `<tr class="${a.nasib === "dicabut" ? "cabut" : ""}">
+      <td style="width:20%">${esc(namaUnit(a.unit))} ${pitaNasib(a.nasib)}<br>${tautUnit(B, a.unit, "baca")}</td>
+      <td style="width:26%">${a.sasaran.map((t) => `<a class="asal" href="${esc(B.jalur)}${anchorPasal(t.pasal)}">${esc(namaUnit(t.pasal))}</a>${t.nasib === "dicabut" ? " (dicabut)" : ""}`).join("<br>")}</td>
+      <td>${esc(a.akibat)}</td></tr>`;
+    return `<div class="blok"><div class="kepala"><h3>Matriks pelanggaran &rarr; akibat</h3>
+      <span class="meta">${B.akibat.length} pasal yang menyebut pelanggaran atas ketentuan lain. Kolom kanan adalah akibat yang disebut <strong>di pasal itu sendiri</strong>, dikutip utuh &mdash; tidak diringkas dan tidak dikelompokkan.</span></div>
+      <div class="isi"><div style="overflow-x:auto"><table class="mx"><thead><tr><th>Pasal yang mengatur akibat</th><th>Ketentuan yang dilanggar</th><th>Akibat menurut naskah</th></tr></thead><tbody>${B.akibat.map(baris).join("")}</tbody></table></div></div></div>`;
+  }
+
+  function blokDiagram(B, daftarBerkas) {
+    const d = B.diagram;
+    if (!d || !d.busur.length) return "";
+    const kelasN = (n) => n.nasib === "dicabut" ? "c" : n.nasib === "diubah" ? "d" : "";
+    const grup = d.simpul.map((s) => {
+      const milik = d.busur.filter((b) => b.dari === s.pasal || b.ke === s.pasal);
+      return `<g class="n" tabindex="0" role="listitem" aria-label="${esc(namaUnit(s.pasal))}, ${s.masuk} rujukan masuk, ${s.keluar} keluar">
+        ${milik.map((b) => `<path class="busur nyala ${b.nasib === "dicabut" ? "c" : ""}" d="${b.d}"></path>`).join("")}
+        <circle class="titik ${kelasN(s)}" cx="${s.x}" cy="${s.y}" r="${(2 + Math.min(3, s.masuk)).toFixed(1)}"></circle>
+        <text x="${s.lx}" y="${s.ly}" text-anchor="${s.balik ? "end" : "start"}"
+          transform="rotate(${s.balik ? s.putar + 180 : s.putar} ${s.lx} ${s.ly})">${esc(String(s.nomor))}</text></g>`;
+    }).join("");
+    const bg = d.busur.map((b) => `<path class="busur ${b.nasib === "dicabut" ? "c" : ""}" d="${b.d}"></path>`).join("");
+    return `<div class="blok"><div class="kepala"><h3>Graf rujukan antar-pasal</h3>
+      <span class="meta">${d.busur.length} rujukan di dalam peraturan ini sendiri. Pasal duduk melingkar menurut <strong>urutan naskah</strong> &mdash; bukan menurut seberapa sering dirujuk, karena urutan adalah fakta sedangkan &ldquo;pasal terpenting&rdquo; adalah tafsir. Besar titik = jumlah rujukan masuk. Sorot satu pasal untuk menebalkan rujukannya.</span></div>
+      <div class="isi"><svg class="dgm" viewBox="0 0 ${d.ukuran} ${d.ukuran}" role="list" aria-label="Graf rujukan antar-pasal">
+        <g aria-hidden="true">${bg}</g>${grup}</svg>
+      <p class="dgm-cadangan">Nomor pasal disembunyikan di layar sempit karena terlalu kecil untuk dibaca; yang tersisa adalah bentuknya. Rinciannya ada di matriks di atas, dan angka lengkapnya di <a href="${esc(daftarBerkas)}">JSON bedah</a>.</p>
+      <div class="legenda"><span><i style="background:var(--accent)"></i>pasal asli</span><span><i style="background:var(--amber)"></i>diubah pengubah</span><span><i style="background:var(--merah)"></i>dicabut</span></div></div></div>`;
+  }
+
+  function blokNasib(B) {
+    const n = B.hitung.nasib, urut = ["asli", "diubah", "disisipkan", "dicabut"];
+    const total = B.hitung.pasal;
+    const dicabut = B.nasib.filter((x) => x.nasib === "dicabut");
+    return `<div class="blok"><div class="kepala"><h3>Nasib pasal sepanjang rantai perubahan</h3>
+      <span class="meta">Dibaca dari riwayat konsolidasi, bukan dinilai.</span></div>
+      <div class="isi"><div class="stat">${urut.map((k) => `<span><b>${n[k] ?? 0}</b> ${k}</span>`).join("")}<span class="meta">dari ${total} pasal</span></div>
+      ${dicabut.length ? `<p class="kecil">Sudah dicabut: ${dicabut.map((x) => `<a class="asal" href="${esc(B.jalur)}${anchorPasal(x.pasal)}">${esc(namaUnit(x.pasal))}</a>`).join(" · ")}</p>` : ""}</div></div>`;
+  }
+
+  function blokDoktrin(B) {
+    if (!B.doktrin.length)
+      return `<div class="blok"><div class="kepala"><h3>Lapis 3 &mdash; eksposisi beratribusi</h3></div>
+        <div class="isi"><div class="editorial"><strong>Belum ada klaim terbit.</strong> Lapisan ini memuat unsur, akibat hukum, sifat memaksa/mengatur, dan beban bukti &mdash; hal yang <em>tidak</em> bisa diturunkan mesin dari naskah. Setiap klaim wajib menyebut sumber bukunya (penulis, judul, tahun, halaman); klaim tanpa sumber ditolak validator sebagai opini.${B.doktrin_tahap ? ` Berkas doktrin untuk peraturan ini ada dan bertahap <strong>${esc(B.doktrin_tahap)}</strong> &mdash; belum boleh tayang.` : ""}</div></div></div>`;
+    const klaim = (c) => `<div class="frasa" style="border-left-color:var(--ungu)">
+      <span class="meta">${esc(namaUnit(c.pasal))} &middot; ${esc(c.jenis)}${c.kode ? ` ${esc(c.kode)}` : ""} ${tautUnit(B, c.pasal, "baca")}</span>
+      <p style="margin:4px 0">${esc(c.teks)}</p>
+      ${c.kutipan ? `<div class="kutip">${esc(c.kutipan)}</div>` : ""}
+      <span class="meta">${c.sumber.map((s) => esc(`${s.penulis}, ${s.judul} (${s.tahun}) hlm. ${s.halaman}`)).join(" · ")} &middot; kurator ${esc(c.kurator)}, ${esc(c.tanggal)}</span></div>`;
+    return `<div class="blok"><div class="kepala"><h3>Lapis 3 &mdash; eksposisi beratribusi</h3>
+      <span class="meta">${B.doktrin.length} klaim. <strong>Editorial beratribusi &mdash; bukan naskah resmi, bukan nasihat hukum.</strong></span></div>
+      <div class="isi">${B.doktrin.map(klaim).join("")}</div></div>`;
+  }
+
+  async function renderAnatomi() {
+    const el = $("#panel-anatomi");
+    const daftar = IDX.bedah ?? [];
+    if (!daftar.length) { el.innerHTML = '<p class="kosong">Belum ada peraturan yang dibedah.</p>'; return; }
+    const pilih = hashObj().bedah && daftar.some((b) => b.karya === hashObj().bedah)
+      ? hashObj().bedah : daftar[0].karya;
+    el.innerHTML = `<div class="sub">Turunan mekanis dari naskah konsolidasi: matriks, register frasa, dan graf rujukan. Semuanya dihitung ulang dari bunyi pasal setiap kali situs dibangun, dan <strong>tiap sel menaut balik ke unit asalnya</strong> supaya bisa diperiksa sendiri.</div>
+      ${daftar.length > 1 ? `<label class="pilih">Peraturan <select id="anatomi-karya">${daftar.map((b) => `<option value="${esc(b.karya)}" ${b.karya === pilih ? "selected" : ""}>${esc(b.nama)}</option>`).join("")}</select></label>` : ""}
+      <div id="anatomi-isi" class="kosong">Memuat…</div>`;
+    const sel = $("#anatomi-karya");
+    if (sel) sel.addEventListener("change", (e) => { setHash({ bedah: e.target.value }); renderAnatomi(); });
+    const berkas = daftar.find((b) => b.karya === pilih).berkas;
+    const B = await ambil(berkas);
+    const isi = $("#anatomi-isi");
+    isi.className = "";
+    isi.innerHTML = `<div class="lapis">
+        <span><b>L1 resmi</b> &mdash; <a href="${esc(B.jalur)}">naskah &amp; penjelasan</a></span>
+        <span><b>L2 turunan mesin</b> &mdash; isi tab ini</span>
+        <span><b>L3 editorial</b> &mdash; ${B.doktrin.length ? `${B.doktrin.length} klaim beratribusi` : "belum berisi"}</span></div>
+      <h2>${esc(B.nama)} &mdash; ${esc(B.judul)}</h2>
+      <p class="kecil meta">${esc(B.alasan)}</p>
+      ${blokFrasa(B)}${blokKomposisi(B)}${blokAkibat(B)}${blokDiagram(B, berkas)}${blokNasib(B)}${blokDoktrin(B)}
+      <p class="kecil meta">Turunan ini tidak menyimpulkan apa pun: ia menata ulang dan menghitung. Di mana pengenalannya bersandar pada kata kunci, hal itu dikatakan di tempatnya. Sumber data: <a href="${esc(berkas)}">JSON bedah</a>.</p>`;
   }
 
   // ----- timer bersama -----

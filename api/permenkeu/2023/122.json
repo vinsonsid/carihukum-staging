@@ -39,7 +39,7 @@
   "catatan_kurasi": "Aturan operasional inti lelang di Indonesia (menggantikan PMK 213/PMK.06/2020 — lihat Pasal 117). PENTING: per 3 Sep 2026 peraturan ini TIDAK terdokumentasi di peraturan.bpk.go.id dan kartu BPK masih menyatakan PMK 213/2020 'berlaku'; teks diambil dari penerbitnya sendiri, JDIH Kementerian Keuangan (jdih.kemenkeu.go.id/dok/pmk-122-tahun-2023) — sumber tingkat 1. Lampiran (format risalah, formulir) belum dimuat: skema lampiran belum ada.",
   "kelompok": "lelang"
  },
- "dihasilkan": "2026-09-18T13:09:19.251Z",
+ "dihasilkan": "2026-09-22T11:54:15.495Z",
  "timeline": [
   {
    "tanggal": "2023-11-23",
@@ -3143,8 +3143,18 @@
            "id": "pasal-34/ayat-2/huruf-a",
            "tipe": "huruf",
            "nomor": "a.",
-           "teks": "ahli waris yang sah, yang clalil gugatannya mengenai proses pembebanan hak tanggungan clilakukan setelah pewaris selaku pemilik jaminan meninggal clunia clisertai bukti-bukti yang sah;",
-           "verifikasi": "pdf-resmi",
+           "teks": "ahli waris yang sah, yang clalil gugatannya mengenai proses pembebanan hak tanggungan clilakukan setelah pewaris selaku pemilik jaminan meninggal dunia clisertai bukti-bukti yang sah;",
+           "verifikasi": "ejaan-baku",
+           "ejaan_sumber": [
+            {
+             "dari": "clunia",
+             "ke": "dunia",
+             "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+             "bukti_korpus": "dunia 264x vs clunia 1x",
+             "pada": "2026-09-22"
+            }
+           ],
+           "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"clunia\", ditayangkan \"dunia\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
            "sumber": "pmk-2023-122",
            "berlaku_mulai": "2023-11-23"
           },
@@ -3221,8 +3231,18 @@
          "id": "pasal-35/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Setiap permohonan Lelang Eksekusi objek hak tanggungan sesuai Pasal 6 Unclang-Unclang Hak Tanggungan, Lelang Eksekusi bencla sitaan pengaclilan, clan Lelang Eksekusi harta pailit clikenakan bea permohonan Lelang sesuai ketentuan Peraturan Pemerintah yang mengatur mengenai jenis clan tarif atas jenis penerimaan negara bukan pajak yang berlaku pacla Kementerian Keuangan.",
-         "verifikasi": "pdf-resmi",
+         "teks": "Setiap permohonan Lelang Eksekusi objek hak tanggungan sesuai Pasal 6 Unclang-Unclang Hak Tanggungan, Lelang Eksekusi benda sitaan pengaclilan, clan Lelang Eksekusi harta pailit clikenakan bea permohonan Lelang sesuai ketentuan Peraturan Pemerintah yang mengatur mengenai jenis clan tarif atas jenis penerimaan negara bukan pajak yang berlaku pacla Kementerian Keuangan.",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "bencla",
+           "ke": "benda",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "benda 403x vs bencla 1x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"bencla\", ditayangkan \"benda\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pmk-2023-122",
          "berlaku_mulai": "2023-11-23"
         },
@@ -3230,8 +3250,18 @@
          "id": "pasal-35/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Bea permohonan Lelang sebagaimana climaksucl pacla ayat (1) clibayar oleh Penjual ke kas negara menggunakan kocle billing yang cliperoleh clari Aplikasi Lelang.",
-         "verifikasi": "pdf-resmi",
+         "teks": "Bea permohonan Lelang sebagaimana climaksucl pacla ayat (1) clibayar oleh Penjual ke kas negara menggunakan kode billing yang cliperoleh clari Aplikasi Lelang.",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "kocle",
+           "ke": "kode",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "kode 117x vs kocle 1x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"kocle\", ditayangkan \"kode\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pmk-2023-122",
          "berlaku_mulai": "2023-11-23"
         },
@@ -3772,8 +3802,18 @@
          "id": "pasal-42/ayat-2",
          "tipe": "ayat",
          "nomor": "(2)",
-         "teks": "Dalarn hal terdapat perubahan data fisik, data yuridis, dan/ a tau catatan lain dari bidang tanah atau satuan rumah susun atau objek yang akan dilelang kembali narnun Penjual tidak meminta secara tertulis kepada Kepala KPKNL atau Pejabat Lelang Kelas II untuk dibuatkan permintaan surat keterangan tanah atau surat keterangan pendaftaran tanah/surat keterangan pendaftaran satuan rumah susun/ surat keterangan atas objek yang akan dilelang sebagaimana dimaksud pada ayat (1), Penjual bertanggung jawab mutlak atas segala gugatan perdata dan/atau tuntutan pidana serta pelaksanaan putusannya.",
-         "verifikasi": "pdf-resmi",
+         "teks": "Dalarn hal terdapat perubahan data fisik, data yuridis, dan/ a tau catatan lain dari bidang tanah atau satuan rumah susun atau objek yang akan dilelang kembali namun Penjual tidak meminta secara tertulis kepada Kepala KPKNL atau Pejabat Lelang Kelas II untuk dibuatkan permintaan surat keterangan tanah atau surat keterangan pendaftaran tanah/surat keterangan pendaftaran satuan rumah susun/ surat keterangan atas objek yang akan dilelang sebagaimana dimaksud pada ayat (1), Penjual bertanggung jawab mutlak atas segala gugatan perdata dan/atau tuntutan pidana serta pelaksanaan putusannya.",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "narnun",
+           "ke": "namun",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "namun 168x vs narnun 1x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"narnun\", ditayangkan \"namun\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pmk-2023-122",
          "berlaku_mulai": "2023-11-23"
         }
@@ -8772,8 +8812,18 @@
        "id": "pasal-100/ayat-7",
        "tipe": "ayat",
        "nomor": "(7)",
-       "teks": "Dalam hal jangka waktu simpan sebagaimana dimaksud pada ayat (6) telah larnpau, pihak-pihak yang berkepentingan tidak dapat menuntut haknya mendapatkan turunan dari Risalah Lelang.",
-       "verifikasi": "pdf-resmi",
+       "teks": "Dalam hal jangka waktu simpan sebagaimana dimaksud pada ayat (6) telah lampau, pihak-pihak yang berkepentingan tidak dapat menuntut haknya mendapatkan turunan dari Risalah Lelang.",
+       "verifikasi": "ejaan-baku",
+       "ejaan_sumber": [
+        {
+         "dari": "larnpau",
+         "ke": "lampau",
+         "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+         "bukti_korpus": "lampau 46x vs larnpau 1x",
+         "pada": "2026-09-22"
+        }
+       ],
+       "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"larnpau\", ditayangkan \"lampau\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
        "sumber": "pmk-2023-122",
        "berlaku_mulai": "2023-11-23"
       }
@@ -8851,8 +8901,18 @@
          "id": "pasal-101/ayat-4/huruf-d",
          "tipe": "huruf",
          "nomor": "d.",
-         "teks": "instansi yang berwenang dalam balik narna kepemilikan hak Objek Lelang memperoleh Salinan Risalah Lelang sesuai kebutuhan; dan",
-         "verifikasi": "pdf-resmi",
+         "teks": "instansi yang berwenang dalam balik nama kepemilikan hak Objek Lelang memperoleh Salinan Risalah Lelang sesuai kebutuhan; dan",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "narna",
+           "ke": "nama",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "nama 615x vs narna 1x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"narna\", ditayangkan \"nama\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pmk-2023-122",
          "berlaku_mulai": "2023-11-23"
         },
@@ -9082,8 +9142,18 @@
          "id": "pasal-103/ayat-2/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "Superintenclen bagi Pejabat Lelang Kelas II.",
-         "verifikasi": "pdf-resmi",
+         "teks": "Superintenden bagi Pejabat Lelang Kelas II.",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "Superintenclen",
+           "ke": "Superintenden",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "Superintenden 41x vs Superintenclen 2x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"Superintenclen\", ditayangkan \"Superintenden\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pmk-2023-122",
          "berlaku_mulai": "2023-11-23"
         }
@@ -9157,8 +9227,18 @@
          "id": "pasal-105/ayat-1/huruf-a",
          "tipe": "huruf",
          "nomor": "a.",
-         "teks": "menyelenggarakan aclministrasi perkantoran;",
-         "verifikasi": "pdf-resmi",
+         "teks": "menyelenggarakan administrasi perkantoran;",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "aclministrasi",
+           "ke": "administrasi",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "administrasi 259x vs aclministrasi 2x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"aclministrasi\", ditayangkan \"administrasi\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pmk-2023-122",
          "berlaku_mulai": "2023-11-23"
         },
@@ -9166,8 +9246,18 @@
          "id": "pasal-105/ayat-1/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "membuat laporan yang berkaitan clengan pelaksanaan Lelang kepacla Superintenclen; clan",
-         "verifikasi": "pdf-resmi",
+         "teks": "membuat laporan yang berkaitan clengan pelaksanaan Lelang kepacla Superintenden; clan",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "Superintenclen",
+           "ke": "Superintenden",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "Superintenden 41x vs Superintenclen 2x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"Superintenclen\", ditayangkan \"Superintenden\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pmk-2023-122",
          "berlaku_mulai": "2023-11-23"
         },
@@ -9206,8 +9296,8 @@
        "id": "pasal-106/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Dalam menyelenggarakan aclministrasi perkantoran sebagaimana climaksucl clalam Pasal 105 ayat (1) huruf a, KPKNL harus menyecliakan:",
-       "verifikasi": "pdf-resmi",
+       "teks": "Dalam menyelenggarakan administrasi perkantoran sebagaimana climaksucl clalam Pasal 105 ayat (1) huruf a, KPKNL harus menyecliakan:",
+       "verifikasi": "ejaan-baku",
        "anak": [
         {
          "id": "pasal-106/ayat-1/huruf-a",
@@ -9222,12 +9312,32 @@
          "id": "pasal-106/ayat-1/huruf-b",
          "tipe": "huruf",
          "nomor": "b.",
-         "teks": "buku kas umum berikut buku pembantu sebagaimana cliatur clalam pecloman benclahara penerimaan.",
-         "verifikasi": "pdf-resmi",
+         "teks": "buku kas umum berikut buku pembantu sebagaimana cliatur clalam pedoman benclahara penerimaan.",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "pecloman",
+           "ke": "pedoman",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "pedoman 182x vs pecloman 1x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"pecloman\", ditayangkan \"pedoman\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pmk-2023-122",
          "berlaku_mulai": "2023-11-23"
         }
        ],
+       "ejaan_sumber": [
+        {
+         "dari": "aclministrasi",
+         "ke": "administrasi",
+         "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+         "bukti_korpus": "administrasi 259x vs aclministrasi 2x",
+         "pada": "2026-09-22"
+        }
+       ],
+       "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"aclministrasi\", ditayangkan \"administrasi\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
        "sumber": "pmk-2023-122",
        "berlaku_mulai": "2023-11-23"
       },
@@ -9702,8 +9812,9 @@
  },
  "keandalan": {
   "total": 930,
-  "pdf-resmi": 930,
+  "pdf-resmi": 919,
   "pdf-ocr": 0,
+  "ejaan-baku": 11,
   "draf": 0,
   "lainnya": 0
  },

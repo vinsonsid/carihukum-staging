@@ -1,0 +1,137 @@
+{
+ "entri": [
+  {
+   "id": "uu-1960-5",
+   "stasiun": "S3",
+   "kode": "PARSER-KHUSUS",
+   "tanggal": "2026-09-04",
+   "catatan": "UU 5/1960 (UUPA) berstruktur diktum berbagian (PERTAMA/KEDUA/…) dan dipanen dengan tools/parser-uupa.py, bukan parser baku. Mesin panen benar menolaknya — karyanya sendiri sudah lama ada di korpus dan terverifikasi."
+  },
+  {
+   "id": "uu-2021-7",
+   "stasiun": "S3",
+   "kode": "SCAN-BERAT",
+   "tanggal": "2026-09-05",
+   "catatan": "UU 7/2021 HPP — 11,8 MB, penanda ayat ter-OCR ('(21' untuk '(2)'); 92 temuan."
+  },
+  {
+   "id": "uu-1999-5",
+   "stasiun": "S3",
+   "kode": "SCAN-BERAT",
+   "tanggal": "2026-09-05",
+   "catatan": "UU 5/1999 Antimonopoli — salinan BPK hasil scan; 29 temuan invarian tersisa sesudah lima perbaikan parser."
+  },
+  {
+   "id": "uu-2019-8",
+   "stasiun": "S3",
+   "kode": "SCAN-BERAT",
+   "tanggal": "2026-09-05",
+   "catatan": "UU 8/2019 Haji & Umrah — scan (ocr terdeteksi); 57 temuan."
+  },
+  {
+   "id": "uu-2016-13",
+   "stasiun": "S3",
+   "kode": "SCAN-BERAT",
+   "tanggal": "2026-09-05",
+   "catatan": "UU 13/2016 Paten — scan dengan kop ter-OCR bocor ke badan teks ('REPU BLIK INDONESIA -J-'); 88 temuan."
+  },
+  {
+   "id": "uu-2004-31",
+   "stasiun": "S3",
+   "kode": "CACAT-CETAK-SUMBER",
+   "tanggal": "2026-09-05",
+   "catatan": "UU 31/2004 Perikanan — naskah resminya sendiri mencetak butir ketiga Pasal 9 sebagai 'a.' (mestinya 'c.'); menukarnya berarti mengarang naskah, jadi menunggu keputusan pemilik."
+  },
+  {
+   "id": "uu-2019-16",
+   "stasiun": "S1",
+   "kode": "BUKAN-UU-ASLI",
+   "tanggal": "2026-09-08",
+   "catatan": "judul menandakan bukan naskah asli: Perubahan atas Undang-undang Nomor 1 Tahun 1974 tentang Perkawinan"
+  },
+  {
+   "id": "uu-2011-20",
+   "stasiun": "S5",
+   "kode": "STATUS-BERSELISIH",
+   "tanggal": "2026-09-08",
+   "catatan": "kartu registri menyebut 'diubah', halaman Details menyebut 'berlaku' — periksa blok relasi lalu tetapkan sendiri"
+  },
+  {
+   "id": "uu-2004-24",
+   "stasiun": "S3",
+   "kode": "PARSE-BERTEMUAN",
+   "tanggal": "2026-09-15",
+   "catatan": "5 temuan invarian/penomoran"
+  },
+  {
+   "id": "uu-2019-22",
+   "stasiun": "S3",
+   "kode": "OCR-BURUK",
+   "tanggal": "2026-09-15",
+   "catatan": "6 temuan invarian, dan lapisan teks sumbernya sendiri rusak — kop rusak 50.0% dari 148 (ambang 12.0). Parser bukan sebabnya."
+  },
+  {
+   "id": "uu-2017-2",
+   "stasiun": "S3",
+   "kode": "OCR-BURUK",
+   "tanggal": "2026-09-15",
+   "catatan": "7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 4.1% (ambang 3.0); kop rusak 63.6% dari 154 (ambang 12.0). Parser bukan sebabnya."
+  },
+  {
+   "id": "uu-2017-18",
+   "stasiun": "S3",
+   "kode": "OCR-BURUK",
+   "tanggal": "2026-09-15",
+   "catatan": "7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — kop rusak 16.7% dari 132 (ambang 12.0). Parser bukan sebabnya."
+  },
+  {
+   "id": "uu-2019-11",
+   "stasiun": "S3",
+   "kode": "OCR-BURUK",
+   "tanggal": "2026-09-15",
+   "catatan": "7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 7.4% (ambang 3.0); kop rusak 22.1% dari 172 (ambang 12.0). Parser bukan sebabnya."
+  },
+  {
+   "id": "uu-2023-4",
+   "stasiun": "S2",
+   "kode": "BERKAS-TERLALU-BESAR",
+   "tanggal": "2026-09-17",
+   "catatan": "respons melampaui batas 67108864 bita (sekurangnya 67108865): https://peraturan.bpk.go.id/Download/295189/UU%20Nomor%204%20Tahun%202023.pdf"
+  },
+  {
+   "id": "uu-2017-6",
+   "stasiun": "S3",
+   "kode": "OCR-BURUK",
+   "tanggal": "2026-09-17",
+   "catatan": "7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 3.7% (ambang 3.0); kop rusak 20.6% dari 63 (ambang 12.0). Parser bukan sebabnya."
+  },
+  {
+   "id": "uu-2016-20",
+   "stasiun": "S3",
+   "kode": "OCR-BURUK",
+   "tanggal": "2026-09-17",
+   "catatan": "6 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 3.2% (ambang 3.0); kop rusak 28.7% dari 87 (ambang 12.0). Parser bukan sebabnya."
+  },
+  {
+   "id": "uu-2014-32",
+   "stasiun": "S3",
+   "kode": "OCR-BURUK",
+   "tanggal": "2026-09-18",
+   "catatan": "7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 4.8% (ambang 3.0); kop rusak 33.3% dari 117 (ambang 12.0). Parser bukan sebabnya."
+  },
+  {
+   "id": "uu-2014-39",
+   "stasiun": "S3",
+   "kode": "OCR-BURUK",
+   "tanggal": "2026-09-18",
+   "catatan": "7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 14.6% (ambang 3.0). Parser bukan sebabnya."
+  },
+  {
+   "id": "uu-2013-18",
+   "stasiun": "S3",
+   "kode": "PARSE-BERTEMUAN",
+   "tanggal": "2026-09-21",
+   "catatan": "2 temuan invarian/penomoran"
+  }
+ ]
+}

@@ -61,6 +61,43 @@
   footer { margin-top:32px; border-top:1px solid var(--line); padding-top:14px; color:var(--ink-2); font-size:.75rem }
   button:focus-visible, a:focus-visible, select:focus-visible { outline:2px solid var(--accent); outline-offset:2px }
   @media (max-width:520px) { .nilai { grid-template-columns:repeat(2,1fr) } }
+
+  /* ---- tab Anatomi (docs/23) ---- */
+  .lapis { display:flex; gap:8px; flex-wrap:wrap; margin:0 0 12px; font-size:.75rem }
+  .lapis span { border:1px solid var(--line); border-radius:999px; padding:3px 10px; background:var(--surface-2); color:var(--ink-2) }
+  .lapis span b { color:var(--ink) }
+  .blok { border:1px solid var(--line); border-radius:10px; margin:14px 0; overflow:hidden; background:var(--surface) }
+  .blok > .kepala { padding:10px 14px; background:var(--surface-2); border-bottom:1px solid var(--line) }
+  .blok > .kepala h3 { margin:0; font-size:.95rem } .blok > .kepala .meta { display:block; margin-top:2px }
+  .blok > .isi { padding:12px 14px }
+  .asal { font:600 .72rem var(--sans); color:var(--accent); text-decoration:none; white-space:nowrap }
+  .frasa { border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:8px; padding:10px 12px; margin:8px 0; background:var(--surface) }
+  .frasa .kutipan { display:block; font:600 .98rem ui-monospace,Menlo,monospace; color:var(--ink); margin-bottom:4px; word-break:break-word }
+  .frasa.panjang .kutipan { font-size:.82rem; font-weight:400; max-height:9em; overflow:auto; white-space:pre-line }
+  table.mx { border-collapse:collapse; width:100%; font-size:.82rem; table-layout:fixed }
+  table.mx th, table.mx td { border:1px solid var(--line); padding:6px 9px; vertical-align:top; text-align:left }
+  table.mx th { background:var(--surface-2); font-size:.78rem }
+  table.mx td ol { margin:0; padding-left:1.1em } table.mx td li { margin:2px 0 }
+  table.mx.lis td, table.mx.lis th { font-size:.8rem }
+  .cabut { opacity:.62 } .cabut .kutipan, .cabut td { text-decoration:line-through }
+  .dgm { display:block; width:100%; max-width:640px; margin:0 auto; height:auto }
+  .dgm .busur { fill:none; stroke:var(--accent); stroke-opacity:.22; stroke-width:1 }
+  .dgm .busur.c { stroke:var(--merah); stroke-opacity:.3 }
+  .dgm .titik { fill:var(--accent) } .dgm .titik.d { fill:var(--amber) }
+  /* Pasal dicabut sering tak pernah dirujuk, jadi titiknya paling kecil justru
+     ketika ia paling perlu ditemukan. Jari-jari tetap jujur (= rujukan masuk);
+     yang ditambahkan cincin, bukan ukuran. */
+  .dgm .titik.c { fill:var(--merah); stroke:var(--merah); stroke-width:1.2; stroke-opacity:.5 }
+  .dgm text { font:400 7px var(--sans); fill:var(--ink-2) }
+  .dgm g.n:hover .busur, .dgm g.n:focus-within .busur { stroke-opacity:.9; stroke-width:1.6 }
+  .dgm:hover .nyala { stroke-opacity:.95; stroke-width:1.8 }
+  .editorial { border:1px dashed var(--ungu); background:var(--ungu-soft); border-radius:8px; padding:10px 12px; font-size:.84rem }
+  .dgm-cadangan { display:none; font-size:.78rem; color:var(--ink-2); margin-top:6px }
+  @media (max-width:560px) { table.mx { font-size:.76rem } table.mx th, table.mx td { padding:4px 6px }
+    /* Pada 375px lebar, 63 label nomor pasal mengecil jadi ~3px — terbaca sebagai
+       noda, bukan teks. Bentuk grafnya masih bercerita (kerapatan rujukan), jadi
+       labelnya disembunyikan dan digantikan kalimat yang mengatakan apa adanya. */
+    .dgm text { display:none } .dgm-cadangan { display:block } }
 </style>
 <div class="wrap">
   <header class="top">
@@ -75,14 +112,16 @@
     <button role="tab" data-panel="lokasi" aria-selected="false">📍 Lokasi</button>
     <button role="tab" data-panel="instrumen" aria-selected="false">⚖ Instrumen</button>
     <button role="tab" data-panel="kartu" aria-selected="false">🃏 Kartu</button>
+    <button role="tab" data-panel="anatomi" aria-selected="false">🧩 Anatomi</button>
   </nav>
   <section class="panel" id="panel-peta" role="tabpanel"></section>
   <section class="panel" id="panel-lokasi" role="tabpanel" hidden></section>
   <section class="panel" id="panel-instrumen" role="tabpanel" hidden></section>
   <section class="panel" id="panel-kartu" role="tabpanel" hidden></section>
-  <footer>Data terbuka (CC0) · <a href="/api/belajar/index.json">API belajar</a> · Penjadwalan FSRS-6 (rujukan py-fsrs) dihitung di peramban · Tidak ada pelacak; skor hanya untuk diri sendiri. Rancangan: docs/20.</footer>
+  <section class="panel" id="panel-anatomi" role="tabpanel" hidden></section>
+  <footer>Data terbuka (CC0) · <a href="/api/belajar/index.json">API belajar</a> · Penjadwalan FSRS-6 (rujukan py-fsrs) dihitung di peramban · Tidak ada pelacak; skor hanya untuk diri sendiri. Rancangan: docs/20 &amp; docs/23.</footer>
 </div>
-<script>window.DATA_BELAJAR = {"versi":1,"dek":[{"id":"kuhperdata-1847/buku-1","nama":"KUHPerdata Buku I — Orang","karya":"kuhperdata-1847","buku":"buku-1","jalur":"/kodifikasi/1847/23/i/","n":{"pasal":548,"kartu":526,"dinaungi":230,"istilah":0},"peta":"/api/belajar/peta/kuhperdata-1847.json","berkas":"/api/belajar/dek/kuhperdata-1847--buku-1.json","sha":"d3f95d3e"},{"id":"kuhperdata-1847/buku-2","nama":"KUHPerdata Buku II — Barang","karya":"kuhperdata-1847","buku":"buku-2","jalur":"/kodifikasi/1847/23/ii/","n":{"pasal":742,"kartu":737,"dinaungi":737,"istilah":0},"peta":"/api/belajar/peta/kuhperdata-1847.json","berkas":"/api/belajar/dek/kuhperdata-1847--buku-2.json","sha":"3d6edd5d"},{"id":"kuhperdata-1847/buku-3","nama":"KUHPerdata Buku III — Perikatan","karya":"kuhperdata-1847","buku":"buku-3","jalur":"/kodifikasi/1847/23/iii/","n":{"pasal":712,"kartu":703,"dinaungi":0,"istilah":0},"peta":"/api/belajar/peta/kuhperdata-1847.json","berkas":"/api/belajar/dek/kuhperdata-1847--buku-3.json","sha":"dd4f2575"},{"id":"kuhperdata-1847/buku-4","nama":"KUHPerdata Buku IV — Pembuktian dan Kedaluwarsa","karya":"kuhperdata-1847","buku":"buku-4","jalur":"/kodifikasi/1847/23/iv/","n":{"pasal":130,"kartu":120,"dinaungi":0,"istilah":0},"peta":"/api/belajar/peta/kuhperdata-1847.json","berkas":"/api/belajar/dek/kuhperdata-1847--buku-4.json","sha":"43104dad"},{"id":"uu-2004-30","nama":"UU Jabatan Notaris 30/2004","karya":"uu-2004-30","buku":null,"jalur":"/uu/2004/30/","n":{"pasal":97,"kartu":94,"dinaungi":0,"istilah":14},"peta":"/api/belajar/peta/uu-2004-30.json","berkas":"/api/belajar/dek/uu-2004-30.json","sha":"ab94db6b"},{"id":"uu-1996-4","nama":"UU Hak Tanggungan 4/1996","karya":"uu-1996-4","buku":null,"jalur":"/uu/1996/4/","n":{"pasal":31,"kartu":31,"dinaungi":0,"istilah":8},"peta":"/api/belajar/peta/uu-1996-4.json","berkas":"/api/belajar/dek/uu-1996-4.json","sha":"48e51445"},{"id":"uu-1999-42","nama":"UU Jaminan Fidusia 42/1999","karya":"uu-1999-42","buku":null,"jalur":"/uu/1999/42/","n":{"pasal":41,"kartu":41,"dinaungi":0,"istilah":10},"peta":"/api/belajar/peta/uu-1999-42.json","berkas":"/api/belajar/dek/uu-1999-42.json","sha":"0fa67e7b"},{"id":"uu-1974-1","nama":"UU Perkawinan 1/1974","karya":"uu-1974-1","buku":null,"jalur":"/uu/1974/1/","n":{"pasal":68,"kartu":68,"dinaungi":0,"istilah":0},"peta":"/api/belajar/peta/uu-1974-1.json","berkas":"/api/belajar/dek/uu-1974-1.json","sha":"5f1740f6"},{"id":"uu-1960-5","nama":"UUPA 5/1960 (Pokok Agraria)","karya":"uu-1960-5","buku":null,"jalur":"/uu/1960/5/","n":{"pasal":70,"kartu":28,"dinaungi":0,"istilah":0},"peta":"/api/belajar/peta/uu-1960-5.json","berkas":"/api/belajar/dek/uu-1960-5.json","sha":"276b0287"}],"ditangguhkan":[],"auth":true};</script>
+<script>window.DATA_BELAJAR = {"versi":1,"dek":[{"id":"kuhperdata-1847/buku-1","nama":"KUHPerdata Buku I — Orang","karya":"kuhperdata-1847","buku":"buku-1","jalur":"/kodifikasi/1847/23/i/","n":{"pasal":548,"kartu":526,"dinaungi":230,"istilah":0},"peta":"/api/belajar/peta/kuhperdata-1847.json","berkas":"/api/belajar/dek/kuhperdata-1847--buku-1.json","sha":"d3f95d3e"},{"id":"kuhperdata-1847/buku-2","nama":"KUHPerdata Buku II — Barang","karya":"kuhperdata-1847","buku":"buku-2","jalur":"/kodifikasi/1847/23/ii/","n":{"pasal":742,"kartu":737,"dinaungi":737,"istilah":0},"peta":"/api/belajar/peta/kuhperdata-1847.json","berkas":"/api/belajar/dek/kuhperdata-1847--buku-2.json","sha":"3d6edd5d"},{"id":"kuhperdata-1847/buku-3","nama":"KUHPerdata Buku III — Perikatan","karya":"kuhperdata-1847","buku":"buku-3","jalur":"/kodifikasi/1847/23/iii/","n":{"pasal":712,"kartu":703,"dinaungi":0,"istilah":0},"peta":"/api/belajar/peta/kuhperdata-1847.json","berkas":"/api/belajar/dek/kuhperdata-1847--buku-3.json","sha":"dd4f2575"},{"id":"kuhperdata-1847/buku-4","nama":"KUHPerdata Buku IV — Pembuktian dan Kedaluwarsa","karya":"kuhperdata-1847","buku":"buku-4","jalur":"/kodifikasi/1847/23/iv/","n":{"pasal":130,"kartu":120,"dinaungi":0,"istilah":0},"peta":"/api/belajar/peta/kuhperdata-1847.json","berkas":"/api/belajar/dek/kuhperdata-1847--buku-4.json","sha":"43104dad"},{"id":"uu-2004-30","nama":"UU Jabatan Notaris 30/2004","karya":"uu-2004-30","buku":null,"jalur":"/uu/2004/30/","n":{"pasal":97,"kartu":94,"dinaungi":0,"istilah":14},"peta":"/api/belajar/peta/uu-2004-30.json","berkas":"/api/belajar/dek/uu-2004-30.json","sha":"ab94db6b"},{"id":"uu-1996-4","nama":"UU Hak Tanggungan 4/1996","karya":"uu-1996-4","buku":null,"jalur":"/uu/1996/4/","n":{"pasal":31,"kartu":31,"dinaungi":0,"istilah":8},"peta":"/api/belajar/peta/uu-1996-4.json","berkas":"/api/belajar/dek/uu-1996-4.json","sha":"48e51445"},{"id":"uu-1999-42","nama":"UU Jaminan Fidusia 42/1999","karya":"uu-1999-42","buku":null,"jalur":"/uu/1999/42/","n":{"pasal":41,"kartu":41,"dinaungi":0,"istilah":10},"peta":"/api/belajar/peta/uu-1999-42.json","berkas":"/api/belajar/dek/uu-1999-42.json","sha":"0fa67e7b"},{"id":"uu-1974-1","nama":"UU Perkawinan 1/1974","karya":"uu-1974-1","buku":null,"jalur":"/uu/1974/1/","n":{"pasal":68,"kartu":68,"dinaungi":0,"istilah":0},"peta":"/api/belajar/peta/uu-1974-1.json","berkas":"/api/belajar/dek/uu-1974-1.json","sha":"5f1740f6"},{"id":"uu-1960-5","nama":"UUPA 5/1960 (Pokok Agraria)","karya":"uu-1960-5","buku":null,"jalur":"/uu/1960/5/","n":{"pasal":70,"kartu":28,"dinaungi":0,"istilah":0},"peta":"/api/belajar/peta/uu-1960-5.json","berkas":"/api/belajar/dek/uu-1960-5.json","sha":"276b0287"}],"ditangguhkan":[],"auth":true,"bedah":[{"karya":"uu-2004-30","nama":"UU Jabatan Notaris 30/2004","jalur":"/uu/2004/30/","berkas":"/api/belajar/bedah/uu-2004-30.json","n":{"frasa_harfiah":7,"frasa_penanda":12,"komposisi":1,"akibat":20,"rujukan_sisi":71,"definisi":15,"pasal":97,"nasib":{"diubah":36,"asli":53,"disisipkan":5,"dicabut":3}},"doktrin":0}]};</script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.min.js" integrity="sha384-JBR+x8blGwjDRO63aHCGiZMD4VNiTR4ZUGA+N6ZKLf3zNt1fK8IBpcgPaMrxqWBp" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>

@@ -40,7 +40,7 @@
    }
   ]
  },
- "dihasilkan": "2026-09-18T13:09:19.387Z",
+ "dihasilkan": "2026-09-22T11:54:15.700Z",
  "timeline": [
   {
    "tanggal": "2003-08-13",
@@ -468,8 +468,18 @@
             "id": "pasal-4/ayat-2",
             "tipe": "ayat",
             "nomor": "(2)",
-            "teks": "Susunan Mahkamah Kontitusi terdiri atas seorang Ketua merangkap anggota, seorang Wakil Ketua merangkap anggota, dan 7 (tujuh) orang anggota hakim konstitusi.",
-            "verifikasi": "pdf-resmi",
+            "teks": "Susunan Mahkamah Konstitusi terdiri atas seorang Ketua merangkap anggota, seorang Wakil Ketua merangkap anggota, dan 7 (tujuh) orang anggota hakim konstitusi.",
+            "verifikasi": "ejaan-baku",
+            "ejaan_sumber": [
+             {
+              "dari": "Kontitusi",
+              "ke": "Konstitusi",
+              "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+              "bukti_korpus": "Konstitusi 409x vs Kontitusi 1x",
+              "pada": "2026-09-22"
+             }
+            ],
+            "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"Kontitusi\", ditayangkan \"Konstitusi\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
             "sumber": "uu-2003-24",
             "berlaku_mulai": "2003-08-13"
            },
@@ -6444,6 +6454,7 @@
   "total": 383,
   "pdf-resmi": 379,
   "pdf-ocr": 4,
+  "ejaan-baku": 0,
   "draf": 0,
   "lainnya": 0
  },

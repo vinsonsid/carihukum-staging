@@ -1,0 +1,552 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Tinjau — CariHukum (internal)</title>
+<meta name="description" content="Dasbor tinjau internal, baca-saja.">
+<style>
+  :root { --surface:#fff; --surface-2:#f6f8fa; --ink:#1f2328; --ink-2:#59636e;
+    --line:#d0d7de; --accent:#0d6a4f; --accent-soft:#e6f4ec; --merah:#b42318; --merah-soft:#fdecea; --kuning:#9a6700; --kuning-soft:#fff8e1;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif; }
+  * { box-sizing:border-box } body { margin:0; background:var(--surface); color:var(--ink); font-family:var(--sans); font-size:15px; line-height:1.6 }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 24px 64px }
+  header.top { display:flex; align-items:center; justify-content:space-between; padding:14px 0; border-bottom:1px solid var(--line); margin-bottom:20px }
+  .wordmark { font-weight:700; font-size:1.05rem; color:var(--ink); text-decoration:none } .wordmark .cari { color:var(--accent) }
+  h1 { font-size:1.35rem; margin:14px 0 6px } h2 { font-size:1.08rem; margin:34px 0 8px; padding-top:10px; border-top:1px solid var(--line) } h3 { font-size:.95rem; margin:18px 0 6px }
+  .sub { color:var(--ink-2); font-size:.87rem; max-width:90ch }
+  table { border-collapse:collapse; width:100%; margin-top:12px; font-size:.84rem }
+  th, td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--line); vertical-align:top }
+  th { font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-2) }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap }
+  .rint { color:var(--ink-2); font-size:.76rem } code { font-size:.8em; background:var(--surface-2); padding:1px 4px; border-radius:3px }
+  .kartu { border:1px solid var(--line); border-radius:8px; padding:12px 16px; background:var(--surface-2); font-size:.88rem; margin:12px 0 }
+  .chip { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:0 8px; font-size:.76rem; background:var(--surface); margin:1px 0; white-space:nowrap }
+  .chip.warn { border-color:var(--kuning); color:var(--kuning); background:var(--kuning-soft) }
+  .merah { color:var(--merah) } .kosong { color:var(--ink-2); font-size:.86rem; font-style:italic }
+  .lampu { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:6px; background:var(--accent) }
+  tr.k-mati .lampu, tr.k-tiada .lampu { background:var(--merah) } tr.k-basi .lampu { background:var(--kuning) }
+  tr.k-mati td, tr.k-tiada td { background:var(--merah-soft) } tr.k-basi td { background:var(--kuning-soft) }
+  .kartu.k-mati, .kartu.k-tiada { background:var(--merah-soft); border-color:var(--merah) } .kartu.k-basi { background:var(--kuning-soft); border-color:var(--kuning) }
+  .pita { border:1px solid var(--merah); background:var(--merah-soft); border-radius:8px; padding:8px 14px; font-size:.84rem; margin:12px 0 }
+  pre { white-space:pre-wrap; font-size:.76rem; margin:4px 0 }
+  nav.isi a { margin-right:12px; font-size:.82rem } a { color:var(--accent) }
+  details summary { cursor:pointer; font-size:.86rem; color:var(--ink-2) } details ol { font-size:.84rem }
+</style>
+<div class="wrap">
+  <header class="top"><a class="wordmark" href="/"><span class="cari">Cari</span>Hukum <span class="rint">· tinjau</span></a>
+    <span class="rint">dibangun 2026-09-22T11:54:24.537Z</span></header>
+  <h1>Dasbor tinjau — baca-saja</h1>
+  <div class="pita">Halaman internal, noindex, tidak ditautkan dari mana pun. <strong>Tidak ada tombol sunting.</strong> Setiap perubahan pada korpus hanya lewat alat di <code>tools/</code> + commit yang melewati <code>npm run cek</code> (docs/21).</div>
+  <nav class="isi"><a href="#alat">1 Alat</a><a href="#karya">2 Karya</a><a href="#antrean">3 Antrean</a><a href="#karantina">4 Karantina</a><a href="#invarian">5 Invarian</a><a href="#typo">6 Typo</a><a href="#audit">7 Audit</a><a href="#panen">8 Panen bot</a></nav>
+  <h2 id="alat">1 · Kesehatan alat ukur</h2>
+  <p class="sub">Baca ini dulu. Angka di bawah hanya bermakna bila laporannya ada, segar (≤ 7 hari), dan alatnya keluar kode 0. <strong class="merah">1 laporan bermasalah.</strong></p>
+  <table><thead><tr><th>Laporan</th><th>Dijalankan</th><th>Keadaan</th><th>Kode keluar alat (di build ini)</th></tr></thead><tbody><tr class="k-segar"><td><strong>Invarian struktur</strong><div class="rint">build/laporan/invarian.json — ditulis <code>npm run invarian</code> di gerbang</div></td>
+    <td>2026-09-22</td>
+    <td><span class="lampu"></span>12 jam lalu</td>
+    <td class="num"><span class="rint">tidak dijalankan di sini</span></td></tr>
+<tr class="k-segar"><td><strong>Cacat ketik (typo)</strong><div class="rint">build/laporan/typo.json — <code>tools/pindai-typo.py</code>, dijalankan build ini</div></td>
+    <td>2026-09-22</td>
+    <td><span class="lampu"></span>12 jam lalu</td>
+    <td class="num">0 <span class="rint">(1.1 s)</span></td></tr>
+<tr class="k-segar"><td><strong>Audit instruksi perubahan</strong><div class="rint">build/laporan/audit.json — <code>tools/audit-instruksi.py --keluar</code>, dijalankan build ini</div></td>
+    <td>2026-09-22T11:54:24+00:00</td>
+    <td><span class="lampu"></span>0 jam lalu</td>
+    <td class="num">0 <span class="rint">(3.1 s)</span></td></tr>
+<tr class="k-tiada"><td><strong>Panen bot</strong><div class="rint">build/laporan/panen-*.json — cron 01:00 di mesin pemilik</div></td>
+    <td>—</td>
+    <td><span class="lampu"></span>laporan tidak ada</td>
+    <td class="num"><span class="rint">tidak dijalankan di sini</span></td></tr></tbody></table>
+<h2 id="karya">2 · Karya di korpus (108)</h2>
+  <p class="sub">Tahap kurasi (kolom <em>tahap</em>) dipisah dari status hukum (kolom <em>status</em>). Karya <em>belum dikelompokkan</em> adalah hasil bot yang belum dinilai kurator — validator melarang promosinya.</p>
+  <p>Per tahap: <span class="chip"><b>82</b> terverifikasi</span> <span class="chip"><b>17</b> panen</span> <span class="chip"><b>7</b> (tanpa tahap)</span> <span class="chip"><b>2</b> terstruktur</span></p>
+  <p>Per status hukum: <span class="chip"><b>59</b> berlaku</span> <span class="chip"><b>44</b> diubah</span> <span class="chip"><b>3</b> dicabut</span> <span class="chip"><b>2</b> dicabut-sebagian</span></p>
+  <h3>Karya berbendera (62)</h3>
+  <table><thead><tr><th>Karya</th><th>Tahap</th><th>Status</th><th>Bendera</th></tr></thead><tbody><tr><td>permenkumham-2017-9<div class="rint">Peraturan Menteri Hukum dan HAM Nomor 9 Tahun 2017 tentang Penerapan Prinsip Mengenali Pengguna Jasa bagi Notaris</div></td>
+    <td>panen</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>permenkumham-2019-8<div class="rint">Standar Pengelolaan Dokumen dan Informasi Hukum</div></td>
+    <td>panen</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>perppu-2013-1<div class="rint">Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</div></td>
+    <td>panen</td><td>dicabut</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>perppu-2020-1<div class="rint">Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 1 Tahun 2020 tentang Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan untuk Penanganan Pandemi Corona Virus Disease 2019 (COVID-19) dan/atau dalam Rangka Menghadapi Ancaman yang Membahayakan Perekonomian Nasional dan/atau Stabilitas Sistem Keuangan</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>perppu-2022-2<div class="rint">Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja</div></td>
+    <td>—</td><td>diubah</td><td><span class="chip warn">tanpa tahap</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>perpres-2014-87<div class="rint">Peraturan Pelaksanaan Undang-undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-undangan</div></td>
+    <td>panen</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>pp-2015-43<div class="rint">Peraturan Pemerintah Nomor 43 Tahun 2015 tentang Pihak Pelapor dalam Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang</div></td>
+    <td>panen</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>pp-2016-24<div class="rint">Perubahan Atas Peraturan Pemerintah Nomor 37 Tahun 1998 Tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>putusan-mk-1-2-2014<div class="rint">Putusan Mahkamah Konstitusi Nomor 1-2/PUU-XII/2014 (pengujian UU 4/2014 tentang Penetapan Perppu 1/2013 menjadi Undang-Undang — dikabulkan seluruhnya)</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>putusan-mk-18-2019<div class="rint">Putusan Mahkamah Konstitusi Nomor 18/PUU-XVII/2019 (pengujian Pasal 15 UU 42/1999 tentang Jaminan Fidusia — eksekusi sertifikat jaminan fidusia)</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>putusan-mk-2-2021<div class="rint">Putusan Mahkamah Konstitusi Nomor 2/PUU-XIX/2021 (pengujian kembali Pasal 15 ayat (2) UU 42/1999 tentang Jaminan Fidusia — permohonan ditolak; penegasan makna Putusan 18/PUU-XVII/2019)</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>putusan-mk-20-2016<div class="rint">Putusan Mahkamah Konstitusi Nomor 20/PUU-XIV/2016 (pengujian Pasal 5 dan Pasal 44 UU ITE serta Pasal 26A UU Tipikor — informasi/dokumen elektronik sebagai alat bukti)</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>putusan-mk-46-2010<div class="rint">Putusan Mahkamah Konstitusi Nomor 46/PUU-VIII/2010 (pengujian Pasal 2 ayat (2) dan Pasal 43 ayat (1) UU 1/1974 tentang Perkawinan — hubungan perdata anak luar kawin)</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>putusan-mk-69-2015<div class="rint">Putusan Mahkamah Konstitusi Nomor 69/PUU-XIII/2015 (pengujian Pasal 21 &amp; 36 UUPA serta Pasal 29 UU 1/1974 — perjanjian perkawinan dapat dibuat selama ikatan perkawinan)</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-1946-1<div class="rint">Peraturan tentang Hukum Pidana</div></td>
+    <td>panen</td><td>dicabut</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-1983-6<div class="rint">Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">6 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-1983-7<div class="rint">Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">5 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-1983-8<div class="rint">Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">5 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-1992-25<div class="rint">Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">2 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-1992-7<div class="rint">Undang-Undang Nomor 7 Tahun 1992 tentang Perbankan</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">2 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2003-19<div class="rint">Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">2 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2003-24<div class="rint">Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">1 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2004-28<div class="rint">Undang-Undang Nomor 28 Tahun 2004 tentang Perubahan atas Undang-Undang Nomor 16 Tahun 2001 tentang Yayasan</div></td>
+    <td>terstruktur</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2004-38<div class="rint">Undang-Undang Nomor 38 Tahun 2004 tentang Jalan</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">4 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2004-40<div class="rint">Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">2 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2007-25<div class="rint">Undang-Undang Nomor 25 Tahun 2007 tentang Penanaman Modal</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">2 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2007-27<div class="rint">Undang-Undang Nomor 27 Tahun 2007 tentang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">1 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2007-40<div class="rint">Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">1 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2008-17<div class="rint">Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">3 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2008-21<div class="rint">Undang-Undang Nomor 21 Tahun 2008 tentang Perbankan Syariah</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">4 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2009-10<div class="rint">Undang-Undang Nomor 10 Tahun 2009 tentang Kepariwisataan</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">4 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2009-18<div class="rint">Undang-Undang Nomor 18 Tahun 2009 tentang Peternakan dan Kesehatan Hewan</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">1 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2009-22<div class="rint">Undang-Undang Nomor 22 Tahun 2009 tentang Lalu Lintas Dan Angkutan Jalan</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2009-4<div class="rint">Undang-Undang Nomor 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">2 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2010-13<div class="rint">Undang-Undang Nomor 13 Tahun 2010 tentang Hortikultura</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2011-4<div class="rint">Undang-Undang Nomor 4 Tahun 2011 tentang Informasi Geospasial</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2011-8<div class="rint">Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2012-16<div class="rint">Undang-Undang Nomor 16 Tahun 2012 tentang Industri Pertahanan</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2012-2<div class="rint">Undang-Undang Nomor 2 Tahun 2012 tentang Pengadaan Tanah Bagi Pembangunan Untuk Kepentingan Umum</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">1 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2013-19<div class="rint">Undang-Undang Nomor 19 Tahun 2013 tentang Perlindungan dan Pemberdayaan Petani</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2014-17<div class="rint">Undang-Undang Nomor 17 Tahun 2014 tentang Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">5 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2014-2<div class="rint">Perubahan atas Undang-Undang Nomor 30 Tahun 2004 Tentang Jabatan Notaris</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2014-21<div class="rint">Undang-Undang Nomor 21 Tahun 2014 tentang Panas Bumi</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2014-3<div class="rint">Undang-Undang Nomor 3 Tahun 2014 tentang Perindustrian</div></td>
+    <td>terverifikasi</td><td>diubah</td><td><span class="chip warn">1 pengubah belum dienkode</span></td></tr>
+<tr><td>uu-2014-30<div class="rint">Undang-Undang Nomor 30 Tahun 2014 tentang Administrasi Pemerintahan</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2016-1<div class="rint">Undang-Undang Nomor 1 Tahun 2016 tentang Penjaminan</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2016-19<div class="rint">Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik</div></td>
+    <td>—</td><td>diubah</td><td><span class="chip warn">tanpa tahap</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2016-7<div class="rint">Undang-Undang Nomor 7 Tahun 2016 tentang Perlindungan dan Pemberdayaan Nelayan, Pembudi Daya Ikan, dan Petambak Garam</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">belum dikelompokkan</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2019-15<div class="rint">Perubahan atas Undang-Undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2019-16<div class="rint">Perubahan atas Undang-undang Nomor 1 Tahun 1974 tentang Perkawinan</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2020-11<div class="rint">Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja</div></td>
+    <td>terverifikasi</td><td>dicabut</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2020-7<div class="rint">Undang-Undang Nomor 7 Tahun 2020 tentang Perubahan Ketiga atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2022-13<div class="rint">Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2023-6<div class="rint">Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang</div></td>
+    <td>panen</td><td>diubah</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2024-1<div class="rint">Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik</div></td>
+    <td>—</td><td>berlaku</td><td><span class="chip warn">tanpa tahap</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2024-3<div class="rint">Undang-Undang Nomor 3 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2024-61<div class="rint">Undang-Undang Nomor 61 Tahun 2024 tentang Perubahan atas Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara</div></td>
+    <td>terverifikasi</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uu-2026-1<div class="rint">Penyesuaian Pidana</div></td>
+    <td>panen</td><td>berlaku</td><td><span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uud-1945-perubahan-1<div class="rint">Perubahan Pertama Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div></td>
+    <td>—</td><td>berlaku</td><td><span class="chip warn">tanpa tahap</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uud-1945-perubahan-2<div class="rint">Perubahan Kedua Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div></td>
+    <td>—</td><td>berlaku</td><td><span class="chip warn">tanpa tahap</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uud-1945-perubahan-3<div class="rint">Perubahan Ketiga Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div></td>
+    <td>—</td><td>berlaku</td><td><span class="chip warn">tanpa tahap</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr>
+<tr><td>uud-1945-perubahan-4<div class="rint">Perubahan Keempat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</div></td>
+    <td>—</td><td>berlaku</td><td><span class="chip warn">tanpa tahap</span> <span class="chip warn">tanpa dokumen (rintisan)</span></td></tr></tbody></table>
+<h2 id="antrean">3 · Antrean panen (72)</h2>
+  <p class="sub">data/antrean.json, dibangun 2026-09-04. Kuitansi terakhir = stasiun terjauh yang pernah dicoba. Kolom <em>jalur</em>: judul tak bisa membedakan naskah asli dari UU perubahan — jangan memilih pekerjaan dari <em>keadaan</em> saja. Berkas penuh: <a href="/tinjau/data/antrean.json">antrean.json</a>.</p>
+  <p>Per keadaan: <span class="chip"><b>29</b> siap-rilis</span> <span class="chip"><b>16</b> karantina</span> <span class="chip"><b>11</b> baru</span> <span class="chip"><b>9</b> terparkir</span> <span class="chip"><b>5</b> bermetadata</span> <span class="chip"><b>1</b> tayang</span> <span class="chip"><b>1</b> terarsip</span> &nbsp; Per jalur: <span class="chip"><b>66</b> asli</span> <span class="chip"><b>6</b> perubahan</span></p>
+  <table><thead><tr><th>Karya</th><th>Keadaan</th><th>Jalur</th><th>Skor</th><th>Kuitansi terakhir</th></tr></thead><tbody><tr><td><a href="https://peraturan.bpk.go.id/Details/240203/uu-no-4-tahun-2023">uu-2023-4</a><div class="rint">Pengembangan dan Penguatan Sektor Keuangan</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">28.0</td>
+      <td class="rint">S2 · gagal · 2026-09-16T22:51</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/40598/uu-no-24-tahun-2004">uu-2004-24</a><div class="rint">Lembaga Penjamin Simpanan</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">9.0</td>
+      <td class="rint">S3 · gagal · 2026-09-14T15:17</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/117023/uu-no-11-tahun-2019">uu-2019-11</a><div class="rint">Sistem Nasional Ilmu Pengetahuan dan Teknologi</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-15T14:07</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/123688/uu-no-22-tahun-2019">uu-2019-22</a><div class="rint">Sistem Budi Daya Pertanian Berkelanjutan</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-15T14:07</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/64508/uu-no-18-tahun-2017">uu-2017-18</a><div class="rint">Pelindungan Pekerja Migran Indonesia</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-15T14:07</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/37637/uu-no-2-tahun-2017">uu-2017-2</a><div class="rint">Jasa Konstruksi</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-15T14:07</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/37643/uu-no-6-tahun-2017">uu-2017-6</a><div class="rint">Arsitek</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-16T22:51</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/37595/uu-no-20-tahun-2016">uu-2016-20</a><div class="rint">Merek dan Indikasi Geografis</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-17T05:49</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38710/uu-no-32-tahun-2014">uu-2014-32</a><div class="rint">Kelautan</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-17T18:03</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38807/uu-no-39-tahun-2014">uu-2014-39</a><div class="rint">Perkebunan</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-17T18:04</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38884/uu-no-18-tahun-2013">uu-2013-18</a><div class="rint">Pencegahan dan Pemberantasan Perusakan Hutan</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S3 · gagal · 2026-09-21T02:07</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/185162/uu-no-7-tahun-2021">uu-2021-7</a><div class="rint">Harmonisasi Peraturan Perpajakan</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S3 · gagal · 2026-09-05T16:37</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/45280/uu-no-5-tahun-1999">uu-1999-5</a><div class="rint">Larangan Praktek Monopoli dan Persaingan Usaha Tidak Sehat</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S3 · gagal · 2026-09-05T16:38</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/106346/uu-no-8-tahun-2019">uu-2019-8</a><div class="rint">Penyelenggaraan Ibadah Haji dan Umrah</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S3 · gagal · 2026-09-05T16:38</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/37536/uu-no-13-tahun-2016">uu-2016-13</a><div class="rint">Paten</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S3 · gagal · 2026-09-05T16:38</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/40763/uu-no-31-tahun-2004">uu-2004-31</a><div class="rint">Perikanan</div></td>
+      <td>karantina</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S3 · gagal · 2026-09-05T16:39</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38767/uu-no-30-tahun-2009">uu-2009-30</a><div class="rint">Ketenagalistrikan</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38771/uu-no-32-tahun-2009">uu-2009-32</a><div class="rint">Perlindungan dan Pengelolaan Lingkungan Hidup</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38772/uu-no-33-tahun-2009">uu-2009-33</a><div class="rint">Perfilman</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38783/uu-no-38-tahun-2009">uu-2009-38</a><div class="rint">POS</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/54483/uu-no-39-tahun-2009">uu-2009-39</a><div class="rint">Kawasan Ekonomi Khusus</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38786/uu-no-41-tahun-2009">uu-2009-41</a><div class="rint">Perlindungan Lahan Pertanian Pangan Berkelanjutan</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39896/uu-no-23-tahun-2007">uu-2007-23</a><div class="rint">Perkeretaapian</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/40202/uu-no-23-tahun-2006">uu-2006-23</a><div class="rint">Administrasi Kependudukan</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/43013/uu-no-13-tahun-2003">uu-2003-13</a><div class="rint">Ketenagakerjaan</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/44471/uu-no-22-tahun-2002">uu-2002-22</a><div class="rint">Grasi</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/44476/uu-no-24-tahun-2002">uu-2002-24</a><div class="rint">Surat Utang Negara</div></td>
+      <td>baru</td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">—</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/304396/uu-no-61-tahun-2024">uu-2024-61</a><div class="rint">Perubahan atas Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara</div></td>
+      <td>bermetadata</td>
+      <td>perubahan</td><td class="num">—</td>
+      <td class="rint">S5 · lolos · 2026-09-06T00:29</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/283617/uu-no-3-tahun-2024">uu-2024-3</a><div class="rint">Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 2014 tentang Desa</div></td>
+      <td>bermetadata</td>
+      <td>perubahan</td><td class="num">—</td>
+      <td class="rint">S5 · lolos · 2026-09-06T02:32</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/135060/perpu-no-1-tahun-2020">perppu-2020-1</a><div class="rint">Kebijakan Keuangan Negara dan Stabilitas Sistem Keuangan untuk Penanganan Pandemi Corona Virus Disease 2019 (COVID-19) dan/atau dalam Rangka Menghadapi Ancaman yang Membahayakan Perekonomian Nasional dan/atau Stabilitas Sistem Keuangan</div></td>
+      <td>bermetadata</td>
+      <td>perubahan</td><td class="num">—</td>
+      <td class="rint">S5 · lolos · 2026-09-06T03:26</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/149750/uu-no-11-tahun-2020">uu-2020-11</a><div class="rint">Cipta Kerja</div></td>
+      <td>bermetadata</td>
+      <td>perubahan</td><td class="num">—</td>
+      <td class="rint">S5 · lolos · 2026-09-06T03:37</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/234926/perpu-no-2-tahun-2022">perppu-2022-2</a><div class="rint">Cipta Kerja</div></td>
+      <td>bermetadata</td>
+      <td>perubahan</td><td class="num">—</td>
+      <td class="rint">S5 · lolos · 2026-09-06T03:48</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/45332/uu-no-23-tahun-1999">uu-1999-23</a><div class="rint">Bank Indonesia</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">11.0</td>
+      <td class="rint">S6 · lolos · 2026-09-15T14:47</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/44418/uu-no-2-tahun-2002">uu-2002-2</a><div class="rint">Kepolisian Negara Republik Indonesia</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">8.0</td>
+      <td class="rint">S6 · lolos · 2026-09-15T13:53</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/45373/uu-no-41-tahun-1999">uu-1999-41</a><div class="rint">Kehutanan</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">8.0</td>
+      <td class="rint">S6 · lolos · 2026-09-15T13:53</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/46052/uu-no-32-tahun-1997">uu-1997-32</a><div class="rint">Perdagangan Berjangka Komoditi</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">8.0</td>
+      <td class="rint">S6 · lolos · 2026-09-15T13:53</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39719/uu-no-39-tahun-2008">uu-2008-39</a><div class="rint">Kementerian Negara</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-04T10:27</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/43919/uu-no-19-tahun-2003">uu-2003-19</a><div class="rint">Badan Usaha Milik Negara</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S2 · lolos · 2026-09-04T10:25</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39128/uu-no-1-tahun-2011">uu-2011-1</a><div class="rint">Perumahan dan Kawasan Permukiman</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-04T10:27</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39012/uu-no-2-tahun-2012">uu-2012-2</a><div class="rint">Pengadaan Tanah Bagi Pembangunan Untuk Kepentingan Umum</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-04T10:27</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38582/uu-no-6-tahun-2014">uu-2014-6</a><div class="rint">Desa</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-04T10:27</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39911/uu-no-27-tahun-2007">uu-2007-27</a><div class="rint">Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/40787/uu-no-40-tahun-2004">uu-2004-40</a><div class="rint">Sistem Jaminan Sosial Nasional</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/46988/uu-no-7-tahun-1983">uu-1983-7</a><div class="rint">Pajak Penghasilan</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/46986/uu-no-6-tahun-1983">uu-1983-6</a><div class="rint">Ketentuan Umum dan Tata Cara Perpajakan</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38643/uu-no-17-tahun-2014">uu-2014-17</a><div class="rint">Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:10</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38572/uu-no-3-tahun-2014">uu-2014-3</a><div class="rint">Perindustrian</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38709/uu-no-33-tahun-2014">uu-2014-33</a><div class="rint">Jaminan Produk Halal</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38584/uu-no-7-tahun-2014">uu-2014-7</a><div class="rint">Perdagangan</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39268/uu-no-24-tahun-2011">uu-2011-24</a><div class="rint">Badan Penyelenggara Jaminan Sosial</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38578/uu-no-4-tahun-2009">uu-2009-4</a><div class="rint">Pertambangan Mineral dan Batubara</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39653/uu-no-20-tahun-2008">uu-2008-20</a><div class="rint">Usaha Mikro, Kecil, dan Menengah</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39903/uu-no-25-tahun-2007">uu-2007-25</a><div class="rint">Penanaman Modal</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39908/uu-no-26-tahun-2007">uu-2007-26</a><div class="rint">Penataan Ruang</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/46599/uu-no-7-tahun-1992">uu-1992-7</a><div class="rint">Perbankan</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/46990/uu-no-8-tahun-1983">uu-1983-8</a><div class="rint">Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38598/uu-no-10-tahun-2009">uu-2009-10</a><div class="rint">Kepariwisataan</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38634/uu-no-18-tahun-2009">uu-2009-18</a><div class="rint">Peternakan dan Kesehatan Hewan</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39060/uu-no-17-tahun-2008">uu-2008-17</a><div class="rint">Pelayaran</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39655/uu-no-21-tahun-2008">uu-2008-21</a><div class="rint">Perbankan Syariah</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/40785/uu-no-38-tahun-2004">uu-2004-38</a><div class="rint">Jalan</div></td>
+      <td>siap-rilis</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · lolos · 2026-09-05T17:05</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/37162/uu-no-1-tahun-2016">uu-2016-1</a><div class="rint">Penjaminan</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-16T22:52</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/37237/uu-no-7-tahun-2016">uu-2016-7</a><div class="rint">Perlindungan dan Pemberdayaan Nelayan, Pembudi Daya Ikan, dan Petambak Garam</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-17T05:49</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38684/uu-no-21-tahun-2014">uu-2014-21</a><div class="rint">Panas Bumi</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-17T05:50</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38695/uu-no-30-tahun-2014">uu-2014-30</a><div class="rint">Administrasi Pemerintahan</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-17T18:03</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38893/uu-no-19-tahun-2013">uu-2013-19</a><div class="rint">Perlindungan dan Pemberdayaan Petani</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-21T02:07</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39088/uu-no-16-tahun-2012">uu-2012-16</a><div class="rint">Industri Pertahanan</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-21T02:08</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/39136/uu-no-4-tahun-2011">uu-2011-4</a><div class="rint">Informasi Geospasial</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-21T19:00</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38555/uu-no-13-tahun-2010">uu-2010-13</a><div class="rint">Hortikultura</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-21T19:00</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38654/uu-no-22-tahun-2009">uu-2009-22</a><div class="rint">Lalu Lintas Dan Angkutan Jalan</div></td>
+      <td>terparkir <span class="chip warn">menunggu kurator</span> <span class="chip">parkir</span></td>
+      <td>asli</td><td class="num">6.0</td>
+      <td class="rint">S5 · lolos · 2026-09-21T20:01</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/38547/uu-no-8-tahun-2010">uu-2010-8</a><div class="rint">Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang</div></td>
+      <td>tayang</td>
+      <td>asli</td><td class="num">—</td>
+      <td class="rint">S6 · gagal · 2026-09-04T05:52</td></tr>
+<tr><td><a href="https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023">uu-2023-6</a><div class="rint">Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang</div></td>
+      <td>terarsip</td>
+      <td>perubahan</td><td class="num">—</td>
+      <td class="rint">S2 · lolos · 2026-09-06T03:50</td></tr></tbody></table>
+<h2 id="karantina">4 · Karantina (19)</h2>
+  <p class="sub">data/karantina.json. Kode dibaca dari data apa adanya — bukan dari daftar tetap — supaya kode baru tak hilang dari pandangan. Arti kode: skill <code>panen-peraturan</code>. Berkas penuh: <a href="/tinjau/data/karantina.json">karantina.json</a>.</p>
+  <p>Per kode: <span class="chip"><b>8</b> OCR-BURUK</span> <span class="chip"><b>4</b> SCAN-BERAT</span> <span class="chip"><b>2</b> PARSE-BERTEMUAN</span> <span class="chip"><b>1</b> PARSER-KHUSUS</span> <span class="chip"><b>1</b> CACAT-CETAK-SUMBER</span> <span class="chip"><b>1</b> BUKAN-UU-ASLI</span> <span class="chip"><b>1</b> STATUS-BERSELISIH</span> <span class="chip"><b>1</b> BERKAS-TERLALU-BESAR</span> &nbsp; Per stasiun: <span class="chip"><b>16</b> S3</span> <span class="chip"><b>1</b> S1</span> <span class="chip"><b>1</b> S5</span> <span class="chip"><b>1</b> S2</span></p>
+  <table><thead><tr><th>Karya</th><th>Stasiun</th><th>Kode</th><th>Tanggal</th><th>Catatan</th></tr></thead><tbody><tr><td>uu-2013-18</td><td>S3</td><td><span class="chip">PARSE-BERTEMUAN</span></td>
+     <td class="num">2026-09-21</td><td class="rint">2 temuan invarian/penomoran</td></tr>
+<tr><td>uu-2014-32</td><td>S3</td><td><span class="chip">OCR-BURUK</span></td>
+     <td class="num">2026-09-18</td><td class="rint">7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 4.8% (ambang 3.0); kop rusak 33.3% dari 117 (ambang 12.0). Parser bukan sebabnya.</td></tr>
+<tr><td>uu-2014-39</td><td>S3</td><td><span class="chip">OCR-BURUK</span></td>
+     <td class="num">2026-09-18</td><td class="rint">7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 14.6% (ambang 3.0). Parser bukan sebabnya.</td></tr>
+<tr><td>uu-2023-4</td><td>S2</td><td><span class="chip">BERKAS-TERLALU-BESAR</span></td>
+     <td class="num">2026-09-17</td><td class="rint">respons melampaui batas 67108864 bita (sekurangnya 67108865): https://peraturan.bpk.go.id/Download/295189/UU%20Nomor%204%20Tahun%202023.pdf</td></tr>
+<tr><td>uu-2017-6</td><td>S3</td><td><span class="chip">OCR-BURUK</span></td>
+     <td class="num">2026-09-17</td><td class="rint">7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 3.7% (ambang 3.0); kop rusak 20.6% dari 63 (ambang 12.0). Parser bukan sebabnya.</td></tr>
+<tr><td>uu-2016-20</td><td>S3</td><td><span class="chip">OCR-BURUK</span></td>
+     <td class="num">2026-09-17</td><td class="rint">6 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 3.2% (ambang 3.0); kop rusak 28.7% dari 87 (ambang 12.0). Parser bukan sebabnya.</td></tr>
+<tr><td>uu-2004-24</td><td>S3</td><td><span class="chip">PARSE-BERTEMUAN</span></td>
+     <td class="num">2026-09-15</td><td class="rint">5 temuan invarian/penomoran</td></tr>
+<tr><td>uu-2019-22</td><td>S3</td><td><span class="chip">OCR-BURUK</span></td>
+     <td class="num">2026-09-15</td><td class="rint">6 temuan invarian, dan lapisan teks sumbernya sendiri rusak — kop rusak 50.0% dari 148 (ambang 12.0). Parser bukan sebabnya.</td></tr>
+<tr><td>uu-2017-2</td><td>S3</td><td><span class="chip">OCR-BURUK</span></td>
+     <td class="num">2026-09-15</td><td class="rint">7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 4.1% (ambang 3.0); kop rusak 63.6% dari 154 (ambang 12.0). Parser bukan sebabnya.</td></tr>
+<tr><td>uu-2017-18</td><td>S3</td><td><span class="chip">OCR-BURUK</span></td>
+     <td class="num">2026-09-15</td><td class="rint">7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — kop rusak 16.7% dari 132 (ambang 12.0). Parser bukan sebabnya.</td></tr>
+<tr><td>uu-2019-11</td><td>S3</td><td><span class="chip">OCR-BURUK</span></td>
+     <td class="num">2026-09-15</td><td class="rint">7 temuan invarian, dan lapisan teks sumbernya sendiri rusak — token asing 7.4% (ambang 3.0); kop rusak 22.1% dari 172 (ambang 12.0). Parser bukan sebabnya.</td></tr>
+<tr><td>uu-2019-16</td><td>S1</td><td><span class="chip">BUKAN-UU-ASLI</span></td>
+     <td class="num">2026-09-08</td><td class="rint">judul menandakan bukan naskah asli: Perubahan atas Undang-undang Nomor 1 Tahun 1974 tentang Perkawinan</td></tr>
+<tr><td>uu-2011-20</td><td>S5</td><td><span class="chip">STATUS-BERSELISIH</span></td>
+     <td class="num">2026-09-08</td><td class="rint">kartu registri menyebut 'diubah', halaman Details menyebut 'berlaku' — periksa blok relasi lalu tetapkan sendiri</td></tr>
+<tr><td>uu-2021-7</td><td>S3</td><td><span class="chip">SCAN-BERAT</span></td>
+     <td class="num">2026-09-05</td><td class="rint">UU 7/2021 HPP — 11,8 MB, penanda ayat ter-OCR ('(21' untuk '(2)'); 92 temuan.</td></tr>
+<tr><td>uu-1999-5</td><td>S3</td><td><span class="chip">SCAN-BERAT</span></td>
+     <td class="num">2026-09-05</td><td class="rint">UU 5/1999 Antimonopoli — salinan BPK hasil scan; 29 temuan invarian tersisa sesudah lima perbaikan parser.</td></tr>
+<tr><td>uu-2019-8</td><td>S3</td><td><span class="chip">SCAN-BERAT</span></td>
+     <td class="num">2026-09-05</td><td class="rint">UU 8/2019 Haji &amp; Umrah — scan (ocr terdeteksi); 57 temuan.</td></tr>
+<tr><td>uu-2016-13</td><td>S3</td><td><span class="chip">SCAN-BERAT</span></td>
+     <td class="num">2026-09-05</td><td class="rint">UU 13/2016 Paten — scan dengan kop ter-OCR bocor ke badan teks ('REPU BLIK INDONESIA -J-'); 88 temuan.</td></tr>
+<tr><td>uu-2004-31</td><td>S3</td><td><span class="chip">CACAT-CETAK-SUMBER</span></td>
+     <td class="num">2026-09-05</td><td class="rint">UU 31/2004 Perikanan — naskah resminya sendiri mencetak butir ketiga Pasal 9 sebagai 'a.' (mestinya 'c.'); menukarnya berarti mengarang naskah, jadi menunggu keputusan pemilik.</td></tr>
+<tr><td>uu-1960-5</td><td>S3</td><td><span class="chip">PARSER-KHUSUS</span></td>
+     <td class="num">2026-09-04</td><td class="rint">UU 5/1960 (UUPA) berstruktur diktum berbagian (PERTAMA/KEDUA/…) dan dipanen dengan tools/parser-uupa.py, bukan parser baku. Mesin panen benar menolaknya — karyanya sendiri sudah lama ada di korpus dan terverifikasi.</td></tr></tbody></table>
+<h2 id="invarian">5 · Invarian struktur</h2>
+  <div class="kartu k-segar"><strong>1 temuan</strong> di 66 karya / 31.988 unit · <strong class="">0 baru</strong> di luar garis dasar · 1 utang diakui (dibekukan 2026-09-04) · ditegakkan untuk: uu<br>Per kode: <span class="chip"><b>1</b> HURUF-BOLONG</span></div>
+  <table><thead><tr><th>Karya</th><th>Temuan</th><th>Contoh</th></tr></thead><tbody><tr><td>pp-1997-24</td><td class="num">1</td><td class="rint">HURUF-BOLONG @ pasal-12/ayat-2/huruf-a</td></tr></tbody></table>
+  <p class="rint">Berkas penuh: <a href="/tinjau/data/invarian.json">invarian.json</a></p>
+<h2 id="typo">6 · Cacat ketik warisan OCR</h2>
+  <div class="kartu k-segar"><strong>555 temuan</strong> di 60 karya (kosakata korpus 17.629) · <strong class="">0 baru</strong> · 9 menunggu kurasi · 555 utang diakui<br>Per kelas: <span class="chip"><b>64</b> KARAKTER-ASING</span> <span class="chip"><b>206</b> HURUF-HILANG</span> <span class="chip"><b>151</b> DIGIT-DI-KATA</span> <span class="chip"><b>134</b> KELAS-GLYPH</span></div>
+  <p class="sub">Garis dasar data/typo-dasar.json dibekukan 2026-09-11: <strong>562</strong> utang diakui, <strong>45</strong> di antaranya sudah dibaca dan diberi alasan tertulis (8%). Utang yang belum dibaca adalah pekerjaan kurator, bukan mesin.</p>
+  <p class="rint">Berkas penuh: <a href="/tinjau/data/typo.json">typo.json</a></p>
+<h2 id="audit">7 · Audit instruksi perubahan</h2>
+  <div class="kartu k-segar"><strong>83 sambungan</strong> pengubah→target · <strong class="">0 butir instruksi hilang</strong> di 0 sambungan · 11 tak bisa diperiksa</div>
+  <details><summary>Batas yang diketahui alat ini (baca sebelum mempercayai angkanya)</summary><ol><li>Alat ini memeriksa **keberadaan unit**, bukan ketepatan strukturnya. UU 15/2019 mengenkode Pasal 95A di dalam BAB X padahal ia isi BAB XA yang disisipkan; unitnya ADA, jadi audit ini diam. Cacat semacam itu hanya ketemu oleh pembacaan manusia.</li><li>Instruksi yang menyebut beberapa pasal (&quot;Di antara Pasal 12 dan Pasal 13 disisipkan Pasal 12A&quot;) dianggap terwakili bila SALAH SATU pasalnya tersentuh operasi. Longgar disengaja: yang dicari instruksi yang hilang sama sekali, bukan ketidaktepatan acuan.</li><li>Segmen omnibus dicocokkan lewat nomor + judul sasaran (tools/peta-segmen). Bila cocokannya gagal, sambungan itu dilaporkan SEGMEN-TAK-KETEMU — bukan dilewati diam-diam.</li></ol></details>
+  <table><thead><tr><th>Sambungan</th><th>Status</th><th>Instruksi</th><th>Catatan</th></tr></thead><tbody><tr><td>perppu-2020-1 → uu-2014-6</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">1 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uu-1960-5 → kuhperdata-1847</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">1 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uu-1974-1 → kuhperdata-1847</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">8 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uu-2020-11 → uu-1983-8</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">2 kepala 'Pasal 112' sama-sama cocok uu-1983-8</td></tr>
+<tr><td>uu-2023-1 → uu-2008-11</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">14 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uu-2026-1 → uu-2011-12</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">1 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uu-2026-1 → uu-2023-1</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">100 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uud-1945-perubahan-1 → uud-1945</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">14 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uud-1945-perubahan-2 → uud-1945</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">23 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uud-1945-perubahan-3 → uud-1945</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">27 operasi terenkode; segmen tak bisa dicocokkan</td></tr>
+<tr><td>uud-1945-perubahan-4 → uud-1945</td><td><span class="chip">SEGMEN-TAK-KETEMU</span></td>
+     <td class="num">0</td><td class="rint">31 operasi terenkode; segmen tak bisa dicocokkan</td></tr></tbody></table>
+  <p class="rint">Berkas penuh: <a href="/tinjau/data/audit.json">audit.json</a></p>
+<h2 id="panen">8 · Panen bot terakhir</h2>
+  <div class="kartu k-tiada"><strong class="merah">Tidak ada laporan panen</strong> di build/laporan/. Cron mungkin tidak berjalan, atau build ini dibuat di mesin lain (CI).</div>
+</div></html>

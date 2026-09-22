@@ -45,7 +45,7 @@
   "catatan_kurasi": "Pelaksana UUJN pelaksana UUJN. Teks penuh termuat dari salinan BN (PDF teks).",
   "kelompok": "kenotariatan"
  },
- "dihasilkan": "2026-09-18T13:09:19.190Z",
+ "dihasilkan": "2026-09-22T11:54:15.395Z",
  "timeline": [
   {
    "tanggal": "2016-12-30",
@@ -220,8 +220,8 @@
        "id": "pasal-3/ayat-1",
        "tipe": "ayat",
        "nomor": "(1)",
-       "teks": "Sanksi adminstratif sebagaimana dimaksud dalam Pasal 2 terdiri atas:",
-       "verifikasi": "pdf-resmi",
+       "teks": "Sanksi administratif sebagaimana dimaksud dalam Pasal 2 terdiri atas:",
+       "verifikasi": "ejaan-baku",
        "anak": [
         {
          "id": "pasal-3/ayat-1/huruf-a",
@@ -260,6 +260,16 @@
          "berlaku_mulai": "2016-12-30"
         }
        ],
+       "ejaan_sumber": [
+        {
+         "dari": "adminstratif",
+         "ke": "administratif",
+         "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+         "bukti_korpus": "administratif 344x vs adminstratif 2x",
+         "pada": "2026-09-22"
+        }
+       ],
+       "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"adminstratif\", ditayangkan \"administratif\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
        "sumber": "permenkumham-2016-61",
        "berlaku_mulai": "2016-12-30"
       },
@@ -844,8 +854,9 @@
  },
  "keandalan": {
   "total": 72,
-  "pdf-resmi": 72,
+  "pdf-resmi": 71,
   "pdf-ocr": 0,
+  "ejaan-baku": 1,
   "draf": 0,
   "lainnya": 0
  },

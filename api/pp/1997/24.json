@@ -35,7 +35,7 @@
   "catatan_kurasi": "Jantung kerja PPAT. Sebagian diubah/dilengkapi PP 18/2021 (pasca-UUCK) — peristiwa menyusul (antre di docs/10). DUA CACAT NASKAH SUMBER yang tercatat terbuka. (1) Judul \"Bagian Ketiga — Pembuktian Hak Dan Pembukuannya\" (BAB IV) tidak tercetak di salinan yang tersedia — korban patah halaman; keberadaannya dipastikan dari penomoran Paragraf yang mengulang dari 1 sebelum Pasal 23, dan judulnya direkonstruksi kurator. KARENA ITU karya ini TIDAK boleh diregenerasi polos dari parser: tools/promosi-draf.py akan menolaknya karena judul itu lenyap dari hasil parse. (2) Pasal 12 ayat (2) mencetak huruf b SEBELUM huruf a pada naskah aslinya; urutan itu dipertahankan apa adanya dan terdaftar di data/invarian-dasar.json, bukan diam-diam ditukar.",
   "kelompok": "kenotariatan"
  },
- "dihasilkan": "2026-09-18T13:09:19.265Z",
+ "dihasilkan": "2026-09-22T11:54:15.514Z",
  "timeline": [
   {
    "tanggal": "1997-07-08",
@@ -1587,8 +1587,18 @@
            "id": "pasal-28/ayat-2",
            "tipe": "ayat",
            "nomor": "(2)",
-           "teks": "Jika setelah berakhirnya jangka waktu pengumuman sebagaimana dimaksud dalam Pasal 26 ayat (1) masih ada kekurangkelengkapan data fiik dan atau data yuridis yang bersangkutan atau masih ada keberatan yang belum diselesaikan, pengesahan sebagaimana dimaksud pada ayat (1) dilakukan dengan catatan mengenai hal-hal yang belum lengkap dan atau keberatan yang belum diselesaikan.",
-           "verifikasi": "pdf-resmi",
+           "teks": "Jika setelah berakhirnya jangka waktu pengumuman sebagaimana dimaksud dalam Pasal 26 ayat (1) masih ada kekurangkelengkapan data fisik dan atau data yuridis yang bersangkutan atau masih ada keberatan yang belum diselesaikan, pengesahan sebagaimana dimaksud pada ayat (1) dilakukan dengan catatan mengenai hal-hal yang belum lengkap dan atau keberatan yang belum diselesaikan.",
+           "verifikasi": "ejaan-baku",
+           "ejaan_sumber": [
+            {
+             "dari": "fiik",
+             "ke": "fisik",
+             "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+             "bukti_korpus": "fisik 234x vs fiik 2x",
+             "pada": "2026-09-22"
+            }
+           ],
+           "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"fiik\", ditayangkan \"fisik\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
            "sumber": "pp-1997-24",
            "berlaku_mulai": "1997-07-08"
           },
@@ -1596,8 +1606,8 @@
            "id": "pasal-28/ayat-3",
            "tipe": "ayat",
            "nomor": "(3)",
-           "teks": "Berita acara pengesahan ebagaimana dimaksud pada ayat (1) menjadi dasar untuk :",
-           "verifikasi": "pdf-resmi",
+           "teks": "Berita acara pengesahan sebagaimana dimaksud pada ayat (1) menjadi dasar untuk :",
+           "verifikasi": "ejaan-baku",
            "anak": [
             {
              "id": "pasal-28/ayat-3/huruf-a",
@@ -1627,6 +1637,16 @@
              "berlaku_mulai": "1997-07-08"
             }
            ],
+           "ejaan_sumber": [
+            {
+             "dari": "ebagaimana",
+             "ke": "sebagaimana",
+             "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+             "bukti_korpus": "sebagaimana 7482x vs ebagaimana 1x",
+             "pada": "2026-09-22"
+            }
+           ],
+           "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"ebagaimana\", ditayangkan \"sebagaimana\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
            "sumber": "pp-1997-24",
            "berlaku_mulai": "1997-07-08"
           }
@@ -1893,8 +1913,18 @@
          "id": "pasal-31/ayat-1",
          "tipe": "ayat",
          "nomor": "(1)",
-         "teks": "Sertifikat diterbitkan untuk kepentingan pemegang hak yang bersangkutan sesuai dengan data fiik dan data yuridis yang telah didaftar dalam buku tanah sebagaimana dimaksud dalam Pasal 30 ayat (1).",
-         "verifikasi": "pdf-resmi",
+         "teks": "Sertifikat diterbitkan untuk kepentingan pemegang hak yang bersangkutan sesuai dengan data fisik dan data yuridis yang telah didaftar dalam buku tanah sebagaimana dimaksud dalam Pasal 30 ayat (1).",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "fiik",
+           "ke": "fisik",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "fisik 234x vs fiik 2x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"fiik\", ditayangkan \"fisik\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pp-1997-24",
          "berlaku_mulai": "1997-07-08"
         },
@@ -1938,8 +1968,18 @@
          "id": "pasal-31/ayat-6",
          "tipe": "ayat",
          "nomor": "(6)",
-         "teks": "Bentuk, isi, cara pengisian dan penandatanganan sertfikat ditetapkan oleh Menteri.",
-         "verifikasi": "pdf-resmi",
+         "teks": "Bentuk, isi, cara pengisian dan penandatanganan sertifikat ditetapkan oleh Menteri.",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "sertfikat",
+           "ke": "sertifikat",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "sertifikat 385x vs sertfikat 2x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"sertfikat\", ditayangkan \"sertifikat\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pp-1997-24",
          "berlaku_mulai": "1997-07-08"
         }
@@ -2084,8 +2124,18 @@
          "id": "pasal-35/ayat-3",
          "tipe": "ayat",
          "nomor": "(3)",
-         "teks": "Dengan izin tetulis dari Menteri atau Pejabat yang ditunjuknya dapat diberikan petikan, salinan atau rekaman dokumen sebagaimana dimaksud pada ayat (1) kepada instani lain yang memerlukan untuk pelaksaan tugasnya.",
-         "verifikasi": "pdf-resmi",
+         "teks": "Dengan izin tetulis dari Menteri atau Pejabat yang ditunjuknya dapat diberikan petikan, salinan atau rekaman dokumen sebagaimana dimaksud pada ayat (1) kepada instansi lain yang memerlukan untuk pelaksaan tugasnya.",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "instani",
+           "ke": "instansi",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "instansi 353x vs instani 1x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"instani\", ditayangkan \"instansi\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pp-1997-24",
          "berlaku_mulai": "1997-07-08"
         },
@@ -2120,8 +2170,18 @@
          "id": "pasal-35/ayat-7",
          "tipe": "ayat",
          "nomor": "(7)",
-         "teks": "Bentuk, cara penyimpanan, penyajian dan penghapusan dokumen-dokumen sebagaimana dimaksud pada ayat (1) dan ayat (2), demikian juga cara penyimpanan dan penyajian data pendaftaran tanah dengan alat elektronik dan mikrofilm sebagaimana dimaksud pada ayat (5) ditetapkan oleh Mentei.",
-         "verifikasi": "pdf-resmi",
+         "teks": "Bentuk, cara penyimpanan, penyajian dan penghapusan dokumen-dokumen sebagaimana dimaksud pada ayat (1) dan ayat (2), demikian juga cara penyimpanan dan penyajian data pendaftaran tanah dengan alat elektronik dan mikrofilm sebagaimana dimaksud pada ayat (5) ditetapkan oleh Menteri.",
+         "verifikasi": "ejaan-baku",
+         "ejaan_sumber": [
+          {
+           "dari": "Mentei",
+           "ke": "Menteri",
+           "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+           "bukti_korpus": "Menteri 1424x vs Mentei 1x",
+           "pada": "2026-09-22"
+          }
+         ],
+         "catatan_kurasi": "Ejaan dinormalkan: sumber mencetak \"Mentei\", ditayangkan \"Menteri\" (otoritas: hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI; bunyi asli tersimpan di ejaan_sumber).",
          "sumber": "pp-1997-24",
          "berlaku_mulai": "1997-07-08"
         }
@@ -3472,8 +3532,9 @@
  },
  "keandalan": {
   "total": 272,
-  "pdf-resmi": 272,
+  "pdf-resmi": 266,
   "pdf-ocr": 0,
+  "ejaan-baku": 6,
   "draf": 0,
   "lainnya": 0
  },
@@ -3665,10 +3726,10 @@
    "28": "Ayat (1) Cukup jelas\nAyat (2) Belum lengkapnya data yang tersedia atau masih adanya keberatan yang tidak dapat diselesaikan secara musyawarah untuk mufakat, sebagaimana dimaksud dalam Pasal 27 ayat (1), bukan merupakan alasan untuk menunda dilakukannya pembuatan berita acara hasil pengumuman data fisik dan data yuridis.\nAyat (3) Pengesahan sebagaimana dimaksud ayat (2) merupakan pengesahan data fisik dan data yuridis bidang tanah sebagaimana adanya. Oleh karena itu data tersebut tidak selalu cukup untuk dasar pembukuan hak. Kadang-kadang data yang diperoleh hanya tepat untuk pembukuan hak melalui pengakuan hak berdasarkan pembuktian menurut Pasal 24 ayat (2). Kadang-kadang dari penelitian riwayat tanah ternyata bahwa tanah tersebut adalah tanah Negara, yang apabila sesuai dengan ketentuan yang berlaku dapat diberikan kepada pemohon dengan sesuatu hak atas tanah.",
    "29": "Ayat (1) Cukup jelas\nAyat (2) Cukup jelas\nAyat (3) Cukup jelas",
    "30": "Ayat (1)\nHuruf a Salah satu tujuan pendaftaran tanah adalah untuk mengumpulkan dan menyajikan informasi mengenai bidang-bidang tanah. Oleh karena itu data fisik dan data yuridis mengenai bidang tanah yang sudah dinilai cukup untuk dibukukan tetap dibukukan walaupun ada data yang masih harus dilengkapi atau ada keberatan dari pihak lain mengenai data itu. Dengan demikian setiap data fisik dan data yuridis mengenai bidang tanah itu, termasuk adanya sengketa mengenai data itu, semuanya tercatat.\nHuruf b Ketidaklengkapan data yang dimaksud pada huruf b dapat mengenai data fisik, misalnya karena surat ukurnya masih didasarkan atas batas sementara sebagaimana dimaksud dalam Pasal 19 ayat (3), dan dapat pula mengenai data yuridis, misalnya belum lengkapnya tanda tangan ahli waris.\nHuruf c, d dan e Sengketa yang dimaksud pada huruf c, d dan e juga dapat mengenai data fisik maupun data yuridis. Dalam hal sengketa dimaksud sudah diajukan ke Pengadilan dan ada perintah untuk status quo atau ada putusan mengenai sita atas tanah itu, maka pencantuman nama pemegang hak dalam buku tanah ditangguhkan sampai jelas siapa yang berhak atas tanah tersebut, baik melalui putusan Pengadilan maupun berdasarkan cara damai. Perintah status quo yang dimaksud disini haruslah resmi dan tertulis dan sesudah sidang pemeriksaan mengenai gugatan yang bersangkutan berjalan diperkuat dengan putusan peletakan sita atas tanah yang bersangkutan.\nAyat (2) Waktu 5 (lima) tahun dipandang cukup untuk menganggap bahwa data fisik maupun data yuridis yang kurang lengkap pembuktiannya itu sudah benar adanya.\nAyat (3) Penyelesaian secara damai dapat terjadi di luar maupun di dalam Pengadilan. Apabila dalam waktu yang ditentukan pihak yang keberatan atas data fisik maupun data yuridis yang akan dibukukan tidak mengajukan gugatan ke Pengadilan mengenai hal yang disengketakan itu, keberatannya dianggap tidak beralasan dan catatan mengenai adanya keberatan itu dihapus. Apabila dalam waktu yang ditentukan keberatan tersebut diajukan ke Pengadilan, catatan itu dihapus setelah ada penyelesaian secara damai atau putusan Pengadilan mengenai sengketa tersebut.\nAyat (4) Cukup jelas\nAyat (5) Cukup jelas",
-   "31": "Ayat (1) Cukup jelas\nAyat (2) Penerbitan sertifikat dimaksudkan agar pemegang hak dapat dengan mudah membuktikan haknya. Oleh karena itu sertifikat merupakan alat pembuktian yang kuat sebagaimana dimaksud Pasal 19 UUPA. Sehubungan dengan itu apabila masih ada ketidakpastian mengenai hak atas tanah yang bersangkutan, yang ternyata dari masih adanya catatan dalam pembukuannya sebagaimana dimaksud dalam Pasal 30 ayat (1), pada prinsipnya sertifikat belum dapat diterbitkan, namun apabila catatan itu mengenai ketidakpastian data fisik yang tidak disengketakan, sertifikat dapat diterbitkan. Data fisik yang dimaksud tidak lengkap adalah apabila data fisik bidang tanah yang bersangkutan merupakan hasil pemetaan sementara sebagaimana dimaksud dalam Pasal 19 ayat (3).\nAyat (3) Sertifikat tanah wakaf diserahkan kepada Nadzirnya. Dalam hal pemegang hak sudah meninggal dunia, sertfikat diterimakan kepada ahli warisnya atau salah seorang ahli waris dengan persetujuan para ahli waris yang lain.\nAyat (4) Dalam hal hak atas tanah dan hak milik atas satuan rumah susun kepunyaan seorang laki-laki yang beristri atau seorang perempuan yang bersuami, surat penunjukan tertulis dimaksud tidak diperlukan.\nAyat (5) Dengan adanya ketenttuan ini tiap pemegang hak bersama memegang sertifikat yang menyebutkan besarnya bagian masing-masing dari hak bersama tersebut. Dengan demikian masing-masing akan dengan mudah dapat melakukan perbuatan hukum mengenai bagian haknya yang bersangkutan tanpa perlu mengadakan perubahan pada surat tanda bukti hak para pemegang hak bersama yang bersangkutan, kecuali kalau secara tegas ada larangan untuk berbuat demikian jika tidak ada persetujuan para pemegang hak bersama yang lain.\nAyat (6) Cukup jelas",
+   "31": "Ayat (1) Cukup jelas\nAyat (2) Penerbitan sertifikat dimaksudkan agar pemegang hak dapat dengan mudah membuktikan haknya. Oleh karena itu sertifikat merupakan alat pembuktian yang kuat sebagaimana dimaksud Pasal 19 UUPA. Sehubungan dengan itu apabila masih ada ketidakpastian mengenai hak atas tanah yang bersangkutan, yang ternyata dari masih adanya catatan dalam pembukuannya sebagaimana dimaksud dalam Pasal 30 ayat (1), pada prinsipnya sertifikat belum dapat diterbitkan, namun apabila catatan itu mengenai ketidakpastian data fisik yang tidak disengketakan, sertifikat dapat diterbitkan. Data fisik yang dimaksud tidak lengkap adalah apabila data fisik bidang tanah yang bersangkutan merupakan hasil pemetaan sementara sebagaimana dimaksud dalam Pasal 19 ayat (3).\nAyat (3) Sertifikat tanah wakaf diserahkan kepada Nadzirnya. Dalam hal pemegang hak sudah meninggal dunia, sertifikat diterimakan kepada ahli warisnya atau salah seorang ahli waris dengan persetujuan para ahli waris yang lain.\nAyat (4) Dalam hal hak atas tanah dan hak milik atas satuan rumah susun kepunyaan seorang laki-laki yang beristri atau seorang perempuan yang bersuami, surat penunjukan tertulis dimaksud tidak diperlukan.\nAyat (5) Dengan adanya ketenttuan ini tiap pemegang hak bersama memegang sertifikat yang menyebutkan besarnya bagian masing-masing dari hak bersama tersebut. Dengan demikian masing-masing akan dengan mudah dapat melakukan perbuatan hukum mengenai bagian haknya yang bersangkutan tanpa perlu mengadakan perubahan pada surat tanda bukti hak para pemegang hak bersama yang bersangkutan, kecuali kalau secara tegas ada larangan untuk berbuat demikian jika tidak ada persetujuan para pemegang hak bersama yang lain.\nAyat (6) Cukup jelas",
    "32": "Ayat (1) Sertifikat merupakan tanda bukti hak yang kuat, dalam arti bahwa selama tidak dapat dibuktikan sebaliknya data fisik dan data yuridis yang tercantum di dalamnya harus diterima sebagai data yang benar. Sudah barang tentu data fisik maupun data yuridis yang tercantum dalam sertifikat harus sesuai dengan data yang tercantum dalam buku tanah dan surat ukur yang bersangkutan, karena data itu diambil dari buku tanah dan surat ukur tersebut.\nAyat (2) Pendaftaran tanah yang penyelenggaraannya diperintahkan oleh UUPA tidak menggunakan sistem publikasi positif, yang kebenaran data yang disajikan dijamin oleh Negara, melainkan menggunakan sistem publikasi negatif. Di dalam sistem publikasi negatif Negara tidak menjamin kebenaran data yang disajikan. Tetapi walaupun demikian tidaklah dimaksudkan untuk menggunakan sistem publikasi negatif secara murni. Hal tersebut tampak dari pernyataan dalam Pasal 23, 32 dan 38 UUPA bahwa pendaftaran berbagai peristiwa hukum merupakan alat prosedur pengumpulan, pengolahan, penyimpanan dan penyajian data fisik dan data yuridis serta penerbitan sertifikat dalam Peraturan Pemerintah ini, tampak jelas usaha untuk sejauh mungkin memperoleh dan menyajikan data yang benar, karena pendaftaran tanah adalah untuk menjamin kepastian hukum. Sehubungan dengan itu diadakanlah ketentuan dalam ayat (2) ini. Ketentuan ini bertujuan, pada satu pihak untuk tetap berpegang pada sistem publikasi negatif dan pada sisi lain pihak untuk secara seimbang memberikan kepastian hukum kepada pihak yang dengan itikad baik menguasai sebidang tanah dan didaftar sebagai pemegang hak dalam buku tanah, dengan sertifikat sebagai tanda buktinya, yang menurut UUPA berlaku sebagai alat pembuktian yang kuat.\nKelemahan sistem publikasi negatif adalah, bahwa pihak yang namanya tercantum sebagai pemegang hak dalam buku tanah dan sertifikat selalu menghadapi kemungkinan gugatan dari pihak lain yang merasa mempunyai tanah itu. Umumnya kelemahan tersebut diatasi dengan menggunakan lembaga acquisitive verjaring atau adverse possession. Hukum tanah kita yang memakai dasar hukum adat tidak dapat menggunakan lembaga tersebut, karena hukum adat tidak mengenalnya. Tetapi dalam hukum adat terdapat lembaga yang dapat digunakan untuk mengatasi kelemahan sistem publikasi negatif dalam pendaftaran tanah, yaitu lembaga rechtsverwerking.\nDalam hukum adat jika seseorang selama sekian waktu membiarkan tanahnya tidak dikerjakan, kemudian tanah itu dikerjakan orang lain yang memperolehnya dengan itikad baik, maka hilanglah haknya untuk menuntut kembali tanah tersebut. Ketentuan di dalam UUPA yang menyatakan hapusnya hak atas tanah karena diterlantarkan (Pasal 27, 34 dan 40 UUPA) adalah sesuai dengan lembaga ini. Dengan pengertian demikian, maka apa yang ditentukan dalam ayat ini bukanlah menciptakan ketentuan hukum baru, melainkan merupakan penerapan ketentuan hukum yang sudah ada dalam hukum adat, yang dalam tata hukum sekarang ini merupakan bagian dari Hukum Tanah Nasional Indonesia dan sekaligus memberikan wujud konkret dalam penerapan ketentuan dalam UUPA mengenai penelantaran tanah.",
    "33": "Ayat (1) Karena pada dasarnya terbuka bagi umum dokumen yang dimaksud ayat ini disebut daftar umum.\nAyat (2) Cukup jelas",
-   "34": "Ayat (1) Sebelum melakukan perbuatan hukum mengenai bidang tanah tertentu para pihak yang berkepentingan perlu mengetahui data mengenai bidang tanah tersebut. Sehubungan dengan sifat terbuka data fisik dan data yuridis yang tersimpan dalam peta pendaftaran, daftar tanah, buku tanah dan surat ukur, siapapun yang berkepentingan berhak untuk mengetahui keterangan yang diperlukan. Tidak digunakan hak tersebut menjadi tanggungjawab yang bersangkutan.\nAyat (2) Daftar nama sebenarnya tidak memuat keterangan mengenai tanah, melainkan memuat keterangan mengenai orang perseorangan atau badan hukum dalam hubungan dengan tanah yang dimilikinya. Keterangan ini diperlukan oleh instansi-instansi Pemerintah untuk keperluan pelaksanaan tugasnya.\nAyat (3) Cukup jelas Pasl 35\nAyat (1) Cukup jelas\nAyat (2) Untuk mencegah hilangnya dokumen yang sangat penting untuk kepentingan masyarakat ini maka apabila ada instansi yang menganggap perlu untuk memeriksanya, pemeriksaan dokumen itu wajib dilakukan di Kantor Pertanahan. Pengecualian ketentuan ini adalah sebagaimana diatur dalam ayat\nAyat (3) Cukup jelas\nAyat (4) Setelah diperlihatkan dan jika diperlukan dibuatkan petikan, salinan atau rekaman seperti dimaksud pada ayat (3), dokumen yang bersangkutan dibawa dan disimpan kembali di tempat yang dimaksud pada ayat (1) dan ayat (2).\nAyat (5) Penyimpanan dengan menggunakan peralatan elektronik dan dalam bentuk film akan menghemat dan mempercepat akses pada data yang diperlukan. Tetapi penyelenggaraannya memerlukan persiapan peralatan dan tenaga serta dana yang besar. maka pelaksanaanya akan dilakukan secara bertahap.\nAyat (6) Cukup jelas\nAyat (7) Cukup jelas",
+   "34": "Ayat (1) Sebelum melakukan perbuatan hukum mengenai bidang tanah tertentu para pihak yang berkepentingan perlu mengetahui data mengenai bidang tanah tersebut. Sehubungan dengan sifat terbuka data fisik dan data yuridis yang tersimpan dalam peta pendaftaran, daftar tanah, buku tanah dan surat ukur, siapapun yang berkepentingan berhak untuk mengetahui keterangan yang diperlukan. Tidak digunakan hak tersebut menjadi tanggungjawab yang bersangkutan.\nAyat (2) Daftar nama sebenarnya tidak memuat keterangan mengenai tanah, melainkan memuat keterangan mengenai orang perseorangan atau badan hukum dalam hubungan dengan tanah yang dimilikinya. Keterangan ini diperlukan oleh instansi-instansi Pemerintah untuk keperluan pelaksanaan tugasnya.\nAyat (3) Cukup jelas Pasal 35\nAyat (1) Cukup jelas\nAyat (2) Untuk mencegah hilangnya dokumen yang sangat penting untuk kepentingan masyarakat ini maka apabila ada instansi yang menganggap perlu untuk memeriksanya, pemeriksaan dokumen itu wajib dilakukan di Kantor Pertanahan. Pengecualian ketentuan ini adalah sebagaimana diatur dalam ayat\nAyat (3) Cukup jelas\nAyat (4) Setelah diperlihatkan dan jika diperlukan dibuatkan petikan, salinan atau rekaman seperti dimaksud pada ayat (3), dokumen yang bersangkutan dibawa dan disimpan kembali di tempat yang dimaksud pada ayat (1) dan ayat (2).\nAyat (5) Penyimpanan dengan menggunakan peralatan elektronik dan dalam bentuk film akan menghemat dan mempercepat akses pada data yang diperlukan. Tetapi penyelenggaraannya memerlukan persiapan peralatan dan tenaga serta dana yang besar. maka pelaksanaanya akan dilakukan secara bertahap.\nAyat (6) Cukup jelas\nAyat (7) Cukup jelas",
    "36": "Ayat (1) Perubahan data fisik terjadi kalau diadakan pemisahan, pemecahan, atau penggabungan bidang-bidang tanah yang sudah didaftar. Perubahan data yuridis terjadi misalnya kalau diadakan pembebanan atau pemindahan hak atas bidang tanah yang sudah didaftar.\nAyat (2) Cukup jelas",
    "37": "Ayat (1) Cukup jelas\nAyat (2) Cukup jelas",
    "38": "Ayat (1) Cukup jelas\nAyat (2) Cukup jelas",
@@ -3697,6 +3758,26 @@
    "62": "Ayat (1) Ketentuan peralihan ini memungkinkan Peraturan Pemerintah ini segera dapat dilaksanakan di seluruh Indonesia.\nAyat (2) Cukup jelas",
    "65": "Cukup jelas",
    "66": "Cukup jelas"
+  },
+  "ejaan_sumber": {
+   "pasal-31": [
+    {
+     "dari": "sertfikat",
+     "ke": "sertifikat",
+     "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+     "bukti_korpus": "sertifikat 393x vs sertfikat 4x",
+     "pada": "2026-09-22"
+    }
+   ],
+   "pasal-34": [
+    {
+     "dari": "Pasl",
+     "ke": "Pasal",
+     "otoritas": "hunspell id_ID (LibreOffice/dictionaries) — BUKAN KBBI",
+     "bukti_korpus": "Pasal 42534x vs Pasl 1x",
+     "pada": "2026-09-22"
+    }
+   ]
   }
  }
 }
