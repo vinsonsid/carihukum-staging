@@ -38,15 +38,17 @@
     "target": null
    }
   ],
-  "catatan_kurasi": "Akta terkait sarusun (jual beli, SHM sarusun). Diubah UU 6/2023 (Cipta Kerja) — peristiwa terenkode & terverifikasi.",
-  "kelompok": "koperasi-rusun"
+  "catatan_kurasi": "Akta terkait sarusun (jual beli, SHM sarusun). Diubah UU 6/2023 (Cipta Kerja) — peristiwa terenkode & terverifikasi. KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_pengundangan (kosong) → 2011-11-10. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/uu-2011-20.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
+  "kelompok": "koperasi-rusun",
+  "tanggal_pengundangan": "2011-11-10"
  },
- "dihasilkan": "2026-09-22T17:49:43.514Z",
+ "dihasilkan": "2026-09-25T06:26:03.695Z",
  "timeline": [
   {
    "tanggal": "2011-11-10",
    "peristiwa": "uu-2011-20/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "2011-11-10",
    "pelaku": "uu-2011-20",
    "judul_pelaku": "Undang-Undang Nomor 20 Tahun 2011 tentang Rumah Susun",
    "jumlah_operasi": null,

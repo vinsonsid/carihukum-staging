@@ -1,17 +1,63 @@
 {
- "dijalankan": "2026-09-22",
+ "dijalankan": "2026-09-25",
  "karya_diperiksa": 69,
- "unit_diperiksa": 33618,
- "jumlah_temuan": 1,
+ "unit_diperiksa": 33646,
+ "jumlah_temuan": 7,
  "temuan_baru": 0,
- "utang_diakui": 1,
+ "utang_diakui": 7,
  "per_kode": {
+  "STRUKTUR-TAK-BERPEMBUKA": 6,
   "HURUF-BOLONG": 1
  },
  "ditegakkan_untuk": [
   "uu"
  ],
  "per_karya": {
+  "kuhperdata-1847": {
+   "jenis": "kodifikasi",
+   "temuan": [
+    {
+     "kode": "STRUKTUR-TAK-BERPEMBUKA",
+     "unit": "buku-2-bab-6/bagian-2",
+     "pesan": "deret bagian di bawah buku-2-bab-6 mulai dari \"2\", bukan butir pertama — kemungkinan bagian pertama tidak terbaca parser",
+     "bukti": "2 · 3",
+     "baru": false
+    },
+    {
+     "kode": "STRUKTUR-TAK-BERPEMBUKA",
+     "unit": "buku-3-bab-10/bagian-2",
+     "pesan": "deret bagian di bawah buku-3-bab-10 mulai dari \"2\", bukan butir pertama — kemungkinan bagian pertama tidak terbaca parser",
+     "bukti": "2 · 3 · 4",
+     "baru": false
+    },
+    {
+     "kode": "STRUKTUR-TAK-BERPEMBUKA",
+     "unit": "buku-3-bab-11/bagian-2",
+     "pesan": "deret bagian di bawah buku-3-bab-11 mulai dari \"2\", bukan butir pertama — kemungkinan bagian pertama tidak terbaca parser",
+     "bukti": "2 · 3",
+     "baru": false
+    },
+    {
+     "kode": "STRUKTUR-TAK-BERPEMBUKA",
+     "unit": "buku-3-bab-15/bagian-2",
+     "pesan": "deret bagian di bawah buku-3-bab-15 mulai dari \"2\", bukan butir pertama — kemungkinan bagian pertama tidak terbaca parser",
+     "bukti": "2 · 3",
+     "baru": false
+    }
+   ]
+  },
+  "permk-2019-3": {
+   "jenis": "permk",
+   "temuan": [
+    {
+     "kode": "STRUKTUR-TAK-BERPEMBUKA",
+     "unit": "bab-6/bagian-kedua",
+     "pesan": "deret bagian di bawah bab-6 mulai dari \"Kedua\", bukan butir pertama — kemungkinan bagian pertama tidak terbaca parser",
+     "bukti": "Kedua · Ketiga",
+     "baru": false
+    }
+   ]
+  },
   "pp-1997-24": {
    "jenis": "pp",
    "temuan": [
@@ -20,6 +66,18 @@
      "unit": "pasal-12/ayat-2/huruf-a",
      "pesan": "huruf melompat dari b. ke a. di bawah pasal-12/ayat-2",
      "bukti": "pendaftaran perubahan data pendaftaran tanah lainnya.",
+     "baru": false
+    }
+   ]
+  },
+  "uu-1999-41": {
+   "jenis": "uu",
+   "temuan": [
+    {
+     "kode": "STRUKTUR-TAK-BERPEMBUKA",
+     "unit": "bab-1/bagian-kedua",
+     "pesan": "deret bagian di bawah bab-1 mulai dari \"Kedua\", bukan butir pertama — kemungkinan bagian pertama tidak terbaca parser",
+     "bukti": "Kedua · Ketiga",
      "baru": false
     }
    ]

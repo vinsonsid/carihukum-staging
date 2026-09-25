@@ -8,8 +8,8 @@
   "judul": "Peraturan Menteri Hukum dan HAM Nomor 15 Tahun 2020 tentang Tata Cara Pemeriksaan Majelis Pengawas terhadap Notaris",
   "judul_en": "MoLHR Reg 15/2020 on Notary Supervisory Board Examinations",
   "teu": "Indonesia, Pemerintah Pusat",
-  "tanggal_penetapan": "2020-05-13",
-  "tanggal_berlaku": "2020-05-13",
+  "tanggal_penetapan": "2020-05-27",
+  "tanggal_berlaku": "2020-06-02",
   "sumber": {
    "keterangan": "BN 2020/545"
   },
@@ -46,15 +46,17 @@
     "target": null
    }
   ],
-  "catatan_kurasi": "Pelaksana UUJN pelaksana UUJN. Teks penuh termuat dari salinan BN (PDF teks).",
-  "kelompok": "kenotariatan"
+  "catatan_kurasi": "Pelaksana UUJN pelaksana UUJN. Teks penuh termuat dari salinan BN (PDF teks). KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_penetapan 2020-05-13 → 2020-05-27; tanggal_pengundangan (kosong) → 2020-06-02; tanggal_berlaku 2020-05-13 → 2020-06-02. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/permenkumham-2020-15.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
+  "kelompok": "kenotariatan",
+  "tanggal_pengundangan": "2020-06-02"
  },
- "dihasilkan": "2026-09-22T17:49:43.039Z",
+ "dihasilkan": "2026-09-25T06:26:03.336Z",
  "timeline": [
   {
-   "tanggal": "2020-05-13",
+   "tanggal": "2020-06-02",
    "peristiwa": "permenkumham-2020-15/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "2020-06-02",
    "pelaku": "permenkumham-2020-15",
    "judul_pelaku": "Peraturan Menteri Hukum dan HAM Nomor 15 Tahun 2020 tentang Tata Cara Pemeriksaan Majelis Pengawas terhadap Notaris",
    "jumlah_operasi": null,
@@ -81,7 +83,7 @@
        "teks": "Notaris adalah pejabat umum yang berwenang untuk membuat akta autentik dan memiliki kewenangan lainnya sebagaimana dimaksud dalam Undang-Undang Jabatan Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-2",
@@ -90,7 +92,7 @@
        "teks": "Majelis Pengawas Notaris yang selanjutnya disebut Majelis Pengawas adalah suatu badan yang mempunyai kewenangan dan kewajiban melaksanakan pembinaan dan pengawasan terhadap Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-3",
@@ -99,7 +101,7 @@
        "teks": "Laporan adalah pengaduan masyarakat sebagai pihak yang dirugikan akibat perilaku dan/atau pelaksanaan jabatan Notaris, serta Laporan yang berasal dari pelaksanaan kewenangan Majelis Pengawas.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-4",
@@ -108,7 +110,7 @@
        "teks": "Majelis Pemeriksa adalah tim pemeriksa yang memiliki wewenang melakukan pemeriksaan dan penjatuhan sanksi yang dibentuk oleh Majelis Pengawas Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-5",
@@ -117,7 +119,7 @@
        "teks": "Sidang Pemeriksaan adalah kegiatan pemeriksaan oleh Majelis Pemeriksa terhadap Laporan dugaan pelanggaran perilaku dan pelaksanaan jabatan Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-6",
@@ -126,7 +128,7 @@
        "teks": "Pelapor adalah pihak terkait yang dirugikan akibat perilaku dan/atau pelaksanaan jabatan Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-7",
@@ -135,7 +137,7 @@
        "teks": "Terlapor adalah Notaris, Notaris Pengganti dan/atau Pejabat Sementara Notaris, yang diduga melakukan perbuatan dan/atau pelanggaran perilaku dan/atau pelaksanaan jabatan Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-8",
@@ -144,7 +146,7 @@
        "teks": "Banding adalah upaya hukum yang dilakukan pihak yang keberatan terhadap putusan Majelis Pengawas Wilayah.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-9",
@@ -153,7 +155,7 @@
        "teks": "Pembanding adalah pihak yang melakukan upaya hukum terhadap putusan Majelis Pengawas Wilayah.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-10",
@@ -162,7 +164,7 @@
        "teks": "Terbanding adalah pihak yang digugat secara Banding.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-11",
@@ -171,7 +173,7 @@
        "teks": "Protokol Notaris adalah kumpulan dokumen yang merupakan arsip negara yang harus disimpan dan dipelihara oleh Notaris sesuai dengan ketentuan peraturan perundang-undangan.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-12",
@@ -180,7 +182,7 @@
        "teks": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-1/angka-13",
@@ -189,13 +191,13 @@
        "teks": "Hari adalah hari kerja.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "teks": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "pasal-2",
@@ -204,7 +206,7 @@
      "teks": "Majelis Pengawas berwenang melakukan pembinaan dan pengawasan terhadap Notaris serta melakukan pemeriksaan terhadap dugaan pelanggaran perilaku dan pelaksanaan jabatan Notaris.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "pasal-3",
@@ -225,7 +227,7 @@
          "teks": "Majelis Pengawas Daerah;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-3/ayat-1/huruf-b",
@@ -234,7 +236,7 @@
          "teks": "Majelis Pengawas Wilayah; dan",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-3/ayat-1/huruf-c",
@@ -243,11 +245,11 @@
          "teks": "Majelis Pengawas Pusat.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-3/ayat-2",
@@ -256,15 +258,15 @@
        "teks": "Majelis Pengawas sebagaimana dimaksud pada ayat (1) dibantu oleh 1 (satu) orang sekretaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     }
    ],
    "sumber": "permenkumham-2020-15",
-   "berlaku_mulai": "2020-05-13"
+   "berlaku_mulai": "2020-06-02"
   },
   {
    "id": "bab-2",
@@ -290,7 +292,7 @@
          "teks": "Majelis Pengawas dalam melakukan pemeriksaan terhadap dugaan pelanggaran perilaku dan pelaksanaan jabatan Notaris membentuk Majelis Pemeriksa.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-4/ayat-2",
@@ -306,7 +308,7 @@
            "teks": "Majelis Pemeriksa Daerah;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-4/ayat-2/huruf-b",
@@ -315,7 +317,7 @@
            "teks": "Majelis Pemeriksa Wilayah; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-4/ayat-2/huruf-c",
@@ -324,11 +326,11 @@
            "teks": "Majelis Pemeriksa Pusat.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-4/ayat-3",
@@ -344,7 +346,7 @@
            "teks": "1 (satu) orang ketua; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-4/ayat-3/huruf-b",
@@ -353,11 +355,11 @@
            "teks": "2 (dua) orang anggota.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-4/ayat-4",
@@ -373,7 +375,7 @@
            "teks": "Pemerintah;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-4/ayat-4/huruf-b",
@@ -382,7 +384,7 @@
            "teks": "Notaris; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-4/ayat-4/huruf-c",
@@ -391,11 +393,11 @@
            "teks": "akademisi.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-4/ayat-5",
@@ -404,7 +406,7 @@
          "teks": "Majelis Pemeriksa sebagaimana dimaksud pada ayat (3) dibantu oleh 1 (satu) orang sekretaris.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-4/ayat-6",
@@ -413,11 +415,11 @@
          "teks": "Dalam hal Majelis Pemeriksa sebagaimana dimaksud pada ayat (4) berhalangan hadir, dapat digantikan oleh Majelis Pengawas dari unsur yang sama.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-5",
@@ -431,7 +433,7 @@
          "teks": "Majelis Pemeriksa sebagaimana dimaksud dalam Pasal 4 ayat (1) wajib menolak untuk memeriksa Notaris yang mempunyai hubungan perkawinan atau hubungan darah dalam garis lurus ke atas atau ke bawah tanpa pembatasan derajat, dan garis lurus ke samping sampai dengan derajat ketiga dengan Notaris.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-5/ayat-2",
@@ -440,11 +442,11 @@
          "teks": "Dalam hal Majelis Pemeriksa mempunyai hubungan sebagaimana dimaksud pada ayat (1), Ketua Majelis Pengawas menunjuk penggantinya.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-6",
@@ -458,7 +460,7 @@
          "teks": "Laporan pengaduan masyarakat kepada Majelis Pengawas Daerah;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-6/huruf-b",
@@ -467,7 +469,7 @@
          "teks": "hasil rekomendasi pemeriksaan Majelis Pengawas Daerah kepada Majelis Pengawas Wilayah; atau",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-6/huruf-c",
@@ -476,17 +478,17 @@
          "teks": "permohonan banding atas putusan Majelis Pengawas Wilayah kepada Majelis Pengawas Pusat, diterima dan diregister.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "teks": "Pembentukan Majelis Pemeriksa dilakukan paling lama 14 (empat belas) Hari terhitung sejak:",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-2/bagian-kedua",
@@ -506,7 +508,7 @@
          "teks": "Laporan diajukan oleh pihak yang dirugikan atas dugaan pelanggaran perilaku dan pelaksanaan jabatan Notaris.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-7/ayat-2",
@@ -515,7 +517,7 @@
          "teks": "Laporan sebagaimana dimaksud pada ayat (1) disampaikan kepada Majelis Pengawas Daerah secara tertulis dalam bahasa Indonesia disertai bukti yang dapat dipertanggungjawabkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-7/ayat-3",
@@ -524,7 +526,7 @@
          "teks": "Dalam hal Laporan sebagaimana dimaksud pada ayat (2) disampaikan kepada Majelis Pengawas Wilayah maka Majelis Pengawas Wilayah meneruskan kepada Majelis Pengawas Daerah yang berwenang.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-7/ayat-4",
@@ -533,11 +535,11 @@
          "teks": "Dalam hal Laporan sebagaimana dimaksud pada ayat (3) disampaikan kepada Majelis Pengawas Pusat maka Majelis Pengawas Pusat meneruskan kepada Majelis Pengawas Daerah yang berwenang.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-8",
@@ -551,7 +553,7 @@
          "teks": "Selain Laporan sebagaimana dimaksud dalam Pasal 7, Laporan dapat juga berasal dari Majelis Pengawas pada jenjangnya masing-masing.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-8/ayat-2",
@@ -567,7 +569,7 @@
            "teks": "hasil pemeriksaan berkala;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-8/ayat-2/huruf-b",
@@ -576,7 +578,7 @@
            "teks": "proses hukum dari tingkat penyidikan sampai dengan tingkat peradilan; dan/atau",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-8/ayat-2/huruf-c",
@@ -585,15 +587,15 @@
            "teks": "fakta hukum lainnya.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-9",
@@ -602,11 +604,11 @@
        "teks": "Terhadap Laporan sebagaimana dimaksud dalam Pasal 7 dan Pasal 8, dilakukan pemeriksaan oleh Majelis Pemeriksa secara berjenjang.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-2/bagian-ketiga",
@@ -626,7 +628,7 @@
          "teks": "Laporan sebagaimana dimaksud dalam Pasal 7 diterima dan dicatat oleh sekretaris Majelis Pengawas.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-10/ayat-2",
@@ -642,7 +644,7 @@
            "teks": "identitas Pelapor dan Terlapor;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-10/ayat-2/huruf-b",
@@ -651,7 +653,7 @@
            "teks": "surat Laporan yang disampaikan kepada Ketua Majelis Pengawas Notaris; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-10/ayat-2/huruf-c",
@@ -660,11 +662,11 @@
            "teks": "bukti/fakta hukum dan lampiran dokumen.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-10/ayat-3",
@@ -673,11 +675,11 @@
          "teks": "Laporan sebagaimana dimaksud pada ayat (2) dicatat dalam surat masuk Majelis Pengawas.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-11",
@@ -698,7 +700,7 @@
            "teks": "nomor dan tanggal register perkara;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-11/ayat-1/huruf-b",
@@ -707,7 +709,7 @@
            "teks": "nomor dan tanggal surat Laporan;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-11/ayat-1/huruf-c",
@@ -716,7 +718,7 @@
            "teks": "nama Pelapor;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-11/ayat-1/huruf-d",
@@ -725,7 +727,7 @@
            "teks": "nama Terlapor;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-11/ayat-1/huruf-e",
@@ -734,7 +736,7 @@
            "teks": "lampiran bukti atau keterangan lainnya yang dianggap perlu dilakukan pencatatan; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-11/ayat-1/huruf-f",
@@ -743,11 +745,11 @@
            "teks": "nama ketua, anggota, dan sekretaris Majelis Pemeriksa yang telah dibentuk dan ditetapkan oleh Majelis Pengawas.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-11/ayat-2",
@@ -756,7 +758,7 @@
          "teks": "Pengadministrasian Laporan sebagaimana dimaksud pada ayat (1) dihimpun dalam 1 (satu) berkas perkara.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-11/ayat-3",
@@ -765,11 +767,11 @@
          "teks": "Berkas perkara sebagaimana dimaksud pada ayat (2) disampaikan oleh sekretaris Majelis Pengawas kepada Majelis Pemeriksa.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-12",
@@ -783,7 +785,7 @@
          "teks": "membuat resume atau telaahan Laporan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-12/huruf-b",
@@ -792,7 +794,7 @@
          "teks": "menentukan jadwal persidangan Majelis Pemeriksa;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-12/huruf-c",
@@ -801,7 +803,7 @@
          "teks": "menyiapkan sidang Majelis Pemeriksa;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-12/huruf-d",
@@ -810,7 +812,7 @@
          "teks": "membuat berita acara pemeriksaan; dan",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-12/huruf-e",
@@ -819,13 +821,13 @@
          "teks": "menyampaikan hasil pemeriksaan kepada Ketua Majelis Pengawas Notaris.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "teks": "Sekretaris Majelis Pemeriksa mempunyai tugas:",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-13",
@@ -839,7 +841,7 @@
          "teks": "Sebelum sidang pemeriksaan dilakukan, Ketua Majelis Pengawas Notaris menyelenggarakan rapat gelar perkara yang dihadiri oleh Majelis Pengawas.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-13/ayat-2",
@@ -848,7 +850,7 @@
          "teks": "Rapat gelar perkara sebagaimana dimaksud pada ayat (1) diselenggarakan untuk mendengar duduk perkara dan penyampaian pendapat hukum yang dilakukan secara musyawarah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-13/ayat-3",
@@ -857,7 +859,7 @@
          "teks": "Penyampaian pendapat hukum sebagaimana dimaksud pada ayat (2) sebagai bahan masukan bagi Majelis Pemeriksa dalam memutus perkara yang berada dalam kewenangan pemeriksaannya.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-13/ayat-4",
@@ -866,7 +868,7 @@
          "teks": "Ketua Majelis Pengawas dapat memerintahkan Majelis Pemeriksa melakukan pendalaman Laporan sebelum sidang pemeriksaan dilakukan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-13/ayat-5",
@@ -875,7 +877,7 @@
          "teks": "Hasil pendalaman Laporan sebagaimana dimaksud pada ayat (4) dilaporkan kepada Ketua Majelis Pengawas.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-13/ayat-6",
@@ -884,11 +886,11 @@
          "teks": "Setelah rapat gelar perkara dilaksanakan, Majelis Pengawas menentukan hari dan tanggal sidang pemeriksaan Pelapor dan Terlapor.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-14",
@@ -897,11 +899,11 @@
        "teks": "Ketua Majelis Pengawas bertanggung jawab atas terselenggaranya pelaksanaan sidang pemeriksaan.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-2/bagian-keempat",
@@ -921,7 +923,7 @@
          "teks": "Sekretaris Majelis Pengawas melakukan pemanggilan terhadap Pelapor dan Terlapor.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-15/ayat-2",
@@ -930,7 +932,7 @@
          "teks": "Pemanggilan sebagaimana dimaksud pada ayat (1) dilakukan dengan surat tercatat oleh sekretaris Majelis Pengawas paling lambat 5 (lima) Hari sebelum sidang pemeriksaan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-15/ayat-3",
@@ -939,7 +941,7 @@
          "teks": "Pemanggilan sebagaimana dimaksud pada ayat (2) dapat dilakukan melalui faksimili/surat elektronik atau surat panggilan tercatat.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-15/ayat-4",
@@ -948,7 +950,7 @@
          "teks": "Dalam hal Terlapor tidak hadir setelah dipanggil secara sah dan patut, dilakukan pemanggilan kedua.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-15/ayat-5",
@@ -957,7 +959,7 @@
          "teks": "Dalam hal Terlapor tetap tidak hadir setelah dipanggil secara sah dan patut yang kedua kali, pemeriksaan dilakukan dan putusan diucapkan tanpa kehadiran Terlapor.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-15/ayat-6",
@@ -966,7 +968,7 @@
          "teks": "Dalam hal Pelapor tidak hadir setelah dipanggil secara sah dan patut, dilakukan pemanggilan yang kedua.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-15/ayat-7",
@@ -975,19 +977,19 @@
          "teks": "Dalam hal Pelapor tetap tidak hadir setelah dipanggil secara sah dan patut yang kedua kali, Majelis Pemeriksa menyatakan Laporan gugur dan tidak dapat diajukan kembali.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     }
    ],
    "sumber": "permenkumham-2020-15",
-   "berlaku_mulai": "2020-05-13"
+   "berlaku_mulai": "2020-06-02"
   },
   {
    "id": "bab-3",
@@ -1008,11 +1010,11 @@
        "teks": "Majelis Pemeriksa berwenang melakukan pemeriksaan terhadap Laporan sebagaimana dimaksud dalam Pasal 7 dan Pasal 8.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-3/bagian-kedua",
@@ -1032,7 +1034,7 @@
          "teks": "Pemeriksaan oleh Majelis Pemeriksa Daerah bersifat tertutup untuk umum.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-17/ayat-2",
@@ -1041,7 +1043,7 @@
          "teks": "Pemeriksaan dimulai paling lama 7 (tujuh) Hari sejak Majelis Pemeriksa ditetapkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-17/ayat-3",
@@ -1050,11 +1052,11 @@
          "teks": "Majelis Pemeriksa Daerah menyelesaikan dan menyampaikan hasil pemeriksaan paling lama 30 (tiga puluh) Hari terhitung sejak Laporan dicatat di buku register perkara.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-18",
@@ -1068,7 +1070,7 @@
          "teks": "Laporan pengaduan masyarakat;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-18/huruf-b",
@@ -1077,7 +1079,7 @@
          "teks": "pemeriksaan Protokol Notaris; dan/atau",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-18/huruf-c",
@@ -1086,13 +1088,13 @@
          "teks": "fakta hukum terhadap dugaan pelanggaran pelaksanaan jabatan dan perilaku Notaris.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "teks": "Pemeriksaan oleh Majelis Pemeriksa Daerah meliputi:",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-19",
@@ -1106,7 +1108,7 @@
          "teks": "Pemeriksaan sebagaimana dimaksud dalam Pasal 18 dilakukan dengan cara memanggil Pelapor dan Terlapor.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-19/ayat-2",
@@ -1122,7 +1124,7 @@
            "teks": "kehadiran Pelapor dan Terlapor;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-19/ayat-2/huruf-b",
@@ -1131,7 +1133,7 @@
            "teks": "pembacaan Laporan dan keterangan Pelapor; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-19/ayat-2/huruf-c",
@@ -1140,11 +1142,11 @@
            "teks": "pembelaan diri Terlapor.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-19/ayat-3",
@@ -1153,7 +1155,7 @@
          "teks": "Dalam pemeriksaan sebagaimana dimaksud pada ayat (2) Pelapor dan Terlapor diberi kesempatan untuk menyampaikan tanggapan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-19/ayat-4",
@@ -1162,11 +1164,11 @@
          "teks": "Dalam menyampaikan tanggapan sebagaimana dimaksud pada ayat (3) Pelapor dan Terlapor dapat mengajukan bukti untuk mendukung dalil yang diajukan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-20",
@@ -1175,7 +1177,7 @@
        "teks": "Hasil pemeriksaan sebagaimana dimaksud dalam Pasal 18 dituangkan dalam berita acara pemeriksaan dan rekomendasi hasil pemeriksaan.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-21",
@@ -1189,7 +1191,7 @@
          "teks": "Pemeriksaan Protokol Notaris sebagaimana dimaksud dalam Pasal 18 huruf b dilaksanakan berdasarkan hasil pemeriksaan berkala 1 (satu) kali dalam 1 (satu) tahun atau setiap waktu yang dianggap perlu.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-21/ayat-2",
@@ -1198,11 +1200,11 @@
          "teks": "Hasil pemeriksaan sebagaimana dimaksud pada ayat (1) berupa berita acara pemeriksaan Protokol Notaris dan rekomendasi hasil pemeriksaan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-22",
@@ -1216,7 +1218,7 @@
          "teks": "Pemeriksaan fakta hukum terhadap dugaan pelanggaran pelaksanaan jabatan dan perilaku Notaris sebagaimana dimaksud dalam Pasal 18 huruf c dilaksanakan berdasarkan putusan pengadilan yang telah mempunyai kekuatan hukum tetap dan/atau fakta hukum lainnya.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-22/ayat-2",
@@ -1225,7 +1227,7 @@
          "teks": "Pemeriksaan sebagaimana dimaksud pada ayat (1) dilakukan dengan memanggil Notaris yang bersangkutan untuk membela dirinya.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-22/ayat-3",
@@ -1234,11 +1236,11 @@
          "teks": "Hasil pemeriksaan sebagaimana dimaksud pada ayat (2) dituangkan dalam berita acara pemeriksaan dan rekomendasi hasil pemeriksaan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-23",
@@ -1252,7 +1254,7 @@
          "teks": "Hasil pemeriksaan sebagaimana dimaksud dalam Pasal 22 ayat (3) ditandatangani oleh ketua dan sekretaris Majelis Pemeriksa.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-23/ayat-2",
@@ -1261,7 +1263,7 @@
          "teks": "Hasil pemeriksaan sebagaimana dimaksud pada ayat (1) dilaporkan kepada Ketua Majelis Pengawas Daerah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-23/ayat-3",
@@ -1277,7 +1279,7 @@
            "teks": "Laporan pengaduan masyarakat;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-23/ayat-3/huruf-b",
@@ -1286,7 +1288,7 @@
            "teks": "berita acara pemeriksaan Majelis Pemeriksa Daerah; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-23/ayat-3/huruf-c",
@@ -1295,11 +1297,11 @@
            "teks": "rekomendasi hasil pemeriksaan Majelis Pemeriksa Daerah.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-23/ayat-4",
@@ -1308,15 +1310,15 @@
          "teks": "Laporan sebagaimana dimaksud pada ayat (3) disampaikan kepada Majelis Pengawas Wilayah dengan surat pengantar yang ditembuskan kepada Pelapor, Terlapor, Majelis Pengawas Pusat, dan Pengurus Daerah Ikatan Notaris Indonesia.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-3/bagian-ketiga",
@@ -1336,7 +1338,7 @@
          "teks": "Pemeriksaan oleh Majelis Pemeriksa Wilayah bersifat tertutup untuk umum.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-24/ayat-2",
@@ -1345,7 +1347,7 @@
          "teks": "Majelis Pemeriksa Wilayah memeriksa dan memutus hasil pemeriksaan Majelis Pengawas Daerah paling lama 30 (tiga puluh) Hari sejak dicatat di buku register perkara.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-24/ayat-3",
@@ -1354,7 +1356,7 @@
          "teks": "Majelis Pemeriksa Wilayah memanggil Pelapor dan Terlapor untuk didengar keterangannya.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-24/ayat-4",
@@ -1363,11 +1365,11 @@
          "teks": "Keterangan sebagaimana dimaksud pada ayat (3) dituangkan dalam berita acara pemeriksaan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-25",
@@ -1381,7 +1383,7 @@
          "teks": "Majelis Pemeriksa Wilayah membuat pertimbangan hukum berdasarkan pemeriksaan sebagaimana dimaksud dalam Pasal 24.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-25/ayat-2",
@@ -1390,7 +1392,7 @@
          "teks": "Dalam hal terdapat perbedaan pendapat di antara Majelis Pemeriksa Wilayah, maka perbedaan pendapat tersebut dimuat dalam putusan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-25/ayat-3",
@@ -1399,7 +1401,7 @@
          "teks": "Putusan sebagaimana dimaksud pada ayat (2) memuat alasan dan pertimbangan hukum yang dijadikan dasar untuk menjatuhkan putusan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-25/ayat-4",
@@ -1408,7 +1410,7 @@
          "teks": "Dalam hal hasil pemeriksaan menyatakan Laporan tidak dapat dibuktikan maka Majelis Pemeriksa Wilayah memutuskan dan menyatakan Laporan ditolak.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-25/ayat-5",
@@ -1417,11 +1419,11 @@
          "teks": "Dalam hal hasil pemeriksaan menyatakan Laporan dapat dibuktikan maka Terlapor dijatuhi sanksi sesuai dengan tingkat pelanggaran yang dilakukan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-26",
@@ -1442,7 +1444,7 @@
            "teks": "sanksi peringatan lisan maupun peringatan tertulis; atau",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-26/ayat-1/huruf-b",
@@ -1458,7 +1460,7 @@
              "teks": "sementara 3 (tiga) bulan sampai dengan 6 (enam) bulan;",
              "verifikasi": "pdf-resmi",
              "sumber": "permenkumham-2020-15",
-             "berlaku_mulai": "2020-05-13"
+             "berlaku_mulai": "2020-06-02"
             },
             {
              "id": "pasal-26/ayat-1/huruf-b/angka-2",
@@ -1467,7 +1469,7 @@
              "teks": "dengan hormat; atau",
              "verifikasi": "pdf-resmi",
              "sumber": "permenkumham-2020-15",
-             "berlaku_mulai": "2020-05-13"
+             "berlaku_mulai": "2020-06-02"
             },
             {
              "id": "pasal-26/ayat-1/huruf-b/angka-3",
@@ -1476,15 +1478,15 @@
              "teks": "dengan tidak hormat.",
              "verifikasi": "pdf-resmi",
              "sumber": "permenkumham-2020-15",
-             "berlaku_mulai": "2020-05-13"
+             "berlaku_mulai": "2020-06-02"
             }
            ],
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-26/ayat-2",
@@ -1493,7 +1495,7 @@
          "teks": "Sanksi sebagaimana dimaksud pada ayat (1) huruf a, bersifat final dan tidak dapat diajukan Banding.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-26/ayat-3",
@@ -1502,11 +1504,11 @@
          "teks": "Usulan pemberian sanksi sebagaimana dimaksud pada ayat (1) huruf b diajukan dengan melampirkan surat penunjukan nama Notaris pemegang protokol dari Majelis Pengawas Daerah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-27",
@@ -1520,7 +1522,7 @@
          "teks": "Putusan sebagaimana dimaksud dalam Pasal 26 ayat (1) dibacakan dalam sidang terbuka untuk umum.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-27/ayat-2",
@@ -1529,7 +1531,7 @@
          "teks": "Putusan sebagaimana dimaksud pada ayat (1) ditandatangani oleh ketua, anggota, dan sekretaris Majelis Pemeriksa Wilayah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-27/ayat-3",
@@ -1538,15 +1540,15 @@
          "teks": "Putusan sebagaimana dimaksud pada ayat (1) disampaikan kepada Pelapor, Terlapor, Majelis Pengawas Daerah, Majelis Pengawas Pusat dan pengurus pusat Ikatan Notaris Indonesia dengan surat pengantar, dalam jangka waktu paling lambat 30 (tiga puluh) Hari terhitung sejak putusan dibacakan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-3/bagian-keempat",
@@ -1566,7 +1568,7 @@
          "teks": "Pelapor dan/atau Terlapor yang keberatan atas putusan Majelis Pengawas Wilayah berhak mengajukan Banding kepada Majelis Pengawas Pusat yang disampaikan melalui sekretariat Majelis Pengawas Wilayah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-28/ayat-2",
@@ -1575,7 +1577,7 @@
          "teks": "Majelis Pengawas Wilayah menolak keberatan atas putusan sanksi peringatan lisan maupun peringatan tertulis sebagaimana dimaksud dalam Pasal 26 ayat (2).",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-28/ayat-3",
@@ -1584,7 +1586,7 @@
          "teks": "Dalam hal Pelapor dan/atau Terlapor hadir pada saat putusan dibacakan, Banding dinyatakan paling lama 7 (tujuh) Hari terhitung sejak putusan dibacakan yang dituangkan dalam pernyataan Banding secara tertulis.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-28/ayat-4",
@@ -1593,11 +1595,11 @@
          "teks": "Dalam hal Pelapor dan/atau Terlapor tidak hadir pada saat putusan dibacakan, maka Pelapor dan/atau Terlapor dapat menyatakan Banding paling lama 7 (tujuh) Hari terhitung sejak putusan diterima yang dituangkan dalam pernyataan Banding secara tertulis.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-29",
@@ -1611,7 +1613,7 @@
          "teks": "Pembanding wajib menyampaikan memori Banding kepada Majelis Pengawas Wilayah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-29/ayat-2",
@@ -1620,7 +1622,7 @@
          "teks": "Penyampaian memori Banding sebagaimana dimaksud pada ayat (1) diajukan paling lama 14 (empat belas) Hari terhitung sejak Banding dinyatakan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-29/ayat-3",
@@ -1629,7 +1631,7 @@
          "teks": "Memori Banding disampaikan Majelis Pengawas Wilayah kepada Terbanding paling lama 7 (tujuh) Hari terhitung sejak memori Banding diterima.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-29/ayat-4",
@@ -1638,7 +1640,7 @@
          "teks": "Terbanding dapat menyampaikan kontra memori Banding paling lama 14 (empat belas) Hari terhitung sejak memori Banding diterima.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-29/ayat-5",
@@ -1647,7 +1649,7 @@
          "teks": "Dalam hal Pembanding tidak menyampaikan memori Banding dalam jangka waktu sebagaimana dimaksud pada ayat (2), Banding dianggap gugur dan tidak dapat dilanjutkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-29/ayat-6",
@@ -1656,11 +1658,11 @@
          "teks": "Dalam hal Terbanding tidak menyampaikan kontra memori Banding dalam jangka waktu 14 (empat belas) Hari sebagaimana dimaksud pada ayat (4), pemeriksaan tetap dilanjutkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-30",
@@ -1681,7 +1683,7 @@
            "teks": "Laporan pengaduan masyarakat;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-30/ayat-1/huruf-b",
@@ -1690,7 +1692,7 @@
            "teks": "berita acara pemeriksaan Majelis Pemeriksa Daerah;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-30/ayat-1/huruf-c",
@@ -1699,7 +1701,7 @@
            "teks": "rekomendasi hasil pemeriksaan Majelis Pemeriksa Daerah;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-30/ayat-1/huruf-d",
@@ -1708,7 +1710,7 @@
            "teks": "berita acara pemeriksaan Majelis Pemeriksa Wilayah;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-30/ayat-1/huruf-e",
@@ -1717,7 +1719,7 @@
            "teks": "putusan Majelis Pemeriksa Wilayah;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-30/ayat-1/huruf-f",
@@ -1726,7 +1728,7 @@
            "teks": "pernyataan Banding yang dinyatakan secara tertulis;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-30/ayat-1/huruf-g",
@@ -1735,7 +1737,7 @@
            "teks": "memori Banding Pembanding;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-30/ayat-1/huruf-h",
@@ -1744,7 +1746,7 @@
            "teks": "kontra memori Banding Terbanding jika ada; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-30/ayat-1/huruf-i",
@@ -1753,11 +1755,11 @@
            "teks": "bukti yang dapat dipertanggungjawabkan.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-30/ayat-2",
@@ -1766,15 +1768,15 @@
          "teks": "Berkas perkara Banding sebagaimana dimaksud pada ayat (1) disampaikan sebanyak 3 (tiga) rangkap dengan melampirkan soft copy dalam format aplikasi Microsoft Word.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-3/bagian-kelima",
@@ -1801,7 +1803,7 @@
            "teks": "permohonan Banding terhadap keberatan atas putusan Majelis Pengawas Wilayah;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-31/ayat-1/huruf-b",
@@ -1810,7 +1812,7 @@
            "teks": "usulan penjatuhan sanksi oleh Majelis Pengawas Wilayah; atau",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-31/ayat-1/huruf-c",
@@ -1819,11 +1821,11 @@
            "teks": "fakta hukum terhadap pelanggaran perilaku dan pelaksanaan jabatan Notaris.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-31/ayat-2",
@@ -1832,7 +1834,7 @@
          "teks": "Pemeriksaan oleh Majelis Pemeriksa Pusat bersifat tertutup untuk umum.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-31/ayat-3",
@@ -1841,7 +1843,7 @@
          "teks": "Pemeriksaan dimulai paling lama 7 (tujuh) Hari sejak Majelis Pemeriksa Pusat ditetapkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-31/ayat-4",
@@ -1850,11 +1852,11 @@
          "teks": "Majelis Pemeriksa Pusat memanggil Pembanding dan Terbanding untuk didengar keterangannya yang dituangkan dalam berita acara pemeriksaan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-32",
@@ -1875,7 +1877,7 @@
            "teks": "menguatkan putusan Majelis Pengawas Wilayah; atau",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-32/ayat-1/huruf-b",
@@ -1884,11 +1886,11 @@
            "teks": "mengubah atau membatalkan putusan Majelis Pengawas Wilayah dan mengeluarkan putusan sendiri. (1) Putusan Majelis Pengawas Pusat bersifat final dan mempunyai kekuatan hukum tetap, kecuali putusan tentang pengusulan pemberian sanksi berupa pemberhentian dengan tidak hormat kepada Menteri.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-32/ayat-2",
@@ -1897,11 +1899,11 @@
          "teks": "Putusan Majelis Pengawas Pusat yang amarnya memberikan sanksi berupa usulan pemberhentian dengan tidak hormat, diajukan kepada Menteri untuk diterbitkan surat keputusan pemberhentiannya.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-33",
@@ -1915,7 +1917,7 @@
          "teks": "Dalam hal dalil yang diajukan pada memori Banding dianggap cukup beralasan oleh Majelis Pemeriksa Pusat, maka putusan Majelis Pengawas Wilayah dapat dibatalkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-33/ayat-2",
@@ -1924,7 +1926,7 @@
          "teks": "Dalam hal dalil yang diajukan pada memori Banding dianggap tidak beralasan oleh Majelis Pemeriksa Pusat, maka putusan Majelis Pengawas Wilayah dikuatkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-33/ayat-3",
@@ -1933,7 +1935,7 @@
          "teks": "Majelis Pemeriksa Pusat dapat mengambil putusan sendiri berdasarkan pertimbangan dan keadilan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-33/ayat-4",
@@ -1942,7 +1944,7 @@
          "teks": "Dalam hal terdapat perbedaan pendapat di antara Majelis Pemeriksa Pusat, maka perbedaan pendapat tersebut dimuat dalam putusan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-33/ayat-5",
@@ -1951,11 +1953,11 @@
          "teks": "Putusan Majelis Pemeriksa Pusat memuat alasan dan pertimbangan hukum yang dijadikan dasar untuk menjatuhkan putusan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-34",
@@ -1969,7 +1971,7 @@
          "teks": "Putusan Majelis Pemeriksa Pusat atas hasil pemeriksaan sebagaimana dimaksud dalam Pasal 31 ayat (1) dibacakan dalam jangka waktu paling lama 30 (tiga puluh) Hari sejak berkas dicatat dalam buku register.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-34/ayat-2",
@@ -1978,7 +1980,7 @@
          "teks": "Pembacaan putusan dilakukan dalam sidang terbuka untuk umum.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-34/ayat-3",
@@ -1987,7 +1989,7 @@
          "teks": "Putusan sebagaimana dimaksud pada ayat (1) ditandatangani oleh ketua, anggota, dan sekretaris Majelis Pemeriksa Pusat.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-34/ayat-4",
@@ -1996,11 +1998,11 @@
          "teks": "Putusan Majelis Pengawas Pusat disampaikan kepada Menteri, Pelapor, Terlapor, Majelis Pengawas Daerah dan Majelis Pengawas Wilayah serta Pengurus Pusat Ikatan Notaris Indonesia dengan surat pengantar.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-35",
@@ -2014,7 +2016,7 @@
          "teks": "Dalam hal Majelis Pemeriksa menemukan dugaan adanya unsur pidana yang dilakukan oleh Terlapor, maka Majelis Pemeriksa wajib memberitahukan kepada Majelis Pengawas.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-35/ayat-2",
@@ -2023,15 +2025,15 @@
          "teks": "Dugaan unsur pidana sebagaimana dimaksud pada ayat (1) disampaikan Majelis Pengawas kepada instansi yang berwenang.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-3/bagian-keenam",
@@ -2051,7 +2053,7 @@
          "teks": "peringatan lisan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-36/huruf-b",
@@ -2060,7 +2062,7 @@
          "teks": "peringatan tertulis;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-36/huruf-c",
@@ -2069,7 +2071,7 @@
          "teks": "pemberhentian sementara;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-36/huruf-d",
@@ -2078,7 +2080,7 @@
          "teks": "usulan penjatuhan pemberhentian dengan hormat; atau",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-36/huruf-e",
@@ -2087,13 +2089,13 @@
          "teks": "usulan penjatuhan pemberhentian dengan tidak hormat.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "teks": "Dalam hal Notaris terbukti melakukan pelanggaran perilaku dan pelaksanaan jabatan, Majelis Pemeriksa mejatuhkan sanksi berupa:",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-37",
@@ -2107,7 +2109,7 @@
          "teks": "Putusan tentang penjatuhan sanksi peringatan lisan dan peringatan tertulis bersifat final.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-37/ayat-2",
@@ -2116,7 +2118,7 @@
          "teks": "Putusan tentang penjatuhan sanksi berupa pemberhentian sementara dan usulan penjatuhan sanksi pemberhentian dengan hormat dan dengan tidak hormat disampaikan oleh Majelis Pengawas Pusat kepada Menteri paling lama 14 (empat belas) Hari terhitung sejak putusan dibacakan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-37/ayat-3",
@@ -2125,7 +2127,7 @@
          "teks": "Menteri mengeluarkan surat keputusan terhadap penjatuhan sanksi sebagaimana dimaksud pada ayat (2) dalam jangka waktu 30 (tiga puluh) Hari terhitung sejak usulan diterima.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-37/ayat-4",
@@ -2134,15 +2136,15 @@
          "teks": "Keputusan Menteri sebagaimana dimaksud pada ayat (3) disampaikan kepada Pembanding, Terbanding, Majelis Pengawas Pusat, Majelis Pengawas Wilayah, Majelis Pengawas Daerah, dan Pengurus Pusat Ikatan Notaris Indonesia.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-3/bagian-ketujuh",
@@ -2162,7 +2164,7 @@
          "teks": "Pelapor dan Terlapor dapat mengajukan permohonan pendampingan penasehat hukum.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-38/ayat-2",
@@ -2171,7 +2173,7 @@
          "teks": "Ketua Majelis Pemeriksa dapat menyetujui atau menolak pendampingan penasehat hukum dalam persidangan setelah mendengar pendapat dari anggota Majelis Pemeriksa.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-38/ayat-3",
@@ -2180,11 +2182,11 @@
          "teks": "Dalam hal penasehat hukum sebagaimana dimaksud pada ayat (1) disetujui, Ketua Majelis Pemeriksa meminta penasehat hukum memperlihatkan identitas dan surat kuasa untuk dicatat oleh Sekretaris Majelis Pemeriksa.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-39",
@@ -2193,7 +2195,7 @@
        "teks": "Kedudukan penasehat hukum sebagaimana dimaksud dalam Pasal 38 bersifat non litigasi, terkait sidang profesi dalam rangka pemeriksaan dugaan pelanggaran jabatan dan perilaku Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-40",
@@ -2207,7 +2209,7 @@
          "teks": "Penasehat Hukum sebagaimana dimaksud dalam Pasal 38 terbatas pada pendampingan dalam sidang pemeriksaan pada Majelis Pemeriksa.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-40/ayat-2",
@@ -2223,7 +2225,7 @@
            "teks": "pemberian jawaban; atau",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-40/ayat-2/huruf-b",
@@ -2232,19 +2234,19 @@
            "teks": "tanggapan tertulis.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-3/bagian-kedelapan",
@@ -2264,7 +2266,7 @@
          "teks": "Dalam rangka pemeriksaan Protokol Notaris, Ketua Majelis Pengawas Daerah menunjuk Majelis Pemeriksa Protokol Notaris.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-41/ayat-2",
@@ -2273,11 +2275,11 @@
          "teks": "Penunjukan Majelis Pemeriksa sebagaimana dimaksud pada ayat (1) mengikuti ketentuan sebagaimana dimaksud dalam Pasal 4.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-42",
@@ -2286,7 +2288,7 @@
        "teks": "Pelaksanaan pemeriksaan Protokol Notaris sebagaimana dimaksud dalam Pasal 41 ayat (1), dituangkan dalam berita acara pemeriksaan yang ditandatangani oleh Majelis Pemeriksa.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-43",
@@ -2295,7 +2297,7 @@
        "teks": "Apabila dalam pemeriksaan Protokol Notaris, Majelis Pemeriksa menemukan adanya pelanggaran jabatan dan perilaku Notaris yang berkaitan dengan kewajiban dan larangan jabatan atau pelanggaran terhadap ketentuan lain, Majelis Pemeriksa dapat melaporkan kepada Majelis Pengawas untuk dilakukan pemeriksaan lebih lanjut.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-44",
@@ -2304,7 +2306,7 @@
        "teks": "Hasil pemeriksaan Protokol Notaris sebagaimana dimaksud dalam Pasal 43 dilakukan secara berjenjang oleh Majelis Pengawas dilaksanakan sesuai dengan tata cara pemeriksaan yang diatur dalam Peraturan Menteri ini.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-45",
@@ -2318,7 +2320,7 @@
          "teks": "Dalam hal Notaris yang diperiksa terbukti melakukan pelanggaran sebagaimana dimaksud dalam Pasal 43, Notaris berhak melakukan pembelaan dalam sidang pemeriksaan Majelis Pengawas Wilayah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-45/ayat-2",
@@ -2327,11 +2329,11 @@
          "teks": "Dalam hal Notaris yang diperiksa keberatan terhadap putusan penjatuhan sanksi sebagaimana dimaksud pada ayat (1), dapat mengajukan Banding kepada Majelis Pengawas Pusat.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-46",
@@ -2340,11 +2342,11 @@
        "teks": "Ketentuan mengenai tata cara Banding sebagaimana dimaksud dalam Pasal 28 sampai dengan Pasal 30 berlaku secara mutatis mutandis terhadap tata cara Banding atas hasil pemeriksaan Protokol Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "bab-3/bagian-kesembilan",
@@ -2364,7 +2366,7 @@
          "teks": "Jika hasil sidang pemeriksaan menyatakan Notaris terbukti melakukan pelanggaran jabatan dan perilaku, Notaris yang bersangkutan dikenakan penjatuhan sanksi administratif.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-47/ayat-2",
@@ -2380,7 +2382,7 @@
            "teks": "peringatan tertulis;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-47/ayat-2/huruf-b",
@@ -2389,7 +2391,7 @@
            "teks": "pemberhentian sementara;",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-47/ayat-2/huruf-c",
@@ -2398,7 +2400,7 @@
            "teks": "pemberhentian dengan hormat; atau",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-47/ayat-2/huruf-d",
@@ -2407,15 +2409,15 @@
            "teks": "pemberhentian dengan tidak hormat.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-48",
@@ -2429,7 +2431,7 @@
          "teks": "Dalam pelaksanaan sanksi peringatan tertulis sebagaimana dimaksud dalam Pasal 47 ayat (2) huruf a, Ketua Majelis Pengawas Wilayah mengeluarkan keputusan tentang penjatuhan sanksi peringatan tertulis.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-48/ayat-2",
@@ -2438,11 +2440,11 @@
          "teks": "Keputusan penjatuhan sanksi sebagaimana dimaksud pada ayat (1) disampaikan kepada Terlapor, dengan tembusan disampaikan kepada Pelapor, Majelis Pengawas Daerah, Majelis Pengawas Pusat dan Pengurus Pusat Ikatan Notaris Indonesia.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-49",
@@ -2456,7 +2458,7 @@
          "teks": "Dalam pelaksanaan penjatuhan sanksi pemberhentian sementara sebagaimana dimaksud dalam Pasal 47 ayat (2) huruf b, Menteri menerbitkan keputusan tentang pemberhentian sementara dan penunjukan pemegang Protokol Notaris dan pemblokiran akun Notaris sementara.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-49/ayat-2",
@@ -2465,11 +2467,11 @@
          "teks": "Keputusan penjatuhan sanksi sebagaimana dimaksud ayat (1) disampaikan kepada Terlapor, dengan tembusan disampaikan kepada Pelapor, Majelis Pengawas Wilayah, Majelis Pengawas Daerah, dan Pengurus Pusat Ikatan Notaris Indonesia.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-50",
@@ -2483,7 +2485,7 @@
          "teks": "Dalam pelaksanaan penjatuhan sanksi pemberhentian dengan hormat atau dengan tidak hormat sebagaimana dimaksud dalam Pasal 47 ayat (2) huruf c dan huruf d disampaikan atas usul Ketua Majelis Pengawas Pusat kepada Menteri.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-50/ayat-2",
@@ -2499,7 +2501,7 @@
            "teks": "keputusan pemberhentian dengan hormat atau dengan tidak hormat dan pemblokiran akun Notaris secara permanen; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-50/ayat-2/huruf-b",
@@ -2508,11 +2510,11 @@
            "teks": "penetapan pemegang Protokol Notaris.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-50/ayat-3",
@@ -2521,11 +2523,11 @@
          "teks": "Keputusan Menteri sebagaimana dimaksud pada ayat (2) disampaikan kepada Pelapor, Terlapor, Majelis Pengawas Pusat, Majelis Pengawas Wilayah, Majelis Pengawas Daerah, dan Pengurus Pusat Ikatan Notaris Indonesia.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-51",
@@ -2539,7 +2541,7 @@
          "teks": "Notaris yang dijatuhi sanksi pemberhentian sebagaimana dimaksud dalam Pasal 47 ayat (2) huruf b, huruf c, dan huruf d wajib melakukan serah terima Protokol Notaris.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-51/ayat-2",
@@ -2548,7 +2550,7 @@
          "teks": "Serah terima Protokol Notaris sebagaimana dimaksud pada ayat (1) dilakukan oleh Notaris kepada Notaris pemegang protokol paling lama 14 (empat belas) Hari sejak putusan diterima.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-51/ayat-3",
@@ -2557,7 +2559,7 @@
          "teks": "Serah terima Protokol Notaris sebagaimana dimaksud pada ayat (2) dituangkan dalam berita acara serah terima Protokol Notaris yang ditandatangani di atas materai oleh Notaris kepada Notaris pemegang protokol yang diketahui oleh Majelis Pengawas Daerah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-51/ayat-4",
@@ -2566,11 +2568,11 @@
          "teks": "Apabila dalam jangka waktu sebagaimana dimaksud pada ayat (2) belum dilakukan serah terima Protokol Notaris, Majelis Pengawas Daerah berhak mengambil alih serah terima Protokol Notaris tersebut",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-52",
@@ -2591,7 +2593,7 @@
            "teks": "dibuatkan keterangan telah melaksanakan sanksi; dan",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           },
           {
            "id": "pasal-52/ayat-1/huruf-b",
@@ -2600,11 +2602,11 @@
            "teks": "melakukan serah terima protokol dari Notaris pemegang protokol ke Notaris yang bersangkutan.",
            "verifikasi": "pdf-resmi",
            "sumber": "permenkumham-2020-15",
-           "berlaku_mulai": "2020-05-13"
+           "berlaku_mulai": "2020-06-02"
           }
          ],
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-52/ayat-2",
@@ -2613,11 +2615,11 @@
          "teks": "Terhadap laporan sebagaimana dimaksud pada ayat (1), Majelis Pengawas Daerah membuat surat keterangan telah melaksanakan sanksi dan berita acara serah terima protokol yang disampaikan kepada Majelis Pengawas Pusat untuk pembukaan blokir akun Notaris.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-53",
@@ -2631,7 +2633,7 @@
          "teks": "Notaris yang dijatuhi sanksi pemberhentian baik sementara maupun pemberhentian dengan hormat atau tidak dengan hormat dari jabatan Notaris dilarang melaksanakan jabatannya.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         },
         {
          "id": "pasal-53/ayat-2",
@@ -2640,19 +2642,19 @@
          "teks": "Apabila Notaris tetap menjalankan jabatannya dalam pembuatan akta, Notaris dinyatakan melakukan perbuatan melawan hukum.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2020-15",
-         "berlaku_mulai": "2020-05-13"
+         "berlaku_mulai": "2020-06-02"
         }
        ],
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     }
    ],
    "sumber": "permenkumham-2020-15",
-   "berlaku_mulai": "2020-05-13"
+   "berlaku_mulai": "2020-06-02"
   },
   {
    "id": "bab-4",
@@ -2667,7 +2669,7 @@
      "teks": "Setiap orang dalam sidang pemeriksaan Majelis Pemeriksa wajib mentaati dan menghormati tata tertib acara persidangan.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "pasal-55",
@@ -2676,11 +2678,11 @@
      "teks": "Segala biaya yang dikeluarkan dalam pelaksanaan Peraturan Menteri ini dibebankan pada Daftar Isian Pelaksanaan Anggaran Direktorat Jenderal Administrasi Hukum Umum.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     }
    ],
    "sumber": "permenkumham-2020-15",
-   "berlaku_mulai": "2020-05-13"
+   "berlaku_mulai": "2020-06-02"
   },
   {
    "id": "bab-5",
@@ -2695,7 +2697,7 @@
      "teks": "Semua peraturan pelaksanaan yang berkaitan dengan pengawasan Notaris, masih tetap berlaku sepanjang tidak bertentangan dengan Peraturan Menteri ini.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "pasal-57",
@@ -2704,7 +2706,7 @@
      "teks": "Apabila di suatu kabupaten/kota Majelis Pengawas Daerah belum terbentuk, maka tugas dan kewenangan Majelis Pengawas Daerah dilaksanakan oleh Majelis Pengawas Wilayah.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "pasal-58",
@@ -2718,7 +2720,7 @@
        "teks": "Notaris Pengganti; dan",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       },
       {
        "id": "pasal-58/huruf-b",
@@ -2727,13 +2729,13 @@
        "teks": "pejabat sementara Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2020-15",
-       "berlaku_mulai": "2020-05-13"
+       "berlaku_mulai": "2020-06-02"
       }
      ],
      "teks": "Ketentuan dalam Peraturan Menteri ini, berlaku juga bagi:",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "pasal-59",
@@ -2742,11 +2744,11 @@
      "teks": "Terhadap Laporan pengaduan masyarakat terkait dugaan pelanggaran perilaku dan pelaksanaan jabatan Notaris yang sedang dalam proses, diselesaikan dengan Peraturan Menteri ini.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     }
    ],
    "sumber": "permenkumham-2020-15",
-   "berlaku_mulai": "2020-05-13"
+   "berlaku_mulai": "2020-06-02"
   },
   {
    "id": "bab-6",
@@ -2761,7 +2763,7 @@
      "teks": "Pada saat Peraturan Menteri ini mulai berlaku, Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor M.02.PR.08.10 Tahun 2004 tentang Tata Cara Pengangkatan Anggota, Pemberhentian Anggota, Susunan Organisasi, Tata Kerja, dan Tata Cara Pemeriksaan Majelis Pengawas Notaris, dicabut dan dinyatakan tidak berlaku.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     },
     {
      "id": "pasal-61",
@@ -2770,11 +2772,11 @@
      "teks": "Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2020-15",
-     "berlaku_mulai": "2020-05-13"
+     "berlaku_mulai": "2020-06-02"
     }
    ],
    "sumber": "permenkumham-2020-15",
-   "berlaku_mulai": "2020-05-13"
+   "berlaku_mulai": "2020-06-02"
   }
  ],
  "penjelasan_efektif": null,

@@ -8,8 +8,8 @@
   "judul": "Peraturan Menteri Hukum dan HAM Nomor 19 Tahun 2021 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah",
   "judul_en": "MoLHR Reg 19/2021 on Notary Post Formation and Regional Categories",
   "teu": "Indonesia, Kementerian Hukum dan HAM",
-  "tanggal_penetapan": "2021-03-16",
-  "tanggal_berlaku": "2021-03-16",
+  "tanggal_penetapan": "2021-03-30",
+  "tanggal_berlaku": "2021-03-31",
   "sumber": {
    "keterangan": "BN 2021/246"
   },
@@ -46,15 +46,17 @@
     "target": null
    }
   ],
-  "catatan_kurasi": "Pelaksana UUJN: formasi jabatan notaris per daerah.",
-  "kelompok": "kenotariatan"
+  "catatan_kurasi": "Pelaksana UUJN: formasi jabatan notaris per daerah. KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_penetapan 2021-03-16 → 2021-03-30; tanggal_pengundangan (kosong) → 2021-03-31; tanggal_berlaku 2021-03-16 → 2021-03-31. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/permenkumham-2021-19.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
+  "kelompok": "kenotariatan",
+  "tanggal_pengundangan": "2021-03-31"
  },
- "dihasilkan": "2026-09-22T17:49:43.057Z",
+ "dihasilkan": "2026-09-25T06:26:03.345Z",
  "timeline": [
   {
-   "tanggal": "2021-03-16",
+   "tanggal": "2021-03-31",
    "peristiwa": "permenkumham-2021-19/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "2021-03-31",
    "pelaku": "permenkumham-2021-19",
    "judul_pelaku": "Peraturan Menteri Hukum dan HAM Nomor 19 Tahun 2021 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah",
    "jumlah_operasi": null,
@@ -81,7 +83,7 @@
        "teks": "Notaris adalah pejabat umum yang berwenang untuk membuat akta autentik dan memiliki kewenangan lainnya sebagaimana dimaksud dalam undang-undang di bidang kenotariatan atau berdasarkan undang-undang lainnya.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-1/angka-2",
@@ -90,7 +92,7 @@
        "teks": "Formasi Jabatan Notaris adalah penentuan jumlah Notaris yang dibutuhkan pada suatu kabupaten/kota.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-1/angka-3",
@@ -99,7 +101,7 @@
        "teks": "Kategori Daerah adalah pengelompokan tempat kedudukan Notaris berdasarkan kriteria Formasi Jabatan Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-1/angka-4",
@@ -108,7 +110,7 @@
        "teks": "Produk Domestik Regional Bruto yang selanjutnya disingkat PDRB adalah jumlah keseluruhan nilai tambah barang dan jasa yang dihasilkan dari semua kegiatan perekonomian di seluruh wilayah dalam periode tahun tertentu yang pada umumnya dalam waktu 1 (satu) tahun.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-1/angka-5",
@@ -117,17 +119,17 @@
        "teks": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "teks": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     }
    ],
    "sumber": "permenkumham-2021-19",
-   "berlaku_mulai": "2021-03-16"
+   "berlaku_mulai": "2021-03-31"
   },
   {
    "id": "bab-2",
@@ -147,7 +149,7 @@
        "teks": "Menteri menentukan Formasi Jabatan Notaris dengan mempertimbangkan usul dari organisasi Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-2/ayat-2",
@@ -156,11 +158,11 @@
        "teks": "Formasi Jabatan Notaris sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri setiap 3 (tiga) tahun.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-3",
@@ -169,7 +171,7 @@
      "teks": "Formasi Jabatan Notaris sebagaimana dimaksud dalam Pasal 2 ayat (2) berlaku untuk pengangkatan dan perpindahan wilayah jabatan Notaris.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-4",
@@ -178,7 +180,7 @@
      "teks": "Menteri dapat melakukan penambahan Formasi Jabatan Notaris sesuai kebutuhan di luar Formasi Jabatan Notaris yang telah ditetapkan sebagaimana dimaksud dalam Pasal 2 ayat (2).",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-5",
@@ -192,7 +194,7 @@
        "teks": "Menteri melakukan pemutakhiran data Formasi Jabatan Notaris yang telah ditetapkan sebagaimana dimaksud dalam Pasal 2 ayat (2).",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-5/ayat-2",
@@ -208,7 +210,7 @@
          "teks": "meninggal dunia;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-5/ayat-2/huruf-b",
@@ -217,7 +219,7 @@
          "teks": "mengundurkan diri dari jabatannya; atau",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-5/ayat-2/huruf-c",
@@ -226,15 +228,15 @@
          "teks": "diberhentikan dengan hormat atau tidak dengan hormat oleh Menteri.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         }
        ],
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-6",
@@ -243,7 +245,7 @@
      "teks": "Informasi Formasi Jabatan Notaris sebagaimana dimaksud dalam Pasal 2 sampai dengan Pasal 5 dimuat dalam laman resmi Direktorat Jenderal Administrasi Hukum Umum Kementerian Hukum dan Hak Asasi Manusia.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-7",
@@ -264,7 +266,7 @@
          "teks": "kegiatan dunia usaha;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-7/ayat-1/huruf-b",
@@ -273,7 +275,7 @@
          "teks": "jumlah penduduk; dan/atau",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-7/ayat-1/huruf-c",
@@ -282,11 +284,11 @@
          "teks": "rata-rata jumlah akta yang dibuat oleh dan/atau di hadapan Notaris setiap bulan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         }
        ],
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-7/ayat-2",
@@ -295,7 +297,7 @@
        "teks": "Penentuan kegiatan dunia usaha sebagaimana dimaksud pada ayat (1) huruf a, dilakukan dengan menggunakan data perbankan, jasa keuangan lainnya, dan/atau jumlah badan usaha.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-7/ayat-3",
@@ -304,7 +306,7 @@
        "teks": "Penentuan jumlah penduduk sebagaimana dimaksud pada ayat (1) huruf b, dilakukan dengan menggunakan data dari instansi atau lembaga pemerintah yang mengurusi bidang kependudukan.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-7/ayat-4",
@@ -313,11 +315,11 @@
        "teks": "Penentuan rata-rata jumlah akta yang dibuat oleh dan/atau di hadapan Notaris setiap bulan sebagaimana dimaksud pada ayat (1) huruf c, dilakukan dengan menggunakan data dari Direktorat Jenderal Administrasi Hukum Umum Kementerian Hukum dan Hak Asasi Manusia.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-8",
@@ -331,7 +333,7 @@
        "teks": "menetapkan jumlah Notaris pada setiap kabupaten/kota berdasarkan 3 (tiga) indikator sebagaimana dimaksud dalam Pasal 7 ayat (1) yang dirata-ratakan per kabupaten/kota;",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-8/huruf-b",
@@ -340,7 +342,7 @@
        "teks": "penentuan jumlah Formasi Jabatan Notaris yang baru pada suatu daerah merupakan hasil penghitungan sebagaimana dimaksud dalam huruf a dikurangi dengan Notaris yang sudah ada pada suatu kabupaten/kota; dan",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-8/huruf-c",
@@ -349,17 +351,17 @@
        "teks": "Notaris yang sudah ada pada suatu kabupaten/kota sebagaimana dimaksud dalam huruf b, dihitung berdasarkan data Notaris pada pangkalan data Direktorat Jenderal Administrasi Hukum Umum Kementerian Hukum dan Hak Asasi Manusia dikurangi jumlah Notaris yang telah memasuki usia pensiun dalam suatu kabupaten/kota.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "teks": "Penghitungan Formasi Jabatan Notaris dilakukan dengan cara:",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     }
    ],
    "sumber": "permenkumham-2021-19",
-   "berlaku_mulai": "2021-03-16"
+   "berlaku_mulai": "2021-03-31"
   },
   {
    "id": "bab-3",
@@ -379,7 +381,7 @@
        "teks": "Hasil penghitungan Formasi Jabatan Notaris merupakan pedoman untuk menentukan Kategori Daerah.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-9/ayat-2",
@@ -395,7 +397,7 @@
          "teks": "jumlah PDRB; dan/atau",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-9/ayat-2/huruf-b",
@@ -404,11 +406,11 @@
          "teks": "pertimbangan sosiologis dari Menteri.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         }
        ],
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-9/ayat-3",
@@ -424,7 +426,7 @@
          "teks": "Kategori Daerah A;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-9/ayat-3/huruf-b",
@@ -433,7 +435,7 @@
          "teks": "Kategori Daerah B; dan",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-9/ayat-3/huruf-c",
@@ -442,11 +444,11 @@
          "teks": "Kategori Daerah C.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         }
        ],
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-9/ayat-4",
@@ -455,11 +457,11 @@
        "teks": "Jumlah PDRB sebagaimana dimaksud pada ayat (2) huruf a menggunakan data dari lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang statistik.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-10",
@@ -480,7 +482,7 @@
          "teks": "Kota Administrasi Jakarta Selatan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-b",
@@ -489,7 +491,7 @@
          "teks": "Kota Administrasi Jakarta Barat;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-c",
@@ -498,7 +500,7 @@
          "teks": "Kota Administrasi Jakarta Pusat;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-d",
@@ -507,7 +509,7 @@
          "teks": "Kota Administrasi Jakarta Utara;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-e",
@@ -516,7 +518,7 @@
          "teks": "Kota Administrasi Jakarta Timur;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-f",
@@ -525,7 +527,7 @@
          "teks": "Kota Medan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-g",
@@ -534,7 +536,7 @@
          "teks": "Kota Bandung;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-h",
@@ -543,7 +545,7 @@
          "teks": "Kota Semarang;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-i",
@@ -552,7 +554,7 @@
          "teks": "Kota Surabaya; dan",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-1/huruf-j",
@@ -561,11 +563,11 @@
          "teks": "Kota Makassar.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         }
        ],
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-10/ayat-2",
@@ -581,7 +583,7 @@
          "teks": "Kabupaten Deli Serdang;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-b",
@@ -590,7 +592,7 @@
          "teks": "Kota Pekanbaru;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-c",
@@ -599,7 +601,7 @@
          "teks": "Kota Batam;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-d",
@@ -608,7 +610,7 @@
          "teks": "Kota Palembang;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-e",
@@ -617,7 +619,7 @@
          "teks": "Kota Tangerang;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-f",
@@ -626,7 +628,7 @@
          "teks": "Kabupaten Tangerang;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-g",
@@ -635,7 +637,7 @@
          "teks": "Kota Tangerang Selatan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-h",
@@ -644,7 +646,7 @@
          "teks": "Kota Bekasi;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-i",
@@ -653,7 +655,7 @@
          "teks": "Kabupaten Bekasi;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-j",
@@ -662,7 +664,7 @@
          "teks": "Kota Depok;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-k",
@@ -671,7 +673,7 @@
          "teks": "Kabupaten Bogor;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-l",
@@ -680,7 +682,7 @@
          "teks": "Kabupaten Bandung;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-m",
@@ -689,7 +691,7 @@
          "teks": "Kabupaten Karawang;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-n",
@@ -698,7 +700,7 @@
          "teks": "Kota Yogyakarta;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-o",
@@ -707,7 +709,7 @@
          "teks": "Kabupaten Sleman;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-p",
@@ -716,7 +718,7 @@
          "teks": "Kabupaten Sidoarjo;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-q",
@@ -725,7 +727,7 @@
          "teks": "Kabupaten Gresik;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-r",
@@ -734,7 +736,7 @@
          "teks": "Kabupaten Pasuruan; dan",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-10/ayat-2/huruf-s",
@@ -743,11 +745,11 @@
          "teks": "Kabupaten Badung.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         }
        ],
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-10/ayat-3",
@@ -756,11 +758,11 @@
        "teks": "Kategori Daerah C sebagaimana dimaksud dalam Pasal 9 ayat (3) huruf c meliputi kabupaten/kota yang tidak termasuk dalam Kategori Daerah A dan Kategori Daerah B.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-11",
@@ -774,7 +776,7 @@
        "teks": "Kategori Daerah A dan Kategori Daerah B hanya diperuntukkan bagi perpindahan wilayah jabatan Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-11/ayat-2",
@@ -783,11 +785,11 @@
        "teks": "Kategori Daerah C diperuntukkan bagi pengangkatan pertama kali Notaris atau perpindahan wilayah jabatan Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-12",
@@ -801,7 +803,7 @@
        "teks": "Notaris dapat mengajukan permohonan pindah wilayah jabatan Notaris kepada Menteri secara tertulis.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-12/ayat-2",
@@ -810,7 +812,7 @@
        "teks": "Untuk dapat mengajukan permohonan pindah wilayah jabatan Notaris, Notaris harus melaksanakan tugas jabatannya selama 3 (tiga) tahun berturut-turut pada daerah kabupaten/kota tertentu tempat kedudukan Notaris.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-12/ayat-3",
@@ -819,11 +821,11 @@
        "teks": "Persyaratan sebagaimana dimaksud pada ayat (2) berlaku untuk Notaris yang mengajukan permohonan pindah wilayah dalam 1 (satu) Kategori Daerah yang sama atau permohonan pindah untuk Kategori Daerah yang berbeda secara berjenjang.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-13",
@@ -832,7 +834,7 @@
      "teks": "Notaris dapat mengajukan permohonan perpindahan dari Kategori Daerah C ke Kategori Daerah A kepada Menteri dengan memenuhi persyaratan masa kerja Notaris selama 4 (empat) tahun berturut-turut terhitung sejak melaksanakan tugas jabatan sebagai Notaris.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-14",
@@ -846,7 +848,7 @@
        "teks": "Dalam keadaan tertentu, Menteri dapat memindahkan seorang Notaris dari satu wilayah jabatan ke wilayah jabatan lain atas permohonan Notaris yang bersangkutan.",
        "verifikasi": "pdf-resmi",
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       },
       {
        "id": "pasal-14/ayat-2",
@@ -862,7 +864,7 @@
          "teks": "bencana alam;",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-14/ayat-2/huruf-b",
@@ -871,7 +873,7 @@
          "teks": "situasi keamanan yang tidak terkendali; dan/atau",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         },
         {
          "id": "pasal-14/ayat-2/huruf-c",
@@ -880,19 +882,19 @@
          "teks": "pertimbangan kemanusiaan lainnya.",
          "verifikasi": "pdf-resmi",
          "sumber": "permenkumham-2021-19",
-         "berlaku_mulai": "2021-03-16"
+         "berlaku_mulai": "2021-03-31"
         }
        ],
        "sumber": "permenkumham-2021-19",
-       "berlaku_mulai": "2021-03-16"
+       "berlaku_mulai": "2021-03-31"
       }
      ],
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     }
    ],
    "sumber": "permenkumham-2021-19",
-   "berlaku_mulai": "2021-03-16"
+   "berlaku_mulai": "2021-03-31"
   },
   {
    "id": "bab-4",
@@ -907,11 +909,11 @@
      "teks": "Pada saat Peraturan Menteri ini mulai berlaku, Notaris yang sudah mengajukan permohonan perpindahan wilayah jabatan Notaris sebelum Peraturan Menteri ini diundangkan, tetap diproses berdasarkan ketersediaan formasi sebagaimana dimaksud dalam Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 27 Tahun 2016 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     }
    ],
    "sumber": "permenkumham-2021-19",
-   "berlaku_mulai": "2021-03-16"
+   "berlaku_mulai": "2021-03-31"
   },
   {
    "id": "bab-5",
@@ -926,7 +928,7 @@
      "teks": "Pada saat Peraturan Menteri ini mulai berlaku, Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 27 Tahun 2016 tentang Formasi Jabatan Notaris dan Penentuan Kategori Daerah (Berita Negara Republik Indonesia Tahun 2016 Nomor 1209), dicabut dan dinyatakan tidak berlaku.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     },
     {
      "id": "pasal-17",
@@ -935,11 +937,11 @@
      "teks": "Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.",
      "verifikasi": "pdf-resmi",
      "sumber": "permenkumham-2021-19",
-     "berlaku_mulai": "2021-03-16"
+     "berlaku_mulai": "2021-03-31"
     }
    ],
    "sumber": "permenkumham-2021-19",
-   "berlaku_mulai": "2021-03-16"
+   "berlaku_mulai": "2021-03-31"
   }
  ],
  "penjelasan_efektif": null,

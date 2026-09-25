@@ -1,0 +1,21 @@
+
+  * { box-sizing:border-box }
+  h1 { font-size:1.35rem; margin:14px 0 6px } .sub { color:var(--ink-2); font-size:.85rem; max-width:72ch; margin-bottom:16px }
+  #saring { width:100%; border:1px solid var(--line); border-radius:6px; padding:9px 12px; font:400 .9rem var(--sans); margin-bottom:10px }
+  .abjad { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:18px }
+  .abjad a { display:inline-block; min-width:28px; text-align:center; border:1px solid var(--line); border-radius:6px;
+    padding:3px 6px; font:600 .75rem var(--sans); color:var(--accent); text-decoration:none }
+  .abjad a:hover { border-color:var(--accent) }
+  .entri { border:1px solid var(--line); border-radius:8px; padding:14px 16px; margin-bottom:12px; scroll-margin-top:12px }
+  .kata { font-weight:700; font-size:1.02rem; border-bottom:1.5px dotted var(--ungu); display:inline-block; margin-bottom:8px }
+  .multi { font:600 .68rem var(--sans); background:var(--ungu-soft); color:var(--ungu); border-radius:999px; padding:1px 8px; vertical-align:2px }
+  .def { margin:8px 0 10px }
+  .def + .def { border-top:1px dashed var(--line); padding-top:10px }
+  .def-teks { max-width:72ch }
+  .def-sumber { display:inline-block; margin-top:4px; font-size:.76rem; color:var(--accent); text-decoration:none }
+  .def-sumber:hover { text-decoration:underline }
+  .dipakai { font-size:.76rem; color:var(--ink-2); border-top:1px solid var(--line); padding-top:8px; margin-top:4px }
+  .dipakai a { color:var(--accent); text-decoration:none } .dipakai a:hover { text-decoration:underline }
+  .redup { color:var(--ink-2) }
+  #kosong { display:none; color:var(--ink-2); padding:16px 4px }
+  a.kembali { font-size:.8rem; color:var(--accent); text-decoration:none }

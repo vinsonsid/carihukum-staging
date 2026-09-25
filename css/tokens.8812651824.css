@@ -1,0 +1,48 @@
+/*
+  Token desain CariHukum — SATU-SATUNYA tempat warna & huruf didefinisikan
+  (docs/27 F1 langkah 3b). Stylesheet halaman memakai var(--…) dan tak boleh
+  mendefinisikan :root sendiri (tests/gaya.test.mjs).
+
+  Utang desain yang diakui, BELUM diputuskan (menyatukannya mengubah tampilan):
+  - tiga merah: --red, --merah (belajar), --merah-terang (tinjau);
+  - kuning/emas: --gold = --kuning (#9a6700) dengan tiga latar lembut berbeda;
+  - --amber-soft (#fff8c5) vs --amber-pasir (#fbf1d3, belajar).
+*/
+:root {
+  /* Permukaan & tinta */
+  --ground: #fff;
+  --surface: #fff;
+  --surface-2: #f6f8fa;
+  --ink: #1f2328;
+  --ink-2: #59636e;
+  --abu: #6e7781;
+  --line: #d0d7de;
+  /* Aksen (hijau CariHukum) */
+  --accent: #0d6a4f;
+  --accent-emph: #0a5540;
+  --accent-soft: #e6f4ec;
+  --ins: #1a7f37;
+  --ins-soft: #dafbe1;
+  /* Kuning / emas */
+  --gold: #9a6700;
+  --gold-soft: #fff8c5;
+  --kuning: #9a6700;
+  --kuning-soft: #fff8e1;
+  --amber: #9a6a00;
+  --amber-line: #d4a72c;
+  --amber-soft: #fff8c5;
+  --amber-pasir: #fbf1d3;
+  /* Merah */
+  --red: #cf222e;
+  --red-soft: #ffebe9;
+  --merah: #8a3a3a;
+  --merah-soft: #f6e0e0;
+  --merah-terang: #b42318;
+  --merah-terang-soft: #fdecea;
+  /* Ungu */
+  --ungu: #8a63d2;
+  --ungu-soft: #f3eefc;
+  /* Huruf */
+  --sans: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;
+  --mono: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}

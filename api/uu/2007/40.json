@@ -36,21 +36,23 @@
     "target": "kuhperdata-1847"
    }
   ],
-  "catatan_kurasi": "Porsi terbesar praktik notaris (akta pendirian & perubahan AD). Diubah UU Cipta Kerja (UU 6/2023, Pasal 109) — peristiwa perubahan sudah dienkode & terverifikasi (PT perorangan UMK, Pasal 153A-153J).",
+  "catatan_kurasi": "Porsi terbesar praktik notaris (akta pendirian & perubahan AD). Diubah UU Cipta Kerja (UU 6/2023, Pasal 109) — peristiwa perubahan sudah dienkode & terverifikasi (PT perorangan UMK, Pasal 153A-153J). KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_pengundangan (kosong) → 2007-08-16. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/uu-2007-40.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
   "kelompok": "badan-usaha-jaminan",
   "perubahan_belum_dienkode": [
    {
     "id": "perppu-2022-2",
     "tanggal": "2022-12-30"
    }
-  ]
+  ],
+  "tanggal_pengundangan": "2007-08-16"
  },
- "dihasilkan": "2026-09-22T17:49:43.379Z",
+ "dihasilkan": "2026-09-25T06:26:03.570Z",
  "timeline": [
   {
    "tanggal": "2007-08-16",
    "peristiwa": "uu-2007-40/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "2007-08-16",
    "pelaku": "uu-2007-40",
    "judul_pelaku": "Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas",
    "jumlah_operasi": null,

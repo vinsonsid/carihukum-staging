@@ -7,8 +7,8 @@
   "tahun": 2012,
   "judul": "Peraturan Mahkamah Konstitusi Nomor 1 Tahun 2012 tentang Produk Hukum Mahkamah Konstitusi",
   "teu": "Indonesia, Mahkamah Konstitusi",
-  "tanggal_penetapan": "2012-03-01",
-  "tanggal_berlaku": "2012-03-01",
+  "tanggal_penetapan": "2012-12-28",
+  "tanggal_berlaku": "2012-12-28",
   "sumber": {
    "keterangan": "mkri.id (salinan BPK)"
   },
@@ -31,15 +31,16 @@
     "target": "uu-2003-24"
    }
   ],
-  "catatan_kurasi": "Pendahulu PMK 3/2019 dengan objek sama. TEMUAN: PMK 3/2019 TIDAK memuat klausul pencabutan (Pasal 22 hanya menyatakan mulai berlaku), sehingga secara formal peraturan ini belum dicabut dan kartu BPK benar menyatakannya 'berlaku'. Tidak menimbulkan konflik: Pasal 5 kedua peraturan memuat sembilan unsur putusan yang identik. Sumber pindai ber-OCR — kepala pasal seperti 'PasalS' (Pasal 8) dinormalkan parser secara sadar-urutan.",
+  "catatan_kurasi": "Pendahulu PMK 3/2019 dengan objek sama. TEMUAN: PMK 3/2019 TIDAK memuat klausul pencabutan (Pasal 22 hanya menyatakan mulai berlaku), sehingga secara formal peraturan ini belum dicabut dan kartu BPK benar menyatakannya 'berlaku'. Tidak menimbulkan konflik: Pasal 5 kedua peraturan memuat sembilan unsur putusan yang identik. Sumber pindai ber-OCR — kepala pasal seperti 'PasalS' (Pasal 8) dinormalkan parser secara sadar-urutan. KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_penetapan 2012-03-01 → 2012-12-28; tanggal_berlaku 2012-03-01 → 2012-12-28. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/permk-2012-1.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
   "kelompok": "mahkamah-konstitusi"
  },
- "dihasilkan": "2026-09-22T17:49:43.062Z",
+ "dihasilkan": "2026-09-25T06:26:03.349Z",
  "timeline": [
   {
-   "tanggal": "2012-03-01",
+   "tanggal": "2012-12-28",
    "peristiwa": "permk-2012-1/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "2012-12-28",
    "pelaku": "permk-2012-1",
    "judul_pelaku": "Peraturan Mahkamah Konstitusi Nomor 1 Tahun 2012 tentang Produk Hukum Mahkamah Konstitusi",
    "jumlah_operasi": null,
@@ -66,7 +67,7 @@
        "teks": "Mahkamah adalah Mahkamah Konstitusi sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-1/angka-2",
@@ -75,7 +76,7 @@
        "teks": "Ketua Mahkamah adalah Ketua Mahkamah Konstitusi.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-1/angka-3",
@@ -84,7 +85,7 @@
        "teks": "Hakim adalah Hakim Konstitusi.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-1/angka-4",
@@ -93,7 +94,7 @@
        "teks": "Produk hukum adalah setiap putusan, ketetapan, peraturan, dan keputusan yang dihasilkan oleh Mahkamah dalam rangka pelaksanaan tugas, wewenang, dan kewajibannya.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-1/angka-5",
@@ -102,7 +103,7 @@
        "teks": "Majelis Hakim adalah para Hakim yang melaksanakan sidang yudisial atau sidang non-yudisial.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-1/angka-6",
@@ -111,7 +112,7 @@
        "teks": "Panitera adalah Panitera Mahkamah yang menjalankan tugas teknis administratif peradilan Mahkamah.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-1/angka-7",
@@ -120,17 +121,17 @@
        "teks": "Sekretaris Jenderal adalah Sekretaris Jenderal Mahkamah yang menjalankan tugas teknis administratif Mahkamah.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "teks": "Dalam peraturan ini yang dimaksud dengan:",
      "verifikasi": "pdf-resmi",
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     }
    ],
    "sumber": "permk-2012-1",
-   "berlaku_mulai": "2012-03-01"
+   "berlaku_mulai": "2012-12-28"
   },
   {
    "id": "bab-2",
@@ -150,7 +151,7 @@
        "teks": "kejelasan tujuan;",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-2/huruf-b",
@@ -159,7 +160,7 @@
        "teks": "kelembagaan atau pejabat pembentuk yang tepat;",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-2/huruf-c",
@@ -168,7 +169,7 @@
        "teks": "kesesuaian antara jenis, hierarki, dan materi muatan;",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-2/huruf-d",
@@ -177,7 +178,7 @@
        "teks": "dapat dilaksanakan;",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-2/huruf-e",
@@ -186,7 +187,7 @@
        "teks": "kedayagunaan dan kehasilgunaan;",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-2/huruf-f",
@@ -195,7 +196,7 @@
        "teks": "kejelasan rumusan; dan",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-2/huruf-g",
@@ -204,13 +205,13 @@
        "teks": "keterbukaan.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "teks": "Dalam membuat atau membentuk produk hukum Mahkamah dilakukan berdasarkan asas-asas pembuatan, pembentukan, dan penetapan produk hukum yang baik, meliputi:",
      "verifikasi": "pdf-resmi",
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "pasal-3",
@@ -224,7 +225,7 @@
        "teks": "Putusan Mahkamah;",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-3/huruf-b",
@@ -233,7 +234,7 @@
        "teks": "Ketetapan Mahkamah;",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-3/huruf-c",
@@ -242,7 +243,7 @@
        "teks": "Peraturan Mahkamah;",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-3/huruf-d",
@@ -251,17 +252,17 @@
        "teks": "Keputusan Ketua Mahkamah.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "teks": "Produk Hukum Mahkamah, terdiri atas:",
      "verifikasi": "pdf-resmi",
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     }
    ],
    "sumber": "permk-2012-1",
-   "berlaku_mulai": "2012-03-01"
+   "berlaku_mulai": "2012-12-28"
   },
   {
    "id": "bab-3",
@@ -287,7 +288,7 @@
          "teks": "menguji undang-undang terhadap UUD 1945;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-4/huruf-b",
@@ -296,7 +297,7 @@
          "teks": "memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh UUD 1945;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-4/huruf-c",
@@ -305,7 +306,7 @@
          "teks": "memutus pembubaran partai politik;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-4/huruf-d",
@@ -314,7 +315,7 @@
          "teks": "memutus perse1isihan ten tang hasil pemilihan umum; dan",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-4/huruf-e",
@@ -323,17 +324,17 @@
          "teks": "memberikan putusan atas pendapat DPR bahwa Presiden danfatau Wakil Presiden diduga telah me1akukan pelanggaran hukum berupa penghianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela, dan/ atau tidak lagi memenuhi syarat sebagai Presiden dany atau Wakil Presiden sebagaimana dimaksud dalam UUD 1945.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "teks": "Putusan Mahkamah merupakan pernyataan Mahkamah yang diucapkan dalam sidang pleno terbuka untuk umum dalam rangka menjalankan kewenangan dan kewajiban Mahkamah untuk mengadili pada tingkat pertama dan terakhir yang putusannya bersifat final untuk:",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-3/bagian-kedua",
@@ -353,7 +354,7 @@
          "teks": "kepala putusan berbunyi: \"DEMI KEADILANBERDASARKAN KETUHANAN YANGMAHAESA\";",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-5/huruf-b",
@@ -362,7 +363,7 @@
          "teks": "pencantuman nama lembaga: MAHKAMAHKONSTITUSI REPUBLIKINDONESIA;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-5/huruf-c",
@@ -371,7 +372,7 @@
          "teks": "identitas pihak;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-5/huruf-d",
@@ -380,7 +381,7 @@
          "teks": "duduk perkara: ringkasan permohonan dan pertimbangan terhadap fakta yang terungkap dalam persidangan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-5/huruf-e",
@@ -389,7 +390,7 @@
          "teks": "pertimbangan hukum dan / atau pendapat Mahkamah yang menjadi dasar putusan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-5/huruf-f",
@@ -398,7 +399,7 @@
          "teks": "konklusi;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-5/huruf-g",
@@ -407,7 +408,7 @@
          "teks": "amar putusan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-5/huruf-h",
@@ -416,7 +417,7 @@
          "teks": "pendapat berbeda (dissenting opinion) atau alas an berbeda (concurring opinion) dari hakim; dan",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-5/huruf-i",
@@ -426,17 +427,17 @@
          "verifikasi": "pdf-resmi",
          "catatan_kurasi": "Naskah sumber mencetak butir ini sebagai \"1.\"; menurut urutan abjad butir sebelumnya (h.) ini adalah huruf i. — angka 1 dan huruf i tak terbedakan pada tipografi naskah.",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "teks": "Materi muatan Putusan Mahkamah sebagaimana dimaksud dalam Pasal 4, berisi:",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-3/bagian-ketiga",
@@ -456,7 +457,7 @@
          "teks": "Penyusunan Putusan Mahkamah dilakukan oleh Majelis Hakim.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-6/ayat-2",
@@ -465,11 +466,11 @@
          "teks": "Dalam menyusun Putusan Mahkamah sebagaimana dimaksud pada ayat (1), Majelis Hakim dibantu secara teknis oleh Pejabat Fungsional Tertentu Kepaniteraan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-7",
@@ -483,7 +484,7 @@
          "teks": "Putusan Mahkamah dibaca oleh Hakim Pembaca Akhir sebelum diucapkan dalam sidang pleno Mahkamah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-7/ayat-2",
@@ -492,7 +493,7 @@
          "teks": "Hakim Pembaca Akhir sebagaimana dimaksud pada ayat (1) terdiri atas para Hakim yang ditunjuk oleh Ketua Mahkamah, dengan dibantu oleh Pejabat Fungsional Tertentu Kepaniteraan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-7/ayat-3",
@@ -501,7 +502,7 @@
          "teks": "Pejabat Fungsional Tertentu Kepaniteraan sebagaimana dimaksud pada ayat (2) ditetapkan oleh Sekretaris Jenderal berdasarkan usul Panitera.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-7/ayat-4",
@@ -510,15 +511,15 @@
          "teks": "Putusan Mahkamah disampaikan kepada Majelis Hakim setelah dibubuhi paraf oleh Hakim Pembaca Akhir.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-3/bagian-keempat",
@@ -538,7 +539,7 @@
          "teks": "Masyarakat mempunyai akses untuk mendapatkan Putusan Mahkamah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-8/ayat-2",
@@ -547,7 +548,7 @@
          "teks": "Untuk memudahkan akses masyarakat mendapatkan Putusan Mahkamah sebagaimana dimaksud pada ayat (1), Putusan Mahkamah dimuat dalam Berita Negara Republik Indonesia, laman Mahkamah, dan media massa cetak, serta ditayangkan melalui fasilitas persidangan jarak jauh (video conference).",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-8/ayat-3",
@@ -556,7 +557,7 @@
          "teks": "Pemuatan Putusan Mahkamah dalam Berita Negara Republik Indonesia sebagaimana dimaksud pada ayat (2) dilakukan untuk putusan pengujian undang-undang yang mengabulkan permohonan, dalam waktu paling lama 30 (tiga puluh) hari kerja sejak putusan diucapkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-8/ayat-4",
@@ -565,7 +566,7 @@
          "teks": "Pemuatan Putusan Mahkamah dalam laman Mahkamah sebagaimana dimaksud pada ayat (2) dilakukan segera setelah putusan selesai diucapkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-8/ayat-5",
@@ -574,7 +575,7 @@
          "teks": "Pemuatan Putusan Mahkamah dalam media massa cetak sebagaimana dimaksud pada ayat (2) dapat dilakukan untuk putusan yang mengabulkan permohonan, dalam waktu paling lama 1 (satu) hari sejak putusan diucapkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-8/ayat-6",
@@ -583,19 +584,19 @@
          "teks": "Putusan Mahkamah ditayangkan melalui fasilitas persidangan jarak jauh (video conference) sebagaimana dimaksud pada ayat (2) dilakukan bersamaan dengan sidang pengucapan putusan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     }
    ],
    "sumber": "permk-2012-1",
-   "berlaku_mulai": "2012-03-01"
+   "berlaku_mulai": "2012-12-28"
   },
   {
    "id": "bab-4",
@@ -616,11 +617,11 @@
        "teks": "Ketetapan Mahkamah merupakan penetapan tertulis Mahkamah yang berisi tindakan hukum, baik yang bersifat konkret-tertentu maupun bersifat konkret-individual, dan final untuk menindaklanjuti hal-hal yang diperlukan bagi pelaksanaan tugas, wewenang, dan kewajiban Mahkamah dalam bidang yudisial berdasarkan peraturan perundang-undangan.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-4/bagian-kedua",
@@ -640,7 +641,7 @@
          "teks": "pernyataan Mahkamah tidak berwenang untuk mengadili permohonan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-b",
@@ -649,7 +650,7 @@
          "teks": "pernyataan permohonan ditarik kembali;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-c",
@@ -658,7 +659,7 @@
          "teks": "pernyataan yang memerintahkan kepada pemohon, termohon, dan/ atau pihak lain yang terkait untuk melakukan sesuatu atau tidak melakukan sesuatu sampai ada Putusan Mahkamah;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-d",
@@ -667,7 +668,7 @@
          "teks": "pembentukan panel hakim untuk memeriksa permohonan;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-e",
@@ -676,7 +677,7 @@
          "teks": "penentuan pihak terkait dalam perkara;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-f",
@@ -685,7 +686,7 @@
          "teks": "penetapan hari sidang;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-g",
@@ -694,7 +695,7 @@
          "teks": "penggabungan perkara;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-h",
@@ -703,7 +704,7 @@
          "teks": "penetapan pemberi keterangan ad informandum;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-i",
@@ -713,7 +714,7 @@
          "verifikasi": "pdf-resmi",
          "catatan_kurasi": "Naskah sumber mencetak butir ini sebagai \"1.\"; menurut urutan abjad butir sebelumnya (h.) ini adalah huruf i. — angka 1 dan huruf i tak terbedakan pada tipografi naskah.",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-10/huruf-j",
@@ -722,17 +723,17 @@
          "teks": "penunjukan hakim pembaca akhir putusan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "teks": "Materi muatan Ketetapan Mahkamah sebagaimana dimaksud daiam Pasal 9, meliputi:",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-4/bagian-ketiga",
@@ -752,7 +753,7 @@
          "teks": "Penyusunan Ketetapan Mahkamah sebagaimana dimaksud dalam Pasal 9 dilakukan oleh Majelis Hakim.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-11/ayat-2",
@@ -761,15 +762,15 @@
          "teks": "Dalam mempersiapkan penyusunan Ketetapan Mahkamah sebagaimana dimaksud pada ayat (1), Majelis Hakim dibantu oleh Kepaniteraan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-4/bagian-keempat",
@@ -789,7 +790,7 @@
          "teks": "Masyarakat mempunyai akses untuk mendapatkan Ketetapan Mahkamah sebagaimana dimaksud dalam Pasal 10 huruf a, huruf b, huruf c, huruf d, huruf e, huruf f, huruf g, dan huruf h.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-12/ayat-2",
@@ -798,7 +799,7 @@
          "teks": "Untuk memudahkan akses masyarakat mendapatkan Ketetapan Mahkamah sebagaimana dimaksud pada ayat (1), Ketetapan Mahkamah dimuat dalam laman Mahkamah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-12/ayat-3",
@@ -807,19 +808,19 @@
          "teks": "Pemuatan Ketetapan Mahkamah dalam laman Mahkamah dilakukan segera setelah ditetapkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     }
    ],
    "sumber": "permk-2012-1",
-   "berlaku_mulai": "2012-03-01"
+   "berlaku_mulai": "2012-12-28"
   },
   {
    "id": "bab-5",
@@ -840,11 +841,11 @@
        "teks": "Peraturan Mahkamah merupakan peraturan tertulis yang memuat norma hukum yang mengikat secara umum, baik dalam bidang yudisial maupun non-yudisial.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-5/bagian-kedua",
@@ -864,7 +865,7 @@
          "teks": "materi yang mengatur lebih lanjut ketentuan Undang-Undang Mahkamah Konstitusi;",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-14/huruf-b",
@@ -873,17 +874,17 @@
          "teks": "materi yang mengatur pemenuhan kebutuhan hukum Mahkamah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "teks": "Materi muatan Peraturan Mahkamah sebagaimana dimaksud dalam Pasal 13, meliputi:",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-5/bagian-ketiga",
@@ -903,7 +904,7 @@
          "teks": "Penyusunan Peraturan Mahkamah sebagaimana dimaksud dalam Pasal13 dilakukan oleh Hakim.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-15/ayat-2",
@@ -912,7 +913,7 @@
          "teks": "Dalam mempersiapkan penyusunan Peraturan Mahkamah sebagaimana dimaksud pada ayat (1), Hakim dibantu oleh Kepaniteraan dan Sekretariat Jenderal.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-15/ayat-3",
@@ -921,15 +922,15 @@
          "teks": "Tata cara penyusunan Peraturan Mahkamah sebagaimana dimaksud dalam Pasal 13 diatur lebih lanjut dalam Peraturan Sekretaris Jenderal.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-5/bagian-keempat",
@@ -944,7 +945,7 @@
        "teks": "Peraturan Mahkamah dimuat dalam Berita Negara Republik Indonesia.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       },
       {
        "id": "pasal-17",
@@ -958,7 +959,7 @@
          "teks": "Masyarakat mempunyai akses untuk mendapatkan Peraturan Mahkamah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-17/ayat-2",
@@ -967,7 +968,7 @@
          "teks": "Untuk memudahkan akses masyarakat mendapatkan Peraturan Mahkamah sebagaimana dimaksud pada ayat (1), Peraturan Mahkamah dimuat dalam laman Mahkamah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-17/ayat-3",
@@ -976,19 +977,19 @@
          "teks": "Pemuatan Peraturan Mahkamah dalam laman Mahkamah dilakukan segera setelah ditetapkan.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     }
    ],
    "sumber": "permk-2012-1",
-   "berlaku_mulai": "2012-03-01"
+   "berlaku_mulai": "2012-12-28"
   },
   {
    "id": "bab-6",
@@ -1009,11 +1010,11 @@
        "teks": "Keputusan Ketua Mahkamah merupakan penetapan tertulis yang berisi tindakan hukum yang bersifat konkret, individual, dan final dalam bidang non-yudisial.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-6/bagian-kedua",
@@ -1028,11 +1029,11 @@
        "teks": "Materi muatan Keputusan Ketua Mahkamah sebagaimana dimaksud dalam Pasal 18, berisi materi untuk menindaklanjuti hal-hal di bidang non-yudisial untuk kelancaran pelaksanaan tugas, wewenang, dan kewajiban Mahkamah berdasarkan peraturan perundang-undangan.",
        "verifikasi": "pdf-resmi",
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     },
     {
      "id": "bab-6/bagian-ketiga",
@@ -1052,7 +1053,7 @@
          "teks": "Penyusunan Keputusan Ketua Mahkamah sebagaimana dimaksud dalam Pasal 18 dilakukan oleh Ketua Mahkamah.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-20/ayat-2",
@@ -1061,7 +1062,7 @@
          "teks": "Dalam mempersiapkan penyusunan Keputusan Ketua Mahkarnah sebagaimana dimaksud pada ayat (1), Ketua Mahkamah dibantu oleh Sekretaris JenderaL",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         },
         {
          "id": "pasal-20/ayat-3",
@@ -1070,19 +1071,19 @@
          "teks": "Tata cara penyusunan Keputusan Ketua Mahkamah sebagaimana dimaksud dalam Pasal 18 diatur lebih lanjut dalam Peraturan Sekretaris J enderal.",
          "verifikasi": "pdf-resmi",
          "sumber": "permk-2012-1",
-         "berlaku_mulai": "2012-03-01"
+         "berlaku_mulai": "2012-12-28"
         }
        ],
        "sumber": "permk-2012-1",
-       "berlaku_mulai": "2012-03-01"
+       "berlaku_mulai": "2012-12-28"
       }
      ],
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     }
    ],
    "sumber": "permk-2012-1",
-   "berlaku_mulai": "2012-03-01"
+   "berlaku_mulai": "2012-12-28"
   },
   {
    "id": "bab-7",
@@ -1097,11 +1098,11 @@
      "teks": "Pejabat Fungsional Tertentu Kepaniteraan yang melaksanakan tugas sebagaimana dimaksud dalam Pasal 6 ayat (2) tidak dapat dikenai tindakan kepolisian, baik sebagai saksi atau tersangka, kecuali yang ditentukan oleh Undang-Undang.",
      "verifikasi": "pdf-resmi",
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     }
    ],
    "sumber": "permk-2012-1",
-   "berlaku_mulai": "2012-03-01"
+   "berlaku_mulai": "2012-12-28"
   },
   {
    "id": "bab-8",
@@ -1116,11 +1117,11 @@
      "teks": "Peraturan Mahkamah ini mulai berlaku pad a tanggal ditetapkan.",
      "verifikasi": "pdf-resmi",
      "sumber": "permk-2012-1",
-     "berlaku_mulai": "2012-03-01"
+     "berlaku_mulai": "2012-12-28"
     }
    ],
    "sumber": "permk-2012-1",
-   "berlaku_mulai": "2012-03-01"
+   "berlaku_mulai": "2012-12-28"
   }
  ],
  "penjelasan_efektif": null,

@@ -30,7 +30,7 @@
     "target": "uud-1945"
    }
   ],
-  "catatan_kurasi": "Akta pendirian koperasi dibuat notaris. UU 17/2012 penggantinya dibatalkan MK 28/PUU-XI/2013 sehingga UU ini berlaku kembali; diubah UU 6/2023 (Cipta Kerja) — peristiwa terenkode & terverifikasi.",
+  "catatan_kurasi": "Akta pendirian koperasi dibuat notaris. UU 17/2012 penggantinya dibatalkan MK 28/PUU-XI/2013 sehingga UU ini berlaku kembali; diubah UU 6/2023 (Cipta Kerja) — peristiwa terenkode & terverifikasi. KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_pengundangan (kosong) → 1992-10-21. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/uu-1992-25.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
   "kelompok": "koperasi-rusun",
   "perubahan_belum_dienkode": [
    {
@@ -40,14 +40,16 @@
    {
     "id": "uu-2023-4"
    }
-  ]
+  ],
+  "tanggal_pengundangan": "1992-10-21"
  },
- "dihasilkan": "2026-09-22T17:49:43.230Z",
+ "dihasilkan": "2026-09-25T06:26:03.457Z",
  "timeline": [
   {
    "tanggal": "1992-10-21",
    "peristiwa": "uu-1992-25/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "1992-10-21",
    "pelaku": "uu-1992-25",
    "judul_pelaku": "Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian",
    "jumlah_operasi": null,
@@ -156,11 +158,21 @@
    "judul": "LANDASAN, ASAS, DAN TUJUAN",
    "anak": [
     {
-     "id": "pasal-2",
-     "tipe": "pasal",
-     "nomor": "2",
-     "teks": "Koperasi berlandaskan Pancasila dan Undang-Undang Dasar 1945 serta berdasar atas asas kekeluargaan.",
-     "verifikasi": "pdf-resmi",
+     "id": "bab-2/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Landasan dan Asas",
+     "anak": [
+      {
+       "id": "pasal-2",
+       "tipe": "pasal",
+       "nomor": "2",
+       "teks": "Koperasi berlandaskan Pancasila dan Undang-Undang Dasar 1945 serta berdasar atas asas kekeluargaan.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-1992-25",
+       "berlaku_mulai": "1992-10-21"
+      }
+     ],
      "sumber": "uu-1992-25",
      "berlaku_mulai": "1992-10-21"
     },
@@ -194,49 +206,59 @@
    "judul": "FUNGSI, PERAN, DAN PRINSIP KOPERASI",
    "anak": [
     {
-     "id": "pasal-4",
-     "tipe": "pasal",
-     "nomor": "4",
+     "id": "bab-3/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Fungsi dan Peran",
      "anak": [
       {
-       "id": "pasal-4/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "membangun dan mengembangkan potensi dan kemampuan ekonomi anggota pada khususnya dan masyarakat pada umumnya untuk meningkatkan kesejahteraan ekonomi dan sosialnya;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-4/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "berperan serta secara aktif dalam upaya mempertinggi kualitas kehidupan manusia dan masyarakat;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-4/huruf-c",
-       "tipe": "huruf",
-       "nomor": "c.",
-       "teks": "memperkokoh perekonomian rakyat sebagai dasar kekuatan dan ketahanan perekonomian nasional dengan Koperasi sebagai sokogurunya;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-4/huruf-d",
-       "tipe": "huruf",
-       "nomor": "d.",
-       "teks": "berusaha untuk mewujudkan dan mengembangkan perekonomian nasional yang merupakan usaha bersama berdasar atas asas kekeluargaan dan demokrasi ekonomi.",
+       "id": "pasal-4",
+       "tipe": "pasal",
+       "nomor": "4",
+       "anak": [
+        {
+         "id": "pasal-4/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "membangun dan mengembangkan potensi dan kemampuan ekonomi anggota pada khususnya dan masyarakat pada umumnya untuk meningkatkan kesejahteraan ekonomi dan sosialnya;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-4/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "berperan serta secara aktif dalam upaya mempertinggi kualitas kehidupan manusia dan masyarakat;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-4/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "memperkokoh perekonomian rakyat sebagai dasar kekuatan dan ketahanan perekonomian nasional dengan Koperasi sebagai sokogurunya;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-4/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "berusaha untuk mewujudkan dan mengembangkan perekonomian nasional yang merupakan usaha bersama berdasar atas asas kekeluargaan dan demokrasi ekonomi.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        }
+       ],
+       "teks": "Fungsi dan peran Koperasi adalah:",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-1992-25",
        "berlaku_mulai": "1992-10-21"
       }
      ],
-     "teks": "Fungsi dan peran Koperasi adalah:",
-     "verifikasi": "pdf-resmi",
      "sumber": "uu-1992-25",
      "berlaku_mulai": "1992-10-21"
     },
@@ -355,232 +377,242 @@
    "judul": "PEMBENTUKAN",
    "anak": [
     {
-     "id": "pasal-6",
-     "tipe": "pasal",
-     "nomor": "6",
+     "id": "bab-4/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Syarat Pembentukan",
      "anak": [
       {
-       "id": "pasal-6/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Koperasi Primer dibentuk paling sedikit oleh 9 (sembilan) orang.",
-       "verifikasi": "pdf-resmi",
+       "id": "pasal-6",
+       "tipe": "pasal",
+       "nomor": "6",
+       "anak": [
+        {
+         "id": "pasal-6/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Koperasi Primer dibentuk paling sedikit oleh 9 (sembilan) orang.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        },
+        {
+         "id": "pasal-6/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Koperasi Sekunder dibentuk oleh paling sedikit 3 (tiga) Koperasi.",
+         "verifikasi": "pdf-resmi",
+         "anak": [],
+         "sumber": "uu-2023-6",
+         "berlaku_mulai": "2023-03-31"
+        }
+       ],
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-6",
+          "tipe": "pasal",
+          "nomor": "6",
+          "anak": [
+           {
+            "id": "pasal-6/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Koperasi Primer dibentuk oleh sekurang-kurangnya 20 (duapuluh) orang.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1992-25",
+            "berlaku_mulai": "1992-10-21"
+           },
+           {
+            "id": "pasal-6/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Koperasi Sekunder dibentuk oleh sekurang-kurangnya 3 (tiga) Koperasi.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1992-25",
+            "berlaku_mulai": "1992-10-21"
+           }
+          ],
+          "sumber": "uu-1992-25",
+          "berlaku_mulai": "1992-10-21"
+         },
+         "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-6",
+          "tipe": "pasal",
+          "nomor": "6",
+          "anak": [
+           {
+            "id": "pasal-6/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Koperasi Primer dibentuk paling sedikit oleh 9 (sembilan) orang.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-6/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Koperasi Sekunder dibentuk oleh paling sedikit 3 (tiga) Koperasi.",
+            "verifikasi": "draf",
+            "anak": [],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           }
+          ],
+          "sumber": "perppu-2022-2",
+          "berlaku_mulai": "2022-12-30"
+         },
+         "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
        "sumber": "uu-2023-6",
        "berlaku_mulai": "2023-03-31"
       },
       {
-       "id": "pasal-6/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Koperasi Sekunder dibentuk oleh paling sedikit 3 (tiga) Koperasi.",
-       "verifikasi": "pdf-resmi",
-       "anak": [],
-       "sumber": "uu-2023-6",
-       "berlaku_mulai": "2023-03-31"
-      }
-     ],
-     "riwayat": [
-      {
-       "aksi": "diganti",
-       "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
-       "pelaku": "perppu-2022-2",
-       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
-       "tanggal": "2022-12-30",
-       "sebelum": {
-        "id": "pasal-6",
-        "tipe": "pasal",
-        "nomor": "6",
-        "anak": [
-         {
-          "id": "pasal-6/ayat-1",
-          "tipe": "ayat",
-          "nomor": "(1)",
-          "teks": "Koperasi Primer dibentuk oleh sekurang-kurangnya 20 (duapuluh) orang.",
-          "verifikasi": "pdf-resmi",
-          "sumber": "uu-1992-25",
-          "berlaku_mulai": "1992-10-21"
-         },
-         {
-          "id": "pasal-6/ayat-2",
-          "tipe": "ayat",
-          "nomor": "(2)",
-          "teks": "Koperasi Sekunder dibentuk oleh sekurang-kurangnya 3 (tiga) Koperasi.",
-          "verifikasi": "pdf-resmi",
-          "sumber": "uu-1992-25",
-          "berlaku_mulai": "1992-10-21"
-         }
-        ],
-        "sumber": "uu-1992-25",
-        "berlaku_mulai": "1992-10-21"
-       },
-       "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
-      },
-      {
-       "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
-       "sebelum": {
-        "id": "pasal-6",
-        "tipe": "pasal",
-        "nomor": "6",
-        "anak": [
-         {
-          "id": "pasal-6/ayat-1",
-          "tipe": "ayat",
-          "nomor": "(1)",
-          "teks": "Koperasi Primer dibentuk paling sedikit oleh 9 (sembilan) orang.",
-          "verifikasi": "draf",
-          "anak": [],
-          "sumber": "perppu-2022-2",
-          "berlaku_mulai": "2022-12-30"
-         },
-         {
-          "id": "pasal-6/ayat-2",
-          "tipe": "ayat",
-          "nomor": "(2)",
-          "teks": "Koperasi Sekunder dibentuk oleh paling sedikit 3 (tiga) Koperasi.",
-          "verifikasi": "draf",
-          "anak": [],
-          "sumber": "perppu-2022-2",
-          "berlaku_mulai": "2022-12-30"
-         }
-        ],
-        "sumber": "perppu-2022-2",
-        "berlaku_mulai": "2022-12-30"
-       },
-       "catatan": "Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut:"
-      }
-     ],
-     "sumber": "uu-2023-6",
-     "berlaku_mulai": "2023-03-31"
-    },
-    {
-     "id": "pasal-7",
-     "tipe": "pasal",
-     "nomor": "7",
-     "anak": [
-      {
-       "id": "pasal-7/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Pembentukan Koperasi sebagaimana dimaksud dalam Pasal 6 dilakukan dengan akta pendirian yang memuat Anggaran Dasar.",
-       "verifikasi": "pdf-resmi",
+       "id": "pasal-7",
+       "tipe": "pasal",
+       "nomor": "7",
+       "anak": [
+        {
+         "id": "pasal-7/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pembentukan Koperasi sebagaimana dimaksud dalam Pasal 6 dilakukan dengan akta pendirian yang memuat Anggaran Dasar.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-7/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Koperasi mempunyai tempat kedudukan dalam wilayah negara Republik Indonesia.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        }
+       ],
        "sumber": "uu-1992-25",
        "berlaku_mulai": "1992-10-21"
       },
       {
-       "id": "pasal-7/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Koperasi mempunyai tempat kedudukan dalam wilayah negara Republik Indonesia.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      }
-     ],
-     "sumber": "uu-1992-25",
-     "berlaku_mulai": "1992-10-21"
-    },
-    {
-     "id": "pasal-8",
-     "tipe": "pasal",
-     "nomor": "8",
-     "anak": [
-      {
-       "id": "pasal-8/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "daftar nama pendiri;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "nama dan tempat kedudukan;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-c",
-       "tipe": "huruf",
-       "nomor": "c.",
-       "teks": "maksud dan tujuan serta bidang usaha;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-d",
-       "tipe": "huruf",
-       "nomor": "d.",
-       "teks": "ketentuan mengenai keanggotaan;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-e",
-       "tipe": "huruf",
-       "nomor": "e.",
-       "teks": "ketentuan mengenai Rapat Anggota;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-f",
-       "tipe": "huruf",
-       "nomor": "f.",
-       "teks": "ketentuan mengenai pengelolaan;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-g",
-       "tipe": "huruf",
-       "nomor": "g.",
-       "teks": "ketentuan mengenai permodalan;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-h",
-       "tipe": "huruf",
-       "nomor": "h.",
-       "teks": "ketentuan mengenai jangka waktu berdirinya;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-i",
-       "tipe": "huruf",
-       "nomor": "i.",
-       "teks": "ketentuan mengenai pembagian sisa hasil usaha;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-8/huruf-j",
-       "tipe": "huruf",
-       "nomor": "j.",
-       "teks": "ketentuan mengenai sanksi.",
+       "id": "pasal-8",
+       "tipe": "pasal",
+       "nomor": "8",
+       "anak": [
+        {
+         "id": "pasal-8/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "daftar nama pendiri;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "nama dan tempat kedudukan;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "maksud dan tujuan serta bidang usaha;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "ketentuan mengenai keanggotaan;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-e",
+         "tipe": "huruf",
+         "nomor": "e.",
+         "teks": "ketentuan mengenai Rapat Anggota;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-f",
+         "tipe": "huruf",
+         "nomor": "f.",
+         "teks": "ketentuan mengenai pengelolaan;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-g",
+         "tipe": "huruf",
+         "nomor": "g.",
+         "teks": "ketentuan mengenai permodalan;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-h",
+         "tipe": "huruf",
+         "nomor": "h.",
+         "teks": "ketentuan mengenai jangka waktu berdirinya;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-i",
+         "tipe": "huruf",
+         "nomor": "i.",
+         "teks": "ketentuan mengenai pembagian sisa hasil usaha;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-8/huruf-j",
+         "tipe": "huruf",
+         "nomor": "j.",
+         "teks": "ketentuan mengenai sanksi.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        }
+       ],
+       "teks": "Anggaran Dasar sebagaimana dimaksud dalam Pasal 7 ayat (1) memuat sekurang-kurangnya:",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-1992-25",
        "berlaku_mulai": "1992-10-21"
       }
      ],
-     "teks": "Anggaran Dasar sebagaimana dimaksud dalam Pasal 7 ayat (1) memuat sekurang-kurangnya:",
-     "verifikasi": "pdf-resmi",
      "sumber": "uu-1992-25",
      "berlaku_mulai": "1992-10-21"
     },
@@ -1032,148 +1064,168 @@
    "judul": "PERANGKAT ORGANISASI",
    "anak": [
     {
-     "id": "pasal-21",
-     "tipe": "pasal",
-     "nomor": "21",
+     "id": "bab-6/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Umum",
      "anak": [
       {
-       "id": "pasal-21/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Perangkat organisasi Koperasi terdiri atas:",
-       "verifikasi": "pdf-resmi",
+       "id": "pasal-21",
+       "tipe": "pasal",
+       "nomor": "21",
        "anak": [
         {
-         "id": "pasal-21/ayat-1/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "Rapat Anggota;",
+         "id": "pasal-21/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Perangkat organisasi Koperasi terdiri atas:",
          "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-21/ayat-1/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "Rapat Anggota;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-21/ayat-1/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "Pengurus; dan",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          },
+          {
+           "id": "pasal-21/ayat-1/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "Pengawas.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2023-6",
+           "berlaku_mulai": "2023-03-31"
+          }
+         ],
          "sumber": "uu-2023-6",
          "berlaku_mulai": "2023-03-31"
         },
         {
-         "id": "pasal-21/ayat-1/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "Pengurus; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2023-6",
-         "berlaku_mulai": "2023-03-31"
-        },
-        {
-         "id": "pasal-21/ayat-1/huruf-c",
-         "tipe": "huruf",
-         "nomor": "c.",
-         "teks": "Pengawas.",
+         "id": "pasal-21/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Selain memiliki perangkat organisasi Koperasi sebagaimana dimaksud pada ayat (1), Koperasi yang menjalankan kegiatan usaha berdasarkan prinsip syariah wajib memiliki dewan pengawas syariah.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2023-6",
          "berlaku_mulai": "2023-03-31"
         }
        ],
-       "sumber": "uu-2023-6",
-       "berlaku_mulai": "2023-03-31"
-      },
-      {
-       "id": "pasal-21/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Selain memiliki perangkat organisasi Koperasi sebagaimana dimaksud pada ayat (1), Koperasi yang menjalankan kegiatan usaha berdasarkan prinsip syariah wajib memiliki dewan pengawas syariah.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2023-6",
-       "berlaku_mulai": "2023-03-31"
-      }
-     ],
-     "riwayat": [
-      {
-       "aksi": "diganti",
-       "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
-       "pelaku": "perppu-2022-2",
-       "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
-       "tanggal": "2022-12-30",
-       "sebelum": {
-        "id": "pasal-21",
-        "tipe": "pasal",
-        "nomor": "21",
-        "anak": [
-         {
-          "id": "pasal-21/huruf-a",
-          "tipe": "huruf",
-          "nomor": "a.",
-          "teks": "Rapat Anggota;",
-          "verifikasi": "pdf-resmi",
-          "sumber": "uu-1992-25",
-          "berlaku_mulai": "1992-10-21"
-         },
-         {
-          "id": "pasal-21/huruf-b",
-          "tipe": "huruf",
-          "nomor": "b.",
-          "teks": "Pengurus;",
-          "verifikasi": "pdf-resmi",
-          "sumber": "uu-1992-25",
-          "berlaku_mulai": "1992-10-21"
-         },
-         {
-          "id": "pasal-21/huruf-c",
-          "tipe": "huruf",
-          "nomor": "c.",
-          "teks": "Pengawas.",
-          "verifikasi": "pdf-resmi",
-          "sumber": "uu-1992-25",
-          "berlaku_mulai": "1992-10-21"
-         }
-        ],
-        "teks": "Perangkat organisasi Koperasi terdiri dari:",
-        "verifikasi": "pdf-resmi",
-        "sumber": "uu-1992-25",
-        "berlaku_mulai": "1992-10-21"
-       },
-       "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
-      },
-      {
-       "aksi": "diganti",
-       "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
-       "pelaku": "uu-2023-6",
-       "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
-       "tanggal": "2023-03-31",
-       "sebelum": {
-        "id": "pasal-21",
-        "tipe": "pasal",
-        "nomor": "21",
-        "anak": [
-         {
-          "id": "pasal-21/ayat-1",
-          "tipe": "ayat",
-          "nomor": "(1)",
-          "teks": "Perangkat organisasi Koperasi terdiri atas:",
-          "verifikasi": "draf",
+       "riwayat": [
+        {
+         "aksi": "diganti",
+         "peristiwa": "perppu-2022-2/amandemen-uu-1992-25",
+         "pelaku": "perppu-2022-2",
+         "judul_pelaku": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu) Nomor 2 Tahun 2022 tentang Cipta Kerja",
+         "tanggal": "2022-12-30",
+         "sebelum": {
+          "id": "pasal-21",
+          "tipe": "pasal",
+          "nomor": "21",
           "anak": [
            {
-            "id": "pasal-21/ayat-1/huruf-a",
+            "id": "pasal-21/huruf-a",
             "tipe": "huruf",
             "nomor": "a.",
             "teks": "Rapat Anggota;",
-            "verifikasi": "draf",
-            "anak": [],
-            "sumber": "perppu-2022-2",
-            "berlaku_mulai": "2022-12-30"
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1992-25",
+            "berlaku_mulai": "1992-10-21"
            },
            {
-            "id": "pasal-21/ayat-1/huruf-b",
+            "id": "pasal-21/huruf-b",
             "tipe": "huruf",
             "nomor": "b.",
-            "teks": "Pengurus; dan",
-            "verifikasi": "draf",
-            "anak": [],
-            "sumber": "perppu-2022-2",
-            "berlaku_mulai": "2022-12-30"
+            "teks": "Pengurus;",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1992-25",
+            "berlaku_mulai": "1992-10-21"
            },
            {
-            "id": "pasal-21/ayat-1/huruf-c",
+            "id": "pasal-21/huruf-c",
             "tipe": "huruf",
             "nomor": "c.",
             "teks": "Pengawas.",
+            "verifikasi": "pdf-resmi",
+            "sumber": "uu-1992-25",
+            "berlaku_mulai": "1992-10-21"
+           }
+          ],
+          "teks": "Perangkat organisasi Koperasi terdiri dari:",
+          "verifikasi": "pdf-resmi",
+          "sumber": "uu-1992-25",
+          "berlaku_mulai": "1992-10-21"
+         },
+         "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
+        },
+        {
+         "aksi": "diganti",
+         "peristiwa": "uu-2023-6/amandemen-uu-1992-25",
+         "pelaku": "uu-2023-6",
+         "judul_pelaku": "Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+         "tanggal": "2023-03-31",
+         "sebelum": {
+          "id": "pasal-21",
+          "tipe": "pasal",
+          "nomor": "21",
+          "anak": [
+           {
+            "id": "pasal-21/ayat-1",
+            "tipe": "ayat",
+            "nomor": "(1)",
+            "teks": "Perangkat organisasi Koperasi terdiri atas:",
+            "verifikasi": "draf",
+            "anak": [
+             {
+              "id": "pasal-21/ayat-1/huruf-a",
+              "tipe": "huruf",
+              "nomor": "a.",
+              "teks": "Rapat Anggota;",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-21/ayat-1/huruf-b",
+              "tipe": "huruf",
+              "nomor": "b.",
+              "teks": "Pengurus; dan",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             },
+             {
+              "id": "pasal-21/ayat-1/huruf-c",
+              "tipe": "huruf",
+              "nomor": "c.",
+              "teks": "Pengawas.",
+              "verifikasi": "draf",
+              "anak": [],
+              "sumber": "perppu-2022-2",
+              "berlaku_mulai": "2022-12-30"
+             }
+            ],
+            "sumber": "perppu-2022-2",
+            "berlaku_mulai": "2022-12-30"
+           },
+           {
+            "id": "pasal-21/ayat-2",
+            "tipe": "ayat",
+            "nomor": "(2)",
+            "teks": "Selain memiliki perangkat organisasi Koperasi sebagaimana dimaksud pada ayat (1), Koperasi yang menjalankan kegiatan usaha berdasarkan prinsip syariah wajib memiliki dewan pengawas syariah.",
             "verifikasi": "draf",
             "anak": [],
             "sumber": "perppu-2022-2",
@@ -1183,25 +1235,15 @@
           "sumber": "perppu-2022-2",
           "berlaku_mulai": "2022-12-30"
          },
-         {
-          "id": "pasal-21/ayat-2",
-          "tipe": "ayat",
-          "nomor": "(2)",
-          "teks": "Selain memiliki perangkat organisasi Koperasi sebagaimana dimaksud pada ayat (1), Koperasi yang menjalankan kegiatan usaha berdasarkan prinsip syariah wajib memiliki dewan pengawas syariah.",
-          "verifikasi": "draf",
-          "anak": [],
-          "sumber": "perppu-2022-2",
-          "berlaku_mulai": "2022-12-30"
-         }
-        ],
-        "sumber": "perppu-2022-2",
-        "berlaku_mulai": "2022-12-30"
-       },
-       "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
+         "catatan": "Ketentuan Pasal 21 diubah sehingga berbunyi sebagai berikut:"
+        }
+       ],
+       "sumber": "uu-2023-6",
+       "berlaku_mulai": "2023-03-31"
       }
      ],
-     "sumber": "uu-2023-6",
-     "berlaku_mulai": "2023-03-31"
+     "sumber": "uu-1992-25",
+     "berlaku_mulai": "1992-10-21"
     },
     {
      "id": "bab-6/bagian-kedua",
@@ -2525,69 +2567,106 @@
    "judul": "PEMBUBARAN KOPERASI",
    "anak": [
     {
-     "id": "pasal-46",
-     "tipe": "pasal",
-     "nomor": "46",
+     "id": "bab-10/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Cara Pembubaran Koperasi",
      "anak": [
       {
-       "id": "pasal-46/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "keputusan Rapat Anggota, atau",
+       "id": "pasal-46",
+       "tipe": "pasal",
+       "nomor": "46",
+       "anak": [
+        {
+         "id": "pasal-46/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "keputusan Rapat Anggota, atau",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-46/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "keputusan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        }
+       ],
+       "teks": "Pembubaran Koperasi dapat dilakukan berdasarkan:",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-1992-25",
        "berlaku_mulai": "1992-10-21"
       },
       {
-       "id": "pasal-46/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "keputusan Pemerintah.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      }
-     ],
-     "teks": "Pembubaran Koperasi dapat dilakukan berdasarkan:",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-1992-25",
-     "berlaku_mulai": "1992-10-21"
-    },
-    {
-     "id": "pasal-47",
-     "tipe": "pasal",
-     "nomor": "47",
-     "anak": [
-      {
-       "id": "pasal-47/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Keputusan pembubaran oleh Pemerintah sebagaimana dimaksud dalam Pasal 46 huruf b dilakukan apabila:",
-       "verifikasi": "pdf-resmi",
+       "id": "pasal-47",
+       "tipe": "pasal",
+       "nomor": "47",
        "anak": [
         {
-         "id": "pasal-47/ayat-1/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "terdapat bukti bahwa Koperasi yang bersangkutan tidak memenuhi ketentuan Undang-undang ini;",
+         "id": "pasal-47/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Keputusan pembubaran oleh Pemerintah sebagaimana dimaksud dalam Pasal 46 huruf b dilakukan apabila:",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-47/ayat-1/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "terdapat bukti bahwa Koperasi yang bersangkutan tidak memenuhi ketentuan Undang-undang ini;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-1992-25",
+           "berlaku_mulai": "1992-10-21"
+          },
+          {
+           "id": "pasal-47/ayat-1/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "kcgiatannya bertentangan dengan ketertiban umum dan/atau kesusilaan;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-1992-25",
+           "berlaku_mulai": "1992-10-21"
+          },
+          {
+           "id": "pasal-47/ayat-1/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "kelangsungan hidupnya tidak dapat lagi diharapkan.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-1992-25",
+           "berlaku_mulai": "1992-10-21"
+          }
+         ],
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-47/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Keputusan pembubaran Koperasi oleh Pemerintah dikeluarkan dalam waktu paling lambat 4 (empat) bulan terhitung sejak tanggal diterimanya surat pemberitahuan rencana pembubaran tersebut oleh Koperasi yang bersangkutan.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-1992-25",
          "berlaku_mulai": "1992-10-21"
         },
         {
-         "id": "pasal-47/ayat-1/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "kcgiatannya bertentangan dengan ketertiban umum dan/atau kesusilaan;",
+         "id": "pasal-47/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Dalam jangka waktu paling lambat 2 (dua) bulan sejak tanggal penerimaan pemberitahuan, Koperasi yang bersangkutan berhak mengajukan keberatan.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-1992-25",
          "berlaku_mulai": "1992-10-21"
         },
         {
-         "id": "pasal-47/ayat-1/huruf-c",
-         "tipe": "huruf",
-         "nomor": "c.",
-         "teks": "kelangsungan hidupnya tidak dapat lagi diharapkan.",
+         "id": "pasal-47/ayat-4",
+         "tipe": "ayat",
+         "nomor": "(4)",
+         "teks": "Keputusan Pemerintah mengenai diterima atau ditolaknya keberatan atas rencana pembubaran diberikan paling lambat 1 (satu) bulan sejak tanggal diterimanya pemyataan keberatan tersebut.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-1992-25",
          "berlaku_mulai": "1992-10-21"
@@ -2597,71 +2676,62 @@
        "berlaku_mulai": "1992-10-21"
       },
       {
-       "id": "pasal-47/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Keputusan pembubaran Koperasi oleh Pemerintah dikeluarkan dalam waktu paling lambat 4 (empat) bulan terhitung sejak tanggal diterimanya surat pemberitahuan rencana pembubaran tersebut oleh Koperasi yang bersangkutan.",
+       "id": "pasal-48",
+       "tipe": "pasal",
+       "nomor": "48",
+       "teks": "Ketentuan mengenai pembubaran Koperasi oleh Pemerintah dan tata cara pengajuan keberatan sebagaimana dimaksud dalam Pasal 47, diatur lebih lanjut dengan Peraturan Pemerintah.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-1992-25",
        "berlaku_mulai": "1992-10-21"
       },
       {
-       "id": "pasal-47/ayat-3",
-       "tipe": "ayat",
-       "nomor": "(3)",
-       "teks": "Dalam jangka waktu paling lambat 2 (dua) bulan sejak tanggal penerimaan pemberitahuan, Koperasi yang bersangkutan berhak mengajukan keberatan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-47/ayat-4",
-       "tipe": "ayat",
-       "nomor": "(4)",
-       "teks": "Keputusan Pemerintah mengenai diterima atau ditolaknya keberatan atas rencana pembubaran diberikan paling lambat 1 (satu) bulan sejak tanggal diterimanya pemyataan keberatan tersebut.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      }
-     ],
-     "sumber": "uu-1992-25",
-     "berlaku_mulai": "1992-10-21"
-    },
-    {
-     "id": "pasal-48",
-     "tipe": "pasal",
-     "nomor": "48",
-     "teks": "Ketentuan mengenai pembubaran Koperasi oleh Pemerintah dan tata cara pengajuan keberatan sebagaimana dimaksud dalam Pasal 47, diatur lebih lanjut dengan Peraturan Pemerintah.",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-1992-25",
-     "berlaku_mulai": "1992-10-21"
-    },
-    {
-     "id": "pasal-49",
-     "tipe": "pasal",
-     "nomor": "49",
-     "anak": [
-      {
-       "id": "pasal-49/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Keputusan pembubaran Koperasi oleh Rapat Anggota diberitahukan secara tertulis oleh Kuasa Rapat Anggota kepada:",
-       "verifikasi": "pdf-resmi",
+       "id": "pasal-49",
+       "tipe": "pasal",
+       "nomor": "49",
        "anak": [
         {
-         "id": "pasal-49/ayat-1/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "semua kreditor;",
+         "id": "pasal-49/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Keputusan pembubaran Koperasi oleh Rapat Anggota diberitahukan secara tertulis oleh Kuasa Rapat Anggota kepada:",
+         "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-49/ayat-1/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "semua kreditor;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-1992-25",
+           "berlaku_mulai": "1992-10-21"
+          },
+          {
+           "id": "pasal-49/ayat-1/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "Pemerintah.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-1992-25",
+           "berlaku_mulai": "1992-10-21"
+          }
+         ],
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-49/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Pemberitahuan kepada semua kreditor dilakukan oleh Pemerintah, dalam hal pembubaran tersebut berlangsung berdasarkan keputusan Pemerintah.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-1992-25",
          "berlaku_mulai": "1992-10-21"
         },
         {
-         "id": "pasal-49/ayat-1/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "Pemerintah.",
+         "id": "pasal-49/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Selama pemberitahuan pembubaran Koperasi belum diterima oleh kreditor, maka pembubaran Koperasi belum berlaku baginya.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-1992-25",
          "berlaku_mulai": "1992-10-21"
@@ -2671,53 +2741,35 @@
        "berlaku_mulai": "1992-10-21"
       },
       {
-       "id": "pasal-49/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Pemberitahuan kepada semua kreditor dilakukan oleh Pemerintah, dalam hal pembubaran tersebut berlangsung berdasarkan keputusan Pemerintah.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-49/ayat-3",
-       "tipe": "ayat",
-       "nomor": "(3)",
-       "teks": "Selama pemberitahuan pembubaran Koperasi belum diterima oleh kreditor, maka pembubaran Koperasi belum berlaku baginya.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      }
-     ],
-     "sumber": "uu-1992-25",
-     "berlaku_mulai": "1992-10-21"
-    },
-    {
-     "id": "pasal-50",
-     "tipe": "pasal",
-     "nomor": "50",
-     "anak": [
-      {
-       "id": "pasal-50/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "nama dan alamat Penyelesai, dan",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1992-25",
-       "berlaku_mulai": "1992-10-21"
-      },
-      {
-       "id": "pasal-50/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "ketentuan bahwa semua kreditor dapat mengajukan tagihan dalam jangka waktu 3 (tiga) bulan sesudah tanggal diterimanya surat pemberitahuan pembubaran.",
+       "id": "pasal-50",
+       "tipe": "pasal",
+       "nomor": "50",
+       "anak": [
+        {
+         "id": "pasal-50/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "nama dan alamat Penyelesai, dan",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        },
+        {
+         "id": "pasal-50/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "ketentuan bahwa semua kreditor dapat mengajukan tagihan dalam jangka waktu 3 (tiga) bulan sesudah tanggal diterimanya surat pemberitahuan pembubaran.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1992-25",
+         "berlaku_mulai": "1992-10-21"
+        }
+       ],
+       "teks": "Dalam pemberitahuan sebagaimana dimaksud dalam Pasal 49 disebutkan:",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-1992-25",
        "berlaku_mulai": "1992-10-21"
       }
      ],
-     "teks": "Dalam pemberitahuan sebagaimana dimaksud dalam Pasal 49 disebutkan:",
-     "verifikasi": "pdf-resmi",
      "sumber": "uu-1992-25",
      "berlaku_mulai": "1992-10-21"
     },

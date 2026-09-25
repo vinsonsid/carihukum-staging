@@ -8,7 +8,7 @@
   "judul": "Peraturan Menteri Hukum dan HAM Nomor 61 Tahun 2016 tentang Tata Cara Penjatuhan Sanksi Administratif terhadap Notaris",
   "judul_en": "MoLHR Reg 61/2016 on Administrative Sanctions for Notaries",
   "teu": "Indonesia, Pemerintah Pusat",
-  "tanggal_penetapan": "2016-12-30",
+  "tanggal_penetapan": "2016-12-29",
   "tanggal_berlaku": "2016-12-30",
   "sumber": {
    "keterangan": "BN 2016/2128"
@@ -42,15 +42,17 @@
     "target": null
    }
   ],
-  "catatan_kurasi": "Pelaksana UUJN pelaksana UUJN. Teks penuh termuat dari salinan BN (PDF teks).",
-  "kelompok": "kenotariatan"
+  "catatan_kurasi": "Pelaksana UUJN pelaksana UUJN. Teks penuh termuat dari salinan BN (PDF teks). KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_penetapan 2016-12-30 → 2016-12-29; tanggal_pengundangan (kosong) → 2016-12-30. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/permenkumham-2016-61.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
+  "kelompok": "kenotariatan",
+  "tanggal_pengundangan": "2016-12-30"
  },
- "dihasilkan": "2026-09-22T17:49:43.018Z",
+ "dihasilkan": "2026-09-25T06:26:03.326Z",
  "timeline": [
   {
    "tanggal": "2016-12-30",
    "peristiwa": "permenkumham-2016-61/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "2016-12-30",
    "pelaku": "permenkumham-2016-61",
    "judul_pelaku": "Peraturan Menteri Hukum dan HAM Nomor 61 Tahun 2016 tentang Tata Cara Penjatuhan Sanksi Administratif terhadap Notaris",
    "jumlah_operasi": null,

@@ -1,56 +1,31 @@
 <!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Tinjau — CariHukum (internal)</title>
 <meta name="description" content="Dasbor tinjau internal, baca-saja.">
-<style>
-  :root { --surface:#fff; --surface-2:#f6f8fa; --ink:#1f2328; --ink-2:#59636e;
-    --line:#d0d7de; --accent:#0d6a4f; --accent-soft:#e6f4ec; --merah:#b42318; --merah-soft:#fdecea; --kuning:#9a6700; --kuning-soft:#fff8e1;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif; }
-  * { box-sizing:border-box } body { margin:0; background:var(--surface); color:var(--ink); font-family:var(--sans); font-size:15px; line-height:1.6 }
-  .wrap { max-width:1080px; margin:0 auto; padding:0 24px 64px }
-  header.top { display:flex; align-items:center; justify-content:space-between; padding:14px 0; border-bottom:1px solid var(--line); margin-bottom:20px }
-  .wordmark { font-weight:700; font-size:1.05rem; color:var(--ink); text-decoration:none } .wordmark .cari { color:var(--accent) }
-  h1 { font-size:1.35rem; margin:14px 0 6px } h2 { font-size:1.08rem; margin:34px 0 8px; padding-top:10px; border-top:1px solid var(--line) } h3 { font-size:.95rem; margin:18px 0 6px }
-  .sub { color:var(--ink-2); font-size:.87rem; max-width:90ch }
-  table { border-collapse:collapse; width:100%; margin-top:12px; font-size:.84rem }
-  th, td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--line); vertical-align:top }
-  th { font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-2) }
-  td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap }
-  .rint { color:var(--ink-2); font-size:.76rem } code { font-size:.8em; background:var(--surface-2); padding:1px 4px; border-radius:3px }
-  .kartu { border:1px solid var(--line); border-radius:8px; padding:12px 16px; background:var(--surface-2); font-size:.88rem; margin:12px 0 }
-  .chip { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:0 8px; font-size:.76rem; background:var(--surface); margin:1px 0; white-space:nowrap }
-  .chip.warn { border-color:var(--kuning); color:var(--kuning); background:var(--kuning-soft) }
-  .merah { color:var(--merah) } .kosong { color:var(--ink-2); font-size:.86rem; font-style:italic }
-  .lampu { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:6px; background:var(--accent) }
-  tr.k-mati .lampu, tr.k-tiada .lampu { background:var(--merah) } tr.k-basi .lampu { background:var(--kuning) }
-  tr.k-mati td, tr.k-tiada td { background:var(--merah-soft) } tr.k-basi td { background:var(--kuning-soft) }
-  .kartu.k-mati, .kartu.k-tiada { background:var(--merah-soft); border-color:var(--merah) } .kartu.k-basi { background:var(--kuning-soft); border-color:var(--kuning) }
-  .pita { border:1px solid var(--merah); background:var(--merah-soft); border-radius:8px; padding:8px 14px; font-size:.84rem; margin:12px 0 }
-  pre { white-space:pre-wrap; font-size:.76rem; margin:4px 0 }
-  nav.isi a { margin-right:12px; font-size:.82rem } a { color:var(--accent) }
-  details summary { cursor:pointer; font-size:.86rem; color:var(--ink-2) } details ol { font-size:.84rem }
-</style>
-<div class="wrap">
+<link rel="stylesheet" href="/css/tokens.8812651824.css">
+<link rel="stylesheet" href="/css/komponen.62eaf51351.css">
+<link rel="stylesheet" href="/css/tinjau.ca9b034c99.css">
+<div class="wrap lebar">
   <header class="top"><a class="wordmark" href="/"><span class="cari">Cari</span>Hukum <span class="rint">· tinjau</span></a>
-    <span class="rint">dibangun 2026-09-22T17:49:52.298Z</span></header>
+    <div class="kanan"><a href="/belajar/">🎓 Belajar</a><a href="/istilah/">📖 Glosarium</a><a href="/peta/">🕸 Peta jejaring</a><a href="/cakupan/">📊 Cakupan</a><a href="/registri/">🗂 Registri</a><a href="/api/index.json">API</a><span class="rint">dibangun 2026-09-25T06:26:12.680Z</span></div></header>
   <h1>Dasbor tinjau — baca-saja</h1>
   <div class="pita">Halaman internal, noindex, tidak ditautkan dari mana pun. <strong>Tidak ada tombol sunting.</strong> Setiap perubahan pada korpus hanya lewat alat di <code>tools/</code> + commit yang melewati <code>npm run cek</code> (docs/21).</div>
   <nav class="isi"><a href="#alat">1 Alat</a><a href="#karya">2 Karya</a><a href="#antrean">3 Antrean</a><a href="#karantina">4 Karantina</a><a href="#invarian">5 Invarian</a><a href="#typo">6 Typo</a><a href="#audit">7 Audit</a><a href="#panen">8 Panen bot</a></nav>
   <h2 id="alat">1 · Kesehatan alat ukur</h2>
   <p class="sub">Baca ini dulu. Angka di bawah hanya bermakna bila laporannya ada, segar (≤ 7 hari), dan alatnya keluar kode 0. Semua laporan segar.</p>
   <table><thead><tr><th>Laporan</th><th>Dijalankan</th><th>Keadaan</th><th>Kode keluar alat (di build ini)</th></tr></thead><tbody><tr class="k-segar"><td><strong>Invarian struktur</strong><div class="rint">build/laporan/invarian.json — ditulis <code>npm run invarian</code> di gerbang</div></td>
-    <td>2026-09-22</td>
-    <td><span class="lampu"></span>18 jam lalu</td>
+    <td>2026-09-25</td>
+    <td><span class="lampu"></span>6 jam lalu</td>
     <td class="num"><span class="rint">tidak dijalankan di sini</span></td></tr>
 <tr class="k-segar"><td><strong>Cacat ketik (typo)</strong><div class="rint">build/laporan/typo.json — <code>tools/pindai-typo.py</code>, dijalankan build ini</div></td>
-    <td>2026-09-23</td>
-    <td><span class="lampu"></span>-6 jam lalu</td>
+    <td>2026-09-25</td>
+    <td><span class="lampu"></span>6 jam lalu</td>
     <td class="num">0 <span class="rint">(1.2 s)</span></td></tr>
 <tr class="k-segar"><td><strong>Audit instruksi perubahan</strong><div class="rint">build/laporan/audit.json — <code>tools/audit-instruksi.py --keluar</code>, dijalankan build ini</div></td>
-    <td>2026-09-22T17:49:52+00:00</td>
+    <td>2026-09-25T06:26:12+00:00</td>
     <td><span class="lampu"></span>0 jam lalu</td>
-    <td class="num">0 <span class="rint">(3.1 s)</span></td></tr>
-<tr class="k-segar"><td><strong>Panen bot</strong><div class="rint">build/laporan/panen-20260922-1913.json — cron 01:00 di mesin pemilik</div></td>
-    <td>2026-09-22T12:14:49Z</td>
-    <td><span class="lampu"></span>6 jam lalu</td>
+    <td class="num">0 <span class="rint">(3.2 s)</span></td></tr>
+<tr class="k-segar"><td><strong>Panen bot</strong><div class="rint">build/laporan/panen-20260925-0154.json — cron 01:00 di mesin pemilik</div></td>
+    <td>2026-09-24T19:28:52Z</td>
+    <td><span class="lampu"></span>11 jam lalu</td>
     <td class="num"><span class="rint">tidak dijalankan di sini</span></td></tr></tbody></table>
 <h2 id="karya">2 · Karya di korpus (111)</h2>
   <p class="sub">Tahap kurasi (kolom <em>tahap</em>) dipisah dari status hukum (kolom <em>status</em>). Karya <em>belum dikelompokkan</em> adalah hasil bot yang belum dinilai kurator — validator melarang promosinya.</p>
@@ -526,11 +501,14 @@
 <tr><td>uu-1960-5</td><td>S3</td><td><span class="chip">PARSER-KHUSUS</span></td>
      <td class="num">2026-09-04</td><td class="rint">UU 5/1960 (UUPA) berstruktur diktum berbagian (PERTAMA/KEDUA/…) dan dipanen dengan tools/parser-uupa.py, bukan parser baku. Mesin panen benar menolaknya — karyanya sendiri sudah lama ada di korpus dan terverifikasi.</td></tr></tbody></table>
 <h2 id="invarian">5 · Invarian struktur</h2>
-  <div class="kartu k-segar"><strong>1 temuan</strong> di 69 karya / 33.618 unit · <strong class="">0 baru</strong> di luar garis dasar · 1 utang diakui (dibekukan 2026-09-04) · ditegakkan untuk: uu<br>Per kode: <span class="chip"><b>1</b> HURUF-BOLONG</span></div>
-  <table><thead><tr><th>Karya</th><th>Temuan</th><th>Contoh</th></tr></thead><tbody><tr><td>pp-1997-24</td><td class="num">1</td><td class="rint">HURUF-BOLONG @ pasal-12/ayat-2/huruf-a</td></tr></tbody></table>
+  <div class="kartu k-segar"><strong>7 temuan</strong> di 69 karya / 33.646 unit · <strong class="">0 baru</strong> di luar garis dasar · 7 utang diakui (dibekukan 2026-09-04) · ditegakkan untuk: uu<br>Per kode: <span class="chip"><b>6</b> STRUKTUR-TAK-BERPEMBUKA</span> <span class="chip"><b>1</b> HURUF-BOLONG</span></div>
+  <table><thead><tr><th>Karya</th><th>Temuan</th><th>Contoh</th></tr></thead><tbody><tr><td>kuhperdata-1847</td><td class="num">4</td><td class="rint">STRUKTUR-TAK-BERPEMBUKA @ buku-2-bab-6/bagian-2<br>STRUKTUR-TAK-BERPEMBUKA @ buku-3-bab-10/bagian-2<br>STRUKTUR-TAK-BERPEMBUKA @ buku-3-bab-11/bagian-2</td></tr>
+<tr><td>permk-2019-3</td><td class="num">1</td><td class="rint">STRUKTUR-TAK-BERPEMBUKA @ bab-6/bagian-kedua</td></tr>
+<tr><td>pp-1997-24</td><td class="num">1</td><td class="rint">HURUF-BOLONG @ pasal-12/ayat-2/huruf-a</td></tr>
+<tr><td>uu-1999-41</td><td class="num">1</td><td class="rint">STRUKTUR-TAK-BERPEMBUKA @ bab-1/bagian-kedua</td></tr></tbody></table>
   <p class="rint">Berkas penuh: <a href="/tinjau/data/invarian.json">invarian.json</a></p>
 <h2 id="typo">6 · Cacat ketik warisan OCR</h2>
-  <div class="kartu k-segar"><strong>558 temuan</strong> di 62 karya (kosakata korpus 17.823) · <strong class="">0 baru</strong> · 9 menunggu kurasi · 558 utang diakui<br>Per kelas: <span class="chip"><b>64</b> KARAKTER-ASING</span> <span class="chip"><b>209</b> HURUF-HILANG</span> <span class="chip"><b>151</b> DIGIT-DI-KATA</span> <span class="chip"><b>134</b> KELAS-GLYPH</span></div>
+  <div class="kartu k-segar"><strong>558 temuan</strong> di 62 karya (kosakata korpus 17.824) · <strong class="">0 baru</strong> · 9 menunggu kurasi · 558 utang diakui<br>Per kelas: <span class="chip"><b>64</b> KARAKTER-ASING</span> <span class="chip"><b>209</b> HURUF-HILANG</span> <span class="chip"><b>151</b> DIGIT-DI-KATA</span> <span class="chip"><b>134</b> KELAS-GLYPH</span></div>
   <p class="sub">Garis dasar data/typo-dasar.json dibekukan 2026-09-11: <strong>565</strong> utang diakui, <strong>49</strong> di antaranya sudah dibaca dan diberi alasan tertulis (9%). Utang yang belum dibaca adalah pekerjaan kurator, bukan mesin.</p>
   <p class="rint">Berkas penuh: <a href="/tinjau/data/typo.json">typo.json</a></p>
 <h2 id="audit">7 · Audit instruksi perubahan</h2>
@@ -560,6 +538,6 @@
      <td class="num">0</td><td class="rint">31 operasi terenkode; segmen tak bisa dicocokkan</td></tr></tbody></table>
   <p class="rint">Berkas penuh: <a href="/tinjau/data/audit.json">audit.json</a></p>
 <h2 id="panen">8 · Panen bot terakhir</h2>
-  <div class="kartu k-segar">Dijalankan 2026-09-22T12:14:49Z sampai stasiun S5 (menulis) · 3 lolos · 0 berhenti · 0 tak disentuh
-       <p>Lolos: <span class="chip">uu-2009-30</span> <span class="chip">uu-2009-32</span> <span class="chip">uu-2009-33</span></p><p>Berhenti: <span class="rint">—</span></p></div>
+  <div class="kartu k-segar">Dijalankan 2026-09-24T19:28:52Z sampai stasiun S5 (menulis) · 3 lolos · 0 berhenti · 0 tak disentuh
+       <p>Lolos: <span class="chip">uu-2009-38</span> <span class="chip">uu-2009-39</span> <span class="chip">uu-2009-41</span></p><p>Berhenti: <span class="rint">—</span></p></div>
 </div></html>

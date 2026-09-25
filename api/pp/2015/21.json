@@ -31,15 +31,17 @@
     "target": "uu-1999-42"
    }
   ],
-  "catatan_kurasi": "Pelaksana UU 42/1999 (pendaftaran jaminan fidusia elektronik oleh notaris; mencabut PP 86/2000). Teks dari salinan digital BPK (pdftotext, bukan scan); tanggal penetapan dikoreksi dari 21 Apr ke 6 Apr 2015 sesuai kaki naskah. Lampiran tarif PNBP tidak dimuat (bagian lampiran belum didukung skema).",
-  "kelompok": "badan-usaha-jaminan"
+  "catatan_kurasi": "Pelaksana UU 42/1999 (pendaftaran jaminan fidusia elektronik oleh notaris; mencabut PP 86/2000). Teks dari salinan digital BPK (pdftotext, bukan scan); tanggal penetapan dikoreksi dari 21 Apr ke 6 Apr 2015 sesuai kaki naskah. Lampiran tarif PNBP tidak dimuat (bagian lampiran belum didukung skema). KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_pengundangan (kosong) → 2015-04-06. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/pp-2015-21.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
+  "kelompok": "badan-usaha-jaminan",
+  "tanggal_pengundangan": "2015-04-06"
  },
- "dihasilkan": "2026-09-22T17:49:43.167Z",
+ "dihasilkan": "2026-09-25T06:26:03.412Z",
  "timeline": [
   {
    "tanggal": "2015-04-06",
    "peristiwa": "pp-2015-21/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "2015-04-06",
    "pelaku": "pp-2015-21",
    "judul_pelaku": "Peraturan Pemerintah Nomor 21 Tahun 2015 tentang Tata Cara Pendaftaran Jaminan Fidusia dan Biaya Pembuatan Akta Jaminan Fidusia",
    "jumlah_operasi": null,

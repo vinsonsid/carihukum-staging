@@ -1,0 +1,22 @@
+
+  * { box-sizing:border-box }
+  nav.remah { font-size:.78rem; margin-top:6px; display:flex; gap:8px; align-items:center }
+  nav.remah a { border:1px solid var(--line); border-radius:6px; padding:2px 10px; color:var(--accent);
+    text-decoration:none; font-weight:600; background:var(--surface-2) }
+  h1 { font-size:1.45rem; margin:14px 0 4px }
+  .sub { color:var(--ink-2) }
+  .notice { background:#fff8e6; border:1px solid #e6d9a8; border-radius:8px; padding:10px 14px;
+    margin:14px 0; font-size:.85rem; color:#6b5518 }
+  .lompat-besar { margin:20px 0 }
+  .lompat-besar input { width:100%; max-width:420px; border:1px solid var(--line); border-radius:8px;
+    padding:10px 14px; font:400 1rem var(--sans) }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin:18px 0 }
+  .kartu { display:block; border:1px solid var(--line); border-radius:8px; padding:14px;
+    text-decoration:none; color:var(--ink); background:var(--surface) }
+  .kartu:hover { border-color:var(--accent); background:var(--accent-soft) }
+  .k-nomor { font-size:.75rem; font-weight:700; color:var(--accent); text-transform:uppercase; letter-spacing:.04em }
+  .k-judul { font-weight:700; font-size:1.02rem; margin:2px 0 }
+  .k-meta { font-size:.78rem; color:var(--ink-2) }
+  .anot { background:#fff8e6; border:1px solid #e6d9a8; border-radius:6px; padding:8px 12px;
+    margin:8px 0; font-size:.82rem; color:#6b5518 }
+  .keandalan { font-size:.82rem; color:var(--ink-2); margin-top:16px }

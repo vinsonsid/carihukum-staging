@@ -35,15 +35,17 @@
     "target": "kuhperdata-1847"
    }
   ],
-  "catatan_kurasi": "Akta jaminan fidusia wajib notariil (Pasal 5). Putusan MK 18/PUU-XVII/2019 dan 2/PUU-XIX/2021 (eksekusi sertifikat fidusia) sudah dienkode sebagai anotasi terverifikasi.",
-  "kelompok": "badan-usaha-jaminan"
+  "catatan_kurasi": "Akta jaminan fidusia wajib notariil (Pasal 5). Putusan MK 18/PUU-XVII/2019 dan 2/PUU-XIX/2021 (eksekusi sertifikat fidusia) sudah dienkode sebagai anotasi terverifikasi. KOREKSI TANGGAL 24 Sep 2026 (docs/26 §7, tools/periksa-tanggal.py): tanggal_pengundangan (kosong) → 1999-09-30. Sumber: blok tanda tangan & pasal penutup arsip raw/teks/uu-1999-42.txt; tanggal penetapan/pengundangan yang mengganti nilai lama dikonfirmasi pada citra halaman tanda tangan PDF arsip; tanggal pengundangan yang semula kosong dibaca dari teks arsip dan cocok dengan tanggal penetapan pada blok yang sama; tanggal berlaku dihitung dari bunyi pasal penutup di dokumen.json. Asal nilai lama tidak tercatat (tak ada kartu sumber terarsip); naskah menang (prinsip-kurasi §4). Panen ulang yang menulisnya kembali akan dijatuhkan penjaga.",
+  "kelompok": "badan-usaha-jaminan",
+  "tanggal_pengundangan": "1999-09-30"
  },
- "dihasilkan": "2026-09-22T17:49:43.282Z",
+ "dihasilkan": "2026-09-25T06:26:03.492Z",
  "timeline": [
   {
    "tanggal": "1999-09-30",
    "peristiwa": "uu-1999-42/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "1999-09-30",
    "pelaku": "uu-1999-42",
    "judul_pelaku": "Undang-Undang Nomor 42 Tahun 1999 tentang Jaminan Fidusia",
    "jumlah_operasi": null,
@@ -258,188 +260,198 @@
    "judul": "PEMBEBANAN, PENDAFTARAN, PENGALIHAN DAN HAPUSNYA JAMINAN FIDUSIA",
    "anak": [
     {
-     "id": "pasal-4",
-     "tipe": "pasal",
-     "nomor": "4",
-     "teks": "Jaminan Fidusia merupakan perjanjian ikutan dari suatu perjanian pokok yang menimbulkan kewajiban bagi para pihak untuk memenuhi suatu prestasi.",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-1999-42",
-     "berlaku_mulai": "1999-09-30"
-    },
-    {
-     "id": "pasal-5",
-     "tipe": "pasal",
-     "nomor": "5",
+     "id": "bab-3/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Pembebanan Jaminan Fidusia",
      "anak": [
       {
-       "id": "pasal-5/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Pembebanan Benda dengan Jaminan Fidusia dibuat dengan akta notaris dalam bahasa Indonesia dan merupakan akta Jaminan Fidusia.",
+       "id": "pasal-4",
+       "tipe": "pasal",
+       "nomor": "4",
+       "teks": "Jaminan Fidusia merupakan perjanjian ikutan dari suatu perjanian pokok yang menimbulkan kewajiban bagi para pihak untuk memenuhi suatu prestasi.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-1999-42",
        "berlaku_mulai": "1999-09-30"
       },
       {
-       "id": "pasal-5/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Terhadap pembuatan akta Jaminan Fidusia sebagaimana dimaksud dalam ayat (1), dikenakan biaya yang besarnya diatur lebih lanjut dengan Peraturan Pemerintah.",
+       "id": "pasal-5",
+       "tipe": "pasal",
+       "nomor": "5",
+       "anak": [
+        {
+         "id": "pasal-5/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pembebanan Benda dengan Jaminan Fidusia dibuat dengan akta notaris dalam bahasa Indonesia dan merupakan akta Jaminan Fidusia.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        },
+        {
+         "id": "pasal-5/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Terhadap pembuatan akta Jaminan Fidusia sebagaimana dimaksud dalam ayat (1), dikenakan biaya yang besarnya diatur lebih lanjut dengan Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        }
+       ],
+       "sumber": "uu-1999-42",
+       "berlaku_mulai": "1999-09-30"
+      },
+      {
+       "id": "pasal-6",
+       "tipe": "pasal",
+       "nomor": "6",
+       "anak": [
+        {
+         "id": "pasal-6/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "identitas pihak Pemberi dan Penerima Fidusia;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        },
+        {
+         "id": "pasal-6/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "data perjanjian pokok yang dijamin fidusia;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        },
+        {
+         "id": "pasal-6/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "uraian mengenai Benda yang menjadi objek Jaminan Fidusia;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        },
+        {
+         "id": "pasal-6/huruf-d",
+         "tipe": "huruf",
+         "nomor": "d.",
+         "teks": "nilai penjaminan; dan e nilai Benda yang menjadi objek Jaminan Fidusia.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        }
+       ],
+       "teks": "Akta Jaminan Fidusia sebagaimana dimaksud dalam Pasal 5 sekurang-kurangnya memuat:",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-1999-42",
+       "berlaku_mulai": "1999-09-30"
+      },
+      {
+       "id": "pasal-7",
+       "tipe": "pasal",
+       "nomor": "7",
+       "anak": [
+        {
+         "id": "pasal-7/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "utang yang telah ada;",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        },
+        {
+         "id": "pasal-7/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "utang yang akan timbul di kemudian hari yang telah diperjanjikan dalam jumlah tertentu; dan",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        },
+        {
+         "id": "pasal-7/huruf-c",
+         "tipe": "huruf",
+         "nomor": "c.",
+         "teks": "utang yang pada saat eksekusi dapat ditentukan jumlahnya berdasarkan perjanjian pokok yang menimbulkan kewajiban memenuhi suatu prestasi.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        }
+       ],
+       "teks": "Utang yang pelunasannya dajamin dengan fidusia dapat berupa:",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-1999-42",
+       "berlaku_mulai": "1999-09-30"
+      },
+      {
+       "id": "pasal-8",
+       "tipe": "pasal",
+       "nomor": "8",
+       "teks": "Jaminan Fidusia dapat diberikan kepada lebih dari satu Penerima Fidusia atau kepada kuasa atau wakil dari Penerima Fidusia tersebut.",
+       "verifikasi": "pdf-resmi",
+       "sumber": "uu-1999-42",
+       "berlaku_mulai": "1999-09-30"
+      },
+      {
+       "id": "pasal-9",
+       "tipe": "pasal",
+       "nomor": "9",
+       "anak": [
+        {
+         "id": "pasal-9/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Jaminan Fidusia dapat diberikan terhadap satu atau lebih satuan atau jenis Benda, termasuk piutang, baik yang telah ada pada saat jaminan diberikan maupun yang diperoleh kemudian.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        },
+        {
+         "id": "pasal-9/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Pembebanan jaminan atas Benda atau piutang yang diperoleh kemudian sebagaimana dimaksud dalam ayat (1) tidak perlu dilakukan dengan perjanjian jaminan tersendiri.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        }
+       ],
+       "sumber": "uu-1999-42",
+       "berlaku_mulai": "1999-09-30"
+      },
+      {
+       "id": "pasal-10",
+       "tipe": "pasal",
+       "nomor": "10",
+       "anak": [
+        {
+         "id": "pasal-10/huruf-a",
+         "tipe": "huruf",
+         "nomor": "a.",
+         "teks": "Jaminan Fidusia meliputi hasil dari Benda yang menjadi objek Jaminan Fidusia.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        },
+        {
+         "id": "pasal-10/huruf-b",
+         "tipe": "huruf",
+         "nomor": "b.",
+         "teks": "Jaminan Fidusia meliputi klaim asuransi, dalam hal Benda yang menjadi objek Jaminan Fidusia diasuransikan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-1999-42",
+         "berlaku_mulai": "1999-09-30"
+        }
+       ],
+       "teks": "Kecuali diperjanjikan lain:",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-1999-42",
        "berlaku_mulai": "1999-09-30"
       }
      ],
-     "sumber": "uu-1999-42",
-     "berlaku_mulai": "1999-09-30"
-    },
-    {
-     "id": "pasal-6",
-     "tipe": "pasal",
-     "nomor": "6",
-     "anak": [
-      {
-       "id": "pasal-6/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "identitas pihak Pemberi dan Penerima Fidusia;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      },
-      {
-       "id": "pasal-6/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "data perjanjian pokok yang dijamin fidusia;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      },
-      {
-       "id": "pasal-6/huruf-c",
-       "tipe": "huruf",
-       "nomor": "c.",
-       "teks": "uraian mengenai Benda yang menjadi objek Jaminan Fidusia;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      },
-      {
-       "id": "pasal-6/huruf-d",
-       "tipe": "huruf",
-       "nomor": "d.",
-       "teks": "nilai penjaminan; dan e nilai Benda yang menjadi objek Jaminan Fidusia.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      }
-     ],
-     "teks": "Akta Jaminan Fidusia sebagaimana dimaksud dalam Pasal 5 sekurang-kurangnya memuat:",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-1999-42",
-     "berlaku_mulai": "1999-09-30"
-    },
-    {
-     "id": "pasal-7",
-     "tipe": "pasal",
-     "nomor": "7",
-     "anak": [
-      {
-       "id": "pasal-7/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "utang yang telah ada;",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      },
-      {
-       "id": "pasal-7/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "utang yang akan timbul di kemudian hari yang telah diperjanjikan dalam jumlah tertentu; dan",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      },
-      {
-       "id": "pasal-7/huruf-c",
-       "tipe": "huruf",
-       "nomor": "c.",
-       "teks": "utang yang pada saat eksekusi dapat ditentukan jumlahnya berdasarkan perjanjian pokok yang menimbulkan kewajiban memenuhi suatu prestasi.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      }
-     ],
-     "teks": "Utang yang pelunasannya dajamin dengan fidusia dapat berupa:",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-1999-42",
-     "berlaku_mulai": "1999-09-30"
-    },
-    {
-     "id": "pasal-8",
-     "tipe": "pasal",
-     "nomor": "8",
-     "teks": "Jaminan Fidusia dapat diberikan kepada lebih dari satu Penerima Fidusia atau kepada kuasa atau wakil dari Penerima Fidusia tersebut.",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-1999-42",
-     "berlaku_mulai": "1999-09-30"
-    },
-    {
-     "id": "pasal-9",
-     "tipe": "pasal",
-     "nomor": "9",
-     "anak": [
-      {
-       "id": "pasal-9/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Jaminan Fidusia dapat diberikan terhadap satu atau lebih satuan atau jenis Benda, termasuk piutang, baik yang telah ada pada saat jaminan diberikan maupun yang diperoleh kemudian.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      },
-      {
-       "id": "pasal-9/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Pembebanan jaminan atas Benda atau piutang yang diperoleh kemudian sebagaimana dimaksud dalam ayat (1) tidak perlu dilakukan dengan perjanjian jaminan tersendiri.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      }
-     ],
-     "sumber": "uu-1999-42",
-     "berlaku_mulai": "1999-09-30"
-    },
-    {
-     "id": "pasal-10",
-     "tipe": "pasal",
-     "nomor": "10",
-     "anak": [
-      {
-       "id": "pasal-10/huruf-a",
-       "tipe": "huruf",
-       "nomor": "a.",
-       "teks": "Jaminan Fidusia meliputi hasil dari Benda yang menjadi objek Jaminan Fidusia.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      },
-      {
-       "id": "pasal-10/huruf-b",
-       "tipe": "huruf",
-       "nomor": "b.",
-       "teks": "Jaminan Fidusia meliputi klaim asuransi, dalam hal Benda yang menjadi objek Jaminan Fidusia diasuransikan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-1999-42",
-       "berlaku_mulai": "1999-09-30"
-      }
-     ],
-     "teks": "Kecuali diperjanjikan lain:",
-     "verifikasi": "pdf-resmi",
      "sumber": "uu-1999-42",
      "berlaku_mulai": "1999-09-30"
     },

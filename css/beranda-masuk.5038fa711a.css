@@ -1,0 +1,51 @@
+
+    .masuk { border:1px solid var(--line); border-radius:8px; padding:14px 16px 12px; margin:0 0 16px;
+      background:linear-gradient(180deg,var(--accent-soft),var(--surface)) }
+    .masuk-judul { font:700 .95rem var(--sans); margin:0 0 2px }
+    .masuk-ket { color:var(--ink-2); font-size:.8rem; margin-bottom:10px; max-width:66ch }
+    .masuk-daftar { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:8px }
+    .masuk-item { display:block; border:1px solid var(--line); background:var(--surface); border-radius:6px;
+      padding:8px 11px; text-decoration:none; color:var(--ink) }
+    .masuk-item:hover { border-color:var(--accent) }
+    .masuk-nama { display:block; font:600 .84rem var(--sans); color:var(--accent) }
+    .masuk-judul-kecil { display:block; font-size:.75rem; color:var(--ink-2); margin-top:2px; line-height:1.35 }
+    .urusan-bar { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin:0 0 10px }
+    .chip.urusan { border-style:solid; background:var(--surface-2) }
+    .chip.urusan.on { background:var(--accent-soft); border-color:var(--accent); color:var(--accent) }
+    .faset-bar { display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; margin:0 0 14px }
+    .faset { display:flex; flex-wrap:wrap; gap:6px; align-items:center }
+    .faset-judul { font:600 .68rem var(--sans); text-transform:uppercase; letter-spacing:.05em; color:var(--ink-2); margin-right:2px }
+    .chip { border:1px solid var(--line); background:var(--surface); color:var(--ink-2); border-radius:999px;
+      padding:3px 10px; font:500 .78rem var(--sans); cursor:pointer }
+    .chip:hover { border-color:var(--accent); color:var(--ink) }
+    .chip b { font-weight:700; color:var(--ink-2); margin-left:2px }
+    .chip.on { background:var(--accent-soft); border-color:var(--accent); color:var(--accent) }
+    .chip.on b { color:var(--accent) }
+    .chip.reset { border-style:dashed }
+    .kelompok-n { font:600 .72rem var(--sans); color:var(--ink-2); background:var(--surface-2);
+      border:1px solid var(--line); border-radius:999px; padding:1px 8px; vertical-align:2px }
+    .kelompok-ket { color:var(--ink-2); font-size:.8rem; margin:-2px 0 8px }
+    .baris[data-lipat="1"] { display:none }
+    .kelompok.buka .baris[data-lipat="1"] { display:flex }
+    .lagi { margin-top:6px; border:1px solid var(--line); background:var(--surface-2); color:var(--ink-2);
+      border-radius:6px; padding:5px 12px; font:500 .78rem var(--sans); cursor:pointer }
+    .lagi:hover { border-color:var(--accent); color:var(--accent) }
+    .hasil { border:1px solid var(--line); border-radius:6px; margin-bottom:12px }
+    .hasil .kepala-hasil { background:var(--surface-2); border-bottom:1px solid var(--line); border-radius:6px 6px 0 0;
+      padding:6px 12px; font:600 .72rem var(--sans); text-transform:uppercase; letter-spacing:.04em; color:var(--ink-2) }
+    .hasil a.item { display:block; padding:9px 12px; text-decoration:none; color:var(--ink) }
+    .hasil a.item + a.item { border-top:1px solid var(--line) }
+    .hasil a.item:hover { background:var(--surface-2) }
+    .hasil .dimana { font-weight:600; font-size:.85rem; color:var(--accent) }
+    .hasil .cuplikan { color:var(--ink-2); font-size:.82rem; margin-top:2px }
+    .hasil .varian { color:var(--ink-2); font-size:.76rem; margin-top:4px; font-style:italic }
+    .kartu-istilah { border:1px solid #e6d9a8; background:#fff8e6; border-radius:6px; padding:10px 12px; margin-bottom:12px }
+    .kartu-istilah .ki-judul { font:600 .85rem var(--sans); color:#6b5518 }
+    .kartu-istilah .ki-isi { font-size:.82rem; color:#6b5518; margin-top:3px }
+    .kartu-istilah .ki-kunci { margin-top:7px; display:flex; flex-wrap:wrap; gap:6px }
+    .kartu-istilah .ki-kunci a { border:1px solid #e6d9a8; background:var(--surface); border-radius:6px;
+      padding:2px 9px; font-size:.8rem; font-weight:600; color:var(--accent); text-decoration:none }
+    .kartu-istilah .ki-kunci a:hover { border-color:var(--accent) }
+    .kartu-istilah .ki-ambigu { font-size:.76rem; color:#6b5518; margin-top:7px; font-style:italic }
+    .hasil mark { background:var(--amber-soft); color:var(--ink); border-radius:2px; padding:0 1px }
+  

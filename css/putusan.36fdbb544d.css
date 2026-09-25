@@ -1,0 +1,22 @@
+
+  * { box-sizing:border-box }
+  h1 { font-size:1.3rem; margin:14px 0 4px; line-height:1.35 } h2 { font-size:1.02rem; margin:28px 0 6px }
+  .sub, .ket { color:var(--ink-2); font-size:.86rem } .ket { margin:0 0 10px }
+  table { border-collapse:collapse; width:100%; margin:10px 0 4px; font-size:.86rem }
+  td { padding:6px 10px; border-bottom:1px solid var(--line); vertical-align:top }
+  .u-h { color:var(--ink-2); width:28px } 
+  .u-ada { color:#1a7f37; font-weight:600 } .u-nihil { color:var(--ink-2) }
+  .u-belum { color:#9a6700 } .u-sebagian { color:#9a6700; font-weight:600 }
+  .blok { border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:6px; padding:12px 16px; margin:12px 0; background:var(--surface-2) }
+  .blok.pendapat { border-left-color:#a99fd0; background:#f7f5fc }
+  .penulis { font-weight:600; margin-bottom:6px }
+  .paragraf { font:700 .78rem var(--sans); color:var(--accent); letter-spacing:.02em; margin-bottom:4px }
+  .tak-mengikat { display:inline-block; font-size:.68rem; font-weight:700; letter-spacing:.03em; text-transform:uppercase;
+    background:#ede9f7; color:#3d3266; border:1px solid #cfc8e8; border-radius:4px; padding:1px 6px; margin-left:4px }
+  .prosa { margin:0 0 8px; font-size:.92rem; color:var(--ink-2) }
+  blockquote { margin:0; padding:10px 14px; background:#fff; border:1px solid var(--line); border-radius:5px;
+    font-size:.93rem; white-space:pre-wrap }
+  blockquote .cap { display:block; margin-top:8px; font-size:.7rem; color:var(--ink-2); text-transform:uppercase; letter-spacing:.04em }
+  .menempel { margin-top:8px; font-size:.8rem; color:var(--ink-2) }
+  code { background:#eef1f4; padding:1px 5px; border-radius:4px; font-size:.85em }
+  a { color:var(--accent) }

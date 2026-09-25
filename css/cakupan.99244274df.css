@@ -1,0 +1,14 @@
+
+  * { box-sizing:border-box }
+  h1 { font-size:1.35rem; margin:14px 0 6px } h2 { font-size:1.02rem; margin:26px 0 8px }
+  .sub { color:var(--ink-2); font-size:.87rem }
+  table { border-collapse:collapse; width:100%; margin-top:12px; font-size:.86rem }
+  th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--line) }
+  th { font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-2) }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap }
+  .rint { color:var(--ink-2); font-size:.72rem }
+  .barcell { width:38% } .bar { display:inline-block; width:70%; height:9px; background:var(--surface-2); border:1px solid var(--line); border-radius:5px; overflow:hidden; vertical-align:middle }
+  .bar .isi { height:100%; background:var(--accent) }
+  .pct { font-size:.74rem; color:var(--ink-2); margin-left:6px; font-variant-numeric:tabular-nums }
+  .kartu { border:1px solid var(--line); border-radius:8px; padding:12px 16px; background:var(--surface-2); font-size:.84rem; margin:14px 0 }
+  a { color:var(--accent) }

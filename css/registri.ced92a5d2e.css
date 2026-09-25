@@ -1,0 +1,21 @@
+
+  * { box-sizing:border-box }
+  h1 { font-size:1.35rem; margin:12px 0 4px } .sub { color:var(--ink-2); font-size:.85rem }
+  .alat { display:flex; gap:8px; flex-wrap:wrap; margin:16px 0 10px }
+  .alat input[type=search] { flex:1; min-width:240px; border:1px solid var(--line); border-radius:8px; padding:9px 13px; font:400 .95rem var(--sans) }
+  .alat select { border:1px solid var(--line); border-radius:8px; padding:8px 10px; font:400 .85rem var(--sans); background:var(--surface) }
+  .info { font-size:.78rem; color:var(--ink-2); margin-bottom:8px }
+  .hasil { border:1px solid var(--line); border-radius:8px; overflow:hidden }
+  .r { display:flex; gap:12px; padding:9px 14px; border-bottom:1px solid var(--line); font-size:.86rem; align-items:baseline }
+  .r:last-child { border-bottom:none }
+  .r .id { font-variant-numeric:tabular-nums; white-space:nowrap; font-weight:600; min-width:120px }
+  .r .jdl { flex:1 }
+  .r .st { font-size:.7rem; border-radius:5px; padding:1px 7px; white-space:nowrap }
+  .st.berlaku { background:var(--accent-soft); color:var(--accent) }
+  .st.dicabut { background:#fff0f0; color:#a11622 }
+  .st.diubah { background:#fff8e0; color:#7a5f00 }
+  .r a.baca { font-size:.72rem; color:var(--accent); white-space:nowrap }
+  .muat { text-align:center; padding:12px; }
+  .muat button { border:1px solid var(--line); background:var(--surface-2); border-radius:6px; padding:6px 16px; cursor:pointer; font:500 .82rem var(--sans) }
+  .catatan { font-size:.78rem; color:var(--ink-2); margin-top:12px }
+  a { color:var(--accent) }

@@ -1,0 +1,21 @@
+
+  * { box-sizing:border-box }
+  h1 { font-size:1.35rem; margin:14px 0 6px } .sub { color:var(--ink-2); font-size:.85rem; max-width:82ch }
+  .legend { display:flex; gap:16px; flex-wrap:wrap; font-size:.76rem; color:var(--ink-2); margin:14px 0; align-items:center }
+  .lg { display:inline-flex; align-items:center; gap:6px }
+  .sw { width:22px; height:0; border-top:2.5px solid; display:inline-block }
+  .sw.putus { border-top-style:dashed }
+  .chipL { display:inline-block; border-radius:6px; padding:1px 8px; font-size:.72rem; border:1.4px solid }
+  .kanvas { border:1px solid var(--line); border-radius:10px; overflow-x:auto; background:var(--surface) }
+  svg text { font-family:var(--sans); pointer-events:none } svg a { cursor:pointer }
+  .edge { opacity:.13; transition:opacity .15s }
+  svg.fokus .edge { opacity:.05 }
+  svg.fokus .edge.nyala { opacity:1; stroke-width:2.2 }
+  svg.fokus .node { opacity:.35 }
+  svg.fokus .node.nyala { opacity:1 }
+  .node { transition:opacity .15s }
+  .catatan { font-size:.8rem; color:var(--ink-2); margin-top:14px; max-width:82ch }
+  a { color:var(--accent) }
+
+  /* Graf berlebar tetap (viewBox 1240): diskalakan mengikuti kolom, tak meluap (4b). */
+  .wrap svg { max-width: 100%; height: auto; }

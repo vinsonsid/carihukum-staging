@@ -54,12 +54,13 @@
    }
   ]
  },
- "dihasilkan": "2026-09-22T17:49:43.303Z",
+ "dihasilkan": "2026-09-25T06:26:03.508Z",
  "timeline": [
   {
    "tanggal": "2003-06-19",
    "peristiwa": "uu-2003-19/pengundangan",
    "tipe": "pengundangan",
+   "tanggal_pengundangan": "2003-06-19",
    "pelaku": "uu-2003-19",
    "judul_pelaku": "Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara",
    "jumlah_operasi": null,
@@ -600,38 +601,48 @@
    "judul": "PERSERO",
    "anak": [
     {
-     "id": "pasal-10",
-     "tipe": "pasal",
-     "nomor": "10",
+     "id": "bab-2/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Pendirian",
      "anak": [
       {
-       "id": "pasal-10/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Pendirian Persero diusulkan oleh Menteri kepada Presiden disertai dengan dasar pertimbangan setelah dikaji bersama dengan Menteri Teknis dan Menteri Keuangan.",
-       "verifikasi": "pdf-resmi",
+       "id": "pasal-10",
+       "tipe": "pasal",
+       "nomor": "10",
+       "anak": [
+        {
+         "id": "pasal-10/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pendirian Persero diusulkan oleh Menteri kepada Presiden disertai dengan dasar pertimbangan setelah dikaji bersama dengan Menteri Teknis dan Menteri Keuangan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2003-19",
+         "berlaku_mulai": "2003-06-19"
+        },
+        {
+         "id": "pasal-10/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Pelaksanaan pendirian Persero dilakukan oleh Menteri dengan memperhatikan ketentuan peraturan perundangan-undangan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2003-19",
+         "berlaku_mulai": "2003-06-19"
+        }
+       ],
        "sumber": "uu-2003-19",
        "berlaku_mulai": "2003-06-19"
       },
       {
-       "id": "pasal-10/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Pelaksanaan pendirian Persero dilakukan oleh Menteri dengan memperhatikan ketentuan peraturan perundangan-undangan.",
+       "id": "pasal-11",
+       "tipe": "pasal",
+       "nomor": "11",
+       "teks": "Terhadap Persero berlaku segala ketentuan dan prinsip-prinsip yang berlaku bagi perseroan terbatas sebagaimana diatur dalam Undang-Undang Nomor 1 Tahun 1995 tentang Perseroan Terbatas.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2003-19",
        "berlaku_mulai": "2003-06-19"
       }
      ],
-     "sumber": "uu-2003-19",
-     "berlaku_mulai": "2003-06-19"
-    },
-    {
-     "id": "pasal-11",
-     "tipe": "pasal",
-     "nomor": "11",
-     "teks": "Terhadap Persero berlaku segala ketentuan dan prinsip-prinsip yang berlaku bagi perseroan terbatas sebagaimana diatur dalam Undang-Undang Nomor 1 Tahun 1995 tentang Perseroan Terbatas.",
-     "verifikasi": "pdf-resmi",
      "sumber": "uu-2003-19",
      "berlaku_mulai": "2003-06-19"
     },
@@ -1290,34 +1301,44 @@
    "judul": "PERUM",
    "anak": [
     {
-     "id": "pasal-35",
-     "tipe": "pasal",
-     "nomor": "35",
+     "id": "bab-3/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Pendirian",
      "anak": [
       {
-       "id": "pasal-35/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Pendirian Perum diusulkan oleh Menteri kepada Presiden disertai dengan dasar pertimbangan setelah dikaji bersama dengan Menteri Teknis dan Menteri Keuangan.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2003-19",
-       "berlaku_mulai": "2003-06-19"
-      },
-      {
-       "id": "pasal-35/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Perum yang didirikan sebagaimana dimaksud dalam ayat (1) memperoleh status badan hukum sejak diundangkannya Peraturan Pemerintah tentang pendiriannya.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2003-19",
-       "berlaku_mulai": "2003-06-19"
-      },
-      {
-       "id": "pasal-35/ayat-3",
-       "tipe": "ayat",
-       "nomor": "(3)",
-       "teks": "Ketentuan lebih lanjut mengenai pendirian, pembinaan, pengurusan, dan pengawasan Perum diatur dengan Peraturan Pemerintah.",
-       "verifikasi": "pdf-resmi",
+       "id": "pasal-35",
+       "tipe": "pasal",
+       "nomor": "35",
+       "anak": [
+        {
+         "id": "pasal-35/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pendirian Perum diusulkan oleh Menteri kepada Presiden disertai dengan dasar pertimbangan setelah dikaji bersama dengan Menteri Teknis dan Menteri Keuangan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2003-19",
+         "berlaku_mulai": "2003-06-19"
+        },
+        {
+         "id": "pasal-35/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Perum yang didirikan sebagaimana dimaksud dalam ayat (1) memperoleh status badan hukum sejak diundangkannya Peraturan Pemerintah tentang pendiriannya.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2003-19",
+         "berlaku_mulai": "2003-06-19"
+        },
+        {
+         "id": "pasal-35/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Ketentuan lebih lanjut mengenai pendirian, pembinaan, pengurusan, dan pengawasan Perum diatur dengan Peraturan Pemerintah.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2003-19",
+         "berlaku_mulai": "2003-06-19"
+        }
+       ],
        "sumber": "uu-2003-19",
        "berlaku_mulai": "2003-06-19"
       }
@@ -2748,47 +2769,57 @@
    "judul": "SATUAN PENGAWASAN INTERN, KOMITE AUDIT, DAN KOMITE LAIN",
    "anak": [
     {
-     "id": "pasal-67",
-     "tipe": "pasal",
-     "nomor": "67",
+     "id": "bab-6/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Satuan Pengawasan Intern",
      "anak": [
       {
-       "id": "pasal-67/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Pada setiap BUMN dibentuk satuan pengawasan intern yang merupakan aparat pengawas intern perusahaan.",
+       "id": "pasal-67",
+       "tipe": "pasal",
+       "nomor": "67",
+       "anak": [
+        {
+         "id": "pasal-67/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Pada setiap BUMN dibentuk satuan pengawasan intern yang merupakan aparat pengawas intern perusahaan.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2003-19",
+         "berlaku_mulai": "2003-06-19"
+        },
+        {
+         "id": "pasal-67/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Satuan pengawasan intern sebagaimana dimaksud dalam ayat (1) dipimpin oleh seorang kepala yang bertanggung jawab kepada direktur utama.",
+         "verifikasi": "pdf-resmi",
+         "sumber": "uu-2003-19",
+         "berlaku_mulai": "2003-06-19"
+        }
+       ],
+       "sumber": "uu-2003-19",
+       "berlaku_mulai": "2003-06-19"
+      },
+      {
+       "id": "pasal-68",
+       "tipe": "pasal",
+       "nomor": "68",
+       "teks": "Atas permintaan tertulis Komisaris/Dewan Pengawas, Direksi memberikan keterangan hasil pemeriksaan atau hasil pelaksanaan tugas satuan pengawasan intern.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2003-19",
        "berlaku_mulai": "2003-06-19"
       },
       {
-       "id": "pasal-67/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Satuan pengawasan intern sebagaimana dimaksud dalam ayat (1) dipimpin oleh seorang kepala yang bertanggung jawab kepada direktur utama.",
+       "id": "pasal-69",
+       "tipe": "pasal",
+       "nomor": "69",
+       "teks": "Direksi wajib memperhatikan dan segera mengambil langkah-langkah yang diperlukan atas segala sesuatu yang dikemukakan dalam setiap laporan hasil pemeriksaan yang dibuat oleh satuan pengawasan intern.",
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2003-19",
        "berlaku_mulai": "2003-06-19"
       }
      ],
-     "sumber": "uu-2003-19",
-     "berlaku_mulai": "2003-06-19"
-    },
-    {
-     "id": "pasal-68",
-     "tipe": "pasal",
-     "nomor": "68",
-     "teks": "Atas permintaan tertulis Komisaris/Dewan Pengawas, Direksi memberikan keterangan hasil pemeriksaan atau hasil pelaksanaan tugas satuan pengawasan intern.",
-     "verifikasi": "pdf-resmi",
-     "sumber": "uu-2003-19",
-     "berlaku_mulai": "2003-06-19"
-    },
-    {
-     "id": "pasal-69",
-     "tipe": "pasal",
-     "nomor": "69",
-     "teks": "Direksi wajib memperhatikan dan segera mengambil langkah-langkah yang diperlukan atas segala sesuatu yang dikemukakan dalam setiap laporan hasil pemeriksaan yang dibuat oleh satuan pengawasan intern.",
-     "verifikasi": "pdf-resmi",
      "sumber": "uu-2003-19",
      "berlaku_mulai": "2003-06-19"
     },
@@ -2895,72 +2926,82 @@
    "judul": "RESTRUKTURISASI DAN PRIVATISASI",
    "anak": [
     {
-     "id": "pasal-72",
-     "tipe": "pasal",
-     "nomor": "72",
+     "id": "bab-8/bagian-pertama",
+     "tipe": "bagian",
+     "nomor": "Pertama",
+     "judul": "Maksud dan Tujuan Restrukturisasi",
      "anak": [
       {
-       "id": "pasal-72/ayat-1",
-       "tipe": "ayat",
-       "nomor": "(1)",
-       "teks": "Restrukturisasi dilakukan dengan maksud untuk menyehatkan BUMN agar dapat beroperasi secara efisien, transparan, dan profesional.",
-       "verifikasi": "pdf-resmi",
-       "sumber": "uu-2003-19",
-       "berlaku_mulai": "2003-06-19"
-      },
-      {
-       "id": "pasal-72/ayat-2",
-       "tipe": "ayat",
-       "nomor": "(2)",
-       "teks": "Tujuan restrukturisasi adalah untuk:",
-       "verifikasi": "pdf-resmi",
+       "id": "pasal-72",
+       "tipe": "pasal",
+       "nomor": "72",
        "anak": [
         {
-         "id": "pasal-72/ayat-2/huruf-a",
-         "tipe": "huruf",
-         "nomor": "a.",
-         "teks": "meningkatkan kinerja dan nilai perusahaan;",
+         "id": "pasal-72/ayat-1",
+         "tipe": "ayat",
+         "nomor": "(1)",
+         "teks": "Restrukturisasi dilakukan dengan maksud untuk menyehatkan BUMN agar dapat beroperasi secara efisien, transparan, dan profesional.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2003-19",
          "berlaku_mulai": "2003-06-19"
         },
         {
-         "id": "pasal-72/ayat-2/huruf-b",
-         "tipe": "huruf",
-         "nomor": "b.",
-         "teks": "memberikan manfaat berupa dividen dan pajak kepada negara;",
+         "id": "pasal-72/ayat-2",
+         "tipe": "ayat",
+         "nomor": "(2)",
+         "teks": "Tujuan restrukturisasi adalah untuk:",
          "verifikasi": "pdf-resmi",
+         "anak": [
+          {
+           "id": "pasal-72/ayat-2/huruf-a",
+           "tipe": "huruf",
+           "nomor": "a.",
+           "teks": "meningkatkan kinerja dan nilai perusahaan;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2003-19",
+           "berlaku_mulai": "2003-06-19"
+          },
+          {
+           "id": "pasal-72/ayat-2/huruf-b",
+           "tipe": "huruf",
+           "nomor": "b.",
+           "teks": "memberikan manfaat berupa dividen dan pajak kepada negara;",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2003-19",
+           "berlaku_mulai": "2003-06-19"
+          },
+          {
+           "id": "pasal-72/ayat-2/huruf-c",
+           "tipe": "huruf",
+           "nomor": "c.",
+           "teks": "menghasilkan produk dan layanan dengan harga yang kompetitif kepada konsumen; dan",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2003-19",
+           "berlaku_mulai": "2003-06-19"
+          },
+          {
+           "id": "pasal-72/ayat-2/huruf-d",
+           "tipe": "huruf",
+           "nomor": "d.",
+           "teks": "memudahkan pelaksanaan privatisasi.",
+           "verifikasi": "pdf-resmi",
+           "sumber": "uu-2003-19",
+           "berlaku_mulai": "2003-06-19"
+          }
+         ],
          "sumber": "uu-2003-19",
          "berlaku_mulai": "2003-06-19"
         },
         {
-         "id": "pasal-72/ayat-2/huruf-c",
-         "tipe": "huruf",
-         "nomor": "c.",
-         "teks": "menghasilkan produk dan layanan dengan harga yang kompetitif kepada konsumen; dan",
-         "verifikasi": "pdf-resmi",
-         "sumber": "uu-2003-19",
-         "berlaku_mulai": "2003-06-19"
-        },
-        {
-         "id": "pasal-72/ayat-2/huruf-d",
-         "tipe": "huruf",
-         "nomor": "d.",
-         "teks": "memudahkan pelaksanaan privatisasi.",
+         "id": "pasal-72/ayat-3",
+         "tipe": "ayat",
+         "nomor": "(3)",
+         "teks": "Pelaksanaan restrukturisasi sebagaimana dimaksud dalam ayat (1) tetap memperhatikan asas biaya dan manfaat yang diperoleh.",
          "verifikasi": "pdf-resmi",
          "sumber": "uu-2003-19",
          "berlaku_mulai": "2003-06-19"
         }
        ],
-       "sumber": "uu-2003-19",
-       "berlaku_mulai": "2003-06-19"
-      },
-      {
-       "id": "pasal-72/ayat-3",
-       "tipe": "ayat",
-       "nomor": "(3)",
-       "teks": "Pelaksanaan restrukturisasi sebagaimana dimaksud dalam ayat (1) tetap memperhatikan asas biaya dan manfaat yang diperoleh.",
-       "verifikasi": "pdf-resmi",
        "sumber": "uu-2003-19",
        "berlaku_mulai": "2003-06-19"
       }
