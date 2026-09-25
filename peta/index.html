@@ -1,4 +1,4 @@
-<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Peta Hierarki &amp; Jejaring Hukum — CariHukum</title>
+<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Peta Hierarki &amp; Jejaring Hukum — CariHukum</title>
 <link rel="stylesheet" href="/css/tokens.8812651824.css">
 <link rel="stylesheet" href="/css/komponen.62eaf51351.css">
 <link rel="stylesheet" href="/css/peta.ca1a8ab809.css">
@@ -1431,47 +1431,7 @@
   bukan peraturan perundang-undangan, maka ditempatkan sebagai lajur tersendiri; amarnya menempel
   sebagai anotasi pada pasal yang diuji. Data graf: <a href="/api/graf.json">API JSON</a>.</div>
 </div>
-<script>
-(function () {
-  var svg = document.getElementById("graf");
-  var edges = Array.prototype.slice.call(svg.querySelectorAll(".edge"));
-  var tetangga = {};
-  edges.forEach(function (e) {
-    var a = e.getAttribute("data-dari"), b = e.getAttribute("data-ke");
-    (tetangga[a] = tetangga[a] || []).push(e); (tetangga[b] = tetangga[b] || []).push(e);
-  });
-  svg.querySelectorAll(".node").forEach(function (g) {
-    g.addEventListener("mouseenter", function () {
-      var id = g.getAttribute("data-id");
-      svg.classList.add("fokus");
-      var nyala = { }; nyala[id] = true;
-      (tetangga[id] || []).forEach(function (e) {
-        e.classList.add("nyala");
-        nyala[e.getAttribute("data-dari")] = nyala[e.getAttribute("data-ke")] = true;
-      });
-      svg.querySelectorAll(".node").forEach(function (x) {
-        x.classList.toggle("nyala", !!nyala[x.getAttribute("data-id")]);
-      });
-    });
-    g.addEventListener("mouseleave", function () {
-      svg.classList.remove("fokus");
-      edges.forEach(function (e) { e.classList.remove("nyala"); });
-      svg.querySelectorAll(".node.nyala").forEach(function (x) { x.classList.remove("nyala"); });
-    });
-  });
-})();
-</script>
+<script src="/js/peta.7dce6c68bc.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.min.js" integrity="sha384-JBR+x8blGwjDRO63aHCGiZMD4VNiTR4ZUGA+N6ZKLf3zNt1fK8IBpcgPaMrxqWBp" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-(function () {
-  var sb = window.supabase.createClient("https://xhcygktjxakbeelavkyl.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0");
-  window.carihukumAuth = sb;
-  sb.auth.getSession().then(function (h) {
-    var el = document.getElementById("ch-akun");
-    if (!el || !h.data.session) return;
-    var u = h.data.session.user;
-    el.textContent = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || u.email;
-    el.title = "Kelola akun";
-  });
-})();
-</script></html>
+<script type="application/json" id="data-auth">{"url":"https://xhcygktjxakbeelavkyl.supabase.co","kunci":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0"}</script>
+<script src="/js/sesi.815131f17c.js"></script></html>

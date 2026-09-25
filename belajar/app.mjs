@@ -82,8 +82,15 @@ export function soalInstrumen(dek, peta, rng = Math.random) {
 export const benarInstrumen = (soal, pilih) => soal.jawaban.includes(pilih);
 
 // ---------- DOM ----------
-function init() {
-  const IDX = window.DATA_BELAJAR;
+// Indeks dek ada di blok <script type="application/json" id="data-belajar">
+// (lib/skrip.mjs dataJson) — bukan lagi skrip sebaris window.DATA_BELAJAR,
+// supaya CSP script-src tak butuh 'unsafe-inline' (docs/27 F1 langkah 5).
+function dataBelajar() {
+  const el = document.getElementById("data-belajar");
+  return el ? JSON.parse(el.textContent) : null;
+}
+
+function init(IDX) {
   const $ = (s, el = document) => el.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const store = (() => { try { return window.localStorage; } catch { return null; } })();
@@ -562,4 +569,4 @@ function init() {
   bukaPanel(awal);
 }
 
-if (typeof document !== "undefined" && typeof window !== "undefined" && window.DATA_BELAJAR) init();
+if (typeof document !== "undefined" && typeof window !== "undefined") { const idx = dataBelajar(); if (idx) init(idx); }

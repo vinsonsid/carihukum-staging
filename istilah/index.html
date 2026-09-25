@@ -1,4 +1,4 @@
-<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Glosarium Hukum — CariHukum</title>
+<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Glosarium Hukum — CariHukum</title>
 <link rel="stylesheet" href="/css/tokens.8812651824.css">
 <link rel="stylesheet" href="/css/komponen.62eaf51351.css">
 <link rel="stylesheet" href="/css/istilah.d2f211e85a.css">
@@ -9659,27 +9659,7 @@
     Data terbuka (CC0) · <a href="/api/istilah.json" style="color:var(--accent)">API glosarium</a> ·
     definisi mengikat hanya dalam lingkup peraturan yang menetapkannya.</footer>
 </div>
-<script>
-  document.getElementById("saring").addEventListener("input", function () {
-    var q = this.value.trim().toLowerCase(), ada = 0;
-    document.querySelectorAll(".entri").forEach(function (e) {
-      var cocok = !q || e.textContent.toLowerCase().indexOf(q) !== -1;
-      e.style.display = cocok ? "" : "none"; if (cocok) ada++;
-    });
-    document.getElementById("kosong").style.display = ada ? "none" : "block";
-  });
-</script>
+<script src="/js/istilah.085407fd94.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.min.js" integrity="sha384-JBR+x8blGwjDRO63aHCGiZMD4VNiTR4ZUGA+N6ZKLf3zNt1fK8IBpcgPaMrxqWBp" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-(function () {
-  var sb = window.supabase.createClient("https://xhcygktjxakbeelavkyl.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0");
-  window.carihukumAuth = sb;
-  sb.auth.getSession().then(function (h) {
-    var el = document.getElementById("ch-akun");
-    if (!el || !h.data.session) return;
-    var u = h.data.session.user;
-    el.textContent = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || u.email;
-    el.title = "Kelola akun";
-  });
-})();
-</script></html>
+<script type="application/json" id="data-auth">{"url":"https://xhcygktjxakbeelavkyl.supabase.co","kunci":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0"}</script>
+<script src="/js/sesi.815131f17c.js"></script></html>

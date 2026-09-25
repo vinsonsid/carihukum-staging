@@ -1,4 +1,4 @@
-<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Akun — CariHukum</title>
+<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Akun — CariHukum</title>
 <link rel="stylesheet" href="/css/tokens.8812651824.css">
 <link rel="stylesheet" href="/css/komponen.62eaf51351.css">
 <link rel="stylesheet" href="/css/akun.27638de838.css">
@@ -35,65 +35,5 @@
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.min.js" integrity="sha384-JBR+x8blGwjDRO63aHCGiZMD4VNiTR4ZUGA+N6ZKLf3zNt1fK8IBpcgPaMrxqWBp" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-(function () {
-  var AKTIF = true;
-  var mode = "masuk";
-  var $ = function (id) { return document.getElementById(id); };
-  function pesan(teks, jenis) { var p = $("pesan"); p.textContent = teks; p.className = "pesan " + (jenis || "galat"); }
-  function setMode(m) {
-    mode = m;
-    $("tab-masuk").classList.toggle("on", m === "masuk");
-    $("tab-daftar").classList.toggle("on", m === "daftar");
-    $("kirim").textContent = m === "masuk" ? "Masuk" : "Buat akun";
-    $("sandi").autocomplete = m === "masuk" ? "current-password" : "new-password";
-  }
-  $("tab-masuk").onclick = function () { setMode("masuk"); };
-  $("tab-daftar").onclick = function () { setMode("daftar"); };
-
-  if (!AKTIF) {
-    var nonaktif = function () { pesan("Autentikasi belum diaktifkan di staging ini — ini pratinjau antarmuka."); };
-    $("kirim").onclick = nonaktif;
-    document.querySelectorAll(".oauth").forEach(function (b) { b.onclick = nonaktif; });
-    return;
-  }
-
-  var sb = window.supabase.createClient("https://xhcygktjxakbeelavkyl.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0");
-
-  function tampilkanSesi(u) {
-    $("form-auth").style.display = u ? "none" : "block";
-    $("sesi").style.display = u ? "block" : "none";
-    if (u) $("sesi-email").textContent = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || u.email;
-  }
-  sb.auth.getSession().then(function (h) { tampilkanSesi(h.data.session && h.data.session.user); });
-  sb.auth.onAuthStateChange(function (_e, s) { tampilkanSesi(s && s.user); });
-
-  function pesanRamah(m) {
-    if (/not enabled|Unsupported provider/i.test(m))
-      return "Login lewat penyedia ini belum diaktifkan pemilik situs — gunakan email dulu, ya.";
-    if (/Invalid login credentials/i.test(m)) return "Email atau kata sandi salah.";
-    if (/already registered/i.test(m)) return "Email ini sudah terdaftar — coba Masuk.";
-    if (/rate limit/i.test(m)) return "Terlalu banyak percobaan — tunggu sebentar lalu coba lagi.";
-    return m;
-  }
-  document.querySelectorAll(".oauth").forEach(function (b) {
-    b.onclick = function () {
-      sb.auth.signInWithOAuth({ provider: b.dataset.penyedia, options: { redirectTo: location.origin + "/akun/" } })
-        .then(function (h) { if (h.error) pesan(pesanRamah(h.error.message)); });
-    };
-  });
-  $("kirim").onclick = function () {
-    var email = $("email").value.trim(), sandi = $("sandi").value;
-    if (!email || !sandi) return pesan("Isi email dan kata sandi dulu.");
-    if (sandi.length < 8) return pesan("Kata sandi minimal 8 karakter.");
-    var aksi = mode === "masuk"
-      ? sb.auth.signInWithPassword({ email: email, password: sandi })
-      : sb.auth.signUp({ email: email, password: sandi });
-    aksi.then(function (h) {
-      if (h.error) return pesan(pesanRamah(h.error.message));
-      if (mode === "daftar" && !h.data.session) pesan("Akun dibuat — cek email Anda untuk tautan konfirmasi.", "sukses");
-    });
-  };
-  $("keluar").onclick = function () { sb.auth.signOut(); };
-})();
-</script></html>
+<script type="application/json" id="data-auth">{"aktif":true,"url":"https://xhcygktjxakbeelavkyl.supabase.co","kunci":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0"}</script>
+<script src="/js/akun.c24d38eae8.js"></script></html>

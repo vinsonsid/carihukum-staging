@@ -1,4 +1,4 @@
-<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>KUHPerdata (1847) — Kitab Undang-Undang Hukum Perdata (Burgerlijk Wetboek voor Indonesie) · CariHukum</title>
+<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>KUHPerdata (1847) — Kitab Undang-Undang Hukum Perdata (Burgerlijk Wetboek voor Indonesie) · CariHukum</title>
 <link rel="stylesheet" href="/css/tokens.8812651824.css">
 <link rel="stylesheet" href="/css/komponen.62eaf51351.css">
 <link rel="stylesheet" href="/css/kodifikasi.c7c061e969.css">
@@ -34,37 +34,8 @@
 <div class="anot">⚖ <strong>UU Perkawinan 1/1974:</strong> Pasal 66 UU 1/1974 menyatakan ketentuan perkawinan BW tidak berlaku 'sejauh telah diatur' dalam UU Perkawinan — dienkode sebagai anotasi faktual pada bab perkawinan Buku I (Bab IV-XI).</div>
 <div class="keandalan">🛡 Keandalan: <strong>2497</strong> unit teks, seluruhnya terverifikasi terhadap salinan sumber yang diarsipkan (sha256 di API) · <a href="/api/kodifikasi/1847/23.json">API JSON</a> · <a href="/kodifikasi/1847/23/kuhperdata-1847.pdf" download>⬇ Unduh PDF utuh (versi berlaku)</a></div>
 </div>
-<script>
-const RUTE = [{"awal":1,"akhir":498,"jalur":"/kodifikasi/1847/23/i/"},{"awal":499,"akhir":1232,"jalur":"/kodifikasi/1847/23/ii/"},{"awal":1233,"akhir":1864,"jalur":"/kodifikasi/1847/23/iii/"},{"awal":1865,"akhir":1993,"jalur":"/kodifikasi/1847/23/iv/"}];
-function keBuku(n, hash) {
-  const r = RUTE.find(x => n >= x.awal && n <= x.akhir);
-  if (r) { location.href = r.jalur + (hash || ""); return true; }
-  return false;
-}
-document.getElementById("lompat").addEventListener("keydown", (e) => {
-  if (e.key !== "Enter") return;
-  const v = e.target.value.trim().toLowerCase().replace(/^pasal\s*/, "");
-  const n = parseInt(v, 10);
-  if (!n || !keBuku(n, "#p-pasal_" + v.replace(/[^a-z0-9]/g, "_")))
-    e.target.placeholder = "Pasal " + v.toUpperCase() + " tidak dikenal";
-});
-// tautan lama /kodifikasi/1847/23/#p-pasal_1338 -> alihkan ke halaman buku
-if (location.hash) {
-  const m = /^#p-pasal_(\d+)/.exec(location.hash);
-  if (m) keBuku(parseInt(m[1], 10), location.hash);
-}
-</script>
+<script type="application/json" id="data-rute">[{"awal":1,"akhir":498,"jalur":"/kodifikasi/1847/23/i/"},{"awal":499,"akhir":1232,"jalur":"/kodifikasi/1847/23/ii/"},{"awal":1233,"akhir":1864,"jalur":"/kodifikasi/1847/23/iii/"},{"awal":1865,"akhir":1993,"jalur":"/kodifikasi/1847/23/iv/"}]</script>
+<script src="/js/kodifikasi.2c293935bb.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.min.js" integrity="sha384-JBR+x8blGwjDRO63aHCGiZMD4VNiTR4ZUGA+N6ZKLf3zNt1fK8IBpcgPaMrxqWBp" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-(function () {
-  var sb = window.supabase.createClient("https://xhcygktjxakbeelavkyl.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0");
-  window.carihukumAuth = sb;
-  sb.auth.getSession().then(function (h) {
-    var el = document.getElementById("ch-akun");
-    if (!el || !h.data.session) return;
-    var u = h.data.session.user;
-    el.textContent = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || u.email;
-    el.title = "Kelola akun";
-  });
-})();
-</script></body>
+<script type="application/json" id="data-auth">{"url":"https://xhcygktjxakbeelavkyl.supabase.co","kunci":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0"}</script>
+<script src="/js/sesi.815131f17c.js"></script></body>

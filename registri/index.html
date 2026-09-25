@@ -1,4 +1,4 @@
-<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Registri Peraturan — CariHukum</title>
+<!doctype html><html lang="id"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Registri Peraturan — CariHukum</title>
 <link rel="stylesheet" href="/css/tokens.8812651824.css">
 <link rel="stylesheet" href="/css/komponen.62eaf51351.css">
 <link rel="stylesheet" href="/css/registri.ced92a5d2e.css">
@@ -28,63 +28,8 @@
   diperluas ke Permen &amp; daerah. Status ikut kartu BPK; sengketa status diselesaikan
   di halaman baca CariHukum yang terverifikasi.</div>
 </div>
-<script>
-(async function () {
-  const KORPUS = {"uu|1847|23":"/kodifikasi/1847/23/","permenkumham|2016|61":"/permenkumham/2016/61/","permenkumham|2019|19":"/permenkumham/2019/19/","permenkumham|2020|15":"/permenkumham/2020/15/","permenkumham|2021|17":"/permenkumham/2021/17/","permenkumham|2021|19":"/permenkumham/2021/19/","permk|2012|1":"/permk/2012/1/","permk|2019|3":"/permk/2019/3/","permk|2020|1":"/permk/2020/1/","permk|2025|7":"/permk/2025/7/","perpres|2012|33":"/perpres/2012/33/","permenkeu|2017|189":"/permenkeu/2017/189/","permenkeu|2019|113":"/permenkeu/2019/113/","permenkeu|2023|122":"/permenkeu/2023/122/","permenkeu|2024|86":"/permenkeu/2024/86/","pp|1997|24":"/pp/1997/24/","pp|1998|37":"/pp/1998/37/","pp|2015|21":"/pp/2015/21/","pp|2021|18":"/pp/2021/18/","uu|1960|5":"/uu/1960/5/","uu|1974|1":"/uu/1974/1/","uu|1983|6":"/uu/1983/6/","uu|1983|7":"/uu/1983/7/","uu|1983|8":"/uu/1983/8/","uu|1992|25":"/uu/1992/25/","uu|1992|7":"/uu/1992/7/","uu|1996|4":"/uu/1996/4/","uu|1997|32":"/uu/1997/32/","uu|1999|23":"/uu/1999/23/","uu|1999|41":"/uu/1999/41/","uu|1999|42":"/uu/1999/42/","uu|2001|16":"/uu/2001/16/","uu|2002|2":"/uu/2002/2/","uu|2003|19":"/uu/2003/19/","uu|2003|24":"/uu/2003/24/","uu|2004|30":"/uu/2004/30/","uu|2004|38":"/uu/2004/38/","uu|2004|40":"/uu/2004/40/","uu|2007|25":"/uu/2007/25/","uu|2007|26":"/uu/2007/26/","uu|2007|27":"/uu/2007/27/","uu|2007|40":"/uu/2007/40/","uu|2008|11":"/uu/2008/11/","uu|2008|17":"/uu/2008/17/","uu|2008|20":"/uu/2008/20/","uu|2008|21":"/uu/2008/21/","uu|2008|39":"/uu/2008/39/","uu|2009|10":"/uu/2009/10/","uu|2009|18":"/uu/2009/18/","uu|2009|30":"/uu/2009/30/","uu|2009|32":"/uu/2009/32/","uu|2009|33":"/uu/2009/33/","uu|2009|4":"/uu/2009/4/","uu|2009|43":"/uu/2009/43/","uu|2009|48":"/uu/2009/48/","uu|2010|8":"/uu/2010/8/","uu|2011|1":"/uu/2011/1/","uu|2011|12":"/uu/2011/12/","uu|2011|20":"/uu/2011/20/","uu|2011|24":"/uu/2011/24/","uu|2012|2":"/uu/2012/2/","uu|2014|17":"/uu/2014/17/","uu|2014|3":"/uu/2014/3/","uu|2014|33":"/uu/2014/33/","uu|2014|6":"/uu/2014/6/","uu|2014|7":"/uu/2014/7/","uu|2023|1":"/uu/2023/1/","uud|1945|null":"/uud/1945/","vendu|1908|189":"/vendu/1908/189/"};
-  const d = await (await fetch("/data/registri-ringkas.json")).json();
-  const el = (id) => document.getElementById(id);
-  let tampil = 100;
-  // Permen K/L (besar) dimuat di latar setelah render pertama
-  let totalSemua = d.jumlah + (d.jumlah_permen || 0);
-  fetch("/data/registri-permen.json").then((r) => r.ok ? r.json() : null).then((p) => {
-    if (!p) return;
-    d.baris = d.baris.concat(p.baris);
-    totalSemua = d.jumlah + p.jumlah;
-    saring();
-  }).catch(() => {});
-  function saring() {
-    const q = el("q").value.trim().toLowerCase().split(/s+/).filter(Boolean);
-    const fj = el("fj").value, fs = el("fs").value;
-    const hasil = [];
-    for (const b of d.baris) {
-      if (fj && b[0] !== fj) continue;
-      if (fs && b[4] !== fs) continue;
-      if (q.length) {
-        const t = (b[3] + " " + (b[5] || "") + " " + b[1] + " " + b[2]).toLowerCase();
-        if (!q.every((k) => t.includes(k))) continue;
-      }
-      hasil.push(b);
-    }
-    el("info").textContent = hasil.length.toLocaleString("id-ID") + " dari " +
-      totalSemua.toLocaleString("id-ID") + " peraturan" + (hasil.length > tampil ? " — menampilkan " + tampil : "");
-    el("hasil").innerHTML = hasil.slice(0, tampil).map((b) => {
-      const kunci = b[0] + "|" + b[1] + "|" + b[2];
-      const baca = KORPUS[kunci] ? '<a class="baca" href="' + KORPUS[kunci] + '">baca ▸</a>' : "";
-      const lbl = b[0] === "permen-kl" && b[5]
-        ? (b[5].split(" · ")[0] || d.label[b[0]]).replace(/^Peraturan /, "Per. ").replace(/^Keputusan /, "Kep. ")
-        : (d.label[b[0]] || b[0].toUpperCase());
-      return '<div class="r"><span class="id">' + lbl + " " + b[2] + "/" + b[1] +
-        '</span><span class="jdl">' + b[3].replace(/</g, "&lt;") + '</span><span class="st ' + b[4] + '">' + b[4] + "</span>" + baca + "</div>";
-    }).join("") + (hasil.length > tampil ?
-      '<div class="muat"><button id="lagi">Muat 200 lagi</button></div>' : "");
-    const lagi = el("lagi");
-    if (lagi) lagi.onclick = () => { tampil += 200; saring(); };
-  }
-  for (const id of ["q", "fj", "fs"]) el(id).addEventListener("input", () => { tampil = 100; saring(); });
-  saring();
-})();
-</script>
+<script type="application/json" id="data-korpus">{"uu|1847|23":"/kodifikasi/1847/23/","permenkumham|2016|61":"/permenkumham/2016/61/","permenkumham|2019|19":"/permenkumham/2019/19/","permenkumham|2020|15":"/permenkumham/2020/15/","permenkumham|2021|17":"/permenkumham/2021/17/","permenkumham|2021|19":"/permenkumham/2021/19/","permk|2012|1":"/permk/2012/1/","permk|2019|3":"/permk/2019/3/","permk|2020|1":"/permk/2020/1/","permk|2025|7":"/permk/2025/7/","perpres|2012|33":"/perpres/2012/33/","permenkeu|2017|189":"/permenkeu/2017/189/","permenkeu|2019|113":"/permenkeu/2019/113/","permenkeu|2023|122":"/permenkeu/2023/122/","permenkeu|2024|86":"/permenkeu/2024/86/","pp|1997|24":"/pp/1997/24/","pp|1998|37":"/pp/1998/37/","pp|2015|21":"/pp/2015/21/","pp|2021|18":"/pp/2021/18/","uu|1960|5":"/uu/1960/5/","uu|1974|1":"/uu/1974/1/","uu|1983|6":"/uu/1983/6/","uu|1983|7":"/uu/1983/7/","uu|1983|8":"/uu/1983/8/","uu|1992|25":"/uu/1992/25/","uu|1992|7":"/uu/1992/7/","uu|1996|4":"/uu/1996/4/","uu|1997|32":"/uu/1997/32/","uu|1999|23":"/uu/1999/23/","uu|1999|41":"/uu/1999/41/","uu|1999|42":"/uu/1999/42/","uu|2001|16":"/uu/2001/16/","uu|2002|2":"/uu/2002/2/","uu|2003|19":"/uu/2003/19/","uu|2003|24":"/uu/2003/24/","uu|2004|30":"/uu/2004/30/","uu|2004|38":"/uu/2004/38/","uu|2004|40":"/uu/2004/40/","uu|2007|25":"/uu/2007/25/","uu|2007|26":"/uu/2007/26/","uu|2007|27":"/uu/2007/27/","uu|2007|40":"/uu/2007/40/","uu|2008|11":"/uu/2008/11/","uu|2008|17":"/uu/2008/17/","uu|2008|20":"/uu/2008/20/","uu|2008|21":"/uu/2008/21/","uu|2008|39":"/uu/2008/39/","uu|2009|10":"/uu/2009/10/","uu|2009|18":"/uu/2009/18/","uu|2009|30":"/uu/2009/30/","uu|2009|32":"/uu/2009/32/","uu|2009|33":"/uu/2009/33/","uu|2009|4":"/uu/2009/4/","uu|2009|43":"/uu/2009/43/","uu|2009|48":"/uu/2009/48/","uu|2010|8":"/uu/2010/8/","uu|2011|1":"/uu/2011/1/","uu|2011|12":"/uu/2011/12/","uu|2011|20":"/uu/2011/20/","uu|2011|24":"/uu/2011/24/","uu|2012|2":"/uu/2012/2/","uu|2014|17":"/uu/2014/17/","uu|2014|3":"/uu/2014/3/","uu|2014|33":"/uu/2014/33/","uu|2014|6":"/uu/2014/6/","uu|2014|7":"/uu/2014/7/","uu|2023|1":"/uu/2023/1/","uud|1945|null":"/uud/1945/","vendu|1908|189":"/vendu/1908/189/"}</script>
+<script src="/js/registri.5d604db5e0.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.min.js" integrity="sha384-JBR+x8blGwjDRO63aHCGiZMD4VNiTR4ZUGA+N6ZKLf3zNt1fK8IBpcgPaMrxqWBp" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-(function () {
-  var sb = window.supabase.createClient("https://xhcygktjxakbeelavkyl.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0");
-  window.carihukumAuth = sb;
-  sb.auth.getSession().then(function (h) {
-    var el = document.getElementById("ch-akun");
-    if (!el || !h.data.session) return;
-    var u = h.data.session.user;
-    el.textContent = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || u.email;
-    el.title = "Kelola akun";
-  });
-})();
-</script></html>
+<script type="application/json" id="data-auth">{"url":"https://xhcygktjxakbeelavkyl.supabase.co","kunci":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhoY3lna3RqeGFrYmVlbGF2a3lsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxODc1MjgsImV4cCI6MjEwMzc2MzUyOH0.4MxsEk-nLOOAGBrczww_TsbzjDywRHV1-EQZ4uoifS0"}</script>
+<script src="/js/sesi.815131f17c.js"></script></html>
