@@ -33,3 +33,7 @@
   .kenapa { color:var(--ink-2); font-size:.75rem; margin-top:18px }
   .kenapa a { color:var(--accent) }
   button:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:2px }
+
+  /* Pengganti style="…" sebaris (27 Sep 2026, CSP style-src 'self') */
+  .sesi-label { font-size:.85rem; color:var(--ink-2) }
+  .kenapa a.kembali { color:var(--accent) }

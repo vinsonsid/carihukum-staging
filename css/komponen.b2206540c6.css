@@ -25,3 +25,8 @@ a.wordmark:hover .cari { color: var(--accent-emph); }
 /* Remah (lokasi halaman), di bawah pita. */
 .remah { font-size: .8rem; color: var(--ink-2); margin: -8px 0 16px; }
 .remah a { color: var(--accent); text-decoration: none; }
+
+/* Pengganti atribut style="…" sebaris (27 Sep 2026) — CSP style-src tanpa
+   'unsafe-inline'. Deklarasinya disalin persis dari atribut lamanya; id
+   dipakai supaya tetap menang atas `.top .kanan a` seperti dulu. */
+#ch-akun { font: 500 .8rem var(--sans, sans-serif); color: var(--accent); text-decoration: none; white-space: nowrap; }

@@ -216,3 +216,26 @@
     .chip, .histbtn, .toc-pasal a { transition: border-color .12s, background .12s; }
     .pasal { transition: border-color .25s, box-shadow .25s; }
   }
+
+  /* Pengganti style="…" sebaris (27 Sep 2026, CSP style-src 'self') */
+  .nav-karya { font-size: .78rem; margin-top: 4px; display: flex; align-items: center; gap: 8px; }
+  .nav-karya.bungkus { flex-wrap: wrap; }
+  .nav-karya .jejak { color: var(--ink-2); }
+  .nav-karya a.pil, .nav-karya a.pil-buku { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 2px 10px; color: var(--accent); text-decoration: none; font-weight: 600; background: var(--surface-2); }
+  .nav-karya a.pil-buku { font-weight: 500; }
+  .nav-karya a.pil-buku.aktif { border-color: var(--accent); font-weight: 700; background: var(--accent-soft); }
+  .baris-merek { display: flex; align-items: center; gap: 14px; }
+  .label.label-linimasa { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .ayat-riwayat { margin-top: 6px; }
+  .ayat-riwayat > .label { font: 500 .72rem var(--mono); color: var(--ink-2); }
+  .pj-label.jarak-6 { margin-top: 6px; }
+  .pasal-kepala .aksi-kanan { margin-left: auto; display: flex; gap: 6px; }
+  .toc-buku .kepala.kepala-buku { font-size: .78rem; border-top: 1px solid var(--line); padding-top: 8px; }
+  .redup.pad-4 { padding: 4px 0; }
+  .redup.pad-4 a.aksen { color: var(--accent); }
+  .mono.kecil-78 { font-size: .78rem; }
+  p.rapat-4 { margin: 4px 0; }
+  .gulir-x { overflow-x: auto; }
+  .pj-isi.pad-umum { padding: 10px 12px; }
+  .pj-label.pad-umum-kaki { padding: 0 12px 10px; }
+  .buku-nav .kepala.kepala-kitab { font: 600 .72rem var(--sans); color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; }

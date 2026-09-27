@@ -349,7 +349,7 @@ function unitHTML(u) {
     if (punyaRiwayat) {
       const semua = [riwayatHTML(u), ...(u.anak||[]).map(a => {
         const h = riwayatHTML(a);
-        return h ? `<div style="margin-top:6px"><div class="label" style="font:500 .72rem var(--mono);color:var(--ink-2)">Ayat ${esc(a.nomor)}</div>${h.replace("<h4>Riwayat versi</h4>","")}</div>` : "";
+        return h ? `<div class="ayat-riwayat"><div class="label">Ayat ${esc(a.nomor)}</div>${h.replace("<h4>Riwayat versi</h4>","")}</div>` : "";
       })].join("");
       hist = `<div class="riwayat ${state.open[key] ? "open" : ""}">${semua}</div>`;
     }
@@ -364,9 +364,9 @@ function unitHTML(u) {
     // Penjelasan yang dihapus TIDAK boleh sekadar lenyap: pembaca yang tahu
     // pasal ini pernah punya penjelasan harus diberi tahu siapa menghapusnya.
     const pj = pjDihapus
-      ? `<div class="pj-label" style="margin-top:6px">Penjelasan Pasal ${esc(u.nomor)} <strong>dihapus</strong> oleh ${esc(DATA._nama[pjBaru.pelaku] || pjBaru.pelaku)} (berlaku ${fmtTgl(pjBaru.tanggal)}).</div>`
+      ? `<div class="pj-label jarak-6">Penjelasan Pasal ${esc(u.nomor)} <strong>dihapus</strong> oleh ${esc(DATA._nama[pjBaru.pelaku] || pjBaru.pelaku)} (berlaku ${fmtTgl(pjBaru.tanggal)}).</div>`
       : (pjTeks ? `<details class="pj"><summary>Penjelasan resmi Pasal ${esc(u.nomor)}${pjBaru ? " (versi berlaku)" : ""}</summary><div class="pj-isi">${esc(pjTeks)}</div><div class="pj-label">${pjLabel}</div></details>` : "");
-    return `<article class="pasal" id="p-${idAman(key)}"><div class="pasal-kepala"><span class="pasal-nomor"><a href="#p-${idAman(key)}">${u.nomor ? `Pasal ${esc(u.nomor)}` : "Ketentuan"}</a></span>${badgeUnit(u)}<span style="margin-left:auto;display:flex;gap:6px"><button class="histbtn" data-salin="${key}" title="Salin teks pasal + sitasi + tautan">Salin</button>${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</span></div>${anotasiHTML(u)}${body}${pj}${hist}</article>`;
+    return `<article class="pasal" id="p-${idAman(key)}"><div class="pasal-kepala"><span class="pasal-nomor"><a href="#p-${idAman(key)}">${u.nomor ? `Pasal ${esc(u.nomor)}` : "Ketentuan"}</a></span>${badgeUnit(u)}<span class="aksi-kanan"><button class="histbtn" data-salin="${key}" title="Salin teks pasal + sitasi + tautan">Salin</button>${punyaRiwayat ? `<button class="histbtn" data-riw="${key}">Riwayat ${state.open[key] ? "▴" : "▾"}</button>` : ""}</span></div>${anotasiHTML(u)}${body}${pj}${hist}</article>`;
   }
   return "";
 }
@@ -376,7 +376,7 @@ function tocHTML(pohon) {
   // pohon kodifikasi berlapis buku: kelompokkan TOC per buku
   if (pohon.some(u => u.tipe === "buku"))
     return pohon.map(bk => bk.tipe !== "buku" ? "" :
-      `<div class="toc-buku"><div class="kepala" style="font-size:.78rem;border-top:1px solid var(--line);padding-top:8px">Buku ${esc(bk.nomor)} — ${esc(bk.judul)}</div></div>` +
+      `<div class="toc-buku"><div class="kepala kepala-buku">Buku ${esc(bk.nomor)} — ${esc(bk.judul)}</div></div>` +
       tocHTML(bk.anak || [])).join("");
   return pohon.map(bab => {
     if (bab.tipe !== "bab") return "";
@@ -479,7 +479,7 @@ function render() {
       ${jj.dasar_hukum.length ? `<div class="jejaring-blok"><h4>Dasar hukum (konsideran "Mengingat") ↑</h4><ul>${jj.dasar_hukum.map(dasarItem).join("")}</ul></div>` : ""}
       ${jj.dasar_bagi.length ? `<div class="jejaring-blok"><h4>Menjadi dasar hukum bagi ↓</h4><ul>${jj.dasar_bagi.map(id => `<li>${tautKarya(id)}</li>`).join("")}</ul></div>` : ""}
       ${relasiBaris ? `<div class="jejaring-blok"><h4>Relasi tercatat (BPK)</h4><ul>${relasiBaris}</ul></div>` : ""}
-      <div class="redup" style="padding:4px 0">Lihat seluruh korpus di <a href="/peta/" style="color:var(--accent)">Peta Jejaring Hukum</a>.</div>
+      <div class="redup pad-4">Lihat seluruh korpus di <a href="/peta/" class="aksen">Peta Jejaring Hukum</a>.</div>
       </div></details>`;
   }
   // Varian terjemahan: naskah terjemahan memakai padanan yang berbeda dari
@@ -490,7 +490,7 @@ function render() {
   if (vt.length) {
     const blok = vt.map(v => {
       const bukti = (v.bukti_internal || []).map(b =>
-        `<li><span class="mono" style="font-size:.78rem">${esc(b.unit)}</span> — “${esc(b.kutipan)}”<br><span class="redup">${esc(b.catatan)}</span></li>`).join("");
+        `<li><span class="mono kecil-78">${esc(b.unit)}</span> — “${esc(b.kutipan)}”<br><span class="redup">${esc(b.catatan)}</span></li>`).join("");
       const banding = (v.bukti_pembanding || []).map(b =>
         `<tr><td class="mono">Ps. ${esc(b.pasal)}</td><td><em>${esc(b.belanda)}…</em></td>` +
         `<td>“${esc(b.indonesia_naskah_kita)}…”</td><td>“${esc(b.indonesia_pembanding)}…”</td></tr>`).join("");
@@ -500,10 +500,10 @@ function render() {
         `<li>${esc(r.sumber)}: ${esc(r.isi)} <span class="redup">(${esc(r.catatan)})</span></li>`).join("");
       return `<div class="jejaring-blok">
         <h4>${esc(v.dipakai_naskah)} = ${esc(v.lazim_di_luar)} <span class="redup">(Bld. <em>${esc(v.asal)}</em>)</span></h4>
-        <p style="margin:4px 0">${esc(v.ringkas)}</p>
+        <p class="rapat-4">${esc(v.ringkas)}</p>
         ${bukti ? `<h4>Buktinya ada di dalam naskah ini</h4><ul>${bukti}</ul>` : ""}
         ${banding ? `<h4>Disandingkan dengan edisi Indonesia lain</h4>
-          <div style="overflow-x:auto"><table class="tabel-bukti"><tr><th></th><th>Belanda (Stb. 1847-23)</th><th>Naskah di sini (JDIH MA)</th><th>Edisi pembanding</th></tr>${banding}</table></div>
+          <div class="gulir-x"><table class="tabel-bukti"><tr><th></th><th>Belanda (Stb. 1847-23)</th><th>Naskah di sini (JDIH MA)</th><th>Edisi pembanding</th></tr>${banding}</table></div>
           <div class="redup">Pembanding: ${esc((w.varian_terjemahan.pembanding || {}).sifat || "")}</div>` : ""}
         ${beda ? `<h4>Yang justru TIDAK boleh disamakan</h4><ul>${beda}</ul>` : ""}
         ${ruj ? `<h4>Rujukan (dikutip dengan atribusi, bukan pendapat CariHukum)</h4><ul>${ruj}</ul>` : ""}
@@ -512,11 +512,11 @@ function render() {
     const judulRingkas = vt.map(v => `“${v.dipakai_naskah}” = “${v.lazim_di_luar}”`).join(", ");
     panelVarian = `<details class="panel-bukti"><summary>🔤 Varian istilah terjemahan — ${esc(judulRingkas)}</summary>
       <div class="isi-jejaring">${blok}
-      <div class="redup" style="padding:4px 0">Teks di bawah dibiarkan persis seperti salinan sumbernya; pencarian di beranda sudah menautkan varian ini.</div>
+      <div class="redup pad-4">Teks di bawah dibiarkan persis seperti salinan sumbernya; pencarian di beranda sudah menautkan varian ini.</div>
       </div></details>`;
   }
   const pjUmum = (w.penjelasan && w.penjelasan.umum)
-    ? `<details class="panel-bukti"><summary>📜 Penjelasan Umum (resmi)</summary><div class="pj-isi" style="padding:10px 12px">${esc(w.penjelasan.umum)}</div><div class="pj-label" style="padding:0 12px 10px">Penjelasan resmi naskah asli (TLN) — bukan tafsir CariHukum. Perubahan penjelasan oleh UU perubahan belum dienkode.</div></details>`
+    ? `<details class="panel-bukti"><summary>📜 Penjelasan Umum (resmi)</summary><div class="pj-isi pad-umum">${esc(w.penjelasan.umum)}</div><div class="pj-label pad-umum-kaki">Penjelasan resmi naskah asli (TLN) — bukan tafsir CariHukum. Perubahan penjelasan oleh UU perubahan belum dienkode.</div></details>`
     : "";
   // Diundangkan ≠ mulai berlaku bila naskahnya menunda (UU 16/2001: setahun).
   const tglUndang = m.tanggal_pengundangan || m.tanggal_penetapan || m.tanggal_berlaku;
@@ -574,7 +574,7 @@ function render() {
   const navBuku = (DATA._bukuNav || []).map(b =>
     `<a class="buku-pil ${b.aktif ? "on" : ""}" href="${b.jalur}" title="${esc(b.judul)}">${esc(b.label)}</a>`).join("");
   document.getElementById("toc").innerHTML =
-    (navBuku ? `<div class="buku-nav"><div class="kepala" style="font:600 .72rem var(--sans);color:var(--ink-2);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px">Kitab ini — 4 buku</div>${navBuku}</div>` : "") +
+    (navBuku ? `<div class="buku-nav"><div class="kepala kepala-kitab">Kitab ini — 4 buku</div>${navBuku}</div>` : "") +
     tocHTML(pohon);
   document.getElementById("isi").innerHTML = pohon.map(u => unitHTML(u)).join("");
   pasangScrollspy();

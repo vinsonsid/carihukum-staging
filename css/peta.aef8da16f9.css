@@ -19,3 +19,10 @@
 
   /* Graf berlebar tetap (viewBox 1240): diskalakan mengikuti kolom, tak meluap (4b). */
   .wrap svg { max-width: 100%; height: auto; }
+
+  /* Pengganti style="…" sebaris (27 Sep 2026, CSP style-src 'self') */
+  .sw.w-dasar { border-color:var(--accent) } .sw.w-ubah { border-color:#b08a00 }
+  .sw.w-cabut { border-color:#cf222e } .sw.w-mk { border-color:#8250df }
+  .chipL.c-teks { border-color:var(--accent); background:var(--accent-soft); color:var(--accent) }
+  .chipL.c-kodifikasi { border-color:#8250df; background:#f6f0ff; color:#8250df }
+  .chipL.c-metadata { border-color:var(--line); border-style:dashed; color:var(--ink-2) }

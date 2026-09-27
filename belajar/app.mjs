@@ -131,7 +131,7 @@ function init(IDX) {
     const el = $("#panel-peta");
     const karya = hashObj().karya && karyaList.some((k) => k.karya === hashObj().karya) ? hashObj().karya : karyaList[0].karya;
     el.innerHTML = `<label class="pilih">Peraturan <select id="peta-karya">${karyaList.map((k) => `<option value="${esc(k.karya)}" ${k.karya === karya ? "selected" : ""}>${esc(k.karya === "kuhperdata-1847" ? "KUHPerdata (1847)" : k.nama)}</option>`).join("")}</select></label>
-      <div class="legenda"><span><i style="background:var(--accent)"></i>berlaku menurut data</span><span><i style="background:var(--amber)"></i>dinaungi instrumen pencabutan sebagian/bersyarat</span><span><i style="background:var(--abu)"></i>kosong (naskah: "dihapus dengan S. …")</span><span><i style="background:var(--merah)"></i>dicabut</span></div>
+      <div class="legenda"><span><i class="l-aksen"></i>berlaku menurut data</span><span><i class="l-amber"></i>dinaungi instrumen pencabutan sebagian/bersyarat</span><span><i class="l-abu"></i>kosong (naskah: "dihapus dengan S. …")</span><span><i class="l-merah"></i>dicabut</span></div>
       <div id="peta-isi" class="kosong">Memuat…</div>`;
     $("#peta-karya").addEventListener("change", (e) => { setHash({ karya: e.target.value }); renderPeta(); });
     const peta = await muatPeta(karya);
@@ -188,8 +188,8 @@ function init(IDX) {
     const kartu = (x) => `<div class="frasa ${x.panjang > 200 ? "panjang" : ""} ${x.nasib === "dicabut" ? "cabut" : ""}">
       <span class="kutipan">“${esc(x.frasa)}”</span>
       <span class="meta">${esc(namaUnit(x.unit))} ${pitaNasib(x.nasib)} ${tautUnit(B, x.unit, "baca")}</span></div>`;
-    const baris = (x) => `<tr class="${x.nasib === "dicabut" ? "cabut" : ""}"><td style="width:22%">${esc(namaUnit(x.unit))}<br>${tautUnit(B, x.unit, "baca")}</td>
-      <td style="width:18%"><span class="meta">${esc(x.sebab)}</span></td><td>${esc(x.teks)}</td></tr>`;
+    const baris = (x) => `<tr class="${x.nasib === "dicabut" ? "cabut" : ""}"><td class="w-22">${esc(namaUnit(x.unit))}<br>${tautUnit(B, x.unit, "baca")}</td>
+      <td class="w-18"><span class="meta">${esc(x.sebab)}</span></td><td>${esc(x.teks)}</td></tr>`;
     return `<div class="blok"><div class="kepala"><h3>Frasa yang wajib tercetak</h3>
       <span class="meta">${f.harfiah.length} kutipan harfiah — dipungut apa adanya dari tanda kutip di dalam pasalnya sendiri. Tidak ada yang ditambahkan.</span></div>
       <div class="isi">${f.harfiah.length ? f.harfiah.map(kartu).join("") : '<p class="kosong">Peraturan ini tak mengutip frasa wajib secara harfiah.</p>'}
@@ -204,7 +204,7 @@ function init(IDX) {
       const kepala = k.kelompok.map((g) => `<th>${esc(g.kepala)}<br><span class="meta">${esc(namaUnit(g.unit))}</span></th>`).join("");
       const sel = k.kelompok.map((g) => `<td><ol>${g.butir.map((b) => `<li>${esc(b.teks)}</li>`).join("")}</ol></td>`).join("");
       return `<h3>${esc(namaUnit(k.pasal))} ${pitaNasib(k.nasib)} ${tautUnit(B, k.pasal, "baca")}</h3>
-        <div style="overflow-x:auto"><table class="mx"><thead><tr>${kepala}</tr></thead><tbody><tr>${sel}</tr></tbody></table></div>`;
+        <div class="gulir-x"><table class="mx"><thead><tr>${kepala}</tr></thead><tbody><tr>${sel}</tr></tbody></table></div>`;
     };
     return `<div class="blok"><div class="kepala"><h3>Matriks komposisi</h3>
       <span class="meta">${B.komposisi.length} pasal yang menguraikan susunan sesuatu (&ldquo;X memuat: a, b, c&rdquo;). Kolomnya adalah kelompok di dalam pasal itu; isinya butir apa adanya, urutannya urutan naskah.</span></div>
@@ -214,12 +214,12 @@ function init(IDX) {
   function blokAkibat(B) {
     if (!B.akibat.length) return "";
     const baris = (a) => `<tr class="${a.nasib === "dicabut" ? "cabut" : ""}">
-      <td style="width:20%">${esc(namaUnit(a.unit))} ${pitaNasib(a.nasib)}<br>${tautUnit(B, a.unit, "baca")}</td>
-      <td style="width:26%">${a.sasaran.map((t) => `<a class="asal" href="${esc(B.jalur)}${anchorPasal(t.pasal)}">${esc(namaUnit(t.pasal))}</a>${t.nasib === "dicabut" ? " (dicabut)" : ""}`).join("<br>")}</td>
+      <td class="w-20">${esc(namaUnit(a.unit))} ${pitaNasib(a.nasib)}<br>${tautUnit(B, a.unit, "baca")}</td>
+      <td class="w-26">${a.sasaran.map((t) => `<a class="asal" href="${esc(B.jalur)}${anchorPasal(t.pasal)}">${esc(namaUnit(t.pasal))}</a>${t.nasib === "dicabut" ? " (dicabut)" : ""}`).join("<br>")}</td>
       <td>${esc(a.akibat)}</td></tr>`;
     return `<div class="blok"><div class="kepala"><h3>Matriks pelanggaran &rarr; akibat</h3>
       <span class="meta">${B.akibat.length} pasal yang menyebut pelanggaran atas ketentuan lain. Kolom kanan adalah akibat yang disebut <strong>di pasal itu sendiri</strong>, dikutip utuh &mdash; tidak diringkas dan tidak dikelompokkan.</span></div>
-      <div class="isi"><div style="overflow-x:auto"><table class="mx"><thead><tr><th>Pasal yang mengatur akibat</th><th>Ketentuan yang dilanggar</th><th>Akibat menurut naskah</th></tr></thead><tbody>${B.akibat.map(baris).join("")}</tbody></table></div></div></div>`;
+      <div class="isi"><div class="gulir-x"><table class="mx"><thead><tr><th>Pasal yang mengatur akibat</th><th>Ketentuan yang dilanggar</th><th>Akibat menurut naskah</th></tr></thead><tbody>${B.akibat.map(baris).join("")}</tbody></table></div></div></div>`;
   }
 
   function blokDiagram(B, daftarBerkas) {
@@ -240,7 +240,7 @@ function init(IDX) {
       <div class="isi"><svg class="dgm" viewBox="0 0 ${d.ukuran} ${d.ukuran}" role="list" aria-label="Graf rujukan antar-pasal">
         <g aria-hidden="true">${bg}</g>${grup}</svg>
       <p class="dgm-cadangan">Nomor pasal disembunyikan di layar sempit karena terlalu kecil untuk dibaca; yang tersisa adalah bentuknya. Rinciannya ada di matriks di atas, dan angka lengkapnya di <a href="${esc(daftarBerkas)}">JSON bedah</a>.</p>
-      <div class="legenda"><span><i style="background:var(--accent)"></i>pasal asli</span><span><i style="background:var(--amber)"></i>diubah pengubah</span><span><i style="background:var(--merah)"></i>dicabut</span></div></div></div>`;
+      <div class="legenda"><span><i class="l-aksen"></i>pasal asli</span><span><i class="l-amber"></i>diubah pengubah</span><span><i class="l-merah"></i>dicabut</span></div></div></div>`;
   }
 
   function blokNasib(B) {
@@ -257,9 +257,9 @@ function init(IDX) {
     if (!B.doktrin.length)
       return `<div class="blok"><div class="kepala"><h3>Lapis 3 &mdash; eksposisi beratribusi</h3></div>
         <div class="isi"><div class="editorial"><strong>Belum ada klaim terbit.</strong> Lapisan ini memuat unsur, akibat hukum, sifat memaksa/mengatur, dan beban bukti &mdash; hal yang <em>tidak</em> bisa diturunkan mesin dari naskah. Setiap klaim wajib menyebut sumber bukunya (penulis, judul, tahun, halaman); klaim tanpa sumber ditolak validator sebagai opini.${B.doktrin_tahap ? ` Berkas doktrin untuk peraturan ini ada dan bertahap <strong>${esc(B.doktrin_tahap)}</strong> &mdash; belum boleh tayang.` : ""}</div></div></div>`;
-    const klaim = (c) => `<div class="frasa" style="border-left-color:var(--ungu)">
+    const klaim = (c) => `<div class="frasa klaim">
       <span class="meta">${esc(namaUnit(c.pasal))} &middot; ${esc(c.jenis)}${c.kode ? ` ${esc(c.kode)}` : ""} ${tautUnit(B, c.pasal, "baca")}</span>
-      <p style="margin:4px 0">${esc(c.teks)}</p>
+      <p class="rapat-4">${esc(c.teks)}</p>
       ${c.kutipan ? `<div class="kutip">${esc(c.kutipan)}</div>` : ""}
       <span class="meta">${c.sumber.map((s) => esc(`${s.penulis}, ${s.judul} (${s.tahun}) hlm. ${s.halaman}`)).join(" · ")} &middot; kurator ${esc(c.kurator)}, ${esc(c.tanggal)}</span></div>`;
     return `<div class="blok"><div class="kepala"><h3>Lapis 3 &mdash; eksposisi beratribusi</h3>
@@ -344,18 +344,18 @@ function init(IDX) {
         b.disabled = true;
       });
       $("#lokasi-hasil").innerHTML = `${nilai === 2 ? "✔ Tepat." : nilai === 1 ? "◐ Bab benar, nomor meleset." : "✘ Belum."} Jawaban: <strong>Pasal ${esc(soal.kartu.n)}</strong> — Bab ${esc(soal.bab.nomor)} ${esc(bersihkanJudul(soal.bab.judul))} (Pasal ${soal.bab.awal}–${soal.bab.akhir}) · ${esc(soal.dek.nama)} ${pitaStatus(soal.kartu.s)} <a href="${tautanPasal(soal.dek, soal.kartu)}">baca →</a>
-        <div style="margin-top:8px"><button class="aksi" id="lokasi-lanjut">Soal berikutnya (Enter)</button></div>`;
+        <div class="jarak-8"><button class="aksi" id="lokasi-lanjut">Soal berikutnya (Enter)</button></div>`;
       $("#lokasi-lanjut").addEventListener("click", () => soalLokasiBaru(dekList, mode));
       $("#lokasi-lanjut").focus();
     };
     wadah.innerHTML = `<div class="soal">
-      <div class="meta" style="display:flex;justify-content:space-between"><span>${soal.mode === "buku" ? "Buku mana?" : soal.mode === "bab" ? "Bab mana?" : soal.mode === "rentang" ? "Rentang pasal mana?" : "Pasal berapa?"}</span><span class="timer" id="lokasi-timer">10.0 s</span></div>
-      <div class="bar"><i id="lokasi-bar" style="width:100%"></i></div>
+      <div class="meta baris-antara"><span>${soal.mode === "buku" ? "Buku mana?" : soal.mode === "bab" ? "Bab mana?" : soal.mode === "rentang" ? "Rentang pasal mana?" : "Pasal berapa?"}</span><span class="timer" id="lokasi-timer">10.0 s</span></div>
+      <div class="bar"><i id="lokasi-bar"></i></div>
       <div class="teks">${esc(soal.teks)}</div>
-      <div id="lokasi-opsi" style="margin-top:12px">${soal.pilihan
+      <div id="lokasi-opsi">${soal.pilihan
         ? soal.pilihan.map((p, i) => `<button class="opsi" data-id="${esc(p.id)}"><span class="no">${i + 1}</span>${esc(p.label)}</button>`).join("")
-        : `<form id="lokasi-form" style="display:flex;gap:8px"><input type="text" inputmode="numeric" id="lokasi-nomor" placeholder="mis. 1320" aria-label="Nomor pasal" autocomplete="off"><button class="aksi" type="submit">Jawab</button></form>`}</div>
-      <div id="lokasi-hasil" style="margin-top:10px;font-size:.9rem"></div></div>`;
+        : `<form id="lokasi-form"><input type="text" inputmode="numeric" id="lokasi-nomor" placeholder="mis. 1320" aria-label="Nomor pasal" autocomplete="off"><button class="aksi" type="submit">Jawab</button></form>`}</div>
+      <div id="lokasi-hasil"></div></div>`;
     if (soal.pilihan) wadah.querySelectorAll("button.opsi").forEach((b) => b.addEventListener("click", () => jawab(nilaiLokasi(soal, b.dataset.id), b.dataset.id)));
     else { $("#lokasi-form").addEventListener("submit", (e) => { e.preventDefault(); jawab(nilaiLokasi(soal, $("#lokasi-nomor").value), null); }); $("#lokasi-nomor").focus(); }
     mulaiTimer(10, $("#lokasi-timer"), $("#lokasi-bar"), () => jawab(0, null));
@@ -386,9 +386,9 @@ function init(IDX) {
     let selesai = false;
     wadah.innerHTML = `<div class="soal">
       <div class="meta">Pasal <strong>${esc(soal.kartu.n)}</strong> · Bab ${esc(soal.bab.nomor)} ${esc(bersihkanJudul(soal.bab.judul))} · ${esc(dek.nama)}</div>
-      <div class="teks" style="margin-top:6px">${esc(soal.teks)}</div>
-      <div style="margin-top:12px">${soal.pilihan.map((p, i) => `<button class="opsi" data-id="${esc(p.id)}"><span class="no">${i + 1}</span>${esc(p.label)}</button>`).join("")}</div>
-      <div id="instrumen-hasil" style="margin-top:10px;font-size:.9rem"></div></div>`;
+      <div class="teks jarak-6">${esc(soal.teks)}</div>
+      <div class="jarak-12">${soal.pilihan.map((p, i) => `<button class="opsi" data-id="${esc(p.id)}"><span class="no">${i + 1}</span>${esc(p.label)}</button>`).join("")}</div>
+      <div id="instrumen-hasil"></div></div>`;
     const jawab = (pilih) => {
       if (selesai) return; selesai = true;
       const benar = benarInstrumen(soal, pilih);
@@ -416,7 +416,7 @@ function init(IDX) {
     const aktif = dekPilihan();
     el.innerHTML = `<div class="sub">Kartu arah <em>isi → nomor</em> (dan <em>istilah → definisi</em> bila peraturannya punya Pasal 1 Ketentuan Umum). Nyatakan dulu seberapa yakin Anda ingat, baru buka — skor kalibrasi ditampilkan setara akurasi. Kartu dianggap tuntas setelah tiga kali berhasil diingat pada tiga hari berbeda.</div>
       ${selectDek("kartu-dek", aktif)}
-      <label class="pilih kecil">Kartu baru per hari <input type="number" id="kartu-kap" min="1" max="200" value="${state.atur.kapasitas}" style="width:80px"></label>
+      <label class="pilih kecil">Kartu baru per hari <input type="number" id="kartu-kap" min="1" max="200" value="${state.atur.kapasitas}"></label>
       <div id="kartu-stat"></div><div id="kartu-isi" class="kosong">Memuat dek…</div><div id="kartu-sinkron"></div>`;
     $("#kartu-dek").addEventListener("change", (e) => { setHash({ dek: e.target.value }); renderKartu(); });
     $("#kartu-kap").addEventListener("change", (e) => { state.atur.kapasitas = Math.max(1, Math.min(200, +e.target.value || 20)); simpanState(); renderKartu(); });
@@ -449,22 +449,22 @@ function init(IDX) {
     if (arah === "istilah") {
       const [k, nama] = unit.split("#");
       const ist = (dek.istilah ?? []).find((i) => i.k === k && i.i === nama);
-      depan = `<div class="meta">Istilah · ${esc(dek.nama)}</div><div class="teks" style="font-size:1.2rem;font-weight:700">${esc(nama)}</div><div class="meta">Apa definisinya menurut Pasal 1?</div>`;
-      belakang = `<div class="teks">${esc(ist?.d ?? "")}</div><div class="meta" style="margin-top:6px">Pasal 1 angka ${esc(ist?.n ?? "")} · <a href="${esc(dek.jalur)}${anchorPasal("pasal-1")}">baca →</a></div>`;
+      depan = `<div class="meta">Istilah · ${esc(dek.nama)}</div><div class="teks teks-istilah">${esc(nama)}</div><div class="meta">Apa definisinya menurut Pasal 1?</div>`;
+      belakang = `<div class="teks">${esc(ist?.d ?? "")}</div><div class="meta jarak-6">Pasal 1 angka ${esc(ist?.n ?? "")} · <a href="${esc(dek.jalur)}${anchorPasal("pasal-1")}">baca →</a></div>`;
     } else {
       const k = dek.kartu.find((c) => c.k === unit);
       const bab = babDari(dek, k.c);
       status = k.s;
-      depan = `<div class="meta">${esc(dek.nama)}${baru ? " · <em>kartu baru</em>" : ""}</div><div class="teks">${esc(k.t)}</div><div class="meta" style="margin-top:6px">Pasal berapa, bab apa?</div>`;
-      belakang = `<div style="font-size:1.15rem"><strong>Pasal ${esc(k.n)}</strong> — Bab ${esc(bab.nomor)} ${esc(bersihkanJudul(bab.judul))} <span class="meta">(Pasal ${bab.awal}–${bab.akhir})</span></div>
-        <div style="margin-top:6px">${pitaStatus(k.s)}${k.v === "o" ? `<span class="pita o" title="Teks unit ini hasil reparasi cacat OCR yang bercatatan kurasi">teks reparasi bercatatan</span>` : ""}${k.mk ? `<span class="pita o">ada anotasi putusan MK</span>` : ""} <a href="${tautanPasal(dek, k)}">baca →</a></div>
+      depan = `<div class="meta">${esc(dek.nama)}${baru ? " · <em>kartu baru</em>" : ""}</div><div class="teks">${esc(k.t)}</div><div class="meta jarak-6">Pasal berapa, bab apa?</div>`;
+      belakang = `<div class="jawab-pasal"><strong>Pasal ${esc(k.n)}</strong> — Bab ${esc(bab.nomor)} ${esc(bersihkanJudul(bab.judul))} <span class="meta">(Pasal ${bab.awal}–${bab.akhir})</span></div>
+        <div class="jarak-6">${pitaStatus(k.s)}${k.v === "o" ? `<span class="pita o" title="Teks unit ini hasil reparasi cacat OCR yang bercatatan kurasi">teks reparasi bercatatan</span>` : ""}${k.mk ? `<span class="pita o">ada anotasi putusan MK</span>` : ""} <a href="${tautanPasal(dek, k)}">baca →</a></div>
         ${k.s === "d" ? k.i.map((i) => { const v = dek.instrumen[i]; return `<div class="kutip"><strong>${esc(v?.nama ?? i)}</strong>${v?.dasar ? ` · ${esc(v.dasar)}` : ""}<br>${esc(v?.kutipan ?? "")}</div>`; }).join("") : ""}`;
     }
     let tingkat = null;
     wadah.innerHTML = `<div class="soal">${depan}
       <div class="keyakinan" role="radiogroup" aria-label="Seberapa yakin Anda ingat jawabannya?">${[1, 2, 3, 4, 5].map((t) => `<label><input type="radio" name="yakin" value="${t}">${t} · ${Math.round(P_SLIDER[t] * 100)}%</label>`).join("")}</div>
       <button class="aksi" id="kartu-buka" disabled>Buka jawaban</button> <span class="meta">pilih keyakinan dulu (tombol 1–5, lalu Spasi)</span>
-      <div id="kartu-belakang" hidden style="margin-top:14px;border-top:1px dashed var(--line);padding-top:12px">${belakang}
+      <div id="kartu-belakang" hidden>${belakang}
         <div class="nilai">${[["Lupa", "ulang hari ini"], ["Sulit", ""], ["Baik", ""], ["Mudah", ""]].map(([n, k], i) => `<button data-nilai="${i + 1}">${i + 1} · ${n}<small>${k}</small></button>`).join("")}</div></div></div>`;
     const radios = wadah.querySelectorAll('input[name="yakin"]');
     radios.forEach((r) => r.addEventListener("change", () => { tingkat = +r.value; radios.forEach((x) => x.parentElement.classList.toggle("aktif", x.checked)); $("#kartu-buka").disabled = false; }));
@@ -476,7 +476,7 @@ function init(IDX) {
       const r = catatUlasan(state, kunci, +b.dataset.nilai, tingkat, kini());
       simpanState();
       const ket = r.hasil.intervalHari === 0 ? "diulang lagi hari ini" : `berikutnya ${r.hasil.intervalHari} hari lagi`;
-      wadah.insertAdjacentHTML("beforeend", `<div class="meta" style="margin:6px 4px">${ket}${r.poin ? " · +1 poin" : ""}${state.kartu[kunci].ok ? " · ✔ tuntas (3 hari berbeda)" : ""}</div>`);
+      wadah.insertAdjacentHTML("beforeend", `<div class="meta ket-hasil">${ket}${r.poin ? " · +1 poin" : ""}${state.kartu[kunci].ok ? " · ✔ tuntas (3 hari berbeda)" : ""}</div>`);
       setTimeout(() => kartuBerikut(dek), 650);
     }));
     wadah.onkeydown = (e) => {
@@ -500,12 +500,12 @@ function init(IDX) {
     const { data } = await sb.auth.getSession();
     sesiUser = data?.session?.user ?? null;
     if (!sesiUser) { el.innerHTML = `<p class="kecil meta">Progres tersimpan di peramban ini. <a href="/akun/">Masuk</a> untuk menyinkronkan antar-perangkat.</p>${tombolEkspor()}`; pasangEkspor(); return; }
-    el.innerHTML = `<p class="kecil meta">Sinkron sebagai akun Anda · <span id="sinkron-status">memeriksa…</span> · <button class="opsi" style="display:inline;width:auto;padding:3px 9px;margin:0" id="sinkron-hapus">Hapus data belajar di server</button></p>${tombolEkspor()}`;
+    el.innerHTML = `<p class="kecil meta">Sinkron sebagai akun Anda · <span id="sinkron-status">memeriksa…</span> · <button class="opsi opsi-sebaris" id="sinkron-hapus">Hapus data belajar di server</button></p>${tombolEkspor()}`;
     pasangEkspor();
     $("#sinkron-hapus").addEventListener("click", hapusServer);
     await tarik();
   }
-  const tombolEkspor = () => `<p class="kecil"><button class="opsi" style="display:inline;width:auto;padding:3px 9px;margin:0" id="sinkron-ekspor">Ekspor progres (JSON)</button> <button class="opsi" style="display:inline;width:auto;padding:3px 9px;margin:0" id="sinkron-reset">Hapus progres di peramban ini</button></p>`;
+  const tombolEkspor = () => `<p class="kecil"><button class="opsi opsi-sebaris" id="sinkron-ekspor">Ekspor progres (JSON)</button> <button class="opsi opsi-sebaris" id="sinkron-reset">Hapus progres di peramban ini</button></p>`;
   function pasangEkspor() {
     $("#sinkron-ekspor")?.addEventListener("click", () => {
       const a = document.createElement("a");

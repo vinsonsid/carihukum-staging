@@ -19,3 +19,7 @@
   .redup { color:var(--ink-2) }
   #kosong { display:none; color:var(--ink-2); padding:16px 4px }
   a.kembali { font-size:.8rem; color:var(--accent); text-decoration:none }
+
+  /* Pengganti style="…" sebaris (27 Sep 2026, CSP style-src 'self') */
+  footer.kaki-istilah { margin-top:32px; border-top:1px solid var(--line); padding-top:14px; color:var(--ink-2); font-size:.75rem }
+  footer.kaki-istilah a { color:var(--accent) }

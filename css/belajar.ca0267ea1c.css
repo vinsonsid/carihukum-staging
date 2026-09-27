@@ -89,3 +89,24 @@
        noda, bukan teks. Bentuk grafnya masih bercerita (kerapatan rujukan), jadi
        labelnya disembunyikan dan digantikan kalimat yang mengatakan apa adanya. */
     .dgm text { display:none } .dgm-cadangan { display:block } }
+
+  /* Pengganti style="…" sebaris (27 Sep 2026, CSP style-src 'self') */
+  .legenda i.l-aksen { background:var(--accent) } .legenda i.l-amber { background:var(--amber) }
+  .legenda i.l-abu { background:var(--abu) } .legenda i.l-merah { background:var(--merah) }
+  td.w-18 { width:18% } td.w-20 { width:20% } td.w-22 { width:22% } td.w-26 { width:26% }
+  .gulir-x { overflow-x:auto }
+  .frasa.klaim { border-left-color:var(--ungu) }
+  p.rapat-4 { margin:4px 0 }
+  div.jarak-6, .teks.jarak-6, .meta.jarak-6 { margin-top:6px }
+  div.jarak-8 { margin-top:8px } div.jarak-12 { margin-top:12px }
+  .meta.baris-antara { display:flex; justify-content:space-between }
+  .meta.ket-hasil { margin:6px 4px }
+  #lokasi-bar { width:100% }
+  #lokasi-opsi { margin-top:12px }
+  #lokasi-form { display:flex; gap:8px }
+  #lokasi-hasil, #instrumen-hasil { margin-top:10px; font-size:.9rem }
+  #kartu-kap { width:80px }
+  .teks.teks-istilah { font-size:1.2rem; font-weight:700 }
+  .jawab-pasal { font-size:1.15rem }
+  #kartu-belakang { margin-top:14px; border-top:1px dashed var(--line); padding-top:12px }
+  button.opsi.opsi-sebaris { display:inline; width:auto; padding:3px 9px; margin:0 }

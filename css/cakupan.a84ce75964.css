@@ -12,3 +12,8 @@
   .pct { font-size:.74rem; color:var(--ink-2); margin-left:6px; font-variant-numeric:tabular-nums }
   .kartu { border:1px solid var(--line); border-radius:8px; padding:12px 16px; background:var(--surface-2); font-size:.84rem; margin:14px 0 }
   a { color:var(--accent) }
+
+  /* Pengganti style="…" sebaris (27 Sep 2026, CSP style-src 'self'); lebar
+     batang ada di lembar bangkitan cakupan-lebar.<hash>.css */
+  th.kanan { text-align:right }
+  .sub.sempit { max-width:78ch }
