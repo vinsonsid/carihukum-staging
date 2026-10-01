@@ -35,7 +35,10 @@ export function stateBaru(kiniMs) {
     kartu: {},
     kal: { 1: [0, 0], 2: [0, 0], 3: [0, 0], 4: [0, 0], 5: [0, 0] },
     poin: { total: 0, hari: {} },
-    game: { lokasi: { main: 0, benar: 0 }, instrumen: { main: 0, benar: 0 } },
+    // game.topik["<topik>/<sub>"] = { tahap, skor{A,B,MIKRO}, salah[{c,f}], u } — progres
+    // ronde topik (docs/28). Disimpan di `game` agar ikut kolom jsonb belajar_ringkas
+    // yang sudah ada: tanpa perubahan skema Supabase, tanpa log per jawaban.
+    game: { lokasi: { main: 0, benar: 0 }, instrumen: { main: 0, benar: 0 }, topik: {} },
     harian: { tanggal: hariLokal(kiniMs), baru: 0, ulas: 0 }
   };
 }
@@ -124,7 +127,7 @@ export function antrean(state, dek, kiniMs) {
  *   tingkat = slider keyakinan 1–5 yang dipilih SEBELUM jawaban dibuka (null bila tak ada)
  * Mengubah `state` di tempat; mengembalikan { hasil (dari fsrs), poin, paparanPertama }.
  */
-export function catatUlasan(state, kunci, nilai, tingkat, kiniMs) {
+export function catatUlasan(state, kunci, nilai, tingkat, kiniMs, { hitungHarian = true } = {}) {
   segarkanHarian(state, kiniMs);
   const lama = state.kartu[kunci];
   const paparanPertama = !lama;
@@ -137,15 +140,23 @@ export function catatUlasan(state, kunci, nilai, tingkat, kiniMs) {
   if (!sukses && state.atur.resetSaatLupa) h.clear();
   const hArr = [...h].sort().slice(-3);
   state.kartu[kunci] = { ...hasil.kartu, h: hArr, ok: hArr.length >= 3, u: kiniMs };
-  if (tingkat != null && P_SLIDER[tingkat] !== undefined) {
-    const k = state.kal[tingkat] ?? [0, 0];
-    state.kal[tingkat] = [k[0] + 1, k[1] + (sukses ? 1 : 0)];
-  }
-  if (paparanPertama) state.harian.baru++;
-  state.harian.ulas++;
+  catatKeyakinan(state, tingkat, sukses);
+  // Kartu konsep dari ronde topik tak memakan jatah kartu baru harian dek
+  // (hitungHarian:false) — jatah itu mengatur laju dek, bukan latihan soal.
+  if (hitungHarian) { if (paparanPertama) state.harian.baru++; state.harian.ulas++; }
   if (poin) { state.poin.total += poin; state.poin.hari[hariLokal(kiniMs)] = (state.poin.hari[hariLokal(kiniMs)] ?? 0) + poin; }
   state.diperbarui = kiniMs;
   return { hasil, poin, paparanPertama, sukses };
+}
+
+/**
+ * Agregat kalibrasi satu prediksi: keyakinan (slider 1–5) lawan hasil. Dipakai
+ * kartu DAN soal ronde topik, supaya Brier tetap satu skala di seluruh /belajar/.
+ */
+export function catatKeyakinan(state, tingkat, sukses) {
+  if (tingkat == null || P_SLIDER[tingkat] === undefined) return;
+  const k = state.kal[tingkat] ?? [0, 0];
+  state.kal[tingkat] = [k[0] + 1, k[1] + (sukses ? 1 : 0)];
 }
 
 /** Catat hasil satu soal game (lokasi/instrumen). Poin hanya bila benar. */
