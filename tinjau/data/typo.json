@@ -1,19 +1,19 @@
 {
  "dijalankan": "2026-10-02",
- "karya_dipindai": 62,
- "kosakata_korpus": 17819,
- "jumlah_temuan": 557,
+ "karya_dipindai": 68,
+ "kosakata_korpus": 18601,
+ "jumlah_temuan": 568,
  "temuan_baru": 0,
- "temuan_menunggu_kurasi": 9,
- "utang_diakui": 557,
+ "temuan_menunggu_kurasi": 22,
+ "utang_diakui": 568,
  "per_kelas": {
   "KARAKTER-ASING": 64,
-  "HURUF-HILANG": 209,
+  "HURUF-HILANG": 220,
   "DIGIT-DI-KATA": 150,
   "KELAS-GLYPH": 134
  },
  "per_karya": {
-  "kuhperdata-1847": 105,
+  "kuhperdata-1847": 104,
   "pmk-2017-189": 51,
   "pmk-2023-122": 37,
   "permk-2025-7": 36,
@@ -38,13 +38,15 @@
   "pp-2016-24": 5,
   "permk-2012-1": 4,
   "uu-1983-6": 4,
+  "uu-1999-53": 4,
   "uu-1983-8": 3,
+  "uu-1999-36": 3,
+  "uu-2000-29": 3,
   "uu-2004-38": 3,
   "uu-2010-13": 3,
   "uu-2016-7": 3,
   "uu-2020-7": 3,
   "uu-2024-3": 3,
-  "pp-2021-18": 2,
   "uu-1983-7": 2,
   "uu-1999-41": 2,
   "uu-1999-42": 2,
@@ -62,10 +64,14 @@
   "permenkumham-2021-17": 1,
   "permk-2019-3": 1,
   "pp-1998-37": 1,
+  "pp-2021-18": 1,
   "uu-1996-4": 1,
+  "uu-2001-21": 1,
+  "uu-2002-28": 1,
   "uu-2007-26": 1,
   "uu-2008-11": 1,
   "uu-2009-32": 1,
+  "uu-2009-38": 1,
   "uu-2009-4": 1,
   "uu-2009-43": 1,
   "uu-2011-20": 1,
@@ -679,17 +685,6 @@
    "usul": "baik",
    "jumlah_korpus": 1,
    "bukti": "… pembeli semula atau kekuasaanya, dibeli dengan itikad balk oleh pihak ketiga dan telah diserahkan kepadanya. Akan…",
-   "baru": false,
-   "dikurasi": true
-  },
-  {
-   "karya": "kuhperdata-1847",
-   "kelas": "HURUF-HILANG",
-   "unit": "buku-2-bab-19/bagian-3",
-   "token": "Tetap",
-   "usul": "Tetapi",
-   "jumlah_korpus": 2,
-   "bukti": "Hak Didahulukan atas Segala Barang Bergerak dan Barang Tetap pada Umumnya",
    "baru": false,
    "dikurasi": true
   },
@@ -3400,17 +3395,6 @@
    "dikurasi": true
   },
   {
-   "karya": "pp-2021-18",
-   "kelas": "HURUF-HILANG",
-   "unit": "penjelasan/pasal-2",
-   "token": "Tetap",
-   "usul": "Tetapi",
-   "jumlah_korpus": 2,
-   "bukti": "…g Pencabutan Hak, Undang-Undang Penguasaan Benda-Benda Tetap Milik Perseorangan, Peraturan mengenai Penegasan Statu…",
-   "baru": false,
-   "dikurasi": true
-  },
-  {
    "karya": "uu-1960-5",
    "kelas": "HURUF-HILANG",
    "unit": "pasal-26/ayat-2",
@@ -3994,6 +3978,39 @@
    "dikurasi": true
   },
   {
+   "karya": "uu-1999-36",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-4",
+   "token": "penyelenggraan",
+   "usul": "penyelenggaraan",
+   "jumlah_korpus": 2,
+   "bukti": "…merintah melakukan koordinasi dengan instansi terkait, penyelenggraan telekomunikasi dan mengikut sertakan peran masyarakat.…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-1999-36",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-4",
+   "token": "mengikut",
+   "usul": "mengikuti",
+   "jumlah_korpus": 1,
+   "bukti": "…an instansi terkait, penyelenggraan telekomunikasi dan mengikut sertakan peran masyarakat. Ayat (3) Cukup jelas",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-1999-36",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-10",
+   "token": "kompetesi",
+   "usul": "kompetensi",
+   "jumlah_korpus": 1,
+   "bukti": "Ayat (1) Pasal ini dimaksudkan agar terjadi kompetesi yang sehat antarpenyelenggara telekomunikasi dalam mel…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
    "karya": "uu-1999-41",
    "kelas": "HURUF-HILANG",
    "unit": "penjelasan/pasal-24",
@@ -4038,6 +4055,105 @@
    "dikurasi": true
   },
   {
+   "karya": "uu-1999-53",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/umum",
+   "token": "Bagan",
+   "usul": "Bagian",
+   "jumlah_korpus": 1,
+   "bukti": "… Tanah Putih, Kecamatan Rimba Melintang, dan Kecamatan Bagan Sinembah dengan luas wilayah keseluruhan 8.881,59 km2.…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-1999-53",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/umum",
+   "token": "tahuna",
+   "usul": "tahunan",
+   "jumlah_korpus": 1,
+   "bukti": "… dengan laju pertumbuhan penduduk rata-rata 5,26 % per tahuna. Pada tahun 1997 penduduk wilayah kerja Pembantu Bupat…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-1999-53",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-10",
+   "token": "Petai",
+   "usul": "Petani",
+   "jumlah_korpus": 1,
+   "bukti": "…a; 3) Kelurahan Kampung Pelita; 4) Kelurahan Pangkalan Petai; dan 5) Kelurahan Tanjung Uma. Mengingat beberapa keca…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-1999-53",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-10",
+   "token": "Kera",
+   "usul": "Kerja",
+   "jumlah_korpus": 1,
+   "bukti": "…ulau Buku; 28) Pulau Wil; 29) Pulau Mekapur; 30) Pulau Kera; 31) Pulau Lenggok; 32) Pulau Perantum; 33) Pulau Mabo…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-2000-29",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/umum",
+   "token": "perlindngan",
+   "usul": "perlindungan",
+   "jumlah_korpus": 1,
+   "bukti": "…undangan yang secara komprehensif mengatur dan memberi perlindngan pada usaha untuk menghasilkan dan mengembangkan variet…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-2000-29",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/umum",
+   "token": "pemulian",
+   "usul": "pemulihan",
+   "jumlah_korpus": 1,
+   "bukti": "…, seragam, dan diberi nama. Untuk mendapatkan hak PVT, pemulian atau pihak yang dikuasakan untuk itu harus mengajukan …",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-2000-29",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-31",
+   "token": "diangka",
+   "usul": "diangkat",
+   "jumlah_korpus": 1,
+   "bukti": "…khusus sehingga memiliki kualifikasi pemeriksa PVT dan diangka sebagai Pemeriksa PVt. Karena sifat keahlian dan lingk…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-2001-21",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-44",
+   "token": "tari",
+   "usul": "tarif",
+   "jumlah_korpus": 1,
+   "bukti": "…ak dalam bidang kesenian yang terdiri dari seni suara, tari, ukir, pahat, lukis, anyam, tata busana dan rancangan …",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
+   "karya": "uu-2002-28",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-14",
+   "token": "arif",
+   "usul": "tarif",
+   "jumlah_korpus": 1,
+   "bukti": "…di teladan bagi lingkungannya, serta yang dapat secara arif mengakomodasikan nilai-nilai luhur budaya bangsa. Ayat…",
+   "baru": true,
+   "dikurasi": false
+  },
+  {
    "karya": "uu-2004-38",
    "kelas": "HURUF-HILANG",
    "unit": "pasal-5/ayat-2",
@@ -4065,7 +4181,7 @@
    "unit": "penjelasan/pasal-2",
    "token": "penyelenggraan",
    "usul": "penyelenggaraan",
-   "jumlah_korpus": 1,
+   "jumlah_korpus": 2,
    "bukti": "…atau alasan apapun. Asas transparansi berkenaan dengan penyelenggraan jalan yang prosesnya dapat diketahui masyarakat dan as…",
    "baru": false,
    "dikurasi": true
@@ -4076,7 +4192,7 @@
    "unit": "pasal-18/ayat-2/huruf-a",
    "token": "peluasan",
    "usul": "pelunasan",
-   "jumlah_korpus": 1,
+   "jumlah_korpus": 2,
    "bukti": "melakukan peluasan usaha; atau",
    "baru": false,
    "dikurasi": true
@@ -4421,6 +4537,17 @@
    "bukti": "… dengan “Penjualan film dan/atau penyewaan film” yaitu penyedian film untuk dibeli dan/atau disewa oleh masyarakat di t…",
    "baru": false,
    "dikurasi": true
+  },
+  {
+   "karya": "uu-2009-38",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/umum",
+   "token": "peluasan",
+   "usul": "pelunasan",
+   "jumlah_korpus": 2,
+   "bukti": "…ndayagunakan layanan pos di seluruh wilayah Indonesia, peluasan Penyelenggaraan Pos akan membuka kesempatan kerja, mem…",
+   "baru": true,
+   "dikurasi": false
   },
   {
    "karya": "uu-2009-4",
