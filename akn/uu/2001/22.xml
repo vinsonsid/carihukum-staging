@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2001/22/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2001/22"/>
+          <FRBRdate date="2001-11-23" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2001/22/ind@2001-11-23/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2001/22/ind@2001-11-23"/>
+          <FRBRdate date="2001-11-23" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2001/22/ind@2001-11-23/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2001/22/ind@2001-11-23.akn"/>
+          <FRBRdate date="2026-10-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 22 Tahun 2001 tentang Minyak dan Gas Bumi</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Minyak Bumi adalah hasil proses alami berupa hidrokarbon yang dalam kondisi tekanan dan temperatur atmosfer berupa fasa cair atau padat, termasuk aspal, lilin mineral atau ozokerit, dan bitumen yang diperoleh dari proses penambangan, tetapi tidak termasuk batubara atau endapan hidrokarbon lain yang berbentuk padat yang diperoleh dari kegiatan yang tidak berkaitan dengan kegiatan usaha Minyak dan Gas Bumi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Gas Bumi adalah hasil proses alami berupa hidrokarbon yang dalam kondisi tekanan dan temperatur atmosfer berupa fasa gas yang diperoleh dari proses penambangan Minyak dan Gas Bumi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Minyak dan Gas Bumi adalah Minyak Bumi dan Gas Bumi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Bahan Bakar Minyak adalah bahan bakar yang berasal dan/atau diolah dari Minyak Bumi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Kuasa Pertambangan adalah wewenang yang diberikan Negara kepada Pemerintah untuk menyelenggarakan kegiatan Eksplorasi dan Eksploitasi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Survei Umum adalah kegiatan lapangan yang meliputi pengumpulan, analisis, dan penyajian data yang berhubungan dengan informasi kondisi geologi untuk memperkirakan letak dan potensi sumber daya Minyak dan Gas Bumi di luar Wilayah Kerja;</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Kegiatan Usaha Hulu adalah kegiatan usaha yang berintikan atau bertumpu pada kegiatan usaha Eksplorasi dan Eksploitasi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Eksplorasi adalah kegiatan yang bertujuan memperoleh informasi mengenai kondisi geologi untuk menemukan dan memperoleh perkiraan cadangan Minyak dan Gas Bumi di Wilayah Kerja yang ditentukan;</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Eksploitasi adalah rangkaian kegiatan yang bertujuan untuk menghasilkan Minyak dan Gas Bumi dari Wilayah Kerja yang ditentukan, yang terdiri atas pengeboran dan penyelesaian sumur, pembangunan sarana pengangkutan, penyimpanan, dan pengolahan untuk pemisahan dan pemurnian Minyak dan Gas Bumi di lapangan serta kegiatan lain yang mendukungnya;</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Kegiatan Usaha Hilir adalah kegiatan usaha yang berintikan atau bertumpu pada kegiatan usaha Pengolahan, Pengangkutan, Penyimpanan, dan/atau Niaga;</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Pengolahan adalah kegiatan memurnikan, memperoleh bagian-bagian, mempertinggi mutu, dan mempertinggi nilai tambah Minyak Bumi dan/atau Gas Bumi, tetapi tidak termasuk pengolahan lapangan;</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Pengangkutan adalah kegiatan pemindahan Minyak Bumi, Gas Bumi, dan/atau hasil olahannya dari Wilayah Kerja atau dari tempat penampungan dan Pengolahan, termasuk pengangkutan Gas Bumi melalui pipa transmisi dan distribusi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Penyimpanan adalah kegiatan penerimaan, pengumpulan, penampungan, dan pengeluaran Minyak Bumi dan/atau Gas Bumi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Niaga adalah kegiatan pembelian, penjualan, ekspor, impor Minyak Bumi dan/atau hasil olahannya, termasuk Niaga Gas Bumi melalui pipa;</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Wilayah Hukum Pertambangan Indonesia adalah seluruh wilayah daratan, perairan, dan landas kontinen Indonesia;</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Wilayah Kerja adalah daerah tertentu di dalam Wilayah Hukum Pertambangan Indonesia untuk pelaksanaan Eksplorasi dan Eksploitasi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Badan Usaha adalah perusahaan berbentuk badan hukum yang menjalankan jenis usaha bersifat tetap, terus-menerus dan didirikan sesuai dengan peraturan perundang-undangan yang berlaku serta bekerja dan berkedudukan dalam wilayah Negara Kesatuan Republik Indonesia;</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Bentuk Usaha Tetap adalah badan usaha yang didirikan dan berbadan hukum di luar wilayah Negara Kesatuan Republik Indonesia yang melakukan kegiatan di wilayah Negara Kesatuan Republik Indonesia dan wajib mematuhi peraturan perundang-undangan yang berlaku di Republik Indonesia;</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Kontrak Kerja Sama adalah Kontrak Bagi Hasil atau bentuk kontrak kerja sama lain dalam kegiatan Eksplorasi dan Eksploitasi yang lebih menguntungkan Negara dan hasilnya dipergunakan untuk sebesar-besar kemakmuran rakyat;</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Izin Usaha adalah izin yang diberikan kepada Badan Usaha untuk melaksanakan Pengolahan, Pengangkutan, Penyimpanan dan/atau Niaga dengan tujuan memperoleh keuntungan dan/atau laba;</p></content>
+              </point>
+              <point eId="pasal_1__angka_21">
+                <num>21.</num>
+                <content><p>Pemerintah Pusat, selanjutnya disebut Pemerintah, adalah perangkat Negara Kesatuan Republik Indonesia yang terdiri dari Presiden beserta para Menteri;</p></content>
+              </point>
+              <point eId="pasal_1__angka_22">
+                <num>22.</num>
+                <content><p>Pemerintah Daerah adalah Kepala Daerah beserta perangkat Daerah Otonom yang lain sebagai Badan Eksekutif Daerah;</p></content>
+              </point>
+              <point eId="pasal_1__angka_23">
+                <num>23.</num>
+                <content><p>Badan Pelaksana adalah suatu badan yang dibentuk untuk melakukan pengendalian Kegiatan Usaha Hulu di bidang Minyak dan Gas Bumi;</p></content>
+              </point>
+              <point eId="pasal_1__angka_24">
+                <num>24.</num>
+                <content><p>Badan Pengatur adalah suatu badan yang dibentuk untuk melakukan pengaturan dan pengawasan terhadap penyediaan dan pendistribusian Bahan Bakar Minyak dan Gas Bumi pada Kegiatan Usaha Hilir;</p></content>
+              </point>
+              <point eId="pasal_1__angka_25">
+                <num>25.</num>
+                <content><p>Menteri adalah menteri yang bidang tugas dan tanggung jawabnya meliputi kegiatan usaha Minyak dan Gas Bumi.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>AZAS DAN TUJUAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Penyelenggaraan kegiatan usaha Minyak dan Gas Bumi yang diatur dalam Undang-undang ini berasaskan ekonomi kerakyatan, keterpaduan, manfaat, keadilan, keseimbangan, pemerataan, kemakmuran bersama dan kesejahteraan rakyat banyak, keamanan, keselamatan, dan kepastian hukum serta berwawasan lingkungan.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Penyelenggaraan kegiatan usaha Minyak dan Gas Bumi bertujuan:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>menjamin efektivitas pelaksanaan dan pengendalian kegiatan usaha Eksplorasi dan Eksploitasi secara berdaya guna, berhasil guna, serta berdaya saing tinggi dan berkelanjutan atas Minyak dan Gas Bumi milik negara yang strategis dan tidak terbarukan melalui mekanisme yang terbuka dan transparan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>menjamin efektivitas pelaksanaan dan pengendalian usaha Pengolahan, Pengangkutan, Penyimpanan, dan Niaga secara akuntabel yang diselenggarakan melalui mekanisme persaingan usaha yang wajar, sehat, dan transparan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>menjamin efisiensi dan efektivitas tersedianya Minyak Bumi dan Gas Bumi, baik sebagai sumber energi maupun sebagai bahan baku, untuk kebutuhan dalam negeri;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>mendukung dan menumbuhkembangkan kemampuan nasional untuk lebih mampu bersaing di tingkat nasional, regional, dan internasional;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_e">
+                <num>e.</num>
+                <content><p>meningkatkan pendapatan negara untuk memberikan kontribusi yang sebesar-besarnya bagi perekonomian nasional dan mengembangkan serta memperkuat posisi industri dan perdagangan Indonesia;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_f">
+                <num>f.</num>
+                <content><p>menciptakan lapangan kerja, meningkatkan kesejahteraan dan kemakmuran rakyat yang adil dan merata, serta tetap menjaga kelestarian lingkungan hidup.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PENGUASAAN DAN PENGUSAHAAN</heading>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <content><p>Minyak dan Gas Bumi sebagai sumber daya alam strategis takterbarukan yang terkandung di dalam Wilayah Hukum Pertambangan Indonesia merupakan kekayaan nasional yang dikuasai oleh negara.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <content><p>Penguasaan oleh negara sebagaimana dimaksud dalam ayat (1) diselenggarakan oleh Pemerintah sebagai pemegang Kuasa Pertambangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_3">
+                <num>(3)</num>
+                <content><p>Pemerintah sebagai pemegang Kuasa Pertambangan membentuk Badan Pelaksana sebagaimana dimaksud dalam Pasal 1 angka 23.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_5">
+            <num>5</num>
+            <intro><p>Kegiatan usaha Minyak dan Gas Bumi terdiri atas:</p></intro>
+              <point eId="pasal_5__angka_1">
+                <num>1.</num>
+                <intro><p>Kegiatan Usaha Hulu yang mencakup:</p></intro>
+                  <point eId="pasal_5__angka_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Eksplorasi;</p></content>
+                  </point>
+                  <point eId="pasal_5__angka_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Eksploitasi.</p></content>
+                  </point>
+
+              </point>
+              <point eId="pasal_5__angka_2">
+                <num>2.</num>
+                <intro><p>Kegiatan Usaha Hilir yang mencakup:</p></intro>
+                  <point eId="pasal_5__angka_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>Pengolahan;</p></content>
+                  </point>
+                  <point eId="pasal_5__angka_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>Pengangkutan;</p></content>
+                  </point>
+                  <point eId="pasal_5__angka_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>Penyimpanan;</p></content>
+                  </point>
+                  <point eId="pasal_5__angka_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>Niaga.</p></content>
+                  </point>
+
+              </point>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <content><p>Kegiatan Usaha Hulu sebagaimana dimaksud dalam Pasal 5 angka 1 dilaksanakan dan dikendalikan melalui Kontrak Kerja Sama sebagaimana dimaksud dalam Pasal 1 angka 19.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <intro><p>Kontrak Kerja Sama sebagaimana dimaksud dalam ayat (1) paling sedikit memuat persyaratan:</p></intro>
+                  <point eId="pasal_6__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>kepemilikan sumber daya alam tetap di tangan Pemerintah sampai pada titik penyerahan;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengendalian manajemen operasi berada pada Badan Pelaksana;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>modal dan risiko seluruhnya ditanggung Badan Usaha atau Bentuk Usaha Tetap.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <content><p>Kegiatan Usaha Hilir sebagaimana dimaksud dalam Pasal 5 angka 2 dilaksanakan dengan Izin Usaha sebagaimana dimaksud dalam Pasal 1 angka 20.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Kegiatan Usaha Hilir sebagaimana dimaksud dalam Pasal 5 angka 2 diselenggarakan melalui mekanisme persaingan usaha yang wajar, sehat, dan transparan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+              <paragraph eId="pasal_8__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah memberikan prioritas terhadap pemanfaatan Gas Bumi untuk kebutuhan dalam negeri dan bertugas menyediakan cadangan strategis Minyak Bumi guna mendukung penyediaan Bahan Bakar Minyak dalam negeri yang diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah wajib menjamin ketersediaan dan kelancaran pendistribusian Bahan Bakar Minyak yang merupakan komoditas vital dan menguasai hajat hidup orang banyak di seluruh wilayah Negara Kesatuan Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_3">
+                <num>(3)</num>
+                <content><p>Kegiatan usaha Pengangkutan Gas Bumi melalui pipa yang menyangkut kepentingan umum, pengusahaannya diatur agar pemanfaatannya terbuka bagi semua pemakai.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_4">
+                <num>(4)</num>
+                <content><p>Pemerintah bertanggung jawab atas pengaturan dan pengawasan kegiatan usaha sebagaimana dimaksud dalam ayat (2) dan ayat (3) yang pelaksanaannya dilakukan oleh Badan Pengatur.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <intro><p>Kegiatan Usaha Hulu dan Kegiatan Usaha Hilir sebagaimana dimaksud dalam Pasal 5 angka 1 dan angka 2 dapat dilaksanakan oleh:</p></intro>
+                  <point eId="pasal_9__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>badan usaha milik negara;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>badan usaha milik daerah;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>koperasi; usaha kecil;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>badan usaha swasta.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <content><p>Bentuk Usaha Tetap hanya dapat melaksanakan Kegiatan Usaha Hulu.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan Usaha atau Bentuk Usaha Tetap yang melakukan Kegiatan Usaha Hulu dilarang melakukan Kegiatan Usaha Hilir.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Badan Usaha yang melakukan Kegiatan Usaha Hilir tidak dapat melakukan Kegiatan Usaha Hulu.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>KEGIATAN USAHA HULU</heading>
+          <article eId="pasal_11">
+            <num>11</num>
+              <paragraph eId="pasal_11__ayat_1">
+                <num>(1)</num>
+                <content><p>Kegiatan Usaha Hulu sebagaimana dimaksud dalam Pasal 5 angka 1 dilaksanakan oleh Badan Usaha atau Bentuk Usaha Tetap berdasarkan Kontrak Kerja Sama dengan Badan Pelaksana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap Kontrak Kerja Sama yang sudah ditandatangani harus diberitahukan secara tertulis kepada Dewan Perwakilan Rakyat Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_11__ayat_3">
+                <num>(3)</num>
+                <intro><p>Kontrak Kerja Sama sebagaimana dimaksud dalam ayat (1) wajib memuat paling sedikit ketentuan-ketentuan pokok yaitu:</p></intro>
+                  <point eId="pasal_11__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>penerimaan negara;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>Wilayah Kerja dan pengembaliannya;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>kewajiban pengeluaran dana;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>perpindahan kepemilikan hasil produksi atas Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>jangka waktu dan kondisi perpanjangan kontrak;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_f">
+                    <num>f.</num>
+                    <content><p>penyelesaian perselisihan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_g">
+                    <num>g.</num>
+                    <content><p>kewajiban pemasokan Minyak Bumi dan/atau Gas Bumi untuk kebutuhan dalam negeri;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_h">
+                    <num>h.</num>
+                    <content><p>berakhirnya kontrak;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_i">
+                    <num>i.</num>
+                    <content><p>kewajiban pascaoperasi pertambangan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_j">
+                    <num>j.</num>
+                    <content><p>keselamatan dan kesehatan kerja;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_k">
+                    <num>k.</num>
+                    <content><p>pengelolaan lingkungan hidup;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_l">
+                    <num>l.</num>
+                    <content><p>pengalihan hak dan kewajiban;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_m">
+                    <num>m.</num>
+                    <content><p>pelaporan yang diperlukan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_n">
+                    <num>n.</num>
+                    <content><p>rencana pengembangan lapangan;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_o">
+                    <num>o.</num>
+                    <content><p>pengutamaan pemanfaatan barang dan jasa dalam negeri;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_p">
+                    <num>p.</num>
+                    <content><p>pengembangan masyarakat sekitarnya dan jaminan hak-hak masyarakat adat;</p></content>
+                  </point>
+                  <point eId="pasal_11__ayat_3__huruf_q">
+                    <num>q.</num>
+                    <content><p>pengutamaan penggunaan tenaga kerja Indonesia.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Wilayah Kerja yang akan ditawarkan kepada Badan Usaha atau Bentuk Usaha Tetap ditetapkan oleh Menteri setelah berkonsultasi dengan Pemerintah Daerah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <content><p>Penawaran Wilayah Kerja sebagaimana dimaksud dalam ayat (1) dilakukan oleh Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_3">
+                <num>(3)</num>
+                <content><p>Menteri menetapkan Badan Usaha atau Bentuk Usaha Tetap yang diberi wewenang melakukan kegiatan usaha Eksplorasi dan Eksploitasi pada Wilayah Kerja sebagaimana dimaksud dalam ayat (2).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <content><p>Kepada setiap Badan Usaha atau Bentuk Usaha Tetap hanya diberikan 1 (satu) Wilayah Kerja.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Badan Usaha atau Bentuk Usaha Tetap mengusahakan beberapa Wilayah Kerja, harus dibentuk badan hukum yang terpisah untuk setiap Wilayah Kerja.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <content><p>Jangka waktu Kontrak Kerja Sama sebagaimana dimaksud dalam Pasal 11 ayat (1) dilaksanakan paling lama 30 (tiga puluh) tahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Badan Usaha atau Bentuk Usaha Tetap dapat mengajukan perpanjangan jangka waktu Kontrak Kerja Sama sebagaimana dimaksud dalam ayat (1) paling lama 20 (dua puluh) tahun.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+              <paragraph eId="pasal_15__ayat_1">
+                <num>(1)</num>
+                <content><p>Kontrak Kerja Sama sebagaimana dimaksud dalam Pasal 14 ayat (1) terdiri atas jangka waktu Eksplorasi dan jangka waktu Eksploitasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_15__ayat_2">
+                <num>(2)</num>
+                <content><p>Jangka waktu Eksplorasi sebagaimana dimaksud dalam ayat (1) dilaksanakan 6 (enam) tahun dan dapat diperpanjang hanya 1 (satu) kali periode yang dilaksanakan paling lama 4 (empat) tahun.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_16">
+            <num>16</num>
+            <content><p>Badan Usaha atau Bentuk Usaha Tetap wajib mengembalikan sebagian Wilayah Kerjanya secara bertahap atau seluruhnya kepada Menteri.</p></content>
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+            <content><p>Dalam hal Badan Usaha atau Bentuk Usaha Tetap yang telah mendapatkan persetujuan pengembangan lapangan yang pertama dalam suatu Wilayah Kerja tidak melaksanakan kegiatannya dalam jangka waktu paling lama 5 (lima) tahun sejak berakhirnya jangka waktu Eksplorasi wajib mengembalikan seluruh Wilayah Kerjanya kepada Menteri.</p></content>
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+            <content><p>Pedoman, tata cara, dan syarat-syarat mengenai Kontrak Kerja Sama, penetapan dan penawaran Wilayah Kerja, perubahan dan perpanjangan Kontrak Kerja Sama, serta pengembalian Wilayah Kerja sebagaimana dimaksud dalam Pasal 11, Pasal 12, Pasal 13, Pasal 14, Pasal 15, Pasal 16, dan Pasal 17 diatur lebih lanjut dalam Peraturan Pemerintah.</p></content>
+          </article>
+          <article eId="pasal_19">
+            <num>19</num>
+              <paragraph eId="pasal_19__ayat_1">
+                <num>(1)</num>
+                <content><p>Untuk menunjang penyiapan Wilayah Kerja sebagaimana dimaksud dalam Pasal 12 ayat (1), dilakukan Survei Umum yang dilaksanakan oleh atau dengan izin Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_2">
+                <num>(2)</num>
+                <content><p>Tata cara dan persyaratan pelaksanaan Survei Umum sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_20">
+            <num>20</num>
+              <paragraph eId="pasal_20__ayat_1">
+                <num>(1)</num>
+                <content><p>Data yang diperoleh dari Survei Umum dan/atau Eksplorasi dan Eksploitasi adalah milik negara yang dikuasai oleh Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_2">
+                <num>(2)</num>
+                <content><p>Data yang diperoleh Badan Usaha atau Bentuk Usaha Tetap di Wilayah Kerjanya dapat digunakan oleh Badan Usaha atau Bentuk Usaha Tetap dimaksud selama jangka waktu Kontrak Kerja Sama.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_3">
+                <num>(3)</num>
+                <content><p>Apabila Kontrak Kerja Sama berakhir, Badan Usaha atau Bentuk Usaha Tetap wajib menyerahkan seluruh data yang diperoleh selama masa Kontrak Kerja Sama kepada Menteri melalui Badan Pelaksana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_4">
+                <num>(4)</num>
+                <content><p>Kerahasiaan data yang diperoleh Badan Usaha atau Bentuk Usaha Tetap di Wilayah Kerja berlaku selama jangka waktu yang ditentukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_5">
+                <num>(5)</num>
+                <content><p>Pemerintah mengatur, mengelola, dan memanfaatkan data sebagaimana dimaksud dalam ayat (1) dan ayat (2) untuk merencanakan penyiapan pembukaan Wilayah Kerja.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_20__ayat_6">
+                <num>(6)</num>
+                <content><p>Pelaksanaan ketentuan mengenai kepemilikan, jangka waktu penggunaan, kerahasiaan, pengelolaan, dan pemanfaatan data sebagaimana dimaksud dalam ayat (1), ayat (2), ayat (3), ayat (4), dan ayat (5) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_21">
+            <num>21</num>
+              <paragraph eId="pasal_21__ayat_1">
+                <num>(1)</num>
+                <content><p>Rencana pengembangan lapangan yang pertama kali akan diproduksikan dalam suatu Wilayah Kerja wajib mendapatkan persetujuan Menteri berdasarkan pertimbangan dari Badan Pelaksana dan setelah berkonsultasi dengan Pemerintah Daerah Provinsi yang bersangkutan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam mengembangkan dan memproduksi lapangan Minyak dan Gas Bumi, Badan Usaha atau Bentuk Usaha Tetap wajib melakukan optimasi dan melaksanakannya sesuai dengan kaidah keteknikan yang baik.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_21__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai pengembangan lapangan, pemroduksian cadangan Minyak dan Gas Bumi, dan ketentuan mengenai kaidah keteknikan sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_22">
+            <num>22</num>
+              <paragraph eId="pasal_22__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan Usaha atau Bentuk Usaha Tetap wajib menyerahkan paling banyak 25% (dua puluh lima persen) bagiannya dari hasil produksi Minyak Bumi dan/atau Gas Bumi untuk memenuhi kebutuhan dalam negeri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_22__ayat_2">
+                <num>(2)</num>
+                <content><p>Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>KEGIATAN USAHA HILIR</heading>
+          <article eId="pasal_23">
+            <num>23</num>
+              <paragraph eId="pasal_23__ayat_1">
+                <num>(1)</num>
+                <content><p>Kegiatan Usaha Hilir sebagaimana dimaksud dalam Pasal 5 angka 2, dapat dilaksanakan oleh Badan Usaha setelah mendapat Izin Usaha dari Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_2">
+                <num>(2)</num>
+                <intro><p>Izin Usaha yang diperlukan untuk kegiatan usaha Minyak Bumi dan/atau kegiatan usaha Gas Bumi sebagaimana dimaksud dalam ayat (1) dibedakan atas:</p></intro>
+                  <point eId="pasal_23__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>Izin Usaha Pengolahan;</p></content>
+                  </point>
+                  <point eId="pasal_23__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>Izin Usaha Pengangkutan;</p></content>
+                  </point>
+                  <point eId="pasal_23__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>Izin Usaha Penyimpanan;</p></content>
+                  </point>
+                  <point eId="pasal_23__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>Izin Usaha Niaga.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap Badan Usaha dapat diberi lebih dari 1 (satu) Izin Usaha sepanjang tidak bertentangan dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_24">
+            <num>24</num>
+              <paragraph eId="pasal_24__ayat_1">
+                <num>(1)</num>
+                <intro><p>Izin Usaha sebagaimana dimaksud dalam Pasal 23 paling sedikit memuat:</p></intro>
+                  <point eId="pasal_24__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>nama penyelenggara;</p></content>
+                  </point>
+                  <point eId="pasal_24__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>jenis usaha yang diberikan;</p></content>
+                  </point>
+                  <point eId="pasal_24__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>kewajiban dalam penyelenggaraan pengusahaan;</p></content>
+                  </point>
+                  <point eId="pasal_24__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>syarat-syarat teknis.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap Izin Usaha yang telah diberikan sebagaimana dimaksud dalam ayat (1) hanya dapat digunakan sesuai dengan peruntukannya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_25">
+            <num>25</num>
+              <paragraph eId="pasal_25__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pemerintah dapat menyampaikan teguran tertulis, menangguhkan kegiatan, membekukan kegiatan, atau mencabut Izin Usaha sebagaimana dimaksud dalam Pasal 23 berdasarkan:</p></intro>
+                  <point eId="pasal_25__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pelanggaran terhadap salah satu persyaratan yang tercantum dalam Izin Usaha;</p></content>
+                  </point>
+                  <point eId="pasal_25__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengulangan pelanggaran atas persyaratan Izin Usaha;</p></content>
+                  </point>
+                  <point eId="pasal_25__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>tidak memenuhi persyaratan yang ditetapkan berdasarkan Undang-undang ini.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_25__ayat_2">
+                <num>(2)</num>
+                <content><p>Sebelum melaksanakan pencabutan Izin Usaha sebagaimana dimaksud dalam ayat (1), Pemerintah terlebih dahulu memberikan kesempatan selama jangka waktu tertentu kepada Badan Usaha untuk meniadakan pelanggaran yang telah dilakukan atau pemenuhan persyaratan yang ditetapkan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_26">
+            <num>26</num>
+            <content><p>Terhadap kegiatan pengolahan lapangan, pengangkutan, penyimpanan, dan penjualan hasil produksi sendiri sebagai kelanjutan dari Eksplorasi dan Eksploitasi yang dilakukan Badan Usaha atau Bentuk Usaha Tetap tidak diperlukan Izin Usaha tersendiri sebagaimana dimaksud dalam Pasal 23.</p></content>
+          </article>
+          <article eId="pasal_27">
+            <num>27</num>
+              <paragraph eId="pasal_27__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri menetapkan rencana induk jaringan transmisi dan distribusi gas bumi nasional.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_2">
+                <num>(2)</num>
+                <content><p>Terhadap Badan Usaha pemegang Izin Usaha Pengangkutan Gas Bumi melalui jaringan pipa hanya dapat diberikan ruas Pengangkutan tertentu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_27__ayat_3">
+                <num>(3)</num>
+                <content><p>Terhadap Badan Usaha pemegang Izin Usaha Niaga Gas Bumi melalui jaringan pipa hanya dapat diberikan wilayah Niaga tertentu.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_28">
+            <num>28</num>
+              <paragraph eId="pasal_28__ayat_1">
+                <num>(1)</num>
+                <content><p>Bahan Bakar Minyak serta hasil olahan tertentu yang dipasarkan di dalam negeri untuk memenuhi kebutuhan masyarakat wajib memenuhi standar dan mutu yang ditetapkan oleh Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_2">
+                <num>(2)</num>
+                <content><p>Harga Bahan Bakar Minyak dan harga Gas Bumi diserahkan pada mekanisme persaingan usaha yang sehat dan wajar.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_28__ayat_3">
+                <num>(3)</num>
+                <content><p>Pelaksanaan kebijaksanaan harga sebagaimana dimaksud dalam ayat (2) tidak mengurangi tanggung jawab sosial Pemerintah terhadap golongan masyarakat tertentu.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_29">
+            <num>29</num>
+              <paragraph eId="pasal_29__ayat_1">
+                <num>(1)</num>
+                <content><p>Pada wilayah yang mengalami klangkaan Bahan Bakar Minyak dan pada daerah-daerah terpencil, fasilitas Pengangkutan dan Penyimpanan termasuk fasilitas penunjangnya, dapat dimanfaatkan bersama pihak lain.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_29__ayat_2">
+                <num>(2)</num>
+                <content><p>Pelaksanaan pemanfaatan fasilitas sebagaimana dimaksud dalam ayat (1) diatur oleh Badan Pengatur dengan tetap mempertimbangkan aspek teknis dan ekonomis.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_30">
+            <num>30</num>
+            <content><p>Ketentuan mengenai usaha Pengolahan, Pengangkutan, Penyimpanan, dan Niaga sebagaimana dimaksud dalam Pasal 23, Pasal 24, Pasal 25, Pasal 26, Pasal 27, Pasal 28, dan Pasal 29 diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PENERIMAAN NEGARA</heading>
+          <article eId="pasal_31">
+            <num>31</num>
+              <paragraph eId="pasal_31__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan Usaha atau Bentuk Usaha Tetap yang melaksanakan Kegiatan Usaha Hulu sebagaimana dimaksud dalam Pasal 11 ayat (1) wajib membayar penerimaan negara yang berupa pajak dan Penerimaan Negara Bukan Pajak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_2">
+                <num>(2)</num>
+                <intro><p>Penerimaan negara yang berupa pajak sebagaimana dimaksud dalam ayat (1) terdiri atas:</p></intro>
+                  <point eId="pasal_31__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>pajak-pajak;</p></content>
+                  </point>
+                  <point eId="pasal_31__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>bea masuk, dan pungutan lain atas impor dan cukai;</p></content>
+                  </point>
+                  <point eId="pasal_31__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pajak daerah dan retribusi daerah.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_3">
+                <num>(3)</num>
+                <intro><p>Penerimaan Negara Bukan Pajak sebagaimana dimaksud dalam ayat (1) terdiri atas:</p></intro>
+                  <point eId="pasal_31__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>bagian negara;</p></content>
+                  </point>
+                  <point eId="pasal_31__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>pungutan negara yang berupa iuran tetap dan iuran Eksplorasi dan Eksploitasi;</p></content>
+                  </point>
+                  <point eId="pasal_31__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>bonus-bonus.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_4">
+                <num>(4)</num>
+                <intro><p>Dalam Kontrak Kerja Sama ditentukan bahwa kewajiban membayar pajak sebagaimana dimaksud dalam ayat (2) huruf a dilakukan sesuai dengan:</p></intro>
+                  <point eId="pasal_31__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>ketentuan peraturan perundang-undangan di bidang perpajakan yang berlaku pada saat Kontrak Kerja Sama ditandatangani; atau</p></content>
+                  </point>
+                  <point eId="pasal_31__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>ketentuan peraturan perundang-undangan di bidang perpajakan yang berlaku.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan mengenai penetapan besarnya bagian negara, pungutan negara, dan bonus sebagaimana dimaksud dalam ayat (3), serta tata cara penyetorannya diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_31__ayat_6">
+                <num>(6)</num>
+                <content><p>Penerimaan Negara Bukan Pajak sebagaimana dimaksud dalam ayat (3) merupakan penerimaan Pemerintah Pusat dan Pemerintah Daerah, yang pembagiannya ditetapkan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_32">
+            <num>32</num>
+            <content><p>Badan Usaha yang melaksanakan Kegiatan Usaha Hilir sebagaimana dimaksud dalam Pasal 23 wajib membayar pajak, bea masuk dan pungutan lain atas impor, cukai, pajak daerah dan retribusi daerah, serta kewajiban lain sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>HUBUNGAN KEGIATAN USAHA MINYAK DAN GAS BUMI DENGAN HAK ATAS TANAH</heading>
+          <article eId="pasal_33">
+            <num>33</num>
+              <paragraph eId="pasal_33__ayat_1">
+                <num>(1)</num>
+                <content><p>Kegiatan usaha Minyak dan Gas Bumi sebagaimana dimaksud dalam Pasal 5 dilaksanakan di dalam Wilayah Hukum Pertambangan Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_2">
+                <num>(2)</num>
+                <content><p>Hak atas Wilayah Kerja tidak meliputi hak atas tanah permukaan bumi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_3">
+                <num>(3)</num>
+                <intro><p>Kegiatan usaha Minyak dan Gas Bumi tidak dapat dilaksanakan pada:</p></intro>
+                  <point eId="pasal_33__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>tempat pemakaman, tempat yang dianggap suci, tempat umum, sarana dan prasarana umum, cagar alam, cagar budaya, serta tanah milik masyarakat adat;</p></content>
+                  </point>
+                  <point eId="pasal_33__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>lapangan dan bangunan pertahanan negara serta tanah di sekitarnya;</p></content>
+                  </point>
+                  <point eId="pasal_33__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>bangunan bersejarah dan simbol-simbol negara;</p></content>
+                  </point>
+                  <point eId="pasal_33__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>bangunan, rumah tinggal, atau pabrik beserta tanah pekarangan sekitarnya, kecuali dengan izin dari instansi Pemerintah, persetujuan masyarakat, dan perseorangan yang berkaitan dengan hal tersebut.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_4">
+                <num>(4)</num>
+                <content><p>Badan Usaha atau Bentuk Usaha Tetap yang bermaksud melaksanakan kegiatannya dapat memindahkan bangunan, tempat umum, sarana dan prasarana umum sebagaimana dimaksud dalam ayat (3) huruf a dan huruf b setelah terlebih dahulu memperoleh izin dari instansi Pemerintah yang berwenang.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_34">
+            <num>34</num>
+              <paragraph eId="pasal_34__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal Badan Usaha atau Bentuk Usaha Tetap akan menggunakan bidang-bidang tanah hak atau tanah negara di dalam Wilayah Kerjanya, Badan Usaha atau Bentuk Usaha Tetap yang bersangkutan wajib terlebih dahulu mengadakan penyelesaian dengan pemegang hak atau pemakai tanah di atas tanah negara, sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_2">
+                <num>(2)</num>
+                <content><p>Penyelesaian sebagaimana dimaksud dalam ayat (1) dilakukan secara musyawarah dan mufakat dengan cara jual beli, tukar-menukar, ganti rugi yang layak, pengakuan atau bentuk penggantian lain kepada pemegang hak atau pemakai tanah di atas tanah negara.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_35">
+            <num>35</num>
+            <intro><p>Pemegang hak atas tanah diwajibkan mengizinkan Badan Usaha atau Bentuk Usaha Tetap untuk melaksanakan Eksplorasi dan Eksploitasi di atas tanah yang bersangkutan, apabila:</p></intro>
+              <point eId="pasal_35__huruf_a">
+                <num>a.</num>
+                <content><p>sebelum kegiatan dimulai, terlebih dahulu memperlihatkan Kontrak Kerja Sama atau salinannya yang sah, serta memberitahukan maksud dan tempat kegiatan yang akan dilakukan;</p></content>
+              </point>
+              <point eId="pasal_35__huruf_b">
+                <num>b.</num>
+                <content><p>dilakukan terlebih dahulu penyelesaian atau jaminan penyelesaian yang disetujui oleh pemegang hak atas tanah atau pemakai tanah di atas tanah negara sebagaimana dimaksud dalam Pasal 34.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_36">
+            <num>36</num>
+              <paragraph eId="pasal_36__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal Badan Usaha atau Bentuk Usaha Tetap telah diberikan Wilayah Kerja, maka terhadap bidang-bidang tanah yang dipergunakan langsung untuk kegiatan usaha Minyak dan Gas Bumi dan areal pengamanannya, diberikan hak pakai sesuai dengan ketentuan peraturan perundang-undangan yang berlaku dan wajib memelihara serta menjaga bidang tanah tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal pemberian Wilayah Kerja sebagaimana dimaksud dalam ayat (1) meliputi areal yang luas di atas tanah negara, maka bagian-bagian tanah yang tidak digunakan untuk kegiatan usaha Minyak dan Gas Bumi, dapat diberikan kepada pihak lain oleh menteri yang tugas dan tanggung jawabnya meliputi bidang agraria atau pertanahan dengan mengutamakan masyarakat setempat setelah mendapat rekomendasi dari Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_37">
+            <num>37</num>
+            <content><p>Ketentuan mengenai tata cara penyelesaian penggunaan tanah hak atau tanah negara sebagaimana dimaksud dalam Pasal 35 diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PEMBINAAN DAN PENGAWASAN</heading>
+          <part eId="bab_8__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Pembinaan</heading>
+              <article eId="pasal_38">
+                <num>38</num>
+                <content><p>Pembinaan terhadap kegiatan usaha Minyak dan Gas Bumi dilakukan oleh Pemerintah.</p></content>
+              </article>
+              <article eId="pasal_39">
+                <num>39</num>
+                  <paragraph eId="pasal_39__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pembinaan sebagaimana dimaksud dalam Pasal 38 meliputi:</p></intro>
+                      <point eId="pasal_39__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>penyelenggaraan urusan Pemerintah di bidang kegiatan usaha Minyak dan Gas Bumi;</p></content>
+                      </point>
+                      <point eId="pasal_39__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>penetapan kebijakan mengenai kegiatan usaha Minyak dan Gas Bumi berdasarkan cadangan dan potensi sumber daya Minyak dan Gas Bumi yang dimiliki, kemampuan produksi, kebutuhan Bahan Bakar Minyak dan Gas Bumi dalam negeri, penguasaan teknologi, aspek lingkungan dan pelestarian lingkungan hidup, kemampuan nasional, dan kebijakan pembangunan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pelaksanaan pembinaan sebagaimana dimaksud dalam ayat (1) dilakukan secara cermat, transparan, dan adil terhadap pelaksanaan kegiatan usaha Minyak dan Gas Bumi.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_40">
+                <num>40</num>
+                  <paragraph eId="pasal_40__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Badan Usaha atau Bentuk Usaha Tetap menjamin standar dan mutu yang berlaku sesuai dengan ketentuan peraturan perundang-undangan yang berlaku serta menerapkan kaidah keteknikan yang baik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Badan Usaha atau Bentuk Usaha Tetap menjamin keselamatan dan kesehatan kerja serta pengelolaan lingkungan hidup dan menaati ketentuan peraturan perundangan-undangan yang berlaku dalam kegiatan usaha Minyak dan Gas Bumi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengelolaan lingkungan hidup sebagaimana dimaksud dalam ayat (2) berupa kewajiban untuk melakukan pencegahan dan penanggulangan pencemaran serta pemulihan atas terjadinya kerusakan lingkungan hidup, termasuk kewajiban pascaoperasi pertambangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Badan Usaha atau Bentuk Usaha Tetap yang melaksanakan kegiatan usaha Minyak dan Gas Bumi sebagaimana dimaksud dalam Pasal 5 harus mengutamakan pemanfaatan tenaga kerja setempat, barang, jasa, serta kemampuan rekayasa dan rancang bangun dalam negeri secara transparan dan bersaing.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Badan Usaha atau Bentuk Usaha Tetap yang melaksanakan kegiatan usaha Minyak dan Gas Bumi sebagaimana dimaksud dalam Pasal 5 ikut bertanggung jawab dalam mengembangkan lingkungan dan masyarakat setempat .</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketentuan mengenai keselamatan dan kesehatan kerja serta pengelolaan lingkungan hidup sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_8__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pengawasan</heading>
+              <article eId="pasal_41">
+                <num>41</num>
+                  <paragraph eId="pasal_41__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Tanggung jawab kegiatan pengawasan atas pekerjaan dan pelaksanaan kegiatan usaha Minyak dan Gas Bumi terhadap ditaatinya ketentuan peraturan perundang-undangan yang berlaku berada pada departemen yang bidang tugas dan kewenangannya meliputi kegiatan usaha Minyak dan Gas Bumi dan departemen lain yang terkait.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengawasan atas pelaksanaan Kegiatan Usaha Hulu berdasarkan Kontrak Kerja Sama dilaksanakan oleh Badan Pelaksana.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengawasan atas pelaksanaan Kegiatan Usaha Hilir berdasarkan Izin Usaha dilaksanakan oleh Badan Pengatur.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_42">
+                <num>42</num>
+                <intro><p>Pengawasan sebagaimana dimaksud dalam Pasal 41 ayat (1) meliputi:</p></intro>
+                  <point eId="pasal_42__huruf_a">
+                    <num>a.</num>
+                    <content><p>konservasi sumber daya dan cadangan Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengelolaan data Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_c">
+                    <num>c.</num>
+                    <content><p>penerapan kaidah keteknikan yang baik;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_d">
+                    <num>d.</num>
+                    <content><p>jenis dan mutu hasil olahan Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_e">
+                    <num>e.</num>
+                    <content><p>alokasi dan distribusi Bahan Bakar Minyak dan bahan baku;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_f">
+                    <num>f.</num>
+                    <content><p>keselamatan dan kesehatan kerja;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_g">
+                    <num>g.</num>
+                    <content><p>pengelolaan lingkungan hidup;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_h">
+                    <num>h.</num>
+                    <content><p>pemanfaatan barang, jasa, teknologi, dan kemampuan rekayasa dan rancang bangun dalam negeri;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_i">
+                    <num>i.</num>
+                    <content><p>penggunaan tenaga kerja asing;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_j">
+                    <num>j.</num>
+                    <content><p>pengembangan tenaga kerja Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_k">
+                    <num>k.</num>
+                    <content><p>pengembangan lingkungan dan masyarakat setempat;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_l">
+                    <num>l.</num>
+                    <content><p>l. penguasaan, pengembangan, dan penerapan teknologi Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_42__huruf_m">
+                    <num>m.</num>
+                    <content><p>kegiatan-kegiatan lain di bidang kegiatan usaha Minyak dan Gas Bumi sepanjang menyangkut kepentingan umum.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_43">
+                <num>43</num>
+                <content><p>Ketentuan mengenai pembinaan dan pengawasan sebagaimana dimaksud dalam Pasal 38, Pasal 39, Pasal 41, dan Pasal 42 diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>BADAN PELAKSANA DAN BADAN PENGATUR</heading>
+          <article eId="pasal_44">
+            <num>44</num>
+              <paragraph eId="pasal_44__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengawasan terhadap pelaksanaan Kontrak Kerja Sama Kegiatan Usaha Hulu sebagaimana dimaksud dalam Pasal 5 angka 1 dilaksanakan oleh Badan Pelaksana sebagaimana dimaksud dalam Pasal 4 ayat (3).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_2">
+                <num>(2)</num>
+                <content><p>Fungsi Badan Pelaksana sebagaimana dimaksud dalam ayat (1) melakukan pengawasan terhadap Kegiatan Usaha Hulu agar pengambilan sumber daya alam Minyak dan Gas Bumi milik negara dapat memberikan manfaat dan penerimaan yang maksimal bagi negara untuk sebesar-besar kemakmuran rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_44__ayat_3">
+                <num>(3)</num>
+                <intro><p>Tugas Badan Pelaksana sebagaimana dimaksud dalam ayat (1) adalah:</p></intro>
+                  <point eId="pasal_44__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>memberikan pertimbangan kepada Menteri atas kebijaksanaannya dalam hal penyiapan dan penawaran Wilayah Kerja serta Kontrak Kerja Sama;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>melaksanakan penandatanganan Kontrak Kerja Sama;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>mengkaji dan menyampaikan rencana pengembangan lapangan yang pertama kali akan diproduksikan dalam suatu Wilayah Kerja kepada Menteri untuk mendapatkan persetujuan;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>memberikan persetujuan rencana pengembangan lapangan selain sebagaimana dimaksud dalam huruf c;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>memberikan persetujuan rencana kerja dan anggaran;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_3__huruf_f">
+                    <num>f.</num>
+                    <content><p>melaksanakan monitoring dan melaporkan kepada Menteri mengenai pelaksanaan Kontrak Kerja Sama;</p></content>
+                  </point>
+                  <point eId="pasal_44__ayat_3__huruf_g">
+                    <num>g.</num>
+                    <content><p>menunjuk penjual Minyak Bumi dan/atau Gas Bumi bagian negara yang dapat memberikan keuntungan sebesar-besarnya bagi negara.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_45">
+            <num>45</num>
+              <paragraph eId="pasal_45__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan Pelaksana sebagaimana dimaksud dalam Pasal 4 ayat (3) merupakan badan hukum milik negara.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_2">
+                <num>(2)</num>
+                <content><p>Badan Pelaksana terdiri atas unsur pimpinan, tenaga ahli, tenaga teknis, dan tenaga administratif.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_3">
+                <num>(3)</num>
+                <content><p>Kepala Badan Pelaksana diangkat dan diberhentikan oleh Presiden setelah berkonsultasi dengan Dewan Perwakilan Rakyat Republik Indonesia dan dalam melaksanakan tugasnya bertanggung jawab kepada Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_46">
+            <num>46</num>
+              <paragraph eId="pasal_46__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengawasan terhadap pelaksanaan penyediaan dan pendistribusian Bahan Bakar Minyak dan Pengangkutan Gas Bumi melalui pipa dilakukan oleh Badan Pengatur sebagaimana dimaksud dalam Pasal 8 ayat (4).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_2">
+                <num>(2)</num>
+                <content><p>Fungsi Badan Pengatur sebagaimana dimaksud dalam ayat (1) melakukan pengaturan agar ketersediaan dan distribusi Bahan Bakar Minyak dan Gas Bumi yang ditetapkan Pemerintah dapat terjamin di seluruh wilayah Negara Kesatuan Republik Indonesia serta meningkatkan pemanfaatan Gas Bumi di dalam negeri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_3">
+                <num>(3)</num>
+                <intro><p>Tugas Badan Pengatur sebagaimana dimaksud dalam ayat (1) meliputi pengaturan dan penetapan mengenai:</p></intro>
+                  <point eId="pasal_46__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>ketersediaan dan distribusi Bahan Bakar Minyak;</p></content>
+                  </point>
+                  <point eId="pasal_46__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>cadangan Bahan Bakar Minyak nasional;</p></content>
+                  </point>
+                  <point eId="pasal_46__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemanfaatan fasilitas Pengangkutan dan Penyimpanan Bahan Bakar Minyak;</p></content>
+                  </point>
+                  <point eId="pasal_46__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>tarif pengangkutan Gas Bumi melalui pipa;</p></content>
+                  </point>
+                  <point eId="pasal_46__ayat_3__huruf_e">
+                    <num>e.</num>
+                    <content><p>harga Gas Bumi untuk rumah tangga dan pelanggan kecil;</p></content>
+                  </point>
+                  <point eId="pasal_46__ayat_3__huruf_f">
+                    <num>f.</num>
+                    <content><p>pengusahaan transmisi dan distribusi Gas Bumi.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_4">
+                <num>(4)</num>
+                <content><p>Tugas Badan Pengatur sebagaimana dimaksud dalam ayat (1) mencakup juga tugas pengawasan dalam bidang-bidang sebagaimana dimaksud dalam ayat (3).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_47">
+            <num>47</num>
+              <paragraph eId="pasal_47__ayat_1">
+                <num>(1)</num>
+                <content><p>Struktur Badan Pengatur sebagaimana dimaksud dalam Pasal 8 ayat (4) terdiri atas komite dan bidang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_2">
+                <num>(2)</num>
+                <content><p>Komite sebagaimana dimaksud dalam ayat (1) terdiri atas 1 (satu) orang ketua merangkap anggota dan 8 (delapan) orang anggota, yang berasal dari tenaga profesional.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketua dan anggota Komite Badan Pengatur sebagaimana dimaksud dalam ayat (1) diangkat dan diberhentikan oleh Presiden setelah mendapat persetujuan Dewan Perwakilan Rakyat Republik Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_4">
+                <num>(4)</num>
+                <content><p>Badan Pengatur sebagaimana dimaksud dalam Pasal 8 ayat (4) bertanggung jawab kepada Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_5">
+                <num>(5)</num>
+                <content><p>Pembentukan Badan Pengatur sebagaimana dimaksud dalam Pasal 8 ayat (4) ditetapkan dengan Keputusan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_48">
+            <num>48</num>
+              <paragraph eId="pasal_48__ayat_1">
+                <num>(1)</num>
+                <content><p>Anggaran biaya operasional Badan Pelaksana sebagaimana dimaksud dalam Pasal 45 didasarkan pada imbalan (fee) dari Pemerintah sesuai dengan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_2">
+                <num>(2)</num>
+                <content><p>Anggaran biaya operasional Badan Pengatur sebagaimana dimaksud dalam Pasal 46 didasarkan pada Anggaran Pendapatan dan Belanja Negara dan iuran dari Badan Usaha yang diaturnya sesuai dengan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+            <content><p>Ketentuan mengenai struktur organisasi, status, fungsi, tugas, personalia, wewenang dan tanggung jawab serta mekanisme kerja Badan Pelaksana dan Badan Pengatur sebagaimana dimaksud dalam Pasal 41, Pasal 42, Pasal 43, Pasal 44, Pasal 45, Pasal 46, Pasal 47, dan Pasal 48 diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>PENYIDIKAN</heading>
+          <article eId="pasal_50">
+            <num>50</num>
+              <paragraph eId="pasal_50__ayat_1">
+                <num>(1)</num>
+                <content><p>Selain Penyidik Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan departemen yang lingkup tugas dan tanggung jawabnya meliputi kegiatan usaha Minyak dan Gas Bumi diberi wewenang khusus sebagai Penyidik sebagaimana dimaksud dalam Undang-Undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana untuk melakukan penyidikan tindak pidana dalam kegiatan usaha Minyak dan Gas Bumi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_2">
+                <num>(2)</num>
+                <intro><p>Penyidik Pegawai Negeri Sipil sebagaimana dimaksud dalam ayat (1) berwenang:</p></intro>
+                  <point eId="pasal_50__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan pemeriksaan atas kebenaran laporan atau keterangan yang diterima berkenaan dengan tindak pidana dalam kegiatan usaha Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_50__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan pemeriksaan terhadap orang atau badan yang diduga melakukan tindak pidana dalam kegiatan usaha Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_50__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_50__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>menggeledah tempat dan/atau sarana yang diduga digunakan untuk melakukan tindak pidana dalam kegiatan usaha Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_50__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan pemeriksaan sarana dan prasarana kegiatan usaha Minyak dan Gas Bumi dan menghentikan penggunaan peralatan yang diduga digunakan untuk melakukan tindak pidana;</p></content>
+                  </point>
+                  <point eId="pasal_50__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>menyegel dan/atau menyita alat kegiatan usaha Minyak dan Gas Bumi yang digunakan untuk melakukan tindak pidana sebagai alat bukti;</p></content>
+                  </point>
+                  <point eId="pasal_50__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>mendatangkan orangahli yang diperlukan dalam hubungannya dengan pemeriksaan perkara tindak pidana dalam kegiatan usaha Minyak dan Gas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_50__ayat_2__huruf_h">
+                    <num>h.</num>
+                    <content><p>menghentikan penyidikan perkara tindak pidana dalam kegiatan usaha Minyak dan Gas Bumi.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_3">
+                <num>(3)</num>
+                <content><p>Penyidik Pegawai Negeri Sipil sebagaimana dimaksud dalam ayat (1) memberitahukan dimulainya penyidikan perkara pidana kepada Pejabat Polisi Negara Republik Indonesia sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_4">
+                <num>(4)</num>
+                <content><p>Penyidik sebagaimana dimaksud dalam ayat (1) wajib menghentikan penyidikannya dalam hal peristiwa sebagaimana dimaksud dalam ayat (2) huruf a tidak terdapat cukup bukti dan/atau peristiwanya bukan merupakan tindak pidana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_50__ayat_5">
+                <num>(5)</num>
+                <content><p>Pelaksanaan kewenangan sebagaimana dimaksud dalam ayat (2) dilakukan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_51">
+            <num>51</num>
+              <paragraph eId="pasal_51__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang melakukan Survei Umum sebagaimana dimaksud dalam Pasal 19 ayat (1) tanpa hak dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling tinggi Rp10.000.000.000,00 (sepuluh miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_51__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap orang yang mengirim atau menyerahkan atau memindahtangankan data sebagaimana dimaksud dalam Pasal 20 tanpa hak dalam bentuk apa pun dipidana dengan pidana kurungan paling lama 1 (satu) tahun atau denda paling tinggi Rp10.000.000.000,00 (sepuluh miliar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_52">
+            <num>52</num>
+            <content><p>Setiap orang yang melakukan Eksplorasi dan/atau Eksploitasi tanpa mempunyai Kontrak Kerja Sama sebagaimana dimaksud dalam Pasal 11 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling tinggi Rp60.000.000.000,00 (enam puluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_53">
+            <num>53</num>
+            <intro><p>Setiap orang yang melakukan:</p></intro>
+              <point eId="pasal_53__huruf_a">
+                <num>a.</num>
+                <content><p>Pengolahan sebagaimana dimaksud dalam Pasal 23 tanpa Izin Usaha Pengolahan dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling tinggi Rp50.000.000.000,00 (lima puluh miliar rupiah);</p></content>
+              </point>
+              <point eId="pasal_53__huruf_b">
+                <num>b.</num>
+                <content><p>Pengangkutan sebagaimana dimaksud dalam Pasal 23 tanpa Izin Usaha Pengangkutan dipidana dengan pidana penjara paling lama 4 (empat) tahun dan denda paling tinggi Rp40.000.000.000,00 (empat puluh miliar rupiah);</p></content>
+              </point>
+              <point eId="pasal_53__huruf_c">
+                <num>c.</num>
+                <content><p>Penyimpanan sebagaimana dimaksud dalam Pasal 23 tanpa Izin Usaha Penyimpanan dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling tinggi Rp30.000.000.000,00 (tiga puluh miliar rupiah);</p></content>
+              </point>
+              <point eId="pasal_53__huruf_d">
+                <num>d.</num>
+                <content><p>Niaga sebagaimana dimaksud dalam Pasal 23 tanpa Izin Usaha Niaga dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling tinggi Rp30.000.000.000,00 (tiga puluh miliar rupiah).</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_54">
+            <num>54</num>
+            <content><p>Setiap orang yang meniru atau memalsukan Bahan Bakar Minyak dan Gas Bumi dan hasil olahan sebagaimana dimaksud dalam Pasal 28 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling tinggi Rp60.000.000.000,00 (enam puluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_55">
+            <num>55</num>
+            <content><p>Setiap orang yang menyalahgunakan Pengangkutan dan/atau Niaga Bahan Bakar Minyak yang disubsidi Pemerintah dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling tinggi Rp60.000.000.000,00 (enam puluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_56">
+            <num>56</num>
+              <paragraph eId="pasal_56__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal tindak pidana sebagaimana dimaksud dalam Bab ini dilakukan oleh atau atas nama Badan Usaha atau Bentuk Usaha Tetap, tuntutan dan pidana dikenakan terhadap Badan Usaha atau Bentuk Usaha Tetap dan/atau pengurusnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal tindak pidana dilakukan oleh Badan Usaha atau Bentuk Usaha Tetap, pidana yang dijatuhkan kepada Badan Usaha atau Bentuk Usaha Tetap tersebut adalah pidana denda, dengan ketentuan paling tinggi pidana denda ditambah sepertiganya.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_57">
+            <num>57</num>
+              <paragraph eId="pasal_57__ayat_1">
+                <num>(1)</num>
+                <content><p>Tindak pidana sebagaimana dimaksud dalam Pasal 51 adalah pelanggaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_2">
+                <num>(2)</num>
+                <content><p>Tindak pidana sebagaimana dimaksud dalam Pasal 52, Pasal 53, Pasal 54, dan Pasal 55 adalah kejahatan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+            <content><p>Selain ketentuan pidana sebagaimana dimaksud dalam Bab ini, sebagai pidana tambahan adalah pencabutan hak atau perampasan barang yang digunakan untuk atau yang diperoleh dari tindak pidana dalam kegiatan usaha Minyak dan Gas Bumi.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_59">
+            <num>59</num>
+            <intro><p>Pada saat Undang-undang ini berlaku:</p></intro>
+              <point eId="pasal_59__huruf_a">
+                <num>a.</num>
+                <content><p>dalam jangka waktu paling lama 1 (satu) tahun dibentuk Badan Pelaksana;</p></content>
+              </point>
+              <point eId="pasal_59__huruf_b">
+                <num>b.</num>
+                <content><p>dalam jangka waktu paling lama 1 (satu) tahun dibentuk Badan Pengatur.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_60">
+            <num>60</num>
+            <intro><p>Pada saat Undang-undang ini berlaku:</p></intro>
+              <point eId="pasal_60__huruf_a">
+                <num>a.</num>
+                <content><p>dalam jangka waktu paling lama 2 (dua) tahun, Pertamina dialihkan bentuknya menjadi Perusahaan Perseroan (Persero) dengan Peraturan Pemerintah;</p></content>
+              </point>
+              <point eId="pasal_60__huruf_b">
+                <num>b.</num>
+                <content><p>selama Persero sebagaimana dimaksud dalam huruf a belum terbentuk, Pertamina yang dibentuk berdasarkan Undang-Undang Nomor 8 Tahun 1971 (Lembaran Negara Tahun 1971 Nomor 76, Tambahan Lembaran Negara Nomor 2971) wajib melaksanakan kegiatan usaha Minyak dan Gas Bumi serta mengatur dan mengelola kekayaan, pegawai dan hal penting lainnya yang diperlukan;</p></content>
+              </point>
+              <point eId="pasal_60__huruf_c">
+                <num>c.</num>
+                <content><p>saat terbentuknya Persero yang baru, kewajiban Pertamina sebagaimana dimaksud dalam huruf b, dialihkan kepada Persero yang bersangkutan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <intro><p>Pada saat Undang-undang ini berlaku:</p></intro>
+              <point eId="pasal_61__huruf_a">
+                <num>a.</num>
+                <content><p>Pertamina tetap melaksanakan tugas dan fungsi pembinaan dan pengawasan pengusahaan kontraktor Eksplorasi dan Eksploitasi termasuk Kontraktor Kontrak Bagi Hasil sampai terbentuknya Badan Pelaksana;</p></content>
+              </point>
+              <point eId="pasal_61__huruf_b">
+                <num>b.</num>
+                <content><p>pada saat terbentuknya Persero sebagai pengganti Pertamina, badan usaha milik negara tersebut wajib mengadakan Kontrak Kerja Sama dengan Badan Pelaksana untuk melanjutkan Eksplorasi dan Eksploitasi pada bekas Wilayah Kuasa Pertambangan Pertamina dan dianggap telah mendapatkan Izin Usaha yang diperlukan sebagaimana dimaksud dalam Pasal 24 untuk usaha Pengolahan, Pengangkutan, Penyimpanan, dan Niaga.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_62">
+            <num>62</num>
+            <content><p>Pada saat Undang-undang ini berlaku Pertamina tetap melaksanakan tugas penyediaan dan pelayanan Bahan Bakar Minyak untuk keperluan dalam negeri sampai jangka waktu paling lama 4 (empat) tahun.</p></content>
+          </article>
+          <article eId="pasal_63">
+            <num>63</num>
+            <intro><p>Pada saat Undang-undang ini berlaku:</p></intro>
+              <point eId="pasal_63__huruf_a">
+                <num>a.</num>
+                <content><p>dengan terbentuknya Badan Pelaksana, semua hak, kewajiban, dan akibat yang timbul dari Kontrak Bagi Hasil (Production Sharing Contract) antara Pertamina dan pihak lain beralih kepada Badan Pelaksana;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_b">
+                <num>b.</num>
+                <content><p>dengan terbentuknya Badan Pelaksana, kontrak lain yang berkaitan dengan kontrak sebagaimana tersebut pada huruf a antara Pertamina dan pihak lain beralih kepada Badan Pelaksana;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_c">
+                <num>c.</num>
+                <content><p>semua kontrak sebagaimana dimaksud pada huruf a dan huruf b dinyatakan tetap berlaku sampai dengan berakhirnya kontrak yang bersangkutan;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_d">
+                <num>d.</num>
+                <content><p>hak, kewajiban, dan akibat yang timbul dari kontrak, perjanjian atau perikatan selain sebagaimana dimaksud pada huruf a dan huruf b tetap dilaksanakan oleh Pertamina sampai dengan terbentuknya Persero yang didirikan untuk itu dan beralih kepada Persero tersebut;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_e">
+                <num>e.</num>
+                <content><p>pelaksanaan perundingan atau negosiasi antara Pertamina dan pihak lain dalam rangka kerja sama Eksplorasi dan Eksploitasi beralih pelaksanaannya kepada Menteri.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_64">
+            <num>64</num>
+            <intro><p>Pada saat Undang-undang ini berlaku:</p></intro>
+              <point eId="pasal_64__huruf_a">
+                <num>a.</num>
+                <content><p>badan usaha milik negara, selain Pertamina, yang mempunyai kegiatan usaha Minyak dan Gas Bumi dianggap telah mendapatkan Izin Usaha sebagaimana dimaksud dalam Pasal 23;</p></content>
+              </point>
+              <point eId="pasal_64__huruf_b">
+                <num>b.</num>
+                <content><p>pelaksanaan pembangunan yang pada saat Undang-undang ini berlaku sedang dilakukan badan usaha milik negara sebagaimana dimaksud pada huruf a tetap dilaksanakan oleh badan usaha milik negara yang bersangkutan;</p></content>
+              </point>
+              <point eId="pasal_64__huruf_c">
+                <num>c.</num>
+                <content><p>dalam jangka waktu paling lama 1 (satu) tahun, badan usaha milik negara sebagaimana dimaksud pada huruf a wajib membentuk Badan Usaha yang didirikan untuk kegiatan usahanya sesuai dengan ketentuan Undang-undang ini;</p></content>
+              </point>
+              <point eId="pasal_64__huruf_d">
+                <num>d.</num>
+                <content><p>kontrak atau perjanjian antara badan usaha milik negara sebagaimana dimaksud pada huruf a dan pihak lain tetap berlaku sampai berakhirnya jangka waktu kontrak atau perjanjian yang bersangkutan.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_13">
+        <num>XIII</num>
+        <heading>KETENTUAN LAIN</heading>
+          <article eId="pasal_65">
+            <num>65</num>
+            <content><p>Kegiatan usaha atas minyak atau gas selain yang dimaksud dalam Pasal 1 angka 1 dan angka 2 sepanjang belum atau tidak diatur dalam Undang-undang lain, diberlakukan ketentuan Undang-undang ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_14">
+        <num>XIV</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_66">
+            <num>66</num>
+              <paragraph eId="pasal_66__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dengan berlakunya Undang-undang ini, dinyatakan tidak berlaku:</p></intro>
+                  <point eId="pasal_66__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Undang-Undang Nomor 44 Prp. Tahun 1960 tentang Pertambangan Minyak dan Gas Bumi (Lembaran Negara Tahun 1960 Nomor 133, Tambahan Lembaran Negara Nomor 2070);</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Undang-Undang Nomor 15 Tahun 1962 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 1962 tentang Kewajiban Perusahaan Minyak Memenuhi Kebutuhan Dalam Negeri (Lembaran Negara Tahun 1962 Nomor 80, Tambahan Lembaran Negara Nomor 2505);</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>Undang-Undang Nomor 8 Tahun 1971 tentang Perusahaan Pertambangan Minyak dan Gas Bumi Negara (Lembaran Negara Tahun 1971 Nomor 76, Tambahan Lembaran Negara Nomor 2971) berikut segala perubahannya, terakhir diubah dengan Undang-Undang Nomor 10 Tahun 1974 (Lembaran Negara Tahun 1974 Nomor 3045).</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_2">
+                <num>(2)</num>
+                <content><p>Segala peraturan pelaksanaan dari Undang-Undang Nomor 44 Prp. Tahun 1960 tentang Pertambangan Minyak dan Gas Bumi (Lembaran Negara Tahun 1960 Nomor 133, Tambahan Lembaran Negara Nomor 2070) dan Undang-Undang Nomor 8 Tahun 1971 tentang Perusahaan Pertambangan Minyak dan Gas Bumi Negara (Lembaran Negara Tahun 1971 Nomor 76, Tambahan Lembaran Negara Nomor 2971) dinyatakan tetap berlaku sepanjang tidak bertentangan atau belum diganti dengan peraturan baru berdasarkan Undang-undang ini.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_67">
+            <num>67</num>
+            <content><p>Undang-undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

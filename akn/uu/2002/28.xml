@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2002/28/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2002/28"/>
+          <FRBRdate date="2002-12-16" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2002/28/ind@2003-12-16/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2002/28/ind@2003-12-16"/>
+          <FRBRdate date="2003-12-16" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2002/28/ind@2003-12-16/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2002/28/ind@2003-12-16.akn"/>
+          <FRBRdate date="2026-10-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 28 Tahun 2002 tentang Bangunan Gedung</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam undang-undang ini yang dimaksud dengan :</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Bangunan gedung adalah wujud fisik hasil pekerjaan konstruksi yang menyatu dengan tempat kedudukannya, sebagian atau seluruhnya berada di atas dan/atau di dalam tanah dan/atau air, yang berfungsi sebagai tempat manusia melakukan kegiatannya, baik untuk hunian atau tempat tinggal, kegiatan keagamaan, kegiatan usaha, kegiatan sosial, budaya, maupun kegiatan khusus.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Penyelenggaraan bangunan gedung adalah kegiatan pembangunan yang meliputi proses perencanaan teknis dan pelaksanaan konstruksi, serta kegiatan pemanfaatan, pelestarian, dan pem-bongkaran.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Pemanfaatan bangunan gedung adalah kegiatan memanfaatkan bangunan gedung sesuai dengan fungsi yang telah ditetapkan, termasuk kegiatan pemeliharaan, perawatan, dan pemeriksaan secara berkala.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Pemeliharaan adalah kegiatan menjaga keandalan bangunan gedung beserta prasarana dan sarananya agar selalu laik fungsi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Perawatan adalah kegiatan memperbaiki dan/atau mengganti bagian bangunan gedung, komponen, bahan bangunan, dan/atau prasarana dan sarana agar bangunan gedung tetap laik fungsi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Pemeriksaan berkala adalah kegiatan pemeriksaan keandalan seluruh atau sebagian bangunan gedung, komponen, bahan bangunan, dan/atau prasarana dan sarananya dalam tenggang waktu tertentu guna menyatakan kelaikan fungsi bangunan gedung.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Pelestarian adalah kegiatan perawatan, pemugaran, serta pemeliharaan bangunan gedung dan lingkungannya untuk mengembalikan keandalan bangunan tersebut sesuai dengan aslinya atau sesuai dengan keadaan menurut periode yang dikehendaki.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Pembongkaran adalah kegiatan membongkar atau merobohkan seluruh atau sebagian bangunan gedung, komponen, bahan bangunan, dan/atau prasarana dan sarananya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Pemilik bangunan gedung adalah orang, badan hukum, kelompok orang, atau perkumpulan, yang menurut hukum sah sebagai pemilik bangunan gedung.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Pengguna bangunan gedung adalah pemilik bangunan gedung dan/atau bukan pemilik bangunan gedung berdasarkan kesepa-katan dengan pemilik bangunan gedung, yang menggunakan dan/atau mengelola bangunan gedung atau bagian bangunan gedung sesuai dengan fungsi yang ditetapkan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Pengkaji teknis adalah orang perorangan, atau badan hukum yang mempunyai sertifikat keahlian untuk melaksanakan pengkajian teknis atas kelaikan fungsi bangunan gedung sesuai dengan ketentuan perundang-undangan yang berlaku.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Masyarakat adalah perorangan, kelompok, badan hukum atau usaha, dan lembaga atau organisasi yang kegiatannya di bidang bangunan gedung, termasuk masyarakat hukum adat dan masyarakat ahli, yang berkepentingan dengan penyelenggaraan bangunan gedung.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Prasarana dan sarana bangunan gedung adalah fasilitas kelengkapan di dalam dan di luar bangunan gedung yang mendukung pemenuhan terselenggaranya fungsi bangunan gedung.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Pemerintah Pusat, selanjutnya disebut Pemerintah, adalah perangkat Negara Kesatuan Republik Indonesia yang terdiri dari Presiden beserta para menteri.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Pemerintah Daerah adalah kepala daerah kabupaten atau kota beserta perangkat daerah otonom yang lain sebagai badan eksekutif daerah, kecuali untuk Provinsi Daerah Khusus Ibukota Jakarta adalah gubernur.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS, TUJUAN, DAN LINGKUP</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <content><p>Bangunan gedung diselenggarakan berlandaskan asas kemanfaatan, keselamatan, keseimbangan, serta keserasian bangunan gedung dengan lingkungannya.</p></content>
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Pengaturan bangunan gedung bertujuan untuk :</p></intro>
+              <point eId="pasal_3__angka_1">
+                <num>1.</num>
+                <content><p>mewujudkan bangunan gedung yang fungsional dan sesuai dengan tata bangunan gedung yang serasi dan selaras dengan lingkungannya;</p></content>
+              </point>
+              <point eId="pasal_3__angka_2">
+                <num>2.</num>
+                <content><p>mewujudkan tertib penyelenggaraan bangunan gedung yang menjamin keandalan teknis bangunan gedung dari segi keselamatan, kesehatan, kenyamanan, dan kemudahan;</p></content>
+              </point>
+              <point eId="pasal_3__angka_3">
+                <num>3.</num>
+                <content><p>mewujudkan kepastian hukum dalam penyelenggaraan bangunan gedung.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+            <content><p>Undang-undang ini mengatur ketentuan tentang bangunan gedung yang meliputi fungsi, persyaratan, penyelenggaraan, peran masyarakat, dan pembinaan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>FUNGSI BANGUNAN GEDUNG</heading>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Fungsi bangunan gedung meliputi fungsi hunian, keagamaan, usaha, sosial dan budaya, serta fungsi khusus.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Bangunan gedung fungsi hunian sebagaimana dimaksud dalam ayat (1) meliputi bangunan untuk rumah tinggal tunggal, rumah tinggal deret, rumah susun, dan rumah tinggal sementara.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_3">
+                <num>(3)</num>
+                <content><p>Bangunan gedung fungsi keagamaan sebagaimana dimaksud dalam ayat (1) meliputi masjid, gereja, pura, wihara, dan kelenteng.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_4">
+                <num>(4)</num>
+                <content><p>Bangunan gedung fungsi usaha sebagaimana dimaksud dalam ayat (1) meliputi bangunan gedung untuk perkantoran, perdagangan, perindustrian, perhotelan, wisata dan rekreasi, terminal, dan penyimpanan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_5">
+                <num>(5)</num>
+                <content><p>Bangunan gedung fungsi sosial dan budaya sebagaimana dimaksud dalam ayat (1) meliputi bangunan gedung untuk pendidikan, kebudayaan, pelayanan kesehatan, laboratorium, dan pelayanan umum.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_6">
+                <num>(6)</num>
+                <content><p>Bangunan gedung fungsi khusus sebagaimana dimaksud dalam ayat (1) meliputi bangunan gedung untuk reaktor nuklir, instalasi pertahanan dan keamanan, dan bangunan sejenis yang diputuskan oleh menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_7">
+                <num>(7)</num>
+                <content><p>Satu bangunan gedung dapat memiliki lebih dari satu fungsi.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <content><p>Fungsi bangunan gedung sebagaimana dimaksud dalam Pasal 5 harus sesuai dengan peruntukan lokasi yang diatur dalam Peraturan Daerah tentang Rencana Tata Ruang Wilayah Kabupaten/Kota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Fungsi bangunan gedung sebagaimana dimaksud dalam ayat (1) ditetapkan oleh Pemerintah Daerah dan dicantumkan dalam izin mendirikan bangunan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_3">
+                <num>(3)</num>
+                <content><p>Perubahan fungsi bangunan gedung yang telah ditetapkan sebagaimana dimaksud dalam ayat (2) harus mendapatkan persetujuan dan penetapan kembali oleh Pemerintah Daerah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai tata cara penetapan dan perubahan fungsi bangunan gedung sebagaimana dimaksud dalam ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PERSYARATAN BANGUNAN GEDUNG</heading>
+          <part eId="bab_4__bagian_pertama">
+            <num>Pertama</num>
+            <heading>Umum</heading>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap bangunan gedung harus memenuhi persyaratan administratif dan persyaratan teknis sesuai dengan fungsi bangunan gedung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Persyaratan administratif bangunan gedung sebagaimana dimaksud dalam ayat (1) meliputi persyaratan status hak atas tanah, status kepemilikan bangunan gedung, dan izin mendirikan bangunan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Persyaratan teknis bangunan gedung sebagaimana dimaksud dalam ayat (1) meliputi persyaratan tata bangunan dan persyaratan keandalan bangunan gedung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Penggunaan ruang di atas dan/atau di bawah tanah dan/atau air untuk bangunan gedung harus memiliki izin penggunaan sesuai ketentuan yang berlaku.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Persyaratan administratif dan teknis untuk bangunan gedung adat, bangunan gedung semi permanen, bangunan gedung darurat, dan bangunan gedung yang dibangun pada daerah lokasi bencana ditetapkan oleh Pemerintah Daerah sesuai kondisi sosial dan budaya setempat.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Persyaratan Administratif Bangunan Gedung</heading>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Setiap bangunan gedung harus memenuhi persyaratan administratif yang meliputi:</p></intro>
+                      <point eId="pasal_8__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>status hak atas tanah, dan/atau izin pemanfaatan dari pemegang hak atas tanah;</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>status kepemilikan bangunan gedung; dan</p></content>
+                      </point>
+                      <point eId="pasal_8__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>izin mendirikan bangunan gedung sesuai ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap orang atau badan hukum dapat memiliki bangunan gedung atau bagian bangunan gedung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemerintah Daerah wajib mendata bangunan gedung untuk keperluan tertib pembangunan dan pemanfaatan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan mengenai izin mendirikan bangunan gedung, kepemilikan, dan pendataan bangunan gedung sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Persyaratan Tata Bangunan</heading>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_9">
+                    <num>9</num>
+                      <paragraph eId="pasal_9__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan tata bangunan sebagaimana dimaksud dalam Pasal 7 ayat (3) meliputi persyaratan peruntukan dan intensitas bangunan gedung, arsitektur bangunan gedung, dan persyaratan pengendalian dampak lingkungan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_9__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Persyaratan tata bangunan sebagaimana dimaksud dalam ayat (1) ditetapkan lebih lanjut dalam rencana tata bangunan dan lingkungan oleh Pemerintah Daerah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_9__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai tata cara penyusunan rencana tata bangunan dan lingkungan sebagaimana dimaksud dalam ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Persyaratan Peruntukan dan Intensitas Bangunan Gedung</heading>
+                  <article eId="pasal_10">
+                    <num>10</num>
+                      <paragraph eId="pasal_10__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan peruntukan dan intensitas bangunan gedung sebagai-mana dimaksud dalam Pasal 9 ayat (1) meliputi persyaratan peruntukan lokasi, kepadatan, ketinggian, dan jarak bebas bangunan gedung yang ditetapkan untuk lokasi yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_10__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pemerintah Daerah wajib menyediakan dan memberikan informasi secara terbuka tentang persyaratan peruntukan dan intensitas bangunan gedung bagi masyarakat yang memerlukannya.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_11">
+                    <num>11</num>
+                      <paragraph eId="pasal_11__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan peruntukan lokasi sebagaimana dimaksud dalam Pasal 10 ayat (1) dilaksanakan berdasarkan ketentuan tentang tata ruang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_11__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Bangunan gedung yang dibangun di atas, dan/atau di bawah tanah, air, dan/atau prasarana dan sarana umum tidak boleh mengganggu keseimbangan lingkungan, fungsi lindung kawasan, dan/atau fungsi prasarana dan sarana umum yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_11__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai pembangunan bangunan gedung sebagaimana dimaksud dalam ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_12">
+                    <num>12</num>
+                      <paragraph eId="pasal_12__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan kepadatan dan ketinggian bangunan sebagaimana dimaksud dalam Pasal 10 ayat (1) meliputi koefisien dasar bangunan, koefisien lantai bangunan, dan ketinggian bangunan sesuai dengan ketentuan yang ditetapkan untuk lokasi yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_12__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Persyaratan jumlah lantai maksimum bangunan gedung atau bagian bangunan gedung yang dibangun di bawah permukaan tanah harus mempertimbangkan keamanan, kesehatan, dan daya dukung lingkungan yang dipersyaratkan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_12__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Bangunan gedung tidak boleh melebihi ketentuan maksimum kepadatan dan ketinggian yang ditetapkan pada lokasi yang bersangkutan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_12__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Ketentuan mengenai tata cara perhitungan dan penetapan kepadatan dan ketinggian sebagaimana dimaksud dalam ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_13">
+                    <num>13</num>
+                      <paragraph eId="pasal_13__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Persyaratan jarak bebas bangunan gedung sebagaimana dimaksud dalam Pasal 10 ayat (1) meliputi:</p></intro>
+                          <point eId="pasal_13__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>garis sempadan bangunan gedung dengan as jalan, tepi sungai, tepi pantai, jalan kereta api, dan/atau jaringan tegangan tinggi;</p></content>
+                          </point>
+                          <point eId="pasal_13__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>jarak antara bangunan gedung dengan batas-batas persil, dan jarak antara as jalan dan pagar halaman yang diizinkan pada lokasi yang bersangkutan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_13__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Persyaratan jarak bebas bangunan gedung atau bagian bangunan gedung yang dibangun di bawah permukaan tanah harus mempertimbangkan batas-batas lokasi, keamanan, dan tidak mengganggu fungsi utilitas kota, serta pelaksanaan pembangunannya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_13__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai persyaratan jarak bebas bangunan gedung sebagaimana dimaksud dalam ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_3">
+                <num>3</num>
+                <heading>Persyaratan Arsitektur Bangunan Gedung</heading>
+                  <article eId="pasal_14">
+                    <num>14</num>
+                      <paragraph eId="pasal_14__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan arsitektur bangunan gedung sebagaimana dimaksud dalam Pasal 9 ayat (1) meliputi persyaratan penampilan bangunan gedung, tata ruang dalam, keseimbangan, keserasian, dan keselarasan bangunan gedung dengan lingkungannya, serta pertimbangan adanya keseimbangan antara nilai-nilai sosial budaya setempat terhadap penerapan berbagai perkembangan arsitektur dan rekayasa.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Persyaratan penampilan bangunan gedung sebagaimana dimaksud dalam ayat (1) harus memperhatikan bentuk dan karakteristik arsitektur dan lingkungan yang ada di sekitarnya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Persyaratan tata ruang dalam bangunan sebagaimana dimaksud dalam ayat (1) harus memperhatikan fungsi ruang, arsitektur bangunan gedung, dan keandalan bangunan gedung.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Persyaratan keseimbangan, keserasian, dan keselarasan bangunan gedung dengan lingkungannya sebagaimana dimaksud dalam ayat (1) harus mempertimbangkan terciptanya ruang luar bangunan gedung, ruang terbuka hijau yang seimbang, serasi, dan selaras dengan lingkungannya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_14__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Ketentuan mengenai penampilan bangunan gedung, tata ruang dalam, keseimbangan, dan keselarasan bangunan gedung dengan lingkungannya sebagaimana dimaksud dalam ayat (1), ayat (2), ayat (3), dan ayat (4) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_ketiga__paragraf_4">
+                <num>4</num>
+                <heading>Persyaratan Pengendalian Dampak Lingkungan</heading>
+                  <article eId="pasal_15">
+                    <num>15</num>
+                      <paragraph eId="pasal_15__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penerapan persyaratan pengendalian dampak lingkungan hanya berlaku bagi bangunan gedung yang dapat menimbulkan dampak penting terhadap lingkungan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_15__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Persyaratan pengendalian dampak lingkungan pada bangunan gedung sebagaimana dimaksud dalam ayat (1) sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Persyaratan Keandalan Bangunan Gedung</heading>
+              <subpart eId="bab_4__bagian_keempat__paragraf_1">
+                <num>1</num>
+                <heading>Umum</heading>
+                  <article eId="pasal_16">
+                    <num>16</num>
+                      <paragraph eId="pasal_16__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan keandalan bangunan gedung sebagaimana dimaksud dalam Pasal 7 ayat (3), meliputi persyaratan keselamatan, kesehatan, kenyamanan, dan kemudahan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Persyaratan keandalan bangunan gedung sebagaimana dimaksud dalam ayat (1) ditetapkan berdasarkan fungsi bangunan gedung.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_2">
+                <num>2</num>
+                <heading>Persyaratan Keselamatan</heading>
+                  <article eId="pasal_17">
+                    <num>17</num>
+                      <paragraph eId="pasal_17__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan keselamatan bangunan gedung sebagaimana dimaksud dalam Pasal 16 ayat (1) meliputi persyaratan kemampuan bangunan gedung untuk mendukung beban muatan, serta kemampuan bangunan gedung dalam mencegah dan menanggulangi bahaya kebakaran dan bahaya petir.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Persyaratan kemampuan bangunan gedung untuk mendukung beban muatannya sebagaimana dimaksud dalam ayat (1) merupakan kemampuan struktur bangunan gedung yang stabil dan kukuh dalam mendukung beban muatan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Persyaratan kemampuan bangunan gedung dalam mencegah dan menanggulangi bahaya kebakaran sebagaimana dimaksud dalam ayat (1) merupakan kemampuan bangunan gedung untuk melakukan pengamanan terhadap bahaya kebakaran melalui sistem proteksi pasif dan/atau proteksi aktif.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Persyaratan kemampuan bangunan gedung dalam mencegah bahaya petir sebagaimana dimaksud dalam ayat (1) merupakan kemampuan bangunan gedung untuk melakukan pengamanan terhadap bahaya petir melalui sistem penangkal petir.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_18">
+                    <num>18</num>
+                      <paragraph eId="pasal_18__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan kemampuan struktur bangunan gedung yang stabil dan kukuh dalam mendukung beban muatan sebagaimana dimaksud dalam Pasal 17 ayat (2) merupakan kemampuan struktur bangunan gedung yang stabil dan kukuh sampai dengan kondisi pembebanan maksimum dalam mendukung beban muatan hidup dan beban muatan mati, serta untuk daerah/zona tertentu kemampuan untuk mendukung beban muatan yang timbul akibat perilaku alam.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Besarnya beban muatan dihitung berdasarkan fungsi bangunan gedung pada kondisi pembebanan maksimum dan variasi pembebanan agar bila terjadi keruntuhan pengguna bangunan gedung masih dapat menyelamatkan diri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai pembebanan, ketahanan terhadap gempa bumi dan/atau angin sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_19">
+                    <num>19</num>
+                      <paragraph eId="pasal_19__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pengamanan terhadap bahaya kebakaran dilakukan dengan sistem proteksi pasif sebagaimana dimaksud dalam Pasal 17 ayat (3) meliputi kemampuan stabilitas struktur dan elemennya, konstruksi tahan api, kompartemenisasi dan pemisahan, serta proteksi pada bukaan yang ada untuk menahan dan membatasi kecepatan menjalarnya api dan asap kebakaran.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_19__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pengamanan terhadap bahaya kebakaran dilakukan dengan sistem proteksi aktif sebagaimana dimaksud dalam Pasal 17 ayat (3) meliputi kemampuan peralatan dalam mendeteksi dan memadamkan kebakaran, pengendalian asap, dan sarana penyelamatan kebakaran.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_19__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Bangunan gedung, selain rumah tinggal, harus dilengkapi dengan sistem proteksi pasif dan aktif.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_19__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Ketentuan mengenai sistem pengamanan bahaya kebakaran sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_20">
+                    <num>20</num>
+                      <paragraph eId="pasal_20__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Pengamanan terhadap bahaya petir melalui sistem penangkal petir sebagaimana dimaksud dalam Pasal 17 ayat (4) merupakan kemampuan bangunan gedung untuk melindungi semua bagian bangunan gedung, termasuk manusia di dalamnya terhadap bahaya sambaran petir.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Sistem penangkal petir sebagaimana dimaksud dalam ayat (1) merupakan instalasi penangkal petir yang harus dipasang pada setiap bangunan gedung yang karena letak, sifat geografis, bentuk, dan penggunaannya mempunyai risiko terkena sambaran petir.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai sistem penangkal petir sebagaimana dimaksud dalam ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_3">
+                <num>3</num>
+                <heading>Persyaratan Kesehatan</heading>
+                  <article eId="pasal_21">
+                    <num>21</num>
+                    <content><p>Persyaratan kesehatan bangunan gedung sebagaimana dimaksud dalam Pasal 16 ayat (1) meliputi persyaratan sistem penghawaan, pencahayaan, sanitasi, dan penggunaan bahan bangunan gedung.</p></content>
+                  </article>
+                  <article eId="pasal_22">
+                    <num>22</num>
+                      <paragraph eId="pasal_22__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Sistem penghawaan sebagaimana dimaksud dalam Pasal 21 merupakan kebutuhan sirkulasi dan pertukaran udara yang harus disediakan pada bangunan gedung melalui bukaan dan/atau ventilasi alami dan/atau ventilasi buatan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_22__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Bangunan gedung tempat tinggal, pelayanan kesehatan, pendidikan, dan bangunan pelayanan umum lainnya harus mempunyai bahan untuk ventilasi alami.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_22__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai sistem penghawaan sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_23">
+                    <num>23</num>
+                      <paragraph eId="pasal_23__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Sistem pencahayaan sebagaimana dimaksud dalam Pasal 21 merupakan kebutuhan pencahayaan yang harus disediakan pada bangunan gedung melalui pencahayaan alami dan/atau pencahayaan buatan, termasuk pencahayaan darurat.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Bangunan gedung tempat tinggal, pelayanan kesehatan, pendidikan, dan bangunan pelayanan umum lainnya harus mempunyai bukaan untuk pencahayaan alami.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai sistem pencahayaan sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_24">
+                    <num>24</num>
+                      <paragraph eId="pasal_24__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Sistem sanitasi sebagaimana dimaksud dalam Pasal 21 merupakan kebutuhan sanitasi yang harus disediakan di dalam dan di luar bangunan gedung untuk memenuhi kebutuhan air bersih, pembuangan air kotor dan/atau air limbah, kotoran dan sampah, serta penyaluran air hujan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Sistem sanitasi pada bangunan gedung dan lingkungannya harus dipasang sehingga mudah dalam pengoperasian dan pemeliharaannya, tidak membahayakan serta tidak mengganggu lingkungan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai sistem sanitasi sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_25">
+                    <num>25</num>
+                      <paragraph eId="pasal_25__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penggunaan bahan bangunan gedung sebagaimana dimaksud dalam Pasal 21 harus aman bagi kesehatan pengguna bangunan gedung dan tidak menimbulkan dampak negatif terhadap lingkungan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_25__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan mengenai penggunaan bahan bangunan gedung sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_4">
+                <num>4</num>
+                <heading>Persyaratan Kenyamanan</heading>
+                  <article eId="pasal_26">
+                    <num>26</num>
+                      <paragraph eId="pasal_26__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan kenyamanan bangunan gedung sebagaimana dimaksud dalam Pasal 16 ayat (1) meliputi kenyamanan ruang gerak dan hubungan antarruang, kondisi udara dalam ruang, pandangan, serta tingkat getaran dan tingkat kebisingan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Kenyamanan ruang gerak sebagaimana dimaksud dalam ayat (1) merupakan tingkat kenyamanan yang diperoleh dari dimensi ruang dan tata letak ruang yang memberikan kenyamanan bergerak dalam ruangan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Kenyamanan hubungan antarruang sebagaimana dimaksud dalam ayat (1) merupakan tingkat kenyamanan yang diperoleh dari tata letak ruang dan sirkulasi antarruang dalam bangunan gedung untuk terselenggaranya fungsi bangunan gedung.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Kenyamanan kondisi udara dalam ruang sebagaimana dimaksud dalam ayat (1) merupakan tingkat kenyamanan yang diperoleh dari temperatur dan kelembaban di dalam ruang untuk terselenggaranya fungsi bangunan gedung.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Kenyamanan pandangan sebagaimana dimaksud dalam ayat (1) merupakan kondisi dimana hak pribadi orang dalam melaksanakan kegiatan di dalam bangunan gedungnya tidak terganggu dari bangunan gedung lain di sekitarnya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_6">
+                        <num>(6)</num>
+                        <content><p>Kenyamanan tingkat getaran dan kebisingan sebagaimana dimaksud dalam ayat (1) merupakan tingkat kenyamanan yang ditentukan oleh suatu keadaan yang tidak mengakibatkan pengguna dan fungsi bangunan gedung terganggu oleh getaran dan/atau kebisingan yang timbul baik dari dalam bangunan gedung maupun lingkungannya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_7">
+                        <num>(7)</num>
+                        <content><p>Ketentuan mengenai kenyamanan ruang gerak, tata hubungan antarruang, tingkat kondisi udara dalam ruangan, pandangan, serta tingkat getaran dan kebisingan sebagaimana dimaksud dalam ayat (2), ayat (3), ayat (4), ayat (5), dan ayat (6) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_4__bagian_keempat__paragraf_5">
+                <num>5</num>
+                <heading>Persyaratan Kemudahan</heading>
+                  <article eId="pasal_27">
+                    <num>27</num>
+                      <paragraph eId="pasal_27__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Persyaratan kemudahan sebagaimana dimaksud dalam Pasal 16 ayat (1) meliputi kemudahan hubungan ke, dari, dan di dalam bangunan gedung, serta kelengkapan prasarana dan sarana dalam pemanfaatan bangunan gedung.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Kemudahan hubungan ke, dari, dan di dalam bangunan gedung sebagaimana dimaksud dalam ayat (1) meliputi tersedianya fasilitas dan aksesibilitas yang mudah, aman, dan nyaman termasuk bagi penyandang cacat dan lanjut usia.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Kelengkapan prasarana dan sarana sebagaimana dimaksud dalam ayat (1) pada bangunan gedung untuk kepentingan umum meliputi penyediaan fasilitas yang cukup untuk ruang ibadah, ruang ganti, ruangan bayi, toilet, tempat parkir, tempat sampah, serta fasilitas komunikasi dan informasi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Ketentuan mengenai kemudahan hubungan ke, dari, dan di dalam bangunan gedung, serta kelengkapan prasarana dan sarana sebagaimana dimaksud dalam ayat (2) dan ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_28">
+                    <num>28</num>
+                      <paragraph eId="pasal_28__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Kemudahan hubungan horizontal antarruang dalam bangunan gedung sebagaimana dimaksud dalam Pasal 27 ayat (2) merupakan keharusan bangunan gedung untuk menyediakan pintu dan/atau koridor antar ruang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_28__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Penyediaan mengenai jumlah, ukuran dan konstruksi teknis pintu dan koridor disesuaikan dengan fungsi ruang bangunan gedung.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_28__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai kemudahan hubungan horizontal antarruang dalam bangunan gedung sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_29">
+                    <num>29</num>
+                      <paragraph eId="pasal_29__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Kemudahan hubungan vertikal dalam bangunan gedung, termasuk sarana transportasi vertikal sebagaimana dimaksud dalam Pasal 27 ayat (2) berupa penyediaan tangga, ram, dan sejenisnya serta lift dan/atau tangga berjalan dalam bangunan gedung.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Bangunan gedung yang bertingkat harus menyediakan tangga yang menghubungkan lantai yang satu dengan yang lainnya dengan mempertimbangkan kemudahan, keamanan, keselamatan, dan kesehatan pengguna.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Bangunan gedung untuk parkir harus menyediakan ram dengan kemiringan tertentu dan/atau sarana akses vertikal lainnya dengan mempertimbangkan kemudahan dan keamanan pengguna sesuai standar teknis yang berlaku.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Bangunan gedung dengan jumlah lantai lebih dari 5 (lima) harus dilengkapi dengan sarana transportasi vertikal (lift) yang dipasang sesuai dengan kebutuhan dan fungsi bangunan gedung.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Ketentuan mengenai kemudahan hubungan vertikal dalam bangunan gedung sebagaimana dimaksud dalam ayat (1), ayat (2), ayat (3), dan ayat (4) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_30">
+                    <num>30</num>
+                      <paragraph eId="pasal_30__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Akses evakuasi dalam keadaan darurat sebagaimana dimaksud dalam Pasal 27 ayat (2) harus disediakan di dalam bangunan gedung meliputi sistem peringatan bahaya bagi pengguna, pintu keluar darurat, dan jalur evakuasi apabila terjadi bencana kebakaran dan/atau bencana lainnya, kecuali rumah tinggal.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_30__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Penyediaan akses evakuasi sebagaimana dimaksud dalam ayat (1) harus dapat dicapai dengan mudah dan dilengkapi dengan penunjuk arah yang jelas.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_30__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai penyediaan akses evakuasi sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_31">
+                    <num>31</num>
+                      <paragraph eId="pasal_31__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penyediaan fasilitas dan aksesibilitas bagi penyandang cacat dan lanjut usia sebagaimana dimaksud dalam Pasal 27 ayat (2) merupakan keharusan bagi semua bangunan gedung, kecuali rumah tinggal.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_31__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Fasilitas bagi penyandang cacat dan lanjut usia sebagaimana dimaksud dalam ayat (1), termasuk penyediaan fasilitas aksesibilitas dan fasilitas lainnya dalam bangunan gedung dan lingkungannya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_31__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan mengenai penyediaan aksesibilitas bagi penyandang cacat dan lanjut usia sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_32">
+                    <num>32</num>
+                      <paragraph eId="pasal_32__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Kelengkapan prasarana dan sarana sebagaimana dimaksud dalam Pasal 27 ayat (3) merupakan keharusan bagi semua bangunan gedung untuk kepentingan umum.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan mengenai kelengkapan prasarana dan sarana sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+          <part eId="bab_4__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Persyaratan Bangunan Gedung Fungsi Khusus</heading>
+              <article eId="pasal_33">
+                <num>33</num>
+                <content><p>Persyaratan administratif dan teknis untuk bangunan gedung fungsi khusus, selain harus memenuhi ketentuan dalam Bagian Kedua, Bagian Ketiga, dan Bagian Keempat pada Bab ini, juga harus memenuhi persyaratan administratif dan teknis khusus yang dikeluarkan oleh instansi yang berwenang.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PENYELENGGARAAN BANGUNAN GEDUNG</heading>
+          <part eId="bab_5__bagian_pertama">
+            <num>Pertama</num>
+            <heading>Umum</heading>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggaraan bangunan gedung meliputi kegiatan pembangun-an, pemanfaatan, pelestarian, dan pembongkaran.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam penyelenggaraan bangunan gedung sebagaimana dimaksud dalam ayat (1) penyelenggara berkewajiban memenuhi persyaratan bangunan gedung sebagaimana dimaksud dalam Bab IV undang-undang ini.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penyelenggara bangunan gedung terdiri atas pemilik bangunan gedung, penyedia jasa konstruksi, dan pengguna bangunan gedung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pemilik bangunan gedung yang belum dapat memenuhi persyaratan sebagaimana dimaksud dalam Bab IV undang-undang ini, tetap harus memenuhi ketentuan tersebut secara bertahap.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pembangunan</heading>
+              <article eId="pasal_35">
+                <num>35</num>
+                  <paragraph eId="pasal_35__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pembangunan bangunan gedung diselenggarakan melalui tahapan perencanaan dan pelaksanaan beserta pengawasannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pembangunan bangunan gedung dapat dilakukan baik di tanah milik sendiri maupun di tanah milik pihak lain.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pembangunan bangunan gedung di atas tanah milik pihak lain sebagaimana dimaksud dalam ayat (2) dilakukan berdasarkan perjanjian tertulis antara pemilik tanah dan pemilik bangunan gedung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_35__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pembangunan bangunan gedung dapat dilaksanakan setelah rencana teknis bangunan gedung disetujui oleh Pemerintah Daerah dalam bentuk izin mendirikan bangunan, kecuali bangunan gedung fungsi khusus.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_36">
+                <num>36</num>
+                  <paragraph eId="pasal_36__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengesahan rencana teknis bangunan gedung untuk kepentingan umum ditetapkan oleh Pemerintah Daerah setelah mendapat pertimbangan teknis dari tim ahli.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengesahan rencana teknis bangunan gedung fungsi khusus ditetapkan oleh pemerintah setelah mendapat pertimbangan teknis tim ahli.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Keanggotaan tim ahli bangunan gedung sebagaimana dimaksud dalam ayat (1) dan ayat (2) bersifat ad hoc terdiri atas para ahli yang diperlukan sesuai dengan kompleksitas bangunan gedung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_36__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan mengenai tata cara pengesahan rencana teknis bangunan gedung sebagaimana dimaksud dalam ayat (1) dan ayat (2) dan keanggotaan tim ahli bangunan gedung sebagaimana dimaksud dalam ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pemanfaatan</heading>
+              <article eId="pasal_37">
+                <num>37</num>
+                  <paragraph eId="pasal_37__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemanfaatan bangunan gedung dilakukan oleh pemilik atau pengguna bangunan gedung setelah bangunan gedung tersebut dinyatakan memenuhi persyaratan laik fungsi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Bangunan gedung dinyatakan memenuhi persyaratan laik fungsi apabila telah memenuhi persyaratan teknis, sebagaimana dimaksud dalam Bab IV undang-undang ini.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemeliharaan (3) Pemeliharaan, perawatan, dan pemeriksaan secara berkala pada bangunan gedung harus dilakukan agar tetap memenuhi persyaratan laik fungsi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam pemanfaatan bangunan gedung, pemilik atau pengguna bangunan gedung mempunyai hak dan kewajiban sebagaimana diatur dalam undang-undang ini.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_37__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan mengenai tata cara pemeliharaan, perawatan, dan pemeriksaan secara berkala bangunan gedung sebagaimana dimaksud dalam ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Pelestarian</heading>
+              <article eId="pasal_38">
+                <num>38</num>
+                  <paragraph eId="pasal_38__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Bangunan gedung dan lingkungannya yang ditetapkan sebagai cagar budaya sesuai dengan peraturan perundang-undangan harus dilindungi dan dilestarikan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penetapan bangunan gedung dan lingkungannya yang dilindungi dan dilestarikan sebagaimana dimaksud dalam ayat (1) dilakukan oleh Pemerintah Daerah dan/atau Pemerintah dengan memperhatikan ketentuan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pelaksanaan perbaikan, pemugaran, perlindungan, serta pemeliharaan atas bangunan gedung dan lingkungannya sebagaimana dimaksud dalam ayat (1) hanya dapat dilakukan sepanjang tidak mengubah nilai dan/atau karakter cagar budaya yang dikandungnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Perbaikan, pemugaran, dan pemanfaatan bangunan gedung dan lingkungan cagar budaya yang dilakukan menyalahi ketentuan fungsi dan/atau karakter cagar budaya, harus dikembalikan sesuai dengan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan mengenai perlindungan dan pelestarian sebagaimana dimaksud dalam ayat (1) dan ayat (2) serta teknis pelaksanaan perbaikan, pemugaran dan pemanfaatan sebagaimana dimaksud dalam ayat (3) dan ayat (4) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Pembongkaran</heading>
+              <article eId="pasal_39">
+                <num>39</num>
+                  <paragraph eId="pasal_39__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Bangunan gedung dapat dibongkar apabila :</p></intro>
+                      <point eId="pasal_39__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>tidak laik fungsi dan tidak dapat diperbaiki;</p></content>
+                      </point>
+                      <point eId="pasal_39__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>dapat menimbulkan bahaya dalam pemanfaatan bangunan gedung dan/atau lingkungannya;</p></content>
+                      </point>
+                      <point eId="pasal_39__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>tidak memiliki izin mendirikan bangunan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Bangunan gedung yang dapat dibongkar sebagaimana dimaksud dalam ayat (1) huruf a dan huruf b ditetapkan oleh Pemerintah Daerah berdasarkan hasil pengkajian teknis.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengkajian teknis bangunan gedung sebagaimana dimaksud dalam ayat (2), kecuali untuk rumah tinggal, dilakukan oleh pengkaji teknis dan pengadaannya menjadi kewajiban pemilik bangunan gedung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pembongkaran bangunan gedung yang mempunyai dampak luas terhadap keselamatan umum dan lingkungan harus dilaksanakan berdasarkan rencana teknis pembongkaran yang telah disetujui oleh Pemerintah Daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan mengenai tata cara pembongkaran bangunan gedung sebagaimana dimaksud dalam ayat (1), ayat (2), ayat (3), dan ayat (4) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Hak dan Kewajiban Pemilik dan Pengguna Bangunan Gedung</heading>
+              <article eId="pasal_40">
+                <num>40</num>
+                  <paragraph eId="pasal_40__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Dalam penyelenggaraan bangunan gedung, pemilik bangunan gedung mempunyai hak:</p></intro>
+                      <point eId="pasal_40__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>mendapatkan pengesahan dari Pemerintah Daerah atas rencana teknis bangunan gedung yang telah memenuhi persyaratan;</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>melaksanakan pembangunan bangunan gedung sesuai dengan perizinan yang telah ditetapkan oleh Pemerintah Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>mendapatkan surat ketetapan bangunan gedung dan/atau lingkungan yang dilindungi dan dilestarikan dari Pemerintah Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>mendapatkan insentif sesuai dengan peraturan perundang-undangan dari Pemerintah Daerah karena bangunannya ditetapkan sebagai bangunan yang harus dilindungi dan dilestarikan;</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>mengubah fungsi bangunan setelah mendapat izin tertulis dari Pemerintah Daerah;</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>mendapatkan ganti rugi sesuai dengan peraturan perundang-undangan apabila bangunannya dibongkar oleh Pemerintah Daerah atau pihak lain yang bukan diakibatkan oleh kesalahannya.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Dalam penyelenggaraan bangunan gedung, pemilik bangunan gedung mempunyai kewajiban:</p></intro>
+                      <point eId="pasal_40__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>menyediakan rencana teknis bangunan gedung yang memenuhi persyaratan yang ditetapkan sesuai dengan fungsinya;</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>memiliki izin mendirikan bangunan (IMB);</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>melaksanakan pembangunan bangunan gedung sesuai dengan rencana teknis yang telah disahkan dan dilakukan dalam batas waktu berlakunya izin mendirikan bangunan;</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>meminta pengesahan dari Pemerintah Daerah atas perubahan rencana teknis bangunan gedung yang terjadi pada tahap pelaksanaan bangunan.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_41">
+                <num>41</num>
+                  <paragraph eId="pasal_41__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Dalam penyelenggaraan bangunan gedung, pemilik dan pengguna bangunan gedung mempunyai hak :</p></intro>
+                      <point eId="pasal_41__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>mengetahui tata cara/proses penyelenggaraan bangunan gedung</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>mendapatkan keterangan tentang peruntukan lokasi dan intensitas bangunan pada lokasi dan/atau ruang tempat bangunan akan dibangun;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>mendapatkan keterangan tentang ketentuan persyaratan keandalan bangunan gedung;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>mendapatkan keterangan tentang ketentuan bangunan gedung yang laik fungsi;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>mendapatkan keterangan tentang bangunan gedung dan/atau lingkungan yang harus dilindungi dan dilestarikan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_41__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Dalam penyelenggaraan bangunan gedung, pemilik dan pengguna bangunan gedung mempunyai kewajiban:</p></intro>
+                      <point eId="pasal_41__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>memanfaatkan bangunan gedung sesuai dengan fungsinya;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>memelihara dan/atau merawat bangunan gedung secara berkala;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>melengkapi pedoman/petunjuk pelaksanaan pemanfaatan dan pemeliharaan bangunan gedung;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>melaksanakan pemeriksaan secara berkala atas kelaikan fungsi bangunan gedung.</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>memperbaiki bangunan gedung yang telah ditetapkan tidak laik fungsi;</p></content>
+                      </point>
+                      <point eId="pasal_41__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>membongkar bangunan gedung yang telah ditetapkan tidak laik fungsi dan tidak dapat diperbaiki, dapat menimbulkan bahaya dalam pemanfaatannya, atau tidak memiliki izin mendirikan bangunan, dengan tidak mengganggu keselamatan dan ketertiban umum.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PERAN MASYARAKAT</heading>
+          <article eId="pasal_42">
+            <num>42</num>
+              <paragraph eId="pasal_42__ayat_1">
+                <num>(1)</num>
+                <intro><p>Peran masyarakat dalam penyelenggaraan bangunan gedung dapat:</p></intro>
+                  <point eId="pasal_42__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>memantau dan menjaga ketertiban penyelenggaraan;</p></content>
+                  </point>
+                  <point eId="pasal_42__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberi masukan kepada Pemerintah dan/atau Pemerintah Daerah dalam penyempurnaan peraturan, pedoman, dan standar teknis di bidang bangunan gedung;</p></content>
+                  </point>
+                  <point eId="pasal_42__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>menyampaikan pendapat dan pertimbangan kepada instansi yang berwenang terhadap penyusunan rencana tata bangunan dan lingkungan, rencana teknis bangunan gedung tertentu, dan kegiatan penyelenggaraan yang menimbulkan dampak penting terhadap lingkungan;</p></content>
+                  </point>
+                  <point eId="pasal_42__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>melaksanakan gugatan perwakilan terhadap bangunan gedung yang mengganggu, merugikan, dan/atau membahayakan kepentingan umum.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_2">
+                <num>(2)</num>
+                <content><p>Ketentuan mengenai peran masyarakat sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PEMBINAAN</heading>
+          <article eId="pasal_43">
+            <num>43</num>
+              <paragraph eId="pasal_43__ayat_1">
+                <num>(1)</num>
+                <content><p>Pemerintah menyelenggarakan pembinaan bangunan gedung secara nasional untuk meningkatkan pemenuhan persyaratan dan tertib penyelenggaraan bangunan gedung.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah Daerah melaksanakan pembinaan penyelenggaraan bangunan gedung sebagaimana dimaksud dalam ayat (1) di daerah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_3">
+                <num>(3)</num>
+                <content><p>Sebagian penyelenggaraan dan pelaksanaan pembinaan sebagaimana dimaksud dalam ayat (1) dan ayat (2) dilakukan bersama-sama dengan masyarakat yang terkait dengan bangunan gedung.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_4">
+                <num>(4)</num>
+                <content><p>Pemerintah Daerah dan masyarakat dalam melaksanakan pembinaan sebagaimana dimaksud dalam ayat (2) dan ayat (3) melakukan pemberdayaan masyarakat yang belum mampu untuk memenuhi persyaratan sebagaimana dimaksud dalam Bab IV.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan mengenai pembinaan bangunan gedung sebagaimana dimaksud dalam ayat (1), ayat (2), ayat (3), dan ayat (4) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>SANKSI</heading>
+          <article eId="pasal_44">
+            <num>44</num>
+            <content><p>Setiap pemilik dan/atau pengguna yang tidak memenuhi kewajiban pemenuhan fungsi, dan/atau persyaratan, dan/atau penyelenggaraan bangunan gedung sebagaimana dimaksud dalam undang-undang ini dikenai sanksi administratif dan/atau sanksi pidana.</p></content>
+          </article>
+          <article eId="pasal_45">
+            <num>45</num>
+              <paragraph eId="pasal_45__ayat_1">
+                <num>(1)</num>
+                <intro><p>Sanksi administratif sebagaimana dimaksud dalam Pasal 44 dapat berupa:</p></intro>
+                  <point eId="pasal_45__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan tertulis,</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pembatasan kegiatan pembangunan,</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>penghentian sementara atau tetap pada pekerjaan pelaksanaan pembangunan,</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>penghentian sementara atau tetap pada pemanfaatan bangunan gedung;</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>pembekuan izin mendirikan bangunan gedung;</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>pencabutan izin mendirikan bangunan gedung;</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>pembekuan sertifikat laik fungsi bangunan gedung;</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>pencabutan sertifikat laik fungsi bangunan gedung; atau</p></content>
+                  </point>
+                  <point eId="pasal_45__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>perintah pembongkaran bangunan gedung.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_2">
+                <num>(2)</num>
+                <content><p>Selain pengenaan sanksi administratif sebagaimana dimaksud dalam ayat (1) dapat dikenai sanksi denda paling banyak 10% (sepuluh per seratus) dari nilai bangunan yang sedang atau telah dibangun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_3">
+                <num>(3)</num>
+                <content><p>Jenis pengenaan sanksi sebagaimana dimaksud dalam ayat (1) dan ayat (2) ditentukan oleh berat dan ringannya pelanggaran yang dilakukan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_45__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan mengenai tata cara pengenaan sanksi sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_46">
+            <num>46</num>
+              <paragraph eId="pasal_46__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap pemilik dan/atau pengguna bangunan gedung yang tidak memenuhi ketentuan dalam undang-undang ini, diancam dengan pidana penjara paling lama 3 (tiga) tahun dan/atau denda paling banyak 10% (sepuluh per seratus) dari nilai bangunan, jika karenanya mengakibatkan kerugian harta benda orang lain.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap pemilik dan/atau pengguna bangunan gedung yang tidak memenuhi ketentuan dalam undang-undang ini, diancam dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak 15% (lima belas per seratus) dari nilai bangunan gedung, jika karenanya mengakibatkan kecelakaan bagi orang lain yang mengakibatkan cacat seumur hidup.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_3">
+                <num>(3)</num>
+                <content><p>Setiap pemilik dan/atau pengguna bangunan gedung yang tidak memenuhi ketentuan dalam undang-undang ini, diancam dengan pidana penjara paling lama 5 (lima) tahun dan/atau denda paling banyak 20% (dua puluh per seratus) dari nilai bangunan gedung, jika karenanya mengakibatkan hilangnya nyawa orang lain.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam proses peradilan atas tindakan sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) hakim memperhatikan pertimbangan dari tim ahli bangunan gedung.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_46__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan mengenai tata cara pengenaan sanksi sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_47">
+            <num>47</num>
+              <paragraph eId="pasal_47__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang atau badan yang karena kelalaiannya melanggar ketentuan yang telah ditetapkan dalam undang-undang ini sehingga mengakibatkan bangunan tidak laik fungsi dapat dipidana kurungan dan/atau pidana denda.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pidana kurungan dan/atau pidana denda sebagaimana dimaksud dalam ayat (1) meliputi:</p></intro>
+                  <point eId="pasal_47__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>pidana kurungan paling lama 1 (satu) tahun dan/atau pidana denda paling banyak 1% (satu per seratus) dari nilai bangunan gedung jika karenanya mengakibatkan kerugian harta benda orang lain;</p></content>
+                  </point>
+                  <point eId="pasal_47__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pidana kurungan paling lama 2 (dua) tahun dan/atau pidana denda paling banyak 2% (dua per seratus) dari nilai bangunan gedung jika karenanya mengakibatkan kecelakaan bagi orang lain sehingga menimbulkan cacat seumur hidup</p></content>
+                  </point>
+                  <point eId="pasal_47__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pidana kurungan paling lama 3 (tiga) tahun dan/atau pidana denda paling banyak 3% (tiga per seratus) dari nilai bangunan gedung jika karenanya mengakibatkan hilangnya nyawa orang lain.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_47__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai tata cara pengenaan sanksi sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_48">
+            <num>48</num>
+              <paragraph eId="pasal_48__ayat_1">
+                <num>(1)</num>
+                <content><p>Peraturan perundang-undangan tentang bangunan gedung yang telah ada dan tidak bertentangan dengan undang-undang ini, dinyatakan tetap berlaku sampai diadakan peraturan pelaksanaan yang baru berdasarkan undang-undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_2">
+                <num>(2)</num>
+                <content><p>Bangunan gedung yang telah memperoleh perizinan yang dikeluarkan oleh Pemerintah Daerah sebelum berlakunya undang-undang ini izinnya dinyatakan masih tetap berlaku.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_48__ayat_3">
+                <num>(3)</num>
+                <content><p>Bangunan gedung yang telah berdiri, tetapi belum memiliki izin mendirikan bangunan pada saat undang-undang ini diberlakukan, untuk memperoleh izin mendirikan bangunan harus mendapatkan sertifikat laik fungsi berdasarkan ketentuan undang-undang ini.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_49">
+            <num>49</num>
+            <content><p>Undang-undang ini mulai berlaku 1 (satu) tahun terhitung sejak diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

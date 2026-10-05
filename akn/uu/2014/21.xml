@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2014/21/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2014/21"/>
+          <FRBRdate date="2014-09-17" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2014/21/ind@2014-09-17/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2014/21/ind@2014-09-17"/>
+          <FRBRdate date="2014-09-17" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2014/21/ind@2014-09-17/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2014/21/ind@2014-09-17.akn"/>
+          <FRBRdate date="2026-10-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 21 Tahun 2014 tentang Panas Bumi</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Panas Bumi adalah sumber energi panas yang terkandung di dalam air panas, uap air, serta batuan bersama mineral ikutan dan gas lainnya yang secara genetik tidak dapat dipisahkan dalam suatu sistem Panas Bumi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Kawasan Hutan adalah wilayah tertentu yang ditetapkan oleh Pemerintah untuk dipertahankan keberadaannya sebagai hutan tetap.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Wilayah Kerja Panas Bumi yang selanjutnya disebut Wilayah Kerja adalah wilayah dengan batas-batas koordinat tertentu digunakan untuk pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Izin Panas Bumi adalah izin melakukan pengusahaan Panas Bumi untuk pemanfaatan tidak langsung pada Wilayah Kerja tertentu.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Izin Pemanfaatan Langsung adalah izin untuk melakukan pengusahaan Panas Bumi untuk Pemanfaatan Langsung pada lokasi tertentu.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Survei Pendahuluan adalah kegiatan yang meliputi pengumpulan, analisis, dan penyajian data yang berhubungan dengan informasi kondisi geologi, geofisika, dan geokimia, serta survei landaian suhu apabila diperlukan, untuk memperkirakan letak serta ada atau tidak adanya sumber daya Panas Bumi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Eksplorasi adalah rangkaian kegiatan yang meliputi penyelidikan geologi, geofisika, geokimia, pengeboran uji, dan pengeboran sumur eksplorasi yang bertujuan untuk memperoleh informasi kondisi geologi bawah permukaan guna menemukan dan mendapatkan perkiraan cadangan Panas Bumi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Studi Kelayakan adalah kajian untuk memperoleh informasi secara terperinci terhadap seluruh aspek yang berkaitan untuk menentukan kelayakan teknis, ekonomis, dan lingkungan atas suatu rencana usaha dan/atau kegiatan pemanfaatan Panas Bumi yang diusulkan.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Eksploitasi adalah rangkaian kegiatan pada Wilayah Kerja tertentu yang meliputi pengeboran sumur pengembangan dan sumur reinjeksi, pembangunan fasilitas lapangan dan penunjangnya, serta operasi produksi Panas Bumi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Pemanfaatan Langsung adalah kegiatan pengusahaan pemanfaatan Panas Bumi secara langsung tanpa melakukan proses pengubahan dari energi panas dan/atau fluida menjadi jenis energi lain untuk keperluan nonlistrik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Pemanfaatan Tidak Langsung adalah kegiatan pengusahaan pemanfaatan Panas Bumi dengan melalui proses pengubahan dari energi panas dan/atau fluida menjadi energi listrik.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Badan Usaha adalah badan hukum yang berusaha di bidang Panas Bumi yang berbentuk badan usaha milik negara, badan usaha milik daerah, koperasi, atau perseroan terbatas dan didirikan berdasarkan hukum Indonesia serta berkedudukan dalam wilayah Negara Kesatuan Republik Indonesia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Setiap Orang adalah orang perseorangan atau korporasi, baik yang berbadan hukum maupun tidak berbadan hukum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Pemerintah Pusat, yang selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Pemerintah Daerah adalah gubernur, bupati, atau wali kota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang Panas Bumi.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>Penyelenggaraan kegiatan Panas Bumi menganut asas:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>manfaat;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>efisiensi;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_c">
+                <num>c.</num>
+                <content><p>keadilan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_d">
+                <num>d.</num>
+                <content><p>pengoptimalan ekonomi dalam pemanfaatan sumber daya energi;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_e">
+                <num>e.</num>
+                <content><p>keterjangkauan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_f">
+                <num>f.</num>
+                <content><p>berkelanjutan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_g">
+                <num>g.</num>
+                <content><p>kemandirian;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_h">
+                <num>h.</num>
+                <content><p>keamanan dan keselamatan; dan</p></content>
+              </point>
+              <point eId="pasal_2__huruf_i">
+                <num>i.</num>
+                <content><p>kelestarian fungsi lingkungan hidup.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Penyelenggaraan kegiatan Panas Bumi bertujuan:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>mengendalikan kegiatan pengusahaan Panas Bumi untuk menunjang ketahanan dan kemandirian energi guna mendukung pembangunan yang berkelanjutan serta memberikan manfaat yang sebesar-besarnya bagi kesejahteraan dan kemakmuran rakyat;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>meningkatkan pemanfaatan energi terbarukan berupa Panas Bumi untuk memenuhi kebutuhan energi nasional; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>meningkatkan pemanfaatan energi bersih yang ramah lingkungan guna mengurangi emisi gas rumah kaca.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <content><p>Panas Bumi merupakan kekayaan nasional yang dikuasai oleh negara dan dipergunakan untuk sebesar- besar kemakmuran rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <content><p>Penguasaan Panas Bumi oleh negara sebagaimana dimaksud pada ayat (1) diselenggarakan oleh Pemerintah, pemerintah provinsi, dan pemerintah kabupaten/kota sesuai dengan kewenangannya dan berdasarkan prinsip pemanfaatan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>KEWENANGAN PENYELENGGARAAN PANAS BUMI</heading>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <intro><p>Penyelenggaraan Panas Bumi oleh Pemerintah sebagaimana dimaksud dalam Pasal 4 ayat (2) dilakukan terhadap:</p></intro>
+                  <point eId="pasal_5__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <intro><p>Panas Bumi untuk Pemanfaatan Langsung yang berada pada:</p></intro>
+                      <point eId="pasal_5__ayat_1__huruf_a__angka_1">
+                        <num>1.</num>
+                        <content><p>lintas wilayah provinsi termasuk Kawasan Hutan produksi dan Kawasan Hutan lindung;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_a__angka_2">
+                        <num>2.</num>
+                        <content><p>Kawasan Hutan konservasi;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_a__angka_3">
+                        <num>3.</num>
+                        <content><p>kawasan konservasi di perairan; dan</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_a__angka_4">
+                        <num>4.</num>
+                        <content><p>wilayah laut lebih dari 12 (dua belas) mil diukur dari garis pantai ke arah laut lepas di seluruh Indonesia.</p></content>
+                      </point>
+
+                  </point>
+                  <point eId="pasal_5__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Panas Bumi untuk Pemanfaatan Tidak Langsung yang berada di seluruh wilayah Indonesia, termasuk Kawasan Hutan produksi, Kawasan Hutan lindung, Kawasan Hutan konservasi, dan wilayah laut.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <intro><p>Penyelenggaraan Panas Bumi oleh pemerintah provinsi sebagaimana dimaksud dalam Pasal 4 ayat (2) dilakukan untuk Pemanfaatan Langsung yang berada pada:</p></intro>
+                  <point eId="pasal_5__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>lintas wilayah kabupaten/kota dalam satu provinsi termasuk Kawasan Hutan produksi dan Kawasan Hutan lindung; dan</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>wilayah laut paling jauh 12 (dua belas) mil diukur dari garis pantai ke arah laut lepas dan/atau ke arah perairan kepulauan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_3">
+                <num>(3)</num>
+                <intro><p>Penyelenggaraan Panas Bumi oleh pemerintah kabupaten/kota sebagaimana dimaksud dalam Pasal 4 ayat (2) dilakukan untuk Pemanfaatan Langsung yang berada pada:</p></intro>
+                  <point eId="pasal_5__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>wilayah kabupaten/kota termasuk Kawasan Hutan produksi dan Kawasan Hutan lindung; dan</p></content>
+                  </point>
+                  <point eId="pasal_5__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>wilayah laut paling jauh 1/3 (satu per tiga) dari wilayah laut kewenangan provinsi.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+              <paragraph eId="pasal_6__ayat_1">
+                <num>(1)</num>
+                <intro><p>Kewenangan Pemerintah dalam penyelenggaraan Panas Bumi sebagaimana dimaksud dalam Pasal 5 ayat (1) meliputi:</p></intro>
+                  <point eId="pasal_6__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>pembuatan kebijakan nasional;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengaturan di bidang Panas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>pemberian Izin Panas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>pemberian Izin Pemanfaatan Langsung pada wilayah yang menjadi kewenangannya;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>pembinaan dan pengawasan;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>pengelolaan data dan informasi geologi serta potensi Panas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>inventarisasi dan penyusunan neraca sumber daya dan cadangan Panas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>pelaksanaan Eksplorasi, Eksploitasi, dan/atau pemanfaatan Panas Bumi; dan</p></content>
+                  </point>
+                  <point eId="pasal_6__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>pendorongan kegiatan penelitian, pengembangan dan kemampuan perekayasaan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_6__ayat_2">
+                <num>(2)</num>
+                <content><p>Kewenangan Pemerintah dalam penyelenggaraan Panas Bumi sebagaimana dimaksud pada ayat (1) dilaksanakan dan/atau dikoordinasikan oleh Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+            <intro><p>Kewenangan pemerintah provinsi dalam penyelenggaraan Panas Bumi sebagaimana dimaksud dalam Pasal 5 ayat (2) meliputi:</p></intro>
+              <point eId="pasal_7__huruf_a">
+                <num>a.</num>
+                <content><p>pembentukan peraturan perundang-undangan daerah provinsi di bidang Panas Bumi untuk Pemanfaatan Langsung;</p></content>
+              </point>
+              <point eId="pasal_7__huruf_b">
+                <num>b.</num>
+                <content><p>pemberian Izin Pemanfaatan Langsung pada wilayah yang menjadi kewenangannya;</p></content>
+              </point>
+              <point eId="pasal_7__huruf_c">
+                <num>c.</num>
+                <content><p>pembinaan dan pengawasan;</p></content>
+              </point>
+              <point eId="pasal_7__huruf_d">
+                <num>d.</num>
+                <content><p>pengelolaan data dan informasi geologi serta potensi Panas Bumi pada wilayah provinsi; dan</p></content>
+              </point>
+              <point eId="pasal_7__huruf_e">
+                <num>e.</num>
+                <content><p>inventarisasi dan penyusunan neraca sumber daya dan cadangan Panas Bumi pada wilayah provinsi.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+            <intro><p>Kewenangan pemerintah kabupaten/kota dalam penyelenggaraan Panas Bumi sebagaimana dimaksud dalam Pasal 5 ayat (3) meliputi:</p></intro>
+              <point eId="pasal_8__huruf_a">
+                <num>a.</num>
+                <content><p>pembentukan peraturan perundang-undangan daerah kabupaten/kota di bidang Panas Bumi untuk Pemanfaatan Langsung;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_b">
+                <num>b.</num>
+                <content><p>pemberian Izin Pemanfaatan Langsung pada wilayah yang menjadi kewenangannya;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_c">
+                <num>c.</num>
+                <content><p>pembinaan dan pengawasan;</p></content>
+              </point>
+              <point eId="pasal_8__huruf_d">
+                <num>d.</num>
+                <content><p>pengelolaan data dan informasi geologi serta potensi Panas Bumi pada wilayah kabupaten/kota; dan</p></content>
+              </point>
+              <point eId="pasal_8__huruf_e">
+                <num>e.</num>
+                <content><p>inventarisasi dan penyusunan neraca sumber daya dan cadangan Panas Bumi pada wilayah kabupaten/kota.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PENGUSAHAAN PANAS BUMI</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengusahaan Panas Bumi terdiri atas:</p></intro>
+                      <point eId="pasal_9__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>pengusahaan Panas Bumi untuk Pemanfaatan Langsung; dan</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pengusahaan Panas Bumi untuk Pemanfaatan Langsung sebagaimana dimaksud pada ayat (1) huruf a digunakan untuk:</p></intro>
+                      <point eId="pasal_9__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>wisata;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>agrobisnis;</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>industri; dan</p></content>
+                      </point>
+                      <point eId="pasal_9__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>kegiatan lain yang menggunakan Panas Bumi untuk Pemanfaatan Langsung.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal pengusahaan Panas Bumi untuk Pemanfaatan Langsung sebagaimana dimaksud pada ayat (1) huruf a berada di dalam Kawasan Hutan konservasi, pengusahaan Panas Bumi hanya dapat digunakan untuk kegiatan wisata alam.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung sebagaimana dimaksud pada ayat (1) huruf b digunakan untuk pembangkitan tenaga listrik untuk kepentingan sendiri atau kepentingan umum.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                <content><p>Pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung menjadi prioritas utama dalam pengusahaan Panas Bumi.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pengusahaan Panas Bumi untuk Pemanfaatan Langsung</heading>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Orang yang melakukan pengusahaan Panas Bumi untuk Pemanfaatan Langsung sebagaimana dimaksud dalam Pasal 9 ayat (1) huruf a wajib terlebih dahulu memiliki Izin Pemanfaatan Langsung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Izin Pemanfaatan Langsung sebagaimana dimaksud pada ayat (1) diberikan oleh Menteri untuk Pemanfaatan Langsung yang berada pada:</p></intro>
+                      <point eId="pasal_11__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>lintas wilayah provinsi termasuk Kawasan Hutan produksi dan Kawasan Hutan lindung;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>Kawasan Hutan konservasi;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>kawasan konservasi di perairan; dan</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>wilayah laut lebih dari 12 (dua belas) mil diukur dari garis pantai ke arah laut lepas di seluruh Indonesia.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <intro><p>Izin Pemanfaatan Langsung sebagaimana dimaksud pada ayat (1) diberikan oleh gubernur untuk Pemanfaatan Langsung yang berada pada:</p></intro>
+                      <point eId="pasal_11__ayat_3__huruf_a">
+                        <num>a.</num>
+                        <content><p>lintas wilayah kabupaten/kota dalam satu provinsi termasuk Kawasan Hutan produksi dan Kawasan Hutan lindung; dan</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_3__huruf_b">
+                        <num>b.</num>
+                        <content><p>wilayah laut paling jauh 12 (dua belas) mil diukur dari garis pantai ke arah laut lepas dan/atau ke arah perairan kepulauan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Izin Pemanfaatan Langsung sebagaimana dimaksud pada ayat (1) diberikan oleh bupati/wali kota untuk Pemanfaatan Langsung yang berada pada:</p></intro>
+                      <point eId="pasal_11__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>wilayah kabupaten/kota termasuk Kawasan Hutan produksi dan Kawasan Hutan lindung; dan</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>wilayah laut paling jauh 1/3 (satu per tiga) dari wilayah laut kewenangan provinsi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Izin Pemanfaatan Langsung sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) diberikan berdasarkan permohonan dari Setiap Orang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Izin Pemanfaatan Langsung diberikan setelah Setiap Orang sebagaimana dimaksud pada ayat (5) mendapat izin lingkungan sesuai dengan ketentuan peraturan perundang-undangan di bidang perlindungan dan pengelolaan lingkungan hidup.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_7">
+                    <num>(7)</num>
+                    <content><p>Dalam hal kegiatan pengusahaan Panas Bumi untuk Pemanfaatan Langsung sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) berada di Kawasan Hutan, pemegang Izin Pemanfaatan Langsung wajib mendapatkan izin dari menteri yang menyelenggarakan urusan pemerintahan di bidang kehutanan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Dalam hal pengusahaan Panas Bumi untuk Pemanfaatan Langsung dilakukan pada wilayah yang ditetapkan sebagai Wilayah Kerja, gubernur atau bupati/wali kota sebelum memberikan Izin Pemanfaatan Langsung sebagaimana dimaksud dalam Pasal 11 ayat (3) dan ayat (4) wajib mendapatkan persetujuan Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal akan dilaksanakan pengusahaan Panas Bumi untuk Pemanfaatan Langsung pada wilayah yang belum ditetapkan sebagai Wilayah Kerja, gubernur atau bupati/wali kota sebelum memberikan Izin Pemanfaatan Langsung sebagaimana dimaksud dalam Pasal 11 ayat (3) dan ayat (4) harus berkoordinasi dengan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Orang yang memegang Izin Pemanfaatan Langsung wajib melakukan pengusahaan Panas Bumi untuk Pemanfaatan Langsung pada lokasi yang ditetapkan dalam izin.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Setiap Orang yang memegang Izin Pemanfaatan Langsung wajib melakukan pengusahaan Panas Bumi sesuai dengan peruntukannya.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                <content><p>Harga energi Panas Bumi untuk Pemanfaatan Langsung diatur oleh Pemerintah.</p></content>
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                <content><p>Ketentuan lebih lanjut mengenai pengusahaan Panas Bumi untuk Pemanfaatan Langsung sebagaimana dimaksud dalam Pasal 11 dan Pasal 12 serta pengaturan harga energi Panas Bumi sebagaimana dimaksud dalam Pasal 14 diatur dalam Peraturan Pemerintah.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung</heading>
+              <subpart eId="bab_3__bagian_ketiga__paragraf_1">
+                <num>1</num>
+                <heading>Wilayah Kerja</heading>
+                  <article eId="pasal_16">
+                    <num>16</num>
+                      <paragraph eId="pasal_16__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Menteri menetapkan Wilayah Kerja pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_16__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Wilayah Kerja sebagaimana dimaksud pada ayat (1) dapat ditetapkan pada tanah negara, hak atas tanah, tanah ulayat, kawasan perairan, dan/atau Kawasan Hutan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_17">
+                    <num>17</num>
+                      <paragraph eId="pasal_17__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Penetapan Wilayah Kerja oleh Menteri sebagaimana dimaksud dalam Pasal 16 ayat (1) dilakukan berdasarkan hasil Survei Pendahuluan atau Survei Pendahuluan dan Eksplorasi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Menteri melakukan Survei Pendahuluan atau Survei Pendahuluan dan Eksplorasi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Survei Pendahuluan sebagaimana dimaksud pada ayat (2) dapat dilakukan oleh gubernur atau bupati/wali kota.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Dalam melakukan Survei Pendahuluan atau Survei Pendahuluan dan Eksplorasi sebagaimana dimaksud pada ayat (2), Menteri dapat menugasi pihak lain.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_17__ayat_5">
+                        <num>(5)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai Survei Pendahuluan atau Eksplorasi dan tata cara penugasan diatur dalam Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_18">
+                    <num>18</num>
+                      <paragraph eId="pasal_18__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Menteri melakukan penawaran Wilayah Kerja secara lelang.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_18__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan mengenai tata cara, syarat penawaran, prosedur, penyiapan dokumen, dan pelaksanaan lelang sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_19">
+                    <num>19</num>
+                      <paragraph eId="pasal_19__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Luas Wilayah Kerja ditetapkan dengan memperhatikan sistem Panas Bumi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_19__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan mengenai luas Wilayah Kerja sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_3__bagian_ketiga__paragraf_2">
+                <num>2</num>
+                <heading>Kegiatan Pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung</heading>
+                  <article eId="pasal_20">
+                    <num>20</num>
+                      <paragraph eId="pasal_20__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Kegiatan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung meliputi:</p></intro>
+                          <point eId="pasal_20__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>Eksplorasi;</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>Eksploitasi; dan</p></content>
+                          </point>
+                          <point eId="pasal_20__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>pemanfaatan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Badan Usaha pemegang Izin Panas Bumi wajib melakukan Eksplorasi, Eksploitasi, dan pemanfaatan sebagaimana dimaksud pada ayat (1) pada Wilayah Kerjanya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Kegiatan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung sebagaimana dimaksud pada ayat (1) dilakukan secara terpadu atau secara terpisah.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_20__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Pemanfaatan sebagaimana dimaksud pada ayat (1) huruf c untuk pembangkitan tenaga listrik untuk kepentingan sendiri atau kepentingan umum dilakukan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_21">
+                    <num>21</num>
+                    <content><p>Dalam melaksanakan kegiatan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung sebagaimana dimaksud dalam Pasal 20, Badan Usaha pemegang Izin Panas Bumi harus mengikuti kaidah keteknikan, keuangan, dan pengelolaan yang sesuai dengan standar nasional serta menjunjung tinggi etika bisnis.</p></content>
+                  </article>
+                  <article eId="pasal_22">
+                    <num>22</num>
+                      <paragraph eId="pasal_22__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Harga energi Panas Bumi untuk Pemanfaatan Tidak Langsung ditetapkan oleh Pemerintah dengan mempertimbangkan harga keekonomian.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_22__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Ketentuan mengenai tata cara penetapan harga sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_3__bagian_ketiga__paragraf_3">
+                <num>3</num>
+                <heading>Izin Panas Bumi</heading>
+                  <article eId="pasal_23">
+                    <num>23</num>
+                      <paragraph eId="pasal_23__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Badan Usaha yang melakukan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung sebagaimana dimaksud dalam Pasal 9 ayat (1) huruf b wajib terlebih dahulu memiliki Izin Panas Bumi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_23__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Izin Panas Bumi sebagaimana dimaksud pada ayat (1) diberikan oleh Menteri kepada Badan Usaha berdasarkan hasil penawaran Wilayah Kerja.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_24">
+                    <num>24</num>
+                      <paragraph eId="pasal_24__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Izin Panas Bumi sebagaimana dimaksud dalam Pasal 23 ayat (2) harus memuat ketentuan paling sedikit:</p></intro>
+                          <point eId="pasal_24__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>nama Badan Usaha;</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>nomor pokok wajib pajak Badan Usaha;</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_1__huruf_c">
+                            <num>c.</num>
+                            <content><p>jenis kegiatan pengusahaan;</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_1__huruf_d">
+                            <num>d.</num>
+                            <content><p>jangka waktu berlakunya Izin Panas Bumi;</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_1__huruf_e">
+                            <num>e.</num>
+                            <content><p>hak dan kewajiban pemegang Izin Panas Bumi;</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_1__huruf_f">
+                            <num>f.</num>
+                            <content><p>Wilayah Kerja; dan</p></content>
+                          </point>
+                          <point eId="pasal_24__ayat_1__huruf_g">
+                            <num>g.</num>
+                            <content><p>tahapan pengembalian Wilayah Kerja.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Dalam hal kegiatan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung berada di Kawasan Hutan, pemegang Izin Panas Bumi wajib:</p></intro>
+                          <point eId="pasal_24__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <intro><p>mendapatkan:</p></intro>
+                              <point eId="pasal_24__ayat_2__huruf_a__angka_1">
+                                <num>1.</num>
+                                <content><p>izin pinjam pakai untuk menggunakan Kawasan Hutan produksi atau Kawasan Hutan lindung; atau</p></content>
+                              </point>
+                              <point eId="pasal_24__ayat_2__huruf_a__angka_2">
+                                <num>2.</num>
+                                <content><p>izin untuk memanfaatkan Kawasan Hutan konservasi, dari menteri yang menyelenggarakan urusan pemerintahan di bidang kehutanan; dan</p></content>
+                              </point>
+
+                          </point>
+                          <point eId="pasal_24__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>melaksanakan kegiatan pengusahaan Panas Bumi dengan memperhatikan tujuan utama pengelolaan hutan lestari sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_24__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Izin memanfaatkan kawasan sebagaimana dimaksud pada ayat (2) huruf a angka 2 dilakukan melalui izin pemanfaatan jasa lingkungan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_25">
+                    <num>25</num>
+                    <content><p>Dalam hal kegiatan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung berada pada wilayah konservasi di perairan, pemegang Izin Panas Bumi wajib mendapatkan izin dari menteri yang menyelenggarakan urusan pemerintahan di bidang kelautan.</p></content>
+                  </article>
+                  <article eId="pasal_26">
+                    <num>26</num>
+                      <paragraph eId="pasal_26__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Badan Usaha pemegang Izin Panas Bumi wajib menggunakan izin sesuai dengan peruntukannya.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_26__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Badan Usaha pemegang Izin Panas Bumi wajib mengembalikan secara bertahap sebagian atau seluruh Wilayah Kerja kepada Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_27">
+                    <num>27</num>
+                      <paragraph eId="pasal_27__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Izin Panas Bumi dilarang dialihkan kepada Badan Usaha lain.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pemegang Izin Panas Bumi dapat mengalihkan kepemilikan saham di bursa Indonesia setelah selesai melakukan Eksplorasi.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_27__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pengalihan kepemilikan saham sebagaimana dimaksud pada ayat (2) wajib mendapat persetujuan Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_28">
+                    <num>28</num>
+                    <content><p>Pemerintah dalam melakukan Eksplorasi, Eksploitasi, dan/atau pemanfaatan dapat menugasi badan layanan umum atau badan usaha milik negara yang berusaha di bidang Panas Bumi.</p></content>
+                  </article>
+                  <article eId="pasal_29">
+                    <num>29</num>
+                      <paragraph eId="pasal_29__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Izin Panas Bumi memiliki jangka waktu paling lama 37 (tiga puluh tujuh) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Menteri dapat memberikan perpanjangan Izin Panas Bumi untuk jangka waktu paling lama 20 (dua puluh) tahun setiap kali perpanjangan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Pemegang Izin Panas Bumi dapat mengajukan perpanjangan Izin Panas Bumi sebagaimana dimaksud pada ayat (2) paling cepat 5 (lima) tahun dan paling lambat 3 (tiga) tahun sebelum Izin Panas Bumi berakhir.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_29__ayat_4">
+                        <num>(4)</num>
+                        <content><p>Menteri wajib memberikan persetujuan atau penolakan terhadap permohonan perpanjangan Izin Panas Bumi paling lambat 1 (satu) tahun sejak persyaratan permohonan diajukan secara lengkap.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_30">
+                    <num>30</num>
+                    <content><p>Izin Panas Bumi diberikan untuk melakukan Eksplorasi, Eksploitasi, dan pemanfaatan.</p></content>
+                  </article>
+                  <article eId="pasal_31">
+                    <num>31</num>
+                      <paragraph eId="pasal_31__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Eksplorasi sebagaimana dimaksud dalam Pasal 30 memiliki jangka waktu paling lama 5 (lima) tahun sejak Izin Panas Bumi diterbitkan dan dapat diperpanjang 2 (dua) kali, masing-masing selama 1 (satu) tahun.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_31__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Jangka waktu Eksplorasi sebagaimana dimaksud pada ayat (1) termasuk untuk kegiatan Studi Kelayakan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_31__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Sebelum melakukan pengeboran sumur Eksplorasi, pemegang Izin Panas Bumi wajib memiliki izin lingkungan sesuai dengan ketentuan peraturan perundang-undangan di bidang perlindungan dan pengelolaan lingkungan hidup.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_32">
+                    <num>32</num>
+                      <paragraph eId="pasal_32__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Eksploitasi dan pemanfaatan sebagaimana dimaksud dalam Pasal 30 memiliki jangka waktu paling lama 30 (tiga puluh) tahun sejak Studi Kelayakan disetujui oleh Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_32__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Sebelum melakukan Eksploitasi dan pemanfaatan, pemegang Izin Panas Bumi wajib:</p></intro>
+                          <point eId="pasal_32__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>memiliki izin lingkungan sesuai dengan ketentuan peraturan perundang-undangan di bidang perlindungan dan pengelolaan lingkungan hidup yang termasuk dalam Studi Kelayakan; dan</p></content>
+                          </point>
+                          <point eId="pasal_32__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>menyampaikan hasil Studi Kelayakan kepada Menteri untuk mendapatkan persetujuan.</p></content>
+                          </point>
+
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_33">
+                    <num>33</num>
+                    <intro><p>Izin Panas Bumi berakhir karena:</p></intro>
+                      <point eId="pasal_33__huruf_a">
+                        <num>a.</num>
+                        <content><p>habis masa berlakunya;</p></content>
+                      </point>
+                      <point eId="pasal_33__huruf_b">
+                        <num>b.</num>
+                        <content><p>dikembalikan;</p></content>
+                      </point>
+                      <point eId="pasal_33__huruf_c">
+                        <num>c.</num>
+                        <content><p>dicabut; atau</p></content>
+                      </point>
+                      <point eId="pasal_33__huruf_d">
+                        <num>d.</num>
+                        <content><p>dibatalkan.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_34">
+                    <num>34</num>
+                    <intro><p>Izin Panas Bumi berakhir karena habis masa berlakunya sebagaimana dimaksud dalam Pasal 33 huruf a jika:</p></intro>
+                      <point eId="pasal_34__huruf_a">
+                        <num>a.</num>
+                        <content><p>permohonan perpanjangan Izin Panas Bumi tidak diajukan; atau</p></content>
+                      </point>
+                      <point eId="pasal_34__huruf_b">
+                        <num>b.</num>
+                        <content><p>permohonan perpanjangan Izin Panas Bumi diajukan tetapi ditolak.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_35">
+                    <num>35</num>
+                      <paragraph eId="pasal_35__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Izin Panas Bumi berakhir karena dikembalikan sebagaimana dimaksud dalam Pasal 33 huruf b dilakukan melalui permohonan tertulis dari pemegang Izin Panas Bumi kepada Menteri disertai alasan yang jelas.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_35__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Pengembalian Izin Panas Bumi sebagaimana dimaksud pada ayat (1) dinyatakan sah setelah disetujui oleh Menteri.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_36">
+                    <num>36</num>
+                      <paragraph eId="pasal_36__ayat_1">
+                        <num>(1)</num>
+                        <intro><p>Menteri dapat mencabut Izin Panas Bumi sebagaimana dimaksud dalam Pasal 33 huruf c jika pemegang Izin Panas Bumi:</p></intro>
+                          <point eId="pasal_36__ayat_1__huruf_a">
+                            <num>a.</num>
+                            <content><p>melakukan pelanggaran terhadap salah satu ketentuan yang tercantum dalam Izin Panas Bumi; dan/atau</p></content>
+                          </point>
+                          <point eId="pasal_36__ayat_1__huruf_b">
+                            <num>b.</num>
+                            <content><p>tidak memenuhi ketentuan peraturan perundang- undangan.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_36__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Sebelum melaksanakan pencabutan Izin Panas Bumi sebagaimana dimaksud pada ayat (1), Menteri terlebih dahulu memberikan kesempatan dalam jangka waktu 6 (enam) bulan kepada pemegang Izin Panas Bumi untuk memenuhi ketentuan yang ditetapkan.</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_37">
+                    <num>37</num>
+                    <intro><p>Menteri dapat membatalkan Izin Panas Bumi sebagaimana dimaksud dalam Pasal 33 huruf d jika:</p></intro>
+                      <point eId="pasal_37__huruf_a">
+                        <num>a.</num>
+                        <content><p>pemegang Izin Panas Bumi memberikan data, informasi, atau keterangan yang tidak benar dalam permohonan; atau</p></content>
+                      </point>
+                      <point eId="pasal_37__huruf_b">
+                        <num>b.</num>
+                        <content><p>Izin Panas Bumi dinyatakan batal berdasarkan putusan pengadilan.</p></content>
+                      </point>
+
+                  </article>
+                  <article eId="pasal_38">
+                    <num>38</num>
+                      <paragraph eId="pasal_38__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Dalam hal Izin Panas Bumi berakhir karena alasan sebagaimana dimaksud dalam Pasal 33, pemegang Izin Panas Bumi wajib memenuhi dan menyelesaikan segala kewajibannya sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_2">
+                        <num>(2)</num>
+                        <content><p>Kewajiban pemegang Izin Panas Bumi sebagaimana dimaksud pada ayat (1) dinyatakan telah terpenuhi setelah mendapatkan persetujuan dari Menteri.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_38__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Menteri menetapkan persetujuan pengakhiran Izin Panas Bumi setelah pemegang Izin Panas Bumi melaksanakan pemulihan fungsi lingkungan di Wilayah Kerjanya serta kewajiban lainnya sebagaimana dimaksud pada ayat (1).</p></content>
+                      </paragraph>
+
+                  </article>
+                  <article eId="pasal_39">
+                    <num>39</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Izin Panas Bumi diatur dalam Peraturan Pemerintah.</p></content>
+                  </article>
+
+              </subpart>
+              <subpart eId="bab_3__bagian_ketiga__paragraf_4">
+                <num>4</num>
+                <heading>Sanksi Administratif</heading>
+                  <article eId="pasal_40">
+                    <num>40</num>
+                      <paragraph eId="pasal_40__ayat_1">
+                        <num>(1)</num>
+                        <content><p>Badan Usaha pemegang Izin Panas Bumi yang tidak memenuhi atau melanggar ketentuan sebagaimana dimaksud dalam Pasal 26 ayat (2), Pasal 27 ayat (1) dan ayat (3), Pasal 31 ayat (3), dan/atau Pasal 32 ayat (2) dikenai sanksi administratif.</p></content>
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_2">
+                        <num>(2)</num>
+                        <intro><p>Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa:</p></intro>
+                          <point eId="pasal_40__ayat_2__huruf_a">
+                            <num>a.</num>
+                            <content><p>peringatan tertulis;</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_2__huruf_b">
+                            <num>b.</num>
+                            <content><p>penghentian sementara seluruh kegiatan Eksplorasi, Eksploitasi, atau pemanfaatan; dan/atau</p></content>
+                          </point>
+                          <point eId="pasal_40__ayat_2__huruf_c">
+                            <num>c.</num>
+                            <content><p>pencabutan Izin Panas Bumi.</p></content>
+                          </point>
+
+                      </paragraph>
+                      <paragraph eId="pasal_40__ayat_3">
+                        <num>(3)</num>
+                        <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+                      </paragraph>
+
+                  </article>
+
+              </subpart>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENGGUNAAN LAHAN</heading>
+          <article eId="pasal_41">
+            <num>41</num>
+            <content><p>Hak atas Wilayah Kerja tidak meliputi hak atas tanah permukaan bumi.</p></content>
+          </article>
+          <article eId="pasal_42">
+            <num>42</num>
+              <paragraph eId="pasal_42__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal akan menggunakan bidang-bidang tanah negara, hak atas tanah, tanah ulayat, dan/atau Kawasan Hutan di dalam Wilayah Kerja, pemegang Izin Pemanfaatan Langsung atau pemegang Izin Panas Bumi harus terlebih dahulu melakukan penyelesaian penggunaan lahan dengan pemakai tanah di atas tanah negara atau pemegang hak atau izin di bidang kehutanan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam hal Menteri melakukan Eksplorasi untuk menetapkan Wilayah Kerja sebagaimana dimaksud dalam Pasal 17 ayat (1), sebelum melakukan Eksplorasi, Menteri melakukan penyelesaian penggunaan lahan dengan pemakai tanah di atas tanah negara atau pemegang hak atau izin di bidang kehutanan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_3">
+                <num>(3)</num>
+                <content><p>Penyelesaian sebagaimana dimaksud pada ayat (1) dan ayat (2) dilakukan secara musyawarah dan mufakat dengan cara jual beli, tukar-menukar, ganti rugi yang layak, pengakuan atau bentuk penggantian lain kepada pemakai tanah di atas tanah negara atau pemegang hak.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_42__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal kegiatan pengusahaan Panas Bumi dilakukan oleh badan usaha milik negara yang mendapat penugasan khusus dari Pemerintah, penyediaan tanah dilakukan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_43">
+            <num>43</num>
+              <paragraph eId="pasal_43__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pemegang Izin Pemanfaatan Langsung atau Pemegang Izin Panas Bumi sebelum melakukan pengusahaan Panas Bumi di atas tanah negara, hak atas tanah, tanah ulayat, dan/atau Kawasan Hutan harus:</p></intro>
+                  <point eId="pasal_43__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <intro><p>memperlihatkan:</p></intro>
+                      <point eId="pasal_43__ayat_1__huruf_a__angka_1">
+                        <num>1.</num>
+                        <content><p>Izin Pemanfaatan Langsung atau salinan yang sah; atau</p></content>
+                      </point>
+                      <point eId="pasal_43__ayat_1__huruf_a__angka_2">
+                        <num>2.</num>
+                        <content><p>Izin Panas Bumi atau salinan yang sah;</p></content>
+                      </point>
+
+                  </point>
+                  <point eId="pasal_43__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>memberitahukan maksud dan tempat kegiatan yang akan dilakukan; dan</p></content>
+                  </point>
+                  <point eId="pasal_43__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan penyelesaian atau jaminan penyelesaian yang disetujui oleh pemakai tanah di atas tanah negara dan/atau pemegang hak sebagaimana dimaksud dalam Pasal 42.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_43__ayat_2">
+                <num>(2)</num>
+                <content><p>Jika pemegang Izin Pemanfaatan Langsung atau pemegang Izin Panas Bumi telah memenuhi ketentuan sebagaimana dimaksud pada ayat (1), pemakai tanah di atas tanah negara dan/atau pemegang hak wajib mengizinkan pemegang Izin Pemanfaatan Langsung atau pemegang Izin Panas Bumi untuk melaksanakan pengusahaan Panas Bumi di atas tanah yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_44">
+            <num>44</num>
+            <content><p>Dalam hal pemegang Izin Panas Bumi telah diberi Wilayah Kerja terhadap bidang tanah yang dipergunakan langsung untuk pengusahaan Panas Bumi dan area pengamanannya, pemegang Izin Panas Bumi diberi hak pakai atas tanah sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+          </article>
+          <article eId="pasal_45">
+            <num>45</num>
+            <content><p>Penyelesaian penggunaan tanah negara, hak atas tanah, tanah ulayat, dan/atau Kawasan Hutan sebagaimana dimaksud dalam Pasal 42 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+          </article>
+          <article eId="pasal_46">
+            <num>46</num>
+            <intro><p>Setiap Orang dilarang menghalangi atau merintangi pengusahaan Panas Bumi yang telah memegang:</p></intro>
+              <point eId="pasal_46__huruf_a">
+                <num>a.</num>
+                <content><p>Izin Pemanfaatan Langsung; atau</p></content>
+              </point>
+              <point eId="pasal_46__huruf_b">
+                <num>b.</num>
+                <content><p>Izin Panas Bumi dan telah menyelesaikan kewajiban sebagaimana dimaksud dalam Pasal 42.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>HAK DAN KEWAJIBAN</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Hak Pemegang Izin Pemanfaatan Langsung</heading>
+              <article eId="pasal_47">
+                <num>47</num>
+                <content><p>Pemegang Izin Pemanfaatan Langsung berhak melakukan pengusahaan Panas Bumi sesuai dengan izin yang diberikan.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Kewajiban Pemegang Izin Pemanfaatan Langsung</heading>
+              <article eId="pasal_48">
+                <num>48</num>
+                <intro><p>Pemegang Izin Pemanfaatan Langsung wajib:</p></intro>
+                  <point eId="pasal_48__huruf_a">
+                    <num>a.</num>
+                    <content><p>memahami dan menaati peraturan perundang- undangan di bidang keselamatan dan kesehatan kerja serta perlindungan dan pengelolaan lingkungan hidup dan memenuhi standar yang berlaku;</p></content>
+                  </point>
+                  <point eId="pasal_48__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan pengendalian pencemaran dan/atau kerusakan lingkungan hidup yang meliputi kegiatan pencegahan, penanggulangan, dan pemulihan fungsi lingkungan hidup;</p></content>
+                  </point>
+                  <point eId="pasal_48__huruf_c">
+                    <num>c.</num>
+                    <content><p>menyampaikan rencana kerja dan rencana anggaran kepada Menteri, gubernur, atau bupati/wali kota sesuai dengan kewenangannya; dan</p></content>
+                  </point>
+                  <point eId="pasal_48__huruf_d">
+                    <num>d.</num>
+                    <content><p>menyampaikan laporan tertulis secara berkala atas pelaksanaan rencana kerja dan rencana anggaran serta kegiatan pengusahaan Panas Bumi untuk Pemanfaatan Langsung kepada Menteri, gubernur, atau bupati/wali kota sesuai dengan kewenangannya.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_49">
+                <num>49</num>
+                  <paragraph eId="pasal_49__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pemegang Izin Pemanfaatan Langsung wajib memenuhi kewajiban berupa:</p></intro>
+                      <point eId="pasal_49__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>iuran produksi;</p></content>
+                      </point>
+                      <point eId="pasal_49__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pajak daerah; dan</p></content>
+                      </point>
+                      <point eId="pasal_49__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>retribusi daerah.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_49__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Kewajiban pemenuhan pajak daerah sebagaimana dimaksud pada ayat (1) huruf b dan retribusi daerah sebagaimana dimaksud pada ayat (1) huruf c dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_50">
+                <num>50</num>
+                  <paragraph eId="pasal_50__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap Orang pemegang Izin Pemanfaatan Langsung yang tidak memenuhi atau melanggar ketentuan sebagaimana dimaksud dalam Pasal 48 huruf b, huruf c, huruf d, dan/atau Pasal 49 ayat (1) dikenai sanksi administratif.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_50__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa:</p></intro>
+                      <point eId="pasal_50__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>peringatan tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_50__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>penghentian sementara seluruh kegiatan pengusahaan Panas Bumi untuk Pemanfaatan Langsung; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_50__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pencabutan Izin Pemanfaatan Langsung.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_50__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Hak Pemegang Izin Panas Bumi</heading>
+              <article eId="pasal_51">
+                <num>51</num>
+                <intro><p>Pemegang Izin Panas Bumi berhak:</p></intro>
+                  <point eId="pasal_51__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung yang berupa Eksplorasi, Eksploitasi, dan pemanfaatan di Wilayah Kerjanya sesuai dengan Izin Panas Bumi yang diberikan;</p></content>
+                  </point>
+                  <point eId="pasal_51__huruf_b">
+                    <num>b.</num>
+                    <content><p>menggunakan data dan informasi selama jangka waktu berlakunya Izin Panas Bumi di Wilayah Kerjanya.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Kewajiban Pemegang Izin Panas Bumi</heading>
+              <article eId="pasal_52">
+                <num>52</num>
+                  <paragraph eId="pasal_52__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pemegang Izin Panas Bumi wajib:</p></intro>
+                      <point eId="pasal_52__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>memahami dan menaati peraturan perundang- undangan di bidang keselamatan dan kesehatan kerja serta perlindungan dan pengelolaan lingkungan hidup dan memenuhi standar yang berlaku;</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>melakukan pengendalian pencemaran dan/atau kerusakan lingkungan hidup yang meliputi kegiatan pencegahan, penanggulangan, dan pemulihan fungsi lingkungan hidup;</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>melaksanakan Eksplorasi, Eksploitasi, dan pemanfaatan sesuai dengan kaidah teknis yang baik dan benar;</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>mengutamakan pemanfaatan barang, jasa, serta kemampuan rekayasa dan rancang bangun dalam negeri secara transparan dan bersaing;</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>memberikan dukungan terhadap kegiatan penelitian dan pengembangan ilmu pengetahuan dan teknologi Panas Bumi;</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_f">
+                        <num>f.</num>
+                        <content><p>memberikan dukungan terhadap kegiatan penciptaan, pengembangan kompetensi, dan pembinaan sumber daya manusia di bidang Panas Bumi;</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_g">
+                        <num>g.</num>
+                        <content><p>melaksanakan program pengembangan dan pemberdayaan masyarakat setempat;</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_h">
+                        <num>h.</num>
+                        <content><p>menyampaikan rencana jangka panjang Eksplorasi, Eksploitasi, dan pemanfaatan kepada Menteri yang mencakup rencana kegiatan dan rencana anggaran serta menyampaikan besarnya cadangan;</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_i">
+                        <num>i.</num>
+                        <content><p>menyelenggarakan pembukuan atau pencatatan dengan memperhatikan itikad baik dan mencerminkan keadaan atau kegiatan usaha yang sebenarnya; dan</p></content>
+                      </point>
+                      <point eId="pasal_52__ayat_1__huruf_j">
+                        <num>j.</num>
+                        <intro><p>menyampaikan laporan tertulis pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung kepada Menteri secara berkala atas:</p></intro>
+                          <point eId="pasal_52__ayat_1__huruf_j__angka_1">
+                            <num>1.</num>
+                            <content><p>rencana kerja dan rencana anggaran; dan</p></content>
+                          </point>
+                          <point eId="pasal_52__ayat_1__huruf_j__angka_2">
+                            <num>2.</num>
+                            <content><p>realisasi pelaksanaan rencana kerja dan rencana anggaran.</p></content>
+                          </point>
+
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_52__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai kewajiban pemegang Izin Panas Bumi sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_53">
+                <num>53</num>
+                  <paragraph eId="pasal_53__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemegang Izin Panas Bumi wajib memberikan bonus produksi kepada Pemerintah Daerah yang wilayah administratifnya meliputi Wilayah Kerja yang bersangkutan berdasarkan persentase tertentu dari pendapatan kotor sejak unit pertama berproduksi secara komersial.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_53__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan mengenai besaran dan tata cara pemberian bonus produksi sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_54">
+                <num>54</num>
+                  <paragraph eId="pasal_54__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemegang Izin Panas Bumi wajib memenuhi kewajiban berupa pendapatan negara dan pendapatan daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pendapatan negara sebagaimana dimaksud pada ayat (1) terdiri atas penerimaan pajak dan penerimaan negara bukan pajak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penerimaan pajak sebagaimana dimaksud pada ayat (2) terdiri atas pajak yang menjadi kewenangan Pemerintah, bea masuk, dan pajak dalam rangka impor sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Penerimaan negara bukan pajak sebagaimana dimaksud pada ayat (2) terdiri atas:</p></intro>
+                      <point eId="pasal_54__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>iuran tetap;</p></content>
+                      </point>
+                      <point eId="pasal_54__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>iuran produksi; dan</p></content>
+                      </point>
+                      <point eId="pasal_54__ayat_4__huruf_c">
+                        <num>c.</num>
+                        <content><p>pungutan negara lainnya sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_5">
+                    <num>(5)</num>
+                    <intro><p>Pendapatan daerah sebagaimana dimaksud pada ayat (1) terdiri atas:</p></intro>
+                      <point eId="pasal_54__ayat_5__huruf_a">
+                        <num>a.</num>
+                        <content><p>pajak daerah;</p></content>
+                      </point>
+                      <point eId="pasal_54__ayat_5__huruf_b">
+                        <num>b.</num>
+                        <content><p>retribusi daerah; dan</p></content>
+                      </point>
+                      <point eId="pasal_54__ayat_5__huruf_c">
+                        <num>c.</num>
+                        <content><p>pendapatan lain yang sah berdasarkan ketentuan peraturan perundang-undangan.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_54__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Jenis dan tarif atas jenis penerimaan negara bukan pajak sebagaimana dimaksud pada ayat (4) serta pendapatan daerah sebagaimana dimaksud pada ayat (5) huruf a dan huruf b dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_55">
+                <num>55</num>
+                <content><p>Pemerintah dapat memberikan kemudahan fiskal dan nonfiskal kepada Badan Usaha untuk mengembangkan dan memanfaatkan Panas Bumi sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </article>
+              <article eId="pasal_56">
+                <num>56</num>
+                  <paragraph eId="pasal_56__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Badan Usaha pemegang Izin Panas Bumi yang tidak memenuhi atau melanggar ketentuan sebagaimana dimaksud dalam Pasal 52 ayat (1) huruf b, huruf c, huruf d, huruf g, huruf h, huruf i, dan huruf j, Pasal 53 ayat (1), dan/atau Pasal 54 ayat (1) dan ayat (4) dikenai sanksi administratif.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa:</p></intro>
+                      <point eId="pasal_56__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>peringatan tertulis;</p></content>
+                      </point>
+                      <point eId="pasal_56__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>penghentian sementara seluruh kegiatan Eksplorasi, Eksploitasi, dan pemanfaatan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_56__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>pencabutan Izin Panas Bumi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_56__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>DATA DAN INFORMASI</heading>
+          <article eId="pasal_57">
+            <num>57</num>
+              <paragraph eId="pasal_57__ayat_1">
+                <num>(1)</num>
+                <content><p>Semua data dan informasi yang diperoleh dari kegiatan penyelenggaraan Panas Bumi merupakan milik negara yang pengaturan pemanfaatannya dilakukan oleh Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap Orang dilarang mengirim, menyerahkan, dan/atau memindahtangankan data dan informasi sebagaimana dimaksud pada ayat (1) tanpa izin Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_58">
+            <num>58</num>
+            <content><p>Ketentuan mengenai penyerahan, pengelolaan, dan pemanfaatan data dan informasi diatur dalam Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PEMBINAAN DAN PENGAWASAN</heading>
+          <article eId="pasal_59">
+            <num>59</num>
+              <paragraph eId="pasal_59__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri melakukan pembinaan dan pengawasan terhadap penyelenggaraan Panas Bumi untuk Pemanfaatan Langsung yang dilaksanakan oleh pemerintah provinsi dan pemerintah kabupaten/kota.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_2">
+                <num>(2)</num>
+                <content><p>Menteri dapat melimpahkan kepada gubernur untuk melakukan pembinaan dan pengawasan penyelenggaraan Panas Bumi untuk Pemanfaatan Langsung yang dilaksanakan oleh pemerintah kabupaten/kota.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_60">
+            <num>60</num>
+              <paragraph eId="pasal_60__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri, gubernur atau bupati/wali kota sesuai dengan kewenangannya melakukan pembinaan dan pengawasan atas pelaksanaan pengusahaan Panas Bumi untuk Pemanfaatan Langsung yang dilakukan oleh pemegang Izin Pemanfaatan Langsung.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_2">
+                <num>(2)</num>
+                <content><p>Gubernur dan bupati/wali kota sesuai dengan kewenangannya wajib melaporkan pelaksanaan penyelenggaraan Panas Bumi untuk Pemanfaatan Langsung setiap tahun kepada Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <content><p>Menteri melakukan pembinaan dan pengawasan atas pelaksanaan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung yang dilakukan oleh pemegang Izin Panas Bumi.</p></content>
+          </article>
+          <article eId="pasal_62">
+            <num>62</num>
+            <intro><p>Pembinaan dan pengawasan sebagaimana dimaksud dalam Pasal 60 ayat (1) paling sedikit meliputi:</p></intro>
+              <point eId="pasal_62__huruf_a">
+                <num>a.</num>
+                <content><p>keselamatan dan kesehatan kerja; dan</p></content>
+              </point>
+              <point eId="pasal_62__huruf_b">
+                <num>b.</num>
+                <content><p>lindungan lingkungan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_63">
+            <num>63</num>
+            <intro><p>Pembinaan dan pengawasan sebagaimana dimaksud dalam Pasal 61 paling sedikit meliputi:</p></intro>
+              <point eId="pasal_63__huruf_a">
+                <num>a.</num>
+                <content><p>Eksplorasi;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_b">
+                <num>b.</num>
+                <content><p>Studi Kelayakan;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_c">
+                <num>c.</num>
+                <content><p>Eksploitasi dan pemanfaatan;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_d">
+                <num>d.</num>
+                <content><p>keuangan;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_e">
+                <num>e.</num>
+                <content><p>pengolahan data Panas Bumi;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_f">
+                <num>f.</num>
+                <content><p>keselamatan dan kesehatan kerja;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_g">
+                <num>g.</num>
+                <content><p>pengelolaan lindungan lingkungan dan reklamasi;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_h">
+                <num>h.</num>
+                <content><p>pemanfaatan barang, jasa, teknologi, serta kemampuan rekayasa dan rancang bangun dalam negeri;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_i">
+                <num>i.</num>
+                <content><p>pengembangan tenaga kerja Indonesia;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_j">
+                <num>j.</num>
+                <content><p>pengembangan dan pemberdayaan masyarakat setempat;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_k">
+                <num>k.</num>
+                <content><p>penguasaan, pengembangan, dan penerapan teknologi Panas Bumi;</p></content>
+              </point>
+              <point eId="pasal_63__huruf_l">
+                <num>l.</num>
+                <content><p>penerapan kaidah keteknikan yang baik dan benar; dan</p></content>
+              </point>
+              <point eId="pasal_63__huruf_m">
+                <num>m.</num>
+                <content><p>kegiatan lain di bidang pengusahaan Panas Bumi sepanjang menyangkut kepentingan umum.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_64">
+            <num>64</num>
+            <content><p>Ketentuan lebih lanjut mengenai pembinaan dan pengawasan diatur dalam Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PERAN SERTA MASYARAKAT</heading>
+          <article eId="pasal_65">
+            <num>65</num>
+              <paragraph eId="pasal_65__ayat_1">
+                <num>(1)</num>
+                <intro><p>Dalam pelaksanaan penyelenggaraan Panas Bumi, masyarakat mempunyai peran serta untuk:</p></intro>
+                  <point eId="pasal_65__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>menjaga, melindungi, dan memelihara kelestarian wilayah kegiatan pengusahaan Panas Bumi; dan</p></content>
+                  </point>
+                  <point eId="pasal_65__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>menyampaikan laporan terjadinya bahaya, pencemaran, dan/atau perusakan lingkungan di wilayah kegiatan pengusahaan Panas Bumi.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_2">
+                <num>(2)</num>
+                <intro><p>Dalam pelaksanaan penyelenggaraan Panas Bumi masyarakat berhak untuk:</p></intro>
+                  <point eId="pasal_65__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>memperoleh informasi yang berkaitan dengan pengusahaan Panas Bumi melalui Pemerintah atau Pemerintah Daerah sesuai dengan kewenangannya;</p></content>
+                  </point>
+                  <point eId="pasal_65__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>memperoleh manfaat atas kegiatan pengusahaan Panas Bumi melalui kewajiban perusahaan untuk memenuhi tanggung jawab sosial perusahaan dan/atau pengembangan masyarakat sekitar;</p></content>
+                  </point>
+                  <point eId="pasal_65__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>memperoleh ganti rugi yang layak akibat kesalahan dalam kegiatan pengusahaan Panas Bumi sesuai dengan ketentuan peraturan perundang-undangan; dan</p></content>
+                  </point>
+                  <point eId="pasal_65__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>mengajukan gugatan kepada pengadilan terhadap kerugian akibat kegiatan pengusahaan Panas Bumi yang menyalahi ketentuan.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>PENYIDIKAN</heading>
+          <article eId="pasal_66">
+            <num>66</num>
+              <paragraph eId="pasal_66__ayat_1">
+                <num>(1)</num>
+                <content><p>Selain Penyidik Pejabat Polisi Negara Republik Indonesia, pejabat pegawai negeri sipil tertentu yang lingkup tugas dan tanggung jawabnya meliputi pengusahaan Panas Bumi diberi wewenang khusus sebagai penyidik pegawai negeri sipil sebagaimana dimaksud dalam undang-undang yang mengatur mengenai hukum acara pidana untuk melakukan penyidikan sesuai dengan Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_2">
+                <num>(2)</num>
+                <intro><p>Penyidik pegawai negeri sipil sebagaimana dimaksud pada ayat (1) berwenang:</p></intro>
+                  <point eId="pasal_66__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan pemeriksaan atas kebenaran laporan atau keterangan yang diterima berkenaan dengan tindak pidana dalam pengusahaan Panas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>melakukan pemeriksaan terhadap orang atau badan yang diduga melakukan tindak pidana dalam pengusahaan Panas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>memanggil orang untuk didengar dan diperiksa sebagai saksi atau tersangka dalam perkara tindak pidana pengusahaan Panas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>menggeledah tempat dan/atau sarana yang diduga digunakan untuk melakukan tindak pidana dalam pengusahaan Panas Bumi;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan pemeriksaan sarana dan prasarana pengusahaan Panas Bumi dan menghentikan penggunaan peralatan yang diduga digunakan untuk melakukan tindak pidana;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>menyegel dan/atau menyita alat pengusahaan Panas Bumi yang digunakan untuk melakukan tindak pidana sebagai alat bukti;</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>mendatangkan orang ahli yang diperlukan dalam hubungannya dengan pemeriksaan perkara tindak pidana dalam pengusahaan Panas Bumi; dan</p></content>
+                  </point>
+                  <point eId="pasal_66__ayat_2__huruf_h">
+                    <num>h.</num>
+                    <content><p>menghentikan penyidikan perkara tindak pidana dalam pengusahaan Panas Bumi.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_3">
+                <num>(3)</num>
+                <content><p>Penyidik pegawai negeri sipil sebagaimana dimaksud pada ayat (1) dan ayat (2) dalam pelaksanaan penyidikan wajib berkoordinasi dan melaporkan hasil penyidikannya kepada Pejabat Polisi Negara Republik Indonesia sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_4">
+                <num>(4)</num>
+                <content><p>Penyidik pegawai negeri sipil sebagaimana dimaksud pada ayat (1) wajib menghentikan penyidikannya dalam hal peristiwa sebagaimana dimaksud pada ayat (2) huruf a tidak terdapat cukup bukti dan/atau peristiwanya bukan merupakan tindak pidana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_5">
+                <num>(5)</num>
+                <content><p>Pelaksanaan kewenangan sebagaimana dimaksud pada ayat (2) dilakukan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_67">
+            <num>67</num>
+            <content><p>Setiap Orang yang dengan sengaja melakukan pengusahaan Panas Bumi untuk Pemanfaatan Langsung tanpa Izin Pemanfaatan Langsung sebagaimana dimaksud dalam Pasal 11 ayat (1) dipidana dengan pidana penjara paling lama 2 (dua) tahun atau pidana denda paling banyak Rp6.000.000.000,00 (enam miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_68">
+            <num>68</num>
+            <content><p>Setiap Orang yang memegang Izin Pemanfaatan Langsung yang dengan sengaja melakukan pengusahaan Panas Bumi untuk Pemanfaatan Langsung tidak pada lokasi yang ditetapkan dalam Izin sebagaimana dimaksud dalam Pasal 13 ayat (1) dipidana dengan pidana penjara paling lama 2 (dua) tahun 6 (enam) bulan atau pidana denda paling banyak Rp7.000.000.000,00 (tujuh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_69">
+            <num>69</num>
+            <content><p>Setiap Orang yang memegang Izin Pemanfaatan Langsung yang dengan sengaja melakukan pengusahaan Panas Bumi yang tidak sesuai dengan peruntukannya sebagaimana dimaksud dalam Pasal 13 ayat (2) dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau pidana denda paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_70">
+            <num>70</num>
+            <content><p>Badan Usaha pemegang Izin Panas Bumi yang dengan sengaja melakukan Eksplorasi, Eksploitasi, dan/atau pemanfaatan bukan pada Wilayah Kerja sebagaimana dimaksud dalam Pasal 20 ayat (2) dipidana dengan pidana penjara paling lama 7 (tujuh) tahun atau pidana denda paling banyak Rp70.000.000.000,00 (tujuh puluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_71">
+            <num>71</num>
+            <content><p>Badan Usaha yang dengan sengaja melakukan pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung tanpa Izin Panas Bumi sebagaimana dimaksud dalam Pasal 23 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun atau pidana denda paling banyak Rp50.000.000.000,00 (lima puluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_72">
+            <num>72</num>
+            <content><p>Badan Usaha pemegang Izin Panas Bumi yang dengan sengaja menggunakan Izin Panas Bumi tidak sesuai dengan peruntukannya sebagaimana dimaksud dalam Pasal 26 ayat (1) dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun atau pidana denda paling banyak Rp100.000.000.000,00 (seratus miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_73">
+            <num>73</num>
+            <content><p>Setiap Orang yang dengan sengaja menghalangi atau merintangi pengusahaan Panas Bumi untuk Pemanfaatan Langsung terhadap pemegang Izin Pemanfaatan Langsung sebagaimana dimaksud dalam Pasal 46 huruf a dipidana dengan pidana penjara paling lama 1 (satu) tahun atau pidana denda paling banyak Rp100.000.000,00 (seratus juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_74">
+            <num>74</num>
+            <content><p>Setiap Orang yang dengan sengaja menghalangi atau merintangi pengusahaan Panas Bumi untuk Pemanfaatan Tidak Langsung terhadap pemegang Izin Panas Bumi sebagaimana dimaksud dalam Pasal 46 huruf b dipidana dengan pidana penjara paling lama 7 (tujuh) tahun atau pidana denda paling banyak Rp70.000.000.000,00 (tujuh puluh miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_75">
+            <num>75</num>
+            <content><p>Setiap Orang yang dengan sengaja mengirim, menyerahkan, dan/atau memindahtangankan data dan informasi tanpa izin Pemerintah sebagaimana dimaksud dalam Pasal 57 ayat (2) dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp25.000.000.000,00 (dua puluh lima miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_76">
+            <num>76</num>
+            <content><p>Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 67, Pasal 68, Pasal 69, Pasal 74 dan Pasal 75 dilakukan oleh Badan Usaha, selain pidana penjara atau pidana denda terhadap pengurusnya, pidana yang dapat dijatuhkan terhadap Badan Usaha tersebut ditambah dengan 1/3 (sepertiga) dari pidana denda.</p></content>
+          </article>
+          <article eId="pasal_77">
+            <num>77</num>
+            <intro><p>Selain dapat dijatuhi pidana sebagaimana dimaksud dalam Pasal 70, Pasal 71, Pasal 72, dan Pasal 76, pelaku tindak pidana dapat dijatuhi pidana tambahan berupa:</p></intro>
+              <point eId="pasal_77__huruf_a">
+                <num>a.</num>
+                <content><p>perampasan barang yang digunakan dalam melakukan tindak pidana;</p></content>
+              </point>
+              <point eId="pasal_77__huruf_b">
+                <num>b.</num>
+                <content><p>perampasan keuntungan yang diperoleh dari tindak pidana; dan/atau</p></content>
+              </point>
+              <point eId="pasal_77__huruf_c">
+                <num>c.</num>
+                <content><p>kewajiban membayar biaya yang timbul akibat tindak pidana.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_78">
+            <num>78</num>
+              <paragraph eId="pasal_78__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pada saat Undang-Undang ini mulai berlaku:</p></intro>
+                  <point eId="pasal_78__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>semua kuasa pengusahaan sumber daya Panas Bumi yang telah ada sebelum berlakunya Undang-Undang ini, dinyatakan tetap berlaku selama 30 (tiga puluh) tahun terhitung sejak diundangkannya Undang-Undang ini;</p></content>
+                  </point>
+                  <point eId="pasal_78__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>semua kontrak operasi bersama pengusahaan sumber daya Panas Bumi yang telah ditandatangani sebelum berlakunya Undang- Undang ini, dinyatakan tetap berlaku sampai berakhirnya masa kontrak; dan</p></content>
+                  </point>
+                  <point eId="pasal_78__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>semua izin pengusahaan sumber daya Panas Bumi yang telah ada sebelum berlakunya Undang-Undang ini dinyatakan tetap berlaku sampai berakhirnya izin, dengan ketentuan harus melakukan Eksploitasi paling lambat tanggal 31 Desember 2014.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_78__ayat_2">
+                <num>(2)</num>
+                <content><p>Kuasa pengusahaan sumber daya Panas Bumi, kontrak operasi bersama pengusahaan sumber daya Panas Bumi, dan izin pengusahaan sumber daya Panas Bumi sebagaimana dimaksud pada ayat (1) setelah berakhir masa berlakunya dapat diperpanjang menjadi Izin Panas Bumi dan kegiatan usahanya dilaksanakan sesuai dengan ketentuan Undang-Undang ini.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_79">
+            <num>79</num>
+              <paragraph eId="pasal_79__ayat_1">
+                <num>(1)</num>
+                <content><p>Pada saat Undang-Undang ini mulai berlaku, semua izin usaha pertambangan Panas Bumi yang telah ada sebelum berlakunya Undang-Undang ini wajib disesuaikan menjadi Izin Panas Bumi yang ditetapkan oleh Menteri, dan tetap berlaku sampai berakhirnya izin.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_79__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam rangka penyesuaian menjadi Izin Panas Bumi sebagaimana dimaksud pada ayat (1), gubernur atau bupati/wali kota sesuai dengan kewenangannya wajib menyerahkan dokumen izin usaha pertambangan Panas Bumi yang telah diterbitkan sebelum berlakunya Undang-Undang ini kepada Menteri dalam jangka waktu paling lama 6 (enam) bulan sejak berlakunya Undang-Undang ini.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_80">
+            <num>80</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, pengusahaan Panas Bumi untuk Pemanfaatan Langsung yang telah ada sebelum berlakunya Undang-Undang ini dianggap telah memiliki izin dan dalam jangka waktu paling lama 3 (tiga) tahun sejak berlakunya Undang- Undang ini wajib disesuaikan menjadi Izin Pemanfaatan Langsung.</p></content>
+          </article>
+          <article eId="pasal_81">
+            <num>81</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, Badan Usaha yang telah ditetapkan sebagai pemenang lelang Wilayah Kerja dan belum mendapatkan izin usaha pertambangan Panas Bumi, proses pemberian Izin Panas Bumi selanjutnya dilakukan oleh Menteri.</p></content>
+          </article>
+          <article eId="pasal_82">
+            <num>82</num>
+            <content><p>Kuasa pengusahaan sumber daya Panas Bumi, kontrak operasi bersama pengusahaan sumber daya Panas Bumi, dan izin pengusahaan sumber daya Panas Bumi sebagaimana dimaksud dalam Pasal 78 dan izin usaha pertambangan Panas Bumi sebagaimana dimaksud dalam Pasal 79 dapat melakukan kegiatan di Kawasan Hutan konservasi melalui izin pemanfaatan jasa lingkungan.</p></content>
+          </article>
+          <article eId="pasal_83">
+            <num>83</num>
+            <intro><p>Kuasa pengusahaan sumber daya Panas Bumi, kontrak operasi bersama pengusahaan sumber daya Panas Bumi, dan izin pengusahaan sumber daya Panas Bumi sebagaimana dimaksud dalam Pasal 78 dan izin usaha pertambangan Panas Bumi sebagaimana dimaksud dalam Pasal 79 wajib memberikan bonus produksi kepada Pemerintah Daerah yang wilayah administratifnya meliputi Wilayah Kerja yang bersangkutan berdasarkan persentase tertentu dari pendapatan kotor dengan ketentuan:</p></intro>
+              <point eId="pasal_83__huruf_a">
+                <num>a.</num>
+                <content><p>yang telah berproduksi, terhitung mulai tanggal 1 Januari 2015; dan</p></content>
+              </point>
+              <point eId="pasal_83__huruf_b">
+                <num>b.</num>
+                <content><p>yang belum berproduksi, terhitung sejak unit pertama berproduksi secara komersial.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_84">
+            <num>84</num>
+            <intro><p>Pada saat Undang-Undang ini mulai berlaku:</p></intro>
+              <point eId="pasal_84__huruf_a">
+                <num>a.</num>
+                <content><p>pembinaan dan pengawasan terhadap pelaksanaan kuasa pengusahaan sumber daya Panas Bumi, kontrak operasi bersama pengusahaan sumber daya Panas Bumi, dan izin pengusahaan sumber daya Panas Bumi yang sebelumnya dilakukan oleh Pemerintah tetap berada pada Pemerintah.</p></content>
+              </point>
+              <point eId="pasal_84__huruf_b">
+                <num>b.</num>
+                <content><p>pembinaan dan pengawasan terhadap pelaksanaan izin usaha pertambangan Panas Bumi yang sebelumnya dilakukan oleh Pemerintah Daerah beralih menjadi kewenangan Pemerintah sejak Izin Usaha Pertambangan Panas Bumi disesuaikan menjadi Izin Panas Bumi.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_85">
+            <num>85</num>
+            <content><p>Badan Usaha yang telah melakukan perjanjian jual beli uap atau tenaga listrik Panas Bumi sebelum berlakunya Undang-Undang ini dapat melakukan negosiasi ulang berdasarkan kelaziman bisnis dengan prinsip saling menguntungkan.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_86">
+            <num>86</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, semua peraturan perundang-undangan yang merupakan peraturan pelaksanaan dari Undang-Undang Nomor 27 Tahun 2003 tentang Panas Bumi (Lembaran Negara Republik Indonesia Tahun 2003 Nomor 115, Tambahan Lembaran Negara Republik Indonesia Nomor 4327), dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang-Undang ini.</p></content>
+          </article>
+          <article eId="pasal_87">
+            <num>87</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, Undang- Undang Nomor 27 Tahun 2003 tentang Panas Bumi (Lembaran Negara Republik Indonesia Tahun 2003 Nomor 115, Tambahan Lembaran Negara Republik Indonesia Nomor 4327), dicabut dan dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_88">
+            <num>88</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

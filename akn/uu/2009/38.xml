@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2009/38/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2009/38"/>
+          <FRBRdate date="2009-10-14" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2009/38/ind@2009-10-14/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2009/38/ind@2009-10-14"/>
+          <FRBRdate date="2009-10-14" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2009/38/ind@2009-10-14/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2009/38/ind@2009-10-14.akn"/>
+          <FRBRdate date="2026-10-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 38 Tahun 2009 tentang POS</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Pos adalah layanan komunikasi tertulis dan/atau surat elektronik, layanan paket, layanan logistik, layanan transaksi keuangan, dan layanan keagenan pos untuk kepentingan umum.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Penyelenggara Pos adalah suatu badan usaha yang menyelenggarakan pos.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Penyelenggaraan Pos adalah keseluruhan kegiatan pengelolaan dan penatausahaan layanan pos.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Jaringan Pos adalah rangkaian titik layanan yang terintegrasi baik fisik maupun nonfisik dalam cakupan wilayah layanan tertentu dalam penyelenggaraan pos.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Interkoneksi adalah keterhubungan jaringan pos antarpenyelenggara pos.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Layanan Pos Universal adalah layanan pos jenis tertentu yang wajib dijamin oleh pemerintah untuk menjangkau seluruh wilayah Negara Kesatuan Republik Indonesia yang memungkinkan masyarakat mengirim dan/atau menerima kiriman dari satu tempat ke tempat lain di dunia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Kode Pos adalah sederetan angka atau huruf atau gabungan angka dan huruf yang dituliskan di belakang nama kota untuk memudahkan penyortiran, penyampaian kiriman, dan keperluan lain.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Kiriman adalah satuan komunikasi tertulis, surat elektronik, paket, logistik, atau uang yang dikirim melalui penyelenggara pos.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Prangko adalah label atau carik, atau teraan di atas kertas dengan bentuk dan ukuran tertentu, baik bergambar maupun tidak bergambar, yang memuat nama negara penerbit atau tanda gambar yang merupakan ciri khas negara penerbit, dan mempunyai nilai nominal tertentu berupa angka dan/atau huruf.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Pemerintah Pusat, yang selanjutnya disebut Pemerintah, adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan Negara Republik Indonesia sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Pemerintah Daerah adalah gubernur, bupati/wali kota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Menteri adalah Menteri yang tugas dan tanggung jawabnya di bidang pos.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Orang adalah orang perseorangan ataupun badan hukum.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS DAN TUJUAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>Pos diselenggarakan berdasarkan asas:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>kemanfaatan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>keadilan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_c">
+                <num>c.</num>
+                <content><p>kepastian hukum;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_d">
+                <num>d.</num>
+                <content><p>persatuan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_e">
+                <num>e.</num>
+                <content><p>kebangsaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_f">
+                <num>f.</num>
+                <content><p>kesejahteraan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_g">
+                <num>g.</num>
+                <content><p>keamanan dan keselamatan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_h">
+                <num>h.</num>
+                <content><p>kerahasiaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_i">
+                <num>i.</num>
+                <content><p>perlindungan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_j">
+                <num>j.</num>
+                <content><p>kemandirian; dan</p></content>
+              </point>
+              <point eId="pasal_2__huruf_k">
+                <num>k.</num>
+                <content><p>kemitraan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Pos diselenggarakan dengan tujuan untuk:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>meningkatkan dan memperkukuh persatuan dan kesatuan bangsa, mencerdaskan kehidupan bangsa, serta meningkatkan hubungan antarbangsa dan antarnegara;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>membuka peluang usaha, memperlancar perekonomian nasional, dan mendukung kegiatan pemerintahan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>menjamin kualitas layanan komunikasi tertulis dan surat elektronik, layanan paket, layanan logistik, layanan transaksi keuangan, dan layanan keagenan pos; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_d">
+                <num>d.</num>
+                <content><p>menjamin terselenggaranya layanan pos yang menjangkau seluruh wilayah Negara Kesatuan Republik Indonesia.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>PENYELENGGARAAN POS</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Penyelenggaraan</heading>
+              <article eId="pasal_4">
+                <num>4</num>
+                  <paragraph eId="pasal_4__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggaraan Pos dilakukan oleh badan usaha yang berbadan hukum Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_4__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Badan usaha sebagaimana dimaksud pada ayat (1) terdiri atas:</p></intro>
+                      <point eId="pasal_4__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>badan usaha milik negara;</p></content>
+                      </point>
+                      <point eId="pasal_4__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>badan usaha milik daerah;</p></content>
+                      </point>
+                      <point eId="pasal_4__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>badan usaha milik swasta; dan</p></content>
+                      </point>
+                      <point eId="pasal_4__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>koperasi.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_5">
+                <num>5</num>
+                  <paragraph eId="pasal_5__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Badan usaha sebagaimana dimaksud dalam Pasal 4 ayat (1) dapat melakukan kegiatan:</p></intro>
+                      <point eId="pasal_5__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>layanan komunikasi tertulis dan/atau surat elektronik;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>layanan paket;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>layanan logistik;</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>layanan transaksi keuangan; dan</p></content>
+                      </point>
+                      <point eId="pasal_5__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>layanan keagenan pos.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara pelaksanaan layanan sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_6">
+                <num>6</num>
+                <content><p>Ketentuan mengenai tata cara dan persyaratan layanan transaksi keuangan sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf d dilakukan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </article>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggaraan Pos dilakukan dengan pelayanan prima dan berpedoman pada standar pelayanan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Standar pelayanan dan pelaksanaannya sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggaraan Pos dinas militer diatur oleh Menteri bersama-sama dengan menteri yang bertanggung jawab di bidang pertahanan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan mengenai Penyelenggaraan Pos dinas lainnya diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                <content><p>Penyelenggaraan Pos harus menggunakan perangkat yang memenuhi standar teknis yang berlaku secara nasional dan/atau internasional.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Perizinan</heading>
+              <article eId="pasal_10">
+                <num>10</num>
+                  <paragraph eId="pasal_10__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Badan usaha sebagaimana dimaksud dalam Pasal 4 ayat (1) wajib mendapat izin Penyelenggaraan Pos dari Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai persyaratan dan tata cara pemberian izin diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Kerja Sama</heading>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Penyelenggara Pos dapat melakukan kerja sama dengan:</p></intro>
+                      <point eId="pasal_11__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>Penyelenggara Pos dalam negeri;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>Penyelenggara Pos asing;</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>badan usaha dalam negeri bukan Penyelenggara Pos; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_11__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>badan usaha asing bukan Penyelenggara Pos.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Kerja sama Penyelenggara Pos dengan badan usaha asing bukan Penyelenggara Pos sebagaimana dimaksud pada ayat (1) huruf d tidak termasuk kepemilikan modal dan saham serta terbatas pada wilayah operasional masing-masing.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Penyelenggara Pos asing dapat menyelenggarakan pos di Indonesia dengan syarat:</p></intro>
+                      <point eId="pasal_12__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>wajib bekerja sama dengan Penyelenggara Pos dalam negeri;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>melalui usaha patungan dengan mayoritas saham dimiliki Penyelenggara Pos dalam negeri;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>Penyelenggara Pos dalam negeri yang akan bekerja sama sahamnya tidak boleh dimiliki oleh warga negara atau badan usaha asing yang berafiliasi dengan Penyelenggara Pos dalam negeri;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>Penyelenggara Pos asing dan afiliasinya hanya dapat bekerja sama dengan satu Penyelenggara Pos dalam negeri; dan</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_1__huruf_e">
+                        <num>e.</num>
+                        <content><p>kerja sama Penyelenggara Pos asing dengan Penyelenggara Pos dalam negeri dibatasi wilayah operasinya pada ibukota provinsi yang telah memiliki pelabuhan udara dan/atau pelabuhan laut internasional.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengiriman antarkota dilaksanakan oleh Penyelenggara Pos dalam negeri bukan usaha patungan sebagaimana dimaksud pada ayat (1) huruf b.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Kerja sama Penyelenggara Pos dengan Penyelenggara Pos asing sebagaimana dimaksud dalam Pasal 11 dan Pasal 12 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggara pos dapat menjadi perusahaan publik atau perusahaan terbuka setelah mendapat izin dari Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Interkoneksi</heading>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggara Pos wajib menyediakan Jaringan Pos sesuai dengan izin penyelenggaraannya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggara Pos dapat melakukan Interkoneksi dengan Penyelenggara Pos lain untuk menjamin layanan pos di setiap daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setiap Penyelenggara Pos wajib menyediakan Interkoneksi terhadap Penyelenggara Pos lainnya untuk Layanan Pos Universal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Interkoneksi sebagaimana dimaksud pada ayat (2) dan ayat (3) dilakukan secara nondiskriminatif, transparan, bertanggung jawab, dan saling menguntungkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Interkoneksi sebagaimana dimaksud pada ayat (2) dan ayat (3) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Layanan Pos Universal</heading>
+              <article eId="pasal_15">
+                <num>15</num>
+                  <paragraph eId="pasal_15__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah wajib menjamin terselenggaranya Layanan Pos Universal di seluruh wilayah Negara Kesatuan Republik Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam menyelenggarakan Layanan Pos Universal sebagaimana dimaksud pada ayat (1), Pemerintah menugasi Penyelenggara Pos.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemerintah memberikan kesempatan yang sama kepada semua Penyelenggara Pos yang memenuhi persyaratan untuk menyelenggarakan Layanan Pos Universal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Penyelenggara Pos wajib memberikan kontribusi dalam pembiayaan Layanan Pos Universal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Wilayah Layanan Pos Universal yang disubsidi ditetapkan oleh Menteri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_15__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai Layanan Pos Universal sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap perusahaan angkutan darat, Iaut, dan udara wajib memprioritaskan pengangkutan kiriman Layanan Pos Universal yang diserahkan oleh Penyelenggara Pos sebagaimana dimaksud dalam Pasal 15 ayat (1) sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Kewajiban mengangkut sebagaimana dimaksud pada ayat (1) berlaku bagi semua pihak yang menyelenggarakan angkutan darat, laut, dan udara dengan menerima imbalan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Setiap perusahaan angkutan sebagaimana dimaksud pada ayat (1) menyampaikan jadwal perjalanannya atas permintaan Penyelenggara Pos.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_17">
+                <num>17</num>
+                <content><p>Setiap perusahaan angkutan sebagaimana dimaksud dalam Pasal 16 bertanggung jawab atas keamanan dan keselamatan kiriman yang diserahkan kepadanya.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Tarif</heading>
+              <article eId="pasal_18">
+                <num>18</num>
+                  <paragraph eId="pasal_18__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggara Pos dalam melaksanakan kegiatan layanan pos komersial berhak menentukan tarif.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Besaran tarif sebagaimana dimaksud pada ayat (1) ditetapkan oleh Penyelenggara Pos dengan formula perhitungan berbasis biaya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai penetapan tarif sebagaimana dimaksud pada ayat (2) ditetapkan dengan Peraturan Menteri.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_19">
+                <num>19</num>
+                  <paragraph eId="pasal_19__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah menetapkan tarif Layanan Pos Universal.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_19__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan mengenai tata cara penetapan tarif Layanan Pos Universal sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_20">
+                <num>20</num>
+                <content><p>Penyelenggara Pos harus memberikan pembebasan tarif sekogram dengan fasilitas pengiriman darat atau laut dengan tingkat berat tertentu.</p></content>
+              </article>
+              <article eId="pasal_21">
+                <num>21</num>
+                <content><p>Penyelenggara Pos harus memberikan pembebasan tarif pokok bagi kiriman yang dikirimkan kepada atau oleh tawanan perang, baik militer maupun sipil, langsung atau melalui lembaga sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PRANGKO DAN KODE POS</heading>
+          <part eId="bab_4__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Prangko</heading>
+              <article eId="pasal_22">
+                <num>22</num>
+                  <paragraph eId="pasal_22__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Prangko dapat berfungsi sebagai:</p></intro>
+                      <point eId="pasal_22__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>bukti pembayaran biaya pengiriman pos;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>alat edukasi masyarakat;</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>alat penyebarluasan informasi publik; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_22__ayat_1__huruf_d">
+                        <num>d.</num>
+                        <content><p>benda filateli.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_22__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Menteri menetapkan dan melaksanakan penerbitan Prangko.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_23">
+                <num>23</num>
+                <intro><p>Setiap orang dilarang:</p></intro>
+                  <point eId="pasal_23__huruf_a">
+                    <num>a.</num>
+                    <content><p>meniru dan memalsukan Prangko;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_b">
+                    <num>b.</num>
+                    <content><p>memiliki, menjual, dan/atau menggunakan Prangko palsu;</p></content>
+                  </point>
+                  <point eId="pasal_23__huruf_c">
+                    <num>c.</num>
+                    <content><p>mencetak dan/atau mencetak ulang Prangko.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_24">
+                <num>24</num>
+                  <paragraph eId="pasal_24__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Setiap orang dapat menyalurkan kegemaran mengumpulkan, merawat, mempelajari Prangko, dan benda pos lainnya melalui filateli.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Filateli sebagaimana dimaksud pada ayat (1) diselenggarakan dengan dukungan dari unsur Pemerintah, Pemerintah Daerah, Penyelenggara Pos, dan masyarakat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_24__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Benda filateli sebagaimana dimaksud dalam Pasal 22 ayat (1) huruf d dapat digunakan sebagai sarana perdagangan dan investasi.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_4__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Kode Pos</heading>
+              <article eId="pasal_25">
+                <num>25</num>
+                  <paragraph eId="pasal_25__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah menyusun dan mengembangkan sistem Kode Pos wilayah layanan pos Negara Kesatuan Republik Indonesia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggara dan pengguna layanan pos harus mencantumkan Kode Pos untuk mengidentifikasi alamat atau wilayah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_25__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai sistem Kode Pos sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>HAK DAN KEWAJIBAN</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Hak</heading>
+              <article eId="pasal_26">
+                <num>26</num>
+                <content><p>Setiap Orang berhak mendapat layanan pos.</p></content>
+              </article>
+              <article eId="pasal_27">
+                <num>27</num>
+                  <paragraph eId="pasal_27__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak milik atas kiriman tetap merupakan hak milik pengguna layanan pos selama belum diserahkan kepada penerima.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pengguna layanan pos berhak atas jaminan kerahasiaan, keamanan, dan keselamatan kiriman.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_28">
+                <num>28</num>
+                <intro><p>Pengguna layanan pos berhak mendapatkan ganti rugi apabila terjadi:</p></intro>
+                  <point eId="pasal_28__huruf_a">
+                    <num>a.</num>
+                    <content><p>kehilangan kiriman;</p></content>
+                  </point>
+                  <point eId="pasal_28__huruf_b">
+                    <num>b.</num>
+                    <content><p>kerusakan isi paket;</p></content>
+                  </point>
+                  <point eId="pasal_28__huruf_c">
+                    <num>c.</num>
+                    <content><p>keterlambatan kiriman; atau</p></content>
+                  </point>
+                  <point eId="pasal_28__huruf_d">
+                    <num>d.</num>
+                    <content><p>ketidaksesuaian antara barang yang dikirim dan yang diterima.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_29">
+                <num>29</num>
+                  <paragraph eId="pasal_29__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggara Pos berhak mendapatkan informasi yang benar dari pengguna layanan pos tentang kiriman yang dinyatakan pada dokumen pengiriman.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggara Pos berhak membuka dan/atau memeriksa kiriman di hadapan pengguna layanan pos untuk mencocokkan kebenaran informasi kiriman sebagaimana dimaksud pada ayat (1).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penyelenggara Pos tidak dapat dituntut apabila terbukti isi kiriman tidak sesuai dengan yang dinyatakan secara tertulis oleh pengguna layanan pos pada dokumen pengiriman dan tidak dibuka oleh Penyelenggara Pos.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Penyelenggara Pos sebagaimana dimaksud pada ayat (3) dapat dituntut apabila terbukti mengetahui isi kiriman dan tetap mengirim barang yang dilarang sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Kewajiban</heading>
+              <article eId="pasal_30">
+                <num>30</num>
+                <content><p>Penyelenggara Pos wajib menjaga kerahasiaan, keamanan, dan keselamatan kiriman.</p></content>
+              </article>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggara Pos wajib memberikan ganti rugi atas kerugian yang dialami oleh pengguna layanan pos akibat kelalaian dan/atau kesalahan Penyelenggara Pos.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tuntutan ganti rugi sebagaimana dimaksud pada ayat (1) tidak berlaku jika kehilangan atau kerusakan terjadi karena bencana alam, keadaan darurat, atau hal lain di luar kemampuan manusia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ganti rugi sebagaimana dimaksud pada ayat (1) diberikan oleh Penyelenggara Pos sesuai kesepakatan antara pengguna layanan pos dan Penyelenggara Pos.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_4">
+                    <num>(4)</num>
+                    <intro><p>Ganti rugi sebagaimana dimaksud pada ayat (1) tidak ditanggung oleh Penyelenggara Pos apabila:</p></intro>
+                      <point eId="pasal_31__ayat_4__huruf_a">
+                        <num>a.</num>
+                        <content><p>kerusakan terjadi karena sifat atau keadaan barang yang dikirim; atau</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_4__huruf_b">
+                        <num>b.</num>
+                        <content><p>kerusakan terjadi karena kesalahan atau kelalaian pengguna layanan pos.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Tenggang waktu dan persyaratan yang harus dipenuhi untuk memperoleh ganti rugi sebagaimana dimaksud pada ayat (1) ditetapkan berdasarkan kesepakatan antara Penyelenggara Pos dan pengguna layanan pos.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_6">
+                    <num>(6)</num>
+                    <content><p>Barang yang hilang dan ditemukan kembali diselesaikan berdasarkan kesepakatan antara Penyelenggara Pos dan pengguna layanan pos.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengguna layanan pos dilarang mengirimkan barang yang dapat membahayakan barang kiriman lainnya, lingkungan, atau keselamatan orang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Barang terlarang yang dapat membahayakan kiriman atau keselamatan orang sebagaimana dimaksud pada ayat (1) meliputi:</p></intro>
+                      <point eId="pasal_32__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>narkotika, psikotropika, dan obat-obat terlarang lainnya;</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>barang yang mudah meledak;</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>barang yang mudah terbakar;</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>barang yang mudah rusak dan dapat mencemari lingkungan;</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_2__huruf_e">
+                        <num>e.</num>
+                        <content><p>barang yang melanggar kesusilaan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_32__ayat_2__huruf_f">
+                        <num>f.</num>
+                        <content><p>barang lainnya yang menurut peraturan perundang-undangan dinyatakan terlarang.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengiriman barang terlarang sebagaimana dimaksud pada ayat (2) dilakukan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PEMERIKSAAN KIRIMAN</heading>
+          <article eId="pasal_33">
+            <num>33</num>
+              <paragraph eId="pasal_33__ayat_1">
+                <num>(1)</num>
+                <content><p>Barang kiriman pos baik berupa barang pos universal maupun barang pos lainnya dari dan ke luar negeri diperlakukan sebagai barang impor dan ekspor sesuai dengan ketentuan peraturan perundang-undangan di bidang kepabeanan dan/atau karantina.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemeriksaan kiriman pos dalam rangka kepabeanan dan/atau karantina wajib didahulukan daripada pemeriksaan lainnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_33__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam hal terjadi pelanggaran kepabeanan dan/atau karantina terhadap pengiriman barang pos sebagaimana dimaksud pada ayat (1), berlaku ketentuan perundang-undangan di bidang kepabeanan dan/atau karantina.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_34">
+            <num>34</num>
+              <paragraph eId="pasal_34__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyelenggara Pos bertanggung jawab atas kewajiban membayar bea masuk, bea keluar, cukai, dan pajak terkait dengan layanan pos yang diselenggarakannya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_34__ayat_2">
+                <num>(2)</num>
+                <content><p>Kewajiban untuk membayar bea masuk, bea keluar, cukai, dan pajak terkait dengan Layanan Pos Universal diatur sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_35">
+            <num>35</num>
+            <content><p>Penyelenggara Pos sebagaimana dimaksud dalam Pasal 31 tidak dapat diminta pertanggungjawaban atas kehilangan atau kerusakan kiriman yang dibuka, diperiksa, dan/atau disita oleh pejabat yang berwenang.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PENINGKATAN DAN PENGEMBANGAN PENYELENGGARAAN POS</heading>
+          <article eId="pasal_36">
+            <num>36</num>
+              <paragraph eId="pasal_36__ayat_1">
+                <num>(1)</num>
+                <content><p>Peningkatan dan pengembangan Penyelenggaraan Pos dilakukan untuk mengoptimalkan pelayanan pos.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah wajib melakukan upaya peningkatan dan pengembangan Penyelenggaraan Pos.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_3">
+                <num>(3)</num>
+                <content><p>Dalam rangka peningkatan dan pengembangan Penyelenggaraan Pos sebagaimana dimaksud pada ayat (1), Menteri melakukan penetapan kebijakan, pengaturan, pengendalian, dan fasilitasi.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_4">
+                <num>(4)</num>
+                <content><p>Penetapan kebijakan, pengaturan, pengendalian, dan fasilitasi di bidang pos sebagaimana dimaksud pada ayat (3) dilakukan secara menyeluruh dan terpadu dengan memperhatikan pemikiran dan pandangan yang berkembang dalam masyarakat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_5">
+                <num>(5)</num>
+                <content><p>Dalam rangka memperhatikan pemikiran dan pandangan yang berkembang dalam masyarakat sebagaimana dimaksud pada ayat (4), Menteri melaksanakan pertemuan secara berkala dengan wakil pemangku kepentingan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_36__ayat_6">
+                <num>(6)</num>
+                <content><p>Ketentuan lebih lanjut mengenai peningkatan dan pengembangan Penyelenggaraan Pos sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>PENYIDIKAN</heading>
+          <article eId="pasal_37">
+            <num>37</num>
+              <paragraph eId="pasal_37__ayat_1">
+                <num>(1)</num>
+                <content><p>Penyidik Pegawai Negeri Sipil di lingkungan instansi yang lingkup tugas dan tanggung jawabnya di bidang pos diberi wewenang khusus sebagai penyidik tindak pidana sebagaimana dimaksud dalam Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_37__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam melaksanakan tugasnya, Penyidik Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berada di bawah koordinasi dan pengawasan Pejabat Penyidik Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_38">
+            <num>38</num>
+              <paragraph eId="pasal_38__ayat_1">
+                <num>(1)</num>
+                <intro><p>Penyidik Pegawai Negeri Sipil sebagaimana dimaksud dalam Pasal 37 berwenang:</p></intro>
+                  <point eId="pasal_38__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>melakukan pemeriksaan atas kebenaran laporan, pengaduan, dan/atau keterangan tentang terjadinya tindak pidana di bidang pos;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>memanggil orang untuk didengar keterangannya sebagai saksi dan/atau tersangka tindak pidana di bidang pos;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_c">
+                    <num>c.</num>
+                    <content><p>melakukan penggeledahan, penyegelan, dan/atau penyitaan alat yang digunakan untuk melakukan tindak pidana di bidang pos;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_d">
+                    <num>d.</num>
+                    <content><p>melakukan pemeriksaan tempat terjadinya tindak pidana dan tempat lain yang diduga terdapat barang bukti tindak pidana di bidang pos;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_e">
+                    <num>e.</num>
+                    <content><p>melakukan penyitaan barang bukti tindak pidana di bidang pos;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_f">
+                    <num>f.</num>
+                    <content><p>meminta keterangan dan barang bukti dari orang dan/atau badan hukum atas terjadinya tindak pidana di bidang pos;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_g">
+                    <num>g.</num>
+                    <content><p>mendatangkan ahli yang diperlukan untuk penyidikan tindak pidana di bidang pos;</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_h">
+                    <num>h.</num>
+                    <content><p>membuat dan menandatangani berita acara pemeriksaan perkara tindak pidana di bidang pos; dan</p></content>
+                  </point>
+                  <point eId="pasal_38__ayat_1__huruf_i">
+                    <num>i.</num>
+                    <content><p>menghentikan penyidikan apabila tidak terdapat cukup bukti terjadinya tindak pidana di bidang pos.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_38__ayat_2">
+                <num>(2)</num>
+                <content><p>Penyidik Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) menyampaikan hasil penyidikan kepada Penuntut Umum melalui Pejabat Penyidik Kepolisian Negara Republik Indonesia.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>SANKSI ADMINISTRATIF</heading>
+          <article eId="pasal_39">
+            <num>39</num>
+              <paragraph eId="pasal_39__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri berwenang menjatuhkan sanksi administratif atas pelanggaran Pasal 14 ayat (1) dan ayat (3), dan Pasal 15 ayat (4).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_2">
+                <num>(2)</num>
+                <intro><p>Sanksi administratif sebagaimana dimaksud pada ayat (1) dapat berupa:</p></intro>
+                  <point eId="pasal_39__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>teguran tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_39__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>denda; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_39__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>pencabutan izin.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_39__ayat_3">
+                <num>(3)</num>
+                <content><p>Tata cara penjatuhan sanksi sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_40">
+            <num>40</num>
+            <content><p>Penyelenggara Pos yang dengan sengaja dan tanpa hak tidak menjaga keamanan dan keselamatan kiriman sebagaimana dimaksud dalam Pasal 30 dikenakan sanksi administratif.</p></content>
+          </article>
+          <article eId="pasal_41">
+            <num>41</num>
+            <content><p>Ketentuan lebih lanjut mengenai sanksi administratif sebagaimana dimaksud dalam Pasal 40 diatur dalam Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_42">
+            <num>42</num>
+            <content><p>Setiap Penyelenggara Pos yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 10 ayat (1) dipidana dengan pidana penjara paling lama 7 (tujuh) tahun atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_43">
+            <num>43</num>
+            <content><p>Setiap Orang yang meniru dan/atau memalsukan Prangko sebagaimana dimaksud dalam Pasal 23 huruf (a) dipidana dengan pidana penjara paling lama 6 (enam) tahun atau denda paling banyak Rp1.750.000.000,00 (satu miliar tujuh ratus lima puluh juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_44">
+            <num>44</num>
+            <content><p>Setiap Orang yang dengan sengaja memiliki, menjual, dan/atau menggunakan Prangko palsu sebagaimana dimaksud dalam Pasal 23 huruf (b) dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_45">
+            <num>45</num>
+            <content><p>Setiap Orang yang dengan sengaja dan tanpa hak mencetak dan/atau mencetak ulang Prangko sebagaimana dimaksud dalam Pasal 23 huruf (c) dipidana dengan pidana penjara paling lama 7 (tujuh) tahun atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).</p></content>
+          </article>
+          <article eId="pasal_46">
+            <num>46</num>
+            <content><p>Setiap Orang yang dengan sengaja dan tanpa hak tidak menjaga kerahasiaan kiriman sebagaimana dimaksud dalam Pasal 30 dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_47">
+            <num>47</num>
+            <content><p>Setiap Orang yang dengan sengaja mengirimkan barang yang dilarang sebagaimana dimaksud dalam Pasal 32 ayat (1) dan ayat (2) dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_48">
+            <num>48</num>
+            <content><p>Pada saat berlakunya Undang-Undang ini, badan atau perusahaan sebagaimana dimaksud dalam Undang- Undang Nomor 6 Tahun 1984 tentang Pos (Lembaran Negara Republik Indonesia Tahun 1984 Nomor 28, Tambahan Lembaran Negara Republik Indonesia Nomor 3276), tetap dapat menjalankan kegiatannya dengan ketentuan dalam waktu paling lambat 2 (dua) tahun sejak Undang-Undang ini berlaku wajib menyesuaikan dengan Undang-Undang ini.</p></content>
+          </article>
+          <article eId="pasal_49">
+            <num>49</num>
+            <content><p>Pada saat Undang-Undang ini berlaku, semua peraturan pelaksanaan Undang-Undang Nomor 6 Tahun 1984 tentang Pos (Lembaran Negara Republik Indonesia Tahun 1984 Nomor 28, Tambahan Lembaran Negara Republik Indonesia Nomor 3276) tetap berlaku sepanjang tidak bertentangan dan/atau belum diganti dengan peraturan baru berdasarkan Undang-Undang ini.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_50">
+            <num>50</num>
+            <content><p>Untuk menjamin kesinambungan Layanan Pos Universal, penugasan pelaksana Layanan Pos Universal tetap dilakukan oleh badan usaha milik negara yang telah ditugaskan oleh Pemerintah saat ini sampai jangka waktu paling lama 5 (lima) tahun.</p></content>
+          </article>
+          <article eId="pasal_51">
+            <num>51</num>
+            <content><p>Untuk mempersiapkan badan usaha milik negara dalam menghadapi pembukaan akses pasar, perlu dilakukan upaya penyehatan yang harus diselesaikan dalam jangka waktu paling lama 5 (lima) tahun.</p></content>
+          </article>
+          <article eId="pasal_52">
+            <num>52</num>
+              <paragraph eId="pasal_52__ayat_1">
+                <num>(1)</num>
+                <content><p>Pada saat Undang-Undang ini mulai berlaku, Undang- Undang Nomor 6 Tahun 1984 tentang Pos (Lembaran Negara Republik Indonesia Tahun 1984 Nomor 28, Tambahan Lembaran Negara Republik Indonesia Nomor 3276) dicabut dan dinyatakan tidak berlaku.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_52__ayat_2">
+                <num>(2)</num>
+                <content><p>Peraturan Pemerintah dan peraturan pelaksanaan lainnya dari Undang-Undang ini harus telah ditetapkan paling lama 2 (dua) tahun sejak Undang- Undang ini diundangkan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_53">
+            <num>53</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

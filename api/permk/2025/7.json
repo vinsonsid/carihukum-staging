@@ -34,7 +34,7 @@
   "catatan_kurasi": "Hukum acara pengujian undang-undang yang berlaku kini (mencabut PMK 2/2021). Mengatur alur perkara PUU dari permohonan sampai putusan, termasuk alat bukti, amar, dan akibat hukum putusan. Sumber pindai ber-OCR berat pada kepala pasal ('PasalSO' untuk Pasal 50, 'BABI' untuk BAB I) — dinormalkan parser.",
   "kelompok": "mahkamah-konstitusi"
  },
- "dihasilkan": "2026-10-02T13:11:02.433Z",
+ "dihasilkan": "2026-10-05T21:40:58.114Z",
  "timeline": [
   {
    "tanggal": "2025-08-20",
@@ -770,8 +770,9 @@
        "id": "pasal-8/huruf-g",
        "tipe": "huruf",
        "nomor": "g.",
-       "teks": "Pemeriksaan PendahuIuan;",
-       "verifikasi": "pdf-resmi",
+       "teks": "Pemeriksaan Pendahuluan;",
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "Cacat lapisan teks arsip, bukan cacat cetak: citra halaman 14 berbunyi \"Pemeriksaan Pendahuluan\", sedangkan lapisan teksnya memuat \"PendahuIuan\" (I kapital). Naskah dipulihkan sesuai citra.",
        "sumber": "permk-2025-7",
        "berlaku_mulai": "2025-08-20"
       },
@@ -788,8 +789,9 @@
        "id": "pasal-8/huruf-i",
        "tipe": "huruf",
        "nomor": "i.",
-       "teks": "Pemeriksaan PendahuIuan Perbaikan Permohonan;",
-       "verifikasi": "pdf-resmi",
+       "teks": "Pemeriksaan Pendahuluan Perbaikan Permohonan;",
+       "verifikasi": "pdf-ocr",
+       "catatan_kurasi": "Cacat lapisan teks arsip, bukan cacat cetak: citra halaman 14 berbunyi \"Pemeriksaan Pendahuluan\", sedangkan lapisan teksnya memuat \"PendahuIuan\" (I kapital). Naskah dipulihkan sesuai citra.",
        "sumber": "permk-2025-7",
        "berlaku_mulai": "2025-08-20"
       },
@@ -4617,8 +4619,8 @@
  },
  "keandalan": {
   "total": 405,
-  "pdf-resmi": 398,
-  "pdf-ocr": 0,
+  "pdf-resmi": 396,
+  "pdf-ocr": 2,
   "ejaan-baku": 7,
   "draf": 0,
   "lainnya": 0

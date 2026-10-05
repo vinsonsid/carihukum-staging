@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2002/22/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2002/22"/>
+          <FRBRdate date="2002-10-22" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2002/22/ind@2002-10-22/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2002/22/ind@2002-10-22"/>
+          <FRBRdate date="2002-10-22" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2002/22/ind@2002-10-22/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2002/22/ind@2002-10-22.akn"/>
+          <FRBRdate date="2026-10-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 22 Tahun 2002 tentang Grasi</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini, yang dimaksud dengan :</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Grasi adalah pengampunan berupa perubahan, peringanan, pengurangan, atau penghapusan pelaksanaan pidana kepada terpidana yang diberikan oleh Presiden.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Terpidana adalah seseorang yang dipidana berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>RUANG LINGKUP PERMOHONAN DAN PEMBERIAN GRASI</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+              <paragraph eId="pasal_2__ayat_1">
+                <num>(1)</num>
+                <content><p>Terhadap putusan pengadilan yang telah memperoleh kekuatan hukum tetap, terpidana dapat mengajukan permohonan grasi kepada Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_2">
+                <num>(2)</num>
+                <content><p>Putusan pemidanaan yang dapat dimohonkan grasi sebagaimana dimaksud pada ayat (1) adalah pidana mati, penjara seumur hidup, penjara paling rendah 2 (dua) tahun.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_3">
+                <num>(3)</num>
+                <intro><p>Permohonan grasi sebagaimana dimaksud pada ayat (1) hanya dapat diajukan 1 (satu) kali, kecuali dalam hal :</p></intro>
+                  <point eId="pasal_2__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>terpidana yang pernah ditolak permohonan grasinya dan telah lewat waktu 2 (dua) tahun sejak tanggal penolakan permohonan grasi tersebut; atau</p></content>
+                  </point>
+                  <point eId="pasal_2__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>terpidana yang pernah diberi grasi dari pidana mati menjadi pidana penjara seumur hidup dan telah lewat waktu 2 (dua) tahun sejak tanggal keputusan pemberian grasi diterima.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <content><p>Permohonan grasi tidak menunda pelaksanaan putusan pemidanaan bagi terpidana, kecuali dalam hal putusan pidana mati.</p></content>
+          </article>
+          <article eId="pasal_4">
+            <num>4</num>
+              <paragraph eId="pasal_4__ayat_1">
+                <num>(1)</num>
+                <content><p>Presiden berhak mengabulkan atau menolak permohonan grasi yang diajukan terpidana sebagaimana dimaksud dalam Pasal 2 setelah mendapat pertimbangan dari Mahkamah Agung.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_4__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pemberian grasi oleh Presiden dapat berupa :</p></intro>
+                  <point eId="pasal_4__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringanan atau perubahan jenis pidana;</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengurangan jumlah pidana; atau</p></content>
+                  </point>
+                  <point eId="pasal_4__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>penghapusan pelaksanaan pidana.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>TATA CARA PENGAJUAN DAN PENYELESAIAN PERMOHONAN GRASI</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Pengajuan Permohonan Grasi</heading>
+              <article eId="pasal_5">
+                <num>5</num>
+                  <paragraph eId="pasal_5__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hak mengajukan grasi diberitahukan kepada terpidana oleh hakim atau hakim ketua sidang yang memutus perkara pada tingkat pertama.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_5__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jika pada waktu putusan pengadilan dijatuhkan terpidana tidak hadir, hak terpidana sebagaimana dimaksud pada ayat (1) diberitahukan secara tertulis oleh panitera dari pengadilan yang memutus perkara pada tingkat pertama.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_6">
+                <num>6</num>
+                  <paragraph eId="pasal_6__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Permohonan grasi oleh terpidana atau kuasa hukumnya diajukan kepada Presiden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Permohonan sebagaimana dimaksud pada ayat (1) dapat diajukan oleh keluarga terpidana, dengan persetujuan terpidana.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_6__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal terpidana dijatuhi pidana mati, permohonan grasi dapat diajukan oleh keluarga terpidana tanpa persetujuan terpidana.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_7">
+                <num>7</num>
+                  <paragraph eId="pasal_7__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Permohonan grasi dapat diajukan sejak putusan pengadilan memperoleh kekuatan hukum tetap.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_7__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Permohonan grasi sebagaimana dimaksud pada ayat (1) tidak dibatasi oleh tenggang waktu tertentu.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Permohonan grasi sebagaimana dimaksud dalam Pasal 6 dan Pasal 7 diajukan secara tertulis oleh terpidana, kuasa hukumnya, atau keluarganya, kepada Presiden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Salinan permohonan grasi sebagaimana dimaksud pada ayat (1) disampaikan kepada pengadilan yang memutus perkara pada tingkat pertama untuk diteruskan kepada Mahkamah Agung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Permohonan grasi dan salinannya sebagaimana dimaksud pada ayat (1) dan ayat (2) dapat disampaikan oleh terpidana melalui Kepala Lembaga Pemasyarakatan tempat terpidana menjalani pidana.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Dalam hal permohonan grasi dan salinannya diajukan melalui Kepala Lembaga Pemasyarakatan sebagaimana dimaksud pada ayat (3), Kepala Lembaga Pemasyarakatan menyampaikan permohonan grasi tersebut kepada Presiden dan salinannya dikirimkan kepada pengadilan yang memutus perkara pada tingkat pertama paling lambat 7 (tujuh) hari terhitung sejak diterimanya permohonan grasi dan salinannya.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Penyelesaian Permohonan Grasi</heading>
+              <article eId="pasal_9">
+                <num>9</num>
+                <content><p>Dalam jangka waktu paling lambat 20 (dua puluh) hari terhitung sejak tanggal penerimaan salinan permohonan grasi sebagaimana dimaksud dalam Pasal 8, pengadilan tingkat pertama mengirimkan salinan permohonan dan berkas perkara terpidana kepada Mahkamah Agung.</p></content>
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                <content><p>Dalam jangka waktu paling lambat 3 (tiga) bulan terhitung sejak tanggal diterimanya salinan permohonan dan berkas perkara sebagaimana dimaksud dalam Pasal 9, Mahkamah Agung mengirimkan pertimbangan tertulis kepada Presiden.</p></content>
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                  <paragraph eId="pasal_11__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Presiden memberikan keputusan atas permohonan grasi setelah memperhatikan pertimbangan Mahkamah Agung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Keputusan Presiden dapat berupa pemberian atau penolakan grasi.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_11__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Jangka waktu pemberian atau penolakan grasi sebagaimana dimaksud pada ayat (2) paling lambat 3 (tiga) bulan terhitung sejak diterimanya pertimbangan Mahkamah Agung.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                  <paragraph eId="pasal_12__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Keputusan Presiden sebagaimana dimaksud dalam Pasal 11 ayat (2) disampaikan kepada terpidana dalam jangka waktu paling lambat 14 (empat belas) hari terhitung sejak ditetapkannya Keputusan Presiden.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_12__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Salinan keputusan sebagaimana dimaksud pada ayat (1) disampaikan kepada :</p></intro>
+                      <point eId="pasal_12__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>Mahkamah Agung;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>Pengadilan yang memutus perkara pada tingkat pertama;</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>Kejaksaan negeri yang menuntut perkara terpidana; dan</p></content>
+                      </point>
+                      <point eId="pasal_12__ayat_2__huruf_d">
+                        <num>d.</num>
+                        <content><p>Lembaga Pemasyarakatan tempat terpidana menjalani pidana.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                <content><p>Bagi terpidana mati, kuasa hukum atau keluarga terpidana yang mengajukan permohonan grasi, pidana mati tidak dapat dilaksanakan sebelum Keputusan Presiden tentang penolakan permohonan grasi diterima oleh terpidana.</p></content>
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>KETENTUAN LAIN-LAIN</heading>
+          <article eId="pasal_14">
+            <num>14</num>
+              <paragraph eId="pasal_14__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam hal permohonan grasi diajukan dalam waktu bersamaan dengan permohonan peninjauan kembali atau jangka waktu antara kedua permohonan tersebut tidak terlalu lama, maka permohonan peninjauan kembali diputus lebih dahulu.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_2">
+                <num>(2)</num>
+                <content><p>Keputusan permohonan grasi sebagaimana dimaksud pada ayat (1) ditetapkan dalam jangka waktu paling lambat 3 (tiga) bulan terhitung sejak salinan putusan peninjauan kembali diterima Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_14__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai tata cara penyelesaian permohonan grasi sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_15">
+            <num>15</num>
+            <content><p>Permohonan grasi yang belum mendapat penyelesaian yang diajukan sebelum berlakunya Undang-Undang ini diselesaikan dalam waktu 2 (dua) tahun terhitung sejak Undang-Undang ini mulai berlaku.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_16">
+            <num>16</num>
+            <content><p>Pada saat Undang-Undang ini mulai berlaku, Undang-Undang Nomor 3 Tahun 1950 tentang Permohonan Grasi (Lembaran Negara Republik Indonesia Serikat Tahun 1950 Nomor 40) dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

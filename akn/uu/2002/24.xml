@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2002/24/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2002/24"/>
+          <FRBRdate date="2002-10-22" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2002/24/ind@2002-10-22/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2002/24/ind@2002-10-22"/>
+          <FRBRdate date="2002-10-22" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2002/24/ind@2002-10-22/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2002/24/ind@2002-10-22.akn"/>
+          <FRBRdate date="2026-10-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 24 Tahun 2002 tentang Surat Utang Negara</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-undang ini yang dimaksud dengan :</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Surat Utang Negara adalah surat berharga yang berupa surat pengakuan utang dalam mata uang rupiah maupun valuta asing yang dijamin pembayaran bunga dan pokoknya oleh Negara Republik Indonesia, sesuai dengan masa berlakunya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Pasar Perdana adalah kegiatan penawaran dan penjualan Surat Utang Negara untuk pertama kali.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Pasar Sekunder adalah kegiatan perdagangan Surat Utang Negara yang telah dijual di Pasar Perdana.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Pemerintah adalah Pemerintah Pusat Negara Republik Indonesia.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Menteri adalah Menteri Keuangan Republik Indonesia.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>BENTUK DAN JENIS SURAT UTANG NEGARA</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+              <paragraph eId="pasal_2__ayat_1">
+                <num>(1)</num>
+                <content><p>Surat Utang Negara diterbitkan dalam bentuk warkat atau tanpa warkat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_2__ayat_2">
+                <num>(2)</num>
+                <content><p>Surat Utang Negara sebagaimana dimaksud dalam ayat (1) diterbitkan dalam bentuk yang diperdagangkan atau dalam bentuk yang tidak diperdagangkan di Pasar Sekunder.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+              <paragraph eId="pasal_3__ayat_1">
+                <num>(1)</num>
+                <intro><p>Surat Utang Negara terdiri atas :</p></intro>
+                  <point eId="pasal_3__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>Surat Perbendaharaan Negara;</p></content>
+                  </point>
+                  <point eId="pasal_3__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>Obligasi Negara.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_2">
+                <num>(2)</num>
+                <content><p>Surat Perbendaharaan Negara sebagaimana dimaksud dalam ayat (1) huruf a berjangka waktu sampai dengan 12 (dua belas) bulan dengan pembayaran bunga secara diskonto.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_3__ayat_3">
+                <num>(3)</num>
+                <content><p>Obligasi Negara sebagaimana dimaksud dalam ayat (1) huruf b berjangka waktu lebih dari 12 (dua belas) bulan dengan kupon dan/atau dengan pembayaran bunga secara diskonto.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>TUJUAN PENERBITAN SURAT UTANG NEGARA</heading>
+          <article eId="pasal_4">
+            <num>4</num>
+            <intro><p>Surat Utang Negara diterbitkan untuk tujuan sebagai berikut:</p></intro>
+              <point eId="pasal_4__huruf_a">
+                <num>a.</num>
+                <content><p>membiayai defisit Anggaran Pendapatan dan Belanja Negara;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_b">
+                <num>b.</num>
+                <content><p>menutup kekurangan kas jangka pendek akibat ketidaksesuaian antara arus kas penerimaan dan pengeluaran dari Rekening Kas Negara dalam satu tahun anggaran;</p></content>
+              </point>
+              <point eId="pasal_4__huruf_c">
+                <num>c.</num>
+                <content><p>mengelola portofolio utang negara.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>KEWENANGAN DAN KEWAJIBAN</heading>
+          <article eId="pasal_5">
+            <num>5</num>
+              <paragraph eId="pasal_5__ayat_1">
+                <num>(1)</num>
+                <content><p>Kewenangan menerbitkan Surat Utang Negara untuk tujuan sebagaimana dimaksud dalam Pasal 4 berada pada Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_5__ayat_2">
+                <num>(2)</num>
+                <content><p>Kewenangan sebagaimana dimaksud dalam ayat (1) dilaksana-kan oleh Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_6">
+            <num>6</num>
+            <content><p>Dalam hal Pemerintah akan menerbitkan Surat Utang Negara untuk tujuan sebagaimana dimaksud dalam Pasal 4, Menteri terlebih dahulu berkonsultasi dengan Bank Indonesia.</p></content>
+          </article>
+          <article eId="pasal_7">
+            <num>7</num>
+              <paragraph eId="pasal_7__ayat_1">
+                <num>(1)</num>
+                <content><p>Penerbitan Surat Utang Negara harus terlebih dahulu mendapat persetujuan Dewan Perwakilan Rakyat.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_2">
+                <num>(2)</num>
+                <content><p>Persetujuan sebagaimana dimaksud dalam ayat (1) diberikan atas nilai bersih maksimal Surat Utang Negara yang akan diterbitkan dalam satu tahun anggaran.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_3">
+                <num>(3)</num>
+                <content><p>Persetujuan Dewan Perwakilan Rakyat sebagaimana dimaksud dalam ayat (1), diberikan pada saat pengesahan Anggaran Pendapatan dan Belanja Negara.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_7__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal-hal tertentu, Menteri dapat menerbitkan Surat Utang Negara melebihi nilai bersih maksimal yang telah disetujui Dewan Perwakilan Rakyat sebagaimana dimaksud dalam ayat (2) setelah mendapat persetujuan terlebih dahulu dari Dewan Perwakilan Rakyat dan dilaporkan sebagai Perubahan Anggaran Pendapatan dan Belanja Negara tahun yang bersangkutan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_8">
+            <num>8</num>
+              <paragraph eId="pasal_8__ayat_1">
+                <num>(1)</num>
+                <content><p>Persetujuan Dewan Perwakilan Rakyat mengenai penerbitan Surat Utang Negara sebagaimana dimaksud dalam Pasal 7 ayat (1) meliputi pembayaran semua kewajiban bunga dan pokok yang timbul sebagai akibat penerbitan Surat Utang Negara dimaksud.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_2">
+                <num>(2)</num>
+                <content><p>Pemerintah wajib membayar bunga dan pokok setiap Surat Utang Negara pada saat jatuh tempo.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_3">
+                <num>(3)</num>
+                <content><p>Dana untuk membayar bunga dan pokok sebagaimana dimaksud dalam ayat (2) disediakan dalam Anggaran Pendapatan dan Belanja Negara setiap tahun sampai dengan berakhirnya kewajiban tersebut.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_8__ayat_4">
+                <num>(4)</num>
+                <content><p>Dalam hal pembayaran kewajiban bunga dan pokok dimaksud melebihi perkiraan dana sebagaimana dimaksud dalam ayat (3), Menteri melakukan pembayaran dan menyampaikan realisasi pembayaran tersebut kepada Dewan Perwakilan Rakyat dalam pembahasan Perubahan Anggaran Pendapatan dan Belanja Negara.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PENGELOLAAN SURAT UTANG NEGARA</heading>
+          <article eId="pasal_9">
+            <num>9</num>
+              <paragraph eId="pasal_9__ayat_1">
+                <num>(1)</num>
+                <content><p>Pengelolaan Surat Utang Negara diselenggarakan oleh Menteri.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_9__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pengelolaan Surat Utang Negara sebagaimana dimaksud dalam ayat (1) sekurang-kurangnya meliputi:</p></intro>
+                  <point eId="pasal_9__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>penetapan strategi dan kebijakan pengelolaan Surat Utang Negara termasuk kebijakan pengendalian risiko;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>perencanaan dan penetapan struktur portofolio utang negara;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>penerbitan Surat Utang Negara;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>penjualan Surat Utang Negara melalui lelang dan/atau tanpa lelang;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_e">
+                    <num>e.</num>
+                    <content><p>pembelian kembali Surat Utang Negara sebelum jatuh tempo;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_f">
+                    <num>f.</num>
+                    <content><p>pelunasan;</p></content>
+                  </point>
+                  <point eId="pasal_9__ayat_2__huruf_g">
+                    <num>g.</num>
+                    <content><p>aktivitas lain dalam rangka pengembangan Pasar Perdana dan Pasar Sekunder Surat Utang Negara.</p></content>
+                  </point>
+
+              </paragraph>
+
+          </article>
+          <article eId="pasal_10">
+            <num>10</num>
+              <paragraph eId="pasal_10__ayat_1">
+                <num>(1)</num>
+                <content><p>Dalam rangka mendukung penyelenggaraan pengelolaan Surat Utang Negara sebagaimana dimaksud dalam Pasal 9, Menteri membuka rekening yang merupakan bagian dari Rekening Kas Negara.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_10__ayat_2">
+                <num>(2)</num>
+                <content><p>Tata cara pembukaan dan pengelolaan rekening sebagaimana dimaksud dalam ayat (1) ditetapkan oleh Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_11">
+            <num>11</num>
+            <intro><p>Setiap Surat Utang Negara mencantumkan sekurang-kurangnya:</p></intro>
+              <point eId="pasal_11__huruf_a">
+                <num>a.</num>
+                <content><p>nilai nominal,</p></content>
+              </point>
+              <point eId="pasal_11__huruf_b">
+                <num>b.</num>
+                <content><p>tanggal jatuh tempo,</p></content>
+              </point>
+              <point eId="pasal_11__huruf_c">
+                <num>c.</num>
+                <content><p>tanggal pembayaran bunga,</p></content>
+              </point>
+              <point eId="pasal_11__huruf_d">
+                <num>d.</num>
+                <content><p>tingkat bunga (kupon),</p></content>
+              </point>
+              <point eId="pasal_11__huruf_e">
+                <num>e.</num>
+                <content><p>frekuensi pembayaran bunga,</p></content>
+              </point>
+              <point eId="pasal_11__huruf_f">
+                <num>f.</num>
+                <content><p>cara perhitungan pembayaran bunga,</p></content>
+              </point>
+              <point eId="pasal_11__huruf_g">
+                <num>g.</num>
+                <content><p>ketentuan tentang hak untuk membeli kembali Surat Utang Negara sebelum jatuh tempo,</p></content>
+              </point>
+              <point eId="pasal_11__huruf_h">
+                <num>h.</num>
+                <content><p>ketentuan tentang pengalihan kepemilikan.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_12">
+            <num>12</num>
+              <paragraph eId="pasal_12__ayat_1">
+                <num>(1)</num>
+                <content><p>Kegiatan penatausahaan yang mencakup pencatatan kepemilik-an, kliring dan setelmen, serta agen pembayar bunga dan pokok Surat Utang Negara dilaksanakan oleh Bank Indonesia.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_12__ayat_2">
+                <num>(2)</num>
+                <content><p>Dalam menyelenggarakan kegiatan penatausahaan sebagaimana dimaksud dalam ayat (1), Bank Indonesia wajib membuat laporan pertanggungjawaban kepada Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_13">
+            <num>13</num>
+              <paragraph eId="pasal_13__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri menunjuk Bank Indonesia sebagai agen untuk melaksanakan lelang Surat Perbendaharaan Negara di Pasar Perdana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_2">
+                <num>(2)</num>
+                <content><p>Menteri dapat menunjuk Bank Indonesia sebagai agen untuk melaksanakan lelang Obligasi Negara di Pasar Perdana.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_13__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan mengenai metode lelang, jadwal pelaksanaan lelang, kriteria peserta lelang, dan hasil akhir lelang ditetapkan oleh Menteri.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_14">
+            <num>14</num>
+            <content><p>Menteri dapat menunjuk Bank Indonesia dan/atau pihak lain sebagai agen untuk melaksanakan pembelian dan penjualan Surat Utang Negara di Pasar Sekunder.</p></content>
+          </article>
+          <article eId="pasal_15">
+            <num>15</num>
+            <content><p>Pengaturan dan pengawasan terhadap kegiatan perdagangan Surat Utang Negara dilakukan oleh instansi pemerintah yang melakukan pengaturan dan pengawasan di bidang pasar modal.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>AKUNTABILITAS DAN TRANSPARANSI</heading>
+          <article eId="pasal_16">
+            <num>16</num>
+              <paragraph eId="pasal_16__ayat_1">
+                <num>(1)</num>
+                <content><p>Menteri wajib menyelenggarakan penatausahaan dan membuat pertanggungjawaban atas pengelolaan Surat Utang Negara dan dana yang dikelola.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_16__ayat_2">
+                <num>(2)</num>
+                <content><p>Pertanggungjawaban sebagaimana dimaksud dalam ayat (1) disampaikan sebagai bagian dari pertanggungjawaban pelaksa-naan Anggaran Pendapatan dan Belanja Negara.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_17">
+            <num>17</num>
+            <intro><p>Menteri wajib secara berkala mempublikasikan informasi tentang:</p></intro>
+              <point eId="pasal_17__huruf_a">
+                <num>a.</num>
+                <content><p>kebijakan pengelolaan utang dan rencana penerbitan Surat Utang Negara yang meliputi perkiraan jumlah dan jadwal waktu penerbitan;</p></content>
+              </point>
+              <point eId="pasal_17__huruf_b">
+                <num>b.</num>
+                <content><p>jumlah Surat Utang Negara yang beredar beserta komposisinya, termasuk jenis valuta, struktur jatuh tempo dan tingkat bunga.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_18">
+            <num>18</num>
+            <content><p>Tata cara penatausahaan, pertanggungjawaban, dan publikasi informasi sebagaimana dimaksud dalam Pasal 16 dan Pasal 17 ditetapkan dalam Peraturan Pemerintah.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_19">
+            <num>19</num>
+              <paragraph eId="pasal_19__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang meniru Surat Utang Negara atau memalsukan Surat Utang Negara dengan maksud memperdagangkan atau dengan sengaja memperdagangkan Surat Utang Negara tiruan atau Surat Utang Negara palsu, dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun dan denda paling sedikit Rp10.000.000.000,00 (sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_19__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap orang yang dengan sengaja menerbitkan Surat Utang Negara tidak berdasarkan Undang-undang ini, dipidana dengan pidana penjara paling singkat 10 (sepuluh) tahun dan paling lama 20 (dua puluh) tahun dan denda paling sedikit Rp 20.000.000.000,00 (dua puluh miliar rupiah) dan paling banyak Rp40.000.000.000,00 (empat puluh miliar rupiah).</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_20">
+            <num>20</num>
+            <intro><p>Surat Utang atau Obligasi Negara yang telah diterbitkan oleh Pemerintah dalam rangka:</p></intro>
+              <point eId="pasal_20__huruf_a">
+                <num>a.</num>
+                <content><p>program rekapitalisasi bank umum;</p></content>
+              </point>
+              <point eId="pasal_20__huruf_b">
+                <num>b.</num>
+                <content><p>pinjaman luar negeri dalam bentuk surat utang atau obligasi;</p></content>
+              </point>
+              <point eId="pasal_20__huruf_c">
+                <num>c.</num>
+                <content><p>pinjaman dalam negeri dalam bentuk surat utang;</p></content>
+              </point>
+              <point eId="pasal_20__huruf_d">
+                <num>d.</num>
+                <content><p>pembiayaan kredit program; dinyatakan sah dan tetap berlaku sampai dengan saat jatuh tempo.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_21">
+            <num>21</num>
+            <content><p>Dengan berlakunya Undang-undang ini, ketentuan peraturan perundang-undangan yang mengatur penerbitan Surat Utang dan/atau Obligasi Negara sebelum berlakunya Undang-undang ini dinyatakan tidak berlaku.</p></content>
+          </article>
+          <article eId="pasal_22">
+            <num>22</num>
+            <content><p>Undang-undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

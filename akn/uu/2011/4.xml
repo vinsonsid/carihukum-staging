@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="uu">
+    <meta>
+      <identification source="#carihukum">
+        <FRBRWork>
+          <FRBRthis value="/akn/id/act/uu/2011/4/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2011/4"/>
+          <FRBRdate date="2011-04-21" name="penetapan"/>
+          <FRBRauthor href="#pemerintah-ri"/>
+          <FRBRcountry value="id"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/id/act/uu/2011/4/ind@2011-04-21/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2011/4/ind@2011-04-21"/>
+          <FRBRdate date="2011-04-21" name="konsolidasi"/>
+          <FRBRauthor href="#carihukum"/>
+          <FRBRlanguage language="ind"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/id/act/uu/2011/4/ind@2011-04-21/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2011/4/ind@2011-04-21.akn"/>
+          <FRBRdate date="2026-10-05" name="ekspor"/>
+          <FRBRauthor href="#carihukum"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#carihukum">
+
+        <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
+        <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="title"><docTitle>Undang-Undang Nomor 4 Tahun 2011 tentang Informasi Geospasial</docTitle></p>
+    </preface>
+    <body>
+      <chapter eId="bab_1">
+        <num>I</num>
+        <heading>KETENTUAN UMUM</heading>
+          <article eId="pasal_1">
+            <num>1</num>
+            <intro><p>Dalam Undang-Undang ini yang dimaksud dengan:</p></intro>
+              <point eId="pasal_1__angka_1">
+                <num>1.</num>
+                <content><p>Spasial adalah aspek keruangan suatu objek atau kejadian yang mencakup lokasi, letak, dan posisinya.</p></content>
+              </point>
+              <point eId="pasal_1__angka_2">
+                <num>2.</num>
+                <content><p>Geospasial atau ruang kebumian adalah aspek keruangan yang menunjukkan lokasi, letak, dan posisi suatu objek atau kejadian yang berada di bawah, pada, atau di atas permukaan bumi yang dinyatakan dalam sistem koordinat tertentu.</p></content>
+              </point>
+              <point eId="pasal_1__angka_3">
+                <num>3.</num>
+                <content><p>Data Geospasial yang selanjutnya disingkat DG adalah data tentang lokasi geografis, dimensi atau ukuran, dan/atau karakteristik objek alam dan/atau buatan manusia yang berada di bawah, pada, atau di atas permukaan bumi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_4">
+                <num>4.</num>
+                <content><p>Informasi Geospasial yang selanjutnya disingkat IG adalah DG yang sudah diolah sehingga dapat digunakan sebagai alat bantu dalam perumusan kebijakan, pengambilan keputusan, dan/atau pelaksanaan kegiatan yang berhubungan dengan ruang kebumian.</p></content>
+              </point>
+              <point eId="pasal_1__angka_5">
+                <num>5.</num>
+                <content><p>Informasi Geospasial Dasar yang selanjutnya disingkat IGD adalah IG yang berisi tentang objek yang dapat dilihat secara langsung atau diukur dari kenampakan fisik di muka bumi dan yang tidak berubah dalam waktu yang relatif lama.</p></content>
+              </point>
+              <point eId="pasal_1__angka_6">
+                <num>6.</num>
+                <content><p>Informasi Geospasial Tematik yang selanjutnya disingkat IGT adalah IG yang menggambarkan satu atau lebih tema tertentu yang dibuat mengacu pada IGD.</p></content>
+              </point>
+              <point eId="pasal_1__angka_7">
+                <num>7.</num>
+                <content><p>Skala adalah angka perbandingan antara jarak dalam suatu IG dengan jarak sebenarnya di muka bumi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_8">
+                <num>8.</num>
+                <content><p>Titik Kontrol Geodesi adalah posisi di muka bumi yang ditandai dengan bentuk fisik tertentu yang dijadikan sebagai kerangka acuan posisi untuk IG.</p></content>
+              </point>
+              <point eId="pasal_1__angka_9">
+                <num>9.</num>
+                <content><p>Jaring Kontrol Horizontal Nasional yang selanjutnya disingkat JKHN adalah sebaran titik kontrol geodesi horizontal yang terhubung satu sama lain dalam satu kerangka referensi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_10">
+                <num>10.</num>
+                <content><p>Jaring Kontrol Vertikal Nasional yang selanjutnya disingkat JKVN adalah sebaran titik kontrol geodesi vertikal yang terhubung satu sama lain dalam satu kerangka referensi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_11">
+                <num>11.</num>
+                <content><p>Jaring Kontrol Gayaberat Nasional yang selanjutnya disingkat JKGN adalah sebaran titik kontrol geodesi gayaberat yang terhubung satu sama lain dalam satu kerangka referensi.</p></content>
+              </point>
+              <point eId="pasal_1__angka_12">
+                <num>12.</num>
+                <content><p>Peta Rupabumi Indonesia adalah peta dasar yang memberikan informasi secara khusus untuk wilayah darat.</p></content>
+              </point>
+              <point eId="pasal_1__angka_13">
+                <num>13.</num>
+                <content><p>Peta Lingkungan Pantai Indonesia adalah peta dasar yang memberikan informasi secara khusus untuk wilayah pesisir.</p></content>
+              </point>
+              <point eId="pasal_1__angka_14">
+                <num>14.</num>
+                <content><p>Peta Lingkungan Laut Nasional adalah peta dasar yang memberikan informasi secara khusus untuk wilayah laut.</p></content>
+              </point>
+              <point eId="pasal_1__angka_15">
+                <num>15.</num>
+                <content><p>Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</p></content>
+              </point>
+              <point eId="pasal_1__angka_16">
+                <num>16.</num>
+                <content><p>Pemerintah daerah adalah gubernur, bupati atau walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.</p></content>
+              </point>
+              <point eId="pasal_1__angka_17">
+                <num>17.</num>
+                <content><p>Badan adalah lembaga pemerintah nonkementerian yang mempunyai tugas, fungsi, dan kewenangan yang membidangi urusan tertentu dalam hal ini bidang penyelenggaraan IGD.</p></content>
+              </point>
+              <point eId="pasal_1__angka_18">
+                <num>18.</num>
+                <content><p>Instansi Pemerintah adalah kementerian dan lembaga pemerintah nonkementerian.</p></content>
+              </point>
+              <point eId="pasal_1__angka_19">
+                <num>19.</num>
+                <content><p>Setiap orang adalah orang perseorangan, kelompok orang, atau badan usaha.</p></content>
+              </point>
+              <point eId="pasal_1__angka_20">
+                <num>20.</num>
+                <content><p>Badan Usaha adalah badan usaha milik negara, badan usaha milik daerah, atau badan usaha yang berbadan hukum.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_2">
+        <num>II</num>
+        <heading>ASAS DAN TUJUAN</heading>
+          <article eId="pasal_2">
+            <num>2</num>
+            <intro><p>IG diselenggarakan berdasarkan asas:</p></intro>
+              <point eId="pasal_2__huruf_a">
+                <num>a.</num>
+                <content><p>kepastian hukum;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_b">
+                <num>b.</num>
+                <content><p>keterpaduan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_c">
+                <num>c.</num>
+                <content><p>keterbukaan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_d">
+                <num>d.</num>
+                <content><p>kemutakhiran;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_e">
+                <num>e.</num>
+                <content><p>keakuratan;</p></content>
+              </point>
+              <point eId="pasal_2__huruf_f">
+                <num>f.</num>
+                <content><p>kemanfaatan; dan</p></content>
+              </point>
+              <point eId="pasal_2__huruf_g">
+                <num>g.</num>
+                <content><p>demokratis.</p></content>
+              </point>
+
+          </article>
+          <article eId="pasal_3">
+            <num>3</num>
+            <intro><p>Undang-Undang ini bertujuan untuk:</p></intro>
+              <point eId="pasal_3__huruf_a">
+                <num>a.</num>
+                <content><p>menjamin ketersediaan dan akses terhadap IG yang dapat dipertanggungjawabkan;</p></content>
+              </point>
+              <point eId="pasal_3__huruf_b">
+                <num>b.</num>
+                <content><p>mewujudkan penyelenggaraan IG yang berdaya guna dan berhasil guna melalui kerja sama, koordinasi, integrasi, dan sinkronisasi; dan</p></content>
+              </point>
+              <point eId="pasal_3__huruf_c">
+                <num>c.</num>
+                <content><p>mendorong penggunaan IG dalam penyelenggaraan pemerintahan dan dalam berbagai aspek kehidupan masyarakat.</p></content>
+              </point>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_3">
+        <num>III</num>
+        <heading>JENIS INFORMASI GEOSPASIAL</heading>
+          <part eId="bab_3__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_4">
+                <num>4</num>
+                <intro><p>Jenis IG terdiri atas:</p></intro>
+                  <point eId="pasal_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>IGD; dan</p></content>
+                  </point>
+                  <point eId="pasal_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>IGT.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Informasi Geospasial Dasar</heading>
+              <article eId="pasal_5">
+                <num>5</num>
+                <intro><p>IGD sebagaimana dimaksud dalam Pasal 4 huruf a meliputi:</p></intro>
+                  <point eId="pasal_5__huruf_a">
+                    <num>a.</num>
+                    <content><p>jaring kontrol geodesi; dan</p></content>
+                  </point>
+                  <point eId="pasal_5__huruf_b">
+                    <num>b.</num>
+                    <content><p>peta dasar.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_6">
+                <num>6</num>
+                <intro><p>Jaring kontrol geodesi sebagaimana dimaksud dalam Pasal 5 huruf a meliputi:</p></intro>
+                  <point eId="pasal_6__huruf_a">
+                    <num>a.</num>
+                    <content><p>JKHN;</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_b">
+                    <num>b.</num>
+                    <content><p>JKVN; dan</p></content>
+                  </point>
+                  <point eId="pasal_6__huruf_c">
+                    <num>c.</num>
+                    <content><p>JKGN.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_7">
+                <num>7</num>
+                <intro><p>Peta dasar sebagaimana dimaksud dalam Pasal 5 huruf b berupa:</p></intro>
+                  <point eId="pasal_7__huruf_a">
+                    <num>a.</num>
+                    <content><p>Peta Rupabumi Indonesia;</p></content>
+                  </point>
+                  <point eId="pasal_7__huruf_b">
+                    <num>b.</num>
+                    <content><p>Peta Lingkungan Pantai Indonesia; dan</p></content>
+                  </point>
+                  <point eId="pasal_7__huruf_c">
+                    <num>c.</num>
+                    <content><p>Peta Lingkungan Laut Nasional.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_8">
+                <num>8</num>
+                  <paragraph eId="pasal_8__ayat_1">
+                    <num>(1)</num>
+                    <content><p>JKHN sebagaimana dimaksud dalam Pasal 6 huruf a digunakan sebagai kerangka acuan posisi horizontal untuk IG.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Koordinat JKHN ditentukan dengan metode pengukuran geodetik tertentu, dinyatakan dalam sistem referensi koordinat tertentu, dan diwujudkan dalam bentuk tanda fisik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_8__ayat_3">
+                    <num>(3)</num>
+                    <content><p>JKHN diklasifikasikan berdasarkan tingkat ketelitian koordinat horizontal.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_9">
+                <num>9</num>
+                  <paragraph eId="pasal_9__ayat_1">
+                    <num>(1)</num>
+                    <content><p>JKVN sebagaimana dimaksud dalam Pasal 6 huruf b digunakan sebagai kerangka acuan posisi vertikal untuk IG.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Tinggi JKVN ditentukan dengan metode pengukuran geodetik tertentu, dinyatakan dalam datum vertikal tertentu, sistem tinggi tertentu, dan diwujudkan dalam bentuk tanda fisik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_9__ayat_3">
+                    <num>(3)</num>
+                    <content><p>JKVN diklasifikasikan berdasarkan tingkat ketelitian vertikal.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_10">
+                <num>10</num>
+                  <paragraph eId="pasal_10__ayat_1">
+                    <num>(1)</num>
+                    <content><p>JKGN sebagaimana dimaksud dalam Pasal 6 huruf c digunakan sebagai kerangka acuan gayaberat untuk IG.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_2">
+                    <num>(2)</num>
+                    <content><p>JKGN ditetapkan dengan metode pengukuran geodetik tertentu, mengacu pada titik acuan gayaberat absolut, dan diwujudkan dalam bentuk tanda fisik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_10__ayat_3">
+                    <num>(3)</num>
+                    <content><p>JKGN diklasifikasikan berdasarkan tingkat ketelitian gayaberat.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_11">
+                <num>11</num>
+                <content><p>Setiap orang wajib menjaga tanda fisik jaring kontrol geodesi sebagaimana dimaksud dalam Pasal 8 ayat (2), Pasal 9 ayat (2), dan Pasal 10 ayat (2).</p></content>
+              </article>
+              <article eId="pasal_12">
+                <num>12</num>
+                <intro><p>Peta dasar sebagaimana dimaksud dalam Pasal 5 huruf b terdiri atas:</p></intro>
+                  <point eId="pasal_12__huruf_a">
+                    <num>a.</num>
+                    <content><p>garis pantai;</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_b">
+                    <num>b.</num>
+                    <content><p>hipsografi;</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_c">
+                    <num>c.</num>
+                    <content><p>perairan;</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_d">
+                    <num>d.</num>
+                    <content><p>nama rupabumi;</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_e">
+                    <num>e.</num>
+                    <content><p>batas wilayah;</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_f">
+                    <num>f.</num>
+                    <content><p>transportasi dan utilitas;</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_g">
+                    <num>g.</num>
+                    <content><p>bangunan dan fasilitas umum; dan</p></content>
+                  </point>
+                  <point eId="pasal_12__huruf_h">
+                    <num>h.</num>
+                    <content><p>penutup lahan.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_13">
+                <num>13</num>
+                  <paragraph eId="pasal_13__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Garis pantai sebagaimana dimaksud dalam Pasal 12 huruf a merupakan garis pertemuan antara daratan dengan lautan yang dipengaruhi oleh pasang surut air laut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Garis pantai sebagaimana dimaksud pada ayat (1) terdiri atas:</p></intro>
+                      <point eId="pasal_13__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>garis pantai surut terendah;</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>garis pantai pasang tertinggi; dan</p></content>
+                      </point>
+                      <point eId="pasal_13__ayat_2__huruf_c">
+                        <num>c.</num>
+                        <content><p>garis pantai tinggi muka air laut rata-rata.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pada Peta Rupabumi Indonesia, garis pantai ditetapkan berdasarkan garis kedudukan muka air laut rata-rata.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pada Peta Lingkungan Pantai Indonesia dan Peta Lingkungan Laut Nasional, garis pantai ditetapkan berdasarkan kedudukan muka air laut surut terendah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_13__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Garis pantai sebagaimana dimaksud pada ayat (2) ditentukan dengan mengacu pada JKVN.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_14">
+                <num>14</num>
+                  <paragraph eId="pasal_14__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Hipsografi sebagaimana dimaksud dalam Pasal 12 huruf b merupakan garis khayal untuk menggambarkan semua titik yang mempunyai ketinggian yang sama di permukaan bumi atau kedalaman yang sama di dasar laut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pada Peta Rupabumi Indonesia, hipsografi digambarkan dalam bentuk garis kontur mukabumi dan titik ketinggian di darat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_14__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pada Peta Lingkungan Pantai Indonesia dan Peta Lingkungan Laut Nasional, hipsografi digambarkan dalam bentuk garis kontur mukabumi, titik ketinggian di darat, batimetri, dan titik kedalaman di laut.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_15">
+                <num>15</num>
+                <content><p>Nama rupabumi sebagaimana dimaksud dalam Pasal 12 huruf d dikumpulkan dengan menggunakan tata cara pengumpulan nama rupabumi sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </article>
+              <article eId="pasal_16">
+                <num>16</num>
+                  <paragraph eId="pasal_16__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Batas wilayah sebagaimana dimaksud dalam Pasal 12 huruf e digambarkan berdasarkan dokumen penetapan penentuan batas wilayah secara pasti di lapangan oleh Instansi Pemerintah yang berwenang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_16__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal terdapat batas wilayah yang belum ditetapkan secara pasti di lapangan oleh Instansi Pemerintah yang berwenang sebagaimana dimaksud pada ayat (1), digunakan batas wilayah sementara yang penggambarannya dibedakan dengan menggunakan simbol dan/atau warna khusus.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_17">
+                <num>17</num>
+                  <paragraph eId="pasal_17__ayat_1">
+                    <num>(1)</num>
+                    <content><p>IGD diselenggarakan secara bertahap dan sistematis untuk seluruh wilayah Negara Kesatuan Republik Indonesia dan wilayah yurisdiksinya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_2">
+                    <num>(2)</num>
+                    <content><p>IGD sebagaimana dimaksud pada ayat (1) dimutakhirkan secara periodik dalam jangka waktu tertentu.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal terjadi bencana alam, perang, pemekaran atau perubahan wilayah administratif, atau kejadian lainnya yang berakibat berubahnya unsur IGD sebagaimana dimaksud dalam Pasal 5 sehingga mempengaruhi pola dan struktur kehidupan masyarakat, pemutakhiran IGD harus dilakukan tanpa menunggu pemutakhiran secara periodik sebagaimana dimaksud pada ayat (2).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai norma, standar, prosedur, dan kriteria pemutakhiran IGD diatur dengan Peraturan Kepala Badan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_17__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai jangka waktu pemutakhiran IGD diatur dalam Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_18">
+                <num>18</num>
+                  <paragraph eId="pasal_18__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Peta Rupabumi Indonesia sebagaimana dimaksud dalam Pasal 7 huruf a diselenggarakan pada skala 1:1.000.000, 1:500.000, 1:250.000, 1:100.000, 1:50.000, 1:25.000, 1:10.000, 1:5.000, 1:2.500, dan 1:1.000.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Peta Lingkungan Pantai Indonesia sebagaimana dimaksud dalam Pasal 7 huruf b diselenggarakan pada skala 1:250.000, 1:50.000, 1:25.000, dan 1:10.000.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_18__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Peta Lingkungan Laut Nasional sebagaimana dimaksud dalam Pasal 7 huruf c diselenggarakan pada skala 1:500.000, 1:250.000, dan 1:50.000.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_3__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Informasi Geospasial Tematik</heading>
+              <article eId="pasal_19">
+                <num>19</num>
+                <content><p>IGT sebagaimana dimaksud dalam Pasal 4 huruf b wajib mengacu pada IGD.</p></content>
+              </article>
+              <article eId="pasal_20">
+                <num>20</num>
+                <intro><p>Dalam membuat IGT dilarang:</p></intro>
+                  <point eId="pasal_20__huruf_a">
+                    <num>a.</num>
+                    <content><p>mengubah posisi dan tingkat ketelitian geometris bagian IGD; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_20__huruf_b">
+                    <num>b.</num>
+                    <content><p>membuat skala IGT lebih besar daripada skala IGD yang diacunya.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_21">
+                <num>21</num>
+                  <paragraph eId="pasal_21__ayat_1">
+                    <num>(1)</num>
+                    <content><p>IGT yang menggambarkan suatu batas yang mempunyai kekuatan hukum dibuat berdasarkan dokumen penetapan batas secara pasti oleh Instansi Pemerintah yang berwenang.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penetapan batas yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah yang berwenang dilampiri dengan dokumen IGT yang akurat dan dapat dipertanggungjawabkan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_21__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Dalam hal terdapat batas yang belum ditetapkan secara pasti oleh Instansi Pemerintah yang berwenang sebagaimana dimaksud pada ayat (1), digunakan batas sementara yang penggambarannya dibedakan dengan menggunakan simbol dan/atau warna khusus.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_4">
+        <num>IV</num>
+        <heading>PENYELENGGARA INFORMASI GEOSPASIAL</heading>
+          <article eId="pasal_22">
+            <num>22</num>
+              <paragraph eId="pasal_22__ayat_1">
+                <num>(1)</num>
+                <content><p>IG yang berjenis IGD sebagaimana dimaksud dalam Pasal 4 huruf a hanya diselenggarakan oleh Pemerintah.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_22__ayat_2">
+                <num>(2)</num>
+                <content><p>Penyelenggaraan IGD sebagaimana dimaksud pada ayat (1) dilakukan oleh Badan yang disebut Badan Informasi Geospasial sebagai pengganti Badan Koordinasi Survei dan Pemetaan Nasional sesuai dengan amanat Undang- Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_22__ayat_3">
+                <num>(3)</num>
+                <content><p>Badan sebagaimana dimaksud pada ayat (2) berkedudukan di bawah dan bertanggung jawab kepada Presiden.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_22__ayat_4">
+                <num>(4)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tugas, fungsi, susunan organisasi, dan tata kerja Badan diatur dengan Peraturan Presiden.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_23">
+            <num>23</num>
+              <paragraph eId="pasal_23__ayat_1">
+                <num>(1)</num>
+                <content><p>IG yang berjenis IGT sebagaimana dimaksud dalam Pasal 4 huruf b dapat diselenggarakan oleh Instansi Pemerintah, Pemerintah daerah, dan/atau setiap orang.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_2">
+                <num>(2)</num>
+                <content><p>Instansi Pemerintah atau Pemerintah daerah dalam menyelenggarakan IGT berdasarkan tugas, fungsi, dan kewenangannya sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_3">
+                <num>(3)</num>
+                <content><p>Instansi Pemerintah atau Pemerintah daerah sebagaimana dimaksud pada ayat (2) dalam menyelenggarakan IGT dapat bekerja sama dengan Badan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_23__ayat_4">
+                <num>(4)</num>
+                <content><p>Setiap orang dapat menyelenggarakan IGT hanya untuk kepentingan sendiri dan selain yang diselenggarakan oleh Instansi Pemerintah atau Pemerintah daerah.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_24">
+            <num>24</num>
+              <paragraph eId="pasal_24__ayat_1">
+                <num>(1)</num>
+                <intro><p>Badan dapat mengintegrasikan:</p></intro>
+                  <point eId="pasal_24__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>lebih dari satu IGT yang diselenggarakan oleh Instansi Pemerintah atau Pemerintah daerah menjadi satu IGT baru; dan</p></content>
+                  </point>
+                  <point eId="pasal_24__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>IGT yang diselenggarakan oleh lebih dari satu Instansi Pemerintah dan/atau Pemerintah daerah menjadi satu IGT baru.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_24__ayat_2">
+                <num>(2)</num>
+                <content><p>Badan dapat menyelenggarakan IGT dalam hal IGT yang belum diselenggarakan oleh Instansi Pemerintah selain Badan atau yang belum diselenggarakan oleh Pemerintah daerah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_5">
+        <num>V</num>
+        <heading>PENYELENGGARAAN INFORMASI GEOSPASIAL</heading>
+          <part eId="bab_5__bagian_kesatu">
+            <num>Kesatu</num>
+            <heading>Umum</heading>
+              <article eId="pasal_25">
+                <num>25</num>
+                <intro><p>Penyelenggaraan IG dilakukan melalui kegiatan:</p></intro>
+                  <point eId="pasal_25__huruf_a">
+                    <num>a.</num>
+                    <content><p>pengumpulan DG;</p></content>
+                  </point>
+                  <point eId="pasal_25__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengolahan DG dan IG;</p></content>
+                  </point>
+                  <point eId="pasal_25__huruf_c">
+                    <num>c.</num>
+                    <content><p>penyimpanan dan pengamanan DG dan IG;</p></content>
+                  </point>
+                  <point eId="pasal_25__huruf_d">
+                    <num>d.</num>
+                    <content><p>penyebarluasan DG dan IG; dan</p></content>
+                  </point>
+                  <point eId="pasal_25__huruf_e">
+                    <num>e.</num>
+                    <content><p>penggunaan IG.</p></content>
+                  </point>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kedua">
+            <num>Kedua</num>
+            <heading>Pengumpulan Data Geospasial</heading>
+              <article eId="pasal_26">
+                <num>26</num>
+                  <paragraph eId="pasal_26__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengumpulan DG sebagaimana dimaksud dalam Pasal 25 huruf a merupakan proses atau cara untuk mendapatkan DG yang dilakukan dengan menggunakan metode dan instrumen pengumpulan DG.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_26__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>DG sebagaimana dimaksud pada ayat (1) terdiri atas:</p></intro>
+                      <point eId="pasal_26__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>DG Dasar; dan</p></content>
+                      </point>
+                      <point eId="pasal_26__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>DG Tematik.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_27">
+                <num>27</num>
+                  <paragraph eId="pasal_27__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengumpulan DG dilakukan dengan:</p></intro>
+                      <point eId="pasal_27__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>survei dengan menggunakan instrumentasi ukur dan/atau rekam, yang dilakukan di darat, pada wahana air, pada wahana udara, dan/atau pada wahana angkasa;</p></content>
+                      </point>
+                      <point eId="pasal_27__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>pencacahan; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_27__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>cara lain sesuai dengan perkembangan ilmu pengetahuan dan teknologi.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pengumpulan DG sebagaimana dimaksud pada ayat (1) harus dilakukan sesuai dengan standar yang meliputi:</p></intro>
+                      <point eId="pasal_27__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>sistem referensi geospasial; dan</p></content>
+                      </point>
+                      <point eId="pasal_27__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>jenis, definisi, kriteria, dan format data.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_27__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara dan standar pengumpulan DG sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Kepala Badan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_28">
+                <num>28</num>
+                  <paragraph eId="pasal_28__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengumpulan DG harus memperoleh izin apabila:</p></intro>
+                      <point eId="pasal_28__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>dilakukan di daerah terlarang;</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>berpotensi menimbulkan bahaya; atau</p></content>
+                      </point>
+                      <point eId="pasal_28__ayat_1__huruf_c">
+                        <num>c.</num>
+                        <content><p>menggunakan wahana milik asing selain satelit.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Izin sebagaimana dimaksud pada ayat (1) dimaksudkan untuk menjamin keselamatan dan keamanan bagi pengumpul data dan bagi masyarakat.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_28__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara memperoleh izin sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_29">
+                <num>29</num>
+                  <paragraph eId="pasal_29__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Instansi Pemerintah atau Pemerintah daerah dalam pengumpulan DG pada suatu kawasan harus memberitahukan kepada pemilik, penguasa, atau penerima manfaat dari kawasan tersebut.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemilik, penguasa, atau penerima manfaat dari kawasan sebagaimana dimaksud pada ayat (1) dapat menolak dan/atau menyarankan agar kegiatan pengumpulan data dilaksanakan pada waktu lain hanya apabila di kawasan tersebut ada hal yang dapat membahayakan pengumpul data.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Penolakan dan/atau saran sebagaimana dimaksud pada ayat (2) harus disampaikan paling lambat 7 (tujuh) hari setelah pemberitahuan disampaikan oleh pengumpul data.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_29__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Pengumpul data dapat melanjutkan kegiatan pada kawasan tersebut apabila pemilik, penguasa, atau penerima manfaat dari kawasan tidak memberi jawaban dalam jangka waktu 7 (tujuh) hari sebagaimana dimaksud pada ayat (3).</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketiga">
+            <num>Ketiga</num>
+            <heading>Pengolahan Data dan Informasi Geospasial</heading>
+              <article eId="pasal_30">
+                <num>30</num>
+                <content><p>Pengolahan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf b merupakan proses atau cara mengolah data dan informasi geospasial.</p></content>
+              </article>
+              <article eId="pasal_31">
+                <num>31</num>
+                  <paragraph eId="pasal_31__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pengolahan DG dan IG dilakukan dengan menggunakan perangkat lunak yang:</p></intro>
+                      <point eId="pasal_31__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>berlisensi; dan/atau</p></content>
+                      </point>
+                      <point eId="pasal_31__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>bersifat bebas dan terbuka.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemerintah memberikan insentif bagi setiap orang yang dapat membangun, mengembangkan, dan/atau menggunakan perangkat lunak pengolah DG dan IG yang bersifat bebas dan terbuka.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_31__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai bentuk dan tata cara pemberian insentif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_32">
+                <num>32</num>
+                  <paragraph eId="pasal_32__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengolahan DG dan IG harus dilakukan di dalam negeri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Dalam hal sumber daya manusia dan/atau peralatan yang dibutuhkan belum tersedia di dalam negeri, pengolahan DG dan IG dapat dilakukan di luar negeri.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_32__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengolahan DG dan IG di luar negeri sebagaimana dimaksud pada ayat (2) dilakukan setelah mendapat izin dari Badan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_33">
+                <num>33</num>
+                <content><p>Pengolahan DG dan IG meliputi pemrosesan DG dan penyajian IG.</p></content>
+              </article>
+              <article eId="pasal_34">
+                <num>34</num>
+                  <paragraph eId="pasal_34__ayat_1">
+                    <num>(1)</num>
+                    <intro><p>Pemrosesan DG sebagaimana dimaksud dalam Pasal 33 harus dilakukan sesuai dengan standar yang meliputi:</p></intro>
+                      <point eId="pasal_34__ayat_1__huruf_a">
+                        <num>a.</num>
+                        <content><p>sistem proyeksi dan sistem koordinat yang dengan jelas dan pasti dapat ditransformasikan ke dalam sistem koordinat standar nasional; dan</p></content>
+                      </point>
+                      <point eId="pasal_34__ayat_1__huruf_b">
+                        <num>b.</num>
+                        <content><p>format, basisdata, dan metadata yang dapat dengan mudah diintegrasikan dengan IG lain.</p></content>
+                      </point>
+
+                  </paragraph>
+                  <paragraph eId="pasal_34__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Standar sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_35">
+                <num>35</num>
+                <intro><p>Penyajian IG sebagaimana dimaksud dalam Pasal 33 dilakukan dalam bentuk:</p></intro>
+                  <point eId="pasal_35__huruf_a">
+                    <num>a.</num>
+                    <content><p>tabel informasi berkoordinat;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_b">
+                    <num>b.</num>
+                    <content><p>peta cetak, baik dalam bentuk lembaran maupun buku atlas;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_c">
+                    <num>c.</num>
+                    <content><p>peta digital;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_d">
+                    <num>d.</num>
+                    <content><p>peta interaktif, termasuk yang dapat diakses melalui teknologi informasi dan komunikasi;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_e">
+                    <num>e.</num>
+                    <content><p>peta multimedia;</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_f">
+                    <num>f.</num>
+                    <content><p>bola dunia; atau</p></content>
+                  </point>
+                  <point eId="pasal_35__huruf_g">
+                    <num>g.</num>
+                    <content><p>model tiga dimensi.</p></content>
+                  </point>
+
+              </article>
+              <article eId="pasal_36">
+                <num>36</num>
+                <content><p>Penyajian IG dalam bentuk sebagaimana dimaksud dalam Pasal 35 huruf b sampai dengan huruf g wajib menggunakan skala yang ditentukan berdasarkan tingkat ketelitian sumber data dan tujuan penggunaan IG.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keempat">
+            <num>Keempat</num>
+            <heading>Penyimpanan dan Pengamanan Data dan Informasi Geospasial</heading>
+              <article eId="pasal_37">
+                <num>37</num>
+                <content><p>Penyimpanan dan pengamanan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf c merupakan cara menempatkan DG dan IG pada tempat yang aman dan tidak rusak atau hilang untuk menjamin ketersediaan IG.</p></content>
+              </article>
+              <article eId="pasal_38">
+                <num>38</num>
+                  <paragraph eId="pasal_38__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyimpanan dan pengamanan sebagaimana dimaksud dalam Pasal 37 dilakukan sesuai dengan standar prosedur penyimpanan dan mekanisme penyimpanan untuk pengarsipan DG dan IG.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyimpanan dan pengamanan sebagaimana dimaksud pada ayat (1) dilakukan dengan menggunakan media penyimpanan elektronik atau cetak.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_38__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai standar prosedur penyimpanan dan mekanisme penyimpanan untuk pengarsipan DG dan IG sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Kepala Badan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_39">
+                <num>39</num>
+                  <paragraph eId="pasal_39__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Instansi Pemerintah menyerahkan duplikat IGT yang diselenggarakannya kepada Instansi Pemerintah yang bertanggung jawab di bidang perpustakaan nasional dan di bidang arsip nasional dan dapat mengaksesnya kembali.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Pemerintah daerah menyerahkan duplikat IGT yang diselenggarakannya kepada instansi yang bertanggung jawab di bidang perpustakaan daerah dan di bidang arsip daerah dan dapat mengaksesnya kembali.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_39__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara penyerahan IGT sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_40">
+                <num>40</num>
+                  <paragraph eId="pasal_40__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengamanan DG dan IG juga dilakukan terhadap tanda fisik sebagaimana dimaksud dalam Pasal 8 ayat (2), Pasal 9 ayat (2), dan Pasal 10 ayat (2).</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_40__ayat_2">
+                    <num>(2)</num>
+                    <intro><p>Pengamanan DG dan IG sebagaimana dimaksud pada ayat (1) dilakukan untuk menjamin agar IG:</p></intro>
+                      <point eId="pasal_40__ayat_2__huruf_a">
+                        <num>a.</num>
+                        <content><p>tetap tersedia dan terjaga keutuhannya; dan</p></content>
+                      </point>
+                      <point eId="pasal_40__ayat_2__huruf_b">
+                        <num>b.</num>
+                        <content><p>terjaga kerahasiaannya untuk IG yang bersifat tertutup.</p></content>
+                      </point>
+
+                  </paragraph>
+
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_kelima">
+            <num>Kelima</num>
+            <heading>Penyebarluasan Data dan Informasi Geospasial</heading>
+              <article eId="pasal_41">
+                <num>41</num>
+                <content><p>Penyebarluasan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf d merupakan kegiatan pemberian akses, pendistribusian, dan pertukaran DG dan IG yang dapat dilakukan dengan menggunakan media elektronik dan media cetak.</p></content>
+              </article>
+              <article eId="pasal_42">
+                <num>42</num>
+                <content><p>IGD sebagaimana dimaksud dalam Pasal 4 huruf a bersifat terbuka.</p></content>
+              </article>
+              <article eId="pasal_43">
+                <num>43</num>
+                  <paragraph eId="pasal_43__ayat_1">
+                    <num>(1)</num>
+                    <content><p>IGT yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah bersifat terbuka.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_43__ayat_2">
+                    <num>(2)</num>
+                    <content><p>IGT tertentu yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah dapat bersifat tertutup sesuai dengan ketentuan peraturan perundang- undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_44">
+                <num>44</num>
+                  <paragraph eId="pasal_44__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penyelenggara IG yang bersifat terbuka menyebarluaskan IG sebagaimana dimaksud dalam Pasal 41 dengan cara yang berdaya guna dan berhasil guna.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_44__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggara IG sebagaimana dimaksud pada ayat (1) membuat dan mengumumkan standar pelayanan minimal untuk penyebarluasan IG yang diselenggarakan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_44__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pemerintah dapat memberikan penghargaan bagi setiap orang yang membantu menyebarluaskan IG yang bersifat terbuka.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_45">
+                <num>45</num>
+                  <paragraph eId="pasal_45__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah membangun jaringan IG untuk penyebarluasan IG secara elektronik.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Jaringan IG sebagaimana dimaksud pada ayat (1) dibangun secara bertingkat dan terintegrasi pada jaringan IG pusat dan jaringan IG daerah.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Jaringan IG pusat dilaksanakan oleh Badan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Jaringan IG daerah dilaksanakan oleh Pemerintah daerah dan diintegrasikan dengan jaringan IG pusat oleh Badan.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_45__ayat_5">
+                    <num>(5)</num>
+                    <content><p>Ketentuan mengenai jaringan IG dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_46">
+                <num>46</num>
+                <content><p>Dalam hal IG memiliki kekuatan hukum, IG tersebut wajib disahkan oleh pejabat yang berwenang sebelum diumumkan dan disebarluaskan.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_keenam">
+            <num>Keenam</num>
+            <heading>Penggunaan Informasi Geospasial</heading>
+              <article eId="pasal_47">
+                <num>47</num>
+                  <paragraph eId="pasal_47__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Penggunaan IG sebagaimana dimaksud dalam Pasal 25 huruf e merupakan kegiatan untuk memperoleh manfaat, baik langsung maupun tidak langsung.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_47__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai tata cara memperoleh manfaat sebagaimana dimaksud pada ayat (1) diatur oleh penyelenggara IG.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_48">
+                <num>48</num>
+                <content><p>Untuk memperoleh dan menggunakan IG yang diselenggarakan oleh Instansi Pemerintah dan Pemerintah daerah dapat dikenakan biaya tertentu yang besarnya sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </article>
+              <article eId="pasal_49">
+                <num>49</num>
+                  <paragraph eId="pasal_49__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pengguna IG berhak mengetahui kualitas IG yang diperolehnya.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_49__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Penyelenggara IG wajib memberitahukan kualitas setiap IG yang diselenggarakannya dalam bentuk metadata dan/atau riwayat data.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_49__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Pengguna IG berhak menolak hasil IG yang tidak berkualitas.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_49__ayat_4">
+                    <num>(4)</num>
+                    <content><p>Metadata dan/atau riwayat data sebagaimana dimaksud pada ayat (2) dibuat dalam format tertentu yang ditetapkan oleh Kepala Badan.</p></content>
+                  </paragraph>
+
+              </article>
+              <article eId="pasal_50">
+                <num>50</num>
+                <content><p>Instansi Pemerintah, Pemerintah daerah, dan setiap orang yang membuat produk turunan suatu IG dengan maksud untuk diperjualbelikan wajib mendapat izin dari pemilik IG.</p></content>
+              </article>
+              <article eId="pasal_51">
+                <num>51</num>
+                <content><p>Instansi Pemerintah dan Pemerintah daerah harus menggunakan IG yang akurat dalam pengambilan keputusan dan/atau penentuan kebijakan yang berhubungan dengan ruang kebumian.</p></content>
+              </article>
+              <article eId="pasal_52">
+                <num>52</num>
+                <content><p>Untuk keperluan penanggulangan bencana, setiap orang harus memberikan IGT yang dimilikinya apabila diminta oleh Instansi Pemerintah atau Pemerintah daerah yang diberi tugas dalam urusan penanggulangan bencana.</p></content>
+              </article>
+
+          </part>
+          <part eId="bab_5__bagian_ketujuh">
+            <num>Ketujuh</num>
+            <heading>Infrastruktur Penyelenggaraan Informasi Geospasial</heading>
+              <article eId="pasal_53">
+                <num>53</num>
+                  <paragraph eId="pasal_53__ayat_1">
+                    <num>(1)</num>
+                    <content><p>Pemerintah wajib memfasilitasi pembangunan infrastruktur IG untuk memperlancar penyelenggaraan IG.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_53__ayat_2">
+                    <num>(2)</num>
+                    <content><p>Infrastruktur IG sebagaimana dimaksud pada ayat (1) terdiri atas kebijakan, kelembagaan, teknologi, standar, dan sumber daya manusia.</p></content>
+                  </paragraph>
+                  <paragraph eId="pasal_53__ayat_3">
+                    <num>(3)</num>
+                    <content><p>Ketentuan lebih lanjut mengenai kebijakan, kelembagaan, teknologi, standar, dan sumber daya manusia sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah.</p></content>
+                  </paragraph>
+
+              </article>
+
+          </part>
+
+      </chapter>
+      <chapter eId="bab_6">
+        <num>VI</num>
+        <heading>PELAKSANA INFORMASI GEOSPASIAL</heading>
+          <article eId="pasal_54">
+            <num>54</num>
+            <content><p>Kegiatan penyelenggaraan IG oleh Instansi Pemerintah atau Pemerintah daerah dapat dilaksanakan oleh setiap orang.</p></content>
+          </article>
+          <article eId="pasal_55">
+            <num>55</num>
+              <paragraph eId="pasal_55__ayat_1">
+                <num>(1)</num>
+                <content><p>Pelaksanaan IG sebagaimana dimaksud dalam Pasal 54 yang dilakukan oleh orang perseorangan wajib memenuhi kualifikasi kompetensi yang dikeluarkan oleh lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_55__ayat_2">
+                <num>(2)</num>
+                <content><p>Pelaksanaan IG yang dilakukan oleh kelompok orang wajib memenuhi kualifikasi sebagai kelompok yang bergerak di bidang IG sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_56">
+            <num>56</num>
+              <paragraph eId="pasal_56__ayat_1">
+                <num>(1)</num>
+                <intro><p>Pelaksanaan IG yang dilakukan oleh badan usaha wajib memenuhi:</p></intro>
+                  <point eId="pasal_56__ayat_1__huruf_a">
+                    <num>a.</num>
+                    <content><p>persyaratan administratif; dan</p></content>
+                  </point>
+                  <point eId="pasal_56__ayat_1__huruf_b">
+                    <num>b.</num>
+                    <content><p>persyaratan teknis.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_2">
+                <num>(2)</num>
+                <intro><p>Persyaratan administratif sebagaimana dimaksud pada ayat (1) huruf a paling sedikit meliputi:</p></intro>
+                  <point eId="pasal_56__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>akte pendirian badan hukum Indonesia; dan</p></content>
+                  </point>
+                  <point eId="pasal_56__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>izin usaha sesuai dengan ketentuan peraturan perundang-undangan.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_3">
+                <num>(3)</num>
+                <intro><p>Persyaratan teknis sebagaimana dimaksud pada ayat (1) huruf b meliputi:</p></intro>
+                  <point eId="pasal_56__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>memiliki sertifikat yang memenuhi klasifikasi dan kualifikasi sebagai penyedia jasa di bidang IG; dan</p></content>
+                  </point>
+                  <point eId="pasal_56__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>memiliki tenaga profesional yang tersertifikasi di bidang IG.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_4">
+                <num>(4)</num>
+                <content><p>Sertifikasi sebagaimana dimaksud pada ayat (3) huruf a dilakukan oleh lembaga independen yang telah mendapat akreditasi dari Badan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_5">
+                <num>(5)</num>
+                <content><p>Sertifikat tenaga profesional sebagaimana dimaksud pada ayat (3) huruf b diterbitkan oleh lembaga yang berwenang sesuai dengan ketentuan Peraturan Kepala Badan.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_56__ayat_6">
+                <num>(6)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara sertifikasi sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Kepala Badan.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_7">
+        <num>VII</num>
+        <heading>PEMBINAAN</heading>
+          <article eId="pasal_57">
+            <num>57</num>
+              <paragraph eId="pasal_57__ayat_1">
+                <num>(1)</num>
+                <content><p>Badan melakukan pembinaan mengenai pemaknaan, pengarahan, perencanaan, dan evaluasi terhadap penyelenggaraan IGT.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_2">
+                <num>(2)</num>
+                <intro><p>Pembinaan penyelenggaraan IGT sebagaimana dimaksud pada ayat (1) dilakukan kepada:</p></intro>
+                  <point eId="pasal_57__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>penyelenggara IGT; dan</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>pengguna IG.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_3">
+                <num>(3)</num>
+                <intro><p>Pembinaan kepada penyelenggara IGT sebagaimana dimaksud pada ayat (2) huruf a dilakukan melalui:</p></intro>
+                  <point eId="pasal_57__ayat_3__huruf_a">
+                    <num>a.</num>
+                    <content><p>pengaturan dalam bentuk penerbitan peraturan perundang-undangan, pedoman, standar, dan spesifikasi teknis serta sosialisasinya;</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_3__huruf_b">
+                    <num>b.</num>
+                    <content><p>pemberian bimbingan, supervisi, pendidikan, dan pelatihan;</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_3__huruf_c">
+                    <num>c.</num>
+                    <content><p>perencanaan, penelitian, pengembangan, pemantauan, dan evaluasi; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_3__huruf_d">
+                    <num>d.</num>
+                    <content><p>penyelenggaraan jabatan fungsional secara nasional untuk sumber daya manusia di Instansi Pemerintah dan Pemerintah daerah.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_4">
+                <num>(4)</num>
+                <intro><p>Pembinaan kepada pengguna IG sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui:</p></intro>
+                  <point eId="pasal_57__ayat_4__huruf_a">
+                    <num>a.</num>
+                    <content><p>sosialisasi keberadaan IG beserta kemungkinan pemanfaatannya; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_57__ayat_4__huruf_b">
+                    <num>b.</num>
+                    <content><p>pendidikan dan pelatihan teknis penggunaan IG.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_57__ayat_5">
+                <num>(5)</num>
+                <content><p>Ketentuan lebih lanjut mengenai pembinaan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_8">
+        <num>VIII</num>
+        <heading>LARANGAN</heading>
+          <article eId="pasal_58">
+            <num>58</num>
+            <content><p>Setiap orang yang tanpa hak dan melawan hukum dilarang menghilangkan, merusak, mengambil, memindahkan, atau mengubah tanda fisik yang merupakan bagian dari JKHN, JKVN, dan JKGN serta instrumen survei yang sedang digunakan.</p></content>
+          </article>
+          <article eId="pasal_59">
+            <num>59</num>
+              <paragraph eId="pasal_59__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang dilarang mengubah IGD tanpa izin dari Badan dan menyebarluaskan hasilnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_59__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap orang dilarang menyebarluaskan IGD yang diubah-tanpa izin sebagaimana dimaksud pada ayat (1).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_60">
+            <num>60</num>
+              <paragraph eId="pasal_60__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang dilarang mengubah IGT tanpa izin dari penyelenggara IGT dan menyebarluaskan hasilnya.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_60__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap orang dilarang menyebarluaskan IGT yang diubah- tanpa izin sebagaimana dimaksud pada ayat (1).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_61">
+            <num>61</num>
+            <content><p>Setiap orang dilarang membuat IG yang penyajiannya tidak sesuai dengan tingkat ketelitian sumber data yang mengakibatkan timbulnya kerugian orang dan/atau barang.</p></content>
+          </article>
+          <article eId="pasal_62">
+            <num>62</num>
+            <content><p>Setiap orang dilarang menyebarluaskan IG yang belum disahkan sebagaimana dimaksud dalam Pasal 46.</p></content>
+          </article>
+
+      </chapter>
+      <chapter eId="bab_9">
+        <num>IX</num>
+        <heading>SANKSI ADMINISTRATIF</heading>
+          <article eId="pasal_63">
+            <num>63</num>
+              <paragraph eId="pasal_63__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang melanggar ketentuan Pasal 20, Pasal 36, Pasal 46, Pasal 49 ayat (2), Pasal 50, atau Pasal 55 dapat dikenai sanksi administratif.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_2">
+                <num>(2)</num>
+                <intro><p>Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa:</p></intro>
+                  <point eId="pasal_63__ayat_2__huruf_a">
+                    <num>a.</num>
+                    <content><p>peringatan tertulis;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_2__huruf_b">
+                    <num>b.</num>
+                    <content><p>penghentian sementara sebagian atau seluruh kegiatan;</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_2__huruf_c">
+                    <num>c.</num>
+                    <content><p>denda administratif; dan/atau</p></content>
+                  </point>
+                  <point eId="pasal_63__ayat_2__huruf_d">
+                    <num>d.</num>
+                    <content><p>pencabutan izin.</p></content>
+                  </point>
+
+              </paragraph>
+              <paragraph eId="pasal_63__ayat_3">
+                <num>(3)</num>
+                <content><p>Ketentuan lebih lanjut mengenai tata cara pelaksanaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_10">
+        <num>X</num>
+        <heading>KETENTUAN PIDANA</heading>
+          <article eId="pasal_64">
+            <num>64</num>
+              <paragraph eId="pasal_64__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang memenuhi unsur Pasal 58 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_64__ayat_2">
+                <num>(2)</num>
+                <content><p>Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak Rp1.250.000.000,00 (satu miliar dua ratus lima puluh juta rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_65">
+            <num>65</num>
+              <paragraph eId="pasal_65__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang memenuhi unsur Pasal 59 ayat (1) dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap orang yang memenuhi unsur Pasal 59 ayat (2) dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_65__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_66">
+            <num>66</num>
+              <paragraph eId="pasal_66__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang memenuhi unsur Pasal 60 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) bulan atau denda paling banyak Rp125.000.000,00 (seratus dua puluh lima juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_2">
+                <num>(2)</num>
+                <content><p>Setiap orang yang memenuhi unsur Pasal 60 ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) bulan atau denda paling banyak Rp125.000.000,00 (seratus dua puluh lima juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_66__ayat_3">
+                <num>(3)</num>
+                <content><p>Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_67">
+            <num>67</num>
+            <content><p>Setiap orang yang memenuhi unsur Pasal 61 dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).</p></content>
+          </article>
+          <article eId="pasal_68">
+            <num>68</num>
+              <paragraph eId="pasal_68__ayat_1">
+                <num>(1)</num>
+                <content><p>Setiap orang yang memenuhi unsur Pasal 62 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).</p></content>
+              </paragraph>
+              <paragraph eId="pasal_68__ayat_2">
+                <num>(2)</num>
+                <content><p>Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_11">
+        <num>XI</num>
+        <heading>KETENTUAN PERALIHAN</heading>
+          <article eId="pasal_69">
+            <num>69</num>
+              <paragraph eId="pasal_69__ayat_1">
+                <num>(1)</num>
+                <content><p>Pada saat Undang-Undang ini berlaku, penyelenggara IG tetap dapat menjalankan kegiatannya dengan ketentuan dalam waktu paling lama 3 (tiga) tahun wajib menyesuaikan berdasarkan Undang-Undang ini.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_69__ayat_2">
+                <num>(2)</num>
+                <content><p>Sebelum Badan yang dimaksudkan Undang-Undang ini ditetapkan, penyelenggaraan IGD dilakukan oleh Badan Koordinasi Survei dan Pemetaan Nasional.</p></content>
+              </paragraph>
+
+          </article>
+
+      </chapter>
+      <chapter eId="bab_12">
+        <num>XII</num>
+        <heading>KETENTUAN PENUTUP</heading>
+          <article eId="pasal_70">
+            <num>70</num>
+              <paragraph eId="pasal_70__ayat_1">
+                <num>(1)</num>
+                <content><p>Peraturan Pemerintah dan peraturan pelaksanaan lainnya dari Undang-Undang ini ditetapkan paling lambat 2 (dua) tahun sejak Undang-Undang ini berlaku.</p></content>
+              </paragraph>
+              <paragraph eId="pasal_70__ayat_2">
+                <num>(2)</num>
+                <content><p>Pada saat berlakunya Undang-Undang ini, maka segala peraturan perundang-undangan yang mengatur dan/atau berkaitan dengan penyelenggaraan IG dinyatakan tetap berlaku sepanjang tidak bertentangan dengan Undang-Undang ini.</p></content>
+              </paragraph>
+
+          </article>
+          <article eId="pasal_71">
+            <num>71</num>
+            <content><p>Undang-Undang ini mulai berlaku pada tanggal diundangkan.</p></content>
+          </article>
+
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

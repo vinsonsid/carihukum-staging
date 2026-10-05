@@ -1,27 +1,27 @@
 {
- "dijalankan": "2026-10-02",
- "karya_dipindai": 68,
- "kosakata_korpus": 18601,
- "jumlah_temuan": 568,
+ "dijalankan": "2026-10-06",
+ "karya_dipindai": 72,
+ "kosakata_korpus": 19241,
+ "jumlah_temuan": 589,
  "temuan_baru": 0,
- "temuan_menunggu_kurasi": 22,
- "utang_diakui": 568,
+ "temuan_menunggu_kurasi": 0,
+ "utang_diakui": 589,
  "per_kelas": {
   "KARAKTER-ASING": 64,
-  "HURUF-HILANG": 220,
+  "HURUF-HILANG": 240,
   "DIGIT-DI-KATA": 150,
-  "KELAS-GLYPH": 134
+  "KELAS-GLYPH": 135
  },
  "per_karya": {
-  "kuhperdata-1847": 104,
+  "kuhperdata-1847": 106,
   "pmk-2017-189": 51,
   "pmk-2023-122": 37,
   "permk-2025-7": 36,
-  "vendu-1908": 30,
+  "vendu-1908": 29,
   "uu-2023-6": 24,
   "uu-2020-11": 22,
   "permk-2020-1": 20,
-  "uu-1960-5": 19,
+  "uu-1960-5": 20,
   "pp-1997-24": 18,
   "uu-2023-1": 14,
   "uu-2024-1": 14,
@@ -31,34 +31,38 @@
   "uu-2008-17": 10,
   "uu-2022-13": 10,
   "uu-2016-19": 9,
+  "uu-1999-36": 8,
   "uu-2026-1": 8,
   "perppu-2020-1": 7,
+  "uu-2000-29": 7,
   "uu-2009-18": 7,
   "permenkumham-2019-19": 5,
   "pp-2016-24": 5,
   "permk-2012-1": 4,
-  "uu-1983-6": 4,
   "uu-1999-53": 4,
+  "uu-2010-13": 4,
+  "uu-2016-7": 4,
+  "uu-1983-6": 3,
   "uu-1983-8": 3,
-  "uu-1999-36": 3,
-  "uu-2000-29": 3,
   "uu-2004-38": 3,
-  "uu-2010-13": 3,
-  "uu-2016-7": 3,
+  "uu-2014-17": 3,
   "uu-2020-7": 3,
   "uu-2024-3": 3,
   "uu-1983-7": 2,
   "uu-1999-41": 2,
   "uu-1999-42": 2,
+  "uu-2001-21": 2,
+  "uu-2001-22": 2,
   "uu-2007-25": 2,
   "uu-2007-27": 2,
   "uu-2007-40": 2,
   "uu-2008-21": 2,
   "uu-2009-10": 2,
   "uu-2009-33": 2,
+  "uu-2009-38": 2,
   "uu-2009-48": 2,
   "uu-2011-1": 2,
-  "uu-2014-17": 2,
+  "uu-2012-16": 2,
   "uu-2014-3": 2,
   "uu-2019-15": 2,
   "permenkumham-2021-17": 1,
@@ -66,17 +70,17 @@
   "pp-1998-37": 1,
   "pp-2021-18": 1,
   "uu-1996-4": 1,
-  "uu-2001-21": 1,
+  "uu-2002-2": 1,
   "uu-2002-28": 1,
+  "uu-2002-32": 1,
   "uu-2007-26": 1,
   "uu-2008-11": 1,
+  "uu-2009-22": 1,
   "uu-2009-32": 1,
-  "uu-2009-38": 1,
   "uu-2009-4": 1,
   "uu-2009-43": 1,
   "uu-2011-20": 1,
   "uu-2011-4": 1,
-  "uu-2012-16": 1,
   "uu-2014-30": 1,
   "uu-2014-33": 1,
   "uu-2014-6": 1,
@@ -300,6 +304,17 @@
    "usul": null,
    "jumlah_korpus": 1,
    "bukti": "pipa dan salurán yang digunakan untuk mengalirkan air dari rumah atau p…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "kuhperdata-1847",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-507/angka-1",
+   "token": "penempaan",
+   "usul": "penempatan",
+   "jumlah_korpus": 1,
+   "bukti": "pada pabrik; barang hasil pabrik, penggilangan, penempaan besi dan barang tak bergerak semacam itu, apitan besi,…",
    "baru": false,
    "dikurasi": true
   },
@@ -1026,6 +1041,17 @@
    "usul": "lama",
    "jumlah_korpus": 1,
    "bukti": "…au jika upah ditetapkan sebagian demi sebagian menurut Iama waktu yang berbeda-beda maka untuk masing-masing bagia…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "kuhperdata-1847",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-1602z",
+   "token": "dibatas",
+   "usul": "dibatasi",
+   "jumlah_korpus": 1,
+   "bukti": "…a kewajiban-kewajiban si majikan ini dikecualikan atau dibatas, adalah batal.",
    "baru": false,
    "dikurasi": true
   },
@@ -3323,7 +3349,7 @@
    "unit": "pasal-25/ayat-2",
    "token": "Pasa",
    "usul": "Pasal",
-   "jumlah_korpus": 1,
+   "jumlah_korpus": 2,
    "bukti": "Pasa sampul buku akta hasil penjilidan akta-akta sebagaiman…",
    "baru": false,
    "dikurasi": true
@@ -3446,6 +3472,17 @@
    "usul": "Bagian",
    "jumlah_korpus": 2,
    "bukti": "…an hukum asing yang mempunyai perwakilan di Indonesia. Baglan VIII Hak membuka-tanah dan memungut hasd butan",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-1960-5",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-45/huruf-d",
+   "token": "butan",
+   "usul": "buatan",
+   "jumlah_korpus": 1,
+   "bukti": "…nesia. Baglan VIII Hak membuka-tanah dan memungut hasd butan",
    "baru": false,
    "dikurasi": true
   },
@@ -3633,17 +3670,6 @@
    "usul": "diterbitkan",
    "jumlah_korpus": 1,
    "bukti": "…inistrasi perpajakan. Surat Ketetapan Pajak dapat juga ditebitkan dalam hal Direktur Jenderal Pajak memiliki data lain d…",
-   "baru": false,
-   "dikurasi": true
-  },
-  {
-   "karya": "uu-1983-6",
-   "kelas": "HURUF-HILANG",
-   "unit": "penjelasan/pasal-25",
-   "token": "resi",
-   "usul": "resmi",
-   "jumlah_korpus": 2,
-   "bukti": "…diterimanya Surat Keberatan tersebut. Tanda bukti atau resi penerimaan tersebut oleh Wajib Pajak dapat juga diguna…",
    "baru": false,
    "dikurasi": true
   },
@@ -3980,13 +4006,68 @@
   {
    "karya": "uu-1999-36",
    "kelas": "HURUF-HILANG",
+   "unit": "pasal-5/ayat-1",
+   "token": "pelaksanan",
+   "usul": "pelaksanaan",
+   "jumlah_korpus": 1,
+   "bukti": "Dalam rangka pelaksanan pembinaan telekomunikasi sebagaimana dimaksud dalam Pa…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-1999-36",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-10/ayat-1",
+   "token": "terjadiya",
+   "usul": "terjadinya",
+   "jumlah_korpus": 1,
+   "bukti": "…i dilarang melakukan kegiatan yang dapat mengakibatkan terjadiya praktek monopoli dan persaingan usaha tidak sehat di a…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-1999-36",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-30/ayat-1",
+   "token": "telekomunikai",
+   "usul": "telekomunikasi",
+   "jumlah_korpus": 1,
+   "bukti": "…nyediakan akses di daerah tertentu, maka penyelenggara telekomunikai khusus sebagaimana dimaksud dalam Pasal 9 ayat (3) hur…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-1999-36",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-41",
+   "token": "telekomunikas",
+   "usul": "telekomunikasi",
+   "jumlah_korpus": 1,
+   "bukti": "…fasilitas telekomunikasi atas permintaan pengguna jasa telekomunikas, penyelenggara jasa telekomunikasi wajib melakukan per…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-1999-36",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-60",
+   "token": "Pasa",
+   "usul": "Pasal",
+   "jumlah_korpus": 2,
+   "bukti": "Pasa saat berlakunya Undang-undang ini, penyelenggara telek…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-1999-36",
+   "kelas": "HURUF-HILANG",
    "unit": "penjelasan/pasal-4",
    "token": "penyelenggraan",
    "usul": "penyelenggaraan",
    "jumlah_korpus": 2,
    "bukti": "…merintah melakukan koordinasi dengan instansi terkait, penyelenggraan telekomunikasi dan mengikut sertakan peran masyarakat.…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-1999-36",
@@ -3996,8 +4077,8 @@
    "usul": "mengikuti",
    "jumlah_korpus": 1,
    "bukti": "…an instansi terkait, penyelenggraan telekomunikasi dan mengikut sertakan peran masyarakat. Ayat (3) Cukup jelas",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-1999-36",
@@ -4007,8 +4088,8 @@
    "usul": "kompetensi",
    "jumlah_korpus": 1,
    "bukti": "Ayat (1) Pasal ini dimaksudkan agar terjadi kompetesi yang sehat antarpenyelenggara telekomunikasi dalam mel…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-1999-41",
@@ -4057,13 +4138,13 @@
   {
    "karya": "uu-1999-53",
    "kelas": "HURUF-HILANG",
-   "unit": "penjelasan/umum",
-   "token": "Bagan",
-   "usul": "Bagian",
+   "unit": "pasal-11/ayat-1",
+   "token": "Pengujan",
+   "usul": "Pengujian",
    "jumlah_korpus": 1,
-   "bukti": "… Tanah Putih, Kecamatan Rimba Melintang, dan Kecamatan Bagan Sinembah dengan luas wilayah keseluruhan 8.881,59 km2.…",
-   "baru": true,
-   "dikurasi": false
+   "bukti": "… Bintan dengan pusat pemerintahan berkedudukan di Desa Pengujan.",
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-1999-53",
@@ -4073,8 +4154,8 @@
    "usul": "tahunan",
    "jumlah_korpus": 1,
    "bukti": "… dengan laju pertumbuhan penduduk rata-rata 5,26 % per tahuna. Pada tahun 1997 penduduk wilayah kerja Pembantu Bupat…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-1999-53",
@@ -4084,8 +4165,8 @@
    "usul": "Petani",
    "jumlah_korpus": 1,
    "bukti": "…a; 3) Kelurahan Kampung Pelita; 4) Kelurahan Pangkalan Petai; dan 5) Kelurahan Tanjung Uma. Mengingat beberapa keca…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-1999-53",
@@ -4095,8 +4176,52 @@
    "usul": "Kerja",
    "jumlah_korpus": 1,
    "bukti": "…ulau Buku; 28) Pulau Wil; 29) Pulau Mekapur; 30) Pulau Kera; 31) Pulau Lenggok; 32) Pulau Perantum; 33) Pulau Mabo…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2000-29",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-6/ayat-7",
+   "token": "pedaftaran",
+   "usul": "pendaftaran",
+   "jumlah_korpus": 1,
+   "bukti": "Ketentuan penanaman, pedaftaran, dan penggunaan varietas sebagai varietas asal untuk v…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2000-29",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-11/ayat-3/huruf-a",
+   "token": "mencatumkan",
+   "usul": "mencantumkan",
+   "jumlah_korpus": 1,
+   "bukti": "…kuasa pemohon harus disertai surat kuasa khusus dengan mencatumkan nama dan alamat lengkap kuasa yang berhak;",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2000-29",
+   "kelas": "HURUF-HILANG",
+   "unit": "bab-6/bagian-ketiga",
+   "token": "Varitas",
+   "usul": "Varietas",
+   "jumlah_korpus": 1,
+   "bukti": "Pembatalan Hak Perlindungan Varitas Tanaman",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2000-29",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-65/ayat-2",
+   "token": "besifat",
+   "usul": "bersifat",
+   "jumlah_korpus": 1,
+   "bukti": "… yang keanggotaannya terdiri dari para profesional dan besifat tidak tetap, yang berfungsi memberikan pertimbangan te…",
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2000-29",
@@ -4106,8 +4231,8 @@
    "usul": "perlindungan",
    "jumlah_korpus": 1,
    "bukti": "…undangan yang secara komprehensif mengatur dan memberi perlindngan pada usaha untuk menghasilkan dan mengembangkan variet…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2000-29",
@@ -4117,8 +4242,8 @@
    "usul": "pemulihan",
    "jumlah_korpus": 1,
    "bukti": "…, seragam, dan diberi nama. Untuk mendapatkan hak PVT, pemulian atau pihak yang dikuasakan untuk itu harus mengajukan …",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2000-29",
@@ -4128,7 +4253,18 @@
    "usul": "diangkat",
    "jumlah_korpus": 1,
    "bukti": "…khusus sehingga memiliki kualifikasi pemeriksa PVT dan diangka sebagai Pemeriksa PVt. Karena sifat keahlian dan lingk…",
-   "baru": true,
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2001-21",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-56/ayat-6",
+   "token": "Pelaksanan",
+   "usul": "Pelaksanaan",
+   "jumlah_korpus": 1,
+   "bukti": "Pelaksanan ketentuan sebagaimana dimaksud pada ayat (1) sampai de…",
+   "baru": false,
    "dikurasi": false
   },
   {
@@ -4139,8 +4275,41 @@
    "usul": "tarif",
    "jumlah_korpus": 1,
    "bukti": "…ak dalam bidang kesenian yang terdiri dari seni suara, tari, ukir, pahat, lukis, anyam, tata busana dan rancangan …",
-   "baru": true,
+   "baru": false,
    "dikurasi": false
+  },
+  {
+   "karya": "uu-2001-22",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-1/angka-1",
+   "token": "fasa",
+   "usul": "frasa",
+   "jumlah_korpus": 2,
+   "bukti": "…g dalam kondisi tekanan dan temperatur atmosfer berupa fasa cair atau padat, termasuk aspal, lilin mineral atau oz…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2001-22",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-1/angka-2",
+   "token": "fasa",
+   "usul": "frasa",
+   "jumlah_korpus": 2,
+   "bukti": "…g dalam kondisi tekanan dan temperatur atmosfer berupa fasa gas yang diperoleh dari proses penambangan Minyak dan …",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2002-2",
+   "kelas": "HURUF-HILANG",
+   "unit": "penjelasan/pasal-15",
+   "token": "arak",
+   "usul": "jarak",
+   "jumlah_korpus": 1,
+   "bukti": "…aitu keramaian atau tontonan untuk umum dan mengadakan arak-arakan di jalan umum. Kegiatan masyarakat lainnya adal…",
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2002-28",
@@ -4150,8 +4319,19 @@
    "usul": "tarif",
    "jumlah_korpus": 1,
    "bukti": "…di teladan bagi lingkungannya, serta yang dapat secara arif mengakomodasikan nilai-nilai luhur budaya bangsa. Ayat…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2002-32",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-8/ayat-3/huruf-e",
+   "token": "sang",
+   "usul": "saing",
+   "jumlah_korpus": 1,
+   "bukti": "menampung, meneliti, dan menindaklanjuti aduan, sang-gahan, serta kritik dan apresiasi masyarakat terhadap …",
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2004-38",
@@ -4506,6 +4686,17 @@
    "dikurasi": true
   },
   {
+   "karya": "uu-2009-22",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-115/huruf-b",
+   "token": "Kendaran",
+   "usul": "Kendaraan",
+   "jumlah_korpus": 1,
+   "bukti": "berbalapan dengan Kendaran Bermotor lain.",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
    "karya": "uu-2009-32",
    "kelas": "HURUF-HILANG",
    "unit": "penjelasan/pasal-45",
@@ -4540,14 +4731,25 @@
   },
   {
    "karya": "uu-2009-38",
+   "kelas": "KELAS-GLYPH",
+   "unit": "pasal-16/ayat-1",
+   "token": "Iaut",
+   "usul": "laut",
+   "jumlah_korpus": 1,
+   "bukti": "Setiap perusahaan angkutan darat, Iaut, dan udara wajib memprioritaskan pengangkutan kiriman …",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2009-38",
    "kelas": "HURUF-HILANG",
    "unit": "penjelasan/umum",
    "token": "peluasan",
    "usul": "pelunasan",
    "jumlah_korpus": 2,
    "bukti": "…ndayagunakan layanan pos di seluruh wilayah Indonesia, peluasan Penyelenggaraan Pos akan membuka kesempatan kerja, mem…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2009-4",
@@ -4596,13 +4798,24 @@
   {
    "karya": "uu-2010-13",
    "kelas": "HURUF-HILANG",
+   "unit": "pasal-9/ayat-1",
+   "token": "Perencanan",
+   "usul": "Perencanaan",
+   "jumlah_korpus": 1,
+   "bukti": "Perencanan hortikultura diwujudkan dalam bentuk rencana hortikult…",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2010-13",
+   "kelas": "HURUF-HILANG",
    "unit": "penjelasan/pasal-16",
    "token": "kasa",
    "usul": "kuasa",
    "jumlah_korpus": 2,
    "bukti": "…han budidaya dengan penaung, seperti rumah kaca, rumah kasa, dan kubung jamur. Yang dimaksud dengan “media tanam l…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2010-13",
@@ -4612,8 +4825,8 @@
    "usul": "Barang",
    "jumlah_korpus": 2,
    "bukti": "…n nutrisi, serbuk gergaji, cocopeat, sabut kelapa, dan arang. Ayat (2) Yang dimaksud dengan “dilindungi” adalah dij…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2010-13",
@@ -4623,8 +4836,8 @@
    "usul": "kuasa",
    "jumlah_korpus": 2,
    "bukti": "…rsyaratan teknis” adalah antara lain rumah kaca, rumah kasa, rumah sere/rumah lindung, rumah plastik, dan kubung y…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2011-1",
@@ -4667,8 +4880,19 @@
    "usul": "daftar",
    "jumlah_korpus": 1,
    "bukti": "…bumi yang tidak beraturan secara matematis pada bidang datar. Yang dimaksud dengan “sistem koordinat standar nasion…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2012-16",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-34/ayat-1",
+   "token": "sarat",
+   "usul": "syarat",
+   "jumlah_korpus": 1,
+   "bukti": "…untuk menguasai teknologi pertahanan dan keamanan yang sarat dengan teknologi tinggi dan ilmu terapan Industri Pert…",
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2012-16",
@@ -4678,8 +4902,19 @@
    "usul": "selain",
    "jumlah_korpus": 2,
    "bukti": "…duksi peralatan yang bernilai strategis misalnya kapal selam, pesawat tempur, kendaraan tempur, dan peluru kendali.…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2014-17",
+   "kelas": "HURUF-HILANG",
+   "unit": "pasal-80/huruf-k",
+   "token": "sosialiasi",
+   "usul": "sosialisasi",
+   "jumlah_korpus": 1,
+   "bukti": "melakukan sosialiasi undang-undang.",
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2014-17",
@@ -4733,8 +4968,8 @@
    "usul": "semenda",
    "jumlah_korpus": 1,
    "bukti": "…terhadap Warga Masyarakat tidak dapat dilakukan dengan semena-mena. Dengan Undang-Undang ini, Warga Masyarakat tidak…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2014-33",
@@ -4871,13 +5106,24 @@
   {
    "karya": "uu-2016-7",
    "kelas": "HURUF-HILANG",
+   "unit": "pasal-21/ayat-6/huruf-j",
+   "token": "perata",
+   "usul": "perdata",
+   "jumlah_korpus": 1,
+   "bukti": "alat perata tanah;",
+   "baru": false,
+   "dikurasi": true
+  },
+  {
+   "karya": "uu-2016-7",
+   "kelas": "HURUF-HILANG",
    "unit": "penjelasan/pasal-9",
    "token": "udang",
    "usul": "undang",
    "jumlah_korpus": 1,
    "bukti": "…an. Jenis Ikan meliputi: a. Ikan bersirip (pisces); b. udang, rajungan, kepiting, dan sebangsanya (crustacea); c. k…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2016-7",
@@ -4887,8 +5133,8 @@
    "usul": "budaya",
    "jumlah_korpus": 1,
    "bukti": "…chinodermata); f. kodok dan sebangsanya (amphibia); g. buaya, penyu, kura-kura, biawak, ular air, dan sebangsanya (…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2016-7",
@@ -4898,8 +5144,8 @@
    "usul": "dimaksud",
    "jumlah_korpus": 1,
    "bukti": "…etik, premiks, probiotik, dan obat alami. Huruf d Yang dimakud dengan ”geoisolator” adalah lapis plastik kedap air. H…",
-   "baru": true,
-   "dikurasi": false
+   "baru": false,
+   "dikurasi": true
   },
   {
    "karya": "uu-2019-15",
@@ -6020,17 +6266,6 @@
    "usul": null,
    "jumlah_korpus": 14,
    "bukti": "(s.d.u. dg. S. 1940-56jo. S. 1941-3.) Juru lelang terbagi atas dua kelas.Orang-…",
-   "baru": false,
-   "dikurasi": true
-  },
-  {
-   "karya": "vendu-1908",
-   "kelas": "HURUF-HILANG",
-   "unit": "pasal-8/alinea-4",
-   "token": "siang",
-   "usul": "sidang",
-   "jumlah_korpus": 1,
-   "bukti": "…hubung dengan pekerjaan yang harus mereka lakukan pada siang hari.",
    "baru": false,
    "dikurasi": true
   },
