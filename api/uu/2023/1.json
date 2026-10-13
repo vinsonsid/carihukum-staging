@@ -37,7 +37,7 @@
   "tahap": "terverifikasi",
   "kelompok": "siber-pidana"
  },
- "dihasilkan": "2026-10-13T01:53:29.949Z",
+ "dihasilkan": "2026-10-13T12:18:23.800Z",
  "timeline": [
   {
    "tanggal": "2026-01-02",
@@ -59,6 +59,17 @@
    "operasi_belum_dienkode": [],
    "status_kurasi": "terverifikasi",
    "catatan": "BAB III (Pasal VII) UU 1/2026: 55 butir perubahan KUHP, berlaku bersamaan dengan mulai berlakunya KUHP (2 Januari 2026). Dienkode otomatis parser-perubahan dari salinan LN scan; termasuk perubahan Pasal 622 (butir 55) yang memutakhirkan rujukan pencabutan UU ITE menjadi 'sebagaimana telah beberapa kali diubah terakhir dengan UU 1/2024'."
+  },
+  {
+   "tanggal": "2026-08-12",
+   "peristiwa": "putusan-mk-275-2025/uji-materi-uu-2023-1",
+   "tipe": "putusan-mk",
+   "pelaku": "putusan-mk-275-2025",
+   "judul_pelaku": "Putusan Mahkamah Konstitusi Nomor 275/PUU-XXIII/2025 (pengujian Pasal 218, Pasal 219, dan Pasal 220 KUHP — penyerangan kehormatan Presiden dan/atau Wakil Presiden)",
+   "jumlah_operasi": 4,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "terverifikasi",
+   "catatan": "Putusan MK final & mengikat sejak diucapkan; dienkode sebagai anotasi (pemaknaan konstitusional bersyarat), bukan perubahan rumusan."
   }
  ],
  "peringatan": [],
@@ -9556,7 +9567,16 @@
           }
          ],
          "sumber": "uu-2023-1",
-         "berlaku_mulai": "2026-01-02"
+         "berlaku_mulai": "2026-01-02",
+         "anotasi": [
+          {
+           "peristiwa": "putusan-mk-275-2025/uji-materi-uu-2023-1",
+           "pelaku": "putusan-mk-275-2025",
+           "tanggal": "2026-08-12",
+           "catatan": "Sejak Putusan MK 275/PUU-XXIII/2025 (12 Agustus 2026), tindak pidana Pasal 218 hanya dapat dituntut atas aduan Presiden dan/atau Wakil Presiden sendiri — bukan keluarga, relawan, atau pihak lain. Rumusan Pasal 218 tidak diubah; lihat pemaknaan Pasal 220 ayat (1).",
+           "jalur_putusan": "/putusan-mk/2025/275-puu-xxiii-2025/"
+          }
+         ]
         },
         {
          "id": "pasal-219",
@@ -9565,7 +9585,16 @@
          "verifikasi": "pdf-resmi",
          "teks": "Setiap Orang yang menyiarkan, mempertunjukkan, atau menempelkan tulisan atau gambar sehingga terlihat oleh umum, memperdengarkan rekaman sehingga terdengar oleh umum, atau menyebarluaskan dengan sarana teknologi informasi yang berisi penyerangan kehormatan atau harkat dan martabat terhadap Presiden dan/ atau Wakil Presiden dengan maksud agar isinya diketahui atau lebih diketahui umum, dipidana dengan pidana penjara paling lama 4 (empat) tahun atau pidana denda paling banyak kategori IV.",
          "sumber": "uu-2023-1",
-         "berlaku_mulai": "2026-01-02"
+         "berlaku_mulai": "2026-01-02",
+         "anotasi": [
+          {
+           "peristiwa": "putusan-mk-275-2025/uji-materi-uu-2023-1",
+           "pelaku": "putusan-mk-275-2025",
+           "tanggal": "2026-08-12",
+           "catatan": "Sejak Putusan MK 275/PUU-XXIII/2025 (12 Agustus 2026), tindak pidana Pasal 219 hanya dapat dituntut atas aduan Presiden dan/atau Wakil Presiden sendiri. Rumusan Pasal 219 tidak diubah; lihat pemaknaan Pasal 220 ayat (1).",
+           "jalur_putusan": "/putusan-mk/2025/275-puu-xxiii-2025/"
+          }
+         ]
         },
         {
          "id": "pasal-220",
@@ -9579,7 +9608,29 @@
            "teks": "Tindak Pidana sebagaimana dimaksud dalam Pasal 218 dan Pasal 219 hanya dapat dituntut berdasarkan aduan.",
            "verifikasi": "pdf-resmi",
            "sumber": "uu-2023-1",
-           "berlaku_mulai": "2026-01-02"
+           "berlaku_mulai": "2026-01-02",
+           "anotasi": [
+            {
+             "peristiwa": "putusan-mk-275-2025/uji-materi-uu-2023-1",
+             "pelaku": "putusan-mk-275-2025",
+             "tanggal": "2026-08-12",
+             "catatan": "Amar Putusan MK 275/PUU-XXIII/2025 (diucapkan 12 Agustus 2026): Pasal 220 ayat (1) tidak mengikat sepanjang tidak dimaknai “Tindak Pidana sebagaimana dimaksud dalam Pasal 218 dan Pasal 219 hanya dapat dituntut berdasarkan aduan oleh Presiden dan/atau Wakil Presiden”. Teks ayat di atas adalah rumusan asli; pembacaannya wajib mengikuti pemaknaan MK ini.",
+             "kutipan": "2. Menyatakan Pasal 220 ayat (1) Undang-Undang Nomor 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 6842) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat secara bersyarat sepanjang tidak dimaknai, “(1) Tindak Pidana sebagaimana dimaksud dalam Pasal 218 dan Pasal 219 hanya dapat dituntut berdasarkan aduan oleh Presiden dan/atau Wakil Presiden”;",
+             "sifat": "amar",
+             "verifikasi_kutipan": "pdf-resmi",
+             "jalur_putusan": "/putusan-mk/2025/275-puu-xxiii-2025/"
+            },
+            {
+             "peristiwa": "putusan-mk-275-2025/uji-materi-uu-2023-1",
+             "pelaku": "putusan-mk-275-2025",
+             "tanggal": "2026-08-12",
+             "catatan": "Konklusi Mahkamah — unsur tersendiri putusan menurut Pasal 5 huruf f PMK 3/2019 tentang Produk Hukum Mahkamah Konstitusi. Konklusi merangkum simpulan yuridis (kewenangan, kedudukan hukum Pemohon, dan beralasan/tidaknya pokok permohonan) yang menjadi jembatan dari pertimbangan hukum menuju amar.",
+             "kutipan": "Berdasarkan penilaian atas fakta dan hukum sebagaimana diuraikan di atas, Mahkamah berkesimpulan: [4.1] Mahkamah berwenang mengadili permohonan a quo; [4.2] Para Pemohon memiliki kedudukan hukum untuk mengajukan permohonan a quo; [4.3] Permohonan para Pemohon beralasan menurut hukum untuk sebagian.",
+             "sifat": "konklusi",
+             "verifikasi_kutipan": "pdf-resmi",
+             "jalur_putusan": "/putusan-mk/2025/275-puu-xxiii-2025/"
+            }
+           ]
           },
           {
            "id": "pasal-220/ayat-2",

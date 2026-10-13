@@ -11,15 +11,15 @@
           <FRBRcountry value="id"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/id/act/uu/2023/1/ind@2026-01-02/!main"/>
-          <FRBRuri value="/akn/id/act/uu/2023/1/ind@2026-01-02"/>
-          <FRBRdate date="2026-01-02" name="konsolidasi"/>
+          <FRBRthis value="/akn/id/act/uu/2023/1/ind@2026-08-12/!main"/>
+          <FRBRuri value="/akn/id/act/uu/2023/1/ind@2026-08-12"/>
+          <FRBRdate date="2026-08-12" name="konsolidasi"/>
           <FRBRauthor href="#carihukum"/>
           <FRBRlanguage language="ind"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/id/act/uu/2023/1/ind@2026-01-02/!main.xml"/>
-          <FRBRuri value="/akn/id/act/uu/2023/1/ind@2026-01-02.akn"/>
+          <FRBRthis value="/akn/id/act/uu/2023/1/ind@2026-08-12/!main.xml"/>
+          <FRBRuri value="/akn/id/act/uu/2023/1/ind@2026-08-12.akn"/>
           <FRBRdate date="2026-10-13" name="ekspor"/>
           <FRBRauthor href="#carihukum"/>
         </FRBRManifestation>
@@ -27,6 +27,7 @@
       <lifecycle source="#carihukum">
         <eventRef eId="e_pengundangan" date="2023-01-02" source="#pemerintah-ri" type="generation"/>
         <eventRef eId="e_1" date="2026-01-02" source="#org_1" type="amendment"/>
+        <eventRef eId="e_2" date="2026-08-12" source="#org_2" type="amendment"/>
       </lifecycle>
       <analysis source="#carihukum">
         <passiveModifications>
@@ -234,6 +235,7 @@
       </analysis>
       <references source="#carihukum">
         <TLCOrganization eId="org_1" href="/akn/id/act/uu/2026/1" showAs="Penyesuaian Pidana"/>
+        <TLCOrganization eId="org_2" href="/akn/id/act/putusan-mk/2025/275/PUU-XXIII/2025" showAs="Putusan Mahkamah Konstitusi Nomor 275/PUU-XXIII/2025 (pengujian Pasal 218, Pasal 219, dan Pasal 220 KUHP — penyerangan kehormatan Presiden dan/atau Wakil Presiden)"/>
 
         <TLCOrganization eId="pemerintah-ri" href="/ontology/organization/id/pemerintah-ri" showAs="Pemerintah Republik Indonesia"/>
         <TLCOrganization eId="carihukum" href="https://carihukum.pandancoco.com" showAs="CariHukum (konsolidasi tidak resmi, dihitung mesin)"/>

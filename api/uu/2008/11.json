@@ -47,7 +47,7 @@
   "tahap": "terverifikasi",
   "kelompok": "siber-pidana"
  },
- "dihasilkan": "2026-10-13T01:53:29.603Z",
+ "dihasilkan": "2026-10-13T12:18:23.422Z",
  "timeline": [
   {
    "tanggal": "2008-04-21",
@@ -91,6 +91,17 @@
    "operasi_belum_dienkode": [],
    "status_kurasi": "terverifikasi",
    "catatan": "| Operasi tambahan dienkode otomatis parser-perubahan dari PDF scan (teks mengikuti sumber; artefak OCR minor mungkin ada — diverifikasi terhadap berkas sumber). Audit kurasi 3 Sep 2026: seluruh unit terverifikasi terhadap salinan LN (0 beda), setiap reparasi OCR bercatatan kurasi per unit, tidak ada operasi tersisa yang belum dienkode — status dinaikkan dari draf. Audit instruksi 17 Sep 2026: butir 4 (Penjelasan Pasal 15) semula tak terenkode padahal 17 penjelasan lain sudah — kini ditambahkan verbatim; peristiwa tetap terverifikasi."
+  },
+  {
+   "tanggal": "2025-04-29",
+   "peristiwa": "putusan-mk-105-2024/uji-materi-uu-2008-11",
+   "tipe": "putusan-mk",
+   "pelaku": "putusan-mk-105-2024",
+   "judul_pelaku": "Putusan Mahkamah Konstitusi Nomor 105/PUU-XXII/2024 (pengujian Pasal 27A, Pasal 45 ayat (4), Pasal 28 ayat (2), dan Pasal 45A ayat (2) UU ITE sebagaimana diubah UU 1/2024 — pencemaran nama baik dan ujaran kebencian)",
+   "jumlah_operasi": 6,
+   "operasi_belum_dienkode": [],
+   "status_kurasi": "terverifikasi",
+   "catatan": "Putusan MK final & mengikat sejak diucapkan; dienkode sebagai anotasi (pemaknaan konstitusional bersyarat), bukan perubahan rumusan."
   },
   {
    "tanggal": "2026-01-02",
@@ -2416,6 +2427,33 @@
      "berlaku_mulai": "2024-01-02",
      "anotasi": [
       {
+       "peristiwa": "putusan-mk-105-2024/uji-materi-uu-2008-11",
+       "pelaku": "putusan-mk-105-2024",
+       "tanggal": "2025-04-29",
+       "catatan": "Amar Putusan MK 105/PUU-XXII/2024 (diucapkan 29 April 2025): frasa “orang lain” dalam Pasal 27A tidak mengikat sepanjang tidak dimaknai “kecuali lembaga pemerintah, sekelompok orang dengan identitas spesifik atau tertentu, institusi, korporasi, profesi atau jabatan”; frasa “suatu hal” tidak mengikat sepanjang tidak dimaknai “suatu perbuatan yang merendahkan kehormatan atau nama baik seseorang”. Teks pasal di atas adalah rumusan UU 1/2024; pembacaannya wajib mengikuti pemaknaan MK ini.",
+       "kutipan": "2. Menyatakan frasa “orang lain” dalam Pasal 27A dan Pasal 45 ayat (4) Undang- Undang Nomor 1 Tahun 2024 tentang Perubahan Kedua Atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 6905) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat secara bersyarat sepanjang tidak dimaknai “kecuali lembaga pemerintah, sekelompok orang dengan identitas spesifik atau tertentu, institusi, korporasi, profesi atau jabatan”. 3. Menyatakan frasa “suatu hal” dalam Pasal 27A dan Pasal 45 ayat (4) Undang- Undang Nomor 1 Tahun 2024 tentang Perubahan Kedua Atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 6905) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat secara bersyarat sepanjang tidak dimaknai “suatu perbuatan yang merendahkan kehormatan atau nama baik seseorang”.",
+       "sifat": "amar",
+       "verifikasi_kutipan": "pdf-resmi",
+       "jalur_putusan": "/putusan-mk/2024/105-puu-xxii-2024/"
+      },
+      {
+       "peristiwa": "putusan-mk-105-2024/uji-materi-uu-2008-11",
+       "pelaku": "putusan-mk-105-2024",
+       "tanggal": "2025-04-29",
+       "catatan": "Sejak Putusan MK 105/PUU-XXII/2024 (29 April 2025), lembaga pemerintah, kelompok beridentitas tertentu, institusi, korporasi, profesi, atau jabatan tidak dapat menjadi korban (dan pengadu) pencemaran nama baik menurut Pasal 27A — lihat amar.",
+       "jalur_putusan": "/putusan-mk/2024/105-puu-xxii-2024/"
+      },
+      {
+       "peristiwa": "putusan-mk-105-2024/uji-materi-uu-2008-11",
+       "pelaku": "putusan-mk-105-2024",
+       "tanggal": "2025-04-29",
+       "catatan": "Konklusi Mahkamah — unsur tersendiri putusan menurut Pasal 5 huruf f PMK 3/2019 tentang Produk Hukum Mahkamah Konstitusi. Konklusi merangkum simpulan yuridis (kewenangan, kedudukan hukum Pemohon, dan beralasan/tidaknya pokok permohonan) yang menjadi jembatan dari pertimbangan hukum menuju amar.",
+       "kutipan": "Berdasarkan penilaian atas fakta dan hukum tersebut di atas, Mahkamah berkesimpulan: [4.1] Mahkamah berwenang mengadili permohonan a quo; [4.2] Pemohon memiliki kedudukan hukum untuk mengajukan permohonan a quo; [4.3] Pokok permohonan Pemohon beralasan menurut hukum untuk sebagian.",
+       "sifat": "konklusi",
+       "verifikasi_kutipan": "pdf-resmi",
+       "jalur_putusan": "/putusan-mk/2024/105-puu-xxii-2024/"
+      },
+      {
        "peristiwa": "uu-2023-1/pencabutan-sebagian-uu-2008-11",
        "pelaku": "uu-2023-1",
        "tanggal": "2026-01-02",
@@ -2523,6 +2561,18 @@
        "verifikasi": "pdf-resmi",
        "sumber": "uu-2024-1",
        "berlaku_mulai": "2024-01-02",
+       "anotasi": [
+        {
+         "peristiwa": "putusan-mk-105-2024/uji-materi-uu-2008-11",
+         "pelaku": "putusan-mk-105-2024",
+         "tanggal": "2025-04-29",
+         "catatan": "Amar Putusan MK 105/PUU-XXII/2024 (diucapkan 29 April 2025): frasa penghasutan kebencian dalam Pasal 28 ayat (2) tidak mengikat sepanjang tidak dimaknai hanya muatan yang secara substantif menyebarkan kebencian berdasar identitas tertentu, dilakukan sengaja dan di depan umum, serta menimbulkan risiko nyata diskriminasi, permusuhan, atau kekerasan. Ayat ini dicabut KUHP sejak 2 Januari 2026; pemaknaan berlaku selama ayat masih berlaku (29 April 2025 – 1 Januari 2026).",
+         "kutipan": "4. Menyatakan frasa “mendistribusikan dan/atau mentransmisikan informasi elektronik dan/atau dokumen elektronik yang sifatnya menghasut, mengajak, atau memengaruhi orang lain sehingga menimbulkan rasa kebencian atau permusuhan terhadap individu dan/atau kelompok masyarakat tertentu” dalam Pasal 28 ayat (2) dan Pasal 45A ayat (2) Undang-Undang Nomor 1 Tahun 2024 tentang Perubahan Kedua Atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 6905) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat secara bersyarat sepanjang tidak dimaknai “hanya Informasi Elektronik dan/atau Dokumen Elektronik yang secara substantif memuat tindakan/penyebaran kebencian berdasar identitas tertentu yang dilakukan secara sengaja dan di depan umum, yang menimbulkan risiko nyata terhadap diskriminasi, permusuhan, atau kekerasan”.",
+         "sifat": "amar",
+         "verifikasi_kutipan": "pdf-resmi",
+         "jalur_putusan": "/putusan-mk/2024/105-puu-xxii-2024/"
+        }
+       ],
        "status": "dicabut",
        "riwayat": [
         {
@@ -4103,7 +4153,19 @@
        "verifikasi": "pdf-ocr",
        "catatan_kurasi": "PDF LN 1/2024 hasil scan; artefak OCR (l/1, O/0, kata terpenggal) dikoreksi manual dari rumusan paralel dalam UU yang sama.",
        "sumber": "uu-2024-1",
-       "berlaku_mulai": "2024-01-02"
+       "berlaku_mulai": "2024-01-02",
+       "anotasi": [
+        {
+         "peristiwa": "putusan-mk-105-2024/uji-materi-uu-2008-11",
+         "pelaku": "putusan-mk-105-2024",
+         "tanggal": "2025-04-29",
+         "catatan": "Amar Putusan MK 105/PUU-XXII/2024 (diucapkan 29 April 2025): pemaknaan yang sama atas frasa “orang lain” dan “suatu hal” berlaku untuk ancaman pidana Pasal 45 ayat (4).",
+         "kutipan": "2. Menyatakan frasa “orang lain” dalam Pasal 27A dan Pasal 45 ayat (4) Undang- Undang Nomor 1 Tahun 2024 tentang Perubahan Kedua Atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 6905) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat secara bersyarat sepanjang tidak dimaknai “kecuali lembaga pemerintah, sekelompok orang dengan identitas spesifik atau tertentu, institusi, korporasi, profesi atau jabatan”. 3. Menyatakan frasa “suatu hal” dalam Pasal 27A dan Pasal 45 ayat (4) Undang- Undang Nomor 1 Tahun 2024 tentang Perubahan Kedua Atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 6905) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat secara bersyarat sepanjang tidak dimaknai “suatu perbuatan yang merendahkan kehormatan atau nama baik seseorang”.",
+         "sifat": "amar",
+         "verifikasi_kutipan": "pdf-resmi",
+         "jalur_putusan": "/putusan-mk/2024/105-puu-xxii-2024/"
+        }
+       ]
       },
       {
        "id": "pasal-45/ayat-5",
@@ -4327,6 +4389,18 @@
        "catatan_kurasi": "PDF LN 1/2024 hasil scan; artefak OCR (l/1, O/0, kata terpenggal) dikoreksi manual dari rumusan paralel dalam UU yang sama.",
        "sumber": "uu-2024-1",
        "berlaku_mulai": "2024-01-02",
+       "anotasi": [
+        {
+         "peristiwa": "putusan-mk-105-2024/uji-materi-uu-2008-11",
+         "pelaku": "putusan-mk-105-2024",
+         "tanggal": "2025-04-29",
+         "catatan": "Amar Putusan MK 105/PUU-XXII/2024 (diucapkan 29 April 2025): pemaknaan yang sama atas frasa penghasutan kebencian berlaku untuk ancaman pidana Pasal 45A ayat (2). Ayat ini dicabut KUHP sejak 2 Januari 2026.",
+         "kutipan": "4. Menyatakan frasa “mendistribusikan dan/atau mentransmisikan informasi elektronik dan/atau dokumen elektronik yang sifatnya menghasut, mengajak, atau memengaruhi orang lain sehingga menimbulkan rasa kebencian atau permusuhan terhadap individu dan/atau kelompok masyarakat tertentu” dalam Pasal 28 ayat (2) dan Pasal 45A ayat (2) Undang-Undang Nomor 1 Tahun 2024 tentang Perubahan Kedua Atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 6905) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat secara bersyarat sepanjang tidak dimaknai “hanya Informasi Elektronik dan/atau Dokumen Elektronik yang secara substantif memuat tindakan/penyebaran kebencian berdasar identitas tertentu yang dilakukan secara sengaja dan di depan umum, yang menimbulkan risiko nyata terhadap diskriminasi, permusuhan, atau kekerasan”.",
+         "sifat": "amar",
+         "verifikasi_kutipan": "pdf-resmi",
+         "jalur_putusan": "/putusan-mk/2024/105-puu-xxii-2024/"
+        }
+       ],
        "status": "dicabut",
        "riwayat": [
         {
